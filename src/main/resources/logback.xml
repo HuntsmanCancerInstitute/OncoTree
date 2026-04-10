@@ -1,0 +1,27 @@
+<configuration>
+
+    <!-- Standard appender with full prefix -->
+    <appender name="STANDARD" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder>
+            <pattern>%d{HH:mm:ss} %-5level %logger{36} - %msg%n</pattern>
+        </encoder>
+    </appender>
+
+    <!-- Minimal appender, just the message -->
+    <appender name="PLAIN" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder>
+            <pattern>%msg%n</pattern>
+        </encoder>
+    </appender>
+
+    <!-- Your class gets plain output -->
+    <logger name="edu.hci.oncotree.apps.OncoTreeClassifier" level="INFO" additivity="false">
+        <appender-ref ref="PLAIN" />
+    </logger>
+
+    <!-- Everything else gets standard output -->
+    <root level="INFO">
+        <appender-ref ref="STANDARD" />
+    </root>
+
+</configuration>
