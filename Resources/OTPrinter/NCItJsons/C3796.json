@@ -1,0 +1,808 @@
+{
+  "code": "C3796",
+  "name": "Gliosarcoma",
+  "terminology": "ncit",
+  "version": "25.11d",
+  "conceptStatus": "DEFAULT",
+  "leaf": false,
+  "active": true,
+  "synonyms": [
+    {
+      "name": "Gliosarcoma",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "caDSR"
+    },
+    {
+      "name": "Gliosarcoma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "Cellosaurus"
+    },
+    {
+      "name": "Gliosarcoma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "GDC"
+    },
+    {
+      "name": "gliosarcoma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NCI-GLOSS",
+      "code": "CDR0000045701"
+    },
+    {
+      "name": "Glioblastoma with a Sarcomatous Component",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Gliosarcoma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Gliosarcoma",
+      "type": "Preferred_Name"
+    }
+  ],
+  "definitions": [
+    {
+      "definition": "A rare histological variant of glioblastoma (WHO grade IV) characterized by a biphasic tissue pattern with alternating areas displaying glial and mesenchymal differentiation (WHO).",
+      "type": "DEFINITION",
+      "source": "NCI"
+    },
+    {
+      "definition": "A type of glioma (cancer of the brain that comes from glial, or supportive, cells).",
+      "type": "ALT_DEFINITION",
+      "source": "NCI-GLOSS"
+    }
+  ],
+  "properties": [
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "Cellosaurus"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "GDC"
+    },
+    {
+      "code": "P334",
+      "type": "ICD-O-3_Code",
+      "value": "9442/3"
+    },
+    {
+      "code": "P366",
+      "type": "Legacy Concept Name",
+      "value": "Gliosarcoma"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "9442/3"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "Glioblastoma with sarcomatous component"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "Gliosarcoma"
+    },
+    {
+      "code": "P363",
+      "type": "Neoplastic_Status",
+      "value": "Malignant"
+    },
+    {
+      "code": "P106",
+      "type": "Semantic_Type",
+      "value": "Neoplastic Process"
+    },
+    {
+      "code": "P207",
+      "type": "UMLS_CUI",
+      "value": "C0206726"
+    }
+  ],
+  "children": [
+    {
+      "code": "C68701",
+      "name": "Adult Gliosarcoma",
+      "leaf": false
+    },
+    {
+      "code": "C114968",
+      "name": "Childhood Gliosarcoma",
+      "leaf": false
+    },
+    {
+      "code": "C131209",
+      "name": "Recurrent Gliosarcoma",
+      "leaf": false
+    },
+    {
+      "code": "C163962",
+      "name": "Refractory Gliosarcoma",
+      "leaf": true
+    },
+    {
+      "code": "C171013",
+      "name": "Supratentorial Gliosarcoma",
+      "leaf": true
+    }
+  ],
+  "parents": [
+    {
+      "code": "C39750",
+      "name": "Glioblastoma, IDH-Wildtype"
+    }
+  ],
+  "associations": [
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C165258",
+      "relatedName": "Cellosaurus Disease Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C157711",
+      "relatedName": "GDC Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C177537",
+      "relatedName": "GDC Value Terminology"
+    },
+    {
+      "type": "Is_Value_For_GDC_Property",
+      "relatedCode": "C176985",
+      "relatedName": "Histology ICD-O Morphology Code"
+    },
+    {
+      "type": "Is_Value_For_GDC_Property",
+      "relatedCode": "C177621",
+      "relatedName": "ICD-O-3 Morphology Term Diagnosis Question"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168658",
+      "relatedName": "Mapped ICDO3.1 Morphology PT Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168657",
+      "relatedName": "Mapped ICDO3.1 Morphology Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168655",
+      "relatedName": "Mapped ICDO3.1 Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168662",
+      "relatedName": "Mapped ICDO3.2 Morphology PT Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168661",
+      "relatedName": "Mapped ICDO3.2 Morphology Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168656",
+      "relatedName": "Mapped ICDO3.2 Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C126659",
+      "relatedName": "NCIt Neoplasm Core Terminology"
+    }
+  ],
+  "inverseAssociations": [
+    {
+      "type": "Has_GDC_Value",
+      "relatedCode": "C176985",
+      "relatedName": "Histology ICD-O Morphology Code"
+    },
+    {
+      "type": "Has_GDC_Value",
+      "relatedCode": "C177621",
+      "relatedName": "ICD-O-3 Morphology Term Diagnosis Question"
+    }
+  ],
+  "roles": [
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C36113",
+      "relatedName": "Anaplastic Lesion"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C12477",
+      "relatedName": "Astrocyte"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C36122",
+      "relatedName": "Benign Cellular Infiltrate"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C35907",
+      "relatedName": "Biphasic Pattern"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12438",
+      "relatedName": "Central Nervous System"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12438",
+      "relatedName": "Central Nervous System"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C35903",
+      "relatedName": "Diffuse Pattern"
+    },
+    {
+      "type": "Disease_May_Have_Molecular_Abnormality",
+      "relatedCode": "C36649",
+      "relatedName": "EGFR Gene Amplification"
+    },
+    {
+      "type": "Disease_Mapped_To_Gene",
+      "relatedCode": "C17757",
+      "relatedName": "EGFR Gene"
+    },
+    {
+      "type": "Disease_May_Have_Molecular_Abnormality",
+      "relatedCode": "C39716",
+      "relatedName": "EGFR Protein Overexpression"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C12615",
+      "relatedName": "Glial Cell"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C41471",
+      "relatedName": "Glial Differentiation"
+    },
+    {
+      "type": "Disease_Is_Grade",
+      "relatedCode": "C28082",
+      "relatedName": "Grade 4"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C34661",
+      "relatedName": "Headache"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C35887",
+      "relatedName": "Herringbone Growth Pattern"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C36129",
+      "relatedName": "High Grade Lesion"
+    },
+    {
+      "type": "Disease_Is_Grade",
+      "relatedCode": "C14158",
+      "relatedName": "High Grade"
+    },
+    {
+      "type": "Disease_Excludes_Molecular_Abnormality",
+      "relatedCode": "C129264",
+      "relatedName": "IDH Gene Family Mutation"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C36105",
+      "relatedName": "Indolent Clinical Course"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C41453",
+      "relatedName": "Infiltrative Growth Pattern"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12917",
+      "relatedName": "Malignant Cell"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C36115",
+      "relatedName": "Malignant Cellular Infiltrate"
+    },
+    {
+      "type": "Disease_May_Have_Molecular_Abnormality",
+      "relatedCode": "C36681",
+      "relatedName": "MDM2 Gene Amplification"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C36190",
+      "relatedName": "Mesenchymal Differentiation"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C41455",
+      "relatedName": "Microvascular Proliferation"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C35959",
+      "relatedName": "Mitotic Activity"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C36184",
+      "relatedName": "Necrotic Change"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C37127",
+      "relatedName": "Neoplastic Astrocyte"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12922",
+      "relatedName": "Neoplastic Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C37126",
+      "relatedName": "Neoplastic Glial Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C41408",
+      "relatedName": "Neoplastic Neuroepithelial Cell and Neoplastic Perineural Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C37125",
+      "relatedName": "Neoplastic Neuroepithelial Cell"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C41406",
+      "relatedName": "Nerve Tissue, Neuroepithelial Tissue, and Nerve Sheaths"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12755",
+      "relatedName": "Nervous System"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C41410",
+      "relatedName": "Neuroepithelial Cell"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C41409",
+      "relatedName": "Neuroepithelial Tissue"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C41405",
+      "relatedName": "Neuron, Neuroepithelial Cell, and Supporting Cell of the Nervous System"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C35989",
+      "relatedName": "Nuclear Atypia"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C37137",
+      "relatedName": "Poorly Differentiated Neoplastic Astrocyte"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C41611",
+      "relatedName": "Precise Histogenesis Unknown"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C40558",
+      "relatedName": "Primary Lesion"
+    },
+    {
+      "type": "Disease_May_Have_Molecular_Abnormality",
+      "relatedCode": "C36692",
+      "relatedName": "PTEN Gene Inactivation"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C2962",
+      "relatedName": "Seizure"
+    },
+    {
+      "type": "Disease_May_Have_Molecular_Abnormality",
+      "relatedCode": "C36329",
+      "relatedName": "TP53 Gene Inactivation"
+    },
+    {
+      "type": "Disease_Mapped_To_Gene",
+      "relatedCode": "C17359",
+      "relatedName": "TP53 Gene"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C38328",
+      "relatedName": "Unfavorable Clinical Outcome"
+    }
+  ],
+  "inverseRoles": [
+    {
+      "type": "Gene_Involved_In_Pathogenesis_Of_Disease",
+      "relatedCode": "C17359",
+      "relatedName": "TP53 Gene"
+    },
+    {
+      "type": "Gene_Involved_In_Pathogenesis_Of_Disease",
+      "relatedCode": "C52271",
+      "relatedName": "TP53 wt Allele"
+    },
+    {
+      "type": "Gene_Involved_In_Pathogenesis_Of_Disease",
+      "relatedCode": "C97240",
+      "relatedName": "TP53*1 Allele"
+    }
+  ],
+  "history": [
+    {
+      "code": "C3796",
+      "action": "create",
+      "date": "2003-08-12"
+    },
+    {
+      "code": "C3796",
+      "action": "modify",
+      "date": "2003-10-31"
+    },
+    {
+      "code": "C3796",
+      "action": "modify",
+      "date": "2003-12-30"
+    },
+    {
+      "code": "C3796",
+      "action": "modify",
+      "date": "2004-03-30"
+    },
+    {
+      "code": "C3796",
+      "action": "modify",
+      "date": "2004-06-25"
+    },
+    {
+      "code": "C3796",
+      "action": "modify",
+      "date": "2004-09-10"
+    },
+    {
+      "code": "C3796",
+      "action": "modify",
+      "date": "2004-11-01"
+    },
+    {
+      "code": "C3796",
+      "action": "modify",
+      "date": "2007-03-30"
+    },
+    {
+      "code": "C3796",
+      "action": "modify",
+      "date": "2007-05-25"
+    },
+    {
+      "code": "C3796",
+      "action": "modify",
+      "date": "2007-06-28"
+    },
+    {
+      "code": "C3796",
+      "action": "modify",
+      "date": "2009-11-23"
+    },
+    {
+      "code": "C3796",
+      "action": "modify",
+      "date": "2010-08-09"
+    },
+    {
+      "code": "C3796",
+      "action": "modify",
+      "date": "2010-08-16"
+    },
+    {
+      "code": "C3796",
+      "action": "modify",
+      "date": "2010-08-23"
+    },
+    {
+      "code": "C3796",
+      "action": "modify",
+      "date": "2010-08-30"
+    },
+    {
+      "code": "C3796",
+      "action": "modify",
+      "date": "2010-09-07"
+    },
+    {
+      "code": "C3796",
+      "action": "modify",
+      "date": "2010-09-13"
+    },
+    {
+      "code": "C3796",
+      "action": "modify",
+      "date": "2010-09-20"
+    },
+    {
+      "code": "C3796",
+      "action": "modify",
+      "date": "2010-09-27"
+    },
+    {
+      "code": "C3796",
+      "action": "modify",
+      "date": "2011-03-07"
+    },
+    {
+      "code": "C3796",
+      "action": "modify",
+      "date": "2012-01-09"
+    },
+    {
+      "code": "C3796",
+      "action": "modify",
+      "date": "2013-02-25"
+    },
+    {
+      "code": "C3796",
+      "action": "modify",
+      "date": "2013-03-04"
+    },
+    {
+      "code": "C3796",
+      "action": "modify",
+      "date": "2013-03-11"
+    },
+    {
+      "code": "C3796",
+      "action": "modify",
+      "date": "2013-03-18"
+    },
+    {
+      "code": "C3796",
+      "action": "modify",
+      "date": "2013-03-25"
+    },
+    {
+      "code": "C3796",
+      "action": "modify",
+      "date": "2013-04-01"
+    },
+    {
+      "code": "C3796",
+      "action": "modify",
+      "date": "2013-04-08"
+    },
+    {
+      "code": "C3796",
+      "action": "modify",
+      "date": "2013-04-15"
+    },
+    {
+      "code": "C3796",
+      "action": "modify",
+      "date": "2013-04-22"
+    },
+    {
+      "code": "C3796",
+      "action": "modify",
+      "date": "2013-04-29"
+    },
+    {
+      "code": "C3796",
+      "action": "modify",
+      "date": "2013-05-06"
+    },
+    {
+      "code": "C3796",
+      "action": "modify",
+      "date": "2013-05-13"
+    },
+    {
+      "code": "C3796",
+      "action": "modify",
+      "date": "2013-05-20"
+    },
+    {
+      "code": "C3796",
+      "action": "modify",
+      "date": "2013-05-28"
+    },
+    {
+      "code": "C3796",
+      "action": "modify",
+      "date": "2013-06-03"
+    },
+    {
+      "code": "C3796",
+      "action": "modify",
+      "date": "2013-06-10"
+    },
+    {
+      "code": "C3796",
+      "action": "modify",
+      "date": "2013-06-17"
+    },
+    {
+      "code": "C3796",
+      "action": "modify",
+      "date": "2013-06-24"
+    },
+    {
+      "code": "C3796",
+      "action": "modify",
+      "date": "2013-07-01"
+    },
+    {
+      "code": "C3796",
+      "action": "modify",
+      "date": "2013-07-08"
+    },
+    {
+      "code": "C3796",
+      "action": "modify",
+      "date": "2016-04-25"
+    },
+    {
+      "code": "C3796",
+      "action": "modify",
+      "date": "2016-09-20"
+    },
+    {
+      "code": "C3796",
+      "action": "modify",
+      "date": "2017-03-13"
+    },
+    {
+      "code": "C3796",
+      "action": "modify",
+      "date": "2018-09-24"
+    },
+    {
+      "code": "C3796",
+      "action": "modify",
+      "date": "2018-10-29"
+    },
+    {
+      "code": "C3796",
+      "action": "modify",
+      "date": "2018-10-29"
+    },
+    {
+      "code": "C3796",
+      "action": "modify",
+      "date": "2019-05-28"
+    },
+    {
+      "code": "C3796",
+      "action": "modify",
+      "date": "2019-09-30"
+    },
+    {
+      "code": "C3796",
+      "action": "modify",
+      "date": "2019-10-28"
+    },
+    {
+      "code": "C3796",
+      "action": "modify",
+      "date": "2019-11-25"
+    },
+    {
+      "code": "C3796",
+      "action": "modify",
+      "date": "2020-02-24"
+    },
+    {
+      "code": "C3796",
+      "action": "modify",
+      "date": "2020-04-27"
+    },
+    {
+      "code": "C3796",
+      "action": "modify",
+      "date": "2020-09-29"
+    },
+    {
+      "code": "C3796",
+      "action": "modify",
+      "date": "2021-02-22"
+    },
+    {
+      "code": "C3796",
+      "action": "modify",
+      "date": "2021-03-29"
+    },
+    {
+      "code": "C3796",
+      "action": "modify",
+      "date": "2023-02-27"
+    },
+    {
+      "code": "C3796",
+      "action": "modify",
+      "date": "2023-12-26"
+    },
+    {
+      "code": "C3796",
+      "action": "modify",
+      "date": "2025-03-31"
+    }
+  ],
+  "maps": [
+    {
+      "type": "Related To",
+      "targetName": "9442/3",
+      "targetTermType": "PT",
+      "targetCode": "morphology",
+      "targetTerminology": "GDC"
+    },
+    {
+      "type": "Related To",
+      "targetName": "Glioblastoma with sarcomatous component",
+      "targetTermType": "PT",
+      "targetCode": "primary_diagnosis",
+      "targetTerminology": "GDC"
+    },
+    {
+      "type": "Related To",
+      "targetName": "Gliosarcoma",
+      "targetTermType": "PT",
+      "targetCode": "9442/3",
+      "targetTerminology": "ICDO3",
+      "targetTerminologyVersion": "3.2"
+    },
+    {
+      "type": "Related To",
+      "targetName": "Gliosarcoma",
+      "targetTermType": "PT",
+      "targetCode": "9442/3",
+      "targetTerminology": "ICDO3",
+      "targetTerminologyVersion": "3.1"
+    },
+    {
+      "type": "Has Synonym",
+      "targetName": "Gliosarcoma",
+      "targetTermType": "PT",
+      "targetCode": "primary_diagnosis",
+      "targetTerminology": "GDC"
+    }
+  ]
+}

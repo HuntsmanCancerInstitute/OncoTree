@@ -1,0 +1,344 @@
+{
+  "code": "C96804",
+  "name": "Large Duct Intrahepatic Cholangiocarcinoma",
+  "terminology": "ncit",
+  "version": "25.11d",
+  "conceptStatus": "DEFAULT",
+  "leaf": true,
+  "active": true,
+  "synonyms": [
+    {
+      "name": "Large Duct Intrahepatic Cholangiocarcinoma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Large Duct Intrahepatic Cholangiocarcinoma",
+      "type": "Preferred_Name"
+    }
+  ],
+  "definitions": [
+    {
+      "definition": "An intrahepatic cholangiocarcinoma that arises from the intrahepatic large bile ducts.",
+      "type": "DEFINITION",
+      "source": "NCI"
+    }
+  ],
+  "properties": [
+    {
+      "code": "P334",
+      "type": "ICD-O-3_Code",
+      "value": "8162/3"
+    },
+    {
+      "code": "P363",
+      "type": "Neoplastic_Status",
+      "value": "Malignant"
+    },
+    {
+      "code": "P106",
+      "type": "Semantic_Type",
+      "value": "Neoplastic Process"
+    },
+    {
+      "code": "P207",
+      "type": "UMLS_CUI",
+      "value": "C3273047"
+    }
+  ],
+  "parents": [
+    {
+      "code": "C35417",
+      "name": "Intrahepatic Cholangiocarcinoma"
+    }
+  ],
+  "roles": [
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C26682",
+      "relatedName": "Abdominal Pain"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36773",
+      "relatedName": "Adenocarcinoma Cell"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C36122",
+      "relatedName": "Benign Cellular Infiltrate"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C43616",
+      "relatedName": "Bile Duct Epithelium"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12376",
+      "relatedName": "Bile Duct"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12376",
+      "relatedName": "Bile Duct"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12678",
+      "relatedName": "Biliary Tract"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12678",
+      "relatedName": "Biliary Tract"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C54172",
+      "relatedName": "Carcinomatous Component Present"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12378",
+      "relatedName": "Digestive System"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12378",
+      "relatedName": "Digestive System"
+    },
+    {
+      "type": "Disease_Excludes_Normal_Cell_Origin",
+      "relatedCode": "C13054",
+      "relatedName": "Embryonic Cell"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C12578",
+      "relatedName": "Epithelial Cell"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C53596",
+      "relatedName": "Epithelial Component Present"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C45714",
+      "relatedName": "Epithelial Tissue"
+    },
+    {
+      "type": "Disease_Excludes_Primary_Anatomic_Site",
+      "relatedCode": "C32573",
+      "relatedName": "Extrahepatic Bile Duct"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C36156",
+      "relatedName": "Favorable Clinical Outcome"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C36178",
+      "relatedName": "Fibrotic Stroma Formation"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C43612",
+      "relatedName": "Hepatobiliary System"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C43612",
+      "relatedName": "Hepatobiliary System"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C43614",
+      "relatedName": "Hepatobiliary Tissue"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C214985",
+      "relatedName": "Hepatopancreatobiliary System"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C155862",
+      "relatedName": "Intermediate Grade Neuroendocrine Lesion"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C43617",
+      "relatedName": "Intrahepatic Bile Duct Epithelium"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12677",
+      "relatedName": "Intrahepatic Bile Duct"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C96803",
+      "relatedName": "Intrahepatic Large Bile Duct"
+    },
+    {
+      "type": "Disease_May_Have_Molecular_Abnormality",
+      "relatedCode": "C36665",
+      "relatedName": "KRAS Gene Amplification"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12392",
+      "relatedName": "Liver"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12392",
+      "relatedName": "Liver"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C155864",
+      "relatedName": "Low Grade Neuroendocrine Lesion"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C3832",
+      "relatedName": "Malaise"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12917",
+      "relatedName": "Malignant Cell"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C36115",
+      "relatedName": "Malignant Cellular Infiltrate"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36779",
+      "relatedName": "Malignant Epithelial Cell"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C36771",
+      "relatedName": "Malignant Squamous Cell"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C37153",
+      "relatedName": "Malignant Stromal Cell"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C62273",
+      "relatedName": "Mixed Neoplastic Glandular and Squamous Cell Population"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12922",
+      "relatedName": "Neoplastic Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36753",
+      "relatedName": "Neoplastic Epithelial Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36763",
+      "relatedName": "Neoplastic Glandular Cell"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C36937",
+      "relatedName": "Neoplastic Smooth Muscle Cell"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C36760",
+      "relatedName": "Neoplastic Squamous Cell"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C166416",
+      "relatedName": "Pancreatobiliary System"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C36187",
+      "relatedName": "Thorotrast Exposure"
+    },
+    {
+      "type": "Disease_May_Have_Molecular_Abnormality",
+      "relatedCode": "C36329",
+      "relatedName": "TP53 Gene Inactivation"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C38328",
+      "relatedName": "Unfavorable Clinical Outcome"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C3445",
+      "relatedName": "Weight Loss"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C155861",
+      "relatedName": "Well Differentiated Neuroendocrine Lesion"
+    }
+  ],
+  "history": [
+    {
+      "code": "C96804",
+      "action": "create",
+      "date": "2011-05-16"
+    },
+    {
+      "code": "C96804",
+      "action": "modify",
+      "date": "2011-05-31"
+    },
+    {
+      "code": "C5859",
+      "action": "merge",
+      "date": "2011-05-31",
+      "replacementCode": "C96804",
+      "replacementName": "Large Duct Intrahepatic Cholangiocarcinoma"
+    },
+    {
+      "code": "C96804",
+      "action": "merge",
+      "date": "2011-05-31",
+      "replacementCode": "C96804",
+      "replacementName": "Large Duct Intrahepatic Cholangiocarcinoma"
+    },
+    {
+      "code": "C96804",
+      "action": "modify",
+      "date": "2011-08-15"
+    },
+    {
+      "code": "C96804",
+      "action": "modify",
+      "date": "2014-02-03"
+    },
+    {
+      "code": "C96804",
+      "action": "modify",
+      "date": "2019-09-30"
+    },
+    {
+      "code": "C96804",
+      "action": "modify",
+      "date": "2020-06-29"
+    }
+  ]
+}

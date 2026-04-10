@@ -1,0 +1,936 @@
+{
+  "code": "C6194",
+  "name": "Collecting Duct Carcinoma",
+  "terminology": "ncit",
+  "version": "25.11d",
+  "conceptStatus": "DEFAULT",
+  "leaf": true,
+  "active": true,
+  "synonyms": [
+    {
+      "name": "Carcinoma of the Collecting Ducts of Bellini",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "caDSR"
+    },
+    {
+      "name": "Collecting Duct Renal Cell Carcinoma",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "caDSR"
+    },
+    {
+      "name": "Collecting Duct Carcinoma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "Cellosaurus"
+    },
+    {
+      "name": "Collecting duct renal cancer",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "CTEP",
+      "code": "10066351",
+      "subSource": "SDC"
+    },
+    {
+      "name": "Bellini duct carcinoma",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "GDC"
+    },
+    {
+      "name": "Collecting duct carcinoma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "GDC"
+    },
+    {
+      "name": "Renal carcinoma, collecting duct type",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "GDC"
+    },
+    {
+      "name": "BDC",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NCI-GLOSS",
+      "code": "CDR0000584378"
+    },
+    {
+      "name": "Bellini duct carcinoma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NCI-GLOSS",
+      "code": "CDR0000044754"
+    },
+    {
+      "name": "Bellini Duct Carcinoma",
+      "termType": "AQS",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Carcinoma of Collecting Ducts of Bellini",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Carcinoma of Kidney Collecting Duct",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Carcinoma of Renal Collecting Duct",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Carcinoma of the Kidney Collecting Duct",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Carcinoma of the Renal Collecting Duct",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Collecting Duct Carcinoma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Kidney Collecting Duct Carcinoma",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Renal Collecting Duct Carcinoma",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Collecting Duct Carcinoma",
+      "type": "Preferred_Name"
+    }
+  ],
+  "definitions": [
+    {
+      "definition": "A rare type of kidney cancer that grows and spreads quickly. It begins in the duct of Bellini in the kidney.",
+      "type": "ALT_DEFINITION",
+      "source": "NCI-GLOSS"
+    },
+    {
+      "definition": "Also known as collecting duct carcinoma, this is a rare type of renal carcinoma. It arises from the collecting ducts of the renal medulla, and most authors suggest that this is an aggressive tumor.",
+      "type": "DEFINITION",
+      "source": "NCI"
+    }
+  ],
+  "properties": [
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "Cellosaurus"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "CTEP"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "GDC"
+    },
+    {
+      "code": "P334",
+      "type": "ICD-O-3_Code",
+      "value": "8319/3"
+    },
+    {
+      "code": "P366",
+      "type": "Legacy Concept Name",
+      "value": "Collecting_Duct_Carcinoma"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "8319/3"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "Bellini duct carcinoma"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "Collecting duct carcinoma"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "Renal carcinoma, collecting duct type"
+    },
+    {
+      "code": "P363",
+      "type": "Neoplastic_Status",
+      "value": "Malignant"
+    },
+    {
+      "code": "P106",
+      "type": "Semantic_Type",
+      "value": "Neoplastic Process"
+    },
+    {
+      "code": "P207",
+      "type": "UMLS_CUI",
+      "value": "C1266044"
+    }
+  ],
+  "parents": [
+    {
+      "code": "C9384",
+      "name": "Kidney Carcinoma"
+    }
+  ],
+  "associations": [
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C165258",
+      "relatedName": "Cellosaurus Disease Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C157711",
+      "relatedName": "GDC Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C177537",
+      "relatedName": "GDC Value Terminology"
+    },
+    {
+      "type": "Is_Value_For_GDC_Property",
+      "relatedCode": "C176985",
+      "relatedName": "Histology ICD-O Morphology Code"
+    },
+    {
+      "type": "Is_Value_For_GDC_Property",
+      "relatedCode": "C177621",
+      "relatedName": "ICD-O-3 Morphology Term Diagnosis Question"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168658",
+      "relatedName": "Mapped ICDO3.1 Morphology PT Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168657",
+      "relatedName": "Mapped ICDO3.1 Morphology Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168655",
+      "relatedName": "Mapped ICDO3.1 Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168662",
+      "relatedName": "Mapped ICDO3.2 Morphology PT Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168661",
+      "relatedName": "Mapped ICDO3.2 Morphology Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168656",
+      "relatedName": "Mapped ICDO3.2 Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C103084",
+      "relatedName": "NCI CTEP SDC Renal Cell Carcinoma Sub-Category Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C102905",
+      "relatedName": "NCI CTEP Simplified Disease Classification Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C126659",
+      "relatedName": "NCIt Neoplasm Core Terminology"
+    }
+  ],
+  "inverseAssociations": [
+    {
+      "type": "Has_GDC_Value",
+      "relatedCode": "C176985",
+      "relatedName": "Histology ICD-O Morphology Code"
+    },
+    {
+      "type": "Has_GDC_Value",
+      "relatedCode": "C177621",
+      "relatedName": "ICD-O-3 Morphology Term Diagnosis Question"
+    }
+  ],
+  "roles": [
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C36104",
+      "relatedName": "Aggressive Clinical Course"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C36122",
+      "relatedName": "Benign Cellular Infiltrate"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C54172",
+      "relatedName": "Carcinomatous Component Present"
+    },
+    {
+      "type": "Disease_May_Have_Cytogenetic_Abnormality",
+      "relatedCode": "C157628",
+      "relatedName": "Chromosome 6 Loss of Heterozygosity"
+    },
+    {
+      "type": "Disease_May_Have_Cytogenetic_Abnormality",
+      "relatedCode": "C157629",
+      "relatedName": "Chromosome 8 Loss of Heterozygosity"
+    },
+    {
+      "type": "Disease_May_Have_Cytogenetic_Abnormality",
+      "relatedCode": "C132247",
+      "relatedName": "Chromosome Arm 9p Loss of Heterozygosity"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C32344",
+      "relatedName": "Collecting Tube"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C36003",
+      "relatedName": "Desmoplastic Stroma Formation"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C12578",
+      "relatedName": "Epithelial Cell"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C53596",
+      "relatedName": "Epithelial Component Present"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C45714",
+      "relatedName": "Epithelial Tissue"
+    },
+    {
+      "type": "Disease_May_Have_Molecular_Abnormality",
+      "relatedCode": "C36638",
+      "relatedName": "ERBB2 Gene Amplification"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C34615",
+      "relatedName": "Flank Pain"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12810",
+      "relatedName": "Genitourinary System"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12810",
+      "relatedName": "Genitourinary System"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C3090",
+      "relatedName": "Hematuria"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C41453",
+      "relatedName": "Infiltrative Growth Pattern"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C61107",
+      "relatedName": "Kidney and Ureter"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12415",
+      "relatedName": "Kidney"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12415",
+      "relatedName": "Kidney"
+    },
+    {
+      "type": "Disease_May_Have_Cytogenetic_Abnormality",
+      "relatedCode": "C36502",
+      "relatedName": "Loss of Chromosome 3p"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12917",
+      "relatedName": "Malignant Cell"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C36115",
+      "relatedName": "Malignant Cellular Infiltrate"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36779",
+      "relatedName": "Malignant Epithelial Cell"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C37153",
+      "relatedName": "Malignant Stromal Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12922",
+      "relatedName": "Neoplastic Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36753",
+      "relatedName": "Neoplastic Epithelial Cell"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C36937",
+      "relatedName": "Neoplastic Smooth Muscle Cell"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C35911",
+      "relatedName": "Papillary Growth Pattern"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C61147",
+      "relatedName": "Renal Tubular Epithelial Cell"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C49276",
+      "relatedName": "Renal Tubule Epithelium"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C35925",
+      "relatedName": "Tubular Pattern"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12413",
+      "relatedName": "Urinary System"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12413",
+      "relatedName": "Urinary System"
+    }
+  ],
+  "history": [
+    {
+      "code": "C6194",
+      "action": "create",
+      "date": "2003-08-12"
+    },
+    {
+      "code": "C6194",
+      "action": "modify",
+      "date": "2003-10-31"
+    },
+    {
+      "code": "C6194",
+      "action": "modify",
+      "date": "2003-12-30"
+    },
+    {
+      "code": "C6194",
+      "action": "modify",
+      "date": "2004-03-30"
+    },
+    {
+      "code": "C6194",
+      "action": "modify",
+      "date": "2004-08-02"
+    },
+    {
+      "code": "C6194",
+      "action": "modify",
+      "date": "2006-06-30"
+    },
+    {
+      "code": "C6194",
+      "action": "modify",
+      "date": "2007-03-30"
+    },
+    {
+      "code": "C6194",
+      "action": "modify",
+      "date": "2007-04-30"
+    },
+    {
+      "code": "C6194",
+      "action": "modify",
+      "date": "2009-04-06"
+    },
+    {
+      "code": "C6194",
+      "action": "modify",
+      "date": "2009-10-27"
+    },
+    {
+      "code": "C6194",
+      "action": "modify",
+      "date": "2009-11-23"
+    },
+    {
+      "code": "C6194",
+      "action": "modify",
+      "date": "2010-11-08"
+    },
+    {
+      "code": "C6194",
+      "action": "modify",
+      "date": "2010-11-15"
+    },
+    {
+      "code": "C6194",
+      "action": "modify",
+      "date": "2010-11-22"
+    },
+    {
+      "code": "C6194",
+      "action": "modify",
+      "date": "2010-11-29"
+    },
+    {
+      "code": "C6194",
+      "action": "modify",
+      "date": "2010-12-06"
+    },
+    {
+      "code": "C6194",
+      "action": "modify",
+      "date": "2010-12-13"
+    },
+    {
+      "code": "C6194",
+      "action": "modify",
+      "date": "2010-12-27"
+    },
+    {
+      "code": "C6194",
+      "action": "modify",
+      "date": "2011-01-03"
+    },
+    {
+      "code": "C6194",
+      "action": "modify",
+      "date": "2011-01-10"
+    },
+    {
+      "code": "C6194",
+      "action": "modify",
+      "date": "2011-01-17"
+    },
+    {
+      "code": "C6194",
+      "action": "modify",
+      "date": "2011-01-24"
+    },
+    {
+      "code": "C6194",
+      "action": "modify",
+      "date": "2011-01-31"
+    },
+    {
+      "code": "C6194",
+      "action": "modify",
+      "date": "2011-02-22"
+    },
+    {
+      "code": "C6194",
+      "action": "modify",
+      "date": "2011-05-23"
+    },
+    {
+      "code": "C6194",
+      "action": "modify",
+      "date": "2012-09-24"
+    },
+    {
+      "code": "C6194",
+      "action": "modify",
+      "date": "2012-10-01"
+    },
+    {
+      "code": "C6194",
+      "action": "modify",
+      "date": "2012-10-09"
+    },
+    {
+      "code": "C6194",
+      "action": "modify",
+      "date": "2012-10-15"
+    },
+    {
+      "code": "C6194",
+      "action": "modify",
+      "date": "2012-10-22"
+    },
+    {
+      "code": "C6194",
+      "action": "modify",
+      "date": "2012-10-31"
+    },
+    {
+      "code": "C6194",
+      "action": "modify",
+      "date": "2012-11-05"
+    },
+    {
+      "code": "C6194",
+      "action": "modify",
+      "date": "2012-11-13"
+    },
+    {
+      "code": "C6194",
+      "action": "modify",
+      "date": "2012-11-19"
+    },
+    {
+      "code": "C6194",
+      "action": "modify",
+      "date": "2012-11-26"
+    },
+    {
+      "code": "C6194",
+      "action": "modify",
+      "date": "2012-12-03"
+    },
+    {
+      "code": "C6194",
+      "action": "modify",
+      "date": "2012-12-10"
+    },
+    {
+      "code": "C6194",
+      "action": "modify",
+      "date": "2012-12-17"
+    },
+    {
+      "code": "C6194",
+      "action": "modify",
+      "date": "2012-12-28"
+    },
+    {
+      "code": "C6194",
+      "action": "modify",
+      "date": "2013-01-07"
+    },
+    {
+      "code": "C6194",
+      "action": "modify",
+      "date": "2013-01-14"
+    },
+    {
+      "code": "C6194",
+      "action": "modify",
+      "date": "2013-01-23"
+    },
+    {
+      "code": "C6194",
+      "action": "modify",
+      "date": "2013-02-04"
+    },
+    {
+      "code": "C6194",
+      "action": "modify",
+      "date": "2013-02-11"
+    },
+    {
+      "code": "C6194",
+      "action": "modify",
+      "date": "2013-02-19"
+    },
+    {
+      "code": "C6194",
+      "action": "modify",
+      "date": "2013-02-25"
+    },
+    {
+      "code": "C6194",
+      "action": "modify",
+      "date": "2013-03-04"
+    },
+    {
+      "code": "C6194",
+      "action": "modify",
+      "date": "2013-03-11"
+    },
+    {
+      "code": "C6194",
+      "action": "modify",
+      "date": "2013-03-18"
+    },
+    {
+      "code": "C6194",
+      "action": "modify",
+      "date": "2013-03-25"
+    },
+    {
+      "code": "C6194",
+      "action": "modify",
+      "date": "2013-04-01"
+    },
+    {
+      "code": "C6194",
+      "action": "modify",
+      "date": "2013-04-08"
+    },
+    {
+      "code": "C6194",
+      "action": "modify",
+      "date": "2013-04-15"
+    },
+    {
+      "code": "C6194",
+      "action": "modify",
+      "date": "2013-04-22"
+    },
+    {
+      "code": "C6194",
+      "action": "modify",
+      "date": "2013-04-29"
+    },
+    {
+      "code": "C6194",
+      "action": "modify",
+      "date": "2013-05-06"
+    },
+    {
+      "code": "C6194",
+      "action": "modify",
+      "date": "2013-05-13"
+    },
+    {
+      "code": "C6194",
+      "action": "modify",
+      "date": "2013-05-20"
+    },
+    {
+      "code": "C6194",
+      "action": "modify",
+      "date": "2013-05-28"
+    },
+    {
+      "code": "C6194",
+      "action": "modify",
+      "date": "2013-06-03"
+    },
+    {
+      "code": "C6194",
+      "action": "modify",
+      "date": "2013-06-10"
+    },
+    {
+      "code": "C6194",
+      "action": "modify",
+      "date": "2013-06-17"
+    },
+    {
+      "code": "C6194",
+      "action": "modify",
+      "date": "2013-06-24"
+    },
+    {
+      "code": "C6194",
+      "action": "modify",
+      "date": "2013-07-01"
+    },
+    {
+      "code": "C6194",
+      "action": "modify",
+      "date": "2013-07-08"
+    },
+    {
+      "code": "C6194",
+      "action": "modify",
+      "date": "2014-02-03"
+    },
+    {
+      "code": "C6194",
+      "action": "modify",
+      "date": "2015-03-09"
+    },
+    {
+      "code": "C6194",
+      "action": "modify",
+      "date": "2016-02-16"
+    },
+    {
+      "code": "C6194",
+      "action": "modify",
+      "date": "2016-04-25"
+    },
+    {
+      "code": "C6194",
+      "action": "modify",
+      "date": "2018-09-24"
+    },
+    {
+      "code": "C6194",
+      "action": "modify",
+      "date": "2018-10-29"
+    },
+    {
+      "code": "C6194",
+      "action": "modify",
+      "date": "2018-10-29"
+    },
+    {
+      "code": "C6194",
+      "action": "modify",
+      "date": "2019-02-25"
+    },
+    {
+      "code": "C6194",
+      "action": "modify",
+      "date": "2019-05-28"
+    },
+    {
+      "code": "C6194",
+      "action": "modify",
+      "date": "2019-09-30"
+    },
+    {
+      "code": "C6194",
+      "action": "modify",
+      "date": "2019-10-28"
+    },
+    {
+      "code": "C6194",
+      "action": "modify",
+      "date": "2019-11-25"
+    },
+    {
+      "code": "C6194",
+      "action": "modify",
+      "date": "2020-02-24"
+    },
+    {
+      "code": "C6194",
+      "action": "modify",
+      "date": "2020-04-27"
+    },
+    {
+      "code": "C6194",
+      "action": "modify",
+      "date": "2020-09-29"
+    },
+    {
+      "code": "C6194",
+      "action": "modify",
+      "date": "2021-02-22"
+    },
+    {
+      "code": "C6194",
+      "action": "modify",
+      "date": "2021-03-29"
+    },
+    {
+      "code": "C6194",
+      "action": "modify",
+      "date": "2023-02-27"
+    },
+    {
+      "code": "C6194",
+      "action": "modify",
+      "date": "2023-12-26"
+    },
+    {
+      "code": "C6194",
+      "action": "modify",
+      "date": "2025-03-31"
+    }
+  ],
+  "maps": [
+    {
+      "type": "Related To",
+      "targetName": "8319/3",
+      "targetTermType": "PT",
+      "targetCode": "morphology",
+      "targetTerminology": "GDC"
+    },
+    {
+      "type": "Has Synonym",
+      "targetName": "Bellini duct carcinoma",
+      "targetTermType": "PT",
+      "targetCode": "primary_diagnosis",
+      "targetTerminology": "GDC"
+    },
+    {
+      "type": "Related To",
+      "targetName": "Collecting duct carcinoma",
+      "targetTermType": "PT",
+      "targetCode": "8319/3",
+      "targetTerminology": "ICDO3",
+      "targetTerminologyVersion": "3.1"
+    },
+    {
+      "type": "Related To",
+      "targetName": "Collecting duct carcinoma",
+      "targetTermType": "PT",
+      "targetCode": "8319/3",
+      "targetTerminology": "ICDO3",
+      "targetTerminologyVersion": "3.2"
+    },
+    {
+      "type": "Has Synonym",
+      "targetName": "Collecting duct carcinoma",
+      "targetTermType": "PT",
+      "targetCode": "primary_diagnosis",
+      "targetTerminology": "GDC"
+    },
+    {
+      "type": "Has Synonym",
+      "targetName": "Renal carcinoma, collecting duct type",
+      "targetTermType": "PT",
+      "targetCode": "primary_diagnosis",
+      "targetTerminology": "GDC"
+    }
+  ]
+}

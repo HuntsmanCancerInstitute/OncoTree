@@ -1,0 +1,899 @@
+{
+  "code": "C3871",
+  "name": "Nasopharyngeal Carcinoma",
+  "terminology": "ncit",
+  "version": "25.11d",
+  "conceptStatus": "DEFAULT",
+  "leaf": false,
+  "active": true,
+  "synonyms": [
+    {
+      "name": "Nasopharyngeal Carcinoma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "Cellosaurus"
+    },
+    {
+      "name": "Nasopharyngeal Carcinoma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "CPTAC"
+    },
+    {
+      "name": "Nasopharynx Cancer",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "CPTAC"
+    },
+    {
+      "name": "Nasopharyngeal carcinoma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "CTEP",
+      "code": "10028786",
+      "subSource": "SDC"
+    },
+    {
+      "name": "Nasopharyngeal Throat Cancer",
+      "termType": "DN",
+      "type": "FULL_SYN",
+      "source": "CTRP"
+    },
+    {
+      "name": "nasopharyngeal cancer",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NCI-GLOSS",
+      "code": "CDR0000445072"
+    },
+    {
+      "name": "Cancer of Nasopharynx",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Cancer of the Nasopharynx",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Carcinoma of Nasopharynx",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Carcinoma of the Nasopharynx",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Nasopharyngeal Cancer",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Nasopharyngeal Carcinoma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "NPC",
+      "termType": "AB",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Nasopharyngeal Carcinoma",
+      "type": "Display_Name"
+    },
+    {
+      "name": "Nasopharyngeal Carcinoma",
+      "type": "Preferred_Name"
+    }
+  ],
+  "definitions": [
+    {
+      "definition": "A carcinoma arising from the nasopharyngeal epithelium.  It includes the following types: keratinizing squamous cell carcinoma, nonkeratinizing carcinoma (differentiated and undifferentiated), basaloid squamous cell carcinoma, and papillary adenocarcinoma.",
+      "type": "DEFINITION",
+      "source": "NCI"
+    },
+    {
+      "definition": "Cancer that forms in tissues of the nasopharynx (upper part of the throat behind the nose). Most nasopharyngeal cancers are squamous cell carcinomas (cancer that begins in flat cells lining the nasopharynx).",
+      "type": "ALT_DEFINITION",
+      "source": "NCI-GLOSS"
+    }
+  ],
+  "properties": [
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "Cellosaurus"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "CPTAC"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "CTEP"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "CTRP"
+    },
+    {
+      "code": "P366",
+      "type": "Legacy Concept Name",
+      "value": "Nasopharyngeal_Carcinoma"
+    },
+    {
+      "code": "P363",
+      "type": "Neoplastic_Status",
+      "value": "Malignant"
+    },
+    {
+      "code": "P106",
+      "type": "Semantic_Type",
+      "value": "Neoplastic Process"
+    },
+    {
+      "code": "P207",
+      "type": "UMLS_CUI",
+      "value": "C2931822"
+    }
+  ],
+  "children": [
+    {
+      "code": "C190276",
+      "name": "Childhood Nasopharyngeal Carcinoma",
+      "leaf": true
+    },
+    {
+      "code": "C156079",
+      "name": "Metastatic Nasopharyngeal Carcinoma",
+      "leaf": false
+    },
+    {
+      "code": "C213364",
+      "name": "Nasopharyngeal Adenocarcinoma",
+      "leaf": false
+    },
+    {
+      "code": "C173340",
+      "name": "Nasopharyngeal Adenoid Cystic Carcinoma",
+      "leaf": true
+    },
+    {
+      "code": "C90522",
+      "name": "Nasopharyngeal Carcinoma by AJCC v6 Stage",
+      "leaf": false
+    },
+    {
+      "code": "C91244",
+      "name": "Nasopharyngeal Carcinoma by AJCC v7 Stage",
+      "leaf": false
+    },
+    {
+      "code": "C132816",
+      "name": "Nasopharyngeal Carcinoma by AJCC v8 Stage",
+      "leaf": false
+    },
+    {
+      "code": "C222756",
+      "name": "Nasopharyngeal Carcinoma by AJCC v9 Stage",
+      "leaf": false
+    },
+    {
+      "code": "C203013",
+      "name": "Nasopharyngeal Neuroendocrine Carcinoma",
+      "leaf": false
+    },
+    {
+      "code": "C167265",
+      "name": "Nasopharyngeal Squamous Cell Carcinoma",
+      "leaf": false
+    },
+    {
+      "code": "C9240",
+      "name": "Recurrent Nasopharyngeal Carcinoma",
+      "leaf": false
+    },
+    {
+      "code": "C148434",
+      "name": "Refractory Nasopharyngeal Carcinoma",
+      "leaf": false
+    },
+    {
+      "code": "C165176",
+      "name": "Unresectable Nasopharyngeal Carcinoma",
+      "leaf": false
+    }
+  ],
+  "parents": [
+    {
+      "code": "C9321",
+      "name": "Malignant Nasopharyngeal Neoplasm"
+    },
+    {
+      "code": "C9466",
+      "name": "Pharyngeal Carcinoma"
+    }
+  ],
+  "associations": [
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C165258",
+      "relatedName": "Cellosaurus Disease Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C138188",
+      "relatedName": "Clinical Trials Search-Application Programming Interface Disease Category Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C158520",
+      "relatedName": "CPTAC Codelists Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C158035",
+      "relatedName": "CPTAC Medical Conditions Codelist"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C156966",
+      "relatedName": "CPTAC Neoplasms Codelist"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C156952",
+      "relatedName": "CPTAC Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C118168",
+      "relatedName": "CTRP Disease Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C116977",
+      "relatedName": "CTRP Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C138190",
+      "relatedName": "CTS-API Disease Main Type Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C103076",
+      "relatedName": "NCI CTEP SDC Nasopharyngeal Cancer Sub-Category Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C102905",
+      "relatedName": "NCI CTEP Simplified Disease Classification Terminology"
+    },
+    {
+      "type": "Neoplasm_Has_Special_Category",
+      "relatedCode": "C9292",
+      "relatedName": "Solid Neoplasm"
+    }
+  ],
+  "roles": [
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C36122",
+      "relatedName": "Benign Cellular Infiltrate"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C54172",
+      "relatedName": "Carcinomatous Component Present"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C12578",
+      "relatedName": "Epithelial Cell"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C53596",
+      "relatedName": "Epithelial Component Present"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C45714",
+      "relatedName": "Epithelial Tissue"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12418",
+      "relatedName": "Head and Neck"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12418",
+      "relatedName": "Head and Neck"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C34661",
+      "relatedName": "Headache"
+    },
+    {
+      "type": "Disease_Mapped_To_Gene",
+      "relatedCode": "C28585",
+      "relatedName": "HLA-A Gene"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12917",
+      "relatedName": "Malignant Cell"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C36115",
+      "relatedName": "Malignant Cellular Infiltrate"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36779",
+      "relatedName": "Malignant Epithelial Cell"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C37153",
+      "relatedName": "Malignant Stromal Cell"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C50662",
+      "relatedName": "Nasal Obstruction"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C49263",
+      "relatedName": "Nasopharynx Epithelium"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12423",
+      "relatedName": "Nasopharynx"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12423",
+      "relatedName": "Nasopharynx"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C35160",
+      "relatedName": "Neck Mass"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C13063",
+      "relatedName": "Neck"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C13063",
+      "relatedName": "Neck"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12922",
+      "relatedName": "Neoplastic Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36753",
+      "relatedName": "Neoplastic Epithelial Cell"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C36937",
+      "relatedName": "Neoplastic Smooth Muscle Cell"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12425",
+      "relatedName": "Pharynx"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12425",
+      "relatedName": "Pharynx"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C54282",
+      "relatedName": "Rhinorrhea"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C54272",
+      "relatedName": "Throat"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C50772",
+      "relatedName": "Tinnitus"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C3445",
+      "relatedName": "Weight Loss"
+    }
+  ],
+  "inverseRoles": [
+    {
+      "type": "Gene_Involved_In_Pathogenesis_Of_Disease",
+      "relatedCode": "C28585",
+      "relatedName": "HLA-A Gene"
+    },
+    {
+      "type": "Gene_Involved_In_Pathogenesis_Of_Disease",
+      "relatedCode": "C51075",
+      "relatedName": "HLA-A wt Allele"
+    },
+    {
+      "type": "Gene_Associated_With_Disease",
+      "relatedCode": "C80722",
+      "relatedName": "MIR29C Gene"
+    },
+    {
+      "type": "Gene_Associated_With_Disease",
+      "relatedCode": "C81917",
+      "relatedName": "MIR29C wt Allele"
+    },
+    {
+      "type": "Gene_Associated_With_Disease",
+      "relatedCode": "C17359",
+      "relatedName": "TP53 Gene"
+    },
+    {
+      "type": "Gene_Associated_With_Disease",
+      "relatedCode": "C52271",
+      "relatedName": "TP53 wt Allele"
+    },
+    {
+      "type": "Gene_Associated_With_Disease",
+      "relatedCode": "C97240",
+      "relatedName": "TP53*1 Allele"
+    }
+  ],
+  "history": [
+    {
+      "code": "C3871",
+      "action": "create",
+      "date": "2003-08-12"
+    },
+    {
+      "code": "C3871",
+      "action": "modify",
+      "date": "2003-10-31"
+    },
+    {
+      "code": "C3871",
+      "action": "modify",
+      "date": "2003-12-30"
+    },
+    {
+      "code": "C3871",
+      "action": "modify",
+      "date": "2004-03-30"
+    },
+    {
+      "code": "C3871",
+      "action": "modify",
+      "date": "2004-09-10"
+    },
+    {
+      "code": "C3871",
+      "action": "modify",
+      "date": "2005-03-16"
+    },
+    {
+      "code": "C3871",
+      "action": "modify",
+      "date": "2006-03-31"
+    },
+    {
+      "code": "C3871",
+      "action": "modify",
+      "date": "2006-09-01"
+    },
+    {
+      "code": "C3871",
+      "action": "modify",
+      "date": "2009-04-06"
+    },
+    {
+      "code": "C3871",
+      "action": "modify",
+      "date": "2009-10-27"
+    },
+    {
+      "code": "C3871",
+      "action": "modify",
+      "date": "2009-11-23"
+    },
+    {
+      "code": "C3871",
+      "action": "modify",
+      "date": "2010-02-22"
+    },
+    {
+      "code": "C3871",
+      "action": "modify",
+      "date": "2010-11-01"
+    },
+    {
+      "code": "C3871",
+      "action": "modify",
+      "date": "2010-11-08"
+    },
+    {
+      "code": "C3871",
+      "action": "modify",
+      "date": "2010-11-15"
+    },
+    {
+      "code": "C3871",
+      "action": "modify",
+      "date": "2010-11-22"
+    },
+    {
+      "code": "C3871",
+      "action": "modify",
+      "date": "2010-11-29"
+    },
+    {
+      "code": "C3871",
+      "action": "modify",
+      "date": "2010-12-06"
+    },
+    {
+      "code": "C3871",
+      "action": "modify",
+      "date": "2010-12-13"
+    },
+    {
+      "code": "C3871",
+      "action": "modify",
+      "date": "2010-12-27"
+    },
+    {
+      "code": "C3871",
+      "action": "modify",
+      "date": "2011-01-03"
+    },
+    {
+      "code": "C3871",
+      "action": "modify",
+      "date": "2011-01-10"
+    },
+    {
+      "code": "C3871",
+      "action": "modify",
+      "date": "2011-01-17"
+    },
+    {
+      "code": "C3871",
+      "action": "modify",
+      "date": "2011-01-24"
+    },
+    {
+      "code": "C3871",
+      "action": "modify",
+      "date": "2011-01-31"
+    },
+    {
+      "code": "C3871",
+      "action": "modify",
+      "date": "2011-02-07"
+    },
+    {
+      "code": "C3871",
+      "action": "modify",
+      "date": "2012-04-23"
+    },
+    {
+      "code": "C3871",
+      "action": "modify",
+      "date": "2012-09-24"
+    },
+    {
+      "code": "C3871",
+      "action": "modify",
+      "date": "2012-10-01"
+    },
+    {
+      "code": "C3871",
+      "action": "modify",
+      "date": "2012-10-09"
+    },
+    {
+      "code": "C3871",
+      "action": "modify",
+      "date": "2012-10-15"
+    },
+    {
+      "code": "C3871",
+      "action": "modify",
+      "date": "2012-10-22"
+    },
+    {
+      "code": "C3871",
+      "action": "modify",
+      "date": "2012-10-31"
+    },
+    {
+      "code": "C3871",
+      "action": "modify",
+      "date": "2012-11-05"
+    },
+    {
+      "code": "C3871",
+      "action": "modify",
+      "date": "2012-11-13"
+    },
+    {
+      "code": "C3871",
+      "action": "modify",
+      "date": "2012-11-19"
+    },
+    {
+      "code": "C3871",
+      "action": "modify",
+      "date": "2012-11-26"
+    },
+    {
+      "code": "C3871",
+      "action": "modify",
+      "date": "2012-12-03"
+    },
+    {
+      "code": "C3871",
+      "action": "modify",
+      "date": "2012-12-10"
+    },
+    {
+      "code": "C3871",
+      "action": "modify",
+      "date": "2012-12-17"
+    },
+    {
+      "code": "C3871",
+      "action": "modify",
+      "date": "2012-12-28"
+    },
+    {
+      "code": "C3871",
+      "action": "modify",
+      "date": "2013-01-07"
+    },
+    {
+      "code": "C3871",
+      "action": "modify",
+      "date": "2013-01-14"
+    },
+    {
+      "code": "C3871",
+      "action": "modify",
+      "date": "2013-01-23"
+    },
+    {
+      "code": "C3871",
+      "action": "modify",
+      "date": "2013-02-04"
+    },
+    {
+      "code": "C3871",
+      "action": "modify",
+      "date": "2013-02-11"
+    },
+    {
+      "code": "C3871",
+      "action": "modify",
+      "date": "2013-02-19"
+    },
+    {
+      "code": "C3871",
+      "action": "modify",
+      "date": "2013-02-25"
+    },
+    {
+      "code": "C3871",
+      "action": "modify",
+      "date": "2013-03-04"
+    },
+    {
+      "code": "C3871",
+      "action": "modify",
+      "date": "2013-03-11"
+    },
+    {
+      "code": "C3871",
+      "action": "modify",
+      "date": "2013-03-18"
+    },
+    {
+      "code": "C3871",
+      "action": "modify",
+      "date": "2013-03-25"
+    },
+    {
+      "code": "C3871",
+      "action": "modify",
+      "date": "2013-04-01"
+    },
+    {
+      "code": "C3871",
+      "action": "modify",
+      "date": "2013-04-08"
+    },
+    {
+      "code": "C3871",
+      "action": "modify",
+      "date": "2013-04-15"
+    },
+    {
+      "code": "C3871",
+      "action": "modify",
+      "date": "2013-04-22"
+    },
+    {
+      "code": "C3871",
+      "action": "modify",
+      "date": "2013-04-29"
+    },
+    {
+      "code": "C3871",
+      "action": "modify",
+      "date": "2013-05-06"
+    },
+    {
+      "code": "C3871",
+      "action": "modify",
+      "date": "2013-05-13"
+    },
+    {
+      "code": "C3871",
+      "action": "modify",
+      "date": "2013-05-20"
+    },
+    {
+      "code": "C3871",
+      "action": "modify",
+      "date": "2013-05-28"
+    },
+    {
+      "code": "C3871",
+      "action": "modify",
+      "date": "2013-06-03"
+    },
+    {
+      "code": "C3871",
+      "action": "modify",
+      "date": "2013-06-10"
+    },
+    {
+      "code": "C3871",
+      "action": "modify",
+      "date": "2013-06-17"
+    },
+    {
+      "code": "C3871",
+      "action": "modify",
+      "date": "2013-06-24"
+    },
+    {
+      "code": "C3871",
+      "action": "modify",
+      "date": "2013-07-01"
+    },
+    {
+      "code": "C3871",
+      "action": "modify",
+      "date": "2013-07-08"
+    },
+    {
+      "code": "C3871",
+      "action": "modify",
+      "date": "2014-02-03"
+    },
+    {
+      "code": "C3871",
+      "action": "modify",
+      "date": "2014-08-25"
+    },
+    {
+      "code": "C3871",
+      "action": "modify",
+      "date": "2014-09-22"
+    },
+    {
+      "code": "C3871",
+      "action": "modify",
+      "date": "2014-10-27"
+    },
+    {
+      "code": "C3871",
+      "action": "modify",
+      "date": "2016-09-20"
+    },
+    {
+      "code": "C3871",
+      "action": "modify",
+      "date": "2017-07-31"
+    },
+    {
+      "code": "C3871",
+      "action": "modify",
+      "date": "2017-09-26"
+    },
+    {
+      "code": "C3871",
+      "action": "modify",
+      "date": "2018-02-26"
+    },
+    {
+      "code": "C3871",
+      "action": "modify",
+      "date": "2018-07-30"
+    },
+    {
+      "code": "C3871",
+      "action": "modify",
+      "date": "2018-08-27"
+    },
+    {
+      "code": "C3871",
+      "action": "modify",
+      "date": "2018-08-27"
+    },
+    {
+      "code": "C3871",
+      "action": "modify",
+      "date": "2019-02-25"
+    },
+    {
+      "code": "C3871",
+      "action": "modify",
+      "date": "2019-03-25"
+    },
+    {
+      "code": "C3871",
+      "action": "modify",
+      "date": "2019-05-28"
+    },
+    {
+      "code": "C3871",
+      "action": "modify",
+      "date": "2019-10-28"
+    },
+    {
+      "code": "C3871",
+      "action": "modify",
+      "date": "2023-02-27"
+    },
+    {
+      "code": "C3871",
+      "action": "modify",
+      "date": "2025-03-31"
+    }
+  ]
+}

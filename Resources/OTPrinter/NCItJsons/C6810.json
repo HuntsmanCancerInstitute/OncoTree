@@ -1,0 +1,316 @@
+{
+  "code": "C6810",
+  "name": "Testicular Lymphoma",
+  "terminology": "ncit",
+  "version": "25.11d",
+  "conceptStatus": "DEFAULT",
+  "leaf": false,
+  "active": true,
+  "synonyms": [
+    {
+      "name": "Testicular Lymphoma",
+      "termType": "DN",
+      "type": "FULL_SYN",
+      "source": "CTRP"
+    },
+    {
+      "name": "Lymphoma of Testis",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Lymphoma of the Testis",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Primary Testicular Lymphoma",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Testicular Lymphoma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Testicular Lymphoma",
+      "type": "Display_Name"
+    },
+    {
+      "name": "Testicular Lymphoma",
+      "type": "Preferred_Name"
+    }
+  ],
+  "definitions": [
+    {
+      "definition": "A lymphoma that arises from the testis and is not associated with lymphoma in another anatomic site.",
+      "type": "DEFINITION",
+      "source": "NCI"
+    }
+  ],
+  "properties": [
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "CTRP"
+    },
+    {
+      "code": "P366",
+      "type": "Legacy Concept Name",
+      "value": "Testicular_Lymphoma"
+    },
+    {
+      "code": "P363",
+      "type": "Neoplastic_Status",
+      "value": "Malignant"
+    },
+    {
+      "code": "P106",
+      "type": "Semantic_Type",
+      "value": "Neoplastic Process"
+    },
+    {
+      "code": "P207",
+      "type": "UMLS_CUI",
+      "value": "C0349644"
+    }
+  ],
+  "children": [
+    {
+      "code": "C138021",
+      "name": "Recurrent Testicular Lymphoma",
+      "leaf": true
+    },
+    {
+      "code": "C138022",
+      "name": "Refractory Testicular Lymphoma",
+      "leaf": true
+    },
+    {
+      "code": "C162467",
+      "name": "Testicular Diffuse Large B-Cell Lymphoma",
+      "leaf": true
+    },
+    {
+      "code": "C150589",
+      "name": "Testicular Follicular Lymphoma",
+      "leaf": true
+    },
+    {
+      "code": "C162468",
+      "name": "Testicular Nasal Type Extranodal NK/T-Cell Lymphoma",
+      "leaf": true
+    }
+  ],
+  "parents": [
+    {
+      "code": "C7185",
+      "name": "Lymphoma by Site"
+    },
+    {
+      "code": "C7251",
+      "name": "Malignant Testicular Neoplasm"
+    }
+  ],
+  "associations": [
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C118168",
+      "relatedName": "CTRP Disease Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C116977",
+      "relatedName": "CTRP Terminology"
+    }
+  ],
+  "roles": [
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36725",
+      "relatedName": "Abnormal Lymphocyte"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C36122",
+      "relatedName": "Benign Cellular Infiltrate"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12810",
+      "relatedName": "Genitourinary System"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C41165",
+      "relatedName": "Hematopoietic and Lymphatic System"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C41165",
+      "relatedName": "Hematopoietic and Lymphatic System"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C32725",
+      "relatedName": "Hematopoietic and Lymphoid Cell"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C41168",
+      "relatedName": "Hematopoietic and Lymphoid Tissue"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12746",
+      "relatedName": "Lymphatic System"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C12535",
+      "relatedName": "Lymphocyte"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C13049",
+      "relatedName": "Lymphoid Tissue"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12722",
+      "relatedName": "Male Reproductive System"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12917",
+      "relatedName": "Malignant Cell"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C36115",
+      "relatedName": "Malignant Cellular Infiltrate"
+    },
+    {
+      "type": "Disease_Excludes_Normal_Cell_Origin",
+      "relatedCode": "C12549",
+      "relatedName": "Myeloid Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12922",
+      "relatedName": "Neoplastic Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C37060",
+      "relatedName": "Neoplastic Hematopoietic and Lymphoid Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36988",
+      "relatedName": "Neoplastic Lymphocyte"
+    },
+    {
+      "type": "Disease_Excludes_Normal_Cell_Origin",
+      "relatedCode": "C12486",
+      "relatedName": "Plasma Cell"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12841",
+      "relatedName": "Reproductive System"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12412",
+      "relatedName": "Testis"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12412",
+      "relatedName": "Testis"
+    }
+  ],
+  "history": [
+    {
+      "code": "C6810",
+      "action": "create",
+      "date": "2003-08-12"
+    },
+    {
+      "code": "C6810",
+      "action": "modify",
+      "date": "2003-10-31"
+    },
+    {
+      "code": "C6810",
+      "action": "modify",
+      "date": "2003-12-30"
+    },
+    {
+      "code": "C6810",
+      "action": "modify",
+      "date": "2004-03-30"
+    },
+    {
+      "code": "C6810",
+      "action": "modify",
+      "date": "2004-09-10"
+    },
+    {
+      "code": "C6810",
+      "action": "modify",
+      "date": "2005-09-29"
+    },
+    {
+      "code": "C6810",
+      "action": "modify",
+      "date": "2009-11-23"
+    },
+    {
+      "code": "C6810",
+      "action": "modify",
+      "date": "2013-02-04"
+    },
+    {
+      "code": "C6810",
+      "action": "modify",
+      "date": "2014-02-03"
+    },
+    {
+      "code": "C6810",
+      "action": "modify",
+      "date": "2014-08-04"
+    },
+    {
+      "code": "C6810",
+      "action": "modify",
+      "date": "2014-08-18"
+    },
+    {
+      "code": "C6810",
+      "action": "modify",
+      "date": "2014-09-22"
+    },
+    {
+      "code": "C6810",
+      "action": "modify",
+      "date": "2018-07-30"
+    },
+    {
+      "code": "C6810",
+      "action": "modify",
+      "date": "2018-08-27"
+    },
+    {
+      "code": "C6810",
+      "action": "modify",
+      "date": "2018-08-27"
+    }
+  ]
+}

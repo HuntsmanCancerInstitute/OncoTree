@@ -1,0 +1,985 @@
+{
+  "code": "C7506",
+  "name": "Myelodysplastic Syndrome with Excess Blasts",
+  "terminology": "ncit",
+  "version": "25.11d",
+  "conceptStatus": "DEFAULT",
+  "leaf": false,
+  "active": true,
+  "synonyms": [
+    {
+      "name": "RAEB-1",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "caDSR"
+    },
+    {
+      "name": "Refractory Anemia with Excess Blasts",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "caDSR"
+    },
+    {
+      "name": "Myelodysplastic Syndrome with Excess Blasts",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "CPTAC"
+    },
+    {
+      "name": "Myelodysplastic Syndrome with Excess Blasts",
+      "termType": "DN",
+      "type": "FULL_SYN",
+      "source": "CTRP"
+    },
+    {
+      "name": "RAEB",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "GDC"
+    },
+    {
+      "name": "RAEB I",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "GDC"
+    },
+    {
+      "name": "Refractory anemia with excess blasts",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "GDC"
+    },
+    {
+      "name": "Refractory anemia with excess of blasts 1",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "mCode",
+      "code": "D46.21",
+      "subSource": "ICD-10 CM"
+    },
+    {
+      "name": "Refractory anemia with excess of blasts, unspecified",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "mCode",
+      "code": "D46.20",
+      "subSource": "ICD-10 CM"
+    },
+    {
+      "name": "MDS-EB",
+      "termType": "AB",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "MDS-EB-1",
+      "termType": "AB",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "MDS-IB",
+      "termType": "AB",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "MDS-IB-1",
+      "termType": "AB",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "MDS-IB1",
+      "termType": "AB",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Myelodysplastic Neoplasm with Increased Blasts",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Myelodysplastic Syndrome with Excess Blasts",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Myelodysplastic Syndrome with Excess Blasts-1",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Myelodysplastic Syndrome with Increased Blasts",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "RAEB",
+      "termType": "AB",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "RAEB I",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "RAEB-I",
+      "termType": "AB",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Refractory Anemia with an Excess of Blasts",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Refractory Anemia with Excess Blasts",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Myelodysplastic Syndrome with Excess Blasts",
+      "type": "Display_Name"
+    },
+    {
+      "name": "Myelodysplastic Syndrome with Excess Blasts",
+      "type": "Preferred_Name"
+    }
+  ],
+  "definitions": [
+    {
+      "definition": "Myelodysplastic syndrome characterized by the presence of 5-9% blasts in bone marrow and 2-9% blasts in peripheral blood.",
+      "type": "DEFINITION",
+      "source": "NCI"
+    }
+  ],
+  "properties": [
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "CPTAC"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "CTRP"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "GDC"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "mCode"
+    },
+    {
+      "code": "P334",
+      "type": "ICD-O-3_Code",
+      "value": "9983/3"
+    },
+    {
+      "code": "P366",
+      "type": "Legacy Concept Name",
+      "value": "RAEB-1"
+    },
+    {
+      "code": "P366",
+      "type": "Legacy Concept Name",
+      "value": "Refractory_Anemia_with_Excess_Blasts"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "9983/3"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "Myelodysplastic syndrome with excess blasts"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "RAEB"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "RAEB I"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "Refractory anaemia with excess of blasts"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "Refractory anemia with excess blasts"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "Refractory anemia with excess of blasts, unspecified"
+    },
+    {
+      "code": "P363",
+      "type": "Neoplastic_Status",
+      "value": "Malignant"
+    },
+    {
+      "code": "P106",
+      "type": "Semantic_Type",
+      "value": "Neoplastic Process"
+    },
+    {
+      "code": "P207",
+      "type": "UMLS_CUI",
+      "value": "C0002894"
+    }
+  ],
+  "children": [
+    {
+      "code": "C188449",
+      "name": "Childhood Myelodysplastic Syndrome with Excess Blasts",
+      "leaf": true
+    },
+    {
+      "code": "C82595",
+      "name": "Myelodysplastic Syndrome with Excess Blasts and Fibrosis",
+      "leaf": true
+    }
+  ],
+  "parents": [
+    {
+      "code": "C3247",
+      "name": "Myelodysplastic Syndrome"
+    }
+  ],
+  "associations": [
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C158520",
+      "relatedName": "CPTAC Codelists Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C156966",
+      "relatedName": "CPTAC Neoplasms Codelist"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C156952",
+      "relatedName": "CPTAC Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C118168",
+      "relatedName": "CTRP Disease Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C116977",
+      "relatedName": "CTRP Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C157711",
+      "relatedName": "GDC Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C177537",
+      "relatedName": "GDC Value Terminology"
+    },
+    {
+      "type": "Is_Value_For_GDC_Property",
+      "relatedCode": "C176985",
+      "relatedName": "Histology ICD-O Morphology Code"
+    },
+    {
+      "type": "Is_Value_For_GDC_Property",
+      "relatedCode": "C177621",
+      "relatedName": "ICD-O-3 Morphology Term Diagnosis Question"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168658",
+      "relatedName": "Mapped ICDO3.1 Morphology PT Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168657",
+      "relatedName": "Mapped ICDO3.1 Morphology Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168655",
+      "relatedName": "Mapped ICDO3.1 Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168662",
+      "relatedName": "Mapped ICDO3.2 Morphology PT Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168661",
+      "relatedName": "Mapped ICDO3.2 Morphology Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168656",
+      "relatedName": "Mapped ICDO3.2 Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C193249",
+      "relatedName": "mCode Cancer Disorder Value Set"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C193248",
+      "relatedName": "mCode Primary Cancer Disorder Value Set"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C193231",
+      "relatedName": "mCode Primary Malignant Neoplasm Disorder Value Set"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C193006",
+      "relatedName": "mCode Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C126659",
+      "relatedName": "NCIt Neoplasm Core Terminology"
+    }
+  ],
+  "inverseAssociations": [
+    {
+      "type": "Has_GDC_Value",
+      "relatedCode": "C176985",
+      "relatedName": "Histology ICD-O Morphology Code"
+    },
+    {
+      "type": "Has_GDC_Value",
+      "relatedCode": "C177621",
+      "relatedName": "ICD-O-3 Morphology Term Diagnosis Question"
+    }
+  ],
+  "roles": [
+    {
+      "type": "Disease_May_Have_Abnormal_Cell",
+      "relatedCode": "C37038",
+      "relatedName": "Abnormal Platelet"
+    },
+    {
+      "type": "Disease_Has_Associated_Disease",
+      "relatedCode": "C2869",
+      "relatedName": "Anemia"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C35266",
+      "relatedName": "Anisocytosis"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C36122",
+      "relatedName": "Benign Cellular Infiltrate"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C36235",
+      "relatedName": "Bone Marrow Dysplasia Present"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C12552",
+      "relatedName": "Bone Marrow Myeloid Stem Cell"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C13456",
+      "relatedName": "Bone Marrow Stem Cell"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12431",
+      "relatedName": "Bone Marrow"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12431",
+      "relatedName": "Bone Marrow"
+    },
+    {
+      "type": "Disease_May_Have_Abnormal_Cell",
+      "relatedCode": "C37054",
+      "relatedName": "Dysplastic Erythroid Precursor"
+    },
+    {
+      "type": "Disease_May_Have_Abnormal_Cell",
+      "relatedCode": "C37051",
+      "relatedName": "Dysplastic Granulocyte"
+    },
+    {
+      "type": "Disease_May_Have_Cytogenetic_Abnormality",
+      "relatedCode": "C36455",
+      "relatedName": "Gain of Chromosome 8"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C2863",
+      "relatedName": "Granulocytopenia"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C41165",
+      "relatedName": "Hematopoietic and Lymphatic System"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C41165",
+      "relatedName": "Hematopoietic and Lymphatic System"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C32725",
+      "relatedName": "Hematopoietic and Lymphoid Cell"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C41168",
+      "relatedName": "Hematopoietic and Lymphoid Tissue"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C13051",
+      "relatedName": "Hematopoietic Tissue"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C35788",
+      "relatedName": "Hypercellular Bone Marrow"
+    },
+    {
+      "type": "Disease_May_Have_Abnormal_Cell",
+      "relatedCode": "C37047",
+      "relatedName": "Hypolobated Megakaryocyte"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C36252",
+      "relatedName": "Ineffective Hematopoiesis"
+    },
+    {
+      "type": "Disease_May_Have_Cytogenetic_Abnormality",
+      "relatedCode": "C36403",
+      "relatedName": "Loss of Chromosome 20q"
+    },
+    {
+      "type": "Disease_May_Have_Cytogenetic_Abnormality",
+      "relatedCode": "C36408",
+      "relatedName": "Loss of Chromosome 7q"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12917",
+      "relatedName": "Malignant Cell"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C36115",
+      "relatedName": "Malignant Cellular Infiltrate"
+    },
+    {
+      "type": "Disease_May_Have_Abnormal_Cell",
+      "relatedCode": "C12524",
+      "relatedName": "Megaloblast"
+    },
+    {
+      "type": "Disease_May_Have_Abnormal_Cell",
+      "relatedCode": "C12916",
+      "relatedName": "Micromegakaryocyte"
+    },
+    {
+      "type": "Disease_May_Have_Cytogenetic_Abnormality",
+      "relatedCode": "C36523",
+      "relatedName": "Monosomy 5"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C36230",
+      "relatedName": "Myeloblasts 5-9 Percent of Bone Marrow Nucleated Cells"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C41402",
+      "relatedName": "Myeloblasts Under 10 Percent of Peripheral Blood White Cells"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C36216",
+      "relatedName": "Myeloblasts Under 20 Percent of Bone Marrow Nucleated Cells"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C36223",
+      "relatedName": "Myeloblasts Under 20 Percent of Peripheral Blood White Cells"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12922",
+      "relatedName": "Neoplastic Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C37060",
+      "relatedName": "Neoplastic Hematopoietic and Lymphoid Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C37065",
+      "relatedName": "Neoplastic Myeloblast"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C41063",
+      "relatedName": "Neoplastic Myeloid Cell"
+    },
+    {
+      "type": "Disease_May_Have_Abnormal_Cell",
+      "relatedCode": "C37174",
+      "relatedName": "Neutrophil with Cytoplasmic Hypogranularity"
+    },
+    {
+      "type": "Disease_May_Have_Abnormal_Cell",
+      "relatedCode": "C37175",
+      "relatedName": "Neutrophil with Pseudo Chediak-Higashi Granules"
+    },
+    {
+      "type": "Disease_May_Have_Abnormal_Cell",
+      "relatedCode": "C36724",
+      "relatedName": "Neutrophil with Pseudo Pelger-Huet Nucleus"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C35267",
+      "relatedName": "Poikilocytosis"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C3408",
+      "relatedName": "Thrombocytopenia"
+    }
+  ],
+  "history": [
+    {
+      "code": "C7506",
+      "action": "create",
+      "date": "2003-08-12"
+    },
+    {
+      "code": "C7506",
+      "action": "modify",
+      "date": "2003-10-31"
+    },
+    {
+      "code": "C7506",
+      "action": "modify",
+      "date": "2003-12-30"
+    },
+    {
+      "code": "C7506",
+      "action": "modify",
+      "date": "2004-03-30"
+    },
+    {
+      "code": "C7506",
+      "action": "modify",
+      "date": "2004-12-30"
+    },
+    {
+      "code": "C7506",
+      "action": "modify",
+      "date": "2005-03-16"
+    },
+    {
+      "code": "C7506",
+      "action": "modify",
+      "date": "2005-03-30"
+    },
+    {
+      "code": "C7506",
+      "action": "modify",
+      "date": "2007-06-28"
+    },
+    {
+      "code": "C7506",
+      "action": "modify",
+      "date": "2007-12-28"
+    },
+    {
+      "code": "C7506",
+      "action": "modify",
+      "date": "2009-04-06"
+    },
+    {
+      "code": "C7506",
+      "action": "modify",
+      "date": "2009-08-03"
+    },
+    {
+      "code": "C7506",
+      "action": "modify",
+      "date": "2009-11-23"
+    },
+    {
+      "code": "C7506",
+      "action": "modify",
+      "date": "2011-07-25"
+    },
+    {
+      "code": "C7506",
+      "action": "modify",
+      "date": "2011-12-27"
+    },
+    {
+      "code": "C7506",
+      "action": "modify",
+      "date": "2013-02-25"
+    },
+    {
+      "code": "C7506",
+      "action": "modify",
+      "date": "2013-03-04"
+    },
+    {
+      "code": "C7506",
+      "action": "modify",
+      "date": "2013-03-11"
+    },
+    {
+      "code": "C7506",
+      "action": "modify",
+      "date": "2013-03-18"
+    },
+    {
+      "code": "C7506",
+      "action": "modify",
+      "date": "2013-03-25"
+    },
+    {
+      "code": "C7506",
+      "action": "modify",
+      "date": "2013-04-01"
+    },
+    {
+      "code": "C7506",
+      "action": "modify",
+      "date": "2013-04-08"
+    },
+    {
+      "code": "C7506",
+      "action": "modify",
+      "date": "2013-04-15"
+    },
+    {
+      "code": "C7506",
+      "action": "modify",
+      "date": "2013-04-22"
+    },
+    {
+      "code": "C7506",
+      "action": "modify",
+      "date": "2013-04-29"
+    },
+    {
+      "code": "C7506",
+      "action": "modify",
+      "date": "2013-05-06"
+    },
+    {
+      "code": "C7506",
+      "action": "modify",
+      "date": "2013-05-13"
+    },
+    {
+      "code": "C7506",
+      "action": "modify",
+      "date": "2013-05-20"
+    },
+    {
+      "code": "C7506",
+      "action": "modify",
+      "date": "2013-05-28"
+    },
+    {
+      "code": "C7506",
+      "action": "modify",
+      "date": "2013-06-03"
+    },
+    {
+      "code": "C7506",
+      "action": "modify",
+      "date": "2013-06-10"
+    },
+    {
+      "code": "C7506",
+      "action": "modify",
+      "date": "2013-06-17"
+    },
+    {
+      "code": "C7506",
+      "action": "modify",
+      "date": "2013-06-24"
+    },
+    {
+      "code": "C7506",
+      "action": "modify",
+      "date": "2013-07-01"
+    },
+    {
+      "code": "C7506",
+      "action": "modify",
+      "date": "2013-07-08"
+    },
+    {
+      "code": "C7506",
+      "action": "modify",
+      "date": "2014-08-04"
+    },
+    {
+      "code": "C7506",
+      "action": "modify",
+      "date": "2014-08-18"
+    },
+    {
+      "code": "C7506",
+      "action": "modify",
+      "date": "2014-09-22"
+    },
+    {
+      "code": "C7506",
+      "action": "modify",
+      "date": "2016-01-19"
+    },
+    {
+      "code": "C7506",
+      "action": "modify",
+      "date": "2016-04-25"
+    },
+    {
+      "code": "C7506",
+      "action": "modify",
+      "date": "2016-12-05"
+    },
+    {
+      "code": "C7506",
+      "action": "modify",
+      "date": "2017-09-26"
+    },
+    {
+      "code": "C7506",
+      "action": "modify",
+      "date": "2018-07-30"
+    },
+    {
+      "code": "C7506",
+      "action": "modify",
+      "date": "2018-08-27"
+    },
+    {
+      "code": "C7506",
+      "action": "modify",
+      "date": "2018-08-27"
+    },
+    {
+      "code": "C7506",
+      "action": "modify",
+      "date": "2018-09-24"
+    },
+    {
+      "code": "C7506",
+      "action": "modify",
+      "date": "2018-11-26"
+    },
+    {
+      "code": "C7506",
+      "action": "modify",
+      "date": "2018-12-31"
+    },
+    {
+      "code": "C7506",
+      "action": "modify",
+      "date": "2019-02-25"
+    },
+    {
+      "code": "C7506",
+      "action": "modify",
+      "date": "2019-03-25"
+    },
+    {
+      "code": "C7506",
+      "action": "modify",
+      "date": "2019-05-28"
+    },
+    {
+      "code": "C7506",
+      "action": "modify",
+      "date": "2019-09-30"
+    },
+    {
+      "code": "C7506",
+      "action": "modify",
+      "date": "2019-11-25"
+    },
+    {
+      "code": "C7506",
+      "action": "modify",
+      "date": "2020-02-24"
+    },
+    {
+      "code": "C7506",
+      "action": "modify",
+      "date": "2020-04-27"
+    },
+    {
+      "code": "C7506",
+      "action": "modify",
+      "date": "2020-09-29"
+    },
+    {
+      "code": "C7506",
+      "action": "modify",
+      "date": "2021-02-22"
+    },
+    {
+      "code": "C7506",
+      "action": "modify",
+      "date": "2021-03-29"
+    },
+    {
+      "code": "C7506",
+      "action": "modify",
+      "date": "2023-03-27"
+    },
+    {
+      "code": "C7506",
+      "action": "merge",
+      "date": "2023-04-24",
+      "replacementCode": "C7506",
+      "replacementName": "Myelodysplastic Syndrome with Excess Blasts"
+    },
+    {
+      "code": "C7167",
+      "action": "merge",
+      "date": "2023-04-24",
+      "replacementCode": "C7506",
+      "replacementName": "Myelodysplastic Syndrome with Excess Blasts"
+    },
+    {
+      "code": "C7506",
+      "action": "modify",
+      "date": "2023-04-24"
+    },
+    {
+      "code": "C7506",
+      "action": "modify",
+      "date": "2023-05-30"
+    },
+    {
+      "code": "C7506",
+      "action": "modify",
+      "date": "2023-07-31"
+    },
+    {
+      "code": "C7506",
+      "action": "modify",
+      "date": "2023-11-27"
+    },
+    {
+      "code": "C7506",
+      "action": "modify",
+      "date": "2023-12-26"
+    }
+  ],
+  "maps": [
+    {
+      "type": "Related To",
+      "targetName": "9983/3",
+      "targetTermType": "PT",
+      "targetCode": "morphology",
+      "targetTerminology": "GDC"
+    },
+    {
+      "type": "Related To",
+      "targetName": "Myelodysplastic syndrome with excess blasts",
+      "targetTermType": "PT",
+      "targetCode": "9983/3",
+      "targetTerminology": "ICDO3",
+      "targetTerminologyVersion": "3.2"
+    },
+    {
+      "type": "Has Synonym",
+      "targetName": "RAEB I",
+      "targetTermType": "PT",
+      "targetCode": "primary_diagnosis",
+      "targetTerminology": "GDC"
+    },
+    {
+      "type": "Has Synonym",
+      "targetName": "RAEB",
+      "targetTermType": "PT",
+      "targetCode": "primary_diagnosis",
+      "targetTerminology": "GDC"
+    },
+    {
+      "type": "Has Synonym",
+      "targetName": "Refractory anaemia with excess of blasts",
+      "targetTermType": "PT",
+      "targetCode": "D46.2",
+      "targetTerminology": "ICD10CM 2017"
+    },
+    {
+      "type": "Related To",
+      "targetName": "Refractory anemia with excess blasts",
+      "targetTermType": "PT",
+      "targetCode": "9983/3",
+      "targetTerminology": "ICDO3",
+      "targetTerminologyVersion": "3.1"
+    },
+    {
+      "type": "Has Synonym",
+      "targetName": "Refractory anemia with excess blasts",
+      "targetTermType": "PT",
+      "targetCode": "primary_diagnosis",
+      "targetTerminology": "GDC"
+    },
+    {
+      "type": "Related To",
+      "targetName": "Refractory anemia with excess of blasts, unspecified",
+      "targetTermType": "PT",
+      "targetCode": "D46.20",
+      "targetTerminology": "ICD10CM 2017"
+    }
+  ]
+}

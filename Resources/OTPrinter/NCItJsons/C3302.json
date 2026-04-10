@@ -1,0 +1,517 @@
+{
+  "code": "C3302",
+  "name": "Extramammary Paget Disease",
+  "terminology": "ncit",
+  "version": "25.11d",
+  "conceptStatus": "DEFAULT",
+  "leaf": false,
+  "active": true,
+  "synonyms": [
+    {
+      "name": "Extramammary Paget Disease",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "Cellosaurus"
+    },
+    {
+      "name": "Paget disease, extramammary",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "GDC"
+    },
+    {
+      "name": "Cutaneous Paget's Disease",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "EMPD",
+      "termType": "AB",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Extramammary Paget Disease",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Extramammary Paget's Disease",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Paget Disease Extramammary",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Paget Disease, Extramammary",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Paget's Disease of Skin",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Paget's Disease of the Skin",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Paget's Skin Disease",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Extramammary Paget Disease",
+      "type": "Preferred_Name"
+    }
+  ],
+  "definitions": [
+    {
+      "definition": "A malignant neoplasm in which there is infiltration of the skin by neoplastic large cells with abundant pale cytoplasm and large nuclei with prominent nucleoli (Paget cells). It may affect the anus, penis, scrotum, and vulva.",
+      "type": "DEFINITION",
+      "source": "NCI"
+    }
+  ],
+  "properties": [
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "Cellosaurus"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "GDC"
+    },
+    {
+      "code": "P334",
+      "type": "ICD-O-3_Code",
+      "value": "8542/3"
+    },
+    {
+      "code": "P366",
+      "type": "Legacy Concept Name",
+      "value": "Extramammary_Paget_s_Disease"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "8542/3"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "Paget disease, extramammary"
+    },
+    {
+      "code": "P363",
+      "type": "Neoplastic_Status",
+      "value": "Malignant"
+    },
+    {
+      "code": "P106",
+      "type": "Semantic_Type",
+      "value": "Neoplastic Process"
+    },
+    {
+      "code": "P207",
+      "type": "UMLS_CUI",
+      "value": "C0030186"
+    }
+  ],
+  "children": [
+    {
+      "code": "C5598",
+      "name": "Anal Paget Disease",
+      "leaf": false
+    },
+    {
+      "code": "C200067",
+      "name": "Metastatic Extramammary Paget Disease",
+      "leaf": false
+    },
+    {
+      "code": "C27817",
+      "name": "Penile Paget Disease",
+      "leaf": true
+    },
+    {
+      "code": "C200069",
+      "name": "Recurrent Extramammary Paget Disease",
+      "leaf": false
+    },
+    {
+      "code": "C199643",
+      "name": "Refractory Extramammary Paget Disease",
+      "leaf": true
+    },
+    {
+      "code": "C7728",
+      "name": "Scrotal Paget Disease",
+      "leaf": true
+    },
+    {
+      "code": "C4027",
+      "name": "Vulvar Paget Disease",
+      "leaf": true
+    }
+  ],
+  "parents": [
+    {
+      "code": "C7073",
+      "name": "Paget Disease"
+    }
+  ],
+  "associations": [
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C165258",
+      "relatedName": "Cellosaurus Disease Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C157711",
+      "relatedName": "GDC Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C177537",
+      "relatedName": "GDC Value Terminology"
+    },
+    {
+      "type": "Is_Value_For_GDC_Property",
+      "relatedCode": "C176985",
+      "relatedName": "Histology ICD-O Morphology Code"
+    },
+    {
+      "type": "Is_Value_For_GDC_Property",
+      "relatedCode": "C177621",
+      "relatedName": "ICD-O-3 Morphology Term Diagnosis Question"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168658",
+      "relatedName": "Mapped ICDO3.1 Morphology PT Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168657",
+      "relatedName": "Mapped ICDO3.1 Morphology Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168655",
+      "relatedName": "Mapped ICDO3.1 Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168662",
+      "relatedName": "Mapped ICDO3.2 Morphology PT Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168661",
+      "relatedName": "Mapped ICDO3.2 Morphology Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168656",
+      "relatedName": "Mapped ICDO3.2 Terminology"
+    }
+  ],
+  "inverseAssociations": [
+    {
+      "type": "Has_GDC_Value",
+      "relatedCode": "C176985",
+      "relatedName": "Histology ICD-O Morphology Code"
+    },
+    {
+      "type": "Has_GDC_Value",
+      "relatedCode": "C177621",
+      "relatedName": "ICD-O-3 Morphology Term Diagnosis Question"
+    }
+  ],
+  "roles": [
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36773",
+      "relatedName": "Adenocarcinoma Cell"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C36122",
+      "relatedName": "Benign Cellular Infiltrate"
+    },
+    {
+      "type": "Disease_Excludes_Primary_Anatomic_Site",
+      "relatedCode": "C12971",
+      "relatedName": "Breast"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C54172",
+      "relatedName": "Carcinomatous Component Present"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C12578",
+      "relatedName": "Epithelial Cell"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C53596",
+      "relatedName": "Epithelial Component Present"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C45714",
+      "relatedName": "Epithelial Tissue"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12917",
+      "relatedName": "Malignant Cell"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C36115",
+      "relatedName": "Malignant Cellular Infiltrate"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36779",
+      "relatedName": "Malignant Epithelial Cell"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C36771",
+      "relatedName": "Malignant Squamous Cell"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C37153",
+      "relatedName": "Malignant Stromal Cell"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C62273",
+      "relatedName": "Mixed Neoplastic Glandular and Squamous Cell Population"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12922",
+      "relatedName": "Neoplastic Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36753",
+      "relatedName": "Neoplastic Epithelial Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36763",
+      "relatedName": "Neoplastic Glandular Cell"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C36937",
+      "relatedName": "Neoplastic Smooth Muscle Cell"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C36760",
+      "relatedName": "Neoplastic Squamous Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36754",
+      "relatedName": "Paget Cell"
+    }
+  ],
+  "history": [
+    {
+      "code": "C3302",
+      "action": "create",
+      "date": "2003-08-12"
+    },
+    {
+      "code": "C3302",
+      "action": "modify",
+      "date": "2003-12-30"
+    },
+    {
+      "code": "C3302",
+      "action": "merge",
+      "date": "2005-01-28",
+      "replacementCode": "C3302",
+      "replacementName": "Extramammary Paget Disease"
+    },
+    {
+      "code": "C4688",
+      "action": "merge",
+      "date": "2005-01-28",
+      "replacementCode": "C3302",
+      "replacementName": "Extramammary Paget Disease"
+    },
+    {
+      "code": "C3302",
+      "action": "modify",
+      "date": "2006-09-01"
+    },
+    {
+      "code": "C3302",
+      "action": "modify",
+      "date": "2007-02-23"
+    },
+    {
+      "code": "C3302",
+      "action": "modify",
+      "date": "2007-03-30"
+    },
+    {
+      "code": "C3302",
+      "action": "modify",
+      "date": "2007-04-30"
+    },
+    {
+      "code": "C3302",
+      "action": "modify",
+      "date": "2009-04-06"
+    },
+    {
+      "code": "C3302",
+      "action": "modify",
+      "date": "2009-10-27"
+    },
+    {
+      "code": "C3302",
+      "action": "modify",
+      "date": "2009-11-23"
+    },
+    {
+      "code": "C3302",
+      "action": "modify",
+      "date": "2010-02-09"
+    },
+    {
+      "code": "C3302",
+      "action": "modify",
+      "date": "2010-03-08"
+    },
+    {
+      "code": "C3302",
+      "action": "modify",
+      "date": "2014-02-03"
+    },
+    {
+      "code": "C3302",
+      "action": "modify",
+      "date": "2016-04-04"
+    },
+    {
+      "code": "C3302",
+      "action": "modify",
+      "date": "2018-09-24"
+    },
+    {
+      "code": "C3302",
+      "action": "modify",
+      "date": "2019-05-28"
+    },
+    {
+      "code": "C3302",
+      "action": "modify",
+      "date": "2019-09-30"
+    },
+    {
+      "code": "C3302",
+      "action": "modify",
+      "date": "2019-11-25"
+    },
+    {
+      "code": "C3302",
+      "action": "modify",
+      "date": "2020-02-24"
+    },
+    {
+      "code": "C3302",
+      "action": "modify",
+      "date": "2020-04-27"
+    },
+    {
+      "code": "C3302",
+      "action": "modify",
+      "date": "2021-02-22"
+    },
+    {
+      "code": "C3302",
+      "action": "modify",
+      "date": "2021-03-29"
+    },
+    {
+      "code": "C3302",
+      "action": "modify",
+      "date": "2023-10-30"
+    },
+    {
+      "code": "C3302",
+      "action": "modify",
+      "date": "2023-11-27"
+    },
+    {
+      "code": "C3302",
+      "action": "modify",
+      "date": "2024-05-28"
+    },
+    {
+      "code": "C3302",
+      "action": "modify",
+      "date": "2025-03-31"
+    }
+  ],
+  "maps": [
+    {
+      "type": "Related To",
+      "targetName": "8542/3",
+      "targetTermType": "PT",
+      "targetCode": "morphology",
+      "targetTerminology": "GDC"
+    },
+    {
+      "type": "Related To",
+      "targetName": "Paget disease, extramammary",
+      "targetTermType": "PT",
+      "targetCode": "8542/3",
+      "targetTerminology": "ICDO3",
+      "targetTerminologyVersion": "3.1"
+    },
+    {
+      "type": "Related To",
+      "targetName": "Paget disease, extramammary",
+      "targetTermType": "PT",
+      "targetCode": "8542/3",
+      "targetTerminology": "ICDO3",
+      "targetTerminologyVersion": "3.2"
+    },
+    {
+      "type": "Has Synonym",
+      "targetName": "Paget disease, extramammary",
+      "targetTermType": "PT",
+      "targetCode": "primary_diagnosis",
+      "targetTerminology": "GDC"
+    }
+  ]
+}

@@ -1,0 +1,646 @@
+{
+  "code": "C6801",
+  "name": "Skin Fibrous Histiocytoma",
+  "terminology": "ncit",
+  "version": "25.11d",
+  "conceptStatus": "DEFAULT",
+  "leaf": false,
+  "active": true,
+  "synonyms": [
+    {
+      "name": "Subepidermal nodular fibrosis",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "GDC"
+    },
+    {
+      "name": "Benign Cutaneous Fibrous Histiocytoma",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Benign Fibrous Cutaneous Histiocytoma",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Benign Fibrous Histiocytoma of Skin",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Benign Fibrous Histiocytoma of the Skin",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Benign Skin Fibrous Histiocytoma",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Cutaneous Fibrous Histiocytoma",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Dermatofibroma",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Fibrous Histiocytoma of Skin",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Fibrous Histiocytoma of the Skin",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Skin Fibrous Histiocytoma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Skin Fibrous Histiocytoma",
+      "type": "Preferred_Name"
+    }
+  ],
+  "definitions": [
+    {
+      "definition": "A solitary, slowly growing, nodular tumor most often affecting the extremities. It is composed of fibrous and histiocytic cells which infiltrate the dermis and occasionally the underlying subcutaneous tissue.  Usually local excision is curative. Recurrences are reported only in a small minority of cases.",
+      "type": "DEFINITION",
+      "source": "NCI"
+    }
+  ],
+  "properties": [
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "GDC"
+    },
+    {
+      "code": "P334",
+      "type": "ICD-O-3_Code",
+      "value": "8832/0"
+    },
+    {
+      "code": "P366",
+      "type": "Legacy Concept Name",
+      "value": "Benign_Cutaneous_Fibrohistiocytic_Neoplasm"
+    },
+    {
+      "code": "P366",
+      "type": "Legacy Concept Name",
+      "value": "Cutaneous_Fibrous_Histiocytoma"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "8832/0"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "Cutaneous histiocytoma, NOS"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "Dermatofibroma lenticulare"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "Dermatofibroma, NOS"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "Sclerosing hemangioma"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "Subepidermal nodular fibrosis"
+    },
+    {
+      "code": "P363",
+      "type": "Neoplastic_Status",
+      "value": "Benign"
+    },
+    {
+      "code": "P106",
+      "type": "Semantic_Type",
+      "value": "Neoplastic Process"
+    },
+    {
+      "code": "P207",
+      "type": "UMLS_CUI",
+      "value": "C0002991"
+    }
+  ],
+  "children": [
+    {
+      "code": "C217739",
+      "name": "Eyelid Fibrous Histiocytoma",
+      "leaf": true
+    },
+    {
+      "code": "C206448",
+      "name": "Skin Aneurysmal Fibrous Histiocytoma",
+      "leaf": true
+    },
+    {
+      "code": "C206447",
+      "name": "Skin Atypical Fibrous Histiocytoma",
+      "leaf": true
+    },
+    {
+      "code": "C49078",
+      "name": "Skin Cellular Fibrous Histiocytoma",
+      "leaf": true
+    },
+    {
+      "code": "C206450",
+      "name": "Skin Classic Fibrous Histiocytoma",
+      "leaf": true
+    },
+    {
+      "code": "C49076",
+      "name": "Skin Fibroblastic Fibrous Histiocytoma",
+      "leaf": true
+    },
+    {
+      "code": "C49077",
+      "name": "Skin Histiocytic Fibrous Histiocytoma",
+      "leaf": true
+    }
+  ],
+  "parents": [
+    {
+      "code": "C7158",
+      "name": "Benign Dermal Neoplasm"
+    },
+    {
+      "code": "C4242",
+      "name": "Benign Soft Tissue Neoplasm"
+    },
+    {
+      "code": "C3739",
+      "name": "Fibrous Histiocytoma"
+    },
+    {
+      "code": "C7749",
+      "name": "Skin Fibrohistiocytic Neoplasm"
+    }
+  ],
+  "associations": [
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C157711",
+      "relatedName": "GDC Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C177537",
+      "relatedName": "GDC Value Terminology"
+    },
+    {
+      "type": "Is_Value_For_GDC_Property",
+      "relatedCode": "C176985",
+      "relatedName": "Histology ICD-O Morphology Code"
+    },
+    {
+      "type": "Is_Value_For_GDC_Property",
+      "relatedCode": "C177621",
+      "relatedName": "ICD-O-3 Morphology Term Diagnosis Question"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168658",
+      "relatedName": "Mapped ICDO3.1 Morphology PT Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168657",
+      "relatedName": "Mapped ICDO3.1 Morphology Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168655",
+      "relatedName": "Mapped ICDO3.1 Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168662",
+      "relatedName": "Mapped ICDO3.2 Morphology PT Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168661",
+      "relatedName": "Mapped ICDO3.2 Morphology Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168656",
+      "relatedName": "Mapped ICDO3.2 Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C126659",
+      "relatedName": "NCIt Neoplasm Core Terminology"
+    }
+  ],
+  "inverseAssociations": [
+    {
+      "type": "Has_GDC_Value",
+      "relatedCode": "C176985",
+      "relatedName": "Histology ICD-O Morphology Code"
+    },
+    {
+      "type": "Has_GDC_Value",
+      "relatedCode": "C177621",
+      "relatedName": "ICD-O-3 Morphology Term Diagnosis Question"
+    }
+  ],
+  "roles": [
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C36122",
+      "relatedName": "Benign Cellular Infiltrate"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C35980",
+      "relatedName": "Chronic Inflammatory Infiltrate"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C12555",
+      "relatedName": "Connective and Soft Tissue Cell"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12964",
+      "relatedName": "Connective and Soft Tissue"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12964",
+      "relatedName": "Connective and Soft Tissue"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C39570",
+      "relatedName": "Cutaneous Involvement"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C12701",
+      "relatedName": "Dermis"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12701",
+      "relatedName": "Dermis"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C4086",
+      "relatedName": "Dysplasia"
+    },
+    {
+      "type": "Disease_Excludes_Normal_Cell_Origin",
+      "relatedCode": "C12578",
+      "relatedName": "Epithelial Cell"
+    },
+    {
+      "type": "Disease_Excludes_Normal_Tissue_Origin",
+      "relatedCode": "C45714",
+      "relatedName": "Epithelial Tissue"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C12482",
+      "relatedName": "Fibroblast"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C12563",
+      "relatedName": "Histiocyte"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C36105",
+      "relatedName": "Indolent Clinical Course"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12907",
+      "relatedName": "Integumentary System"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C36117",
+      "relatedName": "Invasive Lesion"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C12917",
+      "relatedName": "Malignant Cell"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C36115",
+      "relatedName": "Malignant Cellular Infiltrate"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12922",
+      "relatedName": "Neoplastic Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36887",
+      "relatedName": "Neoplastic Connective and Soft Tissue Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36962",
+      "relatedName": "Neoplastic Fibrohistiocytic Cell"
+    },
+    {
+      "type": "Disease_Excludes_Normal_Cell_Origin",
+      "relatedCode": "C41405",
+      "relatedName": "Neuron, Neuroepithelial Cell, and Supporting Cell of the Nervous System"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12470",
+      "relatedName": "Skin"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12470",
+      "relatedName": "Skin"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12471",
+      "relatedName": "Soft Tissue"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12471",
+      "relatedName": "Soft Tissue"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C35888",
+      "relatedName": "Storiform Growth Pattern"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C41457",
+      "relatedName": "Well-Circumscribed Lesion"
+    }
+  ],
+  "history": [
+    {
+      "code": "C6801",
+      "action": "create",
+      "date": "2003-08-12"
+    },
+    {
+      "code": "C6801",
+      "action": "modify",
+      "date": "2003-10-31"
+    },
+    {
+      "code": "C6801",
+      "action": "modify",
+      "date": "2003-12-30"
+    },
+    {
+      "code": "C6801",
+      "action": "modify",
+      "date": "2004-03-30"
+    },
+    {
+      "code": "C6801",
+      "action": "modify",
+      "date": "2005-10-31"
+    },
+    {
+      "code": "C6801",
+      "action": "modify",
+      "date": "2006-03-31"
+    },
+    {
+      "code": "C6801",
+      "action": "modify",
+      "date": "2007-03-30"
+    },
+    {
+      "code": "C6801",
+      "action": "modify",
+      "date": "2007-05-25"
+    },
+    {
+      "code": "C6801",
+      "action": "modify",
+      "date": "2009-11-02"
+    },
+    {
+      "code": "C6801",
+      "action": "modify",
+      "date": "2009-11-23"
+    },
+    {
+      "code": "C6801",
+      "action": "modify",
+      "date": "2010-03-08"
+    },
+    {
+      "code": "C6801",
+      "action": "modify",
+      "date": "2014-02-03"
+    },
+    {
+      "code": "C6801",
+      "action": "modify",
+      "date": "2015-05-26"
+    },
+    {
+      "code": "C6801",
+      "action": "modify",
+      "date": "2016-04-25"
+    },
+    {
+      "code": "C6801",
+      "action": "modify",
+      "date": "2016-09-12"
+    },
+    {
+      "code": "C6801",
+      "action": "modify",
+      "date": "2018-09-24"
+    },
+    {
+      "code": "C6801",
+      "action": "modify",
+      "date": "2019-05-28"
+    },
+    {
+      "code": "C6801",
+      "action": "modify",
+      "date": "2019-09-30"
+    },
+    {
+      "code": "C6801",
+      "action": "modify",
+      "date": "2020-02-24"
+    },
+    {
+      "code": "C6801",
+      "action": "modify",
+      "date": "2020-03-30"
+    },
+    {
+      "code": "C6801",
+      "action": "modify",
+      "date": "2020-04-27"
+    },
+    {
+      "code": "C6801",
+      "action": "modify",
+      "date": "2021-02-22"
+    },
+    {
+      "code": "C6801",
+      "action": "modify",
+      "date": "2021-03-29"
+    },
+    {
+      "code": "C6801",
+      "action": "merge",
+      "date": "2024-06-24",
+      "replacementCode": "C6801",
+      "replacementName": "Skin Fibrous Histiocytoma"
+    },
+    {
+      "code": "C7343",
+      "action": "merge",
+      "date": "2024-06-24",
+      "replacementCode": "C6801",
+      "replacementName": "Skin Fibrous Histiocytoma"
+    },
+    {
+      "code": "C6801",
+      "action": "modify",
+      "date": "2024-06-24"
+    },
+    {
+      "code": "C6801",
+      "action": "modify",
+      "date": "2024-09-30"
+    },
+    {
+      "code": "C6801",
+      "action": "merge",
+      "date": "2025-07-28",
+      "replacementCode": "C6801",
+      "replacementName": "Skin Fibrous Histiocytoma"
+    },
+    {
+      "code": "C7159",
+      "action": "merge",
+      "date": "2025-07-28",
+      "replacementCode": "C6801",
+      "replacementName": "Skin Fibrous Histiocytoma"
+    },
+    {
+      "code": "C6801",
+      "action": "modify",
+      "date": "2025-08-25"
+    },
+    {
+      "code": "C6801",
+      "action": "modify",
+      "date": "2025-09-29"
+    }
+  ],
+  "maps": [
+    {
+      "type": "Related To",
+      "targetName": "8832/0",
+      "targetTermType": "PT",
+      "targetCode": "morphology",
+      "targetTerminology": "GDC"
+    },
+    {
+      "type": "Related To",
+      "targetName": "Cutaneous histiocytoma, NOS",
+      "targetTermType": "PT",
+      "targetCode": "primary_diagnosis",
+      "targetTerminology": "GDC"
+    },
+    {
+      "type": "Related To",
+      "targetName": "Dermatofibroma lenticulare",
+      "targetTermType": "PT",
+      "targetCode": "primary_diagnosis",
+      "targetTerminology": "GDC"
+    },
+    {
+      "type": "Related To",
+      "targetName": "Dermatofibroma, NOS",
+      "targetTermType": "PT",
+      "targetCode": "8832/0",
+      "targetTerminology": "ICDO3",
+      "targetTerminologyVersion": "3.1"
+    },
+    {
+      "type": "Related To",
+      "targetName": "Dermatofibroma, NOS",
+      "targetTermType": "PT",
+      "targetCode": "8832/0",
+      "targetTerminology": "ICDO3",
+      "targetTerminologyVersion": "3.2"
+    },
+    {
+      "type": "Related To",
+      "targetName": "Dermatofibroma, NOS",
+      "targetTermType": "PT",
+      "targetCode": "primary_diagnosis",
+      "targetTerminology": "GDC"
+    },
+    {
+      "type": "Related To",
+      "targetName": "Sclerosing hemangioma",
+      "targetTermType": "PT",
+      "targetCode": "primary_diagnosis",
+      "targetTerminology": "GDC"
+    },
+    {
+      "type": "Has Synonym",
+      "targetName": "Subepidermal nodular fibrosis",
+      "targetTermType": "PT",
+      "targetCode": "primary_diagnosis",
+      "targetTerminology": "GDC"
+    }
+  ]
+}

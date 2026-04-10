@@ -1,0 +1,620 @@
+{
+  "code": "C5560",
+  "name": "Porocarcinoma",
+  "terminology": "ncit",
+  "version": "25.11d",
+  "conceptStatus": "DEFAULT",
+  "leaf": false,
+  "active": true,
+  "synonyms": [
+    {
+      "name": "Eccrine Porocarcinoma",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Epidermotropic Eccrine Carcinoma",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Malignant Eccrine Poroma",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Porocarcinoma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Porocarcinoma",
+      "type": "Preferred_Name"
+    }
+  ],
+  "definitions": [
+    {
+      "definition": "A carcinoma with eccrine differentiation arising from the sweat glands. It may arise de novo or as a malignant transformation of a pre-existing poroma. It usually grows in the legs, buttocks, feet, and trunk and usually presents as an ulcerative plaque. It is characterized by the presence of intraepidermal and dermal nests of malignant epithelial cells. It may recur after excision and metastasize to the lymph nodes and less frequently to distal anatomic sites.",
+      "type": "DEFINITION",
+      "source": "NCI"
+    }
+  ],
+  "properties": [
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "GDC"
+    },
+    {
+      "code": "P334",
+      "type": "ICD-O-3_Code",
+      "value": "8409/3"
+    },
+    {
+      "code": "P366",
+      "type": "Legacy Concept Name",
+      "value": "Eccrine_Porocarcinoma"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "8409/3"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "Eccrine poroma, malignant"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "Porocarcinoma"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "Porocarcinoma, NOS"
+    },
+    {
+      "code": "P363",
+      "type": "Neoplastic_Status",
+      "value": "Malignant"
+    },
+    {
+      "code": "P106",
+      "type": "Semantic_Type",
+      "value": "Neoplastic Process"
+    },
+    {
+      "code": "P207",
+      "type": "UMLS_CUI",
+      "value": "C1266065"
+    }
+  ],
+  "children": [
+    {
+      "code": "C43354",
+      "name": "Porocarcinoma In Situ",
+      "leaf": true
+    },
+    {
+      "code": "C40306",
+      "name": "Vulvar Porocarcinoma",
+      "leaf": true
+    }
+  ],
+  "parents": [
+    {
+      "code": "C27255",
+      "name": "Eccrine Carcinoma"
+    }
+  ],
+  "associations": [
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C157711",
+      "relatedName": "GDC Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C177537",
+      "relatedName": "GDC Value Terminology"
+    },
+    {
+      "type": "Is_Value_For_GDC_Property",
+      "relatedCode": "C176985",
+      "relatedName": "Histology ICD-O Morphology Code"
+    },
+    {
+      "type": "Is_Value_For_GDC_Property",
+      "relatedCode": "C177621",
+      "relatedName": "ICD-O-3 Morphology Term Diagnosis Question"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168658",
+      "relatedName": "Mapped ICDO3.1 Morphology PT Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168657",
+      "relatedName": "Mapped ICDO3.1 Morphology Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168655",
+      "relatedName": "Mapped ICDO3.1 Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168662",
+      "relatedName": "Mapped ICDO3.2 Morphology PT Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168661",
+      "relatedName": "Mapped ICDO3.2 Morphology Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168656",
+      "relatedName": "Mapped ICDO3.2 Terminology"
+    }
+  ],
+  "inverseAssociations": [
+    {
+      "type": "Has_GDC_Value",
+      "relatedCode": "C176985",
+      "relatedName": "Histology ICD-O Morphology Code"
+    },
+    {
+      "type": "Has_GDC_Value",
+      "relatedCode": "C177621",
+      "relatedName": "ICD-O-3 Morphology Term Diagnosis Question"
+    }
+  ],
+  "roles": [
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36773",
+      "relatedName": "Adenocarcinoma Cell"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C62285",
+      "relatedName": "Adnexal Differentiation"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C137974",
+      "relatedName": "Adnexa"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C36122",
+      "relatedName": "Benign Cellular Infiltrate"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C54172",
+      "relatedName": "Carcinomatous Component Present"
+    },
+    {
+      "type": "Disease_May_Have_Molecular_Abnormality",
+      "relatedCode": "C128817",
+      "relatedName": "CDKN2A Gene Mutation"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C39570",
+      "relatedName": "Cutaneous Involvement"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C45321",
+      "relatedName": "Dermal Involvement"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C62497",
+      "relatedName": "Eccrine Adenocarcinoma Cell"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C43373",
+      "relatedName": "Eccrine Cell"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C62208",
+      "relatedName": "Eccrine Differentiation"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C32490",
+      "relatedName": "Eccrine Sweat Gland"
+    },
+    {
+      "type": "Disease_May_Have_Molecular_Abnormality",
+      "relatedCode": "C98357",
+      "relatedName": "EGFR Gene Mutation"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C62463",
+      "relatedName": "Epidermal Involvement"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C12578",
+      "relatedName": "Epithelial Cell"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C53596",
+      "relatedName": "Epithelial Component Present"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C45714",
+      "relatedName": "Epithelial Tissue"
+    },
+    {
+      "type": "Disease_May_Have_Molecular_Abnormality",
+      "relatedCode": "C96866",
+      "relatedName": "ERBB2 Gene Mutation"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12957",
+      "relatedName": "Exocrine System"
+    },
+    {
+      "type": "Disease_May_Have_Molecular_Abnormality",
+      "relatedCode": "C39877",
+      "relatedName": "FGFR3 Gene Mutation"
+    },
+    {
+      "type": "Disease_May_Have_Molecular_Abnormality",
+      "relatedCode": "C45934",
+      "relatedName": "HRAS Gene Mutation"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12907",
+      "relatedName": "Integumentary System"
+    },
+    {
+      "type": "Disease_May_Have_Molecular_Abnormality",
+      "relatedCode": "C41361",
+      "relatedName": "KRAS Gene Mutation"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12917",
+      "relatedName": "Malignant Cell"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C36115",
+      "relatedName": "Malignant Cellular Infiltrate"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C62499",
+      "relatedName": "Malignant Eccrine Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36779",
+      "relatedName": "Malignant Epithelial Cell"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C36771",
+      "relatedName": "Malignant Squamous Cell"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C37153",
+      "relatedName": "Malignant Stromal Cell"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C62273",
+      "relatedName": "Mixed Neoplastic Glandular and Squamous Cell Population"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12922",
+      "relatedName": "Neoplastic Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C62495",
+      "relatedName": "Neoplastic Eccrine Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36753",
+      "relatedName": "Neoplastic Epithelial Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36763",
+      "relatedName": "Neoplastic Glandular Cell"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C36937",
+      "relatedName": "Neoplastic Smooth Muscle Cell"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C36760",
+      "relatedName": "Neoplastic Squamous Cell"
+    },
+    {
+      "type": "Disease_May_Have_Molecular_Abnormality",
+      "relatedCode": "C41381",
+      "relatedName": "NRAS Gene Mutation"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C39690",
+      "relatedName": "Papular Lesion"
+    },
+    {
+      "type": "Disease_May_Have_Molecular_Abnormality",
+      "relatedCode": "C96271",
+      "relatedName": "PIK3CA Gene Mutation"
+    },
+    {
+      "type": "Disease_May_Have_Molecular_Abnormality",
+      "relatedCode": "C133696",
+      "relatedName": "RB1 Gene Mutation"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C212121",
+      "relatedName": "Skin Adnexa"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C39624",
+      "relatedName": "Skin Plaque"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12470",
+      "relatedName": "Skin"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12470",
+      "relatedName": "Skin"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C33712",
+      "relatedName": "Sweat Gland"
+    },
+    {
+      "type": "Disease_May_Have_Molecular_Abnormality",
+      "relatedCode": "C36329",
+      "relatedName": "TP53 Gene Inactivation"
+    },
+    {
+      "type": "Disease_Mapped_To_Gene",
+      "relatedCode": "C205757",
+      "relatedName": "WWTR1/NUTM1 Fusion Gene"
+    },
+    {
+      "type": "Disease_Mapped_To_Gene",
+      "relatedCode": "C205495",
+      "relatedName": "YAP1/MAML2 Fusion Gene"
+    },
+    {
+      "type": "Disease_Mapped_To_Gene",
+      "relatedCode": "C205496",
+      "relatedName": "YAP1/NUTM1 Fusion Gene"
+    }
+  ],
+  "inverseRoles": [
+    {
+      "type": "Gene_Involved_In_Pathogenesis_Of_Disease",
+      "relatedCode": "C205757",
+      "relatedName": "WWTR1/NUTM1 Fusion Gene"
+    },
+    {
+      "type": "Gene_Involved_In_Pathogenesis_Of_Disease",
+      "relatedCode": "C205495",
+      "relatedName": "YAP1/MAML2 Fusion Gene"
+    },
+    {
+      "type": "Gene_Involved_In_Pathogenesis_Of_Disease",
+      "relatedCode": "C205496",
+      "relatedName": "YAP1/NUTM1 Fusion Gene"
+    }
+  ],
+  "history": [
+    {
+      "code": "C5560",
+      "action": "create",
+      "date": "2003-08-12"
+    },
+    {
+      "code": "C5560",
+      "action": "modify",
+      "date": "2003-10-31"
+    },
+    {
+      "code": "C5560",
+      "action": "modify",
+      "date": "2003-12-30"
+    },
+    {
+      "code": "C5560",
+      "action": "modify",
+      "date": "2004-03-30"
+    },
+    {
+      "code": "C5560",
+      "action": "modify",
+      "date": "2005-01-28"
+    },
+    {
+      "code": "C5560",
+      "action": "modify",
+      "date": "2006-09-01"
+    },
+    {
+      "code": "C5560",
+      "action": "modify",
+      "date": "2006-09-29"
+    },
+    {
+      "code": "C5560",
+      "action": "modify",
+      "date": "2007-03-30"
+    },
+    {
+      "code": "C5560",
+      "action": "modify",
+      "date": "2007-04-30"
+    },
+    {
+      "code": "C5560",
+      "action": "modify",
+      "date": "2009-04-06"
+    },
+    {
+      "code": "C5560",
+      "action": "modify",
+      "date": "2009-11-02"
+    },
+    {
+      "code": "C5560",
+      "action": "modify",
+      "date": "2009-11-23"
+    },
+    {
+      "code": "C5560",
+      "action": "modify",
+      "date": "2012-04-16"
+    },
+    {
+      "code": "C5560",
+      "action": "modify",
+      "date": "2014-02-03"
+    },
+    {
+      "code": "C5560",
+      "action": "modify",
+      "date": "2018-09-24"
+    },
+    {
+      "code": "C5560",
+      "action": "modify",
+      "date": "2018-10-29"
+    },
+    {
+      "code": "C5560",
+      "action": "modify",
+      "date": "2018-10-29"
+    },
+    {
+      "code": "C5560",
+      "action": "modify",
+      "date": "2019-05-28"
+    },
+    {
+      "code": "C5560",
+      "action": "modify",
+      "date": "2019-09-30"
+    },
+    {
+      "code": "C5560",
+      "action": "modify",
+      "date": "2020-01-27"
+    },
+    {
+      "code": "C5560",
+      "action": "modify",
+      "date": "2020-02-24"
+    },
+    {
+      "code": "C5560",
+      "action": "modify",
+      "date": "2020-03-30"
+    },
+    {
+      "code": "C5560",
+      "action": "modify",
+      "date": "2020-04-27"
+    },
+    {
+      "code": "C5560",
+      "action": "modify",
+      "date": "2021-02-22"
+    },
+    {
+      "code": "C5560",
+      "action": "modify",
+      "date": "2021-03-29"
+    },
+    {
+      "code": "C5560",
+      "action": "modify",
+      "date": "2023-12-26"
+    },
+    {
+      "code": "C5560",
+      "action": "modify",
+      "date": "2024-05-28"
+    }
+  ],
+  "maps": [
+    {
+      "type": "Related To",
+      "targetName": "8409/3",
+      "targetTermType": "PT",
+      "targetCode": "morphology",
+      "targetTerminology": "GDC"
+    },
+    {
+      "type": "Related To",
+      "targetName": "Eccrine poroma, malignant",
+      "targetTermType": "PT",
+      "targetCode": "8409/3",
+      "targetTerminology": "ICDO3",
+      "targetTerminologyVersion": "3.1"
+    },
+    {
+      "type": "Related To",
+      "targetName": "Eccrine poroma, malignant",
+      "targetTermType": "PT",
+      "targetCode": "primary_diagnosis",
+      "targetTerminology": "GDC"
+    },
+    {
+      "type": "Related To",
+      "targetName": "Porocarcinoma, NOS",
+      "targetTermType": "PT",
+      "targetCode": "8409/3",
+      "targetTerminology": "ICDO3",
+      "targetTerminologyVersion": "3.2"
+    },
+    {
+      "type": "Related To",
+      "targetName": "Porocarcinoma",
+      "targetTermType": "PT",
+      "targetCode": "primary_diagnosis",
+      "targetTerminology": "GDC"
+    }
+  ]
+}

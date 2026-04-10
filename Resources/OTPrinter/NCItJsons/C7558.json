@@ -1,0 +1,2445 @@
+{
+  "code": "C7558",
+  "name": "Endometrial Carcinoma",
+  "terminology": "ncit",
+  "version": "25.11d",
+  "conceptStatus": "DEFAULT",
+  "leaf": false,
+  "active": true,
+  "synonyms": [
+    {
+      "name": "Endometrial Carcinoma",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "caDSR"
+    },
+    {
+      "name": "Carcinoma of Endometrium",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "CDISC"
+    },
+    {
+      "name": "Carcinoma of the Endometrium",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "CDISC"
+    },
+    {
+      "name": "CARCINOMA, ENDOMETRIAL, MALIGNANT",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "CDISC"
+    },
+    {
+      "name": "Endometrial Carcinoma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "Cellosaurus"
+    },
+    {
+      "name": "Endometrial Carcinoma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "CPTAC"
+    },
+    {
+      "name": "Uterine Corpus Endomential Carcinoma",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "CPTAC"
+    },
+    {
+      "name": "Endometrial Cancer",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "CTRP"
+    },
+    {
+      "name": "Endometrial Cancer",
+      "termType": "DN",
+      "type": "FULL_SYN",
+      "source": "CTRP"
+    },
+    {
+      "name": "Endometrial Carcinoma",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "CTRP"
+    },
+    {
+      "name": "endometrial cancer",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NCI-GLOSS",
+      "code": "CDR0000444987"
+    },
+    {
+      "name": "Carcinoma of Endometrium",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Carcinoma of the Endometrium",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Endometrial Carcinoma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "UCEC",
+      "termType": "AB",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Endometrial Carcinoma",
+      "type": "Display_Name"
+    },
+    {
+      "name": "Endometrial Carcinoma",
+      "type": "Preferred_Name"
+    }
+  ],
+  "definitions": [
+    {
+      "definition": "A malignant epithelial neoplasm arising from the lining of the uterine body cavity.",
+      "type": "ALT_DEFINITION",
+      "source": "CDISC"
+    },
+    {
+      "definition": "A malignant tumor arising from the epithelium that lines the cavity of the uterine body.  The vast majority of endometrial carcinomas are adenocarcinomas; squamous cell and adenosquamous carcinomas represent a minority of the cases.  Endometrioid adenocarcinoma is the most frequently seen variant of endometrial adenocarcinoma.  Uterine bleeding is an initial clinical sign.  The prognosis depends on the stage of the tumor, the depth of myometrial wall invasion, and the degree of differentiation.",
+      "type": "DEFINITION",
+      "source": "NCI"
+    },
+    {
+      "definition": "Cancer that forms in the tissue lining the uterus (the small, hollow, pear-shaped organ in a woman's pelvis in which a fetus develops). Most endometrial cancers are adenocarcinomas (cancers that begin in cells that make and release mucus and other fluids).",
+      "type": "ALT_DEFINITION",
+      "source": "NCI-GLOSS"
+    }
+  ],
+  "properties": [
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "CDISC"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "Cellosaurus"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "CPTAC"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "CTRP"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "GDC"
+    },
+    {
+      "code": "P366",
+      "type": "Legacy Concept Name",
+      "value": "Endometrial_Carcinoma"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "81"
+    },
+    {
+      "code": "P363",
+      "type": "Neoplastic_Status",
+      "value": "Malignant"
+    },
+    {
+      "code": "P106",
+      "type": "Semantic_Type",
+      "value": "Neoplastic Process"
+    },
+    {
+      "code": "P207",
+      "type": "UMLS_CUI",
+      "value": "C0476089"
+    }
+  ],
+  "children": [
+    {
+      "code": "C205295",
+      "name": "Early Stage Endometrial Carcinoma",
+      "leaf": true
+    },
+    {
+      "code": "C7359",
+      "name": "Endometrial Adenocarcinoma",
+      "leaf": false
+    },
+    {
+      "code": "C114656",
+      "name": "Endometrial Adenosquamous Carcinoma",
+      "leaf": false
+    },
+    {
+      "code": "C206217",
+      "name": "Endometrial Cancer by FIGO Stage 2023",
+      "leaf": false
+    },
+    {
+      "code": "C206278",
+      "name": "Endometrial Carcinoma Molecular Subtypes",
+      "leaf": false
+    },
+    {
+      "code": "C126769",
+      "name": "Endometrial Dedifferentiated Carcinoma",
+      "leaf": false
+    },
+    {
+      "code": "C171033",
+      "name": "Endometrial Neuroendocrine Carcinoma",
+      "leaf": false
+    },
+    {
+      "code": "C8719",
+      "name": "Endometrial Squamous Cell Carcinoma",
+      "leaf": false
+    },
+    {
+      "code": "C40154",
+      "name": "Endometrial Transitional Cell Carcinoma",
+      "leaf": false
+    },
+    {
+      "code": "C190680",
+      "name": "High Grade Endometrial Carcinoma",
+      "leaf": false
+    },
+    {
+      "code": "C156068",
+      "name": "Metastatic Endometrial Carcinoma",
+      "leaf": false
+    },
+    {
+      "code": "C180335",
+      "name": "Microsatellite Stable Endometrial Carcinoma",
+      "leaf": false
+    },
+    {
+      "code": "C214996",
+      "name": "Platinum-Resistant Endometrial Carcinoma",
+      "leaf": false
+    },
+    {
+      "code": "C205187",
+      "name": "Platinum-Sensitive Endometrial Carcinoma",
+      "leaf": false
+    },
+    {
+      "code": "C150094",
+      "name": "Recurrent Endometrial Carcinoma",
+      "leaf": false
+    },
+    {
+      "code": "C150093",
+      "name": "Refractory Endometrial Carcinoma",
+      "leaf": false
+    },
+    {
+      "code": "C205310",
+      "name": "Resectable Endometrial Carcinoma",
+      "leaf": true
+    },
+    {
+      "code": "C171610",
+      "name": "Unresectable Endometrial Carcinoma",
+      "leaf": false
+    }
+  ],
+  "parents": [
+    {
+      "code": "C181162",
+      "name": "Female Reproductive System Carcinoma"
+    },
+    {
+      "code": "C27815",
+      "name": "Malignant Endometrial Neoplasm"
+    }
+  ],
+  "associations": [
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C77526",
+      "relatedName": "CDISC SEND Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C88025",
+      "relatedName": "CDISC SEND Tumor Findings Results Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C165258",
+      "relatedName": "Cellosaurus Disease Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C61410",
+      "relatedName": "Clinical Data Interchange Standards Consortium Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C158520",
+      "relatedName": "CPTAC Codelists Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C156955",
+      "relatedName": "CPTAC Follow-Up Form"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C156966",
+      "relatedName": "CPTAC Neoplasms Codelist"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C156952",
+      "relatedName": "CPTAC Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C159330",
+      "relatedName": "CPTAC Uterine Corpus Endometrial Carcinoma Follow-Up Form"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C118168",
+      "relatedName": "CTRP Disease Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C116977",
+      "relatedName": "CTRP Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C157711",
+      "relatedName": "GDC Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C177537",
+      "relatedName": "GDC Value Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C126659",
+      "relatedName": "NCIt Neoplasm Core Terminology"
+    },
+    {
+      "type": "Is_Value_For_GDC_Property",
+      "relatedCode": "C177584",
+      "relatedName": "TCGA BCR Tumor Code Identifier"
+    }
+  ],
+  "inverseAssociations": [
+    {
+      "type": "Has_GDC_Value",
+      "relatedCode": "C177584",
+      "relatedName": "TCGA BCR Tumor Code Identifier"
+    }
+  ],
+  "roles": [
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C36122",
+      "relatedName": "Benign Cellular Infiltrate"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C54172",
+      "relatedName": "Carcinomatous Component Present"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12316",
+      "relatedName": "Corpus Uteri"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C32514",
+      "relatedName": "Endometrial Cavity"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C32514",
+      "relatedName": "Endometrial Cavity"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C32515",
+      "relatedName": "Endometrial Glandular Cell"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C12313",
+      "relatedName": "Endometrium"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C12578",
+      "relatedName": "Epithelial Cell"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C53596",
+      "relatedName": "Epithelial Component Present"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C45714",
+      "relatedName": "Epithelial Tissue"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12402",
+      "relatedName": "Female Reproductive System"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12402",
+      "relatedName": "Female Reproductive System"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12810",
+      "relatedName": "Genitourinary System"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12810",
+      "relatedName": "Genitourinary System"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12917",
+      "relatedName": "Malignant Cell"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C36115",
+      "relatedName": "Malignant Cellular Infiltrate"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36779",
+      "relatedName": "Malignant Epithelial Cell"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C37153",
+      "relatedName": "Malignant Stromal Cell"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C34818",
+      "relatedName": "Metrorrhagia"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12922",
+      "relatedName": "Neoplastic Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36753",
+      "relatedName": "Neoplastic Epithelial Cell"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C36937",
+      "relatedName": "Neoplastic Smooth Muscle Cell"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C34937",
+      "relatedName": "Postmenopausal Hemorrhage"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12841",
+      "relatedName": "Reproductive System"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12405",
+      "relatedName": "Uterus"
+    }
+  ],
+  "inverseRoles": [
+    {
+      "type": "Disease_May_Have_Associated_Disease",
+      "relatedCode": "C180334",
+      "relatedName": "Advanced Microsatellite Stable Ovarian Carcinoma"
+    },
+    {
+      "type": "Disease_May_Have_Associated_Disease",
+      "relatedCode": "C165458",
+      "relatedName": "Advanced Ovarian Carcinoma"
+    },
+    {
+      "type": "Disease_May_Have_Associated_Disease",
+      "relatedCode": "C170945",
+      "relatedName": "Advanced Ovarian Clear Cell Adenocarcinoma"
+    },
+    {
+      "type": "Disease_May_Have_Associated_Disease",
+      "relatedCode": "C170942",
+      "relatedName": "Advanced Ovarian Endometrioid Adenocarcinoma"
+    },
+    {
+      "type": "Disease_May_Have_Associated_Disease",
+      "relatedCode": "C213327",
+      "relatedName": "Advanced Ovarian High Grade Endometrioid Adenocarcinoma"
+    },
+    {
+      "type": "Disease_May_Have_Associated_Disease",
+      "relatedCode": "C190633",
+      "relatedName": "Advanced Ovarian High Grade Serous Adenocarcinoma"
+    },
+    {
+      "type": "Disease_May_Have_Associated_Disease",
+      "relatedCode": "C170937",
+      "relatedName": "Advanced Ovarian Serous Adenocarcinoma"
+    },
+    {
+      "type": "Disease_May_Have_Associated_Disease",
+      "relatedCode": "C187235",
+      "relatedName": "Advanced Ovarian Serous Cystadenocarcinoma"
+    },
+    {
+      "type": "Disease_May_Have_Associated_Disease",
+      "relatedCode": "C204866",
+      "relatedName": "Advanced Platinum-Refractory Ovarian Carcinoma"
+    },
+    {
+      "type": "Disease_May_Have_Associated_Disease",
+      "relatedCode": "C189977",
+      "relatedName": "Advanced Platinum-Resistant Ovarian Carcinoma"
+    },
+    {
+      "type": "Disease_May_Have_Associated_Disease",
+      "relatedCode": "C208367",
+      "relatedName": "Advanced Platinum-Resistant Ovarian High Grade Serous Adenocarcinoma"
+    },
+    {
+      "type": "Disease_May_Have_Associated_Disease",
+      "relatedCode": "C3939",
+      "relatedName": "Bannayan-Riley-Ruvalcaba Syndrome"
+    },
+    {
+      "type": "Disease_May_Have_Associated_Disease",
+      "relatedCode": "C6264",
+      "relatedName": "Benign Ovarian Luteinized Thecoma"
+    },
+    {
+      "type": "Disease_May_Have_Associated_Disease",
+      "relatedCode": "C5219",
+      "relatedName": "Benign Ovarian Thecoma"
+    },
+    {
+      "type": "Disease_May_Have_Associated_Disease",
+      "relatedCode": "C148024",
+      "relatedName": "BRCA Hereditary Ovarian Carcinoma"
+    },
+    {
+      "type": "Disease_May_Have_Associated_Disease",
+      "relatedCode": "C36100",
+      "relatedName": "BRCA1-Related Hereditary Breast and Ovarian Cancer Syndrome"
+    },
+    {
+      "type": "Regimen_Has_Accepted_Use_For_Disease",
+      "relatedCode": "C63402",
+      "relatedName": "Carboplatin/Paclitaxel Regimen"
+    },
+    {
+      "type": "Disease_May_Have_Associated_Disease",
+      "relatedCode": "C6549",
+      "relatedName": "Childhood Ovarian Choriocarcinoma"
+    },
+    {
+      "type": "Disease_May_Have_Associated_Disease",
+      "relatedCode": "C189334",
+      "relatedName": "Childhood Ovarian Small Cell Carcinoma, Hypercalcemic Type"
+    },
+    {
+      "type": "Regimen_Has_Accepted_Use_For_Disease",
+      "relatedCode": "C63724",
+      "relatedName": "CISCA Regimen"
+    },
+    {
+      "type": "Regimen_Has_Accepted_Use_For_Disease",
+      "relatedCode": "C63520",
+      "relatedName": "Cisplatin/Doxorubicin/Paclitaxel Regimen"
+    },
+    {
+      "type": "Disease_May_Have_Associated_Disease",
+      "relatedCode": "C3076",
+      "relatedName": "Cowden Syndrome"
+    },
+    {
+      "type": "Gene_Product_Malfunction_Associated_With_Disease",
+      "relatedCode": "C21466",
+      "relatedName": "DNA Mismatch Repair Protein Msh2"
+    },
+    {
+      "type": "Gene_Product_Malfunction_Associated_With_Disease",
+      "relatedCode": "C21467",
+      "relatedName": "DNA Mismatch Repair Protein Msh3"
+    },
+    {
+      "type": "Gene_Product_Malfunction_Associated_With_Disease",
+      "relatedCode": "C21468",
+      "relatedName": "DNA Mismatch Repair Protein Msh6"
+    },
+    {
+      "type": "Disease_May_Have_Associated_Disease",
+      "relatedCode": "C199160",
+      "relatedName": "FIGO Grade 1 Ovarian Endometrioid Adenocarcinoma"
+    },
+    {
+      "type": "Disease_May_Have_Associated_Disease",
+      "relatedCode": "C199162",
+      "relatedName": "FIGO Grade 2 Ovarian Endometrioid Adenocarcinoma"
+    },
+    {
+      "type": "Disease_May_Have_Associated_Disease",
+      "relatedCode": "C206249",
+      "relatedName": "FIGO Stage IC Ovarian Cancer 2014"
+    },
+    {
+      "type": "Disease_May_Have_Associated_Disease",
+      "relatedCode": "C128082",
+      "relatedName": "FIGO Stage IC1 Ovarian Cancer 2014"
+    },
+    {
+      "type": "Disease_May_Have_Associated_Disease",
+      "relatedCode": "C128083",
+      "relatedName": "FIGO Stage IC2 Ovarian Cancer 2014"
+    },
+    {
+      "type": "Disease_May_Have_Associated_Disease",
+      "relatedCode": "C128084",
+      "relatedName": "FIGO Stage IC3 Ovarian Cancer 2014"
+    },
+    {
+      "type": "Disease_May_Have_Associated_Disease",
+      "relatedCode": "C128085",
+      "relatedName": "FIGO Stage II Ovarian Cancer 2014"
+    },
+    {
+      "type": "Disease_May_Have_Associated_Disease",
+      "relatedCode": "C128086",
+      "relatedName": "FIGO Stage III Ovarian Cancer 2014"
+    },
+    {
+      "type": "Disease_May_Have_Associated_Disease",
+      "relatedCode": "C128087",
+      "relatedName": "FIGO Stage IIIA Ovarian Cancer 2014"
+    },
+    {
+      "type": "Disease_May_Have_Associated_Disease",
+      "relatedCode": "C128088",
+      "relatedName": "FIGO Stage IIIA1 Ovarian Cancer"
+    },
+    {
+      "type": "Disease_May_Have_Associated_Disease",
+      "relatedCode": "C128089",
+      "relatedName": "FIGO Stage IIIA1(i) Ovarian Cancer"
+    },
+    {
+      "type": "Disease_May_Have_Associated_Disease",
+      "relatedCode": "C128090",
+      "relatedName": "FIGO Stage IIIA1(ii) Ovarian Cancer"
+    },
+    {
+      "type": "Disease_May_Have_Associated_Disease",
+      "relatedCode": "C128091",
+      "relatedName": "FIGO Stage IIIA2 Ovarian Cancer"
+    },
+    {
+      "type": "Disease_May_Have_Associated_Disease",
+      "relatedCode": "C128092",
+      "relatedName": "FIGO Stage IIIB Ovarian Cancer 2014"
+    },
+    {
+      "type": "Disease_May_Have_Associated_Disease",
+      "relatedCode": "C128093",
+      "relatedName": "FIGO Stage IIIC Ovarian Cancer 2014"
+    },
+    {
+      "type": "Disease_May_Have_Associated_Disease",
+      "relatedCode": "C206216",
+      "relatedName": "FIGO Stage IV Ovarian Cancer 2014"
+    },
+    {
+      "type": "Disease_May_Have_Associated_Disease",
+      "relatedCode": "C128094",
+      "relatedName": "FIGO Stage IVA Ovarian Cancer 2014"
+    },
+    {
+      "type": "Disease_May_Have_Associated_Disease",
+      "relatedCode": "C128095",
+      "relatedName": "FIGO Stage IVB Ovarian Cancer 2014"
+    },
+    {
+      "type": "Disease_May_Have_Associated_Disease",
+      "relatedCode": "C36102",
+      "relatedName": "Hereditary Ovarian Carcinoma"
+    },
+    {
+      "type": "Disease_May_Have_Associated_Disease",
+      "relatedCode": "C167072",
+      "relatedName": "Locally Advanced Ovarian Carcinoma"
+    },
+    {
+      "type": "Disease_May_Have_Associated_Disease",
+      "relatedCode": "C215682",
+      "relatedName": "Locally Advanced Ovarian Clear Cell Adenocarcinoma"
+    },
+    {
+      "type": "Disease_May_Have_Associated_Disease",
+      "relatedCode": "C214960",
+      "relatedName": "Locally Advanced Ovarian High Grade Serous Adenocarcinoma"
+    },
+    {
+      "type": "Disease_May_Have_Associated_Disease",
+      "relatedCode": "C187243",
+      "relatedName": "Locally Advanced Ovarian Serous Adenocarcinoma"
+    },
+    {
+      "type": "Disease_May_Have_Associated_Disease",
+      "relatedCode": "C187242",
+      "relatedName": "Locally Advanced Ovarian Serous Cystadenocarcinoma"
+    },
+    {
+      "type": "Disease_May_Have_Associated_Disease",
+      "relatedCode": "C204868",
+      "relatedName": "Locally Advanced Platinum-Refractory Ovarian Carcinoma"
+    },
+    {
+      "type": "Disease_May_Have_Associated_Disease",
+      "relatedCode": "C189978",
+      "relatedName": "Locally Advanced Platinum-Resistant Ovarian Carcinoma"
+    },
+    {
+      "type": "Disease_May_Have_Associated_Disease",
+      "relatedCode": "C215680",
+      "relatedName": "Locally Advanced Unresectable Ovarian Carcinoma"
+    },
+    {
+      "type": "Disease_May_Have_Associated_Disease",
+      "relatedCode": "C215681",
+      "relatedName": "Locally Advanced Unresectable Ovarian Clear Cell Adenocarcinoma"
+    },
+    {
+      "type": "Disease_May_Have_Associated_Disease",
+      "relatedCode": "C187393",
+      "relatedName": "Locally Advanced Unresectable Ovarian High Grade Serous Adenocarcinoma"
+    },
+    {
+      "type": "Disease_May_Have_Associated_Disease",
+      "relatedCode": "C190201",
+      "relatedName": "Locally Recurrent Ovarian Carcinoma"
+    },
+    {
+      "type": "Disease_May_Have_Associated_Disease",
+      "relatedCode": "C217199",
+      "relatedName": "Locally Recurrent Ovarian High Grade Serous Adenocarcinoma"
+    },
+    {
+      "type": "Disease_May_Have_Associated_Disease",
+      "relatedCode": "C6725",
+      "relatedName": "Lynch 1 Syndrome"
+    },
+    {
+      "type": "Disease_May_Have_Associated_Disease",
+      "relatedCode": "C6726",
+      "relatedName": "Lynch 2 Syndrome"
+    },
+    {
+      "type": "Disease_May_Have_Associated_Disease",
+      "relatedCode": "C8494",
+      "relatedName": "Lynch Syndrome"
+    },
+    {
+      "type": "Disease_May_Have_Associated_Disease",
+      "relatedCode": "C4270",
+      "relatedName": "Malignant Ovarian Brenner Tumor"
+    },
+    {
+      "type": "Disease_May_Have_Associated_Disease",
+      "relatedCode": "C6263",
+      "relatedName": "Malignant Ovarian Luteinized Thecoma"
+    },
+    {
+      "type": "Disease_May_Have_Associated_Disease",
+      "relatedCode": "C6929",
+      "relatedName": "Malignant Ovarian Thecoma"
+    },
+    {
+      "type": "Regimen_Has_Accepted_Use_For_Disease",
+      "relatedCode": "C203702",
+      "relatedName": "Medroxyprogesterone Alternating with Tamoxifen Regimen"
+    },
+    {
+      "type": "Regimen_Has_Accepted_Use_For_Disease",
+      "relatedCode": "C156247",
+      "relatedName": "Megestrol/Tamoxifen Regimen"
+    },
+    {
+      "type": "Disease_May_Have_Associated_Disease",
+      "relatedCode": "C180333",
+      "relatedName": "Metastatic Microsatellite Stable Ovarian Carcinoma"
+    },
+    {
+      "type": "Disease_May_Have_Associated_Disease",
+      "relatedCode": "C156064",
+      "relatedName": "Metastatic Ovarian Carcinoma"
+    },
+    {
+      "type": "Disease_May_Have_Associated_Disease",
+      "relatedCode": "C170944",
+      "relatedName": "Metastatic Ovarian Clear Cell Adenocarcinoma"
+    },
+    {
+      "type": "Disease_May_Have_Associated_Disease",
+      "relatedCode": "C170938",
+      "relatedName": "Metastatic Ovarian Endometrioid Adenocarcinoma"
+    },
+    {
+      "type": "Disease_May_Have_Associated_Disease",
+      "relatedCode": "C213326",
+      "relatedName": "Metastatic Ovarian High Grade Endometrioid Adenocarcinoma"
+    },
+    {
+      "type": "Disease_May_Have_Associated_Disease",
+      "relatedCode": "C186454",
+      "relatedName": "Metastatic Ovarian High Grade Serous Adenocarcinoma"
+    },
+    {
+      "type": "Disease_May_Have_Associated_Disease",
+      "relatedCode": "C215217",
+      "relatedName": "Metastatic Ovarian Low Grade Endometrioid Adenocarcinoma"
+    },
+    {
+      "type": "Disease_May_Have_Associated_Disease",
+      "relatedCode": "C215219",
+      "relatedName": "Metastatic Ovarian Low Grade Serous Adenocarcinoma"
+    },
+    {
+      "type": "Disease_May_Have_Associated_Disease",
+      "relatedCode": "C183244",
+      "relatedName": "Metastatic Ovarian Mucinous Adenocarcinoma"
+    },
+    {
+      "type": "Disease_May_Have_Associated_Disease",
+      "relatedCode": "C160782",
+      "relatedName": "Metastatic Ovarian Serous Adenocarcinoma"
+    },
+    {
+      "type": "Disease_May_Have_Associated_Disease",
+      "relatedCode": "C187234",
+      "relatedName": "Metastatic Ovarian Serous Cystadenocarcinoma"
+    },
+    {
+      "type": "Disease_May_Have_Associated_Disease",
+      "relatedCode": "C27391",
+      "relatedName": "Metastatic Ovarian Small Cell Carcinoma, Hypercalcemic Type"
+    },
+    {
+      "type": "Disease_May_Have_Associated_Disease",
+      "relatedCode": "C172234",
+      "relatedName": "Metastatic Ovarian Undifferentiated Carcinoma"
+    },
+    {
+      "type": "Disease_May_Have_Associated_Disease",
+      "relatedCode": "C204865",
+      "relatedName": "Metastatic Platinum-Refractory Ovarian Carcinoma"
+    },
+    {
+      "type": "Disease_May_Have_Associated_Disease",
+      "relatedCode": "C179460",
+      "relatedName": "Metastatic Platinum-Resistant Ovarian Carcinoma"
+    },
+    {
+      "type": "Disease_May_Have_Associated_Disease",
+      "relatedCode": "C208363",
+      "relatedName": "Metastatic Platinum-Resistant Ovarian High Grade Serous Adenocarcinoma"
+    },
+    {
+      "type": "Disease_May_Have_Associated_Disease",
+      "relatedCode": "C180332",
+      "relatedName": "Microsatellite Stable Ovarian Carcinoma"
+    },
+    {
+      "type": "Gene_Product_Malfunction_Associated_With_Disease",
+      "relatedCode": "C21479",
+      "relatedName": "Mismatch Repair Endonuclease PMS2"
+    },
+    {
+      "type": "Gene_Associated_With_Disease",
+      "relatedCode": "C20211",
+      "relatedName": "MSH3 Gene"
+    },
+    {
+      "type": "Gene_Associated_With_Disease",
+      "relatedCode": "C50994",
+      "relatedName": "MSH3 wt Allele"
+    },
+    {
+      "type": "Disease_May_Have_Associated_Disease",
+      "relatedCode": "C188257",
+      "relatedName": "Multiple Endocrine Neoplasia Type 5"
+    },
+    {
+      "type": "Disease_May_Have_Associated_Disease",
+      "relatedCode": "C39991",
+      "relatedName": "Non-Gestational Ovarian Choriocarcinoma"
+    },
+    {
+      "type": "Disease_May_Have_Associated_Disease",
+      "relatedCode": "C221743",
+      "relatedName": "NTHL1-Related Tumor Syndrome"
+    },
+    {
+      "type": "Disease_May_Have_Associated_Disease",
+      "relatedCode": "C7700",
+      "relatedName": "Ovarian Adenocarcinoma"
+    },
+    {
+      "type": "Disease_May_Have_Associated_Disease",
+      "relatedCode": "C128106",
+      "relatedName": "Ovarian Cancer by AJCC v6 and v7 Stage"
+    },
+    {
+      "type": "Disease_May_Have_Associated_Disease",
+      "relatedCode": "C139963",
+      "relatedName": "Ovarian Cancer by AJCC v8 Stage"
+    },
+    {
+      "type": "Disease_May_Have_Associated_Disease",
+      "relatedCode": "C128081",
+      "relatedName": "Ovarian Cancer by FIGO Stage 2014"
+    },
+    {
+      "type": "Disease_May_Have_Associated_Disease",
+      "relatedCode": "C4908",
+      "relatedName": "Ovarian Carcinoma"
+    },
+    {
+      "type": "Disease_May_Have_Associated_Disease",
+      "relatedCode": "C4515",
+      "relatedName": "Ovarian Choriocarcinoma"
+    },
+    {
+      "type": "Disease_May_Have_Associated_Disease",
+      "relatedCode": "C40078",
+      "relatedName": "Ovarian Clear Cell Adenocarcinoma"
+    },
+    {
+      "type": "Disease_May_Have_Associated_Disease",
+      "relatedCode": "C7980",
+      "relatedName": "Ovarian Clear Cell Cystadenocarcinoma"
+    },
+    {
+      "type": "Disease_May_Have_Associated_Disease",
+      "relatedCode": "C5228",
+      "relatedName": "Ovarian Cystadenocarcinoma"
+    },
+    {
+      "type": "Disease_May_Have_Associated_Disease",
+      "relatedCode": "C179334",
+      "relatedName": "Ovarian Dedifferentiated Carcinoma"
+    },
+    {
+      "type": "Disease_May_Have_Associated_Disease",
+      "relatedCode": "C40061",
+      "relatedName": "Ovarian Endometrioid Adenocarcinoma with Squamous Differentiation"
+    },
+    {
+      "type": "Disease_May_Have_Associated_Disease",
+      "relatedCode": "C7979",
+      "relatedName": "Ovarian Endometrioid Adenocarcinoma"
+    },
+    {
+      "type": "Disease_May_Have_Associated_Disease",
+      "relatedCode": "C40442",
+      "relatedName": "Ovarian Gestational Choriocarcinoma"
+    },
+    {
+      "type": "Disease_May_Have_Associated_Disease",
+      "relatedCode": "C199166",
+      "relatedName": "Ovarian High Grade Endometrioid Adenocarcinoma"
+    },
+    {
+      "type": "Disease_May_Have_Associated_Disease",
+      "relatedCode": "C105555",
+      "relatedName": "Ovarian High Grade Serous Adenocarcinoma"
+    },
+    {
+      "type": "Disease_May_Have_Associated_Disease",
+      "relatedCode": "C5238",
+      "relatedName": "Ovarian Large Cell Neuroendocrine Carcinoma"
+    },
+    {
+      "type": "Disease_May_Have_Associated_Disease",
+      "relatedCode": "C199159",
+      "relatedName": "Ovarian Low Grade Endometrioid Adenocarcinoma"
+    },
+    {
+      "type": "Disease_May_Have_Associated_Disease",
+      "relatedCode": "C105556",
+      "relatedName": "Ovarian Low Grade Serous Adenocarcinoma"
+    },
+    {
+      "type": "Disease_May_Have_Associated_Disease",
+      "relatedCode": "C126321",
+      "relatedName": "Ovarian Luteinized Thecoma Associated with Sclerosing Peritonitis"
+    },
+    {
+      "type": "Disease_May_Have_Associated_Disease",
+      "relatedCode": "C4203",
+      "relatedName": "Ovarian Luteinized Thecoma"
+    },
+    {
+      "type": "Disease_May_Have_Associated_Disease",
+      "relatedCode": "C179321",
+      "relatedName": "Ovarian Mesonephric-Like Adenocarcinoma"
+    },
+    {
+      "type": "Disease_May_Have_Associated_Disease",
+      "relatedCode": "C179339",
+      "relatedName": "Ovarian Mixed Cell Adenocarcinoma"
+    },
+    {
+      "type": "Disease_May_Have_Associated_Disease",
+      "relatedCode": "C5243",
+      "relatedName": "Ovarian Mucinous Adenocarcinoma"
+    },
+    {
+      "type": "Disease_May_Have_Associated_Disease",
+      "relatedCode": "C4026",
+      "relatedName": "Ovarian Mucinous Cystadenocarcinoma"
+    },
+    {
+      "type": "Disease_May_Have_Associated_Disease",
+      "relatedCode": "C171032",
+      "relatedName": "Ovarian Neuroendocrine Carcinoma"
+    },
+    {
+      "type": "Disease_May_Have_Associated_Disease",
+      "relatedCode": "C40090",
+      "relatedName": "Ovarian Seromucinous Carcinoma"
+    },
+    {
+      "type": "Disease_May_Have_Associated_Disease",
+      "relatedCode": "C7550",
+      "relatedName": "Ovarian Serous Adenocarcinoma"
+    },
+    {
+      "type": "Disease_May_Have_Associated_Disease",
+      "relatedCode": "C7978",
+      "relatedName": "Ovarian Serous Cystadenocarcinoma"
+    },
+    {
+      "type": "Disease_May_Have_Associated_Disease",
+      "relatedCode": "C179208",
+      "relatedName": "Ovarian Signet Ring Cell Adenocarcinoma"
+    },
+    {
+      "type": "Disease_May_Have_Associated_Disease",
+      "relatedCode": "C40439",
+      "relatedName": "Ovarian Small Cell Carcinoma, Hypercalcemic Type"
+    },
+    {
+      "type": "Disease_May_Have_Associated_Disease",
+      "relatedCode": "C40440",
+      "relatedName": "Ovarian Small Cell Carcinoma, Pulmonary-Type"
+    },
+    {
+      "type": "Disease_May_Have_Associated_Disease",
+      "relatedCode": "C27390",
+      "relatedName": "Ovarian Small Cell Carcinoma"
+    },
+    {
+      "type": "Disease_May_Have_Associated_Disease",
+      "relatedCode": "C40093",
+      "relatedName": "Ovarian Squamous Cell Carcinoma"
+    },
+    {
+      "type": "Disease_May_Have_Associated_Disease",
+      "relatedCode": "C66989",
+      "relatedName": "Ovarian Thecoma"
+    },
+    {
+      "type": "Disease_May_Have_Associated_Disease",
+      "relatedCode": "C5240",
+      "relatedName": "Ovarian Transitional Cell Carcinoma"
+    },
+    {
+      "type": "Disease_May_Have_Associated_Disease",
+      "relatedCode": "C4509",
+      "relatedName": "Ovarian Undifferentiated Carcinoma"
+    },
+    {
+      "type": "Disease_May_Have_Associated_Disease",
+      "relatedCode": "C178700",
+      "relatedName": "Platinum-Refractory Ovarian Carcinoma"
+    },
+    {
+      "type": "Disease_May_Have_Associated_Disease",
+      "relatedCode": "C213137",
+      "relatedName": "Platinum-Refractory Ovarian Clear Cell Adenocarcinoma"
+    },
+    {
+      "type": "Disease_May_Have_Associated_Disease",
+      "relatedCode": "C213135",
+      "relatedName": "Platinum-Refractory Ovarian Endometrioid Adenocarcinoma"
+    },
+    {
+      "type": "Disease_May_Have_Associated_Disease",
+      "relatedCode": "C204987",
+      "relatedName": "Platinum-Refractory Ovarian High Grade Serous Adenocarcinoma"
+    },
+    {
+      "type": "Disease_May_Have_Associated_Disease",
+      "relatedCode": "C213139",
+      "relatedName": "Platinum-Refractory Ovarian Mucinous Adenocarcinoma"
+    },
+    {
+      "type": "Disease_May_Have_Associated_Disease",
+      "relatedCode": "C213148",
+      "relatedName": "Platinum-Refractory Ovarian Seromucinous Carcinoma"
+    },
+    {
+      "type": "Disease_May_Have_Associated_Disease",
+      "relatedCode": "C213150",
+      "relatedName": "Platinum-Refractory Ovarian Undifferentiated Carcinoma"
+    },
+    {
+      "type": "Disease_May_Have_Associated_Disease",
+      "relatedCode": "C147561",
+      "relatedName": "Platinum-Resistant Ovarian Carcinoma"
+    },
+    {
+      "type": "Disease_May_Have_Associated_Disease",
+      "relatedCode": "C213136",
+      "relatedName": "Platinum-Resistant Ovarian Clear Cell Adenocarcinoma"
+    },
+    {
+      "type": "Disease_May_Have_Associated_Disease",
+      "relatedCode": "C211879",
+      "relatedName": "Platinum-Resistant Ovarian Endometrioid Adenocarcinoma"
+    },
+    {
+      "type": "Disease_May_Have_Associated_Disease",
+      "relatedCode": "C211916",
+      "relatedName": "Platinum-Resistant Ovarian High Grade Endometrioid Adenocarcinoma"
+    },
+    {
+      "type": "Disease_May_Have_Associated_Disease",
+      "relatedCode": "C199567",
+      "relatedName": "Platinum-Resistant Ovarian High Grade Serous Adenocarcinoma"
+    },
+    {
+      "type": "Disease_May_Have_Associated_Disease",
+      "relatedCode": "C213138",
+      "relatedName": "Platinum-Resistant Ovarian Mucinous Adenocarcinoma"
+    },
+    {
+      "type": "Disease_May_Have_Associated_Disease",
+      "relatedCode": "C213145",
+      "relatedName": "Platinum-Resistant Ovarian Seromucinous Carcinoma"
+    },
+    {
+      "type": "Disease_May_Have_Associated_Disease",
+      "relatedCode": "C213149",
+      "relatedName": "Platinum-Resistant Ovarian Undifferentiated Carcinoma"
+    },
+    {
+      "type": "Disease_May_Have_Associated_Disease",
+      "relatedCode": "C159902",
+      "relatedName": "Platinum-Sensitive Ovarian Carcinoma"
+    },
+    {
+      "type": "Disease_May_Have_Associated_Disease",
+      "relatedCode": "C214963",
+      "relatedName": "Platinum-Sensitive Ovarian High Grade Serous Adenocarcinoma"
+    },
+    {
+      "type": "Disease_May_Have_Associated_Disease",
+      "relatedCode": "C214962",
+      "relatedName": "Platinum-Sensitive Ovarian Serous Adenocarcinoma"
+    },
+    {
+      "type": "Disease_May_Have_Associated_Disease",
+      "relatedCode": "C222055",
+      "relatedName": "Polymerase Proofreading-Associated Polyposis"
+    },
+    {
+      "type": "Disease_May_Have_Associated_Disease",
+      "relatedCode": "C179930",
+      "relatedName": "Proteus-Like Syndrome"
+    },
+    {
+      "type": "Disease_May_Have_Associated_Disease",
+      "relatedCode": "C179915",
+      "relatedName": "PTEN Hamartoma Tumor Syndrome"
+    },
+    {
+      "type": "Disease_May_Have_Associated_Disease",
+      "relatedCode": "C148025",
+      "relatedName": "Recurrent BRCA Hereditary Ovarian Carcinoma"
+    },
+    {
+      "type": "Disease_May_Have_Associated_Disease",
+      "relatedCode": "C153818",
+      "relatedName": "Recurrent Malignant Ovarian Brenner Tumor"
+    },
+    {
+      "type": "Disease_May_Have_Associated_Disease",
+      "relatedCode": "C153614",
+      "relatedName": "Recurrent Ovarian Adenocarcinoma"
+    },
+    {
+      "type": "Disease_May_Have_Associated_Disease",
+      "relatedCode": "C7833",
+      "relatedName": "Recurrent Ovarian Carcinoma"
+    },
+    {
+      "type": "Disease_May_Have_Associated_Disease",
+      "relatedCode": "C153618",
+      "relatedName": "Recurrent Ovarian Clear Cell Adenocarcinoma"
+    },
+    {
+      "type": "Disease_May_Have_Associated_Disease",
+      "relatedCode": "C153617",
+      "relatedName": "Recurrent Ovarian Cystadenocarcinoma"
+    },
+    {
+      "type": "Disease_May_Have_Associated_Disease",
+      "relatedCode": "C150095",
+      "relatedName": "Recurrent Ovarian Endometrioid Adenocarcinoma"
+    },
+    {
+      "type": "Disease_May_Have_Associated_Disease",
+      "relatedCode": "C199168",
+      "relatedName": "Recurrent Ovarian High Grade Endometrioid Adenocarcinoma"
+    },
+    {
+      "type": "Disease_May_Have_Associated_Disease",
+      "relatedCode": "C165262",
+      "relatedName": "Recurrent Ovarian High Grade Serous Adenocarcinoma"
+    },
+    {
+      "type": "Disease_May_Have_Associated_Disease",
+      "relatedCode": "C199167",
+      "relatedName": "Recurrent Ovarian Low Grade Endometrioid Adenocarcinoma"
+    },
+    {
+      "type": "Disease_May_Have_Associated_Disease",
+      "relatedCode": "C156455",
+      "relatedName": "Recurrent Ovarian Low Grade Serous Adenocarcinoma"
+    },
+    {
+      "type": "Disease_May_Have_Associated_Disease",
+      "relatedCode": "C153616",
+      "relatedName": "Recurrent Ovarian Mucinous Adenocarcinoma"
+    },
+    {
+      "type": "Disease_May_Have_Associated_Disease",
+      "relatedCode": "C178669",
+      "relatedName": "Recurrent Ovarian Seromucinous Carcinoma"
+    },
+    {
+      "type": "Disease_May_Have_Associated_Disease",
+      "relatedCode": "C153615",
+      "relatedName": "Recurrent Ovarian Serous Adenocarcinoma"
+    },
+    {
+      "type": "Disease_May_Have_Associated_Disease",
+      "relatedCode": "C187241",
+      "relatedName": "Recurrent Ovarian Serous Cystadenocarcinoma"
+    },
+    {
+      "type": "Disease_May_Have_Associated_Disease",
+      "relatedCode": "C153819",
+      "relatedName": "Recurrent Ovarian Transitional Cell Carcinoma"
+    },
+    {
+      "type": "Disease_May_Have_Associated_Disease",
+      "relatedCode": "C170754",
+      "relatedName": "Recurrent Ovarian Undifferentiated Carcinoma"
+    },
+    {
+      "type": "Disease_May_Have_Associated_Disease",
+      "relatedCode": "C170748",
+      "relatedName": "Recurrent Platinum-Resistant Ovarian Carcinoma"
+    },
+    {
+      "type": "Disease_May_Have_Associated_Disease",
+      "relatedCode": "C200719",
+      "relatedName": "Recurrent Platinum-Resistant Ovarian High Grade Serous Adenocarcinoma"
+    },
+    {
+      "type": "Disease_May_Have_Associated_Disease",
+      "relatedCode": "C188391",
+      "relatedName": "Recurrent Platinum-Sensitive Ovarian Carcinoma"
+    },
+    {
+      "type": "Disease_May_Have_Associated_Disease",
+      "relatedCode": "C183126",
+      "relatedName": "Refractory Malignant Ovarian Brenner Tumor"
+    },
+    {
+      "type": "Disease_May_Have_Associated_Disease",
+      "relatedCode": "C170968",
+      "relatedName": "Refractory Ovarian Adenocarcinoma"
+    },
+    {
+      "type": "Disease_May_Have_Associated_Disease",
+      "relatedCode": "C150091",
+      "relatedName": "Refractory Ovarian Carcinoma"
+    },
+    {
+      "type": "Disease_May_Have_Associated_Disease",
+      "relatedCode": "C178680",
+      "relatedName": "Refractory Ovarian Clear Cell Adenocarcinoma"
+    },
+    {
+      "type": "Disease_May_Have_Associated_Disease",
+      "relatedCode": "C150096",
+      "relatedName": "Refractory Ovarian Endometrioid Adenocarcinoma"
+    },
+    {
+      "type": "Disease_May_Have_Associated_Disease",
+      "relatedCode": "C178677",
+      "relatedName": "Refractory Ovarian High Grade Serous Adenocarcinoma"
+    },
+    {
+      "type": "Disease_May_Have_Associated_Disease",
+      "relatedCode": "C178679",
+      "relatedName": "Refractory Ovarian Low Grade Serous Adenocarcinoma"
+    },
+    {
+      "type": "Disease_May_Have_Associated_Disease",
+      "relatedCode": "C178681",
+      "relatedName": "Refractory Ovarian Mucinous Adenocarcinoma"
+    },
+    {
+      "type": "Disease_May_Have_Associated_Disease",
+      "relatedCode": "C178671",
+      "relatedName": "Refractory Ovarian Seromucinous Carcinoma"
+    },
+    {
+      "type": "Disease_May_Have_Associated_Disease",
+      "relatedCode": "C171015",
+      "relatedName": "Refractory Ovarian Serous Adenocarcinoma"
+    },
+    {
+      "type": "Disease_May_Have_Associated_Disease",
+      "relatedCode": "C179207",
+      "relatedName": "Refractory Ovarian Squamous Cell Carcinoma"
+    },
+    {
+      "type": "Disease_May_Have_Associated_Disease",
+      "relatedCode": "C178682",
+      "relatedName": "Refractory Ovarian Transitional Cell Carcinoma"
+    },
+    {
+      "type": "Disease_May_Have_Associated_Disease",
+      "relatedCode": "C178683",
+      "relatedName": "Refractory Ovarian Undifferentiated Carcinoma"
+    },
+    {
+      "type": "Disease_May_Have_Associated_Disease",
+      "relatedCode": "C210814",
+      "relatedName": "Resectable Ovarian Carcinoma"
+    },
+    {
+      "type": "Disease_May_Have_Associated_Disease",
+      "relatedCode": "C7829",
+      "relatedName": "Stage I Ovarian Cancer AJCC v6 and v7"
+    },
+    {
+      "type": "Disease_May_Have_Associated_Disease",
+      "relatedCode": "C139964",
+      "relatedName": "Stage I Ovarian Cancer AJCC v8"
+    },
+    {
+      "type": "Disease_May_Have_Associated_Disease",
+      "relatedCode": "C8730",
+      "relatedName": "Stage I Ovarian Choriocarcinoma"
+    },
+    {
+      "type": "Disease_May_Have_Associated_Disease",
+      "relatedCode": "C5220",
+      "relatedName": "Stage IA Ovarian Cancer AJCC v6 and v7"
+    },
+    {
+      "type": "Disease_May_Have_Associated_Disease",
+      "relatedCode": "C139965",
+      "relatedName": "Stage IA Ovarian Cancer AJCC v8"
+    },
+    {
+      "type": "Disease_May_Have_Associated_Disease",
+      "relatedCode": "C5221",
+      "relatedName": "Stage IB Ovarian Cancer AJCC v6 and v7"
+    },
+    {
+      "type": "Disease_May_Have_Associated_Disease",
+      "relatedCode": "C139966",
+      "relatedName": "Stage IB Ovarian Cancer AJCC v8"
+    },
+    {
+      "type": "Disease_May_Have_Associated_Disease",
+      "relatedCode": "C5222",
+      "relatedName": "Stage IC Ovarian Cancer AJCC v6 and v7"
+    },
+    {
+      "type": "Disease_May_Have_Associated_Disease",
+      "relatedCode": "C139967",
+      "relatedName": "Stage IC Ovarian Cancer AJCC v8"
+    },
+    {
+      "type": "Disease_May_Have_Associated_Disease",
+      "relatedCode": "C7830",
+      "relatedName": "Stage II Ovarian Cancer AJCC v6 and v7"
+    },
+    {
+      "type": "Disease_May_Have_Associated_Disease",
+      "relatedCode": "C139968",
+      "relatedName": "Stage II Ovarian Cancer AJCC v8"
+    },
+    {
+      "type": "Disease_May_Have_Associated_Disease",
+      "relatedCode": "C8731",
+      "relatedName": "Stage II Ovarian Choriocarcinoma"
+    },
+    {
+      "type": "Disease_May_Have_Associated_Disease",
+      "relatedCode": "C5223",
+      "relatedName": "Stage IIA Ovarian Cancer AJCC V6 and v7"
+    },
+    {
+      "type": "Disease_May_Have_Associated_Disease",
+      "relatedCode": "C139969",
+      "relatedName": "Stage IIA Ovarian Cancer AJCC v8"
+    },
+    {
+      "type": "Disease_May_Have_Associated_Disease",
+      "relatedCode": "C5224",
+      "relatedName": "Stage IIB Ovarian Cancer AJCC v6 and v7"
+    },
+    {
+      "type": "Disease_May_Have_Associated_Disease",
+      "relatedCode": "C139970",
+      "relatedName": "Stage IIB Ovarian Cancer AJCC v8"
+    },
+    {
+      "type": "Disease_May_Have_Associated_Disease",
+      "relatedCode": "C5225",
+      "relatedName": "Stage IIC Ovarian Cancer AJCC v6 and v7"
+    },
+    {
+      "type": "Disease_May_Have_Associated_Disease",
+      "relatedCode": "C7831",
+      "relatedName": "Stage III Ovarian Cancer AJCC v6 and v7"
+    },
+    {
+      "type": "Disease_May_Have_Associated_Disease",
+      "relatedCode": "C139971",
+      "relatedName": "Stage III Ovarian Cancer AJCC v8"
+    },
+    {
+      "type": "Disease_May_Have_Associated_Disease",
+      "relatedCode": "C8732",
+      "relatedName": "Stage III Ovarian Choriocarcinoma"
+    },
+    {
+      "type": "Disease_May_Have_Associated_Disease",
+      "relatedCode": "C6258",
+      "relatedName": "Stage IIIA Ovarian Cancer AJCC v6 and v7"
+    },
+    {
+      "type": "Disease_May_Have_Associated_Disease",
+      "relatedCode": "C139972",
+      "relatedName": "Stage IIIA Ovarian Cancer AJCC v8"
+    },
+    {
+      "type": "Disease_May_Have_Associated_Disease",
+      "relatedCode": "C139973",
+      "relatedName": "Stage IIIA1 Ovarian Cancer AJCC v8"
+    },
+    {
+      "type": "Disease_May_Have_Associated_Disease",
+      "relatedCode": "C139974",
+      "relatedName": "Stage IIIA2 Ovarian Cancer AJCC v8"
+    },
+    {
+      "type": "Disease_May_Have_Associated_Disease",
+      "relatedCode": "C6259",
+      "relatedName": "Stage IIIB Ovarian Cancer AJCC v6 and v7"
+    },
+    {
+      "type": "Disease_May_Have_Associated_Disease",
+      "relatedCode": "C139975",
+      "relatedName": "Stage IIIB Ovarian Cancer AJCC v8"
+    },
+    {
+      "type": "Disease_May_Have_Associated_Disease",
+      "relatedCode": "C6260",
+      "relatedName": "Stage IIIC Ovarian Cancer AJCC v6 and v7"
+    },
+    {
+      "type": "Disease_May_Have_Associated_Disease",
+      "relatedCode": "C139976",
+      "relatedName": "Stage IIIC Ovarian Cancer AJCC v8"
+    },
+    {
+      "type": "Disease_May_Have_Associated_Disease",
+      "relatedCode": "C7832",
+      "relatedName": "Stage IV Ovarian Cancer AJCC v6 and v7"
+    },
+    {
+      "type": "Disease_May_Have_Associated_Disease",
+      "relatedCode": "C139977",
+      "relatedName": "Stage IV Ovarian Cancer AJCC v8"
+    },
+    {
+      "type": "Disease_May_Have_Associated_Disease",
+      "relatedCode": "C8733",
+      "relatedName": "Stage IV Ovarian Choriocarcinoma"
+    },
+    {
+      "type": "Disease_May_Have_Associated_Disease",
+      "relatedCode": "C139978",
+      "relatedName": "Stage IVA Ovarian Cancer AJCC v8"
+    },
+    {
+      "type": "Disease_May_Have_Associated_Disease",
+      "relatedCode": "C139979",
+      "relatedName": "Stage IVB Ovarian Cancer AJCC v8"
+    },
+    {
+      "type": "Disease_May_Have_Associated_Disease",
+      "relatedCode": "C39964",
+      "relatedName": "Typical Ovarian Thecoma"
+    },
+    {
+      "type": "Disease_May_Have_Associated_Disease",
+      "relatedCode": "C167073",
+      "relatedName": "Unresectable Ovarian Carcinoma"
+    },
+    {
+      "type": "Disease_May_Have_Associated_Disease",
+      "relatedCode": "C215214",
+      "relatedName": "Unresectable Ovarian Clear Cell Adenocarcinoma"
+    },
+    {
+      "type": "Disease_May_Have_Associated_Disease",
+      "relatedCode": "C186273",
+      "relatedName": "Unresectable Ovarian Endometrioid Adenocarcinoma"
+    },
+    {
+      "type": "Disease_May_Have_Associated_Disease",
+      "relatedCode": "C213677",
+      "relatedName": "Unresectable Ovarian High Grade Endometrioid Adenocarcinoma"
+    },
+    {
+      "type": "Disease_May_Have_Associated_Disease",
+      "relatedCode": "C186272",
+      "relatedName": "Unresectable Ovarian High Grade Serous Adenocarcinoma"
+    },
+    {
+      "type": "Disease_May_Have_Associated_Disease",
+      "relatedCode": "C215218",
+      "relatedName": "Unresectable Ovarian Low Grade Endometrioid Adenocarcinoma"
+    },
+    {
+      "type": "Disease_May_Have_Associated_Disease",
+      "relatedCode": "C215220",
+      "relatedName": "Unresectable Ovarian Low Grade Serous Adenocarcinoma"
+    },
+    {
+      "type": "Disease_May_Have_Associated_Disease",
+      "relatedCode": "C183245",
+      "relatedName": "Unresectable Ovarian Mucinous Adenocarcinoma"
+    },
+    {
+      "type": "Disease_May_Have_Associated_Disease",
+      "relatedCode": "C160781",
+      "relatedName": "Unresectable Ovarian Serous Adenocarcinoma"
+    },
+    {
+      "type": "Disease_May_Have_Associated_Disease",
+      "relatedCode": "C172235",
+      "relatedName": "Unresectable Ovarian Undifferentiated Carcinoma"
+    },
+    {
+      "type": "Disease_May_Have_Associated_Disease",
+      "relatedCode": "C204867",
+      "relatedName": "Unresectable Platinum-Refractory Ovarian Carcinoma"
+    },
+    {
+      "type": "Disease_May_Have_Associated_Disease",
+      "relatedCode": "C179459",
+      "relatedName": "Unresectable Platinum-Resistant Ovarian Carcinoma"
+    },
+    {
+      "type": "Disease_May_Have_Associated_Disease",
+      "relatedCode": "C213681",
+      "relatedName": "Unresectable Platinum-Resistant Ovarian High Grade Serous Adenocarcinoma"
+    }
+  ],
+  "history": [
+    {
+      "code": "C7558",
+      "action": "create",
+      "date": "2003-08-12"
+    },
+    {
+      "code": "C7558",
+      "action": "modify",
+      "date": "2003-10-31"
+    },
+    {
+      "code": "C7558",
+      "action": "modify",
+      "date": "2003-12-30"
+    },
+    {
+      "code": "C7558",
+      "action": "modify",
+      "date": "2004-03-30"
+    },
+    {
+      "code": "C7558",
+      "action": "modify",
+      "date": "2004-08-02"
+    },
+    {
+      "code": "C7558",
+      "action": "modify",
+      "date": "2005-01-28"
+    },
+    {
+      "code": "C7558",
+      "action": "modify",
+      "date": "2006-03-31"
+    },
+    {
+      "code": "C7558",
+      "action": "modify",
+      "date": "2006-07-28"
+    },
+    {
+      "code": "C7558",
+      "action": "modify",
+      "date": "2009-11-02"
+    },
+    {
+      "code": "C7558",
+      "action": "modify",
+      "date": "2009-11-23"
+    },
+    {
+      "code": "C7558",
+      "action": "modify",
+      "date": "2010-05-17"
+    },
+    {
+      "code": "C7558",
+      "action": "modify",
+      "date": "2010-06-01"
+    },
+    {
+      "code": "C7558",
+      "action": "modify",
+      "date": "2010-11-08"
+    },
+    {
+      "code": "C7558",
+      "action": "modify",
+      "date": "2010-11-15"
+    },
+    {
+      "code": "C7558",
+      "action": "modify",
+      "date": "2010-11-22"
+    },
+    {
+      "code": "C7558",
+      "action": "modify",
+      "date": "2010-11-29"
+    },
+    {
+      "code": "C7558",
+      "action": "modify",
+      "date": "2010-12-06"
+    },
+    {
+      "code": "C7558",
+      "action": "modify",
+      "date": "2010-12-13"
+    },
+    {
+      "code": "C7558",
+      "action": "modify",
+      "date": "2010-12-27"
+    },
+    {
+      "code": "C7558",
+      "action": "modify",
+      "date": "2011-01-03"
+    },
+    {
+      "code": "C7558",
+      "action": "modify",
+      "date": "2011-01-10"
+    },
+    {
+      "code": "C7558",
+      "action": "modify",
+      "date": "2011-01-17"
+    },
+    {
+      "code": "C7558",
+      "action": "modify",
+      "date": "2011-01-24"
+    },
+    {
+      "code": "C7558",
+      "action": "modify",
+      "date": "2011-01-31"
+    },
+    {
+      "code": "C7558",
+      "action": "modify",
+      "date": "2011-04-11"
+    },
+    {
+      "code": "C7558",
+      "action": "modify",
+      "date": "2011-11-14"
+    },
+    {
+      "code": "C7558",
+      "action": "modify",
+      "date": "2011-11-21"
+    },
+    {
+      "code": "C7558",
+      "action": "modify",
+      "date": "2011-11-28"
+    },
+    {
+      "code": "C7558",
+      "action": "modify",
+      "date": "2011-12-05"
+    },
+    {
+      "code": "C7558",
+      "action": "modify",
+      "date": "2011-12-12"
+    },
+    {
+      "code": "C7558",
+      "action": "modify",
+      "date": "2011-12-19"
+    },
+    {
+      "code": "C7558",
+      "action": "modify",
+      "date": "2011-12-27"
+    },
+    {
+      "code": "C7558",
+      "action": "modify",
+      "date": "2012-01-09"
+    },
+    {
+      "code": "C7558",
+      "action": "modify",
+      "date": "2012-01-17"
+    },
+    {
+      "code": "C7558",
+      "action": "modify",
+      "date": "2012-01-23"
+    },
+    {
+      "code": "C7558",
+      "action": "modify",
+      "date": "2012-01-30"
+    },
+    {
+      "code": "C7558",
+      "action": "modify",
+      "date": "2012-02-06"
+    },
+    {
+      "code": "C7558",
+      "action": "modify",
+      "date": "2012-02-13"
+    },
+    {
+      "code": "C7558",
+      "action": "modify",
+      "date": "2012-02-21"
+    },
+    {
+      "code": "C7558",
+      "action": "modify",
+      "date": "2012-02-27"
+    },
+    {
+      "code": "C7558",
+      "action": "modify",
+      "date": "2012-03-05"
+    },
+    {
+      "code": "C7558",
+      "action": "modify",
+      "date": "2012-03-12"
+    },
+    {
+      "code": "C7558",
+      "action": "modify",
+      "date": "2012-03-19"
+    },
+    {
+      "code": "C7558",
+      "action": "modify",
+      "date": "2012-03-26"
+    },
+    {
+      "code": "C7558",
+      "action": "modify",
+      "date": "2012-04-02"
+    },
+    {
+      "code": "C7558",
+      "action": "modify",
+      "date": "2012-04-09"
+    },
+    {
+      "code": "C7558",
+      "action": "modify",
+      "date": "2012-04-16"
+    },
+    {
+      "code": "C7558",
+      "action": "modify",
+      "date": "2012-04-23"
+    },
+    {
+      "code": "C7558",
+      "action": "modify",
+      "date": "2012-04-30"
+    },
+    {
+      "code": "C7558",
+      "action": "modify",
+      "date": "2012-05-07"
+    },
+    {
+      "code": "C7558",
+      "action": "modify",
+      "date": "2012-05-14"
+    },
+    {
+      "code": "C7558",
+      "action": "modify",
+      "date": "2012-05-21"
+    },
+    {
+      "code": "C7558",
+      "action": "modify",
+      "date": "2012-05-29"
+    },
+    {
+      "code": "C7558",
+      "action": "modify",
+      "date": "2012-06-04"
+    },
+    {
+      "code": "C7558",
+      "action": "modify",
+      "date": "2012-06-11"
+    },
+    {
+      "code": "C7558",
+      "action": "modify",
+      "date": "2012-06-18"
+    },
+    {
+      "code": "C7558",
+      "action": "modify",
+      "date": "2012-06-18"
+    },
+    {
+      "code": "C7558",
+      "action": "modify",
+      "date": "2012-06-25"
+    },
+    {
+      "code": "C7558",
+      "action": "modify",
+      "date": "2012-07-03"
+    },
+    {
+      "code": "C7558",
+      "action": "modify",
+      "date": "2012-07-16"
+    },
+    {
+      "code": "C7558",
+      "action": "modify",
+      "date": "2012-07-23"
+    },
+    {
+      "code": "C7558",
+      "action": "modify",
+      "date": "2012-07-30"
+    },
+    {
+      "code": "C7558",
+      "action": "modify",
+      "date": "2012-08-06"
+    },
+    {
+      "code": "C7558",
+      "action": "modify",
+      "date": "2012-08-13"
+    },
+    {
+      "code": "C7558",
+      "action": "modify",
+      "date": "2012-08-20"
+    },
+    {
+      "code": "C7558",
+      "action": "modify",
+      "date": "2012-08-27"
+    },
+    {
+      "code": "C7558",
+      "action": "modify",
+      "date": "2012-09-04"
+    },
+    {
+      "code": "C7558",
+      "action": "modify",
+      "date": "2012-09-10"
+    },
+    {
+      "code": "C7558",
+      "action": "modify",
+      "date": "2012-09-17"
+    },
+    {
+      "code": "C7558",
+      "action": "modify",
+      "date": "2012-09-24"
+    },
+    {
+      "code": "C7558",
+      "action": "modify",
+      "date": "2012-10-01"
+    },
+    {
+      "code": "C7558",
+      "action": "modify",
+      "date": "2012-10-09"
+    },
+    {
+      "code": "C7558",
+      "action": "modify",
+      "date": "2012-10-15"
+    },
+    {
+      "code": "C7558",
+      "action": "modify",
+      "date": "2012-10-22"
+    },
+    {
+      "code": "C7558",
+      "action": "modify",
+      "date": "2012-10-31"
+    },
+    {
+      "code": "C7558",
+      "action": "modify",
+      "date": "2012-11-05"
+    },
+    {
+      "code": "C7558",
+      "action": "modify",
+      "date": "2012-11-13"
+    },
+    {
+      "code": "C7558",
+      "action": "modify",
+      "date": "2012-11-19"
+    },
+    {
+      "code": "C7558",
+      "action": "modify",
+      "date": "2012-11-26"
+    },
+    {
+      "code": "C7558",
+      "action": "modify",
+      "date": "2012-12-03"
+    },
+    {
+      "code": "C7558",
+      "action": "modify",
+      "date": "2012-12-10"
+    },
+    {
+      "code": "C7558",
+      "action": "modify",
+      "date": "2012-12-17"
+    },
+    {
+      "code": "C7558",
+      "action": "modify",
+      "date": "2012-12-28"
+    },
+    {
+      "code": "C7558",
+      "action": "modify",
+      "date": "2013-01-07"
+    },
+    {
+      "code": "C7558",
+      "action": "modify",
+      "date": "2013-01-14"
+    },
+    {
+      "code": "C7558",
+      "action": "modify",
+      "date": "2013-01-23"
+    },
+    {
+      "code": "C7558",
+      "action": "modify",
+      "date": "2013-02-04"
+    },
+    {
+      "code": "C7558",
+      "action": "modify",
+      "date": "2013-02-11"
+    },
+    {
+      "code": "C7558",
+      "action": "modify",
+      "date": "2013-02-19"
+    },
+    {
+      "code": "C7558",
+      "action": "modify",
+      "date": "2013-02-25"
+    },
+    {
+      "code": "C7558",
+      "action": "modify",
+      "date": "2013-03-04"
+    },
+    {
+      "code": "C7558",
+      "action": "modify",
+      "date": "2013-03-11"
+    },
+    {
+      "code": "C7558",
+      "action": "modify",
+      "date": "2013-03-18"
+    },
+    {
+      "code": "C7558",
+      "action": "modify",
+      "date": "2013-03-25"
+    },
+    {
+      "code": "C7558",
+      "action": "modify",
+      "date": "2013-04-01"
+    },
+    {
+      "code": "C7558",
+      "action": "modify",
+      "date": "2013-04-08"
+    },
+    {
+      "code": "C7558",
+      "action": "modify",
+      "date": "2013-04-15"
+    },
+    {
+      "code": "C7558",
+      "action": "modify",
+      "date": "2013-04-22"
+    },
+    {
+      "code": "C7558",
+      "action": "modify",
+      "date": "2013-04-29"
+    },
+    {
+      "code": "C7558",
+      "action": "modify",
+      "date": "2013-05-06"
+    },
+    {
+      "code": "C7558",
+      "action": "modify",
+      "date": "2013-05-13"
+    },
+    {
+      "code": "C7558",
+      "action": "modify",
+      "date": "2013-05-20"
+    },
+    {
+      "code": "C7558",
+      "action": "modify",
+      "date": "2013-05-28"
+    },
+    {
+      "code": "C7558",
+      "action": "modify",
+      "date": "2013-06-03"
+    },
+    {
+      "code": "C7558",
+      "action": "modify",
+      "date": "2013-06-10"
+    },
+    {
+      "code": "C7558",
+      "action": "modify",
+      "date": "2013-06-17"
+    },
+    {
+      "code": "C7558",
+      "action": "modify",
+      "date": "2013-06-24"
+    },
+    {
+      "code": "C7558",
+      "action": "modify",
+      "date": "2013-07-01"
+    },
+    {
+      "code": "C7558",
+      "action": "modify",
+      "date": "2013-07-08"
+    },
+    {
+      "code": "C7558",
+      "action": "modify",
+      "date": "2014-08-25"
+    },
+    {
+      "code": "C7558",
+      "action": "modify",
+      "date": "2014-09-22"
+    },
+    {
+      "code": "C7558",
+      "action": "modify",
+      "date": "2014-10-27"
+    },
+    {
+      "code": "C7558",
+      "action": "modify",
+      "date": "2014-11-24"
+    },
+    {
+      "code": "C7558",
+      "action": "modify",
+      "date": "2014-12-01"
+    },
+    {
+      "code": "C7558",
+      "action": "modify",
+      "date": "2014-12-08"
+    },
+    {
+      "code": "C7558",
+      "action": "modify",
+      "date": "2014-12-15"
+    },
+    {
+      "code": "C7558",
+      "action": "modify",
+      "date": "2014-12-22"
+    },
+    {
+      "code": "C7558",
+      "action": "modify",
+      "date": "2014-12-29"
+    },
+    {
+      "code": "C7558",
+      "action": "modify",
+      "date": "2015-01-05"
+    },
+    {
+      "code": "C7558",
+      "action": "modify",
+      "date": "2015-01-12"
+    },
+    {
+      "code": "C7558",
+      "action": "modify",
+      "date": "2015-01-20"
+    },
+    {
+      "code": "C7558",
+      "action": "modify",
+      "date": "2015-01-26"
+    },
+    {
+      "code": "C7558",
+      "action": "modify",
+      "date": "2015-02-02"
+    },
+    {
+      "code": "C7558",
+      "action": "modify",
+      "date": "2015-02-09"
+    },
+    {
+      "code": "C7558",
+      "action": "modify",
+      "date": "2015-02-17"
+    },
+    {
+      "code": "C7558",
+      "action": "modify",
+      "date": "2015-02-23"
+    },
+    {
+      "code": "C7558",
+      "action": "modify",
+      "date": "2015-03-02"
+    },
+    {
+      "code": "C7558",
+      "action": "modify",
+      "date": "2015-03-09"
+    },
+    {
+      "code": "C7558",
+      "action": "modify",
+      "date": "2015-03-16"
+    },
+    {
+      "code": "C7558",
+      "action": "modify",
+      "date": "2015-03-23"
+    },
+    {
+      "code": "C7558",
+      "action": "modify",
+      "date": "2015-03-30"
+    },
+    {
+      "code": "C7558",
+      "action": "modify",
+      "date": "2015-04-06"
+    },
+    {
+      "code": "C7558",
+      "action": "modify",
+      "date": "2015-04-13"
+    },
+    {
+      "code": "C7558",
+      "action": "modify",
+      "date": "2015-04-20"
+    },
+    {
+      "code": "C7558",
+      "action": "modify",
+      "date": "2015-04-27"
+    },
+    {
+      "code": "C7558",
+      "action": "modify",
+      "date": "2015-05-04"
+    },
+    {
+      "code": "C7558",
+      "action": "modify",
+      "date": "2015-05-11"
+    },
+    {
+      "code": "C7558",
+      "action": "modify",
+      "date": "2015-05-18"
+    },
+    {
+      "code": "C7558",
+      "action": "modify",
+      "date": "2016-04-25"
+    },
+    {
+      "code": "C7558",
+      "action": "modify",
+      "date": "2016-08-22"
+    },
+    {
+      "code": "C7558",
+      "action": "modify",
+      "date": "2016-09-20"
+    },
+    {
+      "code": "C7558",
+      "action": "modify",
+      "date": "2017-07-31"
+    },
+    {
+      "code": "C7558",
+      "action": "modify",
+      "date": "2017-09-26"
+    },
+    {
+      "code": "C7558",
+      "action": "modify",
+      "date": "2018-02-26"
+    },
+    {
+      "code": "C7558",
+      "action": "modify",
+      "date": "2018-07-30"
+    },
+    {
+      "code": "C7558",
+      "action": "modify",
+      "date": "2018-08-27"
+    },
+    {
+      "code": "C7558",
+      "action": "modify",
+      "date": "2018-08-27"
+    },
+    {
+      "code": "C7558",
+      "action": "modify",
+      "date": "2018-11-26"
+    },
+    {
+      "code": "C7558",
+      "action": "modify",
+      "date": "2018-12-31"
+    },
+    {
+      "code": "C7558",
+      "action": "modify",
+      "date": "2019-03-25"
+    },
+    {
+      "code": "C7558",
+      "action": "modify",
+      "date": "2019-05-28"
+    },
+    {
+      "code": "C7558",
+      "action": "modify",
+      "date": "2019-09-30"
+    },
+    {
+      "code": "C7558",
+      "action": "modify",
+      "date": "2019-10-28"
+    },
+    {
+      "code": "C7558",
+      "action": "modify",
+      "date": "2020-01-27"
+    },
+    {
+      "code": "C7558",
+      "action": "modify",
+      "date": "2020-06-29"
+    },
+    {
+      "code": "C7558",
+      "action": "modify",
+      "date": "2020-08-31"
+    },
+    {
+      "code": "C7558",
+      "action": "modify",
+      "date": "2020-09-29"
+    },
+    {
+      "code": "C7558",
+      "action": "modify",
+      "date": "2021-02-22"
+    },
+    {
+      "code": "C7558",
+      "action": "modify",
+      "date": "2021-03-29"
+    },
+    {
+      "code": "C7558",
+      "action": "modify",
+      "date": "2021-09-27"
+    },
+    {
+      "code": "C7558",
+      "action": "modify",
+      "date": "2023-02-27"
+    },
+    {
+      "code": "C7558",
+      "action": "modify",
+      "date": "2025-01-27"
+    },
+    {
+      "code": "C7558",
+      "action": "modify",
+      "date": "2025-03-31"
+    }
+  ],
+  "maps": [
+    {
+      "type": "Related To",
+      "targetName": "81",
+      "targetTermType": "PT",
+      "targetCode": "tumor_code_id",
+      "targetTerminology": "GDC"
+    }
+  ]
+}

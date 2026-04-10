@@ -1,0 +1,369 @@
+{
+  "code": "C92555",
+  "name": "Extraventricular Neurocytoma",
+  "terminology": "ncit",
+  "version": "25.11d",
+  "conceptStatus": "DEFAULT",
+  "leaf": true,
+  "active": true,
+  "synonyms": [
+    {
+      "name": "Extraventricular neurocytoma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "GDC"
+    },
+    {
+      "name": "Extraventricular Neurocytoma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Extraventricular Neurocytoma (WHO Grade 2)",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Extraventricular Neurocytoma (WHO Grade II)",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Extraventricular Neurocytoma",
+      "type": "Preferred_Name"
+    }
+  ],
+  "definitions": [
+    {
+      "definition": "A WHO grade 2 neoplasm that arises from the brain parenchyma. Morphologically it is characterized by the presence of neoplastic uniform, round cells with neuronal differentiation. Unlike central neurocytoma, it does not involve the lateral ventricles. It usually affects young adults and has a favorable prognosis.",
+      "type": "DEFINITION",
+      "source": "NCI"
+    }
+  ],
+  "properties": [
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "GDC"
+    },
+    {
+      "code": "P334",
+      "type": "ICD-O-3_Code",
+      "value": "9506/1"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "9506/1"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "Extraventricular neurocytoma"
+    },
+    {
+      "code": "P363",
+      "type": "Neoplastic_Status",
+      "value": "Undetermined"
+    },
+    {
+      "code": "P106",
+      "type": "Semantic_Type",
+      "value": "Neoplastic Process"
+    },
+    {
+      "code": "P207",
+      "type": "UMLS_CUI",
+      "value": "C2985175"
+    }
+  ],
+  "parents": [
+    {
+      "code": "C4747",
+      "name": "Glioneuronal and Neuronal Tumors"
+    },
+    {
+      "code": "C170814",
+      "name": "Primary Brain Neoplasm"
+    }
+  ],
+  "associations": [
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C157711",
+      "relatedName": "GDC Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C177537",
+      "relatedName": "GDC Value Terminology"
+    },
+    {
+      "type": "Is_Value_For_GDC_Property",
+      "relatedCode": "C176985",
+      "relatedName": "Histology ICD-O Morphology Code"
+    },
+    {
+      "type": "Is_Value_For_GDC_Property",
+      "relatedCode": "C177621",
+      "relatedName": "ICD-O-3 Morphology Term Diagnosis Question"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C126659",
+      "relatedName": "NCIt Neoplasm Core Terminology"
+    }
+  ],
+  "inverseAssociations": [
+    {
+      "type": "Has_GDC_Value",
+      "relatedCode": "C176985",
+      "relatedName": "Histology ICD-O Morphology Code"
+    },
+    {
+      "type": "Has_GDC_Value",
+      "relatedCode": "C177621",
+      "relatedName": "ICD-O-3 Morphology Term Diagnosis Question"
+    }
+  ],
+  "roles": [
+    {
+      "type": "Disease_Excludes_Primary_Anatomic_Site",
+      "relatedCode": "C12356",
+      "relatedName": "Brain Ventricle"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12439",
+      "relatedName": "Brain"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12439",
+      "relatedName": "Brain"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12438",
+      "relatedName": "Central Nervous System"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12438",
+      "relatedName": "Central Nervous System"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C36156",
+      "relatedName": "Favorable Clinical Outcome"
+    },
+    {
+      "type": "Disease_Mapped_To_Gene",
+      "relatedCode": "C186557",
+      "relatedName": "FGFR1/TACC1 Fusion Gene"
+    },
+    {
+      "type": "Disease_May_Have_Molecular_Abnormality",
+      "relatedCode": "C185944",
+      "relatedName": "FGFR1/TACC1 Fusion Protein Expression"
+    },
+    {
+      "type": "Disease_Excludes_Primary_Anatomic_Site",
+      "relatedCode": "C32627",
+      "relatedName": "Foramen of Monroe"
+    },
+    {
+      "type": "Disease_Is_Grade",
+      "relatedCode": "C28078",
+      "relatedName": "Grade 2"
+    },
+    {
+      "type": "Disease_Excludes_Primary_Anatomic_Site",
+      "relatedCode": "C12834",
+      "relatedName": "Lateral Ventricle"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12922",
+      "relatedName": "Neoplastic Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C41408",
+      "relatedName": "Neoplastic Neuroepithelial Cell and Neoplastic Perineural Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C37125",
+      "relatedName": "Neoplastic Neuroepithelial Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C42092",
+      "relatedName": "Neoplastic Round Neuroepithelial Cell"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C41406",
+      "relatedName": "Nerve Tissue, Neuroepithelial Tissue, and Nerve Sheaths"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12755",
+      "relatedName": "Nervous System"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C41410",
+      "relatedName": "Neuroepithelial Cell"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C41409",
+      "relatedName": "Neuroepithelial Tissue"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C41405",
+      "relatedName": "Neuron, Neuroepithelial Cell, and Supporting Cell of the Nervous System"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C42083",
+      "relatedName": "Neuronal Differentiation"
+    },
+    {
+      "type": "Disease_Excludes_Normal_Cell_Origin",
+      "relatedCode": "C12618",
+      "relatedName": "Oligodendrocyte"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C41611",
+      "relatedName": "Precise Histogenesis Unknown"
+    },
+    {
+      "type": "Disease_Excludes_Primary_Anatomic_Site",
+      "relatedCode": "C12464",
+      "relatedName": "Spinal Cord"
+    }
+  ],
+  "inverseRoles": [
+    {
+      "type": "Gene_Involved_In_Pathogenesis_Of_Disease",
+      "relatedCode": "C186557",
+      "relatedName": "FGFR1/TACC1 Fusion Gene"
+    }
+  ],
+  "history": [
+    {
+      "code": "C92555",
+      "action": "create",
+      "date": "2010-10-12"
+    },
+    {
+      "code": "C92555",
+      "action": "modify",
+      "date": "2010-11-01"
+    },
+    {
+      "code": "C92555",
+      "action": "modify",
+      "date": "2010-12-27"
+    },
+    {
+      "code": "C92555",
+      "action": "modify",
+      "date": "2011-01-17"
+    },
+    {
+      "code": "C92555",
+      "action": "modify",
+      "date": "2012-07-30"
+    },
+    {
+      "code": "C92555",
+      "action": "modify",
+      "date": "2012-12-10"
+    },
+    {
+      "code": "C92555",
+      "action": "modify",
+      "date": "2014-02-03"
+    },
+    {
+      "code": "C92555",
+      "action": "modify",
+      "date": "2016-04-25"
+    },
+    {
+      "code": "C92555",
+      "action": "modify",
+      "date": "2018-09-24"
+    },
+    {
+      "code": "C92555",
+      "action": "modify",
+      "date": "2019-05-28"
+    },
+    {
+      "code": "C92555",
+      "action": "modify",
+      "date": "2019-09-30"
+    },
+    {
+      "code": "C92555",
+      "action": "modify",
+      "date": "2019-11-25"
+    },
+    {
+      "code": "C92555",
+      "action": "modify",
+      "date": "2020-03-30"
+    },
+    {
+      "code": "C92555",
+      "action": "modify",
+      "date": "2021-02-22"
+    },
+    {
+      "code": "C92555",
+      "action": "modify",
+      "date": "2021-03-29"
+    },
+    {
+      "code": "C92555",
+      "action": "modify",
+      "date": "2022-01-31"
+    },
+    {
+      "code": "C92555",
+      "action": "modify",
+      "date": "2022-03-28"
+    },
+    {
+      "code": "C92555",
+      "action": "modify",
+      "date": "2022-04-25"
+    }
+  ],
+  "maps": [
+    {
+      "type": "Related To",
+      "targetName": "9506/1",
+      "targetTermType": "PT",
+      "targetCode": "morphology",
+      "targetTerminology": "GDC"
+    },
+    {
+      "type": "Has Synonym",
+      "targetName": "Extraventricular neurocytoma",
+      "targetTermType": "PT",
+      "targetCode": "primary_diagnosis",
+      "targetTerminology": "GDC"
+    }
+  ]
+}

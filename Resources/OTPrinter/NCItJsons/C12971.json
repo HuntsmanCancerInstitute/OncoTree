@@ -1,0 +1,6225 @@
+{
+  "code": "C12971",
+  "name": "Breast",
+  "terminology": "ncit",
+  "version": "25.11d",
+  "conceptStatus": "DEFAULT",
+  "leaf": false,
+  "active": true,
+  "synonyms": [
+    {
+      "name": "Breast",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "caDSR"
+    },
+    {
+      "name": "Breast",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "CDISC"
+    },
+    {
+      "name": "BREAST",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "CDISC"
+    },
+    {
+      "name": "Breast",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "GDC"
+    },
+    {
+      "name": "Breast, NOS",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "GDC"
+    },
+    {
+      "name": "Breast structure (body structure)",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "mCode",
+      "code": "76752008",
+      "subSource": "SNOMED CT"
+    },
+    {
+      "name": "breast",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NCI-GLOSS",
+      "code": "CDR0000304766"
+    },
+    {
+      "name": "Breast",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Breasts",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Breast",
+      "type": "Display_Name"
+    },
+    {
+      "name": "Breast",
+      "type": "Preferred_Name"
+    },
+    {
+      "name": "Breast",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "PCDC",
+      "subSource": "OS"
+    }
+  ],
+  "definitions": [
+    {
+      "definition": "Glandular organ located on the chest. The breast is made up of connective tissue, fat, and breast tissue that contains the glands that can make milk.",
+      "type": "ALT_DEFINITION",
+      "source": "NCI-GLOSS"
+    },
+    {
+      "definition": "One of two hemispheric projections of variable size situated in the subcutaneous layer over the pectoralis major muscle on either side of the chest.",
+      "type": "DEFINITION",
+      "source": "NCI"
+    },
+    {
+      "definition": "One of two hemispheric projections of variable size situated in the subcutaneous layer over the pectoralis major muscle on either side of the chest. (NCI)",
+      "type": "ALT_DEFINITION",
+      "source": "CDISC"
+    }
+  ],
+  "properties": [
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "CDISC"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "GDC"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "mCode"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "PCDC"
+    },
+    {
+      "code": "P366",
+      "type": "Legacy Concept Name",
+      "value": "Breast"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "BREAST"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "Breast"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "Breast, NOS"
+    },
+    {
+      "code": "P106",
+      "type": "Semantic_Type",
+      "value": "Body Part, Organ, or Organ Component"
+    },
+    {
+      "code": "P207",
+      "type": "UMLS_CUI",
+      "value": "C0006141"
+    }
+  ],
+  "children": [
+    {
+      "code": "C12851",
+      "name": "Female Breast",
+      "leaf": true
+    },
+    {
+      "code": "C47855",
+      "name": "Left Breast",
+      "leaf": true
+    },
+    {
+      "code": "C33048",
+      "name": "Male Breast",
+      "leaf": true
+    },
+    {
+      "code": "C47856",
+      "name": "Right Breast",
+      "leaf": true
+    }
+  ],
+  "parents": [
+    {
+      "code": "C13018",
+      "name": "Organ"
+    }
+  ],
+  "associations": [
+    {
+      "type": "Is_Value_For_GDC_Property",
+      "relatedCode": "C188396",
+      "relatedName": "Anatomic Site of Maximum Tumor Bulk"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C74456",
+      "relatedName": "CDISC SDTM Anatomical Location Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C66830",
+      "relatedName": "CDISC SDTM Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C77526",
+      "relatedName": "CDISC SEND Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C61410",
+      "relatedName": "Clinical Data Interchange Standards Consortium Terminology"
+    },
+    {
+      "type": "Is_Value_For_GDC_Property",
+      "relatedCode": "C173263",
+      "relatedName": "Disease Involvement Site"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C157711",
+      "relatedName": "GDC Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C177537",
+      "relatedName": "GDC Value Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168655",
+      "relatedName": "Mapped ICDO3.1 Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168660",
+      "relatedName": "Mapped ICDO3.1 Topography PT Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168659",
+      "relatedName": "Mapped ICDO3.1 Topography Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168656",
+      "relatedName": "Mapped ICDO3.2 Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168664",
+      "relatedName": "Mapped ICDO3.2 Topography PT Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168663",
+      "relatedName": "Mapped ICDO3.2 Topography Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C193234",
+      "relatedName": "mCode Radiotherapy Treatment Location Value Set"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C193006",
+      "relatedName": "mCode Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C179478",
+      "relatedName": "OS Authorized Value Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C179482",
+      "relatedName": "OS Biopsy/Surgical Procedures Table"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C179483",
+      "relatedName": "OS Radiation Therapy Table"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C179481",
+      "relatedName": "OS Tumor Assessment Table"
+    },
+    {
+      "type": "Is_Value_For_GDC_Property",
+      "relatedCode": "C158874",
+      "relatedName": "Primary Site of Disease"
+    },
+    {
+      "type": "Is_Value_For_GDC_Property",
+      "relatedCode": "C177570",
+      "relatedName": "Progressive or Recurrent Disease Anatomic Site"
+    },
+    {
+      "type": "Is_Value_For_GDC_Property",
+      "relatedCode": "C156421",
+      "relatedName": "Site of Resection or Biopsy"
+    },
+    {
+      "type": "Is_Value_For_GDC_Property",
+      "relatedCode": "C171435",
+      "relatedName": "Specimen Anatomic Site"
+    },
+    {
+      "type": "Is_Value_For_GDC_Property",
+      "relatedCode": "C70729",
+      "relatedName": "Targeted Anatomic Site"
+    },
+    {
+      "type": "Is_Value_For_GDC_Property",
+      "relatedCode": "C156422",
+      "relatedName": "Tissue or Organ of Origin"
+    }
+  ],
+  "inverseAssociations": [
+    {
+      "type": "Has_GDC_Value",
+      "relatedCode": "C188396",
+      "relatedName": "Anatomic Site of Maximum Tumor Bulk"
+    },
+    {
+      "type": "Has_GDC_Value",
+      "relatedCode": "C173263",
+      "relatedName": "Disease Involvement Site"
+    },
+    {
+      "type": "Has_GDC_Value",
+      "relatedCode": "C158874",
+      "relatedName": "Primary Site of Disease"
+    },
+    {
+      "type": "Has_GDC_Value",
+      "relatedCode": "C177570",
+      "relatedName": "Progressive or Recurrent Disease Anatomic Site"
+    },
+    {
+      "type": "Has_PCDC_OS_Authorized_Value",
+      "relatedCode": "C173281",
+      "relatedName": "Site of Radiation Therapy"
+    },
+    {
+      "type": "Has_GDC_Value",
+      "relatedCode": "C156421",
+      "relatedName": "Site of Resection or Biopsy"
+    },
+    {
+      "type": "Has_PCDC_OS_Authorized_Value",
+      "relatedCode": "C157120",
+      "relatedName": "Site of Tumor"
+    },
+    {
+      "type": "Has_GDC_Value",
+      "relatedCode": "C171435",
+      "relatedName": "Specimen Anatomic Site"
+    },
+    {
+      "type": "Has_PCDC_OS_Authorized_Value",
+      "relatedCode": "C164323",
+      "relatedName": "Surgical Site"
+    },
+    {
+      "type": "Has_GDC_Value",
+      "relatedCode": "C70729",
+      "relatedName": "Targeted Anatomic Site"
+    },
+    {
+      "type": "Has_GDC_Value",
+      "relatedCode": "C156422",
+      "relatedName": "Tissue or Organ of Origin"
+    }
+  ],
+  "roles": [
+    {
+      "type": "Anatomic_Structure_Is_Physical_Part_Of",
+      "relatedCode": "C25389",
+      "relatedName": "Chest"
+    }
+  ],
+  "inverseRoles": [
+    {
+      "type": "Gene_Product_Expressed_In_Tissue",
+      "relatedCode": "C26314",
+      "relatedName": "3-Keto-Steroid Reductase"
+    },
+    {
+      "type": "Disease_Excludes_Primary_Anatomic_Site",
+      "relatedCode": "C167341",
+      "relatedName": "Adnexal Adenocarcinoma, Not Otherwise Specified"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C165700",
+      "relatedName": "Advanced Breast Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C165700",
+      "relatedName": "Advanced Breast Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C162648",
+      "relatedName": "Advanced Breast Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C162648",
+      "relatedName": "Advanced Breast Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C218401",
+      "relatedName": "Advanced Breast Lobular Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C218401",
+      "relatedName": "Advanced Breast Lobular Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C192211",
+      "relatedName": "Advanced Estrogen Receptor-Positive Breast Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C192211",
+      "relatedName": "Advanced Estrogen Receptor-Positive Breast Carcinoma"
+    },
+    {
+      "type": "Disease_Excludes_Primary_Anatomic_Site",
+      "relatedCode": "C200068",
+      "relatedName": "Advanced Extramammary Paget Disease"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C179555",
+      "relatedName": "Advanced HER2-Low Breast Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C179555",
+      "relatedName": "Advanced HER2-Low Breast Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C168782",
+      "relatedName": "Advanced HER2-Negative Breast Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C168782",
+      "relatedName": "Advanced HER2-Negative Breast Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C180925",
+      "relatedName": "Advanced HER2-Positive Breast Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C180925",
+      "relatedName": "Advanced HER2-Positive Breast Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C190678",
+      "relatedName": "Advanced Hormone Receptor-Negative Breast Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C190678",
+      "relatedName": "Advanced Hormone Receptor-Negative Breast Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C185881",
+      "relatedName": "Advanced Hormone Receptor-Positive Breast Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C185881",
+      "relatedName": "Advanced Hormone Receptor-Positive Breast Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C200573",
+      "relatedName": "Advanced Progesterone Receptor-Positive Breast Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C200573",
+      "relatedName": "Advanced Progesterone Receptor-Positive Breast Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C175236",
+      "relatedName": "Advanced Triple-Negative Breast Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C175236",
+      "relatedName": "Advanced Triple-Negative Breast Carcinoma"
+    },
+    {
+      "type": "Disease_Excludes_Primary_Anatomic_Site",
+      "relatedCode": "C7477",
+      "relatedName": "Anal Canal Paget Disease"
+    },
+    {
+      "type": "Disease_Excludes_Primary_Anatomic_Site",
+      "relatedCode": "C7476",
+      "relatedName": "Anal Margin Paget Disease"
+    },
+    {
+      "type": "Disease_Excludes_Primary_Anatomic_Site",
+      "relatedCode": "C5598",
+      "relatedName": "Anal Paget Disease"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C139534",
+      "relatedName": "Anatomic Stage 0 Breast Cancer AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C139534",
+      "relatedName": "Anatomic Stage 0 Breast Cancer AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C139535",
+      "relatedName": "Anatomic Stage I Breast Cancer AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C139535",
+      "relatedName": "Anatomic Stage I Breast Cancer AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C139536",
+      "relatedName": "Anatomic Stage IA Breast Cancer AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C139536",
+      "relatedName": "Anatomic Stage IA Breast Cancer AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C139537",
+      "relatedName": "Anatomic Stage IB Breast Cancer AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C139537",
+      "relatedName": "Anatomic Stage IB Breast Cancer AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C139538",
+      "relatedName": "Anatomic Stage II Breast Cancer AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C139538",
+      "relatedName": "Anatomic Stage II Breast Cancer AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C139539",
+      "relatedName": "Anatomic Stage IIA Breast Cancer AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C139539",
+      "relatedName": "Anatomic Stage IIA Breast Cancer AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C139540",
+      "relatedName": "Anatomic Stage IIB Breast Cancer AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C139540",
+      "relatedName": "Anatomic Stage IIB Breast Cancer AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C139541",
+      "relatedName": "Anatomic Stage III Breast Cancer AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C139541",
+      "relatedName": "Anatomic Stage III Breast Cancer AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C139542",
+      "relatedName": "Anatomic Stage IIIA Breast Cancer AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C139542",
+      "relatedName": "Anatomic Stage IIIA Breast Cancer AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C139543",
+      "relatedName": "Anatomic Stage IIIB Breast Cancer AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C139543",
+      "relatedName": "Anatomic Stage IIIB Breast Cancer AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C139544",
+      "relatedName": "Anatomic Stage IIIC Breast Cancer AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C139544",
+      "relatedName": "Anatomic Stage IIIC Breast Cancer AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C139545",
+      "relatedName": "Anatomic Stage IV Breast Cancer AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C139545",
+      "relatedName": "Anatomic Stage IV Breast Cancer AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C190851",
+      "relatedName": "Androgen Receptor-Positive Breast Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C190851",
+      "relatedName": "Androgen Receptor-Positive Breast Carcinoma"
+    },
+    {
+      "type": "Gene_Product_Expressed_In_Tissue",
+      "relatedCode": "C21505",
+      "relatedName": "Ankyrin Repeat Domain-Containing Protein 30A"
+    },
+    {
+      "type": "Anatomic_Structure_Is_Physical_Part_Of",
+      "relatedCode": "C12368",
+      "relatedName": "Areola"
+    },
+    {
+      "type": "Procedure_Has_Target_Anatomy",
+      "relatedCode": "C107225",
+      "relatedName": "Augmentation Mammoplasty"
+    },
+    {
+      "type": "Procedure_Has_Imaged_Anatomy",
+      "relatedCode": "C186741",
+      "relatedName": "Automated Breast Ultrasound"
+    },
+    {
+      "type": "Anatomic_Structure_Is_Physical_Part_Of",
+      "relatedCode": "C12305",
+      "relatedName": "Axillary Tail of the Breast"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C53558",
+      "relatedName": "Basal-Like Breast Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C53558",
+      "relatedName": "Basal-Like Breast Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C5144",
+      "relatedName": "Benign Breast Adenomyoepithelioma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C5144",
+      "relatedName": "Benign Breast Adenomyoepithelioma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C4505",
+      "relatedName": "Benign Breast Neoplasm"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C4505",
+      "relatedName": "Benign Breast Neoplasm"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C5196",
+      "relatedName": "Benign Breast Phyllodes Tumor"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C5196",
+      "relatedName": "Benign Breast Phyllodes Tumor"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C3848",
+      "relatedName": "Benign Female Breast Neoplasm"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C3848",
+      "relatedName": "Benign Female Breast Neoplasm"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C4620",
+      "relatedName": "Benign Male Breast Neoplasm"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C4620",
+      "relatedName": "Benign Male Breast Neoplasm"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C5197",
+      "relatedName": "Benign Nipple Neoplasm"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C5197",
+      "relatedName": "Benign Nipple Neoplasm"
+    },
+    {
+      "type": "Gene_Product_Expressed_In_Tissue",
+      "relatedCode": "C21161",
+      "relatedName": "Beta-Microseminoprotein"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C8287",
+      "relatedName": "Bilateral Breast Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C8287",
+      "relatedName": "Bilateral Breast Carcinoma"
+    },
+    {
+      "type": "Procedure_Has_Excised_Anatomy",
+      "relatedCode": "C168521",
+      "relatedName": "Bilateral Mastectomy"
+    },
+    {
+      "type": "Procedure_Has_Excised_Anatomy",
+      "relatedCode": "C46072",
+      "relatedName": "Bilateral Prophylactic Mastectomy"
+    },
+    {
+      "type": "Procedure_Has_Partially_Excised_Anatomy",
+      "relatedCode": "C51935",
+      "relatedName": "Bilateral Reduction Mammoplasty"
+    },
+    {
+      "type": "Procedure_Has_Target_Anatomy",
+      "relatedCode": "C51935",
+      "relatedName": "Bilateral Reduction Mammoplasty"
+    },
+    {
+      "type": "Procedure_Has_Partially_Excised_Anatomy",
+      "relatedCode": "C137849",
+      "relatedName": "Biopsy of Nipple and Areola"
+    },
+    {
+      "type": "Disease_Excludes_Primary_Anatomic_Site",
+      "relatedCode": "C136610",
+      "relatedName": "Bone Cancer by AJCC v7 Stage"
+    },
+    {
+      "type": "Disease_Excludes_Primary_Anatomic_Site",
+      "relatedCode": "C136612",
+      "relatedName": "Bone Cancer by AJCC v8 Stage"
+    },
+    {
+      "type": "Disease_Excludes_Primary_Anatomic_Site",
+      "relatedCode": "C136632",
+      "relatedName": "Bone Sarcoma by AJCC v7 Stage"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C5316",
+      "relatedName": "Borderline Breast Phyllodes Tumor"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C5316",
+      "relatedName": "Borderline Breast Phyllodes Tumor"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C167189",
+      "relatedName": "BRCA Hereditary Breast Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C167189",
+      "relatedName": "BRCA Hereditary Breast Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C40359",
+      "relatedName": "Breast Acantholytic Squamous Cell Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C40359",
+      "relatedName": "Breast Acantholytic Squamous Cell Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C40367",
+      "relatedName": "Breast Acinic Cell Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C40367",
+      "relatedName": "Breast Acinic Cell Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C40360",
+      "relatedName": "Breast Adenocarcinoma with Spindle Cell Metaplasia"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C40360",
+      "relatedName": "Breast Adenocarcinoma with Spindle Cell Metaplasia"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C5163",
+      "relatedName": "Breast Adenocarcinoma with Squamous Metaplasia"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C5163",
+      "relatedName": "Breast Adenocarcinoma with Squamous Metaplasia"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C5214",
+      "relatedName": "Breast Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C5214",
+      "relatedName": "Breast Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C40403",
+      "relatedName": "Breast Adenohibernoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C40403",
+      "relatedName": "Breast Adenohibernoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C5130",
+      "relatedName": "Breast Adenoid Cystic Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C5130",
+      "relatedName": "Breast Adenoid Cystic Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C40402",
+      "relatedName": "Breast Adenolipoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C40402",
+      "relatedName": "Breast Adenolipoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C40382",
+      "relatedName": "Breast Adenoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C40382",
+      "relatedName": "Breast Adenoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C40391",
+      "relatedName": "Breast Adenomyoepithelial Adenosis"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C40391",
+      "relatedName": "Breast Adenomyoepithelial Adenosis"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C6899",
+      "relatedName": "Breast Adenomyoepithelioma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C6899",
+      "relatedName": "Breast Adenomyoepithelioma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C3484",
+      "relatedName": "Breast Adenosis"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C3484",
+      "relatedName": "Breast Adenosis"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C40361",
+      "relatedName": "Breast Adenosquamous Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C40361",
+      "relatedName": "Breast Adenosquamous Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C176255",
+      "relatedName": "Breast Angiolipoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C176255",
+      "relatedName": "Breast Angiolipoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C40381",
+      "relatedName": "Breast Angiomatosis"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C40381",
+      "relatedName": "Breast Angiomatosis"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C5184",
+      "relatedName": "Breast Angiosarcoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C5184",
+      "relatedName": "Breast Angiosarcoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C40383",
+      "relatedName": "Breast Apocrine Adenoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C40383",
+      "relatedName": "Breast Apocrine Adenoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C5198",
+      "relatedName": "Breast Apocrine Adenosis"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C5198",
+      "relatedName": "Breast Apocrine Adenosis"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C5140",
+      "relatedName": "Breast Apocrine Carcinoma In Situ"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C5140",
+      "relatedName": "Breast Apocrine Carcinoma In Situ"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C5141",
+      "relatedName": "Breast Apocrine Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C5141",
+      "relatedName": "Breast Apocrine Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C83494",
+      "relatedName": "Breast Atrophy"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C83494",
+      "relatedName": "Breast Atrophy"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C8436",
+      "relatedName": "Breast Atypical Ductal Hyperplasia"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C8436",
+      "relatedName": "Breast Atypical Ductal Hyperplasia"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C5195",
+      "relatedName": "Breast Atypical Hyperplasia"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C5195",
+      "relatedName": "Breast Atypical Hyperplasia"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C4730",
+      "relatedName": "Breast Atypical Lobular Hyperplasia"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C4730",
+      "relatedName": "Breast Atypical Lobular Hyperplasia"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C66719",
+      "relatedName": "Breast Atypical Medullary Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C66719",
+      "relatedName": "Breast Atypical Medullary Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C40386",
+      "relatedName": "Breast Atypical Myoepitheliosis"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C40386",
+      "relatedName": "Breast Atypical Myoepitheliosis"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C36089",
+      "relatedName": "Breast Atypical Papilloma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C36089",
+      "relatedName": "Breast Atypical Papilloma"
+    },
+    {
+      "type": "Procedure_Has_Partially_Excised_Anatomy",
+      "relatedCode": "C51698",
+      "relatedName": "Breast Biopsy Procedure"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C40376",
+      "relatedName": "Breast Burkitt Lymphoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C40376",
+      "relatedName": "Breast Burkitt Lymphoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C90513",
+      "relatedName": "Breast Cancer by AJCC v6 Stage"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C90513",
+      "relatedName": "Breast Cancer by AJCC v6 Stage"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C91230",
+      "relatedName": "Breast Cancer by AJCC v7 Stage"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C91230",
+      "relatedName": "Breast Cancer by AJCC v7 Stage"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C139533",
+      "relatedName": "Breast Cancer by AJCC v8 Anatomic Stage"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C139533",
+      "relatedName": "Breast Cancer by AJCC v8 Anatomic Stage"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C139554",
+      "relatedName": "Breast Cancer by AJCC v8 Prognostic Stage"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C139554",
+      "relatedName": "Breast Cancer by AJCC v8 Prognostic Stage"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C139532",
+      "relatedName": "Breast Cancer by AJCC v8 Stage"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C139532",
+      "relatedName": "Breast Cancer by AJCC v8 Stage"
+    },
+    {
+      "type": "Gene_Product_Expressed_In_Tissue",
+      "relatedCode": "C17916",
+      "relatedName": "Breast Cancer Type 2 Susceptibility Protein"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C5210",
+      "relatedName": "Breast Capillary Hemangioma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C5210",
+      "relatedName": "Breast Capillary Hemangioma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C53553",
+      "relatedName": "Breast Carcinoma by Gene Expression Profile"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C53553",
+      "relatedName": "Breast Carcinoma by Gene Expression Profile"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C47847",
+      "relatedName": "Breast Carcinoma with Chondroid Metaplasia"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C47847",
+      "relatedName": "Breast Carcinoma with Chondroid Metaplasia"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C40350",
+      "relatedName": "Breast Carcinoma with Choriocarcinomatous Features"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C40350",
+      "relatedName": "Breast Carcinoma with Choriocarcinomatous Features"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C40351",
+      "relatedName": "Breast Carcinoma with Melanotic Features"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C40351",
+      "relatedName": "Breast Carcinoma with Melanotic Features"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C175585",
+      "relatedName": "Breast Carcinoma with Neuroendocrine Differentiation"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C175585",
+      "relatedName": "Breast Carcinoma with Neuroendocrine Differentiation"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C47848",
+      "relatedName": "Breast Carcinoma with Osseous Metaplasia"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C47848",
+      "relatedName": "Breast Carcinoma with Osseous Metaplasia"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C40349",
+      "relatedName": "Breast Carcinoma with Osteoclast-Like Stromal Giant Cells"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C40349",
+      "relatedName": "Breast Carcinoma with Osteoclast-Like Stromal Giant Cells"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C4872",
+      "relatedName": "Breast Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C4872",
+      "relatedName": "Breast Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C176045",
+      "relatedName": "Breast Cellular Fibroadenoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C176045",
+      "relatedName": "Breast Cellular Fibroadenoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C36087",
+      "relatedName": "Breast Central Papilloma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C36087",
+      "relatedName": "Breast Central Papilloma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C83170",
+      "relatedName": "Breast Classic Lobular Carcinoma In Situ Type A"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C83170",
+      "relatedName": "Breast Classic Lobular Carcinoma In Situ Type A"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C83171",
+      "relatedName": "Breast Classic Lobular Carcinoma In Situ Type B"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C83171",
+      "relatedName": "Breast Classic Lobular Carcinoma In Situ Type B"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C175949",
+      "relatedName": "Breast Classic Lobular Carcinoma In Situ"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C175949",
+      "relatedName": "Breast Classic Lobular Carcinoma In Situ"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C54184",
+      "relatedName": "Breast Columnar Cell Hyperplasia with Atypia"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C54184",
+      "relatedName": "Breast Columnar Cell Hyperplasia with Atypia"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C54183",
+      "relatedName": "Breast Columnar Cell Hyperplasia"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C54183",
+      "relatedName": "Breast Columnar Cell Hyperplasia"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C54180",
+      "relatedName": "Breast Columnar Cell Lesion"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C54180",
+      "relatedName": "Breast Columnar Cell Lesion"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C40355",
+      "relatedName": "Breast Columnar Cell Mucinous Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C40355",
+      "relatedName": "Breast Columnar Cell Mucinous Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C5194",
+      "relatedName": "Breast Complex Fibroadenoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C5194",
+      "relatedName": "Breast Complex Fibroadenoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C54658",
+      "relatedName": "Breast Cutaneous Nevus"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C54658",
+      "relatedName": "Breast Cutaneous Nevus"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C54658",
+      "relatedName": "Breast Cutaneous Nevus"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C40375",
+      "relatedName": "Breast Diffuse Large B-Cell Lymphoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C40375",
+      "relatedName": "Breast Diffuse Large B-Cell Lymphoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C26709",
+      "relatedName": "Breast Disorder"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C40384",
+      "relatedName": "Breast Ductal Adenoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C40384",
+      "relatedName": "Breast Ductal Adenoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C6939",
+      "relatedName": "Breast Ductal Carcinoma In Situ and Invasive Lobular Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C6939",
+      "relatedName": "Breast Ductal Carcinoma In Situ and Invasive Lobular Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C4195",
+      "relatedName": "Breast Ductal Carcinoma In Situ and Lobular Carcinoma In Situ"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C4195",
+      "relatedName": "Breast Ductal Carcinoma In Situ and Lobular Carcinoma In Situ"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C7690",
+      "relatedName": "Breast Ductal Carcinoma In Situ and Lobular Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C7690",
+      "relatedName": "Breast Ductal Carcinoma In Situ and Lobular Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C176005",
+      "relatedName": "Breast Ductal Carcinoma In Situ, Comedo Type"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C176005",
+      "relatedName": "Breast Ductal Carcinoma In Situ, Comedo Type"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C5138",
+      "relatedName": "Breast Ductal Carcinoma In Situ, Cribriform Pattern"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C5138",
+      "relatedName": "Breast Ductal Carcinoma In Situ, Cribriform Pattern"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C7949",
+      "relatedName": "Breast Ductal Carcinoma In Situ, High Grade"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C7949",
+      "relatedName": "Breast Ductal Carcinoma In Situ, High Grade"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C9456",
+      "relatedName": "Breast Ductal Carcinoma In Situ, Intermediate Grade"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C9456",
+      "relatedName": "Breast Ductal Carcinoma In Situ, Intermediate Grade"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C9457",
+      "relatedName": "Breast Ductal Carcinoma In Situ, Low Grade"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C9457",
+      "relatedName": "Breast Ductal Carcinoma In Situ, Low Grade"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C5137",
+      "relatedName": "Breast Ductal Carcinoma In Situ, Non-Comedo Type"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C5137",
+      "relatedName": "Breast Ductal Carcinoma In Situ, Non-Comedo Type"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C66933",
+      "relatedName": "Breast Ductal Carcinoma In Situ, Solid Type"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C66933",
+      "relatedName": "Breast Ductal Carcinoma In Situ, Solid Type"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C2924",
+      "relatedName": "Breast Ductal Carcinoma In Situ"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C2924",
+      "relatedName": "Breast Ductal Carcinoma In Situ"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C6987",
+      "relatedName": "Breast Ductal Carcinoma with Squamous Metaplasia"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C6987",
+      "relatedName": "Breast Ductal Carcinoma with Squamous Metaplasia"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C4017",
+      "relatedName": "Breast Ductal Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C4017",
+      "relatedName": "Breast Ductal Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C9492",
+      "relatedName": "Breast Ductal Hyperplasia"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C9492",
+      "relatedName": "Breast Ductal Hyperplasia"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C5211",
+      "relatedName": "Breast Epithelioid Hemangioma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C5211",
+      "relatedName": "Breast Epithelioid Hemangioma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C5189",
+      "relatedName": "Breast Extraskeletal Osteosarcoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C5189",
+      "relatedName": "Breast Extraskeletal Osteosarcoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C3661",
+      "relatedName": "Breast Fat Necrosis"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C3661",
+      "relatedName": "Breast Fat Necrosis"
+    },
+    {
+      "type": "Anatomic_Structure_Is_Physical_Part_Of",
+      "relatedCode": "C12369",
+      "relatedName": "Breast Fat Pad"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C3744",
+      "relatedName": "Breast Fibroadenoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C3744",
+      "relatedName": "Breast Fibroadenoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C6943",
+      "relatedName": "Breast Fibrocystic Change, Non-Proliferative Type"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C6943",
+      "relatedName": "Breast Fibrocystic Change, Non-Proliferative Type"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C8365",
+      "relatedName": "Breast Fibrocystic Change, Proliferative Type with Atypia"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C8365",
+      "relatedName": "Breast Fibrocystic Change, Proliferative Type with Atypia"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C5204",
+      "relatedName": "Breast Fibrocystic Change, Proliferative Type without Atypia"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C5204",
+      "relatedName": "Breast Fibrocystic Change, Proliferative Type without Atypia"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C6940",
+      "relatedName": "Breast Fibrocystic Change, Proliferative Type"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C6940",
+      "relatedName": "Breast Fibrocystic Change, Proliferative Type"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C3039",
+      "relatedName": "Breast Fibrocystic Change"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C3039",
+      "relatedName": "Breast Fibrocystic Change"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C40405",
+      "relatedName": "Breast Fibroepithelial Neoplasm"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C40405",
+      "relatedName": "Breast Fibroepithelial Neoplasm"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C5185",
+      "relatedName": "Breast Fibrosarcoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C5185",
+      "relatedName": "Breast Fibrosarcoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C3660",
+      "relatedName": "Breast Fibrosis"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C3660",
+      "relatedName": "Breast Fibrosis"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C36086",
+      "relatedName": "Breast Flat Ductal Epithelial Atypia"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C36086",
+      "relatedName": "Breast Flat Ductal Epithelial Atypia"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C175950",
+      "relatedName": "Breast Florid Lobular Carcinoma In Situ"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C175950",
+      "relatedName": "Breast Florid Lobular Carcinoma In Situ"
+    },
+    {
+      "type": "Anatomic_Structure_Has_Location",
+      "relatedCode": "C13401",
+      "relatedName": "Breast Fluid or Secretion"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C40377",
+      "relatedName": "Breast Follicular Lymphoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C40377",
+      "relatedName": "Breast Follicular Lymphoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C4273",
+      "relatedName": "Breast Giant Fibroadenoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C4273",
+      "relatedName": "Breast Giant Fibroadenoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C40400",
+      "relatedName": "Breast Granular Cell Tumor"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C40400",
+      "relatedName": "Breast Granular Cell Tumor"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C40401",
+      "relatedName": "Breast Hamartoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C40401",
+      "relatedName": "Breast Hamartoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C5353",
+      "relatedName": "Breast Hemangioma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C5353",
+      "relatedName": "Breast Hemangioma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C5167",
+      "relatedName": "Breast High Grade Mucoepidermoid Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C5167",
+      "relatedName": "Breast High Grade Mucoepidermoid Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C157235",
+      "relatedName": "Breast Histiocytoid Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C157235",
+      "relatedName": "Breast Histiocytoid Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C4804",
+      "relatedName": "Breast Hyperplasia"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C4804",
+      "relatedName": "Breast Hyperplasia"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C3125",
+      "relatedName": "Breast Hypertrophy"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C3125",
+      "relatedName": "Breast Hypertrophy"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C78222",
+      "relatedName": "Breast Hypoplasia"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C78222",
+      "relatedName": "Breast Hypoplasia"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C139012",
+      "relatedName": "Breast Implant-Associated Anaplastic Large Cell Lymphoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C139012",
+      "relatedName": "Breast Implant-Associated Anaplastic Large Cell Lymphoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C4001",
+      "relatedName": "Breast Inflammatory Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C4001",
+      "relatedName": "Breast Inflammatory Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C40398",
+      "relatedName": "Breast Inflammatory Myofibroblastic Tumor"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C40398",
+      "relatedName": "Breast Inflammatory Myofibroblastic Tumor"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C4271",
+      "relatedName": "Breast Intracanalicular Fibroadenoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C4271",
+      "relatedName": "Breast Intracanalicular Fibroadenoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C40387",
+      "relatedName": "Breast Intraductal Myoepitheliosis"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C40387",
+      "relatedName": "Breast Intraductal Myoepitheliosis"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C36083",
+      "relatedName": "Breast Intraductal Neoplasm"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C36083",
+      "relatedName": "Breast Intraductal Neoplasm"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C36090",
+      "relatedName": "Breast Intraductal Papillary Neoplasm"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C36090",
+      "relatedName": "Breast Intraductal Papillary Neoplasm"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C3863",
+      "relatedName": "Breast Intraductal Papilloma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C3863",
+      "relatedName": "Breast Intraductal Papilloma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C5201",
+      "relatedName": "Breast Intraductal Papillomatosis"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C5201",
+      "relatedName": "Breast Intraductal Papillomatosis"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C27942",
+      "relatedName": "Breast Intraductal Proliferative Lesion"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C27942",
+      "relatedName": "Breast Intraductal Proliferative Lesion"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C40356",
+      "relatedName": "Breast Large Cell Neuroendocrine Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C40356",
+      "relatedName": "Breast Large Cell Neuroendocrine Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C40399",
+      "relatedName": "Breast Leiomyoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C40399",
+      "relatedName": "Breast Leiomyoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C5186",
+      "relatedName": "Breast Leiomyosarcoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C5186",
+      "relatedName": "Breast Leiomyosarcoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C40365",
+      "relatedName": "Breast Lipid-Rich Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C40365",
+      "relatedName": "Breast Lipid-Rich Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C4647",
+      "relatedName": "Breast Lipoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C4647",
+      "relatedName": "Breast Lipoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C5187",
+      "relatedName": "Breast Liposarcoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C5187",
+      "relatedName": "Breast Liposarcoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C4018",
+      "relatedName": "Breast Lobular Carcinoma In Situ"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C4018",
+      "relatedName": "Breast Lobular Carcinoma In Situ"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C3771",
+      "relatedName": "Breast Lobular Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C3771",
+      "relatedName": "Breast Lobular Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C27939",
+      "relatedName": "Breast Lobular Neoplasia"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C27939",
+      "relatedName": "Breast Lobular Neoplasia"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C5168",
+      "relatedName": "Breast Low Grade Mucoepidermoid Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C5168",
+      "relatedName": "Breast Low Grade Mucoepidermoid Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C4671",
+      "relatedName": "Breast Lymphoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C4671",
+      "relatedName": "Breast Lymphoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C40395",
+      "relatedName": "Breast Malignant Myoepithelioma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C40395",
+      "relatedName": "Breast Malignant Myoepithelioma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C9119",
+      "relatedName": "Breast Medullary Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C9119",
+      "relatedName": "Breast Medullary Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C8410",
+      "relatedName": "Breast Melanoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C8410",
+      "relatedName": "Breast Melanoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C5164",
+      "relatedName": "Breast Metaplastic Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C5164",
+      "relatedName": "Breast Metaplastic Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C5199",
+      "relatedName": "Breast Microglandular Adenosis"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C5199",
+      "relatedName": "Breast Microglandular Adenosis"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C5139",
+      "relatedName": "Breast Micropapillary Ductal Carcinoma In Situ"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C5139",
+      "relatedName": "Breast Micropapillary Ductal Carcinoma In Situ"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C40347",
+      "relatedName": "Breast Mixed Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C40347",
+      "relatedName": "Breast Mixed Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C5160",
+      "relatedName": "Breast Mixed Ductal and Lobular Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C5160",
+      "relatedName": "Breast Mixed Ductal and Lobular Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C40364",
+      "relatedName": "Breast Mixed Epithelial/Mesenchymal Metaplastic Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C40364",
+      "relatedName": "Breast Mixed Epithelial/Mesenchymal Metaplastic Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C9131",
+      "relatedName": "Breast Mucinous Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C9131",
+      "relatedName": "Breast Mucinous Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C40354",
+      "relatedName": "Breast Mucinous Cystadenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C40354",
+      "relatedName": "Breast Mucinous Cystadenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C5166",
+      "relatedName": "Breast Mucoepidermoid Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C5166",
+      "relatedName": "Breast Mucoepidermoid Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C35688",
+      "relatedName": "Breast Mucosa-Associated Lymphoid Tissue Lymphoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C35688",
+      "relatedName": "Breast Mucosa-Associated Lymphoid Tissue Lymphoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C40389",
+      "relatedName": "Breast Myoepithelial Tumor"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C40389",
+      "relatedName": "Breast Myoepithelial Tumor"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C40389",
+      "relatedName": "Breast Myoepithelial Tumor"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C40385",
+      "relatedName": "Breast Myoepitheliosis"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C40385",
+      "relatedName": "Breast Myoepitheliosis"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C40397",
+      "relatedName": "Breast Myofibroblastoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C40397",
+      "relatedName": "Breast Myofibroblastoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C40404",
+      "relatedName": "Breast Myoid Hamartoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C40404",
+      "relatedName": "Breast Myoid Hamartoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C2910",
+      "relatedName": "Breast Neoplasm"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C175581",
+      "relatedName": "Breast Neuroendocrine Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C175581",
+      "relatedName": "Breast Neuroendocrine Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C5169",
+      "relatedName": "Breast Neuroendocrine Neoplasm"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C5169",
+      "relatedName": "Breast Neuroendocrine Neoplasm"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C5170",
+      "relatedName": "Breast Neuroendocrine Tumor G1"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C5170",
+      "relatedName": "Breast Neuroendocrine Tumor G1"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C175611",
+      "relatedName": "Breast Neuroendocrine Tumor G2"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C175611",
+      "relatedName": "Breast Neuroendocrine Tumor G2"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C175610",
+      "relatedName": "Breast Neuroendocrine Tumor"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C175610",
+      "relatedName": "Breast Neuroendocrine Tumor"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C176415",
+      "relatedName": "Breast Neurofibroma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C176415",
+      "relatedName": "Breast Neurofibroma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C176253",
+      "relatedName": "Breast Nodular Fasciitis"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C176253",
+      "relatedName": "Breast Nodular Fasciitis"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C5181",
+      "relatedName": "Breast Non-Hodgkin Lymphoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C5181",
+      "relatedName": "Breast Non-Hodgkin Lymphoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C40366",
+      "relatedName": "Breast Oncocytic Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C40366",
+      "relatedName": "Breast Oncocytic Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C4019",
+      "relatedName": "Breast Paget Disease and Intraductal Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C4019",
+      "relatedName": "Breast Paget Disease and Intraductal Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C7951",
+      "relatedName": "Breast Paget Disease with Invasive Ductal Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C7951",
+      "relatedName": "Breast Paget Disease with Invasive Ductal Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C47858",
+      "relatedName": "Breast Paget Disease without Invasive Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C47858",
+      "relatedName": "Breast Paget Disease without Invasive Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C47857",
+      "relatedName": "Breast Paget Disease"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C47857",
+      "relatedName": "Breast Paget Disease"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C9134",
+      "relatedName": "Breast Papillary Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C9134",
+      "relatedName": "Breast Papillary Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C7439",
+      "relatedName": "Breast Papillary Ductal Carcinoma In Situ with Invasion"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C7439",
+      "relatedName": "Breast Papillary Ductal Carcinoma In Situ with Invasion"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C4190",
+      "relatedName": "Breast Papillary Ductal Carcinoma In Situ"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C4190",
+      "relatedName": "Breast Papillary Ductal Carcinoma In Situ"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C5200",
+      "relatedName": "Breast Papillary Ductal Hyperplasia"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C5200",
+      "relatedName": "Breast Papillary Ductal Hyperplasia"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C5206",
+      "relatedName": "Breast Papillary Neoplasm"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C5206",
+      "relatedName": "Breast Papillary Neoplasm"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C4272",
+      "relatedName": "Breast Pericanalicular Fibroadenoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C4272",
+      "relatedName": "Breast Pericanalicular Fibroadenoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C40388",
+      "relatedName": "Breast Periductal Myoepitheliosis"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C40388",
+      "relatedName": "Breast Periductal Myoepitheliosis"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C179218",
+      "relatedName": "Breast Periductal Stromal Tumor"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C179218",
+      "relatedName": "Breast Periductal Stromal Tumor"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C36088",
+      "relatedName": "Breast Peripheral Papilloma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C36088",
+      "relatedName": "Breast Peripheral Papilloma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C7575",
+      "relatedName": "Breast Phyllodes Tumor"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C7575",
+      "relatedName": "Breast Phyllodes Tumor"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C40408",
+      "relatedName": "Breast Pleomorphic Adenoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C40408",
+      "relatedName": "Breast Pleomorphic Adenoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C5161",
+      "relatedName": "Breast Pleomorphic Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C5161",
+      "relatedName": "Breast Pleomorphic Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C137839",
+      "relatedName": "Breast Pleomorphic Lobular Carcinoma In Situ"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C137839",
+      "relatedName": "Breast Pleomorphic Lobular Carcinoma In Situ"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C175604",
+      "relatedName": "Breast Polymorphous Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C175604",
+      "relatedName": "Breast Polymorphous Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C5190",
+      "relatedName": "Breast Rhabdomyosarcoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C5190",
+      "relatedName": "Breast Rhabdomyosarcoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C4670",
+      "relatedName": "Breast Sarcoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C4670",
+      "relatedName": "Breast Sarcoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C176414",
+      "relatedName": "Breast Schwannoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C176414",
+      "relatedName": "Breast Schwannoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C7362",
+      "relatedName": "Breast Scirrhous Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C7362",
+      "relatedName": "Breast Scirrhous Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C5205",
+      "relatedName": "Breast Sclerosing Adenosis"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C5205",
+      "relatedName": "Breast Sclerosing Adenosis"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C27944",
+      "relatedName": "Breast Sclerosing Papilloma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C27944",
+      "relatedName": "Breast Sclerosing Papilloma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C40369",
+      "relatedName": "Breast Sebaceous Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C40369",
+      "relatedName": "Breast Sebaceous Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C4189",
+      "relatedName": "Breast Secretory Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C4189",
+      "relatedName": "Breast Secretory Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C5175",
+      "relatedName": "Breast Signet Ring Cell Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C5175",
+      "relatedName": "Breast Signet Ring Cell Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C6760",
+      "relatedName": "Breast Small Cell Neuroendocrine Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C6760",
+      "relatedName": "Breast Small Cell Neuroendocrine Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C40406",
+      "relatedName": "Breast Soft Tissue Neoplasm"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C40406",
+      "relatedName": "Breast Soft Tissue Neoplasm"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C176011",
+      "relatedName": "Breast Solid Papillary Carcinoma In Situ"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C176011",
+      "relatedName": "Breast Solid Papillary Carcinoma In Situ"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C6870",
+      "relatedName": "Breast Solid Papillary Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C6870",
+      "relatedName": "Breast Solid Papillary Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C5193",
+      "relatedName": "Breast Spiradenoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C5193",
+      "relatedName": "Breast Spiradenoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C40357",
+      "relatedName": "Breast Squamous Cell Carcinoma, Large Cell Keratinizing Variant"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C40357",
+      "relatedName": "Breast Squamous Cell Carcinoma, Large Cell Keratinizing Variant"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C40358",
+      "relatedName": "Breast Squamous Cell Carcinoma, Spindle Cell Variant"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C40358",
+      "relatedName": "Breast Squamous Cell Carcinoma, Spindle Cell Variant"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C5177",
+      "relatedName": "Breast Squamous Cell Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C5177",
+      "relatedName": "Breast Squamous Cell Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C5182",
+      "relatedName": "Breast T-Cell Non-Hodgkin Lymphoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C5182",
+      "relatedName": "Breast T-Cell Non-Hodgkin Lymphoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C175607",
+      "relatedName": "Breast Tall Cell Carcinoma with Reversed Polarity"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C175607",
+      "relatedName": "Breast Tall Cell Carcinoma with Reversed Polarity"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C62210",
+      "relatedName": "Breast Tubular Adenoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C62210",
+      "relatedName": "Breast Tubular Adenoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C9135",
+      "relatedName": "Breast Tubular Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C9135",
+      "relatedName": "Breast Tubular Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C27941",
+      "relatedName": "Breast Usual Ductal Hyperplasia"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C27941",
+      "relatedName": "Breast Usual Ductal Hyperplasia"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C5209",
+      "relatedName": "Breast Vascular Neoplasm"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C5209",
+      "relatedName": "Breast Vascular Neoplasm"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C5180",
+      "relatedName": "Carcinoma Arising from Breast Spiradenoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C5180",
+      "relatedName": "Carcinoma Arising from Breast Spiradenoma"
+    },
+    {
+      "type": "Anatomic_Structure_Is_Physical_Part_Of",
+      "relatedCode": "C12300",
+      "relatedName": "Central Portion of the Breast"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C190574",
+      "relatedName": "Childhood Benign Breast Neoplasm"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C190574",
+      "relatedName": "Childhood Benign Breast Neoplasm"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C118809",
+      "relatedName": "Childhood Breast Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C118809",
+      "relatedName": "Childhood Breast Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C189339",
+      "relatedName": "Childhood Breast Fibroadenoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C189339",
+      "relatedName": "Childhood Breast Fibroadenoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C189338",
+      "relatedName": "Childhood Breast Neoplasm"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C189340",
+      "relatedName": "Childhood Breast Phyllodes Tumor"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C189340",
+      "relatedName": "Childhood Breast Phyllodes Tumor"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C190575",
+      "relatedName": "Childhood Malignant Breast Neoplasm"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C54182",
+      "relatedName": "Columnar Cell Change of the Breast with Atypia"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C54182",
+      "relatedName": "Columnar Cell Change of the Breast with Atypia"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C54181",
+      "relatedName": "Columnar Cell Change of the Breast"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C54181",
+      "relatedName": "Columnar Cell Change of the Breast"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C99390",
+      "relatedName": "Contralateral Breast Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C99390",
+      "relatedName": "Contralateral Breast Carcinoma"
+    },
+    {
+      "type": "Procedure_Has_Excised_Anatomy",
+      "relatedCode": "C46070",
+      "relatedName": "Contralateral Prophylactic Mastectomy"
+    },
+    {
+      "type": "Procedure_Has_Partially_Excised_Anatomy",
+      "relatedCode": "C137851",
+      "relatedName": "Core Biopsy of Breast"
+    },
+    {
+      "type": "Procedure_Has_Target_Anatomy",
+      "relatedCode": "C93318",
+      "relatedName": "DIEP Flap"
+    },
+    {
+      "type": "Gene_Product_Expressed_In_Tissue",
+      "relatedCode": "C26210",
+      "relatedName": "Disabled Homolog 2"
+    },
+    {
+      "type": "Gene_Product_Expressed_In_Tissue",
+      "relatedCode": "C21464",
+      "relatedName": "DNA Mismatch Repair Protein Mlh1"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C94774",
+      "relatedName": "Early Stage Breast Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C94774",
+      "relatedName": "Early Stage Breast Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C190215",
+      "relatedName": "Early Stage HER2-Negative Breast Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C190215",
+      "relatedName": "Early Stage HER2-Negative Breast Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C212980",
+      "relatedName": "Early Stage HER2-Positive Breast Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C212980",
+      "relatedName": "Early Stage HER2-Positive Breast Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C222569",
+      "relatedName": "Early Stage Hormone Receptor-Positive Breast Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C222569",
+      "relatedName": "Early Stage Hormone Receptor-Positive Breast Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C181081",
+      "relatedName": "Early Stage Triple-Negative Breast Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C181081",
+      "relatedName": "Early Stage Triple-Negative Breast Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C176010",
+      "relatedName": "Encapsulated Breast Papillary Carcinoma with Invasion"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C176010",
+      "relatedName": "Encapsulated Breast Papillary Carcinoma with Invasion"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C176009",
+      "relatedName": "Encapsulated Breast Papillary Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C176009",
+      "relatedName": "Encapsulated Breast Papillary Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C188366",
+      "relatedName": "Estrogen Receptor-Positive Breast Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C188366",
+      "relatedName": "Estrogen Receptor-Positive Breast Carcinoma"
+    },
+    {
+      "type": "Procedure_Has_Partially_Excised_Anatomy",
+      "relatedCode": "C51633",
+      "relatedName": "Excisional Biopsy of Breast"
+    },
+    {
+      "type": "Disease_Excludes_Primary_Anatomic_Site",
+      "relatedCode": "C3302",
+      "relatedName": "Extramammary Paget Disease"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C176580",
+      "relatedName": "Female Breast Carcinoma In Situ"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C176580",
+      "relatedName": "Female Breast Carcinoma In Situ"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C2918",
+      "relatedName": "Female Breast Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C2918",
+      "relatedName": "Female Breast Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C120455",
+      "relatedName": "Female Malignant Nipple Neoplasm"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C82970",
+      "relatedName": "Focal Mammary Duct Ectasia"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C82970",
+      "relatedName": "Focal Mammary Duct Ectasia"
+    },
+    {
+      "type": "Procedure_Has_Partially_Excised_Anatomy",
+      "relatedCode": "C137850",
+      "relatedName": "Full-Thickness Skin Biopsy of Nipple and Areola"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C3515",
+      "relatedName": "Galactocele"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C3515",
+      "relatedName": "Galactocele"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C40368",
+      "relatedName": "Glycogen-Rich, Clear Cell Breast Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C40368",
+      "relatedName": "Glycogen-Rich, Clear Cell Breast Carcinoma"
+    },
+    {
+      "type": "Gene_Product_Expressed_In_Tissue",
+      "relatedCode": "C21487",
+      "relatedName": "GTP-Binding Protein Di-Ras3"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C3073",
+      "relatedName": "Gynecomastia"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C3073",
+      "relatedName": "Gynecomastia"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C179553",
+      "relatedName": "HER2-Low Breast Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C179553",
+      "relatedName": "HER2-Low Breast Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C168519",
+      "relatedName": "HER2-Negative Breast Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C168519",
+      "relatedName": "HER2-Negative Breast Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C53556",
+      "relatedName": "HER2-Positive Breast Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C53556",
+      "relatedName": "HER2-Positive Breast Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C222693",
+      "relatedName": "HER2-Ultralow Breast Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C222693",
+      "relatedName": "HER2-Ultralow Breast Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C4503",
+      "relatedName": "Hereditary Breast Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C4503",
+      "relatedName": "Hereditary Breast Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C36107",
+      "relatedName": "Hereditary Female Breast Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C36107",
+      "relatedName": "Hereditary Female Breast Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C36106",
+      "relatedName": "Hereditary Male Breast Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C36106",
+      "relatedName": "Hereditary Male Breast Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C165743",
+      "relatedName": "Hormone Receptor-Negative Breast Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C165743",
+      "relatedName": "Hormone Receptor-Negative Breast Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C157056",
+      "relatedName": "Hormone Receptor-Positive Breast Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C157056",
+      "relatedName": "Hormone Receptor-Positive Breast Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C114932",
+      "relatedName": "Hormone-Resistant Breast Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C114932",
+      "relatedName": "Hormone-Resistant Breast Carcinoma"
+    },
+    {
+      "type": "Anatomic_Structure_Has_Location",
+      "relatedCode": "C32348",
+      "relatedName": "Human Colostrum"
+    },
+    {
+      "type": "Gene_Product_Expressed_In_Tissue",
+      "relatedCode": "C21103",
+      "relatedName": "Hyaluronan Mediated Motility Receptor"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C5457",
+      "relatedName": "Invasive Breast Apocrine Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C5457",
+      "relatedName": "Invasive Breast Apocrine Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C27829",
+      "relatedName": "Invasive Breast Carcinoma by Histologic Grade"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C27829",
+      "relatedName": "Invasive Breast Carcinoma by Histologic Grade"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C9132",
+      "relatedName": "Invasive Breast Carcinoma of No Special Type with Predominant Intraductal Component"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C9132",
+      "relatedName": "Invasive Breast Carcinoma of No Special Type with Predominant Intraductal Component"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C4194",
+      "relatedName": "Invasive Breast Carcinoma of No Special Type"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C4194",
+      "relatedName": "Invasive Breast Carcinoma of No Special Type"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C9245",
+      "relatedName": "Invasive Breast Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C9245",
+      "relatedName": "Invasive Breast Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C5142",
+      "relatedName": "Invasive Breast Cribriform Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C5142",
+      "relatedName": "Invasive Breast Cribriform Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C6393",
+      "relatedName": "Invasive Breast Ductal Carcinoma and Invasive Lobular Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C6393",
+      "relatedName": "Invasive Breast Ductal Carcinoma and Invasive Lobular Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C7689",
+      "relatedName": "Invasive Breast Ductal Carcinoma and Lobular Carcinoma In Situ"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C7689",
+      "relatedName": "Invasive Breast Ductal Carcinoma and Lobular Carcinoma In Situ"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C7688",
+      "relatedName": "Invasive Breast Ductal Carcinoma and Lobular Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C7688",
+      "relatedName": "Invasive Breast Ductal Carcinoma and Lobular Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C187405",
+      "relatedName": "Invasive Breast Lobular Carcinoma with Extracellular Mucin"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C187405",
+      "relatedName": "Invasive Breast Lobular Carcinoma with Extracellular Mucin"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C9136",
+      "relatedName": "Invasive Breast Lobular Carcinoma with Predominant In Situ Component"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C9136",
+      "relatedName": "Invasive Breast Lobular Carcinoma with Predominant In Situ Component"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C97049",
+      "relatedName": "Invasive Breast Lobular Carcinoma, Alveolar Variant"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C97049",
+      "relatedName": "Invasive Breast Lobular Carcinoma, Alveolar Variant"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C97051",
+      "relatedName": "Invasive Breast Lobular Carcinoma, Pleomorphic Variant"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C97051",
+      "relatedName": "Invasive Breast Lobular Carcinoma, Pleomorphic Variant"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C54691",
+      "relatedName": "Invasive Breast Lobular Carcinoma, Signet Ring Variant"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C54691",
+      "relatedName": "Invasive Breast Lobular Carcinoma, Signet Ring Variant"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C97052",
+      "relatedName": "Invasive Breast Lobular Carcinoma, Solid Variant"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C97052",
+      "relatedName": "Invasive Breast Lobular Carcinoma, Solid Variant"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C97053",
+      "relatedName": "Invasive Breast Lobular Carcinoma, Tubulolobular Variant"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C97053",
+      "relatedName": "Invasive Breast Lobular Carcinoma, Tubulolobular Variant"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C7950",
+      "relatedName": "Invasive Breast Lobular Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C7950",
+      "relatedName": "Invasive Breast Lobular Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C36084",
+      "relatedName": "Invasive Breast Micropapillary Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C36084",
+      "relatedName": "Invasive Breast Micropapillary Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C36085",
+      "relatedName": "Invasive Breast Papillary Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C36085",
+      "relatedName": "Invasive Breast Papillary Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C176012",
+      "relatedName": "Invasive Breast Solid Papillary Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C176012",
+      "relatedName": "Invasive Breast Solid Papillary Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C176579",
+      "relatedName": "Invasive Female Breast Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C176579",
+      "relatedName": "Invasive Female Breast Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C176504",
+      "relatedName": "Invasive Male Breast Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C176504",
+      "relatedName": "Invasive Male Breast Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C4276",
+      "relatedName": "Juvenile Breast Fibroadenoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C4276",
+      "relatedName": "Juvenile Breast Fibroadenoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C9503",
+      "relatedName": "Juvenile Breast Papillomatosis"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C9503",
+      "relatedName": "Juvenile Breast Papillomatosis"
+    },
+    {
+      "type": "Gene_Product_Expressed_In_Tissue",
+      "relatedCode": "C97208",
+      "relatedName": "Kallikrein-10"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C9473",
+      "relatedName": "Lactating Adenoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C9473",
+      "relatedName": "Lactating Adenoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C79606",
+      "relatedName": "Lactation Disorder"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C79606",
+      "relatedName": "Lactation Disorder"
+    },
+    {
+      "type": "Procedure_Has_Target_Anatomy",
+      "relatedCode": "C160625",
+      "relatedName": "Latissimus Dorsi Flap Reconstruction"
+    },
+    {
+      "type": "Procedure_Has_Completely_Excised_Anatomy",
+      "relatedCode": "C51496",
+      "relatedName": "Left Radical Mastectomy"
+    },
+    {
+      "type": "Procedure_Has_Excised_Anatomy",
+      "relatedCode": "C51496",
+      "relatedName": "Left Radical Mastectomy"
+    },
+    {
+      "type": "Procedure_Has_Partially_Excised_Anatomy",
+      "relatedCode": "C51617",
+      "relatedName": "Left Reduction Mammoplasty"
+    },
+    {
+      "type": "Procedure_Has_Target_Anatomy",
+      "relatedCode": "C51617",
+      "relatedName": "Left Reduction Mammoplasty"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C162782",
+      "relatedName": "Localized Breast Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C162782",
+      "relatedName": "Localized Breast Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C222037",
+      "relatedName": "Localized Estrogen Receptor-Positive Breast Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C222037",
+      "relatedName": "Localized Estrogen Receptor-Positive Breast Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C222038",
+      "relatedName": "Localized HER2-Negative Breast Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C222038",
+      "relatedName": "Localized HER2-Negative Breast Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C217175",
+      "relatedName": "Localized Triple-Negative Breast Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C217175",
+      "relatedName": "Localized Triple-Negative Breast Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C165699",
+      "relatedName": "Locally Advanced Breast Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C165699",
+      "relatedName": "Locally Advanced Breast Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C160920",
+      "relatedName": "Locally Advanced Breast Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C160920",
+      "relatedName": "Locally Advanced Breast Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C192213",
+      "relatedName": "Locally Advanced Estrogen Receptor-Positive Breast Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C192213",
+      "relatedName": "Locally Advanced Estrogen Receptor-Positive Breast Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C204437",
+      "relatedName": "Locally Advanced HER2-Low Breast Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C204437",
+      "relatedName": "Locally Advanced HER2-Low Breast Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C178348",
+      "relatedName": "Locally Advanced HER2-Negative Breast Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C178348",
+      "relatedName": "Locally Advanced HER2-Negative Breast Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C181793",
+      "relatedName": "Locally Advanced HER2-Positive Breast Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C181793",
+      "relatedName": "Locally Advanced HER2-Positive Breast Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C222695",
+      "relatedName": "Locally Advanced HER2-Ultralow Breast Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C222695",
+      "relatedName": "Locally Advanced HER2-Ultralow Breast Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C187399",
+      "relatedName": "Locally Advanced Hormone Receptor-Positive Breast Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C187399",
+      "relatedName": "Locally Advanced Hormone Receptor-Positive Breast Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C210985",
+      "relatedName": "Locally Advanced Progesterone Receptor-Positive Breast Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C210985",
+      "relatedName": "Locally Advanced Progesterone Receptor-Positive Breast Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C175237",
+      "relatedName": "Locally Advanced Triple-Negative Breast Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C175237",
+      "relatedName": "Locally Advanced Triple-Negative Breast Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C162182",
+      "relatedName": "Locally Advanced Unresectable Breast Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C162182",
+      "relatedName": "Locally Advanced Unresectable Breast Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C210995",
+      "relatedName": "Locally Advanced Unresectable Breast Ductal Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C210995",
+      "relatedName": "Locally Advanced Unresectable Breast Ductal Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C210996",
+      "relatedName": "Locally Advanced Unresectable Breast Lobular Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C210996",
+      "relatedName": "Locally Advanced Unresectable Breast Lobular Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C210968",
+      "relatedName": "Locally Advanced Unresectable Estrogen Receptor-Positive Breast Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C210968",
+      "relatedName": "Locally Advanced Unresectable Estrogen Receptor-Positive Breast Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C206437",
+      "relatedName": "Locally Advanced Unresectable HER2-Negative BRCA-Associated Breast Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C206437",
+      "relatedName": "Locally Advanced Unresectable HER2-Negative BRCA-Associated Breast Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C187398",
+      "relatedName": "Locally Advanced Unresectable HER2-Negative Breast Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C187398",
+      "relatedName": "Locally Advanced Unresectable HER2-Negative Breast Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C186283",
+      "relatedName": "Locally Advanced Unresectable HER2-Positive Breast Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C186283",
+      "relatedName": "Locally Advanced Unresectable HER2-Positive Breast Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C187400",
+      "relatedName": "Locally Advanced Unresectable Hormone Receptor-Positive Breast Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C187400",
+      "relatedName": "Locally Advanced Unresectable Hormone Receptor-Positive Breast Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C187402",
+      "relatedName": "Locally Advanced Unresectable Triple-Negative Breast Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C187402",
+      "relatedName": "Locally Advanced Unresectable Triple-Negative Breast Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C190196",
+      "relatedName": "Locally Recurrent Breast Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C190196",
+      "relatedName": "Locally Recurrent Breast Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C219062",
+      "relatedName": "Locally Recurrent Breast Inflammatory Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C219062",
+      "relatedName": "Locally Recurrent Breast Inflammatory Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C220572",
+      "relatedName": "Locally Recurrent Estrogen Receptor-Positive Breast Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C220572",
+      "relatedName": "Locally Recurrent Estrogen Receptor-Positive Breast Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C220573",
+      "relatedName": "Locally Recurrent HER2-Negative Breast Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C220573",
+      "relatedName": "Locally Recurrent HER2-Negative Breast Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C212214",
+      "relatedName": "Locally Recurrent Triple-Negative Breast Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C212214",
+      "relatedName": "Locally Recurrent Triple-Negative Breast Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C213049",
+      "relatedName": "Locally Recurrent Unresectable Breast Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C213049",
+      "relatedName": "Locally Recurrent Unresectable Breast Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C223135",
+      "relatedName": "Locoregionally Recurrent Breast Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C223135",
+      "relatedName": "Locoregionally Recurrent Breast Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C40362",
+      "relatedName": "Low Grade Breast Adenosquamous Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C40362",
+      "relatedName": "Low Grade Breast Adenosquamous Carcinoma"
+    },
+    {
+      "type": "Anatomic_Structure_Is_Physical_Part_Of",
+      "relatedCode": "C12302",
+      "relatedName": "Lower-Inner Quadrant of the Breast"
+    },
+    {
+      "type": "Anatomic_Structure_Is_Physical_Part_Of",
+      "relatedCode": "C12304",
+      "relatedName": "Lower-Outer Quadrant of the Breast"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C53554",
+      "relatedName": "Luminal A Breast Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C53554",
+      "relatedName": "Luminal A Breast Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C217270",
+      "relatedName": "Luminal Androgen Receptor Breast Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C217270",
+      "relatedName": "Luminal Androgen Receptor Breast Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C53555",
+      "relatedName": "Luminal B Breast Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C53555",
+      "relatedName": "Luminal B Breast Carcinoma"
+    },
+    {
+      "type": "Disease_Excludes_Primary_Anatomic_Site",
+      "relatedCode": "C188068",
+      "relatedName": "Lung Secretory Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C176503",
+      "relatedName": "Male Breast Carcinoma In Situ"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C176503",
+      "relatedName": "Male Breast Carcinoma In Situ"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C3862",
+      "relatedName": "Male Breast Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C3862",
+      "relatedName": "Male Breast Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C120454",
+      "relatedName": "Male Malignant Nipple Neoplasm"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C5143",
+      "relatedName": "Malignant Breast Adenomyoepithelioma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C5143",
+      "relatedName": "Malignant Breast Adenomyoepithelioma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C5143",
+      "relatedName": "Malignant Breast Adenomyoepithelioma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C9335",
+      "relatedName": "Malignant Breast Neoplasm"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C4504",
+      "relatedName": "Malignant Breast Phyllodes Tumor"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C4504",
+      "relatedName": "Malignant Breast Phyllodes Tumor"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C5213",
+      "relatedName": "Malignant Nipple Neoplasm"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C3522",
+      "relatedName": "Mammary Duct Ectasia"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C3522",
+      "relatedName": "Mammary Duct Ectasia"
+    },
+    {
+      "type": "Anatomic_Structure_Has_Location",
+      "relatedCode": "C13257",
+      "relatedName": "Mammary Gland Milk"
+    },
+    {
+      "type": "Anatomic_Structure_Is_Physical_Part_Of",
+      "relatedCode": "C12367",
+      "relatedName": "Mammary Gland"
+    },
+    {
+      "type": "Disease_Excludes_Primary_Anatomic_Site",
+      "relatedCode": "C121181",
+      "relatedName": "Mammary-Type Myofibroblastoma"
+    },
+    {
+      "type": "Procedure_Has_Target_Anatomy",
+      "relatedCode": "C15354",
+      "relatedName": "Mammoplasty"
+    },
+    {
+      "type": "Procedure_Has_Excised_Anatomy",
+      "relatedCode": "C15277",
+      "relatedName": "Mastectomy"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C53662",
+      "relatedName": "Mastitis"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C53662",
+      "relatedName": "Mastitis"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C190852",
+      "relatedName": "Metastatic Androgen Receptor-Positive Breast Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C190852",
+      "relatedName": "Metastatic Androgen Receptor-Positive Breast Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C161830",
+      "relatedName": "Metastatic BRCA Hereditary Breast Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C161830",
+      "relatedName": "Metastatic BRCA Hereditary Breast Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C165698",
+      "relatedName": "Metastatic Breast Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C165698",
+      "relatedName": "Metastatic Breast Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C36303",
+      "relatedName": "Metastatic Breast Carcinoma in the Bone"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C36303",
+      "relatedName": "Metastatic Breast Carcinoma in the Bone"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C36301",
+      "relatedName": "Metastatic Breast Carcinoma in the Brain"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C36301",
+      "relatedName": "Metastatic Breast Carcinoma in the Brain"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C133501",
+      "relatedName": "Metastatic Breast Carcinoma in the Central Nervous System"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C133501",
+      "relatedName": "Metastatic Breast Carcinoma in the Central Nervous System"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C214846",
+      "relatedName": "Metastatic Breast Carcinoma in the Heart"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C214846",
+      "relatedName": "Metastatic Breast Carcinoma in the Heart"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C36302",
+      "relatedName": "Metastatic Breast Carcinoma in the Liver"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C36302",
+      "relatedName": "Metastatic Breast Carcinoma in the Liver"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C36300",
+      "relatedName": "Metastatic Breast Carcinoma in the Lung"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C36300",
+      "relatedName": "Metastatic Breast Carcinoma in the Lung"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C153227",
+      "relatedName": "Metastatic Breast Carcinoma in the Lymph Nodes"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C153227",
+      "relatedName": "Metastatic Breast Carcinoma in the Lymph Nodes"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C28311",
+      "relatedName": "Metastatic Breast Carcinoma in the Skin"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C28311",
+      "relatedName": "Metastatic Breast Carcinoma in the Skin"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C153226",
+      "relatedName": "Metastatic Breast Carcinoma in the Spine"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C153226",
+      "relatedName": "Metastatic Breast Carcinoma in the Spine"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C153238",
+      "relatedName": "Metastatic Breast Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C153238",
+      "relatedName": "Metastatic Breast Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C76326",
+      "relatedName": "Metastatic Breast Ductal Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C76326",
+      "relatedName": "Metastatic Breast Ductal Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C76326",
+      "relatedName": "Metastatic Breast Ductal Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C181787",
+      "relatedName": "Metastatic Breast Inflammatory Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C181787",
+      "relatedName": "Metastatic Breast Inflammatory Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C76328",
+      "relatedName": "Metastatic Breast Lobular Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C76328",
+      "relatedName": "Metastatic Breast Lobular Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C76328",
+      "relatedName": "Metastatic Breast Lobular Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C156493",
+      "relatedName": "Metastatic Breast Neuroendocrine Neoplasm"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C156493",
+      "relatedName": "Metastatic Breast Neuroendocrine Neoplasm"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C5171",
+      "relatedName": "Metastatic Breast Neuroendocrine Tumor G1"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C5171",
+      "relatedName": "Metastatic Breast Neuroendocrine Tumor G1"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C5176",
+      "relatedName": "Metastatic Breast Signet Ring Cell Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C5176",
+      "relatedName": "Metastatic Breast Signet Ring Cell Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C5178",
+      "relatedName": "Metastatic Breast Squamous Cell Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C5178",
+      "relatedName": "Metastatic Breast Squamous Cell Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C190856",
+      "relatedName": "Metastatic Estrogen Receptor-Positive Breast Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C190856",
+      "relatedName": "Metastatic Estrogen Receptor-Positive Breast Carcinoma"
+    },
+    {
+      "type": "Disease_Excludes_Primary_Anatomic_Site",
+      "relatedCode": "C200067",
+      "relatedName": "Metastatic Extramammary Paget Disease"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C179554",
+      "relatedName": "Metastatic HER2-Low Breast Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C179554",
+      "relatedName": "Metastatic HER2-Low Breast Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C206436",
+      "relatedName": "Metastatic HER2-Negative BRCA-Associated Breast Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C206436",
+      "relatedName": "Metastatic HER2-Negative BRCA-Associated Breast Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C168777",
+      "relatedName": "Metastatic HER2-Negative Breast Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C168777",
+      "relatedName": "Metastatic HER2-Negative Breast Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C180924",
+      "relatedName": "Metastatic HER2-Positive Breast Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C180924",
+      "relatedName": "Metastatic HER2-Positive Breast Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C222694",
+      "relatedName": "Metastatic HER2-Ultralow Breast Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C222694",
+      "relatedName": "Metastatic HER2-Ultralow Breast Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C190677",
+      "relatedName": "Metastatic Hormone Receptor-Negative Breast Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C190677",
+      "relatedName": "Metastatic Hormone Receptor-Negative Breast Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C185880",
+      "relatedName": "Metastatic Hormone Receptor-Positive Breast Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C185880",
+      "relatedName": "Metastatic Hormone Receptor-Positive Breast Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C170728",
+      "relatedName": "Metastatic Malignant Breast Neoplasm"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C170728",
+      "relatedName": "Metastatic Malignant Breast Neoplasm"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C7511",
+      "relatedName": "Metastatic Malignant Neoplasm in the Breast"
+    },
+    {
+      "type": "Disease_Has_Metastatic_Anatomic_Site",
+      "relatedCode": "C7511",
+      "relatedName": "Metastatic Malignant Neoplasm in the Breast"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C200572",
+      "relatedName": "Metastatic Progesterone Receptor-Positive Breast Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C200572",
+      "relatedName": "Metastatic Progesterone Receptor-Positive Breast Carcinoma"
+    },
+    {
+      "type": "Disease_Excludes_Primary_Anatomic_Site",
+      "relatedCode": "C203380",
+      "relatedName": "Metastatic Salivary Gland Secretory Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C188112",
+      "relatedName": "Metastatic Squamous Cell Carcinoma in the Breast"
+    },
+    {
+      "type": "Disease_Has_Metastatic_Anatomic_Site",
+      "relatedCode": "C188112",
+      "relatedName": "Metastatic Squamous Cell Carcinoma in the Breast"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C153348",
+      "relatedName": "Metastatic Triple-Negative Breast Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C153348",
+      "relatedName": "Metastatic Triple-Negative Breast Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C185954",
+      "relatedName": "Metastatic Triple-Negative Breast Inflammatory Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C185954",
+      "relatedName": "Metastatic Triple-Negative Breast Inflammatory Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C40374",
+      "relatedName": "Microinvasive Breast Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C40374",
+      "relatedName": "Microinvasive Breast Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C27831",
+      "relatedName": "Moderately Differentiated Invasive Breast Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C27831",
+      "relatedName": "Moderately Differentiated Invasive Breast Carcinoma"
+    },
+    {
+      "type": "Procedure_Has_Completely_Excised_Anatomy",
+      "relatedCode": "C15278",
+      "relatedName": "Modified Radical Mastectomy"
+    },
+    {
+      "type": "Procedure_Has_Excised_Anatomy",
+      "relatedCode": "C15278",
+      "relatedName": "Modified Radical Mastectomy"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C94772",
+      "relatedName": "Multicentric Breast Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C94772",
+      "relatedName": "Multicentric Breast Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C94770",
+      "relatedName": "Multifocal Breast Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C94770",
+      "relatedName": "Multifocal Breast Carcinoma"
+    },
+    {
+      "type": "Gene_Product_Expressed_In_Tissue",
+      "relatedCode": "C18165",
+      "relatedName": "Neuregulin-1"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C4192",
+      "relatedName": "Nipple Adenoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C4192",
+      "relatedName": "Nipple Adenoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C28432",
+      "relatedName": "Nipple Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C28432",
+      "relatedName": "Nipple Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C5212",
+      "relatedName": "Nipple Neoplasm"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C3301",
+      "relatedName": "Nipple Paget Disease"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C3301",
+      "relatedName": "Nipple Paget Disease"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C28292",
+      "relatedName": "Nipple Squamous Cell Carcinoma In Situ"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C28292",
+      "relatedName": "Nipple Squamous Cell Carcinoma In Situ"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C40363",
+      "relatedName": "Nipple Syringomatous Tumor"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C40363",
+      "relatedName": "Nipple Syringomatous Tumor"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C50674",
+      "relatedName": "Nipple Ulceration"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C50674",
+      "relatedName": "Nipple Ulceration"
+    },
+    {
+      "type": "Anatomic_Structure_Is_Physical_Part_Of",
+      "relatedCode": "C12299",
+      "relatedName": "Nipple"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C206118",
+      "relatedName": "Non-BRCA Hereditary Breast Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C206118",
+      "relatedName": "Non-BRCA Hereditary Breast Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C2909",
+      "relatedName": "Non-Neoplastic Breast Disorder"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C2909",
+      "relatedName": "Non-Neoplastic Breast Disorder"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C53557",
+      "relatedName": "Normal Breast-Like Subtype of Breast Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C53557",
+      "relatedName": "Normal Breast-Like Subtype of Breast Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C137674",
+      "relatedName": "Occult Breast Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C137674",
+      "relatedName": "Occult Breast Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C179515",
+      "relatedName": "Oligometastatic Breast Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C179515",
+      "relatedName": "Oligometastatic Breast Carcinoma"
+    },
+    {
+      "type": "Procedure_Has_Excised_Anatomy",
+      "relatedCode": "C107212",
+      "relatedName": "Oncoplastic Partial Mastectomy/Lumpectomy with Oncoplastic Closure"
+    },
+    {
+      "type": "Disease_Excludes_Primary_Anatomic_Site",
+      "relatedCode": "C136633",
+      "relatedName": "Osteosarcoma by AJCC v7 Stage"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C167193",
+      "relatedName": "PALB2 Hereditary Breast Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C167193",
+      "relatedName": "PALB2 Hereditary Breast Carcinoma"
+    },
+    {
+      "type": "Disease_Excludes_Primary_Anatomic_Site",
+      "relatedCode": "C162500",
+      "relatedName": "Paratesticular Mammary-Type Myofibroblastoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C120163",
+      "relatedName": "Pathological Gynecomastia"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C120163",
+      "relatedName": "Pathological Gynecomastia"
+    },
+    {
+      "type": "Procedure_Has_Target_Anatomy",
+      "relatedCode": "C107383",
+      "relatedName": "Pedicle TRAM Flap Procedure"
+    },
+    {
+      "type": "Disease_Excludes_Primary_Anatomic_Site",
+      "relatedCode": "C27817",
+      "relatedName": "Penile Paget Disease"
+    },
+    {
+      "type": "Procedure_Has_Partially_Excised_Anatomy",
+      "relatedCode": "C140257",
+      "relatedName": "Percutaneous Breast Biopsy"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C27832",
+      "relatedName": "Poorly Differentiated Invasive Breast Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C27832",
+      "relatedName": "Poorly Differentiated Invasive Breast Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C172203",
+      "relatedName": "Post-Radiation Atypical Vascular Lesion of Breast"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C172203",
+      "relatedName": "Post-Radiation Atypical Vascular Lesion of Breast"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C220102",
+      "relatedName": "Postpartum Interstitial Mastitis"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C220102",
+      "relatedName": "Postpartum Interstitial Mastitis"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C40378",
+      "relatedName": "Postradiation Breast Angiosarcoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C40378",
+      "relatedName": "Postradiation Breast Angiosarcoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C176251",
+      "relatedName": "Primary Breast Angiosarcoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C176251",
+      "relatedName": "Primary Breast Angiosarcoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C200570",
+      "relatedName": "Progesterone Receptor-Positive Breast Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C200570",
+      "relatedName": "Progesterone Receptor-Positive Breast Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C139555",
+      "relatedName": "Prognostic Stage 0 Breast Cancer AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C139555",
+      "relatedName": "Prognostic Stage 0 Breast Cancer AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C139556",
+      "relatedName": "Prognostic Stage I Breast Cancer AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C139556",
+      "relatedName": "Prognostic Stage I Breast Cancer AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C139557",
+      "relatedName": "Prognostic Stage IA Breast Cancer AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C139557",
+      "relatedName": "Prognostic Stage IA Breast Cancer AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C139558",
+      "relatedName": "Prognostic Stage IB Breast Cancer AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C139558",
+      "relatedName": "Prognostic Stage IB Breast Cancer AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C139569",
+      "relatedName": "Prognostic Stage II Breast Cancer AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C139569",
+      "relatedName": "Prognostic Stage II Breast Cancer AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C139571",
+      "relatedName": "Prognostic Stage IIA Breast Cancer AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C139571",
+      "relatedName": "Prognostic Stage IIA Breast Cancer AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C139572",
+      "relatedName": "Prognostic Stage IIB Breast Cancer AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C139572",
+      "relatedName": "Prognostic Stage IIB Breast Cancer AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C139582",
+      "relatedName": "Prognostic Stage III Breast Cancer AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C139582",
+      "relatedName": "Prognostic Stage III Breast Cancer AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C139583",
+      "relatedName": "Prognostic Stage IIIA Breast Cancer AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C139583",
+      "relatedName": "Prognostic Stage IIIA Breast Cancer AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C139584",
+      "relatedName": "Prognostic Stage IIIB Breast Cancer AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C139584",
+      "relatedName": "Prognostic Stage IIIB Breast Cancer AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C139585",
+      "relatedName": "Prognostic Stage IIIC Breast Cancer AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C139585",
+      "relatedName": "Prognostic Stage IIIC Breast Cancer AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C139587",
+      "relatedName": "Prognostic Stage IV Breast Cancer AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C139587",
+      "relatedName": "Prognostic Stage IV Breast Cancer AJCC v8"
+    },
+    {
+      "type": "Gene_Product_Expressed_In_Tissue",
+      "relatedCode": "C21207",
+      "relatedName": "Prohibitin 1"
+    },
+    {
+      "type": "Procedure_Has_Excised_Anatomy",
+      "relatedCode": "C94445",
+      "relatedName": "Prophylactic Mastectomy"
+    },
+    {
+      "type": "Gene_Product_Expressed_In_Tissue",
+      "relatedCode": "C21247",
+      "relatedName": "Proto-Oncogene Wnt-3"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C104373",
+      "relatedName": "Pseudoangiomatous Stromal Hyperplasia"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C104373",
+      "relatedName": "Pseudoangiomatous Stromal Hyperplasia"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C120148",
+      "relatedName": "Pubertal Gynecomastia"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C120148",
+      "relatedName": "Pubertal Gynecomastia"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C9495",
+      "relatedName": "Radial Scar/Complex Sclerosing Lesion"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C9495",
+      "relatedName": "Radial Scar/Complex Sclerosing Lesion"
+    },
+    {
+      "type": "Procedure_Has_Completely_Excised_Anatomy",
+      "relatedCode": "C15279",
+      "relatedName": "Radical Mastectomy"
+    },
+    {
+      "type": "Procedure_Has_Excised_Anatomy",
+      "relatedCode": "C15279",
+      "relatedName": "Radical Mastectomy"
+    },
+    {
+      "type": "Procedure_Has_Partially_Excised_Anatomy",
+      "relatedCode": "C101266",
+      "relatedName": "Random Periareolar Fine-Needle Aspiration"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C153568",
+      "relatedName": "Recurrent Breast Acinic Cell Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C153568",
+      "relatedName": "Recurrent Breast Acinic Cell Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C175588",
+      "relatedName": "Recurrent Breast Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C175588",
+      "relatedName": "Recurrent Breast Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C133092",
+      "relatedName": "Recurrent Breast Angiosarcoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C133092",
+      "relatedName": "Recurrent Breast Angiosarcoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C7771",
+      "relatedName": "Recurrent Breast Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C7771",
+      "relatedName": "Recurrent Breast Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C203339",
+      "relatedName": "Recurrent Breast Ductal Carcinoma In Situ"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C203339",
+      "relatedName": "Recurrent Breast Ductal Carcinoma In Situ"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C176680",
+      "relatedName": "Recurrent Breast Implant-Associated Anaplastic Large Cell Lymphoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C176680",
+      "relatedName": "Recurrent Breast Implant-Associated Anaplastic Large Cell Lymphoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C8607",
+      "relatedName": "Recurrent Breast Inflammatory Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C8607",
+      "relatedName": "Recurrent Breast Inflammatory Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C138023",
+      "relatedName": "Recurrent Breast Lymphoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C138023",
+      "relatedName": "Recurrent Breast Lymphoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C203341",
+      "relatedName": "Recurrent Breast Medullary Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C203341",
+      "relatedName": "Recurrent Breast Medullary Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C212899",
+      "relatedName": "Recurrent Breast Mixed Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C212899",
+      "relatedName": "Recurrent Breast Mixed Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C203342",
+      "relatedName": "Recurrent Breast Mucinous Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C203342",
+      "relatedName": "Recurrent Breast Mucinous Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C153588",
+      "relatedName": "Recurrent Breast Paget Disease"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C153588",
+      "relatedName": "Recurrent Breast Paget Disease"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C203344",
+      "relatedName": "Recurrent Breast Papillary Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C203344",
+      "relatedName": "Recurrent Breast Papillary Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C170727",
+      "relatedName": "Recurrent Breast Sarcoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C170727",
+      "relatedName": "Recurrent Breast Sarcoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C203362",
+      "relatedName": "Recurrent Breast Tubular Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C203362",
+      "relatedName": "Recurrent Breast Tubular Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C199427",
+      "relatedName": "Recurrent Estrogen Receptor-Positive Breast Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C199427",
+      "relatedName": "Recurrent Estrogen Receptor-Positive Breast Carcinoma"
+    },
+    {
+      "type": "Disease_Excludes_Primary_Anatomic_Site",
+      "relatedCode": "C200069",
+      "relatedName": "Recurrent Extramammary Paget Disease"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C213339",
+      "relatedName": "Recurrent HER2-Low Breast Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C213339",
+      "relatedName": "Recurrent HER2-Low Breast Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C168783",
+      "relatedName": "Recurrent HER2-Negative Breast Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C168783",
+      "relatedName": "Recurrent HER2-Negative Breast Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C182108",
+      "relatedName": "Recurrent HER2-Positive Breast Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C182108",
+      "relatedName": "Recurrent HER2-Positive Breast Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C192837",
+      "relatedName": "Recurrent Hormone Receptor-Negative Breast Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C192837",
+      "relatedName": "Recurrent Hormone Receptor-Negative Breast Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C185157",
+      "relatedName": "Recurrent Hormone Receptor-Positive Breast Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C185157",
+      "relatedName": "Recurrent Hormone Receptor-Positive Breast Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C153587",
+      "relatedName": "Recurrent Invasive Breast Carcinoma of No Special Type"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C153587",
+      "relatedName": "Recurrent Invasive Breast Carcinoma of No Special Type"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C153584",
+      "relatedName": "Recurrent Lobular Breast Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C153584",
+      "relatedName": "Recurrent Lobular Breast Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C170726",
+      "relatedName": "Recurrent Malignant Breast Neoplasm"
+    },
+    {
+      "type": "Disease_Excludes_Primary_Anatomic_Site",
+      "relatedCode": "C153577",
+      "relatedName": "Recurrent Paget Disease of the Anal Canal"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C200574",
+      "relatedName": "Recurrent Progesterone Receptor-Positive Breast Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C200574",
+      "relatedName": "Recurrent Progesterone Receptor-Positive Breast Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C171014",
+      "relatedName": "Recurrent Triple-Negative Breast Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C171014",
+      "relatedName": "Recurrent Triple-Negative Breast Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C214787",
+      "relatedName": "Recurrent Unresectable Triple-Negative Breast Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C214787",
+      "relatedName": "Recurrent Unresectable Triple-Negative Breast Carcinoma"
+    },
+    {
+      "type": "Procedure_Has_Partially_Excised_Anatomy",
+      "relatedCode": "C51615",
+      "relatedName": "Reduction Mammoplasty"
+    },
+    {
+      "type": "Procedure_Has_Target_Anatomy",
+      "relatedCode": "C51615",
+      "relatedName": "Reduction Mammoplasty"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C165703",
+      "relatedName": "Refractory Breast Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C165703",
+      "relatedName": "Refractory Breast Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C147965",
+      "relatedName": "Refractory Breast Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C147965",
+      "relatedName": "Refractory Breast Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C176681",
+      "relatedName": "Refractory Breast Implant-Associated Anaplastic Large Cell Lymphoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C176681",
+      "relatedName": "Refractory Breast Implant-Associated Anaplastic Large Cell Lymphoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C138024",
+      "relatedName": "Refractory Breast Lymphoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C138024",
+      "relatedName": "Refractory Breast Lymphoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C223147",
+      "relatedName": "Refractory Estrogen Receptor-Positive Breast Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C223147",
+      "relatedName": "Refractory Estrogen Receptor-Positive Breast Carcinoma"
+    },
+    {
+      "type": "Disease_Excludes_Primary_Anatomic_Site",
+      "relatedCode": "C199643",
+      "relatedName": "Refractory Extramammary Paget Disease"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C168784",
+      "relatedName": "Refractory HER2-Negative Breast Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C168784",
+      "relatedName": "Refractory HER2-Negative Breast Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C182110",
+      "relatedName": "Refractory HER2-Positive Breast Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C182110",
+      "relatedName": "Refractory HER2-Positive Breast Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C192838",
+      "relatedName": "Refractory Hormone Receptor-Negative Breast Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C192838",
+      "relatedName": "Refractory Hormone Receptor-Negative Breast Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C157057",
+      "relatedName": "Refractory Hormone Receptor-Positive Breast Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C157057",
+      "relatedName": "Refractory Hormone Receptor-Positive Breast Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C223148",
+      "relatedName": "Refractory Progesterone Receptor-Positive Breast Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C223148",
+      "relatedName": "Refractory Progesterone Receptor-Positive Breast Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C167076",
+      "relatedName": "Refractory Triple-Negative Breast Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C167076",
+      "relatedName": "Refractory Triple-Negative Breast Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C222571",
+      "relatedName": "Resectable Breast Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C222571",
+      "relatedName": "Resectable Breast Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C188035",
+      "relatedName": "Resectable Breast Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C188035",
+      "relatedName": "Resectable Breast Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C222570",
+      "relatedName": "Resectable Hormone Receptor-Positive Breast Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C222570",
+      "relatedName": "Resectable Hormone Receptor-Positive Breast Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C205314",
+      "relatedName": "Resectable Triple-Negative Breast Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C205314",
+      "relatedName": "Resectable Triple-Negative Breast Carcinoma"
+    },
+    {
+      "type": "Procedure_Has_Completely_Excised_Anatomy",
+      "relatedCode": "C51499",
+      "relatedName": "Right Radical Mastectomy"
+    },
+    {
+      "type": "Procedure_Has_Excised_Anatomy",
+      "relatedCode": "C51499",
+      "relatedName": "Right Radical Mastectomy"
+    },
+    {
+      "type": "Procedure_Has_Partially_Excised_Anatomy",
+      "relatedCode": "C51616",
+      "relatedName": "Right Reduction Mammoplasty"
+    },
+    {
+      "type": "Procedure_Has_Target_Anatomy",
+      "relatedCode": "C51616",
+      "relatedName": "Right Reduction Mammoplasty"
+    },
+    {
+      "type": "Procedure_Has_Excised_Anatomy",
+      "relatedCode": "C173639",
+      "relatedName": "Robot-assisted Nipple Sparing Mastectomy"
+    },
+    {
+      "type": "Disease_Excludes_Primary_Anatomic_Site",
+      "relatedCode": "C123384",
+      "relatedName": "Salivary Gland Secretory Carcinoma"
+    },
+    {
+      "type": "Disease_Excludes_Primary_Anatomic_Site",
+      "relatedCode": "C7728",
+      "relatedName": "Scrotal Paget Disease"
+    },
+    {
+      "type": "Procedure_Has_Excised_Anatomy",
+      "relatedCode": "C20749",
+      "relatedName": "Segmental Mastectomy"
+    },
+    {
+      "type": "Procedure_Has_Partially_Excised_Anatomy",
+      "relatedCode": "C20749",
+      "relatedName": "Segmental Mastectomy"
+    },
+    {
+      "type": "Disease_Excludes_Primary_Anatomic_Site",
+      "relatedCode": "C161640",
+      "relatedName": "Seminal Vesicle Mammary-Type Myofibroblastoma"
+    },
+    {
+      "type": "Procedure_Has_Excised_Anatomy",
+      "relatedCode": "C107211",
+      "relatedName": "Skin-Sparing Mastectomy"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C7566",
+      "relatedName": "Sporadic Breast Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C7566",
+      "relatedName": "Sporadic Breast Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C3641",
+      "relatedName": "Stage 0 Breast Cancer AJCC v6 and v7"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C3641",
+      "relatedName": "Stage 0 Breast Cancer AJCC v6 and v7"
+    },
+    {
+      "type": "Disease_Excludes_Primary_Anatomic_Site",
+      "relatedCode": "C87178",
+      "relatedName": "Stage I Bone Cancer AJCC v7"
+    },
+    {
+      "type": "Disease_Excludes_Primary_Anatomic_Site",
+      "relatedCode": "C136613",
+      "relatedName": "Stage I Bone Cancer AJCC v8"
+    },
+    {
+      "type": "Disease_Excludes_Primary_Anatomic_Site",
+      "relatedCode": "C6704",
+      "relatedName": "Stage I Bone Sarcoma AJCC v7"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C7767",
+      "relatedName": "Stage I Breast Cancer AJCC v6"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C7767",
+      "relatedName": "Stage I Breast Cancer AJCC v6"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C88375",
+      "relatedName": "Stage I Breast Cancer AJCC v7"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C88375",
+      "relatedName": "Stage I Breast Cancer AJCC v7"
+    },
+    {
+      "type": "Disease_Excludes_Primary_Anatomic_Site",
+      "relatedCode": "C6709",
+      "relatedName": "Stage I Osteosarcoma AJCC v7"
+    },
+    {
+      "type": "Disease_Excludes_Primary_Anatomic_Site",
+      "relatedCode": "C87179",
+      "relatedName": "Stage IA Bone Cancer AJCC v7"
+    },
+    {
+      "type": "Disease_Excludes_Primary_Anatomic_Site",
+      "relatedCode": "C136614",
+      "relatedName": "Stage IA Bone Cancer AJCC v8"
+    },
+    {
+      "type": "Disease_Excludes_Primary_Anatomic_Site",
+      "relatedCode": "C6464",
+      "relatedName": "Stage IA Bone Sarcoma AJCC v7"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C85835",
+      "relatedName": "Stage IA Breast Cancer AJCC v7"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C85835",
+      "relatedName": "Stage IA Breast Cancer AJCC v7"
+    },
+    {
+      "type": "Disease_Excludes_Primary_Anatomic_Site",
+      "relatedCode": "C6607",
+      "relatedName": "Stage IA Osteosarcoma AJCC v7"
+    },
+    {
+      "type": "Disease_Excludes_Primary_Anatomic_Site",
+      "relatedCode": "C87180",
+      "relatedName": "Stage IB Bone Cancer AJCC v7"
+    },
+    {
+      "type": "Disease_Excludes_Primary_Anatomic_Site",
+      "relatedCode": "C136615",
+      "relatedName": "Stage IB Bone Cancer AJCC v8"
+    },
+    {
+      "type": "Disease_Excludes_Primary_Anatomic_Site",
+      "relatedCode": "C6465",
+      "relatedName": "Stage IB Bone Sarcoma AJCC v7"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C85836",
+      "relatedName": "Stage IB Breast Cancer AJCC v7"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C85836",
+      "relatedName": "Stage IB Breast Cancer AJCC v7"
+    },
+    {
+      "type": "Disease_Excludes_Primary_Anatomic_Site",
+      "relatedCode": "C6609",
+      "relatedName": "Stage IB Osteosarcoma AJCC v7"
+    },
+    {
+      "type": "Disease_Excludes_Primary_Anatomic_Site",
+      "relatedCode": "C87181",
+      "relatedName": "Stage II Bone Cancer AJCC v7"
+    },
+    {
+      "type": "Disease_Excludes_Primary_Anatomic_Site",
+      "relatedCode": "C136616",
+      "relatedName": "Stage II Bone Cancer AJCC v8"
+    },
+    {
+      "type": "Disease_Excludes_Primary_Anatomic_Site",
+      "relatedCode": "C6705",
+      "relatedName": "Stage II Bone Sarcoma AJCC v7"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C7768",
+      "relatedName": "Stage II Breast Cancer AJCC v6 and v7"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C7768",
+      "relatedName": "Stage II Breast Cancer AJCC v6 and v7"
+    },
+    {
+      "type": "Disease_Excludes_Primary_Anatomic_Site",
+      "relatedCode": "C6710",
+      "relatedName": "Stage II Osteosarcoma AJCC v7"
+    },
+    {
+      "type": "Disease_Excludes_Primary_Anatomic_Site",
+      "relatedCode": "C87182",
+      "relatedName": "Stage IIA Bone Cancer AJCC v7"
+    },
+    {
+      "type": "Disease_Excludes_Primary_Anatomic_Site",
+      "relatedCode": "C136617",
+      "relatedName": "Stage IIA Bone Cancer AJCC v8"
+    },
+    {
+      "type": "Disease_Excludes_Primary_Anatomic_Site",
+      "relatedCode": "C6467",
+      "relatedName": "Stage IIA Bone Sarcoma AJCC v7"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C5454",
+      "relatedName": "Stage IIA Breast Cancer AJCC v6 and v7"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C5454",
+      "relatedName": "Stage IIA Breast Cancer AJCC v6 and v7"
+    },
+    {
+      "type": "Disease_Excludes_Primary_Anatomic_Site",
+      "relatedCode": "C6610",
+      "relatedName": "Stage IIA Osteosarcoma AJCC v7"
+    },
+    {
+      "type": "Disease_Excludes_Primary_Anatomic_Site",
+      "relatedCode": "C87183",
+      "relatedName": "Stage IIB Bone Cancer AJCC v7"
+    },
+    {
+      "type": "Disease_Excludes_Primary_Anatomic_Site",
+      "relatedCode": "C136618",
+      "relatedName": "Stage IIB Bone Cancer AJCC v8"
+    },
+    {
+      "type": "Disease_Excludes_Primary_Anatomic_Site",
+      "relatedCode": "C6466",
+      "relatedName": "Stage IIB Bone Sarcoma AJCC v7"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C5455",
+      "relatedName": "Stage IIB Breast Cancer AJCC v6 and v7"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C5455",
+      "relatedName": "Stage IIB Breast Cancer AJCC v6 and v7"
+    },
+    {
+      "type": "Disease_Excludes_Primary_Anatomic_Site",
+      "relatedCode": "C6611",
+      "relatedName": "Stage IIB Osteosarcoma AJCC v7"
+    },
+    {
+      "type": "Disease_Excludes_Primary_Anatomic_Site",
+      "relatedCode": "C87184",
+      "relatedName": "Stage III Bone Cancer AJCC v7"
+    },
+    {
+      "type": "Disease_Excludes_Primary_Anatomic_Site",
+      "relatedCode": "C136619",
+      "relatedName": "Stage III Bone Cancer AJCC v8"
+    },
+    {
+      "type": "Disease_Excludes_Primary_Anatomic_Site",
+      "relatedCode": "C6468",
+      "relatedName": "Stage III Bone Sarcoma AJCC v7"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C7769",
+      "relatedName": "Stage III Breast Cancer AJCC v6"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C7769",
+      "relatedName": "Stage III Breast Cancer AJCC v6"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C88376",
+      "relatedName": "Stage III Breast Cancer AJCC v7"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C88376",
+      "relatedName": "Stage III Breast Cancer AJCC v7"
+    },
+    {
+      "type": "Disease_Excludes_Primary_Anatomic_Site",
+      "relatedCode": "C6612",
+      "relatedName": "Stage III Osteosarcoma AJCC v7"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C7770",
+      "relatedName": "Stage IIIA Breast Cancer AJCC v7"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C7770",
+      "relatedName": "Stage IIIA Breast Cancer AJCC v7"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C7782",
+      "relatedName": "Stage IIIB Breast Cancer AJCC v7"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C7782",
+      "relatedName": "Stage IIIB Breast Cancer AJCC v7"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C9246",
+      "relatedName": "Stage IIIB Breast Inflammatory Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C9246",
+      "relatedName": "Stage IIIB Breast Inflammatory Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C27828",
+      "relatedName": "Stage IIIC Breast Cancer AJCC v6"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C27828",
+      "relatedName": "Stage IIIC Breast Cancer AJCC v6"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C88377",
+      "relatedName": "Stage IIIC Breast Cancer AJCC v7"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C88377",
+      "relatedName": "Stage IIIC Breast Cancer AJCC v7"
+    },
+    {
+      "type": "Disease_Excludes_Primary_Anatomic_Site",
+      "relatedCode": "C87185",
+      "relatedName": "Stage IV Bone Cancer AJCC v7"
+    },
+    {
+      "type": "Disease_Excludes_Primary_Anatomic_Site",
+      "relatedCode": "C136620",
+      "relatedName": "Stage IV Bone Cancer AJCC v8"
+    },
+    {
+      "type": "Disease_Excludes_Primary_Anatomic_Site",
+      "relatedCode": "C6706",
+      "relatedName": "Stage IV Bone Sarcoma AJCC v7"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C3995",
+      "relatedName": "Stage IV Breast Cancer AJCC v6 and v7"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C3995",
+      "relatedName": "Stage IV Breast Cancer AJCC v6 and v7"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C7696",
+      "relatedName": "Stage IV Breast Inflammatory Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C7696",
+      "relatedName": "Stage IV Breast Inflammatory Carcinoma"
+    },
+    {
+      "type": "Disease_Excludes_Primary_Anatomic_Site",
+      "relatedCode": "C6701",
+      "relatedName": "Stage IV Osteosarcoma AJCC v7"
+    },
+    {
+      "type": "Disease_Excludes_Primary_Anatomic_Site",
+      "relatedCode": "C87186",
+      "relatedName": "Stage IVA Bone Cancer AJCC v7"
+    },
+    {
+      "type": "Disease_Excludes_Primary_Anatomic_Site",
+      "relatedCode": "C136621",
+      "relatedName": "Stage IVA Bone Cancer AJCC v8"
+    },
+    {
+      "type": "Disease_Excludes_Primary_Anatomic_Site",
+      "relatedCode": "C6707",
+      "relatedName": "Stage IVA Bone Sarcoma AJCC v7"
+    },
+    {
+      "type": "Disease_Excludes_Primary_Anatomic_Site",
+      "relatedCode": "C6702",
+      "relatedName": "Stage IVA Osteosarcoma AJCC v7"
+    },
+    {
+      "type": "Disease_Excludes_Primary_Anatomic_Site",
+      "relatedCode": "C87187",
+      "relatedName": "Stage IVB Bone Cancer AJCC v7"
+    },
+    {
+      "type": "Disease_Excludes_Primary_Anatomic_Site",
+      "relatedCode": "C136622",
+      "relatedName": "Stage IVB Bone Cancer AJCC v8"
+    },
+    {
+      "type": "Disease_Excludes_Primary_Anatomic_Site",
+      "relatedCode": "C6708",
+      "relatedName": "Stage IVB Bone Sarcoma AJCC v7"
+    },
+    {
+      "type": "Disease_Excludes_Primary_Anatomic_Site",
+      "relatedCode": "C6703",
+      "relatedName": "Stage IVB Osteosarcoma AJCC v7"
+    },
+    {
+      "type": "Anatomic_Structure_Is_Physical_Part_Of",
+      "relatedCode": "C62225",
+      "relatedName": "Subareolar Region"
+    },
+    {
+      "type": "Procedure_Has_Excised_Anatomy",
+      "relatedCode": "C89773",
+      "relatedName": "Subcutaneous Mastectomy"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C40370",
+      "relatedName": "Synchronous Bilateral Breast Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C40370",
+      "relatedName": "Synchronous Bilateral Breast Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C200087",
+      "relatedName": "Synchronous Ipsilateral Breast Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C200087",
+      "relatedName": "Synchronous Ipsilateral Breast Carcinoma"
+    },
+    {
+      "type": "Disease_Excludes_Primary_Anatomic_Site",
+      "relatedCode": "C187994",
+      "relatedName": "Thyroid Gland Secretory Carcinoma"
+    },
+    {
+      "type": "Procedure_Has_Target_Anatomy",
+      "relatedCode": "C160627",
+      "relatedName": "Tissue Expander-Implant Breast Reconstruction"
+    },
+    {
+      "type": "Procedure_Has_Target_Anatomy",
+      "relatedCode": "C93317",
+      "relatedName": "Tissue Flap Breast Reconstruction"
+    },
+    {
+      "type": "Procedure_Has_Completely_Excised_Anatomy",
+      "relatedCode": "C15281",
+      "relatedName": "Total Mastectomy"
+    },
+    {
+      "type": "Procedure_Has_Excised_Anatomy",
+      "relatedCode": "C15281",
+      "relatedName": "Total Mastectomy"
+    },
+    {
+      "type": "Procedure_Has_Excised_Anatomy",
+      "relatedCode": "C106320",
+      "relatedName": "Total Skin-Sparing Mastectomy"
+    },
+    {
+      "type": "Procedure_Has_Target_Anatomy",
+      "relatedCode": "C160624",
+      "relatedName": "TRAM Flap Procedure"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C71732",
+      "relatedName": "Triple-Negative Breast Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C71732",
+      "relatedName": "Triple-Negative Breast Carcinoma"
+    },
+    {
+      "type": "Procedure_Has_Excised_Anatomy",
+      "relatedCode": "C93345",
+      "relatedName": "Tumescent Mastectomy"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C46073",
+      "relatedName": "Unilateral Breast Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C46073",
+      "relatedName": "Unilateral Breast Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C203331",
+      "relatedName": "Unresectable Breast Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C203331",
+      "relatedName": "Unresectable Breast Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C158752",
+      "relatedName": "Unresectable Breast Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C158752",
+      "relatedName": "Unresectable Breast Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C158751",
+      "relatedName": "Unresectable Breast Inflammatory Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C158751",
+      "relatedName": "Unresectable Breast Inflammatory Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C192212",
+      "relatedName": "Unresectable Estrogen Receptor-Positive Breast Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C192212",
+      "relatedName": "Unresectable Estrogen Receptor-Positive Breast Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C203700",
+      "relatedName": "Unresectable HER2-Low Breast Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C203700",
+      "relatedName": "Unresectable HER2-Low Breast Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C187161",
+      "relatedName": "Unresectable HER2-Negative Breast Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C187161",
+      "relatedName": "Unresectable HER2-Negative Breast Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C186284",
+      "relatedName": "Unresectable HER2-Positive Breast Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C186284",
+      "relatedName": "Unresectable HER2-Positive Breast Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C222696",
+      "relatedName": "Unresectable HER2-Ultralow Breast Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C222696",
+      "relatedName": "Unresectable HER2-Ultralow Breast Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C190676",
+      "relatedName": "Unresectable Hormone Receptor-Negative Breast Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C190676",
+      "relatedName": "Unresectable Hormone Receptor-Negative Breast Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C187160",
+      "relatedName": "Unresectable Hormone Receptor-Positive Breast Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C187160",
+      "relatedName": "Unresectable Hormone Receptor-Positive Breast Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C165491",
+      "relatedName": "Unresectable Triple-Negative Breast Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C165491",
+      "relatedName": "Unresectable Triple-Negative Breast Carcinoma"
+    },
+    {
+      "type": "Anatomic_Structure_Is_Physical_Part_Of",
+      "relatedCode": "C12301",
+      "relatedName": "Upper-Inner Quadrant of the Breast"
+    },
+    {
+      "type": "Anatomic_Structure_Is_Physical_Part_Of",
+      "relatedCode": "C12303",
+      "relatedName": "Upper-Outer Quadrant of the Breast"
+    },
+    {
+      "type": "Disease_Excludes_Primary_Anatomic_Site",
+      "relatedCode": "C128079",
+      "relatedName": "Vaginal Superficial Myofibroblastoma"
+    },
+    {
+      "type": "Disease_Excludes_Primary_Anatomic_Site",
+      "relatedCode": "C4027",
+      "relatedName": "Vulvar Paget Disease"
+    },
+    {
+      "type": "Disease_Excludes_Primary_Anatomic_Site",
+      "relatedCode": "C128272",
+      "relatedName": "Vulvar Superficial Myofibroblastoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C27830",
+      "relatedName": "Well Differentiated Invasive Breast Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C27830",
+      "relatedName": "Well Differentiated Invasive Breast Carcinoma"
+    }
+  ],
+  "history": [
+    {
+      "code": "C12971",
+      "action": "create",
+      "date": "2003-08-12"
+    },
+    {
+      "code": "C12971",
+      "action": "modify",
+      "date": "2003-09-29"
+    },
+    {
+      "code": "C12971",
+      "action": "modify",
+      "date": "2003-10-31"
+    },
+    {
+      "code": "C12971",
+      "action": "modify",
+      "date": "2003-12-30"
+    },
+    {
+      "code": "C12971",
+      "action": "modify",
+      "date": "2004-02-23"
+    },
+    {
+      "code": "C12971",
+      "action": "modify",
+      "date": "2004-04-30"
+    },
+    {
+      "code": "C12971",
+      "action": "modify",
+      "date": "2005-03-16"
+    },
+    {
+      "code": "C12971",
+      "action": "modify",
+      "date": "2006-01-03"
+    },
+    {
+      "code": "C12971",
+      "action": "modify",
+      "date": "2008-06-27"
+    },
+    {
+      "code": "C12971",
+      "action": "modify",
+      "date": "2008-09-12"
+    },
+    {
+      "code": "C12971",
+      "action": "modify",
+      "date": "2008-11-26"
+    },
+    {
+      "code": "C12971",
+      "action": "modify",
+      "date": "2009-11-23"
+    },
+    {
+      "code": "C12971",
+      "action": "modify",
+      "date": "2010-11-01"
+    },
+    {
+      "code": "C12971",
+      "action": "modify",
+      "date": "2010-11-08"
+    },
+    {
+      "code": "C12971",
+      "action": "modify",
+      "date": "2010-11-15"
+    },
+    {
+      "code": "C12971",
+      "action": "modify",
+      "date": "2010-11-22"
+    },
+    {
+      "code": "C12971",
+      "action": "modify",
+      "date": "2010-11-29"
+    },
+    {
+      "code": "C12971",
+      "action": "modify",
+      "date": "2010-12-06"
+    },
+    {
+      "code": "C12971",
+      "action": "modify",
+      "date": "2010-12-13"
+    },
+    {
+      "code": "C12971",
+      "action": "modify",
+      "date": "2010-12-27"
+    },
+    {
+      "code": "C12971",
+      "action": "modify",
+      "date": "2011-01-03"
+    },
+    {
+      "code": "C12971",
+      "action": "modify",
+      "date": "2011-01-10"
+    },
+    {
+      "code": "C12971",
+      "action": "modify",
+      "date": "2011-01-17"
+    },
+    {
+      "code": "C12971",
+      "action": "modify",
+      "date": "2011-01-24"
+    },
+    {
+      "code": "C12971",
+      "action": "modify",
+      "date": "2011-01-31"
+    },
+    {
+      "code": "C12971",
+      "action": "modify",
+      "date": "2013-02-25"
+    },
+    {
+      "code": "C12971",
+      "action": "modify",
+      "date": "2013-03-04"
+    },
+    {
+      "code": "C12971",
+      "action": "modify",
+      "date": "2013-03-11"
+    },
+    {
+      "code": "C12971",
+      "action": "modify",
+      "date": "2013-03-18"
+    },
+    {
+      "code": "C12971",
+      "action": "modify",
+      "date": "2013-03-25"
+    },
+    {
+      "code": "C12971",
+      "action": "modify",
+      "date": "2013-04-01"
+    },
+    {
+      "code": "C12971",
+      "action": "modify",
+      "date": "2013-04-08"
+    },
+    {
+      "code": "C12971",
+      "action": "modify",
+      "date": "2013-04-15"
+    },
+    {
+      "code": "C12971",
+      "action": "modify",
+      "date": "2013-04-22"
+    },
+    {
+      "code": "C12971",
+      "action": "modify",
+      "date": "2013-04-29"
+    },
+    {
+      "code": "C12971",
+      "action": "modify",
+      "date": "2013-05-06"
+    },
+    {
+      "code": "C12971",
+      "action": "modify",
+      "date": "2013-05-13"
+    },
+    {
+      "code": "C12971",
+      "action": "modify",
+      "date": "2013-05-20"
+    },
+    {
+      "code": "C12971",
+      "action": "modify",
+      "date": "2013-05-28"
+    },
+    {
+      "code": "C12971",
+      "action": "modify",
+      "date": "2013-06-03"
+    },
+    {
+      "code": "C12971",
+      "action": "modify",
+      "date": "2013-06-10"
+    },
+    {
+      "code": "C12971",
+      "action": "modify",
+      "date": "2013-06-17"
+    },
+    {
+      "code": "C12971",
+      "action": "modify",
+      "date": "2013-06-24"
+    },
+    {
+      "code": "C12971",
+      "action": "modify",
+      "date": "2013-07-01"
+    },
+    {
+      "code": "C12971",
+      "action": "modify",
+      "date": "2013-07-08"
+    },
+    {
+      "code": "C12971",
+      "action": "modify",
+      "date": "2015-05-26"
+    },
+    {
+      "code": "C12971",
+      "action": "modify",
+      "date": "2015-06-01"
+    },
+    {
+      "code": "C12971",
+      "action": "modify",
+      "date": "2015-06-08"
+    },
+    {
+      "code": "C12971",
+      "action": "modify",
+      "date": "2015-06-15"
+    },
+    {
+      "code": "C12971",
+      "action": "modify",
+      "date": "2015-06-22"
+    },
+    {
+      "code": "C12971",
+      "action": "modify",
+      "date": "2015-06-29"
+    },
+    {
+      "code": "C12971",
+      "action": "modify",
+      "date": "2015-07-06"
+    },
+    {
+      "code": "C12971",
+      "action": "modify",
+      "date": "2015-07-13"
+    },
+    {
+      "code": "C12971",
+      "action": "modify",
+      "date": "2015-08-12"
+    },
+    {
+      "code": "C12971",
+      "action": "modify",
+      "date": "2015-08-31"
+    },
+    {
+      "code": "C12971",
+      "action": "modify",
+      "date": "2015-10-19"
+    },
+    {
+      "code": "C12971",
+      "action": "modify",
+      "date": "2015-11-30"
+    },
+    {
+      "code": "C12971",
+      "action": "modify",
+      "date": "2016-10-17"
+    },
+    {
+      "code": "C12971",
+      "action": "modify",
+      "date": "2017-03-13"
+    },
+    {
+      "code": "C12971",
+      "action": "modify",
+      "date": "2018-09-24"
+    },
+    {
+      "code": "C12971",
+      "action": "modify",
+      "date": "2018-10-29"
+    },
+    {
+      "code": "C12971",
+      "action": "modify",
+      "date": "2018-10-29"
+    },
+    {
+      "code": "C12971",
+      "action": "modify",
+      "date": "2019-05-28"
+    },
+    {
+      "code": "C12971",
+      "action": "modify",
+      "date": "2019-09-30"
+    },
+    {
+      "code": "C12971",
+      "action": "modify",
+      "date": "2019-10-28"
+    },
+    {
+      "code": "C12971",
+      "action": "modify",
+      "date": "2020-02-24"
+    },
+    {
+      "code": "C12971",
+      "action": "modify",
+      "date": "2020-03-30"
+    },
+    {
+      "code": "C12971",
+      "action": "modify",
+      "date": "2020-09-29"
+    },
+    {
+      "code": "C12971",
+      "action": "modify",
+      "date": "2021-02-22"
+    },
+    {
+      "code": "C12971",
+      "action": "modify",
+      "date": "2021-03-29"
+    },
+    {
+      "code": "C12971",
+      "action": "modify",
+      "date": "2021-11-29"
+    },
+    {
+      "code": "C12971",
+      "action": "modify",
+      "date": "2022-04-25"
+    },
+    {
+      "code": "C12971",
+      "action": "modify",
+      "date": "2022-08-29"
+    },
+    {
+      "code": "C12971",
+      "action": "modify",
+      "date": "2022-10-31"
+    },
+    {
+      "code": "C12971",
+      "action": "modify",
+      "date": "2023-02-27"
+    },
+    {
+      "code": "C12971",
+      "action": "modify",
+      "date": "2023-03-27"
+    },
+    {
+      "code": "C12971",
+      "action": "modify",
+      "date": "2023-09-25"
+    }
+  ],
+  "maps": [
+    {
+      "type": "Related To",
+      "targetName": "Breast, NOS",
+      "targetTermType": "PT",
+      "targetCode": "C50.9",
+      "targetTerminology": "ICDO3",
+      "targetTerminologyVersion": "3.1"
+    },
+    {
+      "type": "Related To",
+      "targetName": "Breast, NOS",
+      "targetTermType": "PT",
+      "targetCode": "C50.9",
+      "targetTerminology": "ICDO3",
+      "targetTerminologyVersion": "3.2"
+    },
+    {
+      "type": "Has Synonym",
+      "targetName": "Breast, NOS",
+      "targetTermType": "PT",
+      "targetCode": "progression_or_recurrence_anatomic_site",
+      "targetTerminology": "GDC"
+    },
+    {
+      "type": "Has Synonym",
+      "targetName": "Breast, NOS",
+      "targetTermType": "PT",
+      "targetCode": "site_of_resection_or_biopsy",
+      "targetTerminology": "GDC"
+    },
+    {
+      "type": "Has Synonym",
+      "targetName": "Breast, NOS",
+      "targetTermType": "PT",
+      "targetCode": "sites_of_involvement",
+      "targetTerminology": "GDC"
+    },
+    {
+      "type": "Has Synonym",
+      "targetName": "Breast, NOS",
+      "targetTermType": "PT",
+      "targetCode": "tissue_or_organ_of_origin",
+      "targetTerminology": "GDC"
+    },
+    {
+      "type": "Has Synonym",
+      "targetName": "Breast",
+      "targetTermType": "PT",
+      "targetCode": "biospecimen_anatomic_site",
+      "targetTerminology": "GDC"
+    },
+    {
+      "type": "Related To",
+      "targetName": "BREAST",
+      "targetTermType": "HT",
+      "targetCode": "C50",
+      "targetTerminology": "ICDO3",
+      "targetTerminologyVersion": "3.2"
+    },
+    {
+      "type": "Related To",
+      "targetName": "BREAST",
+      "targetTermType": "HT",
+      "targetCode": "C50",
+      "targetTerminology": "ICDO3",
+      "targetTerminologyVersion": "3.1"
+    },
+    {
+      "type": "Has Synonym",
+      "targetName": "Breast",
+      "targetTermType": "PT",
+      "targetCode": "max_tumor_bulk_site",
+      "targetTerminology": "GDC"
+    },
+    {
+      "type": "Has Synonym",
+      "targetName": "Breast",
+      "targetTermType": "PT",
+      "targetCode": "primary_site",
+      "targetTerminology": "GDC"
+    },
+    {
+      "type": "Has Synonym",
+      "targetName": "Breast",
+      "targetTermType": "PT",
+      "targetCode": "treatment_anatomic_sites",
+      "targetTerminology": "GDC"
+    }
+  ]
+}

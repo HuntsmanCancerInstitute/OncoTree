@@ -1,0 +1,461 @@
+{
+  "code": "C9461",
+  "name": "Bladder Small Cell Neuroendocrine Carcinoma",
+  "terminology": "ncit",
+  "version": "25.11d",
+  "conceptStatus": "DEFAULT",
+  "leaf": false,
+  "active": true,
+  "synonyms": [
+    {
+      "name": "Bladder Small Cell Neuroendocrine Cancer",
+      "termType": "DN",
+      "type": "FULL_SYN",
+      "source": "CTRP"
+    },
+    {
+      "name": "Bladder Small Cell Carcinoma",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Bladder Small Cell Neuroendocrine Carcinoma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Small Cell Neuroendocrine Carcinoma of the Urinary Bladder",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Small Cell Neuroendocrine Carcinoma of Urinary Bladder",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Bladder Small Cell Neuroendocrine Carcinoma",
+      "type": "Display_Name"
+    },
+    {
+      "name": "Bladder Small Cell Neuroendocrine Carcinoma",
+      "type": "Preferred_Name"
+    }
+  ],
+  "definitions": [
+    {
+      "definition": "A small cell neuroendocrine carcinoma arising from the bladder.",
+      "type": "DEFINITION",
+      "source": "NCI"
+    }
+  ],
+  "properties": [
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "CTRP"
+    },
+    {
+      "code": "P366",
+      "type": "Legacy Concept Name",
+      "value": "Bladder_Small_Cell_Neuroendocrine_Carcinoma"
+    },
+    {
+      "code": "P363",
+      "type": "Neoplastic_Status",
+      "value": "Malignant"
+    },
+    {
+      "code": "P106",
+      "type": "Semantic_Type",
+      "value": "Neoplastic Process"
+    },
+    {
+      "code": "P207",
+      "type": "UMLS_CUI",
+      "value": "C1332564"
+    }
+  ],
+  "children": [
+    {
+      "code": "C157763",
+      "name": "Metastatic Bladder Small Cell Neuroendocrine Carcinoma",
+      "leaf": false
+    },
+    {
+      "code": "C191860",
+      "name": "Recurrent Bladder Small Cell Neuroendocrine Carcinoma",
+      "leaf": true
+    },
+    {
+      "code": "C191861",
+      "name": "Refractory Bladder Small Cell Neuroendocrine Carcinoma",
+      "leaf": true
+    },
+    {
+      "code": "C191857",
+      "name": "Unresectable Bladder Small Cell Neuroendocrine Carcinoma",
+      "leaf": true
+    }
+  ],
+  "parents": [
+    {
+      "code": "C157759",
+      "name": "Bladder Neuroendocrine Carcinoma"
+    },
+    {
+      "code": "C156457",
+      "name": "Extrapulmonary Small Cell Neuroendocrine Carcinoma"
+    }
+  ],
+  "associations": [
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C118168",
+      "relatedName": "CTRP Disease Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C116977",
+      "relatedName": "CTRP Terminology"
+    }
+  ],
+  "roles": [
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C36104",
+      "relatedName": "Aggressive Clinical Course"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C36122",
+      "relatedName": "Benign Cellular Infiltrate"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12414",
+      "relatedName": "Bladder"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12414",
+      "relatedName": "Bladder"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C54172",
+      "relatedName": "Carcinomatous Component Present"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C32506",
+      "relatedName": "Endocrine Cell"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C188014",
+      "relatedName": "Endocrine Differentiation"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12704",
+      "relatedName": "Endocrine Gland"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12704",
+      "relatedName": "Endocrine Gland"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12705",
+      "relatedName": "Endocrine System"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12705",
+      "relatedName": "Endocrine System"
+    },
+    {
+      "type": "Disease_Excludes_Normal_Cell_Origin",
+      "relatedCode": "C12865",
+      "relatedName": "Endothelial Cell"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C12578",
+      "relatedName": "Epithelial Cell"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C53596",
+      "relatedName": "Epithelial Component Present"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C45714",
+      "relatedName": "Epithelial Tissue"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C207031",
+      "relatedName": "Expression of Neuroendocrine Markers Present"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12810",
+      "relatedName": "Genitourinary System"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12810",
+      "relatedName": "Genitourinary System"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C3090",
+      "relatedName": "Hematuria"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C35960",
+      "relatedName": "High Mitotic Activity"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C36818",
+      "relatedName": "Large Osteoclastic Giant Cell"
+    },
+    {
+      "type": "Disease_Excludes_Primary_Anatomic_Site",
+      "relatedCode": "C12468",
+      "relatedName": "Lung"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12917",
+      "relatedName": "Malignant Cell"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C36115",
+      "relatedName": "Malignant Cellular Infiltrate"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36929",
+      "relatedName": "Malignant Endocrine Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36779",
+      "relatedName": "Malignant Epithelial Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36825",
+      "relatedName": "Malignant Neuroendocrine Cell"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C36821",
+      "relatedName": "Malignant Neuroendocrine Large Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36820",
+      "relatedName": "Malignant Neuroendocrine Small Cell"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C37153",
+      "relatedName": "Malignant Stromal Cell"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C36778",
+      "relatedName": "Malignant Transitional Cell"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C36184",
+      "relatedName": "Necrotic Change"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12922",
+      "relatedName": "Neoplastic Cell"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C37088",
+      "relatedName": "Neoplastic Endothelial Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36753",
+      "relatedName": "Neoplastic Epithelial Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36761",
+      "relatedName": "Neoplastic Neuroendocrine Cell"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C36937",
+      "relatedName": "Neoplastic Smooth Muscle Cell"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C43574",
+      "relatedName": "Neuroendocrine Differentiation"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C60707",
+      "relatedName": "Neuron-Specific Enolase Positive Neoplastic Cells Present"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C155863",
+      "relatedName": "Poorly Differentiated Neuroendocrine Lesion"
+    },
+    {
+      "type": "Disease_May_Have_Molecular_Abnormality",
+      "relatedCode": "C36329",
+      "relatedName": "TP53 Gene Inactivation"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12413",
+      "relatedName": "Urinary System"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12413",
+      "relatedName": "Urinary System"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C191741",
+      "relatedName": "Urinary Tract"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C191741",
+      "relatedName": "Urinary Tract"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C155861",
+      "relatedName": "Well Differentiated Neuroendocrine Lesion"
+    }
+  ],
+  "history": [
+    {
+      "code": "C9461",
+      "action": "create",
+      "date": "2003-08-12"
+    },
+    {
+      "code": "C9461",
+      "action": "modify",
+      "date": "2003-10-31"
+    },
+    {
+      "code": "C9461",
+      "action": "modify",
+      "date": "2003-12-30"
+    },
+    {
+      "code": "C9461",
+      "action": "modify",
+      "date": "2004-03-30"
+    },
+    {
+      "code": "C9461",
+      "action": "modify",
+      "date": "2006-03-31"
+    },
+    {
+      "code": "C9461",
+      "action": "modify",
+      "date": "2006-05-26"
+    },
+    {
+      "code": "C9461",
+      "action": "modify",
+      "date": "2006-06-30"
+    },
+    {
+      "code": "C9461",
+      "action": "modify",
+      "date": "2009-04-06"
+    },
+    {
+      "code": "C9461",
+      "action": "modify",
+      "date": "2009-10-27"
+    },
+    {
+      "code": "C9461",
+      "action": "modify",
+      "date": "2009-11-23"
+    },
+    {
+      "code": "C9461",
+      "action": "modify",
+      "date": "2011-03-14"
+    },
+    {
+      "code": "C9461",
+      "action": "modify",
+      "date": "2013-04-01"
+    },
+    {
+      "code": "C9461",
+      "action": "modify",
+      "date": "2017-07-31"
+    },
+    {
+      "code": "C9461",
+      "action": "modify",
+      "date": "2018-07-30"
+    },
+    {
+      "code": "C9461",
+      "action": "modify",
+      "date": "2018-08-27"
+    },
+    {
+      "code": "C9461",
+      "action": "modify",
+      "date": "2018-08-27"
+    },
+    {
+      "code": "C9461",
+      "action": "modify",
+      "date": "2018-09-24"
+    },
+    {
+      "code": "C9461",
+      "action": "modify",
+      "date": "2018-11-26"
+    },
+    {
+      "code": "C9461",
+      "action": "modify",
+      "date": "2019-03-25"
+    },
+    {
+      "code": "C9461",
+      "action": "modify",
+      "date": "2020-11-30"
+    }
+  ]
+}

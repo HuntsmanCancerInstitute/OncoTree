@@ -1,0 +1,1168 @@
+{
+  "code": "C12469",
+  "name": "Pleura",
+  "terminology": "ncit",
+  "version": "25.11d",
+  "conceptStatus": "DEFAULT",
+  "leaf": false,
+  "active": true,
+  "synonyms": [
+    {
+      "name": "Pleura",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "caDSR"
+    },
+    {
+      "name": "PLEURA",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "CDISC",
+      "code": "SEND-SPEC"
+    },
+    {
+      "name": "PLEURA",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "CDISC",
+      "code": "SDTM-LOC"
+    },
+    {
+      "name": "PLEURAL TISSUE",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "CDISC",
+      "code": "SDTM-SPECTYPE"
+    },
+    {
+      "name": "Pleura",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "CTDC"
+    },
+    {
+      "name": "Pleura",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "GDC"
+    },
+    {
+      "name": "Pleura, NOS",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "GDC"
+    },
+    {
+      "name": "pleura",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NCI-GLOSS",
+      "code": "CDR0000045842"
+    },
+    {
+      "name": "PLEURA",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Pleura",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Pleural Tissue",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Pleura",
+      "type": "Preferred_Name"
+    },
+    {
+      "name": "Pleural",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "PCDC",
+      "subSource": "OS"
+    },
+    {
+      "name": "pleura",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "UBERON"
+    },
+    {
+      "name": "wall of pleural sac",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "UBERON"
+    }
+  ],
+  "definitions": [
+    {
+      "definition": "A thin layer of tissue that covers the lungs and lines the interior wall of the chest cavity. It protects and cushions the lungs. This tissue secretes a small amount of fluid that acts as a lubricant, allowing the lungs to move smoothly in the chest cavity while breathing.",
+      "type": "ALT_DEFINITION",
+      "source": "NCI-GLOSS"
+    },
+    {
+      "definition": "The invaginated serous membrane that surrounds the lungs (the visceral portion) and lines the walls of the pleural cavity (parietal portion).",
+      "type": "ALT_DEFINITION",
+      "source": "UBERON"
+    },
+    {
+      "definition": "The serous membrane that lines the wall of the thoracic cavity and the surface of the lungs.",
+      "type": "ALT_DEFINITION",
+      "source": "CDISC"
+    },
+    {
+      "definition": "The tissue that lines the wall of the thoracic cavity and the surface of the lungs.",
+      "type": "DEFINITION",
+      "source": "NCI"
+    }
+  ],
+  "properties": [
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "CDISC"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "CTDC"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "GDC"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "PCDC"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "UBERON"
+    },
+    {
+      "code": "P366",
+      "type": "Legacy Concept Name",
+      "value": "Pleural_Tissue"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "Pleura"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "Pleura, NOS"
+    },
+    {
+      "code": "P106",
+      "type": "Semantic_Type",
+      "value": "Tissue"
+    },
+    {
+      "code": "P207",
+      "type": "UMLS_CUI",
+      "value": "C0032225"
+    },
+    {
+      "code": "oboInOwl:hasDbXref",
+      "type": "xRef",
+      "value": "UBERON:0000977"
+    }
+  ],
+  "children": [
+    {
+      "code": "C33273",
+      "name": "Parietal Pleura",
+      "leaf": false
+    },
+    {
+      "code": "C33881",
+      "name": "Visceral Pleura",
+      "leaf": true
+    }
+  ],
+  "parents": [
+    {
+      "code": "C12749",
+      "name": "Membrane"
+    }
+  ],
+  "associations": [
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C74456",
+      "relatedName": "CDISC SDTM Anatomical Location Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C78734",
+      "relatedName": "CDISC SDTM Specimen Type Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C66830",
+      "relatedName": "CDISC SDTM Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C77529",
+      "relatedName": "CDISC SEND Biospecimens Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C77526",
+      "relatedName": "CDISC SEND Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C61410",
+      "relatedName": "Clinical Data Interchange Standards Consortium Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C173073",
+      "relatedName": "CTDC Value Terminology"
+    },
+    {
+      "type": "Is_Value_For_GDC_Property",
+      "relatedCode": "C173263",
+      "relatedName": "Disease Involvement Site"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C157711",
+      "relatedName": "GDC Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C177537",
+      "relatedName": "GDC Value Terminology"
+    },
+    {
+      "type": "Is_Value_For_GDC_Property",
+      "relatedCode": "C182312",
+      "relatedName": "Image Anatomic Location"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168655",
+      "relatedName": "Mapped ICDO3.1 Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168660",
+      "relatedName": "Mapped ICDO3.1 Topography PT Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168659",
+      "relatedName": "Mapped ICDO3.1 Topography Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168656",
+      "relatedName": "Mapped ICDO3.2 Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168664",
+      "relatedName": "Mapped ICDO3.2 Topography PT Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168663",
+      "relatedName": "Mapped ICDO3.2 Topography Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C179478",
+      "relatedName": "OS Authorized Value Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C179482",
+      "relatedName": "OS Biopsy/Surgical Procedures Table"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C179483",
+      "relatedName": "OS Radiation Therapy Table"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C179481",
+      "relatedName": "OS Tumor Assessment Table"
+    },
+    {
+      "type": "Is_Value_For_GDC_Property",
+      "relatedCode": "C177570",
+      "relatedName": "Progressive or Recurrent Disease Anatomic Site"
+    },
+    {
+      "type": "Is_Value_For_GDC_Property",
+      "relatedCode": "C156421",
+      "relatedName": "Site of Resection or Biopsy"
+    },
+    {
+      "type": "Is_Value_For_GDC_Property",
+      "relatedCode": "C171435",
+      "relatedName": "Specimen Anatomic Site"
+    },
+    {
+      "type": "Is_Value_For_GDC_Property",
+      "relatedCode": "C70729",
+      "relatedName": "Targeted Anatomic Site"
+    },
+    {
+      "type": "Is_Value_For_GDC_Property",
+      "relatedCode": "C156422",
+      "relatedName": "Tissue or Organ of Origin"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C198975",
+      "relatedName": "UBERON Terminology"
+    }
+  ],
+  "inverseAssociations": [
+    {
+      "type": "Has_GDC_Value",
+      "relatedCode": "C173263",
+      "relatedName": "Disease Involvement Site"
+    },
+    {
+      "type": "Has_GDC_Value",
+      "relatedCode": "C182312",
+      "relatedName": "Image Anatomic Location"
+    },
+    {
+      "type": "Has_GDC_Value",
+      "relatedCode": "C177570",
+      "relatedName": "Progressive or Recurrent Disease Anatomic Site"
+    },
+    {
+      "type": "Has_CTDC_Value",
+      "relatedCode": "C172273",
+      "relatedName": "Site of Metastasis at Trial Entry"
+    },
+    {
+      "type": "Has_PCDC_OS_Authorized_Value",
+      "relatedCode": "C173281",
+      "relatedName": "Site of Radiation Therapy"
+    },
+    {
+      "type": "Has_GDC_Value",
+      "relatedCode": "C156421",
+      "relatedName": "Site of Resection or Biopsy"
+    },
+    {
+      "type": "Has_PCDC_OS_Authorized_Value",
+      "relatedCode": "C157120",
+      "relatedName": "Site of Tumor"
+    },
+    {
+      "type": "Has_GDC_Value",
+      "relatedCode": "C171435",
+      "relatedName": "Specimen Anatomic Site"
+    },
+    {
+      "type": "Has_PCDC_OS_Authorized_Value",
+      "relatedCode": "C164323",
+      "relatedName": "Surgical Site"
+    },
+    {
+      "type": "Has_GDC_Value",
+      "relatedCode": "C70729",
+      "relatedName": "Targeted Anatomic Site"
+    },
+    {
+      "type": "Has_GDC_Value",
+      "relatedCode": "C156422",
+      "relatedName": "Tissue or Organ of Origin"
+    }
+  ],
+  "roles": [
+    {
+      "type": "Anatomic_Structure_Has_Location",
+      "relatedCode": "C12905",
+      "relatedName": "Thoracic Cavity"
+    }
+  ],
+  "inverseRoles": [
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C8706",
+      "relatedName": "Advanced Pleural Malignant Mesothelioma"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C45666",
+      "relatedName": "Localized Pleural Malignant Mesothelioma"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C175936",
+      "relatedName": "Locally Advanced Pleural Malignant Mesothelioma"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C168545",
+      "relatedName": "Metastatic Pleural Malignant Mesothelioma"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C4499",
+      "relatedName": "Pleural Adenomatoid Tumor"
+    },
+    {
+      "type": "Procedure_Has_Partially_Excised_Anatomy",
+      "relatedCode": "C51897",
+      "relatedName": "Pleural Biopsy"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C45665",
+      "relatedName": "Pleural Biphasic Mesothelioma"
+    },
+    {
+      "type": "Anatomic_Structure_Has_Location",
+      "relatedCode": "C12840",
+      "relatedName": "Pleural Cavity"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C45664",
+      "relatedName": "Pleural Desmoplastic Mesothelioma"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C136374",
+      "relatedName": "Pleural Diffuse Malignant Mesothelioma by AJCC v7 Stage"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C136399",
+      "relatedName": "Pleural Diffuse Malignant Mesothelioma by AJCC v8 Stage"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C222667",
+      "relatedName": "Pleural Diffuse Malignant Mesothelioma by AJCC v9 Stage"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C222813",
+      "relatedName": "Pleural Diffuse Malignant Mesothelioma"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C45662",
+      "relatedName": "Pleural Epithelioid Mesothelioma"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C7376",
+      "relatedName": "Pleural Malignant Mesothelioma"
+    },
+    {
+      "type": "Anatomic_Structure_Is_Physical_Part_Of",
+      "relatedCode": "C33330",
+      "relatedName": "Pleural Mesothelial Cell"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C9351",
+      "relatedName": "Pleural Mesothelial Neoplasm"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C183134",
+      "relatedName": "Pleural Mesothelioma In Situ"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C45663",
+      "relatedName": "Pleural Sarcomatoid Mesothelioma"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C45660",
+      "relatedName": "Pleural Well Differentiated Papillary Mesothelial Tumor"
+    },
+    {
+      "type": "Procedure_Has_Excised_Anatomy",
+      "relatedCode": "C51651",
+      "relatedName": "Pleurectomy"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C45691",
+      "relatedName": "Pyothorax-Associated Lymphoma"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C8707",
+      "relatedName": "Recurrent Pleural Malignant Mesothelioma"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C159675",
+      "relatedName": "Refractory Pleural Malignant Mesothelioma"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C154441",
+      "relatedName": "Resectable Pleural Malignant Mesothelioma"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C6646",
+      "relatedName": "Stage I Pleural Diffuse Malignant Mesothelioma AJCC v7"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C136400",
+      "relatedName": "Stage I Pleural Diffuse Malignant Mesothelioma AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C222668",
+      "relatedName": "Stage I Pleural Diffuse Malignant Mesothelioma AJCC v9"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C87195",
+      "relatedName": "Stage IA Pleural Diffuse Malignant Mesothelioma AJCC v7"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C136409",
+      "relatedName": "Stage IA Pleural Diffuse Malignant Mesothelioma AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C87196",
+      "relatedName": "Stage IB Pleural Diffuse Malignant Mesothelioma AJCC v7"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C136401",
+      "relatedName": "Stage IB Pleural Diffuse Malignant Mesothelioma AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C6647",
+      "relatedName": "Stage II Pleural Diffuse Malignant Mesothelioma AJCC v7"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C136402",
+      "relatedName": "Stage II Pleural Diffuse Malignant Mesothelioma AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C222669",
+      "relatedName": "Stage II Pleural Diffuse Malignant Mesothelioma AJCC v9"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C6648",
+      "relatedName": "Stage III Pleural Diffuse Malignant Mesothelioma AJCC v7"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C136403",
+      "relatedName": "Stage III Pleural Diffuse Malignant Mesothelioma AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C222670",
+      "relatedName": "Stage III Pleural Diffuse Malignant Mesothelioma AJCC v9"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C136404",
+      "relatedName": "Stage IIIA Pleural Diffuse Malignant Mesothelioma AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C222671",
+      "relatedName": "Stage IIIA Pleural Diffuse Malignant Mesothelioma AJCC v9"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C136405",
+      "relatedName": "Stage IIIB Pleural Diffuse Malignant Mesothelioma AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C222672",
+      "relatedName": "Stage IIIB Pleural Diffuse Malignant Mesothelioma AJCC v9"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C6649",
+      "relatedName": "Stage IV Pleural Diffuse Malignant Mesothelioma AJCC v7"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C136406",
+      "relatedName": "Stage IV Pleural Diffuse Malignant Mesothelioma AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C222673",
+      "relatedName": "Stage IV Pleural Diffuse Malignant Mesothelioma AJCC v9"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C173618",
+      "relatedName": "Unresectable Pleural Biphasic Mesothelioma"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C173616",
+      "relatedName": "Unresectable Pleural Epithelioid Mesothelioma"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C154444",
+      "relatedName": "Unresectable Pleural Malignant Mesothelioma"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C173617",
+      "relatedName": "Unresectable Pleural Sarcomatoid Mesothelioma"
+    }
+  ],
+  "history": [
+    {
+      "code": "C12469",
+      "action": "create",
+      "date": "2003-08-12"
+    },
+    {
+      "code": "C12469",
+      "action": "modify",
+      "date": "2003-10-31"
+    },
+    {
+      "code": "C12469",
+      "action": "modify",
+      "date": "2003-12-05"
+    },
+    {
+      "code": "C12469",
+      "action": "modify",
+      "date": "2003-12-30"
+    },
+    {
+      "code": "C12469",
+      "action": "modify",
+      "date": "2004-02-23"
+    },
+    {
+      "code": "C12469",
+      "action": "modify",
+      "date": "2004-03-30"
+    },
+    {
+      "code": "C12469",
+      "action": "modify",
+      "date": "2004-04-30"
+    },
+    {
+      "code": "C12469",
+      "action": "modify",
+      "date": "2004-08-02"
+    },
+    {
+      "code": "C12469",
+      "action": "modify",
+      "date": "2005-03-16"
+    },
+    {
+      "code": "C12469",
+      "action": "modify",
+      "date": "2006-01-03"
+    },
+    {
+      "code": "C12469",
+      "action": "modify",
+      "date": "2008-11-14"
+    },
+    {
+      "code": "C12469",
+      "action": "modify",
+      "date": "2008-11-26"
+    },
+    {
+      "code": "C12469",
+      "action": "modify",
+      "date": "2008-12-19"
+    },
+    {
+      "code": "C12469",
+      "action": "modify",
+      "date": "2008-11-07"
+    },
+    {
+      "code": "C12469",
+      "action": "modify",
+      "date": "2009-01-26"
+    },
+    {
+      "code": "C12469",
+      "action": "modify",
+      "date": "2009-04-06"
+    },
+    {
+      "code": "C12469",
+      "action": "modify",
+      "date": "2009-11-23"
+    },
+    {
+      "code": "C12469",
+      "action": "modify",
+      "date": "2011-02-22"
+    },
+    {
+      "code": "C12469",
+      "action": "modify",
+      "date": "2011-04-25"
+    },
+    {
+      "code": "C12469",
+      "action": "modify",
+      "date": "2011-05-02"
+    },
+    {
+      "code": "C12469",
+      "action": "modify",
+      "date": "2011-05-09"
+    },
+    {
+      "code": "C12469",
+      "action": "modify",
+      "date": "2011-05-16"
+    },
+    {
+      "code": "C12469",
+      "action": "modify",
+      "date": "2011-05-23"
+    },
+    {
+      "code": "C12469",
+      "action": "modify",
+      "date": "2011-05-31"
+    },
+    {
+      "code": "C12469",
+      "action": "modify",
+      "date": "2011-06-06"
+    },
+    {
+      "code": "C12469",
+      "action": "modify",
+      "date": "2011-06-13"
+    },
+    {
+      "code": "C12469",
+      "action": "modify",
+      "date": "2011-06-20"
+    },
+    {
+      "code": "C12469",
+      "action": "modify",
+      "date": "2011-06-27"
+    },
+    {
+      "code": "C12469",
+      "action": "modify",
+      "date": "2012-06-04"
+    },
+    {
+      "code": "C12469",
+      "action": "modify",
+      "date": "2012-06-11"
+    },
+    {
+      "code": "C12469",
+      "action": "modify",
+      "date": "2012-09-24"
+    },
+    {
+      "code": "C12469",
+      "action": "modify",
+      "date": "2013-02-25"
+    },
+    {
+      "code": "C12469",
+      "action": "modify",
+      "date": "2013-03-04"
+    },
+    {
+      "code": "C12469",
+      "action": "modify",
+      "date": "2013-03-11"
+    },
+    {
+      "code": "C12469",
+      "action": "modify",
+      "date": "2013-03-18"
+    },
+    {
+      "code": "C12469",
+      "action": "modify",
+      "date": "2013-03-25"
+    },
+    {
+      "code": "C12469",
+      "action": "modify",
+      "date": "2013-04-01"
+    },
+    {
+      "code": "C12469",
+      "action": "modify",
+      "date": "2013-04-08"
+    },
+    {
+      "code": "C12469",
+      "action": "modify",
+      "date": "2013-04-15"
+    },
+    {
+      "code": "C12469",
+      "action": "modify",
+      "date": "2013-04-22"
+    },
+    {
+      "code": "C12469",
+      "action": "modify",
+      "date": "2013-04-29"
+    },
+    {
+      "code": "C12469",
+      "action": "modify",
+      "date": "2013-05-06"
+    },
+    {
+      "code": "C12469",
+      "action": "modify",
+      "date": "2013-05-13"
+    },
+    {
+      "code": "C12469",
+      "action": "modify",
+      "date": "2013-05-20"
+    },
+    {
+      "code": "C12469",
+      "action": "modify",
+      "date": "2013-05-28"
+    },
+    {
+      "code": "C12469",
+      "action": "modify",
+      "date": "2013-06-03"
+    },
+    {
+      "code": "C12469",
+      "action": "modify",
+      "date": "2013-06-10"
+    },
+    {
+      "code": "C12469",
+      "action": "modify",
+      "date": "2013-06-17"
+    },
+    {
+      "code": "C12469",
+      "action": "modify",
+      "date": "2013-06-24"
+    },
+    {
+      "code": "C12469",
+      "action": "modify",
+      "date": "2013-07-01"
+    },
+    {
+      "code": "C12469",
+      "action": "modify",
+      "date": "2013-07-08"
+    },
+    {
+      "code": "C12469",
+      "action": "modify",
+      "date": "2013-09-16"
+    },
+    {
+      "code": "C12469",
+      "action": "modify",
+      "date": "2014-02-03"
+    },
+    {
+      "code": "C12469",
+      "action": "modify",
+      "date": "2015-05-26"
+    },
+    {
+      "code": "C12469",
+      "action": "modify",
+      "date": "2015-06-01"
+    },
+    {
+      "code": "C12469",
+      "action": "modify",
+      "date": "2015-06-08"
+    },
+    {
+      "code": "C12469",
+      "action": "modify",
+      "date": "2015-06-15"
+    },
+    {
+      "code": "C12469",
+      "action": "modify",
+      "date": "2015-06-22"
+    },
+    {
+      "code": "C12469",
+      "action": "modify",
+      "date": "2015-06-29"
+    },
+    {
+      "code": "C12469",
+      "action": "modify",
+      "date": "2015-07-06"
+    },
+    {
+      "code": "C12469",
+      "action": "modify",
+      "date": "2015-07-13"
+    },
+    {
+      "code": "C12469",
+      "action": "modify",
+      "date": "2015-08-12"
+    },
+    {
+      "code": "C12469",
+      "action": "modify",
+      "date": "2015-10-19"
+    },
+    {
+      "code": "C12469",
+      "action": "modify",
+      "date": "2016-10-17"
+    },
+    {
+      "code": "C12469",
+      "action": "modify",
+      "date": "2017-02-27"
+    },
+    {
+      "code": "C12469",
+      "action": "modify",
+      "date": "2017-03-13"
+    },
+    {
+      "code": "C12469",
+      "action": "modify",
+      "date": "2018-06-25"
+    },
+    {
+      "code": "C12469",
+      "action": "modify",
+      "date": "2018-06-25"
+    },
+    {
+      "code": "C12469",
+      "action": "modify",
+      "date": "2018-09-24"
+    },
+    {
+      "code": "C12469",
+      "action": "modify",
+      "date": "2018-10-29"
+    },
+    {
+      "code": "C12469",
+      "action": "modify",
+      "date": "2018-10-29"
+    },
+    {
+      "code": "C12469",
+      "action": "modify",
+      "date": "2019-05-28"
+    },
+    {
+      "code": "C12469",
+      "action": "modify",
+      "date": "2019-09-30"
+    },
+    {
+      "code": "C12469",
+      "action": "modify",
+      "date": "2019-10-28"
+    },
+    {
+      "code": "C12469",
+      "action": "modify",
+      "date": "2020-02-24"
+    },
+    {
+      "code": "C12469",
+      "action": "modify",
+      "date": "2020-03-30"
+    },
+    {
+      "code": "C12469",
+      "action": "modify",
+      "date": "2020-08-31"
+    },
+    {
+      "code": "C12469",
+      "action": "modify",
+      "date": "2020-09-29"
+    },
+    {
+      "code": "C12469",
+      "action": "modify",
+      "date": "2021-02-22"
+    },
+    {
+      "code": "C12469",
+      "action": "modify",
+      "date": "2021-03-29"
+    },
+    {
+      "code": "C12469",
+      "action": "modify",
+      "date": "2021-11-29"
+    },
+    {
+      "code": "C12469",
+      "action": "modify",
+      "date": "2022-04-25"
+    },
+    {
+      "code": "C12469",
+      "action": "modify",
+      "date": "2022-08-29"
+    },
+    {
+      "code": "C12469",
+      "action": "modify",
+      "date": "2022-10-31"
+    },
+    {
+      "code": "C12469",
+      "action": "modify",
+      "date": "2023-02-27"
+    },
+    {
+      "code": "C12469",
+      "action": "modify",
+      "date": "2023-05-30"
+    },
+    {
+      "code": "C12469",
+      "action": "modify",
+      "date": "2023-07-31"
+    },
+    {
+      "code": "C12469",
+      "action": "modify",
+      "date": "2023-09-25"
+    },
+    {
+      "code": "C12469",
+      "action": "modify",
+      "date": "2024-06-24"
+    },
+    {
+      "code": "C12469",
+      "action": "modify",
+      "date": "2024-07-08"
+    }
+  ],
+  "maps": [
+    {
+      "type": "Related To",
+      "targetName": "Pleura, NOS",
+      "targetTermType": "PT",
+      "targetCode": "C38.4",
+      "targetTerminology": "ICDO3",
+      "targetTerminologyVersion": "3.1"
+    },
+    {
+      "type": "Related To",
+      "targetName": "Pleura, NOS",
+      "targetTermType": "PT",
+      "targetCode": "C38.4",
+      "targetTerminology": "ICDO3",
+      "targetTerminologyVersion": "3.2"
+    },
+    {
+      "type": "Has Synonym",
+      "targetName": "Pleura, NOS",
+      "targetTermType": "PT",
+      "targetCode": "progression_or_recurrence_anatomic_site",
+      "targetTerminology": "GDC"
+    },
+    {
+      "type": "Has Synonym",
+      "targetName": "Pleura, NOS",
+      "targetTermType": "PT",
+      "targetCode": "site_of_resection_or_biopsy",
+      "targetTerminology": "GDC"
+    },
+    {
+      "type": "Has Synonym",
+      "targetName": "Pleura, NOS",
+      "targetTermType": "PT",
+      "targetCode": "tissue_or_organ_of_origin",
+      "targetTerminology": "GDC"
+    },
+    {
+      "type": "Has Synonym",
+      "targetName": "Pleura",
+      "targetTermType": "PT",
+      "targetCode": "biospecimen_anatomic_site",
+      "targetTerminology": "GDC"
+    },
+    {
+      "type": "Has Synonym",
+      "targetName": "Pleura",
+      "targetTermType": "PT",
+      "targetCode": "imaging_anatomic_site",
+      "targetTerminology": "GDC"
+    },
+    {
+      "type": "Has Synonym",
+      "targetName": "Pleura",
+      "targetTermType": "PT",
+      "targetCode": "sites_of_involvement",
+      "targetTerminology": "GDC"
+    },
+    {
+      "type": "Has Synonym",
+      "targetName": "Pleura",
+      "targetTermType": "PT",
+      "targetCode": "treatment_anatomic_sites",
+      "targetTerminology": "GDC"
+    }
+  ]
+}

@@ -1,0 +1,1390 @@
+{
+  "code": "C3329",
+  "name": "Pituitary Neuroendocrine Tumor",
+  "terminology": "ncit",
+  "version": "25.11d",
+  "conceptStatus": "DEFAULT",
+  "leaf": false,
+  "active": true,
+  "synonyms": [
+    {
+      "name": "Adenoma of Pituitary",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "CDISC"
+    },
+    {
+      "name": "Adenoma of Pituitary Gland",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "CDISC"
+    },
+    {
+      "name": "Adenoma of the Pituitary",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "CDISC"
+    },
+    {
+      "name": "Adenoma of the Pituitary Gland",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "CDISC"
+    },
+    {
+      "name": "ADENOMA, ANTERIOR LOBE PITUITARY GLAND, BENIGN",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "CDISC"
+    },
+    {
+      "name": "Pituitary Adenoma",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "CDISC"
+    },
+    {
+      "name": "Pituitary Gland Adenoma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "Cellosaurus"
+    },
+    {
+      "name": "Pituitary Neuroendocrine Tumor",
+      "termType": "DN",
+      "type": "FULL_SYN",
+      "source": "CTRP"
+    },
+    {
+      "name": "Pituitary adenoma, NOS",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "GDC"
+    },
+    {
+      "name": "Adenoma of Pituitary",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Adenoma of Pituitary Gland",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Adenoma of the Pituitary",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Adenoma of the Pituitary Gland",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "PitNET",
+      "termType": "AB",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "PitNET/Adenoma",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Pituitary Adenoma",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Pituitary Neuroendocrine Tumor",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Pituitary Neuroendocrine Tumor (Formerly Pituitary Adenoma)",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Pituitary Neuroendocrine Tumor/Adenoma",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Pituitary Gland Adenoma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NICHD"
+    },
+    {
+      "name": "Pituitary Neuroendocrine Tumor",
+      "type": "Display_Name"
+    },
+    {
+      "name": "Pituitary Neuroendocrine Tumor",
+      "type": "Preferred_Name"
+    }
+  ],
+  "definitions": [
+    {
+      "definition": "A benign neoplasm of the anterior lobe of the pituitary gland.",
+      "type": "ALT_DEFINITION",
+      "source": "CDISC"
+    },
+    {
+      "definition": "A non-metastasizing tumor that arises from the adenohypophysial cells of the anterior lobe of the pituitary gland.",
+      "type": "ALT_DEFINITION",
+      "source": "NICHD"
+    },
+    {
+      "definition": "A well-differentiated neuroendocrine neoplasm that arises from the adenohypophysial cells of the anterior lobe of the pituitary gland. The tumor can be hormonally functioning or not. It has a low frequency of metastatic spread. When metastatic, the term metastatic pituitary neuroendocrine tumor is endorsed instead of pituitary carcinoma. (WHO)",
+      "type": "DEFINITION",
+      "source": "NCI"
+    }
+  ],
+  "properties": [
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "CDISC"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "Cellosaurus"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "CTRP"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "GDC"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "NICHD"
+    },
+    {
+      "code": "P334",
+      "type": "ICD-O-3_Code",
+      "value": "8272/0"
+    },
+    {
+      "code": "P366",
+      "type": "Legacy Concept Name",
+      "value": "Pituitary_Gland_Adenoma"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "8272/0"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "Pituitary adenoma, NOS"
+    },
+    {
+      "code": "P363",
+      "type": "Neoplastic_Status",
+      "value": "Undetermined"
+    },
+    {
+      "code": "P106",
+      "type": "Semantic_Type",
+      "value": "Neoplastic Process"
+    },
+    {
+      "code": "P207",
+      "type": "UMLS_CUI",
+      "value": "C0032000"
+    }
+  ],
+  "children": [
+    {
+      "code": "C132296",
+      "name": "Atypical Pituitary Neuroendocrine Tumor",
+      "leaf": true
+    },
+    {
+      "code": "C173345",
+      "name": "Ectopic Pituitary Neuroendocrine Tumor",
+      "leaf": false
+    },
+    {
+      "code": "C8388",
+      "name": "Functioning Pituitary Neuroendocrine Tumor",
+      "leaf": false
+    },
+    {
+      "code": "C4536",
+      "name": "Metastatic Pituitary Neuroendocrine Tumor",
+      "leaf": false
+    },
+    {
+      "code": "C155767",
+      "name": "Mixed Gangliocytoma-Pituitary Neuroendocrine Tumor",
+      "leaf": true
+    },
+    {
+      "code": "C154520",
+      "name": "Multiple Synchronous Pituitary Neuroendocrine Tumors of Distinct Lineages",
+      "leaf": false
+    },
+    {
+      "code": "C4348",
+      "name": "Non-Functioning Pituitary Neuroendocrine Tumor",
+      "leaf": false
+    },
+    {
+      "code": "C187086",
+      "name": "Pituitary Neuroendocrine Tumor of PIT1-Lineage",
+      "leaf": false
+    },
+    {
+      "code": "C187088",
+      "name": "Pituitary Neuroendocrine Tumor of SF1-Lineage",
+      "leaf": false
+    },
+    {
+      "code": "C187087",
+      "name": "Pituitary Neuroendocrine Tumor of TPIT-Lineage",
+      "leaf": false
+    },
+    {
+      "code": "C187096",
+      "name": "Pituitary Neuroendocrine Tumor without Distinct Lineage Differentiation",
+      "leaf": false
+    },
+    {
+      "code": "C187135",
+      "name": "Pituitary Neuroendocrine Tumor, Not Otherwise Specified",
+      "leaf": true
+    },
+    {
+      "code": "C43542",
+      "name": "Pituitary Neuroendocrine Tumor/Macroadenoma",
+      "leaf": false
+    },
+    {
+      "code": "C43541",
+      "name": "Pituitary Neuroendocrine Tumor/Microadenoma",
+      "leaf": false
+    }
+  ],
+  "parents": [
+    {
+      "code": "C2855",
+      "name": "Adenoma"
+    },
+    {
+      "code": "C45921",
+      "name": "Anterior Pituitary Gland Neoplasm"
+    },
+    {
+      "code": "C188218",
+      "name": "Neuroendocrine Tumor"
+    }
+  ],
+  "associations": [
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C77526",
+      "relatedName": "CDISC SEND Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C88025",
+      "relatedName": "CDISC SEND Tumor Findings Results Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C165258",
+      "relatedName": "Cellosaurus Disease Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C61410",
+      "relatedName": "Clinical Data Interchange Standards Consortium Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C118168",
+      "relatedName": "CTRP Disease Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C116977",
+      "relatedName": "CTRP Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C157711",
+      "relatedName": "GDC Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C177537",
+      "relatedName": "GDC Value Terminology"
+    },
+    {
+      "type": "Is_Value_For_GDC_Property",
+      "relatedCode": "C176985",
+      "relatedName": "Histology ICD-O Morphology Code"
+    },
+    {
+      "type": "Is_Value_For_GDC_Property",
+      "relatedCode": "C177621",
+      "relatedName": "ICD-O-3 Morphology Term Diagnosis Question"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168658",
+      "relatedName": "Mapped ICDO3.1 Morphology PT Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168657",
+      "relatedName": "Mapped ICDO3.1 Morphology Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168655",
+      "relatedName": "Mapped ICDO3.1 Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168662",
+      "relatedName": "Mapped ICDO3.2 Morphology PT Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168661",
+      "relatedName": "Mapped ICDO3.2 Morphology Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168656",
+      "relatedName": "Mapped ICDO3.2 Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C126659",
+      "relatedName": "NCIt Neoplasm Core Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C90259",
+      "relatedName": "NICHD Terminology"
+    }
+  ],
+  "inverseAssociations": [
+    {
+      "type": "Has_GDC_Value",
+      "relatedCode": "C176985",
+      "relatedName": "Histology ICD-O Morphology Code"
+    },
+    {
+      "type": "Has_GDC_Value",
+      "relatedCode": "C177621",
+      "relatedName": "ICD-O-3 Morphology Term Diagnosis Question"
+    }
+  ],
+  "roles": [
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C45920",
+      "relatedName": "Adenohypophysial Cell"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12772",
+      "relatedName": "Anterior Lobe of the Pituitary Gland"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12439",
+      "relatedName": "Brain"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12438",
+      "relatedName": "Central Nervous System"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12704",
+      "relatedName": "Endocrine Gland"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12704",
+      "relatedName": "Endocrine Gland"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12705",
+      "relatedName": "Endocrine System"
+    },
+    {
+      "type": "Disease_Excludes_Normal_Cell_Origin",
+      "relatedCode": "C12865",
+      "relatedName": "Endothelial Cell"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C12578",
+      "relatedName": "Epithelial Cell"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C53596",
+      "relatedName": "Epithelial Component Present"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C45714",
+      "relatedName": "Epithelial Tissue"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C207031",
+      "relatedName": "Expression of Neuroendocrine Markers Present"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C45715",
+      "relatedName": "Glandular Epithelial Tissue"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12418",
+      "relatedName": "Head and Neck"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C36818",
+      "relatedName": "Large Osteoclastic Giant Cell"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C62273",
+      "relatedName": "Mixed Neoplastic Glandular and Squamous Cell Population"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C45963",
+      "relatedName": "Neoplastic Adenohypophysial Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12922",
+      "relatedName": "Neoplastic Cell"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C37088",
+      "relatedName": "Neoplastic Endothelial Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36753",
+      "relatedName": "Neoplastic Epithelial Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36763",
+      "relatedName": "Neoplastic Glandular Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36761",
+      "relatedName": "Neoplastic Neuroendocrine Cell"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C36937",
+      "relatedName": "Neoplastic Smooth Muscle Cell"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C36760",
+      "relatedName": "Neoplastic Squamous Cell"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12755",
+      "relatedName": "Nervous System"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C43574",
+      "relatedName": "Neuroendocrine Differentiation"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12399",
+      "relatedName": "Pituitary Gland"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C155863",
+      "relatedName": "Poorly Differentiated Neuroendocrine Lesion"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C155777",
+      "relatedName": "Sellar Region"
+    },
+    {
+      "type": "Disease_Excludes_Primary_Anatomic_Site",
+      "relatedCode": "C12464",
+      "relatedName": "Spinal Cord"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C155861",
+      "relatedName": "Well Differentiated Neuroendocrine Lesion"
+    }
+  ],
+  "inverseRoles": [
+    {
+      "type": "Disease_May_Have_Associated_Disease",
+      "relatedCode": "C4705",
+      "relatedName": "Carney Complex"
+    },
+    {
+      "type": "Gene_Associated_With_Disease",
+      "relatedCode": "C24436",
+      "relatedName": "GNAI2 Gene"
+    },
+    {
+      "type": "Gene_Associated_With_Disease",
+      "relatedCode": "C52639",
+      "relatedName": "GNAI2 wt Allele"
+    },
+    {
+      "type": "Gene_Associated_With_Disease",
+      "relatedCode": "C81884",
+      "relatedName": "MIR15A Gene"
+    },
+    {
+      "type": "Gene_Associated_With_Disease",
+      "relatedCode": "C81885",
+      "relatedName": "MIR15A wt Allele"
+    },
+    {
+      "type": "Disease_May_Have_Associated_Disease",
+      "relatedCode": "C3225",
+      "relatedName": "Multiple Endocrine Neoplasia Type 1"
+    },
+    {
+      "type": "Disease_May_Have_Associated_Disease",
+      "relatedCode": "C157449",
+      "relatedName": "Multiple Endocrine Neoplasia Type 4"
+    },
+    {
+      "type": "Disease_May_Have_Associated_Disease",
+      "relatedCode": "C188257",
+      "relatedName": "Multiple Endocrine Neoplasia Type 5"
+    },
+    {
+      "type": "Gene_Associated_With_Disease",
+      "relatedCode": "C17758",
+      "relatedName": "Oncogene ERB A"
+    }
+  ],
+  "history": [
+    {
+      "code": "C3329",
+      "action": "create",
+      "date": "2003-08-12"
+    },
+    {
+      "code": "C3329",
+      "action": "modify",
+      "date": "2003-10-31"
+    },
+    {
+      "code": "C3329",
+      "action": "modify",
+      "date": "2003-12-30"
+    },
+    {
+      "code": "C3329",
+      "action": "modify",
+      "date": "2004-03-30"
+    },
+    {
+      "code": "C3329",
+      "action": "modify",
+      "date": "2005-03-16"
+    },
+    {
+      "code": "C3329",
+      "action": "modify",
+      "date": "2005-05-27"
+    },
+    {
+      "code": "C3329",
+      "action": "modify",
+      "date": "2005-06-24"
+    },
+    {
+      "code": "C3329",
+      "action": "modify",
+      "date": "2007-03-30"
+    },
+    {
+      "code": "C3329",
+      "action": "modify",
+      "date": "2009-04-06"
+    },
+    {
+      "code": "C3329",
+      "action": "modify",
+      "date": "2009-11-02"
+    },
+    {
+      "code": "C3329",
+      "action": "modify",
+      "date": "2009-11-23"
+    },
+    {
+      "code": "C3329",
+      "action": "modify",
+      "date": "2010-05-17"
+    },
+    {
+      "code": "C3329",
+      "action": "modify",
+      "date": "2010-06-01"
+    },
+    {
+      "code": "C3329",
+      "action": "modify",
+      "date": "2010-11-22"
+    },
+    {
+      "code": "C3329",
+      "action": "modify",
+      "date": "2011-04-11"
+    },
+    {
+      "code": "C3329",
+      "action": "modify",
+      "date": "2011-11-14"
+    },
+    {
+      "code": "C3329",
+      "action": "modify",
+      "date": "2011-11-21"
+    },
+    {
+      "code": "C3329",
+      "action": "modify",
+      "date": "2011-11-28"
+    },
+    {
+      "code": "C3329",
+      "action": "modify",
+      "date": "2011-12-05"
+    },
+    {
+      "code": "C3329",
+      "action": "modify",
+      "date": "2011-12-12"
+    },
+    {
+      "code": "C3329",
+      "action": "modify",
+      "date": "2011-12-19"
+    },
+    {
+      "code": "C3329",
+      "action": "modify",
+      "date": "2011-12-27"
+    },
+    {
+      "code": "C3329",
+      "action": "modify",
+      "date": "2012-01-09"
+    },
+    {
+      "code": "C3329",
+      "action": "modify",
+      "date": "2012-01-17"
+    },
+    {
+      "code": "C3329",
+      "action": "modify",
+      "date": "2012-01-23"
+    },
+    {
+      "code": "C3329",
+      "action": "modify",
+      "date": "2012-01-30"
+    },
+    {
+      "code": "C3329",
+      "action": "modify",
+      "date": "2012-02-06"
+    },
+    {
+      "code": "C3329",
+      "action": "modify",
+      "date": "2012-02-13"
+    },
+    {
+      "code": "C3329",
+      "action": "modify",
+      "date": "2012-02-21"
+    },
+    {
+      "code": "C3329",
+      "action": "modify",
+      "date": "2012-02-27"
+    },
+    {
+      "code": "C3329",
+      "action": "modify",
+      "date": "2012-03-05"
+    },
+    {
+      "code": "C3329",
+      "action": "modify",
+      "date": "2012-03-12"
+    },
+    {
+      "code": "C3329",
+      "action": "modify",
+      "date": "2012-03-19"
+    },
+    {
+      "code": "C3329",
+      "action": "modify",
+      "date": "2012-03-26"
+    },
+    {
+      "code": "C3329",
+      "action": "modify",
+      "date": "2012-04-02"
+    },
+    {
+      "code": "C3329",
+      "action": "modify",
+      "date": "2012-04-09"
+    },
+    {
+      "code": "C3329",
+      "action": "modify",
+      "date": "2012-04-16"
+    },
+    {
+      "code": "C3329",
+      "action": "modify",
+      "date": "2012-04-23"
+    },
+    {
+      "code": "C3329",
+      "action": "modify",
+      "date": "2012-04-30"
+    },
+    {
+      "code": "C3329",
+      "action": "modify",
+      "date": "2012-05-07"
+    },
+    {
+      "code": "C3329",
+      "action": "modify",
+      "date": "2012-05-14"
+    },
+    {
+      "code": "C3329",
+      "action": "modify",
+      "date": "2012-05-21"
+    },
+    {
+      "code": "C3329",
+      "action": "modify",
+      "date": "2012-05-29"
+    },
+    {
+      "code": "C3329",
+      "action": "modify",
+      "date": "2012-06-04"
+    },
+    {
+      "code": "C3329",
+      "action": "modify",
+      "date": "2012-06-11"
+    },
+    {
+      "code": "C3329",
+      "action": "modify",
+      "date": "2012-06-18"
+    },
+    {
+      "code": "C3329",
+      "action": "modify",
+      "date": "2012-06-18"
+    },
+    {
+      "code": "C3329",
+      "action": "modify",
+      "date": "2012-06-25"
+    },
+    {
+      "code": "C3329",
+      "action": "modify",
+      "date": "2012-07-03"
+    },
+    {
+      "code": "C3329",
+      "action": "modify",
+      "date": "2012-07-16"
+    },
+    {
+      "code": "C3329",
+      "action": "modify",
+      "date": "2012-07-23"
+    },
+    {
+      "code": "C3329",
+      "action": "modify",
+      "date": "2012-07-30"
+    },
+    {
+      "code": "C3329",
+      "action": "modify",
+      "date": "2012-08-06"
+    },
+    {
+      "code": "C3329",
+      "action": "modify",
+      "date": "2012-08-13"
+    },
+    {
+      "code": "C3329",
+      "action": "modify",
+      "date": "2012-08-20"
+    },
+    {
+      "code": "C3329",
+      "action": "modify",
+      "date": "2012-08-27"
+    },
+    {
+      "code": "C3329",
+      "action": "modify",
+      "date": "2012-09-04"
+    },
+    {
+      "code": "C3329",
+      "action": "modify",
+      "date": "2012-09-10"
+    },
+    {
+      "code": "C3329",
+      "action": "modify",
+      "date": "2012-09-17"
+    },
+    {
+      "code": "C3329",
+      "action": "modify",
+      "date": "2012-09-24"
+    },
+    {
+      "code": "C3329",
+      "action": "modify",
+      "date": "2012-10-01"
+    },
+    {
+      "code": "C3329",
+      "action": "modify",
+      "date": "2012-10-09"
+    },
+    {
+      "code": "C3329",
+      "action": "modify",
+      "date": "2012-10-15"
+    },
+    {
+      "code": "C3329",
+      "action": "modify",
+      "date": "2012-10-22"
+    },
+    {
+      "code": "C3329",
+      "action": "modify",
+      "date": "2012-10-31"
+    },
+    {
+      "code": "C3329",
+      "action": "modify",
+      "date": "2012-11-05"
+    },
+    {
+      "code": "C3329",
+      "action": "modify",
+      "date": "2012-11-13"
+    },
+    {
+      "code": "C3329",
+      "action": "modify",
+      "date": "2012-11-19"
+    },
+    {
+      "code": "C3329",
+      "action": "modify",
+      "date": "2012-11-26"
+    },
+    {
+      "code": "C3329",
+      "action": "modify",
+      "date": "2012-12-03"
+    },
+    {
+      "code": "C3329",
+      "action": "modify",
+      "date": "2012-12-10"
+    },
+    {
+      "code": "C3329",
+      "action": "modify",
+      "date": "2012-12-17"
+    },
+    {
+      "code": "C3329",
+      "action": "modify",
+      "date": "2012-12-28"
+    },
+    {
+      "code": "C3329",
+      "action": "modify",
+      "date": "2013-01-07"
+    },
+    {
+      "code": "C3329",
+      "action": "modify",
+      "date": "2013-01-14"
+    },
+    {
+      "code": "C3329",
+      "action": "modify",
+      "date": "2013-01-23"
+    },
+    {
+      "code": "C3329",
+      "action": "modify",
+      "date": "2013-02-04"
+    },
+    {
+      "code": "C3329",
+      "action": "modify",
+      "date": "2013-02-11"
+    },
+    {
+      "code": "C3329",
+      "action": "modify",
+      "date": "2013-02-19"
+    },
+    {
+      "code": "C3329",
+      "action": "modify",
+      "date": "2013-02-25"
+    },
+    {
+      "code": "C3329",
+      "action": "modify",
+      "date": "2013-03-04"
+    },
+    {
+      "code": "C3329",
+      "action": "modify",
+      "date": "2013-03-11"
+    },
+    {
+      "code": "C3329",
+      "action": "modify",
+      "date": "2013-03-18"
+    },
+    {
+      "code": "C3329",
+      "action": "modify",
+      "date": "2013-03-25"
+    },
+    {
+      "code": "C3329",
+      "action": "modify",
+      "date": "2013-04-01"
+    },
+    {
+      "code": "C3329",
+      "action": "modify",
+      "date": "2013-04-08"
+    },
+    {
+      "code": "C3329",
+      "action": "modify",
+      "date": "2013-04-15"
+    },
+    {
+      "code": "C3329",
+      "action": "modify",
+      "date": "2013-04-22"
+    },
+    {
+      "code": "C3329",
+      "action": "modify",
+      "date": "2013-04-29"
+    },
+    {
+      "code": "C3329",
+      "action": "modify",
+      "date": "2013-05-06"
+    },
+    {
+      "code": "C3329",
+      "action": "modify",
+      "date": "2013-05-13"
+    },
+    {
+      "code": "C3329",
+      "action": "modify",
+      "date": "2013-05-20"
+    },
+    {
+      "code": "C3329",
+      "action": "modify",
+      "date": "2013-05-28"
+    },
+    {
+      "code": "C3329",
+      "action": "modify",
+      "date": "2013-06-03"
+    },
+    {
+      "code": "C3329",
+      "action": "modify",
+      "date": "2013-06-10"
+    },
+    {
+      "code": "C3329",
+      "action": "modify",
+      "date": "2013-06-17"
+    },
+    {
+      "code": "C3329",
+      "action": "modify",
+      "date": "2013-06-24"
+    },
+    {
+      "code": "C3329",
+      "action": "modify",
+      "date": "2013-07-01"
+    },
+    {
+      "code": "C3329",
+      "action": "modify",
+      "date": "2013-07-08"
+    },
+    {
+      "code": "C3329",
+      "action": "modify",
+      "date": "2014-02-03"
+    },
+    {
+      "code": "C3329",
+      "action": "modify",
+      "date": "2014-11-24"
+    },
+    {
+      "code": "C3329",
+      "action": "modify",
+      "date": "2014-12-01"
+    },
+    {
+      "code": "C3329",
+      "action": "modify",
+      "date": "2014-12-08"
+    },
+    {
+      "code": "C3329",
+      "action": "modify",
+      "date": "2014-12-15"
+    },
+    {
+      "code": "C3329",
+      "action": "modify",
+      "date": "2014-12-22"
+    },
+    {
+      "code": "C3329",
+      "action": "modify",
+      "date": "2014-12-29"
+    },
+    {
+      "code": "C3329",
+      "action": "modify",
+      "date": "2015-01-05"
+    },
+    {
+      "code": "C3329",
+      "action": "modify",
+      "date": "2015-01-12"
+    },
+    {
+      "code": "C3329",
+      "action": "modify",
+      "date": "2015-01-20"
+    },
+    {
+      "code": "C3329",
+      "action": "modify",
+      "date": "2015-01-26"
+    },
+    {
+      "code": "C3329",
+      "action": "modify",
+      "date": "2015-02-02"
+    },
+    {
+      "code": "C3329",
+      "action": "modify",
+      "date": "2015-02-09"
+    },
+    {
+      "code": "C3329",
+      "action": "modify",
+      "date": "2015-02-17"
+    },
+    {
+      "code": "C3329",
+      "action": "modify",
+      "date": "2015-02-23"
+    },
+    {
+      "code": "C3329",
+      "action": "modify",
+      "date": "2015-03-02"
+    },
+    {
+      "code": "C3329",
+      "action": "modify",
+      "date": "2015-03-09"
+    },
+    {
+      "code": "C3329",
+      "action": "modify",
+      "date": "2015-03-16"
+    },
+    {
+      "code": "C3329",
+      "action": "modify",
+      "date": "2015-03-23"
+    },
+    {
+      "code": "C3329",
+      "action": "modify",
+      "date": "2015-03-30"
+    },
+    {
+      "code": "C3329",
+      "action": "modify",
+      "date": "2015-04-06"
+    },
+    {
+      "code": "C3329",
+      "action": "modify",
+      "date": "2015-04-13"
+    },
+    {
+      "code": "C3329",
+      "action": "modify",
+      "date": "2015-04-20"
+    },
+    {
+      "code": "C3329",
+      "action": "modify",
+      "date": "2015-04-27"
+    },
+    {
+      "code": "C3329",
+      "action": "modify",
+      "date": "2015-05-04"
+    },
+    {
+      "code": "C3329",
+      "action": "modify",
+      "date": "2015-05-11"
+    },
+    {
+      "code": "C3329",
+      "action": "modify",
+      "date": "2015-05-18"
+    },
+    {
+      "code": "C3329",
+      "action": "modify",
+      "date": "2016-04-25"
+    },
+    {
+      "code": "C3329",
+      "action": "modify",
+      "date": "2016-08-22"
+    },
+    {
+      "code": "C3329",
+      "action": "modify",
+      "date": "2017-02-27"
+    },
+    {
+      "code": "C3329",
+      "action": "modify",
+      "date": "2018-09-24"
+    },
+    {
+      "code": "C3329",
+      "action": "modify",
+      "date": "2019-05-28"
+    },
+    {
+      "code": "C3329",
+      "action": "modify",
+      "date": "2019-09-30"
+    },
+    {
+      "code": "C3329",
+      "action": "modify",
+      "date": "2019-10-28"
+    },
+    {
+      "code": "C3329",
+      "action": "modify",
+      "date": "2019-11-25"
+    },
+    {
+      "code": "C3329",
+      "action": "modify",
+      "date": "2020-02-24"
+    },
+    {
+      "code": "C3329",
+      "action": "modify",
+      "date": "2020-04-27"
+    },
+    {
+      "code": "C3329",
+      "action": "modify",
+      "date": "2020-08-31"
+    },
+    {
+      "code": "C3329",
+      "action": "modify",
+      "date": "2020-09-29"
+    },
+    {
+      "code": "C3329",
+      "action": "modify",
+      "date": "2021-02-22"
+    },
+    {
+      "code": "C3329",
+      "action": "modify",
+      "date": "2021-03-29"
+    },
+    {
+      "code": "C3329",
+      "action": "merge",
+      "date": "2022-05-31",
+      "replacementCode": "C3329",
+      "replacementName": "Pituitary Neuroendocrine Tumor"
+    },
+    {
+      "code": "C94540",
+      "action": "merge",
+      "date": "2022-05-31",
+      "replacementCode": "C3329",
+      "replacementName": "Pituitary Neuroendocrine Tumor"
+    },
+    {
+      "code": "C3329",
+      "action": "modify",
+      "date": "2022-05-31"
+    },
+    {
+      "code": "C3329",
+      "action": "modify",
+      "date": "2022-07-25"
+    },
+    {
+      "code": "C3329",
+      "action": "modify",
+      "date": "2022-08-29"
+    },
+    {
+      "code": "C3329",
+      "action": "modify",
+      "date": "2022-09-26"
+    },
+    {
+      "code": "C3329",
+      "action": "modify",
+      "date": "2023-02-27"
+    },
+    {
+      "code": "C3329",
+      "action": "modify",
+      "date": "2025-03-31"
+    }
+  ],
+  "maps": [
+    {
+      "type": "Related To",
+      "targetName": "8272/0",
+      "targetTermType": "PT",
+      "targetCode": "morphology",
+      "targetTerminology": "GDC"
+    },
+    {
+      "type": "Related To",
+      "targetName": "Pituitary adenoma, NOS",
+      "targetTermType": "PT",
+      "targetCode": "8272/0",
+      "targetTerminology": "ICDO3",
+      "targetTerminologyVersion": "3.1"
+    },
+    {
+      "type": "Related To",
+      "targetName": "Pituitary adenoma, NOS",
+      "targetTermType": "PT",
+      "targetCode": "8272/0",
+      "targetTerminology": "ICDO3",
+      "targetTerminologyVersion": "3.2"
+    },
+    {
+      "type": "Has Synonym",
+      "targetName": "Pituitary adenoma, NOS",
+      "targetTermType": "PT",
+      "targetCode": "primary_diagnosis",
+      "targetTerminology": "GDC"
+    }
+  ]
+}

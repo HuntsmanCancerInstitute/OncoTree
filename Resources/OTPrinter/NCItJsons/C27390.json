@@ -1,0 +1,360 @@
+{
+  "code": "C27390",
+  "name": "Ovarian Small Cell Carcinoma",
+  "terminology": "ncit",
+  "version": "25.11d",
+  "conceptStatus": "DEFAULT",
+  "leaf": false,
+  "active": true,
+  "synonyms": [
+    {
+      "name": "Ovarian Small Cell Carcinoma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "Cellosaurus"
+    },
+    {
+      "name": "Ovarian Small Cell Cancer",
+      "termType": "DN",
+      "type": "FULL_SYN",
+      "source": "CTRP"
+    },
+    {
+      "name": "Ovarian Small Cell Carcinoma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Ovarian Small Cell Carcinoma",
+      "type": "Display_Name"
+    },
+    {
+      "name": "Ovarian Small Cell Carcinoma",
+      "type": "Preferred_Name"
+    }
+  ],
+  "definitions": [
+    {
+      "definition": "A carcinoma that arises from the ovary and is characterized by the presence of small malignant cells.  It includes small cell carcinoma, hypercalcemic type and small cell carcinoma, pulmonary type.",
+      "type": "DEFINITION",
+      "source": "NCI"
+    }
+  ],
+  "properties": [
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "Cellosaurus"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "CTRP"
+    },
+    {
+      "code": "P366",
+      "type": "Legacy Concept Name",
+      "value": "Ovarian_Small_Cell_Carcinoma"
+    },
+    {
+      "code": "P363",
+      "type": "Neoplastic_Status",
+      "value": "Malignant"
+    },
+    {
+      "code": "P106",
+      "type": "Semantic_Type",
+      "value": "Neoplastic Process"
+    },
+    {
+      "code": "P207",
+      "type": "UMLS_CUI",
+      "value": "C2212006"
+    }
+  ],
+  "children": [
+    {
+      "code": "C40439",
+      "name": "Ovarian Small Cell Carcinoma, Hypercalcemic Type",
+      "leaf": false
+    },
+    {
+      "code": "C40440",
+      "name": "Ovarian Small Cell Carcinoma, Pulmonary-Type",
+      "leaf": true
+    }
+  ],
+  "parents": [
+    {
+      "code": "C4908",
+      "name": "Ovarian Carcinoma"
+    }
+  ],
+  "associations": [
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C165258",
+      "relatedName": "Cellosaurus Disease Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C118168",
+      "relatedName": "CTRP Disease Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C116977",
+      "relatedName": "CTRP Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C126659",
+      "relatedName": "NCIt Neoplasm Core Terminology"
+    }
+  ],
+  "roles": [
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C34333",
+      "relatedName": "Abdominal Mass"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C26682",
+      "relatedName": "Abdominal Pain"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C137974",
+      "relatedName": "Adnexa"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C36122",
+      "relatedName": "Benign Cellular Infiltrate"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C54172",
+      "relatedName": "Carcinomatous Component Present"
+    },
+    {
+      "type": "Disease_May_Have_Associated_Disease",
+      "relatedCode": "C7558",
+      "relatedName": "Endometrial Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C12578",
+      "relatedName": "Epithelial Cell"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C53596",
+      "relatedName": "Epithelial Component Present"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C45714",
+      "relatedName": "Epithelial Tissue"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12402",
+      "relatedName": "Female Reproductive System"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12402",
+      "relatedName": "Female Reproductive System"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12810",
+      "relatedName": "Genitourinary System"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12810",
+      "relatedName": "Genitourinary System"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C36117",
+      "relatedName": "Invasive Lesion"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12917",
+      "relatedName": "Malignant Cell"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C36115",
+      "relatedName": "Malignant Cellular Infiltrate"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36779",
+      "relatedName": "Malignant Epithelial Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36795",
+      "relatedName": "Malignant Epithelial Small Cell"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C37153",
+      "relatedName": "Malignant Stromal Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12922",
+      "relatedName": "Neoplastic Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36753",
+      "relatedName": "Neoplastic Epithelial Cell"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C36937",
+      "relatedName": "Neoplastic Smooth Muscle Cell"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C61518",
+      "relatedName": "Ovarian Surface Epithelium"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12404",
+      "relatedName": "Ovary"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12404",
+      "relatedName": "Ovary"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C2885",
+      "relatedName": "Peritoneal Effusion"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12841",
+      "relatedName": "Reproductive System"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C35954",
+      "relatedName": "Stromal Invasion"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C38328",
+      "relatedName": "Unfavorable Clinical Outcome"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12321",
+      "relatedName": "Uterine Adnexa"
+    }
+  ],
+  "history": [
+    {
+      "code": "C27390",
+      "action": "create",
+      "date": "2003-08-12"
+    },
+    {
+      "code": "C27390",
+      "action": "modify",
+      "date": "2003-12-30"
+    },
+    {
+      "code": "C27390",
+      "action": "modify",
+      "date": "2006-05-26"
+    },
+    {
+      "code": "C27390",
+      "action": "modify",
+      "date": "2006-07-28"
+    },
+    {
+      "code": "C27390",
+      "action": "modify",
+      "date": "2009-11-23"
+    },
+    {
+      "code": "C27390",
+      "action": "modify",
+      "date": "2011-06-20"
+    },
+    {
+      "code": "C27390",
+      "action": "modify",
+      "date": "2011-09-26"
+    },
+    {
+      "code": "C27390",
+      "action": "modify",
+      "date": "2011-12-05"
+    },
+    {
+      "code": "C27390",
+      "action": "modify",
+      "date": "2014-02-03"
+    },
+    {
+      "code": "C27390",
+      "action": "modify",
+      "date": "2016-04-25"
+    },
+    {
+      "code": "C27390",
+      "action": "modify",
+      "date": "2017-07-31"
+    },
+    {
+      "code": "C27390",
+      "action": "modify",
+      "date": "2018-07-30"
+    },
+    {
+      "code": "C27390",
+      "action": "modify",
+      "date": "2018-08-27"
+    },
+    {
+      "code": "C27390",
+      "action": "modify",
+      "date": "2018-08-27"
+    },
+    {
+      "code": "C27390",
+      "action": "modify",
+      "date": "2019-04-29"
+    },
+    {
+      "code": "C27390",
+      "action": "modify",
+      "date": "2019-10-28"
+    },
+    {
+      "code": "C27390",
+      "action": "modify",
+      "date": "2023-02-27"
+    },
+    {
+      "code": "C27390",
+      "action": "modify",
+      "date": "2025-03-31"
+    }
+  ]
+}

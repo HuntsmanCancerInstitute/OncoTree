@@ -1,0 +1,2156 @@
+{
+  "code": "C3242",
+  "name": "Multiple Myeloma",
+  "terminology": "ncit",
+  "version": "25.11d",
+  "conceptStatus": "DEFAULT",
+  "leaf": false,
+  "active": true,
+  "synonyms": [
+    {
+      "name": "Plasma Cell Myeloma",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "caDSR"
+    },
+    {
+      "name": "Multiple Myeloma",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "CDISC"
+    },
+    {
+      "name": "Myeloma",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "CDISC"
+    },
+    {
+      "name": "MYELOMA, PLASMA CELL, MALIGNANT",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "CDISC"
+    },
+    {
+      "name": "Plasma Cell Myeloma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "Cellosaurus"
+    },
+    {
+      "name": "Multiple Myeloma",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "CPTAC"
+    },
+    {
+      "name": "Plasma Cell Myeloma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "CPTAC"
+    },
+    {
+      "name": "Myeloma, NOS",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "CTEP",
+      "code": "10028566",
+      "subSource": "SDC"
+    },
+    {
+      "name": "Multiple Myeloma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "CTRP"
+    },
+    {
+      "name": "Multiple Myeloma/Plasma Cell Myeloma",
+      "termType": "DN",
+      "type": "FULL_SYN",
+      "source": "CTRP"
+    },
+    {
+      "name": "Plasma Cell Myeloma",
+      "termType": "DN",
+      "type": "FULL_SYN",
+      "source": "CTRP"
+    },
+    {
+      "name": "Plasma Cell Myeloma",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "CTRP"
+    },
+    {
+      "name": "Multiple myeloma",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "GDC"
+    },
+    {
+      "name": "Multiple Myeloma",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "GDC"
+    },
+    {
+      "name": "Myeloma, NOS",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "GDC"
+    },
+    {
+      "name": "Myelomatosis",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "GDC"
+    },
+    {
+      "name": "Plasma cell myeloma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "GDC"
+    },
+    {
+      "name": "Kahler disease",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NCI-GLOSS",
+      "code": "CDR0000411381"
+    },
+    {
+      "name": "multiple myeloma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NCI-GLOSS",
+      "code": "CDR0000045793"
+    },
+    {
+      "name": "myeloma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NCI-GLOSS",
+      "code": "CDR0000045795"
+    },
+    {
+      "name": "myelomatosis",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NCI-GLOSS",
+      "code": "CDR0000411383"
+    },
+    {
+      "name": "plasma cell myeloma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NCI-GLOSS",
+      "code": "CDR0000411384"
+    },
+    {
+      "name": "Multiple Myeloma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Multiple Myeloma/Plasma Cell Myeloma",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Myeloma",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Plasma Cell Myeloma",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Plasma Cell Myeloma/Multiple Myeloma",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Multiple Myeloma",
+      "type": "Display_Name"
+    },
+    {
+      "name": "Plasma Cell Myeloma",
+      "type": "Display_Name"
+    },
+    {
+      "name": "Multiple Myeloma",
+      "type": "Preferred_Name"
+    }
+  ],
+  "definitions": [
+    {
+      "definition": "A bone marrow-based plasma cell neoplasm characterized by a serum monoclonal protein and skeletal destruction with osteolytic lesions, pathological fractures, bone pain, hypercalcemia, and anemia.  Clinical variants include non-secretory myeloma, smoldering myeloma, indolent myeloma, and plasma cell leukemia. (WHO, 2001)",
+      "type": "DEFINITION",
+      "source": "NCI"
+    },
+    {
+      "definition": "A malignant neoplasm of the bone marrow composed of plasma cells.",
+      "type": "ALT_DEFINITION",
+      "source": "CDISC"
+    },
+    {
+      "definition": "A type of cancer that begins in plasma cells (white blood cells that produce antibodies).",
+      "type": "ALT_DEFINITION",
+      "source": "NCI-GLOSS"
+    }
+  ],
+  "properties": [
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "CDISC"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "Cellosaurus"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "CPTAC"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "CTEP"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "CTRP"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "GDC"
+    },
+    {
+      "code": "P334",
+      "type": "ICD-O-3_Code",
+      "value": "9732/3"
+    },
+    {
+      "code": "P366",
+      "type": "Legacy Concept Name",
+      "value": "Plasma_Cell_Myeloma"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "9732/3"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "Multiple Myeloma"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "Multiple myeloma"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "Multiple myeloma and immunoproliferative neoplasms"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "Multiple myeloma not having achieved remission"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "Multiple myeloma without mention of having achieved remission"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "Myeloma, NOS"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "Myelomatosis"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "Plasma cell myeloma"
+    },
+    {
+      "code": "P363",
+      "type": "Neoplastic_Status",
+      "value": "Malignant"
+    },
+    {
+      "code": "P106",
+      "type": "Semantic_Type",
+      "value": "Neoplastic Process"
+    },
+    {
+      "code": "P207",
+      "type": "UMLS_CUI",
+      "value": "C0026764"
+    }
+  ],
+  "children": [
+    {
+      "code": "C185149",
+      "name": "Extramedullary Disease in Multiple Myeloma",
+      "leaf": false
+    },
+    {
+      "code": "C139009",
+      "name": "Multiple Myeloma by ISS Stage",
+      "leaf": false
+    },
+    {
+      "code": "C141393",
+      "name": "Multiple Myeloma by RISS Stage",
+      "leaf": false
+    },
+    {
+      "code": "C139008",
+      "name": "Multiple Myeloma Myeloma by DS Stage",
+      "leaf": false
+    },
+    {
+      "code": "C7242",
+      "name": "Multiple Myeloma Post-Transplant Lymphoproliferative Disorder",
+      "leaf": true
+    },
+    {
+      "code": "C199392",
+      "name": "Multiple Myeloma with Recurrent Genetic Abnormalities",
+      "leaf": false
+    },
+    {
+      "code": "C199418",
+      "name": "Multiple Myeloma, Not Otherwise Specified",
+      "leaf": true
+    },
+    {
+      "code": "C4734",
+      "name": "Non-Secretory Multiple Myeloma",
+      "leaf": true
+    },
+    {
+      "code": "C7765",
+      "name": "Osteosclerotic Multiple Myeloma",
+      "leaf": true
+    },
+    {
+      "code": "C7025",
+      "name": "Recurrent Multiple Myeloma",
+      "leaf": true
+    },
+    {
+      "code": "C7024",
+      "name": "Refractory Multiple Myeloma",
+      "leaf": false
+    },
+    {
+      "code": "C7149",
+      "name": "Smoldering Multiple Myeloma",
+      "leaf": true
+    }
+  ],
+  "parents": [
+    {
+      "code": "C188021",
+      "name": "B-Cell Malignant Neoplasm"
+    },
+    {
+      "code": "C4665",
+      "name": "Plasma Cell Neoplasm"
+    }
+  ],
+  "associations": [
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C77526",
+      "relatedName": "CDISC SEND Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C88025",
+      "relatedName": "CDISC SEND Tumor Findings Results Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C165258",
+      "relatedName": "Cellosaurus Disease Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C61410",
+      "relatedName": "Clinical Data Interchange Standards Consortium Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C138188",
+      "relatedName": "Clinical Trials Search-Application Programming Interface Disease Category Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C158034",
+      "relatedName": "CPTAC Causes of Death Codelist"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C158520",
+      "relatedName": "CPTAC Codelists Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C158035",
+      "relatedName": "CPTAC Medical Conditions Codelist"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C156966",
+      "relatedName": "CPTAC Neoplasms Codelist"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C156952",
+      "relatedName": "CPTAC Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C118168",
+      "relatedName": "CTRP Disease Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C116977",
+      "relatedName": "CTRP Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C138190",
+      "relatedName": "CTS-API Disease Main Type Terminology"
+    },
+    {
+      "type": "Is_Value_For_GDC_Property",
+      "relatedCode": "C178243",
+      "relatedName": "Family Cancer History Relative Primary Diagnosis Question"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C157711",
+      "relatedName": "GDC Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C177537",
+      "relatedName": "GDC Value Terminology"
+    },
+    {
+      "type": "Is_Value_For_GDC_Property",
+      "relatedCode": "C176985",
+      "relatedName": "Histology ICD-O Morphology Code"
+    },
+    {
+      "type": "Is_Value_For_GDC_Property",
+      "relatedCode": "C177621",
+      "relatedName": "ICD-O-3 Morphology Term Diagnosis Question"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168658",
+      "relatedName": "Mapped ICDO3.1 Morphology PT Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168657",
+      "relatedName": "Mapped ICDO3.1 Morphology Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168655",
+      "relatedName": "Mapped ICDO3.1 Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168662",
+      "relatedName": "Mapped ICDO3.2 Morphology PT Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168661",
+      "relatedName": "Mapped ICDO3.2 Morphology Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168656",
+      "relatedName": "Mapped ICDO3.2 Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C103130",
+      "relatedName": "NCI CTEP SDC Myeloma Sub-Category Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C102905",
+      "relatedName": "NCI CTEP Simplified Disease Classification Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C126659",
+      "relatedName": "NCIt Neoplasm Core Terminology"
+    }
+  ],
+  "inverseAssociations": [
+    {
+      "type": "Has_GDC_Value",
+      "relatedCode": "C178243",
+      "relatedName": "Family Cancer History Relative Primary Diagnosis Question"
+    },
+    {
+      "type": "Has_GDC_Value",
+      "relatedCode": "C176985",
+      "relatedName": "Histology ICD-O Morphology Code"
+    },
+    {
+      "type": "Has_GDC_Value",
+      "relatedCode": "C177621",
+      "relatedName": "ICD-O-3 Morphology Term Diagnosis Question"
+    }
+  ],
+  "roles": [
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C159854",
+      "relatedName": "Aberrant Clonal Plasma Cell Population"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36725",
+      "relatedName": "Abnormal Lymphocyte"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C12474",
+      "relatedName": "B-Lymphocyte"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C36122",
+      "relatedName": "Benign Cellular Infiltrate"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C41032",
+      "relatedName": "Bone Marrow-Homing Plasma Cell"
+    },
+    {
+      "type": "Disease_Has_Molecular_Abnormality",
+      "relatedCode": "C36443",
+      "relatedName": "Clonal Immunoglobulin Gene Rearrangement"
+    },
+    {
+      "type": "Disease_Has_Molecular_Abnormality",
+      "relatedCode": "C36443",
+      "relatedName": "Clonal Immunoglobulin Gene Rearrangement"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C41165",
+      "relatedName": "Hematopoietic and Lymphatic System"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C41165",
+      "relatedName": "Hematopoietic and Lymphatic System"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C32725",
+      "relatedName": "Hematopoietic and Lymphoid Cell"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C41168",
+      "relatedName": "Hematopoietic and Lymphoid Tissue"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12909",
+      "relatedName": "Hematopoietic System"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C41039",
+      "relatedName": "Localized Lesion"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12746",
+      "relatedName": "Lymphatic System"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C12535",
+      "relatedName": "Lymphocyte"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C13049",
+      "relatedName": "Lymphoid Tissue"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12917",
+      "relatedName": "Malignant Cell"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C36115",
+      "relatedName": "Malignant Cellular Infiltrate"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C33058",
+      "relatedName": "Mature B-Lymphocyte"
+    },
+    {
+      "type": "Disease_Excludes_Normal_Cell_Origin",
+      "relatedCode": "C12549",
+      "relatedName": "Myeloid Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C38640",
+      "relatedName": "Neoplastic B-Lymphocyte"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12922",
+      "relatedName": "Neoplastic Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C37060",
+      "relatedName": "Neoplastic Hematopoietic and Lymphoid Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36988",
+      "relatedName": "Neoplastic Lymphocyte"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C37077",
+      "relatedName": "Neoplastic Plasma Cell"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C41022",
+      "relatedName": "Neoplastic Plasma Cells Present in Bone Marrow"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C39566",
+      "relatedName": "Neoplastic T-Lymphocyte and Neoplastic Natural Killer Cell"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C12486",
+      "relatedName": "Plasma Cell"
+    },
+    {
+      "type": "Disease_Excludes_Normal_Cell_Origin",
+      "relatedCode": "C33931",
+      "relatedName": "Precursor B-Lymphoblast"
+    }
+  ],
+  "inverseRoles": [
+    {
+      "type": "Disease_May_Have_Associated_Disease",
+      "relatedCode": "C158962",
+      "relatedName": "AH Amyloidosis"
+    },
+    {
+      "type": "Disease_May_Have_Associated_Disease",
+      "relatedCode": "C158964",
+      "relatedName": "AHL Amyloidosis"
+    },
+    {
+      "type": "Disease_May_Have_Associated_Disease",
+      "relatedCode": "C158963",
+      "relatedName": "AL Amyloidosis"
+    },
+    {
+      "type": "Regimen_Has_Accepted_Use_For_Disease",
+      "relatedCode": "C223055",
+      "relatedName": "Belantamab Mafodotin/Bortezomib/Dexamethasone Regimen"
+    },
+    {
+      "type": "Regimen_Has_Accepted_Use_For_Disease",
+      "relatedCode": "C136261",
+      "relatedName": "Bendamustine/Bortezomib/Dexamethasone Regimen"
+    },
+    {
+      "type": "Regimen_Has_Accepted_Use_For_Disease",
+      "relatedCode": "C192830",
+      "relatedName": "Bendamustine/Carfilzomib/Dexamethasone Regimen"
+    },
+    {
+      "type": "Regimen_Has_Accepted_Use_For_Disease",
+      "relatedCode": "C136262",
+      "relatedName": "BLD Regimen"
+    },
+    {
+      "type": "Regimen_Has_Accepted_Use_For_Disease",
+      "relatedCode": "C201868",
+      "relatedName": "Bortezomib/Daratumumab and Hyaluronidase/Dexamethasone Regimen"
+    },
+    {
+      "type": "Regimen_Has_Accepted_Use_For_Disease",
+      "relatedCode": "C136275",
+      "relatedName": "Bortezomib/Dexamethasone/Panobinostat Regimen"
+    },
+    {
+      "type": "Regimen_Has_Accepted_Use_For_Disease",
+      "relatedCode": "C136263",
+      "relatedName": "Bortezomib/Liposomal Doxorubicin Regimen"
+    },
+    {
+      "type": "Regimen_Has_Accepted_Use_For_Disease",
+      "relatedCode": "C136265",
+      "relatedName": "Carfilzomib/Dexamethasone Regimen"
+    },
+    {
+      "type": "Regimen_Has_Accepted_Use_For_Disease",
+      "relatedCode": "C136276",
+      "relatedName": "Carfilzomib/Panobinostat Regimen"
+    },
+    {
+      "type": "Disease_May_Have_Associated_Disease",
+      "relatedCode": "C3179",
+      "relatedName": "Chronic Neutrophilic Leukemia"
+    },
+    {
+      "type": "Regimen_Has_Accepted_Use_For_Disease",
+      "relatedCode": "C136266",
+      "relatedName": "CRd Regimen"
+    },
+    {
+      "type": "Regimen_Has_Accepted_Use_For_Disease",
+      "relatedCode": "C9667",
+      "relatedName": "CVAD Regimen"
+    },
+    {
+      "type": "Regimen_Has_Accepted_Use_For_Disease",
+      "relatedCode": "C185943",
+      "relatedName": "Dara-KRd Regimen"
+    },
+    {
+      "type": "Regimen_Has_Accepted_Use_For_Disease",
+      "relatedCode": "C136268",
+      "relatedName": "Dara-Rd Regimen"
+    },
+    {
+      "type": "Regimen_Has_Accepted_Use_For_Disease",
+      "relatedCode": "C136267",
+      "relatedName": "Dara-Vd Regimen"
+    },
+    {
+      "type": "Regimen_Has_Accepted_Use_For_Disease",
+      "relatedCode": "C201879",
+      "relatedName": "Daratumumab and Hyaluronidase/Dexamethasone/Lenalidomide Regimen"
+    },
+    {
+      "type": "Regimen_Has_Accepted_Use_For_Disease",
+      "relatedCode": "C198002",
+      "relatedName": "Daratumumab/Hyaluronidase Regimen"
+    },
+    {
+      "type": "Regimen_Has_Accepted_Use_For_Disease",
+      "relatedCode": "C221016",
+      "relatedName": "Dexamethasone/Isatuximab/Lenalidomide Regimen"
+    },
+    {
+      "type": "Regimen_Has_Accepted_Use_For_Disease",
+      "relatedCode": "C136273",
+      "relatedName": "Dexamethasone/Ixazomib Regimen"
+    },
+    {
+      "type": "Regimen_Has_Accepted_Use_For_Disease",
+      "relatedCode": "C64732",
+      "relatedName": "Dexamethasone/Lenalidomide Regimen"
+    },
+    {
+      "type": "Regimen_Has_Accepted_Use_For_Disease",
+      "relatedCode": "C63500",
+      "relatedName": "Dexamethasone/Liposomal Doxorubicin/Vincristine Regimen"
+    },
+    {
+      "type": "Regimen_Has_Accepted_Use_For_Disease",
+      "relatedCode": "C136277",
+      "relatedName": "Dexamethasone/Pomalidomide Regimen"
+    },
+    {
+      "type": "Regimen_Has_Accepted_Use_For_Disease",
+      "relatedCode": "C63501",
+      "relatedName": "DT-PACE Regimen"
+    },
+    {
+      "type": "Regimen_Has_Accepted_Use_For_Disease",
+      "relatedCode": "C136270",
+      "relatedName": "Elo-Rd Regimen"
+    },
+    {
+      "type": "Regimen_Has_Accepted_Use_For_Disease",
+      "relatedCode": "C136271",
+      "relatedName": "Elo-Vd Regimen"
+    },
+    {
+      "type": "Disease_May_Have_Associated_Disease",
+      "relatedCode": "C7339",
+      "relatedName": "Heavy Chain Deposition Disease"
+    },
+    {
+      "type": "Disease_May_Have_Associated_Disease",
+      "relatedCode": "C7339",
+      "relatedName": "Heavy Chain Deposition Disease"
+    },
+    {
+      "type": "Disease_May_Have_Associated_Disease",
+      "relatedCode": "C189282",
+      "relatedName": "Hereditary Primary Localized Cutaneous Amyloidosis-1"
+    },
+    {
+      "type": "Regimen_Has_Accepted_Use_For_Disease",
+      "relatedCode": "C185951",
+      "relatedName": "Icd Regimen"
+    },
+    {
+      "type": "Gene_Associated_With_Disease",
+      "relatedCode": "C24504",
+      "relatedName": "IL6 Gene"
+    },
+    {
+      "type": "Gene_Associated_With_Disease",
+      "relatedCode": "C50940",
+      "relatedName": "IL6 wt Allele"
+    },
+    {
+      "type": "Gene_Product_Malfunction_Associated_With_Disease",
+      "relatedCode": "C20451",
+      "relatedName": "Interleukin-6"
+    },
+    {
+      "type": "Regimen_Has_Accepted_Use_For_Disease",
+      "relatedCode": "C136272",
+      "relatedName": "IRd Regimen"
+    },
+    {
+      "type": "Regimen_Has_Accepted_Use_For_Disease",
+      "relatedCode": "C185949",
+      "relatedName": "Isa-Kd Regimen"
+    },
+    {
+      "type": "Regimen_Has_Accepted_Use_For_Disease",
+      "relatedCode": "C136279",
+      "relatedName": "KPD Regimen"
+    },
+    {
+      "type": "Regimen_Has_Accepted_Use_For_Disease",
+      "relatedCode": "C136264",
+      "relatedName": "KRd Regimen"
+    },
+    {
+      "type": "Disease_May_Have_Associated_Disease",
+      "relatedCode": "C158965",
+      "relatedName": "Light and Heavy Chain Deposition Disease"
+    },
+    {
+      "type": "Disease_May_Have_Associated_Disease",
+      "relatedCode": "C158965",
+      "relatedName": "Light and Heavy Chain Deposition Disease"
+    },
+    {
+      "type": "Disease_May_Have_Associated_Disease",
+      "relatedCode": "C7727",
+      "relatedName": "Light Chain Deposition Disease"
+    },
+    {
+      "type": "Disease_May_Have_Associated_Disease",
+      "relatedCode": "C7727",
+      "relatedName": "Light Chain Deposition Disease"
+    },
+    {
+      "type": "Regimen_Has_Accepted_Use_For_Disease",
+      "relatedCode": "C136274",
+      "relatedName": "Low-dose Dexamethasone/Lenalidomide Regimen"
+    },
+    {
+      "type": "Regimen_Has_Accepted_Use_For_Disease",
+      "relatedCode": "C63497",
+      "relatedName": "Melphalan/Prednisone Regimen"
+    },
+    {
+      "type": "Gene_Associated_With_Disease",
+      "relatedCode": "C80749",
+      "relatedName": "MIR106B Gene"
+    },
+    {
+      "type": "Gene_Associated_With_Disease",
+      "relatedCode": "C82053",
+      "relatedName": "MIR106B wt Allele"
+    },
+    {
+      "type": "Gene_Associated_With_Disease",
+      "relatedCode": "C81745",
+      "relatedName": "MIR181A1 Gene"
+    },
+    {
+      "type": "Gene_Associated_With_Disease",
+      "relatedCode": "C82112",
+      "relatedName": "MIR181A1 wt Allele"
+    },
+    {
+      "type": "Gene_Associated_With_Disease",
+      "relatedCode": "C81746",
+      "relatedName": "MIR181A2 Gene"
+    },
+    {
+      "type": "Gene_Associated_With_Disease",
+      "relatedCode": "C82121",
+      "relatedName": "MIR181A2 wt Allele"
+    },
+    {
+      "type": "Gene_Associated_With_Disease",
+      "relatedCode": "C81770",
+      "relatedName": "MIR181B1 Gene"
+    },
+    {
+      "type": "Gene_Associated_With_Disease",
+      "relatedCode": "C82122",
+      "relatedName": "MIR181B1 wt Allele"
+    },
+    {
+      "type": "Gene_Associated_With_Disease",
+      "relatedCode": "C81771",
+      "relatedName": "MIR181B2 Gene"
+    },
+    {
+      "type": "Gene_Associated_With_Disease",
+      "relatedCode": "C82123",
+      "relatedName": "MIR181B2 wt Allele"
+    },
+    {
+      "type": "Gene_Associated_With_Disease",
+      "relatedCode": "C95034",
+      "relatedName": "MIR194-1 Gene"
+    },
+    {
+      "type": "Gene_Associated_With_Disease",
+      "relatedCode": "C95035",
+      "relatedName": "MIR194-1 wt Allele"
+    },
+    {
+      "type": "Gene_Associated_With_Disease",
+      "relatedCode": "C80717",
+      "relatedName": "MIR19A Gene"
+    },
+    {
+      "type": "Gene_Associated_With_Disease",
+      "relatedCode": "C81890",
+      "relatedName": "MIR19A wt Allele"
+    },
+    {
+      "type": "Gene_Associated_With_Disease",
+      "relatedCode": "C80737",
+      "relatedName": "MIR19B1 Gene"
+    },
+    {
+      "type": "Gene_Associated_With_Disease",
+      "relatedCode": "C81891",
+      "relatedName": "MIR19B1 wt Allele"
+    },
+    {
+      "type": "Gene_Associated_With_Disease",
+      "relatedCode": "C95036",
+      "relatedName": "MIR215 Gene"
+    },
+    {
+      "type": "Gene_Associated_With_Disease",
+      "relatedCode": "C95037",
+      "relatedName": "MIR215 wt Allele"
+    },
+    {
+      "type": "Gene_Associated_With_Disease",
+      "relatedCode": "C80743",
+      "relatedName": "MIR25 Gene"
+    },
+    {
+      "type": "Gene_Associated_With_Disease",
+      "relatedCode": "C81905",
+      "relatedName": "MIR25 wt Allele"
+    },
+    {
+      "type": "Gene_Associated_With_Disease",
+      "relatedCode": "C81763",
+      "relatedName": "MIR32 Gene"
+    },
+    {
+      "type": "Gene_Associated_With_Disease",
+      "relatedCode": "C81921",
+      "relatedName": "MIR32 wt Allele"
+    },
+    {
+      "type": "Gene_Associated_With_Disease",
+      "relatedCode": "C92467",
+      "relatedName": "MIR93 Gene"
+    },
+    {
+      "type": "Gene_Associated_With_Disease",
+      "relatedCode": "C92468",
+      "relatedName": "MIR93 wt Allele"
+    },
+    {
+      "type": "Disease_May_Have_Associated_Disease",
+      "relatedCode": "C7151",
+      "relatedName": "Monoclonal Immunoglobulin Deposition Disease"
+    },
+    {
+      "type": "Regimen_Has_Accepted_Use_For_Disease",
+      "relatedCode": "C64724",
+      "relatedName": "MPT Regimen"
+    },
+    {
+      "type": "Regimen_Has_Accepted_Use_For_Disease",
+      "relatedCode": "C136280",
+      "relatedName": "PCD Regimen"
+    },
+    {
+      "type": "Disease_Has_Associated_Disease",
+      "relatedCode": "C3180",
+      "relatedName": "Plasma Cell Leukemia"
+    },
+    {
+      "type": "Disease_Has_Associated_Disease",
+      "relatedCode": "C185156",
+      "relatedName": "Plasma Cell Myeloma-Induced Bone Disease"
+    },
+    {
+      "type": "Disease_May_Have_Associated_Disease",
+      "relatedCode": "C3819",
+      "relatedName": "Primary Amyloidosis"
+    },
+    {
+      "type": "Disease_May_Have_Associated_Disease",
+      "relatedCode": "C199391",
+      "relatedName": "Primary Cutaneous Amyloidosis"
+    },
+    {
+      "type": "Disease_May_Have_Associated_Disease",
+      "relatedCode": "C206389",
+      "relatedName": "Primary Renal Amyloidosis"
+    },
+    {
+      "type": "Disease_May_Have_Associated_Disease",
+      "relatedCode": "C8299",
+      "relatedName": "Primary Systemic Amyloidosis"
+    },
+    {
+      "type": "Regimen_Has_Accepted_Use_For_Disease",
+      "relatedCode": "C136278",
+      "relatedName": "PVD Regimen"
+    },
+    {
+      "type": "Regimen_Has_Accepted_Use_For_Disease",
+      "relatedCode": "C209365",
+      "relatedName": "RD-PACE Regimen"
+    },
+    {
+      "type": "Disease_May_Have_Associated_Disease",
+      "relatedCode": "C174054",
+      "relatedName": "Recurrent AL Amyloidosis"
+    },
+    {
+      "type": "Disease_Has_Associated_Disease",
+      "relatedCode": "C193433",
+      "relatedName": "Recurrent Plasma Cell Leukemia"
+    },
+    {
+      "type": "Disease_May_Have_Associated_Disease",
+      "relatedCode": "C133732",
+      "relatedName": "Recurrent Primary Amyloidosis"
+    },
+    {
+      "type": "Disease_May_Have_Associated_Disease",
+      "relatedCode": "C174055",
+      "relatedName": "Refractory AL Amyloidosis"
+    },
+    {
+      "type": "Disease_Has_Associated_Disease",
+      "relatedCode": "C205632",
+      "relatedName": "Refractory Plasma Cell Leukemia"
+    },
+    {
+      "type": "Disease_May_Have_Associated_Disease",
+      "relatedCode": "C133731",
+      "relatedName": "Refractory Primary Amyloidosis"
+    },
+    {
+      "type": "Disease_May_Have_Associated_Disease",
+      "relatedCode": "C206388",
+      "relatedName": "Renal AL Amyloidosis"
+    },
+    {
+      "type": "Disease_Has_Associated_Disease",
+      "relatedCode": "C191432",
+      "relatedName": "Secondary Plasma Cell Leukemia"
+    },
+    {
+      "type": "Disease_Has_Associated_Disease",
+      "relatedCode": "C191432",
+      "relatedName": "Secondary Plasma Cell Leukemia"
+    },
+    {
+      "type": "Gene_Associated_With_Disease",
+      "relatedCode": "C24841",
+      "relatedName": "TACC3 Gene"
+    },
+    {
+      "type": "Gene_Associated_With_Disease",
+      "relatedCode": "C54541",
+      "relatedName": "TACC3 wt Allele"
+    },
+    {
+      "type": "Regimen_Has_Accepted_Use_For_Disease",
+      "relatedCode": "C63499",
+      "relatedName": "TD Regimen"
+    },
+    {
+      "type": "Regimen_Has_Accepted_Use_For_Disease",
+      "relatedCode": "C63498",
+      "relatedName": "VAD Regimen"
+    },
+    {
+      "type": "Regimen_Has_Accepted_Use_For_Disease",
+      "relatedCode": "C64837",
+      "relatedName": "VBMCP Regimen"
+    },
+    {
+      "type": "Regimen_Has_Accepted_Use_For_Disease",
+      "relatedCode": "C64731",
+      "relatedName": "VD Regimen"
+    },
+    {
+      "type": "Regimen_Has_Accepted_Use_For_Disease",
+      "relatedCode": "C64839",
+      "relatedName": "VMCP Alternating with VBAP Regimen"
+    },
+    {
+      "type": "Regimen_Has_Accepted_Use_For_Disease",
+      "relatedCode": "C64836",
+      "relatedName": "VMP Regimen"
+    },
+    {
+      "type": "Regimen_Has_Accepted_Use_For_Disease",
+      "relatedCode": "C136269",
+      "relatedName": "VTD-PACE Regimen"
+    },
+    {
+      "type": "Regimen_Has_Accepted_Use_For_Disease",
+      "relatedCode": "C185953",
+      "relatedName": "XPd Regimen"
+    }
+  ],
+  "history": [
+    {
+      "code": "C3242",
+      "action": "create",
+      "date": "2003-08-12"
+    },
+    {
+      "code": "C3242",
+      "action": "modify",
+      "date": "2003-10-31"
+    },
+    {
+      "code": "C3242",
+      "action": "modify",
+      "date": "2003-12-30"
+    },
+    {
+      "code": "C3242",
+      "action": "modify",
+      "date": "2004-03-30"
+    },
+    {
+      "code": "C3242",
+      "action": "modify",
+      "date": "2004-09-10"
+    },
+    {
+      "code": "C3242",
+      "action": "modify",
+      "date": "2004-11-01"
+    },
+    {
+      "code": "C3242",
+      "action": "modify",
+      "date": "2005-03-30"
+    },
+    {
+      "code": "C3242",
+      "action": "modify",
+      "date": "2006-01-03"
+    },
+    {
+      "code": "C3242",
+      "action": "modify",
+      "date": "2007-03-30"
+    },
+    {
+      "code": "C3242",
+      "action": "modify",
+      "date": "2007-05-25"
+    },
+    {
+      "code": "C3242",
+      "action": "modify",
+      "date": "2009-04-06"
+    },
+    {
+      "code": "C3242",
+      "action": "modify",
+      "date": "2009-11-23"
+    },
+    {
+      "code": "C3242",
+      "action": "modify",
+      "date": "2010-06-01"
+    },
+    {
+      "code": "C3242",
+      "action": "modify",
+      "date": "2010-11-01"
+    },
+    {
+      "code": "C3242",
+      "action": "modify",
+      "date": "2010-11-08"
+    },
+    {
+      "code": "C3242",
+      "action": "modify",
+      "date": "2010-11-15"
+    },
+    {
+      "code": "C3242",
+      "action": "modify",
+      "date": "2010-11-22"
+    },
+    {
+      "code": "C3242",
+      "action": "modify",
+      "date": "2010-11-29"
+    },
+    {
+      "code": "C3242",
+      "action": "modify",
+      "date": "2010-12-06"
+    },
+    {
+      "code": "C3242",
+      "action": "modify",
+      "date": "2010-12-13"
+    },
+    {
+      "code": "C3242",
+      "action": "modify",
+      "date": "2010-12-27"
+    },
+    {
+      "code": "C3242",
+      "action": "modify",
+      "date": "2011-01-03"
+    },
+    {
+      "code": "C3242",
+      "action": "modify",
+      "date": "2011-01-10"
+    },
+    {
+      "code": "C3242",
+      "action": "modify",
+      "date": "2011-01-17"
+    },
+    {
+      "code": "C3242",
+      "action": "modify",
+      "date": "2011-01-24"
+    },
+    {
+      "code": "C3242",
+      "action": "modify",
+      "date": "2011-01-31"
+    },
+    {
+      "code": "C3242",
+      "action": "modify",
+      "date": "2011-02-07"
+    },
+    {
+      "code": "C3242",
+      "action": "modify",
+      "date": "2011-04-11"
+    },
+    {
+      "code": "C3242",
+      "action": "modify",
+      "date": "2011-11-14"
+    },
+    {
+      "code": "C3242",
+      "action": "modify",
+      "date": "2011-11-21"
+    },
+    {
+      "code": "C3242",
+      "action": "modify",
+      "date": "2011-11-28"
+    },
+    {
+      "code": "C3242",
+      "action": "modify",
+      "date": "2011-12-05"
+    },
+    {
+      "code": "C3242",
+      "action": "modify",
+      "date": "2011-12-12"
+    },
+    {
+      "code": "C3242",
+      "action": "modify",
+      "date": "2011-12-19"
+    },
+    {
+      "code": "C3242",
+      "action": "modify",
+      "date": "2011-12-27"
+    },
+    {
+      "code": "C3242",
+      "action": "modify",
+      "date": "2012-01-09"
+    },
+    {
+      "code": "C3242",
+      "action": "modify",
+      "date": "2012-01-17"
+    },
+    {
+      "code": "C3242",
+      "action": "modify",
+      "date": "2012-01-23"
+    },
+    {
+      "code": "C3242",
+      "action": "modify",
+      "date": "2012-01-30"
+    },
+    {
+      "code": "C3242",
+      "action": "modify",
+      "date": "2012-02-06"
+    },
+    {
+      "code": "C3242",
+      "action": "modify",
+      "date": "2012-02-13"
+    },
+    {
+      "code": "C3242",
+      "action": "modify",
+      "date": "2012-02-21"
+    },
+    {
+      "code": "C3242",
+      "action": "modify",
+      "date": "2012-02-27"
+    },
+    {
+      "code": "C3242",
+      "action": "modify",
+      "date": "2012-03-05"
+    },
+    {
+      "code": "C3242",
+      "action": "modify",
+      "date": "2012-03-12"
+    },
+    {
+      "code": "C3242",
+      "action": "modify",
+      "date": "2012-03-19"
+    },
+    {
+      "code": "C3242",
+      "action": "modify",
+      "date": "2012-03-26"
+    },
+    {
+      "code": "C3242",
+      "action": "modify",
+      "date": "2012-04-02"
+    },
+    {
+      "code": "C3242",
+      "action": "modify",
+      "date": "2012-04-09"
+    },
+    {
+      "code": "C3242",
+      "action": "modify",
+      "date": "2012-04-16"
+    },
+    {
+      "code": "C3242",
+      "action": "modify",
+      "date": "2012-04-23"
+    },
+    {
+      "code": "C3242",
+      "action": "modify",
+      "date": "2012-04-30"
+    },
+    {
+      "code": "C3242",
+      "action": "modify",
+      "date": "2012-05-07"
+    },
+    {
+      "code": "C3242",
+      "action": "modify",
+      "date": "2012-05-14"
+    },
+    {
+      "code": "C3242",
+      "action": "modify",
+      "date": "2012-05-21"
+    },
+    {
+      "code": "C3242",
+      "action": "modify",
+      "date": "2012-05-29"
+    },
+    {
+      "code": "C3242",
+      "action": "modify",
+      "date": "2012-06-04"
+    },
+    {
+      "code": "C3242",
+      "action": "modify",
+      "date": "2012-06-11"
+    },
+    {
+      "code": "C3242",
+      "action": "modify",
+      "date": "2012-06-18"
+    },
+    {
+      "code": "C3242",
+      "action": "modify",
+      "date": "2012-06-18"
+    },
+    {
+      "code": "C3242",
+      "action": "modify",
+      "date": "2012-06-25"
+    },
+    {
+      "code": "C3242",
+      "action": "modify",
+      "date": "2012-07-03"
+    },
+    {
+      "code": "C3242",
+      "action": "modify",
+      "date": "2012-07-16"
+    },
+    {
+      "code": "C3242",
+      "action": "modify",
+      "date": "2012-07-23"
+    },
+    {
+      "code": "C3242",
+      "action": "modify",
+      "date": "2012-07-30"
+    },
+    {
+      "code": "C3242",
+      "action": "modify",
+      "date": "2012-08-06"
+    },
+    {
+      "code": "C3242",
+      "action": "modify",
+      "date": "2012-08-13"
+    },
+    {
+      "code": "C3242",
+      "action": "modify",
+      "date": "2012-08-20"
+    },
+    {
+      "code": "C3242",
+      "action": "modify",
+      "date": "2012-08-27"
+    },
+    {
+      "code": "C3242",
+      "action": "modify",
+      "date": "2012-09-04"
+    },
+    {
+      "code": "C3242",
+      "action": "modify",
+      "date": "2012-09-10"
+    },
+    {
+      "code": "C3242",
+      "action": "modify",
+      "date": "2012-09-17"
+    },
+    {
+      "code": "C3242",
+      "action": "modify",
+      "date": "2012-09-24"
+    },
+    {
+      "code": "C3242",
+      "action": "modify",
+      "date": "2012-10-01"
+    },
+    {
+      "code": "C3242",
+      "action": "modify",
+      "date": "2012-10-09"
+    },
+    {
+      "code": "C3242",
+      "action": "modify",
+      "date": "2012-10-15"
+    },
+    {
+      "code": "C3242",
+      "action": "modify",
+      "date": "2012-10-22"
+    },
+    {
+      "code": "C3242",
+      "action": "modify",
+      "date": "2012-10-31"
+    },
+    {
+      "code": "C3242",
+      "action": "modify",
+      "date": "2012-11-05"
+    },
+    {
+      "code": "C3242",
+      "action": "modify",
+      "date": "2012-11-13"
+    },
+    {
+      "code": "C3242",
+      "action": "modify",
+      "date": "2012-11-19"
+    },
+    {
+      "code": "C3242",
+      "action": "modify",
+      "date": "2012-11-26"
+    },
+    {
+      "code": "C3242",
+      "action": "modify",
+      "date": "2012-12-03"
+    },
+    {
+      "code": "C3242",
+      "action": "modify",
+      "date": "2012-12-10"
+    },
+    {
+      "code": "C3242",
+      "action": "modify",
+      "date": "2012-12-17"
+    },
+    {
+      "code": "C3242",
+      "action": "modify",
+      "date": "2012-12-28"
+    },
+    {
+      "code": "C3242",
+      "action": "modify",
+      "date": "2013-01-07"
+    },
+    {
+      "code": "C3242",
+      "action": "modify",
+      "date": "2013-01-14"
+    },
+    {
+      "code": "C3242",
+      "action": "modify",
+      "date": "2013-01-23"
+    },
+    {
+      "code": "C3242",
+      "action": "modify",
+      "date": "2013-02-04"
+    },
+    {
+      "code": "C3242",
+      "action": "modify",
+      "date": "2013-02-11"
+    },
+    {
+      "code": "C3242",
+      "action": "modify",
+      "date": "2013-02-19"
+    },
+    {
+      "code": "C3242",
+      "action": "modify",
+      "date": "2013-02-25"
+    },
+    {
+      "code": "C3242",
+      "action": "modify",
+      "date": "2013-03-04"
+    },
+    {
+      "code": "C3242",
+      "action": "modify",
+      "date": "2013-03-11"
+    },
+    {
+      "code": "C3242",
+      "action": "modify",
+      "date": "2013-03-18"
+    },
+    {
+      "code": "C3242",
+      "action": "modify",
+      "date": "2013-03-25"
+    },
+    {
+      "code": "C3242",
+      "action": "modify",
+      "date": "2013-04-01"
+    },
+    {
+      "code": "C3242",
+      "action": "modify",
+      "date": "2013-04-08"
+    },
+    {
+      "code": "C3242",
+      "action": "modify",
+      "date": "2013-04-15"
+    },
+    {
+      "code": "C3242",
+      "action": "modify",
+      "date": "2013-04-22"
+    },
+    {
+      "code": "C3242",
+      "action": "modify",
+      "date": "2013-04-29"
+    },
+    {
+      "code": "C3242",
+      "action": "modify",
+      "date": "2013-05-06"
+    },
+    {
+      "code": "C3242",
+      "action": "modify",
+      "date": "2013-05-13"
+    },
+    {
+      "code": "C3242",
+      "action": "modify",
+      "date": "2013-05-20"
+    },
+    {
+      "code": "C3242",
+      "action": "modify",
+      "date": "2013-05-28"
+    },
+    {
+      "code": "C3242",
+      "action": "modify",
+      "date": "2013-06-03"
+    },
+    {
+      "code": "C3242",
+      "action": "modify",
+      "date": "2013-06-10"
+    },
+    {
+      "code": "C3242",
+      "action": "modify",
+      "date": "2013-06-17"
+    },
+    {
+      "code": "C3242",
+      "action": "modify",
+      "date": "2013-06-24"
+    },
+    {
+      "code": "C3242",
+      "action": "modify",
+      "date": "2013-07-01"
+    },
+    {
+      "code": "C3242",
+      "action": "modify",
+      "date": "2013-07-08"
+    },
+    {
+      "code": "C3242",
+      "action": "modify",
+      "date": "2014-02-03"
+    },
+    {
+      "code": "C3242",
+      "action": "modify",
+      "date": "2014-08-11"
+    },
+    {
+      "code": "C3242",
+      "action": "modify",
+      "date": "2014-08-25"
+    },
+    {
+      "code": "C3242",
+      "action": "modify",
+      "date": "2014-09-22"
+    },
+    {
+      "code": "C3242",
+      "action": "modify",
+      "date": "2014-11-24"
+    },
+    {
+      "code": "C3242",
+      "action": "modify",
+      "date": "2014-12-01"
+    },
+    {
+      "code": "C3242",
+      "action": "modify",
+      "date": "2014-12-08"
+    },
+    {
+      "code": "C3242",
+      "action": "modify",
+      "date": "2014-12-15"
+    },
+    {
+      "code": "C3242",
+      "action": "modify",
+      "date": "2014-12-22"
+    },
+    {
+      "code": "C3242",
+      "action": "modify",
+      "date": "2014-12-29"
+    },
+    {
+      "code": "C3242",
+      "action": "modify",
+      "date": "2015-01-05"
+    },
+    {
+      "code": "C3242",
+      "action": "modify",
+      "date": "2015-01-12"
+    },
+    {
+      "code": "C3242",
+      "action": "modify",
+      "date": "2015-01-20"
+    },
+    {
+      "code": "C3242",
+      "action": "modify",
+      "date": "2015-01-26"
+    },
+    {
+      "code": "C3242",
+      "action": "modify",
+      "date": "2015-02-02"
+    },
+    {
+      "code": "C3242",
+      "action": "modify",
+      "date": "2015-02-09"
+    },
+    {
+      "code": "C3242",
+      "action": "modify",
+      "date": "2015-02-17"
+    },
+    {
+      "code": "C3242",
+      "action": "modify",
+      "date": "2015-02-23"
+    },
+    {
+      "code": "C3242",
+      "action": "modify",
+      "date": "2015-03-02"
+    },
+    {
+      "code": "C3242",
+      "action": "modify",
+      "date": "2015-03-09"
+    },
+    {
+      "code": "C3242",
+      "action": "modify",
+      "date": "2015-03-16"
+    },
+    {
+      "code": "C3242",
+      "action": "modify",
+      "date": "2015-03-23"
+    },
+    {
+      "code": "C3242",
+      "action": "modify",
+      "date": "2015-03-30"
+    },
+    {
+      "code": "C3242",
+      "action": "modify",
+      "date": "2015-04-06"
+    },
+    {
+      "code": "C3242",
+      "action": "modify",
+      "date": "2015-04-13"
+    },
+    {
+      "code": "C3242",
+      "action": "modify",
+      "date": "2015-04-20"
+    },
+    {
+      "code": "C3242",
+      "action": "modify",
+      "date": "2015-04-27"
+    },
+    {
+      "code": "C3242",
+      "action": "modify",
+      "date": "2015-05-04"
+    },
+    {
+      "code": "C3242",
+      "action": "modify",
+      "date": "2015-05-11"
+    },
+    {
+      "code": "C3242",
+      "action": "modify",
+      "date": "2015-05-18"
+    },
+    {
+      "code": "C3242",
+      "action": "modify",
+      "date": "2016-04-25"
+    },
+    {
+      "code": "C3242",
+      "action": "modify",
+      "date": "2016-08-22"
+    },
+    {
+      "code": "C3242",
+      "action": "modify",
+      "date": "2016-08-29"
+    },
+    {
+      "code": "C3242",
+      "action": "modify",
+      "date": "2016-09-20"
+    },
+    {
+      "code": "C3242",
+      "action": "modify",
+      "date": "2017-07-31"
+    },
+    {
+      "code": "C3242",
+      "action": "modify",
+      "date": "2017-09-26"
+    },
+    {
+      "code": "C3242",
+      "action": "modify",
+      "date": "2018-07-30"
+    },
+    {
+      "code": "C3242",
+      "action": "modify",
+      "date": "2018-08-27"
+    },
+    {
+      "code": "C3242",
+      "action": "modify",
+      "date": "2018-08-27"
+    },
+    {
+      "code": "C3242",
+      "action": "modify",
+      "date": "2018-09-24"
+    },
+    {
+      "code": "C3242",
+      "action": "modify",
+      "date": "2018-10-29"
+    },
+    {
+      "code": "C3242",
+      "action": "modify",
+      "date": "2018-10-29"
+    },
+    {
+      "code": "C3242",
+      "action": "modify",
+      "date": "2018-12-31"
+    },
+    {
+      "code": "C3242",
+      "action": "modify",
+      "date": "2019-03-25"
+    },
+    {
+      "code": "C3242",
+      "action": "modify",
+      "date": "2019-05-28"
+    },
+    {
+      "code": "C3242",
+      "action": "modify",
+      "date": "2019-09-30"
+    },
+    {
+      "code": "C3242",
+      "action": "modify",
+      "date": "2019-10-28"
+    },
+    {
+      "code": "C3242",
+      "action": "modify",
+      "date": "2019-11-25"
+    },
+    {
+      "code": "C3242",
+      "action": "modify",
+      "date": "2020-02-24"
+    },
+    {
+      "code": "C3242",
+      "action": "modify",
+      "date": "2020-04-27"
+    },
+    {
+      "code": "C3242",
+      "action": "modify",
+      "date": "2020-09-29"
+    },
+    {
+      "code": "C3242",
+      "action": "modify",
+      "date": "2021-02-22"
+    },
+    {
+      "code": "C3242",
+      "action": "modify",
+      "date": "2021-03-29"
+    },
+    {
+      "code": "C3242",
+      "action": "modify",
+      "date": "2021-11-29"
+    },
+    {
+      "code": "C3242",
+      "action": "modify",
+      "date": "2022-06-29"
+    },
+    {
+      "code": "C3242",
+      "action": "modify",
+      "date": "2022-08-29"
+    },
+    {
+      "code": "C3242",
+      "action": "modify",
+      "date": "2023-02-27"
+    },
+    {
+      "code": "C3242",
+      "action": "modify",
+      "date": "2023-05-30"
+    },
+    {
+      "code": "C3242",
+      "action": "modify",
+      "date": "2023-08-28"
+    },
+    {
+      "code": "C3242",
+      "action": "modify",
+      "date": "2023-12-26"
+    },
+    {
+      "code": "C3242",
+      "action": "modify",
+      "date": "2024-06-24"
+    },
+    {
+      "code": "C3242",
+      "action": "modify",
+      "date": "2025-03-31"
+    }
+  ],
+  "maps": [
+    {
+      "type": "Related To",
+      "targetName": "9732/3",
+      "targetTermType": "PT",
+      "targetCode": "morphology",
+      "targetTerminology": "GDC"
+    },
+    {
+      "type": "Narrower Than",
+      "targetName": "Multiple myeloma and immunoproliferative neoplasms",
+      "targetTermType": "PT",
+      "targetCode": "203",
+      "targetTerminology": "ICD9CM 2014"
+    },
+    {
+      "type": "Related To",
+      "targetName": "Multiple myeloma not having achieved remission",
+      "targetTermType": "PT",
+      "targetCode": "C90.00",
+      "targetTerminology": "ICD10CM 2017"
+    },
+    {
+      "type": "Related To",
+      "targetName": "Multiple myeloma without mention of having achieved remission",
+      "targetTermType": "PT",
+      "targetCode": "203.00",
+      "targetTerminology": "ICD9CM 2014"
+    },
+    {
+      "type": "Has Synonym",
+      "targetName": "Multiple myeloma",
+      "targetTermType": "PT",
+      "targetCode": "203.0",
+      "targetTerminology": "ICD9CM 2014"
+    },
+    {
+      "type": "Related To",
+      "targetName": "Multiple myeloma",
+      "targetTermType": "PT",
+      "targetCode": "9732/3",
+      "targetTerminology": "ICDO3",
+      "targetTerminologyVersion": "3.1"
+    },
+    {
+      "type": "Related To",
+      "targetName": "Multiple myeloma",
+      "targetTermType": "SY",
+      "targetCode": "9732/3",
+      "targetTerminology": "ICDO3",
+      "targetTerminologyVersion": "3.2"
+    },
+    {
+      "type": "Has Synonym",
+      "targetName": "Multiple myeloma",
+      "targetTermType": "PT",
+      "targetCode": "C90.0",
+      "targetTerminology": "ICD10CM 2017"
+    },
+    {
+      "type": "Has Synonym",
+      "targetName": "Multiple myeloma",
+      "targetTermType": "PT",
+      "targetCode": "primary_diagnosis",
+      "targetTerminology": "GDC"
+    },
+    {
+      "type": "Has Synonym",
+      "targetName": "Multiple Myeloma",
+      "targetTermType": "PT",
+      "targetCode": "relationship_primary_diagnosis",
+      "targetTerminology": "GDC"
+    },
+    {
+      "type": "Has Synonym",
+      "targetName": "Myeloma, NOS",
+      "targetTermType": "PT",
+      "targetCode": "primary_diagnosis",
+      "targetTerminology": "GDC"
+    },
+    {
+      "type": "Has Synonym",
+      "targetName": "Myelomatosis",
+      "targetTermType": "PT",
+      "targetCode": "primary_diagnosis",
+      "targetTerminology": "GDC"
+    },
+    {
+      "type": "Related To",
+      "targetName": "Plasma cell myeloma",
+      "targetTermType": "PT",
+      "targetCode": "9732/3",
+      "targetTerminology": "ICDO3",
+      "targetTerminologyVersion": "3.2"
+    },
+    {
+      "type": "Has Synonym",
+      "targetName": "Plasma cell myeloma",
+      "targetTermType": "PT",
+      "targetCode": "primary_diagnosis",
+      "targetTerminology": "GDC"
+    }
+  ]
+}

@@ -1,0 +1,1225 @@
+{
+  "code": "C4049",
+  "name": "Anaplastic Ependymoma",
+  "terminology": "ncit",
+  "version": "25.11d",
+  "conceptStatus": "DEFAULT",
+  "leaf": false,
+  "active": true,
+  "synonyms": [
+    {
+      "name": "Anaplastic Ependymoma",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "caDSR"
+    },
+    {
+      "name": "Anaplastic Ependymoma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "CPTAC"
+    },
+    {
+      "name": "Ependymoma, anaplastic",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "GDC"
+    },
+    {
+      "name": "Anaplastic Ependymal Neoplasm",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Anaplastic Ependymal Tumor",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Anaplastic Ependymoma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Ependymoma with Anaplasia",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Malignant Ependymoma",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Undifferentiated Ependymal Neoplasm",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Undifferentiated Ependymal Tumor",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Undifferentiated Ependymoma",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "WHO Grade 3 Ependymal Neoplasm",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "WHO Grade 3 Ependymal Tumor",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "WHO Grade III Ependymal Neoplasm",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "WHO Grade III Ependymal Tumor",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Anaplastic Ependymoma",
+      "type": "Preferred_Name"
+    }
+  ],
+  "definitions": [
+    {
+      "definition": "A WHO grade 3 malignant glioma of ependymal origin with accelerated growth and an unfavorable clinical outcome, particularly in children. It is characterized by high mitotic activity, often accompanied by microvascular proliferation and pseudo-palisading necrosis. (Adapted from WHO)",
+      "type": "DEFINITION",
+      "source": "NCI"
+    }
+  ],
+  "properties": [
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "CPTAC"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "GDC"
+    },
+    {
+      "code": "P334",
+      "type": "ICD-O-3_Code",
+      "value": "9392/3"
+    },
+    {
+      "code": "P366",
+      "type": "Legacy Concept Name",
+      "value": "Anaplastic_Ependymoma"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "9392/3"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "Ependymoma, anaplastic"
+    },
+    {
+      "code": "P363",
+      "type": "Neoplastic_Status",
+      "value": "Malignant"
+    },
+    {
+      "code": "P106",
+      "type": "Semantic_Type",
+      "value": "Neoplastic Process"
+    },
+    {
+      "code": "P207",
+      "type": "UMLS_CUI",
+      "value": "C0280788"
+    }
+  ],
+  "children": [
+    {
+      "code": "C8269",
+      "name": "Adult Anaplastic Ependymoma",
+      "leaf": true
+    },
+    {
+      "code": "C124293",
+      "name": "Childhood Anaplastic Ependymoma",
+      "leaf": false
+    },
+    {
+      "code": "C160912",
+      "name": "Recurrent Anaplastic Ependymoma",
+      "leaf": false
+    },
+    {
+      "code": "C160913",
+      "name": "Refractory Anaplastic Ependymoma",
+      "leaf": true
+    }
+  ],
+  "parents": [
+    {
+      "code": "C36025",
+      "name": "Anaplastic Malignant Neoplasm"
+    },
+    {
+      "code": "C6770",
+      "name": "Ependymal Tumor"
+    },
+    {
+      "code": "C127816",
+      "name": "WHO Grade 3 Glioma"
+    }
+  ],
+  "associations": [
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C158520",
+      "relatedName": "CPTAC Codelists Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C156966",
+      "relatedName": "CPTAC Neoplasms Codelist"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C156952",
+      "relatedName": "CPTAC Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C157711",
+      "relatedName": "GDC Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C177537",
+      "relatedName": "GDC Value Terminology"
+    },
+    {
+      "type": "Is_Value_For_GDC_Property",
+      "relatedCode": "C176985",
+      "relatedName": "Histology ICD-O Morphology Code"
+    },
+    {
+      "type": "Is_Value_For_GDC_Property",
+      "relatedCode": "C177621",
+      "relatedName": "ICD-O-3 Morphology Term Diagnosis Question"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168658",
+      "relatedName": "Mapped ICDO3.1 Morphology PT Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168657",
+      "relatedName": "Mapped ICDO3.1 Morphology Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168655",
+      "relatedName": "Mapped ICDO3.1 Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168662",
+      "relatedName": "Mapped ICDO3.2 Morphology PT Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168661",
+      "relatedName": "Mapped ICDO3.2 Morphology Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168656",
+      "relatedName": "Mapped ICDO3.2 Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C126659",
+      "relatedName": "NCIt Neoplasm Core Terminology"
+    }
+  ],
+  "inverseAssociations": [
+    {
+      "type": "Has_GDC_Value",
+      "relatedCode": "C176985",
+      "relatedName": "Histology ICD-O Morphology Code"
+    },
+    {
+      "type": "Has_GDC_Value",
+      "relatedCode": "C177621",
+      "relatedName": "ICD-O-3 Morphology Term Diagnosis Question"
+    }
+  ],
+  "roles": [
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C36113",
+      "relatedName": "Anaplastic Lesion"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C36122",
+      "relatedName": "Benign Cellular Infiltrate"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12438",
+      "relatedName": "Central Nervous System"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12438",
+      "relatedName": "Central Nervous System"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C41623",
+      "relatedName": "Ependyma and Remnants of the Central Canal of the Spinal Cord"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C13003",
+      "relatedName": "Ependymal Cell"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C12615",
+      "relatedName": "Glial Cell"
+    },
+    {
+      "type": "Disease_Is_Grade",
+      "relatedCode": "C28079",
+      "relatedName": "Grade 3"
+    },
+    {
+      "type": "Disease_Is_Grade",
+      "relatedCode": "C28079",
+      "relatedName": "Grade 3"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C34661",
+      "relatedName": "Headache"
+    },
+    {
+      "type": "Disease_Is_Grade",
+      "relatedCode": "C14158",
+      "relatedName": "High Grade"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C35960",
+      "relatedName": "High Mitotic Activity"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C41428",
+      "relatedName": "Increased Cellularity Present"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C36105",
+      "relatedName": "Indolent Clinical Course"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12917",
+      "relatedName": "Malignant Cell"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C36115",
+      "relatedName": "Malignant Cellular Infiltrate"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C41455",
+      "relatedName": "Microvascular Proliferation"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C3258",
+      "relatedName": "Nausea"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12922",
+      "relatedName": "Neoplastic Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C37143",
+      "relatedName": "Neoplastic Ependymal Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C37126",
+      "relatedName": "Neoplastic Glial Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C41408",
+      "relatedName": "Neoplastic Neuroepithelial Cell and Neoplastic Perineural Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C37125",
+      "relatedName": "Neoplastic Neuroepithelial Cell"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C41406",
+      "relatedName": "Nerve Tissue, Neuroepithelial Tissue, and Nerve Sheaths"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12755",
+      "relatedName": "Nervous System"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C41410",
+      "relatedName": "Neuroepithelial Cell"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C41409",
+      "relatedName": "Neuroepithelial Tissue"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C41405",
+      "relatedName": "Neuron, Neuroepithelial Cell, and Supporting Cell of the Nervous System"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C41626",
+      "relatedName": "Perivascular Pseudorosette Formation"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C41611",
+      "relatedName": "Precise Histogenesis Unknown"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C41829",
+      "relatedName": "Pseudopalisading Necrosis"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C2962",
+      "relatedName": "Seizure"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C38328",
+      "relatedName": "Unfavorable Clinical Outcome"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C38328",
+      "relatedName": "Unfavorable Clinical Outcome"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C3442",
+      "relatedName": "Vomiting"
+    }
+  ],
+  "history": [
+    {
+      "code": "C4049",
+      "action": "create",
+      "date": "2003-08-12"
+    },
+    {
+      "code": "C4049",
+      "action": "modify",
+      "date": "2003-10-31"
+    },
+    {
+      "code": "C4049",
+      "action": "modify",
+      "date": "2003-12-30"
+    },
+    {
+      "code": "C4049",
+      "action": "modify",
+      "date": "2004-03-30"
+    },
+    {
+      "code": "C4049",
+      "action": "modify",
+      "date": "2004-05-28"
+    },
+    {
+      "code": "C4049",
+      "action": "modify",
+      "date": "2004-11-17"
+    },
+    {
+      "code": "C4049",
+      "action": "modify",
+      "date": "2006-09-29"
+    },
+    {
+      "code": "C4049",
+      "action": "modify",
+      "date": "2007-03-30"
+    },
+    {
+      "code": "C4049",
+      "action": "modify",
+      "date": "2007-04-30"
+    },
+    {
+      "code": "C4049",
+      "action": "modify",
+      "date": "2009-04-06"
+    },
+    {
+      "code": "C4049",
+      "action": "modify",
+      "date": "2009-11-02"
+    },
+    {
+      "code": "C4049",
+      "action": "modify",
+      "date": "2009-11-23"
+    },
+    {
+      "code": "C4049",
+      "action": "modify",
+      "date": "2010-05-17"
+    },
+    {
+      "code": "C4049",
+      "action": "modify",
+      "date": "2010-06-01"
+    },
+    {
+      "code": "C4049",
+      "action": "modify",
+      "date": "2010-10-12"
+    },
+    {
+      "code": "C4049",
+      "action": "modify",
+      "date": "2010-10-25"
+    },
+    {
+      "code": "C4049",
+      "action": "modify",
+      "date": "2011-04-11"
+    },
+    {
+      "code": "C4049",
+      "action": "modify",
+      "date": "2011-11-14"
+    },
+    {
+      "code": "C4049",
+      "action": "modify",
+      "date": "2011-11-21"
+    },
+    {
+      "code": "C4049",
+      "action": "modify",
+      "date": "2011-11-28"
+    },
+    {
+      "code": "C4049",
+      "action": "modify",
+      "date": "2011-12-05"
+    },
+    {
+      "code": "C4049",
+      "action": "modify",
+      "date": "2011-12-12"
+    },
+    {
+      "code": "C4049",
+      "action": "modify",
+      "date": "2011-12-19"
+    },
+    {
+      "code": "C4049",
+      "action": "modify",
+      "date": "2011-12-27"
+    },
+    {
+      "code": "C4049",
+      "action": "modify",
+      "date": "2012-01-09"
+    },
+    {
+      "code": "C4049",
+      "action": "modify",
+      "date": "2012-01-17"
+    },
+    {
+      "code": "C4049",
+      "action": "modify",
+      "date": "2012-01-23"
+    },
+    {
+      "code": "C4049",
+      "action": "modify",
+      "date": "2012-01-30"
+    },
+    {
+      "code": "C4049",
+      "action": "modify",
+      "date": "2012-02-06"
+    },
+    {
+      "code": "C4049",
+      "action": "modify",
+      "date": "2012-02-13"
+    },
+    {
+      "code": "C4049",
+      "action": "modify",
+      "date": "2012-02-21"
+    },
+    {
+      "code": "C4049",
+      "action": "modify",
+      "date": "2012-02-27"
+    },
+    {
+      "code": "C4049",
+      "action": "modify",
+      "date": "2012-03-05"
+    },
+    {
+      "code": "C4049",
+      "action": "modify",
+      "date": "2012-03-12"
+    },
+    {
+      "code": "C4049",
+      "action": "modify",
+      "date": "2012-03-19"
+    },
+    {
+      "code": "C4049",
+      "action": "modify",
+      "date": "2012-03-26"
+    },
+    {
+      "code": "C4049",
+      "action": "modify",
+      "date": "2012-04-02"
+    },
+    {
+      "code": "C4049",
+      "action": "modify",
+      "date": "2012-04-09"
+    },
+    {
+      "code": "C4049",
+      "action": "modify",
+      "date": "2012-04-16"
+    },
+    {
+      "code": "C4049",
+      "action": "modify",
+      "date": "2012-04-23"
+    },
+    {
+      "code": "C4049",
+      "action": "modify",
+      "date": "2012-04-30"
+    },
+    {
+      "code": "C4049",
+      "action": "modify",
+      "date": "2012-05-07"
+    },
+    {
+      "code": "C4049",
+      "action": "modify",
+      "date": "2012-05-14"
+    },
+    {
+      "code": "C4049",
+      "action": "modify",
+      "date": "2012-05-21"
+    },
+    {
+      "code": "C4049",
+      "action": "modify",
+      "date": "2012-05-29"
+    },
+    {
+      "code": "C4049",
+      "action": "modify",
+      "date": "2012-06-04"
+    },
+    {
+      "code": "C4049",
+      "action": "modify",
+      "date": "2012-06-11"
+    },
+    {
+      "code": "C4049",
+      "action": "modify",
+      "date": "2012-06-18"
+    },
+    {
+      "code": "C4049",
+      "action": "modify",
+      "date": "2012-06-18"
+    },
+    {
+      "code": "C4049",
+      "action": "modify",
+      "date": "2012-06-25"
+    },
+    {
+      "code": "C4049",
+      "action": "modify",
+      "date": "2012-07-03"
+    },
+    {
+      "code": "C4049",
+      "action": "modify",
+      "date": "2012-07-16"
+    },
+    {
+      "code": "C4049",
+      "action": "modify",
+      "date": "2012-07-23"
+    },
+    {
+      "code": "C4049",
+      "action": "modify",
+      "date": "2012-07-30"
+    },
+    {
+      "code": "C4049",
+      "action": "modify",
+      "date": "2012-08-06"
+    },
+    {
+      "code": "C4049",
+      "action": "modify",
+      "date": "2012-08-13"
+    },
+    {
+      "code": "C4049",
+      "action": "modify",
+      "date": "2012-08-20"
+    },
+    {
+      "code": "C4049",
+      "action": "modify",
+      "date": "2012-08-27"
+    },
+    {
+      "code": "C4049",
+      "action": "modify",
+      "date": "2012-09-04"
+    },
+    {
+      "code": "C4049",
+      "action": "modify",
+      "date": "2012-09-10"
+    },
+    {
+      "code": "C4049",
+      "action": "modify",
+      "date": "2012-09-17"
+    },
+    {
+      "code": "C4049",
+      "action": "modify",
+      "date": "2012-09-24"
+    },
+    {
+      "code": "C4049",
+      "action": "modify",
+      "date": "2012-10-01"
+    },
+    {
+      "code": "C4049",
+      "action": "modify",
+      "date": "2012-10-09"
+    },
+    {
+      "code": "C4049",
+      "action": "modify",
+      "date": "2012-10-15"
+    },
+    {
+      "code": "C4049",
+      "action": "modify",
+      "date": "2012-10-22"
+    },
+    {
+      "code": "C4049",
+      "action": "modify",
+      "date": "2012-10-31"
+    },
+    {
+      "code": "C4049",
+      "action": "modify",
+      "date": "2012-11-05"
+    },
+    {
+      "code": "C4049",
+      "action": "modify",
+      "date": "2012-11-13"
+    },
+    {
+      "code": "C4049",
+      "action": "modify",
+      "date": "2012-11-19"
+    },
+    {
+      "code": "C4049",
+      "action": "modify",
+      "date": "2012-11-26"
+    },
+    {
+      "code": "C4049",
+      "action": "modify",
+      "date": "2012-12-03"
+    },
+    {
+      "code": "C4049",
+      "action": "modify",
+      "date": "2012-12-10"
+    },
+    {
+      "code": "C4049",
+      "action": "modify",
+      "date": "2012-12-17"
+    },
+    {
+      "code": "C4049",
+      "action": "modify",
+      "date": "2012-12-28"
+    },
+    {
+      "code": "C4049",
+      "action": "modify",
+      "date": "2013-01-07"
+    },
+    {
+      "code": "C4049",
+      "action": "modify",
+      "date": "2013-01-14"
+    },
+    {
+      "code": "C4049",
+      "action": "modify",
+      "date": "2013-01-23"
+    },
+    {
+      "code": "C4049",
+      "action": "modify",
+      "date": "2013-02-04"
+    },
+    {
+      "code": "C4049",
+      "action": "modify",
+      "date": "2013-02-11"
+    },
+    {
+      "code": "C4049",
+      "action": "modify",
+      "date": "2013-02-19"
+    },
+    {
+      "code": "C4049",
+      "action": "modify",
+      "date": "2013-02-25"
+    },
+    {
+      "code": "C4049",
+      "action": "modify",
+      "date": "2013-03-04"
+    },
+    {
+      "code": "C4049",
+      "action": "modify",
+      "date": "2013-03-11"
+    },
+    {
+      "code": "C4049",
+      "action": "modify",
+      "date": "2013-03-18"
+    },
+    {
+      "code": "C4049",
+      "action": "modify",
+      "date": "2013-03-25"
+    },
+    {
+      "code": "C4049",
+      "action": "modify",
+      "date": "2013-04-01"
+    },
+    {
+      "code": "C4049",
+      "action": "modify",
+      "date": "2013-04-08"
+    },
+    {
+      "code": "C4049",
+      "action": "modify",
+      "date": "2013-04-15"
+    },
+    {
+      "code": "C4049",
+      "action": "modify",
+      "date": "2013-04-22"
+    },
+    {
+      "code": "C4049",
+      "action": "modify",
+      "date": "2013-04-29"
+    },
+    {
+      "code": "C4049",
+      "action": "modify",
+      "date": "2013-05-06"
+    },
+    {
+      "code": "C4049",
+      "action": "modify",
+      "date": "2013-05-13"
+    },
+    {
+      "code": "C4049",
+      "action": "modify",
+      "date": "2013-05-20"
+    },
+    {
+      "code": "C4049",
+      "action": "modify",
+      "date": "2013-05-28"
+    },
+    {
+      "code": "C4049",
+      "action": "modify",
+      "date": "2013-06-03"
+    },
+    {
+      "code": "C4049",
+      "action": "modify",
+      "date": "2013-06-10"
+    },
+    {
+      "code": "C4049",
+      "action": "modify",
+      "date": "2013-06-17"
+    },
+    {
+      "code": "C4049",
+      "action": "modify",
+      "date": "2013-06-24"
+    },
+    {
+      "code": "C4049",
+      "action": "modify",
+      "date": "2013-07-01"
+    },
+    {
+      "code": "C4049",
+      "action": "modify",
+      "date": "2013-07-08"
+    },
+    {
+      "code": "C4049",
+      "action": "modify",
+      "date": "2014-09-15"
+    },
+    {
+      "code": "C4049",
+      "action": "modify",
+      "date": "2014-11-24"
+    },
+    {
+      "code": "C4049",
+      "action": "modify",
+      "date": "2014-12-01"
+    },
+    {
+      "code": "C4049",
+      "action": "modify",
+      "date": "2014-12-08"
+    },
+    {
+      "code": "C4049",
+      "action": "modify",
+      "date": "2014-12-15"
+    },
+    {
+      "code": "C4049",
+      "action": "modify",
+      "date": "2014-12-22"
+    },
+    {
+      "code": "C4049",
+      "action": "modify",
+      "date": "2014-12-29"
+    },
+    {
+      "code": "C4049",
+      "action": "modify",
+      "date": "2015-01-05"
+    },
+    {
+      "code": "C4049",
+      "action": "modify",
+      "date": "2015-01-12"
+    },
+    {
+      "code": "C4049",
+      "action": "modify",
+      "date": "2015-01-20"
+    },
+    {
+      "code": "C4049",
+      "action": "modify",
+      "date": "2015-01-26"
+    },
+    {
+      "code": "C4049",
+      "action": "modify",
+      "date": "2015-02-02"
+    },
+    {
+      "code": "C4049",
+      "action": "modify",
+      "date": "2015-02-09"
+    },
+    {
+      "code": "C4049",
+      "action": "modify",
+      "date": "2015-02-17"
+    },
+    {
+      "code": "C4049",
+      "action": "modify",
+      "date": "2015-02-23"
+    },
+    {
+      "code": "C4049",
+      "action": "modify",
+      "date": "2015-03-02"
+    },
+    {
+      "code": "C4049",
+      "action": "modify",
+      "date": "2015-03-09"
+    },
+    {
+      "code": "C4049",
+      "action": "modify",
+      "date": "2015-03-16"
+    },
+    {
+      "code": "C4049",
+      "action": "modify",
+      "date": "2015-03-23"
+    },
+    {
+      "code": "C4049",
+      "action": "modify",
+      "date": "2015-03-30"
+    },
+    {
+      "code": "C4049",
+      "action": "modify",
+      "date": "2015-04-06"
+    },
+    {
+      "code": "C4049",
+      "action": "modify",
+      "date": "2015-04-13"
+    },
+    {
+      "code": "C4049",
+      "action": "modify",
+      "date": "2015-04-20"
+    },
+    {
+      "code": "C4049",
+      "action": "modify",
+      "date": "2015-04-27"
+    },
+    {
+      "code": "C4049",
+      "action": "modify",
+      "date": "2015-05-04"
+    },
+    {
+      "code": "C4049",
+      "action": "modify",
+      "date": "2015-05-11"
+    },
+    {
+      "code": "C4049",
+      "action": "modify",
+      "date": "2015-05-18"
+    },
+    {
+      "code": "C4049",
+      "action": "modify",
+      "date": "2016-04-25"
+    },
+    {
+      "code": "C4049",
+      "action": "modify",
+      "date": "2016-06-13"
+    },
+    {
+      "code": "C4049",
+      "action": "modify",
+      "date": "2016-08-22"
+    },
+    {
+      "code": "C4049",
+      "action": "modify",
+      "date": "2018-09-24"
+    },
+    {
+      "code": "C4049",
+      "action": "modify",
+      "date": "2018-10-29"
+    },
+    {
+      "code": "C4049",
+      "action": "modify",
+      "date": "2018-10-29"
+    },
+    {
+      "code": "C4049",
+      "action": "modify",
+      "date": "2018-12-31"
+    },
+    {
+      "code": "C4049",
+      "action": "modify",
+      "date": "2019-03-25"
+    },
+    {
+      "code": "C4049",
+      "action": "modify",
+      "date": "2019-05-28"
+    },
+    {
+      "code": "C4049",
+      "action": "modify",
+      "date": "2019-09-30"
+    },
+    {
+      "code": "C4049",
+      "action": "modify",
+      "date": "2019-11-25"
+    },
+    {
+      "code": "C4049",
+      "action": "modify",
+      "date": "2020-02-24"
+    },
+    {
+      "code": "C4049",
+      "action": "modify",
+      "date": "2020-04-27"
+    },
+    {
+      "code": "C4049",
+      "action": "modify",
+      "date": "2020-09-29"
+    },
+    {
+      "code": "C4049",
+      "action": "modify",
+      "date": "2021-02-22"
+    },
+    {
+      "code": "C4049",
+      "action": "modify",
+      "date": "2021-03-29"
+    },
+    {
+      "code": "C4049",
+      "action": "modify",
+      "date": "2022-01-31"
+    },
+    {
+      "code": "C4049",
+      "action": "modify",
+      "date": "2023-11-27"
+    },
+    {
+      "code": "C4049",
+      "action": "modify",
+      "date": "2023-12-26"
+    }
+  ],
+  "maps": [
+    {
+      "type": "Related To",
+      "targetName": "9392/3",
+      "targetTermType": "PT",
+      "targetCode": "morphology",
+      "targetTerminology": "GDC"
+    },
+    {
+      "type": "Related To",
+      "targetName": "Ependymoma, anaplastic",
+      "targetTermType": "PT",
+      "targetCode": "9392/3",
+      "targetTerminology": "ICDO3",
+      "targetTerminologyVersion": "3.2"
+    },
+    {
+      "type": "Related To",
+      "targetName": "Ependymoma, anaplastic",
+      "targetTermType": "PT",
+      "targetCode": "9392/3",
+      "targetTerminology": "ICDO3",
+      "targetTerminologyVersion": "3.1"
+    },
+    {
+      "type": "Has Synonym",
+      "targetName": "Ependymoma, anaplastic",
+      "targetTermType": "PT",
+      "targetCode": "primary_diagnosis",
+      "targetTerminology": "GDC"
+    }
+  ]
+}

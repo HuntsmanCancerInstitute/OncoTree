@@ -1,0 +1,442 @@
+{
+  "code": "C9131",
+  "name": "Breast Mucinous Carcinoma",
+  "terminology": "ncit",
+  "version": "25.11d",
+  "conceptStatus": "DEFAULT",
+  "leaf": false,
+  "active": true,
+  "synonyms": [
+    {
+      "name": "Mucinous Breast Cancer",
+      "termType": "DN",
+      "type": "FULL_SYN",
+      "source": "CTRP"
+    },
+    {
+      "name": "Breast Mucinous Carcinoma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Colloid Breast Carcinoma",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Colloid Carcinoma of Breast",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Colloid Carcinoma of the Breast",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Infiltrating Colloid Breast Carcinoma",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Infiltrating Mucinous Breast Carcinoma",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Invasive Colloid Breast Carcinoma",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Invasive Mucinous Breast Carcinoma",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Mucinous Breast Carcinoma",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Mucinous Carcinoma of Breast",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Mucinous Carcinoma of the Breast",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Mucinous Breast Carcinoma",
+      "type": "Display_Name"
+    },
+    {
+      "name": "Breast Mucinous Carcinoma",
+      "type": "Preferred_Name"
+    }
+  ],
+  "definitions": [
+    {
+      "definition": "An invasive adenocarcinoma of the breast characterized by the presence of islands of small and uniform cells, surrounded by large amounts of mucin.  Pure mucinous breast carcinomas generally have a favorable prognosis.",
+      "type": "DEFINITION",
+      "source": "NCI"
+    }
+  ],
+  "properties": [
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "CTRP"
+    },
+    {
+      "code": "P366",
+      "type": "Legacy Concept Name",
+      "value": "Mucinous_Breast_Carcinoma"
+    },
+    {
+      "code": "P363",
+      "type": "Neoplastic_Status",
+      "value": "Malignant"
+    },
+    {
+      "code": "P106",
+      "type": "Semantic_Type",
+      "value": "Neoplastic Process"
+    },
+    {
+      "code": "P207",
+      "type": "UMLS_CUI",
+      "value": "C1334807"
+    }
+  ],
+  "children": [
+    {
+      "code": "C40355",
+      "name": "Breast Columnar Cell Mucinous Carcinoma",
+      "leaf": true
+    },
+    {
+      "code": "C203342",
+      "name": "Recurrent Breast Mucinous Carcinoma",
+      "leaf": true
+    }
+  ],
+  "parents": [
+    {
+      "code": "C5214",
+      "name": "Breast Adenocarcinoma"
+    },
+    {
+      "code": "C9245",
+      "name": "Invasive Breast Carcinoma"
+    },
+    {
+      "code": "C26712",
+      "name": "Mucinous Adenocarcinoma"
+    }
+  ],
+  "associations": [
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C118168",
+      "relatedName": "CTRP Disease Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C116977",
+      "relatedName": "CTRP Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C126659",
+      "relatedName": "NCIt Neoplasm Core Terminology"
+    }
+  ],
+  "roles": [
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C37117",
+      "relatedName": "Adenocarcinoma Cell with Intracytoplasmic Mucin"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36773",
+      "relatedName": "Adenocarcinoma Cell"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C36122",
+      "relatedName": "Benign Cellular Infiltrate"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C3197",
+      "relatedName": "Breast Lump"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12971",
+      "relatedName": "Breast"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12971",
+      "relatedName": "Breast"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C54172",
+      "relatedName": "Carcinomatous Component Present"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C12578",
+      "relatedName": "Epithelial Cell"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C53596",
+      "relatedName": "Epithelial Component Present"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C45714",
+      "relatedName": "Epithelial Tissue"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C187404",
+      "relatedName": "Extracellular Mucin Present"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C36117",
+      "relatedName": "Invasive Lesion"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12917",
+      "relatedName": "Malignant Cell"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C36115",
+      "relatedName": "Malignant Cellular Infiltrate"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36779",
+      "relatedName": "Malignant Epithelial Cell"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C36771",
+      "relatedName": "Malignant Squamous Cell"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C37153",
+      "relatedName": "Malignant Stromal Cell"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C12937",
+      "relatedName": "Mammary Epithelium"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C62273",
+      "relatedName": "Mixed Neoplastic Glandular and Squamous Cell Population"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C38768",
+      "relatedName": "Mucinous Differentiation"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C35999",
+      "relatedName": "Mucoid Stroma Formation"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C35999",
+      "relatedName": "Mucoid Stroma Formation"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12922",
+      "relatedName": "Neoplastic Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C37116",
+      "relatedName": "Neoplastic Epithelial Cell with Intracytoplasmic Mucin"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36753",
+      "relatedName": "Neoplastic Epithelial Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36763",
+      "relatedName": "Neoplastic Glandular Cell"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C37114",
+      "relatedName": "Neoplastic Serous Epithelial Cell"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C36937",
+      "relatedName": "Neoplastic Smooth Muscle Cell"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C36760",
+      "relatedName": "Neoplastic Squamous Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C54417",
+      "relatedName": "Round Adenocarcinoma Cell"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C37115",
+      "relatedName": "Serous Adenocarcinoma Cell"
+    }
+  ],
+  "history": [
+    {
+      "code": "C9131",
+      "action": "create",
+      "date": "2003-08-12"
+    },
+    {
+      "code": "C9131",
+      "action": "modify",
+      "date": "2003-10-31"
+    },
+    {
+      "code": "C9131",
+      "action": "modify",
+      "date": "2003-12-30"
+    },
+    {
+      "code": "C9131",
+      "action": "modify",
+      "date": "2004-03-30"
+    },
+    {
+      "code": "C9131",
+      "action": "modify",
+      "date": "2004-09-10"
+    },
+    {
+      "code": "C9131",
+      "action": "modify",
+      "date": "2005-10-31"
+    },
+    {
+      "code": "C9131",
+      "action": "modify",
+      "date": "2006-04-28"
+    },
+    {
+      "code": "C9131",
+      "action": "modify",
+      "date": "2006-07-28"
+    },
+    {
+      "code": "C9131",
+      "action": "modify",
+      "date": "2007-10-29"
+    },
+    {
+      "code": "C9131",
+      "action": "modify",
+      "date": "2009-10-27"
+    },
+    {
+      "code": "C9131",
+      "action": "modify",
+      "date": "2009-11-23"
+    },
+    {
+      "code": "C9131",
+      "action": "modify",
+      "date": "2011-08-15"
+    },
+    {
+      "code": "C9131",
+      "action": "modify",
+      "date": "2014-08-04"
+    },
+    {
+      "code": "C9131",
+      "action": "modify",
+      "date": "2014-08-18"
+    },
+    {
+      "code": "C9131",
+      "action": "modify",
+      "date": "2014-09-22"
+    },
+    {
+      "code": "C9131",
+      "action": "modify",
+      "date": "2014-10-14"
+    },
+    {
+      "code": "C9131",
+      "action": "modify",
+      "date": "2014-10-27"
+    },
+    {
+      "code": "C9131",
+      "action": "modify",
+      "date": "2016-04-25"
+    },
+    {
+      "code": "C9131",
+      "action": "modify",
+      "date": "2018-07-30"
+    },
+    {
+      "code": "C9131",
+      "action": "modify",
+      "date": "2018-08-27"
+    },
+    {
+      "code": "C9131",
+      "action": "modify",
+      "date": "2018-08-27"
+    },
+    {
+      "code": "C9131",
+      "action": "modify",
+      "date": "2020-10-26"
+    },
+    {
+      "code": "C9131",
+      "action": "modify",
+      "date": "2020-11-30"
+    }
+  ]
+}

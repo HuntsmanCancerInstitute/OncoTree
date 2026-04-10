@@ -1,0 +1,461 @@
+{
+  "code": "C27273",
+  "name": "Poroma",
+  "terminology": "ncit",
+  "version": "25.11d",
+  "conceptStatus": "DEFAULT",
+  "leaf": false,
+  "active": true,
+  "synonyms": [
+    {
+      "name": "Poroid Tumor",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Poroma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Poroma",
+      "type": "Preferred_Name"
+    }
+  ],
+  "definitions": [
+    {
+      "definition": "A benign, well circumscribed adnexal neoplasm arising from the intraepidermal portion of the sweat gland duct. It usually presents as a solitary, dome-shaped papule, nodule, or plaque on acral sites. It is characterized by a proliferation of uniform basaloid cells in the dermis and is associated with the presence of focal ductal and cystic structures. Complete excision is curative.",
+      "type": "DEFINITION",
+      "source": "NCI"
+    }
+  ],
+  "properties": [
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "GDC"
+    },
+    {
+      "code": "P334",
+      "type": "ICD-O-3_Code",
+      "value": "8409/0"
+    },
+    {
+      "code": "P366",
+      "type": "Legacy Concept Name",
+      "value": "Poroma_Acrospiroma"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "8409/0"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "Poroma, NOS"
+    },
+    {
+      "code": "P363",
+      "type": "Neoplastic_Status",
+      "value": "Benign"
+    },
+    {
+      "code": "P106",
+      "type": "Semantic_Type",
+      "value": "Neoplastic Process"
+    },
+    {
+      "code": "P207",
+      "type": "UMLS_CUI",
+      "value": "C1533161"
+    }
+  ],
+  "children": [
+    {
+      "code": "C205463",
+      "name": "Apocrine Poroma",
+      "leaf": true
+    },
+    {
+      "code": "C43353",
+      "name": "Classic Poroma",
+      "leaf": true
+    },
+    {
+      "code": "C4473",
+      "name": "Dermal Duct Tumor",
+      "leaf": true
+    },
+    {
+      "code": "C205462",
+      "name": "Eccrine Poroma",
+      "leaf": false
+    },
+    {
+      "code": "C205475",
+      "name": "Hidroacanthoma Simplex",
+      "leaf": true
+    }
+  ],
+  "parents": [
+    {
+      "code": "C4879",
+      "name": "Benign Sweat Gland Neoplasm"
+    }
+  ],
+  "associations": [
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C157711",
+      "relatedName": "GDC Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C177537",
+      "relatedName": "GDC Value Terminology"
+    },
+    {
+      "type": "Is_Value_For_GDC_Property",
+      "relatedCode": "C176985",
+      "relatedName": "Histology ICD-O Morphology Code"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168662",
+      "relatedName": "Mapped ICDO3.2 Morphology PT Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168661",
+      "relatedName": "Mapped ICDO3.2 Morphology Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168656",
+      "relatedName": "Mapped ICDO3.2 Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C126659",
+      "relatedName": "NCIt Neoplasm Core Terminology"
+    }
+  ],
+  "inverseAssociations": [
+    {
+      "type": "Has_GDC_Value",
+      "relatedCode": "C176985",
+      "relatedName": "Histology ICD-O Morphology Code"
+    }
+  ],
+  "roles": [
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C62285",
+      "relatedName": "Adnexal Differentiation"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C137974",
+      "relatedName": "Adnexa"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C36122",
+      "relatedName": "Benign Cellular Infiltrate"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C36116",
+      "relatedName": "Borderline Lesion"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C39570",
+      "relatedName": "Cutaneous Involvement"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C4086",
+      "relatedName": "Dysplasia"
+    },
+    {
+      "type": "Disease_Excludes_Normal_Cell_Origin",
+      "relatedCode": "C41608",
+      "relatedName": "Endocrine-Stromal Cell"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C12578",
+      "relatedName": "Epithelial Cell"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C53596",
+      "relatedName": "Epithelial Component Present"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C45714",
+      "relatedName": "Epithelial Tissue"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12957",
+      "relatedName": "Exocrine System"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12907",
+      "relatedName": "Integumentary System"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C36117",
+      "relatedName": "Invasive Lesion"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C12917",
+      "relatedName": "Malignant Cell"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C36115",
+      "relatedName": "Malignant Cellular Infiltrate"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C36779",
+      "relatedName": "Malignant Epithelial Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12922",
+      "relatedName": "Neoplastic Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36753",
+      "relatedName": "Neoplastic Epithelial Cell"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C36937",
+      "relatedName": "Neoplastic Smooth Muscle Cell"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C39690",
+      "relatedName": "Papular Lesion"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C212121",
+      "relatedName": "Skin Adnexa"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C3373",
+      "relatedName": "Skin Nodule"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C39624",
+      "relatedName": "Skin Plaque"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12470",
+      "relatedName": "Skin"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12470",
+      "relatedName": "Skin"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C33712",
+      "relatedName": "Sweat Gland"
+    },
+    {
+      "type": "Disease_Mapped_To_Gene",
+      "relatedCode": "C205757",
+      "relatedName": "WWTR1/NUTM1 Fusion Gene"
+    },
+    {
+      "type": "Disease_Mapped_To_Gene",
+      "relatedCode": "C205495",
+      "relatedName": "YAP1/MAML2 Fusion Gene"
+    },
+    {
+      "type": "Disease_Mapped_To_Gene",
+      "relatedCode": "C205496",
+      "relatedName": "YAP1/NUTM1 Fusion Gene"
+    }
+  ],
+  "inverseRoles": [
+    {
+      "type": "Gene_Involved_In_Pathogenesis_Of_Disease",
+      "relatedCode": "C205757",
+      "relatedName": "WWTR1/NUTM1 Fusion Gene"
+    },
+    {
+      "type": "Gene_Involved_In_Pathogenesis_Of_Disease",
+      "relatedCode": "C205495",
+      "relatedName": "YAP1/MAML2 Fusion Gene"
+    },
+    {
+      "type": "Gene_Involved_In_Pathogenesis_Of_Disease",
+      "relatedCode": "C205496",
+      "relatedName": "YAP1/NUTM1 Fusion Gene"
+    }
+  ],
+  "history": [
+    {
+      "code": "C27273",
+      "action": "create",
+      "date": "2003-08-12"
+    },
+    {
+      "code": "C27273",
+      "action": "modify",
+      "date": "2003-10-31"
+    },
+    {
+      "code": "C27273",
+      "action": "modify",
+      "date": "2003-12-30"
+    },
+    {
+      "code": "C27273",
+      "action": "modify",
+      "date": "2004-03-30"
+    },
+    {
+      "code": "C27273",
+      "action": "modify",
+      "date": "2005-01-28"
+    },
+    {
+      "code": "C27273",
+      "action": "modify",
+      "date": "2005-04-29"
+    },
+    {
+      "code": "C27273",
+      "action": "modify",
+      "date": "2006-09-01"
+    },
+    {
+      "code": "C27273",
+      "action": "modify",
+      "date": "2006-09-29"
+    },
+    {
+      "code": "C27273",
+      "action": "modify",
+      "date": "2007-03-30"
+    },
+    {
+      "code": "C27273",
+      "action": "modify",
+      "date": "2007-04-30"
+    },
+    {
+      "code": "C27273",
+      "action": "modify",
+      "date": "2009-04-06"
+    },
+    {
+      "code": "C27273",
+      "action": "modify",
+      "date": "2009-11-02"
+    },
+    {
+      "code": "C27273",
+      "action": "modify",
+      "date": "2009-11-23"
+    },
+    {
+      "code": "C27273",
+      "action": "modify",
+      "date": "2014-02-03"
+    },
+    {
+      "code": "C27273",
+      "action": "modify",
+      "date": "2016-04-25"
+    },
+    {
+      "code": "C27273",
+      "action": "modify",
+      "date": "2018-09-24"
+    },
+    {
+      "code": "C27273",
+      "action": "modify",
+      "date": "2019-05-28"
+    },
+    {
+      "code": "C27273",
+      "action": "modify",
+      "date": "2019-09-30"
+    },
+    {
+      "code": "C27273",
+      "action": "modify",
+      "date": "2019-11-25"
+    },
+    {
+      "code": "C27273",
+      "action": "modify",
+      "date": "2020-02-24"
+    },
+    {
+      "code": "C27273",
+      "action": "modify",
+      "date": "2020-04-27"
+    },
+    {
+      "code": "C27273",
+      "action": "modify",
+      "date": "2021-02-22"
+    },
+    {
+      "code": "C27273",
+      "action": "modify",
+      "date": "2021-03-29"
+    },
+    {
+      "code": "C27273",
+      "action": "modify",
+      "date": "2024-04-29"
+    },
+    {
+      "code": "C27273",
+      "action": "modify",
+      "date": "2024-05-28"
+    }
+  ],
+  "maps": [
+    {
+      "type": "Related To",
+      "targetName": "8409/0",
+      "targetTermType": "PT",
+      "targetCode": "morphology",
+      "targetTerminology": "GDC"
+    },
+    {
+      "type": "Related To",
+      "targetName": "Poroma, NOS",
+      "targetTermType": "PT",
+      "targetCode": "8409/0",
+      "targetTerminology": "ICDO3",
+      "targetTerminologyVersion": "3.2"
+    }
+  ]
+}

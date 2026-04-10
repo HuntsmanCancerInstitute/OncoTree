@@ -1,0 +1,622 @@
+{
+  "code": "C42700",
+  "name": "Uterine Carcinosarcoma",
+  "terminology": "ncit",
+  "version": "25.11d",
+  "conceptStatus": "DEFAULT",
+  "leaf": false,
+  "active": true,
+  "synonyms": [
+    {
+      "name": "Uterine Carcinosarcoma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "Cellosaurus"
+    },
+    {
+      "name": "Carcinosarcoma of the uterus",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "CTEP",
+      "code": "10007508",
+      "subSource": "SDC"
+    },
+    {
+      "name": "Uterine Carcinosarcoma",
+      "termType": "DN",
+      "type": "FULL_SYN",
+      "source": "CTRP"
+    },
+    {
+      "name": "Carcinosarcoma of the Uterus",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Malignant Mixed Mesodermal (Mullerian) Tumor of the Uterus",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Malignant Mixed Mesodermal (Müllerian) Tumor of the Uterus",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Uterine Carcinosarcoma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Uterine Malignant Mixed Mesodermal (Mullerian) Tumor",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Uterine Malignant Mixed Mesodermal (Müllerian) Tumor",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Uterine Carcinosarcoma",
+      "type": "Display_Name"
+    },
+    {
+      "name": "Uterine Carcinosarcoma",
+      "type": "Preferred_Name"
+    }
+  ],
+  "definitions": [
+    {
+      "definition": "A usually aggressive malignant neoplasm arising from the uterine corpus and less often the cervix.  It is characterized by the presence of two components: a malignant epithelial component and a sarcomatous component.  In the uterine corpus the epithelial component is usually glandular whereas in the cervix is usually non-glandular.  Carcinosarcoma of the cervix, although it is aggressive, it may have a better prognosis compared to the uterine corpus carcinosarcoma.",
+      "type": "DEFINITION",
+      "source": "NCI"
+    }
+  ],
+  "properties": [
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "Cellosaurus"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "CTEP"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "CTRP"
+    },
+    {
+      "code": "P366",
+      "type": "Legacy Concept Name",
+      "value": "Uterine_Carcinosarcoma"
+    },
+    {
+      "code": "P363",
+      "type": "Neoplastic_Status",
+      "value": "Malignant"
+    },
+    {
+      "code": "P106",
+      "type": "Semantic_Type",
+      "value": "Neoplastic Process"
+    },
+    {
+      "code": "P207",
+      "type": "UMLS_CUI",
+      "value": "C0280630"
+    }
+  ],
+  "children": [
+    {
+      "code": "C36097",
+      "name": "Cervical Carcinosarcoma",
+      "leaf": true
+    },
+    {
+      "code": "C113239",
+      "name": "Uterine Carcinosarcoma, Heterologous Type",
+      "leaf": true
+    },
+    {
+      "code": "C113238",
+      "name": "Uterine Carcinosarcoma, Homologous Type",
+      "leaf": true
+    },
+    {
+      "code": "C9180",
+      "name": "Uterine Corpus Carcinosarcoma",
+      "leaf": false
+    }
+  ],
+  "parents": [
+    {
+      "code": "C8975",
+      "name": "Female Reproductive System Carcinosarcoma"
+    },
+    {
+      "code": "C3552",
+      "name": "Malignant Uterine Neoplasm"
+    }
+  ],
+  "associations": [
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C165258",
+      "relatedName": "Cellosaurus Disease Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C118168",
+      "relatedName": "CTRP Disease Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C116977",
+      "relatedName": "CTRP Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C103103",
+      "relatedName": "NCI CTEP SDC Uterine Cancer Sub-Category Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C102905",
+      "relatedName": "NCI CTEP Simplified Disease Classification Terminology"
+    }
+  ],
+  "roles": [
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36773",
+      "relatedName": "Adenocarcinoma Cell"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C36122",
+      "relatedName": "Benign Cellular Infiltrate"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C35907",
+      "relatedName": "Biphasic Pattern"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C54172",
+      "relatedName": "Carcinomatous Component Present"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C12508",
+      "relatedName": "Cell"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C12578",
+      "relatedName": "Epithelial Cell"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C53596",
+      "relatedName": "Epithelial Component Present"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C45714",
+      "relatedName": "Epithelial Tissue"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12402",
+      "relatedName": "Female Reproductive System"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12810",
+      "relatedName": "Genitourinary System"
+    },
+    {
+      "type": "Disease_Excludes_Normal_Cell_Origin",
+      "relatedCode": "C12615",
+      "relatedName": "Glial Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12917",
+      "relatedName": "Malignant Cell"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C36115",
+      "relatedName": "Malignant Cellular Infiltrate"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36779",
+      "relatedName": "Malignant Epithelial Cell"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C61539",
+      "relatedName": "Malignant Glandular Epithelium Resembling the Normal Endometrium Present"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C41610",
+      "relatedName": "Mixed Cellular Population"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12922",
+      "relatedName": "Neoplastic Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36753",
+      "relatedName": "Neoplastic Epithelial Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36763",
+      "relatedName": "Neoplastic Glandular Cell"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C61542",
+      "relatedName": "Neoplastic Glandular Epithelium Resembling the Normal Endometrium Present"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C37126",
+      "relatedName": "Neoplastic Glial Cell"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C36937",
+      "relatedName": "Neoplastic Smooth Muscle Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C37150",
+      "relatedName": "Neoplastic Stromal Cell"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12841",
+      "relatedName": "Reproductive System"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C54727",
+      "relatedName": "Sarcomatous Component Present"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C61611",
+      "relatedName": "Tissue of Mullerian Origin Present"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C12801",
+      "relatedName": "Tissue"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12405",
+      "relatedName": "Uterus"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12405",
+      "relatedName": "Uterus"
+    }
+  ],
+  "history": [
+    {
+      "code": "C42700",
+      "action": "create",
+      "date": "2004-12-30"
+    },
+    {
+      "code": "C42700",
+      "action": "modify",
+      "date": "2006-06-30"
+    },
+    {
+      "code": "C42700",
+      "action": "modify",
+      "date": "2006-07-28"
+    },
+    {
+      "code": "C42700",
+      "action": "modify",
+      "date": "2007-10-29"
+    },
+    {
+      "code": "C42700",
+      "action": "modify",
+      "date": "2009-11-23"
+    },
+    {
+      "code": "C42700",
+      "action": "modify",
+      "date": "2010-08-02"
+    },
+    {
+      "code": "C42700",
+      "action": "modify",
+      "date": "2010-11-08"
+    },
+    {
+      "code": "C42700",
+      "action": "modify",
+      "date": "2012-09-24"
+    },
+    {
+      "code": "C42700",
+      "action": "modify",
+      "date": "2012-10-01"
+    },
+    {
+      "code": "C42700",
+      "action": "modify",
+      "date": "2012-10-09"
+    },
+    {
+      "code": "C42700",
+      "action": "modify",
+      "date": "2012-10-15"
+    },
+    {
+      "code": "C42700",
+      "action": "modify",
+      "date": "2012-10-22"
+    },
+    {
+      "code": "C42700",
+      "action": "modify",
+      "date": "2012-10-31"
+    },
+    {
+      "code": "C42700",
+      "action": "modify",
+      "date": "2012-11-05"
+    },
+    {
+      "code": "C42700",
+      "action": "modify",
+      "date": "2012-11-13"
+    },
+    {
+      "code": "C42700",
+      "action": "modify",
+      "date": "2012-11-19"
+    },
+    {
+      "code": "C42700",
+      "action": "modify",
+      "date": "2012-11-26"
+    },
+    {
+      "code": "C42700",
+      "action": "modify",
+      "date": "2012-12-03"
+    },
+    {
+      "code": "C42700",
+      "action": "modify",
+      "date": "2012-12-10"
+    },
+    {
+      "code": "C42700",
+      "action": "modify",
+      "date": "2012-12-17"
+    },
+    {
+      "code": "C42700",
+      "action": "modify",
+      "date": "2012-12-28"
+    },
+    {
+      "code": "C42700",
+      "action": "modify",
+      "date": "2013-01-07"
+    },
+    {
+      "code": "C42700",
+      "action": "modify",
+      "date": "2013-01-14"
+    },
+    {
+      "code": "C42700",
+      "action": "modify",
+      "date": "2013-01-23"
+    },
+    {
+      "code": "C42700",
+      "action": "modify",
+      "date": "2013-02-04"
+    },
+    {
+      "code": "C42700",
+      "action": "modify",
+      "date": "2013-02-11"
+    },
+    {
+      "code": "C42700",
+      "action": "modify",
+      "date": "2013-02-19"
+    },
+    {
+      "code": "C42700",
+      "action": "modify",
+      "date": "2013-02-25"
+    },
+    {
+      "code": "C42700",
+      "action": "modify",
+      "date": "2013-03-04"
+    },
+    {
+      "code": "C42700",
+      "action": "modify",
+      "date": "2013-03-11"
+    },
+    {
+      "code": "C42700",
+      "action": "modify",
+      "date": "2013-03-18"
+    },
+    {
+      "code": "C42700",
+      "action": "modify",
+      "date": "2013-03-25"
+    },
+    {
+      "code": "C42700",
+      "action": "modify",
+      "date": "2013-04-01"
+    },
+    {
+      "code": "C42700",
+      "action": "modify",
+      "date": "2013-04-08"
+    },
+    {
+      "code": "C42700",
+      "action": "modify",
+      "date": "2013-04-15"
+    },
+    {
+      "code": "C42700",
+      "action": "modify",
+      "date": "2013-04-22"
+    },
+    {
+      "code": "C42700",
+      "action": "modify",
+      "date": "2013-04-29"
+    },
+    {
+      "code": "C42700",
+      "action": "modify",
+      "date": "2013-05-06"
+    },
+    {
+      "code": "C42700",
+      "action": "modify",
+      "date": "2013-05-13"
+    },
+    {
+      "code": "C42700",
+      "action": "modify",
+      "date": "2013-05-20"
+    },
+    {
+      "code": "C42700",
+      "action": "modify",
+      "date": "2013-05-28"
+    },
+    {
+      "code": "C42700",
+      "action": "modify",
+      "date": "2013-06-03"
+    },
+    {
+      "code": "C42700",
+      "action": "modify",
+      "date": "2013-06-10"
+    },
+    {
+      "code": "C42700",
+      "action": "modify",
+      "date": "2013-06-17"
+    },
+    {
+      "code": "C42700",
+      "action": "modify",
+      "date": "2013-06-24"
+    },
+    {
+      "code": "C42700",
+      "action": "modify",
+      "date": "2013-07-01"
+    },
+    {
+      "code": "C42700",
+      "action": "modify",
+      "date": "2013-07-08"
+    },
+    {
+      "code": "C42700",
+      "action": "modify",
+      "date": "2014-08-04"
+    },
+    {
+      "code": "C42700",
+      "action": "modify",
+      "date": "2014-08-18"
+    },
+    {
+      "code": "C42700",
+      "action": "modify",
+      "date": "2014-09-22"
+    },
+    {
+      "code": "C42700",
+      "action": "modify",
+      "date": "2015-03-09"
+    },
+    {
+      "code": "C42700",
+      "action": "modify",
+      "date": "2015-03-16"
+    },
+    {
+      "code": "C42700",
+      "action": "modify",
+      "date": "2018-07-30"
+    },
+    {
+      "code": "C42700",
+      "action": "modify",
+      "date": "2018-08-27"
+    },
+    {
+      "code": "C42700",
+      "action": "modify",
+      "date": "2018-08-27"
+    },
+    {
+      "code": "C42700",
+      "action": "modify",
+      "date": "2019-10-28"
+    },
+    {
+      "code": "C42700",
+      "action": "modify",
+      "date": "2023-02-27"
+    },
+    {
+      "code": "C42700",
+      "action": "modify",
+      "date": "2024-07-08"
+    },
+    {
+      "code": "C42700",
+      "action": "modify",
+      "date": "2025-03-31"
+    }
+  ]
+}

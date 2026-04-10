@@ -1,0 +1,890 @@
+{
+  "code": "C3996",
+  "name": "Monoclonal Gammopathy of Undetermined Significance",
+  "terminology": "ncit",
+  "version": "25.11d",
+  "conceptStatus": "DEFAULT",
+  "leaf": false,
+  "active": true,
+  "synonyms": [
+    {
+      "name": "Monoclonal Gammopathy of Undetermined Significance",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "caDSR"
+    },
+    {
+      "name": "Monoclonal Gammopathy of Undetermined Significance",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "Cellosaurus"
+    },
+    {
+      "name": "MGUS",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "CTEP",
+      "code": "10020631",
+      "subSource": "SDC"
+    },
+    {
+      "name": "Monoclonal gammopathy of undetermined significance (MGUS)",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "CTEP",
+      "code": "10020631",
+      "subSource": "SDC"
+    },
+    {
+      "name": "Monoclonal Gammopathy of Undetermined Significance",
+      "termType": "DN",
+      "type": "FULL_SYN",
+      "source": "CTRP"
+    },
+    {
+      "name": "MGUS",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "GDC"
+    },
+    {
+      "name": "Monoclonal gammopathy of undetermined significance",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "GDC"
+    },
+    {
+      "name": "MGUS",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NCI-GLOSS",
+      "code": "CDR0000411380"
+    },
+    {
+      "name": "monoclonal gammopathy of undetermined significance",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NCI-GLOSS",
+      "code": "CDR0000411379"
+    },
+    {
+      "name": "MGUS",
+      "termType": "AB",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Monoclonal Gammopathy of Undetermined Significance",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Monoclonal Gammopathy of Undetermined Significance (MGUS)",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Monoclonal Gammopathy of Undetermined Significance",
+      "type": "Display_Name"
+    },
+    {
+      "name": "Monoclonal Gammopathy of Undetermined Significance",
+      "type": "Preferred_Name"
+    }
+  ],
+  "definitions": [
+    {
+      "definition": "A benign condition in which there is a higher-than-normal level of a protein called M protein in the blood. Patients with MGUS are at an increased risk of developing cancer.",
+      "type": "ALT_DEFINITION",
+      "source": "NCI-GLOSS"
+    },
+    {
+      "definition": "A condition in which an abnormal amount of a single immunoglobulin is present in the serum. This category includes IgM monoclonal gammopathy of undetermined significance and non-IgM monoclonal gammopathy of undetermined significance. Up to 25% of cases of monoclonal gammopathy of undetermined significance  progress to a B-cell malignancy or myeloma.",
+      "type": "DEFINITION",
+      "source": "NCI"
+    }
+  ],
+  "properties": [
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "Cellosaurus"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "CTEP"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "CTRP"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "GDC"
+    },
+    {
+      "code": "P334",
+      "type": "ICD-O-3_Code",
+      "value": "9765/1"
+    },
+    {
+      "code": "P366",
+      "type": "Legacy Concept Name",
+      "value": "Monoclonal_Gammopathy_of_Undetermined_Significance"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "9765/1"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "MGUS"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "Monoclonal gammopathy of undetermined significance"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "Monoclonal gammopathy of undetermined significance, NOS"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "Monoclonal gammopathy, NOS"
+    },
+    {
+      "code": "P363",
+      "type": "Neoplastic_Status",
+      "value": "Undetermined"
+    },
+    {
+      "code": "P106",
+      "type": "Semantic_Type",
+      "value": "Neoplastic Process"
+    },
+    {
+      "code": "P207",
+      "type": "UMLS_CUI",
+      "value": "C0026470"
+    }
+  ],
+  "children": [
+    {
+      "code": "C150566",
+      "name": "IgM Monoclonal Gammopathy of Undetermined Significance",
+      "leaf": false
+    },
+    {
+      "code": "C150588",
+      "name": "Non-IgM Monoclonal Gammopathy of Undetermined Significance",
+      "leaf": false
+    }
+  ],
+  "parents": [
+    {
+      "code": "C27910",
+      "name": "Mature B-Cell Neoplasm"
+    }
+  ],
+  "associations": [
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C165258",
+      "relatedName": "Cellosaurus Disease Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C118168",
+      "relatedName": "CTRP Disease Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C116977",
+      "relatedName": "CTRP Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C157711",
+      "relatedName": "GDC Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C177537",
+      "relatedName": "GDC Value Terminology"
+    },
+    {
+      "type": "Is_Value_For_GDC_Property",
+      "relatedCode": "C176985",
+      "relatedName": "Histology ICD-O Morphology Code"
+    },
+    {
+      "type": "Is_Value_For_GDC_Property",
+      "relatedCode": "C177621",
+      "relatedName": "ICD-O-3 Morphology Term Diagnosis Question"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168658",
+      "relatedName": "Mapped ICDO3.1 Morphology PT Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168657",
+      "relatedName": "Mapped ICDO3.1 Morphology Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168655",
+      "relatedName": "Mapped ICDO3.1 Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168662",
+      "relatedName": "Mapped ICDO3.2 Morphology PT Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168661",
+      "relatedName": "Mapped ICDO3.2 Morphology Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168656",
+      "relatedName": "Mapped ICDO3.2 Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C103130",
+      "relatedName": "NCI CTEP SDC Myeloma Sub-Category Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C102905",
+      "relatedName": "NCI CTEP Simplified Disease Classification Terminology"
+    }
+  ],
+  "inverseAssociations": [
+    {
+      "type": "Has_GDC_Value",
+      "relatedCode": "C176985",
+      "relatedName": "Histology ICD-O Morphology Code"
+    },
+    {
+      "type": "Has_GDC_Value",
+      "relatedCode": "C177621",
+      "relatedName": "ICD-O-3 Morphology Term Diagnosis Question"
+    }
+  ],
+  "roles": [
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C159854",
+      "relatedName": "Aberrant Clonal Plasma Cell Population"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36725",
+      "relatedName": "Abnormal Lymphocyte"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C12474",
+      "relatedName": "B-Lymphocyte"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C41165",
+      "relatedName": "Hematopoietic and Lymphatic System"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C41165",
+      "relatedName": "Hematopoietic and Lymphatic System"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C32725",
+      "relatedName": "Hematopoietic and Lymphoid Cell"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C41168",
+      "relatedName": "Hematopoietic and Lymphoid Tissue"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12909",
+      "relatedName": "Hematopoietic System"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12746",
+      "relatedName": "Lymphatic System"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C12535",
+      "relatedName": "Lymphocyte"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C13049",
+      "relatedName": "Lymphoid Tissue"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C33058",
+      "relatedName": "Mature B-Lymphocyte"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C35548",
+      "relatedName": "Monoclonal Gammopathy"
+    },
+    {
+      "type": "Disease_Excludes_Normal_Cell_Origin",
+      "relatedCode": "C12549",
+      "relatedName": "Myeloid Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C38640",
+      "relatedName": "Neoplastic B-Lymphocyte"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12922",
+      "relatedName": "Neoplastic Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C37060",
+      "relatedName": "Neoplastic Hematopoietic and Lymphoid Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36988",
+      "relatedName": "Neoplastic Lymphocyte"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C39566",
+      "relatedName": "Neoplastic T-Lymphocyte and Neoplastic Natural Killer Cell"
+    },
+    {
+      "type": "Disease_Excludes_Normal_Cell_Origin",
+      "relatedCode": "C33931",
+      "relatedName": "Precursor B-Lymphoblast"
+    }
+  ],
+  "inverseRoles": [
+    {
+      "type": "Disease_May_Have_Associated_Disease",
+      "relatedCode": "C7339",
+      "relatedName": "Heavy Chain Deposition Disease"
+    },
+    {
+      "type": "Disease_May_Have_Associated_Disease",
+      "relatedCode": "C158965",
+      "relatedName": "Light and Heavy Chain Deposition Disease"
+    },
+    {
+      "type": "Disease_May_Have_Associated_Disease",
+      "relatedCode": "C7727",
+      "relatedName": "Light Chain Deposition Disease"
+    }
+  ],
+  "history": [
+    {
+      "code": "C3996",
+      "action": "create",
+      "date": "2003-08-12"
+    },
+    {
+      "code": "C3996",
+      "action": "modify",
+      "date": "2003-10-31"
+    },
+    {
+      "code": "C3996",
+      "action": "modify",
+      "date": "2003-12-30"
+    },
+    {
+      "code": "C3996",
+      "action": "modify",
+      "date": "2004-03-30"
+    },
+    {
+      "code": "C3996",
+      "action": "modify",
+      "date": "2004-11-01"
+    },
+    {
+      "code": "C3996",
+      "action": "modify",
+      "date": "2007-03-30"
+    },
+    {
+      "code": "C3996",
+      "action": "modify",
+      "date": "2007-05-25"
+    },
+    {
+      "code": "C3996",
+      "action": "modify",
+      "date": "2009-04-06"
+    },
+    {
+      "code": "C3996",
+      "action": "modify",
+      "date": "2009-10-27"
+    },
+    {
+      "code": "C3996",
+      "action": "modify",
+      "date": "2009-11-23"
+    },
+    {
+      "code": "C3996",
+      "action": "modify",
+      "date": "2010-02-09"
+    },
+    {
+      "code": "C3996",
+      "action": "modify",
+      "date": "2010-03-08"
+    },
+    {
+      "code": "C3996",
+      "action": "modify",
+      "date": "2010-11-08"
+    },
+    {
+      "code": "C3996",
+      "action": "modify",
+      "date": "2010-11-15"
+    },
+    {
+      "code": "C3996",
+      "action": "modify",
+      "date": "2010-11-22"
+    },
+    {
+      "code": "C3996",
+      "action": "modify",
+      "date": "2010-11-29"
+    },
+    {
+      "code": "C3996",
+      "action": "modify",
+      "date": "2010-12-06"
+    },
+    {
+      "code": "C3996",
+      "action": "modify",
+      "date": "2010-12-13"
+    },
+    {
+      "code": "C3996",
+      "action": "modify",
+      "date": "2010-12-27"
+    },
+    {
+      "code": "C3996",
+      "action": "modify",
+      "date": "2011-01-03"
+    },
+    {
+      "code": "C3996",
+      "action": "modify",
+      "date": "2011-01-10"
+    },
+    {
+      "code": "C3996",
+      "action": "modify",
+      "date": "2011-01-17"
+    },
+    {
+      "code": "C3996",
+      "action": "modify",
+      "date": "2011-01-24"
+    },
+    {
+      "code": "C3996",
+      "action": "modify",
+      "date": "2011-01-31"
+    },
+    {
+      "code": "C3996",
+      "action": "modify",
+      "date": "2012-09-24"
+    },
+    {
+      "code": "C3996",
+      "action": "modify",
+      "date": "2012-10-01"
+    },
+    {
+      "code": "C3996",
+      "action": "modify",
+      "date": "2012-10-09"
+    },
+    {
+      "code": "C3996",
+      "action": "modify",
+      "date": "2012-10-15"
+    },
+    {
+      "code": "C3996",
+      "action": "modify",
+      "date": "2012-10-22"
+    },
+    {
+      "code": "C3996",
+      "action": "modify",
+      "date": "2012-10-31"
+    },
+    {
+      "code": "C3996",
+      "action": "modify",
+      "date": "2012-11-05"
+    },
+    {
+      "code": "C3996",
+      "action": "modify",
+      "date": "2012-11-13"
+    },
+    {
+      "code": "C3996",
+      "action": "modify",
+      "date": "2012-11-19"
+    },
+    {
+      "code": "C3996",
+      "action": "modify",
+      "date": "2012-11-26"
+    },
+    {
+      "code": "C3996",
+      "action": "modify",
+      "date": "2012-12-03"
+    },
+    {
+      "code": "C3996",
+      "action": "modify",
+      "date": "2012-12-10"
+    },
+    {
+      "code": "C3996",
+      "action": "modify",
+      "date": "2012-12-17"
+    },
+    {
+      "code": "C3996",
+      "action": "modify",
+      "date": "2012-12-28"
+    },
+    {
+      "code": "C3996",
+      "action": "modify",
+      "date": "2013-01-07"
+    },
+    {
+      "code": "C3996",
+      "action": "modify",
+      "date": "2013-01-14"
+    },
+    {
+      "code": "C3996",
+      "action": "modify",
+      "date": "2013-01-23"
+    },
+    {
+      "code": "C3996",
+      "action": "modify",
+      "date": "2013-02-04"
+    },
+    {
+      "code": "C3996",
+      "action": "modify",
+      "date": "2013-02-11"
+    },
+    {
+      "code": "C3996",
+      "action": "modify",
+      "date": "2013-02-19"
+    },
+    {
+      "code": "C3996",
+      "action": "modify",
+      "date": "2013-02-25"
+    },
+    {
+      "code": "C3996",
+      "action": "modify",
+      "date": "2013-03-04"
+    },
+    {
+      "code": "C3996",
+      "action": "modify",
+      "date": "2013-03-11"
+    },
+    {
+      "code": "C3996",
+      "action": "modify",
+      "date": "2013-03-18"
+    },
+    {
+      "code": "C3996",
+      "action": "modify",
+      "date": "2013-03-25"
+    },
+    {
+      "code": "C3996",
+      "action": "modify",
+      "date": "2013-04-01"
+    },
+    {
+      "code": "C3996",
+      "action": "modify",
+      "date": "2013-04-08"
+    },
+    {
+      "code": "C3996",
+      "action": "modify",
+      "date": "2013-04-15"
+    },
+    {
+      "code": "C3996",
+      "action": "modify",
+      "date": "2013-04-22"
+    },
+    {
+      "code": "C3996",
+      "action": "modify",
+      "date": "2013-04-29"
+    },
+    {
+      "code": "C3996",
+      "action": "modify",
+      "date": "2013-05-06"
+    },
+    {
+      "code": "C3996",
+      "action": "modify",
+      "date": "2013-05-13"
+    },
+    {
+      "code": "C3996",
+      "action": "modify",
+      "date": "2013-05-20"
+    },
+    {
+      "code": "C3996",
+      "action": "modify",
+      "date": "2013-05-28"
+    },
+    {
+      "code": "C3996",
+      "action": "modify",
+      "date": "2013-06-03"
+    },
+    {
+      "code": "C3996",
+      "action": "modify",
+      "date": "2013-06-10"
+    },
+    {
+      "code": "C3996",
+      "action": "modify",
+      "date": "2013-06-17"
+    },
+    {
+      "code": "C3996",
+      "action": "modify",
+      "date": "2013-06-24"
+    },
+    {
+      "code": "C3996",
+      "action": "modify",
+      "date": "2013-07-01"
+    },
+    {
+      "code": "C3996",
+      "action": "modify",
+      "date": "2013-07-08"
+    },
+    {
+      "code": "C3996",
+      "action": "modify",
+      "date": "2014-02-03"
+    },
+    {
+      "code": "C3996",
+      "action": "modify",
+      "date": "2014-08-25"
+    },
+    {
+      "code": "C3996",
+      "action": "modify",
+      "date": "2014-09-22"
+    },
+    {
+      "code": "C3996",
+      "action": "modify",
+      "date": "2017-09-26"
+    },
+    {
+      "code": "C3996",
+      "action": "modify",
+      "date": "2018-05-29"
+    },
+    {
+      "code": "C3996",
+      "action": "modify",
+      "date": "2018-07-30"
+    },
+    {
+      "code": "C3996",
+      "action": "modify",
+      "date": "2018-08-27"
+    },
+    {
+      "code": "C3996",
+      "action": "modify",
+      "date": "2018-08-27"
+    },
+    {
+      "code": "C3996",
+      "action": "modify",
+      "date": "2018-09-24"
+    },
+    {
+      "code": "C3996",
+      "action": "modify",
+      "date": "2018-10-29"
+    },
+    {
+      "code": "C3996",
+      "action": "modify",
+      "date": "2018-10-29"
+    },
+    {
+      "code": "C3996",
+      "action": "modify",
+      "date": "2019-05-28"
+    },
+    {
+      "code": "C3996",
+      "action": "modify",
+      "date": "2019-09-30"
+    },
+    {
+      "code": "C3996",
+      "action": "modify",
+      "date": "2019-10-28"
+    },
+    {
+      "code": "C3996",
+      "action": "modify",
+      "date": "2019-11-25"
+    },
+    {
+      "code": "C3996",
+      "action": "modify",
+      "date": "2020-02-24"
+    },
+    {
+      "code": "C3996",
+      "action": "modify",
+      "date": "2020-04-27"
+    },
+    {
+      "code": "C3996",
+      "action": "modify",
+      "date": "2020-09-29"
+    },
+    {
+      "code": "C3996",
+      "action": "modify",
+      "date": "2021-02-22"
+    },
+    {
+      "code": "C3996",
+      "action": "modify",
+      "date": "2021-03-29"
+    },
+    {
+      "code": "C3996",
+      "action": "modify",
+      "date": "2023-02-27"
+    },
+    {
+      "code": "C3996",
+      "action": "modify",
+      "date": "2023-05-30"
+    },
+    {
+      "code": "C3996",
+      "action": "modify",
+      "date": "2025-03-31"
+    }
+  ],
+  "maps": [
+    {
+      "type": "Related To",
+      "targetName": "9765/1",
+      "targetTermType": "PT",
+      "targetCode": "morphology",
+      "targetTerminology": "GDC"
+    },
+    {
+      "type": "Has Synonym",
+      "targetName": "MGUS",
+      "targetTermType": "PT",
+      "targetCode": "primary_diagnosis",
+      "targetTerminology": "GDC"
+    },
+    {
+      "type": "Related To",
+      "targetName": "Monoclonal gammopathy of undetermined significance, NOS",
+      "targetTermType": "PT",
+      "targetCode": "9765/1",
+      "targetTerminology": "ICDO3",
+      "targetTerminologyVersion": "3.2"
+    },
+    {
+      "type": "Related To",
+      "targetName": "Monoclonal gammopathy of undetermined significance",
+      "targetTermType": "PT",
+      "targetCode": "9765/1",
+      "targetTerminology": "ICDO3",
+      "targetTerminologyVersion": "3.1"
+    },
+    {
+      "type": "Has Synonym",
+      "targetName": "Monoclonal gammopathy of undetermined significance",
+      "targetTermType": "PT",
+      "targetCode": "primary_diagnosis",
+      "targetTerminology": "GDC"
+    },
+    {
+      "type": "Related To",
+      "targetName": "Monoclonal gammopathy, NOS",
+      "targetTermType": "PT",
+      "targetCode": "primary_diagnosis",
+      "targetTerminology": "GDC"
+    }
+  ]
+}

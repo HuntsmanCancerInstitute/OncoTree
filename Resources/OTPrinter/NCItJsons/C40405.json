@@ -1,0 +1,209 @@
+{
+  "code": "C40405",
+  "name": "Breast Fibroepithelial Neoplasm",
+  "terminology": "ncit",
+  "version": "25.11d",
+  "conceptStatus": "DEFAULT",
+  "leaf": false,
+  "active": true,
+  "synonyms": [
+    {
+      "name": "Breast Fibroepithelial Neoplasm",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Breast Fibroepithelial Tumor",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Breast Fibroepithelial Neoplasm",
+      "type": "Preferred_Name"
+    }
+  ],
+  "definitions": [
+    {
+      "definition": "A benign, malignant, or borderline biphasic neoplasm that arises from the breast parenchyma. It is characterized by the presence of an epithelial and a mesenchymal (stromal) component. The typical examples are fibroadenoma and phyllodes tumor.",
+      "type": "DEFINITION",
+      "source": "NCI"
+    }
+  ],
+  "properties": [
+    {
+      "code": "P366",
+      "type": "Legacy Concept Name",
+      "value": "Breast_Fibroepithelial_Neoplasm"
+    },
+    {
+      "code": "P363",
+      "type": "Neoplastic_Status",
+      "value": "Undetermined"
+    },
+    {
+      "code": "P106",
+      "type": "Semantic_Type",
+      "value": "Neoplastic Process"
+    },
+    {
+      "code": "P207",
+      "type": "UMLS_CUI",
+      "value": "C1511309"
+    }
+  ],
+  "children": [
+    {
+      "code": "C3744",
+      "name": "Breast Fibroadenoma",
+      "leaf": false
+    },
+    {
+      "code": "C7575",
+      "name": "Breast Phyllodes Tumor",
+      "leaf": false
+    }
+  ],
+  "parents": [
+    {
+      "code": "C2910",
+      "name": "Breast Neoplasm"
+    },
+    {
+      "code": "C3743",
+      "name": "Fibroepithelial Neoplasm"
+    }
+  ],
+  "roles": [
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C35907",
+      "relatedName": "Biphasic Pattern"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12971",
+      "relatedName": "Breast"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12971",
+      "relatedName": "Breast"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C12508",
+      "relatedName": "Cell"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C53596",
+      "relatedName": "Epithelial Component Present"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C61539",
+      "relatedName": "Malignant Glandular Epithelium Resembling the Normal Endometrium Present"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C12370",
+      "relatedName": "Mammary Gland Tissue"
+    },
+    {
+      "type": "Disease_May_Have_Molecular_Abnormality",
+      "relatedCode": "C150689",
+      "relatedName": "MED12 Gene Mutation"
+    },
+    {
+      "type": "Disease_Mapped_To_Gene",
+      "relatedCode": "C98210",
+      "relatedName": "MED12 Gene"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C54167",
+      "relatedName": "Mesenchymal Component Present"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C41610",
+      "relatedName": "Mixed Cellular Population"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12922",
+      "relatedName": "Neoplastic Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C37150",
+      "relatedName": "Neoplastic Stromal Cell"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C12571",
+      "relatedName": "Stromal Cell"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C12801",
+      "relatedName": "Tissue"
+    }
+  ],
+  "inverseRoles": [
+    {
+      "type": "Gene_Involved_In_Pathogenesis_Of_Disease",
+      "relatedCode": "C98210",
+      "relatedName": "MED12 Gene"
+    },
+    {
+      "type": "Gene_Involved_In_Pathogenesis_Of_Disease",
+      "relatedCode": "C98211",
+      "relatedName": "MED12 wt Allele"
+    }
+  ],
+  "history": [
+    {
+      "code": "C40405",
+      "action": "create",
+      "date": "2004-09-10"
+    },
+    {
+      "code": "C40405",
+      "action": "modify",
+      "date": "2006-04-28"
+    },
+    {
+      "code": "C40405",
+      "action": "modify",
+      "date": "2006-09-01"
+    },
+    {
+      "code": "C40405",
+      "action": "modify",
+      "date": "2009-10-27"
+    },
+    {
+      "code": "C40405",
+      "action": "modify",
+      "date": "2009-11-23"
+    },
+    {
+      "code": "C40405",
+      "action": "modify",
+      "date": "2011-09-12"
+    },
+    {
+      "code": "C40405",
+      "action": "modify",
+      "date": "2014-02-03"
+    },
+    {
+      "code": "C40405",
+      "action": "modify",
+      "date": "2020-11-30"
+    }
+  ]
+}

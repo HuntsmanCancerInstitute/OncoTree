@@ -1,0 +1,305 @@
+{
+  "code": "C3301",
+  "name": "Nipple Paget Disease",
+  "terminology": "ncit",
+  "version": "25.11d",
+  "conceptStatus": "DEFAULT",
+  "leaf": true,
+  "active": true,
+  "synonyms": [
+    {
+      "name": "Paget's disease of the nipple",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NCI-GLOSS",
+      "code": "CDR0000045814"
+    },
+    {
+      "name": "Nipple Paget Disease",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Nipple Paget's Disease",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Paget Disease of the Nipple",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Paget's Disease of Nipple",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Paget's Disease of the Nipple",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Nipple Paget Disease",
+      "type": "Preferred_Name"
+    }
+  ],
+  "definitions": [
+    {
+      "definition": "A form of breast cancer in which the tumor grows from ducts beneath the nipple onto the surface of the nipple. Symptoms commonly include itching and burning and an eczema-like condition around the nipple, sometimes accompanied by oozing or bleeding.",
+      "type": "ALT_DEFINITION",
+      "source": "NCI-GLOSS"
+    },
+    {
+      "definition": "A malignant epithelial cellular proliferation characterized by the presence of atypical cells with large nuclei and abundant pale cytoplasm within the squamous epithelium of the nipple.  In almost all cases there is an underlying intraductal breast carcinoma or intraductal and invasive carcinoma.  The skin changes range from redness to eczematous appearance.",
+      "type": "DEFINITION",
+      "source": "NCI"
+    }
+  ],
+  "properties": [
+    {
+      "code": "P366",
+      "type": "Legacy Concept Name",
+      "value": "Paget_s_Disease_of_the_Nipple"
+    },
+    {
+      "code": "P363",
+      "type": "Neoplastic_Status",
+      "value": "Malignant"
+    },
+    {
+      "code": "P106",
+      "type": "Semantic_Type",
+      "value": "Neoplastic Process"
+    },
+    {
+      "code": "P207",
+      "type": "UMLS_CUI",
+      "value": "C1704323"
+    }
+  ],
+  "parents": [
+    {
+      "code": "C47857",
+      "name": "Breast Paget Disease"
+    },
+    {
+      "code": "C28432",
+      "name": "Nipple Carcinoma"
+    }
+  ],
+  "roles": [
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36773",
+      "relatedName": "Adenocarcinoma Cell"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C36122",
+      "relatedName": "Benign Cellular Infiltrate"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12971",
+      "relatedName": "Breast"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12971",
+      "relatedName": "Breast"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C54172",
+      "relatedName": "Carcinomatous Component Present"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C3001",
+      "relatedName": "Eczema"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C12578",
+      "relatedName": "Epithelial Cell"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C53596",
+      "relatedName": "Epithelial Component Present"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C45714",
+      "relatedName": "Epithelial Tissue"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C26901",
+      "relatedName": "Erythema"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12917",
+      "relatedName": "Malignant Cell"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C36115",
+      "relatedName": "Malignant Cellular Infiltrate"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36779",
+      "relatedName": "Malignant Epithelial Cell"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C36771",
+      "relatedName": "Malignant Squamous Cell"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C37153",
+      "relatedName": "Malignant Stromal Cell"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C12937",
+      "relatedName": "Mammary Epithelium"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C62273",
+      "relatedName": "Mixed Neoplastic Glandular and Squamous Cell Population"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12922",
+      "relatedName": "Neoplastic Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36753",
+      "relatedName": "Neoplastic Epithelial Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36763",
+      "relatedName": "Neoplastic Glandular Cell"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C36937",
+      "relatedName": "Neoplastic Smooth Muscle Cell"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C36760",
+      "relatedName": "Neoplastic Squamous Cell"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12299",
+      "relatedName": "Nipple"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12299",
+      "relatedName": "Nipple"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36754",
+      "relatedName": "Paget Cell"
+    }
+  ],
+  "history": [
+    {
+      "code": "C3301",
+      "action": "create",
+      "date": "2003-08-12"
+    },
+    {
+      "code": "C3301",
+      "action": "modify",
+      "date": "2003-10-31"
+    },
+    {
+      "code": "C3301",
+      "action": "modify",
+      "date": "2003-12-30"
+    },
+    {
+      "code": "C3301",
+      "action": "modify",
+      "date": "2004-03-30"
+    },
+    {
+      "code": "C3301",
+      "action": "modify",
+      "date": "2004-08-02"
+    },
+    {
+      "code": "C3301",
+      "action": "modify",
+      "date": "2004-09-10"
+    },
+    {
+      "code": "C3301",
+      "action": "modify",
+      "date": "2005-01-28"
+    },
+    {
+      "code": "C3301",
+      "action": "modify",
+      "date": "2005-07-29"
+    },
+    {
+      "code": "C3301",
+      "action": "modify",
+      "date": "2006-04-28"
+    },
+    {
+      "code": "C3301",
+      "action": "modify",
+      "date": "2007-02-23"
+    },
+    {
+      "code": "C3301",
+      "action": "modify",
+      "date": "2009-04-06"
+    },
+    {
+      "code": "C3301",
+      "action": "modify",
+      "date": "2009-11-23"
+    },
+    {
+      "code": "C3301",
+      "action": "modify",
+      "date": "2011-02-22"
+    },
+    {
+      "code": "C3301",
+      "action": "modify",
+      "date": "2011-03-07"
+    },
+    {
+      "code": "C3301",
+      "action": "modify",
+      "date": "2011-09-19"
+    },
+    {
+      "code": "C3301",
+      "action": "modify",
+      "date": "2020-10-26"
+    }
+  ]
+}

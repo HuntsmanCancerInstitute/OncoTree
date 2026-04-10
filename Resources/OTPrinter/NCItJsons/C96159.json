@@ -1,0 +1,289 @@
+{
+  "code": "C96159",
+  "name": "Colorectal Neuroendocrine Tumor",
+  "terminology": "ncit",
+  "version": "25.11d",
+  "conceptStatus": "DEFAULT",
+  "leaf": false,
+  "active": true,
+  "synonyms": [
+    {
+      "name": "Colorectal NET",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Colorectal Neuroendocrine Tumor",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Colorectal Well Differentiated Neuroendocrine Neoplasm",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Colorectal Well-Differentiated Neuroendocrine Neoplasm",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Colorectal Neuroendocrine Tumor",
+      "type": "Preferred_Name"
+    }
+  ],
+  "definitions": [
+    {
+      "definition": "A well-differentiated, low-, intermediate-, or high-grade neoplasm with neuroendocrine differentiation that arises from the colon or rectum.",
+      "type": "DEFINITION",
+      "source": "NCI"
+    }
+  ],
+  "properties": [
+    {
+      "code": "P363",
+      "type": "Neoplastic_Status",
+      "value": "Undetermined"
+    },
+    {
+      "code": "P106",
+      "type": "Semantic_Type",
+      "value": "Neoplastic Process"
+    },
+    {
+      "code": "P207",
+      "type": "UMLS_CUI",
+      "value": "C3272610"
+    }
+  ],
+  "children": [
+    {
+      "code": "C135212",
+      "name": "Colon Neuroendocrine Tumor",
+      "leaf": false
+    },
+    {
+      "code": "C96162",
+      "name": "Colorectal Enterochromaffin Cell Serotonin-Producing Neuroendocrine Tumor",
+      "leaf": false
+    },
+    {
+      "code": "C96161",
+      "name": "Colorectal L-Cell Glucagon-Like Peptide-Producing Neuroendocrine Tumor",
+      "leaf": false
+    },
+    {
+      "code": "C135205",
+      "name": "Colorectal Neuroendocrine Tumor by AJCC v8 Stage",
+      "leaf": false
+    },
+    {
+      "code": "C208090",
+      "name": "Colorectal Neuroendocrine Tumor by AJCC v9 Stage",
+      "leaf": false
+    },
+    {
+      "code": "C96160",
+      "name": "Colorectal Neuroendocrine Tumor G1",
+      "leaf": false
+    },
+    {
+      "code": "C96163",
+      "name": "Colorectal Neuroendocrine Tumor G2",
+      "leaf": false
+    },
+    {
+      "code": "C172701",
+      "name": "Colorectal Neuroendocrine Tumor G3",
+      "leaf": false
+    },
+    {
+      "code": "C135213",
+      "name": "Rectal Neuroendocrine Tumor",
+      "leaf": false
+    }
+  ],
+  "parents": [
+    {
+      "code": "C96152",
+      "name": "Colorectal Neuroendocrine Neoplasm"
+    },
+    {
+      "code": "C96062",
+      "name": "Intestinal Neuroendocrine Tumor"
+    }
+  ],
+  "roles": [
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C54189",
+      "relatedName": "Colorectal Region"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C54189",
+      "relatedName": "Colorectal Region"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12378",
+      "relatedName": "Digestive System"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12378",
+      "relatedName": "Digestive System"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C12573",
+      "relatedName": "Endocrine Cell of the Digestive System"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12704",
+      "relatedName": "Endocrine Gland"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12704",
+      "relatedName": "Endocrine Gland"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12705",
+      "relatedName": "Endocrine System"
+    },
+    {
+      "type": "Disease_Excludes_Normal_Cell_Origin",
+      "relatedCode": "C12865",
+      "relatedName": "Endothelial Cell"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C207031",
+      "relatedName": "Expression of Neuroendocrine Markers Present"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12736",
+      "relatedName": "Intestine"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12736",
+      "relatedName": "Intestine"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12379",
+      "relatedName": "Large Intestine"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C36818",
+      "relatedName": "Large Osteoclastic Giant Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12922",
+      "relatedName": "Neoplastic Cell"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C37088",
+      "relatedName": "Neoplastic Endothelial Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36761",
+      "relatedName": "Neoplastic Neuroendocrine Cell"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C43574",
+      "relatedName": "Neuroendocrine Differentiation"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C155863",
+      "relatedName": "Poorly Differentiated Neuroendocrine Lesion"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C8329",
+      "relatedName": "Severe Cytologic Atypia"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C155861",
+      "relatedName": "Well Differentiated Neuroendocrine Lesion"
+    }
+  ],
+  "history": [
+    {
+      "code": "C96159",
+      "action": "create",
+      "date": "2011-03-28"
+    },
+    {
+      "code": "C96159",
+      "action": "modify",
+      "date": "2011-05-31"
+    },
+    {
+      "code": "C96159",
+      "action": "modify",
+      "date": "2011-08-15"
+    },
+    {
+      "code": "C96159",
+      "action": "modify",
+      "date": "2012-03-12"
+    },
+    {
+      "code": "C96159",
+      "action": "modify",
+      "date": "2014-02-03"
+    },
+    {
+      "code": "C96159",
+      "action": "modify",
+      "date": "2018-10-29"
+    },
+    {
+      "code": "C96159",
+      "action": "modify",
+      "date": "2018-10-29"
+    },
+    {
+      "code": "C96159",
+      "action": "modify",
+      "date": "2020-06-29"
+    },
+    {
+      "code": "C96159",
+      "action": "modify",
+      "date": "2022-07-25"
+    },
+    {
+      "code": "C96159",
+      "action": "modify",
+      "date": "2024-01-29"
+    },
+    {
+      "code": "C96159",
+      "action": "modify",
+      "date": "2024-07-29"
+    },
+    {
+      "code": "C96159",
+      "action": "modify",
+      "date": "2025-04-28"
+    }
+  ]
+}

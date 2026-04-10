@@ -1,0 +1,446 @@
+{
+  "code": "C82616",
+  "name": "Myelodysplastic/Myeloproliferative Neoplasm with Ring Sideroblasts and Thrombocytosis, Not Otherwise Specified",
+  "terminology": "ncit",
+  "version": "25.11d",
+  "conceptStatus": "DEFAULT",
+  "leaf": false,
+  "active": true,
+  "synonyms": [
+    {
+      "name": "Refractory anemia with ring sideroblasts associated with marked thrombocytosis",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "GDC"
+    },
+    {
+      "name": "Essential Thrombocythemia with Ring Sideroblasts",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "MDS/MPN with Ring Sideroblasts and Thrombocytosis",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "MDS/MPN-RS-T",
+      "termType": "AB",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "MDS/MPN-RS-T, NOS",
+      "termType": "AB",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Myelodysplastic/Myeloproliferative Neoplasm with Ring Sideroblasts and Thrombocytosis",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Myelodysplastic/Myeloproliferative Neoplasm with Ring Sideroblasts and Thrombocytosis, NOS",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Myelodysplastic/Myeloproliferative Neoplasm with Ring Sideroblasts and Thrombocytosis, Not Otherwise Specified",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "RARS-T",
+      "termType": "AB",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Refractory Anemia with Ring Sideroblasts Associated with Marked Thrombocytosis",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Myelodysplastic/Myeloproliferative Neoplasm with Ring Sideroblasts and Thrombocytosis, Not Otherwise Specified",
+      "type": "Preferred_Name"
+    }
+  ],
+  "definitions": [
+    {
+      "definition": "A myelodysplastic/myeloproliferative neoplasm characterized by marked thrombocytosis, anemia, erythroid lineage dysplasia, presence or absence of multilineage dysplasia, 15% or more ring sideroblasts, blasts less than 5% in bone marrow and less than 1% in peripheral blood, absence of BCR/ABL fusion, absence of SF3B1 mutation, absence of genetic abnormalities associated with myeloid/lymphoid neoplasms with eosinophilia and tyrosine kinase gene fusions, and no history of other myelodysplastic/myeloproliferative neoplasms or myeloproliferative neoplasms and myelodysplastic syndromes.",
+      "type": "DEFINITION",
+      "source": "NCI"
+    }
+  ],
+  "properties": [
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "GDC"
+    },
+    {
+      "code": "P334",
+      "type": "ICD-O-3_Code",
+      "value": "9982/3"
+    },
+    {
+      "code": "P366",
+      "type": "Legacy Concept Name",
+      "value": "Refractory_Anemia_with_Ring_Sideroblasts_Associated_with_Marked_Thrombocytosis"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "9982/3"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "Refractory anemia with ring sideroblasts associated with marked thrombocytosis"
+    },
+    {
+      "code": "P363",
+      "type": "Neoplastic_Status",
+      "value": "Malignant"
+    },
+    {
+      "code": "P106",
+      "type": "Semantic_Type",
+      "value": "Neoplastic Process"
+    },
+    {
+      "code": "P207",
+      "type": "UMLS_CUI",
+      "value": "C2826330"
+    }
+  ],
+  "children": [
+    {
+      "code": "C223033",
+      "name": "Recurrent Myelodysplastic/Myeloproliferative Neoplasm with Ring Sideroblasts and Thrombocytosis, Not Otherwise Specified",
+      "leaf": true
+    }
+  ],
+  "parents": [
+    {
+      "code": "C27262",
+      "name": "Myelodysplastic/Myeloproliferative Neoplasm"
+    }
+  ],
+  "associations": [
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C157711",
+      "relatedName": "GDC Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C177537",
+      "relatedName": "GDC Value Terminology"
+    },
+    {
+      "type": "Is_Value_For_GDC_Property",
+      "relatedCode": "C176985",
+      "relatedName": "Histology ICD-O Morphology Code"
+    },
+    {
+      "type": "Is_Value_For_GDC_Property",
+      "relatedCode": "C177621",
+      "relatedName": "ICD-O-3 Morphology Term Diagnosis Question"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C126659",
+      "relatedName": "NCIt Neoplasm Core Terminology"
+    }
+  ],
+  "inverseAssociations": [
+    {
+      "type": "Has_GDC_Value",
+      "relatedCode": "C176985",
+      "relatedName": "Histology ICD-O Morphology Code"
+    },
+    {
+      "type": "Has_GDC_Value",
+      "relatedCode": "C177621",
+      "relatedName": "ICD-O-3 Morphology Term Diagnosis Question"
+    }
+  ],
+  "roles": [
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C37043",
+      "relatedName": "Abnormal Megakaryocyte"
+    },
+    {
+      "type": "Disease_Excludes_Molecular_Abnormality",
+      "relatedCode": "C36715",
+      "relatedName": "BCR-ABL1 Fusion Protein Expression"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C36122",
+      "relatedName": "Benign Cellular Infiltrate"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C41397",
+      "relatedName": "Blasts Under 20 Percent of Bone Marrow Nucleated Cells"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C36220",
+      "relatedName": "Blasts Under 20 Percent of Peripheral Blood White Cells"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C36235",
+      "relatedName": "Bone Marrow Dysplasia Present"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C13456",
+      "relatedName": "Bone Marrow Stem Cell"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12431",
+      "relatedName": "Bone Marrow"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12431",
+      "relatedName": "Bone Marrow"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C37054",
+      "relatedName": "Dysplastic Erythroid Precursor"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C41235",
+      "relatedName": "Extramedullary Hematopoiesis"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C41165",
+      "relatedName": "Hematopoietic and Lymphatic System"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C41165",
+      "relatedName": "Hematopoietic and Lymphatic System"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C32725",
+      "relatedName": "Hematopoietic and Lymphoid Cell"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C41168",
+      "relatedName": "Hematopoietic and Lymphoid Tissue"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C13051",
+      "relatedName": "Hematopoietic Tissue"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12917",
+      "relatedName": "Malignant Cell"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C36115",
+      "relatedName": "Malignant Cellular Infiltrate"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C36228",
+      "relatedName": "Myeloblasts Under 1 Percent of Peripheral Blood White Cells"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C36209",
+      "relatedName": "Myeloblasts Under 5 Percent of Bone Marrow Nucleated Cells"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12922",
+      "relatedName": "Neoplastic Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C37060",
+      "relatedName": "Neoplastic Hematopoietic and Lymphoid Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C41063",
+      "relatedName": "Neoplastic Myeloid Cell"
+    },
+    {
+      "type": "Disease_Excludes_Cytogenetic_Abnormality",
+      "relatedCode": "C28452",
+      "relatedName": "Philadelphia Chromosome"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C36226",
+      "relatedName": "Ring Sideroblasts 15 Percent or More of Erythroid Precursors"
+    },
+    {
+      "type": "Disease_Excludes_Molecular_Abnormality",
+      "relatedCode": "C133702",
+      "relatedName": "SF3B1 Gene Mutation"
+    },
+    {
+      "type": "Disease_Excludes_Cytogenetic_Abnormality",
+      "relatedCode": "C13271",
+      "relatedName": "t(9;22)(q34.1;q11.2)"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C35530",
+      "relatedName": "Thrombocytosis"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C37030",
+      "relatedName": "Toxic Neutrophil"
+    },
+    {
+      "type": "Disease_Excludes_Molecular_Abnormality",
+      "relatedCode": "C198558",
+      "relatedName": "Tyrosine Kinase Gene Fusion"
+    }
+  ],
+  "history": [
+    {
+      "code": "C82616",
+      "action": "create",
+      "date": "2009-08-03"
+    },
+    {
+      "code": "C82616",
+      "action": "modify",
+      "date": "2009-08-10"
+    },
+    {
+      "code": "C82616",
+      "action": "modify",
+      "date": "2009-08-17"
+    },
+    {
+      "code": "C82616",
+      "action": "modify",
+      "date": "2009-08-24"
+    },
+    {
+      "code": "C82616",
+      "action": "modify",
+      "date": "2009-08-31"
+    },
+    {
+      "code": "C82616",
+      "action": "modify",
+      "date": "2009-09-08"
+    },
+    {
+      "code": "C82616",
+      "action": "modify",
+      "date": "2009-09-10"
+    },
+    {
+      "code": "C82616",
+      "action": "modify",
+      "date": "2009-11-23"
+    },
+    {
+      "code": "C82616",
+      "action": "modify",
+      "date": "2010-03-08"
+    },
+    {
+      "code": "C82616",
+      "action": "modify",
+      "date": "2011-08-15"
+    },
+    {
+      "code": "C82616",
+      "action": "modify",
+      "date": "2012-07-30"
+    },
+    {
+      "code": "C82616",
+      "action": "modify",
+      "date": "2016-04-25"
+    },
+    {
+      "code": "C82616",
+      "action": "modify",
+      "date": "2016-12-05"
+    },
+    {
+      "code": "C82616",
+      "action": "modify",
+      "date": "2018-09-24"
+    },
+    {
+      "code": "C82616",
+      "action": "modify",
+      "date": "2019-05-28"
+    },
+    {
+      "code": "C82616",
+      "action": "modify",
+      "date": "2019-09-30"
+    },
+    {
+      "code": "C82616",
+      "action": "modify",
+      "date": "2019-11-25"
+    },
+    {
+      "code": "C82616",
+      "action": "modify",
+      "date": "2021-02-22"
+    },
+    {
+      "code": "C82616",
+      "action": "modify",
+      "date": "2021-03-29"
+    },
+    {
+      "code": "C82616",
+      "action": "modify",
+      "date": "2023-04-24"
+    }
+  ],
+  "maps": [
+    {
+      "type": "Related To",
+      "targetName": "9982/3",
+      "targetTermType": "PT",
+      "targetCode": "morphology",
+      "targetTerminology": "GDC"
+    },
+    {
+      "type": "Has Synonym",
+      "targetName": "Refractory anemia with ring sideroblasts associated with marked thrombocytosis",
+      "targetTermType": "PT",
+      "targetCode": "primary_diagnosis",
+      "targetTerminology": "GDC"
+    }
+  ]
+}

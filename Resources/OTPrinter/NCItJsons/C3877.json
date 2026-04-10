@@ -1,0 +1,375 @@
+{
+  "code": "C3877",
+  "name": "Testicular Teratoma",
+  "terminology": "ncit",
+  "version": "25.11d",
+  "conceptStatus": "DEFAULT",
+  "leaf": false,
+  "active": true,
+  "synonyms": [
+    {
+      "name": "Testicular Teratoma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "Cellosaurus"
+    },
+    {
+      "name": "Testicular Teratoma",
+      "termType": "DN",
+      "type": "FULL_SYN",
+      "source": "CTRP"
+    },
+    {
+      "name": "Teratoma of Testis",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Teratoma of the Testis",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Testicular Teratoma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Testicular Teratoma",
+      "type": "Display_Name"
+    },
+    {
+      "name": "Testicular Teratoma",
+      "type": "Preferred_Name"
+    }
+  ],
+  "definitions": [
+    {
+      "definition": "A non-seminomatous germ cell tumor arising from the testis. It is characterized by the presence of various tissues which correspond to the different germinal layers (endoderm, mesoderm, and ectoderm). Testicular teratomas in children follow a benign clinical course whereas in postpubertal patients may metastasize to other anatomic sites.",
+      "type": "DEFINITION",
+      "source": "NCI"
+    }
+  ],
+  "properties": [
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "Cellosaurus"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "CTRP"
+    },
+    {
+      "code": "P366",
+      "type": "Legacy Concept Name",
+      "value": "Testicular_Teratoma"
+    },
+    {
+      "code": "P363",
+      "type": "Neoplastic_Status",
+      "value": "Undetermined"
+    },
+    {
+      "code": "P106",
+      "type": "Semantic_Type",
+      "value": "Neoplastic Process"
+    },
+    {
+      "code": "P207",
+      "type": "UMLS_CUI",
+      "value": "C0238451"
+    }
+  ],
+  "children": [
+    {
+      "code": "C6540",
+      "name": "Childhood Testicular Teratoma",
+      "leaf": false
+    },
+    {
+      "code": "C39936",
+      "name": "Monodermal Testicular Teratoma",
+      "leaf": true
+    },
+    {
+      "code": "C6353",
+      "name": "Testicular Immature Teratoma",
+      "leaf": false
+    },
+    {
+      "code": "C6355",
+      "name": "Testicular Mature Teratoma",
+      "leaf": false
+    },
+    {
+      "code": "C35711",
+      "name": "Testicular Teratoma with Somatic-Type Malignancy",
+      "leaf": true
+    },
+    {
+      "code": "C189057",
+      "name": "Testicular Teratoma, Postpubertal-Type",
+      "leaf": true
+    },
+    {
+      "code": "C192107",
+      "name": "Testicular Teratoma, Prepubertal-Type",
+      "leaf": true
+    }
+  ],
+  "parents": [
+    {
+      "code": "C98291",
+      "name": "Gonadal Teratoma"
+    },
+    {
+      "code": "C9313",
+      "name": "Testicular Non-Seminomatous Germ Cell Tumor"
+    },
+    {
+      "code": "C39915",
+      "name": "Testicular Pure Germ Cell Tumor"
+    }
+  ],
+  "associations": [
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C165258",
+      "relatedName": "Cellosaurus Disease Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C118168",
+      "relatedName": "CTRP Disease Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C116977",
+      "relatedName": "CTRP Terminology"
+    }
+  ],
+  "roles": [
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C54111",
+      "relatedName": "Ectodermal Differentiation"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C54112",
+      "relatedName": "Endodermal Differentiation"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12810",
+      "relatedName": "Genitourinary System"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C12597",
+      "relatedName": "Germ Cell"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C54105",
+      "relatedName": "Germinal Layer"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12725",
+      "relatedName": "Gonad"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12725",
+      "relatedName": "Gonad"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12722",
+      "relatedName": "Male Reproductive System"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12722",
+      "relatedName": "Male Reproductive System"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C123865",
+      "relatedName": "Malignant Germinomatous Cells Present"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C54127",
+      "relatedName": "Malignant Large Germ Cell with Abundant Cytoplasm"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C54113",
+      "relatedName": "Mesodermal Differentiation"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C54145",
+      "relatedName": "Mixture of Germ Cell Neoplastic Components Present"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12922",
+      "relatedName": "Neoplastic Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36903",
+      "relatedName": "Neoplastic Germ Cell"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C36898",
+      "relatedName": "Neoplastic Sex Cord-Stromal Cell"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C61382",
+      "relatedName": "Painless Testicular Mass"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12841",
+      "relatedName": "Reproductive System"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C61414",
+      "relatedName": "Seminomatous Component Present"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12412",
+      "relatedName": "Testis"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12412",
+      "relatedName": "Testis"
+    }
+  ],
+  "history": [
+    {
+      "code": "C3877",
+      "action": "create",
+      "date": "2003-08-12"
+    },
+    {
+      "code": "C3877",
+      "action": "modify",
+      "date": "2003-10-31"
+    },
+    {
+      "code": "C3877",
+      "action": "modify",
+      "date": "2003-12-30"
+    },
+    {
+      "code": "C3877",
+      "action": "modify",
+      "date": "2004-03-30"
+    },
+    {
+      "code": "C3877",
+      "action": "modify",
+      "date": "2004-08-02"
+    },
+    {
+      "code": "C3877",
+      "action": "modify",
+      "date": "2006-06-30"
+    },
+    {
+      "code": "C3877",
+      "action": "modify",
+      "date": "2007-09-27"
+    },
+    {
+      "code": "C3877",
+      "action": "modify",
+      "date": "2009-04-06"
+    },
+    {
+      "code": "C3877",
+      "action": "modify",
+      "date": "2009-11-23"
+    },
+    {
+      "code": "C3877",
+      "action": "modify",
+      "date": "2011-10-17"
+    },
+    {
+      "code": "C3877",
+      "action": "modify",
+      "date": "2014-02-03"
+    },
+    {
+      "code": "C3877",
+      "action": "modify",
+      "date": "2014-08-04"
+    },
+    {
+      "code": "C3877",
+      "action": "modify",
+      "date": "2014-08-18"
+    },
+    {
+      "code": "C3877",
+      "action": "modify",
+      "date": "2014-09-22"
+    },
+    {
+      "code": "C3877",
+      "action": "modify",
+      "date": "2017-07-31"
+    },
+    {
+      "code": "C3877",
+      "action": "modify",
+      "date": "2018-07-30"
+    },
+    {
+      "code": "C3877",
+      "action": "modify",
+      "date": "2018-08-27"
+    },
+    {
+      "code": "C3877",
+      "action": "modify",
+      "date": "2018-08-27"
+    },
+    {
+      "code": "C3877",
+      "action": "modify",
+      "date": "2018-11-26"
+    },
+    {
+      "code": "C3877",
+      "action": "modify",
+      "date": "2019-10-28"
+    },
+    {
+      "code": "C3877",
+      "action": "modify",
+      "date": "2023-02-27"
+    },
+    {
+      "code": "C3877",
+      "action": "modify",
+      "date": "2025-03-31"
+    }
+  ]
+}

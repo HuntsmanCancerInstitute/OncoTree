@@ -1,0 +1,5970 @@
+{
+  "code": "C12392",
+  "name": "Liver",
+  "terminology": "ncit",
+  "version": "25.11d",
+  "conceptStatus": "DEFAULT",
+  "leaf": true,
+  "active": true,
+  "synonyms": [
+    {
+      "name": "Liver",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "caDSR"
+    },
+    {
+      "name": "LIVER",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "CDISC"
+    },
+    {
+      "name": "Liver",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "CPTAC"
+    },
+    {
+      "name": "Liver",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "CTDC"
+    },
+    {
+      "name": "Liver",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "GDC"
+    },
+    {
+      "name": "Liver structure (body structure)",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "mCode",
+      "code": "10200004",
+      "subSource": "SNOMED CT"
+    },
+    {
+      "name": "liver",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NCI-GLOSS",
+      "code": "CDR0000046312"
+    },
+    {
+      "name": "Body System, Hepatic",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Gastrointestinal Tract, Liver",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Hepatic Body System",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Hepatic Organ System",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Liver",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Organ System, Hepatic",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Liver",
+      "type": "Display_Name"
+    },
+    {
+      "name": "Liver",
+      "type": "Preferred_Name"
+    },
+    {
+      "name": "Liver",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "PCDC",
+      "subSource": "GCT"
+    },
+    {
+      "name": "Liver",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "PCDC",
+      "subSource": "OS"
+    },
+    {
+      "name": "Liver",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "PCDC",
+      "subSource": "HL"
+    },
+    {
+      "name": "Liver",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "PCDC",
+      "subSource": "EWS"
+    },
+    {
+      "name": "Liver",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "PCDC",
+      "subSource": "AML"
+    },
+    {
+      "name": "liver",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "UBERON"
+    }
+  ],
+  "definitions": [
+    {
+      "definition": "A large organ located in the upper abdomen. The liver cleanses the blood and aids in digestion by secreting bile.",
+      "type": "ALT_DEFINITION",
+      "source": "NCI-GLOSS"
+    },
+    {
+      "definition": "A triangular-shaped organ located under the diaphragm in the right hypochondrium. It is the largest internal organ of the body, weighting up to 2 kg. Metabolism and bile secretion are its main functions. It is composed of cells which have the ability to regenerate.",
+      "type": "DEFINITION",
+      "source": "NCI"
+    },
+    {
+      "definition": "An abdominal organ that has variable lobation which are composed mainly of hepatic lobules.",
+      "type": "ALT_DEFINITION",
+      "source": "CDISC"
+    },
+    {
+      "definition": "An exocrine gland which secretes bile and functions in metabolism of protein and carbohydrate and fat, synthesizes substances involved in the clotting of the blood, synthesizes vitamin A, detoxifies poisonous substances, stores glycogen, and breaks down worn-out erythrocytes.",
+      "type": "ALT_DEFINITION",
+      "source": "UBERON"
+    }
+  ],
+  "properties": [
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "CDISC"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "CPTAC"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "CTDC"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "GDC"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "mCode"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "PCDC"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "UBERON"
+    },
+    {
+      "code": "P366",
+      "type": "Legacy Concept Name",
+      "value": "Liver"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "Liver"
+    },
+    {
+      "code": "P106",
+      "type": "Semantic_Type",
+      "value": "Body Part, Organ, or Organ Component"
+    },
+    {
+      "code": "P207",
+      "type": "UMLS_CUI",
+      "value": "C0023884"
+    },
+    {
+      "code": "oboInOwl:hasDbXref",
+      "type": "xRef",
+      "value": "UBERON:0002107"
+    }
+  ],
+  "parents": [
+    {
+      "code": "C13018",
+      "name": "Organ"
+    }
+  ],
+  "associations": [
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C173217",
+      "relatedName": "AML Adverse Events Table"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C174019",
+      "relatedName": "AML Authorized Value Terminology"
+    },
+    {
+      "type": "Is_Value_For_GDC_Property",
+      "relatedCode": "C188396",
+      "relatedName": "Anatomic Site of Maximum Tumor Bulk"
+    },
+    {
+      "type": "Is_Value_For_GDC_Property",
+      "relatedCode": "C200442",
+      "relatedName": "Anatomic Site or Organ with Contiguous Invasion"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C74456",
+      "relatedName": "CDISC SDTM Anatomical Location Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C66830",
+      "relatedName": "CDISC SDTM Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C77529",
+      "relatedName": "CDISC SEND Biospecimens Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C77526",
+      "relatedName": "CDISC SEND Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C61410",
+      "relatedName": "Clinical Data Interchange Standards Consortium Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C156955",
+      "relatedName": "CPTAC Follow-Up Form"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C159328",
+      "relatedName": "CPTAC Follow-Up Forms Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C159333",
+      "relatedName": "CPTAC Lung Squamous Cell Carcinoma and Lung Adenocarcinoma Follow-Up Form"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C159336",
+      "relatedName": "CPTAC Melanoma Follow-Up Form"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C159332",
+      "relatedName": "CPTAC Pancreatic Ductal Adenocarcinoma Follow-Up Form"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C159337",
+      "relatedName": "CPTAC Renal Cell Carcinoma Follow-Up Form"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C159331",
+      "relatedName": "CPTAC Sarcoma Follow-Up Form"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C156952",
+      "relatedName": "CPTAC Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C159330",
+      "relatedName": "CPTAC Uterine Corpus Endometrial Carcinoma Follow-Up Form"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C173073",
+      "relatedName": "CTDC Value Terminology"
+    },
+    {
+      "type": "Is_Value_For_GDC_Property",
+      "relatedCode": "C173263",
+      "relatedName": "Disease Involvement Site"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C174237",
+      "relatedName": "EWS Authorized Value Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C174241",
+      "relatedName": "EWS Biopsy/Surgical Procedures Table"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C174261",
+      "relatedName": "EWS Tumor Assessment Table"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C177383",
+      "relatedName": "GCT Authorized Value Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C177402",
+      "relatedName": "GCT Biopsy/Surgical Procedures Table"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C177403",
+      "relatedName": "GCT Radiation Therapy Table"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C177394",
+      "relatedName": "GCT Tumor Assessment Table"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C157711",
+      "relatedName": "GDC Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C177537",
+      "relatedName": "GDC Value Terminology"
+    },
+    {
+      "type": "Is_PCDC_AML_Authorized_Value_For_Variable",
+      "relatedCode": "C168883",
+      "relatedName": "GVHD Organ"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C186341",
+      "relatedName": "HL Authorized Value Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C186321",
+      "relatedName": "HL Biopsy/Surgical Procedures Table"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C186320",
+      "relatedName": "HL Lesion Characteristics Table"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168655",
+      "relatedName": "Mapped ICDO3.1 Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168660",
+      "relatedName": "Mapped ICDO3.1 Topography PT Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168659",
+      "relatedName": "Mapped ICDO3.1 Topography Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168656",
+      "relatedName": "Mapped ICDO3.2 Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168664",
+      "relatedName": "Mapped ICDO3.2 Topography PT Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168663",
+      "relatedName": "Mapped ICDO3.2 Topography Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C193234",
+      "relatedName": "mCode Radiotherapy Treatment Location Value Set"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C193006",
+      "relatedName": "mCode Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C179478",
+      "relatedName": "OS Authorized Value Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C179482",
+      "relatedName": "OS Biopsy/Surgical Procedures Table"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C179483",
+      "relatedName": "OS Radiation Therapy Table"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C179481",
+      "relatedName": "OS Tumor Assessment Table"
+    },
+    {
+      "type": "Is_Value_For_GDC_Property",
+      "relatedCode": "C177570",
+      "relatedName": "Progressive or Recurrent Disease Anatomic Site"
+    },
+    {
+      "type": "Is_PCDC_GCT_Authorized_Value_For_Variable",
+      "relatedCode": "C173281",
+      "relatedName": "Site of Radiation Therapy"
+    },
+    {
+      "type": "Is_Value_For_GDC_Property",
+      "relatedCode": "C156421",
+      "relatedName": "Site of Resection or Biopsy"
+    },
+    {
+      "type": "Is_PCDC_EWS_Authorized_Value_For_Variable",
+      "relatedCode": "C157120",
+      "relatedName": "Site of Tumor"
+    },
+    {
+      "type": "Is_PCDC_GCT_Authorized_Value_For_Variable",
+      "relatedCode": "C157120",
+      "relatedName": "Site of Tumor"
+    },
+    {
+      "type": "Is_Value_For_GDC_Property",
+      "relatedCode": "C171435",
+      "relatedName": "Specimen Anatomic Site"
+    },
+    {
+      "type": "Is_PCDC_GCT_Authorized_Value_For_Variable",
+      "relatedCode": "C164323",
+      "relatedName": "Surgical Site"
+    },
+    {
+      "type": "Is_Value_For_GDC_Property",
+      "relatedCode": "C70729",
+      "relatedName": "Targeted Anatomic Site"
+    },
+    {
+      "type": "Is_Value_For_GDC_Property",
+      "relatedCode": "C156422",
+      "relatedName": "Tissue or Organ of Origin"
+    },
+    {
+      "type": "Is_PCDC_EWS_Authorized_Value_For_Variable",
+      "relatedCode": "C119940",
+      "relatedName": "Tumor Findings Specimen Type"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C198975",
+      "relatedName": "UBERON Terminology"
+    }
+  ],
+  "inverseAssociations": [
+    {
+      "type": "Has_GDC_Value",
+      "relatedCode": "C188396",
+      "relatedName": "Anatomic Site of Maximum Tumor Bulk"
+    },
+    {
+      "type": "Has_GDC_Value",
+      "relatedCode": "C200442",
+      "relatedName": "Anatomic Site or Organ with Contiguous Invasion"
+    },
+    {
+      "type": "Has_GDC_Value",
+      "relatedCode": "C173263",
+      "relatedName": "Disease Involvement Site"
+    },
+    {
+      "type": "Has_PCDC_AML_Authorized_Value",
+      "relatedCode": "C168883",
+      "relatedName": "GVHD Organ"
+    },
+    {
+      "type": "Has_PCDC_HL_Authorized_Value",
+      "relatedCode": "C166232",
+      "relatedName": "Lesion Site"
+    },
+    {
+      "type": "Has_GDC_Value",
+      "relatedCode": "C177570",
+      "relatedName": "Progressive or Recurrent Disease Anatomic Site"
+    },
+    {
+      "type": "Has_CTDC_Value",
+      "relatedCode": "C172273",
+      "relatedName": "Site of Metastasis at Trial Entry"
+    },
+    {
+      "type": "Has_PCDC_GCT_Authorized_Value",
+      "relatedCode": "C173281",
+      "relatedName": "Site of Radiation Therapy"
+    },
+    {
+      "type": "Has_PCDC_OS_Authorized_Value",
+      "relatedCode": "C173281",
+      "relatedName": "Site of Radiation Therapy"
+    },
+    {
+      "type": "Has_GDC_Value",
+      "relatedCode": "C156421",
+      "relatedName": "Site of Resection or Biopsy"
+    },
+    {
+      "type": "Has_PCDC_EWS_Authorized_Value",
+      "relatedCode": "C157120",
+      "relatedName": "Site of Tumor"
+    },
+    {
+      "type": "Has_PCDC_GCT_Authorized_Value",
+      "relatedCode": "C157120",
+      "relatedName": "Site of Tumor"
+    },
+    {
+      "type": "Has_PCDC_OS_Authorized_Value",
+      "relatedCode": "C157120",
+      "relatedName": "Site of Tumor"
+    },
+    {
+      "type": "Has_GDC_Value",
+      "relatedCode": "C171435",
+      "relatedName": "Specimen Anatomic Site"
+    },
+    {
+      "type": "Has_PCDC_EWS_Authorized_Value",
+      "relatedCode": "C164323",
+      "relatedName": "Surgical Site"
+    },
+    {
+      "type": "Has_PCDC_GCT_Authorized_Value",
+      "relatedCode": "C164323",
+      "relatedName": "Surgical Site"
+    },
+    {
+      "type": "Has_PCDC_HL_Authorized_Value",
+      "relatedCode": "C164323",
+      "relatedName": "Surgical Site"
+    },
+    {
+      "type": "Has_PCDC_OS_Authorized_Value",
+      "relatedCode": "C164323",
+      "relatedName": "Surgical Site"
+    },
+    {
+      "type": "Has_GDC_Value",
+      "relatedCode": "C70729",
+      "relatedName": "Targeted Anatomic Site"
+    },
+    {
+      "type": "Has_GDC_Value",
+      "relatedCode": "C156422",
+      "relatedName": "Tissue or Organ of Origin"
+    },
+    {
+      "type": "Has_PCDC_EWS_Authorized_Value",
+      "relatedCode": "C119940",
+      "relatedName": "Tumor Findings Specimen Type"
+    }
+  ],
+  "roles": [
+    {
+      "type": "Anatomic_Structure_Has_Location",
+      "relatedCode": "C12664",
+      "relatedName": "Abdomen"
+    },
+    {
+      "type": "Anatomic_Structure_Is_Physical_Part_Of",
+      "relatedCode": "C43612",
+      "relatedName": "Hepatobiliary System"
+    }
+  ],
+  "inverseRoles": [
+    {
+      "type": "Gene_Product_Expressed_In_Tissue",
+      "relatedCode": "C177229",
+      "relatedName": "4-Hydroxyphenylpyruvate Dioxygenase"
+    },
+    {
+      "type": "Gene_Product_Expressed_In_Tissue",
+      "relatedCode": "C21279",
+      "relatedName": "A Disintegrin and Metalloprotease with Thrombospondin Motifs 9"
+    },
+    {
+      "type": "Gene_Product_Expressed_In_Tissue",
+      "relatedCode": "C28714",
+      "relatedName": "Activin Receptor Type-1B"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C34352",
+      "relatedName": "Acute Alcoholic Hepatitis"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C34352",
+      "relatedName": "Acute Alcoholic Hepatitis"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C157781",
+      "relatedName": "Acute Hepatitis B Infection"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C157781",
+      "relatedName": "Acute Hepatitis B Infection"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C157782",
+      "relatedName": "Acute Hepatitis C Infection"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C157782",
+      "relatedName": "Acute Hepatitis C Infection"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C157783",
+      "relatedName": "Acute Hepatitis E Infection"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C157783",
+      "relatedName": "Acute Hepatitis E Infection"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C35331",
+      "relatedName": "Acute Hepatitis"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C35331",
+      "relatedName": "Acute Hepatitis"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C84396",
+      "relatedName": "Acute Liver Failure"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C84396",
+      "relatedName": "Acute Liver Failure"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C114987",
+      "relatedName": "Adult Combined Hepatocellular Carcinoma and Cholangiocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C114987",
+      "relatedName": "Adult Combined Hepatocellular Carcinoma and Cholangiocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C114992",
+      "relatedName": "Adult Fibrolamellar Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C114992",
+      "relatedName": "Adult Fibrolamellar Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C213350",
+      "relatedName": "Adult Hepatoblastoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C213350",
+      "relatedName": "Adult Hepatoblastoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C7956",
+      "relatedName": "Adult Hepatocellular Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C7956",
+      "relatedName": "Adult Hepatocellular Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C114993",
+      "relatedName": "Adult Hepatocellular Pleomorphic Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C114993",
+      "relatedName": "Adult Hepatocellular Pleomorphic Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C7711",
+      "relatedName": "Adult Liver Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C7711",
+      "relatedName": "Adult Liver Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C189935",
+      "relatedName": "Adult Liver Embryonal Sarcoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C189935",
+      "relatedName": "Adult Liver Embryonal Sarcoma"
+    },
+    {
+      "type": "Disease_Excludes_Metastatic_Anatomic_Site",
+      "relatedCode": "C28302",
+      "relatedName": "Advanced Adult Hepatocellular Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C28302",
+      "relatedName": "Advanced Adult Hepatocellular Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C28302",
+      "relatedName": "Advanced Adult Hepatocellular Carcinoma"
+    },
+    {
+      "type": "Disease_Excludes_Metastatic_Anatomic_Site",
+      "relatedCode": "C142870",
+      "relatedName": "Advanced Bile Duct Carcinoma"
+    },
+    {
+      "type": "Disease_Excludes_Metastatic_Anatomic_Site",
+      "relatedCode": "C171331",
+      "relatedName": "Advanced Biliary Tract Carcinoma"
+    },
+    {
+      "type": "Disease_Excludes_Metastatic_Anatomic_Site",
+      "relatedCode": "C162752",
+      "relatedName": "Advanced Cholangiocarcinoma"
+    },
+    {
+      "type": "Disease_Excludes_Metastatic_Anatomic_Site",
+      "relatedCode": "C209286",
+      "relatedName": "Advanced Distal Bile Duct Carcinoma"
+    },
+    {
+      "type": "Disease_Excludes_Metastatic_Anatomic_Site",
+      "relatedCode": "C176888",
+      "relatedName": "Advanced Distal Cholangiocarcinoma"
+    },
+    {
+      "type": "Disease_Excludes_Metastatic_Anatomic_Site",
+      "relatedCode": "C185072",
+      "relatedName": "Advanced Extrahepatic Bile Duct Carcinoma"
+    },
+    {
+      "type": "Disease_Excludes_Metastatic_Anatomic_Site",
+      "relatedCode": "C213338",
+      "relatedName": "Advanced Extrahepatic Cholangiocarcinoma"
+    },
+    {
+      "type": "Disease_Excludes_Metastatic_Anatomic_Site",
+      "relatedCode": "C185067",
+      "relatedName": "Advanced Fibrolamellar Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C185067",
+      "relatedName": "Advanced Fibrolamellar Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C185067",
+      "relatedName": "Advanced Fibrolamellar Carcinoma"
+    },
+    {
+      "type": "Disease_Excludes_Metastatic_Anatomic_Site",
+      "relatedCode": "C162755",
+      "relatedName": "Advanced Gallbladder Carcinoma"
+    },
+    {
+      "type": "Disease_Excludes_Metastatic_Anatomic_Site",
+      "relatedCode": "C213347",
+      "relatedName": "Advanced Hepatoblastoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C213347",
+      "relatedName": "Advanced Hepatoblastoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C213347",
+      "relatedName": "Advanced Hepatoblastoma"
+    },
+    {
+      "type": "Disease_Excludes_Metastatic_Anatomic_Site",
+      "relatedCode": "C167336",
+      "relatedName": "Advanced Hepatocellular Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C167336",
+      "relatedName": "Advanced Hepatocellular Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C167336",
+      "relatedName": "Advanced Hepatocellular Carcinoma"
+    },
+    {
+      "type": "Disease_Excludes_Metastatic_Anatomic_Site",
+      "relatedCode": "C185070",
+      "relatedName": "Advanced Hilar Cholangiocarcinoma"
+    },
+    {
+      "type": "Disease_Excludes_Metastatic_Anatomic_Site",
+      "relatedCode": "C176891",
+      "relatedName": "Advanced Intrahepatic Cholangiocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C176891",
+      "relatedName": "Advanced Intrahepatic Cholangiocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C176891",
+      "relatedName": "Advanced Intrahepatic Cholangiocarcinoma"
+    },
+    {
+      "type": "Disease_Excludes_Metastatic_Anatomic_Site",
+      "relatedCode": "C211962",
+      "relatedName": "Advanced Liver Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C211962",
+      "relatedName": "Advanced Liver Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C211962",
+      "relatedName": "Advanced Liver Carcinoma"
+    },
+    {
+      "type": "Gene_Product_Expressed_In_Tissue",
+      "relatedCode": "C21386",
+      "relatedName": "AF4/FMR2 Family Member 4"
+    },
+    {
+      "type": "Gene_Product_Expressed_In_Tissue",
+      "relatedCode": "C21331",
+      "relatedName": "Aflatoxin B1 Aldehyde Reductase Member 2"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C27922",
+      "relatedName": "Aflatoxins-Related Hepatocellular Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C27922",
+      "relatedName": "Aflatoxins-Related Hepatocellular Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C27924",
+      "relatedName": "Alcohol-Related Hepatocellular Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C27924",
+      "relatedName": "Alcohol-Related Hepatocellular Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C174184",
+      "relatedName": "Alcoholic Cirrhosis with Ascites"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C174184",
+      "relatedName": "Alcoholic Cirrhosis with Ascites"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C34782",
+      "relatedName": "Alcoholic Cirrhosis"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C34782",
+      "relatedName": "Alcoholic Cirrhosis"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C34684",
+      "relatedName": "Alcoholic Hepatitis"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C34684",
+      "relatedName": "Alcoholic Hepatitis"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C34783",
+      "relatedName": "Alcoholic Liver Disease"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C34783",
+      "relatedName": "Alcoholic Liver Disease"
+    },
+    {
+      "type": "Gene_Product_Expressed_In_Tissue",
+      "relatedCode": "C205180",
+      "relatedName": "Aldehyde Dehydrogenase Family 3 Member A2"
+    },
+    {
+      "type": "Gene_Product_Expressed_In_Tissue",
+      "relatedCode": "C97219",
+      "relatedName": "Aldehyde Dehydrogenase X, Mitochondrial"
+    },
+    {
+      "type": "Gene_Product_Expressed_In_Tissue",
+      "relatedCode": "C21285",
+      "relatedName": "Alpha-1A Adrenergic Receptor"
+    },
+    {
+      "type": "Gene_Product_Expressed_In_Tissue",
+      "relatedCode": "C16278",
+      "relatedName": "Alpha-Fetoprotein"
+    },
+    {
+      "type": "Gene_Product_Expressed_In_Tissue",
+      "relatedCode": "C26060",
+      "relatedName": "Alpha-Globulin"
+    },
+    {
+      "type": "Disease_Excludes_Primary_Anatomic_Site",
+      "relatedCode": "C95966",
+      "relatedName": "Ampulla of Vater Hepatoid Adenocarcinoma"
+    },
+    {
+      "type": "Gene_Product_Expressed_In_Tissue",
+      "relatedCode": "C20941",
+      "relatedName": "Annexin A8"
+    },
+    {
+      "type": "Anatomic_Structure_Is_Physical_Part_Of",
+      "relatedCode": "C32109",
+      "relatedName": "Anterior Surface of the Liver"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C27778",
+      "relatedName": "Autoimmune Hepatitis with Centrilobular Necrosis"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C27778",
+      "relatedName": "Autoimmune Hepatitis with Centrilobular Necrosis"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C27029",
+      "relatedName": "Autoimmune Hepatitis"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C27029",
+      "relatedName": "Autoimmune Hepatitis"
+    },
+    {
+      "type": "Gene_Product_Expressed_In_Tissue",
+      "relatedCode": "C94693",
+      "relatedName": "B(0,+)-Type Amino Acid Transporter 1"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C115139",
+      "relatedName": "BCLC Stage 0 Adult Hepatocellular Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C115139",
+      "relatedName": "BCLC Stage 0 Adult Hepatocellular Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C115133",
+      "relatedName": "BCLC Stage 0 Hepatocellular Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C115133",
+      "relatedName": "BCLC Stage 0 Hepatocellular Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C115140",
+      "relatedName": "BCLC Stage A Adult Hepatocellular Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C115140",
+      "relatedName": "BCLC Stage A Adult Hepatocellular Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C115135",
+      "relatedName": "BCLC Stage A Hepatocellular Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C115135",
+      "relatedName": "BCLC Stage A Hepatocellular Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C115141",
+      "relatedName": "BCLC Stage B Adult Hepatocellular Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C115141",
+      "relatedName": "BCLC Stage B Adult Hepatocellular Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C115136",
+      "relatedName": "BCLC Stage B Hepatocellular Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C115136",
+      "relatedName": "BCLC Stage B Hepatocellular Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C115143",
+      "relatedName": "BCLC Stage C Adult Hepatocellular Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C115143",
+      "relatedName": "BCLC Stage C Adult Hepatocellular Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C115137",
+      "relatedName": "BCLC Stage C Hepatocellular Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C115137",
+      "relatedName": "BCLC Stage C Hepatocellular Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C115144",
+      "relatedName": "BCLC Stage D Adult Hepatocellular Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C115144",
+      "relatedName": "BCLC Stage D Adult Hepatocellular Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C115138",
+      "relatedName": "BCLC Stage D Hepatocellular Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C115138",
+      "relatedName": "BCLC Stage D Hepatocellular Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C96756",
+      "relatedName": "Benign Liver Epithelial Neoplasm"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C96756",
+      "relatedName": "Benign Liver Epithelial Neoplasm"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C190592",
+      "relatedName": "Benign Liver Neoplasm"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C190592",
+      "relatedName": "Benign Liver Neoplasm"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C5749",
+      "relatedName": "Benign Liver Non-Epithelial Neoplasm"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C5749",
+      "relatedName": "Benign Liver Non-Epithelial Neoplasm"
+    },
+    {
+      "type": "Gene_Product_Expressed_In_Tissue",
+      "relatedCode": "C16335",
+      "relatedName": "Beta Globulin"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C96759",
+      "relatedName": "Beta-Catenin-Activated Hepatocellular Adenoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C96759",
+      "relatedName": "Beta-Catenin-Activated Hepatocellular Adenoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C172707",
+      "relatedName": "Beta-Catenin-Activated Inflammatory Hepatocellular Adenoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C172707",
+      "relatedName": "Beta-Catenin-Activated Inflammatory Hepatocellular Adenoma"
+    },
+    {
+      "type": "Gene_Product_Expressed_In_Tissue",
+      "relatedCode": "C21161",
+      "relatedName": "Beta-Microseminoprotein"
+    },
+    {
+      "type": "Gene_Product_Expressed_In_Tissue",
+      "relatedCode": "C21390",
+      "relatedName": "Beta/Gamma Crystallin Domain-Containing Protein 1"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C96826",
+      "relatedName": "Biliary Adenofibroma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C96826",
+      "relatedName": "Biliary Adenofibroma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C51225",
+      "relatedName": "Biliary Cirrhosis"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C51225",
+      "relatedName": "Biliary Cirrhosis"
+    },
+    {
+      "type": "Gene_Product_Expressed_In_Tissue",
+      "relatedCode": "C152039",
+      "relatedName": "Biliverdin Reductase A"
+    },
+    {
+      "type": "Disease_Excludes_Primary_Anatomic_Site",
+      "relatedCode": "C39838",
+      "relatedName": "Bladder Hepatoid Adenocarcinoma"
+    },
+    {
+      "type": "Gene_Product_Expressed_In_Tissue",
+      "relatedCode": "C21350",
+      "relatedName": "Bone Morphogenetic Protein 2"
+    },
+    {
+      "type": "Gene_Product_Expressed_In_Tissue",
+      "relatedCode": "C21354",
+      "relatedName": "Bone Morphogenetic Protein 5"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C208024",
+      "relatedName": "Borderline Resectable Intrahepatic Cholangiocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C208024",
+      "relatedName": "Borderline Resectable Intrahepatic Cholangiocarcinoma"
+    },
+    {
+      "type": "Gene_Product_Expressed_In_Tissue",
+      "relatedCode": "C26432",
+      "relatedName": "BRD4-Interacting Chromatin-Remodeling Complex-Associated Protein"
+    },
+    {
+      "type": "Gene_Product_Expressed_In_Tissue",
+      "relatedCode": "C21500",
+      "relatedName": "Breast Carcinoma-Amplified Sequence 4"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C96830",
+      "relatedName": "Calcifying Nested Stromal-Epithelial Tumor"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C96830",
+      "relatedName": "Calcifying Nested Stromal-Epithelial Tumor"
+    },
+    {
+      "type": "Gene_Product_Expressed_In_Tissue",
+      "relatedCode": "C20145",
+      "relatedName": "Caspase-2"
+    },
+    {
+      "type": "Gene_Product_Expressed_In_Tissue",
+      "relatedCode": "C28431",
+      "relatedName": "Caspase-4"
+    },
+    {
+      "type": "Gene_Product_Expressed_In_Tissue",
+      "relatedCode": "C28434",
+      "relatedName": "Caspase-5"
+    },
+    {
+      "type": "Gene_Product_Expressed_In_Tissue",
+      "relatedCode": "C16387",
+      "relatedName": "Catechol O-Methyltransferase"
+    },
+    {
+      "type": "Anatomic_Structure_Is_Physical_Part_Of",
+      "relatedCode": "C33000",
+      "relatedName": "Caudate Lobe"
+    },
+    {
+      "type": "Gene_Product_Expressed_In_Tissue",
+      "relatedCode": "C17971",
+      "relatedName": "Caveolin-1"
+    },
+    {
+      "type": "Gene_Product_Expressed_In_Tissue",
+      "relatedCode": "C25817",
+      "relatedName": "Cell Division Control Protein 42 Homolog"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C197858",
+      "relatedName": "Central Hemorrhagic Necrosis of Liver"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C197858",
+      "relatedName": "Central Hemorrhagic Necrosis of Liver"
+    },
+    {
+      "type": "Procedure_Has_Excised_Anatomy",
+      "relatedCode": "C91830",
+      "relatedName": "Central Hepatectomy"
+    },
+    {
+      "type": "Procedure_Has_Partially_Excised_Anatomy",
+      "relatedCode": "C91830",
+      "relatedName": "Central Hepatectomy"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C190581",
+      "relatedName": "Childhood Benign Liver Neoplasm"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C190581",
+      "relatedName": "Childhood Benign Liver Neoplasm"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C189932",
+      "relatedName": "Childhood Fibrolamellar Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C189932",
+      "relatedName": "Childhood Fibrolamellar Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C198187",
+      "relatedName": "Childhood Hepatoblastoma by Toronto Guidelines v2 Stage, Tier 1"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C198187",
+      "relatedName": "Childhood Hepatoblastoma by Toronto Guidelines v2 Stage, Tier 1"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C198190",
+      "relatedName": "Childhood Hepatoblastoma by Toronto Guidelines v2 Stage, Tier 2"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C198190",
+      "relatedName": "Childhood Hepatoblastoma by Toronto Guidelines v2 Stage, Tier 2"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C198186",
+      "relatedName": "Childhood Hepatoblastoma by Toronto Guidelines v2 Stage"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C198186",
+      "relatedName": "Childhood Hepatoblastoma by Toronto Guidelines v2 Stage"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C213351",
+      "relatedName": "Childhood Hepatoblastoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C213351",
+      "relatedName": "Childhood Hepatoblastoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C7955",
+      "relatedName": "Childhood Hepatocellular Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C7955",
+      "relatedName": "Childhood Hepatocellular Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C190020",
+      "relatedName": "Childhood Liver Angiosarcoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C190020",
+      "relatedName": "Childhood Liver Angiosarcoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C189934",
+      "relatedName": "Childhood Liver Embryonal Sarcoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C189934",
+      "relatedName": "Childhood Liver Embryonal Sarcoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C27368",
+      "relatedName": "Childhood Liver Neoplasm"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C7708",
+      "relatedName": "Childhood Malignant Liver Neoplasm"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C41617",
+      "relatedName": "Cholangiolocellular Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C41617",
+      "relatedName": "Cholangiolocellular Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C212171",
+      "relatedName": "Chronic Hepatitis B"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C212171",
+      "relatedName": "Chronic Hepatitis B"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C82978",
+      "relatedName": "Chronic Hepatitis"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C82978",
+      "relatedName": "Chronic Hepatitis"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C113609",
+      "relatedName": "Chronic Liver Disease"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C113609",
+      "relatedName": "Chronic Liver Disease"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C197873",
+      "relatedName": "Chronic Viral Hepatitis C"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C197873",
+      "relatedName": "Chronic Viral Hepatitis C"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C82979",
+      "relatedName": "Chronic Viral Hepatitis"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C82979",
+      "relatedName": "Chronic Viral Hepatitis"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C157817",
+      "relatedName": "Cirrhosis of the Liver Secondary to Hepatitis B"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C157817",
+      "relatedName": "Cirrhosis of the Liver Secondary to Hepatitis B"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C157818",
+      "relatedName": "Cirrhosis of the Liver Secondary to Hepatitis C"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C157818",
+      "relatedName": "Cirrhosis of the Liver Secondary to Hepatitis C"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C2951",
+      "relatedName": "Cirrhosis"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C2951",
+      "relatedName": "Cirrhosis"
+    },
+    {
+      "type": "Anatomic_Structure_Is_Physical_Part_Of",
+      "relatedCode": "C32328",
+      "relatedName": "Classic Lobule"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C43848",
+      "relatedName": "Clear Cell Intrahepatic Cholangiocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C43848",
+      "relatedName": "Clear Cell Intrahepatic Cholangiocarcinoma"
+    },
+    {
+      "type": "Gene_Product_Expressed_In_Tissue",
+      "relatedCode": "C28482",
+      "relatedName": "Coagulation Factor IX"
+    },
+    {
+      "type": "Gene_Product_Expressed_In_Tissue",
+      "relatedCode": "C16570",
+      "relatedName": "Coagulation Factor VII"
+    },
+    {
+      "type": "Gene_Product_Expressed_In_Tissue",
+      "relatedCode": "C17792",
+      "relatedName": "Collagen Alpha-1(XVIII) Chain"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C36309",
+      "relatedName": "Colon Carcinoma Metastatic in the Liver"
+    },
+    {
+      "type": "Disease_Has_Metastatic_Anatomic_Site",
+      "relatedCode": "C36309",
+      "relatedName": "Colon Carcinoma Metastatic in the Liver"
+    },
+    {
+      "type": "Disease_Excludes_Primary_Anatomic_Site",
+      "relatedCode": "C213480",
+      "relatedName": "Colon Hepatoid Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C157355",
+      "relatedName": "Colorectal Adenocarcinoma Metastatic in the Liver"
+    },
+    {
+      "type": "Disease_Has_Metastatic_Anatomic_Site",
+      "relatedCode": "C157355",
+      "relatedName": "Colorectal Adenocarcinoma Metastatic in the Liver"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C157366",
+      "relatedName": "Colorectal Carcinoma Metastatic in the Liver"
+    },
+    {
+      "type": "Disease_Has_Metastatic_Anatomic_Site",
+      "relatedCode": "C157366",
+      "relatedName": "Colorectal Carcinoma Metastatic in the Liver"
+    },
+    {
+      "type": "Disease_Excludes_Primary_Anatomic_Site",
+      "relatedCode": "C213479",
+      "relatedName": "Colorectal Hepatoid Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C3828",
+      "relatedName": "Combined Hepatocellular Carcinoma and Cholangiocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C3828",
+      "relatedName": "Combined Hepatocellular Carcinoma and Cholangiocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C3828",
+      "relatedName": "Combined Hepatocellular Carcinoma and Cholangiocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C97071",
+      "relatedName": "Congenital Hepatic Fibrosis"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C97071",
+      "relatedName": "Congenital Hepatic Fibrosis"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C173129",
+      "relatedName": "Congestive Hepatopathy"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C173129",
+      "relatedName": "Congestive Hepatopathy"
+    },
+    {
+      "type": "Anatomic_Structure_Is_Physical_Part_Of",
+      "relatedCode": "C32377",
+      "relatedName": "Coronary Ligament"
+    },
+    {
+      "type": "Anatomic_Structure_Is_Physical_Part_Of",
+      "relatedCode": "C79730",
+      "relatedName": "Couinaud Liver Segment"
+    },
+    {
+      "type": "Gene_Product_Expressed_In_Tissue",
+      "relatedCode": "C86062",
+      "relatedName": "Cryoglobulin"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C84411",
+      "relatedName": "Cryptogenic Cirrhosis"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C84411",
+      "relatedName": "Cryptogenic Cirrhosis"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C178903",
+      "relatedName": "Current Hepatitis B Infection"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C178903",
+      "relatedName": "Current Hepatitis B Infection"
+    },
+    {
+      "type": "Gene_Product_Expressed_In_Tissue",
+      "relatedCode": "C28750",
+      "relatedName": "Cytochrome P450 2C9"
+    },
+    {
+      "type": "Gene_Product_Expressed_In_Tissue",
+      "relatedCode": "C16485",
+      "relatedName": "Cytochrome P450 2E1"
+    },
+    {
+      "type": "Gene_Product_Expressed_In_Tissue",
+      "relatedCode": "C17573",
+      "relatedName": "Cytochrome P450 3A4"
+    },
+    {
+      "type": "Gene_Product_Expressed_In_Tissue",
+      "relatedCode": "C25979",
+      "relatedName": "Cytokine-Inducible SH2-Containing Protein"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C197890",
+      "relatedName": "Cytomegaloviral Hepatitis"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C197890",
+      "relatedName": "Cytomegaloviral Hepatitis"
+    },
+    {
+      "type": "Gene_Product_Expressed_In_Tissue",
+      "relatedCode": "C26211",
+      "relatedName": "Discoidin Domain-Containing Receptor 2"
+    },
+    {
+      "type": "Gene_Product_Expressed_In_Tissue",
+      "relatedCode": "C26485",
+      "relatedName": "Dual Specificity Mitogen-Activated Protein Kinase Kinase 6"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C97072",
+      "relatedName": "Ductal Plate Malformation"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C97072",
+      "relatedName": "Ductal Plate Malformation"
+    },
+    {
+      "type": "Gene_Product_Expressed_In_Tissue",
+      "relatedCode": "C97374",
+      "relatedName": "E3 Ubiquitin-Protein Ligase CCNB1IP1"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C96772",
+      "relatedName": "Early Hepatocellular Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C96772",
+      "relatedName": "Early Hepatocellular Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C205301",
+      "relatedName": "Early Stage Hepatocellular Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C205301",
+      "relatedName": "Early Stage Hepatocellular Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C84428",
+      "relatedName": "End Stage Liver Disease"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C189924",
+      "relatedName": "Epithelial Hepatoblastoma with Pleomorphic Pattern"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C189924",
+      "relatedName": "Epithelial Hepatoblastoma with Pleomorphic Pattern"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C189923",
+      "relatedName": "Epithelial Hepatoblastoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C189923",
+      "relatedName": "Epithelial Hepatoblastoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C185152",
+      "relatedName": "Extramedullary Disease in Multiple Myeloma Involving the Liver"
+    },
+    {
+      "type": "Disease_Has_Metastatic_Anatomic_Site",
+      "relatedCode": "C185152",
+      "relatedName": "Extramedullary Disease in Multiple Myeloma Involving the Liver"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C96847",
+      "relatedName": "Extrarenal Rhabdoid Tumor of the Liver"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C96847",
+      "relatedName": "Extrarenal Rhabdoid Tumor of the Liver"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C96847",
+      "relatedName": "Extrarenal Rhabdoid Tumor of the Liver"
+    },
+    {
+      "type": "Anatomic_Structure_Is_Physical_Part_Of",
+      "relatedCode": "C32582",
+      "relatedName": "Falciform Ligament"
+    },
+    {
+      "type": "Gene_Product_Expressed_In_Tissue",
+      "relatedCode": "C20974",
+      "relatedName": "Fatty Acid-Binding Protein, Heart"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C4131",
+      "relatedName": "Fibrolamellar Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C4131",
+      "relatedName": "Fibrolamellar Carcinoma"
+    },
+    {
+      "type": "Anatomic_Structure_Is_Physical_Part_Of",
+      "relatedCode": "C32601",
+      "relatedName": "Fibrous Coat of the Liver"
+    },
+    {
+      "type": "Anatomic_Structure_Is_Physical_Part_Of",
+      "relatedCode": "C32611",
+      "relatedName": "Fissure of the Ductus Venosus"
+    },
+    {
+      "type": "Anatomic_Structure_Is_Physical_Part_Of",
+      "relatedCode": "C32612",
+      "relatedName": "Fissure of the Gallbladder"
+    },
+    {
+      "type": "Anatomic_Structure_Is_Physical_Part_Of",
+      "relatedCode": "C32613",
+      "relatedName": "Fissure of the Inferior Vena Cava"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C4916",
+      "relatedName": "Focal Nodular Hyperplasia of the Liver"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C4916",
+      "relatedName": "Focal Nodular Hyperplasia of the Liver"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C4916",
+      "relatedName": "Focal Nodular Hyperplasia of the Liver"
+    },
+    {
+      "type": "Gene_Product_Expressed_In_Tissue",
+      "relatedCode": "C177197",
+      "relatedName": "Fumarylacetoacetase"
+    },
+    {
+      "type": "Disease_Excludes_Primary_Anatomic_Site",
+      "relatedCode": "C96890",
+      "relatedName": "Gallbladder Hepatoid Adenocarcinoma"
+    },
+    {
+      "type": "Gene_Product_Expressed_In_Tissue",
+      "relatedCode": "C16601",
+      "relatedName": "Gamma Globulin"
+    },
+    {
+      "type": "Disease_Excludes_Primary_Anatomic_Site",
+      "relatedCode": "C95747",
+      "relatedName": "Gastric Hepatoid Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C219967",
+      "relatedName": "Glisson Capsule Cirrhosis"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C219967",
+      "relatedName": "Glisson Capsule Cirrhosis"
+    },
+    {
+      "type": "Gene_Product_Expressed_In_Tissue",
+      "relatedCode": "C21516",
+      "relatedName": "Glutaminase Liver Isoform, Mitochondrial"
+    },
+    {
+      "type": "Gene_Product_Expressed_In_Tissue",
+      "relatedCode": "C18290",
+      "relatedName": "Glutathione S-Transferase Mu 1"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C27015",
+      "relatedName": "Granulomatous Hepatitis"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C27015",
+      "relatedName": "Granulomatous Hepatitis"
+    },
+    {
+      "type": "Gene_Product_Expressed_In_Tissue",
+      "relatedCode": "C21487",
+      "relatedName": "GTP-Binding Protein Di-Ras3"
+    },
+    {
+      "type": "Gene_Product_Expressed_In_Tissue",
+      "relatedCode": "C21444",
+      "relatedName": "Guanine Nucleotide Exchange Factor VAV3"
+    },
+    {
+      "type": "Procedure_Has_Excised_Anatomy",
+      "relatedCode": "C15249",
+      "relatedName": "Hepatectomy"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C197916",
+      "relatedName": "Hepatic Infarction"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C197916",
+      "relatedName": "Hepatic Infarction"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C78339",
+      "relatedName": "Hepatic Infection"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C78339",
+      "relatedName": "Hepatic Infection"
+    },
+    {
+      "type": "Gene_Product_Expressed_In_Tissue",
+      "relatedCode": "C97558",
+      "relatedName": "Hepatic Leukemia Factor"
+    },
+    {
+      "type": "Anatomic_Structure_Is_Physical_Part_Of",
+      "relatedCode": "C32732",
+      "relatedName": "Hepatic Lobule"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C197911",
+      "relatedName": "Hepatic Sclerosis"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C197911",
+      "relatedName": "Hepatic Sclerosis"
+    },
+    {
+      "type": "Anatomic_Structure_Is_Physical_Part_Of",
+      "relatedCode": "C32733",
+      "relatedName": "Hepatic Sinusoid"
+    },
+    {
+      "type": "Anatomic_Structure_Is_Physical_Part_Of",
+      "relatedCode": "C32735",
+      "relatedName": "Hepatic Tissue"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C3096",
+      "relatedName": "Hepatitis A Infection"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C3096",
+      "relatedName": "Hepatitis A Infection"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C3097",
+      "relatedName": "Hepatitis B Infection"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C3097",
+      "relatedName": "Hepatitis B Infection"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C27687",
+      "relatedName": "Hepatitis B Virus-Related Hepatocellular Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C27687",
+      "relatedName": "Hepatitis B Virus-Related Hepatocellular Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C3098",
+      "relatedName": "Hepatitis C Infection"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C3098",
+      "relatedName": "Hepatitis C Infection"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C27688",
+      "relatedName": "Hepatitis C Virus-Related Hepatocellular Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C27688",
+      "relatedName": "Hepatitis C Virus-Related Hepatocellular Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C89782",
+      "relatedName": "Hepatitis G Infection"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C89782",
+      "relatedName": "Hepatitis G Infection"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C27686",
+      "relatedName": "Hepatitis Virus-Related Hepatocellular Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C27686",
+      "relatedName": "Hepatitis Virus-Related Hepatocellular Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C3095",
+      "relatedName": "Hepatitis"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C3095",
+      "relatedName": "Hepatitis"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C189929",
+      "relatedName": "Hepatoblastoma by Postsurgical Stage"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C189929",
+      "relatedName": "Hepatoblastoma by Postsurgical Stage"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C189927",
+      "relatedName": "Hepatoblastoma by PRETEXT Stage"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C189927",
+      "relatedName": "Hepatoblastoma by PRETEXT Stage"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C7094",
+      "relatedName": "Hepatoblastoma with Combined Fetal and Embryonal Epithelial Differentiation"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C7094",
+      "relatedName": "Hepatoblastoma with Combined Fetal and Embryonal Epithelial Differentiation"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C7093",
+      "relatedName": "Hepatoblastoma with Pure Fetal Epithelial Differentiation"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C7093",
+      "relatedName": "Hepatoblastoma with Pure Fetal Epithelial Differentiation"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C3728",
+      "relatedName": "Hepatoblastoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C3728",
+      "relatedName": "Hepatoblastoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C3728",
+      "relatedName": "Hepatoblastoma"
+    },
+    {
+      "type": "Biological_Process_Has_Associated_Location",
+      "relatedCode": "C19427",
+      "relatedName": "Hepatocarcinogenesis"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C3758",
+      "relatedName": "Hepatocellular Adenoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C3758",
+      "relatedName": "Hepatocellular Adenoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C3758",
+      "relatedName": "Hepatocellular Adenoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C90510",
+      "relatedName": "Hepatocellular Carcinoma by AJCC v6 Stage"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C90510",
+      "relatedName": "Hepatocellular Carcinoma by AJCC v6 Stage"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C91228",
+      "relatedName": "Hepatocellular Carcinoma by AJCC v7 Stage"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C91228",
+      "relatedName": "Hepatocellular Carcinoma by AJCC v7 Stage"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C134515",
+      "relatedName": "Hepatocellular Carcinoma by AJCC v8 Stage"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C134515",
+      "relatedName": "Hepatocellular Carcinoma by AJCC v8 Stage"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C115132",
+      "relatedName": "Hepatocellular Carcinoma by BCLC Stage"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C115132",
+      "relatedName": "Hepatocellular Carcinoma by BCLC Stage"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C3099",
+      "relatedName": "Hepatocellular Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C3099",
+      "relatedName": "Hepatocellular Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C3099",
+      "relatedName": "Hepatocellular Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C172712",
+      "relatedName": "Hepatocellular Chromophobe Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C172712",
+      "relatedName": "Hepatocellular Chromophobe Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C5754",
+      "relatedName": "Hepatocellular Clear Cell Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C5754",
+      "relatedName": "Hepatocellular Clear Cell Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C82891",
+      "relatedName": "Hepatocellular Large Cell Change"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C82891",
+      "relatedName": "Hepatocellular Large Cell Change"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C96788",
+      "relatedName": "Hepatocellular Lymphocyte-Rich Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C96788",
+      "relatedName": "Hepatocellular Lymphocyte-Rich Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C172710",
+      "relatedName": "Hepatocellular Macrotrabecular Massive Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C172710",
+      "relatedName": "Hepatocellular Macrotrabecular Massive Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C161838",
+      "relatedName": "Hepatocellular Malignant Neoplasm, Not Otherwise Specified"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C161838",
+      "relatedName": "Hepatocellular Malignant Neoplasm, Not Otherwise Specified"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C96790",
+      "relatedName": "Hepatocellular Moderately Differentiated Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C96790",
+      "relatedName": "Hepatocellular Moderately Differentiated Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C172713",
+      "relatedName": "Hepatocellular Neutrophil-Rich Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C172713",
+      "relatedName": "Hepatocellular Neutrophil-Rich Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C43625",
+      "relatedName": "Hepatocellular Pleomorphic Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C43625",
+      "relatedName": "Hepatocellular Pleomorphic Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C96791",
+      "relatedName": "Hepatocellular Poorly Differentiated Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C96791",
+      "relatedName": "Hepatocellular Poorly Differentiated Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C43627",
+      "relatedName": "Hepatocellular Sarcomatoid Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C43627",
+      "relatedName": "Hepatocellular Sarcomatoid Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C27388",
+      "relatedName": "Hepatocellular Scirrhous Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C27388",
+      "relatedName": "Hepatocellular Scirrhous Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C96765",
+      "relatedName": "Hepatocellular Small Cell Change"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C96765",
+      "relatedName": "Hepatocellular Small Cell Change"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C96789",
+      "relatedName": "Hepatocellular Well Differentiated Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C96789",
+      "relatedName": "Hepatocellular Well Differentiated Carcinoma"
+    },
+    {
+      "type": "Gene_Product_Expressed_In_Tissue",
+      "relatedCode": "C97827",
+      "relatedName": "Hepatocyte Nuclear Factor 1-Alpha"
+    },
+    {
+      "type": "Disease_Excludes_Primary_Anatomic_Site",
+      "relatedCode": "C66950",
+      "relatedName": "Hepatoid Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C119011",
+      "relatedName": "Hepatolithiasis"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C119011",
+      "relatedName": "Hepatolithiasis"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C8459",
+      "relatedName": "Hepatosplenic T-Cell Lymphoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C8459",
+      "relatedName": "Hepatosplenic T-Cell Lymphoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C96768",
+      "relatedName": "High Grade Liver Dysplastic Nodule"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C96768",
+      "relatedName": "High Grade Liver Dysplastic Nodule"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C96758",
+      "relatedName": "HNF1alpha-Inactivated Hepatocellular Adenoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C96758",
+      "relatedName": "HNF1alpha-Inactivated Hepatocellular Adenoma"
+    },
+    {
+      "type": "Gene_Product_Expressed_In_Tissue",
+      "relatedCode": "C21520",
+      "relatedName": "Hypoxia Up-Regulated 1 Protein"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C96760",
+      "relatedName": "Inflammatory Hepatocellular Adenoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C96760",
+      "relatedName": "Inflammatory Hepatocellular Adenoma"
+    },
+    {
+      "type": "Gene_Product_Expressed_In_Tissue",
+      "relatedCode": "C17505",
+      "relatedName": "Insulin-Like Growth Factor-Binding Protein 1"
+    },
+    {
+      "type": "Anatomic_Structure_Is_Physical_Part_Of",
+      "relatedCode": "C32827",
+      "relatedName": "Interlobular Bile Duct"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C7126",
+      "relatedName": "Intrahepatic Bile Duct Adenoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C7126",
+      "relatedName": "Intrahepatic Bile Duct Adenoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C96943",
+      "relatedName": "Intrahepatic Bile Duct Biliary Intraepithelial Neoplasia"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C134604",
+      "relatedName": "Intrahepatic Bile Duct Cancer by AJCC v8 Stage"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C134604",
+      "relatedName": "Intrahepatic Bile Duct Cancer by AJCC v8 Stage"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C96949",
+      "relatedName": "Intrahepatic Bile Duct Intraductal Papillary Neoplasm with an Associated Invasive Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C96949",
+      "relatedName": "Intrahepatic Bile Duct Intraductal Papillary Neoplasm with an Associated Invasive Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C7125",
+      "relatedName": "Intrahepatic Bile Duct Intraductal Papillary Neoplasm"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C7127",
+      "relatedName": "Intrahepatic Bile Duct Microcystic Adenoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C7127",
+      "relatedName": "Intrahepatic Bile Duct Microcystic Adenoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C96947",
+      "relatedName": "Intrahepatic Bile Duct Mucinous Cystic Neoplasm with an Associated Invasive Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C96947",
+      "relatedName": "Intrahepatic Bile Duct Mucinous Cystic Neoplasm with an Associated Invasive Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C96835",
+      "relatedName": "Intrahepatic Bile Duct Mucinous Cystic Neoplasm"
+    },
+    {
+      "type": "Anatomic_Structure_Is_Physical_Part_Of",
+      "relatedCode": "C12677",
+      "relatedName": "Intrahepatic Bile Duct"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C134514",
+      "relatedName": "Intrahepatic Cholangiocarcinoma by AJCC v7 Stage"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C134514",
+      "relatedName": "Intrahepatic Cholangiocarcinoma by AJCC v7 Stage"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C134755",
+      "relatedName": "Intrahepatic Cholangiocarcinoma by AJCC v8 Stage"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C134755",
+      "relatedName": "Intrahepatic Cholangiocarcinoma by AJCC v8 Stage"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C35417",
+      "relatedName": "Intrahepatic Cholangiocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C35417",
+      "relatedName": "Intrahepatic Cholangiocarcinoma"
+    },
+    {
+      "type": "Anatomic_Structure_Is_Physical_Part_Of",
+      "relatedCode": "C96803",
+      "relatedName": "Intrahepatic Large Bile Duct"
+    },
+    {
+      "type": "Anatomic_Structure_Is_Physical_Part_Of",
+      "relatedCode": "C38668",
+      "relatedName": "Intrahepatic Portion of the Left Hepatic Duct"
+    },
+    {
+      "type": "Anatomic_Structure_Is_Physical_Part_Of",
+      "relatedCode": "C38669",
+      "relatedName": "Intrahepatic Portion of the Right Hepatic Duct"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C96804",
+      "relatedName": "Large Duct Intrahepatic Cholangiocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C96804",
+      "relatedName": "Large Duct Intrahepatic Cholangiocarcinoma"
+    },
+    {
+      "type": "Anatomic_Structure_Is_Physical_Part_Of",
+      "relatedCode": "C32941",
+      "relatedName": "Lateral Ligament"
+    },
+    {
+      "type": "Anatomic_Structure_Is_Physical_Part_Of",
+      "relatedCode": "C32948",
+      "relatedName": "Lateral Surface of the Liver"
+    },
+    {
+      "type": "Anatomic_Structure_Is_Physical_Part_Of",
+      "relatedCode": "C79733",
+      "relatedName": "Left Anterolateral Segment"
+    },
+    {
+      "type": "Procedure_Has_Excised_Anatomy",
+      "relatedCode": "C51571",
+      "relatedName": "Left Hemihepatectomy"
+    },
+    {
+      "type": "Procedure_Has_Partially_Excised_Anatomy",
+      "relatedCode": "C51571",
+      "relatedName": "Left Hemihepatectomy"
+    },
+    {
+      "type": "Anatomic_Structure_Is_Physical_Part_Of",
+      "relatedCode": "C79735",
+      "relatedName": "Left Inferomedial Segment"
+    },
+    {
+      "type": "Anatomic_Structure_Is_Physical_Part_Of",
+      "relatedCode": "C32965",
+      "relatedName": "Left Lobe of the Liver"
+    },
+    {
+      "type": "Anatomic_Structure_Is_Physical_Part_Of",
+      "relatedCode": "C198297",
+      "relatedName": "Left Medial Segment of Liver"
+    },
+    {
+      "type": "Anatomic_Structure_Is_Physical_Part_Of",
+      "relatedCode": "C79732",
+      "relatedName": "Left Posterolateral Segment"
+    },
+    {
+      "type": "Anatomic_Structure_Is_Physical_Part_Of",
+      "relatedCode": "C79734",
+      "relatedName": "Left Superomedial Segment"
+    },
+    {
+      "type": "Gene_Product_Expressed_In_Tissue",
+      "relatedCode": "C26349",
+      "relatedName": "Leptin Receptor"
+    },
+    {
+      "type": "Gene_Product_Expressed_In_Tissue",
+      "relatedCode": "C26329",
+      "relatedName": "Leukotriene B4 Receptor 1"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C99089",
+      "relatedName": "Liver Abscess"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C99089",
+      "relatedName": "Liver Abscess"
+    },
+    {
+      "type": "Anatomic_Structure_Is_Physical_Part_Of",
+      "relatedCode": "C32992",
+      "relatedName": "Liver Acinus"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C118630",
+      "relatedName": "Liver Adenosquamous Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C118630",
+      "relatedName": "Liver Adenosquamous Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C3196",
+      "relatedName": "Liver and Intrahepatic Bile Duct Disorder"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C27485",
+      "relatedName": "Liver Angiomyolipoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C27485",
+      "relatedName": "Liver Angiomyolipoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C4438",
+      "relatedName": "Liver Angiosarcoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C4438",
+      "relatedName": "Liver Angiosarcoma"
+    },
+    {
+      "type": "Procedure_Has_Partially_Excised_Anatomy",
+      "relatedCode": "C51677",
+      "relatedName": "Liver Biopsy"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C7927",
+      "relatedName": "Liver Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C7927",
+      "relatedName": "Liver Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C7927",
+      "relatedName": "Liver Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C96848",
+      "relatedName": "Liver Carcinosarcoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C96848",
+      "relatedName": "Liver Carcinosarcoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C96839",
+      "relatedName": "Liver Cavernous Hemangioma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C96839",
+      "relatedName": "Liver Cavernous Hemangioma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C190019",
+      "relatedName": "Liver Congenital Hemangioma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C190019",
+      "relatedName": "Liver Congenital Hemangioma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C213547",
+      "relatedName": "Liver Dedifferentiated Liposarcoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C213547",
+      "relatedName": "Liver Dedifferentiated Liposarcoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C96843",
+      "relatedName": "Liver Diffuse Large B-Cell Lymphoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C96843",
+      "relatedName": "Liver Diffuse Large B-Cell Lymphoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C84412",
+      "relatedName": "Liver Disease Associated with Cystic Fibrosis"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C84412",
+      "relatedName": "Liver Disease Associated with Cystic Fibrosis"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C7656",
+      "relatedName": "Liver Dysplastic Nodule"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C7656",
+      "relatedName": "Liver Dysplastic Nodule"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C27096",
+      "relatedName": "Liver Embryonal Sarcoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C27096",
+      "relatedName": "Liver Embryonal Sarcoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C7106",
+      "relatedName": "Liver Epithelial Neoplasm"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C96846",
+      "relatedName": "Liver Epithelioid Hemangioendothelioma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C96846",
+      "relatedName": "Liver Epithelioid Hemangioendothelioma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C5833",
+      "relatedName": "Liver Extraskeletal Osteosarcoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C5833",
+      "relatedName": "Liver Extraskeletal Osteosarcoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C26922",
+      "relatedName": "Liver Failure"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C26922",
+      "relatedName": "Liver Failure"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C5832",
+      "relatedName": "Liver Fibrosarcoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C5832",
+      "relatedName": "Liver Fibrosarcoma"
+    },
+    {
+      "type": "Anatomic_Structure_Is_Physical_Part_Of",
+      "relatedCode": "C32996",
+      "relatedName": "Liver Fissure"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C96849",
+      "relatedName": "Liver Germ Cell Tumor"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C3869",
+      "relatedName": "Liver Hemangioma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C3869",
+      "relatedName": "Liver Hemangioma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C3869",
+      "relatedName": "Liver Hemangioma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C96840",
+      "relatedName": "Liver Infantile Hemangioma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C96840",
+      "relatedName": "Liver Infantile Hemangioma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C5858",
+      "relatedName": "Liver Inflammatory Myofibroblastic Tumor"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C96844",
+      "relatedName": "Liver Kaposi Sarcoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C96844",
+      "relatedName": "Liver Kaposi Sarcoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C172722",
+      "relatedName": "Liver Large Cell Neuroendocrine Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C172722",
+      "relatedName": "Liver Large Cell Neuroendocrine Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C5753",
+      "relatedName": "Liver Leiomyoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C5753",
+      "relatedName": "Liver Leiomyoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C5756",
+      "relatedName": "Liver Leiomyosarcoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C5756",
+      "relatedName": "Liver Leiomyosarcoma"
+    },
+    {
+      "type": "Anatomic_Structure_Is_Physical_Part_Of",
+      "relatedCode": "C32997",
+      "relatedName": "Liver Ligament"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C5750",
+      "relatedName": "Liver Lipoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C5750",
+      "relatedName": "Liver Lipoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C213546",
+      "relatedName": "Liver Liposarcoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C213546",
+      "relatedName": "Liver Liposarcoma"
+    },
+    {
+      "type": "Anatomic_Structure_Is_Physical_Part_Of",
+      "relatedCode": "C49579",
+      "relatedName": "Liver Lobe"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C96841",
+      "relatedName": "Liver Lymphangioma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C96841",
+      "relatedName": "Liver Lymphangioma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C96842",
+      "relatedName": "Liver Lymphangiomatosis"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C96842",
+      "relatedName": "Liver Lymphangiomatosis"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C4949",
+      "relatedName": "Liver Lymphoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C4949",
+      "relatedName": "Liver Lymphoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C5751",
+      "relatedName": "Liver Mesenchymal Hamartoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C5751",
+      "relatedName": "Liver Mesenchymal Hamartoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C172718",
+      "relatedName": "Liver Mixed Adenoneuroendocrine Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C172718",
+      "relatedName": "Liver Mixed Adenoneuroendocrine Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C213597",
+      "relatedName": "Liver Mixed Germ Cell Tumor"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C213597",
+      "relatedName": "Liver Mixed Germ Cell Tumor"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C5768",
+      "relatedName": "Liver Mucosa-Associated Lymphoid Tissue Lymphoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C5768",
+      "relatedName": "Liver Mucosa-Associated Lymphoid Tissue Lymphoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C7103",
+      "relatedName": "Liver Neoplasm"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C7103",
+      "relatedName": "Liver Neoplasm"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C96787",
+      "relatedName": "Liver Neuroendocrine Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C96787",
+      "relatedName": "Liver Neuroendocrine Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C96786",
+      "relatedName": "Liver Neuroendocrine Neoplasm"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C96786",
+      "relatedName": "Liver Neuroendocrine Neoplasm"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C172719",
+      "relatedName": "Liver Neuroendocrine Tumor G1"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C172719",
+      "relatedName": "Liver Neuroendocrine Tumor G1"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C172720",
+      "relatedName": "Liver Neuroendocrine Tumor G2"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C172720",
+      "relatedName": "Liver Neuroendocrine Tumor G2"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C172721",
+      "relatedName": "Liver Neuroendocrine Tumor G3"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C172721",
+      "relatedName": "Liver Neuroendocrine Tumor G3"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C5783",
+      "relatedName": "Liver Neuroendocrine Tumor"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C5783",
+      "relatedName": "Liver Neuroendocrine Tumor"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C7107",
+      "relatedName": "Liver Non-Epithelial Neoplasm"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C5766",
+      "relatedName": "Liver Non-Hodgkin Lymphoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C5766",
+      "relatedName": "Liver Non-Hodgkin Lymphoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C185042",
+      "relatedName": "Liver Plasmacytoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C185042",
+      "relatedName": "Liver Plasmacytoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C5834",
+      "relatedName": "Liver Rhabdomyosarcoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C5834",
+      "relatedName": "Liver Rhabdomyosarcoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C4437",
+      "relatedName": "Liver Sarcoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C4437",
+      "relatedName": "Liver Sarcoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C172725",
+      "relatedName": "Liver Small Cell Neuroendocrine Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C172725",
+      "relatedName": "Liver Small Cell Neuroendocrine Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C172856",
+      "relatedName": "Liver Soft Tissue Neoplasm"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C5752",
+      "relatedName": "Liver Solitary Fibrous Tumor"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C5752",
+      "relatedName": "Liver Solitary Fibrous Tumor"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C5752",
+      "relatedName": "Liver Solitary Fibrous Tumor"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C96845",
+      "relatedName": "Liver Synovial Sarcoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C96845",
+      "relatedName": "Liver Synovial Sarcoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C96850",
+      "relatedName": "Liver Teratoma"
+    },
+    {
+      "type": "Procedure_Has_Target_Anatomy",
+      "relatedCode": "C15271",
+      "relatedName": "Liver Transplantation"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C96792",
+      "relatedName": "Liver Undifferentiated Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C96792",
+      "relatedName": "Liver Undifferentiated Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C35442",
+      "relatedName": "Liver Vascular Disorder"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C35442",
+      "relatedName": "Liver Vascular Disorder"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C96851",
+      "relatedName": "Liver Yolk Sac Tumor"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C96851",
+      "relatedName": "Liver Yolk Sac Tumor"
+    },
+    {
+      "type": "Procedure_Has_Excised_Anatomy",
+      "relatedCode": "C51555",
+      "relatedName": "Lobectomy of Liver"
+    },
+    {
+      "type": "Procedure_Has_Partially_Excised_Anatomy",
+      "relatedCode": "C51555",
+      "relatedName": "Lobectomy of Liver"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C198191",
+      "relatedName": "Localized Childhood Hepatoblastoma by Toronto Guidelines v2, Tier 2"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C198191",
+      "relatedName": "Localized Childhood Hepatoblastoma by Toronto Guidelines v2, Tier 2"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C198188",
+      "relatedName": "Localized Childhood Hepatoblastoma by Toronto Guidelines v2, Tier1"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C198188",
+      "relatedName": "Localized Childhood Hepatoblastoma by Toronto Guidelines v2, Tier1"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C198011",
+      "relatedName": "Localized PRETEXT I Hepatoblastoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C198011",
+      "relatedName": "Localized PRETEXT I Hepatoblastoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C198012",
+      "relatedName": "Localized PRETEXT II Hepatoblastoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C198012",
+      "relatedName": "Localized PRETEXT II Hepatoblastoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C198013",
+      "relatedName": "Localized PRETEXT III Hepatoblastoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C198013",
+      "relatedName": "Localized PRETEXT III Hepatoblastoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C198014",
+      "relatedName": "Localized PRETEXT IV Hepatoblastoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C198014",
+      "relatedName": "Localized PRETEXT IV Hepatoblastoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C9064",
+      "relatedName": "Localized Resectable Adult Hepatocellular Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C9064",
+      "relatedName": "Localized Resectable Adult Hepatocellular Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C7877",
+      "relatedName": "Localized Resectable Adult Liver Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C7877",
+      "relatedName": "Localized Resectable Adult Liver Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C9065",
+      "relatedName": "Localized Unresectable Adult Hepatocellular Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C9065",
+      "relatedName": "Localized Unresectable Adult Hepatocellular Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C7878",
+      "relatedName": "Localized Unresectable Adult Liver Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C7878",
+      "relatedName": "Localized Unresectable Adult Liver Carcinoma"
+    },
+    {
+      "type": "Disease_Excludes_Metastatic_Anatomic_Site",
+      "relatedCode": "C151971",
+      "relatedName": "Locally Advanced Bile Duct Carcinoma"
+    },
+    {
+      "type": "Disease_Excludes_Metastatic_Anatomic_Site",
+      "relatedCode": "C222832",
+      "relatedName": "Locally Advanced Biliary Tract Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Excludes_Metastatic_Anatomic_Site",
+      "relatedCode": "C168981",
+      "relatedName": "Locally Advanced Biliary Tract Carcinoma"
+    },
+    {
+      "type": "Disease_Excludes_Metastatic_Anatomic_Site",
+      "relatedCode": "C168994",
+      "relatedName": "Locally Advanced Cholangiocarcinoma"
+    },
+    {
+      "type": "Disease_Excludes_Metastatic_Anatomic_Site",
+      "relatedCode": "C213915",
+      "relatedName": "Locally Advanced Combined Hepatocellular Carcinoma and Cholangiocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C213915",
+      "relatedName": "Locally Advanced Combined Hepatocellular Carcinoma and Cholangiocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C213915",
+      "relatedName": "Locally Advanced Combined Hepatocellular Carcinoma and Cholangiocarcinoma"
+    },
+    {
+      "type": "Disease_Excludes_Metastatic_Anatomic_Site",
+      "relatedCode": "C175506",
+      "relatedName": "Locally Advanced Distal Bile Duct Carcinoma"
+    },
+    {
+      "type": "Disease_Excludes_Metastatic_Anatomic_Site",
+      "relatedCode": "C209280",
+      "relatedName": "Locally Advanced Distal Cholangiocarcinoma"
+    },
+    {
+      "type": "Disease_Excludes_Metastatic_Anatomic_Site",
+      "relatedCode": "C187244",
+      "relatedName": "Locally Advanced Extrahepatic Bile Duct Carcinoma"
+    },
+    {
+      "type": "Disease_Excludes_Metastatic_Anatomic_Site",
+      "relatedCode": "C213912",
+      "relatedName": "Locally Advanced Extrahepatic Cholangiocarcinoma"
+    },
+    {
+      "type": "Disease_Excludes_Metastatic_Anatomic_Site",
+      "relatedCode": "C170462",
+      "relatedName": "Locally Advanced Gallbladder Carcinoma"
+    },
+    {
+      "type": "Disease_Excludes_Metastatic_Anatomic_Site",
+      "relatedCode": "C168979",
+      "relatedName": "Locally Advanced Hepatocellular Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C168979",
+      "relatedName": "Locally Advanced Hepatocellular Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C168979",
+      "relatedName": "Locally Advanced Hepatocellular Carcinoma"
+    },
+    {
+      "type": "Disease_Excludes_Metastatic_Anatomic_Site",
+      "relatedCode": "C173814",
+      "relatedName": "Locally Advanced Intrahepatic Cholangiocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C173814",
+      "relatedName": "Locally Advanced Intrahepatic Cholangiocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C173814",
+      "relatedName": "Locally Advanced Intrahepatic Cholangiocarcinoma"
+    },
+    {
+      "type": "Disease_Excludes_Metastatic_Anatomic_Site",
+      "relatedCode": "C171298",
+      "relatedName": "Locally Advanced Liver Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C171298",
+      "relatedName": "Locally Advanced Liver Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C171298",
+      "relatedName": "Locally Advanced Liver Carcinoma"
+    },
+    {
+      "type": "Disease_Excludes_Metastatic_Anatomic_Site",
+      "relatedCode": "C187412",
+      "relatedName": "Locally Advanced Unresectable Cholangiocarcinoma"
+    },
+    {
+      "type": "Disease_Excludes_Metastatic_Anatomic_Site",
+      "relatedCode": "C213713",
+      "relatedName": "Locally Advanced Unresectable Gallbladder Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Excludes_Metastatic_Anatomic_Site",
+      "relatedCode": "C187413",
+      "relatedName": "Locally Advanced Unresectable Gallbladder Carcinoma"
+    },
+    {
+      "type": "Disease_Excludes_Metastatic_Anatomic_Site",
+      "relatedCode": "C210687",
+      "relatedName": "Locally Advanced Unresectable Hepatocellular Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C210687",
+      "relatedName": "Locally Advanced Unresectable Hepatocellular Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C210687",
+      "relatedName": "Locally Advanced Unresectable Hepatocellular Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C96770",
+      "relatedName": "Low Grade Liver Dysplastic Nodule"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C96770",
+      "relatedName": "Low Grade Liver Dysplastic Nodule"
+    },
+    {
+      "type": "Gene_Product_Expressed_In_Tissue",
+      "relatedCode": "C26333",
+      "relatedName": "Lymphocyte Antigen 6E"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C7095",
+      "relatedName": "Macrotrabecular Hepatoblastoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C7095",
+      "relatedName": "Macrotrabecular Hepatoblastoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C213598",
+      "relatedName": "Malignant Liver Germ Cell Tumor"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C213598",
+      "relatedName": "Malignant Liver Germ Cell Tumor"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C190593",
+      "relatedName": "Malignant Liver Neoplasm"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C7115",
+      "relatedName": "Malignant Liver Non-Epithelial Neoplasm"
+    },
+    {
+      "type": "Gene_Product_Expressed_In_Tissue",
+      "relatedCode": "C28556",
+      "relatedName": "MAX-Interacting Protein 1"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C84445",
+      "relatedName": "Metabolic Dysfunction-Associated Steatohepatitis"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C84445",
+      "relatedName": "Metabolic Dysfunction-Associated Steatohepatitis"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C84444",
+      "relatedName": "Metabolic Dysfunction-Associated Steatotic Liver Disease"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C84444",
+      "relatedName": "Metabolic Dysfunction-Associated Steatotic Liver Disease"
+    },
+    {
+      "type": "Disease_Excludes_Metastatic_Anatomic_Site",
+      "relatedCode": "C142869",
+      "relatedName": "Metastatic Bile Duct Carcinoma"
+    },
+    {
+      "type": "Disease_Excludes_Metastatic_Anatomic_Site",
+      "relatedCode": "C222831",
+      "relatedName": "Metastatic Biliary Tract Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Excludes_Metastatic_Anatomic_Site",
+      "relatedCode": "C162751",
+      "relatedName": "Metastatic Biliary Tract Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C36302",
+      "relatedName": "Metastatic Breast Carcinoma in the Liver"
+    },
+    {
+      "type": "Disease_Has_Metastatic_Anatomic_Site",
+      "relatedCode": "C36302",
+      "relatedName": "Metastatic Breast Carcinoma in the Liver"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C96767",
+      "relatedName": "Metastatic Carcinoma in the Liver"
+    },
+    {
+      "type": "Disease_Has_Metastatic_Anatomic_Site",
+      "relatedCode": "C96767",
+      "relatedName": "Metastatic Carcinoma in the Liver"
+    },
+    {
+      "type": "Disease_Has_Metastatic_Anatomic_Site",
+      "relatedCode": "C96767",
+      "relatedName": "Metastatic Carcinoma in the Liver"
+    },
+    {
+      "type": "Disease_Excludes_Metastatic_Anatomic_Site",
+      "relatedCode": "C198189",
+      "relatedName": "Metastatic Childhood Hepatoblastoma by Toronto Guidelines v2, Tier 1"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C198189",
+      "relatedName": "Metastatic Childhood Hepatoblastoma by Toronto Guidelines v2, Tier 1"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C198189",
+      "relatedName": "Metastatic Childhood Hepatoblastoma by Toronto Guidelines v2, Tier 1"
+    },
+    {
+      "type": "Disease_Excludes_Metastatic_Anatomic_Site",
+      "relatedCode": "C198192",
+      "relatedName": "Metastatic Childhood Hepatoblastoma by Toronto Guidelines v2, Tier 2"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C198192",
+      "relatedName": "Metastatic Childhood Hepatoblastoma by Toronto Guidelines v2, Tier 2"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C198192",
+      "relatedName": "Metastatic Childhood Hepatoblastoma by Toronto Guidelines v2, Tier 2"
+    },
+    {
+      "type": "Disease_Excludes_Metastatic_Anatomic_Site",
+      "relatedCode": "C157623",
+      "relatedName": "Metastatic Cholangiocarcinoma"
+    },
+    {
+      "type": "Disease_Excludes_Metastatic_Anatomic_Site",
+      "relatedCode": "C213914",
+      "relatedName": "Metastatic Combined Hepatocellular Carcinoma and Cholangiocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C213914",
+      "relatedName": "Metastatic Combined Hepatocellular Carcinoma and Cholangiocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C213914",
+      "relatedName": "Metastatic Combined Hepatocellular Carcinoma and Cholangiocarcinoma"
+    },
+    {
+      "type": "Disease_Excludes_Metastatic_Anatomic_Site",
+      "relatedCode": "C175503",
+      "relatedName": "Metastatic Distal Bile Duct Carcinoma"
+    },
+    {
+      "type": "Disease_Excludes_Metastatic_Anatomic_Site",
+      "relatedCode": "C172242",
+      "relatedName": "Metastatic Distal Cholangiocarcinoma"
+    },
+    {
+      "type": "Disease_Excludes_Metastatic_Anatomic_Site",
+      "relatedCode": "C185071",
+      "relatedName": "Metastatic Extrahepatic Bile Duct Carcinoma"
+    },
+    {
+      "type": "Disease_Excludes_Metastatic_Anatomic_Site",
+      "relatedCode": "C213337",
+      "relatedName": "Metastatic Extrahepatic Cholangiocarcinoma"
+    },
+    {
+      "type": "Disease_Excludes_Metastatic_Anatomic_Site",
+      "relatedCode": "C154078",
+      "relatedName": "Metastatic Fibrolamellar Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C154078",
+      "relatedName": "Metastatic Fibrolamellar Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C154078",
+      "relatedName": "Metastatic Fibrolamellar Carcinoma"
+    },
+    {
+      "type": "Disease_Excludes_Metastatic_Anatomic_Site",
+      "relatedCode": "C162754",
+      "relatedName": "Metastatic Gallbladder Carcinoma"
+    },
+    {
+      "type": "Disease_Excludes_Metastatic_Anatomic_Site",
+      "relatedCode": "C192216",
+      "relatedName": "Metastatic Hepatoblastoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C192216",
+      "relatedName": "Metastatic Hepatoblastoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C192216",
+      "relatedName": "Metastatic Hepatoblastoma"
+    },
+    {
+      "type": "Disease_Excludes_Metastatic_Anatomic_Site",
+      "relatedCode": "C154091",
+      "relatedName": "Metastatic Hepatocellular Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C154091",
+      "relatedName": "Metastatic Hepatocellular Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C154091",
+      "relatedName": "Metastatic Hepatocellular Carcinoma"
+    },
+    {
+      "type": "Disease_Excludes_Metastatic_Anatomic_Site",
+      "relatedCode": "C185069",
+      "relatedName": "Metastatic Hilar Cholangiocarcinoma"
+    },
+    {
+      "type": "Disease_Excludes_Metastatic_Anatomic_Site",
+      "relatedCode": "C172252",
+      "relatedName": "Metastatic Intrahepatic Cholangiocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C172252",
+      "relatedName": "Metastatic Intrahepatic Cholangiocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C172252",
+      "relatedName": "Metastatic Intrahepatic Cholangiocarcinoma"
+    },
+    {
+      "type": "Disease_Excludes_Metastatic_Anatomic_Site",
+      "relatedCode": "C154088",
+      "relatedName": "Metastatic Liver Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C154088",
+      "relatedName": "Metastatic Liver Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C154088",
+      "relatedName": "Metastatic Liver Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C36306",
+      "relatedName": "Metastatic Lung Carcinoma in the Liver"
+    },
+    {
+      "type": "Disease_Has_Metastatic_Anatomic_Site",
+      "relatedCode": "C36306",
+      "relatedName": "Metastatic Lung Carcinoma in the Liver"
+    },
+    {
+      "type": "Disease_Has_Metastatic_Anatomic_Site",
+      "relatedCode": "C36306",
+      "relatedName": "Metastatic Lung Carcinoma in the Liver"
+    },
+    {
+      "type": "Disease_Excludes_Metastatic_Anatomic_Site",
+      "relatedCode": "C217201",
+      "relatedName": "Metastatic Malignant Hepatobiliary Neoplasm"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C4758",
+      "relatedName": "Metastatic Malignant Neoplasm in the Liver"
+    },
+    {
+      "type": "Disease_Has_Metastatic_Anatomic_Site",
+      "relatedCode": "C4758",
+      "relatedName": "Metastatic Malignant Neoplasm in the Liver"
+    },
+    {
+      "type": "Disease_Excludes_Metastatic_Anatomic_Site",
+      "relatedCode": "C198015",
+      "relatedName": "Metastatic PRETEXT I Hepatoblastoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C198015",
+      "relatedName": "Metastatic PRETEXT I Hepatoblastoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C198015",
+      "relatedName": "Metastatic PRETEXT I Hepatoblastoma"
+    },
+    {
+      "type": "Disease_Excludes_Metastatic_Anatomic_Site",
+      "relatedCode": "C198016",
+      "relatedName": "Metastatic PRETEXT II Hepatoblastoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C198016",
+      "relatedName": "Metastatic PRETEXT II Hepatoblastoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C198016",
+      "relatedName": "Metastatic PRETEXT II Hepatoblastoma"
+    },
+    {
+      "type": "Disease_Excludes_Metastatic_Anatomic_Site",
+      "relatedCode": "C198017",
+      "relatedName": "Metastatic PRETEXT III Hepatoblastoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C198017",
+      "relatedName": "Metastatic PRETEXT III Hepatoblastoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C198017",
+      "relatedName": "Metastatic PRETEXT III Hepatoblastoma"
+    },
+    {
+      "type": "Disease_Excludes_Metastatic_Anatomic_Site",
+      "relatedCode": "C198018",
+      "relatedName": "Metastatic PRETEXT IV Hepatoblastoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C198018",
+      "relatedName": "Metastatic PRETEXT IV Hepatoblastoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C198018",
+      "relatedName": "Metastatic PRETEXT IV Hepatoblastoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C188393",
+      "relatedName": "Mild Liver Disease"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C188393",
+      "relatedName": "Mild Liver Disease"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C84443",
+      "relatedName": "Mitochondrial Hepatopathy"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C84443",
+      "relatedName": "Mitochondrial Hepatopathy"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C7097",
+      "relatedName": "Mixed Epithelial and Mesenchymal Hepatoblastoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C7097",
+      "relatedName": "Mixed Epithelial and Mesenchymal Hepatoblastoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C188394",
+      "relatedName": "Moderate Liver Disease"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C188394",
+      "relatedName": "Moderate Liver Disease"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C41618",
+      "relatedName": "Mucin-Producing Intrahepatic Cholangiocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C41618",
+      "relatedName": "Mucin-Producing Intrahepatic Cholangiocarcinoma"
+    },
+    {
+      "type": "Gene_Product_Expressed_In_Tissue",
+      "relatedCode": "C97435",
+      "relatedName": "NCK-Interacting Protein with SH3 Domain"
+    },
+    {
+      "type": "Procedure_Has_Partially_Excised_Anatomy",
+      "relatedCode": "C51675",
+      "relatedName": "Needle Biopsy of Liver"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C84446",
+      "relatedName": "Neonatal Hepatitis"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C84446",
+      "relatedName": "Neonatal Hepatitis"
+    },
+    {
+      "type": "Gene_Product_Expressed_In_Tissue",
+      "relatedCode": "C21171",
+      "relatedName": "Nibrin"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C53550",
+      "relatedName": "Non-Neoplastic Liver and Intrahepatic Bile Duct Disorder"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C53550",
+      "relatedName": "Non-Neoplastic Liver and Intrahepatic Bile Duct Disorder"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C189926",
+      "relatedName": "Non-Teratoid Hepatoblastoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C189926",
+      "relatedName": "Non-Teratoid Hepatoblastoma"
+    },
+    {
+      "type": "Gene_Product_Expressed_In_Tissue",
+      "relatedCode": "C132108",
+      "relatedName": "Olfactory Receptor 51E2"
+    },
+    {
+      "type": "Disease_Excludes_Metastatic_Anatomic_Site",
+      "relatedCode": "C200569",
+      "relatedName": "Oligometastatic Intrahepatic Cholangiocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C200569",
+      "relatedName": "Oligometastatic Intrahepatic Cholangiocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C200569",
+      "relatedName": "Oligometastatic Intrahepatic Cholangiocarcinoma"
+    },
+    {
+      "type": "Procedure_Has_Target_Anatomy",
+      "relatedCode": "C51696",
+      "relatedName": "Orthotopic Liver Transplantation"
+    },
+    {
+      "type": "Disease_Excludes_Primary_Anatomic_Site",
+      "relatedCode": "C95465",
+      "relatedName": "Pancreatic Hepatoid Adenocarcinoma"
+    },
+    {
+      "type": "Procedure_Has_Excised_Anatomy",
+      "relatedCode": "C15394",
+      "relatedName": "Partial Hepatectomy"
+    },
+    {
+      "type": "Procedure_Has_Partially_Excised_Anatomy",
+      "relatedCode": "C15394",
+      "relatedName": "Partial Hepatectomy"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C197945",
+      "relatedName": "Peliosis Hepatis"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C197945",
+      "relatedName": "Peliosis Hepatis"
+    },
+    {
+      "type": "Procedure_Has_Partially_Excised_Anatomy",
+      "relatedCode": "C51929",
+      "relatedName": "Percutaneous Liver Biopsy"
+    },
+    {
+      "type": "Anatomic_Structure_Is_Physical_Part_Of",
+      "relatedCode": "C33309",
+      "relatedName": "Perisinusoidal Space"
+    },
+    {
+      "type": "Gene_Product_Expressed_In_Tissue",
+      "relatedCode": "C21246",
+      "relatedName": "Pleckstrin Homology-Like Domain Family A Member 2"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C82833",
+      "relatedName": "Polycystic Liver Disease"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C82833",
+      "relatedName": "Polycystic Liver Disease"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C35532",
+      "relatedName": "Portal Cirrhosis"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C35532",
+      "relatedName": "Portal Cirrhosis"
+    },
+    {
+      "type": "Anatomic_Structure_Is_Physical_Part_Of",
+      "relatedCode": "C33341",
+      "relatedName": "Portal Lobule"
+    },
+    {
+      "type": "Anatomic_Structure_Is_Physical_Part_Of",
+      "relatedCode": "C33342",
+      "relatedName": "Portal Triad"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C184958",
+      "relatedName": "Post-Hepatitis Chronic Hepatopathy"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C184958",
+      "relatedName": "Post-Hepatitis Chronic Hepatopathy"
+    },
+    {
+      "type": "Anatomic_Structure_Is_Physical_Part_Of",
+      "relatedCode": "C33380",
+      "relatedName": "Posterior Surface of the Liver"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C7146",
+      "relatedName": "Postsurgical Stage I Hepatoblastoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C7146",
+      "relatedName": "Postsurgical Stage I Hepatoblastoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C7145",
+      "relatedName": "Postsurgical Stage II Hepatoblastoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C7145",
+      "relatedName": "Postsurgical Stage II Hepatoblastoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C7144",
+      "relatedName": "Postsurgical Stage III Hepatoblastoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C7144",
+      "relatedName": "Postsurgical Stage III Hepatoblastoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C7143",
+      "relatedName": "Postsurgical Stage IV Hepatoblastoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C7143",
+      "relatedName": "Postsurgical Stage IV Hepatoblastoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C7139",
+      "relatedName": "PRETEXT I Hepatoblastoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C7139",
+      "relatedName": "PRETEXT I Hepatoblastoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C7140",
+      "relatedName": "PRETEXT II Hepatoblastoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C7140",
+      "relatedName": "PRETEXT II Hepatoblastoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C7141",
+      "relatedName": "PRETEXT III Hepatoblastoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C7141",
+      "relatedName": "PRETEXT III Hepatoblastoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C7142",
+      "relatedName": "PRETEXT IV Hepatoblastoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C7142",
+      "relatedName": "PRETEXT IV Hepatoblastoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C27167",
+      "relatedName": "Primary Biliary Cirrhosis"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C27167",
+      "relatedName": "Primary Biliary Cirrhosis"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C34803",
+      "relatedName": "Primary Malignant Liver Neoplasm"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C34803",
+      "relatedName": "Primary Malignant Liver Neoplasm"
+    },
+    {
+      "type": "Gene_Product_Expressed_In_Tissue",
+      "relatedCode": "C17807",
+      "relatedName": "Prostasin"
+    },
+    {
+      "type": "Gene_Product_Expressed_In_Tissue",
+      "relatedCode": "C21451",
+      "relatedName": "Protein Wnt-11"
+    },
+    {
+      "type": "Gene_Product_Has_Associated_Anatomy",
+      "relatedCode": "C157140",
+      "relatedName": "Pyruvate Kinase PKLR Isoform L-Type"
+    },
+    {
+      "type": "Anatomic_Structure_Is_Physical_Part_Of",
+      "relatedCode": "C112404",
+      "relatedName": "Quadrate Lobe of Liver"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C136240",
+      "relatedName": "Rectal Carcinoma Metastatic in the Liver"
+    },
+    {
+      "type": "Disease_Has_Metastatic_Anatomic_Site",
+      "relatedCode": "C136240",
+      "relatedName": "Rectal Carcinoma Metastatic in the Liver"
+    },
+    {
+      "type": "Disease_Excludes_Primary_Anatomic_Site",
+      "relatedCode": "C213481",
+      "relatedName": "Rectal Hepatoid Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C9067",
+      "relatedName": "Recurrent Adult Hepatocellular Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C9067",
+      "relatedName": "Recurrent Adult Hepatocellular Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C7880",
+      "relatedName": "Recurrent Adult Liver Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C7880",
+      "relatedName": "Recurrent Adult Liver Carcinoma"
+    },
+    {
+      "type": "Disease_Excludes_Metastatic_Anatomic_Site",
+      "relatedCode": "C214839",
+      "relatedName": "Recurrent Advanced Hepatocellular Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C214839",
+      "relatedName": "Recurrent Advanced Hepatocellular Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C214839",
+      "relatedName": "Recurrent Advanced Hepatocellular Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C208269",
+      "relatedName": "Recurrent Childhood Fibrolamellar Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C208269",
+      "relatedName": "Recurrent Childhood Fibrolamellar Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C9046",
+      "relatedName": "Recurrent Childhood Hepatocellular Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C9046",
+      "relatedName": "Recurrent Childhood Hepatocellular Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C7839",
+      "relatedName": "Recurrent Childhood Malignant Liver Neoplasm"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C213916",
+      "relatedName": "Recurrent Combined Hepatocellular Carcinoma and Cholangiocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C213916",
+      "relatedName": "Recurrent Combined Hepatocellular Carcinoma and Cholangiocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C219664",
+      "relatedName": "Recurrent Extrarenal Rhabdoid Tumor of the Liver"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C219664",
+      "relatedName": "Recurrent Extrarenal Rhabdoid Tumor of the Liver"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C154082",
+      "relatedName": "Recurrent Fibrolamellar Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C154082",
+      "relatedName": "Recurrent Fibrolamellar Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C8643",
+      "relatedName": "Recurrent Hepatoblastoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C8643",
+      "relatedName": "Recurrent Hepatoblastoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C9264",
+      "relatedName": "Recurrent Hepatocellular Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C9264",
+      "relatedName": "Recurrent Hepatocellular Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C221113",
+      "relatedName": "Recurrent Hepatocellular Malignant Neoplasm, Not Otherwise Specified"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C221113",
+      "relatedName": "Recurrent Hepatocellular Malignant Neoplasm, Not Otherwise Specified"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C153160",
+      "relatedName": "Recurrent Hepatosplenic T-Cell Lymphoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C153160",
+      "relatedName": "Recurrent Hepatosplenic T-Cell Lymphoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C128807",
+      "relatedName": "Recurrent Intrahepatic Cholangiocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C128807",
+      "relatedName": "Recurrent Intrahepatic Cholangiocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C7110",
+      "relatedName": "Recurrent Liver Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C7110",
+      "relatedName": "Recurrent Liver Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C208274",
+      "relatedName": "Refractory Childhood Fibrolamellar Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C208274",
+      "relatedName": "Refractory Childhood Fibrolamellar Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C208290",
+      "relatedName": "Refractory Childhood Hepatocellular Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C208290",
+      "relatedName": "Refractory Childhood Hepatocellular Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C208289",
+      "relatedName": "Refractory Childhood Malignant Liver Neoplasm"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C213917",
+      "relatedName": "Refractory Combined Hepatocellular Carcinoma and Cholangiocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C213917",
+      "relatedName": "Refractory Combined Hepatocellular Carcinoma and Cholangiocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C219665",
+      "relatedName": "Refractory Extrarenal Rhabdoid Tumor of the Liver"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C219665",
+      "relatedName": "Refractory Extrarenal Rhabdoid Tumor of the Liver"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C188887",
+      "relatedName": "Refractory Fibrolamellar Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C188887",
+      "relatedName": "Refractory Fibrolamellar Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C142854",
+      "relatedName": "Refractory Hepatoblastoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C142854",
+      "relatedName": "Refractory Hepatoblastoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C162450",
+      "relatedName": "Refractory Hepatocellular Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C162450",
+      "relatedName": "Refractory Hepatocellular Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C221115",
+      "relatedName": "Refractory Hepatocellular Malignant Neoplasm, Not Otherwise Specified"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C221115",
+      "relatedName": "Refractory Hepatocellular Malignant Neoplasm, Not Otherwise Specified"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C153161",
+      "relatedName": "Refractory Hepatosplenic T-Cell Lymphoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C153161",
+      "relatedName": "Refractory Hepatosplenic T-Cell Lymphoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C174247",
+      "relatedName": "Refractory Intrahepatic Cholangiocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C174247",
+      "relatedName": "Refractory Intrahepatic Cholangiocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C153352",
+      "relatedName": "Refractory Liver Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C153352",
+      "relatedName": "Refractory Liver Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C8642",
+      "relatedName": "Resectable Hepatoblastoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C8642",
+      "relatedName": "Resectable Hepatoblastoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C7691",
+      "relatedName": "Resectable Hepatocellular Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C7691",
+      "relatedName": "Resectable Hepatocellular Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C156908",
+      "relatedName": "Resectable Intrahepatic Cholangiocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C156908",
+      "relatedName": "Resectable Intrahepatic Cholangiocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C165293",
+      "relatedName": "Resectable Liver Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C165293",
+      "relatedName": "Resectable Liver Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C7692",
+      "relatedName": "Resectable Malignant Liver Neoplasm"
+    },
+    {
+      "type": "Gene_Product_Expressed_In_Tissue",
+      "relatedCode": "C26433",
+      "relatedName": "Ribosome Biogenesis Protein NOP53"
+    },
+    {
+      "type": "Anatomic_Structure_Is_Physical_Part_Of",
+      "relatedCode": "C79736",
+      "relatedName": "Right Anteroinferior Segment"
+    },
+    {
+      "type": "Anatomic_Structure_Is_Physical_Part_Of",
+      "relatedCode": "C79739",
+      "relatedName": "Right Anterosuperior Segment"
+    },
+    {
+      "type": "Procedure_Has_Excised_Anatomy",
+      "relatedCode": "C51569",
+      "relatedName": "Right Hemihepatectomy"
+    },
+    {
+      "type": "Procedure_Has_Partially_Excised_Anatomy",
+      "relatedCode": "C51569",
+      "relatedName": "Right Hemihepatectomy"
+    },
+    {
+      "type": "Anatomic_Structure_Is_Physical_Part_Of",
+      "relatedCode": "C33481",
+      "relatedName": "Right Lobe of the Liver"
+    },
+    {
+      "type": "Anatomic_Structure_Is_Physical_Part_Of",
+      "relatedCode": "C79737",
+      "relatedName": "Right Posteroinferior Segment"
+    },
+    {
+      "type": "Anatomic_Structure_Is_Physical_Part_Of",
+      "relatedCode": "C79738",
+      "relatedName": "Right Posterosuperior Segment"
+    },
+    {
+      "type": "Anatomic_Structure_Is_Physical_Part_Of",
+      "relatedCode": "C34008",
+      "relatedName": "Round Ligament of the Liver"
+    },
+    {
+      "type": "Gene_Product_Expressed_In_Tissue",
+      "relatedCode": "C203773",
+      "relatedName": "S-Adenosylmethionine Synthase Isoform Type-1"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C41620",
+      "relatedName": "Sarcomatoid Intrahepatic Cholangiocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C41620",
+      "relatedName": "Sarcomatoid Intrahepatic Cholangiocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C173119",
+      "relatedName": "Secondary Biliary Cirrhosis"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C173119",
+      "relatedName": "Secondary Biliary Cirrhosis"
+    },
+    {
+      "type": "Procedure_Has_Excised_Anatomy",
+      "relatedCode": "C200356",
+      "relatedName": "Sectorectomy"
+    },
+    {
+      "type": "Procedure_Has_Partially_Excised_Anatomy",
+      "relatedCode": "C200356",
+      "relatedName": "Sectorectomy"
+    },
+    {
+      "type": "Anatomic_Structure_Is_Physical_Part_Of",
+      "relatedCode": "C33538",
+      "relatedName": "Serosal Surface of the Liver"
+    },
+    {
+      "type": "Gene_Product_Expressed_In_Tissue",
+      "relatedCode": "C17125",
+      "relatedName": "Serum Globulin"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C188395",
+      "relatedName": "Severe Liver Disease"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C188395",
+      "relatedName": "Severe Liver Disease"
+    },
+    {
+      "type": "Gene_Product_Has_Associated_Anatomy",
+      "relatedCode": "C17128",
+      "relatedName": "Sex Hormone-Binding Globulin"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C41619",
+      "relatedName": "Signet Ring Cell Intrahepatic Cholangiocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C41619",
+      "relatedName": "Signet Ring Cell Intrahepatic Cholangiocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C26793",
+      "relatedName": "Sinusoidal Obstruction Syndrome"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C26793",
+      "relatedName": "Sinusoidal Obstruction Syndrome"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C7096",
+      "relatedName": "Small Cell Undifferentiated Hepatoblastoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C7096",
+      "relatedName": "Small Cell Undifferentiated Hepatoblastoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C96805",
+      "relatedName": "Small Duct Intrahepatic Cholangiocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C96805",
+      "relatedName": "Small Duct Intrahepatic Cholangiocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C172714",
+      "relatedName": "Small Hepatocellular Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C172714",
+      "relatedName": "Small Hepatocellular Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C172716",
+      "relatedName": "Small Progressed Hepatocellular Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C172716",
+      "relatedName": "Small Progressed Hepatocellular Carcinoma"
+    },
+    {
+      "type": "Gene_Product_Expressed_In_Tissue",
+      "relatedCode": "C21187",
+      "relatedName": "Solute Carrier Family 67 Member A1"
+    },
+    {
+      "type": "Gene_Product_Expressed_In_Tissue",
+      "relatedCode": "C208012",
+      "relatedName": "Sorbitol Dehydrogenase"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C134609",
+      "relatedName": "Stage 0 Intrahepatic Bile Duct Cancer AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C134609",
+      "relatedName": "Stage 0 Intrahepatic Bile Duct Cancer AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C88049",
+      "relatedName": "Stage 0 Intrahepatic Cholangiocarcinoma AJCC v7"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C88049",
+      "relatedName": "Stage 0 Intrahepatic Cholangiocarcinoma AJCC v7"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C134756",
+      "relatedName": "Stage 0 Intrahepatic Cholangiocarcinoma AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C134756",
+      "relatedName": "Stage 0 Intrahepatic Cholangiocarcinoma AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C94775",
+      "relatedName": "Stage I Adult Liver Cancer AJCC v7"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C94775",
+      "relatedName": "Stage I Adult Liver Cancer AJCC v7"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C5710",
+      "relatedName": "Stage I Childhood Hepatocellular Carcinoma AJCC v6 and v7"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C5710",
+      "relatedName": "Stage I Childhood Hepatocellular Carcinoma AJCC v6 and v7"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C5758",
+      "relatedName": "Stage I Hepatocellular Carcinoma AJCC v6 and v7"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C5758",
+      "relatedName": "Stage I Hepatocellular Carcinoma AJCC v6 and v7"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C134516",
+      "relatedName": "Stage I Hepatocellular Carcinoma AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C134516",
+      "relatedName": "Stage I Hepatocellular Carcinoma AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C134610",
+      "relatedName": "Stage I Intrahepatic Bile Duct Cancer AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C134610",
+      "relatedName": "Stage I Intrahepatic Bile Duct Cancer AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C88050",
+      "relatedName": "Stage I Intrahepatic Cholangiocarcinoma AJCC v7"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C88050",
+      "relatedName": "Stage I Intrahepatic Cholangiocarcinoma AJCC v7"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C134757",
+      "relatedName": "Stage I Intrahepatic Cholangiocarcinoma AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C134757",
+      "relatedName": "Stage I Intrahepatic Cholangiocarcinoma AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C7116",
+      "relatedName": "Stage I Liver Cancer"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C7116",
+      "relatedName": "Stage I Liver Cancer"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C134517",
+      "relatedName": "Stage IA Hepatocellular Carcinoma AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C134517",
+      "relatedName": "Stage IA Hepatocellular Carcinoma AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C134611",
+      "relatedName": "Stage IA Intrahepatic Bile Duct Cancer AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C134611",
+      "relatedName": "Stage IA Intrahepatic Bile Duct Cancer AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C134758",
+      "relatedName": "Stage IA Intrahepatic Cholangiocarcinoma AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C134758",
+      "relatedName": "Stage IA Intrahepatic Cholangiocarcinoma AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C134518",
+      "relatedName": "Stage IB Hepatocellular Carcinoma AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C134518",
+      "relatedName": "Stage IB Hepatocellular Carcinoma AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C134612",
+      "relatedName": "Stage IB Intrahepatic Bile Duct Cancer AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C134612",
+      "relatedName": "Stage IB Intrahepatic Bile Duct Cancer AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C134759",
+      "relatedName": "Stage IB Intrahepatic Cholangiocarcinoma AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C134759",
+      "relatedName": "Stage IB Intrahepatic Cholangiocarcinoma AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C94776",
+      "relatedName": "Stage II Adult Liver Cancer AJCC v7"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C94776",
+      "relatedName": "Stage II Adult Liver Cancer AJCC v7"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C5709",
+      "relatedName": "Stage II Childhood Hepatocellular Carcinoma AJCC v6 and v7"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C5709",
+      "relatedName": "Stage II Childhood Hepatocellular Carcinoma AJCC v6 and v7"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C5759",
+      "relatedName": "Stage II Hepatocellular Carcinoma AJCC v6 and v7"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C5759",
+      "relatedName": "Stage II Hepatocellular Carcinoma AJCC v6 and v7"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C134519",
+      "relatedName": "Stage II Hepatocellular Carcinoma AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C134519",
+      "relatedName": "Stage II Hepatocellular Carcinoma AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C134614",
+      "relatedName": "Stage II Intrahepatic Bile Duct Cancer AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C134614",
+      "relatedName": "Stage II Intrahepatic Bile Duct Cancer AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C88051",
+      "relatedName": "Stage II Intrahepatic Cholangiocarcinoma AJCC v7"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C88051",
+      "relatedName": "Stage II Intrahepatic Cholangiocarcinoma AJCC v7"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C134760",
+      "relatedName": "Stage II Intrahepatic Cholangiocarcinoma AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C134760",
+      "relatedName": "Stage II Intrahepatic Cholangiocarcinoma AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C7117",
+      "relatedName": "Stage II Liver Cancer"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C7117",
+      "relatedName": "Stage II Liver Cancer"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C94777",
+      "relatedName": "Stage III Adult Liver Cancer AJCC v7"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C94777",
+      "relatedName": "Stage III Adult Liver Cancer AJCC v7"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C5708",
+      "relatedName": "Stage III Childhood Hepatocellular Carcinoma AJCC v7"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C5708",
+      "relatedName": "Stage III Childhood Hepatocellular Carcinoma AJCC v7"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C5760",
+      "relatedName": "Stage III Hepatocellular Carcinoma AJCC v6"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C5760",
+      "relatedName": "Stage III Hepatocellular Carcinoma AJCC v6"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C90180",
+      "relatedName": "Stage III Hepatocellular Carcinoma AJCC v7"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C90180",
+      "relatedName": "Stage III Hepatocellular Carcinoma AJCC v7"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C134520",
+      "relatedName": "Stage III Hepatocellular Carcinoma AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C134520",
+      "relatedName": "Stage III Hepatocellular Carcinoma AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C134615",
+      "relatedName": "Stage III Intrahepatic Bile Duct Cancer AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C134615",
+      "relatedName": "Stage III Intrahepatic Bile Duct Cancer AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C88052",
+      "relatedName": "Stage III Intrahepatic Cholangiocarcinoma AJCC v7"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C88052",
+      "relatedName": "Stage III Intrahepatic Cholangiocarcinoma AJCC v7"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C134761",
+      "relatedName": "Stage III Intrahepatic Cholangiocarcinoma AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C134761",
+      "relatedName": "Stage III Intrahepatic Cholangiocarcinoma AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C7118",
+      "relatedName": "Stage III Liver Cancer"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C7118",
+      "relatedName": "Stage III Liver Cancer"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C94779",
+      "relatedName": "Stage IIIA Adult Liver Cancer AJCC v7"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C94779",
+      "relatedName": "Stage IIIA Adult Liver Cancer AJCC v7"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C5761",
+      "relatedName": "Stage IIIA Hepatocellular Carcinoma AJCC v7"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C5761",
+      "relatedName": "Stage IIIA Hepatocellular Carcinoma AJCC v7"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C134521",
+      "relatedName": "Stage IIIA Hepatocellular Carcinoma AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C134521",
+      "relatedName": "Stage IIIA Hepatocellular Carcinoma AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C134616",
+      "relatedName": "Stage IIIA Intrahepatic Bile Duct Cancer AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C134616",
+      "relatedName": "Stage IIIA Intrahepatic Bile Duct Cancer AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C134762",
+      "relatedName": "Stage IIIA Intrahepatic Cholangiocarcinoma AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C134762",
+      "relatedName": "Stage IIIA Intrahepatic Cholangiocarcinoma AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C94780",
+      "relatedName": "Stage IIIB Adult Liver Cancer AJCC v7"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C94780",
+      "relatedName": "Stage IIIB Adult Liver Cancer AJCC v7"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C5762",
+      "relatedName": "Stage IIIB Hepatocellular Carcinoma AJCC v7"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C5762",
+      "relatedName": "Stage IIIB Hepatocellular Carcinoma AJCC v7"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C134522",
+      "relatedName": "Stage IIIB Hepatocellular Carcinoma AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C134522",
+      "relatedName": "Stage IIIB Hepatocellular Carcinoma AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C134618",
+      "relatedName": "Stage IIIB Intrahepatic Bile Duct Cancer AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C134618",
+      "relatedName": "Stage IIIB Intrahepatic Bile Duct Cancer AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C134763",
+      "relatedName": "Stage IIIB Intrahepatic Cholangiocarcinoma AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C134763",
+      "relatedName": "Stage IIIB Intrahepatic Cholangiocarcinoma AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C94781",
+      "relatedName": "Stage IIIC Adult Liver Cancer AJCC v7"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C94781",
+      "relatedName": "Stage IIIC Adult Liver Cancer AJCC v7"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C88044",
+      "relatedName": "Stage IIIC Hepatocellular Carcinoma AJCC v7"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C88044",
+      "relatedName": "Stage IIIC Hepatocellular Carcinoma AJCC v7"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C94782",
+      "relatedName": "Stage IV Adult Liver Cancer AJCC v7"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C94782",
+      "relatedName": "Stage IV Adult Liver Cancer AJCC v7"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C7838",
+      "relatedName": "Stage IV Childhood Hepatocellular Carcinoma AJCC v7"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C7838",
+      "relatedName": "Stage IV Childhood Hepatocellular Carcinoma AJCC v7"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C5763",
+      "relatedName": "Stage IV Hepatocellular Carcinoma AJCC v6"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C5763",
+      "relatedName": "Stage IV Hepatocellular Carcinoma AJCC v6"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C90181",
+      "relatedName": "Stage IV Hepatocellular Carcinoma AJCC v7"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C90181",
+      "relatedName": "Stage IV Hepatocellular Carcinoma AJCC v7"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C134523",
+      "relatedName": "Stage IV Hepatocellular Carcinoma AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C134523",
+      "relatedName": "Stage IV Hepatocellular Carcinoma AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C134619",
+      "relatedName": "Stage IV Intrahepatic Bile Duct Cancer AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C134619",
+      "relatedName": "Stage IV Intrahepatic Bile Duct Cancer AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C134764",
+      "relatedName": "Stage IV Intrahepatic Cholangiocarcinoma AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C134764",
+      "relatedName": "Stage IV Intrahepatic Cholangiocarcinoma AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C7121",
+      "relatedName": "Stage IV Liver Cancer"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C7121",
+      "relatedName": "Stage IV Liver Cancer"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C5764",
+      "relatedName": "Stage IVA Hepatocellular Carcinoma AJCC v7"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C5764",
+      "relatedName": "Stage IVA Hepatocellular Carcinoma AJCC v7"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C134524",
+      "relatedName": "Stage IVA Hepatocellular Carcinoma AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C134524",
+      "relatedName": "Stage IVA Hepatocellular Carcinoma AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C88053",
+      "relatedName": "Stage IVA Intrahepatic Cholangiocarcinoma AJCC v7"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C88053",
+      "relatedName": "Stage IVA Intrahepatic Cholangiocarcinoma AJCC v7"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C7122",
+      "relatedName": "Stage IVA Liver Cancer"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C7122",
+      "relatedName": "Stage IVA Liver Cancer"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C5765",
+      "relatedName": "Stage IVB Hepatocellular Carcinoma AJCC v7"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C5765",
+      "relatedName": "Stage IVB Hepatocellular Carcinoma AJCC v7"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C134525",
+      "relatedName": "Stage IVB Hepatocellular Carcinoma AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C134525",
+      "relatedName": "Stage IVB Hepatocellular Carcinoma AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C88054",
+      "relatedName": "Stage IVB Intrahepatic Cholangiocarcinoma AJCC v7"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C88054",
+      "relatedName": "Stage IVB Intrahepatic Cholangiocarcinoma AJCC v7"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C7123",
+      "relatedName": "Stage IVB Liver Cancer"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C7123",
+      "relatedName": "Stage IVB Liver Cancer"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C172709",
+      "relatedName": "Steatohepatitic Hepatocellular Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C172709",
+      "relatedName": "Steatohepatitic Hepatocellular Carcinoma"
+    },
+    {
+      "type": "Anatomic_Structure_Is_Physical_Part_Of",
+      "relatedCode": "C33697",
+      "relatedName": "Superior Surface of the Liver"
+    },
+    {
+      "type": "Gene_Product_Expressed_In_Tissue",
+      "relatedCode": "C18295",
+      "relatedName": "Suppressor of Tumorigenicity 14 Protein"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C7098",
+      "relatedName": "Teratoid Hepatoblastoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C7098",
+      "relatedName": "Teratoid Hepatoblastoma"
+    },
+    {
+      "type": "Gene_Product_Expressed_In_Tissue",
+      "relatedCode": "C21544",
+      "relatedName": "TERF1-Interacting Nuclear Factor 2"
+    },
+    {
+      "type": "Gene_Product_Expressed_In_Tissue",
+      "relatedCode": "C20441",
+      "relatedName": "Thrombopoietin"
+    },
+    {
+      "type": "Disease_Excludes_Primary_Anatomic_Site",
+      "relatedCode": "C146717",
+      "relatedName": "Thymus Hepatoid Adenocarcinoma"
+    },
+    {
+      "type": "Procedure_Has_Completely_Excised_Anatomy",
+      "relatedCode": "C51781",
+      "relatedName": "Total Hepatectomy"
+    },
+    {
+      "type": "Procedure_Has_Excised_Anatomy",
+      "relatedCode": "C51781",
+      "relatedName": "Total Hepatectomy"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C197980",
+      "relatedName": "Toxoplasma Hepatitis"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C197980",
+      "relatedName": "Toxoplasma Hepatitis"
+    },
+    {
+      "type": "Gene_Product_Expressed_In_Tissue",
+      "relatedCode": "C179920",
+      "relatedName": "Transmembrane Protease Serine 6"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C27635",
+      "relatedName": "Transplant-Related Hepatocellular Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C27635",
+      "relatedName": "Transplant-Related Hepatocellular Carcinoma"
+    },
+    {
+      "type": "Anatomic_Structure_Is_Physical_Part_Of",
+      "relatedCode": "C33806",
+      "relatedName": "Transverse Fissure"
+    },
+    {
+      "type": "Gene_Product_Expressed_In_Tissue",
+      "relatedCode": "C21237",
+      "relatedName": "Tumor Susceptibility Gene 101 Protein"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C176731",
+      "relatedName": "Type 1 Autoimmune Hepatitis"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C176731",
+      "relatedName": "Type 1 Autoimmune Hepatitis"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C176732",
+      "relatedName": "Type 2 Autoimmune Hepatitis"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C176732",
+      "relatedName": "Type 2 Autoimmune Hepatitis"
+    },
+    {
+      "type": "Gene_Product_Expressed_In_Tissue",
+      "relatedCode": "C179874",
+      "relatedName": "Type-1 Angiotensin II Receptor"
+    },
+    {
+      "type": "Gene_Product_Expressed_In_Tissue",
+      "relatedCode": "C177226",
+      "relatedName": "Tyrosine Aminotransferase"
+    },
+    {
+      "type": "Anatomic_Structure_Is_Physical_Part_Of",
+      "relatedCode": "C33828",
+      "relatedName": "Umbilical Fissure"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C96761",
+      "relatedName": "Unclassified Hepatocellular Adenoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C96761",
+      "relatedName": "Unclassified Hepatocellular Adenoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C162602",
+      "relatedName": "Unresectable Fibrolamellar Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C162602",
+      "relatedName": "Unresectable Fibrolamellar Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C8641",
+      "relatedName": "Unresectable Hepatoblastoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C8641",
+      "relatedName": "Unresectable Hepatoblastoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C27345",
+      "relatedName": "Unresectable Hepatocellular Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C27345",
+      "relatedName": "Unresectable Hepatocellular Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C148432",
+      "relatedName": "Unresectable Intrahepatic Cholangiocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C148432",
+      "relatedName": "Unresectable Intrahepatic Cholangiocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C165171",
+      "relatedName": "Unresectable Liver Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C165171",
+      "relatedName": "Unresectable Liver Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C35648",
+      "relatedName": "Unresectable Malignant Liver Neoplasm"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C150130",
+      "relatedName": "Uveal Melanoma Metastatic in the Liver"
+    },
+    {
+      "type": "Disease_Has_Metastatic_Anatomic_Site",
+      "relatedCode": "C150130",
+      "relatedName": "Uveal Melanoma Metastatic in the Liver"
+    },
+    {
+      "type": "Gene_Product_Expressed_In_Tissue",
+      "relatedCode": "C20984",
+      "relatedName": "Valacyclovir Hydrolase"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C176733",
+      "relatedName": "Variant Autoimmune Hepatitis"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C176733",
+      "relatedName": "Variant Autoimmune Hepatitis"
+    },
+    {
+      "type": "Gene_Product_Expressed_In_Tissue",
+      "relatedCode": "C21443",
+      "relatedName": "Vasoactive Intestinal Polypeptide Receptor 1"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C35124",
+      "relatedName": "Viral Hepatitis"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C35124",
+      "relatedName": "Viral Hepatitis"
+    },
+    {
+      "type": "Anatomic_Structure_Is_Physical_Part_Of",
+      "relatedCode": "C33883",
+      "relatedName": "Visceral Surface of the Liver"
+    },
+    {
+      "type": "Procedure_Has_Partially_Excised_Anatomy",
+      "relatedCode": "C51918",
+      "relatedName": "Wedge Biopsy of Liver"
+    }
+  ],
+  "history": [
+    {
+      "code": "C12392",
+      "action": "create",
+      "date": "2003-08-12"
+    },
+    {
+      "code": "C12392",
+      "action": "modify",
+      "date": "2003-10-31"
+    },
+    {
+      "code": "C12392",
+      "action": "modify",
+      "date": "2003-12-30"
+    },
+    {
+      "code": "C12392",
+      "action": "modify",
+      "date": "2004-02-23"
+    },
+    {
+      "code": "C12392",
+      "action": "modify",
+      "date": "2005-03-16"
+    },
+    {
+      "code": "C12392",
+      "action": "modify",
+      "date": "2005-03-30"
+    },
+    {
+      "code": "C12392",
+      "action": "modify",
+      "date": "2006-01-03"
+    },
+    {
+      "code": "C12392",
+      "action": "modify",
+      "date": "2008-06-27"
+    },
+    {
+      "code": "C12392",
+      "action": "modify",
+      "date": "2008-09-12"
+    },
+    {
+      "code": "C12392",
+      "action": "modify",
+      "date": "2008-11-14"
+    },
+    {
+      "code": "C12392",
+      "action": "modify",
+      "date": "2008-11-26"
+    },
+    {
+      "code": "C12392",
+      "action": "modify",
+      "date": "2008-12-19"
+    },
+    {
+      "code": "C12392",
+      "action": "modify",
+      "date": "2008-11-07"
+    },
+    {
+      "code": "C12392",
+      "action": "modify",
+      "date": "2009-04-06"
+    },
+    {
+      "code": "C12392",
+      "action": "modify",
+      "date": "2009-08-03"
+    },
+    {
+      "code": "C12392",
+      "action": "modify",
+      "date": "2009-11-23"
+    },
+    {
+      "code": "C12392",
+      "action": "modify",
+      "date": "2011-03-07"
+    },
+    {
+      "code": "C12392",
+      "action": "modify",
+      "date": "2013-02-25"
+    },
+    {
+      "code": "C12392",
+      "action": "modify",
+      "date": "2013-03-04"
+    },
+    {
+      "code": "C12392",
+      "action": "modify",
+      "date": "2013-03-11"
+    },
+    {
+      "code": "C12392",
+      "action": "modify",
+      "date": "2013-03-18"
+    },
+    {
+      "code": "C12392",
+      "action": "modify",
+      "date": "2013-03-25"
+    },
+    {
+      "code": "C12392",
+      "action": "modify",
+      "date": "2013-04-01"
+    },
+    {
+      "code": "C12392",
+      "action": "modify",
+      "date": "2013-04-08"
+    },
+    {
+      "code": "C12392",
+      "action": "modify",
+      "date": "2013-04-15"
+    },
+    {
+      "code": "C12392",
+      "action": "modify",
+      "date": "2013-04-22"
+    },
+    {
+      "code": "C12392",
+      "action": "modify",
+      "date": "2013-04-29"
+    },
+    {
+      "code": "C12392",
+      "action": "modify",
+      "date": "2013-05-06"
+    },
+    {
+      "code": "C12392",
+      "action": "modify",
+      "date": "2013-05-13"
+    },
+    {
+      "code": "C12392",
+      "action": "modify",
+      "date": "2013-05-20"
+    },
+    {
+      "code": "C12392",
+      "action": "modify",
+      "date": "2013-05-28"
+    },
+    {
+      "code": "C12392",
+      "action": "modify",
+      "date": "2013-06-03"
+    },
+    {
+      "code": "C12392",
+      "action": "modify",
+      "date": "2013-06-10"
+    },
+    {
+      "code": "C12392",
+      "action": "modify",
+      "date": "2013-06-17"
+    },
+    {
+      "code": "C12392",
+      "action": "modify",
+      "date": "2013-06-24"
+    },
+    {
+      "code": "C12392",
+      "action": "modify",
+      "date": "2013-07-01"
+    },
+    {
+      "code": "C12392",
+      "action": "modify",
+      "date": "2013-07-08"
+    },
+    {
+      "code": "C12392",
+      "action": "modify",
+      "date": "2014-02-03"
+    },
+    {
+      "code": "C12392",
+      "action": "modify",
+      "date": "2014-08-18"
+    },
+    {
+      "code": "C12392",
+      "action": "modify",
+      "date": "2015-05-26"
+    },
+    {
+      "code": "C12392",
+      "action": "modify",
+      "date": "2015-06-01"
+    },
+    {
+      "code": "C12392",
+      "action": "modify",
+      "date": "2015-06-08"
+    },
+    {
+      "code": "C12392",
+      "action": "modify",
+      "date": "2015-06-15"
+    },
+    {
+      "code": "C12392",
+      "action": "modify",
+      "date": "2015-06-22"
+    },
+    {
+      "code": "C12392",
+      "action": "modify",
+      "date": "2015-06-29"
+    },
+    {
+      "code": "C12392",
+      "action": "modify",
+      "date": "2015-07-06"
+    },
+    {
+      "code": "C12392",
+      "action": "modify",
+      "date": "2015-07-13"
+    },
+    {
+      "code": "C12392",
+      "action": "modify",
+      "date": "2015-07-20"
+    },
+    {
+      "code": "C12392",
+      "action": "modify",
+      "date": "2015-08-12"
+    },
+    {
+      "code": "C12392",
+      "action": "modify",
+      "date": "2015-08-31"
+    },
+    {
+      "code": "C12392",
+      "action": "modify",
+      "date": "2015-10-19"
+    },
+    {
+      "code": "C12392",
+      "action": "modify",
+      "date": "2015-11-30"
+    },
+    {
+      "code": "C12392",
+      "action": "modify",
+      "date": "2016-10-17"
+    },
+    {
+      "code": "C12392",
+      "action": "modify",
+      "date": "2017-02-27"
+    },
+    {
+      "code": "C12392",
+      "action": "modify",
+      "date": "2017-03-06"
+    },
+    {
+      "code": "C12392",
+      "action": "modify",
+      "date": "2017-03-13"
+    },
+    {
+      "code": "C12392",
+      "action": "modify",
+      "date": "2018-06-25"
+    },
+    {
+      "code": "C12392",
+      "action": "modify",
+      "date": "2018-06-25"
+    },
+    {
+      "code": "C12392",
+      "action": "modify",
+      "date": "2018-09-24"
+    },
+    {
+      "code": "C12392",
+      "action": "modify",
+      "date": "2018-12-31"
+    },
+    {
+      "code": "C12392",
+      "action": "modify",
+      "date": "2019-01-28"
+    },
+    {
+      "code": "C12392",
+      "action": "modify",
+      "date": "2019-03-25"
+    },
+    {
+      "code": "C12392",
+      "action": "modify",
+      "date": "2019-04-29"
+    },
+    {
+      "code": "C12392",
+      "action": "modify",
+      "date": "2019-05-28"
+    },
+    {
+      "code": "C12392",
+      "action": "modify",
+      "date": "2019-06-24"
+    },
+    {
+      "code": "C12392",
+      "action": "modify",
+      "date": "2019-07-29"
+    },
+    {
+      "code": "C12392",
+      "action": "modify",
+      "date": "2019-09-30"
+    },
+    {
+      "code": "C12392",
+      "action": "modify",
+      "date": "2019-10-28"
+    },
+    {
+      "code": "C12392",
+      "action": "modify",
+      "date": "2020-02-24"
+    },
+    {
+      "code": "C12392",
+      "action": "modify",
+      "date": "2020-03-30"
+    },
+    {
+      "code": "C12392",
+      "action": "modify",
+      "date": "2020-04-27"
+    },
+    {
+      "code": "C12392",
+      "action": "modify",
+      "date": "2020-06-29"
+    },
+    {
+      "code": "C12392",
+      "action": "modify",
+      "date": "2020-07-27"
+    },
+    {
+      "code": "C12392",
+      "action": "modify",
+      "date": "2020-08-31"
+    },
+    {
+      "code": "C12392",
+      "action": "modify",
+      "date": "2020-09-29"
+    },
+    {
+      "code": "C12392",
+      "action": "modify",
+      "date": "2020-10-26"
+    },
+    {
+      "code": "C12392",
+      "action": "modify",
+      "date": "2020-11-30"
+    },
+    {
+      "code": "C12392",
+      "action": "modify",
+      "date": "2020-12-28"
+    },
+    {
+      "code": "C12392",
+      "action": "modify",
+      "date": "2021-02-22"
+    },
+    {
+      "code": "C12392",
+      "action": "modify",
+      "date": "2021-03-29"
+    },
+    {
+      "code": "C12392",
+      "action": "modify",
+      "date": "2021-06-28"
+    },
+    {
+      "code": "C12392",
+      "action": "modify",
+      "date": "2021-11-29"
+    },
+    {
+      "code": "C12392",
+      "action": "modify",
+      "date": "2022-02-28"
+    },
+    {
+      "code": "C12392",
+      "action": "modify",
+      "date": "2022-03-28"
+    },
+    {
+      "code": "C12392",
+      "action": "modify",
+      "date": "2022-04-25"
+    },
+    {
+      "code": "C12392",
+      "action": "modify",
+      "date": "2022-08-29"
+    },
+    {
+      "code": "C12392",
+      "action": "modify",
+      "date": "2022-10-31"
+    },
+    {
+      "code": "C12392",
+      "action": "modify",
+      "date": "2023-02-27"
+    },
+    {
+      "code": "C12392",
+      "action": "modify",
+      "date": "2023-03-27"
+    },
+    {
+      "code": "C12392",
+      "action": "modify",
+      "date": "2023-05-30"
+    },
+    {
+      "code": "C12392",
+      "action": "modify",
+      "date": "2023-07-31"
+    },
+    {
+      "code": "C12392",
+      "action": "modify",
+      "date": "2023-09-25"
+    },
+    {
+      "code": "C12392",
+      "action": "modify",
+      "date": "2024-07-08"
+    }
+  ],
+  "maps": [
+    {
+      "type": "Has Synonym",
+      "targetName": "Liver",
+      "targetTermType": "PT",
+      "targetCode": "biospecimen_anatomic_site",
+      "targetTerminology": "GDC"
+    },
+    {
+      "type": "Related To",
+      "targetName": "Liver",
+      "targetTermType": "PT",
+      "targetCode": "C22.0",
+      "targetTerminology": "ICDO3",
+      "targetTerminologyVersion": "3.1"
+    },
+    {
+      "type": "Related To",
+      "targetName": "Liver",
+      "targetTermType": "PT",
+      "targetCode": "C22.0",
+      "targetTerminology": "ICDO3",
+      "targetTerminologyVersion": "3.2"
+    },
+    {
+      "type": "Has Synonym",
+      "targetName": "Liver",
+      "targetTermType": "PT",
+      "targetCode": "contiguous_organ_invaded",
+      "targetTerminology": "GDC"
+    },
+    {
+      "type": "Has Synonym",
+      "targetName": "Liver",
+      "targetTermType": "PT",
+      "targetCode": "max_tumor_bulk_site",
+      "targetTerminology": "GDC"
+    },
+    {
+      "type": "Has Synonym",
+      "targetName": "Liver",
+      "targetTermType": "PT",
+      "targetCode": "progression_or_recurrence_anatomic_site",
+      "targetTerminology": "GDC"
+    },
+    {
+      "type": "Has Synonym",
+      "targetName": "Liver",
+      "targetTermType": "PT",
+      "targetCode": "site_of_resection_or_biopsy",
+      "targetTerminology": "GDC"
+    },
+    {
+      "type": "Has Synonym",
+      "targetName": "Liver",
+      "targetTermType": "PT",
+      "targetCode": "sites_of_involvement",
+      "targetTerminology": "GDC"
+    },
+    {
+      "type": "Has Synonym",
+      "targetName": "Liver",
+      "targetTermType": "PT",
+      "targetCode": "tissue_or_organ_of_origin",
+      "targetTerminology": "GDC"
+    },
+    {
+      "type": "Has Synonym",
+      "targetName": "Liver",
+      "targetTermType": "PT",
+      "targetCode": "treatment_anatomic_sites",
+      "targetTerminology": "GDC"
+    }
+  ]
+}

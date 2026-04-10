@@ -1,0 +1,309 @@
+{
+  "code": "C27726",
+  "name": "Myelodysplastic Syndrome with Ring Sideroblasts and Multilineage Dysplasia",
+  "terminology": "ncit",
+  "version": "25.11d",
+  "conceptStatus": "DEFAULT",
+  "leaf": true,
+  "active": true,
+  "synonyms": [
+    {
+      "name": "Refractory Cytopenia with Multilineage Dysplasia and Ringed Sideroblasts",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "caDSR"
+    },
+    {
+      "name": "Refractory cytopenia with multilineage dysplasia and ring sideroblasts",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "mCode",
+      "code": "D46.B",
+      "subSource": "ICD-10 CM"
+    },
+    {
+      "name": "MDS-RS-MLD",
+      "termType": "AB",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Myelodysplastic Syndrome with Ring Sideroblasts and Multilineage Dysplasia",
+      "termType": "AQ",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "RCMD-RS",
+      "termType": "AB",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Refractory Cytopenia with Multilineage Dysplasia and Ring Sideroblasts",
+      "termType": "AQS",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Myelodysplastic Syndrome with Ring Sideroblasts and Multilineage Dysplasia",
+      "type": "Preferred_Name"
+    }
+  ],
+  "definitions": [
+    {
+      "definition": "A myelodysplastic syndrome characterized by bi-cytopenia or pancytopenia, dysplastic changes in 10% or more of the cells in two or more of the myeloid cell lines, and 15% or more ring sideroblasts in the bone marrow.  (WHO, 2001)",
+      "type": "DEFINITION",
+      "source": "NCI"
+    }
+  ],
+  "properties": [
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "mCode"
+    },
+    {
+      "code": "P366",
+      "type": "Legacy Concept Name",
+      "value": "Refractory_Cytopenia_with_Multilineage_Dysplasia_and_Ringed_Sideroblasts"
+    },
+    {
+      "code": "P363",
+      "type": "Neoplastic_Status",
+      "value": "Malignant"
+    },
+    {
+      "code": "P106",
+      "type": "Semantic_Type",
+      "value": "Neoplastic Process"
+    },
+    {
+      "code": "P207",
+      "type": "UMLS_CUI",
+      "value": "C1301356"
+    }
+  ],
+  "parents": [
+    {
+      "code": "C4036",
+      "name": "Myelodysplastic Syndrome with Ring Sideroblasts"
+    }
+  ],
+  "associations": [
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C193249",
+      "relatedName": "mCode Cancer Disorder Value Set"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C193248",
+      "relatedName": "mCode Primary Cancer Disorder Value Set"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C193231",
+      "relatedName": "mCode Primary Malignant Neoplasm Disorder Value Set"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C193006",
+      "relatedName": "mCode Terminology"
+    }
+  ],
+  "roles": [
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12922",
+      "relatedName": "Neoplastic Cell"
+    }
+  ],
+  "history": [
+    {
+      "code": "C27726",
+      "action": "create",
+      "date": "2003-08-12"
+    },
+    {
+      "code": "C27726",
+      "action": "modify",
+      "date": "2003-10-31"
+    },
+    {
+      "code": "C27726",
+      "action": "modify",
+      "date": "2003-12-30"
+    },
+    {
+      "code": "C27726",
+      "action": "modify",
+      "date": "2004-12-30"
+    },
+    {
+      "code": "C27726",
+      "action": "modify",
+      "date": "2009-11-23"
+    },
+    {
+      "code": "C27726",
+      "action": "modify",
+      "date": "2011-10-11"
+    },
+    {
+      "code": "C27726",
+      "action": "modify",
+      "date": "2013-02-25"
+    },
+    {
+      "code": "C27726",
+      "action": "modify",
+      "date": "2013-03-04"
+    },
+    {
+      "code": "C27726",
+      "action": "modify",
+      "date": "2013-03-11"
+    },
+    {
+      "code": "C27726",
+      "action": "modify",
+      "date": "2013-03-18"
+    },
+    {
+      "code": "C27726",
+      "action": "modify",
+      "date": "2013-03-25"
+    },
+    {
+      "code": "C27726",
+      "action": "modify",
+      "date": "2013-04-01"
+    },
+    {
+      "code": "C27726",
+      "action": "modify",
+      "date": "2013-04-08"
+    },
+    {
+      "code": "C27726",
+      "action": "modify",
+      "date": "2013-04-15"
+    },
+    {
+      "code": "C27726",
+      "action": "modify",
+      "date": "2013-04-22"
+    },
+    {
+      "code": "C27726",
+      "action": "modify",
+      "date": "2013-04-29"
+    },
+    {
+      "code": "C27726",
+      "action": "modify",
+      "date": "2013-05-06"
+    },
+    {
+      "code": "C27726",
+      "action": "modify",
+      "date": "2013-05-13"
+    },
+    {
+      "code": "C27726",
+      "action": "modify",
+      "date": "2013-05-20"
+    },
+    {
+      "code": "C27726",
+      "action": "modify",
+      "date": "2013-05-28"
+    },
+    {
+      "code": "C27726",
+      "action": "modify",
+      "date": "2013-06-03"
+    },
+    {
+      "code": "C27726",
+      "action": "modify",
+      "date": "2013-06-10"
+    },
+    {
+      "code": "C27726",
+      "action": "modify",
+      "date": "2013-06-17"
+    },
+    {
+      "code": "C27726",
+      "action": "modify",
+      "date": "2013-06-24"
+    },
+    {
+      "code": "C27726",
+      "action": "modify",
+      "date": "2013-07-01"
+    },
+    {
+      "code": "C27726",
+      "action": "modify",
+      "date": "2013-07-08"
+    },
+    {
+      "code": "C27726",
+      "action": "modify",
+      "date": "2014-02-03"
+    },
+    {
+      "code": "C27726",
+      "action": "modify",
+      "date": "2015-02-17"
+    },
+    {
+      "code": "C27726",
+      "action": "modify",
+      "date": "2016-04-25"
+    },
+    {
+      "code": "C27726",
+      "action": "modify",
+      "date": "2016-12-05"
+    },
+    {
+      "code": "C27726",
+      "action": "modify",
+      "date": "2017-09-26"
+    },
+    {
+      "code": "C27726",
+      "action": "modify",
+      "date": "2018-10-29"
+    },
+    {
+      "code": "C27726",
+      "action": "modify",
+      "date": "2018-10-29"
+    },
+    {
+      "code": "C27726",
+      "action": "modify",
+      "date": "2020-09-29"
+    },
+    {
+      "code": "C27726",
+      "action": "modify",
+      "date": "2023-03-27"
+    },
+    {
+      "code": "C27726",
+      "action": "modify",
+      "date": "2023-05-30"
+    },
+    {
+      "code": "C27726",
+      "action": "modify",
+      "date": "2023-07-31"
+    }
+  ]
+}

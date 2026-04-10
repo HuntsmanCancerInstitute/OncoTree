@@ -1,0 +1,451 @@
+{
+  "code": "C40080",
+  "name": "Borderline Ovarian Clear Cell Tumor",
+  "terminology": "ncit",
+  "version": "25.11d",
+  "conceptStatus": "DEFAULT",
+  "leaf": false,
+  "active": true,
+  "synonyms": [
+    {
+      "name": "Borderline Ovarian Clear Cell Tumor",
+      "termType": "DN",
+      "type": "FULL_SYN",
+      "source": "CTRP"
+    },
+    {
+      "name": "Clear cell cystic tumor of borderline malignancy",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "GDC"
+    },
+    {
+      "name": "Borderline Ovarian Clear Cell Neoplasm",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Borderline Ovarian Clear Cell Tumor",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Borderline Ovarian Clear Cell Tumor",
+      "type": "Display_Name"
+    },
+    {
+      "name": "Borderline Ovarian Clear Cell Tumor",
+      "type": "Preferred_Name"
+    }
+  ],
+  "definitions": [
+    {
+      "definition": "An epithelial neoplasm with low malignant potential affecting the ovary.  It is characterized by the presence of clear or hobnail cells.  In some cases, the cells may display nuclear atypia and prominent nucleoli.  When such cells are present, they remain confined to the glands.  There is no evidence of stromal invasion.",
+      "type": "DEFINITION",
+      "source": "NCI"
+    }
+  ],
+  "properties": [
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "CTRP"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "GDC"
+    },
+    {
+      "code": "P366",
+      "type": "Legacy Concept Name",
+      "value": "Borderline_Ovarian_Clear_Cell_Tumor"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "8313/1"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "8444/1"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "Clear cell borderline tumor"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "Clear cell cystic tumor of borderline malignancy"
+    },
+    {
+      "code": "P363",
+      "type": "Neoplastic_Status",
+      "value": "Uncertain Malignant Potential"
+    },
+    {
+      "code": "P106",
+      "type": "Semantic_Type",
+      "value": "Neoplastic Process"
+    },
+    {
+      "code": "P207",
+      "type": "UMLS_CUI",
+      "value": "C0279676"
+    }
+  ],
+  "children": [
+    {
+      "code": "C40081",
+      "name": "Borderline Ovarian Clear Cell Adenofibroma",
+      "leaf": false
+    }
+  ],
+  "parents": [
+    {
+      "code": "C4783",
+      "name": "Borderline Ovarian Epithelial Tumor"
+    },
+    {
+      "code": "C40076",
+      "name": "Ovarian Clear Cell Tumor"
+    }
+  ],
+  "associations": [
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C118168",
+      "relatedName": "CTRP Disease Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C116977",
+      "relatedName": "CTRP Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C157711",
+      "relatedName": "GDC Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C177537",
+      "relatedName": "GDC Value Terminology"
+    },
+    {
+      "type": "Is_Value_For_GDC_Property",
+      "relatedCode": "C176985",
+      "relatedName": "Histology ICD-O Morphology Code"
+    },
+    {
+      "type": "Is_Value_For_GDC_Property",
+      "relatedCode": "C177621",
+      "relatedName": "ICD-O-3 Morphology Term Diagnosis Question"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168658",
+      "relatedName": "Mapped ICDO3.1 Morphology PT Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168657",
+      "relatedName": "Mapped ICDO3.1 Morphology Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168655",
+      "relatedName": "Mapped ICDO3.1 Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168662",
+      "relatedName": "Mapped ICDO3.2 Morphology PT Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168661",
+      "relatedName": "Mapped ICDO3.2 Morphology Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168656",
+      "relatedName": "Mapped ICDO3.2 Terminology"
+    }
+  ],
+  "inverseAssociations": [
+    {
+      "type": "Has_GDC_Value",
+      "relatedCode": "C176985",
+      "relatedName": "Histology ICD-O Morphology Code"
+    },
+    {
+      "type": "Has_GDC_Value",
+      "relatedCode": "C177621",
+      "relatedName": "ICD-O-3 Morphology Term Diagnosis Question"
+    }
+  ],
+  "roles": [
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C35955",
+      "relatedName": "Absence of Stromal Invasion"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C137974",
+      "relatedName": "Adnexa"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C9478",
+      "relatedName": "Atypia"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C61541",
+      "relatedName": "Atypical Glandular Epithelium Resembling the Normal Endometrium Present"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C36116",
+      "relatedName": "Borderline Lesion"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C12578",
+      "relatedName": "Epithelial Cell"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C53596",
+      "relatedName": "Epithelial Component Present"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C45714",
+      "relatedName": "Epithelial Tissue"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12402",
+      "relatedName": "Female Reproductive System"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12402",
+      "relatedName": "Female Reproductive System"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12810",
+      "relatedName": "Genitourinary System"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12922",
+      "relatedName": "Neoplastic Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36753",
+      "relatedName": "Neoplastic Epithelial Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36756",
+      "relatedName": "Neoplastic Epithelial Clear Cell"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C61542",
+      "relatedName": "Neoplastic Glandular Epithelium Resembling the Normal Endometrium Present"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36758",
+      "relatedName": "Neoplastic Hobnail Cell"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C36937",
+      "relatedName": "Neoplastic Smooth Muscle Cell"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C61518",
+      "relatedName": "Ovarian Surface Epithelium"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12404",
+      "relatedName": "Ovary"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12404",
+      "relatedName": "Ovary"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12841",
+      "relatedName": "Reproductive System"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12321",
+      "relatedName": "Uterine Adnexa"
+    }
+  ],
+  "history": [
+    {
+      "code": "C40080",
+      "action": "create",
+      "date": "2004-08-02"
+    },
+    {
+      "code": "C40080",
+      "action": "modify",
+      "date": "2005-09-09"
+    },
+    {
+      "code": "C40080",
+      "action": "modify",
+      "date": "2006-07-28"
+    },
+    {
+      "code": "C40080",
+      "action": "modify",
+      "date": "2009-10-27"
+    },
+    {
+      "code": "C40080",
+      "action": "modify",
+      "date": "2009-11-23"
+    },
+    {
+      "code": "C40080",
+      "action": "modify",
+      "date": "2010-03-08"
+    },
+    {
+      "code": "C40080",
+      "action": "modify",
+      "date": "2014-02-03"
+    },
+    {
+      "code": "C40080",
+      "action": "modify",
+      "date": "2014-08-04"
+    },
+    {
+      "code": "C40080",
+      "action": "modify",
+      "date": "2014-08-18"
+    },
+    {
+      "code": "C40080",
+      "action": "modify",
+      "date": "2014-09-22"
+    },
+    {
+      "code": "C40080",
+      "action": "modify",
+      "date": "2015-06-22"
+    },
+    {
+      "code": "C40080",
+      "action": "modify",
+      "date": "2018-07-30"
+    },
+    {
+      "code": "C40080",
+      "action": "modify",
+      "date": "2018-08-27"
+    },
+    {
+      "code": "C40080",
+      "action": "modify",
+      "date": "2018-08-27"
+    },
+    {
+      "code": "C40080",
+      "action": "modify",
+      "date": "2020-02-24"
+    },
+    {
+      "code": "C40080",
+      "action": "modify",
+      "date": "2020-03-30"
+    },
+    {
+      "code": "C40080",
+      "action": "modify",
+      "date": "2020-04-27"
+    },
+    {
+      "code": "C40080",
+      "action": "modify",
+      "date": "2020-06-29"
+    },
+    {
+      "code": "C40080",
+      "action": "modify",
+      "date": "2020-08-31"
+    },
+    {
+      "code": "C40080",
+      "action": "modify",
+      "date": "2021-02-22"
+    },
+    {
+      "code": "C40080",
+      "action": "modify",
+      "date": "2021-03-29"
+    }
+  ],
+  "maps": [
+    {
+      "type": "Related To",
+      "targetName": "8313/1",
+      "targetTermType": "PT",
+      "targetCode": "morphology",
+      "targetTerminology": "GDC"
+    },
+    {
+      "type": "Related To",
+      "targetName": "8444/1",
+      "targetTermType": "PT",
+      "targetCode": "morphology",
+      "targetTerminology": "GDC"
+    },
+    {
+      "type": "Related To",
+      "targetName": "Clear cell borderline tumor",
+      "targetTermType": "PT",
+      "targetCode": "8313/1",
+      "targetTerminology": "ICDO3",
+      "targetTerminologyVersion": "3.2"
+    },
+    {
+      "type": "Related To",
+      "targetName": "Clear cell cystic tumor of borderline malignancy",
+      "targetTermType": "PT",
+      "targetCode": "8444/1",
+      "targetTerminology": "ICDO3",
+      "targetTerminologyVersion": "3.1"
+    },
+    {
+      "type": "Has Synonym",
+      "targetName": "Clear cell cystic tumor of borderline malignancy",
+      "targetTermType": "PT",
+      "targetCode": "primary_diagnosis",
+      "targetTerminology": "GDC"
+    }
+  ]
+}

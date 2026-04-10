@@ -1,0 +1,609 @@
+{
+  "code": "C39824",
+  "name": "Invasive Bladder Sarcomatoid Urothelial Carcinoma",
+  "terminology": "ncit",
+  "version": "25.11d",
+  "conceptStatus": "DEFAULT",
+  "leaf": false,
+  "active": true,
+  "synonyms": [
+    {
+      "name": "Infiltrating Bladder Urothelial Carcinoma Sarcomatoid Variant",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "caDSR"
+    },
+    {
+      "name": "Invasive Bladder Sarcomatoid Urothelial Carcinoma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "Cellosaurus"
+    },
+    {
+      "name": "Infiltrating Bladder Urothelial Carcinoma Sarcomatoid Variant",
+      "termType": "DN",
+      "type": "FULL_SYN",
+      "source": "CTRP"
+    },
+    {
+      "name": "Bladder Carcinosarcoma",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Bladder Sarcomatoid Urothelial Carcinoma",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Infiltrating Bladder Urothelial Carcinoma, Sarcomatoid Variant",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Invasive Bladder Sarcomatoid Urothelial Carcinoma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Invasive Bladder Urothelial Carcinoma, Sarcomatoid Variant",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Infiltrating Bladder Urothelial Carcinoma Sarcomatoid Variant",
+      "type": "Display_Name"
+    },
+    {
+      "name": "Invasive Bladder Sarcomatoid Urothelial Carcinoma",
+      "type": "Preferred_Name"
+    }
+  ],
+  "definitions": [
+    {
+      "definition": "An invasive urothelial carcinoma of the bladder that exhibits spindle cell sarcomatoid features.",
+      "type": "DEFINITION",
+      "source": "NCI"
+    }
+  ],
+  "properties": [
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "Cellosaurus"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "CTRP"
+    },
+    {
+      "code": "P366",
+      "type": "Legacy Concept Name",
+      "value": "Infiltrating_Bladder_Urothelial_Carcinoma_Sarcomatoid_Variant"
+    },
+    {
+      "code": "P363",
+      "type": "Neoplastic_Status",
+      "value": "Malignant"
+    },
+    {
+      "code": "P106",
+      "type": "Semantic_Type",
+      "value": "Neoplastic Process"
+    },
+    {
+      "code": "P207",
+      "type": "UMLS_CUI",
+      "value": "C1512743"
+    }
+  ],
+  "children": [
+    {
+      "code": "C39825",
+      "name": "Invasive Bladder Sarcomatoid Urothelial Carcinoma with Heterologous Elements",
+      "leaf": true
+    },
+    {
+      "code": "C39826",
+      "name": "Invasive Bladder Sarcomatoid Urothelial Carcinoma without Heterologous Elements",
+      "leaf": true
+    },
+    {
+      "code": "C157766",
+      "name": "Metastatic Bladder Sarcomatoid Urothelial Carcinoma",
+      "leaf": true
+    }
+  ],
+  "parents": [
+    {
+      "code": "C27885",
+      "name": "Invasive Bladder Urothelial Carcinoma"
+    },
+    {
+      "code": "C164252",
+      "name": "Invasive Sarcomatoid Urothelial Carcinoma"
+    }
+  ],
+  "associations": [
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C165258",
+      "relatedName": "Cellosaurus Disease Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C118168",
+      "relatedName": "CTRP Disease Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C116977",
+      "relatedName": "CTRP Terminology"
+    }
+  ],
+  "roles": [
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C36104",
+      "relatedName": "Aggressive Clinical Course"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C36113",
+      "relatedName": "Anaplastic Lesion"
+    },
+    {
+      "type": "Disease_May_Have_Molecular_Abnormality",
+      "relatedCode": "C157462",
+      "relatedName": "ARID1A Gene Mutation"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C36122",
+      "relatedName": "Benign Cellular Infiltrate"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C35907",
+      "relatedName": "Biphasic Pattern"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C32210",
+      "relatedName": "Bladder Urothelial Cell"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C32211",
+      "relatedName": "Bladder Urothelium"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12414",
+      "relatedName": "Bladder"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12414",
+      "relatedName": "Bladder"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C54172",
+      "relatedName": "Carcinomatous Component Present"
+    },
+    {
+      "type": "Disease_May_Have_Molecular_Abnormality",
+      "relatedCode": "C150475",
+      "relatedName": "CDKN1A Gene Mutation"
+    },
+    {
+      "type": "Disease_May_Have_Molecular_Abnormality",
+      "relatedCode": "C128817",
+      "relatedName": "CDKN2A Gene Mutation"
+    },
+    {
+      "type": "Disease_May_Have_Molecular_Abnormality",
+      "relatedCode": "C132227",
+      "relatedName": "CREBBP Gene Mutation"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C2999",
+      "relatedName": "Dysuria"
+    },
+    {
+      "type": "Disease_May_Have_Molecular_Abnormality",
+      "relatedCode": "C150502",
+      "relatedName": "EP300 Gene Mutation"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C12578",
+      "relatedName": "Epithelial Cell"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C53596",
+      "relatedName": "Epithelial Component Present"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C42585",
+      "relatedName": "Epithelial Differentiation"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C45714",
+      "relatedName": "Epithelial Tissue"
+    },
+    {
+      "type": "Disease_May_Have_Molecular_Abnormality",
+      "relatedCode": "C96866",
+      "relatedName": "ERBB2 Gene Mutation"
+    },
+    {
+      "type": "Disease_May_Have_Molecular_Abnormality",
+      "relatedCode": "C138064",
+      "relatedName": "ERBB3 Gene Mutation"
+    },
+    {
+      "type": "Disease_May_Have_Molecular_Abnormality",
+      "relatedCode": "C39877",
+      "relatedName": "FGFR3 Gene Mutation"
+    },
+    {
+      "type": "Disease_May_Have_Cytogenetic_Abnormality",
+      "relatedCode": "C36484",
+      "relatedName": "Gain of Chromosome 17q"
+    },
+    {
+      "type": "Disease_May_Have_Cytogenetic_Abnormality",
+      "relatedCode": "C36482",
+      "relatedName": "Gain of Chromosome 1q"
+    },
+    {
+      "type": "Disease_May_Have_Cytogenetic_Abnormality",
+      "relatedCode": "C36489",
+      "relatedName": "Gain of Chromosome 5p"
+    },
+    {
+      "type": "Disease_May_Have_Cytogenetic_Abnormality",
+      "relatedCode": "C36488",
+      "relatedName": "Gain of Chromosome 8q"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12810",
+      "relatedName": "Genitourinary System"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12810",
+      "relatedName": "Genitourinary System"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C3090",
+      "relatedName": "Hematuria"
+    },
+    {
+      "type": "Disease_May_Have_Molecular_Abnormality",
+      "relatedCode": "C45934",
+      "relatedName": "HRAS Gene Mutation"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C36117",
+      "relatedName": "Invasive Lesion"
+    },
+    {
+      "type": "Disease_May_Have_Molecular_Abnormality",
+      "relatedCode": "C150649",
+      "relatedName": "KDM6A Gene Mutation"
+    },
+    {
+      "type": "Disease_May_Have_Molecular_Abnormality",
+      "relatedCode": "C153252",
+      "relatedName": "KMT2C Gene Mutation"
+    },
+    {
+      "type": "Disease_May_Have_Molecular_Abnormality",
+      "relatedCode": "C150651",
+      "relatedName": "KMT2D Gene Mutation"
+    },
+    {
+      "type": "Disease_May_Have_Molecular_Abnormality",
+      "relatedCode": "C41361",
+      "relatedName": "KRAS Gene Mutation"
+    },
+    {
+      "type": "Disease_May_Have_Cytogenetic_Abnormality",
+      "relatedCode": "C36516",
+      "relatedName": "Loss of Chromosome 10q"
+    },
+    {
+      "type": "Disease_May_Have_Cytogenetic_Abnormality",
+      "relatedCode": "C36505",
+      "relatedName": "Loss of Chromosome 11p"
+    },
+    {
+      "type": "Disease_May_Have_Cytogenetic_Abnormality",
+      "relatedCode": "C36496",
+      "relatedName": "Loss of Chromosome 18q"
+    },
+    {
+      "type": "Disease_May_Have_Cytogenetic_Abnormality",
+      "relatedCode": "C36548",
+      "relatedName": "Loss of Chromosome 2q"
+    },
+    {
+      "type": "Disease_May_Have_Cytogenetic_Abnormality",
+      "relatedCode": "C27712",
+      "relatedName": "Loss of Chromosome 5q"
+    },
+    {
+      "type": "Disease_May_Have_Cytogenetic_Abnormality",
+      "relatedCode": "C36503",
+      "relatedName": "Loss of Chromosome 8p"
+    },
+    {
+      "type": "Disease_May_Have_Cytogenetic_Abnormality",
+      "relatedCode": "C36636",
+      "relatedName": "Loss of Chromosome 9p"
+    },
+    {
+      "type": "Disease_May_Have_Cytogenetic_Abnormality",
+      "relatedCode": "C39875",
+      "relatedName": "Loss of Chromosome 9q"
+    },
+    {
+      "type": "Disease_May_Have_Cytogenetic_Abnormality",
+      "relatedCode": "C36599",
+      "relatedName": "Loss of Chromosome Y"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12917",
+      "relatedName": "Malignant Cell"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C36115",
+      "relatedName": "Malignant Cellular Infiltrate"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36779",
+      "relatedName": "Malignant Epithelial Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C37109",
+      "relatedName": "Malignant Epithelial Spindle Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C60303",
+      "relatedName": "Malignant Spindle Transitional Cell"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C37153",
+      "relatedName": "Malignant Stromal Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36778",
+      "relatedName": "Malignant Transitional Cell"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C36190",
+      "relatedName": "Mesenchymal Differentiation"
+    },
+    {
+      "type": "Disease_May_Have_Molecular_Abnormality",
+      "relatedCode": "C162513",
+      "relatedName": "MLL Gene Mutation"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12922",
+      "relatedName": "Neoplastic Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36753",
+      "relatedName": "Neoplastic Epithelial Cell"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C36937",
+      "relatedName": "Neoplastic Smooth Muscle Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36768",
+      "relatedName": "Neoplastic Transitional Cell"
+    },
+    {
+      "type": "Disease_May_Have_Molecular_Abnormality",
+      "relatedCode": "C96271",
+      "relatedName": "PIK3CA Gene Mutation"
+    },
+    {
+      "type": "Disease_May_Have_Molecular_Abnormality",
+      "relatedCode": "C133696",
+      "relatedName": "RB1 Gene Mutation"
+    },
+    {
+      "type": "Disease_May_Have_Molecular_Abnormality",
+      "relatedCode": "C160585",
+      "relatedName": "TERT Promoter Mutation"
+    },
+    {
+      "type": "Disease_May_Have_Molecular_Abnormality",
+      "relatedCode": "C118396",
+      "relatedName": "TP53 Gene Mutation"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C12866",
+      "relatedName": "Transitional Cell"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C13318",
+      "relatedName": "Transitional Epithelium"
+    },
+    {
+      "type": "Disease_May_Have_Molecular_Abnormality",
+      "relatedCode": "C118398",
+      "relatedName": "TSC1 Gene Mutation"
+    },
+    {
+      "type": "Disease_Excludes_Primary_Anatomic_Site",
+      "relatedCode": "C12417",
+      "relatedName": "Urethra"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C26906",
+      "relatedName": "Urinary Frequency"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12413",
+      "relatedName": "Urinary System"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12413",
+      "relatedName": "Urinary System"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C191741",
+      "relatedName": "Urinary Tract"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C191741",
+      "relatedName": "Urinary Tract"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C33841",
+      "relatedName": "Urothelial Cell"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C12884",
+      "relatedName": "Urothelium"
+    }
+  ],
+  "history": [
+    {
+      "code": "C39824",
+      "action": "create",
+      "date": "2004-08-02"
+    },
+    {
+      "code": "C39824",
+      "action": "modify",
+      "date": "2004-11-01"
+    },
+    {
+      "code": "C39824",
+      "action": "modify",
+      "date": "2006-03-31"
+    },
+    {
+      "code": "C39824",
+      "action": "modify",
+      "date": "2009-04-06"
+    },
+    {
+      "code": "C39824",
+      "action": "modify",
+      "date": "2009-10-27"
+    },
+    {
+      "code": "C39824",
+      "action": "modify",
+      "date": "2009-11-23"
+    },
+    {
+      "code": "C39824",
+      "action": "modify",
+      "date": "2013-02-04"
+    },
+    {
+      "code": "C39824",
+      "action": "modify",
+      "date": "2013-02-11"
+    },
+    {
+      "code": "C39824",
+      "action": "modify",
+      "date": "2018-10-29"
+    },
+    {
+      "code": "C39824",
+      "action": "modify",
+      "date": "2018-10-29"
+    },
+    {
+      "code": "C39824",
+      "action": "modify",
+      "date": "2018-11-26"
+    },
+    {
+      "code": "C39824",
+      "action": "modify",
+      "date": "2019-03-25"
+    },
+    {
+      "code": "C39824",
+      "action": "modify",
+      "date": "2019-09-30"
+    },
+    {
+      "code": "C39824",
+      "action": "modify",
+      "date": "2020-09-29"
+    },
+    {
+      "code": "C39824",
+      "action": "modify",
+      "date": "2021-07-26"
+    },
+    {
+      "code": "C39824",
+      "action": "modify",
+      "date": "2022-12-27"
+    },
+    {
+      "code": "C39824",
+      "action": "modify",
+      "date": "2023-01-31"
+    },
+    {
+      "code": "C39824",
+      "action": "modify",
+      "date": "2023-02-27"
+    },
+    {
+      "code": "C39824",
+      "action": "modify",
+      "date": "2025-03-31"
+    }
+  ]
+}

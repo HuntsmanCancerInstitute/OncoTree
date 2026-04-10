@@ -1,0 +1,326 @@
+{
+  "code": "C9351",
+  "name": "Pleural Mesothelial Neoplasm",
+  "terminology": "ncit",
+  "version": "25.11d",
+  "conceptStatus": "DEFAULT",
+  "leaf": false,
+  "active": true,
+  "synonyms": [
+    {
+      "name": "Pleural Mesothelioma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "CPTAC"
+    },
+    {
+      "name": "Mesothelioma of pleura",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "mCode",
+      "code": "C45.0",
+      "subSource": "ICD-10 CM"
+    },
+    {
+      "name": "Mesothelial Neoplasm of Pleura",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Mesothelial Neoplasm of the Pleura",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Mesothelial Tumor of Pleura",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Mesothelial Tumor of the Pleura",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Pleural Mesothelial Neoplasm",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Pleural Mesothelial Tumor",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Pleural Mesothelial Neoplasm",
+      "type": "Preferred_Name"
+    }
+  ],
+  "definitions": [
+    {
+      "definition": "A mesothelial neoplasm that arises from the pleura. It includes adenomatoid tumor, well differentiated papillary mesothelial tumor, and malignant mesothelioma.",
+      "type": "DEFINITION",
+      "source": "NCI"
+    }
+  ],
+  "properties": [
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "CPTAC"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "mCode"
+    },
+    {
+      "code": "P366",
+      "type": "Legacy Concept Name",
+      "value": "Pleural_Mesothelioma"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "Mesothelioma of pleura"
+    },
+    {
+      "code": "P363",
+      "type": "Neoplastic_Status",
+      "value": "Undetermined"
+    },
+    {
+      "code": "P106",
+      "type": "Semantic_Type",
+      "value": "Neoplastic Process"
+    },
+    {
+      "code": "P207",
+      "type": "UMLS_CUI",
+      "value": "C1377913"
+    }
+  ],
+  "children": [
+    {
+      "code": "C4499",
+      "name": "Pleural Adenomatoid Tumor",
+      "leaf": true
+    },
+    {
+      "code": "C7376",
+      "name": "Pleural Malignant Mesothelioma",
+      "leaf": false
+    },
+    {
+      "code": "C45660",
+      "name": "Pleural Well Differentiated Papillary Mesothelial Tumor",
+      "leaf": true
+    }
+  ],
+  "parents": [
+    {
+      "code": "C3786",
+      "name": "Mesothelial Neoplasm"
+    },
+    {
+      "code": "C3332",
+      "name": "Pleural Neoplasm"
+    }
+  ],
+  "associations": [
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C158520",
+      "relatedName": "CPTAC Codelists Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C156966",
+      "relatedName": "CPTAC Neoplasms Codelist"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C156952",
+      "relatedName": "CPTAC Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C193249",
+      "relatedName": "mCode Cancer Disorder Value Set"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C193178",
+      "relatedName": "mCode Elixhauser Malignant Solid Tumors without Metastases Value Set"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C193248",
+      "relatedName": "mCode Primary Cancer Disorder Value Set"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C193231",
+      "relatedName": "mCode Primary Malignant Neoplasm Disorder Value Set"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C193006",
+      "relatedName": "mCode Terminology"
+    }
+  ],
+  "roles": [
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C33104",
+      "relatedName": "Mesothelial Cell"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C33105",
+      "relatedName": "Mesothelium"
+    },
+    {
+      "type": "Disease_Excludes_Primary_Anatomic_Site",
+      "relatedCode": "C13063",
+      "relatedName": "Neck"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12922",
+      "relatedName": "Neoplastic Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C41605",
+      "relatedName": "Neoplastic Mesothelial Cell"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12840",
+      "relatedName": "Pleural Cavity"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12840",
+      "relatedName": "Pleural Cavity"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C12469",
+      "relatedName": "Pleura"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12779",
+      "relatedName": "Respiratory System"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12905",
+      "relatedName": "Thoracic Cavity"
+    }
+  ],
+  "history": [
+    {
+      "code": "C9351",
+      "action": "create",
+      "date": "2003-08-12"
+    },
+    {
+      "code": "C9351",
+      "action": "modify",
+      "date": "2003-10-31"
+    },
+    {
+      "code": "C9351",
+      "action": "modify",
+      "date": "2003-12-30"
+    },
+    {
+      "code": "C9351",
+      "action": "modify",
+      "date": "2004-03-30"
+    },
+    {
+      "code": "C9351",
+      "action": "modify",
+      "date": "2005-03-16"
+    },
+    {
+      "code": "C9351",
+      "action": "modify",
+      "date": "2006-05-26"
+    },
+    {
+      "code": "C9351",
+      "action": "modify",
+      "date": "2009-11-23"
+    },
+    {
+      "code": "C9351",
+      "action": "modify",
+      "date": "2010-08-02"
+    },
+    {
+      "code": "C9351",
+      "action": "modify",
+      "date": "2013-07-15"
+    },
+    {
+      "code": "C9351",
+      "action": "modify",
+      "date": "2014-02-03"
+    },
+    {
+      "code": "C9351",
+      "action": "modify",
+      "date": "2018-12-31"
+    },
+    {
+      "code": "C9351",
+      "action": "modify",
+      "date": "2019-02-25"
+    },
+    {
+      "code": "C9351",
+      "action": "modify",
+      "date": "2019-03-25"
+    },
+    {
+      "code": "C9351",
+      "action": "modify",
+      "date": "2019-05-28"
+    },
+    {
+      "code": "C9351",
+      "action": "modify",
+      "date": "2023-01-31"
+    },
+    {
+      "code": "C9351",
+      "action": "modify",
+      "date": "2023-03-27"
+    },
+    {
+      "code": "C9351",
+      "action": "modify",
+      "date": "2023-05-30"
+    }
+  ],
+  "maps": [
+    {
+      "type": "Has Synonym",
+      "targetName": "Mesothelioma of pleura",
+      "targetTermType": "PT",
+      "targetCode": "C45.0",
+      "targetTerminology": "ICD10CM 2017"
+    }
+  ]
+}

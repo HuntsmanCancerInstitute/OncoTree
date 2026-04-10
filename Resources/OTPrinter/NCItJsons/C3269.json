@@ -1,0 +1,1360 @@
+{
+  "code": "C3269",
+  "name": "Schwannoma",
+  "terminology": "ncit",
+  "version": "25.11d",
+  "conceptStatus": "DEFAULT",
+  "leaf": false,
+  "active": true,
+  "synonyms": [
+    {
+      "name": "Schwannoma",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "caDSR"
+    },
+    {
+      "name": "Neurilemmoma",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "CDISC"
+    },
+    {
+      "name": "Neurinoma",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "CDISC"
+    },
+    {
+      "name": "Schwannoma",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "CDISC"
+    },
+    {
+      "name": "Schwannoma (Who Grade I)",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "CDISC"
+    },
+    {
+      "name": "SCHWANNOMA, BENIGN",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "CDISC"
+    },
+    {
+      "name": "Schwannoma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "Cellosaurus"
+    },
+    {
+      "name": "Neurinoma",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "GDC"
+    },
+    {
+      "name": "Schwannoma, NOS",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "GDC"
+    },
+    {
+      "name": "schwannoma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NCI-GLOSS",
+      "code": "CDR0000046572"
+    },
+    {
+      "name": "Benign Neurilemmoma",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Benign Schwannoma",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Neurilemmoma",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Neurinoma",
+      "termType": "AQS",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Schwannoma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Schwannoma (WHO Grade I)",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Schwannoma",
+      "type": "Preferred_Name"
+    }
+  ],
+  "definitions": [
+    {
+      "definition": "A benign neoplasm of the peripheral nervous system composed of well-differentiated Schwann cells.",
+      "type": "ALT_DEFINITION",
+      "source": "CDISC"
+    },
+    {
+      "definition": "A benign, usually encapsulated slow growing tumor composed of Schwann cells.  It affects peripheral and cranial nerves.  It recurs infrequently and only rare cases associated with malignant transformation have been reported.",
+      "type": "DEFINITION",
+      "source": "NCI"
+    },
+    {
+      "definition": "A tumor of the peripheral nervous system that arises in the nerve sheath (protective covering).  It is almost always benign, but rare malignant schwannomas have been reported.",
+      "type": "ALT_DEFINITION",
+      "source": "NCI-GLOSS"
+    }
+  ],
+  "properties": [
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "CDISC"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "Cellosaurus"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "GDC"
+    },
+    {
+      "code": "P334",
+      "type": "ICD-O-3_Code",
+      "value": "9560/0"
+    },
+    {
+      "code": "P366",
+      "type": "Legacy Concept Name",
+      "value": "Schwannoma"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "9560/0"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "Neurilemoma, NOS"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "Neurinoma"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "Psammomatous schwannoma"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "Schwannoma, NOS"
+    },
+    {
+      "code": "P363",
+      "type": "Neoplastic_Status",
+      "value": "Benign"
+    },
+    {
+      "code": "P106",
+      "type": "Semantic_Type",
+      "value": "Neoplastic Process"
+    },
+    {
+      "code": "P207",
+      "type": "UMLS_CUI",
+      "value": "C0027809"
+    }
+  ],
+  "children": [
+    {
+      "code": "C6556",
+      "name": "Ancient Schwannoma",
+      "leaf": true
+    },
+    {
+      "code": "C4724",
+      "name": "Cellular Schwannoma",
+      "leaf": true
+    },
+    {
+      "code": "C5413",
+      "name": "Cerebellopontine Angle Schwannoma",
+      "leaf": true
+    },
+    {
+      "code": "C188992",
+      "name": "Childhood Schwannoma",
+      "leaf": true
+    },
+    {
+      "code": "C121677",
+      "name": "Conventional Schwannoma",
+      "leaf": true
+    },
+    {
+      "code": "C178245",
+      "name": "Epithelioid Schwannoma",
+      "leaf": true
+    },
+    {
+      "code": "C188213",
+      "name": "Facial Nerve Schwannoma",
+      "leaf": true
+    },
+    {
+      "code": "C5434",
+      "name": "Hypoglossal Nerve Schwannoma",
+      "leaf": true
+    },
+    {
+      "code": "C5321",
+      "name": "Microcystic/Reticular Schwannoma",
+      "leaf": true
+    },
+    {
+      "code": "C207079",
+      "name": "Neuroblastoma-Like Schwannoma",
+      "leaf": true
+    },
+    {
+      "code": "C41430",
+      "name": "Peripheral Nerve Schwannoma",
+      "leaf": false
+    },
+    {
+      "code": "C6969",
+      "name": "Plexiform Schwannoma",
+      "leaf": true
+    },
+    {
+      "code": "C182029",
+      "name": "Recurrent Schwannoma",
+      "leaf": true
+    },
+    {
+      "code": "C6557",
+      "name": "Schwannomatosis",
+      "leaf": false
+    },
+    {
+      "code": "C155780",
+      "name": "Sellar Schwannoma",
+      "leaf": true
+    },
+    {
+      "code": "C161639",
+      "name": "Seminal Vesicle Schwannoma",
+      "leaf": true
+    },
+    {
+      "code": "C173143",
+      "name": "Sinonasal Schwannoma",
+      "leaf": true
+    },
+    {
+      "code": "C4655",
+      "name": "Trigeminal Schwannoma",
+      "leaf": true
+    },
+    {
+      "code": "C3276",
+      "name": "Vestibular Schwannoma",
+      "leaf": true
+    }
+  ],
+  "parents": [
+    {
+      "code": "C4789",
+      "name": "Benign Nervous System Neoplasm"
+    },
+    {
+      "code": "C4972",
+      "name": "Nerve Sheath Neoplasm"
+    }
+  ],
+  "associations": [
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C77526",
+      "relatedName": "CDISC SEND Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C88025",
+      "relatedName": "CDISC SEND Tumor Findings Results Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C165258",
+      "relatedName": "Cellosaurus Disease Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C61410",
+      "relatedName": "Clinical Data Interchange Standards Consortium Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C157711",
+      "relatedName": "GDC Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C177537",
+      "relatedName": "GDC Value Terminology"
+    },
+    {
+      "type": "Is_Value_For_GDC_Property",
+      "relatedCode": "C176985",
+      "relatedName": "Histology ICD-O Morphology Code"
+    },
+    {
+      "type": "Is_Value_For_GDC_Property",
+      "relatedCode": "C177621",
+      "relatedName": "ICD-O-3 Morphology Term Diagnosis Question"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168658",
+      "relatedName": "Mapped ICDO3.1 Morphology PT Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168657",
+      "relatedName": "Mapped ICDO3.1 Morphology Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168655",
+      "relatedName": "Mapped ICDO3.1 Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168662",
+      "relatedName": "Mapped ICDO3.2 Morphology PT Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168661",
+      "relatedName": "Mapped ICDO3.2 Morphology Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168656",
+      "relatedName": "Mapped ICDO3.2 Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C126659",
+      "relatedName": "NCIt Neoplasm Core Terminology"
+    }
+  ],
+  "inverseAssociations": [
+    {
+      "type": "Has_GDC_Value",
+      "relatedCode": "C176985",
+      "relatedName": "Histology ICD-O Morphology Code"
+    },
+    {
+      "type": "Has_GDC_Value",
+      "relatedCode": "C177621",
+      "relatedName": "ICD-O-3 Morphology Term Diagnosis Question"
+    }
+  ],
+  "roles": [
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C36104",
+      "relatedName": "Aggressive Clinical Course"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C35909",
+      "relatedName": "Antoni A Pattern"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C36122",
+      "relatedName": "Benign Cellular Infiltrate"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C36108",
+      "relatedName": "Encapsulated Mass"
+    },
+    {
+      "type": "Disease_Is_Grade",
+      "relatedCode": "C28077",
+      "relatedName": "Grade 1"
+    },
+    {
+      "type": "Disease_May_Have_Cytogenetic_Abnormality",
+      "relatedCode": "C36506",
+      "relatedName": "Loss of Chromosome 22q"
+    },
+    {
+      "type": "Disease_Has_Molecular_Abnormality",
+      "relatedCode": "C41424",
+      "relatedName": "Loss of Merlin Expression"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C12917",
+      "relatedName": "Malignant Cell"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C36115",
+      "relatedName": "Malignant Cellular Infiltrate"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C36184",
+      "relatedName": "Necrotic Change"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12922",
+      "relatedName": "Neoplastic Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C41408",
+      "relatedName": "Neoplastic Neuroepithelial Cell and Neoplastic Perineural Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C41413",
+      "relatedName": "Neoplastic Perineural Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C37151",
+      "relatedName": "Neoplastic Schwann Cell"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C41443",
+      "relatedName": "Nerve Tissue and Nerve Sheaths"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C41406",
+      "relatedName": "Nerve Tissue, Neuroepithelial Tissue, and Nerve Sheaths"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12755",
+      "relatedName": "Nervous System"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12755",
+      "relatedName": "Nervous System"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12755",
+      "relatedName": "Nervous System"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C41405",
+      "relatedName": "Neuron, Neuroepithelial Cell, and Supporting Cell of the Nervous System"
+    },
+    {
+      "type": "Disease_May_Have_Molecular_Abnormality",
+      "relatedCode": "C36686",
+      "relatedName": "NF2 Gene Inactivation"
+    },
+    {
+      "type": "Disease_Mapped_To_Gene",
+      "relatedCode": "C17425",
+      "relatedName": "NF2 Gene"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C41416",
+      "relatedName": "Perineural Cell"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C12620",
+      "relatedName": "Schwann Cell"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C33544",
+      "relatedName": "Sheath of Schwann"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C41431",
+      "relatedName": "Thick-Walled Hyalinized Vessels Present"
+    }
+  ],
+  "inverseRoles": [
+    {
+      "type": "Disease_May_Have_Associated_Disease",
+      "relatedCode": "C222308",
+      "relatedName": "MicroRNA Processor Tumor Predisposition Syndrome"
+    },
+    {
+      "type": "Gene_Involved_In_Pathogenesis_Of_Disease",
+      "relatedCode": "C17425",
+      "relatedName": "NF2 Gene"
+    },
+    {
+      "type": "Gene_Involved_In_Pathogenesis_Of_Disease",
+      "relatedCode": "C52883",
+      "relatedName": "NF2 wt Allele"
+    }
+  ],
+  "history": [
+    {
+      "code": "C3269",
+      "action": "create",
+      "date": "2003-08-12"
+    },
+    {
+      "code": "C3269",
+      "action": "modify",
+      "date": "2003-10-31"
+    },
+    {
+      "code": "C3269",
+      "action": "modify",
+      "date": "2003-12-30"
+    },
+    {
+      "code": "C3269",
+      "action": "modify",
+      "date": "2004-03-30"
+    },
+    {
+      "code": "C3269",
+      "action": "modify",
+      "date": "2004-11-01"
+    },
+    {
+      "code": "C3269",
+      "action": "modify",
+      "date": "2004-12-30"
+    },
+    {
+      "code": "C3269",
+      "action": "modify",
+      "date": "2007-04-30"
+    },
+    {
+      "code": "C3269",
+      "action": "modify",
+      "date": "2007-05-25"
+    },
+    {
+      "code": "C3269",
+      "action": "modify",
+      "date": "2007-06-28"
+    },
+    {
+      "code": "C3269",
+      "action": "modify",
+      "date": "2009-04-06"
+    },
+    {
+      "code": "C3269",
+      "action": "modify",
+      "date": "2009-04-20"
+    },
+    {
+      "code": "C3269",
+      "action": "modify",
+      "date": "2009-11-02"
+    },
+    {
+      "code": "C3269",
+      "action": "modify",
+      "date": "2009-11-23"
+    },
+    {
+      "code": "C3269",
+      "action": "modify",
+      "date": "2009-12-22"
+    },
+    {
+      "code": "C3269",
+      "action": "modify",
+      "date": "2010-06-01"
+    },
+    {
+      "code": "C3269",
+      "action": "modify",
+      "date": "2010-10-25"
+    },
+    {
+      "code": "C5118",
+      "action": "merge",
+      "date": "2010-10-25",
+      "replacementCode": "C3269",
+      "replacementName": "Schwannoma"
+    },
+    {
+      "code": "C3269",
+      "action": "merge",
+      "date": "2010-10-25",
+      "replacementCode": "C3269",
+      "replacementName": "Schwannoma"
+    },
+    {
+      "code": "C3269",
+      "action": "modify",
+      "date": "2010-11-01"
+    },
+    {
+      "code": "C3269",
+      "action": "modify",
+      "date": "2011-02-22"
+    },
+    {
+      "code": "C3269",
+      "action": "modify",
+      "date": "2011-03-07"
+    },
+    {
+      "code": "C3269",
+      "action": "modify",
+      "date": "2011-04-11"
+    },
+    {
+      "code": "C3269",
+      "action": "modify",
+      "date": "2011-11-14"
+    },
+    {
+      "code": "C3269",
+      "action": "modify",
+      "date": "2011-11-21"
+    },
+    {
+      "code": "C3269",
+      "action": "modify",
+      "date": "2011-11-28"
+    },
+    {
+      "code": "C3269",
+      "action": "modify",
+      "date": "2011-12-05"
+    },
+    {
+      "code": "C3269",
+      "action": "modify",
+      "date": "2011-12-12"
+    },
+    {
+      "code": "C3269",
+      "action": "modify",
+      "date": "2011-12-19"
+    },
+    {
+      "code": "C3269",
+      "action": "modify",
+      "date": "2011-12-27"
+    },
+    {
+      "code": "C3269",
+      "action": "modify",
+      "date": "2012-01-09"
+    },
+    {
+      "code": "C3269",
+      "action": "modify",
+      "date": "2012-01-17"
+    },
+    {
+      "code": "C3269",
+      "action": "modify",
+      "date": "2012-01-23"
+    },
+    {
+      "code": "C3269",
+      "action": "modify",
+      "date": "2012-01-30"
+    },
+    {
+      "code": "C3269",
+      "action": "modify",
+      "date": "2012-02-06"
+    },
+    {
+      "code": "C3269",
+      "action": "modify",
+      "date": "2012-02-13"
+    },
+    {
+      "code": "C3269",
+      "action": "modify",
+      "date": "2012-02-21"
+    },
+    {
+      "code": "C3269",
+      "action": "modify",
+      "date": "2012-02-27"
+    },
+    {
+      "code": "C3269",
+      "action": "modify",
+      "date": "2012-03-05"
+    },
+    {
+      "code": "C3269",
+      "action": "modify",
+      "date": "2012-03-12"
+    },
+    {
+      "code": "C3269",
+      "action": "modify",
+      "date": "2012-03-19"
+    },
+    {
+      "code": "C3269",
+      "action": "modify",
+      "date": "2012-03-26"
+    },
+    {
+      "code": "C3269",
+      "action": "modify",
+      "date": "2012-04-02"
+    },
+    {
+      "code": "C3269",
+      "action": "modify",
+      "date": "2012-04-09"
+    },
+    {
+      "code": "C3269",
+      "action": "modify",
+      "date": "2012-04-16"
+    },
+    {
+      "code": "C3269",
+      "action": "modify",
+      "date": "2012-04-23"
+    },
+    {
+      "code": "C3269",
+      "action": "modify",
+      "date": "2012-04-30"
+    },
+    {
+      "code": "C3269",
+      "action": "modify",
+      "date": "2012-05-07"
+    },
+    {
+      "code": "C3269",
+      "action": "modify",
+      "date": "2012-05-14"
+    },
+    {
+      "code": "C3269",
+      "action": "modify",
+      "date": "2012-05-21"
+    },
+    {
+      "code": "C3269",
+      "action": "modify",
+      "date": "2012-05-29"
+    },
+    {
+      "code": "C3269",
+      "action": "modify",
+      "date": "2012-06-04"
+    },
+    {
+      "code": "C3269",
+      "action": "modify",
+      "date": "2012-06-11"
+    },
+    {
+      "code": "C3269",
+      "action": "modify",
+      "date": "2012-06-18"
+    },
+    {
+      "code": "C3269",
+      "action": "modify",
+      "date": "2012-06-18"
+    },
+    {
+      "code": "C3269",
+      "action": "modify",
+      "date": "2012-06-25"
+    },
+    {
+      "code": "C3269",
+      "action": "modify",
+      "date": "2012-07-03"
+    },
+    {
+      "code": "C3269",
+      "action": "modify",
+      "date": "2012-07-16"
+    },
+    {
+      "code": "C3269",
+      "action": "modify",
+      "date": "2012-07-23"
+    },
+    {
+      "code": "C3269",
+      "action": "modify",
+      "date": "2012-07-30"
+    },
+    {
+      "code": "C3269",
+      "action": "modify",
+      "date": "2012-08-06"
+    },
+    {
+      "code": "C3269",
+      "action": "modify",
+      "date": "2012-08-13"
+    },
+    {
+      "code": "C3269",
+      "action": "modify",
+      "date": "2012-08-20"
+    },
+    {
+      "code": "C3269",
+      "action": "modify",
+      "date": "2012-08-27"
+    },
+    {
+      "code": "C3269",
+      "action": "modify",
+      "date": "2012-09-04"
+    },
+    {
+      "code": "C3269",
+      "action": "modify",
+      "date": "2012-09-10"
+    },
+    {
+      "code": "C3269",
+      "action": "modify",
+      "date": "2012-09-17"
+    },
+    {
+      "code": "C3269",
+      "action": "modify",
+      "date": "2012-09-24"
+    },
+    {
+      "code": "C3269",
+      "action": "modify",
+      "date": "2012-10-01"
+    },
+    {
+      "code": "C3269",
+      "action": "modify",
+      "date": "2012-10-09"
+    },
+    {
+      "code": "C3269",
+      "action": "modify",
+      "date": "2012-10-15"
+    },
+    {
+      "code": "C3269",
+      "action": "modify",
+      "date": "2012-10-22"
+    },
+    {
+      "code": "C3269",
+      "action": "modify",
+      "date": "2012-10-31"
+    },
+    {
+      "code": "C3269",
+      "action": "modify",
+      "date": "2012-11-05"
+    },
+    {
+      "code": "C3269",
+      "action": "modify",
+      "date": "2012-11-13"
+    },
+    {
+      "code": "C3269",
+      "action": "modify",
+      "date": "2012-11-19"
+    },
+    {
+      "code": "C3269",
+      "action": "modify",
+      "date": "2012-11-26"
+    },
+    {
+      "code": "C3269",
+      "action": "modify",
+      "date": "2012-12-03"
+    },
+    {
+      "code": "C3269",
+      "action": "modify",
+      "date": "2012-12-10"
+    },
+    {
+      "code": "C3269",
+      "action": "modify",
+      "date": "2012-12-17"
+    },
+    {
+      "code": "C3269",
+      "action": "modify",
+      "date": "2012-12-28"
+    },
+    {
+      "code": "C3269",
+      "action": "modify",
+      "date": "2013-01-07"
+    },
+    {
+      "code": "C3269",
+      "action": "modify",
+      "date": "2013-01-14"
+    },
+    {
+      "code": "C3269",
+      "action": "modify",
+      "date": "2013-01-23"
+    },
+    {
+      "code": "C3269",
+      "action": "modify",
+      "date": "2013-02-04"
+    },
+    {
+      "code": "C3269",
+      "action": "modify",
+      "date": "2013-02-11"
+    },
+    {
+      "code": "C3269",
+      "action": "modify",
+      "date": "2013-02-19"
+    },
+    {
+      "code": "C3269",
+      "action": "modify",
+      "date": "2013-02-25"
+    },
+    {
+      "code": "C3269",
+      "action": "modify",
+      "date": "2013-03-04"
+    },
+    {
+      "code": "C3269",
+      "action": "modify",
+      "date": "2013-03-11"
+    },
+    {
+      "code": "C3269",
+      "action": "modify",
+      "date": "2013-03-18"
+    },
+    {
+      "code": "C3269",
+      "action": "modify",
+      "date": "2013-03-25"
+    },
+    {
+      "code": "C3269",
+      "action": "modify",
+      "date": "2013-04-01"
+    },
+    {
+      "code": "C3269",
+      "action": "modify",
+      "date": "2013-04-08"
+    },
+    {
+      "code": "C3269",
+      "action": "modify",
+      "date": "2013-04-15"
+    },
+    {
+      "code": "C3269",
+      "action": "modify",
+      "date": "2013-04-22"
+    },
+    {
+      "code": "C3269",
+      "action": "modify",
+      "date": "2013-04-29"
+    },
+    {
+      "code": "C3269",
+      "action": "modify",
+      "date": "2013-05-06"
+    },
+    {
+      "code": "C3269",
+      "action": "modify",
+      "date": "2013-05-13"
+    },
+    {
+      "code": "C3269",
+      "action": "modify",
+      "date": "2013-05-20"
+    },
+    {
+      "code": "C3269",
+      "action": "modify",
+      "date": "2013-05-28"
+    },
+    {
+      "code": "C3269",
+      "action": "modify",
+      "date": "2013-06-03"
+    },
+    {
+      "code": "C3269",
+      "action": "modify",
+      "date": "2013-06-10"
+    },
+    {
+      "code": "C3269",
+      "action": "modify",
+      "date": "2013-06-17"
+    },
+    {
+      "code": "C3269",
+      "action": "modify",
+      "date": "2013-06-24"
+    },
+    {
+      "code": "C3269",
+      "action": "modify",
+      "date": "2013-07-01"
+    },
+    {
+      "code": "C3269",
+      "action": "modify",
+      "date": "2013-07-08"
+    },
+    {
+      "code": "C3269",
+      "action": "modify",
+      "date": "2014-11-24"
+    },
+    {
+      "code": "C3269",
+      "action": "modify",
+      "date": "2014-12-01"
+    },
+    {
+      "code": "C3269",
+      "action": "modify",
+      "date": "2014-12-08"
+    },
+    {
+      "code": "C3269",
+      "action": "modify",
+      "date": "2014-12-15"
+    },
+    {
+      "code": "C3269",
+      "action": "modify",
+      "date": "2014-12-22"
+    },
+    {
+      "code": "C3269",
+      "action": "modify",
+      "date": "2014-12-29"
+    },
+    {
+      "code": "C3269",
+      "action": "modify",
+      "date": "2015-01-05"
+    },
+    {
+      "code": "C3269",
+      "action": "modify",
+      "date": "2015-01-12"
+    },
+    {
+      "code": "C3269",
+      "action": "modify",
+      "date": "2015-01-20"
+    },
+    {
+      "code": "C3269",
+      "action": "modify",
+      "date": "2015-01-26"
+    },
+    {
+      "code": "C3269",
+      "action": "modify",
+      "date": "2015-02-02"
+    },
+    {
+      "code": "C3269",
+      "action": "modify",
+      "date": "2015-02-09"
+    },
+    {
+      "code": "C3269",
+      "action": "modify",
+      "date": "2015-02-17"
+    },
+    {
+      "code": "C3269",
+      "action": "modify",
+      "date": "2015-02-23"
+    },
+    {
+      "code": "C3269",
+      "action": "modify",
+      "date": "2015-03-02"
+    },
+    {
+      "code": "C3269",
+      "action": "modify",
+      "date": "2015-03-09"
+    },
+    {
+      "code": "C3269",
+      "action": "modify",
+      "date": "2015-03-16"
+    },
+    {
+      "code": "C3269",
+      "action": "modify",
+      "date": "2015-03-23"
+    },
+    {
+      "code": "C3269",
+      "action": "modify",
+      "date": "2015-03-30"
+    },
+    {
+      "code": "C3269",
+      "action": "modify",
+      "date": "2015-04-06"
+    },
+    {
+      "code": "C3269",
+      "action": "modify",
+      "date": "2015-04-13"
+    },
+    {
+      "code": "C3269",
+      "action": "modify",
+      "date": "2015-04-20"
+    },
+    {
+      "code": "C3269",
+      "action": "modify",
+      "date": "2015-04-27"
+    },
+    {
+      "code": "C3269",
+      "action": "modify",
+      "date": "2015-05-04"
+    },
+    {
+      "code": "C3269",
+      "action": "modify",
+      "date": "2015-05-11"
+    },
+    {
+      "code": "C3269",
+      "action": "modify",
+      "date": "2015-05-18"
+    },
+    {
+      "code": "C3269",
+      "action": "modify",
+      "date": "2015-05-26"
+    },
+    {
+      "code": "C3269",
+      "action": "modify",
+      "date": "2015-06-29"
+    },
+    {
+      "code": "C3269",
+      "action": "modify",
+      "date": "2016-04-25"
+    },
+    {
+      "code": "C3269",
+      "action": "modify",
+      "date": "2016-08-22"
+    },
+    {
+      "code": "C3269",
+      "action": "modify",
+      "date": "2018-09-24"
+    },
+    {
+      "code": "C3269",
+      "action": "modify",
+      "date": "2018-10-29"
+    },
+    {
+      "code": "C3269",
+      "action": "modify",
+      "date": "2018-10-29"
+    },
+    {
+      "code": "C3269",
+      "action": "modify",
+      "date": "2019-05-28"
+    },
+    {
+      "code": "C3269",
+      "action": "modify",
+      "date": "2019-09-30"
+    },
+    {
+      "code": "C3269",
+      "action": "modify",
+      "date": "2019-10-28"
+    },
+    {
+      "code": "C3269",
+      "action": "modify",
+      "date": "2019-11-25"
+    },
+    {
+      "code": "C3269",
+      "action": "modify",
+      "date": "2020-02-24"
+    },
+    {
+      "code": "C3269",
+      "action": "modify",
+      "date": "2020-04-27"
+    },
+    {
+      "code": "C3269",
+      "action": "modify",
+      "date": "2020-09-29"
+    },
+    {
+      "code": "C3269",
+      "action": "modify",
+      "date": "2021-02-22"
+    },
+    {
+      "code": "C3269",
+      "action": "modify",
+      "date": "2021-03-29"
+    },
+    {
+      "code": "C3269",
+      "action": "modify",
+      "date": "2022-04-25"
+    },
+    {
+      "code": "C3269",
+      "action": "modify",
+      "date": "2023-02-27"
+    },
+    {
+      "code": "C3269",
+      "action": "modify",
+      "date": "2023-12-26"
+    },
+    {
+      "code": "C3269",
+      "action": "modify",
+      "date": "2025-03-31"
+    }
+  ],
+  "maps": [
+    {
+      "type": "Related To",
+      "targetName": "9560/0",
+      "targetTermType": "PT",
+      "targetCode": "morphology",
+      "targetTerminology": "GDC"
+    },
+    {
+      "type": "Related To",
+      "targetName": "Neurilemoma, NOS",
+      "targetTermType": "PT",
+      "targetCode": "9560/0",
+      "targetTerminology": "ICDO3",
+      "targetTerminologyVersion": "3.1"
+    },
+    {
+      "type": "Related To",
+      "targetName": "Neurilemoma, NOS",
+      "targetTermType": "PT",
+      "targetCode": "primary_diagnosis",
+      "targetTerminology": "GDC"
+    },
+    {
+      "type": "Has Synonym",
+      "targetName": "Neurinoma",
+      "targetTermType": "PT",
+      "targetCode": "primary_diagnosis",
+      "targetTerminology": "GDC"
+    },
+    {
+      "type": "Related To",
+      "targetName": "Psammomatous schwannoma",
+      "targetTermType": "PT",
+      "targetCode": "primary_diagnosis",
+      "targetTerminology": "GDC"
+    },
+    {
+      "type": "Related To",
+      "targetName": "Schwannoma, NOS",
+      "targetTermType": "PT",
+      "targetCode": "9560/0",
+      "targetTerminology": "ICDO3",
+      "targetTerminologyVersion": "3.2"
+    },
+    {
+      "type": "Has Synonym",
+      "targetName": "Schwannoma, NOS",
+      "targetTermType": "PT",
+      "targetCode": "primary_diagnosis",
+      "targetTerminology": "GDC"
+    }
+  ]
+}

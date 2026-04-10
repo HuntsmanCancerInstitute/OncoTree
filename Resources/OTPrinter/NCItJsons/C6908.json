@@ -1,0 +1,482 @@
+{
+  "code": "C6908",
+  "name": "Chordoid Meningioma",
+  "terminology": "ncit",
+  "version": "25.11d",
+  "conceptStatus": "DEFAULT",
+  "leaf": true,
+  "active": true,
+  "synonyms": [
+    {
+      "name": "Chordoid Meningioma",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "caDSR"
+    },
+    {
+      "name": "Chordoid meningioma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "GDC"
+    },
+    {
+      "name": "Chordoid Meningioma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Chordoid Meningioma",
+      "type": "Preferred_Name"
+    }
+  ],
+  "definitions": [
+    {
+      "definition": "A WHO grade II, usually recurring meningioma characterized by the predominance of tissues that are histologically similar to chordoma.",
+      "type": "DEFINITION",
+      "source": "NCI"
+    }
+  ],
+  "properties": [
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "GDC"
+    },
+    {
+      "code": "P366",
+      "type": "Legacy Concept Name",
+      "value": "Chordoid_Meningioma"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "9538/1"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "Chordoid meningioma"
+    },
+    {
+      "code": "P363",
+      "type": "Neoplastic_Status",
+      "value": "Undetermined"
+    },
+    {
+      "code": "P106",
+      "type": "Semantic_Type",
+      "value": "Neoplastic Process"
+    },
+    {
+      "code": "P207",
+      "type": "UMLS_CUI",
+      "value": "C1370510"
+    }
+  ],
+  "parents": [
+    {
+      "code": "C38937",
+      "name": "Grade 2 Meningioma"
+    }
+  ],
+  "associations": [
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C157711",
+      "relatedName": "GDC Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C177537",
+      "relatedName": "GDC Value Terminology"
+    },
+    {
+      "type": "Is_Value_For_GDC_Property",
+      "relatedCode": "C176985",
+      "relatedName": "Histology ICD-O Morphology Code"
+    },
+    {
+      "type": "Is_Value_For_GDC_Property",
+      "relatedCode": "C177621",
+      "relatedName": "ICD-O-3 Morphology Term Diagnosis Question"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C126659",
+      "relatedName": "NCIt Neoplasm Core Terminology"
+    }
+  ],
+  "inverseAssociations": [
+    {
+      "type": "Has_GDC_Value",
+      "relatedCode": "C176985",
+      "relatedName": "Histology ICD-O Morphology Code"
+    },
+    {
+      "type": "Has_GDC_Value",
+      "relatedCode": "C177621",
+      "relatedName": "ICD-O-3 Morphology Term Diagnosis Question"
+    }
+  ],
+  "roles": [
+    {
+      "type": "Disease_May_Have_Associated_Disease",
+      "relatedCode": "C3056",
+      "relatedName": "Castleman Disease"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12438",
+      "relatedName": "Central Nervous System"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12438",
+      "relatedName": "Central Nervous System"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C35980",
+      "relatedName": "Chronic Inflammatory Infiltrate"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C12555",
+      "relatedName": "Connective and Soft Tissue Cell"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12964",
+      "relatedName": "Connective and Soft Tissue"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12964",
+      "relatedName": "Connective and Soft Tissue"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C37159",
+      "relatedName": "Eosinophilic Meningothelial Cell"
+    },
+    {
+      "type": "Disease_May_Have_Cytogenetic_Abnormality",
+      "relatedCode": "C36441",
+      "relatedName": "Gain of Chromosome 12q"
+    },
+    {
+      "type": "Disease_May_Have_Cytogenetic_Abnormality",
+      "relatedCode": "C36481",
+      "relatedName": "Gain of Chromosome 15q"
+    },
+    {
+      "type": "Disease_May_Have_Cytogenetic_Abnormality",
+      "relatedCode": "C36484",
+      "relatedName": "Gain of Chromosome 17q"
+    },
+    {
+      "type": "Disease_May_Have_Cytogenetic_Abnormality",
+      "relatedCode": "C36482",
+      "relatedName": "Gain of Chromosome 1q"
+    },
+    {
+      "type": "Disease_May_Have_Cytogenetic_Abnormality",
+      "relatedCode": "C36480",
+      "relatedName": "Gain of Chromosome 20q"
+    },
+    {
+      "type": "Disease_May_Have_Cytogenetic_Abnormality",
+      "relatedCode": "C36483",
+      "relatedName": "Gain of Chromosome 9q"
+    },
+    {
+      "type": "Disease_Is_Grade",
+      "relatedCode": "C28078",
+      "relatedName": "Grade 2"
+    },
+    {
+      "type": "Disease_May_Have_Cytogenetic_Abnormality",
+      "relatedCode": "C36490",
+      "relatedName": "Loss of Chromosome 14"
+    },
+    {
+      "type": "Disease_May_Have_Cytogenetic_Abnormality",
+      "relatedCode": "C36501",
+      "relatedName": "Loss of Chromosome 1p"
+    },
+    {
+      "type": "Disease_May_Have_Cytogenetic_Abnormality",
+      "relatedCode": "C36491",
+      "relatedName": "Loss of Chromosome 22"
+    },
+    {
+      "type": "Disease_May_Have_Cytogenetic_Abnormality",
+      "relatedCode": "C36502",
+      "relatedName": "Loss of Chromosome 3p"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12348",
+      "relatedName": "Meninges"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C12348",
+      "relatedName": "Meninges"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C33095",
+      "relatedName": "Meningothelial Cell"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C35998",
+      "relatedName": "Myxoid Stroma Formation"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12922",
+      "relatedName": "Neoplastic Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36887",
+      "relatedName": "Neoplastic Connective and Soft Tissue Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C37155",
+      "relatedName": "Neoplastic Meningothelial Cell"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12755",
+      "relatedName": "Nervous System"
+    },
+    {
+      "type": "Disease_Excludes_Normal_Cell_Origin",
+      "relatedCode": "C41405",
+      "relatedName": "Neuron, Neuroepithelial Cell, and Supporting Cell of the Nervous System"
+    },
+    {
+      "type": "Disease_May_Have_Molecular_Abnormality",
+      "relatedCode": "C36686",
+      "relatedName": "NF2 Gene Inactivation"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C38328",
+      "relatedName": "Unfavorable Clinical Outcome"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C41457",
+      "relatedName": "Well-Circumscribed Lesion"
+    }
+  ],
+  "history": [
+    {
+      "code": "C6908",
+      "action": "create",
+      "date": "2003-08-12"
+    },
+    {
+      "code": "C6908",
+      "action": "modify",
+      "date": "2003-12-30"
+    },
+    {
+      "code": "C6908",
+      "action": "modify",
+      "date": "2004-05-28"
+    },
+    {
+      "code": "C6908",
+      "action": "modify",
+      "date": "2004-12-30"
+    },
+    {
+      "code": "C6908",
+      "action": "modify",
+      "date": "2009-11-23"
+    },
+    {
+      "code": "C6908",
+      "action": "modify",
+      "date": "2010-10-25"
+    },
+    {
+      "code": "C6908",
+      "action": "modify",
+      "date": "2013-02-25"
+    },
+    {
+      "code": "C6908",
+      "action": "modify",
+      "date": "2013-03-04"
+    },
+    {
+      "code": "C6908",
+      "action": "modify",
+      "date": "2013-03-11"
+    },
+    {
+      "code": "C6908",
+      "action": "modify",
+      "date": "2013-03-18"
+    },
+    {
+      "code": "C6908",
+      "action": "modify",
+      "date": "2013-03-25"
+    },
+    {
+      "code": "C6908",
+      "action": "modify",
+      "date": "2013-04-01"
+    },
+    {
+      "code": "C6908",
+      "action": "modify",
+      "date": "2013-04-08"
+    },
+    {
+      "code": "C6908",
+      "action": "modify",
+      "date": "2013-04-15"
+    },
+    {
+      "code": "C6908",
+      "action": "modify",
+      "date": "2013-04-22"
+    },
+    {
+      "code": "C6908",
+      "action": "modify",
+      "date": "2013-04-29"
+    },
+    {
+      "code": "C6908",
+      "action": "modify",
+      "date": "2013-05-06"
+    },
+    {
+      "code": "C6908",
+      "action": "modify",
+      "date": "2013-05-13"
+    },
+    {
+      "code": "C6908",
+      "action": "modify",
+      "date": "2013-05-20"
+    },
+    {
+      "code": "C6908",
+      "action": "modify",
+      "date": "2013-05-28"
+    },
+    {
+      "code": "C6908",
+      "action": "modify",
+      "date": "2013-06-03"
+    },
+    {
+      "code": "C6908",
+      "action": "modify",
+      "date": "2013-06-10"
+    },
+    {
+      "code": "C6908",
+      "action": "modify",
+      "date": "2013-06-17"
+    },
+    {
+      "code": "C6908",
+      "action": "modify",
+      "date": "2013-06-24"
+    },
+    {
+      "code": "C6908",
+      "action": "modify",
+      "date": "2013-07-01"
+    },
+    {
+      "code": "C6908",
+      "action": "modify",
+      "date": "2013-07-08"
+    },
+    {
+      "code": "C6908",
+      "action": "modify",
+      "date": "2014-02-03"
+    },
+    {
+      "code": "C6908",
+      "action": "modify",
+      "date": "2016-04-25"
+    },
+    {
+      "code": "C6908",
+      "action": "modify",
+      "date": "2018-09-24"
+    },
+    {
+      "code": "C6908",
+      "action": "modify",
+      "date": "2018-10-29"
+    },
+    {
+      "code": "C6908",
+      "action": "modify",
+      "date": "2018-10-29"
+    },
+    {
+      "code": "C6908",
+      "action": "modify",
+      "date": "2019-05-28"
+    },
+    {
+      "code": "C6908",
+      "action": "modify",
+      "date": "2019-09-30"
+    },
+    {
+      "code": "C6908",
+      "action": "modify",
+      "date": "2019-11-25"
+    },
+    {
+      "code": "C6908",
+      "action": "modify",
+      "date": "2020-09-29"
+    },
+    {
+      "code": "C6908",
+      "action": "modify",
+      "date": "2021-02-22"
+    },
+    {
+      "code": "C6908",
+      "action": "modify",
+      "date": "2021-03-29"
+    }
+  ],
+  "maps": [
+    {
+      "type": "Related To",
+      "targetName": "9538/1",
+      "targetTermType": "PT",
+      "targetCode": "morphology",
+      "targetTerminology": "GDC"
+    },
+    {
+      "type": "Has Synonym",
+      "targetName": "Chordoid meningioma",
+      "targetTermType": "PT",
+      "targetCode": "primary_diagnosis",
+      "targetTerminology": "GDC"
+    }
+  ]
+}

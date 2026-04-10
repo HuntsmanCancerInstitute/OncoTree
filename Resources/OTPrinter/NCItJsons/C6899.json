@@ -1,0 +1,374 @@
+{
+  "code": "C6899",
+  "name": "Breast Adenomyoepithelioma",
+  "terminology": "ncit",
+  "version": "25.11d",
+  "conceptStatus": "DEFAULT",
+  "leaf": false,
+  "active": true,
+  "synonyms": [
+    {
+      "name": "Adenomyoepithelioma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "GDC"
+    },
+    {
+      "name": "Adenomyoepithelioma of the Breast",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Breast Adenomyoepithelioma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Breast Adenomyoepithelioma",
+      "type": "Preferred_Name"
+    }
+  ],
+  "definitions": [
+    {
+      "definition": "A usually benign tumor arising from the breast. It is characterized by the proliferation of cells with myoepithelial differentiation around spaces which are lined by epithelial cells. Rarely, the epithelial and/or myoepithelial cells may undergo malignant transformation. Cases with malignant transformation may follow an aggressive clinical course, including recurrences and local and distant metastases.",
+      "type": "DEFINITION",
+      "source": "NCI"
+    }
+  ],
+  "properties": [
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "GDC"
+    },
+    {
+      "code": "P334",
+      "type": "ICD-O-3_Code",
+      "value": "8983/0"
+    },
+    {
+      "code": "P366",
+      "type": "Legacy Concept Name",
+      "value": "Adenomyoepithelioma"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "8983/0"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "Adenomyoepithelioma"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "Adenomyoepithelioma, NOS"
+    },
+    {
+      "code": "P363",
+      "type": "Neoplastic_Status",
+      "value": "Benign"
+    },
+    {
+      "code": "P106",
+      "type": "Semantic_Type",
+      "value": "Neoplastic Process"
+    },
+    {
+      "code": "P207",
+      "type": "UMLS_CUI",
+      "value": "C1266146"
+    }
+  ],
+  "children": [
+    {
+      "code": "C5144",
+      "name": "Benign Breast Adenomyoepithelioma",
+      "leaf": true
+    },
+    {
+      "code": "C5143",
+      "name": "Malignant Breast Adenomyoepithelioma",
+      "leaf": true
+    }
+  ],
+  "parents": [
+    {
+      "code": "C40389",
+      "name": "Breast Myoepithelial Tumor"
+    }
+  ],
+  "associations": [
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C157711",
+      "relatedName": "GDC Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C177537",
+      "relatedName": "GDC Value Terminology"
+    },
+    {
+      "type": "Is_Value_For_GDC_Property",
+      "relatedCode": "C176985",
+      "relatedName": "Histology ICD-O Morphology Code"
+    },
+    {
+      "type": "Is_Value_For_GDC_Property",
+      "relatedCode": "C177621",
+      "relatedName": "ICD-O-3 Morphology Term Diagnosis Question"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168658",
+      "relatedName": "Mapped ICDO3.1 Morphology PT Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168657",
+      "relatedName": "Mapped ICDO3.1 Morphology Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168655",
+      "relatedName": "Mapped ICDO3.1 Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168662",
+      "relatedName": "Mapped ICDO3.2 Morphology PT Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168661",
+      "relatedName": "Mapped ICDO3.2 Morphology Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168656",
+      "relatedName": "Mapped ICDO3.2 Terminology"
+    }
+  ],
+  "inverseAssociations": [
+    {
+      "type": "Has_GDC_Value",
+      "relatedCode": "C176985",
+      "relatedName": "Histology ICD-O Morphology Code"
+    },
+    {
+      "type": "Has_GDC_Value",
+      "relatedCode": "C177621",
+      "relatedName": "ICD-O-3 Morphology Term Diagnosis Question"
+    }
+  ],
+  "roles": [
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12971",
+      "relatedName": "Breast"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12971",
+      "relatedName": "Breast"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12964",
+      "relatedName": "Connective and Soft Tissue"
+    },
+    {
+      "type": "Disease_May_Have_Cytogenetic_Abnormality",
+      "relatedCode": "C165667",
+      "relatedName": "EWSR1 Gene Rearrangement"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C35891",
+      "relatedName": "Lobulated Growth Pattern"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C12937",
+      "relatedName": "Mammary Epithelium"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C33152",
+      "relatedName": "Myoepithelial Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12922",
+      "relatedName": "Neoplastic Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36770",
+      "relatedName": "Neoplastic Myoepithelial Cell"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12471",
+      "relatedName": "Soft Tissue"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12471",
+      "relatedName": "Soft Tissue"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C53625",
+      "relatedName": "Spindle Cell Component Present"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C35925",
+      "relatedName": "Tubular Pattern"
+    }
+  ],
+  "history": [
+    {
+      "code": "C6899",
+      "action": "create",
+      "date": "2003-08-12"
+    },
+    {
+      "code": "C6899",
+      "action": "modify",
+      "date": "2003-12-30"
+    },
+    {
+      "code": "C6899",
+      "action": "merge",
+      "date": "2004-09-10",
+      "replacementCode": "C6899",
+      "replacementName": "Breast Adenomyoepithelioma"
+    },
+    {
+      "code": "C6986",
+      "action": "merge",
+      "date": "2004-09-10",
+      "replacementCode": "C6899",
+      "replacementName": "Breast Adenomyoepithelioma"
+    },
+    {
+      "code": "C6899",
+      "action": "modify",
+      "date": "2006-09-01"
+    },
+    {
+      "code": "C6899",
+      "action": "modify",
+      "date": "2007-03-30"
+    },
+    {
+      "code": "C6899",
+      "action": "modify",
+      "date": "2007-06-28"
+    },
+    {
+      "code": "C6899",
+      "action": "modify",
+      "date": "2009-04-06"
+    },
+    {
+      "code": "C6899",
+      "action": "modify",
+      "date": "2009-10-27"
+    },
+    {
+      "code": "C6899",
+      "action": "modify",
+      "date": "2009-11-23"
+    },
+    {
+      "code": "C6899",
+      "action": "modify",
+      "date": "2014-02-03"
+    },
+    {
+      "code": "C6899",
+      "action": "modify",
+      "date": "2015-05-04"
+    },
+    {
+      "code": "C6899",
+      "action": "modify",
+      "date": "2020-02-24"
+    },
+    {
+      "code": "C6899",
+      "action": "modify",
+      "date": "2020-03-30"
+    },
+    {
+      "code": "C6899",
+      "action": "modify",
+      "date": "2020-04-27"
+    },
+    {
+      "code": "C6899",
+      "action": "modify",
+      "date": "2020-08-31"
+    },
+    {
+      "code": "C6899",
+      "action": "modify",
+      "date": "2021-02-22"
+    },
+    {
+      "code": "C6899",
+      "action": "modify",
+      "date": "2021-03-29"
+    },
+    {
+      "code": "C6899",
+      "action": "modify",
+      "date": "2021-04-26"
+    },
+    {
+      "code": "C6899",
+      "action": "modify",
+      "date": "2023-12-26"
+    }
+  ],
+  "maps": [
+    {
+      "type": "Related To",
+      "targetName": "8983/0",
+      "targetTermType": "PT",
+      "targetCode": "morphology",
+      "targetTerminology": "GDC"
+    },
+    {
+      "type": "Related To",
+      "targetName": "Adenomyoepithelioma, NOS",
+      "targetTermType": "PT",
+      "targetCode": "8983/0",
+      "targetTerminology": "ICDO3",
+      "targetTerminologyVersion": "3.2"
+    },
+    {
+      "type": "Related To",
+      "targetName": "Adenomyoepithelioma",
+      "targetTermType": "PT",
+      "targetCode": "8983/0",
+      "targetTerminology": "ICDO3",
+      "targetTerminologyVersion": "3.1"
+    },
+    {
+      "type": "Has Synonym",
+      "targetName": "Adenomyoepithelioma",
+      "targetTermType": "PT",
+      "targetCode": "primary_diagnosis",
+      "targetTerminology": "GDC"
+    }
+  ]
+}

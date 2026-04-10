@@ -1,0 +1,658 @@
+{
+  "code": "C7729",
+  "name": "Penile Squamous Cell Carcinoma",
+  "terminology": "ncit",
+  "version": "25.11d",
+  "conceptStatus": "DEFAULT",
+  "leaf": false,
+  "active": true,
+  "synonyms": [
+    {
+      "name": "Squamous Cell Carcinoma of the Penis",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "Cellosaurus"
+    },
+    {
+      "name": "Penile squamous car.(epidermoid)",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "CTEP",
+      "code": "10059631",
+      "subSource": "SDC"
+    },
+    {
+      "name": "Penile squamous carcinoma (epidermoid)",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "CTEP",
+      "code": "10059631",
+      "subSource": "SDC"
+    },
+    {
+      "name": "Penile Squamous Cell Cancer",
+      "termType": "DN",
+      "type": "FULL_SYN",
+      "source": "CTRP"
+    },
+    {
+      "name": "Epidermoid Carcinoma of Penis",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Epidermoid Carcinoma of the Penis",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Epidermoid Cell Carcinoma of Penis",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Epidermoid Cell Carcinoma of the Penis",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Penile Epidermoid Carcinoma",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Penile Epidermoid Cell Carcinoma",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Penile Squamous Cell Carcinoma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Squamous Cell Carcinoma of Penis",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Squamous Cell Carcinoma of the Penis",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Squamous Cell Carcinoma of the Penis",
+      "type": "Display_Name"
+    },
+    {
+      "name": "Penile Squamous Cell Carcinoma",
+      "type": "Preferred_Name"
+    }
+  ],
+  "definitions": [
+    {
+      "definition": "A squamous cell carcinoma arising from the penis.  It occurs chiefly in the squamous epithelium of the glans, coronal sulcus, and foreskin.  Etiologic factors include phimosis, lichen sclerosus, smoking, ultraviolet irradiation, history of warts or condylomas, and lack of circumcision.  Human papilloma virus is present in a subset of penile squamous cell carcinomas.  Patients may present with an exophytic or flat ulcerative mass in the glans or a large primary tumor with inguinal nodal and skin metastases. (WHO, 2004)",
+      "type": "DEFINITION",
+      "source": "NCI"
+    }
+  ],
+  "properties": [
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "Cellosaurus"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "CTEP"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "CTRP"
+    },
+    {
+      "code": "P366",
+      "type": "Legacy Concept Name",
+      "value": "Squamous_Cell_Carcinoma_of_the_Penis"
+    },
+    {
+      "code": "P363",
+      "type": "Neoplastic_Status",
+      "value": "Malignant"
+    },
+    {
+      "code": "P106",
+      "type": "Semantic_Type",
+      "value": "Neoplastic Process"
+    },
+    {
+      "code": "P207",
+      "type": "UMLS_CUI",
+      "value": "C0238348"
+    }
+  ],
+  "children": [
+    {
+      "code": "C159244",
+      "name": "Human Papillomavirus-Independent Penile Squamous Cell Carcinoma",
+      "leaf": false
+    },
+    {
+      "code": "C27682",
+      "name": "Human Papillomavirus-Related Penile Squamous Cell Carcinoma",
+      "leaf": false
+    },
+    {
+      "code": "C182111",
+      "name": "Metastatic Penile Squamous Cell Carcinoma",
+      "leaf": false
+    },
+    {
+      "code": "C27790",
+      "name": "Penile Carcinoma In Situ",
+      "leaf": true
+    },
+    {
+      "code": "C39959",
+      "name": "Penile Mixed Squamous Cell Carcinoma",
+      "leaf": false
+    },
+    {
+      "code": "C192222",
+      "name": "Penile Squamous Cell Carcinoma, Not Otherwise Specified",
+      "leaf": true
+    },
+    {
+      "code": "C201838",
+      "name": "Unresectable Penile Squamous Cell Carcinoma",
+      "leaf": true
+    }
+  ],
+  "parents": [
+    {
+      "code": "C9061",
+      "name": "Penile Carcinoma"
+    },
+    {
+      "code": "C2929",
+      "name": "Squamous Cell Carcinoma"
+    }
+  ],
+  "associations": [
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C165258",
+      "relatedName": "Cellosaurus Disease Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C118168",
+      "relatedName": "CTRP Disease Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C116977",
+      "relatedName": "CTRP Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C103108",
+      "relatedName": "NCI CTEP SDC Penile Cancer Sub-Category Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C102905",
+      "relatedName": "NCI CTEP Simplified Disease Classification Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C126659",
+      "relatedName": "NCIt Neoplasm Core Terminology"
+    }
+  ],
+  "roles": [
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C36122",
+      "relatedName": "Benign Cellular Infiltrate"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C54172",
+      "relatedName": "Carcinomatous Component Present"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C12578",
+      "relatedName": "Epithelial Cell"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C53596",
+      "relatedName": "Epithelial Component Present"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C45714",
+      "relatedName": "Epithelial Tissue"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12810",
+      "relatedName": "Genitourinary System"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12810",
+      "relatedName": "Genitourinary System"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12722",
+      "relatedName": "Male Reproductive System"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12722",
+      "relatedName": "Male Reproductive System"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12917",
+      "relatedName": "Malignant Cell"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C36115",
+      "relatedName": "Malignant Cellular Infiltrate"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36779",
+      "relatedName": "Malignant Epithelial Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36771",
+      "relatedName": "Malignant Squamous Cell"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C37153",
+      "relatedName": "Malignant Stromal Cell"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C62273",
+      "relatedName": "Mixed Neoplastic Glandular and Squamous Cell Population"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12922",
+      "relatedName": "Neoplastic Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36753",
+      "relatedName": "Neoplastic Epithelial Cell"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C36763",
+      "relatedName": "Neoplastic Glandular Cell"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C36937",
+      "relatedName": "Neoplastic Smooth Muscle Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36760",
+      "relatedName": "Neoplastic Squamous Cell"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12409",
+      "relatedName": "Penis"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12409",
+      "relatedName": "Penis"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12841",
+      "relatedName": "Reproductive System"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C12849",
+      "relatedName": "Squamous Cell"
+    }
+  ],
+  "history": [
+    {
+      "code": "C7729",
+      "action": "create",
+      "date": "2003-08-12"
+    },
+    {
+      "code": "C7729",
+      "action": "modify",
+      "date": "2003-10-31"
+    },
+    {
+      "code": "C7729",
+      "action": "modify",
+      "date": "2003-12-30"
+    },
+    {
+      "code": "C7729",
+      "action": "modify",
+      "date": "2004-03-30"
+    },
+    {
+      "code": "C7729",
+      "action": "modify",
+      "date": "2006-03-31"
+    },
+    {
+      "code": "C7729",
+      "action": "modify",
+      "date": "2007-10-29"
+    },
+    {
+      "code": "C7729",
+      "action": "modify",
+      "date": "2009-11-23"
+    },
+    {
+      "code": "C7729",
+      "action": "modify",
+      "date": "2012-09-24"
+    },
+    {
+      "code": "C7729",
+      "action": "modify",
+      "date": "2012-10-01"
+    },
+    {
+      "code": "C7729",
+      "action": "modify",
+      "date": "2012-10-09"
+    },
+    {
+      "code": "C7729",
+      "action": "modify",
+      "date": "2012-10-15"
+    },
+    {
+      "code": "C7729",
+      "action": "modify",
+      "date": "2012-10-22"
+    },
+    {
+      "code": "C7729",
+      "action": "modify",
+      "date": "2012-10-31"
+    },
+    {
+      "code": "C7729",
+      "action": "modify",
+      "date": "2012-11-05"
+    },
+    {
+      "code": "C7729",
+      "action": "modify",
+      "date": "2012-11-13"
+    },
+    {
+      "code": "C7729",
+      "action": "modify",
+      "date": "2012-11-19"
+    },
+    {
+      "code": "C7729",
+      "action": "modify",
+      "date": "2012-11-26"
+    },
+    {
+      "code": "C7729",
+      "action": "modify",
+      "date": "2012-12-03"
+    },
+    {
+      "code": "C7729",
+      "action": "modify",
+      "date": "2012-12-10"
+    },
+    {
+      "code": "C7729",
+      "action": "modify",
+      "date": "2012-12-17"
+    },
+    {
+      "code": "C7729",
+      "action": "modify",
+      "date": "2012-12-28"
+    },
+    {
+      "code": "C7729",
+      "action": "modify",
+      "date": "2013-01-07"
+    },
+    {
+      "code": "C7729",
+      "action": "modify",
+      "date": "2013-01-14"
+    },
+    {
+      "code": "C7729",
+      "action": "modify",
+      "date": "2013-01-23"
+    },
+    {
+      "code": "C7729",
+      "action": "modify",
+      "date": "2013-02-04"
+    },
+    {
+      "code": "C7729",
+      "action": "modify",
+      "date": "2013-02-11"
+    },
+    {
+      "code": "C7729",
+      "action": "modify",
+      "date": "2013-02-19"
+    },
+    {
+      "code": "C7729",
+      "action": "modify",
+      "date": "2013-02-25"
+    },
+    {
+      "code": "C7729",
+      "action": "modify",
+      "date": "2013-03-04"
+    },
+    {
+      "code": "C7729",
+      "action": "modify",
+      "date": "2013-03-11"
+    },
+    {
+      "code": "C7729",
+      "action": "modify",
+      "date": "2013-03-18"
+    },
+    {
+      "code": "C7729",
+      "action": "modify",
+      "date": "2013-03-25"
+    },
+    {
+      "code": "C7729",
+      "action": "modify",
+      "date": "2013-04-01"
+    },
+    {
+      "code": "C7729",
+      "action": "modify",
+      "date": "2013-04-08"
+    },
+    {
+      "code": "C7729",
+      "action": "modify",
+      "date": "2013-04-15"
+    },
+    {
+      "code": "C7729",
+      "action": "modify",
+      "date": "2013-04-22"
+    },
+    {
+      "code": "C7729",
+      "action": "modify",
+      "date": "2013-04-29"
+    },
+    {
+      "code": "C7729",
+      "action": "modify",
+      "date": "2013-05-06"
+    },
+    {
+      "code": "C7729",
+      "action": "modify",
+      "date": "2013-05-13"
+    },
+    {
+      "code": "C7729",
+      "action": "modify",
+      "date": "2013-05-20"
+    },
+    {
+      "code": "C7729",
+      "action": "modify",
+      "date": "2013-05-28"
+    },
+    {
+      "code": "C7729",
+      "action": "modify",
+      "date": "2013-06-03"
+    },
+    {
+      "code": "C7729",
+      "action": "modify",
+      "date": "2013-06-10"
+    },
+    {
+      "code": "C7729",
+      "action": "modify",
+      "date": "2013-06-17"
+    },
+    {
+      "code": "C7729",
+      "action": "modify",
+      "date": "2013-06-24"
+    },
+    {
+      "code": "C7729",
+      "action": "modify",
+      "date": "2013-07-01"
+    },
+    {
+      "code": "C7729",
+      "action": "modify",
+      "date": "2013-07-08"
+    },
+    {
+      "code": "C7729",
+      "action": "modify",
+      "date": "2014-02-03"
+    },
+    {
+      "code": "C7729",
+      "action": "modify",
+      "date": "2014-08-04"
+    },
+    {
+      "code": "C7729",
+      "action": "modify",
+      "date": "2014-08-18"
+    },
+    {
+      "code": "C7729",
+      "action": "modify",
+      "date": "2014-09-22"
+    },
+    {
+      "code": "C7729",
+      "action": "modify",
+      "date": "2014-10-27"
+    },
+    {
+      "code": "C7729",
+      "action": "modify",
+      "date": "2016-04-25"
+    },
+    {
+      "code": "C7729",
+      "action": "modify",
+      "date": "2017-07-31"
+    },
+    {
+      "code": "C7729",
+      "action": "modify",
+      "date": "2018-07-30"
+    },
+    {
+      "code": "C7729",
+      "action": "modify",
+      "date": "2018-08-27"
+    },
+    {
+      "code": "C7729",
+      "action": "modify",
+      "date": "2018-08-27"
+    },
+    {
+      "code": "C7729",
+      "action": "modify",
+      "date": "2019-04-29"
+    },
+    {
+      "code": "C7729",
+      "action": "modify",
+      "date": "2019-10-28"
+    },
+    {
+      "code": "C7729",
+      "action": "modify",
+      "date": "2023-01-31"
+    },
+    {
+      "code": "C7729",
+      "action": "modify",
+      "date": "2023-02-27"
+    },
+    {
+      "code": "C7729",
+      "action": "modify",
+      "date": "2025-03-31"
+    }
+  ]
+}

@@ -1,0 +1,798 @@
+{
+  "code": "C9383",
+  "name": "Rectal Adenocarcinoma",
+  "terminology": "ncit",
+  "version": "25.11d",
+  "conceptStatus": "DEFAULT",
+  "leaf": false,
+  "active": true,
+  "synonyms": [
+    {
+      "name": "Rectal Adenocarcinoma",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "caDSR"
+    },
+    {
+      "name": "Rectal Adenocarcinoma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "Cellosaurus"
+    },
+    {
+      "name": "Adenocarcinoma - rectum",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "CTEP",
+      "code": "10038045",
+      "subSource": "SDC"
+    },
+    {
+      "name": "Adenocarcinoma of the rectum",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "CTEP",
+      "code": "10038045",
+      "subSource": "SDC"
+    },
+    {
+      "name": "Rectal Adenocarcinoma",
+      "termType": "DN",
+      "type": "FULL_SYN",
+      "source": "CTRP"
+    },
+    {
+      "name": "Adenocarcinoma of Rectum",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Adenocarcinoma of the Rectum",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Rectal Adenocarcinoma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Rectal Adenocarcinoma",
+      "type": "Display_Name"
+    },
+    {
+      "name": "Rectal Adenocarcinoma",
+      "type": "Preferred_Name"
+    }
+  ],
+  "definitions": [
+    {
+      "definition": "An adenocarcinoma arising from the rectum.  It is more frequently seen in populations with a Western type diet and in patients with a history of chronic inflammatory bowel disease.  Signs and symptoms include intestinal bleeding, anemia, and change in bowel habits.  According to the degree of cellular differentiation, rectal adenocarcinomas are divided into well, moderately, and poorly differentiated.  Histologic variants include mucinous adenocarcinoma, signet ring cell carcinoma, medullary carcinoma, serrated adenocarcinoma, cribriform comedo-type adenocarcinoma, and micropapillary adenocarcinoma.",
+      "type": "DEFINITION",
+      "source": "NCI"
+    }
+  ],
+  "properties": [
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "Cellosaurus"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "CTEP"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "CTRP"
+    },
+    {
+      "code": "P366",
+      "type": "Legacy Concept Name",
+      "value": "Rectal_Adenocarcinoma"
+    },
+    {
+      "code": "P363",
+      "type": "Neoplastic_Status",
+      "value": "Malignant"
+    },
+    {
+      "code": "P106",
+      "type": "Semantic_Type",
+      "value": "Neoplastic Process"
+    },
+    {
+      "code": "P207",
+      "type": "UMLS_CUI",
+      "value": "C0149978"
+    }
+  ],
+  "children": [
+    {
+      "code": "C213379",
+      "name": "Adenocarcinoma in Rectal Adenomatous Polyp",
+      "leaf": true
+    },
+    {
+      "code": "C213456",
+      "name": "Localized Rectal Adenocarcinoma",
+      "leaf": true
+    },
+    {
+      "code": "C160820",
+      "name": "Metastatic Rectal Adenocarcinoma",
+      "leaf": false
+    },
+    {
+      "code": "C96490",
+      "name": "Rectal Cribriform Comedo-Type Adenocarcinoma",
+      "leaf": true
+    },
+    {
+      "code": "C213481",
+      "name": "Rectal Hepatoid Adenocarcinoma",
+      "leaf": true
+    },
+    {
+      "code": "C60640",
+      "name": "Rectal Medullary Carcinoma",
+      "leaf": true
+    },
+    {
+      "code": "C96493",
+      "name": "Rectal Micropapillary Adenocarcinoma",
+      "leaf": true
+    },
+    {
+      "code": "C9450",
+      "name": "Rectal Moderately Differentiated Adenocarcinoma",
+      "leaf": true
+    },
+    {
+      "code": "C7973",
+      "name": "Rectal Mucinous Adenocarcinoma",
+      "leaf": true
+    },
+    {
+      "code": "C9449",
+      "name": "Rectal Poorly Differentiated Adenocarcinoma",
+      "leaf": true
+    },
+    {
+      "code": "C96487",
+      "name": "Rectal Serrated Adenocarcinoma",
+      "leaf": true
+    },
+    {
+      "code": "C9168",
+      "name": "Rectal Signet Ring Cell Adenocarcinoma",
+      "leaf": true
+    },
+    {
+      "code": "C9451",
+      "name": "Rectal Well Differentiated Adenocarcinoma",
+      "leaf": true
+    },
+    {
+      "code": "C162443",
+      "name": "Recurrent Rectal Adenocarcinoma",
+      "leaf": false
+    },
+    {
+      "code": "C162157",
+      "name": "Refractory Rectal Adenocarcinoma",
+      "leaf": true
+    },
+    {
+      "code": "C162117",
+      "name": "Unresectable Rectal Adenocarcinoma",
+      "leaf": false
+    }
+  ],
+  "parents": [
+    {
+      "code": "C5105",
+      "name": "Colorectal Adenocarcinoma"
+    },
+    {
+      "code": "C9382",
+      "name": "Rectal Carcinoma"
+    }
+  ],
+  "associations": [
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C165258",
+      "relatedName": "Cellosaurus Disease Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C118168",
+      "relatedName": "CTRP Disease Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C116977",
+      "relatedName": "CTRP Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C103063",
+      "relatedName": "NCI CTEP SDC Colorectal Cancer Sub-Category Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C102905",
+      "relatedName": "NCI CTEP Simplified Disease Classification Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C126659",
+      "relatedName": "NCIt Neoplasm Core Terminology"
+    }
+  ],
+  "roles": [
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36773",
+      "relatedName": "Adenocarcinoma Cell"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C186102",
+      "relatedName": "Anorectal Area"
+    },
+    {
+      "type": "Disease_Mapped_To_Gene",
+      "relatedCode": "C17567",
+      "relatedName": "APC Gene"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C36122",
+      "relatedName": "Benign Cellular Infiltrate"
+    },
+    {
+      "type": "Disease_May_Have_Molecular_Abnormality",
+      "relatedCode": "C40430",
+      "relatedName": "BRAF Gene Mutation"
+    },
+    {
+      "type": "Disease_Mapped_To_Gene",
+      "relatedCode": "C18363",
+      "relatedName": "BRAF Gene"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C54172",
+      "relatedName": "Carcinomatous Component Present"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C54189",
+      "relatedName": "Colorectal Region"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C54189",
+      "relatedName": "Colorectal Region"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12378",
+      "relatedName": "Digestive System"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12378",
+      "relatedName": "Digestive System"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C12578",
+      "relatedName": "Epithelial Cell"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C53596",
+      "relatedName": "Epithelial Component Present"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C45714",
+      "relatedName": "Epithelial Tissue"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C33923",
+      "relatedName": "Glandular Cell"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C43370",
+      "relatedName": "Glandular Epithelium"
+    },
+    {
+      "type": "Disease_May_Have_Molecular_Abnormality",
+      "relatedCode": "C36683",
+      "relatedName": "Inactivating APC Gene Mutation"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C155862",
+      "relatedName": "Intermediate Grade Neuroendocrine Lesion"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12736",
+      "relatedName": "Intestine"
+    },
+    {
+      "type": "Disease_May_Have_Molecular_Abnormality",
+      "relatedCode": "C36665",
+      "relatedName": "KRAS Gene Amplification"
+    },
+    {
+      "type": "Disease_Mapped_To_Gene",
+      "relatedCode": "C25785",
+      "relatedName": "KRAS Gene"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C32926",
+      "relatedName": "Large Intestinal Mucosa"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12379",
+      "relatedName": "Large Intestine"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C155864",
+      "relatedName": "Low Grade Neuroendocrine Lesion"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C78438",
+      "relatedName": "Lower Gastrointestinal Hemorrhage"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12917",
+      "relatedName": "Malignant Cell"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C36115",
+      "relatedName": "Malignant Cellular Infiltrate"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36779",
+      "relatedName": "Malignant Epithelial Cell"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C36771",
+      "relatedName": "Malignant Squamous Cell"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C37153",
+      "relatedName": "Malignant Stromal Cell"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C62273",
+      "relatedName": "Mixed Neoplastic Glandular and Squamous Cell Population"
+    },
+    {
+      "type": "Disease_May_Have_Molecular_Abnormality",
+      "relatedCode": "C43597",
+      "relatedName": "MYC Gene Mutation"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12922",
+      "relatedName": "Neoplastic Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36753",
+      "relatedName": "Neoplastic Epithelial Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36763",
+      "relatedName": "Neoplastic Glandular Cell"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C36937",
+      "relatedName": "Neoplastic Smooth Muscle Cell"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C36760",
+      "relatedName": "Neoplastic Squamous Cell"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C27054",
+      "relatedName": "Rectal Hemorrhage"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12390",
+      "relatedName": "Rectum"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12390",
+      "relatedName": "Rectum"
+    },
+    {
+      "type": "Disease_May_Have_Molecular_Abnormality",
+      "relatedCode": "C36329",
+      "relatedName": "TP53 Gene Inactivation"
+    },
+    {
+      "type": "Disease_Mapped_To_Gene",
+      "relatedCode": "C17359",
+      "relatedName": "TP53 Gene"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C155861",
+      "relatedName": "Well Differentiated Neuroendocrine Lesion"
+    }
+  ],
+  "history": [
+    {
+      "code": "C9383",
+      "action": "create",
+      "date": "2003-08-12"
+    },
+    {
+      "code": "C9383",
+      "action": "modify",
+      "date": "2003-10-31"
+    },
+    {
+      "code": "C9383",
+      "action": "modify",
+      "date": "2003-12-30"
+    },
+    {
+      "code": "C9383",
+      "action": "modify",
+      "date": "2004-02-23"
+    },
+    {
+      "code": "C9383",
+      "action": "modify",
+      "date": "2004-03-30"
+    },
+    {
+      "code": "C9383",
+      "action": "modify",
+      "date": "2006-03-31"
+    },
+    {
+      "code": "C9383",
+      "action": "modify",
+      "date": "2006-05-26"
+    },
+    {
+      "code": "C9383",
+      "action": "modify",
+      "date": "2007-10-29"
+    },
+    {
+      "code": "C9383",
+      "action": "modify",
+      "date": "2009-04-06"
+    },
+    {
+      "code": "C9383",
+      "action": "modify",
+      "date": "2009-11-23"
+    },
+    {
+      "code": "C9383",
+      "action": "modify",
+      "date": "2011-05-02"
+    },
+    {
+      "code": "C9383",
+      "action": "modify",
+      "date": "2012-09-24"
+    },
+    {
+      "code": "C9383",
+      "action": "modify",
+      "date": "2012-10-01"
+    },
+    {
+      "code": "C9383",
+      "action": "modify",
+      "date": "2012-10-09"
+    },
+    {
+      "code": "C9383",
+      "action": "modify",
+      "date": "2012-10-15"
+    },
+    {
+      "code": "C9383",
+      "action": "modify",
+      "date": "2012-10-22"
+    },
+    {
+      "code": "C9383",
+      "action": "modify",
+      "date": "2012-10-31"
+    },
+    {
+      "code": "C9383",
+      "action": "modify",
+      "date": "2012-11-05"
+    },
+    {
+      "code": "C9383",
+      "action": "modify",
+      "date": "2012-11-13"
+    },
+    {
+      "code": "C9383",
+      "action": "modify",
+      "date": "2012-11-19"
+    },
+    {
+      "code": "C9383",
+      "action": "modify",
+      "date": "2012-11-26"
+    },
+    {
+      "code": "C9383",
+      "action": "modify",
+      "date": "2012-12-03"
+    },
+    {
+      "code": "C9383",
+      "action": "modify",
+      "date": "2012-12-10"
+    },
+    {
+      "code": "C9383",
+      "action": "modify",
+      "date": "2012-12-17"
+    },
+    {
+      "code": "C9383",
+      "action": "modify",
+      "date": "2012-12-28"
+    },
+    {
+      "code": "C9383",
+      "action": "modify",
+      "date": "2013-01-07"
+    },
+    {
+      "code": "C9383",
+      "action": "modify",
+      "date": "2013-01-14"
+    },
+    {
+      "code": "C9383",
+      "action": "modify",
+      "date": "2013-01-23"
+    },
+    {
+      "code": "C9383",
+      "action": "modify",
+      "date": "2013-02-04"
+    },
+    {
+      "code": "C9383",
+      "action": "modify",
+      "date": "2013-02-11"
+    },
+    {
+      "code": "C9383",
+      "action": "modify",
+      "date": "2013-02-19"
+    },
+    {
+      "code": "C9383",
+      "action": "modify",
+      "date": "2013-02-25"
+    },
+    {
+      "code": "C9383",
+      "action": "modify",
+      "date": "2013-03-04"
+    },
+    {
+      "code": "C9383",
+      "action": "modify",
+      "date": "2013-03-11"
+    },
+    {
+      "code": "C9383",
+      "action": "modify",
+      "date": "2013-03-18"
+    },
+    {
+      "code": "C9383",
+      "action": "modify",
+      "date": "2013-03-25"
+    },
+    {
+      "code": "C9383",
+      "action": "modify",
+      "date": "2013-04-01"
+    },
+    {
+      "code": "C9383",
+      "action": "modify",
+      "date": "2013-04-08"
+    },
+    {
+      "code": "C9383",
+      "action": "modify",
+      "date": "2013-04-15"
+    },
+    {
+      "code": "C9383",
+      "action": "modify",
+      "date": "2013-04-22"
+    },
+    {
+      "code": "C9383",
+      "action": "modify",
+      "date": "2013-04-29"
+    },
+    {
+      "code": "C9383",
+      "action": "modify",
+      "date": "2013-05-06"
+    },
+    {
+      "code": "C9383",
+      "action": "modify",
+      "date": "2013-05-13"
+    },
+    {
+      "code": "C9383",
+      "action": "modify",
+      "date": "2013-05-20"
+    },
+    {
+      "code": "C9383",
+      "action": "modify",
+      "date": "2013-05-28"
+    },
+    {
+      "code": "C9383",
+      "action": "modify",
+      "date": "2013-06-03"
+    },
+    {
+      "code": "C9383",
+      "action": "modify",
+      "date": "2013-06-10"
+    },
+    {
+      "code": "C9383",
+      "action": "modify",
+      "date": "2013-06-17"
+    },
+    {
+      "code": "C9383",
+      "action": "modify",
+      "date": "2013-06-24"
+    },
+    {
+      "code": "C9383",
+      "action": "modify",
+      "date": "2013-07-01"
+    },
+    {
+      "code": "C9383",
+      "action": "modify",
+      "date": "2013-07-08"
+    },
+    {
+      "code": "C9383",
+      "action": "modify",
+      "date": "2014-02-03"
+    },
+    {
+      "code": "C9383",
+      "action": "modify",
+      "date": "2014-08-04"
+    },
+    {
+      "code": "C9383",
+      "action": "modify",
+      "date": "2014-08-18"
+    },
+    {
+      "code": "C9383",
+      "action": "modify",
+      "date": "2014-09-22"
+    },
+    {
+      "code": "C9383",
+      "action": "modify",
+      "date": "2016-04-25"
+    },
+    {
+      "code": "C9383",
+      "action": "modify",
+      "date": "2017-07-31"
+    },
+    {
+      "code": "C9383",
+      "action": "modify",
+      "date": "2018-07-30"
+    },
+    {
+      "code": "C9383",
+      "action": "modify",
+      "date": "2018-08-27"
+    },
+    {
+      "code": "C9383",
+      "action": "modify",
+      "date": "2018-08-27"
+    },
+    {
+      "code": "C9383",
+      "action": "modify",
+      "date": "2018-09-24"
+    },
+    {
+      "code": "C9383",
+      "action": "modify",
+      "date": "2018-11-26"
+    },
+    {
+      "code": "C9383",
+      "action": "modify",
+      "date": "2019-09-30"
+    },
+    {
+      "code": "C9383",
+      "action": "modify",
+      "date": "2019-10-28"
+    },
+    {
+      "code": "C9383",
+      "action": "modify",
+      "date": "2020-02-24"
+    },
+    {
+      "code": "C9383",
+      "action": "modify",
+      "date": "2020-09-29"
+    },
+    {
+      "code": "C9383",
+      "action": "modify",
+      "date": "2023-02-27"
+    },
+    {
+      "code": "C9383",
+      "action": "modify",
+      "date": "2025-03-31"
+    }
+  ]
+}

@@ -1,0 +1,693 @@
+{
+  "code": "C80331",
+  "name": "B Lymphoblastic Leukemia/Lymphoma with t(9;22)(q34.1;q11.2); BCR-ABL1",
+  "terminology": "ncit",
+  "version": "25.11d",
+  "conceptStatus": "DEFAULT",
+  "leaf": false,
+  "active": true,
+  "synonyms": [
+    {
+      "name": "B lymphoblastic leukemia/lymphoma with t(9;22)(q34;q11.2); BCR-ABL1",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "GDC"
+    },
+    {
+      "name": "B Lymphoblastic Leukemia/Lymphoma with BCR-ABL1 Fusion",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "B Lymphoblastic Leukemia/Lymphoma with BCR::ABL1 Fusion",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "B Lymphoblastic Leukemia/Lymphoma with t(9;22)(q34.1;q11.2); BCR-ABL1",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "B Lymphoblastic Leukemia/Lymphoma with t(9;22)(q34.1;q11.2); BCR::ABL1",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "B Lymphoblastic Leukemia/Lymphoma with t(9;22)(q34;q11.2); BCR-ABL1",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "B-Lymphoblastic Leukemia/Lymphoma with BCR-ABL1 Fusion",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "B-Lymphoblastic Leukemia/Lymphoma with BCR::ABL1 Fusion",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "B-Lymphoblastic Leukemia/Lymphoma with t(9;22)(q34;q11.2); BCR-ABL1",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "B Lymphoblastic Leukemia/Lymphoma with t(9;22)(q34.1;q11.2); BCR-ABL1",
+      "type": "Preferred_Name"
+    }
+  ],
+  "definitions": [
+    {
+      "definition": "A precursor lymphoid neoplasm which is composed of B lymphoblasts and carries a translocation between the BCR gene on chromosome 22 and the ABL1 gene on chromosome 9. It results in the production of the p190 kd or p210 kd fusion protein. It has an unfavorable clinical outcome.",
+      "type": "DEFINITION",
+      "source": "NCI"
+    }
+  ],
+  "properties": [
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "GDC"
+    },
+    {
+      "code": "P334",
+      "type": "ICD-O-3_Code",
+      "value": "9812/3"
+    },
+    {
+      "code": "P366",
+      "type": "Legacy Concept Name",
+      "value": "B_Lymphoblastic_Leukemia_Lymphoma_with_t_9_22_q34_q11_2_BCR-ABL_1"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "9812/3"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "B lymphoblastic leukemia/lymphoma with t(9;22)(q34;q11.2); BCR-ABL1"
+    },
+    {
+      "code": "P363",
+      "type": "Neoplastic_Status",
+      "value": "Malignant"
+    },
+    {
+      "code": "P106",
+      "type": "Semantic_Type",
+      "value": "Neoplastic Process"
+    },
+    {
+      "code": "P207",
+      "type": "UMLS_CUI",
+      "value": "C2698317"
+    }
+  ],
+  "children": [
+    {
+      "code": "C36312",
+      "name": "B Acute Lymphoblastic Leukemia with t(9;22)(q34.1;q11.2); BCR-ABL1",
+      "leaf": false
+    }
+  ],
+  "parents": [
+    {
+      "code": "C80328",
+      "name": "B Lymphoblastic Leukemia/Lymphoma with Recurrent Genetic Abnormalities"
+    }
+  ],
+  "associations": [
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C157711",
+      "relatedName": "GDC Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C177537",
+      "relatedName": "GDC Value Terminology"
+    },
+    {
+      "type": "Is_Value_For_GDC_Property",
+      "relatedCode": "C176985",
+      "relatedName": "Histology ICD-O Morphology Code"
+    },
+    {
+      "type": "Is_Value_For_GDC_Property",
+      "relatedCode": "C177621",
+      "relatedName": "ICD-O-3 Morphology Term Diagnosis Question"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168658",
+      "relatedName": "Mapped ICDO3.1 Morphology PT Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168657",
+      "relatedName": "Mapped ICDO3.1 Morphology Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168655",
+      "relatedName": "Mapped ICDO3.1 Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168662",
+      "relatedName": "Mapped ICDO3.2 Morphology PT Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168661",
+      "relatedName": "Mapped ICDO3.2 Morphology Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168656",
+      "relatedName": "Mapped ICDO3.2 Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C126659",
+      "relatedName": "NCIt Neoplasm Core Terminology"
+    }
+  ],
+  "inverseAssociations": [
+    {
+      "type": "Has_GDC_Value",
+      "relatedCode": "C176985",
+      "relatedName": "Histology ICD-O Morphology Code"
+    },
+    {
+      "type": "Has_GDC_Value",
+      "relatedCode": "C177621",
+      "relatedName": "ICD-O-3 Morphology Term Diagnosis Question"
+    }
+  ],
+  "roles": [
+    {
+      "type": "Disease_Mapped_To_Gene",
+      "relatedCode": "C17346",
+      "relatedName": "ABL1 Gene"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36725",
+      "relatedName": "Abnormal Lymphocyte"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C12474",
+      "relatedName": "B-Lymphocyte"
+    },
+    {
+      "type": "Disease_Mapped_To_Gene",
+      "relatedCode": "C94600",
+      "relatedName": "BCR/ABL1 Fusion Gene"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C36122",
+      "relatedName": "Benign Cellular Infiltrate"
+    },
+    {
+      "type": "Disease_Has_Molecular_Abnormality",
+      "relatedCode": "C36443",
+      "relatedName": "Clonal Immunoglobulin Gene Rearrangement"
+    },
+    {
+      "type": "Disease_May_Have_Molecular_Abnormality",
+      "relatedCode": "C36444",
+      "relatedName": "Clonal Immunoglobulin Heavy Chain Gene Rearrangement"
+    },
+    {
+      "type": "Disease_May_Have_Molecular_Abnormality",
+      "relatedCode": "C36451",
+      "relatedName": "Clonal Immunoglobulin Kappa Light Chain Gene Rearrangement"
+    },
+    {
+      "type": "Disease_May_Have_Molecular_Abnormality",
+      "relatedCode": "C36447",
+      "relatedName": "Clonal T-Cell Receptor Beta Chain Gene Rearrangement"
+    },
+    {
+      "type": "Disease_May_Have_Molecular_Abnormality",
+      "relatedCode": "C36448",
+      "relatedName": "Clonal T-Cell Receptor Gamma Chain Gene Rearrangement"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C41165",
+      "relatedName": "Hematopoietic and Lymphatic System"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C41165",
+      "relatedName": "Hematopoietic and Lymphatic System"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C32725",
+      "relatedName": "Hematopoietic and Lymphoid Cell"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C41168",
+      "relatedName": "Hematopoietic and Lymphoid Tissue"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C3100",
+      "relatedName": "Hepatomegaly"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C50764",
+      "relatedName": "Lymphadenopathy"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12746",
+      "relatedName": "Lymphatic System"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C13013",
+      "relatedName": "Lymphoblast"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C12535",
+      "relatedName": "Lymphocyte"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C13049",
+      "relatedName": "Lymphoid Tissue"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12917",
+      "relatedName": "Malignant Cell"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C36115",
+      "relatedName": "Malignant Cellular Infiltrate"
+    },
+    {
+      "type": "Disease_Excludes_Normal_Cell_Origin",
+      "relatedCode": "C33058",
+      "relatedName": "Mature B-Lymphocyte"
+    },
+    {
+      "type": "Disease_Excludes_Normal_Cell_Origin",
+      "relatedCode": "C12549",
+      "relatedName": "Myeloid Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C37070",
+      "relatedName": "Neoplastic B-Lymphoblast"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C38640",
+      "relatedName": "Neoplastic B-Lymphocyte"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12922",
+      "relatedName": "Neoplastic Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C37060",
+      "relatedName": "Neoplastic Hematopoietic and Lymphoid Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12914",
+      "relatedName": "Neoplastic Lymphoblast"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36988",
+      "relatedName": "Neoplastic Lymphocyte"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C39566",
+      "relatedName": "Neoplastic T-Lymphocyte and Neoplastic Natural Killer Cell"
+    },
+    {
+      "type": "Disease_May_Have_Molecular_Abnormality",
+      "relatedCode": "C36714",
+      "relatedName": "p190 Fusion Protein Expression"
+    },
+    {
+      "type": "Disease_May_Have_Molecular_Abnormality",
+      "relatedCode": "C36712",
+      "relatedName": "p210 Fusion Protein Expression"
+    },
+    {
+      "type": "Disease_Has_Cytogenetic_Abnormality",
+      "relatedCode": "C28452",
+      "relatedName": "Philadelphia Chromosome"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C33931",
+      "relatedName": "Precursor B-Lymphoblast"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C80329",
+      "relatedName": "Recurrent Genetic Abnormalities Present"
+    },
+    {
+      "type": "Disease_Has_Cytogenetic_Abnormality",
+      "relatedCode": "C13271",
+      "relatedName": "t(9;22)(q34.1;q11.2)"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C38328",
+      "relatedName": "Unfavorable Clinical Outcome"
+    }
+  ],
+  "inverseRoles": [
+    {
+      "type": "Gene_Involved_In_Pathogenesis_Of_Disease",
+      "relatedCode": "C17346",
+      "relatedName": "ABL1 Gene"
+    },
+    {
+      "type": "Gene_Involved_In_Pathogenesis_Of_Disease",
+      "relatedCode": "C51061",
+      "relatedName": "ABL1 wt Allele"
+    },
+    {
+      "type": "Gene_Involved_In_Pathogenesis_Of_Disease",
+      "relatedCode": "C99305",
+      "relatedName": "BCR/ABL1 Fusion Gene p190"
+    },
+    {
+      "type": "Gene_Involved_In_Pathogenesis_Of_Disease",
+      "relatedCode": "C99306",
+      "relatedName": "BCR/ABL1 Fusion Gene p210"
+    },
+    {
+      "type": "Gene_Involved_In_Pathogenesis_Of_Disease",
+      "relatedCode": "C99307",
+      "relatedName": "BCR/ABL1 Fusion Gene p230"
+    },
+    {
+      "type": "Gene_Involved_In_Pathogenesis_Of_Disease",
+      "relatedCode": "C130220",
+      "relatedName": "BCR/ABL1 Fusion Gene with ABL1 NM_005157.4:c.1052T>C Mutation"
+    },
+    {
+      "type": "Gene_Involved_In_Pathogenesis_Of_Disease",
+      "relatedCode": "C130222",
+      "relatedName": "BCR/ABL1 Fusion Gene with ABL1 NM_005157.4:c.1075T>G Mutation"
+    },
+    {
+      "type": "Gene_Involved_In_Pathogenesis_Of_Disease",
+      "relatedCode": "C130224",
+      "relatedName": "BCR/ABL1 Fusion Gene with ABL1 NM_005157.4:c.1150C>A Mutation"
+    },
+    {
+      "type": "Gene_Involved_In_Pathogenesis_Of_Disease",
+      "relatedCode": "C130226",
+      "relatedName": "BCR/ABL1 Fusion Gene with ABL1 NM_005157.4:c.1187A>C Mutation"
+    },
+    {
+      "type": "Gene_Involved_In_Pathogenesis_Of_Disease",
+      "relatedCode": "C130229",
+      "relatedName": "BCR/ABL1 Fusion Gene with ABL1 NM_005157.4:c.1187A>G Mutation"
+    },
+    {
+      "type": "Gene_Involved_In_Pathogenesis_Of_Disease",
+      "relatedCode": "C130232",
+      "relatedName": "BCR/ABL1 Fusion Gene with ABL1 NM_005157.4:c.1457T>C Mutation"
+    },
+    {
+      "type": "Gene_Involved_In_Pathogenesis_Of_Disease",
+      "relatedCode": "C130201",
+      "relatedName": "BCR/ABL1 Fusion Gene with ABL1 NM_005157.4:c.742C>G Mutation"
+    },
+    {
+      "type": "Gene_Involved_In_Pathogenesis_Of_Disease",
+      "relatedCode": "C130204",
+      "relatedName": "BCR/ABL1 Fusion Gene with ABL1 NM_005157.4:c.749G>A Mutation"
+    },
+    {
+      "type": "Gene_Involved_In_Pathogenesis_Of_Disease",
+      "relatedCode": "C130207",
+      "relatedName": "BCR/ABL1 Fusion Gene with ABL1 NM_005157.4:c.756G>C Mutation"
+    },
+    {
+      "type": "Gene_Involved_In_Pathogenesis_Of_Disease",
+      "relatedCode": "C130206",
+      "relatedName": "BCR/ABL1 Fusion Gene with ABL1 NM_005157.4:c.756G>T Mutation"
+    },
+    {
+      "type": "Gene_Involved_In_Pathogenesis_Of_Disease",
+      "relatedCode": "C130209",
+      "relatedName": "BCR/ABL1 Fusion Gene with ABL1 NM_005157.4:c.758A>T Mutation"
+    },
+    {
+      "type": "Gene_Involved_In_Pathogenesis_Of_Disease",
+      "relatedCode": "C130211",
+      "relatedName": "BCR/ABL1 Fusion Gene with ABL1 NM_005157.4:c.763G>A Mutation"
+    },
+    {
+      "type": "Gene_Involved_In_Pathogenesis_Of_Disease",
+      "relatedCode": "C131012",
+      "relatedName": "BCR/ABL1 Fusion Gene with ABL1 NM_005157.4:c.764A>T Mutation"
+    },
+    {
+      "type": "Gene_Involved_In_Pathogenesis_Of_Disease",
+      "relatedCode": "C131013",
+      "relatedName": "BCR/ABL1 Fusion Gene with ABL1 NM_005157.4:c.827A>G Mutation"
+    },
+    {
+      "type": "Gene_Involved_In_Pathogenesis_Of_Disease",
+      "relatedCode": "C131014",
+      "relatedName": "BCR/ABL1 Fusion Gene with ABL1 NM_005157.4:c.835G>A Mutation"
+    },
+    {
+      "type": "Gene_Involved_In_Pathogenesis_Of_Disease",
+      "relatedCode": "C130213",
+      "relatedName": "BCR/ABL1 Fusion Gene with ABL1 NM_005157.4:c.895G>C Mutation"
+    },
+    {
+      "type": "Gene_Involved_In_Pathogenesis_Of_Disease",
+      "relatedCode": "C130214",
+      "relatedName": "BCR/ABL1 Fusion Gene with ABL1 NM_005157.4:c.895G>T Mutation"
+    },
+    {
+      "type": "Gene_Involved_In_Pathogenesis_Of_Disease",
+      "relatedCode": "C123845",
+      "relatedName": "BCR/ABL1 Fusion Gene with ABL1 NM_005157.4:c.944C>T Mutation"
+    },
+    {
+      "type": "Gene_Involved_In_Pathogenesis_Of_Disease",
+      "relatedCode": "C130217",
+      "relatedName": "BCR/ABL1 Fusion Gene with ABL1 NM_005157.4:c.949T>C Mutation"
+    },
+    {
+      "type": "Gene_Involved_In_Pathogenesis_Of_Disease",
+      "relatedCode": "C130216",
+      "relatedName": "BCR/ABL1 Fusion Gene with ABL1 NM_005157.4:c.951C>A Mutation"
+    },
+    {
+      "type": "Gene_Involved_In_Pathogenesis_Of_Disease",
+      "relatedCode": "C130218",
+      "relatedName": "BCR/ABL1 Fusion Gene with ABL1 NM_005157.4:c.951C>G Mutation"
+    },
+    {
+      "type": "Gene_Involved_In_Pathogenesis_Of_Disease",
+      "relatedCode": "C94600",
+      "relatedName": "BCR/ABL1 Fusion Gene"
+    }
+  ],
+  "history": [
+    {
+      "code": "C80331",
+      "action": "create",
+      "date": "2009-04-13"
+    },
+    {
+      "code": "C80331",
+      "action": "modify",
+      "date": "2009-04-20"
+    },
+    {
+      "code": "C80331",
+      "action": "modify",
+      "date": "2009-04-27"
+    },
+    {
+      "code": "C80331",
+      "action": "modify",
+      "date": "2009-05-04"
+    },
+    {
+      "code": "C80331",
+      "action": "modify",
+      "date": "2009-11-02"
+    },
+    {
+      "code": "C80331",
+      "action": "modify",
+      "date": "2009-11-23"
+    },
+    {
+      "code": "C80331",
+      "action": "modify",
+      "date": "2011-01-17"
+    },
+    {
+      "code": "C80331",
+      "action": "modify",
+      "date": "2011-08-01"
+    },
+    {
+      "code": "C80331",
+      "action": "modify",
+      "date": "2012-03-05"
+    },
+    {
+      "code": "C80331",
+      "action": "modify",
+      "date": "2012-03-26"
+    },
+    {
+      "code": "C80331",
+      "action": "modify",
+      "date": "2012-07-30"
+    },
+    {
+      "code": "C80331",
+      "action": "modify",
+      "date": "2016-04-25"
+    },
+    {
+      "code": "C80331",
+      "action": "modify",
+      "date": "2016-11-07"
+    },
+    {
+      "code": "C80331",
+      "action": "modify",
+      "date": "2016-11-14"
+    },
+    {
+      "code": "C80331",
+      "action": "modify",
+      "date": "2018-09-24"
+    },
+    {
+      "code": "C80331",
+      "action": "modify",
+      "date": "2019-05-28"
+    },
+    {
+      "code": "C80331",
+      "action": "modify",
+      "date": "2019-09-30"
+    },
+    {
+      "code": "C80331",
+      "action": "modify",
+      "date": "2019-11-25"
+    },
+    {
+      "code": "C80331",
+      "action": "modify",
+      "date": "2020-02-24"
+    },
+    {
+      "code": "C80331",
+      "action": "modify",
+      "date": "2020-04-27"
+    },
+    {
+      "code": "C80331",
+      "action": "modify",
+      "date": "2021-02-22"
+    },
+    {
+      "code": "C80331",
+      "action": "modify",
+      "date": "2021-03-29"
+    },
+    {
+      "code": "C80331",
+      "action": "modify",
+      "date": "2022-10-31"
+    },
+    {
+      "code": "C80331",
+      "action": "modify",
+      "date": "2023-08-28"
+    },
+    {
+      "code": "C80331",
+      "action": "modify",
+      "date": "2023-12-26"
+    },
+    {
+      "code": "C80331",
+      "action": "modify",
+      "date": "2024-09-30"
+    }
+  ],
+  "maps": [
+    {
+      "type": "Related To",
+      "targetName": "9812/3",
+      "targetTermType": "PT",
+      "targetCode": "morphology",
+      "targetTerminology": "GDC"
+    },
+    {
+      "type": "Related To",
+      "targetName": "B lymphoblastic leukemia/lymphoma with t(9;22)(q34;q11.2); BCR-ABL1",
+      "targetTermType": "PT",
+      "targetCode": "9812/3",
+      "targetTerminology": "ICDO3",
+      "targetTerminologyVersion": "3.2"
+    },
+    {
+      "type": "Related To",
+      "targetName": "B lymphoblastic leukemia/lymphoma with t(9;22)(q34;q11.2); BCR-ABL1",
+      "targetTermType": "PT",
+      "targetCode": "9812/3",
+      "targetTerminology": "ICDO3",
+      "targetTerminologyVersion": "3.1"
+    },
+    {
+      "type": "Has Synonym",
+      "targetName": "B lymphoblastic leukemia/lymphoma with t(9;22)(q34;q11.2); BCR-ABL1",
+      "targetTermType": "PT",
+      "targetCode": "primary_diagnosis",
+      "targetTerminology": "GDC"
+    }
+  ]
+}

@@ -1,0 +1,1214 @@
+{
+  "code": "C3288",
+  "name": "Oligodendroglioma",
+  "terminology": "ncit",
+  "version": "25.11d",
+  "conceptStatus": "DEFAULT",
+  "leaf": false,
+  "active": true,
+  "synonyms": [
+    {
+      "name": "Oligodendroglioma",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "caDSR"
+    },
+    {
+      "name": "Oligodendroglioma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "Cellosaurus"
+    },
+    {
+      "name": "Oligodendroglioma, NOS",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "CTEP",
+      "code": "10030286",
+      "subSource": "SDC"
+    },
+    {
+      "name": "Oligodendroglioma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "DIPG/DMG"
+    },
+    {
+      "name": "oligodendroglioma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NCI-GLOSS",
+      "code": "CDR0000046257"
+    },
+    {
+      "name": "Oligodendroglioma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Well Differentiated Oligodendroglial Tumor",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Well Differentiated Oligodendroglioma",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "WHO Grade 2 Oligodendroglial Neoplasm",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "WHO Grade 2 Oligodendroglial Tumor",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "WHO Grade II Oligodendroglial Neoplasm",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "WHO Grade II Oligodendroglial Tumor",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Oligodendroglioma",
+      "type": "Display_Name"
+    },
+    {
+      "name": "Oligodendroglioma",
+      "type": "Preferred_Name"
+    }
+  ],
+  "definitions": [
+    {
+      "definition": "A rare, slow-growing tumor that begins in oligodendrocytes (cells that cover and protect nerve cells in the brain and spinal cord).",
+      "type": "ALT_DEFINITION",
+      "source": "NCI-GLOSS"
+    },
+    {
+      "definition": "A well-differentiated (WHO grade 2), diffusely infiltrating neuroglial tumor, typically located in the cerebral hemispheres.  It is composed predominantly of cells which morphologically resemble oligodendroglia. The neoplastic cells have rounded homogeneous nuclei and, on paraffin sections, a swollen, clear cytoplasm ('honeycomb' appearance). (Adapted from WHO)",
+      "type": "DEFINITION",
+      "source": "NCI"
+    }
+  ],
+  "properties": [
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "Cellosaurus"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "CTEP"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "DIPG/DMG"
+    },
+    {
+      "code": "P334",
+      "type": "ICD-O-3_Code",
+      "value": "9450/3"
+    },
+    {
+      "code": "P366",
+      "type": "Legacy Concept Name",
+      "value": "Oligodendroglioma"
+    },
+    {
+      "code": "P363",
+      "type": "Neoplastic_Status",
+      "value": "Undetermined"
+    },
+    {
+      "code": "P106",
+      "type": "Semantic_Type",
+      "value": "Neoplastic Process"
+    },
+    {
+      "code": "P207",
+      "type": "UMLS_CUI",
+      "value": "C0751396"
+    }
+  ],
+  "children": [
+    {
+      "code": "C4014",
+      "name": "Adult Oligodendroglioma",
+      "leaf": false
+    },
+    {
+      "code": "C9377",
+      "name": "Brain Oligodendroglioma",
+      "leaf": false
+    },
+    {
+      "code": "C4045",
+      "name": "Childhood Oligodendroglioma",
+      "leaf": false
+    },
+    {
+      "code": "C129318",
+      "name": "Oligodendroglioma, IDH-Mutant and 1p/19q-Codeleted",
+      "leaf": false
+    },
+    {
+      "code": "C129319",
+      "name": "Oligodendroglioma, Not Otherwise Specified",
+      "leaf": true
+    },
+    {
+      "code": "C160737",
+      "name": "Recurrent Oligodendroglioma",
+      "leaf": false
+    },
+    {
+      "code": "C211956",
+      "name": "Refractory Oligodendroglioma",
+      "leaf": false
+    },
+    {
+      "code": "C188470",
+      "name": "Resectable Oligodendroglioma",
+      "leaf": true
+    },
+    {
+      "code": "C4535",
+      "name": "Spinal Cord Oligodendroglioma",
+      "leaf": true
+    },
+    {
+      "code": "C203284",
+      "name": "Unresectable Oligodendroglioma",
+      "leaf": false
+    }
+  ],
+  "parents": [
+    {
+      "code": "C129325",
+      "name": "Diffuse Glioma"
+    },
+    {
+      "code": "C6960",
+      "name": "Oligodendroglial Tumor"
+    },
+    {
+      "code": "C132505",
+      "name": "WHO Grade 2 Glioma"
+    }
+  ],
+  "associations": [
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C165258",
+      "relatedName": "Cellosaurus Disease Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C183061",
+      "relatedName": "CRF1 Registration Table"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C183067",
+      "relatedName": "CRF3 Diagnosis Biopsy Table"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C183075",
+      "relatedName": "CRF3 Diagnosis Re-Biopsy Table"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C183105",
+      "relatedName": "CRF7 Pathology Review Table"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C103050",
+      "relatedName": "NCI CTEP SDC Oligodendroglial Tumors Sub-Category Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C102905",
+      "relatedName": "NCI CTEP Simplified Disease Classification Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C126659",
+      "relatedName": "NCIt Neoplasm Core Terminology"
+    }
+  ],
+  "inverseAssociations": [
+    {
+      "type": "Has_DIPG_DMG_Authorized_Value",
+      "relatedCode": "C182416",
+      "relatedName": "Autopsy Histology"
+    },
+    {
+      "type": "Has_DIPG_DMG_Authorized_Value",
+      "relatedCode": "C16681",
+      "relatedName": "Histology"
+    },
+    {
+      "type": "Has_DIPG_DMG_Authorized_Value",
+      "relatedCode": "C178004",
+      "relatedName": "Pathological Diagnosis"
+    },
+    {
+      "type": "Has_DIPG_DMG_Authorized_Value",
+      "relatedCode": "C182241",
+      "relatedName": "Re-Biopsy Pathological Diagnosis Question"
+    }
+  ],
+  "roles": [
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C36113",
+      "relatedName": "Anaplastic Lesion"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12438",
+      "relatedName": "Central Nervous System"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12438",
+      "relatedName": "Central Nervous System"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C41454",
+      "relatedName": "Cystic Change"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C35903",
+      "relatedName": "Diffuse Pattern"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C35903",
+      "relatedName": "Diffuse Pattern"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C41612",
+      "relatedName": "Extensive Necrosis"
+    },
+    {
+      "type": "Disease_May_Have_Cytogenetic_Abnormality",
+      "relatedCode": "C36454",
+      "relatedName": "Gain of Chromosome 7"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C12615",
+      "relatedName": "Glial Cell"
+    },
+    {
+      "type": "Disease_Is_Grade",
+      "relatedCode": "C28078",
+      "relatedName": "Grade 2"
+    },
+    {
+      "type": "Disease_Is_Grade",
+      "relatedCode": "C28078",
+      "relatedName": "Grade 2"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C26791",
+      "relatedName": "Hemorrhage"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C35960",
+      "relatedName": "High Mitotic Activity"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C35931",
+      "relatedName": "Honeycomb Pattern"
+    },
+    {
+      "type": "Disease_May_Have_Cytogenetic_Abnormality",
+      "relatedCode": "C36505",
+      "relatedName": "Loss of Chromosome 11p"
+    },
+    {
+      "type": "Disease_May_Have_Cytogenetic_Abnormality",
+      "relatedCode": "C36490",
+      "relatedName": "Loss of Chromosome 14"
+    },
+    {
+      "type": "Disease_May_Have_Cytogenetic_Abnormality",
+      "relatedCode": "C36506",
+      "relatedName": "Loss of Chromosome 22q"
+    },
+    {
+      "type": "Disease_May_Have_Cytogenetic_Abnormality",
+      "relatedCode": "C36504",
+      "relatedName": "Loss of Chromosome 6"
+    },
+    {
+      "type": "Disease_May_Have_Cytogenetic_Abnormality",
+      "relatedCode": "C36524",
+      "relatedName": "Loss of Chromosome 7"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C36130",
+      "relatedName": "Low Grade Lesion"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C8433",
+      "relatedName": "Microcalcification"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C38666",
+      "relatedName": "Monomorphic Cellular Infiltrate"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C35999",
+      "relatedName": "Mucoid Stroma Formation"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12922",
+      "relatedName": "Neoplastic Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C37126",
+      "relatedName": "Neoplastic Glial Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C41408",
+      "relatedName": "Neoplastic Neuroepithelial Cell and Neoplastic Perineural Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C37125",
+      "relatedName": "Neoplastic Neuroepithelial Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C37141",
+      "relatedName": "Neoplastic Oligodendrocyte"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C41406",
+      "relatedName": "Nerve Tissue, Neuroepithelial Tissue, and Nerve Sheaths"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12755",
+      "relatedName": "Nervous System"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C41410",
+      "relatedName": "Neuroepithelial Cell"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C41409",
+      "relatedName": "Neuroepithelial Tissue"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C41405",
+      "relatedName": "Neuron, Neuroepithelial Cell, and Supporting Cell of the Nervous System"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C12618",
+      "relatedName": "Oligodendrocyte"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C68766",
+      "relatedName": "Oligodendroglial Component Present"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C41611",
+      "relatedName": "Precise Histogenesis Unknown"
+    }
+  ],
+  "inverseRoles": [
+    {
+      "type": "Gene_Associated_With_Disease",
+      "relatedCode": "C84948",
+      "relatedName": "IDH2 Gene"
+    },
+    {
+      "type": "Gene_Associated_With_Disease",
+      "relatedCode": "C84949",
+      "relatedName": "IDH2 wt Allele"
+    },
+    {
+      "type": "EO_Disease_Maps_To_Human_Disease",
+      "relatedCode": "C21945",
+      "relatedName": "Mouse Oligodendroglioma"
+    },
+    {
+      "type": "Gene_Associated_With_Disease",
+      "relatedCode": "C18256",
+      "relatedName": "PTEN Gene"
+    },
+    {
+      "type": "Gene_Associated_With_Disease",
+      "relatedCode": "C52906",
+      "relatedName": "PTEN wt Allele"
+    }
+  ],
+  "history": [
+    {
+      "code": "C3288",
+      "action": "create",
+      "date": "2003-08-12"
+    },
+    {
+      "code": "C3288",
+      "action": "modify",
+      "date": "2003-10-31"
+    },
+    {
+      "code": "C3288",
+      "action": "modify",
+      "date": "2003-12-30"
+    },
+    {
+      "code": "C3288",
+      "action": "modify",
+      "date": "2004-03-30"
+    },
+    {
+      "code": "C3288",
+      "action": "modify",
+      "date": "2004-05-28"
+    },
+    {
+      "code": "C3288",
+      "action": "modify",
+      "date": "2004-09-10"
+    },
+    {
+      "code": "C3288",
+      "action": "modify",
+      "date": "2004-11-17"
+    },
+    {
+      "code": "C3288",
+      "action": "modify",
+      "date": "2006-12-01"
+    },
+    {
+      "code": "C3288",
+      "action": "modify",
+      "date": "2007-03-30"
+    },
+    {
+      "code": "C3288",
+      "action": "modify",
+      "date": "2007-04-30"
+    },
+    {
+      "code": "C3288",
+      "action": "modify",
+      "date": "2009-02-20"
+    },
+    {
+      "code": "C3288",
+      "action": "modify",
+      "date": "2009-11-23"
+    },
+    {
+      "code": "C3288",
+      "action": "modify",
+      "date": "2010-06-01"
+    },
+    {
+      "code": "C3288",
+      "action": "modify",
+      "date": "2010-08-02"
+    },
+    {
+      "code": "C3288",
+      "action": "modify",
+      "date": "2010-10-25"
+    },
+    {
+      "code": "C3288",
+      "action": "modify",
+      "date": "2011-01-24"
+    },
+    {
+      "code": "C3288",
+      "action": "modify",
+      "date": "2011-04-11"
+    },
+    {
+      "code": "C3288",
+      "action": "modify",
+      "date": "2011-11-14"
+    },
+    {
+      "code": "C3288",
+      "action": "modify",
+      "date": "2011-11-21"
+    },
+    {
+      "code": "C3288",
+      "action": "modify",
+      "date": "2011-11-28"
+    },
+    {
+      "code": "C3288",
+      "action": "modify",
+      "date": "2011-12-05"
+    },
+    {
+      "code": "C3288",
+      "action": "modify",
+      "date": "2011-12-12"
+    },
+    {
+      "code": "C3288",
+      "action": "modify",
+      "date": "2011-12-19"
+    },
+    {
+      "code": "C3288",
+      "action": "modify",
+      "date": "2011-12-27"
+    },
+    {
+      "code": "C3288",
+      "action": "modify",
+      "date": "2012-01-09"
+    },
+    {
+      "code": "C3288",
+      "action": "modify",
+      "date": "2012-01-17"
+    },
+    {
+      "code": "C3288",
+      "action": "modify",
+      "date": "2012-01-23"
+    },
+    {
+      "code": "C3288",
+      "action": "modify",
+      "date": "2012-01-30"
+    },
+    {
+      "code": "C3288",
+      "action": "modify",
+      "date": "2012-02-06"
+    },
+    {
+      "code": "C3288",
+      "action": "modify",
+      "date": "2012-02-13"
+    },
+    {
+      "code": "C3288",
+      "action": "modify",
+      "date": "2012-02-21"
+    },
+    {
+      "code": "C3288",
+      "action": "modify",
+      "date": "2012-02-27"
+    },
+    {
+      "code": "C3288",
+      "action": "modify",
+      "date": "2012-03-05"
+    },
+    {
+      "code": "C3288",
+      "action": "modify",
+      "date": "2012-03-12"
+    },
+    {
+      "code": "C3288",
+      "action": "modify",
+      "date": "2012-03-19"
+    },
+    {
+      "code": "C3288",
+      "action": "modify",
+      "date": "2012-03-26"
+    },
+    {
+      "code": "C3288",
+      "action": "modify",
+      "date": "2012-04-02"
+    },
+    {
+      "code": "C3288",
+      "action": "modify",
+      "date": "2012-04-09"
+    },
+    {
+      "code": "C3288",
+      "action": "modify",
+      "date": "2012-04-16"
+    },
+    {
+      "code": "C3288",
+      "action": "modify",
+      "date": "2012-04-23"
+    },
+    {
+      "code": "C3288",
+      "action": "modify",
+      "date": "2012-04-30"
+    },
+    {
+      "code": "C3288",
+      "action": "modify",
+      "date": "2012-05-07"
+    },
+    {
+      "code": "C3288",
+      "action": "modify",
+      "date": "2012-05-14"
+    },
+    {
+      "code": "C3288",
+      "action": "modify",
+      "date": "2012-05-21"
+    },
+    {
+      "code": "C3288",
+      "action": "modify",
+      "date": "2012-05-29"
+    },
+    {
+      "code": "C3288",
+      "action": "modify",
+      "date": "2012-06-04"
+    },
+    {
+      "code": "C3288",
+      "action": "modify",
+      "date": "2012-06-11"
+    },
+    {
+      "code": "C3288",
+      "action": "modify",
+      "date": "2012-06-18"
+    },
+    {
+      "code": "C3288",
+      "action": "modify",
+      "date": "2012-06-18"
+    },
+    {
+      "code": "C3288",
+      "action": "modify",
+      "date": "2012-06-25"
+    },
+    {
+      "code": "C3288",
+      "action": "modify",
+      "date": "2012-07-03"
+    },
+    {
+      "code": "C3288",
+      "action": "modify",
+      "date": "2012-07-16"
+    },
+    {
+      "code": "C3288",
+      "action": "modify",
+      "date": "2012-07-23"
+    },
+    {
+      "code": "C3288",
+      "action": "modify",
+      "date": "2012-07-30"
+    },
+    {
+      "code": "C3288",
+      "action": "modify",
+      "date": "2012-08-06"
+    },
+    {
+      "code": "C3288",
+      "action": "modify",
+      "date": "2012-08-13"
+    },
+    {
+      "code": "C3288",
+      "action": "modify",
+      "date": "2012-08-20"
+    },
+    {
+      "code": "C3288",
+      "action": "modify",
+      "date": "2012-08-27"
+    },
+    {
+      "code": "C3288",
+      "action": "modify",
+      "date": "2012-09-04"
+    },
+    {
+      "code": "C3288",
+      "action": "modify",
+      "date": "2012-09-10"
+    },
+    {
+      "code": "C3288",
+      "action": "modify",
+      "date": "2012-09-17"
+    },
+    {
+      "code": "C3288",
+      "action": "modify",
+      "date": "2012-09-24"
+    },
+    {
+      "code": "C3288",
+      "action": "modify",
+      "date": "2012-10-01"
+    },
+    {
+      "code": "C3288",
+      "action": "modify",
+      "date": "2012-10-09"
+    },
+    {
+      "code": "C3288",
+      "action": "modify",
+      "date": "2012-10-15"
+    },
+    {
+      "code": "C3288",
+      "action": "modify",
+      "date": "2012-10-22"
+    },
+    {
+      "code": "C3288",
+      "action": "modify",
+      "date": "2012-10-31"
+    },
+    {
+      "code": "C3288",
+      "action": "modify",
+      "date": "2012-11-05"
+    },
+    {
+      "code": "C3288",
+      "action": "modify",
+      "date": "2012-11-13"
+    },
+    {
+      "code": "C3288",
+      "action": "modify",
+      "date": "2012-11-19"
+    },
+    {
+      "code": "C3288",
+      "action": "modify",
+      "date": "2012-11-26"
+    },
+    {
+      "code": "C3288",
+      "action": "modify",
+      "date": "2012-12-03"
+    },
+    {
+      "code": "C3288",
+      "action": "modify",
+      "date": "2012-12-10"
+    },
+    {
+      "code": "C3288",
+      "action": "modify",
+      "date": "2012-12-17"
+    },
+    {
+      "code": "C3288",
+      "action": "modify",
+      "date": "2012-12-28"
+    },
+    {
+      "code": "C3288",
+      "action": "modify",
+      "date": "2013-01-07"
+    },
+    {
+      "code": "C3288",
+      "action": "modify",
+      "date": "2013-01-14"
+    },
+    {
+      "code": "C3288",
+      "action": "modify",
+      "date": "2013-01-23"
+    },
+    {
+      "code": "C3288",
+      "action": "modify",
+      "date": "2013-02-04"
+    },
+    {
+      "code": "C3288",
+      "action": "modify",
+      "date": "2013-02-11"
+    },
+    {
+      "code": "C3288",
+      "action": "modify",
+      "date": "2013-02-19"
+    },
+    {
+      "code": "C3288",
+      "action": "modify",
+      "date": "2013-02-25"
+    },
+    {
+      "code": "C3288",
+      "action": "modify",
+      "date": "2013-03-04"
+    },
+    {
+      "code": "C3288",
+      "action": "modify",
+      "date": "2013-03-11"
+    },
+    {
+      "code": "C3288",
+      "action": "modify",
+      "date": "2013-03-18"
+    },
+    {
+      "code": "C3288",
+      "action": "modify",
+      "date": "2013-03-25"
+    },
+    {
+      "code": "C3288",
+      "action": "modify",
+      "date": "2013-04-01"
+    },
+    {
+      "code": "C3288",
+      "action": "modify",
+      "date": "2013-04-08"
+    },
+    {
+      "code": "C3288",
+      "action": "modify",
+      "date": "2013-04-15"
+    },
+    {
+      "code": "C3288",
+      "action": "modify",
+      "date": "2013-04-22"
+    },
+    {
+      "code": "C3288",
+      "action": "modify",
+      "date": "2013-04-29"
+    },
+    {
+      "code": "C3288",
+      "action": "modify",
+      "date": "2013-05-06"
+    },
+    {
+      "code": "C3288",
+      "action": "modify",
+      "date": "2013-05-13"
+    },
+    {
+      "code": "C3288",
+      "action": "modify",
+      "date": "2013-05-20"
+    },
+    {
+      "code": "C3288",
+      "action": "modify",
+      "date": "2013-05-28"
+    },
+    {
+      "code": "C3288",
+      "action": "modify",
+      "date": "2013-06-03"
+    },
+    {
+      "code": "C3288",
+      "action": "modify",
+      "date": "2013-06-10"
+    },
+    {
+      "code": "C3288",
+      "action": "modify",
+      "date": "2013-06-17"
+    },
+    {
+      "code": "C3288",
+      "action": "modify",
+      "date": "2013-06-24"
+    },
+    {
+      "code": "C3288",
+      "action": "modify",
+      "date": "2013-07-01"
+    },
+    {
+      "code": "C3288",
+      "action": "modify",
+      "date": "2013-07-08"
+    },
+    {
+      "code": "C3288",
+      "action": "modify",
+      "date": "2014-11-24"
+    },
+    {
+      "code": "C3288",
+      "action": "modify",
+      "date": "2014-12-01"
+    },
+    {
+      "code": "C3288",
+      "action": "modify",
+      "date": "2014-12-08"
+    },
+    {
+      "code": "C3288",
+      "action": "modify",
+      "date": "2014-12-15"
+    },
+    {
+      "code": "C3288",
+      "action": "modify",
+      "date": "2014-12-22"
+    },
+    {
+      "code": "C3288",
+      "action": "modify",
+      "date": "2014-12-29"
+    },
+    {
+      "code": "C3288",
+      "action": "modify",
+      "date": "2015-01-05"
+    },
+    {
+      "code": "C3288",
+      "action": "modify",
+      "date": "2015-01-12"
+    },
+    {
+      "code": "C3288",
+      "action": "modify",
+      "date": "2015-01-20"
+    },
+    {
+      "code": "C3288",
+      "action": "modify",
+      "date": "2015-01-26"
+    },
+    {
+      "code": "C3288",
+      "action": "modify",
+      "date": "2015-02-02"
+    },
+    {
+      "code": "C3288",
+      "action": "modify",
+      "date": "2015-02-09"
+    },
+    {
+      "code": "C3288",
+      "action": "modify",
+      "date": "2015-02-17"
+    },
+    {
+      "code": "C3288",
+      "action": "modify",
+      "date": "2015-02-23"
+    },
+    {
+      "code": "C3288",
+      "action": "modify",
+      "date": "2015-03-02"
+    },
+    {
+      "code": "C3288",
+      "action": "modify",
+      "date": "2015-03-09"
+    },
+    {
+      "code": "C3288",
+      "action": "modify",
+      "date": "2015-03-16"
+    },
+    {
+      "code": "C3288",
+      "action": "modify",
+      "date": "2015-03-23"
+    },
+    {
+      "code": "C3288",
+      "action": "modify",
+      "date": "2015-03-30"
+    },
+    {
+      "code": "C3288",
+      "action": "modify",
+      "date": "2015-04-06"
+    },
+    {
+      "code": "C3288",
+      "action": "modify",
+      "date": "2015-04-13"
+    },
+    {
+      "code": "C3288",
+      "action": "modify",
+      "date": "2015-04-20"
+    },
+    {
+      "code": "C3288",
+      "action": "modify",
+      "date": "2015-04-27"
+    },
+    {
+      "code": "C3288",
+      "action": "modify",
+      "date": "2015-05-04"
+    },
+    {
+      "code": "C3288",
+      "action": "modify",
+      "date": "2015-05-11"
+    },
+    {
+      "code": "C3288",
+      "action": "modify",
+      "date": "2015-05-18"
+    },
+    {
+      "code": "C3288",
+      "action": "modify",
+      "date": "2016-03-07"
+    },
+    {
+      "code": "C3288",
+      "action": "modify",
+      "date": "2016-04-25"
+    },
+    {
+      "code": "C3288",
+      "action": "modify",
+      "date": "2016-08-29"
+    },
+    {
+      "code": "C3288",
+      "action": "modify",
+      "date": "2016-09-26"
+    },
+    {
+      "code": "C3288",
+      "action": "modify",
+      "date": "2017-02-21"
+    },
+    {
+      "code": "C3288",
+      "action": "modify",
+      "date": "2017-03-13"
+    },
+    {
+      "code": "C3288",
+      "action": "modify",
+      "date": "2018-09-24"
+    },
+    {
+      "code": "C3288",
+      "action": "modify",
+      "date": "2018-10-29"
+    },
+    {
+      "code": "C3288",
+      "action": "modify",
+      "date": "2018-10-29"
+    },
+    {
+      "code": "C3288",
+      "action": "modify",
+      "date": "2019-05-28"
+    },
+    {
+      "code": "C3288",
+      "action": "modify",
+      "date": "2019-09-30"
+    },
+    {
+      "code": "C3288",
+      "action": "modify",
+      "date": "2019-10-28"
+    },
+    {
+      "code": "C3288",
+      "action": "modify",
+      "date": "2020-03-30"
+    },
+    {
+      "code": "C3288",
+      "action": "modify",
+      "date": "2020-09-29"
+    },
+    {
+      "code": "C3288",
+      "action": "modify",
+      "date": "2021-10-25"
+    },
+    {
+      "code": "C3288",
+      "action": "modify",
+      "date": "2022-01-31"
+    },
+    {
+      "code": "C3288",
+      "action": "modify",
+      "date": "2023-02-27"
+    },
+    {
+      "code": "C3288",
+      "action": "modify",
+      "date": "2025-03-31"
+    }
+  ]
+}

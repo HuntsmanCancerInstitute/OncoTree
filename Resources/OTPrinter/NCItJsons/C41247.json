@@ -1,0 +1,448 @@
+{
+  "code": "C41247",
+  "name": "Pancreatic Mucinous-Cystic Neoplasm",
+  "terminology": "ncit",
+  "version": "25.11d",
+  "conceptStatus": "DEFAULT",
+  "leaf": false,
+  "active": true,
+  "synonyms": [
+    {
+      "name": "Pancreatic Mucinous-Cystic Neoplasm",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "caDSR"
+    },
+    {
+      "name": "Pancreatic Mucinous-Cystic Neoplasm",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "Cellosaurus"
+    },
+    {
+      "name": "Pancreatic Mucinous-Cystic Neoplasm",
+      "termType": "DN",
+      "type": "FULL_SYN",
+      "source": "CTRP"
+    },
+    {
+      "name": "Pancreatic Mucinous Cystic Neoplasm",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Pancreatic Mucinous-Cystic Neoplasm",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Pancreatic Mucinous-Cystic Neoplasm",
+      "type": "Display_Name"
+    },
+    {
+      "name": "Pancreatic Mucinous-Cystic Neoplasm",
+      "type": "Preferred_Name"
+    }
+  ],
+  "definitions": [
+    {
+      "definition": "A cystic epithelial neoplasm that arises from the exocrine pancreas and affects almost exclusively females. It is characterized by the presence of columnar mucin-producing epithelial cells and ovarian-type stroma formation. This category includes non-invasive pancreatic mucinous-cystic neoplasms (low-or high-grade) and pancreatic mucinous-cystic neoplasms with an associated invasive carcinoma.",
+      "type": "DEFINITION",
+      "source": "NCI"
+    }
+  ],
+  "properties": [
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "Cellosaurus"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "CTRP"
+    },
+    {
+      "code": "P366",
+      "type": "Legacy Concept Name",
+      "value": "Pancreatic_Mucinous_Cystic_Neoplasm"
+    },
+    {
+      "code": "P363",
+      "type": "Neoplastic_Status",
+      "value": "Undetermined"
+    },
+    {
+      "code": "P106",
+      "type": "Semantic_Type",
+      "value": "Neoplastic Process"
+    },
+    {
+      "code": "P207",
+      "type": "UMLS_CUI",
+      "value": "C1518872"
+    }
+  ],
+  "children": [
+    {
+      "code": "C95488",
+      "name": "Non-Invasive Pancreatic Mucinous-Cystic Neoplasm",
+      "leaf": false
+    },
+    {
+      "code": "C41246",
+      "name": "Pancreatic Mucinous-Cystic Neoplasm with an Associated Invasive Carcinoma",
+      "leaf": true
+    }
+  ],
+  "parents": [
+    {
+      "code": "C7070",
+      "name": "Mucinous Neoplasm"
+    },
+    {
+      "code": "C200227",
+      "name": "Pancreatic Cystic Neoplasm"
+    }
+  ],
+  "associations": [
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C165258",
+      "relatedName": "Cellosaurus Disease Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C118168",
+      "relatedName": "CTRP Disease Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C116977",
+      "relatedName": "CTRP Terminology"
+    }
+  ],
+  "roles": [
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C34333",
+      "relatedName": "Abdominal Mass"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C41421",
+      "relatedName": "Cystic Lesion"
+    },
+    {
+      "type": "Disease_May_Have_Associated_Disease",
+      "relatedCode": "C2985",
+      "relatedName": "Diabetes Mellitus"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12378",
+      "relatedName": "Digestive System"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C12578",
+      "relatedName": "Epithelial Cell"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C53596",
+      "relatedName": "Epithelial Component Present"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C45714",
+      "relatedName": "Epithelial Tissue"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C32546",
+      "relatedName": "Exocrine Pancreas"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C32546",
+      "relatedName": "Exocrine Pancreas"
+    },
+    {
+      "type": "Disease_May_Have_Molecular_Abnormality",
+      "relatedCode": "C41361",
+      "relatedName": "KRAS Gene Mutation"
+    },
+    {
+      "type": "Disease_Mapped_To_Gene",
+      "relatedCode": "C25785",
+      "relatedName": "KRAS Gene"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C62273",
+      "relatedName": "Mixed Neoplastic Glandular and Squamous Cell Population"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C38768",
+      "relatedName": "Mucinous Differentiation"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12922",
+      "relatedName": "Neoplastic Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C37116",
+      "relatedName": "Neoplastic Epithelial Cell with Intracytoplasmic Mucin"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36753",
+      "relatedName": "Neoplastic Epithelial Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36763",
+      "relatedName": "Neoplastic Glandular Cell"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C37114",
+      "relatedName": "Neoplastic Serous Epithelial Cell"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C36937",
+      "relatedName": "Neoplastic Smooth Muscle Cell"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C36760",
+      "relatedName": "Neoplastic Squamous Cell"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12393",
+      "relatedName": "Pancreas"
+    }
+  ],
+  "inverseRoles": [
+    {
+      "type": "Gene_Involved_In_Pathogenesis_Of_Disease",
+      "relatedCode": "C25785",
+      "relatedName": "KRAS Gene"
+    },
+    {
+      "type": "Gene_Involved_In_Pathogenesis_Of_Disease",
+      "relatedCode": "C52546",
+      "relatedName": "KRAS wt Allele"
+    }
+  ],
+  "history": [
+    {
+      "code": "C41247",
+      "action": "create",
+      "date": "2004-11-01"
+    },
+    {
+      "code": "C41247",
+      "action": "modify",
+      "date": "2006-05-26"
+    },
+    {
+      "code": "C41247",
+      "action": "modify",
+      "date": "2009-04-06"
+    },
+    {
+      "code": "C41247",
+      "action": "modify",
+      "date": "2009-11-23"
+    },
+    {
+      "code": "C41247",
+      "action": "modify",
+      "date": "2011-01-31"
+    },
+    {
+      "code": "C41247",
+      "action": "modify",
+      "date": "2011-02-07"
+    },
+    {
+      "code": "C41247",
+      "action": "modify",
+      "date": "2012-02-21"
+    },
+    {
+      "code": "C41247",
+      "action": "modify",
+      "date": "2013-02-25"
+    },
+    {
+      "code": "C41247",
+      "action": "modify",
+      "date": "2013-03-04"
+    },
+    {
+      "code": "C41247",
+      "action": "modify",
+      "date": "2013-03-11"
+    },
+    {
+      "code": "C41247",
+      "action": "modify",
+      "date": "2013-03-18"
+    },
+    {
+      "code": "C41247",
+      "action": "modify",
+      "date": "2013-03-25"
+    },
+    {
+      "code": "C41247",
+      "action": "modify",
+      "date": "2013-04-01"
+    },
+    {
+      "code": "C41247",
+      "action": "modify",
+      "date": "2013-04-08"
+    },
+    {
+      "code": "C41247",
+      "action": "modify",
+      "date": "2013-04-15"
+    },
+    {
+      "code": "C41247",
+      "action": "modify",
+      "date": "2013-04-22"
+    },
+    {
+      "code": "C41247",
+      "action": "modify",
+      "date": "2013-04-29"
+    },
+    {
+      "code": "C41247",
+      "action": "modify",
+      "date": "2013-05-06"
+    },
+    {
+      "code": "C41247",
+      "action": "modify",
+      "date": "2013-05-13"
+    },
+    {
+      "code": "C41247",
+      "action": "modify",
+      "date": "2013-05-20"
+    },
+    {
+      "code": "C41247",
+      "action": "modify",
+      "date": "2013-05-28"
+    },
+    {
+      "code": "C41247",
+      "action": "modify",
+      "date": "2013-06-03"
+    },
+    {
+      "code": "C41247",
+      "action": "modify",
+      "date": "2013-06-10"
+    },
+    {
+      "code": "C41247",
+      "action": "modify",
+      "date": "2013-06-17"
+    },
+    {
+      "code": "C41247",
+      "action": "modify",
+      "date": "2013-06-24"
+    },
+    {
+      "code": "C41247",
+      "action": "modify",
+      "date": "2013-07-01"
+    },
+    {
+      "code": "C41247",
+      "action": "modify",
+      "date": "2013-07-08"
+    },
+    {
+      "code": "C41247",
+      "action": "modify",
+      "date": "2014-02-03"
+    },
+    {
+      "code": "C41247",
+      "action": "modify",
+      "date": "2018-09-24"
+    },
+    {
+      "code": "C41247",
+      "action": "modify",
+      "date": "2018-10-29"
+    },
+    {
+      "code": "C41247",
+      "action": "modify",
+      "date": "2018-10-29"
+    },
+    {
+      "code": "C41247",
+      "action": "modify",
+      "date": "2019-09-30"
+    },
+    {
+      "code": "C41247",
+      "action": "modify",
+      "date": "2019-10-28"
+    },
+    {
+      "code": "C41247",
+      "action": "modify",
+      "date": "2019-11-25"
+    },
+    {
+      "code": "C41247",
+      "action": "modify",
+      "date": "2020-02-24"
+    },
+    {
+      "code": "C41247",
+      "action": "modify",
+      "date": "2020-09-29"
+    },
+    {
+      "code": "C41247",
+      "action": "modify",
+      "date": "2023-02-27"
+    },
+    {
+      "code": "C41247",
+      "action": "modify",
+      "date": "2023-06-26"
+    },
+    {
+      "code": "C41247",
+      "action": "modify",
+      "date": "2025-01-27"
+    },
+    {
+      "code": "C41247",
+      "action": "modify",
+      "date": "2025-03-31"
+    }
+  ]
+}

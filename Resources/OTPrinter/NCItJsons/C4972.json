@@ -1,0 +1,348 @@
+{
+  "code": "C4972",
+  "name": "Nerve Sheath Neoplasm",
+  "terminology": "ncit",
+  "version": "25.11d",
+  "conceptStatus": "DEFAULT",
+  "leaf": false,
+  "active": true,
+  "synonyms": [
+    {
+      "name": "Nerve Sheath Tumors",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "GDC"
+    },
+    {
+      "name": "Neoplasm of Nerve Sheath",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Neoplasm of the Nerve Sheath",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Nerve Sheath Neoplasm",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Nerve Sheath Tumor",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Tumor of Nerve Sheath",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Nerve Sheath Neoplasm",
+      "type": "Preferred_Name"
+    }
+  ],
+  "definitions": [
+    {
+      "definition": "A benign or malignant neoplasm arising from the perineural cells in the sheaths surrounding the nerves. Representative examples include neurofibroma, schwannoma, and malignant peripheral nerve sheath tumor.",
+      "type": "DEFINITION",
+      "source": "NCI"
+    }
+  ],
+  "properties": [
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "GDC"
+    },
+    {
+      "code": "P366",
+      "type": "Legacy Concept Name",
+      "value": "Peripheral_Nerve_Sheath_Neoplasm"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "Nerve sheath tumor, NOS"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "Nerve Sheath Tumors"
+    },
+    {
+      "code": "P363",
+      "type": "Neoplastic_Status",
+      "value": "Undetermined"
+    },
+    {
+      "code": "P106",
+      "type": "Semantic_Type",
+      "value": "Neoplastic Process"
+    },
+    {
+      "code": "P207",
+      "type": "UMLS_CUI",
+      "value": "C0206727"
+    }
+  ],
+  "children": [
+    {
+      "code": "C178255",
+      "name": "Atypical Neurofibromatous Neoplasm of Uncertain Biologic Potential",
+      "leaf": true
+    },
+    {
+      "code": "C3474",
+      "name": "Granular Cell Tumor",
+      "leaf": false
+    },
+    {
+      "code": "C121686",
+      "name": "Hybrid Nerve Sheath Tumor",
+      "leaf": false
+    },
+    {
+      "code": "C3798",
+      "name": "Malignant Peripheral Nerve Sheath Tumor",
+      "leaf": false
+    },
+    {
+      "code": "C6970",
+      "name": "Melanotic Schwannoma",
+      "leaf": false
+    },
+    {
+      "code": "C7018",
+      "name": "Nerve Sheath Myxoma",
+      "leaf": false
+    },
+    {
+      "code": "C3272",
+      "name": "Neurofibroma",
+      "leaf": false
+    },
+    {
+      "code": "C4973",
+      "name": "Perineurioma",
+      "leaf": false
+    },
+    {
+      "code": "C3269",
+      "name": "Schwannoma",
+      "leaf": false
+    },
+    {
+      "code": "C121681",
+      "name": "Solitary Circumscribed Neuroma",
+      "leaf": true
+    }
+  ],
+  "parents": [
+    {
+      "code": "C35562",
+      "name": "Neuroepithelial, Perineurial, and Schwann Cell Neoplasm"
+    }
+  ],
+  "associations": [
+    {
+      "type": "Is_Value_For_GDC_Property",
+      "relatedCode": "C2991",
+      "relatedName": "Disease or Disorder"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C157711",
+      "relatedName": "GDC Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C177537",
+      "relatedName": "GDC Value Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168662",
+      "relatedName": "Mapped ICDO3.2 Morphology PT Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168661",
+      "relatedName": "Mapped ICDO3.2 Morphology Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168656",
+      "relatedName": "Mapped ICDO3.2 Terminology"
+    }
+  ],
+  "inverseAssociations": [
+    {
+      "type": "Has_GDC_Value",
+      "relatedCode": "C2991",
+      "relatedName": "Disease or Disorder"
+    }
+  ],
+  "roles": [
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12922",
+      "relatedName": "Neoplastic Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C41408",
+      "relatedName": "Neoplastic Neuroepithelial Cell and Neoplastic Perineural Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C41413",
+      "relatedName": "Neoplastic Perineural Cell"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C41443",
+      "relatedName": "Nerve Tissue and Nerve Sheaths"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C41406",
+      "relatedName": "Nerve Tissue, Neuroepithelial Tissue, and Nerve Sheaths"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12755",
+      "relatedName": "Nervous System"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C41405",
+      "relatedName": "Neuron, Neuroepithelial Cell, and Supporting Cell of the Nervous System"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C41416",
+      "relatedName": "Perineural Cell"
+    }
+  ],
+  "history": [
+    {
+      "code": "C4972",
+      "action": "create",
+      "date": "2003-08-12"
+    },
+    {
+      "code": "C4972",
+      "action": "modify",
+      "date": "2003-10-31"
+    },
+    {
+      "code": "C4972",
+      "action": "modify",
+      "date": "2003-12-30"
+    },
+    {
+      "code": "C4972",
+      "action": "modify",
+      "date": "2004-03-30"
+    },
+    {
+      "code": "C4972",
+      "action": "modify",
+      "date": "2004-11-01"
+    },
+    {
+      "code": "C4972",
+      "action": "modify",
+      "date": "2008-12-31"
+    },
+    {
+      "code": "C4972",
+      "action": "modify",
+      "date": "2009-10-27"
+    },
+    {
+      "code": "C4972",
+      "action": "modify",
+      "date": "2009-11-23"
+    },
+    {
+      "code": "C4972",
+      "action": "modify",
+      "date": "2014-02-03"
+    },
+    {
+      "code": "C4972",
+      "action": "modify",
+      "date": "2016-10-17"
+    },
+    {
+      "code": "C4972",
+      "action": "modify",
+      "date": "2018-09-24"
+    },
+    {
+      "code": "C4972",
+      "action": "modify",
+      "date": "2019-05-28"
+    },
+    {
+      "code": "C4972",
+      "action": "modify",
+      "date": "2019-09-30"
+    },
+    {
+      "code": "C4972",
+      "action": "modify",
+      "date": "2019-11-25"
+    },
+    {
+      "code": "C4972",
+      "action": "modify",
+      "date": "2020-01-27"
+    },
+    {
+      "code": "C4972",
+      "action": "modify",
+      "date": "2020-04-27"
+    },
+    {
+      "code": "C4972",
+      "action": "modify",
+      "date": "2021-02-22"
+    },
+    {
+      "code": "C4972",
+      "action": "modify",
+      "date": "2021-03-29"
+    },
+    {
+      "code": "C4972",
+      "action": "modify",
+      "date": "2021-11-29"
+    }
+  ],
+  "maps": [
+    {
+      "type": "Related To",
+      "targetName": "Nerve sheath tumor, NOS",
+      "targetTermType": "PT",
+      "targetCode": "9563/0",
+      "targetTerminology": "ICDO3",
+      "targetTerminologyVersion": "3.2"
+    },
+    {
+      "type": "Has Synonym",
+      "targetName": "Nerve Sheath Tumors",
+      "targetTermType": "PT",
+      "targetCode": "disease_type",
+      "targetTerminology": "GDC"
+    }
+  ]
+}

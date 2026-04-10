@@ -1,0 +1,821 @@
+{
+  "code": "C34447",
+  "name": "Head and Neck Squamous Cell Carcinoma",
+  "terminology": "ncit",
+  "version": "25.11d",
+  "conceptStatus": "DEFAULT",
+  "leaf": false,
+  "active": true,
+  "synonyms": [
+    {
+      "name": "Head and Neck Squamous Cell Carcinoma",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "caDSR"
+    },
+    {
+      "name": "Head and Neck Squamous Cell Carcinoma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "Cellosaurus"
+    },
+    {
+      "name": "Head and neck squamous cell carcinoma, NOS",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "CTEP",
+      "code": "10060121",
+      "subSource": "SDC"
+    },
+    {
+      "name": "squamous cell carcinoma of the head and neck",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NCI-GLOSS",
+      "code": "CDR0000597171"
+    },
+    {
+      "name": "Head and Neck Squamous Cell Carcinoma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "HNSCC",
+      "termType": "AB",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "SCCHN",
+      "termType": "AB",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Squamous Cell Carcinoma of Head and Neck",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Squamous Cell Carcinoma of the Head and Neck",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Head and Neck Squamous Cell Carcinoma",
+      "type": "Preferred_Name"
+    }
+  ],
+  "definitions": [
+    {
+      "definition": "A squamous cell carcinoma that arises from any of the following anatomic sites: lip and oral cavity, nasal cavity, paranasal sinuses, pharynx, larynx, and salivary glands.",
+      "type": "DEFINITION",
+      "source": "NCI"
+    },
+    {
+      "definition": "Cancer of the head and neck that begins in squamous cells (thin, flat cells that form the surface of the skin, eyes, various internal organs, and the lining of hollow organs and ducts of some glands). Squamous cell carcinoma of the head and neck includes cancers of the nasal cavity, sinuses, lips, mouth, salivary glands, throat, and larynx (voice box). Most head and neck cancers are squamous cell carcinomas.",
+      "type": "ALT_DEFINITION",
+      "source": "NCI-GLOSS"
+    }
+  ],
+  "properties": [
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "Cellosaurus"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "CTEP"
+    },
+    {
+      "code": "P366",
+      "type": "Legacy Concept Name",
+      "value": "Head_and_Neck_Squamous_Cell_Carcinoma"
+    },
+    {
+      "code": "P363",
+      "type": "Neoplastic_Status",
+      "value": "Malignant"
+    },
+    {
+      "code": "P106",
+      "type": "Semantic_Type",
+      "value": "Neoplastic Process"
+    },
+    {
+      "code": "P207",
+      "type": "UMLS_CUI",
+      "value": "C1168401"
+    }
+  ],
+  "children": [
+    {
+      "code": "C162770",
+      "name": "ASPH-Positive Head and Neck Squamous Cell Carcinoma",
+      "leaf": true
+    },
+    {
+      "code": "C37290",
+      "name": "Head and Neck Basaloid Squamous Cell Carcinoma",
+      "leaf": false
+    },
+    {
+      "code": "C133252",
+      "name": "Head and Neck Cutaneous Squamous Cell Carcinoma",
+      "leaf": false
+    },
+    {
+      "code": "C54283",
+      "name": "Head and Neck Keratinizing Squamous Cell Carcinoma",
+      "leaf": false
+    },
+    {
+      "code": "C214954",
+      "name": "Head and Neck Mucosal Squamous Cell Carcinoma",
+      "leaf": false
+    },
+    {
+      "code": "C213320",
+      "name": "Head and Neck Non-Keratinizing Squamous Cell Carcinoma",
+      "leaf": false
+    },
+    {
+      "code": "C6092",
+      "name": "Lacrimal Drainage System Squamous Cell Carcinoma",
+      "leaf": false
+    },
+    {
+      "code": "C42690",
+      "name": "Lip and Oral Cavity Squamous Cell Carcinoma",
+      "leaf": false
+    },
+    {
+      "code": "C205621",
+      "name": "Localized Head and Neck Squamous Cell Carcinoma",
+      "leaf": false
+    },
+    {
+      "code": "C148153",
+      "name": "Metastatic Head and Neck Squamous Cell Carcinoma",
+      "leaf": false
+    },
+    {
+      "code": "C208484",
+      "name": "Orbital Squamous Cell Carcinoma",
+      "leaf": false
+    },
+    {
+      "code": "C133709",
+      "name": "Recurrent Head and Neck Squamous Cell Carcinoma",
+      "leaf": false
+    },
+    {
+      "code": "C148152",
+      "name": "Refractory Head and Neck Squamous Cell Carcinoma",
+      "leaf": false
+    },
+    {
+      "code": "C132012",
+      "name": "Resectable Head and Neck Squamous Cell Carcinoma",
+      "leaf": false
+    },
+    {
+      "code": "C7991",
+      "name": "Salivary Gland Squamous Cell Carcinoma",
+      "leaf": false
+    },
+    {
+      "code": "C136427",
+      "name": "Unresectable Head and Neck Squamous Cell Carcinoma",
+      "leaf": false
+    }
+  ],
+  "parents": [
+    {
+      "code": "C35850",
+      "name": "Head and Neck Carcinoma"
+    },
+    {
+      "code": "C2929",
+      "name": "Squamous Cell Carcinoma"
+    }
+  ],
+  "associations": [
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C165258",
+      "relatedName": "Cellosaurus Disease Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C103075",
+      "relatedName": "NCI CTEP SDC Head and Neck Squamous Cell Carcinoma Sub-Category Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C102905",
+      "relatedName": "NCI CTEP Simplified Disease Classification Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C126659",
+      "relatedName": "NCIt Neoplasm Core Terminology"
+    }
+  ],
+  "roles": [
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C36122",
+      "relatedName": "Benign Cellular Infiltrate"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C54172",
+      "relatedName": "Carcinomatous Component Present"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C12578",
+      "relatedName": "Epithelial Cell"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C53596",
+      "relatedName": "Epithelial Component Present"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C45714",
+      "relatedName": "Epithelial Tissue"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12418",
+      "relatedName": "Head and Neck"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12418",
+      "relatedName": "Head and Neck"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12917",
+      "relatedName": "Malignant Cell"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C36115",
+      "relatedName": "Malignant Cellular Infiltrate"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36779",
+      "relatedName": "Malignant Epithelial Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36771",
+      "relatedName": "Malignant Squamous Cell"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C37153",
+      "relatedName": "Malignant Stromal Cell"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C62273",
+      "relatedName": "Mixed Neoplastic Glandular and Squamous Cell Population"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12922",
+      "relatedName": "Neoplastic Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36753",
+      "relatedName": "Neoplastic Epithelial Cell"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C36763",
+      "relatedName": "Neoplastic Glandular Cell"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C36937",
+      "relatedName": "Neoplastic Smooth Muscle Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36760",
+      "relatedName": "Neoplastic Squamous Cell"
+    }
+  ],
+  "inverseRoles": [
+    {
+      "type": "Regimen_Has_Accepted_Use_For_Disease",
+      "relatedCode": "C63689",
+      "relatedName": "CABO Regimen"
+    },
+    {
+      "type": "Regimen_Has_Accepted_Use_For_Disease",
+      "relatedCode": "C150687",
+      "relatedName": "Carboplatin/Cetuximab Regimen"
+    },
+    {
+      "type": "Regimen_Has_Accepted_Use_For_Disease",
+      "relatedCode": "C150690",
+      "relatedName": "Carboplatin/Cetuximab/Docetaxel Regimen"
+    },
+    {
+      "type": "Regimen_Has_Accepted_Use_For_Disease",
+      "relatedCode": "C150686",
+      "relatedName": "Carboplatin/Cetuximab/Fluorouracil Regimen"
+    },
+    {
+      "type": "Regimen_Has_Accepted_Use_For_Disease",
+      "relatedCode": "C204397",
+      "relatedName": "Carboplatin/Docetaxel/Pembrolizumab Regimen"
+    },
+    {
+      "type": "Regimen_Has_Accepted_Use_For_Disease",
+      "relatedCode": "C160959",
+      "relatedName": "Carboplatin/Fluorouracil/Pembrolizumab Regimen"
+    },
+    {
+      "type": "Regimen_Has_Accepted_Use_For_Disease",
+      "relatedCode": "C63402",
+      "relatedName": "Carboplatin/Paclitaxel Regimen"
+    },
+    {
+      "type": "Regimen_Has_Accepted_Use_For_Disease",
+      "relatedCode": "C64791",
+      "relatedName": "Cetuximab/Cisplatin Regimen"
+    },
+    {
+      "type": "Regimen_Has_Accepted_Use_For_Disease",
+      "relatedCode": "C150707",
+      "relatedName": "Cetuximab/Cisplatin/Docetaxel Regimen"
+    },
+    {
+      "type": "Regimen_Has_Accepted_Use_For_Disease",
+      "relatedCode": "C150691",
+      "relatedName": "Cetuximab/Cisplatin/Fluorouracil Regimen"
+    },
+    {
+      "type": "Regimen_Has_Accepted_Use_For_Disease",
+      "relatedCode": "C63405",
+      "relatedName": "Cisplatin/Docetaxel Regimen"
+    },
+    {
+      "type": "Regimen_Has_Accepted_Use_For_Disease",
+      "relatedCode": "C204387",
+      "relatedName": "Cisplatin/Docetaxel/Pembrolizumab Regimen"
+    },
+    {
+      "type": "Regimen_Has_Accepted_Use_For_Disease",
+      "relatedCode": "C156353",
+      "relatedName": "Cisplatin/Fluorouracil Regimen"
+    },
+    {
+      "type": "Regimen_Has_Accepted_Use_For_Disease",
+      "relatedCode": "C160965",
+      "relatedName": "Cisplatin/Fluorouracil/Pembrolizumab Regimen"
+    },
+    {
+      "type": "Regimen_Has_Accepted_Use_For_Disease",
+      "relatedCode": "C63404",
+      "relatedName": "Cisplatin/Paclitaxel Regimen"
+    },
+    {
+      "type": "Regimen_Has_Accepted_Use_For_Disease",
+      "relatedCode": "C150693",
+      "relatedName": "Cisplatin/Paclitaxel/Cetuximab Regimen"
+    },
+    {
+      "type": "Gene_Associated_With_Disease",
+      "relatedCode": "C24511",
+      "relatedName": "ING1 Gene"
+    },
+    {
+      "type": "Gene_Associated_With_Disease",
+      "relatedCode": "C52083",
+      "relatedName": "ING1 wt Allele"
+    },
+    {
+      "type": "Gene_Associated_With_Disease",
+      "relatedCode": "C80740",
+      "relatedName": "MIR21 Gene"
+    },
+    {
+      "type": "Gene_Associated_With_Disease",
+      "relatedCode": "C81899",
+      "relatedName": "MIR21 wt Allele"
+    },
+    {
+      "type": "Gene_Associated_With_Disease",
+      "relatedCode": "C81768",
+      "relatedName": "MIR98 Gene"
+    },
+    {
+      "type": "Gene_Associated_With_Disease",
+      "relatedCode": "C82050",
+      "relatedName": "MIR98 wt Allele"
+    },
+    {
+      "type": "Regimen_Has_Accepted_Use_For_Disease",
+      "relatedCode": "C221311",
+      "relatedName": "Pembrolizumab Followed by Cisplatin/Pembrolizumab Followed by Pembrolizumab Regimen"
+    },
+    {
+      "type": "Regimen_Has_Accepted_Use_For_Disease",
+      "relatedCode": "C63682",
+      "relatedName": "PF Regimen"
+    },
+    {
+      "type": "Regimen_Has_Accepted_Use_For_Disease",
+      "relatedCode": "C63727",
+      "relatedName": "PFL Regimen"
+    },
+    {
+      "type": "Regimen_Has_Accepted_Use_For_Disease",
+      "relatedCode": "C63726",
+      "relatedName": "TIC Regimen"
+    },
+    {
+      "type": "Regimen_Has_Accepted_Use_For_Disease",
+      "relatedCode": "C63490",
+      "relatedName": "TIP Regimen"
+    },
+    {
+      "type": "Regimen_Has_Accepted_Use_For_Disease",
+      "relatedCode": "C63683",
+      "relatedName": "TPF Regimen"
+    }
+  ],
+  "history": [
+    {
+      "code": "C34447",
+      "action": "create",
+      "date": "2004-03-30"
+    },
+    {
+      "code": "C34447",
+      "action": "modify",
+      "date": "2006-03-31"
+    },
+    {
+      "code": "C34447",
+      "action": "modify",
+      "date": "2007-07-27"
+    },
+    {
+      "code": "C34447",
+      "action": "modify",
+      "date": "2009-04-06"
+    },
+    {
+      "code": "C34447",
+      "action": "modify",
+      "date": "2009-11-23"
+    },
+    {
+      "code": "C34447",
+      "action": "modify",
+      "date": "2010-11-01"
+    },
+    {
+      "code": "C34447",
+      "action": "modify",
+      "date": "2010-11-08"
+    },
+    {
+      "code": "C34447",
+      "action": "modify",
+      "date": "2010-11-15"
+    },
+    {
+      "code": "C34447",
+      "action": "modify",
+      "date": "2010-11-22"
+    },
+    {
+      "code": "C34447",
+      "action": "modify",
+      "date": "2010-11-29"
+    },
+    {
+      "code": "C34447",
+      "action": "modify",
+      "date": "2010-12-06"
+    },
+    {
+      "code": "C34447",
+      "action": "modify",
+      "date": "2010-12-13"
+    },
+    {
+      "code": "C34447",
+      "action": "modify",
+      "date": "2010-12-27"
+    },
+    {
+      "code": "C34447",
+      "action": "modify",
+      "date": "2011-01-03"
+    },
+    {
+      "code": "C34447",
+      "action": "modify",
+      "date": "2011-01-10"
+    },
+    {
+      "code": "C34447",
+      "action": "modify",
+      "date": "2011-01-17"
+    },
+    {
+      "code": "C34447",
+      "action": "modify",
+      "date": "2011-01-24"
+    },
+    {
+      "code": "C34447",
+      "action": "modify",
+      "date": "2011-01-31"
+    },
+    {
+      "code": "C34447",
+      "action": "modify",
+      "date": "2012-09-24"
+    },
+    {
+      "code": "C34447",
+      "action": "modify",
+      "date": "2012-10-01"
+    },
+    {
+      "code": "C34447",
+      "action": "modify",
+      "date": "2012-10-09"
+    },
+    {
+      "code": "C34447",
+      "action": "modify",
+      "date": "2012-10-15"
+    },
+    {
+      "code": "C34447",
+      "action": "modify",
+      "date": "2012-10-22"
+    },
+    {
+      "code": "C34447",
+      "action": "modify",
+      "date": "2012-10-31"
+    },
+    {
+      "code": "C34447",
+      "action": "modify",
+      "date": "2012-11-05"
+    },
+    {
+      "code": "C34447",
+      "action": "modify",
+      "date": "2012-11-13"
+    },
+    {
+      "code": "C34447",
+      "action": "modify",
+      "date": "2012-11-19"
+    },
+    {
+      "code": "C34447",
+      "action": "modify",
+      "date": "2012-11-26"
+    },
+    {
+      "code": "C34447",
+      "action": "modify",
+      "date": "2012-12-03"
+    },
+    {
+      "code": "C34447",
+      "action": "modify",
+      "date": "2012-12-10"
+    },
+    {
+      "code": "C34447",
+      "action": "modify",
+      "date": "2012-12-17"
+    },
+    {
+      "code": "C34447",
+      "action": "modify",
+      "date": "2012-12-28"
+    },
+    {
+      "code": "C34447",
+      "action": "modify",
+      "date": "2013-01-07"
+    },
+    {
+      "code": "C34447",
+      "action": "modify",
+      "date": "2013-01-14"
+    },
+    {
+      "code": "C34447",
+      "action": "modify",
+      "date": "2013-01-23"
+    },
+    {
+      "code": "C34447",
+      "action": "modify",
+      "date": "2013-02-04"
+    },
+    {
+      "code": "C34447",
+      "action": "modify",
+      "date": "2013-02-11"
+    },
+    {
+      "code": "C34447",
+      "action": "modify",
+      "date": "2013-02-19"
+    },
+    {
+      "code": "C34447",
+      "action": "modify",
+      "date": "2013-02-25"
+    },
+    {
+      "code": "C34447",
+      "action": "modify",
+      "date": "2013-03-04"
+    },
+    {
+      "code": "C34447",
+      "action": "modify",
+      "date": "2013-03-11"
+    },
+    {
+      "code": "C34447",
+      "action": "modify",
+      "date": "2013-03-18"
+    },
+    {
+      "code": "C34447",
+      "action": "modify",
+      "date": "2013-03-25"
+    },
+    {
+      "code": "C34447",
+      "action": "modify",
+      "date": "2013-04-01"
+    },
+    {
+      "code": "C34447",
+      "action": "modify",
+      "date": "2013-04-08"
+    },
+    {
+      "code": "C34447",
+      "action": "modify",
+      "date": "2013-04-15"
+    },
+    {
+      "code": "C34447",
+      "action": "modify",
+      "date": "2013-04-22"
+    },
+    {
+      "code": "C34447",
+      "action": "modify",
+      "date": "2013-04-29"
+    },
+    {
+      "code": "C34447",
+      "action": "modify",
+      "date": "2013-05-06"
+    },
+    {
+      "code": "C34447",
+      "action": "modify",
+      "date": "2013-05-13"
+    },
+    {
+      "code": "C34447",
+      "action": "modify",
+      "date": "2013-05-20"
+    },
+    {
+      "code": "C34447",
+      "action": "modify",
+      "date": "2013-05-28"
+    },
+    {
+      "code": "C34447",
+      "action": "modify",
+      "date": "2013-06-03"
+    },
+    {
+      "code": "C34447",
+      "action": "modify",
+      "date": "2013-06-10"
+    },
+    {
+      "code": "C34447",
+      "action": "modify",
+      "date": "2013-06-17"
+    },
+    {
+      "code": "C34447",
+      "action": "modify",
+      "date": "2013-06-24"
+    },
+    {
+      "code": "C34447",
+      "action": "modify",
+      "date": "2013-07-01"
+    },
+    {
+      "code": "C34447",
+      "action": "modify",
+      "date": "2013-07-08"
+    },
+    {
+      "code": "C34447",
+      "action": "modify",
+      "date": "2016-04-25"
+    },
+    {
+      "code": "C34447",
+      "action": "modify",
+      "date": "2018-10-29"
+    },
+    {
+      "code": "C34447",
+      "action": "modify",
+      "date": "2018-10-29"
+    },
+    {
+      "code": "C34447",
+      "action": "modify",
+      "date": "2018-11-26"
+    },
+    {
+      "code": "C34447",
+      "action": "modify",
+      "date": "2019-03-25"
+    },
+    {
+      "code": "C34447",
+      "action": "modify",
+      "date": "2019-05-28"
+    },
+    {
+      "code": "C34447",
+      "action": "modify",
+      "date": "2019-10-28"
+    },
+    {
+      "code": "C34447",
+      "action": "modify",
+      "date": "2020-08-31"
+    },
+    {
+      "code": "C34447",
+      "action": "modify",
+      "date": "2020-09-29"
+    },
+    {
+      "code": "C34447",
+      "action": "modify",
+      "date": "2023-02-27"
+    },
+    {
+      "code": "C34447",
+      "action": "modify",
+      "date": "2023-12-26"
+    },
+    {
+      "code": "C34447",
+      "action": "modify",
+      "date": "2025-02-24"
+    },
+    {
+      "code": "C34447",
+      "action": "modify",
+      "date": "2025-03-31"
+    }
+  ]
+}

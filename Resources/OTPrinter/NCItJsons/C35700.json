@@ -1,0 +1,245 @@
+{
+  "code": "C35700",
+  "name": "Salivary Gland Myoepithelial Carcinoma",
+  "terminology": "ncit",
+  "version": "25.11d",
+  "conceptStatus": "DEFAULT",
+  "leaf": true,
+  "active": true,
+  "synonyms": [
+    {
+      "name": "Salivary Gland Myoepithelial Carcinoma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Salivary Gland Myoepithelial Carcinoma",
+      "type": "Preferred_Name"
+    }
+  ],
+  "definitions": [
+    {
+      "definition": "A locally aggressive carcinoma that arises from the salivary glands, predominantly the parotid gland. It is characterized by the presence of a malignant cellular infiltrate exhibiting myoepithelial differentiation. Patients usually present with a painless mass.",
+      "type": "DEFINITION",
+      "source": "NCI"
+    }
+  ],
+  "properties": [
+    {
+      "code": "P366",
+      "type": "Legacy Concept Name",
+      "value": "Salivary_Gland_Myoepithelial_Carcinoma"
+    },
+    {
+      "code": "P363",
+      "type": "Neoplastic_Status",
+      "value": "Malignant"
+    },
+    {
+      "code": "P106",
+      "type": "Semantic_Type",
+      "value": "Neoplastic Process"
+    },
+    {
+      "code": "P207",
+      "type": "UMLS_CUI",
+      "value": "C1335904"
+    }
+  ],
+  "parents": [
+    {
+      "code": "C7596",
+      "name": "Malignant Myoepithelioma"
+    },
+    {
+      "code": "C9272",
+      "name": "Salivary Gland Carcinoma"
+    },
+    {
+      "code": "C40393",
+      "name": "Salivary Gland Myoepithelial Tumor"
+    }
+  ],
+  "associations": [
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C126659",
+      "relatedName": "NCIt Neoplasm Core Terminology"
+    }
+  ],
+  "roles": [
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C36122",
+      "relatedName": "Benign Cellular Infiltrate"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C54172",
+      "relatedName": "Carcinomatous Component Present"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12964",
+      "relatedName": "Connective and Soft Tissue"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C12578",
+      "relatedName": "Epithelial Cell"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C53596",
+      "relatedName": "Epithelial Component Present"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C45714",
+      "relatedName": "Epithelial Tissue"
+    },
+    {
+      "type": "Disease_May_Have_Cytogenetic_Abnormality",
+      "relatedCode": "C165667",
+      "relatedName": "EWSR1 Gene Rearrangement"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12418",
+      "relatedName": "Head and Neck"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12418",
+      "relatedName": "Head and Neck"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C35891",
+      "relatedName": "Lobulated Growth Pattern"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12917",
+      "relatedName": "Malignant Cell"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C36115",
+      "relatedName": "Malignant Cellular Infiltrate"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36779",
+      "relatedName": "Malignant Epithelial Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36780",
+      "relatedName": "Malignant Myoepithelial Cell"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C37153",
+      "relatedName": "Malignant Stromal Cell"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C33152",
+      "relatedName": "Myoepithelial Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12922",
+      "relatedName": "Neoplastic Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36753",
+      "relatedName": "Neoplastic Epithelial Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36770",
+      "relatedName": "Neoplastic Myoepithelial Cell"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C36937",
+      "relatedName": "Neoplastic Smooth Muscle Cell"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C48898",
+      "relatedName": "Painless Mass"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C42094",
+      "relatedName": "Rare Lesion"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12426",
+      "relatedName": "Salivary Gland"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12426",
+      "relatedName": "Salivary Gland"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12471",
+      "relatedName": "Soft Tissue"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12471",
+      "relatedName": "Soft Tissue"
+    }
+  ],
+  "history": [
+    {
+      "code": "C35700",
+      "action": "create",
+      "date": "2004-03-30"
+    },
+    {
+      "code": "C35700",
+      "action": "modify",
+      "date": "2004-09-10"
+    },
+    {
+      "code": "C35700",
+      "action": "modify",
+      "date": "2006-09-01"
+    },
+    {
+      "code": "C35700",
+      "action": "modify",
+      "date": "2009-04-06"
+    },
+    {
+      "code": "C35700",
+      "action": "modify",
+      "date": "2009-11-23"
+    },
+    {
+      "code": "C35700",
+      "action": "modify",
+      "date": "2013-09-16"
+    },
+    {
+      "code": "C35700",
+      "action": "modify",
+      "date": "2016-04-25"
+    },
+    {
+      "code": "C35700",
+      "action": "modify",
+      "date": "2020-10-26"
+    }
+  ]
+}

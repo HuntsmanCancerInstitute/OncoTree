@@ -1,0 +1,138 @@
+{
+  "code": "C36051",
+  "name": "Undifferentiated Malignant Neoplasm",
+  "terminology": "ncit",
+  "version": "25.11d",
+  "conceptStatus": "DEFAULT",
+  "leaf": true,
+  "active": true,
+  "synonyms": [
+    {
+      "name": "Undifferentiated Malignant Neoplasm",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "CPTAC"
+    },
+    {
+      "name": "Undifferentiated Malignant Neoplasm",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Undifferentiated Malignant Neoplasm",
+      "type": "Preferred_Name"
+    }
+  ],
+  "definitions": [
+    {
+      "definition": "A neoplasm that has minimal to no differentiating features.",
+      "type": "DEFINITION",
+      "source": "NCI"
+    }
+  ],
+  "properties": [
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "CPTAC"
+    },
+    {
+      "code": "P366",
+      "type": "Legacy Concept Name",
+      "value": "Undifferentiated_Malignant_Neoplasm"
+    },
+    {
+      "code": "P363",
+      "type": "Neoplastic_Status",
+      "value": "Malignant"
+    },
+    {
+      "code": "P106",
+      "type": "Semantic_Type",
+      "value": "Neoplastic Process"
+    },
+    {
+      "code": "P207",
+      "type": "UMLS_CUI",
+      "value": "C1336860"
+    }
+  ],
+  "parents": [
+    {
+      "code": "C9305",
+      "name": "Malignant Neoplasm"
+    }
+  ],
+  "associations": [
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C158520",
+      "relatedName": "CPTAC Codelists Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C156966",
+      "relatedName": "CPTAC Neoplasms Codelist"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C156952",
+      "relatedName": "CPTAC Terminology"
+    }
+  ],
+  "roles": [
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C36122",
+      "relatedName": "Benign Cellular Infiltrate"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12917",
+      "relatedName": "Malignant Cell"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C36115",
+      "relatedName": "Malignant Cellular Infiltrate"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12922",
+      "relatedName": "Neoplastic Cell"
+    }
+  ],
+  "history": [
+    {
+      "code": "C36051",
+      "action": "create",
+      "date": "2004-03-30"
+    },
+    {
+      "code": "C36051",
+      "action": "modify",
+      "date": "2009-11-23"
+    },
+    {
+      "code": "C36051",
+      "action": "modify",
+      "date": "2010-01-11"
+    },
+    {
+      "code": "C36051",
+      "action": "modify",
+      "date": "2018-12-31"
+    },
+    {
+      "code": "C36051",
+      "action": "modify",
+      "date": "2019-03-25"
+    },
+    {
+      "code": "C36051",
+      "action": "modify",
+      "date": "2019-05-28"
+    }
+  ]
+}

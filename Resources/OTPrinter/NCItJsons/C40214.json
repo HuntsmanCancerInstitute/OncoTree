@@ -1,0 +1,389 @@
+{
+  "code": "C40214",
+  "name": "Cervical Large Cell Neuroendocrine Carcinoma",
+  "terminology": "ncit",
+  "version": "25.11d",
+  "conceptStatus": "DEFAULT",
+  "leaf": true,
+  "active": true,
+  "synonyms": [
+    {
+      "name": "Cervical Large Cell Neuroendocrine Carcinoma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Cervical Large Cell Neuroendocrine Carcinoma",
+      "type": "Preferred_Name"
+    }
+  ],
+  "definitions": [
+    {
+      "definition": "A rare aggressive neuroendocrine carcinoma that arises from the cervix and is characterized by the presence of malignant cells with abundant cytoplasm, large nuclei, and prominent nucleoli.",
+      "type": "DEFINITION",
+      "source": "NCI"
+    }
+  ],
+  "properties": [
+    {
+      "code": "P366",
+      "type": "Legacy Concept Name",
+      "value": "Cervical_Large_Cell_Neuroendocrine_Carcinoma"
+    },
+    {
+      "code": "P363",
+      "type": "Neoplastic_Status",
+      "value": "Malignant"
+    },
+    {
+      "code": "P106",
+      "type": "Semantic_Type",
+      "value": "Neoplastic Process"
+    },
+    {
+      "code": "P207",
+      "type": "UMLS_CUI",
+      "value": "C1516417"
+    }
+  ],
+  "parents": [
+    {
+      "code": "C128045",
+      "name": "Cervical Neuroendocrine Carcinoma"
+    },
+    {
+      "code": "C215422",
+      "name": "Female Reproductive System Large Cell Neuroendocrine Carcinoma"
+    }
+  ],
+  "roles": [
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C36104",
+      "relatedName": "Aggressive Clinical Course"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C36122",
+      "relatedName": "Benign Cellular Infiltrate"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C54172",
+      "relatedName": "Carcinomatous Component Present"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C49218",
+      "relatedName": "Cervix Epithelium"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12311",
+      "relatedName": "Cervix Uteri"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12311",
+      "relatedName": "Cervix Uteri"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C32506",
+      "relatedName": "Endocrine Cell"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C188014",
+      "relatedName": "Endocrine Differentiation"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12704",
+      "relatedName": "Endocrine Gland"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12704",
+      "relatedName": "Endocrine Gland"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12705",
+      "relatedName": "Endocrine System"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12705",
+      "relatedName": "Endocrine System"
+    },
+    {
+      "type": "Disease_Excludes_Normal_Cell_Origin",
+      "relatedCode": "C12865",
+      "relatedName": "Endothelial Cell"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C12578",
+      "relatedName": "Epithelial Cell"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C53596",
+      "relatedName": "Epithelial Component Present"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C45714",
+      "relatedName": "Epithelial Tissue"
+    },
+    {
+      "type": "Disease_May_Have_Molecular_Abnormality",
+      "relatedCode": "C36638",
+      "relatedName": "ERBB2 Gene Amplification"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C207031",
+      "relatedName": "Expression of Neuroendocrine Markers Present"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12402",
+      "relatedName": "Female Reproductive System"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12402",
+      "relatedName": "Female Reproductive System"
+    },
+    {
+      "type": "Disease_Mapped_To_Gene",
+      "relatedCode": "C18524",
+      "relatedName": "FHIT Gene"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12810",
+      "relatedName": "Genitourinary System"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12810",
+      "relatedName": "Genitourinary System"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C35960",
+      "relatedName": "High Mitotic Activity"
+    },
+    {
+      "type": "Disease_May_Have_Molecular_Abnormality",
+      "relatedCode": "C36704",
+      "relatedName": "Inactivating FHIT Gene Mutation"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C36818",
+      "relatedName": "Large Osteoclastic Giant Cell"
+    },
+    {
+      "type": "Disease_Excludes_Primary_Anatomic_Site",
+      "relatedCode": "C12468",
+      "relatedName": "Lung"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12917",
+      "relatedName": "Malignant Cell"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C36115",
+      "relatedName": "Malignant Cellular Infiltrate"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36929",
+      "relatedName": "Malignant Endocrine Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36779",
+      "relatedName": "Malignant Epithelial Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36822",
+      "relatedName": "Malignant Epithelial Large Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36825",
+      "relatedName": "Malignant Neuroendocrine Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36821",
+      "relatedName": "Malignant Neuroendocrine Large Cell"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C36820",
+      "relatedName": "Malignant Neuroendocrine Small Cell"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C36771",
+      "relatedName": "Malignant Squamous Cell"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C37153",
+      "relatedName": "Malignant Stromal Cell"
+    },
+    {
+      "type": "Disease_May_Have_Molecular_Abnormality",
+      "relatedCode": "C36641",
+      "relatedName": "MYC Gene Amplification"
+    },
+    {
+      "type": "Disease_Mapped_To_Gene",
+      "relatedCode": "C16887",
+      "relatedName": "MYC Gene"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C36184",
+      "relatedName": "Necrotic Change"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12922",
+      "relatedName": "Neoplastic Cell"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C37088",
+      "relatedName": "Neoplastic Endothelial Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36753",
+      "relatedName": "Neoplastic Epithelial Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36761",
+      "relatedName": "Neoplastic Neuroendocrine Cell"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C36937",
+      "relatedName": "Neoplastic Smooth Muscle Cell"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C43574",
+      "relatedName": "Neuroendocrine Differentiation"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C60707",
+      "relatedName": "Neuron-Specific Enolase Positive Neoplastic Cells Present"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C36792",
+      "relatedName": "Non-Keratinizing Malignant Squamous Cell"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C155863",
+      "relatedName": "Poorly Differentiated Neuroendocrine Lesion"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12841",
+      "relatedName": "Reproductive System"
+    },
+    {
+      "type": "Disease_May_Have_Molecular_Abnormality",
+      "relatedCode": "C36329",
+      "relatedName": "TP53 Gene Inactivation"
+    },
+    {
+      "type": "Disease_Mapped_To_Gene",
+      "relatedCode": "C17359",
+      "relatedName": "TP53 Gene"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12405",
+      "relatedName": "Uterus"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C155861",
+      "relatedName": "Well Differentiated Neuroendocrine Lesion"
+    }
+  ],
+  "history": [
+    {
+      "code": "C40214",
+      "action": "create",
+      "date": "2004-08-02"
+    },
+    {
+      "code": "C40214",
+      "action": "modify",
+      "date": "2006-05-26"
+    },
+    {
+      "code": "C40214",
+      "action": "modify",
+      "date": "2009-04-06"
+    },
+    {
+      "code": "C40214",
+      "action": "modify",
+      "date": "2009-10-27"
+    },
+    {
+      "code": "C40214",
+      "action": "modify",
+      "date": "2009-11-23"
+    },
+    {
+      "code": "C40214",
+      "action": "modify",
+      "date": "2012-08-13"
+    },
+    {
+      "code": "C40214",
+      "action": "modify",
+      "date": "2014-02-03"
+    },
+    {
+      "code": "C40214",
+      "action": "modify",
+      "date": "2016-06-27"
+    },
+    {
+      "code": "C40214",
+      "action": "modify",
+      "date": "2023-01-31"
+    },
+    {
+      "code": "C40214",
+      "action": "modify",
+      "date": "2024-10-28"
+    },
+    {
+      "code": "C40214",
+      "action": "modify",
+      "date": "2025-04-28"
+    }
+  ]
+}

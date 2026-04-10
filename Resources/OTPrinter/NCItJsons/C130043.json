@@ -1,0 +1,471 @@
+{
+  "code": "C130043",
+  "name": "Early T Precursor Acute Lymphoblastic Leukemia",
+  "terminology": "ncit",
+  "version": "25.11d",
+  "conceptStatus": "DEFAULT",
+  "leaf": false,
+  "active": true,
+  "synonyms": [
+    {
+      "name": "Early T Acute Lymphoblastic Leukemia",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "Cellosaurus"
+    },
+    {
+      "name": "Early T Acute Lymphoblastic Leukemia",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Early T Precursor Acute Lymphoblastic Leukemia",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Early T-Acute Lymphoblastic Leukemia",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Early T-Cell Precursor Acute Lymphoblastic Leukemia",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Early T-Cell Precursor Lymphoblastic Leukemia",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Early T-Precursor Acute Lymphoblastic Leukemia",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "ETP ALL",
+      "termType": "AB",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "ETP-ALL",
+      "termType": "AB",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Early T Precursor Acute Lymphoblastic Leukemia",
+      "type": "Preferred_Name"
+    }
+  ],
+  "definitions": [
+    {
+      "definition": "T acute lymphoblastic leukemia in which the blasts have unique immunophenotypic and genetic characteristics suggesting only limited early T-cell differentiation.",
+      "type": "DEFINITION",
+      "source": "NCI"
+    }
+  ],
+  "properties": [
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "Cellosaurus"
+    },
+    {
+      "code": "P208",
+      "type": "NCI_META_CUI",
+      "value": "CL514044"
+    },
+    {
+      "code": "P363",
+      "type": "Neoplastic_Status",
+      "value": "Malignant"
+    },
+    {
+      "code": "P106",
+      "type": "Semantic_Type",
+      "value": "Neoplastic Process"
+    }
+  ],
+  "children": [
+    {
+      "code": "C199171",
+      "name": "Early T Precursor Acute Lymphoblastic Leukemia with BCL11B Rearrangement",
+      "leaf": true
+    },
+    {
+      "code": "C199172",
+      "name": "Early T Precursor Acute Lymphoblastic Leukemia, Not Otherwise Specified",
+      "leaf": true
+    }
+  ],
+  "parents": [
+    {
+      "code": "C199170",
+      "name": "Early T Precursor Lymphoblastic Leukemia/Lymphoma"
+    },
+    {
+      "code": "C3183",
+      "name": "T Acute Lymphoblastic Leukemia"
+    }
+  ],
+  "associations": [
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C165258",
+      "relatedName": "Cellosaurus Disease Terminology"
+    }
+  ],
+  "roles": [
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36725",
+      "relatedName": "Abnormal Lymphocyte"
+    },
+    {
+      "type": "Disease_May_Have_Molecular_Abnormality",
+      "relatedCode": "C150623",
+      "relatedName": "Activating FLT3 Gene Mutation"
+    },
+    {
+      "type": "Disease_May_Have_Associated_Disease",
+      "relatedCode": "C2869",
+      "relatedName": "Anemia"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C36122",
+      "relatedName": "Benign Cellular Infiltrate"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12431",
+      "relatedName": "Bone Marrow"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C36158",
+      "relatedName": "Chronic Clinical Course"
+    },
+    {
+      "type": "Disease_May_Have_Molecular_Abnormality",
+      "relatedCode": "C36447",
+      "relatedName": "Clonal T-Cell Receptor Beta Chain Gene Rearrangement"
+    },
+    {
+      "type": "Disease_May_Have_Molecular_Abnormality",
+      "relatedCode": "C36448",
+      "relatedName": "Clonal T-Cell Receptor Gamma Chain Gene Rearrangement"
+    },
+    {
+      "type": "Disease_May_Have_Cytogenetic_Abnormality",
+      "relatedCode": "C36604",
+      "relatedName": "del(9p21-p22)"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C38643",
+      "relatedName": "Extensive Bone Marrow and Blood Involvement"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C41165",
+      "relatedName": "Hematopoietic and Lymphatic System"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C41165",
+      "relatedName": "Hematopoietic and Lymphatic System"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C32725",
+      "relatedName": "Hematopoietic and Lymphoid Cell"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C41168",
+      "relatedName": "Hematopoietic and Lymphoid Tissue"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C3100",
+      "relatedName": "Hepatomegaly"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C35960",
+      "relatedName": "High Mitotic Activity"
+    },
+    {
+      "type": "Disease_May_Have_Cytogenetic_Abnormality",
+      "relatedCode": "C36602",
+      "relatedName": "inv(14)(q11;q32.1)"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C25553",
+      "relatedName": "Leukemic Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C41073",
+      "relatedName": "Leukemic Lymphocyte"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C41071",
+      "relatedName": "Leukemic Plasma Cell"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C130044",
+      "relatedName": "Limited Early T-Cell Differentiation"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C50764",
+      "relatedName": "Lymphadenopathy"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12746",
+      "relatedName": "Lymphatic System"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C13013",
+      "relatedName": "Lymphoblast"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C12535",
+      "relatedName": "Lymphocyte"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C13049",
+      "relatedName": "Lymphoid Tissue"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12917",
+      "relatedName": "Malignant Cell"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C36115",
+      "relatedName": "Malignant Cellular Infiltrate"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C9432",
+      "relatedName": "Malignant Pleural Effusion"
+    },
+    {
+      "type": "Disease_Excludes_Normal_Cell_Origin",
+      "relatedCode": "C12549",
+      "relatedName": "Myeloid Cell"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C38640",
+      "relatedName": "Neoplastic B-Lymphocyte"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12922",
+      "relatedName": "Neoplastic Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C37060",
+      "relatedName": "Neoplastic Hematopoietic and Lymphoid Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12914",
+      "relatedName": "Neoplastic Lymphoblast"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36988",
+      "relatedName": "Neoplastic Lymphocyte"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C37071",
+      "relatedName": "Neoplastic T-Lymphoblast"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C39566",
+      "relatedName": "Neoplastic T-Lymphocyte and Neoplastic Natural Killer Cell"
+    },
+    {
+      "type": "Disease_May_Have_Molecular_Abnormality",
+      "relatedCode": "C45403",
+      "relatedName": "NOTCH1 Gene Mutation"
+    },
+    {
+      "type": "Disease_Mapped_To_Gene",
+      "relatedCode": "C24636",
+      "relatedName": "NOTCH1 Gene"
+    },
+    {
+      "type": "Disease_Excludes_Normal_Cell_Origin",
+      "relatedCode": "C38434",
+      "relatedName": "Peripheral (Post-Thymic) T-Lymphocyte"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C33930",
+      "relatedName": "Precursor T-Lymphoblast"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C36182",
+      "relatedName": "Solid Growth Pattern"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C3384",
+      "relatedName": "Splenomegaly"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C36024",
+      "relatedName": "Starry Sky Pattern"
+    },
+    {
+      "type": "Disease_May_Have_Cytogenetic_Abnormality",
+      "relatedCode": "C36352",
+      "relatedName": "t(10;14)(q24;q11)"
+    },
+    {
+      "type": "Disease_May_Have_Cytogenetic_Abnormality",
+      "relatedCode": "C36351",
+      "relatedName": "t(11;14)(p13;q11)"
+    },
+    {
+      "type": "Disease_May_Have_Cytogenetic_Abnormality",
+      "relatedCode": "C36350",
+      "relatedName": "t(11;14)(p15;q11)"
+    },
+    {
+      "type": "Disease_May_Have_Cytogenetic_Abnormality",
+      "relatedCode": "C36356",
+      "relatedName": "t(14;14)(q11;q32)"
+    },
+    {
+      "type": "Disease_May_Have_Cytogenetic_Abnormality",
+      "relatedCode": "C36348",
+      "relatedName": "t(1;14)(p32;q11)"
+    },
+    {
+      "type": "Disease_May_Have_Cytogenetic_Abnormality",
+      "relatedCode": "C36359",
+      "relatedName": "t(1;7)(p33;q35)"
+    },
+    {
+      "type": "Disease_May_Have_Cytogenetic_Abnormality",
+      "relatedCode": "C36353",
+      "relatedName": "t(7;10)(q34;q24)"
+    },
+    {
+      "type": "Disease_May_Have_Cytogenetic_Abnormality",
+      "relatedCode": "C36519",
+      "relatedName": "t(7;14)(q35;q32.1)"
+    },
+    {
+      "type": "Disease_May_Have_Cytogenetic_Abnormality",
+      "relatedCode": "C36518",
+      "relatedName": "t(7;19)(q34;q13)"
+    },
+    {
+      "type": "Disease_May_Have_Cytogenetic_Abnormality",
+      "relatedCode": "C36603",
+      "relatedName": "t(7;9)(q34;q32)"
+    },
+    {
+      "type": "Disease_May_Have_Cytogenetic_Abnormality",
+      "relatedCode": "C36349",
+      "relatedName": "t(7;9)(q34;q34.3)"
+    },
+    {
+      "type": "Disease_May_Have_Cytogenetic_Abnormality",
+      "relatedCode": "C36400",
+      "relatedName": "t(8;13)(p11;q11)"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C39567",
+      "relatedName": "T-Lymphocyte and Natural Killer Cell"
+    }
+  ],
+  "history": [
+    {
+      "code": "C130043",
+      "action": "create",
+      "date": "2016-12-05"
+    },
+    {
+      "code": "C130043",
+      "action": "modify",
+      "date": "2017-08-28"
+    },
+    {
+      "code": "C130043",
+      "action": "modify",
+      "date": "2019-06-24"
+    },
+    {
+      "code": "C130043",
+      "action": "modify",
+      "date": "2022-03-28"
+    },
+    {
+      "code": "C130043",
+      "action": "modify",
+      "date": "2022-05-31"
+    },
+    {
+      "code": "C130043",
+      "action": "modify",
+      "date": "2023-02-27"
+    },
+    {
+      "code": "C130043",
+      "action": "modify",
+      "date": "2023-04-24"
+    },
+    {
+      "code": "C130043",
+      "action": "modify",
+      "date": "2023-05-30"
+    },
+    {
+      "code": "C130043",
+      "action": "modify",
+      "date": "2023-08-28"
+    },
+    {
+      "code": "C130043",
+      "action": "modify",
+      "date": "2024-01-29"
+    },
+    {
+      "code": "C130043",
+      "action": "modify",
+      "date": "2025-03-31"
+    }
+  ]
+}

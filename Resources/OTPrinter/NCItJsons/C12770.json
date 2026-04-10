@@ -1,0 +1,1643 @@
+{
+  "code": "C12770",
+  "name": "Peritoneum",
+  "terminology": "ncit",
+  "version": "25.11d",
+  "conceptStatus": "DEFAULT",
+  "leaf": false,
+  "active": true,
+  "synonyms": [
+    {
+      "name": "Peritoneum",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "caDSR"
+    },
+    {
+      "name": "PERITONEUM",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "CDISC"
+    },
+    {
+      "name": "Human Peritoneal Membrane",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "FDA",
+      "subSource": "SPL"
+    },
+    {
+      "name": "Peritoneum",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "GDC"
+    },
+    {
+      "name": "Peritoneum, NOS",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "GDC"
+    },
+    {
+      "name": "peritoneum",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NCI-GLOSS",
+      "code": "CDR0000045829"
+    },
+    {
+      "name": "Peritoneum",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Peritoneum",
+      "type": "Display_Name"
+    },
+    {
+      "name": "Peritoneum",
+      "type": "Preferred_Name"
+    },
+    {
+      "name": "Peritoneum",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "PCDC",
+      "subSource": "OS"
+    },
+    {
+      "name": "Peritoneum",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "PCDC",
+      "subSource": "GCT"
+    },
+    {
+      "name": "peritoneum",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "UBERON"
+    }
+  ],
+  "definitions": [
+    {
+      "definition": "A serous membrane that lines the peritoneal cavity.",
+      "type": "ALT_DEFINITION",
+      "source": "UBERON"
+    },
+    {
+      "definition": "The membrane that lines the abdominal and pelvic cavities.",
+      "type": "ALT_DEFINITION",
+      "source": "CDISC"
+    },
+    {
+      "definition": "The tissue that lines the abdominal wall and covers most of the organs in the abdomen.",
+      "type": "ALT_DEFINITION",
+      "source": "NCI-GLOSS"
+    },
+    {
+      "definition": "The tissue that lines the wall of the abdominal cavity, intestine, mesentery, and pelvic organs. It consists of the parietal peritoneum and the visceral peritoneum.",
+      "type": "DEFINITION",
+      "source": "NCI"
+    }
+  ],
+  "properties": [
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "CDISC"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "FDA"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "GDC"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "PCDC"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "UBERON"
+    },
+    {
+      "code": "P366",
+      "type": "Legacy Concept Name",
+      "value": "Peritoneum"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "Peritoneum"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "Peritoneum, NOS"
+    },
+    {
+      "code": "P106",
+      "type": "Semantic_Type",
+      "value": "Tissue"
+    },
+    {
+      "code": "P207",
+      "type": "UMLS_CUI",
+      "value": "C0031153"
+    },
+    {
+      "code": "oboInOwl:hasDbXref",
+      "type": "xRef",
+      "value": "UBERON:0002358"
+    }
+  ],
+  "children": [
+    {
+      "code": "C159355",
+      "name": "Abdominal Peritoneum",
+      "leaf": true
+    },
+    {
+      "code": "C159344",
+      "name": "Pelvic Peritoneum",
+      "leaf": true
+    }
+  ],
+  "parents": [
+    {
+      "code": "C12749",
+      "name": "Membrane"
+    }
+  ],
+  "associations": [
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C74456",
+      "relatedName": "CDISC SDTM Anatomical Location Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C66830",
+      "relatedName": "CDISC SDTM Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C77529",
+      "relatedName": "CDISC SEND Biospecimens Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C77526",
+      "relatedName": "CDISC SEND Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C61410",
+      "relatedName": "Clinical Data Interchange Standards Consortium Terminology"
+    },
+    {
+      "type": "Is_Value_For_GDC_Property",
+      "relatedCode": "C173263",
+      "relatedName": "Disease Involvement Site"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C54452",
+      "relatedName": "FDA Structured Product Labeling Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C177383",
+      "relatedName": "GCT Authorized Value Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C177394",
+      "relatedName": "GCT Tumor Assessment Table"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C157711",
+      "relatedName": "GDC Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C177537",
+      "relatedName": "GDC Value Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168655",
+      "relatedName": "Mapped ICDO3.1 Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168660",
+      "relatedName": "Mapped ICDO3.1 Topography PT Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168659",
+      "relatedName": "Mapped ICDO3.1 Topography Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168656",
+      "relatedName": "Mapped ICDO3.2 Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168664",
+      "relatedName": "Mapped ICDO3.2 Topography PT Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168663",
+      "relatedName": "Mapped ICDO3.2 Topography Terminology"
+    },
+    {
+      "type": "Is_PCDC_GCT_Authorized_Value_For_Variable",
+      "relatedCode": "C177358",
+      "relatedName": "Nodal Site"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C179478",
+      "relatedName": "OS Authorized Value Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C179482",
+      "relatedName": "OS Biopsy/Surgical Procedures Table"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C179483",
+      "relatedName": "OS Radiation Therapy Table"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C179481",
+      "relatedName": "OS Tumor Assessment Table"
+    },
+    {
+      "type": "Is_Value_For_GDC_Property",
+      "relatedCode": "C177570",
+      "relatedName": "Progressive or Recurrent Disease Anatomic Site"
+    },
+    {
+      "type": "Is_Value_For_GDC_Property",
+      "relatedCode": "C156421",
+      "relatedName": "Site of Resection or Biopsy"
+    },
+    {
+      "type": "Is_PCDC_GCT_Authorized_Value_For_Variable",
+      "relatedCode": "C157120",
+      "relatedName": "Site of Tumor"
+    },
+    {
+      "type": "Is_Value_For_GDC_Property",
+      "relatedCode": "C171435",
+      "relatedName": "Specimen Anatomic Site"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C133250",
+      "relatedName": "SPL Tissue Form Product Type Terminology"
+    },
+    {
+      "type": "Is_Value_For_GDC_Property",
+      "relatedCode": "C70729",
+      "relatedName": "Targeted Anatomic Site"
+    },
+    {
+      "type": "Is_Value_For_GDC_Property",
+      "relatedCode": "C156422",
+      "relatedName": "Tissue or Organ of Origin"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C198975",
+      "relatedName": "UBERON Terminology"
+    }
+  ],
+  "inverseAssociations": [
+    {
+      "type": "Has_GDC_Value",
+      "relatedCode": "C173263",
+      "relatedName": "Disease Involvement Site"
+    },
+    {
+      "type": "Has_PCDC_GCT_Authorized_Value",
+      "relatedCode": "C177358",
+      "relatedName": "Nodal Site"
+    },
+    {
+      "type": "Has_GDC_Value",
+      "relatedCode": "C177570",
+      "relatedName": "Progressive or Recurrent Disease Anatomic Site"
+    },
+    {
+      "type": "Has_PCDC_OS_Authorized_Value",
+      "relatedCode": "C173281",
+      "relatedName": "Site of Radiation Therapy"
+    },
+    {
+      "type": "Has_GDC_Value",
+      "relatedCode": "C156421",
+      "relatedName": "Site of Resection or Biopsy"
+    },
+    {
+      "type": "Has_PCDC_GCT_Authorized_Value",
+      "relatedCode": "C157120",
+      "relatedName": "Site of Tumor"
+    },
+    {
+      "type": "Has_PCDC_OS_Authorized_Value",
+      "relatedCode": "C157120",
+      "relatedName": "Site of Tumor"
+    },
+    {
+      "type": "Has_GDC_Value",
+      "relatedCode": "C171435",
+      "relatedName": "Specimen Anatomic Site"
+    },
+    {
+      "type": "Has_PCDC_OS_Authorized_Value",
+      "relatedCode": "C164323",
+      "relatedName": "Surgical Site"
+    },
+    {
+      "type": "Has_GDC_Value",
+      "relatedCode": "C70729",
+      "relatedName": "Targeted Anatomic Site"
+    },
+    {
+      "type": "Has_GDC_Value",
+      "relatedCode": "C156422",
+      "relatedName": "Tissue or Organ of Origin"
+    }
+  ],
+  "inverseRoles": [
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C8704",
+      "relatedName": "Advanced Peritoneal Malignant Mesothelioma"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C208364",
+      "relatedName": "Advanced Platinum-Resistant Primary Peritoneal Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C167396",
+      "relatedName": "Advanced Primary Peritoneal Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C211528",
+      "relatedName": "Advanced Primary Peritoneal Carcinosarcoma"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C211526",
+      "relatedName": "Advanced Primary Peritoneal Clear Cell Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C211524",
+      "relatedName": "Advanced Primary Peritoneal Endometrioid Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C203312",
+      "relatedName": "Advanced Primary Peritoneal High Grade Serous Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C222454",
+      "relatedName": "Advanced Primary Peritoneal Serous Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C128407",
+      "relatedName": "Bacterial Peritonitis"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C8612",
+      "relatedName": "Benign Peritoneal Neoplasm"
+    },
+    {
+      "type": "Procedure_Has_Partially_Excised_Anatomy",
+      "relatedCode": "C51627",
+      "relatedName": "Biopsy of Peritoneum"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C40024",
+      "relatedName": "Borderline Peritoneal Serous Tumor"
+    },
+    {
+      "type": "Anatomic_Structure_Is_Physical_Part_Of",
+      "relatedCode": "C12318",
+      "relatedName": "Broad Ligament"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C114752",
+      "relatedName": "Chemical Peritonitis"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C3958",
+      "relatedName": "Disseminated Peritoneal Leiomyomatosis"
+    },
+    {
+      "type": "Disease_Has_Metastatic_Anatomic_Site",
+      "relatedCode": "C203949",
+      "relatedName": "High Grade Mucinous Carcinoma Peritonei with Signet Ring Cells"
+    },
+    {
+      "type": "Disease_Has_Metastatic_Anatomic_Site",
+      "relatedCode": "C203948",
+      "relatedName": "High Grade Mucinous Carcinoma Peritonei"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C167204",
+      "relatedName": "Locally Advanced Primary Peritoneal Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C187389",
+      "relatedName": "Locally Advanced Unresectable Primary Peritoneal Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C211952",
+      "relatedName": "Locally Recurrent Primary Peritoneal Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Metastatic_Anatomic_Site",
+      "relatedCode": "C203946",
+      "relatedName": "Low Grade Mucinous Carcinoma Peritonei"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C102977",
+      "relatedName": "Meconium Peritonitis"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C40339",
+      "relatedName": "Mesenteric Gastrointestinal Stromal Tumor"
+    },
+    {
+      "type": "Disease_Has_Metastatic_Anatomic_Site",
+      "relatedCode": "C179654",
+      "relatedName": "Metastatic Carcinoma in the Peritoneum"
+    },
+    {
+      "type": "Disease_Has_Metastatic_Anatomic_Site",
+      "relatedCode": "C4583",
+      "relatedName": "Metastatic Malignant Neoplasm in the Peritoneum"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C179462",
+      "relatedName": "Metastatic Peritoneal Malignant Mesothelioma"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C203314",
+      "relatedName": "Metastatic Platinum-Resistant Primary Peritoneal Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C170972",
+      "relatedName": "Metastatic Primary Peritoneal Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C167203",
+      "relatedName": "Metastatic Primary Peritoneal Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C211522",
+      "relatedName": "Metastatic Primary Peritoneal Carcinosarcoma"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C211520",
+      "relatedName": "Metastatic Primary Peritoneal Clear Cell Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C211518",
+      "relatedName": "Metastatic Primary Peritoneal Endometrioid Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C186453",
+      "relatedName": "Metastatic Primary Peritoneal High Grade Serous Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C171019",
+      "relatedName": "Metastatic Primary Peritoneal Serous Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Metastatic_Anatomic_Site",
+      "relatedCode": "C179657",
+      "relatedName": "Metastatic Sarcoma in the Peritoneum"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C27666",
+      "relatedName": "Non-Neoplastic Peritoneal Disorder"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C40340",
+      "relatedName": "Omentum Gastrointestinal Stromal Tumor"
+    },
+    {
+      "type": "Anatomic_Structure_Is_Physical_Part_Of",
+      "relatedCode": "C33272",
+      "relatedName": "Parietal Part of the Peritoneum"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C215377",
+      "relatedName": "Pelvic Peritonitis"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C7354",
+      "relatedName": "Peritoneal Adenomatoid Tumor"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C217655",
+      "relatedName": "Peritoneal Adenosarcoma"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C168805",
+      "relatedName": "Peritoneal Biphasic Mesothelioma"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C179560",
+      "relatedName": "Peritoneal Calcifying Fibrous Tumor"
+    },
+    {
+      "type": "Disease_Has_Metastatic_Anatomic_Site",
+      "relatedCode": "C27382",
+      "relatedName": "Peritoneal Carcinomatosis"
+    },
+    {
+      "type": "Anatomic_Structure_Has_Location",
+      "relatedCode": "C12769",
+      "relatedName": "Peritoneal Cavity"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C126356",
+      "relatedName": "Peritoneal Desmoplastic Small Round Cell Tumor"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C114751",
+      "relatedName": "Peritoneal Dialysis Catheter-Associated Peritonitis"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C162940",
+      "relatedName": "Peritoneal Epithelioid Mesothelioma"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C40338",
+      "relatedName": "Peritoneal Gastrointestinal Stromal Tumor"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C126360",
+      "relatedName": "Peritoneal Gliomatosis"
+    },
+    {
+      "type": "Disease_Has_Metastatic_Anatomic_Site",
+      "relatedCode": "C173164",
+      "relatedName": "Peritoneal Implant"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C179562",
+      "relatedName": "Peritoneal Low Grade Endometrioid Stromal Sarcoma"
+    },
+    {
+      "type": "Anatomic_Structure_Is_Physical_Part_Of",
+      "relatedCode": "C12566",
+      "relatedName": "Peritoneal Macrophage"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C9350",
+      "relatedName": "Peritoneal Malignant Mesothelioma"
+    },
+    {
+      "type": "Anatomic_Structure_Is_Physical_Part_Of",
+      "relatedCode": "C33310",
+      "relatedName": "Peritoneal Mesothelial Cell"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C7633",
+      "relatedName": "Peritoneal Mesothelial Neoplasm"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C6536",
+      "relatedName": "Peritoneal Multicystic Mesothelioma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C85004",
+      "relatedName": "Peritoneal Panniculitis"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C168804",
+      "relatedName": "Peritoneal Sarcomatoid Mesothelioma"
+    },
+    {
+      "type": "Disease_Has_Metastatic_Anatomic_Site",
+      "relatedCode": "C179656",
+      "relatedName": "Peritoneal Sarcomatosis"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C126357",
+      "relatedName": "Peritoneal Solitary Fibrous Tumor"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C45661",
+      "relatedName": "Peritoneal Well Differentiated Papillary Mesothelial Tumor"
+    },
+    {
+      "type": "Procedure_Has_Target_Anatomy",
+      "relatedCode": "C38079",
+      "relatedName": "Peritoneoscopy"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C26849",
+      "relatedName": "Peritonitis"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C178702",
+      "relatedName": "Platinum-Refractory Primary Peritoneal Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C222793",
+      "relatedName": "Platinum-Refractory Primary Peritoneal Endometrioid Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C204991",
+      "relatedName": "Platinum-Refractory Primary Peritoneal High Grade Serous Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C157622",
+      "relatedName": "Platinum-Resistant Primary Peritoneal Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C211914",
+      "relatedName": "Platinum-Resistant Primary Peritoneal Endometrioid Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C204985",
+      "relatedName": "Platinum-Resistant Primary Peritoneal High Grade Serous Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C160872",
+      "relatedName": "Platinum-Sensitive Primary Peritoneal Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C170733",
+      "relatedName": "Primary Peritoneal Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C140003",
+      "relatedName": "Primary Peritoneal Cancer by AJCC v7 Stage"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C140004",
+      "relatedName": "Primary Peritoneal Cancer by AJCC v8 Stage"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C40022",
+      "relatedName": "Primary Peritoneal Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C159507",
+      "relatedName": "Primary Peritoneal Carcinosarcoma"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C162566",
+      "relatedName": "Primary Peritoneal Clear Cell Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C165260",
+      "relatedName": "Primary Peritoneal Endometrioid Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C126353",
+      "relatedName": "Primary Peritoneal High Grade Serous Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C126354",
+      "relatedName": "Primary Peritoneal Low Grade Serous Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C215795",
+      "relatedName": "Primary Peritoneal Mucinous Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C40023",
+      "relatedName": "Primary Peritoneal Serous Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C7695",
+      "relatedName": "Primary Peritoneal Serous Papillary Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C162564",
+      "relatedName": "Primary Peritoneal Transitional Cell Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C162562",
+      "relatedName": "Primary Peritoneal Undifferentiated Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Metastatic_Anatomic_Site",
+      "relatedCode": "C3345",
+      "relatedName": "Pseudomyxoma Peritonei"
+    },
+    {
+      "type": "Anatomic_Structure_Is_Physical_Part_Of",
+      "relatedCode": "C33447",
+      "relatedName": "Recto-Vaginal Pouch"
+    },
+    {
+      "type": "Anatomic_Structure_Is_Physical_Part_Of",
+      "relatedCode": "C33448",
+      "relatedName": "Recto-Vesical Pouch"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C8705",
+      "relatedName": "Recurrent Peritoneal Malignant Mesothelioma"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C170751",
+      "relatedName": "Recurrent Platinum-Resistant Primary Peritoneal Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C204986",
+      "relatedName": "Recurrent Platinum-Resistant Primary Peritoneal High Grade Serous Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C191407",
+      "relatedName": "Recurrent Platinum-Sensitive Primary Peritoneal Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C170767",
+      "relatedName": "Recurrent Primary Peritoneal Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C115441",
+      "relatedName": "Recurrent Primary Peritoneal Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C199463",
+      "relatedName": "Recurrent Primary Peritoneal Carcinosarcoma"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C170761",
+      "relatedName": "Recurrent Primary Peritoneal Clear Cell Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C165269",
+      "relatedName": "Recurrent Primary Peritoneal Endometrioid Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C165268",
+      "relatedName": "Recurrent Primary Peritoneal High Grade Serous Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C156454",
+      "relatedName": "Recurrent Primary Peritoneal Low Grade Serous Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C156453",
+      "relatedName": "Recurrent Primary Peritoneal Serous Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C170759",
+      "relatedName": "Recurrent Primary Peritoneal Transitional Cell Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C170756",
+      "relatedName": "Recurrent Primary Peritoneal Undifferentiated Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Metastatic_Anatomic_Site",
+      "relatedCode": "C179179",
+      "relatedName": "Recurrent Pseudomyxoma Peritonei"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C170975",
+      "relatedName": "Refractory Primary Peritoneal Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C152046",
+      "relatedName": "Refractory Primary Peritoneal Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C207058",
+      "relatedName": "Refractory Primary Peritoneal Carcinosarcoma"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C178684",
+      "relatedName": "Refractory Primary Peritoneal Clear Cell Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C178685",
+      "relatedName": "Refractory Primary Peritoneal Endometrioid Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C178686",
+      "relatedName": "Refractory Primary Peritoneal High Grade Serous Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C178687",
+      "relatedName": "Refractory Primary Peritoneal Low Grade Serous Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C171021",
+      "relatedName": "Refractory Primary Peritoneal Serous Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C178688",
+      "relatedName": "Refractory Primary Peritoneal Transitional Cell Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C178689",
+      "relatedName": "Refractory Primary Peritoneal Undifferentiated Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Metastatic_Anatomic_Site",
+      "relatedCode": "C179180",
+      "relatedName": "Refractory Pseudomyxoma Peritonei"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C61429",
+      "relatedName": "Sclerosing Peritonitis"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C136769",
+      "relatedName": "Small Intestinal, Esophageal, Colorectal, Mesenteric, and Peritoneal Gastrointestinal Stromal Tumor by AJCC v8 Stage"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C136780",
+      "relatedName": "Stage I Small Intestinal, Esophageal, Colorectal, Mesenteric, and Peritoneal Gastrointestinal Stromal Tumor AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C140005",
+      "relatedName": "Stage II Primary Peritoneal Cancer AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C136781",
+      "relatedName": "Stage II Small Intestinal, Esophageal, Colorectal, Mesenteric, and Peritoneal Gastrointestinal Stromal Tumor AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C140006",
+      "relatedName": "Stage IIA Primary Peritoneal Cancer AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C140007",
+      "relatedName": "Stage IIB Primary Peritoneal Cancer AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C115094",
+      "relatedName": "Stage III Primary Peritoneal Cancer AJCC v7"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C140008",
+      "relatedName": "Stage III Primary Peritoneal Cancer AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C136783",
+      "relatedName": "Stage III Small Intestinal, Esophageal, Colorectal, Mesenteric, and Peritoneal Gastrointestinal Stromal Tumor AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C115095",
+      "relatedName": "Stage IIIA Primary Peritoneal Cancer AJCC v7"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C140009",
+      "relatedName": "Stage IIIA Primary Peritoneal Cancer AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C136784",
+      "relatedName": "Stage IIIA Small Intestinal, Esophageal, Colorectal, Mesenteric, and Peritoneal Gastrointestinal Stromal Tumor AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C115096",
+      "relatedName": "Stage IIIB Primary Peritoneal Cancer AJCC v7"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C140010",
+      "relatedName": "Stage IIIB Primary Peritoneal Cancer AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C136785",
+      "relatedName": "Stage IIIB Small Intestinal, Esophageal, Colorectal, Mesenteric, and Peritoneal Gastrointestinal Stromal Tumor AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C115097",
+      "relatedName": "Stage IIIC Primary Peritoneal Cancer AJCC v7"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C140011",
+      "relatedName": "Stage IIIC Primary Peritoneal Cancer AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C115098",
+      "relatedName": "Stage IV Primary Peritoneal Cancer AJCC v7"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C140012",
+      "relatedName": "Stage IV Primary Peritoneal Cancer AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C136786",
+      "relatedName": "Stage IV Small Intestinal, Esophageal, Colorectal, Mesenteric, and Peritoneal Gastrointestinal Stromal Tumor AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C140013",
+      "relatedName": "Stage IVA Primary Peritoneal Cancer AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C140014",
+      "relatedName": "Stage IVB Primary Peritoneal Cancer AJCC v8"
+    },
+    {
+      "type": "Anatomic_Structure_Is_Physical_Part_Of",
+      "relatedCode": "C33822",
+      "relatedName": "Tunica Vaginalis"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C173615",
+      "relatedName": "Unresectable Peritoneal Biphasic Mesothelioma"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C173613",
+      "relatedName": "Unresectable Peritoneal Epithelioid Mesothelioma"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C173612",
+      "relatedName": "Unresectable Peritoneal Malignant Mesothelioma"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C173614",
+      "relatedName": "Unresectable Peritoneal Sarcomatoid Mesothelioma"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C203316",
+      "relatedName": "Unresectable Platinum-Resistant Primary Peritoneal Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C170974",
+      "relatedName": "Unresectable Primary Peritoneal Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C170973",
+      "relatedName": "Unresectable Primary Peritoneal Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C186276",
+      "relatedName": "Unresectable Primary Peritoneal Endometrioid Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C186275",
+      "relatedName": "Unresectable Primary Peritoneal High Grade Serous Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C171020",
+      "relatedName": "Unresectable Primary Peritoneal Serous Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Metastatic_Anatomic_Site",
+      "relatedCode": "C214843",
+      "relatedName": "Unresectable Pseudomyxoma Peritonei"
+    },
+    {
+      "type": "Anatomic_Structure_Is_Physical_Part_Of",
+      "relatedCode": "C61360",
+      "relatedName": "Uterine Ligament"
+    },
+    {
+      "type": "Anatomic_Structure_Is_Physical_Part_Of",
+      "relatedCode": "C33843",
+      "relatedName": "Utero-Vesical Pouch"
+    },
+    {
+      "type": "Anatomic_Structure_Is_Physical_Part_Of",
+      "relatedCode": "C33880",
+      "relatedName": "Visceral Part of the Peritoneum"
+    }
+  ],
+  "history": [
+    {
+      "code": "C12770",
+      "action": "create",
+      "date": "2003-08-12"
+    },
+    {
+      "code": "C12770",
+      "action": "modify",
+      "date": "2003-10-31"
+    },
+    {
+      "code": "C12770",
+      "action": "modify",
+      "date": "2003-12-30"
+    },
+    {
+      "code": "C12770",
+      "action": "modify",
+      "date": "2004-02-23"
+    },
+    {
+      "code": "C12770",
+      "action": "modify",
+      "date": "2004-03-30"
+    },
+    {
+      "code": "C12770",
+      "action": "modify",
+      "date": "2004-04-30"
+    },
+    {
+      "code": "C12770",
+      "action": "modify",
+      "date": "2004-08-02"
+    },
+    {
+      "code": "C12770",
+      "action": "modify",
+      "date": "2005-03-16"
+    },
+    {
+      "code": "C12770",
+      "action": "modify",
+      "date": "2006-01-03"
+    },
+    {
+      "code": "C12770",
+      "action": "modify",
+      "date": "2008-06-27"
+    },
+    {
+      "code": "C12770",
+      "action": "modify",
+      "date": "2008-09-12"
+    },
+    {
+      "code": "C12770",
+      "action": "modify",
+      "date": "2008-11-14"
+    },
+    {
+      "code": "C12770",
+      "action": "modify",
+      "date": "2008-11-26"
+    },
+    {
+      "code": "C12770",
+      "action": "modify",
+      "date": "2008-12-19"
+    },
+    {
+      "code": "C12770",
+      "action": "modify",
+      "date": "2008-11-07"
+    },
+    {
+      "code": "C12770",
+      "action": "modify",
+      "date": "2009-01-26"
+    },
+    {
+      "code": "C12770",
+      "action": "modify",
+      "date": "2009-04-06"
+    },
+    {
+      "code": "C12770",
+      "action": "modify",
+      "date": "2009-11-23"
+    },
+    {
+      "code": "C12770",
+      "action": "modify",
+      "date": "2011-02-22"
+    },
+    {
+      "code": "C12770",
+      "action": "modify",
+      "date": "2013-02-25"
+    },
+    {
+      "code": "C12770",
+      "action": "modify",
+      "date": "2013-03-04"
+    },
+    {
+      "code": "C12770",
+      "action": "modify",
+      "date": "2013-03-11"
+    },
+    {
+      "code": "C12770",
+      "action": "modify",
+      "date": "2013-03-18"
+    },
+    {
+      "code": "C12770",
+      "action": "modify",
+      "date": "2013-03-25"
+    },
+    {
+      "code": "C12770",
+      "action": "modify",
+      "date": "2013-04-01"
+    },
+    {
+      "code": "C12770",
+      "action": "modify",
+      "date": "2013-04-08"
+    },
+    {
+      "code": "C12770",
+      "action": "modify",
+      "date": "2013-04-15"
+    },
+    {
+      "code": "C12770",
+      "action": "modify",
+      "date": "2013-04-22"
+    },
+    {
+      "code": "C12770",
+      "action": "modify",
+      "date": "2013-04-29"
+    },
+    {
+      "code": "C12770",
+      "action": "modify",
+      "date": "2013-05-06"
+    },
+    {
+      "code": "C12770",
+      "action": "modify",
+      "date": "2013-05-13"
+    },
+    {
+      "code": "C12770",
+      "action": "modify",
+      "date": "2013-05-20"
+    },
+    {
+      "code": "C12770",
+      "action": "modify",
+      "date": "2013-05-28"
+    },
+    {
+      "code": "C12770",
+      "action": "modify",
+      "date": "2013-06-03"
+    },
+    {
+      "code": "C12770",
+      "action": "modify",
+      "date": "2013-06-10"
+    },
+    {
+      "code": "C12770",
+      "action": "modify",
+      "date": "2013-06-17"
+    },
+    {
+      "code": "C12770",
+      "action": "modify",
+      "date": "2013-06-24"
+    },
+    {
+      "code": "C12770",
+      "action": "modify",
+      "date": "2013-07-01"
+    },
+    {
+      "code": "C12770",
+      "action": "modify",
+      "date": "2013-07-08"
+    },
+    {
+      "code": "C12770",
+      "action": "modify",
+      "date": "2014-02-03"
+    },
+    {
+      "code": "C12770",
+      "action": "modify",
+      "date": "2014-08-18"
+    },
+    {
+      "code": "C12770",
+      "action": "modify",
+      "date": "2015-05-26"
+    },
+    {
+      "code": "C12770",
+      "action": "modify",
+      "date": "2015-06-01"
+    },
+    {
+      "code": "C12770",
+      "action": "modify",
+      "date": "2015-06-08"
+    },
+    {
+      "code": "C12770",
+      "action": "modify",
+      "date": "2015-06-15"
+    },
+    {
+      "code": "C12770",
+      "action": "modify",
+      "date": "2015-06-22"
+    },
+    {
+      "code": "C12770",
+      "action": "modify",
+      "date": "2015-06-29"
+    },
+    {
+      "code": "C12770",
+      "action": "modify",
+      "date": "2015-07-06"
+    },
+    {
+      "code": "C12770",
+      "action": "modify",
+      "date": "2015-07-13"
+    },
+    {
+      "code": "C12770",
+      "action": "modify",
+      "date": "2015-07-20"
+    },
+    {
+      "code": "C12770",
+      "action": "modify",
+      "date": "2015-08-12"
+    },
+    {
+      "code": "C12770",
+      "action": "modify",
+      "date": "2015-08-31"
+    },
+    {
+      "code": "C12770",
+      "action": "modify",
+      "date": "2015-10-19"
+    },
+    {
+      "code": "C12770",
+      "action": "modify",
+      "date": "2016-10-17"
+    },
+    {
+      "code": "C12770",
+      "action": "modify",
+      "date": "2017-03-06"
+    },
+    {
+      "code": "C12770",
+      "action": "modify",
+      "date": "2017-03-13"
+    },
+    {
+      "code": "C12770",
+      "action": "modify",
+      "date": "2017-04-10"
+    },
+    {
+      "code": "C12770",
+      "action": "modify",
+      "date": "2017-04-17"
+    },
+    {
+      "code": "C12770",
+      "action": "modify",
+      "date": "2017-04-24"
+    },
+    {
+      "code": "C12770",
+      "action": "modify",
+      "date": "2017-05-01"
+    },
+    {
+      "code": "C12770",
+      "action": "modify",
+      "date": "2017-05-04"
+    },
+    {
+      "code": "C12770",
+      "action": "modify",
+      "date": "2017-07-31"
+    },
+    {
+      "code": "C12770",
+      "action": "modify",
+      "date": "2018-09-24"
+    },
+    {
+      "code": "C12770",
+      "action": "modify",
+      "date": "2018-10-29"
+    },
+    {
+      "code": "C12770",
+      "action": "modify",
+      "date": "2018-10-29"
+    },
+    {
+      "code": "C12770",
+      "action": "modify",
+      "date": "2019-04-29"
+    },
+    {
+      "code": "C12770",
+      "action": "modify",
+      "date": "2019-05-28"
+    },
+    {
+      "code": "C12770",
+      "action": "modify",
+      "date": "2019-09-30"
+    },
+    {
+      "code": "C12770",
+      "action": "modify",
+      "date": "2019-10-28"
+    },
+    {
+      "code": "C12770",
+      "action": "modify",
+      "date": "2020-02-24"
+    },
+    {
+      "code": "C12770",
+      "action": "modify",
+      "date": "2020-03-30"
+    },
+    {
+      "code": "C12770",
+      "action": "modify",
+      "date": "2020-09-29"
+    },
+    {
+      "code": "C12770",
+      "action": "modify",
+      "date": "2021-02-22"
+    },
+    {
+      "code": "C12770",
+      "action": "modify",
+      "date": "2021-03-29"
+    },
+    {
+      "code": "C12770",
+      "action": "modify",
+      "date": "2021-06-28"
+    },
+    {
+      "code": "C12770",
+      "action": "modify",
+      "date": "2021-11-29"
+    },
+    {
+      "code": "C12770",
+      "action": "modify",
+      "date": "2022-04-25"
+    },
+    {
+      "code": "C12770",
+      "action": "modify",
+      "date": "2022-08-29"
+    },
+    {
+      "code": "C12770",
+      "action": "modify",
+      "date": "2022-10-31"
+    },
+    {
+      "code": "C12770",
+      "action": "modify",
+      "date": "2022-11-28"
+    },
+    {
+      "code": "C12770",
+      "action": "modify",
+      "date": "2023-01-31"
+    },
+    {
+      "code": "C12770",
+      "action": "modify",
+      "date": "2023-02-27"
+    },
+    {
+      "code": "C12770",
+      "action": "modify",
+      "date": "2023-05-30"
+    },
+    {
+      "code": "C12770",
+      "action": "modify",
+      "date": "2023-07-31"
+    },
+    {
+      "code": "C12770",
+      "action": "modify",
+      "date": "2023-09-25"
+    },
+    {
+      "code": "C12770",
+      "action": "modify",
+      "date": "2024-07-08"
+    }
+  ],
+  "maps": [
+    {
+      "type": "Related To",
+      "targetName": "Peritoneum, NOS",
+      "targetTermType": "PT",
+      "targetCode": "C48.2",
+      "targetTerminology": "ICDO3",
+      "targetTerminologyVersion": "3.2"
+    },
+    {
+      "type": "Related To",
+      "targetName": "Peritoneum, NOS",
+      "targetTermType": "PT",
+      "targetCode": "C48.2",
+      "targetTerminology": "ICDO3",
+      "targetTerminologyVersion": "3.1"
+    },
+    {
+      "type": "Has Synonym",
+      "targetName": "Peritoneum, NOS",
+      "targetTermType": "PT",
+      "targetCode": "progression_or_recurrence_anatomic_site",
+      "targetTerminology": "GDC"
+    },
+    {
+      "type": "Has Synonym",
+      "targetName": "Peritoneum, NOS",
+      "targetTermType": "PT",
+      "targetCode": "site_of_resection_or_biopsy",
+      "targetTerminology": "GDC"
+    },
+    {
+      "type": "Has Synonym",
+      "targetName": "Peritoneum, NOS",
+      "targetTermType": "PT",
+      "targetCode": "sites_of_involvement",
+      "targetTerminology": "GDC"
+    },
+    {
+      "type": "Has Synonym",
+      "targetName": "Peritoneum, NOS",
+      "targetTermType": "PT",
+      "targetCode": "tissue_or_organ_of_origin",
+      "targetTerminology": "GDC"
+    },
+    {
+      "type": "Has Synonym",
+      "targetName": "Peritoneum",
+      "targetTermType": "PT",
+      "targetCode": "biospecimen_anatomic_site",
+      "targetTerminology": "GDC"
+    },
+    {
+      "type": "Has Synonym",
+      "targetName": "Peritoneum",
+      "targetTermType": "PT",
+      "targetCode": "treatment_anatomic_sites",
+      "targetTerminology": "GDC"
+    }
+  ]
+}

@@ -1,0 +1,469 @@
+{
+  "code": "C8419",
+  "name": "Dysplastic Cerebellar Gangliocytoma",
+  "terminology": "ncit",
+  "version": "25.11d",
+  "conceptStatus": "DEFAULT",
+  "leaf": true,
+  "active": true,
+  "synonyms": [
+    {
+      "name": "Dysplastic gangliocytoma of cerebellum (Lhermitte-Duclos)",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "GDC"
+    },
+    {
+      "name": "Dysplastic Cerebellar Gangliocytoma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Dysplastic Cerebellar Gangliocytoma (Lhermitte-Duclos Disease)",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Dysplastic Gangliocytoma of Cerebellum",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Dysplastic Gangliocytoma of the Cerebellum",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Lhermitte-Duclos Disease",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Dysplastic Cerebellar Gangliocytoma",
+      "type": "Preferred_Name"
+    }
+  ],
+  "definitions": [
+    {
+      "definition": "A benign, WHO grade I cerebellar mass, which occurs in young adults and is composed of dysplastic ganglion cells.  It is the major CNS manifestation of Cowden disease, an autosomal dominant condition that causes a variety of hamartomas and neoplasms.",
+      "type": "DEFINITION",
+      "source": "NCI",
+      "qualifiers": [
+        {
+          "type": "attribution",
+          "value": "from WHO"
+        }
+      ]
+    }
+  ],
+  "properties": [
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "GDC"
+    },
+    {
+      "code": "P334",
+      "type": "ICD-O-3_Code",
+      "value": "9493/0"
+    },
+    {
+      "code": "P366",
+      "type": "Legacy Concept Name",
+      "value": "Dysplastic_Cerebellar_Gangliocytoma"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "9493/0"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "Dysplastic gangliocytoma of cerebellum (Lhermitte-Duclos)"
+    },
+    {
+      "code": "P363",
+      "type": "Neoplastic_Status",
+      "value": "Undetermined"
+    },
+    {
+      "code": "P106",
+      "type": "Semantic_Type",
+      "value": "Neoplastic Process"
+    },
+    {
+      "code": "P207",
+      "type": "UMLS_CUI",
+      "value": "C0391826"
+    }
+  ],
+  "parents": [
+    {
+      "code": "C7372",
+      "name": "Cerebellar Glioneuronal and Neuronal Tumors"
+    }
+  ],
+  "associations": [
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C157711",
+      "relatedName": "GDC Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C177537",
+      "relatedName": "GDC Value Terminology"
+    },
+    {
+      "type": "Is_Value_For_GDC_Property",
+      "relatedCode": "C176985",
+      "relatedName": "Histology ICD-O Morphology Code"
+    },
+    {
+      "type": "Is_Value_For_GDC_Property",
+      "relatedCode": "C177621",
+      "relatedName": "ICD-O-3 Morphology Term Diagnosis Question"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168658",
+      "relatedName": "Mapped ICDO3.1 Morphology PT Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168657",
+      "relatedName": "Mapped ICDO3.1 Morphology Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168655",
+      "relatedName": "Mapped ICDO3.1 Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168662",
+      "relatedName": "Mapped ICDO3.2 Morphology PT Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168661",
+      "relatedName": "Mapped ICDO3.2 Morphology Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168656",
+      "relatedName": "Mapped ICDO3.2 Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C126659",
+      "relatedName": "NCIt Neoplasm Core Terminology"
+    }
+  ],
+  "inverseAssociations": [
+    {
+      "type": "Has_GDC_Value",
+      "relatedCode": "C176985",
+      "relatedName": "Histology ICD-O Morphology Code"
+    },
+    {
+      "type": "Has_GDC_Value",
+      "relatedCode": "C177621",
+      "relatedName": "ICD-O-3 Morphology Term Diagnosis Question"
+    }
+  ],
+  "roles": [
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12439",
+      "relatedName": "Brain"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12438",
+      "relatedName": "Central Nervous System"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12438",
+      "relatedName": "Central Nervous System"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12445",
+      "relatedName": "Cerebellum"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12445",
+      "relatedName": "Cerebellum"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12445",
+      "relatedName": "Cerebellum"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C42085",
+      "relatedName": "Dysplastic Ganglion Cell"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C41471",
+      "relatedName": "Glial Differentiation"
+    },
+    {
+      "type": "Disease_Mapped_To_Chromosome",
+      "relatedCode": "C13205",
+      "relatedName": "Human Chromosome 10"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12509",
+      "relatedName": "Infratentorial Brain"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12509",
+      "relatedName": "Infratentorial Brain"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12922",
+      "relatedName": "Neoplastic Cell"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C37126",
+      "relatedName": "Neoplastic Glial Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C41408",
+      "relatedName": "Neoplastic Neuroepithelial Cell and Neoplastic Perineural Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C37125",
+      "relatedName": "Neoplastic Neuroepithelial Cell"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C41406",
+      "relatedName": "Nerve Tissue, Neuroepithelial Tissue, and Nerve Sheaths"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12755",
+      "relatedName": "Nervous System"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C41410",
+      "relatedName": "Neuroepithelial Cell"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C41409",
+      "relatedName": "Neuroepithelial Tissue"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C41405",
+      "relatedName": "Neuron, Neuroepithelial Cell, and Supporting Cell of the Nervous System"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C42083",
+      "relatedName": "Neuronal Differentiation"
+    },
+    {
+      "type": "Disease_Excludes_Normal_Cell_Origin",
+      "relatedCode": "C12618",
+      "relatedName": "Oligodendrocyte"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C41611",
+      "relatedName": "Precise Histogenesis Unknown"
+    },
+    {
+      "type": "Disease_Has_Molecular_Abnormality",
+      "relatedCode": "C36692",
+      "relatedName": "PTEN Gene Inactivation"
+    },
+    {
+      "type": "Disease_Mapped_To_Gene",
+      "relatedCode": "C18256",
+      "relatedName": "PTEN Gene"
+    },
+    {
+      "type": "Disease_Excludes_Primary_Anatomic_Site",
+      "relatedCode": "C12464",
+      "relatedName": "Spinal Cord"
+    }
+  ],
+  "inverseRoles": [
+    {
+      "type": "Disease_May_Have_Associated_Disease",
+      "relatedCode": "C3076",
+      "relatedName": "Cowden Syndrome"
+    },
+    {
+      "type": "Gene_Involved_In_Pathogenesis_Of_Disease",
+      "relatedCode": "C18256",
+      "relatedName": "PTEN Gene"
+    },
+    {
+      "type": "Gene_Involved_In_Pathogenesis_Of_Disease",
+      "relatedCode": "C52906",
+      "relatedName": "PTEN wt Allele"
+    }
+  ],
+  "history": [
+    {
+      "code": "C8419",
+      "action": "create",
+      "date": "2003-08-12"
+    },
+    {
+      "code": "C8419",
+      "action": "modify",
+      "date": "2003-10-31"
+    },
+    {
+      "code": "C8419",
+      "action": "modify",
+      "date": "2003-12-30"
+    },
+    {
+      "code": "C8419",
+      "action": "modify",
+      "date": "2004-03-30"
+    },
+    {
+      "code": "C8419",
+      "action": "modify",
+      "date": "2004-11-17"
+    },
+    {
+      "code": "C8419",
+      "action": "modify",
+      "date": "2006-03-31"
+    },
+    {
+      "code": "C8419",
+      "action": "modify",
+      "date": "2007-06-28"
+    },
+    {
+      "code": "C8419",
+      "action": "modify",
+      "date": "2009-04-06"
+    },
+    {
+      "code": "C8419",
+      "action": "modify",
+      "date": "2009-11-23"
+    },
+    {
+      "code": "C8419",
+      "action": "modify",
+      "date": "2010-10-12"
+    },
+    {
+      "code": "C8419",
+      "action": "modify",
+      "date": "2012-01-17"
+    },
+    {
+      "code": "C8419",
+      "action": "modify",
+      "date": "2016-04-25"
+    },
+    {
+      "code": "C8419",
+      "action": "modify",
+      "date": "2018-09-24"
+    },
+    {
+      "code": "C8419",
+      "action": "modify",
+      "date": "2019-05-28"
+    },
+    {
+      "code": "C8419",
+      "action": "modify",
+      "date": "2019-09-30"
+    },
+    {
+      "code": "C8419",
+      "action": "modify",
+      "date": "2019-11-25"
+    },
+    {
+      "code": "C8419",
+      "action": "modify",
+      "date": "2020-02-24"
+    },
+    {
+      "code": "C8419",
+      "action": "modify",
+      "date": "2020-04-27"
+    },
+    {
+      "code": "C8419",
+      "action": "modify",
+      "date": "2021-02-22"
+    },
+    {
+      "code": "C8419",
+      "action": "modify",
+      "date": "2021-03-29"
+    },
+    {
+      "code": "C8419",
+      "action": "modify",
+      "date": "2022-03-28"
+    }
+  ],
+  "maps": [
+    {
+      "type": "Related To",
+      "targetName": "9493/0",
+      "targetTermType": "PT",
+      "targetCode": "morphology",
+      "targetTerminology": "GDC"
+    },
+    {
+      "type": "Related To",
+      "targetName": "Dysplastic gangliocytoma of cerebellum (Lhermitte-Duclos)",
+      "targetTermType": "PT",
+      "targetCode": "9493/0",
+      "targetTerminology": "ICDO3",
+      "targetTerminologyVersion": "3.2"
+    },
+    {
+      "type": "Related To",
+      "targetName": "Dysplastic gangliocytoma of cerebellum (Lhermitte-Duclos)",
+      "targetTermType": "PT",
+      "targetCode": "9493/0",
+      "targetTerminology": "ICDO3",
+      "targetTerminologyVersion": "3.1"
+    },
+    {
+      "type": "Has Synonym",
+      "targetName": "Dysplastic gangliocytoma of cerebellum (Lhermitte-Duclos)",
+      "targetTermType": "PT",
+      "targetCode": "primary_diagnosis",
+      "targetTerminology": "GDC"
+    }
+  ]
+}

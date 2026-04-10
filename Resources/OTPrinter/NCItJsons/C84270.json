@@ -1,0 +1,263 @@
+{
+  "code": "C84270",
+  "name": "Myeloid/Lymphoid Neoplasms with Eosinophilia and Tyrosine Kinase Gene Fusions",
+  "terminology": "ncit",
+  "version": "25.11d",
+  "conceptStatus": "DEFAULT",
+  "leaf": false,
+  "active": true,
+  "synonyms": [
+    {
+      "name": "M/LN-eo with Tyrosine Kinase Gene Fusions",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Myeloid and Lymphoid Neoplasms with Eosinophilia and Abnormalities of PDGFRA, PDGFRB, or FGFR1",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Myeloid and Lymphoid Neoplasms with Eosinophilia and Rearrangement of PDGFRA, PDGFRB, or FGFR1, or with PCM1-JAK2",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Myeloid/Lymphoid Neoplasms with Eosinophilia and Defining Gene Rearrangements",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Myeloid/Lymphoid Neoplasms with Eosinophilia and Rearrangement of PDGFRA, PDGFRB, or FGFR1, or with PCM1-JAK2",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Myeloid/Lymphoid Neoplasms with Eosinophilia and Tyrosine Kinase Gene Fusions",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Myeloid/Lymphoid Neoplasms with Eosinophilia and Tyrosine Kinase Gene Fusions",
+      "type": "Preferred_Name"
+    }
+  ],
+  "definitions": [
+    {
+      "definition": "A group of rare myeloid and lymphoid neoplasms characterized by rearrangement of the PDGFRA, PDGFRB, FGFR1, or JAK2 genes, resulting in the formation of tyrosine kinase fusion transcripts. Eosinophilia is a characteristic finding but it is not always present.",
+      "type": "DEFINITION",
+      "source": "NCI"
+    }
+  ],
+  "properties": [
+    {
+      "code": "P363",
+      "type": "Neoplastic_Status",
+      "value": "Malignant"
+    },
+    {
+      "code": "P106",
+      "type": "Semantic_Type",
+      "value": "Neoplastic Process"
+    },
+    {
+      "code": "P207",
+      "type": "UMLS_CUI",
+      "value": "C2827356"
+    }
+  ],
+  "children": [
+    {
+      "code": "C198565",
+      "name": "Myeloid/Lymphoid Neoplasms with ETV6-ABL1",
+      "leaf": true
+    },
+    {
+      "code": "C84277",
+      "name": "Myeloid/Lymphoid Neoplasms with FGFR1 Rearrangement",
+      "leaf": true
+    },
+    {
+      "code": "C198559",
+      "name": "Myeloid/Lymphoid Neoplasms with FLT3 Rearrangement",
+      "leaf": true
+    },
+    {
+      "code": "C129853",
+      "name": "Myeloid/Lymphoid Neoplasms with JAK2 Rearrangement",
+      "leaf": true
+    },
+    {
+      "code": "C84275",
+      "name": "Myeloid/Lymphoid Neoplasms with PDGFRA Rearrangement",
+      "leaf": false
+    },
+    {
+      "code": "C84276",
+      "name": "Myeloid/Lymphoid Neoplasms with PDGFRB Rearrangement",
+      "leaf": false
+    }
+  ],
+  "parents": [
+    {
+      "code": "C27134",
+      "name": "Hematopoietic and Lymphoid Cell Neoplasm"
+    },
+    {
+      "code": "C9305",
+      "name": "Malignant Neoplasm"
+    }
+  ],
+  "associations": [
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C126659",
+      "relatedName": "NCIt Neoplasm Core Terminology"
+    }
+  ],
+  "roles": [
+    {
+      "type": "Disease_Excludes_Molecular_Abnormality",
+      "relatedCode": "C36715",
+      "relatedName": "BCR-ABL1 Fusion Protein Expression"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C36122",
+      "relatedName": "Benign Cellular Infiltrate"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C41165",
+      "relatedName": "Hematopoietic and Lymphatic System"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C41165",
+      "relatedName": "Hematopoietic and Lymphatic System"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C32725",
+      "relatedName": "Hematopoietic and Lymphoid Cell"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C41168",
+      "relatedName": "Hematopoietic and Lymphoid Tissue"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12917",
+      "relatedName": "Malignant Cell"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C36115",
+      "relatedName": "Malignant Cellular Infiltrate"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12922",
+      "relatedName": "Neoplastic Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C37060",
+      "relatedName": "Neoplastic Hematopoietic and Lymphoid Cell"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C12977",
+      "relatedName": "Pluripotent Stem Cell"
+    },
+    {
+      "type": "Disease_Has_Molecular_Abnormality",
+      "relatedCode": "C198558",
+      "relatedName": "Tyrosine Kinase Gene Fusion"
+    }
+  ],
+  "history": [
+    {
+      "code": "C84270",
+      "action": "create",
+      "date": "2009-10-19"
+    },
+    {
+      "code": "C84270",
+      "action": "modify",
+      "date": "2010-01-11"
+    },
+    {
+      "code": "C84270",
+      "action": "modify",
+      "date": "2010-03-08"
+    },
+    {
+      "code": "C84270",
+      "action": "modify",
+      "date": "2011-08-15"
+    },
+    {
+      "code": "C84270",
+      "action": "modify",
+      "date": "2014-02-03"
+    },
+    {
+      "code": "C84270",
+      "action": "modify",
+      "date": "2016-04-25"
+    },
+    {
+      "code": "C84270",
+      "action": "modify",
+      "date": "2016-11-14"
+    },
+    {
+      "code": "C84270",
+      "action": "modify",
+      "date": "2018-06-25"
+    },
+    {
+      "code": "C84270",
+      "action": "modify",
+      "date": "2018-06-25"
+    },
+    {
+      "code": "C84270",
+      "action": "modify",
+      "date": "2018-10-29"
+    },
+    {
+      "code": "C84270",
+      "action": "modify",
+      "date": "2018-10-29"
+    },
+    {
+      "code": "C84270",
+      "action": "modify",
+      "date": "2018-12-31"
+    },
+    {
+      "code": "C84270",
+      "action": "modify",
+      "date": "2019-02-25"
+    },
+    {
+      "code": "C84270",
+      "action": "modify",
+      "date": "2023-04-24"
+    },
+    {
+      "code": "C84270",
+      "action": "modify",
+      "date": "2023-07-31"
+    }
+  ]
+}

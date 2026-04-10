@@ -1,0 +1,531 @@
+{
+  "code": "C7151",
+  "name": "Monoclonal Immunoglobulin Deposition Disease",
+  "terminology": "ncit",
+  "version": "25.11d",
+  "conceptStatus": "DEFAULT",
+  "leaf": false,
+  "active": true,
+  "synonyms": [
+    {
+      "name": "Monoclonal Immunoglobulin Deposition Disease",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "CPTAC"
+    },
+    {
+      "name": "Monoclonal Immunoglobulin Deposition Disease",
+      "termType": "DN",
+      "type": "FULL_SYN",
+      "source": "CTRP"
+    },
+    {
+      "name": "Immunoglobulin deposition disease",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "GDC"
+    },
+    {
+      "name": "Immunoglobulin Deposition Disease",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Monoclonal Immunoglobulin Deposition Disease",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Monoclonal Immunoglobulin Deposition Disease",
+      "type": "Display_Name"
+    },
+    {
+      "name": "Monoclonal Immunoglobulin Deposition Disease",
+      "type": "Preferred_Name"
+    }
+  ],
+  "definitions": [
+    {
+      "definition": "A mature B-cell neoplasm characterized by the deposition of immunoglobulin in tissues, resulting in impaired organ function. It includes the following entities: primary amyloidosis, heavy chain deposition disease, and light chain deposition disease.",
+      "type": "DEFINITION",
+      "source": "NCI"
+    }
+  ],
+  "properties": [
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "CPTAC"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "CTRP"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "GDC"
+    },
+    {
+      "code": "P334",
+      "type": "ICD-O-3_Code",
+      "value": "9769/1"
+    },
+    {
+      "code": "P366",
+      "type": "Legacy Concept Name",
+      "value": "Monoclonal_Immunoglobulin_Deposition_Disease"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "9769/1"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "Immunoglobulin deposition disease"
+    },
+    {
+      "code": "P208",
+      "type": "NCI_META_CUI",
+      "value": "CL357425"
+    },
+    {
+      "code": "P363",
+      "type": "Neoplastic_Status",
+      "value": "Undetermined"
+    },
+    {
+      "code": "P106",
+      "type": "Semantic_Type",
+      "value": "Neoplastic Process"
+    }
+  ],
+  "children": [
+    {
+      "code": "C7339",
+      "name": "Heavy Chain Deposition Disease",
+      "leaf": true
+    },
+    {
+      "code": "C158965",
+      "name": "Light and Heavy Chain Deposition Disease",
+      "leaf": true
+    },
+    {
+      "code": "C7727",
+      "name": "Light Chain Deposition Disease",
+      "leaf": true
+    },
+    {
+      "code": "C3819",
+      "name": "Primary Amyloidosis",
+      "leaf": false
+    }
+  ],
+  "parents": [
+    {
+      "code": "C27910",
+      "name": "Mature B-Cell Neoplasm"
+    }
+  ],
+  "associations": [
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C158520",
+      "relatedName": "CPTAC Codelists Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C156966",
+      "relatedName": "CPTAC Neoplasms Codelist"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C156952",
+      "relatedName": "CPTAC Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C118168",
+      "relatedName": "CTRP Disease Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C116977",
+      "relatedName": "CTRP Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C157711",
+      "relatedName": "GDC Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C177537",
+      "relatedName": "GDC Value Terminology"
+    },
+    {
+      "type": "Is_Value_For_GDC_Property",
+      "relatedCode": "C176985",
+      "relatedName": "Histology ICD-O Morphology Code"
+    },
+    {
+      "type": "Is_Value_For_GDC_Property",
+      "relatedCode": "C177621",
+      "relatedName": "ICD-O-3 Morphology Term Diagnosis Question"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168658",
+      "relatedName": "Mapped ICDO3.1 Morphology PT Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168657",
+      "relatedName": "Mapped ICDO3.1 Morphology Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168655",
+      "relatedName": "Mapped ICDO3.1 Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168662",
+      "relatedName": "Mapped ICDO3.2 Morphology PT Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168661",
+      "relatedName": "Mapped ICDO3.2 Morphology Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168656",
+      "relatedName": "Mapped ICDO3.2 Terminology"
+    }
+  ],
+  "inverseAssociations": [
+    {
+      "type": "Has_GDC_Value",
+      "relatedCode": "C176985",
+      "relatedName": "Histology ICD-O Morphology Code"
+    },
+    {
+      "type": "Has_GDC_Value",
+      "relatedCode": "C177621",
+      "relatedName": "ICD-O-3 Morphology Term Diagnosis Question"
+    }
+  ],
+  "roles": [
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36725",
+      "relatedName": "Abnormal Lymphocyte"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C12474",
+      "relatedName": "B-Lymphocyte"
+    },
+    {
+      "type": "Disease_May_Have_Associated_Disease",
+      "relatedCode": "C3080",
+      "relatedName": "Congestive Heart Failure"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C41165",
+      "relatedName": "Hematopoietic and Lymphatic System"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C41165",
+      "relatedName": "Hematopoietic and Lymphatic System"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C32725",
+      "relatedName": "Hematopoietic and Lymphoid Cell"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C41168",
+      "relatedName": "Hematopoietic and Lymphoid Tissue"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C41042",
+      "relatedName": "Immunoglobulin Deposition"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12746",
+      "relatedName": "Lymphatic System"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C12535",
+      "relatedName": "Lymphocyte"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C13049",
+      "relatedName": "Lymphoid Tissue"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C33058",
+      "relatedName": "Mature B-Lymphocyte"
+    },
+    {
+      "type": "Disease_May_Have_Associated_Disease",
+      "relatedCode": "C3242",
+      "relatedName": "Multiple Myeloma"
+    },
+    {
+      "type": "Disease_Excludes_Normal_Cell_Origin",
+      "relatedCode": "C12549",
+      "relatedName": "Myeloid Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C38640",
+      "relatedName": "Neoplastic B-Lymphocyte"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12922",
+      "relatedName": "Neoplastic Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C37060",
+      "relatedName": "Neoplastic Hematopoietic and Lymphoid Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36988",
+      "relatedName": "Neoplastic Lymphocyte"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C41022",
+      "relatedName": "Neoplastic Plasma Cells Present in Bone Marrow"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C39566",
+      "relatedName": "Neoplastic T-Lymphocyte and Neoplastic Natural Killer Cell"
+    },
+    {
+      "type": "Disease_May_Have_Associated_Disease",
+      "relatedCode": "C34845",
+      "relatedName": "Nephrotic Syndrome"
+    },
+    {
+      "type": "Disease_Excludes_Normal_Cell_Origin",
+      "relatedCode": "C33931",
+      "relatedName": "Precursor B-Lymphoblast"
+    },
+    {
+      "type": "Disease_May_Have_Associated_Disease",
+      "relatedCode": "C4376",
+      "relatedName": "Renal Failure"
+    }
+  ],
+  "history": [
+    {
+      "code": "C7151",
+      "action": "create",
+      "date": "2003-08-12"
+    },
+    {
+      "code": "C7151",
+      "action": "modify",
+      "date": "2003-10-31"
+    },
+    {
+      "code": "C7151",
+      "action": "modify",
+      "date": "2003-12-30"
+    },
+    {
+      "code": "C7151",
+      "action": "modify",
+      "date": "2004-03-30"
+    },
+    {
+      "code": "C7151",
+      "action": "modify",
+      "date": "2004-11-01"
+    },
+    {
+      "code": "C7151",
+      "action": "modify",
+      "date": "2007-03-30"
+    },
+    {
+      "code": "C7151",
+      "action": "modify",
+      "date": "2007-06-28"
+    },
+    {
+      "code": "C7151",
+      "action": "modify",
+      "date": "2009-04-06"
+    },
+    {
+      "code": "C7151",
+      "action": "modify",
+      "date": "2009-10-27"
+    },
+    {
+      "code": "C7151",
+      "action": "modify",
+      "date": "2009-11-23"
+    },
+    {
+      "code": "C7151",
+      "action": "modify",
+      "date": "2012-01-09"
+    },
+    {
+      "code": "C7151",
+      "action": "modify",
+      "date": "2014-02-03"
+    },
+    {
+      "code": "C7151",
+      "action": "modify",
+      "date": "2014-08-25"
+    },
+    {
+      "code": "C7151",
+      "action": "modify",
+      "date": "2014-09-22"
+    },
+    {
+      "code": "C7151",
+      "action": "modify",
+      "date": "2018-07-30"
+    },
+    {
+      "code": "C7151",
+      "action": "modify",
+      "date": "2018-08-27"
+    },
+    {
+      "code": "C7151",
+      "action": "modify",
+      "date": "2018-08-27"
+    },
+    {
+      "code": "C7151",
+      "action": "modify",
+      "date": "2018-09-24"
+    },
+    {
+      "code": "C7151",
+      "action": "modify",
+      "date": "2018-10-29"
+    },
+    {
+      "code": "C7151",
+      "action": "modify",
+      "date": "2018-10-29"
+    },
+    {
+      "code": "C7151",
+      "action": "modify",
+      "date": "2018-12-31"
+    },
+    {
+      "code": "C7151",
+      "action": "modify",
+      "date": "2019-03-25"
+    },
+    {
+      "code": "C7151",
+      "action": "modify",
+      "date": "2019-05-28"
+    },
+    {
+      "code": "C7151",
+      "action": "modify",
+      "date": "2019-09-30"
+    },
+    {
+      "code": "C7151",
+      "action": "modify",
+      "date": "2019-11-25"
+    },
+    {
+      "code": "C7151",
+      "action": "modify",
+      "date": "2020-02-24"
+    },
+    {
+      "code": "C7151",
+      "action": "modify",
+      "date": "2020-03-30"
+    },
+    {
+      "code": "C7151",
+      "action": "modify",
+      "date": "2020-04-27"
+    },
+    {
+      "code": "C7151",
+      "action": "modify",
+      "date": "2021-02-22"
+    },
+    {
+      "code": "C7151",
+      "action": "modify",
+      "date": "2021-03-29"
+    },
+    {
+      "code": "C7151",
+      "action": "modify",
+      "date": "2023-05-30"
+    }
+  ],
+  "maps": [
+    {
+      "type": "Related To",
+      "targetName": "9769/1",
+      "targetTermType": "PT",
+      "targetCode": "morphology",
+      "targetTerminology": "GDC"
+    },
+    {
+      "type": "Related To",
+      "targetName": "Immunoglobulin deposition disease",
+      "targetTermType": "PT",
+      "targetCode": "9769/1",
+      "targetTerminology": "ICDO3",
+      "targetTerminologyVersion": "3.2"
+    },
+    {
+      "type": "Related To",
+      "targetName": "Immunoglobulin deposition disease",
+      "targetTermType": "PT",
+      "targetCode": "9769/1",
+      "targetTerminology": "ICDO3",
+      "targetTerminologyVersion": "3.1"
+    },
+    {
+      "type": "Has Synonym",
+      "targetName": "Immunoglobulin deposition disease",
+      "targetTermType": "PT",
+      "targetCode": "primary_diagnosis",
+      "targetTerminology": "GDC"
+    }
+  ]
+}

@@ -1,0 +1,1012 @@
+{
+  "code": "C7173",
+  "name": "Diffuse Astrocytoma",
+  "terminology": "ncit",
+  "version": "25.11d",
+  "conceptStatus": "DEFAULT",
+  "leaf": false,
+  "active": true,
+  "synonyms": [
+    {
+      "name": "Diffuse Astrocytoma",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "caDSR"
+    },
+    {
+      "name": "Astrocytoma, Diffuse",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "CDISC"
+    },
+    {
+      "name": "ASTROCYTOMA, DIFFUSE, MALIGNANT",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "CDISC"
+    },
+    {
+      "name": "Diffuse Astrocytoma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "Cellosaurus"
+    },
+    {
+      "name": "Low-grade astrocytoma, NOS",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "CTEP",
+      "code": "10003571",
+      "subSource": "SDC"
+    },
+    {
+      "name": "Diffuse astrocytoma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "GDC"
+    },
+    {
+      "name": "Diffuse Astrocytoma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Grade 2 Astrocytic Neoplasm",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Grade 2 Astrocytic Tumor",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Grade 2 Astrocytoma",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Grade II Astrocytic Neoplasm",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Grade II Astrocytic Tumor",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Grade II Astrocytoma",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "WHO Grade 2 Astrocytoma",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "WHO Grade II Astrocytoma",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Diffuse Astrocytoma",
+      "type": "Preferred_Name"
+    }
+  ],
+  "definitions": [
+    {
+      "definition": "A low-grade (WHO grade 2) astrocytic neoplasm. It is characterized by diffuse infiltration of neighboring central nervous system structures. These lesions typically affect young adults and have a tendency for progression to anaplastic astrocytoma and glioblastoma. Based on the IDH genes mutation status, diffuse astrocytomas are classified as IDH-mutant, IDH-wildtype, and not otherwise specified.",
+      "type": "DEFINITION",
+      "source": "NCI"
+    },
+    {
+      "definition": "A malignant astrocytic neoplasm characterized by a high degree of cellular differentiation, slow growth, and diffuse infiltration of neighboring brain structures.",
+      "type": "ALT_DEFINITION",
+      "source": "CDISC"
+    }
+  ],
+  "properties": [
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "CDISC"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "Cellosaurus"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "CTEP"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "GDC"
+    },
+    {
+      "code": "P366",
+      "type": "Legacy Concept Name",
+      "value": "Diffuse_Astrocytoma"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "9400/3"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "Astrocytoma, low grade"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "Cystic astrocytoma"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "Diffuse astrocytoma"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "Diffuse astrocytoma, low grade"
+    },
+    {
+      "code": "P363",
+      "type": "Neoplastic_Status",
+      "value": "Undetermined"
+    },
+    {
+      "code": "P106",
+      "type": "Semantic_Type",
+      "value": "Neoplastic Process"
+    },
+    {
+      "code": "P207",
+      "type": "UMLS_CUI",
+      "value": "C0280785"
+    }
+  ],
+  "children": [
+    {
+      "code": "C7174",
+      "name": "Adult Diffuse Astrocytoma",
+      "leaf": true
+    },
+    {
+      "code": "C129271",
+      "name": "Astrocytoma, IDH-Mutant, Grade 2",
+      "leaf": false
+    },
+    {
+      "code": "C114967",
+      "name": "Childhood Diffuse Astrocytoma",
+      "leaf": false
+    },
+    {
+      "code": "C129274",
+      "name": "Diffuse Astrocytoma, IDH-Wildtype",
+      "leaf": false
+    },
+    {
+      "code": "C129277",
+      "name": "Diffuse Astrocytoma, Not Otherwise Specified",
+      "leaf": true
+    },
+    {
+      "code": "C4322",
+      "name": "Fibrillary Astrocytoma",
+      "leaf": false
+    },
+    {
+      "code": "C4321",
+      "name": "Gemistocytic Astrocytoma",
+      "leaf": false
+    },
+    {
+      "code": "C4320",
+      "name": "Protoplasmic Astrocytoma",
+      "leaf": false
+    },
+    {
+      "code": "C167081",
+      "name": "Recurrent Diffuse Astrocytoma",
+      "leaf": false
+    },
+    {
+      "code": "C211953",
+      "name": "Refractory Diffuse Astrocytoma",
+      "leaf": false
+    }
+  ],
+  "parents": [
+    {
+      "code": "C129325",
+      "name": "Diffuse Glioma"
+    },
+    {
+      "code": "C116342",
+      "name": "Low Grade Astrocytoma"
+    },
+    {
+      "code": "C132505",
+      "name": "WHO Grade 2 Glioma"
+    }
+  ],
+  "associations": [
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C77526",
+      "relatedName": "CDISC SEND Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C88025",
+      "relatedName": "CDISC SEND Tumor Findings Results Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C165258",
+      "relatedName": "Cellosaurus Disease Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C61410",
+      "relatedName": "Clinical Data Interchange Standards Consortium Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C157711",
+      "relatedName": "GDC Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C177537",
+      "relatedName": "GDC Value Terminology"
+    },
+    {
+      "type": "Is_Value_For_GDC_Property",
+      "relatedCode": "C176985",
+      "relatedName": "Histology ICD-O Morphology Code"
+    },
+    {
+      "type": "Is_Value_For_GDC_Property",
+      "relatedCode": "C177621",
+      "relatedName": "ICD-O-3 Morphology Term Diagnosis Question"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C103043",
+      "relatedName": "NCI CTEP SDC Astrocytoma, Low Grade Sub-Category Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C102905",
+      "relatedName": "NCI CTEP Simplified Disease Classification Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C126659",
+      "relatedName": "NCIt Neoplasm Core Terminology"
+    }
+  ],
+  "inverseAssociations": [
+    {
+      "type": "Has_GDC_Value",
+      "relatedCode": "C176985",
+      "relatedName": "Histology ICD-O Morphology Code"
+    },
+    {
+      "type": "Has_GDC_Value",
+      "relatedCode": "C177621",
+      "relatedName": "ICD-O-3 Morphology Term Diagnosis Question"
+    }
+  ],
+  "roles": [
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C12477",
+      "relatedName": "Astrocyte"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C3672",
+      "relatedName": "Calcification"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12438",
+      "relatedName": "Central Nervous System"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12438",
+      "relatedName": "Central Nervous System"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C35903",
+      "relatedName": "Diffuse Pattern"
+    },
+    {
+      "type": "Disease_May_Have_Cytogenetic_Abnormality",
+      "relatedCode": "C36453",
+      "relatedName": "Gain of Chromosome 7q"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C12615",
+      "relatedName": "Glial Cell"
+    },
+    {
+      "type": "Disease_Is_Grade",
+      "relatedCode": "C28078",
+      "relatedName": "Grade 2"
+    },
+    {
+      "type": "Disease_Is_Grade",
+      "relatedCode": "C28078",
+      "relatedName": "Grade 2"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C36140",
+      "relatedName": "Grade 4 Lesion"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C34661",
+      "relatedName": "Headache"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C41453",
+      "relatedName": "Infiltrative Growth Pattern"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C36130",
+      "relatedName": "Low Grade Lesion"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C41455",
+      "relatedName": "Microvascular Proliferation"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C35959",
+      "relatedName": "Mitotic Activity"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C5039",
+      "relatedName": "Motor Manifestations"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C36184",
+      "relatedName": "Necrotic Change"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C37127",
+      "relatedName": "Neoplastic Astrocyte"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12922",
+      "relatedName": "Neoplastic Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C37126",
+      "relatedName": "Neoplastic Glial Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C41408",
+      "relatedName": "Neoplastic Neuroepithelial Cell and Neoplastic Perineural Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C37125",
+      "relatedName": "Neoplastic Neuroepithelial Cell"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C41406",
+      "relatedName": "Nerve Tissue, Neuroepithelial Tissue, and Nerve Sheaths"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12755",
+      "relatedName": "Nervous System"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C41410",
+      "relatedName": "Neuroepithelial Cell"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C41409",
+      "relatedName": "Neuroepithelial Tissue"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C41405",
+      "relatedName": "Neuron, Neuroepithelial Cell, and Supporting Cell of the Nervous System"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C41611",
+      "relatedName": "Precise Histogenesis Unknown"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C2962",
+      "relatedName": "Seizure"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C5040",
+      "relatedName": "Sensory Manifestations"
+    }
+  ],
+  "history": [
+    {
+      "code": "C7173",
+      "action": "create",
+      "date": "2003-08-12"
+    },
+    {
+      "code": "C7173",
+      "action": "modify",
+      "date": "2003-10-31"
+    },
+    {
+      "code": "C7173",
+      "action": "modify",
+      "date": "2003-12-30"
+    },
+    {
+      "code": "C7173",
+      "action": "modify",
+      "date": "2004-03-30"
+    },
+    {
+      "code": "C7173",
+      "action": "modify",
+      "date": "2004-05-28"
+    },
+    {
+      "code": "C7173",
+      "action": "modify",
+      "date": "2004-11-01"
+    },
+    {
+      "code": "C7173",
+      "action": "modify",
+      "date": "2006-05-26"
+    },
+    {
+      "code": "C7173",
+      "action": "modify",
+      "date": "2007-05-25"
+    },
+    {
+      "code": "C7173",
+      "action": "modify",
+      "date": "2009-04-06"
+    },
+    {
+      "code": "C7173",
+      "action": "modify",
+      "date": "2009-11-23"
+    },
+    {
+      "code": "C7173",
+      "action": "modify",
+      "date": "2009-12-07"
+    },
+    {
+      "code": "C7173",
+      "action": "modify",
+      "date": "2010-10-25"
+    },
+    {
+      "code": "C7173",
+      "action": "modify",
+      "date": "2012-09-24"
+    },
+    {
+      "code": "C7173",
+      "action": "modify",
+      "date": "2012-10-01"
+    },
+    {
+      "code": "C7173",
+      "action": "modify",
+      "date": "2012-10-09"
+    },
+    {
+      "code": "C7173",
+      "action": "modify",
+      "date": "2012-10-15"
+    },
+    {
+      "code": "C7173",
+      "action": "modify",
+      "date": "2012-10-22"
+    },
+    {
+      "code": "C7173",
+      "action": "modify",
+      "date": "2012-10-31"
+    },
+    {
+      "code": "C7173",
+      "action": "modify",
+      "date": "2012-11-05"
+    },
+    {
+      "code": "C7173",
+      "action": "modify",
+      "date": "2012-11-13"
+    },
+    {
+      "code": "C7173",
+      "action": "modify",
+      "date": "2012-11-19"
+    },
+    {
+      "code": "C7173",
+      "action": "modify",
+      "date": "2012-11-26"
+    },
+    {
+      "code": "C7173",
+      "action": "modify",
+      "date": "2012-12-03"
+    },
+    {
+      "code": "C7173",
+      "action": "modify",
+      "date": "2012-12-10"
+    },
+    {
+      "code": "C7173",
+      "action": "modify",
+      "date": "2012-12-17"
+    },
+    {
+      "code": "C7173",
+      "action": "modify",
+      "date": "2012-12-28"
+    },
+    {
+      "code": "C7173",
+      "action": "modify",
+      "date": "2013-01-07"
+    },
+    {
+      "code": "C7173",
+      "action": "modify",
+      "date": "2013-01-14"
+    },
+    {
+      "code": "C7173",
+      "action": "modify",
+      "date": "2013-01-23"
+    },
+    {
+      "code": "C7173",
+      "action": "modify",
+      "date": "2013-02-04"
+    },
+    {
+      "code": "C7173",
+      "action": "modify",
+      "date": "2013-02-11"
+    },
+    {
+      "code": "C7173",
+      "action": "modify",
+      "date": "2013-02-19"
+    },
+    {
+      "code": "C7173",
+      "action": "modify",
+      "date": "2013-02-25"
+    },
+    {
+      "code": "C7173",
+      "action": "modify",
+      "date": "2013-03-04"
+    },
+    {
+      "code": "C7173",
+      "action": "modify",
+      "date": "2013-03-11"
+    },
+    {
+      "code": "C7173",
+      "action": "modify",
+      "date": "2013-03-18"
+    },
+    {
+      "code": "C7173",
+      "action": "modify",
+      "date": "2013-03-25"
+    },
+    {
+      "code": "C7173",
+      "action": "modify",
+      "date": "2013-04-01"
+    },
+    {
+      "code": "C7173",
+      "action": "modify",
+      "date": "2013-04-08"
+    },
+    {
+      "code": "C7173",
+      "action": "modify",
+      "date": "2013-04-15"
+    },
+    {
+      "code": "C7173",
+      "action": "modify",
+      "date": "2013-04-22"
+    },
+    {
+      "code": "C7173",
+      "action": "modify",
+      "date": "2013-04-29"
+    },
+    {
+      "code": "C7173",
+      "action": "modify",
+      "date": "2013-05-06"
+    },
+    {
+      "code": "C7173",
+      "action": "modify",
+      "date": "2013-05-13"
+    },
+    {
+      "code": "C7173",
+      "action": "modify",
+      "date": "2013-05-20"
+    },
+    {
+      "code": "C7173",
+      "action": "modify",
+      "date": "2013-05-28"
+    },
+    {
+      "code": "C7173",
+      "action": "modify",
+      "date": "2013-06-03"
+    },
+    {
+      "code": "C7173",
+      "action": "modify",
+      "date": "2013-06-10"
+    },
+    {
+      "code": "C7173",
+      "action": "modify",
+      "date": "2013-06-17"
+    },
+    {
+      "code": "C7173",
+      "action": "modify",
+      "date": "2013-06-24"
+    },
+    {
+      "code": "C7173",
+      "action": "modify",
+      "date": "2013-07-01"
+    },
+    {
+      "code": "C7173",
+      "action": "modify",
+      "date": "2013-07-08"
+    },
+    {
+      "code": "C7173",
+      "action": "modify",
+      "date": "2014-02-03"
+    },
+    {
+      "code": "C7173",
+      "action": "modify",
+      "date": "2014-06-16"
+    },
+    {
+      "code": "C7173",
+      "action": "modify",
+      "date": "2014-11-24"
+    },
+    {
+      "code": "C7173",
+      "action": "modify",
+      "date": "2014-12-01"
+    },
+    {
+      "code": "C7173",
+      "action": "modify",
+      "date": "2014-12-08"
+    },
+    {
+      "code": "C7173",
+      "action": "modify",
+      "date": "2014-12-15"
+    },
+    {
+      "code": "C7173",
+      "action": "modify",
+      "date": "2014-12-22"
+    },
+    {
+      "code": "C7173",
+      "action": "modify",
+      "date": "2014-12-29"
+    },
+    {
+      "code": "C7173",
+      "action": "modify",
+      "date": "2015-01-05"
+    },
+    {
+      "code": "C7173",
+      "action": "modify",
+      "date": "2015-01-12"
+    },
+    {
+      "code": "C7173",
+      "action": "modify",
+      "date": "2015-01-20"
+    },
+    {
+      "code": "C7173",
+      "action": "modify",
+      "date": "2015-01-26"
+    },
+    {
+      "code": "C7173",
+      "action": "modify",
+      "date": "2015-02-02"
+    },
+    {
+      "code": "C7173",
+      "action": "modify",
+      "date": "2015-02-09"
+    },
+    {
+      "code": "C7173",
+      "action": "modify",
+      "date": "2015-02-17"
+    },
+    {
+      "code": "C7173",
+      "action": "modify",
+      "date": "2015-02-23"
+    },
+    {
+      "code": "C7173",
+      "action": "modify",
+      "date": "2015-03-02"
+    },
+    {
+      "code": "C7173",
+      "action": "modify",
+      "date": "2015-03-09"
+    },
+    {
+      "code": "C7173",
+      "action": "modify",
+      "date": "2015-03-16"
+    },
+    {
+      "code": "C7173",
+      "action": "modify",
+      "date": "2015-03-23"
+    },
+    {
+      "code": "C7173",
+      "action": "modify",
+      "date": "2015-03-30"
+    },
+    {
+      "code": "C7173",
+      "action": "modify",
+      "date": "2015-04-06"
+    },
+    {
+      "code": "C7173",
+      "action": "modify",
+      "date": "2015-04-13"
+    },
+    {
+      "code": "C7173",
+      "action": "modify",
+      "date": "2015-04-20"
+    },
+    {
+      "code": "C7173",
+      "action": "modify",
+      "date": "2015-04-27"
+    },
+    {
+      "code": "C7173",
+      "action": "modify",
+      "date": "2015-05-04"
+    },
+    {
+      "code": "C7173",
+      "action": "modify",
+      "date": "2015-05-11"
+    },
+    {
+      "code": "C7173",
+      "action": "modify",
+      "date": "2015-05-18"
+    },
+    {
+      "code": "C7173",
+      "action": "modify",
+      "date": "2016-04-25"
+    },
+    {
+      "code": "C7173",
+      "action": "modify",
+      "date": "2016-08-22"
+    },
+    {
+      "code": "C7173",
+      "action": "modify",
+      "date": "2016-09-20"
+    },
+    {
+      "code": "C7173",
+      "action": "modify",
+      "date": "2016-09-26"
+    },
+    {
+      "code": "C7173",
+      "action": "modify",
+      "date": "2017-03-13"
+    },
+    {
+      "code": "C7173",
+      "action": "modify",
+      "date": "2018-09-24"
+    },
+    {
+      "code": "C7173",
+      "action": "modify",
+      "date": "2018-10-29"
+    },
+    {
+      "code": "C7173",
+      "action": "modify",
+      "date": "2018-10-29"
+    },
+    {
+      "code": "C7173",
+      "action": "modify",
+      "date": "2019-05-28"
+    },
+    {
+      "code": "C7173",
+      "action": "modify",
+      "date": "2019-09-30"
+    },
+    {
+      "code": "C7173",
+      "action": "modify",
+      "date": "2019-11-25"
+    },
+    {
+      "code": "C7173",
+      "action": "modify",
+      "date": "2020-09-29"
+    },
+    {
+      "code": "C7173",
+      "action": "modify",
+      "date": "2020-12-28"
+    },
+    {
+      "code": "C7173",
+      "action": "modify",
+      "date": "2021-02-22"
+    },
+    {
+      "code": "C7173",
+      "action": "modify",
+      "date": "2021-03-29"
+    },
+    {
+      "code": "C7173",
+      "action": "modify",
+      "date": "2022-01-31"
+    },
+    {
+      "code": "C7173",
+      "action": "modify",
+      "date": "2023-11-27"
+    },
+    {
+      "code": "C7173",
+      "action": "modify",
+      "date": "2023-12-26"
+    },
+    {
+      "code": "C7173",
+      "action": "modify",
+      "date": "2025-03-31"
+    },
+    {
+      "code": "C7173",
+      "action": "modify",
+      "date": "2025-04-28"
+    }
+  ],
+  "maps": [
+    {
+      "type": "Related To",
+      "targetName": "9400/3",
+      "targetTermType": "PT",
+      "targetCode": "morphology",
+      "targetTerminology": "GDC"
+    },
+    {
+      "type": "Related To",
+      "targetName": "Astrocytoma, low grade",
+      "targetTermType": "PT",
+      "targetCode": "primary_diagnosis",
+      "targetTerminology": "GDC"
+    },
+    {
+      "type": "Related To",
+      "targetName": "Cystic astrocytoma",
+      "targetTermType": "PT",
+      "targetCode": "primary_diagnosis",
+      "targetTerminology": "GDC"
+    },
+    {
+      "type": "Related To",
+      "targetName": "Diffuse astrocytoma, low grade",
+      "targetTermType": "PT",
+      "targetCode": "primary_diagnosis",
+      "targetTerminology": "GDC"
+    },
+    {
+      "type": "Has Synonym",
+      "targetName": "Diffuse astrocytoma",
+      "targetTermType": "PT",
+      "targetCode": "primary_diagnosis",
+      "targetTerminology": "GDC"
+    }
+  ]
+}

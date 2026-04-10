@@ -1,0 +1,1570 @@
+{
+  "code": "C3520",
+  "name": "Myeloid Sarcoma",
+  "terminology": "ncit",
+  "version": "25.11d",
+  "conceptStatus": "DEFAULT",
+  "leaf": false,
+  "active": true,
+  "synonyms": [
+    {
+      "name": "Myeloid Sarcoma",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "caDSR"
+    },
+    {
+      "name": "Chloroma",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "CDISC"
+    },
+    {
+      "name": "Extramedullary Myeloid Tumor",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "CDISC"
+    },
+    {
+      "name": "SARCOMA, MYELOID, MALIGNANT",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "CDISC"
+    },
+    {
+      "name": "Myeloid Sarcoma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "CPTAC"
+    },
+    {
+      "name": "Myeloid Sarcoma",
+      "termType": "DN",
+      "type": "FULL_SYN",
+      "source": "CTRP"
+    },
+    {
+      "name": "Chloroma",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "GDC"
+    },
+    {
+      "name": "Myeloid sarcoma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "GDC"
+    },
+    {
+      "name": "chloroma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NCI-GLOSS",
+      "code": "CDR0000335063"
+    },
+    {
+      "name": "Chloroma",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Extramedullary Myeloid Sarcoma",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Extramedullary Myeloid Tumor",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Myeloid Sarcoma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Myeloid Sarcoma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NICHD"
+    },
+    {
+      "name": "Myeloid Sarcoma",
+      "type": "Display_Name"
+    },
+    {
+      "name": "Myeloid Sarcoma",
+      "type": "Preferred_Name"
+    },
+    {
+      "name": "Myeloid Sarcoma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "PCDC",
+      "code": "AV-DC",
+      "subSource": "AML"
+    },
+    {
+      "name": "MYELOID_SARCOMA",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "PCDC",
+      "code": "VAR-MSI",
+      "subSource": "AML"
+    }
+  ],
+  "definitions": [
+    {
+      "definition": "A malignant neoplasm composed of myeloblasts or immature myeloid cells. It occurs in extramedullary sites or the bone.",
+      "type": "ALT_DEFINITION",
+      "source": "CDISC"
+    },
+    {
+      "definition": "A malignant, green-colored tumor of myeloid cells (a type of immature white blood cell). This tumor is usually associated with myelogenous leukemia.",
+      "type": "ALT_DEFINITION",
+      "source": "NCI-GLOSS"
+    },
+    {
+      "definition": "A tumor mass composed of myeloblasts or immature myeloid cells.  It occurs in extramedullary sites or the bone.  (WHO, 2001)",
+      "type": "DEFINITION",
+      "source": "NCI"
+    },
+    {
+      "definition": "A tumor mass composed of myeloblasts or immature myeloid cells. It occurs in extramedullary sites or the bone. (WHO, 2001)",
+      "type": "ALT_DEFINITION",
+      "source": "NICHD"
+    }
+  ],
+  "properties": [
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "CDISC"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "CPTAC"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "CTRP"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "GDC"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "NICHD"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "PCDC"
+    },
+    {
+      "code": "P334",
+      "type": "ICD-O-3_Code",
+      "value": "9930/3"
+    },
+    {
+      "code": "P366",
+      "type": "Legacy Concept Name",
+      "value": "Myeloid_Sarcoma"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "9930/3"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "Chloroma"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "Myeloid sarcoma"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "Myeloid sarcoma without mention of having achieved remission"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "Myeloid sarcoma, not having achieved remission"
+    },
+    {
+      "code": "P208",
+      "type": "NCI_META_CUI",
+      "value": "CL414320"
+    },
+    {
+      "code": "P363",
+      "type": "Neoplastic_Status",
+      "value": "Malignant"
+    },
+    {
+      "code": "P106",
+      "type": "Semantic_Type",
+      "value": "Neoplastic Process"
+    }
+  ],
+  "children": [
+    {
+      "code": "C5370",
+      "name": "Cardiac Myeloid Sarcoma",
+      "leaf": true
+    },
+    {
+      "code": "C209277",
+      "name": "Childhood Myeloid Sarcoma",
+      "leaf": true
+    },
+    {
+      "code": "C206205",
+      "name": "Cutaneous Myeloid Sarcoma",
+      "leaf": true
+    },
+    {
+      "code": "C35815",
+      "name": "Granulocytic Sarcoma",
+      "leaf": false
+    },
+    {
+      "code": "C202914",
+      "name": "Head and Neck Myeloid Sarcoma",
+      "leaf": false
+    },
+    {
+      "code": "C7008",
+      "name": "Intracranial Myeloid Sarcoma",
+      "leaf": true
+    },
+    {
+      "code": "C45741",
+      "name": "Mediastinal Myeloid Sarcoma",
+      "leaf": false
+    },
+    {
+      "code": "C35816",
+      "name": "Monoblastic Sarcoma",
+      "leaf": true
+    },
+    {
+      "code": "C5527",
+      "name": "Prostate Myeloid Sarcoma",
+      "leaf": true
+    },
+    {
+      "code": "C193432",
+      "name": "Recurrent Myeloid Sarcoma",
+      "leaf": true
+    },
+    {
+      "code": "C132260",
+      "name": "Small Intestinal Myeloid Sarcoma",
+      "leaf": true
+    },
+    {
+      "code": "C162469",
+      "name": "Testicular Myeloid Sarcoma",
+      "leaf": true
+    }
+  ],
+  "parents": [
+    {
+      "code": "C9305",
+      "name": "Malignant Neoplasm"
+    },
+    {
+      "code": "C9290",
+      "name": "Myeloid Neoplasm"
+    }
+  ],
+  "associations": [
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C174019",
+      "relatedName": "AML Authorized Value Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C173232",
+      "relatedName": "AML Disease Characteristics Table"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C173204",
+      "relatedName": "AML Myeloid Sarcoma Involvement Table"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C174018",
+      "relatedName": "AML Variable Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C77526",
+      "relatedName": "CDISC SEND Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C88025",
+      "relatedName": "CDISC SEND Tumor Findings Results Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C61410",
+      "relatedName": "Clinical Data Interchange Standards Consortium Terminology"
+    },
+    {
+      "type": "Has_PCDC_Data_Type",
+      "relatedCode": "C25162",
+      "relatedName": "Code"
+    },
+    {
+      "type": "Is_Value_For_GDC_Property",
+      "relatedCode": "C16457",
+      "relatedName": "Comorbidity"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C158520",
+      "relatedName": "CPTAC Codelists Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C156966",
+      "relatedName": "CPTAC Neoplasms Codelist"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C156952",
+      "relatedName": "CPTAC Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C118168",
+      "relatedName": "CTRP Disease Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C116977",
+      "relatedName": "CTRP Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C157711",
+      "relatedName": "GDC Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C177537",
+      "relatedName": "GDC Value Terminology"
+    },
+    {
+      "type": "Is_Value_For_GDC_Property",
+      "relatedCode": "C176985",
+      "relatedName": "Histology ICD-O Morphology Code"
+    },
+    {
+      "type": "Is_Value_For_GDC_Property",
+      "relatedCode": "C177621",
+      "relatedName": "ICD-O-3 Morphology Term Diagnosis Question"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168658",
+      "relatedName": "Mapped ICDO3.1 Morphology PT Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168657",
+      "relatedName": "Mapped ICDO3.1 Morphology Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168655",
+      "relatedName": "Mapped ICDO3.1 Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168662",
+      "relatedName": "Mapped ICDO3.2 Morphology PT Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168661",
+      "relatedName": "Mapped ICDO3.2 Morphology Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168656",
+      "relatedName": "Mapped ICDO3.2 Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C126659",
+      "relatedName": "NCIt Neoplasm Core Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C90259",
+      "relatedName": "NICHD Terminology"
+    },
+    {
+      "type": "Has_PCDC_AML_Authorized_Value",
+      "relatedCode": "C49487",
+      "relatedName": "No"
+    },
+    {
+      "type": "Has_PCDC_AML_Authorized_Value",
+      "relatedCode": "C43234",
+      "relatedName": "Not Reported"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C132009",
+      "relatedName": "Pediatric Hematology-Oncology Terminology"
+    },
+    {
+      "type": "Is_Value_For_GDC_Property",
+      "relatedCode": "C17103",
+      "relatedName": "Risk Factor"
+    },
+    {
+      "type": "Has_PCDC_AML_Authorized_Value",
+      "relatedCode": "C17998",
+      "relatedName": "Unknown"
+    },
+    {
+      "type": "Is_PCDC_AML_Authorized_Value_For_Variable",
+      "relatedCode": "C159157",
+      "relatedName": "WHO AML Classification of Tumors"
+    },
+    {
+      "type": "Has_PCDC_AML_Authorized_Value",
+      "relatedCode": "C49488",
+      "relatedName": "Yes"
+    }
+  ],
+  "inverseAssociations": [
+    {
+      "type": "Has_GDC_Value",
+      "relatedCode": "C16457",
+      "relatedName": "Comorbidity"
+    },
+    {
+      "type": "Has_GDC_Value",
+      "relatedCode": "C176985",
+      "relatedName": "Histology ICD-O Morphology Code"
+    },
+    {
+      "type": "Has_GDC_Value",
+      "relatedCode": "C177621",
+      "relatedName": "ICD-O-3 Morphology Term Diagnosis Question"
+    },
+    {
+      "type": "Is_PCDC_AML_Authorized_Value_For_Variable",
+      "relatedCode": "C49487",
+      "relatedName": "No"
+    },
+    {
+      "type": "Is_PCDC_AML_Authorized_Value_For_Variable",
+      "relatedCode": "C43234",
+      "relatedName": "Not Reported"
+    },
+    {
+      "type": "Has_GDC_Value",
+      "relatedCode": "C17103",
+      "relatedName": "Risk Factor"
+    },
+    {
+      "type": "Is_PCDC_AML_Authorized_Value_For_Variable",
+      "relatedCode": "C17998",
+      "relatedName": "Unknown"
+    },
+    {
+      "type": "Has_PCDC_AML_Authorized_Value",
+      "relatedCode": "C159157",
+      "relatedName": "WHO AML Classification of Tumors"
+    },
+    {
+      "type": "Is_PCDC_AML_Authorized_Value_For_Variable",
+      "relatedCode": "C49488",
+      "relatedName": "Yes"
+    }
+  ],
+  "roles": [
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C36122",
+      "relatedName": "Benign Cellular Infiltrate"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C12552",
+      "relatedName": "Bone Marrow Myeloid Stem Cell"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C13456",
+      "relatedName": "Bone Marrow Stem Cell"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C41165",
+      "relatedName": "Hematopoietic and Lymphatic System"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C41165",
+      "relatedName": "Hematopoietic and Lymphatic System"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C32725",
+      "relatedName": "Hematopoietic and Lymphoid Cell"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C41168",
+      "relatedName": "Hematopoietic and Lymphoid Tissue"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C13051",
+      "relatedName": "Hematopoietic Tissue"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12917",
+      "relatedName": "Malignant Cell"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C36115",
+      "relatedName": "Malignant Cellular Infiltrate"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C34808",
+      "relatedName": "Mass"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12922",
+      "relatedName": "Neoplastic Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C37060",
+      "relatedName": "Neoplastic Hematopoietic and Lymphoid Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C41063",
+      "relatedName": "Neoplastic Myeloid Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C41063",
+      "relatedName": "Neoplastic Myeloid Cell"
+    }
+  ],
+  "history": [
+    {
+      "code": "C3520",
+      "action": "create",
+      "date": "2003-08-12"
+    },
+    {
+      "code": "C3520",
+      "action": "modify",
+      "date": "2003-10-31"
+    },
+    {
+      "code": "C3520",
+      "action": "modify",
+      "date": "2003-12-30"
+    },
+    {
+      "code": "C3520",
+      "action": "modify",
+      "date": "2004-03-30"
+    },
+    {
+      "code": "C3520",
+      "action": "modify",
+      "date": "2004-12-30"
+    },
+    {
+      "code": "C3520",
+      "action": "modify",
+      "date": "2007-03-30"
+    },
+    {
+      "code": "C3520",
+      "action": "modify",
+      "date": "2007-05-25"
+    },
+    {
+      "code": "C3520",
+      "action": "modify",
+      "date": "2009-04-06"
+    },
+    {
+      "code": "C3520",
+      "action": "modify",
+      "date": "2009-06-29"
+    },
+    {
+      "code": "C3520",
+      "action": "modify",
+      "date": "2009-10-27"
+    },
+    {
+      "code": "C3520",
+      "action": "modify",
+      "date": "2009-11-23"
+    },
+    {
+      "code": "C3520",
+      "action": "modify",
+      "date": "2010-06-01"
+    },
+    {
+      "code": "C3520",
+      "action": "modify",
+      "date": "2010-06-07"
+    },
+    {
+      "code": "C3520",
+      "action": "modify",
+      "date": "2010-08-02"
+    },
+    {
+      "code": "C3520",
+      "action": "modify",
+      "date": "2010-11-01"
+    },
+    {
+      "code": "C3520",
+      "action": "modify",
+      "date": "2010-11-08"
+    },
+    {
+      "code": "C3520",
+      "action": "modify",
+      "date": "2010-11-15"
+    },
+    {
+      "code": "C3520",
+      "action": "modify",
+      "date": "2010-11-22"
+    },
+    {
+      "code": "C3520",
+      "action": "modify",
+      "date": "2010-11-29"
+    },
+    {
+      "code": "C3520",
+      "action": "modify",
+      "date": "2010-12-06"
+    },
+    {
+      "code": "C3520",
+      "action": "modify",
+      "date": "2010-12-13"
+    },
+    {
+      "code": "C3520",
+      "action": "modify",
+      "date": "2010-12-27"
+    },
+    {
+      "code": "C3520",
+      "action": "modify",
+      "date": "2011-01-03"
+    },
+    {
+      "code": "C3520",
+      "action": "modify",
+      "date": "2011-01-10"
+    },
+    {
+      "code": "C3520",
+      "action": "modify",
+      "date": "2011-01-17"
+    },
+    {
+      "code": "C3520",
+      "action": "modify",
+      "date": "2011-01-24"
+    },
+    {
+      "code": "C3520",
+      "action": "modify",
+      "date": "2011-01-31"
+    },
+    {
+      "code": "C3520",
+      "action": "modify",
+      "date": "2011-04-11"
+    },
+    {
+      "code": "C3520",
+      "action": "modify",
+      "date": "2011-11-14"
+    },
+    {
+      "code": "C3520",
+      "action": "modify",
+      "date": "2011-11-21"
+    },
+    {
+      "code": "C3520",
+      "action": "modify",
+      "date": "2011-11-28"
+    },
+    {
+      "code": "C3520",
+      "action": "modify",
+      "date": "2011-12-05"
+    },
+    {
+      "code": "C3520",
+      "action": "modify",
+      "date": "2011-12-12"
+    },
+    {
+      "code": "C3520",
+      "action": "modify",
+      "date": "2011-12-19"
+    },
+    {
+      "code": "C3520",
+      "action": "modify",
+      "date": "2011-12-27"
+    },
+    {
+      "code": "C3520",
+      "action": "modify",
+      "date": "2012-01-09"
+    },
+    {
+      "code": "C3520",
+      "action": "modify",
+      "date": "2012-01-17"
+    },
+    {
+      "code": "C3520",
+      "action": "modify",
+      "date": "2012-01-23"
+    },
+    {
+      "code": "C3520",
+      "action": "modify",
+      "date": "2012-01-30"
+    },
+    {
+      "code": "C3520",
+      "action": "modify",
+      "date": "2012-02-06"
+    },
+    {
+      "code": "C3520",
+      "action": "modify",
+      "date": "2012-02-13"
+    },
+    {
+      "code": "C3520",
+      "action": "modify",
+      "date": "2012-02-21"
+    },
+    {
+      "code": "C3520",
+      "action": "modify",
+      "date": "2012-02-27"
+    },
+    {
+      "code": "C3520",
+      "action": "modify",
+      "date": "2012-03-05"
+    },
+    {
+      "code": "C3520",
+      "action": "modify",
+      "date": "2012-03-12"
+    },
+    {
+      "code": "C3520",
+      "action": "modify",
+      "date": "2012-03-19"
+    },
+    {
+      "code": "C3520",
+      "action": "modify",
+      "date": "2012-03-26"
+    },
+    {
+      "code": "C3520",
+      "action": "modify",
+      "date": "2012-04-02"
+    },
+    {
+      "code": "C3520",
+      "action": "modify",
+      "date": "2012-04-09"
+    },
+    {
+      "code": "C3520",
+      "action": "modify",
+      "date": "2012-04-16"
+    },
+    {
+      "code": "C3520",
+      "action": "modify",
+      "date": "2012-04-23"
+    },
+    {
+      "code": "C3520",
+      "action": "modify",
+      "date": "2012-04-30"
+    },
+    {
+      "code": "C3520",
+      "action": "modify",
+      "date": "2012-05-07"
+    },
+    {
+      "code": "C3520",
+      "action": "modify",
+      "date": "2012-05-14"
+    },
+    {
+      "code": "C3520",
+      "action": "modify",
+      "date": "2012-05-21"
+    },
+    {
+      "code": "C3520",
+      "action": "modify",
+      "date": "2012-05-29"
+    },
+    {
+      "code": "C3520",
+      "action": "modify",
+      "date": "2012-06-04"
+    },
+    {
+      "code": "C3520",
+      "action": "modify",
+      "date": "2012-06-11"
+    },
+    {
+      "code": "C3520",
+      "action": "modify",
+      "date": "2012-06-18"
+    },
+    {
+      "code": "C3520",
+      "action": "modify",
+      "date": "2012-06-18"
+    },
+    {
+      "code": "C3520",
+      "action": "modify",
+      "date": "2012-06-25"
+    },
+    {
+      "code": "C3520",
+      "action": "modify",
+      "date": "2012-07-03"
+    },
+    {
+      "code": "C3520",
+      "action": "modify",
+      "date": "2012-07-16"
+    },
+    {
+      "code": "C3520",
+      "action": "modify",
+      "date": "2012-07-23"
+    },
+    {
+      "code": "C3520",
+      "action": "modify",
+      "date": "2012-07-30"
+    },
+    {
+      "code": "C3520",
+      "action": "modify",
+      "date": "2012-08-06"
+    },
+    {
+      "code": "C3520",
+      "action": "modify",
+      "date": "2012-08-13"
+    },
+    {
+      "code": "C3520",
+      "action": "modify",
+      "date": "2012-08-20"
+    },
+    {
+      "code": "C3520",
+      "action": "modify",
+      "date": "2012-08-27"
+    },
+    {
+      "code": "C3520",
+      "action": "modify",
+      "date": "2012-09-04"
+    },
+    {
+      "code": "C3520",
+      "action": "modify",
+      "date": "2012-09-10"
+    },
+    {
+      "code": "C3520",
+      "action": "modify",
+      "date": "2012-09-17"
+    },
+    {
+      "code": "C3520",
+      "action": "modify",
+      "date": "2012-09-24"
+    },
+    {
+      "code": "C3520",
+      "action": "modify",
+      "date": "2012-10-01"
+    },
+    {
+      "code": "C3520",
+      "action": "modify",
+      "date": "2012-10-09"
+    },
+    {
+      "code": "C3520",
+      "action": "modify",
+      "date": "2012-10-15"
+    },
+    {
+      "code": "C3520",
+      "action": "modify",
+      "date": "2012-10-22"
+    },
+    {
+      "code": "C3520",
+      "action": "modify",
+      "date": "2012-10-31"
+    },
+    {
+      "code": "C3520",
+      "action": "modify",
+      "date": "2012-11-05"
+    },
+    {
+      "code": "C3520",
+      "action": "modify",
+      "date": "2012-11-13"
+    },
+    {
+      "code": "C3520",
+      "action": "modify",
+      "date": "2012-11-19"
+    },
+    {
+      "code": "C3520",
+      "action": "modify",
+      "date": "2012-11-26"
+    },
+    {
+      "code": "C3520",
+      "action": "modify",
+      "date": "2012-12-03"
+    },
+    {
+      "code": "C3520",
+      "action": "modify",
+      "date": "2012-12-10"
+    },
+    {
+      "code": "C3520",
+      "action": "modify",
+      "date": "2012-12-17"
+    },
+    {
+      "code": "C3520",
+      "action": "modify",
+      "date": "2012-12-28"
+    },
+    {
+      "code": "C3520",
+      "action": "modify",
+      "date": "2013-01-07"
+    },
+    {
+      "code": "C3520",
+      "action": "modify",
+      "date": "2013-01-14"
+    },
+    {
+      "code": "C3520",
+      "action": "modify",
+      "date": "2013-01-23"
+    },
+    {
+      "code": "C3520",
+      "action": "modify",
+      "date": "2013-02-04"
+    },
+    {
+      "code": "C3520",
+      "action": "modify",
+      "date": "2013-02-11"
+    },
+    {
+      "code": "C3520",
+      "action": "modify",
+      "date": "2013-02-19"
+    },
+    {
+      "code": "C3520",
+      "action": "modify",
+      "date": "2013-02-25"
+    },
+    {
+      "code": "C3520",
+      "action": "modify",
+      "date": "2013-03-04"
+    },
+    {
+      "code": "C3520",
+      "action": "modify",
+      "date": "2013-03-11"
+    },
+    {
+      "code": "C3520",
+      "action": "modify",
+      "date": "2013-03-18"
+    },
+    {
+      "code": "C3520",
+      "action": "modify",
+      "date": "2013-03-25"
+    },
+    {
+      "code": "C3520",
+      "action": "modify",
+      "date": "2013-04-01"
+    },
+    {
+      "code": "C3520",
+      "action": "modify",
+      "date": "2013-04-08"
+    },
+    {
+      "code": "C3520",
+      "action": "modify",
+      "date": "2013-04-15"
+    },
+    {
+      "code": "C3520",
+      "action": "modify",
+      "date": "2013-04-22"
+    },
+    {
+      "code": "C3520",
+      "action": "modify",
+      "date": "2013-04-29"
+    },
+    {
+      "code": "C3520",
+      "action": "modify",
+      "date": "2013-05-06"
+    },
+    {
+      "code": "C3520",
+      "action": "modify",
+      "date": "2013-05-13"
+    },
+    {
+      "code": "C3520",
+      "action": "modify",
+      "date": "2013-05-20"
+    },
+    {
+      "code": "C3520",
+      "action": "modify",
+      "date": "2013-05-28"
+    },
+    {
+      "code": "C3520",
+      "action": "modify",
+      "date": "2013-06-03"
+    },
+    {
+      "code": "C3520",
+      "action": "modify",
+      "date": "2013-06-10"
+    },
+    {
+      "code": "C3520",
+      "action": "modify",
+      "date": "2013-06-17"
+    },
+    {
+      "code": "C3520",
+      "action": "modify",
+      "date": "2013-06-24"
+    },
+    {
+      "code": "C3520",
+      "action": "modify",
+      "date": "2013-07-01"
+    },
+    {
+      "code": "C3520",
+      "action": "modify",
+      "date": "2013-07-08"
+    },
+    {
+      "code": "C3520",
+      "action": "modify",
+      "date": "2014-02-03"
+    },
+    {
+      "code": "C3520",
+      "action": "modify",
+      "date": "2014-11-24"
+    },
+    {
+      "code": "C3520",
+      "action": "modify",
+      "date": "2014-12-01"
+    },
+    {
+      "code": "C3520",
+      "action": "modify",
+      "date": "2014-12-08"
+    },
+    {
+      "code": "C3520",
+      "action": "modify",
+      "date": "2014-12-15"
+    },
+    {
+      "code": "C3520",
+      "action": "modify",
+      "date": "2014-12-22"
+    },
+    {
+      "code": "C3520",
+      "action": "modify",
+      "date": "2014-12-29"
+    },
+    {
+      "code": "C3520",
+      "action": "modify",
+      "date": "2015-01-05"
+    },
+    {
+      "code": "C3520",
+      "action": "modify",
+      "date": "2015-01-12"
+    },
+    {
+      "code": "C3520",
+      "action": "modify",
+      "date": "2015-01-20"
+    },
+    {
+      "code": "C3520",
+      "action": "modify",
+      "date": "2015-01-26"
+    },
+    {
+      "code": "C3520",
+      "action": "modify",
+      "date": "2015-02-02"
+    },
+    {
+      "code": "C3520",
+      "action": "modify",
+      "date": "2015-02-09"
+    },
+    {
+      "code": "C3520",
+      "action": "modify",
+      "date": "2015-02-17"
+    },
+    {
+      "code": "C3520",
+      "action": "modify",
+      "date": "2015-02-23"
+    },
+    {
+      "code": "C3520",
+      "action": "modify",
+      "date": "2015-03-02"
+    },
+    {
+      "code": "C3520",
+      "action": "modify",
+      "date": "2015-03-09"
+    },
+    {
+      "code": "C3520",
+      "action": "modify",
+      "date": "2015-03-16"
+    },
+    {
+      "code": "C3520",
+      "action": "modify",
+      "date": "2015-03-23"
+    },
+    {
+      "code": "C3520",
+      "action": "modify",
+      "date": "2015-03-30"
+    },
+    {
+      "code": "C3520",
+      "action": "modify",
+      "date": "2015-04-06"
+    },
+    {
+      "code": "C3520",
+      "action": "modify",
+      "date": "2015-04-13"
+    },
+    {
+      "code": "C3520",
+      "action": "modify",
+      "date": "2015-04-20"
+    },
+    {
+      "code": "C3520",
+      "action": "modify",
+      "date": "2015-04-27"
+    },
+    {
+      "code": "C3520",
+      "action": "modify",
+      "date": "2015-05-04"
+    },
+    {
+      "code": "C3520",
+      "action": "modify",
+      "date": "2015-05-11"
+    },
+    {
+      "code": "C3520",
+      "action": "modify",
+      "date": "2015-05-18"
+    },
+    {
+      "code": "C3520",
+      "action": "modify",
+      "date": "2016-04-25"
+    },
+    {
+      "code": "C3520",
+      "action": "modify",
+      "date": "2016-08-22"
+    },
+    {
+      "code": "C3520",
+      "action": "modify",
+      "date": "2017-02-13"
+    },
+    {
+      "code": "C3520",
+      "action": "modify",
+      "date": "2017-02-21"
+    },
+    {
+      "code": "C3520",
+      "action": "modify",
+      "date": "2017-02-27"
+    },
+    {
+      "code": "C3520",
+      "action": "modify",
+      "date": "2017-03-06"
+    },
+    {
+      "code": "C3520",
+      "action": "modify",
+      "date": "2017-03-13"
+    },
+    {
+      "code": "C3520",
+      "action": "modify",
+      "date": "2017-03-20"
+    },
+    {
+      "code": "C3520",
+      "action": "modify",
+      "date": "2017-03-27"
+    },
+    {
+      "code": "C3520",
+      "action": "modify",
+      "date": "2017-04-03"
+    },
+    {
+      "code": "C3520",
+      "action": "modify",
+      "date": "2017-04-10"
+    },
+    {
+      "code": "C3520",
+      "action": "modify",
+      "date": "2017-04-17"
+    },
+    {
+      "code": "C3520",
+      "action": "modify",
+      "date": "2017-04-24"
+    },
+    {
+      "code": "C3520",
+      "action": "modify",
+      "date": "2017-05-01"
+    },
+    {
+      "code": "C3520",
+      "action": "modify",
+      "date": "2017-05-04"
+    },
+    {
+      "code": "C3520",
+      "action": "modify",
+      "date": "2018-09-24"
+    },
+    {
+      "code": "C3520",
+      "action": "modify",
+      "date": "2018-10-29"
+    },
+    {
+      "code": "C3520",
+      "action": "modify",
+      "date": "2018-10-29"
+    },
+    {
+      "code": "C3520",
+      "action": "modify",
+      "date": "2018-12-31"
+    },
+    {
+      "code": "C3520",
+      "action": "modify",
+      "date": "2019-03-25"
+    },
+    {
+      "code": "C3520",
+      "action": "modify",
+      "date": "2019-05-28"
+    },
+    {
+      "code": "C3520",
+      "action": "modify",
+      "date": "2019-09-30"
+    },
+    {
+      "code": "C3520",
+      "action": "modify",
+      "date": "2019-11-25"
+    },
+    {
+      "code": "C3520",
+      "action": "modify",
+      "date": "2020-02-24"
+    },
+    {
+      "code": "C3520",
+      "action": "modify",
+      "date": "2020-04-27"
+    },
+    {
+      "code": "C3520",
+      "action": "modify",
+      "date": "2020-06-29"
+    },
+    {
+      "code": "C3520",
+      "action": "modify",
+      "date": "2020-07-27"
+    },
+    {
+      "code": "C3520",
+      "action": "modify",
+      "date": "2020-08-31"
+    },
+    {
+      "code": "C3520",
+      "action": "modify",
+      "date": "2020-09-29"
+    },
+    {
+      "code": "C3520",
+      "action": "modify",
+      "date": "2020-11-30"
+    },
+    {
+      "code": "C3520",
+      "action": "modify",
+      "date": "2020-12-28"
+    },
+    {
+      "code": "C3520",
+      "action": "modify",
+      "date": "2021-02-22"
+    },
+    {
+      "code": "C3520",
+      "action": "modify",
+      "date": "2021-03-29"
+    },
+    {
+      "code": "C3520",
+      "action": "modify",
+      "date": "2021-06-28"
+    },
+    {
+      "code": "C3520",
+      "action": "modify",
+      "date": "2021-11-29"
+    },
+    {
+      "code": "C3520",
+      "action": "modify",
+      "date": "2022-08-29"
+    },
+    {
+      "code": "C3520",
+      "action": "modify",
+      "date": "2022-10-31"
+    },
+    {
+      "code": "C3520",
+      "action": "modify",
+      "date": "2022-12-27"
+    },
+    {
+      "code": "C3520",
+      "action": "modify",
+      "date": "2023-02-27"
+    },
+    {
+      "code": "C3520",
+      "action": "modify",
+      "date": "2023-04-24"
+    },
+    {
+      "code": "C3520",
+      "action": "modify",
+      "date": "2023-12-26"
+    }
+  ],
+  "maps": [
+    {
+      "type": "Related To",
+      "targetName": "9930/3",
+      "targetTermType": "PT",
+      "targetCode": "morphology",
+      "targetTerminology": "GDC"
+    },
+    {
+      "type": "Has Synonym",
+      "targetName": "Chloroma",
+      "targetTermType": "PT",
+      "targetCode": "comorbidities",
+      "targetTerminology": "GDC"
+    },
+    {
+      "type": "Has Synonym",
+      "targetName": "Chloroma",
+      "targetTermType": "PT",
+      "targetCode": "primary_diagnosis",
+      "targetTerminology": "GDC"
+    },
+    {
+      "type": "Has Synonym",
+      "targetName": "Chloroma",
+      "targetTermType": "PT",
+      "targetCode": "risk_factors",
+      "targetTerminology": "GDC"
+    },
+    {
+      "type": "Related To",
+      "targetName": "Myeloid sarcoma without mention of having achieved remission",
+      "targetTermType": "PT",
+      "targetCode": "205.30",
+      "targetTerminology": "ICD9CM 2014"
+    },
+    {
+      "type": "Related To",
+      "targetName": "Myeloid sarcoma, not having achieved remission",
+      "targetTermType": "PT",
+      "targetCode": "C92.30",
+      "targetTerminology": "ICD10CM 2017"
+    },
+    {
+      "type": "Has Synonym",
+      "targetName": "Myeloid sarcoma",
+      "targetTermType": "PT",
+      "targetCode": "205.3",
+      "targetTerminology": "ICD9CM 2014"
+    },
+    {
+      "type": "Related To",
+      "targetName": "Myeloid sarcoma",
+      "targetTermType": "PT",
+      "targetCode": "9930/3",
+      "targetTerminology": "ICDO3",
+      "targetTerminologyVersion": "3.2"
+    },
+    {
+      "type": "Related To",
+      "targetName": "Myeloid sarcoma",
+      "targetTermType": "PT",
+      "targetCode": "9930/3",
+      "targetTerminology": "ICDO3",
+      "targetTerminologyVersion": "3.1"
+    },
+    {
+      "type": "Has Synonym",
+      "targetName": "Myeloid sarcoma",
+      "targetTermType": "PT",
+      "targetCode": "C92.3",
+      "targetTerminology": "ICD10CM 2017"
+    },
+    {
+      "type": "Has Synonym",
+      "targetName": "Myeloid sarcoma",
+      "targetTermType": "PT",
+      "targetCode": "primary_diagnosis",
+      "targetTerminology": "GDC"
+    }
+  ]
+}

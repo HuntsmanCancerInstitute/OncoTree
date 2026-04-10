@@ -1,0 +1,416 @@
+{
+  "code": "C131913",
+  "name": "High Grade B-Cell Lymphoma with MYC, BCL2, and BCL6 Rearrangements",
+  "terminology": "ncit",
+  "version": "25.11d",
+  "conceptStatus": "DEFAULT",
+  "leaf": false,
+  "active": true,
+  "synonyms": [
+    {
+      "name": "High Grade B-Cell Lymphoma with MYC, BCL2, and BCL6 Rearrangements",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "Cellosaurus"
+    },
+    {
+      "name": "Triple-Hit Lymphoma",
+      "termType": "DN",
+      "type": "FULL_SYN",
+      "source": "CTRP"
+    },
+    {
+      "name": "HGBCL-TH",
+      "termType": "AB",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "High Grade B-Cell Lymphoma with MYC, BCL2, and BCL6 Rearrangements",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "High-Grade B-Cell Lymphoma with MYC, BCL2, and BCL6 Rearrangements",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Triple Hit Lymphoma",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Triple-Hit Lymphoma",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "High-Grade B-Cell Lymphoma with MYC and BCL2 and/or BCL6 Rearrangements",
+      "type": "Display_Name"
+    },
+    {
+      "name": "High Grade B-Cell Lymphoma with MYC, BCL2, and BCL6 Rearrangements",
+      "type": "Preferred_Name"
+    }
+  ],
+  "definitions": [
+    {
+      "definition": "High-grade B-cell lymphoma characterized by the abnormal rearrangement of MYC gene, BCL2 gene, and BCL6 gene. Patients with this type of lymphoma usually respond poorly to standard treatments and have a poor prognosis.",
+      "type": "DEFINITION",
+      "source": "NCI"
+    }
+  ],
+  "properties": [
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "Cellosaurus"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "CTRP"
+    },
+    {
+      "code": "P208",
+      "type": "NCI_META_CUI",
+      "value": "CL524351"
+    },
+    {
+      "code": "P363",
+      "type": "Neoplastic_Status",
+      "value": "Malignant"
+    },
+    {
+      "code": "P106",
+      "type": "Semantic_Type",
+      "value": "Neoplastic Process"
+    }
+  ],
+  "children": [
+    {
+      "code": "C162451",
+      "name": "Recurrent High Grade B-Cell Lymphoma with MYC, BCL2, and BCL6 Rearrangements",
+      "leaf": true
+    },
+    {
+      "code": "C162453",
+      "name": "Refractory High Grade B-Cell Lymphoma with MYC, BCL2, and BCL6 Rearrangements",
+      "leaf": true
+    }
+  ],
+  "parents": [
+    {
+      "code": "C138195",
+      "name": "High Grade B-Cell Lymphoma with MYC and BCL2 and/or BCL6 Rearrangements"
+    }
+  ],
+  "associations": [
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C165258",
+      "relatedName": "Cellosaurus Disease Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C118168",
+      "relatedName": "CTRP Disease Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C116977",
+      "relatedName": "CTRP Terminology"
+    }
+  ],
+  "roles": [
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36725",
+      "relatedName": "Abnormal Lymphocyte"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C36104",
+      "relatedName": "Aggressive Clinical Course"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C12474",
+      "relatedName": "B-Lymphocyte"
+    },
+    {
+      "type": "Disease_Has_Cytogenetic_Abnormality",
+      "relatedCode": "C132019",
+      "relatedName": "BCL2 Gene Rearrangement"
+    },
+    {
+      "type": "Disease_Mapped_To_Gene",
+      "relatedCode": "C17963",
+      "relatedName": "BCL2 Gene"
+    },
+    {
+      "type": "Disease_Has_Cytogenetic_Abnormality",
+      "relatedCode": "C132020",
+      "relatedName": "BCL6 Gene Rearrangement"
+    },
+    {
+      "type": "Disease_Mapped_To_Gene",
+      "relatedCode": "C24260",
+      "relatedName": "BCL6 Gene"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C36122",
+      "relatedName": "Benign Cellular Infiltrate"
+    },
+    {
+      "type": "Disease_Has_Molecular_Abnormality",
+      "relatedCode": "C36443",
+      "relatedName": "Clonal Immunoglobulin Gene Rearrangement"
+    },
+    {
+      "type": "Disease_May_Have_Molecular_Abnormality",
+      "relatedCode": "C36444",
+      "relatedName": "Clonal Immunoglobulin Heavy Chain Gene Rearrangement"
+    },
+    {
+      "type": "Disease_Has_Molecular_Abnormality",
+      "relatedCode": "C36451",
+      "relatedName": "Clonal Immunoglobulin Kappa Light Chain Gene Rearrangement"
+    },
+    {
+      "type": "Disease_May_Have_Molecular_Abnormality",
+      "relatedCode": "C36452",
+      "relatedName": "Clonal Immunoglobulin Lambda Light Chain Gene Rearrangement"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C35903",
+      "relatedName": "Diffuse Pattern"
+    },
+    {
+      "type": "Disease_Excludes_Normal_Cell_Origin",
+      "relatedCode": "C80283",
+      "relatedName": "EBV-Transformed Mature B-Lymphocyte"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C41165",
+      "relatedName": "Hematopoietic and Lymphatic System"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C41165",
+      "relatedName": "Hematopoietic and Lymphatic System"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C32725",
+      "relatedName": "Hematopoietic and Lymphoid Cell"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C41168",
+      "relatedName": "Hematopoietic and Lymphoid Tissue"
+    },
+    {
+      "type": "Disease_Is_Grade",
+      "relatedCode": "C14158",
+      "relatedName": "High Grade"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12746",
+      "relatedName": "Lymphatic System"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C37027",
+      "relatedName": "Lymphocyte Predominant Cell"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C12535",
+      "relatedName": "Lymphocyte"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C13049",
+      "relatedName": "Lymphoid Tissue"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12917",
+      "relatedName": "Malignant Cell"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C36115",
+      "relatedName": "Malignant Cellular Infiltrate"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C33058",
+      "relatedName": "Mature B-Lymphocyte"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C205497",
+      "relatedName": "MYC Gene Rearrangement, BCL2 Gene Rearrangement, and BCL6 Gene Rearrangement Positive"
+    },
+    {
+      "type": "Disease_Has_Cytogenetic_Abnormality",
+      "relatedCode": "C132018",
+      "relatedName": "MYC Gene Rearrangement"
+    },
+    {
+      "type": "Disease_Mapped_To_Gene",
+      "relatedCode": "C16887",
+      "relatedName": "MYC Gene"
+    },
+    {
+      "type": "Disease_Excludes_Normal_Cell_Origin",
+      "relatedCode": "C12549",
+      "relatedName": "Myeloid Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C38640",
+      "relatedName": "Neoplastic B-Lymphocyte"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12922",
+      "relatedName": "Neoplastic Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C37060",
+      "relatedName": "Neoplastic Hematopoietic and Lymphoid Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C37013",
+      "relatedName": "Neoplastic Large B-Lymphocyte"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36988",
+      "relatedName": "Neoplastic Lymphocyte"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C39566",
+      "relatedName": "Neoplastic T-Lymphocyte and Neoplastic Natural Killer Cell"
+    },
+    {
+      "type": "Disease_Excludes_Normal_Cell_Origin",
+      "relatedCode": "C12486",
+      "relatedName": "Plasma Cell"
+    },
+    {
+      "type": "Disease_Excludes_Normal_Cell_Origin",
+      "relatedCode": "C33931",
+      "relatedName": "Precursor B-Lymphoblast"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C12660",
+      "relatedName": "Reed-Sternberg Cell"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C199620",
+      "relatedName": "Triple Hit Lymphoproliferative Lesion"
+    }
+  ],
+  "inverseRoles": [
+    {
+      "type": "Gene_Involved_In_Pathogenesis_Of_Disease",
+      "relatedCode": "C17963",
+      "relatedName": "BCL2 Gene"
+    },
+    {
+      "type": "Gene_Involved_In_Pathogenesis_Of_Disease",
+      "relatedCode": "C49350",
+      "relatedName": "BCL2 wt Allele"
+    },
+    {
+      "type": "Gene_Involved_In_Pathogenesis_Of_Disease",
+      "relatedCode": "C24260",
+      "relatedName": "BCL6 Gene"
+    },
+    {
+      "type": "Gene_Involved_In_Pathogenesis_Of_Disease",
+      "relatedCode": "C52519",
+      "relatedName": "BCL6 wt Allele"
+    }
+  ],
+  "history": [
+    {
+      "code": "C131913",
+      "action": "create",
+      "date": "2017-01-23"
+    },
+    {
+      "code": "C131913",
+      "action": "modify",
+      "date": "2017-08-28"
+    },
+    {
+      "code": "C131913",
+      "action": "modify",
+      "date": "2017-09-26"
+    },
+    {
+      "code": "C131913",
+      "action": "modify",
+      "date": "2017-12-26"
+    },
+    {
+      "code": "C131913",
+      "action": "modify",
+      "date": "2018-07-30"
+    },
+    {
+      "code": "C131913",
+      "action": "modify",
+      "date": "2019-05-28"
+    },
+    {
+      "code": "C131913",
+      "action": "modify",
+      "date": "2019-07-29"
+    },
+    {
+      "code": "C131913",
+      "action": "modify",
+      "date": "2022-08-29"
+    },
+    {
+      "code": "C131913",
+      "action": "modify",
+      "date": "2023-02-27"
+    },
+    {
+      "code": "C131913",
+      "action": "modify",
+      "date": "2023-06-26"
+    },
+    {
+      "code": "C131913",
+      "action": "modify",
+      "date": "2024-04-29"
+    },
+    {
+      "code": "C131913",
+      "action": "modify",
+      "date": "2025-03-31"
+    }
+  ]
+}

@@ -1,0 +1,1856 @@
+{
+  "code": "C7541",
+  "name": "Retinoblastoma",
+  "terminology": "ncit",
+  "version": "25.11d",
+  "conceptStatus": "DEFAULT",
+  "leaf": false,
+  "active": true,
+  "synonyms": [
+    {
+      "name": "RB",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "CDISC"
+    },
+    {
+      "name": "RETINOBLASTOMA, MALIGNANT",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "CDISC"
+    },
+    {
+      "name": "Retinoblastoma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "Cellosaurus"
+    },
+    {
+      "name": "Retinoblastoma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "CPTAC"
+    },
+    {
+      "name": "Retinoblastoma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "CTEP",
+      "code": "10038918",
+      "subSource": "SDC"
+    },
+    {
+      "name": "Retinoblastoma",
+      "termType": "DN",
+      "type": "FULL_SYN",
+      "source": "CTRP"
+    },
+    {
+      "name": "Retinoblastoma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "CTRP"
+    },
+    {
+      "name": "Retinoblastoma, NOS",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "GDC"
+    },
+    {
+      "name": "retinoblastoma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NCI-GLOSS",
+      "code": "CDR0000046774"
+    },
+    {
+      "name": "RB",
+      "termType": "AB",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Retinoblastoma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Retinoblastoma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NICHD"
+    },
+    {
+      "name": "Retinoblastoma",
+      "type": "Display_Name"
+    },
+    {
+      "name": "Retinoblastoma",
+      "type": "Preferred_Name"
+    },
+    {
+      "name": "Retinoblastoma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "PCDC",
+      "subSource": "OS"
+    }
+  ],
+  "definitions": [
+    {
+      "definition": "A malignant neoplasm originating in the nuclear layer of the retina.",
+      "type": "ALT_DEFINITION",
+      "source": "CDISC"
+    },
+    {
+      "definition": "A malignant tumor that originates in the nuclear layer of the retina. As the most common primary tumor of the eye in children, retinoblastoma is still relatively uncommon, accounting for only 1% of all malignant tumors in pediatric patients. Approximately 95% of cases are diagnosed before age 5. These tumors may be multifocal, bilateral, congenital, inherited, or acquired. Seventy-five percent of retinoblastomas are unilateral; 60% occur sporadically. A predisposition to retinoblastoma has been associated with 13q14 cytogenetic abnormalities. Patients with the inherited form also appear to be at increased risk for secondary nonocular malignancies such as osteosarcoma, malignant fibrous histiocytoma, and fibrosarcoma.",
+      "type": "ALT_DEFINITION",
+      "source": "NICHD"
+    },
+    {
+      "definition": "A malignant tumor that originates in the nuclear layer of the retina. As the most common primary tumor of the eye in children, retinoblastoma is still relatively uncommon, accounting for only 1% of all malignant tumors in pediatric patients. Approximately 95% of cases are diagnosed before age 5. These tumors may be multifocal, bilateral, congenital, inherited, or acquired. Seventy-five percent of retinoblastomas are unilateral; 60% occur sporadically. A predisposition to retinoblastoma has been associated with 13q14 cytogenetic abnormalities. Patients with the inherited form also appear to be at increased risk for secondary nonocular malignancies such as osteosarcoma, malignant fibrous histiocytoma, and fibrosarcoma.",
+      "type": "DEFINITION",
+      "source": "NCI"
+    },
+    {
+      "definition": "Cancer that forms in the tissues of the retina (the light-sensitive layers of nerve tissue at the back of the eye). Retinoblastoma usually occurs in children younger than 5 years. It may be hereditary or nonhereditary (sporadic).",
+      "type": "ALT_DEFINITION",
+      "source": "NCI-GLOSS"
+    }
+  ],
+  "properties": [
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "CDISC"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "Cellosaurus"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "CPTAC"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "CTEP"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "CTRP"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "GDC"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "MedDRA"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "NICHD"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "PCDC"
+    },
+    {
+      "code": "P334",
+      "type": "ICD-O-3_Code",
+      "value": "9510/3"
+    },
+    {
+      "code": "P366",
+      "type": "Legacy Concept Name",
+      "value": "Retinoblastoma"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "9510/3"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "Retinoblastoma"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "Retinoblastoma, NOS"
+    },
+    {
+      "code": "P363",
+      "type": "Neoplastic_Status",
+      "value": "Malignant"
+    },
+    {
+      "code": "P106",
+      "type": "Semantic_Type",
+      "value": "Neoplastic Process"
+    },
+    {
+      "code": "P207",
+      "type": "UMLS_CUI",
+      "value": "C0035335"
+    }
+  ],
+  "children": [
+    {
+      "code": "C8713",
+      "name": "Bilateral Retinoblastoma",
+      "leaf": true
+    },
+    {
+      "code": "C198174",
+      "name": "Childhood Retinoblastoma by Toronto Guidelines v2 Stage",
+      "leaf": false
+    },
+    {
+      "code": "C66813",
+      "name": "Differentiated Retinoblastoma",
+      "leaf": true
+    },
+    {
+      "code": "C66815",
+      "name": "Diffuse Retinoblastoma",
+      "leaf": true
+    },
+    {
+      "code": "C7848",
+      "name": "Extraocular Retinoblastoma",
+      "leaf": false
+    },
+    {
+      "code": "C8495",
+      "name": "Hereditary Retinoblastoma",
+      "leaf": true
+    },
+    {
+      "code": "C7846",
+      "name": "Intraocular Retinoblastoma",
+      "leaf": false
+    },
+    {
+      "code": "C7849",
+      "name": "Recurrent Retinoblastoma",
+      "leaf": true
+    },
+    {
+      "code": "C140750",
+      "name": "Retinoblastoma by AJCC v8 Stage",
+      "leaf": false
+    },
+    {
+      "code": "C42596",
+      "name": "Sporadic Retinoblastoma",
+      "leaf": true
+    },
+    {
+      "code": "C7019",
+      "name": "Trilateral Retinoblastoma",
+      "leaf": true
+    },
+    {
+      "code": "C66814",
+      "name": "Undifferentiated Retinoblastoma",
+      "leaf": true
+    },
+    {
+      "code": "C8714",
+      "name": "Unilateral Retinoblastoma",
+      "leaf": true
+    }
+  ],
+  "parents": [
+    {
+      "code": "C4627",
+      "name": "Malignant Central Nervous System Neoplasm"
+    },
+    {
+      "code": "C3216",
+      "name": "Malignant Retinal Neoplasm"
+    },
+    {
+      "code": "C7061",
+      "name": "Retinal Cell Neoplasm"
+    }
+  ],
+  "associations": [
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C77526",
+      "relatedName": "CDISC SEND Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C88025",
+      "relatedName": "CDISC SEND Tumor Findings Results Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C165258",
+      "relatedName": "Cellosaurus Disease Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C61410",
+      "relatedName": "Clinical Data Interchange Standards Consortium Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C138188",
+      "relatedName": "Clinical Trials Search-Application Programming Interface Disease Category Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C158520",
+      "relatedName": "CPTAC Codelists Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C156966",
+      "relatedName": "CPTAC Neoplasms Codelist"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C156952",
+      "relatedName": "CPTAC Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C118168",
+      "relatedName": "CTRP Disease Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C116977",
+      "relatedName": "CTRP Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C138190",
+      "relatedName": "CTS-API Disease Main Type Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C157711",
+      "relatedName": "GDC Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C177537",
+      "relatedName": "GDC Value Terminology"
+    },
+    {
+      "type": "Is_Value_For_GDC_Property",
+      "relatedCode": "C176985",
+      "relatedName": "Histology ICD-O Morphology Code"
+    },
+    {
+      "type": "Is_Value_For_GDC_Property",
+      "relatedCode": "C177621",
+      "relatedName": "ICD-O-3 Morphology Term Diagnosis Question"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168658",
+      "relatedName": "Mapped ICDO3.1 Morphology PT Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168657",
+      "relatedName": "Mapped ICDO3.1 Morphology Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168655",
+      "relatedName": "Mapped ICDO3.1 Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168662",
+      "relatedName": "Mapped ICDO3.2 Morphology PT Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168661",
+      "relatedName": "Mapped ICDO3.2 Morphology Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168656",
+      "relatedName": "Mapped ICDO3.2 Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C103061",
+      "relatedName": "NCI CTEP SDC Retinoblastoma Sub-Category Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C102905",
+      "relatedName": "NCI CTEP Simplified Disease Classification Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C126659",
+      "relatedName": "NCIt Neoplasm Core Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C99147",
+      "relatedName": "Neonatal Research Network Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C90259",
+      "relatedName": "NICHD Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C179478",
+      "relatedName": "OS Authorized Value Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C179491",
+      "relatedName": "OS Medical History Table"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C189762",
+      "relatedName": "Pediatric Adverse Events Terminology Mapped to MedDRA"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C118464",
+      "relatedName": "Pediatric Adverse Events Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C132009",
+      "relatedName": "Pediatric Hematology-Oncology Terminology"
+    },
+    {
+      "type": "Neoplasm_Has_Special_Category",
+      "relatedCode": "C9292",
+      "relatedName": "Solid Neoplasm"
+    }
+  ],
+  "inverseAssociations": [
+    {
+      "type": "Has_GDC_Value",
+      "relatedCode": "C176985",
+      "relatedName": "Histology ICD-O Morphology Code"
+    },
+    {
+      "type": "Has_GDC_Value",
+      "relatedCode": "C177621",
+      "relatedName": "ICD-O-3 Morphology Term Diagnosis Question"
+    },
+    {
+      "type": "Has_PCDC_OS_Authorized_Value",
+      "relatedCode": "C83118",
+      "relatedName": "Medical History Reported Term"
+    }
+  ],
+  "roles": [
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C36122",
+      "relatedName": "Benign Cellular Infiltrate"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C3672",
+      "relatedName": "Calcification"
+    },
+    {
+      "type": "Disease_Has_Molecular_Abnormality",
+      "relatedCode": "C36339",
+      "relatedName": "Cell Cycle Deregulation"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12438",
+      "relatedName": "Central Nervous System"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12401",
+      "relatedName": "Eye"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C35941",
+      "relatedName": "Flexner-Wintersteiner Rosette Formation"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C35942",
+      "relatedName": "Homer Wright Rosette Formation"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C36105",
+      "relatedName": "Indolent Clinical Course"
+    },
+    {
+      "type": "Disease_May_Have_Cytogenetic_Abnormality",
+      "relatedCode": "C36497",
+      "relatedName": "Loss of Chromosome 13q"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12917",
+      "relatedName": "Malignant Cell"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C36115",
+      "relatedName": "Malignant Cellular Infiltrate"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36861",
+      "relatedName": "Malignant Small Hyperchromatic Cell"
+    },
+    {
+      "type": "Disease_May_Have_Molecular_Abnormality",
+      "relatedCode": "C36673",
+      "relatedName": "MYCN Gene Amplification"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C36184",
+      "relatedName": "Necrotic Change"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12922",
+      "relatedName": "Neoplastic Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C41408",
+      "relatedName": "Neoplastic Neuroepithelial Cell and Neoplastic Perineural Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C37125",
+      "relatedName": "Neoplastic Neuroepithelial Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C42604",
+      "relatedName": "Neoplastic Retinal Ganglion Cell"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C41406",
+      "relatedName": "Nerve Tissue, Neuroepithelial Tissue, and Nerve Sheaths"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12755",
+      "relatedName": "Nervous System"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C33166",
+      "relatedName": "Neural Retina"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C41410",
+      "relatedName": "Neuroepithelial Cell"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C41409",
+      "relatedName": "Neuroepithelial Tissue"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C41405",
+      "relatedName": "Neuron, Neuroepithelial Cell, and Supporting Cell of the Nervous System"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C12634",
+      "relatedName": "Photoreceptor Cell"
+    },
+    {
+      "type": "Disease_Has_Molecular_Abnormality",
+      "relatedCode": "C42600",
+      "relatedName": "RB-E2F Pathway Deregulation"
+    },
+    {
+      "type": "Disease_Has_Molecular_Abnormality",
+      "relatedCode": "C133696",
+      "relatedName": "RB1 Gene Mutation"
+    },
+    {
+      "type": "Disease_Mapped_To_Gene",
+      "relatedCode": "C17360",
+      "relatedName": "RB1 Gene"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12343",
+      "relatedName": "Retina"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12343",
+      "relatedName": "Retina"
+    }
+  ],
+  "inverseRoles": [
+    {
+      "type": "Gene_Associated_With_Disease",
+      "relatedCode": "C88218",
+      "relatedName": "MDM4 Gene"
+    },
+    {
+      "type": "Gene_Associated_With_Disease",
+      "relatedCode": "C88219",
+      "relatedName": "MDM4 wt Allele"
+    },
+    {
+      "type": "Gene_Product_Malfunction_Associated_With_Disease",
+      "relatedCode": "C17315",
+      "relatedName": "Methylated-DNA-Protein-Cysteine Methyltransferase"
+    },
+    {
+      "type": "Gene_Product_Malfunction_Associated_With_Disease",
+      "relatedCode": "C88220",
+      "relatedName": "Protein Mdm4"
+    },
+    {
+      "type": "Gene_Involved_In_Pathogenesis_Of_Disease",
+      "relatedCode": "C17360",
+      "relatedName": "RB1 Gene"
+    },
+    {
+      "type": "Gene_Involved_In_Pathogenesis_Of_Disease",
+      "relatedCode": "C52102",
+      "relatedName": "RB1 wt Allele"
+    },
+    {
+      "type": "Gene_Product_Is_Biomarker_Of",
+      "relatedCode": "C17394",
+      "relatedName": "Retinoblastoma-Associated Protein"
+    }
+  ],
+  "history": [
+    {
+      "code": "C7541",
+      "action": "create",
+      "date": "2003-08-12"
+    },
+    {
+      "code": "C7541",
+      "action": "modify",
+      "date": "2003-09-29"
+    },
+    {
+      "code": "C7541",
+      "action": "modify",
+      "date": "2003-10-31"
+    },
+    {
+      "code": "C7541",
+      "action": "modify",
+      "date": "2003-12-30"
+    },
+    {
+      "code": "C7541",
+      "action": "modify",
+      "date": "2004-03-30"
+    },
+    {
+      "code": "C7541",
+      "action": "modify",
+      "date": "2004-12-30"
+    },
+    {
+      "code": "C7541",
+      "action": "modify",
+      "date": "2005-03-30"
+    },
+    {
+      "code": "C7541",
+      "action": "modify",
+      "date": "2007-03-30"
+    },
+    {
+      "code": "C7541",
+      "action": "modify",
+      "date": "2007-05-25"
+    },
+    {
+      "code": "C7541",
+      "action": "modify",
+      "date": "2009-04-06"
+    },
+    {
+      "code": "C7541",
+      "action": "modify",
+      "date": "2009-11-23"
+    },
+    {
+      "code": "C7541",
+      "action": "modify",
+      "date": "2010-06-01"
+    },
+    {
+      "code": "C7541",
+      "action": "modify",
+      "date": "2011-02-22"
+    },
+    {
+      "code": "C7541",
+      "action": "modify",
+      "date": "2011-04-11"
+    },
+    {
+      "code": "C7541",
+      "action": "modify",
+      "date": "2011-11-14"
+    },
+    {
+      "code": "C7541",
+      "action": "modify",
+      "date": "2011-11-21"
+    },
+    {
+      "code": "C7541",
+      "action": "modify",
+      "date": "2011-11-28"
+    },
+    {
+      "code": "C7541",
+      "action": "modify",
+      "date": "2011-12-05"
+    },
+    {
+      "code": "C7541",
+      "action": "modify",
+      "date": "2011-12-12"
+    },
+    {
+      "code": "C7541",
+      "action": "modify",
+      "date": "2011-12-19"
+    },
+    {
+      "code": "C7541",
+      "action": "modify",
+      "date": "2011-12-27"
+    },
+    {
+      "code": "C7541",
+      "action": "modify",
+      "date": "2012-01-09"
+    },
+    {
+      "code": "C7541",
+      "action": "modify",
+      "date": "2012-01-17"
+    },
+    {
+      "code": "C7541",
+      "action": "modify",
+      "date": "2012-01-23"
+    },
+    {
+      "code": "C7541",
+      "action": "modify",
+      "date": "2012-01-30"
+    },
+    {
+      "code": "C7541",
+      "action": "modify",
+      "date": "2012-02-06"
+    },
+    {
+      "code": "C7541",
+      "action": "modify",
+      "date": "2012-02-13"
+    },
+    {
+      "code": "C7541",
+      "action": "modify",
+      "date": "2012-02-21"
+    },
+    {
+      "code": "C7541",
+      "action": "modify",
+      "date": "2012-02-27"
+    },
+    {
+      "code": "C7541",
+      "action": "modify",
+      "date": "2012-03-05"
+    },
+    {
+      "code": "C7541",
+      "action": "modify",
+      "date": "2012-03-12"
+    },
+    {
+      "code": "C7541",
+      "action": "modify",
+      "date": "2012-03-19"
+    },
+    {
+      "code": "C7541",
+      "action": "modify",
+      "date": "2012-03-26"
+    },
+    {
+      "code": "C7541",
+      "action": "modify",
+      "date": "2012-04-02"
+    },
+    {
+      "code": "C7541",
+      "action": "modify",
+      "date": "2012-04-09"
+    },
+    {
+      "code": "C7541",
+      "action": "modify",
+      "date": "2012-04-16"
+    },
+    {
+      "code": "C7541",
+      "action": "modify",
+      "date": "2012-04-23"
+    },
+    {
+      "code": "C7541",
+      "action": "modify",
+      "date": "2012-04-30"
+    },
+    {
+      "code": "C7541",
+      "action": "modify",
+      "date": "2012-05-07"
+    },
+    {
+      "code": "C7541",
+      "action": "modify",
+      "date": "2012-05-14"
+    },
+    {
+      "code": "C7541",
+      "action": "modify",
+      "date": "2012-05-21"
+    },
+    {
+      "code": "C7541",
+      "action": "modify",
+      "date": "2012-05-29"
+    },
+    {
+      "code": "C7541",
+      "action": "modify",
+      "date": "2012-06-04"
+    },
+    {
+      "code": "C7541",
+      "action": "modify",
+      "date": "2012-06-11"
+    },
+    {
+      "code": "C7541",
+      "action": "modify",
+      "date": "2012-06-18"
+    },
+    {
+      "code": "C7541",
+      "action": "modify",
+      "date": "2012-06-18"
+    },
+    {
+      "code": "C7541",
+      "action": "modify",
+      "date": "2012-06-25"
+    },
+    {
+      "code": "C7541",
+      "action": "modify",
+      "date": "2012-07-03"
+    },
+    {
+      "code": "C7541",
+      "action": "modify",
+      "date": "2012-07-16"
+    },
+    {
+      "code": "C7541",
+      "action": "modify",
+      "date": "2012-07-23"
+    },
+    {
+      "code": "C7541",
+      "action": "modify",
+      "date": "2012-07-30"
+    },
+    {
+      "code": "C7541",
+      "action": "modify",
+      "date": "2012-08-06"
+    },
+    {
+      "code": "C7541",
+      "action": "modify",
+      "date": "2012-08-13"
+    },
+    {
+      "code": "C7541",
+      "action": "modify",
+      "date": "2012-08-20"
+    },
+    {
+      "code": "C7541",
+      "action": "modify",
+      "date": "2012-08-27"
+    },
+    {
+      "code": "C7541",
+      "action": "modify",
+      "date": "2012-09-04"
+    },
+    {
+      "code": "C7541",
+      "action": "modify",
+      "date": "2012-09-10"
+    },
+    {
+      "code": "C7541",
+      "action": "modify",
+      "date": "2012-09-17"
+    },
+    {
+      "code": "C7541",
+      "action": "modify",
+      "date": "2012-09-24"
+    },
+    {
+      "code": "C7541",
+      "action": "modify",
+      "date": "2012-10-01"
+    },
+    {
+      "code": "C7541",
+      "action": "modify",
+      "date": "2012-10-09"
+    },
+    {
+      "code": "C7541",
+      "action": "modify",
+      "date": "2012-10-15"
+    },
+    {
+      "code": "C7541",
+      "action": "modify",
+      "date": "2012-10-22"
+    },
+    {
+      "code": "C7541",
+      "action": "modify",
+      "date": "2012-10-31"
+    },
+    {
+      "code": "C7541",
+      "action": "modify",
+      "date": "2012-11-05"
+    },
+    {
+      "code": "C7541",
+      "action": "modify",
+      "date": "2012-11-13"
+    },
+    {
+      "code": "C7541",
+      "action": "modify",
+      "date": "2012-11-19"
+    },
+    {
+      "code": "C7541",
+      "action": "modify",
+      "date": "2012-11-26"
+    },
+    {
+      "code": "C7541",
+      "action": "modify",
+      "date": "2012-12-03"
+    },
+    {
+      "code": "C7541",
+      "action": "modify",
+      "date": "2012-12-10"
+    },
+    {
+      "code": "C7541",
+      "action": "modify",
+      "date": "2012-12-17"
+    },
+    {
+      "code": "C7541",
+      "action": "modify",
+      "date": "2012-12-28"
+    },
+    {
+      "code": "C7541",
+      "action": "modify",
+      "date": "2013-01-07"
+    },
+    {
+      "code": "C7541",
+      "action": "modify",
+      "date": "2013-01-14"
+    },
+    {
+      "code": "C7541",
+      "action": "modify",
+      "date": "2013-01-23"
+    },
+    {
+      "code": "C7541",
+      "action": "modify",
+      "date": "2013-02-04"
+    },
+    {
+      "code": "C7541",
+      "action": "modify",
+      "date": "2013-02-11"
+    },
+    {
+      "code": "C7541",
+      "action": "modify",
+      "date": "2013-02-19"
+    },
+    {
+      "code": "C7541",
+      "action": "modify",
+      "date": "2013-02-25"
+    },
+    {
+      "code": "C7541",
+      "action": "modify",
+      "date": "2013-03-04"
+    },
+    {
+      "code": "C7541",
+      "action": "modify",
+      "date": "2013-03-11"
+    },
+    {
+      "code": "C7541",
+      "action": "modify",
+      "date": "2013-03-18"
+    },
+    {
+      "code": "C7541",
+      "action": "modify",
+      "date": "2013-03-25"
+    },
+    {
+      "code": "C7541",
+      "action": "modify",
+      "date": "2013-04-01"
+    },
+    {
+      "code": "C7541",
+      "action": "modify",
+      "date": "2013-04-08"
+    },
+    {
+      "code": "C7541",
+      "action": "modify",
+      "date": "2013-04-15"
+    },
+    {
+      "code": "C7541",
+      "action": "modify",
+      "date": "2013-04-22"
+    },
+    {
+      "code": "C7541",
+      "action": "modify",
+      "date": "2013-04-29"
+    },
+    {
+      "code": "C7541",
+      "action": "modify",
+      "date": "2013-05-06"
+    },
+    {
+      "code": "C7541",
+      "action": "modify",
+      "date": "2013-05-13"
+    },
+    {
+      "code": "C7541",
+      "action": "modify",
+      "date": "2013-05-20"
+    },
+    {
+      "code": "C7541",
+      "action": "modify",
+      "date": "2013-05-28"
+    },
+    {
+      "code": "C7541",
+      "action": "modify",
+      "date": "2013-06-03"
+    },
+    {
+      "code": "C7541",
+      "action": "modify",
+      "date": "2013-06-10"
+    },
+    {
+      "code": "C7541",
+      "action": "modify",
+      "date": "2013-06-17"
+    },
+    {
+      "code": "C7541",
+      "action": "modify",
+      "date": "2013-06-24"
+    },
+    {
+      "code": "C7541",
+      "action": "modify",
+      "date": "2013-07-01"
+    },
+    {
+      "code": "C7541",
+      "action": "modify",
+      "date": "2013-07-08"
+    },
+    {
+      "code": "C7541",
+      "action": "modify",
+      "date": "2014-02-03"
+    },
+    {
+      "code": "C7541",
+      "action": "modify",
+      "date": "2014-03-05"
+    },
+    {
+      "code": "C7541",
+      "action": "modify",
+      "date": "2014-08-25"
+    },
+    {
+      "code": "C7541",
+      "action": "modify",
+      "date": "2014-09-22"
+    },
+    {
+      "code": "C7541",
+      "action": "modify",
+      "date": "2014-10-27"
+    },
+    {
+      "code": "C7541",
+      "action": "modify",
+      "date": "2014-11-03"
+    },
+    {
+      "code": "C7541",
+      "action": "modify",
+      "date": "2014-11-10"
+    },
+    {
+      "code": "C7541",
+      "action": "modify",
+      "date": "2014-11-17"
+    },
+    {
+      "code": "C7541",
+      "action": "modify",
+      "date": "2014-11-24"
+    },
+    {
+      "code": "C7541",
+      "action": "modify",
+      "date": "2014-12-01"
+    },
+    {
+      "code": "C7541",
+      "action": "modify",
+      "date": "2014-12-08"
+    },
+    {
+      "code": "C7541",
+      "action": "modify",
+      "date": "2014-12-15"
+    },
+    {
+      "code": "C7541",
+      "action": "modify",
+      "date": "2014-12-22"
+    },
+    {
+      "code": "C7541",
+      "action": "modify",
+      "date": "2014-12-29"
+    },
+    {
+      "code": "C7541",
+      "action": "modify",
+      "date": "2015-01-05"
+    },
+    {
+      "code": "C7541",
+      "action": "modify",
+      "date": "2015-01-12"
+    },
+    {
+      "code": "C7541",
+      "action": "modify",
+      "date": "2015-01-20"
+    },
+    {
+      "code": "C7541",
+      "action": "modify",
+      "date": "2015-01-26"
+    },
+    {
+      "code": "C7541",
+      "action": "modify",
+      "date": "2015-02-02"
+    },
+    {
+      "code": "C7541",
+      "action": "modify",
+      "date": "2015-02-09"
+    },
+    {
+      "code": "C7541",
+      "action": "modify",
+      "date": "2015-02-17"
+    },
+    {
+      "code": "C7541",
+      "action": "modify",
+      "date": "2015-02-23"
+    },
+    {
+      "code": "C7541",
+      "action": "modify",
+      "date": "2015-03-02"
+    },
+    {
+      "code": "C7541",
+      "action": "modify",
+      "date": "2015-03-09"
+    },
+    {
+      "code": "C7541",
+      "action": "modify",
+      "date": "2015-03-16"
+    },
+    {
+      "code": "C7541",
+      "action": "modify",
+      "date": "2015-03-23"
+    },
+    {
+      "code": "C7541",
+      "action": "modify",
+      "date": "2015-03-30"
+    },
+    {
+      "code": "C7541",
+      "action": "modify",
+      "date": "2015-04-06"
+    },
+    {
+      "code": "C7541",
+      "action": "modify",
+      "date": "2015-04-13"
+    },
+    {
+      "code": "C7541",
+      "action": "modify",
+      "date": "2015-04-20"
+    },
+    {
+      "code": "C7541",
+      "action": "modify",
+      "date": "2015-04-27"
+    },
+    {
+      "code": "C7541",
+      "action": "modify",
+      "date": "2015-05-04"
+    },
+    {
+      "code": "C7541",
+      "action": "modify",
+      "date": "2015-05-11"
+    },
+    {
+      "code": "C7541",
+      "action": "modify",
+      "date": "2015-05-18"
+    },
+    {
+      "code": "C7541",
+      "action": "modify",
+      "date": "2015-05-26"
+    },
+    {
+      "code": "C7541",
+      "action": "modify",
+      "date": "2015-06-01"
+    },
+    {
+      "code": "C7541",
+      "action": "modify",
+      "date": "2015-06-08"
+    },
+    {
+      "code": "C7541",
+      "action": "modify",
+      "date": "2015-06-15"
+    },
+    {
+      "code": "C7541",
+      "action": "modify",
+      "date": "2015-06-22"
+    },
+    {
+      "code": "C7541",
+      "action": "modify",
+      "date": "2015-06-29"
+    },
+    {
+      "code": "C7541",
+      "action": "modify",
+      "date": "2015-07-06"
+    },
+    {
+      "code": "C7541",
+      "action": "modify",
+      "date": "2015-07-13"
+    },
+    {
+      "code": "C7541",
+      "action": "modify",
+      "date": "2015-08-12"
+    },
+    {
+      "code": "C7541",
+      "action": "modify",
+      "date": "2015-08-24"
+    },
+    {
+      "code": "C7541",
+      "action": "modify",
+      "date": "2015-08-31"
+    },
+    {
+      "code": "C7541",
+      "action": "modify",
+      "date": "2015-09-08"
+    },
+    {
+      "code": "C7541",
+      "action": "modify",
+      "date": "2015-09-14"
+    },
+    {
+      "code": "C7541",
+      "action": "modify",
+      "date": "2015-09-21"
+    },
+    {
+      "code": "C7541",
+      "action": "modify",
+      "date": "2015-09-28"
+    },
+    {
+      "code": "C7541",
+      "action": "modify",
+      "date": "2015-10-05"
+    },
+    {
+      "code": "C7541",
+      "action": "modify",
+      "date": "2015-10-13"
+    },
+    {
+      "code": "C7541",
+      "action": "modify",
+      "date": "2015-10-19"
+    },
+    {
+      "code": "C7541",
+      "action": "modify",
+      "date": "2015-10-26"
+    },
+    {
+      "code": "C7541",
+      "action": "modify",
+      "date": "2015-11-02"
+    },
+    {
+      "code": "C7541",
+      "action": "modify",
+      "date": "2015-11-09"
+    },
+    {
+      "code": "C7541",
+      "action": "modify",
+      "date": "2015-11-16"
+    },
+    {
+      "code": "C7541",
+      "action": "modify",
+      "date": "2015-11-23"
+    },
+    {
+      "code": "C7541",
+      "action": "modify",
+      "date": "2015-11-30"
+    },
+    {
+      "code": "C7541",
+      "action": "modify",
+      "date": "2015-12-07"
+    },
+    {
+      "code": "C7541",
+      "action": "modify",
+      "date": "2015-12-14"
+    },
+    {
+      "code": "C7541",
+      "action": "modify",
+      "date": "2015-12-21"
+    },
+    {
+      "code": "C7541",
+      "action": "modify",
+      "date": "2015-12-28"
+    },
+    {
+      "code": "C7541",
+      "action": "modify",
+      "date": "2016-01-04"
+    },
+    {
+      "code": "C7541",
+      "action": "modify",
+      "date": "2016-01-11"
+    },
+    {
+      "code": "C7541",
+      "action": "modify",
+      "date": "2016-01-19"
+    },
+    {
+      "code": "C7541",
+      "action": "modify",
+      "date": "2016-01-29"
+    },
+    {
+      "code": "C7541",
+      "action": "modify",
+      "date": "2016-04-18"
+    },
+    {
+      "code": "C7541",
+      "action": "modify",
+      "date": "2016-04-25"
+    },
+    {
+      "code": "C7541",
+      "action": "modify",
+      "date": "2016-05-09"
+    },
+    {
+      "code": "C7541",
+      "action": "modify",
+      "date": "2016-05-16"
+    },
+    {
+      "code": "C7541",
+      "action": "modify",
+      "date": "2016-05-23"
+    },
+    {
+      "code": "C7541",
+      "action": "modify",
+      "date": "2016-05-31"
+    },
+    {
+      "code": "C7541",
+      "action": "modify",
+      "date": "2016-06-06"
+    },
+    {
+      "code": "C7541",
+      "action": "modify",
+      "date": "2016-06-13"
+    },
+    {
+      "code": "C7541",
+      "action": "modify",
+      "date": "2016-06-17"
+    },
+    {
+      "code": "C7541",
+      "action": "modify",
+      "date": "2016-06-27"
+    },
+    {
+      "code": "C7541",
+      "action": "modify",
+      "date": "2016-07-05"
+    },
+    {
+      "code": "C7541",
+      "action": "modify",
+      "date": "2016-07-11"
+    },
+    {
+      "code": "C7541",
+      "action": "modify",
+      "date": "2016-07-18"
+    },
+    {
+      "code": "C7541",
+      "action": "modify",
+      "date": "2016-07-25"
+    },
+    {
+      "code": "C7541",
+      "action": "modify",
+      "date": "2016-08-01"
+    },
+    {
+      "code": "C7541",
+      "action": "modify",
+      "date": "2016-08-08"
+    },
+    {
+      "code": "C7541",
+      "action": "modify",
+      "date": "2016-08-15"
+    },
+    {
+      "code": "C7541",
+      "action": "modify",
+      "date": "2016-08-22"
+    },
+    {
+      "code": "C7541",
+      "action": "modify",
+      "date": "2016-08-29"
+    },
+    {
+      "code": "C7541",
+      "action": "modify",
+      "date": "2016-09-06"
+    },
+    {
+      "code": "C7541",
+      "action": "modify",
+      "date": "2016-09-12"
+    },
+    {
+      "code": "C7541",
+      "action": "modify",
+      "date": "2016-09-20"
+    },
+    {
+      "code": "C7541",
+      "action": "modify",
+      "date": "2016-09-26"
+    },
+    {
+      "code": "C7541",
+      "action": "modify",
+      "date": "2016-10-03"
+    },
+    {
+      "code": "C7541",
+      "action": "modify",
+      "date": "2016-10-11"
+    },
+    {
+      "code": "C7541",
+      "action": "modify",
+      "date": "2016-10-17"
+    },
+    {
+      "code": "C7541",
+      "action": "modify",
+      "date": "2016-10-24"
+    },
+    {
+      "code": "C7541",
+      "action": "modify",
+      "date": "2016-10-31"
+    },
+    {
+      "code": "C7541",
+      "action": "modify",
+      "date": "2016-11-07"
+    },
+    {
+      "code": "C7541",
+      "action": "modify",
+      "date": "2016-11-14"
+    },
+    {
+      "code": "C7541",
+      "action": "modify",
+      "date": "2016-11-21"
+    },
+    {
+      "code": "C7541",
+      "action": "modify",
+      "date": "2016-11-28"
+    },
+    {
+      "code": "C7541",
+      "action": "modify",
+      "date": "2016-12-05"
+    },
+    {
+      "code": "C7541",
+      "action": "modify",
+      "date": "2016-12-12"
+    },
+    {
+      "code": "C7541",
+      "action": "modify",
+      "date": "2016-12-19"
+    },
+    {
+      "code": "C7541",
+      "action": "modify",
+      "date": "2016-12-27"
+    },
+    {
+      "code": "C7541",
+      "action": "modify",
+      "date": "2017-01-03"
+    },
+    {
+      "code": "C7541",
+      "action": "modify",
+      "date": "2017-01-09"
+    },
+    {
+      "code": "C7541",
+      "action": "modify",
+      "date": "2017-01-17"
+    },
+    {
+      "code": "C7541",
+      "action": "modify",
+      "date": "2017-01-23"
+    },
+    {
+      "code": "C7541",
+      "action": "modify",
+      "date": "2017-02-13"
+    },
+    {
+      "code": "C7541",
+      "action": "modify",
+      "date": "2017-02-21"
+    },
+    {
+      "code": "C7541",
+      "action": "modify",
+      "date": "2017-09-26"
+    },
+    {
+      "code": "C7541",
+      "action": "modify",
+      "date": "2018-02-26"
+    },
+    {
+      "code": "C7541",
+      "action": "modify",
+      "date": "2018-07-30"
+    },
+    {
+      "code": "C7541",
+      "action": "modify",
+      "date": "2018-08-27"
+    },
+    {
+      "code": "C7541",
+      "action": "modify",
+      "date": "2018-08-27"
+    },
+    {
+      "code": "C7541",
+      "action": "modify",
+      "date": "2018-09-24"
+    },
+    {
+      "code": "C7541",
+      "action": "modify",
+      "date": "2019-02-25"
+    },
+    {
+      "code": "C7541",
+      "action": "modify",
+      "date": "2019-03-25"
+    },
+    {
+      "code": "C7541",
+      "action": "modify",
+      "date": "2019-05-28"
+    },
+    {
+      "code": "C7541",
+      "action": "modify",
+      "date": "2019-06-24"
+    },
+    {
+      "code": "C7541",
+      "action": "modify",
+      "date": "2019-09-30"
+    },
+    {
+      "code": "C7541",
+      "action": "modify",
+      "date": "2019-10-28"
+    },
+    {
+      "code": "C7541",
+      "action": "modify",
+      "date": "2019-11-25"
+    },
+    {
+      "code": "C7541",
+      "action": "modify",
+      "date": "2020-02-24"
+    },
+    {
+      "code": "C7541",
+      "action": "modify",
+      "date": "2020-03-30"
+    },
+    {
+      "code": "C7541",
+      "action": "modify",
+      "date": "2020-04-27"
+    },
+    {
+      "code": "C7541",
+      "action": "modify",
+      "date": "2020-08-31"
+    },
+    {
+      "code": "C7541",
+      "action": "modify",
+      "date": "2020-09-29"
+    },
+    {
+      "code": "C7541",
+      "action": "modify",
+      "date": "2021-02-22"
+    },
+    {
+      "code": "C7541",
+      "action": "modify",
+      "date": "2021-03-29"
+    },
+    {
+      "code": "C7541",
+      "action": "modify",
+      "date": "2022-04-25"
+    },
+    {
+      "code": "C7541",
+      "action": "modify",
+      "date": "2022-09-26"
+    },
+    {
+      "code": "C7541",
+      "action": "modify",
+      "date": "2022-10-31"
+    },
+    {
+      "code": "C7541",
+      "action": "modify",
+      "date": "2023-02-27"
+    },
+    {
+      "code": "C7541",
+      "action": "modify",
+      "date": "2025-03-31"
+    }
+  ],
+  "maps": [
+    {
+      "type": "Related To",
+      "targetName": "9510/3",
+      "targetTermType": "PT",
+      "targetCode": "morphology",
+      "targetTerminology": "GDC"
+    },
+    {
+      "type": "Related To",
+      "targetName": "Retinoblastoma, NOS",
+      "targetTermType": "PT",
+      "targetCode": "9510/3",
+      "targetTerminology": "ICDO3",
+      "targetTerminologyVersion": "3.2"
+    },
+    {
+      "type": "Related To",
+      "targetName": "Retinoblastoma, NOS",
+      "targetTermType": "PT",
+      "targetCode": "9510/3",
+      "targetTerminology": "ICDO3",
+      "targetTerminologyVersion": "3.1"
+    },
+    {
+      "type": "Has Synonym",
+      "targetName": "Retinoblastoma, NOS",
+      "targetTermType": "PT",
+      "targetCode": "primary_diagnosis",
+      "targetTerminology": "GDC"
+    },
+    {
+      "type": "Has Synonym",
+      "targetName": "Retinoblastoma",
+      "targetTermType": "LLT",
+      "targetCode": "10038916",
+      "targetTerminology": "MedDRA",
+      "targetTerminologyVersion": "18.1"
+    }
+  ]
+}

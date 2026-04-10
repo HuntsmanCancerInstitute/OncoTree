@@ -1,0 +1,452 @@
+{
+  "code": "C45194",
+  "name": "Primary Cutaneous Diffuse Large B-Cell Lymphoma, Leg Type",
+  "terminology": "ncit",
+  "version": "25.11d",
+  "conceptStatus": "DEFAULT",
+  "leaf": false,
+  "active": true,
+  "synonyms": [
+    {
+      "name": "Primary Cutaneous Diffuse Large B-Cell Lymphoma, Leg Type",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "Cellosaurus"
+    },
+    {
+      "name": "Primary cutaneous DLBCL, leg type",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "GDC"
+    },
+    {
+      "name": "Primary Cutaneous Diffuse Large B-Cell Lymphoma, Leg Type",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Primary Cutaneous Diffuse Large B-Cell Lymphoma, Leg-Type",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Primary Cutaneous Diffuse Large B-Cell Lymphoma, Leg Type",
+      "type": "Preferred_Name"
+    }
+  ],
+  "definitions": [
+    {
+      "definition": "An aggressive primary cutaneous B-cell lymphoma, usually involving the lower leg.  It is composed of a generally monotonous proliferation of immunoblasts, or less frequently centroblasts, with few admixed reactive cells.  This type of lymphoma occurs most often in elderly women who present with rapidly growing tumors, usually on one or both legs.  Dissemination to extracutaneous sites is frequent.  Treatment with combination chemotherapy is usually required.",
+      "type": "DEFINITION",
+      "source": "NCI"
+    }
+  ],
+  "properties": [
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "Cellosaurus"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "GDC"
+    },
+    {
+      "code": "P334",
+      "type": "ICD-O-3_Code",
+      "value": "9680/3"
+    },
+    {
+      "code": "P366",
+      "type": "Legacy Concept Name",
+      "value": "Primary_Cutaneous_Diffuse_Large_B-Cell_Lymphoma_Leg_Type"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "Primary cutaneous DLBCL, leg type"
+    },
+    {
+      "code": "P363",
+      "type": "Neoplastic_Status",
+      "value": "Malignant"
+    },
+    {
+      "code": "P106",
+      "type": "Semantic_Type",
+      "value": "Neoplastic Process"
+    },
+    {
+      "code": "P207",
+      "type": "UMLS_CUI",
+      "value": "C1709656"
+    }
+  ],
+  "children": [
+    {
+      "code": "C138027",
+      "name": "Recurrent Primary Cutaneous Diffuse Large B-Cell Lymphoma, Leg Type",
+      "leaf": true
+    },
+    {
+      "code": "C138028",
+      "name": "Refractory Primary Cutaneous Diffuse Large B-Cell Lymphoma, Leg Type",
+      "leaf": true
+    }
+  ],
+  "parents": [
+    {
+      "code": "C178541",
+      "name": "Aggressive B-Cell Non-Hodgkin Lymphoma"
+    },
+    {
+      "code": "C45193",
+      "name": "Primary Cutaneous Diffuse Large B-Cell Lymphoma"
+    }
+  ],
+  "associations": [
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C165258",
+      "relatedName": "Cellosaurus Disease Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C157711",
+      "relatedName": "GDC Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C177537",
+      "relatedName": "GDC Value Terminology"
+    },
+    {
+      "type": "Is_Value_For_GDC_Property",
+      "relatedCode": "C177621",
+      "relatedName": "ICD-O-3 Morphology Term Diagnosis Question"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C126659",
+      "relatedName": "NCIt Neoplasm Core Terminology"
+    }
+  ],
+  "inverseAssociations": [
+    {
+      "type": "Has_GDC_Value",
+      "relatedCode": "C177621",
+      "relatedName": "ICD-O-3 Morphology Term Diagnosis Question"
+    }
+  ],
+  "roles": [
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36725",
+      "relatedName": "Abnormal Lymphocyte"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C36104",
+      "relatedName": "Aggressive Clinical Course"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C12474",
+      "relatedName": "B-Lymphocyte"
+    },
+    {
+      "type": "Disease_Has_Molecular_Abnormality",
+      "relatedCode": "C38173",
+      "relatedName": "BCL2 mRNA Overexpression"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C36122",
+      "relatedName": "Benign Cellular Infiltrate"
+    },
+    {
+      "type": "Disease_Has_Molecular_Abnormality",
+      "relatedCode": "C36443",
+      "relatedName": "Clonal Immunoglobulin Gene Rearrangement"
+    },
+    {
+      "type": "Disease_May_Have_Molecular_Abnormality",
+      "relatedCode": "C36444",
+      "relatedName": "Clonal Immunoglobulin Heavy Chain Gene Rearrangement"
+    },
+    {
+      "type": "Disease_Has_Molecular_Abnormality",
+      "relatedCode": "C36451",
+      "relatedName": "Clonal Immunoglobulin Kappa Light Chain Gene Rearrangement"
+    },
+    {
+      "type": "Disease_May_Have_Molecular_Abnormality",
+      "relatedCode": "C36452",
+      "relatedName": "Clonal Immunoglobulin Lambda Light Chain Gene Rearrangement"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C45318",
+      "relatedName": "Confluent Sheets of Neoplastic B-Lymphocytes Present"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C39570",
+      "relatedName": "Cutaneous Involvement"
+    },
+    {
+      "type": "Disease_Has_Associated_Disease",
+      "relatedCode": "C36081",
+      "relatedName": "Diffuse Large B-Cell Lymphoma Activated B-Cell Type"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C35903",
+      "relatedName": "Diffuse Pattern"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C39625",
+      "relatedName": "Extracutaneous Dissemination of Disease"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C41165",
+      "relatedName": "Hematopoietic and Lymphatic System"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C41165",
+      "relatedName": "Hematopoietic and Lymphatic System"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C32725",
+      "relatedName": "Hematopoietic and Lymphoid Cell"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C41168",
+      "relatedName": "Hematopoietic and Lymphoid Tissue"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12907",
+      "relatedName": "Integumentary System"
+    },
+    {
+      "type": "Disease_Has_Molecular_Abnormality",
+      "relatedCode": "C38174",
+      "relatedName": "IRF4 mRNA Overexpression"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12746",
+      "relatedName": "Lymphatic System"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C37027",
+      "relatedName": "Lymphocyte Predominant Cell"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C12535",
+      "relatedName": "Lymphocyte"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C13049",
+      "relatedName": "Lymphoid Tissue"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12917",
+      "relatedName": "Malignant Cell"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C36115",
+      "relatedName": "Malignant Cellular Infiltrate"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C33058",
+      "relatedName": "Mature B-Lymphocyte"
+    },
+    {
+      "type": "Disease_Excludes_Normal_Cell_Origin",
+      "relatedCode": "C12549",
+      "relatedName": "Myeloid Cell"
+    },
+    {
+      "type": "Disease_May_Have_Abnormal_Cell",
+      "relatedCode": "C37010",
+      "relatedName": "Neoplastic B-Immunoblast"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C38640",
+      "relatedName": "Neoplastic B-Lymphocyte"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12922",
+      "relatedName": "Neoplastic Cell"
+    },
+    {
+      "type": "Disease_May_Have_Abnormal_Cell",
+      "relatedCode": "C37014",
+      "relatedName": "Neoplastic Centroblast"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C37060",
+      "relatedName": "Neoplastic Hematopoietic and Lymphoid Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C37013",
+      "relatedName": "Neoplastic Large B-Lymphocyte"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36988",
+      "relatedName": "Neoplastic Lymphocyte"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C39566",
+      "relatedName": "Neoplastic T-Lymphocyte and Neoplastic Natural Killer Cell"
+    },
+    {
+      "type": "Disease_Excludes_Normal_Cell_Origin",
+      "relatedCode": "C12486",
+      "relatedName": "Plasma Cell"
+    },
+    {
+      "type": "Disease_Excludes_Normal_Cell_Origin",
+      "relatedCode": "C33931",
+      "relatedName": "Precursor B-Lymphoblast"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C36103",
+      "relatedName": "Rapidly Enlarging Mass"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C12660",
+      "relatedName": "Reed-Sternberg Cell"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C3373",
+      "relatedName": "Skin Nodule"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12470",
+      "relatedName": "Skin"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12470",
+      "relatedName": "Skin"
+    },
+    {
+      "type": "Disease_Excludes_Cytogenetic_Abnormality",
+      "relatedCode": "C27213",
+      "relatedName": "t(14;18)(q32;q21)"
+    }
+  ],
+  "history": [
+    {
+      "code": "C45194",
+      "action": "create",
+      "date": "2005-03-16"
+    },
+    {
+      "code": "C45194",
+      "action": "modify",
+      "date": "2005-03-30"
+    },
+    {
+      "code": "C45194",
+      "action": "modify",
+      "date": "2005-09-09"
+    },
+    {
+      "code": "C45194",
+      "action": "modify",
+      "date": "2009-04-06"
+    },
+    {
+      "code": "C45194",
+      "action": "modify",
+      "date": "2009-11-23"
+    },
+    {
+      "code": "C45194",
+      "action": "modify",
+      "date": "2012-07-30"
+    },
+    {
+      "code": "C45194",
+      "action": "modify",
+      "date": "2016-04-25"
+    },
+    {
+      "code": "C45194",
+      "action": "modify",
+      "date": "2019-09-30"
+    },
+    {
+      "code": "C45194",
+      "action": "modify",
+      "date": "2020-02-24"
+    },
+    {
+      "code": "C45194",
+      "action": "modify",
+      "date": "2020-06-29"
+    },
+    {
+      "code": "C45194",
+      "action": "modify",
+      "date": "2021-02-22"
+    },
+    {
+      "code": "C45194",
+      "action": "modify",
+      "date": "2021-03-29"
+    },
+    {
+      "code": "C45194",
+      "action": "modify",
+      "date": "2021-04-26"
+    },
+    {
+      "code": "C45194",
+      "action": "modify",
+      "date": "2024-05-28"
+    },
+    {
+      "code": "C45194",
+      "action": "modify",
+      "date": "2025-03-31"
+    }
+  ],
+  "maps": [
+    {
+      "type": "Has Synonym",
+      "targetName": "Primary cutaneous DLBCL, leg type",
+      "targetTermType": "PT",
+      "targetCode": "primary_diagnosis",
+      "targetTerminology": "GDC"
+    }
+  ]
+}

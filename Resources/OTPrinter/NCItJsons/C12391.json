@@ -1,0 +1,3786 @@
+{
+  "code": "C12391",
+  "name": "Stomach",
+  "terminology": "ncit",
+  "version": "25.11d",
+  "conceptStatus": "DEFAULT",
+  "leaf": true,
+  "active": true,
+  "synonyms": [
+    {
+      "name": "Stomach",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "caDSR"
+    },
+    {
+      "name": "STOMACH",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "CDISC"
+    },
+    {
+      "name": "Stomach",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "CPTAC"
+    },
+    {
+      "name": "Stomach",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "CTDC"
+    },
+    {
+      "name": "Stomach",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "GDC"
+    },
+    {
+      "name": "Stomach, NOS",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "GDC"
+    },
+    {
+      "name": "Stomach structure (body structure)",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "mCode",
+      "code": "69695003",
+      "subSource": "SNOMED CT"
+    },
+    {
+      "name": "stomach",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NCI-GLOSS",
+      "code": "CDR0000046604"
+    },
+    {
+      "name": "Gastric",
+      "termType": "AD",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Gastrointestinal Tract, Stomach",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Stomach",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Stomach",
+      "type": "Display_Name"
+    },
+    {
+      "name": "Stomach",
+      "type": "Preferred_Name"
+    },
+    {
+      "name": "Stomach",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "PCDC",
+      "subSource": "OS"
+    },
+    {
+      "name": "stomach",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "UBERON"
+    }
+  ],
+  "definitions": [
+    {
+      "definition": "An expanded region of the vertebrate alimentary tract that serves as a food storage compartment and digestive organ. A stomach is lined, in whole or in part by a glandular epithelium.",
+      "type": "ALT_DEFINITION",
+      "source": "UBERON"
+    },
+    {
+      "definition": "An organ that is part of the digestive system. It helps in the digestion of food by mixing it with digestive juices and churning it into a thin liquid.",
+      "type": "ALT_DEFINITION",
+      "source": "NCI-GLOSS"
+    },
+    {
+      "definition": "The portion of the gastrointestinal tract located between the esophagus and the proximal duodenum.",
+      "type": "ALT_DEFINITION",
+      "source": "CDISC"
+    },
+    {
+      "definition": "The primary organ of food digestion. It is located under the diaphragm, between the liver and the spleen as well as between the esophagus and the small intestine.",
+      "type": "DEFINITION",
+      "source": "NCI"
+    }
+  ],
+  "properties": [
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "CDISC"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "CPTAC"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "CTDC"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "GDC"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "mCode"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "PCDC"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "UBERON"
+    },
+    {
+      "code": "P366",
+      "type": "Legacy Concept Name",
+      "value": "Stomach"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "STOMACH"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "Stomach"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "Stomach, NOS"
+    },
+    {
+      "code": "P106",
+      "type": "Semantic_Type",
+      "value": "Body Part, Organ, or Organ Component"
+    },
+    {
+      "code": "P207",
+      "type": "UMLS_CUI",
+      "value": "C0038351"
+    },
+    {
+      "code": "oboInOwl:hasDbXref",
+      "type": "xRef",
+      "value": "UBERON:0000945"
+    }
+  ],
+  "parents": [
+    {
+      "code": "C13018",
+      "name": "Organ"
+    }
+  ],
+  "associations": [
+    {
+      "type": "Is_Value_For_GDC_Property",
+      "relatedCode": "C188396",
+      "relatedName": "Anatomic Site of Maximum Tumor Bulk"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C74456",
+      "relatedName": "CDISC SDTM Anatomical Location Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C66830",
+      "relatedName": "CDISC SDTM Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C77529",
+      "relatedName": "CDISC SEND Biospecimens Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C77526",
+      "relatedName": "CDISC SEND Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C61410",
+      "relatedName": "Clinical Data Interchange Standards Consortium Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C156953",
+      "relatedName": "CPTAC Baseline Medical Forms Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C159414",
+      "relatedName": "CPTAC Sarcoma Baseline Form"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C156952",
+      "relatedName": "CPTAC Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C173073",
+      "relatedName": "CTDC Value Terminology"
+    },
+    {
+      "type": "Is_Value_For_GDC_Property",
+      "relatedCode": "C173263",
+      "relatedName": "Disease Involvement Site"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C157711",
+      "relatedName": "GDC Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C177537",
+      "relatedName": "GDC Value Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168655",
+      "relatedName": "Mapped ICDO3.1 Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168660",
+      "relatedName": "Mapped ICDO3.1 Topography PT Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168659",
+      "relatedName": "Mapped ICDO3.1 Topography Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168656",
+      "relatedName": "Mapped ICDO3.2 Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168664",
+      "relatedName": "Mapped ICDO3.2 Topography PT Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168663",
+      "relatedName": "Mapped ICDO3.2 Topography Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C193234",
+      "relatedName": "mCode Radiotherapy Treatment Location Value Set"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C193006",
+      "relatedName": "mCode Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C179478",
+      "relatedName": "OS Authorized Value Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C179482",
+      "relatedName": "OS Biopsy/Surgical Procedures Table"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C179483",
+      "relatedName": "OS Radiation Therapy Table"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C179481",
+      "relatedName": "OS Tumor Assessment Table"
+    },
+    {
+      "type": "Is_Value_For_GDC_Property",
+      "relatedCode": "C158874",
+      "relatedName": "Primary Site of Disease"
+    },
+    {
+      "type": "Is_Value_For_GDC_Property",
+      "relatedCode": "C177570",
+      "relatedName": "Progressive or Recurrent Disease Anatomic Site"
+    },
+    {
+      "type": "Is_Value_For_GDC_Property",
+      "relatedCode": "C156421",
+      "relatedName": "Site of Resection or Biopsy"
+    },
+    {
+      "type": "Is_Value_For_GDC_Property",
+      "relatedCode": "C171435",
+      "relatedName": "Specimen Anatomic Site"
+    },
+    {
+      "type": "Is_Value_For_GDC_Property",
+      "relatedCode": "C70729",
+      "relatedName": "Targeted Anatomic Site"
+    },
+    {
+      "type": "Is_Value_For_GDC_Property",
+      "relatedCode": "C156422",
+      "relatedName": "Tissue or Organ of Origin"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C198975",
+      "relatedName": "UBERON Terminology"
+    }
+  ],
+  "inverseAssociations": [
+    {
+      "type": "Has_GDC_Value",
+      "relatedCode": "C188396",
+      "relatedName": "Anatomic Site of Maximum Tumor Bulk"
+    },
+    {
+      "type": "Has_GDC_Value",
+      "relatedCode": "C173263",
+      "relatedName": "Disease Involvement Site"
+    },
+    {
+      "type": "Has_GDC_Value",
+      "relatedCode": "C158874",
+      "relatedName": "Primary Site of Disease"
+    },
+    {
+      "type": "Has_GDC_Value",
+      "relatedCode": "C177570",
+      "relatedName": "Progressive or Recurrent Disease Anatomic Site"
+    },
+    {
+      "type": "Has_CTDC_Value",
+      "relatedCode": "C172273",
+      "relatedName": "Site of Metastasis at Trial Entry"
+    },
+    {
+      "type": "Has_PCDC_OS_Authorized_Value",
+      "relatedCode": "C173281",
+      "relatedName": "Site of Radiation Therapy"
+    },
+    {
+      "type": "Has_GDC_Value",
+      "relatedCode": "C156421",
+      "relatedName": "Site of Resection or Biopsy"
+    },
+    {
+      "type": "Has_PCDC_OS_Authorized_Value",
+      "relatedCode": "C157120",
+      "relatedName": "Site of Tumor"
+    },
+    {
+      "type": "Has_GDC_Value",
+      "relatedCode": "C171435",
+      "relatedName": "Specimen Anatomic Site"
+    },
+    {
+      "type": "Has_PCDC_OS_Authorized_Value",
+      "relatedCode": "C164323",
+      "relatedName": "Surgical Site"
+    },
+    {
+      "type": "Has_GDC_Value",
+      "relatedCode": "C70729",
+      "relatedName": "Targeted Anatomic Site"
+    },
+    {
+      "type": "Has_GDC_Value",
+      "relatedCode": "C156422",
+      "relatedName": "Tissue or Organ of Origin"
+    }
+  ],
+  "roles": [
+    {
+      "type": "Anatomic_Structure_Has_Location",
+      "relatedCode": "C12664",
+      "relatedName": "Abdomen"
+    },
+    {
+      "type": "Anatomic_Structure_Is_Physical_Part_Of",
+      "relatedCode": "C12378",
+      "relatedName": "Digestive System"
+    }
+  ],
+  "inverseRoles": [
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C2850",
+      "relatedName": "Achlorhydria"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C2850",
+      "relatedName": "Achlorhydria"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C26933",
+      "relatedName": "Acute Gastritis"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C26933",
+      "relatedName": "Acute Gastritis"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C166255",
+      "relatedName": "Advanced Gastric Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C166255",
+      "relatedName": "Advanced Gastric Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C165299",
+      "relatedName": "Advanced Gastric Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C165299",
+      "relatedName": "Advanced Gastric Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C156684",
+      "relatedName": "Advanced Gastric Large Cell Neuroendocrine Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C156684",
+      "relatedName": "Advanced Gastric Large Cell Neuroendocrine Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C156683",
+      "relatedName": "Advanced Gastric Neuroendocrine Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C156683",
+      "relatedName": "Advanced Gastric Neuroendocrine Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C156685",
+      "relatedName": "Advanced Gastric Small Cell Neuroendocrine Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C156685",
+      "relatedName": "Advanced Gastric Small Cell Neuroendocrine Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C5624",
+      "relatedName": "AIDS-Related Gastric Kaposi Sarcoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C5624",
+      "relatedName": "AIDS-Related Gastric Kaposi Sarcoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C26977",
+      "relatedName": "Alcoholic Gastritis"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C26977",
+      "relatedName": "Alcoholic Gastritis"
+    },
+    {
+      "type": "Gene_Product_Expressed_In_Tissue",
+      "relatedCode": "C21482",
+      "relatedName": "Anterior Gradient Protein 2 Homolog"
+    },
+    {
+      "type": "Anatomic_Structure_Is_Physical_Part_Of",
+      "relatedCode": "C32111",
+      "relatedName": "Anterior Surface of the Stomach"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C9472",
+      "relatedName": "Atypical Gastric Lymphoid Hyperplasia"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C9472",
+      "relatedName": "Atypical Gastric Lymphoid Hyperplasia"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C156076",
+      "relatedName": "Autoimmune Atrophic Chronic Gastritis"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C156076",
+      "relatedName": "Autoimmune Atrophic Chronic Gastritis"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C95752",
+      "relatedName": "Autoimmune Gastritis"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C95752",
+      "relatedName": "Autoimmune Gastritis"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C27340",
+      "relatedName": "Bacterial Gastritis"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C27340",
+      "relatedName": "Bacterial Gastritis"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C95895",
+      "relatedName": "Benign Gastric Gastrointestinal Stromal Tumor"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C95895",
+      "relatedName": "Benign Gastric Gastrointestinal Stromal Tumor"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C5483",
+      "relatedName": "Benign Gastric Granular Cell Tumor"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C5483",
+      "relatedName": "Benign Gastric Granular Cell Tumor"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C3599",
+      "relatedName": "Benign Gastric Neoplasm"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C3599",
+      "relatedName": "Benign Gastric Neoplasm"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C27438",
+      "relatedName": "Benign Gastric Soft Tissue Neoplasm"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C27438",
+      "relatedName": "Benign Gastric Soft Tissue Neoplasm"
+    },
+    {
+      "type": "Gene_Product_Expressed_In_Tissue",
+      "relatedCode": "C21161",
+      "relatedName": "Beta-Microseminoprotein"
+    },
+    {
+      "type": "Procedure_Has_Excised_Anatomy",
+      "relatedCode": "C51581",
+      "relatedName": "Billroth I Procedure"
+    },
+    {
+      "type": "Procedure_Has_Partially_Excised_Anatomy",
+      "relatedCode": "C51581",
+      "relatedName": "Billroth I Procedure"
+    },
+    {
+      "type": "Procedure_Has_Excised_Anatomy",
+      "relatedCode": "C51582",
+      "relatedName": "Billroth II Procedure"
+    },
+    {
+      "type": "Procedure_Has_Partially_Excised_Anatomy",
+      "relatedCode": "C51582",
+      "relatedName": "Billroth II Procedure"
+    },
+    {
+      "type": "Procedure_Has_Partially_Excised_Anatomy",
+      "relatedCode": "C51584",
+      "relatedName": "Biopsy of Pylorus"
+    },
+    {
+      "type": "Anatomic_Structure_Is_Physical_Part_Of",
+      "relatedCode": "C12258",
+      "relatedName": "Body of Stomach"
+    },
+    {
+      "type": "Procedure_Has_Target_Anatomy",
+      "relatedCode": "C51758",
+      "relatedName": "Bypass Gastrojejunostomy"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C82938",
+      "relatedName": "Chemical Gastritis"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C82938",
+      "relatedName": "Chemical Gastritis"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C118813",
+      "relatedName": "Childhood Gastric Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C118813",
+      "relatedName": "Childhood Gastric Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C190028",
+      "relatedName": "Childhood Gastroblastoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C7405",
+      "relatedName": "Chronic Atrophic Gastritis"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C7405",
+      "relatedName": "Chronic Atrophic Gastritis"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C26929",
+      "relatedName": "Chronic Gastritis"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C26929",
+      "relatedName": "Chronic Gastritis"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C133647",
+      "relatedName": "Clinical Stage 0 Gastric Cancer AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C133647",
+      "relatedName": "Clinical Stage 0 Gastric Cancer AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C133648",
+      "relatedName": "Clinical Stage I Gastric Cancer AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C133648",
+      "relatedName": "Clinical Stage I Gastric Cancer AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C133649",
+      "relatedName": "Clinical Stage II Gastric Cancer AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C133649",
+      "relatedName": "Clinical Stage II Gastric Cancer AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C133681",
+      "relatedName": "Clinical Stage IIA Gastric Cancer AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C133681",
+      "relatedName": "Clinical Stage IIA Gastric Cancer AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C133682",
+      "relatedName": "Clinical Stage IIB Gastric Cancer AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C133682",
+      "relatedName": "Clinical Stage IIB Gastric Cancer AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C133650",
+      "relatedName": "Clinical Stage III Gastric Cancer AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C133650",
+      "relatedName": "Clinical Stage III Gastric Cancer AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C133651",
+      "relatedName": "Clinical Stage IV Gastric Cancer AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C133651",
+      "relatedName": "Clinical Stage IV Gastric Cancer AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C133652",
+      "relatedName": "Clinical Stage IVA Gastric Cancer AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C133652",
+      "relatedName": "Clinical Stage IVA Gastric Cancer AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C133653",
+      "relatedName": "Clinical Stage IVB Gastric Cancer AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C133653",
+      "relatedName": "Clinical Stage IVB Gastric Cancer AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C122082",
+      "relatedName": "Collagenous Gastritis"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C122082",
+      "relatedName": "Collagenous Gastritis"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C27217",
+      "relatedName": "Cytomegaloviral Gastritis"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C27217",
+      "relatedName": "Cytomegaloviral Gastritis"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C27131",
+      "relatedName": "Early Gastric Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C27131",
+      "relatedName": "Early Gastric Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C162304",
+      "relatedName": "EBV-Related Gastric Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C162304",
+      "relatedName": "EBV-Related Gastric Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C27052",
+      "relatedName": "Eosinophilic Gastritis"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C27052",
+      "relatedName": "Eosinophilic Gastritis"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C27013",
+      "relatedName": "Erosive Gastritis"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C27013",
+      "relatedName": "Erosive Gastritis"
+    },
+    {
+      "type": "Procedure_Has_Excised_Anatomy",
+      "relatedCode": "C51907",
+      "relatedName": "Esophagogastrectomy"
+    },
+    {
+      "type": "Procedure_Has_Target_Anatomy",
+      "relatedCode": "C78144",
+      "relatedName": "Esophagogastroduodenoscopy"
+    },
+    {
+      "type": "Procedure_Has_Target_Anatomy",
+      "relatedCode": "C51644",
+      "relatedName": "Esophagogastroscopy"
+    },
+    {
+      "type": "Gene_Product_Expressed_In_Tissue",
+      "relatedCode": "C26155",
+      "relatedName": "ETS Homologous Factor"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C35826",
+      "relatedName": "Foveolar Hyperplasia"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C95779",
+      "relatedName": "Foveolar-Type Adenoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C95779",
+      "relatedName": "Foveolar-Type Adenoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C8961",
+      "relatedName": "Fundic Gland Polyp"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C8961",
+      "relatedName": "Fundic Gland Polyp"
+    },
+    {
+      "type": "Anatomic_Structure_Is_Physical_Part_Of",
+      "relatedCode": "C12257",
+      "relatedName": "Fundus of the Stomach"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C27342",
+      "relatedName": "Fungal Gastritis"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C27342",
+      "relatedName": "Fungal Gastritis"
+    },
+    {
+      "type": "Procedure_Has_Completely_Excised_Anatomy",
+      "relatedCode": "C29890",
+      "relatedName": "Gastrectomy with Esophagojejunostomy"
+    },
+    {
+      "type": "Procedure_Has_Excised_Anatomy",
+      "relatedCode": "C29890",
+      "relatedName": "Gastrectomy with Esophagojejunostomy"
+    },
+    {
+      "type": "Procedure_Has_Excised_Anatomy",
+      "relatedCode": "C15236",
+      "relatedName": "Gastrectomy"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C4004",
+      "relatedName": "Gastric Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C4004",
+      "relatedName": "Gastric Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C95775",
+      "relatedName": "Gastric Adenoma, Gastric-Type"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C95775",
+      "relatedName": "Gastric Adenoma, Gastric-Type"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C95773",
+      "relatedName": "Gastric Adenoma, Intestinal-Type"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C95773",
+      "relatedName": "Gastric Adenoma, Intestinal-Type"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C7699",
+      "relatedName": "Gastric Adenoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C7699",
+      "relatedName": "Gastric Adenoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C7699",
+      "relatedName": "Gastric Adenoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C5474",
+      "relatedName": "Gastric Adenosquamous Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C5474",
+      "relatedName": "Gastric Adenosquamous Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C136768",
+      "relatedName": "Gastric and Omental Gastrointestinal Stromal Tumor by AJCC v8 Stage"
+    },
+    {
+      "type": "Procedure_Has_Excised_Anatomy",
+      "relatedCode": "C51658",
+      "relatedName": "Gastric Antrectomy"
+    },
+    {
+      "type": "Procedure_Has_Partially_Excised_Anatomy",
+      "relatedCode": "C51658",
+      "relatedName": "Gastric Antrectomy"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C8400",
+      "relatedName": "Gastric Antrum Carcinoma In Situ AJCC v6 and v7"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C8400",
+      "relatedName": "Gastric Antrum Carcinoma In Situ AJCC v6 and v7"
+    },
+    {
+      "type": "Procedure_Has_Partially_Excised_Anatomy",
+      "relatedCode": "C51685",
+      "relatedName": "Gastric Biopsy"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C4430",
+      "relatedName": "Gastric Body Carcinoma In Situ AJCC v6 and v7"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C4430",
+      "relatedName": "Gastric Body Carcinoma In Situ AJCC v6 and v7"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C8399",
+      "relatedName": "Gastric Body Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C8399",
+      "relatedName": "Gastric Body Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C5251",
+      "relatedName": "Gastric Burkitt Lymphoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C5251",
+      "relatedName": "Gastric Burkitt Lymphoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C90503",
+      "relatedName": "Gastric Cancer by AJCC v6 Stage"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C90503",
+      "relatedName": "Gastric Cancer by AJCC v6 Stage"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C91222",
+      "relatedName": "Gastric Cancer by AJCC v7 Stage"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C91222",
+      "relatedName": "Gastric Cancer by AJCC v7 Stage"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C133639",
+      "relatedName": "Gastric Cancer by AJCC v8 Clinical Stage"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C133639",
+      "relatedName": "Gastric Cancer by AJCC v8 Clinical Stage"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C133640",
+      "relatedName": "Gastric Cancer by AJCC v8 Pathologic Stage"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C133640",
+      "relatedName": "Gastric Cancer by AJCC v8 Pathologic Stage"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C133641",
+      "relatedName": "Gastric Cancer by AJCC v8 Postneoadjuvant Therapy Stage"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C133641",
+      "relatedName": "Gastric Cancer by AJCC v8 Postneoadjuvant Therapy Stage"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C133638",
+      "relatedName": "Gastric Cancer by AJCC v8 Stage"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C133638",
+      "relatedName": "Gastric Cancer by AJCC v8 Stage"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C95748",
+      "relatedName": "Gastric Carcinoma with Lymphoid Stroma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C95748",
+      "relatedName": "Gastric Carcinoma with Lymphoid Stroma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C4911",
+      "relatedName": "Gastric Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C4911",
+      "relatedName": "Gastric Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C5247",
+      "relatedName": "Gastric Cardia Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C5247",
+      "relatedName": "Gastric Cardia Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C4428",
+      "relatedName": "Gastric Cardia Carcinoma In Situ AJCC v6 and v7"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C4428",
+      "relatedName": "Gastric Cardia Carcinoma In Situ AJCC v6 and v7"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C6794",
+      "relatedName": "Gastric Cardia Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C6794",
+      "relatedName": "Gastric Cardia Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C150034",
+      "relatedName": "Gastric Cardia Squamous Cell Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C150034",
+      "relatedName": "Gastric Cardia Squamous Cell Carcinoma"
+    },
+    {
+      "type": "Anatomic_Structure_Is_Physical_Part_Of",
+      "relatedCode": "C12256",
+      "relatedName": "Gastric Cardia"
+    },
+    {
+      "type": "Procedure_Has_Excised_Anatomy",
+      "relatedCode": "C51940",
+      "relatedName": "Gastric Cardiectomy"
+    },
+    {
+      "type": "Procedure_Has_Partially_Excised_Anatomy",
+      "relatedCode": "C51940",
+      "relatedName": "Gastric Cardiectomy"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C95749",
+      "relatedName": "Gastric Choriocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C95749",
+      "relatedName": "Gastric Choriocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C7035",
+      "relatedName": "Gastric Cronkhite Canada Polyposis"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C7035",
+      "relatedName": "Gastric Cronkhite Canada Polyposis"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C9159",
+      "relatedName": "Gastric Diffuse Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C9159",
+      "relatedName": "Gastric Diffuse Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C5253",
+      "relatedName": "Gastric Diffuse Large B-Cell Lymphoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C5253",
+      "relatedName": "Gastric Diffuse Large B-Cell Lymphoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C26886",
+      "relatedName": "Gastric Disorder"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C53647",
+      "relatedName": "Gastric Diverticulitis"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C53647",
+      "relatedName": "Gastric Diverticulitis"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C213583",
+      "relatedName": "Gastric Embryonal Rhabdomyosarcoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C213583",
+      "relatedName": "Gastric Embryonal Rhabdomyosarcoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C27443",
+      "relatedName": "Gastric Enterochromaffin Cell Serotonin-Producing Neuroendocrine Tumor"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C27443",
+      "relatedName": "Gastric Enterochromaffin Cell Serotonin-Producing Neuroendocrine Tumor"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C79595",
+      "relatedName": "Gastric Fistula"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C79595",
+      "relatedName": "Gastric Fistula"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C213740",
+      "relatedName": "Gastric Follicular Lymphoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C213740",
+      "relatedName": "Gastric Follicular Lymphoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C4429",
+      "relatedName": "Gastric Fundus Carcinoma In Situ AJCC v6 and v7"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C4429",
+      "relatedName": "Gastric Fundus Carcinoma In Situ AJCC v6 and v7"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C8398",
+      "relatedName": "Gastric Fundus Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C8398",
+      "relatedName": "Gastric Fundus Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C27444",
+      "relatedName": "Gastric Gastrin-Producing Neuroendocrine Tumor"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C27444",
+      "relatedName": "Gastric Gastrin-Producing Neuroendocrine Tumor"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C211865",
+      "relatedName": "Gastric Gastrointestinal Stromal Tumor by AJCC v7 Stage"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C211865",
+      "relatedName": "Gastric Gastrointestinal Stromal Tumor by AJCC v7 Stage"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C95898",
+      "relatedName": "Gastric Gastrointestinal Stromal Tumor of Uncertain Malignant Potential"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C95898",
+      "relatedName": "Gastric Gastrointestinal Stromal Tumor of Uncertain Malignant Potential"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C5806",
+      "relatedName": "Gastric Gastrointestinal Stromal Tumor"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C5806",
+      "relatedName": "Gastric Gastrointestinal Stromal Tumor"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C6448",
+      "relatedName": "Gastric Germ Cell Tumor"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C6448",
+      "relatedName": "Gastric Germ Cell Tumor"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C95900",
+      "relatedName": "Gastric Glomus Tumor"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C95900",
+      "relatedName": "Gastric Glomus Tumor"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C213741",
+      "relatedName": "Gastric Grade 1 Follicular Lymphoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C213741",
+      "relatedName": "Gastric Grade 1 Follicular Lymphoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C213742",
+      "relatedName": "Gastric Grade 2 Follicular Lymphoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C213742",
+      "relatedName": "Gastric Grade 2 Follicular Lymphoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C213743",
+      "relatedName": "Gastric Grade 3 Follicular Lymphoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C213743",
+      "relatedName": "Gastric Grade 3 Follicular Lymphoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C54094",
+      "relatedName": "Gastric Granular Cell Tumor"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C54094",
+      "relatedName": "Gastric Granular Cell Tumor"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C4373",
+      "relatedName": "Gastric Hamartomatous Polyp"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C4373",
+      "relatedName": "Gastric Hamartomatous Polyp"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C5481",
+      "relatedName": "Gastric Hemangioma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C5481",
+      "relatedName": "Gastric Hemangioma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C95747",
+      "relatedName": "Gastric Hepatoid Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C95747",
+      "relatedName": "Gastric Hepatoid Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C5638",
+      "relatedName": "Gastric Hodgkin Lymphoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C5638",
+      "relatedName": "Gastric Hodgkin Lymphoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C7033",
+      "relatedName": "Gastric Hyperplastic Polyp"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C7033",
+      "relatedName": "Gastric Hyperplastic Polyp"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C5256",
+      "relatedName": "Gastric Immature Teratoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C5256",
+      "relatedName": "Gastric Immature Teratoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C78312",
+      "relatedName": "Gastric Infection"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C78312",
+      "relatedName": "Gastric Infection"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C7022",
+      "relatedName": "Gastric Inflammatory Myofibroblastic Tumor"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C7022",
+      "relatedName": "Gastric Inflammatory Myofibroblastic Tumor"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C9157",
+      "relatedName": "Gastric Intestinal-Type Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C9157",
+      "relatedName": "Gastric Intestinal-Type Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C3955",
+      "relatedName": "Gastric Intraepithelial Neoplasia"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C3955",
+      "relatedName": "Gastric Intraepithelial Neoplasia"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C95763",
+      "relatedName": "Gastric Intramucosal Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C95763",
+      "relatedName": "Gastric Intramucosal Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C7034",
+      "relatedName": "Gastric Juvenile Polyp"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C7034",
+      "relatedName": "Gastric Juvenile Polyp"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C5529",
+      "relatedName": "Gastric Kaposi Sarcoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C5529",
+      "relatedName": "Gastric Kaposi Sarcoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C95885",
+      "relatedName": "Gastric Large Cell Neuroendocrine Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C95885",
+      "relatedName": "Gastric Large Cell Neuroendocrine Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C3876",
+      "relatedName": "Gastric Leiomyoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C3876",
+      "relatedName": "Gastric Leiomyoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C27200",
+      "relatedName": "Gastric Leiomyosarcoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C27200",
+      "relatedName": "Gastric Leiomyosarcoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C5258",
+      "relatedName": "Gastric Lipoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C5258",
+      "relatedName": "Gastric Lipoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C5488",
+      "relatedName": "Gastric Liposarcoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C5488",
+      "relatedName": "Gastric Liposarcoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C5482",
+      "relatedName": "Gastric Lymphangioma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C5482",
+      "relatedName": "Gastric Lymphangioma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C4636",
+      "relatedName": "Gastric Lymphoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C4636",
+      "relatedName": "Gastric Lymphoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C27440",
+      "relatedName": "Gastric Mantle Cell Lymphoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C213872",
+      "relatedName": "Gastric Mature B-Cell Neoplasm"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C213872",
+      "relatedName": "Gastric Mature B-Cell Neoplasm"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C178519",
+      "relatedName": "Gastric Melanoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C178519",
+      "relatedName": "Gastric Melanoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C67526",
+      "relatedName": "Gastric Mixed Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C67526",
+      "relatedName": "Gastric Mixed Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C95886",
+      "relatedName": "Gastric Mixed Adenoneuroendocrine Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C95886",
+      "relatedName": "Gastric Mixed Adenoneuroendocrine Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C5248",
+      "relatedName": "Gastric Mucinous Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C5248",
+      "relatedName": "Gastric Mucinous Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C5266",
+      "relatedName": "Gastric Mucosa-Associated Lymphoid Tissue Lymphoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C5266",
+      "relatedName": "Gastric Mucosa-Associated Lymphoid Tissue Lymphoma"
+    },
+    {
+      "type": "Anatomic_Structure_Is_Physical_Part_Of",
+      "relatedCode": "C32656",
+      "relatedName": "Gastric Mucosa"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C78313",
+      "relatedName": "Gastric Mucositis"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C78313",
+      "relatedName": "Gastric Mucositis"
+    },
+    {
+      "type": "Anatomic_Structure_Is_Physical_Part_Of",
+      "relatedCode": "C32657",
+      "relatedName": "Gastric Muscularis Externa"
+    },
+    {
+      "type": "Anatomic_Structure_Is_Physical_Part_Of",
+      "relatedCode": "C32658",
+      "relatedName": "Gastric Muscularis Mucosa"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C3387",
+      "relatedName": "Gastric Neoplasm"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C95884",
+      "relatedName": "Gastric Neuroendocrine Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C95884",
+      "relatedName": "Gastric Neuroendocrine Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C5696",
+      "relatedName": "Gastric Neuroendocrine Neoplasm"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C5696",
+      "relatedName": "Gastric Neuroendocrine Neoplasm"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C135045",
+      "relatedName": "Gastric Neuroendocrine Tumor by AJCC v8 Stage"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C135045",
+      "relatedName": "Gastric Neuroendocrine Tumor by AJCC v8 Stage"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C208301",
+      "relatedName": "Gastric Neuroendocrine Tumor by AJCC v9 Stage"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C208301",
+      "relatedName": "Gastric Neuroendocrine Tumor by AJCC v9 Stage"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C4635",
+      "relatedName": "Gastric Neuroendocrine Tumor G1"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C4635",
+      "relatedName": "Gastric Neuroendocrine Tumor G1"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C95880",
+      "relatedName": "Gastric Neuroendocrine Tumor G2"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C95880",
+      "relatedName": "Gastric Neuroendocrine Tumor G2"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C172662",
+      "relatedName": "Gastric Neuroendocrine Tumor G3"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C172662",
+      "relatedName": "Gastric Neuroendocrine Tumor G3"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C95871",
+      "relatedName": "Gastric Neuroendocrine Tumor"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C95871",
+      "relatedName": "Gastric Neuroendocrine Tumor"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C27235",
+      "relatedName": "Gastric Non-Hodgkin Lymphoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C27235",
+      "relatedName": "Gastric Non-Hodgkin Lymphoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C5472",
+      "relatedName": "Gastric Papillary Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C5472",
+      "relatedName": "Gastric Papillary Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C65194",
+      "relatedName": "Gastric Parietal Cell Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C65194",
+      "relatedName": "Gastric Parietal Cell Adenocarcinoma"
+    },
+    {
+      "type": "Anatomic_Structure_Is_Physical_Part_Of",
+      "relatedCode": "C32659",
+      "relatedName": "Gastric Pit"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C95902",
+      "relatedName": "Gastric Plexiform Fibromyxoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C95902",
+      "relatedName": "Gastric Plexiform Fibromyxoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C213871",
+      "relatedName": "Gastric Polymorphic Post-Transplant Lymphoproliferative Disorder"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C213871",
+      "relatedName": "Gastric Polymorphic Post-Transplant Lymphoproliferative Disorder"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C3954",
+      "relatedName": "Gastric Polyp"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C3954",
+      "relatedName": "Gastric Polyp"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C95743",
+      "relatedName": "Gastric Poorly Cohesive Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C95743",
+      "relatedName": "Gastric Poorly Cohesive Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C213840",
+      "relatedName": "Gastric Post-Transplant Lymphoproliferative Disorder"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C213840",
+      "relatedName": "Gastric Post-Transplant Lymphoproliferative Disorder"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C7424",
+      "relatedName": "Gastric Precancerous Condition"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C7424",
+      "relatedName": "Gastric Precancerous Condition"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C43526",
+      "relatedName": "Gastric Pyloric Gland Adenoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C43526",
+      "relatedName": "Gastric Pyloric Gland Adenoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C4431",
+      "relatedName": "Gastric Pylorus Carcinoma In Situ AJCC v6 and v7"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C4431",
+      "relatedName": "Gastric Pylorus Carcinoma In Situ AJCC v6 and v7"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C6795",
+      "relatedName": "Gastric Pylorus Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C6795",
+      "relatedName": "Gastric Pylorus Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C213582",
+      "relatedName": "Gastric Rhabdomyosarcoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C213582",
+      "relatedName": "Gastric Rhabdomyosarcoma"
+    },
+    {
+      "type": "Anatomic_Structure_Is_Physical_Part_Of",
+      "relatedCode": "C32660",
+      "relatedName": "Gastric Rugae"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C27439",
+      "relatedName": "Gastric Sarcoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C27439",
+      "relatedName": "Gastric Sarcoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C95901",
+      "relatedName": "Gastric Schwannoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C95901",
+      "relatedName": "Gastric Schwannoma"
+    },
+    {
+      "type": "Anatomic_Structure_Is_Physical_Part_Of",
+      "relatedCode": "C32662",
+      "relatedName": "Gastric Serosal Surface"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C5250",
+      "relatedName": "Gastric Signet Ring Cell Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C5250",
+      "relatedName": "Gastric Signet Ring Cell Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C6764",
+      "relatedName": "Gastric Small Cell Neuroendocrine Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C6764",
+      "relatedName": "Gastric Small Cell Neuroendocrine Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C5487",
+      "relatedName": "Gastric Soft Tissue Neoplasm"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C5487",
+      "relatedName": "Gastric Soft Tissue Neoplasm"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C5475",
+      "relatedName": "Gastric Squamous Cell Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C5475",
+      "relatedName": "Gastric Squamous Cell Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C53646",
+      "relatedName": "Gastric Stress Ulcer"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C53646",
+      "relatedName": "Gastric Stress Ulcer"
+    },
+    {
+      "type": "Anatomic_Structure_Is_Physical_Part_Of",
+      "relatedCode": "C32663",
+      "relatedName": "Gastric Submucosa"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C95899",
+      "relatedName": "Gastric Synovial Sarcoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C95899",
+      "relatedName": "Gastric Synovial Sarcoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C5254",
+      "relatedName": "Gastric T-Cell Non-Hodgkin Lymphoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C5254",
+      "relatedName": "Gastric T-Cell Non-Hodgkin Lymphoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C5259",
+      "relatedName": "Gastric Teratoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C5259",
+      "relatedName": "Gastric Teratoma"
+    },
+    {
+      "type": "Anatomic_Structure_Is_Physical_Part_Of",
+      "relatedCode": "C32664",
+      "relatedName": "Gastric Tissue"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C5473",
+      "relatedName": "Gastric Tubular Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C5473",
+      "relatedName": "Gastric Tubular Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C7036",
+      "relatedName": "Gastric Tubular Adenoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C7036",
+      "relatedName": "Gastric Tubular Adenoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C7037",
+      "relatedName": "Gastric Tubulovillous Adenoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C7037",
+      "relatedName": "Gastric Tubulovillous Adenoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C3388",
+      "relatedName": "Gastric Ulcer"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C3388",
+      "relatedName": "Gastric Ulcer"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C5476",
+      "relatedName": "Gastric Undifferentiated Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C5476",
+      "relatedName": "Gastric Undifferentiated Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C197906",
+      "relatedName": "Gastric Varices"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C197906",
+      "relatedName": "Gastric Varices"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C7038",
+      "relatedName": "Gastric Villous Adenoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C7038",
+      "relatedName": "Gastric Villous Adenoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C5489",
+      "relatedName": "Gastric Xanthoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C5489",
+      "relatedName": "Gastric Xanthoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C27837",
+      "relatedName": "Gastritis Associated with Crohn Disease"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C27837",
+      "relatedName": "Gastritis Associated with Crohn Disease"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C26780",
+      "relatedName": "Gastritis"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C26780",
+      "relatedName": "Gastritis"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C172659",
+      "relatedName": "Gastroblastoma"
+    },
+    {
+      "type": "Procedure_Has_Target_Anatomy",
+      "relatedCode": "C16604",
+      "relatedName": "Gastroscopy"
+    },
+    {
+      "type": "Procedure_Has_Target_Anatomy",
+      "relatedCode": "C52006",
+      "relatedName": "Gastrostomy"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C67277",
+      "relatedName": "Giant Hypertrophic Gastritis"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C67277",
+      "relatedName": "Giant Hypertrophic Gastritis"
+    },
+    {
+      "type": "Gene_Product_Expressed_In_Tissue",
+      "relatedCode": "C18290",
+      "relatedName": "Glutathione S-Transferase Mu 1"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C27348",
+      "relatedName": "Granulomatous Gastritis"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C27348",
+      "relatedName": "Granulomatous Gastritis"
+    },
+    {
+      "type": "Anatomic_Structure_Is_Physical_Part_Of",
+      "relatedCode": "C12262",
+      "relatedName": "Greater Curvature of the Stomach"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C39293",
+      "relatedName": "Helicobacter Pylori Infection"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C39293",
+      "relatedName": "Helicobacter Pylori Infection"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C27763",
+      "relatedName": "Helicobacter Pylori-Associated Gastric Mucosa-Associated Lymphoid Tissue Lymphoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C27763",
+      "relatedName": "Helicobacter Pylori-Associated Gastric Mucosa-Associated Lymphoid Tissue Lymphoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C27121",
+      "relatedName": "Helicobacter Pylori-Associated Gastritis"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C27121",
+      "relatedName": "Helicobacter Pylori-Associated Gastritis"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C27765",
+      "relatedName": "Helicobacter Pylori-Related Gastric Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C27765",
+      "relatedName": "Helicobacter Pylori-Related Gastric Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C26928",
+      "relatedName": "Hemorrhagic Gastritis"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C26928",
+      "relatedName": "Hemorrhagic Gastritis"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C43295",
+      "relatedName": "Hereditary Gastric Diffuse Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C43295",
+      "relatedName": "Hereditary Gastric Diffuse Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C27341",
+      "relatedName": "Herpetic Gastritis"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C27341",
+      "relatedName": "Herpetic Gastritis"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C27437",
+      "relatedName": "High Grade Gastric Intraepithelial Neoplasia"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C27437",
+      "relatedName": "High Grade Gastric Intraepithelial Neoplasia"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C98952",
+      "relatedName": "Hypertrophic Pyloric Stenosis"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C98952",
+      "relatedName": "Hypertrophic Pyloric Stenosis"
+    },
+    {
+      "type": "Anatomic_Structure_Is_Physical_Part_Of",
+      "relatedCode": "C12261",
+      "relatedName": "Lesser Curvature of the Stomach"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C198918",
+      "relatedName": "Localized Gastric Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C198918",
+      "relatedName": "Localized Gastric Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C156167",
+      "relatedName": "Localized Gastric Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C156167",
+      "relatedName": "Localized Gastric Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C162767",
+      "relatedName": "Locally Advanced Gastric Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C162767",
+      "relatedName": "Locally Advanced Gastric Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C162772",
+      "relatedName": "Locally Advanced Gastric Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C162772",
+      "relatedName": "Locally Advanced Gastric Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C155874",
+      "relatedName": "Locally Advanced Unresectable Gastric Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C155874",
+      "relatedName": "Locally Advanced Unresectable Gastric Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C190198",
+      "relatedName": "Locally Recurrent Gastric Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C190198",
+      "relatedName": "Locally Recurrent Gastric Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C27436",
+      "relatedName": "Low Grade Gastric Intraepithelial Neoplasia"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C27436",
+      "relatedName": "Low Grade Gastric Intraepithelial Neoplasia"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C27051",
+      "relatedName": "Lymphocytic Gastritis"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C27051",
+      "relatedName": "Lymphocytic Gastritis"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C170940",
+      "relatedName": "Malignant Fundus Neoplasm"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C95897",
+      "relatedName": "Malignant Gastric Gastrointestinal Stromal Tumor"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C95897",
+      "relatedName": "Malignant Gastric Gastrointestinal Stromal Tumor"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C5486",
+      "relatedName": "Malignant Gastric Germ Cell Tumor"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C5486",
+      "relatedName": "Malignant Gastric Germ Cell Tumor"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C5486",
+      "relatedName": "Malignant Gastric Germ Cell Tumor"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C5484",
+      "relatedName": "Malignant Gastric Granular Cell Tumor"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C5484",
+      "relatedName": "Malignant Gastric Granular Cell Tumor"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C9331",
+      "relatedName": "Malignant Gastric Neoplasm"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C188051",
+      "relatedName": "Malignant Pylorus Neoplasm"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C5260",
+      "relatedName": "Mature Gastric Teratoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C5260",
+      "relatedName": "Mature Gastric Teratoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C153319",
+      "relatedName": "Metastatic Gastric Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C153319",
+      "relatedName": "Metastatic Gastric Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C153320",
+      "relatedName": "Metastatic Gastric Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C153320",
+      "relatedName": "Metastatic Gastric Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C156682",
+      "relatedName": "Metastatic Gastric Neuroendocrine Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C156682",
+      "relatedName": "Metastatic Gastric Neuroendocrine Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C95903",
+      "relatedName": "Metastatic Malignant Neoplasm in the Stomach"
+    },
+    {
+      "type": "Disease_Has_Metastatic_Anatomic_Site",
+      "relatedCode": "C95903",
+      "relatedName": "Metastatic Malignant Neoplasm in the Stomach"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C165630",
+      "relatedName": "Metastatic Proximal Gastric Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C165630",
+      "relatedName": "Metastatic Proximal Gastric Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C153316",
+      "relatedName": "Metastatic Unresectable Gastric Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C153316",
+      "relatedName": "Metastatic Unresectable Gastric Adenocarcinoma"
+    },
+    {
+      "type": "Procedure_Has_Excised_Anatomy",
+      "relatedCode": "C185239",
+      "relatedName": "Minimally Invasive Proximal Gastrectomy"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C27329",
+      "relatedName": "Necrotizing Gastritis"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C27329",
+      "relatedName": "Necrotizing Gastritis"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C53501",
+      "relatedName": "Non-Neoplastic Gastric Disorder"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C53501",
+      "relatedName": "Non-Neoplastic Gastric Disorder"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C95767",
+      "relatedName": "Non-Neoplastic Gastric Polyp"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C95767",
+      "relatedName": "Non-Neoplastic Gastric Polyp"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C166121",
+      "relatedName": "Oligometastatic Gastric Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C166121",
+      "relatedName": "Oligometastatic Gastric Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C172655",
+      "relatedName": "Oxyntic Gland Adenoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C172655",
+      "relatedName": "Oxyntic Gland Adenoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C133654",
+      "relatedName": "Pathologic Stage 0 Gastric Cancer AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C133654",
+      "relatedName": "Pathologic Stage 0 Gastric Cancer AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C133655",
+      "relatedName": "Pathologic Stage I Gastric Cancer AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C133655",
+      "relatedName": "Pathologic Stage I Gastric Cancer AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C133656",
+      "relatedName": "Pathologic Stage IA Gastric Cancer AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C133656",
+      "relatedName": "Pathologic Stage IA Gastric Cancer AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C133657",
+      "relatedName": "Pathologic Stage IB Gastric Cancer AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C133657",
+      "relatedName": "Pathologic Stage IB Gastric Cancer AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C133659",
+      "relatedName": "Pathologic Stage II Gastric Cancer AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C133659",
+      "relatedName": "Pathologic Stage II Gastric Cancer AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C133660",
+      "relatedName": "Pathologic Stage IIA Gastric Cancer AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C133660",
+      "relatedName": "Pathologic Stage IIA Gastric Cancer AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C133662",
+      "relatedName": "Pathologic Stage IIB Gastric Cancer AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C133662",
+      "relatedName": "Pathologic Stage IIB Gastric Cancer AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C133663",
+      "relatedName": "Pathologic Stage III Gastric Cancer AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C133663",
+      "relatedName": "Pathologic Stage III Gastric Cancer AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C133665",
+      "relatedName": "Pathologic Stage IIIA Gastric Cancer AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C133665",
+      "relatedName": "Pathologic Stage IIIA Gastric Cancer AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C133666",
+      "relatedName": "Pathologic Stage IIIB Gastric Cancer AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C133666",
+      "relatedName": "Pathologic Stage IIIB Gastric Cancer AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C133667",
+      "relatedName": "Pathologic Stage IIIC Gastric Cancer AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C133667",
+      "relatedName": "Pathologic Stage IIIC Gastric Cancer AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C133668",
+      "relatedName": "Pathologic Stage IV Gastric Cancer AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C133668",
+      "relatedName": "Pathologic Stage IV Gastric Cancer AJCC v8"
+    },
+    {
+      "type": "Procedure_Has_Target_Anatomy",
+      "relatedCode": "C106040",
+      "relatedName": "Percutaneous Endoscopic Gastrostomy"
+    },
+    {
+      "type": "Procedure_Has_Target_Anatomy",
+      "relatedCode": "C106036",
+      "relatedName": "Percutaneous Fluoroscopic Gastrostomy"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C220085",
+      "relatedName": "Perforated Hemorrhagic Gastric Ulcer without Obstruction"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C220085",
+      "relatedName": "Perforated Hemorrhagic Gastric Ulcer without Obstruction"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C27836",
+      "relatedName": "Persistent Superficial Gastritis"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C27836",
+      "relatedName": "Persistent Superficial Gastritis"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C36205",
+      "relatedName": "Peutz-Jeghers Polyp of the Stomach"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C36205",
+      "relatedName": "Peutz-Jeghers Polyp of the Stomach"
+    },
+    {
+      "type": "Anatomic_Structure_Is_Physical_Part_Of",
+      "relatedCode": "C33382",
+      "relatedName": "Posterior Surface of the Stomach"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C133670",
+      "relatedName": "Postneoadjuvant Therapy Stage I Gastric Cancer AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C133670",
+      "relatedName": "Postneoadjuvant Therapy Stage I Gastric Cancer AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C133671",
+      "relatedName": "Postneoadjuvant Therapy Stage II Gastric Cancer AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C133671",
+      "relatedName": "Postneoadjuvant Therapy Stage II Gastric Cancer AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C133672",
+      "relatedName": "Postneoadjuvant Therapy Stage III Gastric Cancer AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C133672",
+      "relatedName": "Postneoadjuvant Therapy Stage III Gastric Cancer AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C133673",
+      "relatedName": "Postneoadjuvant Therapy Stage IV Gastric Cancer AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C133673",
+      "relatedName": "Postneoadjuvant Therapy Stage IV Gastric Cancer AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C165628",
+      "relatedName": "Proximal Gastric Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C165628",
+      "relatedName": "Proximal Gastric Adenocarcinoma"
+    },
+    {
+      "type": "Anatomic_Structure_Is_Physical_Part_Of",
+      "relatedCode": "C165627",
+      "relatedName": "Proximal Stomach"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C34966",
+      "relatedName": "Pyloric Stenosis"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C34966",
+      "relatedName": "Pyloric Stenosis"
+    },
+    {
+      "type": "Anatomic_Structure_Is_Physical_Part_Of",
+      "relatedCode": "C12260",
+      "relatedName": "Pylorus"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C154622",
+      "relatedName": "Recurrent Gastric Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C154622",
+      "relatedName": "Recurrent Gastric Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C9237",
+      "relatedName": "Recurrent Gastric Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C9237",
+      "relatedName": "Recurrent Gastric Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C9354",
+      "relatedName": "Recurrent Malignant Gastric Neoplasm"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C181856",
+      "relatedName": "Recurrent Metastatic Gastric Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C181856",
+      "relatedName": "Recurrent Metastatic Gastric Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C167074",
+      "relatedName": "Refractory Gastric Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C167074",
+      "relatedName": "Refractory Gastric Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C147996",
+      "relatedName": "Refractory Gastric Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C147996",
+      "relatedName": "Refractory Gastric Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C192203",
+      "relatedName": "Resectable Gastric Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C192203",
+      "relatedName": "Resectable Gastric Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C210813",
+      "relatedName": "Resectable Gastric Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C210813",
+      "relatedName": "Resectable Gastric Carcinoma"
+    },
+    {
+      "type": "Procedure_Has_Excised_Anatomy",
+      "relatedCode": "C167213",
+      "relatedName": "Robotic Bariatric Sleeve Gastrectomy"
+    },
+    {
+      "type": "Procedure_Has_Target_Anatomy",
+      "relatedCode": "C51756",
+      "relatedName": "Roux-en-Y Anastomosis"
+    },
+    {
+      "type": "Gene_Product_Expressed_In_Tissue",
+      "relatedCode": "C18035",
+      "relatedName": "Somatostatin Receptor Type 1"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C43527",
+      "relatedName": "Sporadic Gastric Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C43527",
+      "relatedName": "Sporadic Gastric Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C43529",
+      "relatedName": "Sporadic Gastric Diffuse Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C43529",
+      "relatedName": "Sporadic Gastric Diffuse Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C7788",
+      "relatedName": "Stage 0 Gastric Cancer AJCC v6 and v7"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C7788",
+      "relatedName": "Stage 0 Gastric Cancer AJCC v6 and v7"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C136770",
+      "relatedName": "Stage I Gastric and Omental Gastrointestinal Stromal Tumor AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C7772",
+      "relatedName": "Stage I Gastric Cancer AJCC v6"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C7772",
+      "relatedName": "Stage I Gastric Cancer AJCC v6"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C89856",
+      "relatedName": "Stage I Gastric Cancer AJCC v7"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C89856",
+      "relatedName": "Stage I Gastric Cancer AJCC v7"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C135046",
+      "relatedName": "Stage I Gastric Neuroendocrine Tumor AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C135046",
+      "relatedName": "Stage I Gastric Neuroendocrine Tumor AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C208302",
+      "relatedName": "Stage I Gastric Neuroendocrine Tumor AJCC v9"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C208302",
+      "relatedName": "Stage I Gastric Neuroendocrine Tumor AJCC v9"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C136771",
+      "relatedName": "Stage IA Gastric and Omental Gastrointestinal Stromal Tumor AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C5468",
+      "relatedName": "Stage IA Gastric Cancer AJCC v7"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C5468",
+      "relatedName": "Stage IA Gastric Cancer AJCC v7"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C87825",
+      "relatedName": "Stage IA Gastric Gastrointestinal Stromal Tumor AJCC v7"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C87825",
+      "relatedName": "Stage IA Gastric Gastrointestinal Stromal Tumor AJCC v7"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C136772",
+      "relatedName": "Stage IB Gastric and Omental Gastrointestinal Stromal Tumor AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C5469",
+      "relatedName": "Stage IB Gastric Cancer AJCC v7"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C5469",
+      "relatedName": "Stage IB Gastric Cancer AJCC v7"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C87826",
+      "relatedName": "Stage IB Gastric Gastrointestinal Stromal Tumor AJCC v7"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C87826",
+      "relatedName": "Stage IB Gastric Gastrointestinal Stromal Tumor AJCC v7"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C136773",
+      "relatedName": "Stage II Gastric and Omental Gastrointestinal Stromal Tumor AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C7773",
+      "relatedName": "Stage II Gastric Cancer AJCC v6"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C7773",
+      "relatedName": "Stage II Gastric Cancer AJCC v6"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C89859",
+      "relatedName": "Stage II Gastric Cancer AJCC v7"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C89859",
+      "relatedName": "Stage II Gastric Cancer AJCC v7"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C87827",
+      "relatedName": "Stage II Gastric Gastrointestinal Stromal Tumor AJCC v7"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C87827",
+      "relatedName": "Stage II Gastric Gastrointestinal Stromal Tumor AJCC v7"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C135047",
+      "relatedName": "Stage II Gastric Neuroendocrine Tumor AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C135047",
+      "relatedName": "Stage II Gastric Neuroendocrine Tumor AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C208303",
+      "relatedName": "Stage II Gastric Neuroendocrine Tumor AJCC v9"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C208303",
+      "relatedName": "Stage II Gastric Neuroendocrine Tumor AJCC v9"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C87775",
+      "relatedName": "Stage IIA Gastric Cancer AJCC v7"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C87775",
+      "relatedName": "Stage IIA Gastric Cancer AJCC v7"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C87776",
+      "relatedName": "Stage IIB Gastric Cancer AJCC v7"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C87776",
+      "relatedName": "Stage IIB Gastric Cancer AJCC v7"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C136774",
+      "relatedName": "Stage III Gastric and Omental Gastrointestinal Stromal Tumor AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C7774",
+      "relatedName": "Stage III Gastric Cancer AJCC v6"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C7774",
+      "relatedName": "Stage III Gastric Cancer AJCC v6"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C89860",
+      "relatedName": "Stage III Gastric Cancer AJCC v7"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C89860",
+      "relatedName": "Stage III Gastric Cancer AJCC v7"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C135048",
+      "relatedName": "Stage III Gastric Neuroendocrine Tumor AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C135048",
+      "relatedName": "Stage III Gastric Neuroendocrine Tumor AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C208304",
+      "relatedName": "Stage III Gastric Neuroendocrine Tumor AJCC v9"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C208304",
+      "relatedName": "Stage III Gastric Neuroendocrine Tumor AJCC v9"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C136775",
+      "relatedName": "Stage IIIA Gastric and Omental Gastrointestinal Stromal Tumor AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C5471",
+      "relatedName": "Stage IIIA Gastric Cancer AJCC v7"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C5471",
+      "relatedName": "Stage IIIA Gastric Cancer AJCC v7"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C87828",
+      "relatedName": "Stage IIIA Gastric Gastrointestinal Stromal Tumor AJCC v7"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C87828",
+      "relatedName": "Stage IIIA Gastric Gastrointestinal Stromal Tumor AJCC v7"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C136777",
+      "relatedName": "Stage IIIB Gastric and Omental Gastrointestinal Stromal Tumor AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C5470",
+      "relatedName": "Stage IIIB Gastric Cancer AJCC v7"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C5470",
+      "relatedName": "Stage IIIB Gastric Cancer AJCC v7"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C87829",
+      "relatedName": "Stage IIIB Gastric Gastrointestinal Stromal Tumor AJCC v7"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C87829",
+      "relatedName": "Stage IIIB Gastric Gastrointestinal Stromal Tumor AJCC v7"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C87777",
+      "relatedName": "Stage IIIC Gastric Cancer AJCC v7"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C87777",
+      "relatedName": "Stage IIIC Gastric Cancer AJCC v7"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C136778",
+      "relatedName": "Stage IV Gastric and Omental Gastrointestinal Stromal Tumor AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C9036",
+      "relatedName": "Stage IV Gastric Cancer AJCC v6"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C9036",
+      "relatedName": "Stage IV Gastric Cancer AJCC v6"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C89861",
+      "relatedName": "Stage IV Gastric Cancer AJCC v7"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C89861",
+      "relatedName": "Stage IV Gastric Cancer AJCC v7"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C87830",
+      "relatedName": "Stage IV Gastric Gastrointestinal Stromal Tumor AJCC v7"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C87830",
+      "relatedName": "Stage IV Gastric Gastrointestinal Stromal Tumor AJCC v7"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C135049",
+      "relatedName": "Stage IV Gastric Neuroendocrine Tumor AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C135049",
+      "relatedName": "Stage IV Gastric Neuroendocrine Tumor AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C208305",
+      "relatedName": "Stage IV Gastric Neuroendocrine Tumor AJCC v9"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C208305",
+      "relatedName": "Stage IV Gastric Neuroendocrine Tumor AJCC v9"
+    },
+    {
+      "type": "Procedure_Has_Excised_Anatomy",
+      "relatedCode": "C51583",
+      "relatedName": "Subtotal Gastrectomy"
+    },
+    {
+      "type": "Procedure_Has_Partially_Excised_Anatomy",
+      "relatedCode": "C51583",
+      "relatedName": "Subtotal Gastrectomy"
+    },
+    {
+      "type": "Gene_Product_Expressed_In_Tissue",
+      "relatedCode": "C18295",
+      "relatedName": "Suppressor of Tumorigenicity 14 Protein"
+    },
+    {
+      "type": "Procedure_Has_Excised_Anatomy",
+      "relatedCode": "C185240",
+      "relatedName": "Total Gastrectomy"
+    },
+    {
+      "type": "Gene_Product_Expressed_In_Tissue",
+      "relatedCode": "C17330",
+      "relatedName": "Trefoil Factor 1"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C154221",
+      "relatedName": "Unresectable Gastric Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C154221",
+      "relatedName": "Unresectable Gastric Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C159775",
+      "relatedName": "Unresectable Gastric Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C159775",
+      "relatedName": "Unresectable Gastric Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C175304",
+      "relatedName": "Unresectable Malignant Gastric Neoplasm"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C27184",
+      "relatedName": "Viral Gastritis"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C27184",
+      "relatedName": "Viral Gastritis"
+    },
+    {
+      "type": "Procedure_May_Have_Partially_Excised_Anatomy",
+      "relatedCode": "C15356",
+      "relatedName": "Whipple Procedure"
+    }
+  ],
+  "history": [
+    {
+      "code": "C12391",
+      "action": "create",
+      "date": "2003-08-12"
+    },
+    {
+      "code": "C12391",
+      "action": "modify",
+      "date": "2003-10-31"
+    },
+    {
+      "code": "C12391",
+      "action": "modify",
+      "date": "2003-12-30"
+    },
+    {
+      "code": "C12391",
+      "action": "modify",
+      "date": "2004-02-23"
+    },
+    {
+      "code": "C12391",
+      "action": "modify",
+      "date": "2004-08-02"
+    },
+    {
+      "code": "C12391",
+      "action": "modify",
+      "date": "2005-03-16"
+    },
+    {
+      "code": "C12391",
+      "action": "modify",
+      "date": "2005-03-30"
+    },
+    {
+      "code": "C12391",
+      "action": "modify",
+      "date": "2007-10-29"
+    },
+    {
+      "code": "C12391",
+      "action": "modify",
+      "date": "2007-12-28"
+    },
+    {
+      "code": "C12391",
+      "action": "modify",
+      "date": "2008-06-27"
+    },
+    {
+      "code": "C12391",
+      "action": "modify",
+      "date": "2008-09-12"
+    },
+    {
+      "code": "C12391",
+      "action": "modify",
+      "date": "2008-11-14"
+    },
+    {
+      "code": "C12391",
+      "action": "modify",
+      "date": "2008-11-26"
+    },
+    {
+      "code": "C12391",
+      "action": "modify",
+      "date": "2008-12-19"
+    },
+    {
+      "code": "C12391",
+      "action": "modify",
+      "date": "2008-11-07"
+    },
+    {
+      "code": "C12391",
+      "action": "modify",
+      "date": "2009-04-06"
+    },
+    {
+      "code": "C12391",
+      "action": "modify",
+      "date": "2009-08-03"
+    },
+    {
+      "code": "C12391",
+      "action": "modify",
+      "date": "2009-11-23"
+    },
+    {
+      "code": "C12391",
+      "action": "modify",
+      "date": "2011-03-07"
+    },
+    {
+      "code": "C12391",
+      "action": "modify",
+      "date": "2013-02-25"
+    },
+    {
+      "code": "C12391",
+      "action": "modify",
+      "date": "2013-03-04"
+    },
+    {
+      "code": "C12391",
+      "action": "modify",
+      "date": "2013-03-11"
+    },
+    {
+      "code": "C12391",
+      "action": "modify",
+      "date": "2013-03-18"
+    },
+    {
+      "code": "C12391",
+      "action": "modify",
+      "date": "2013-03-25"
+    },
+    {
+      "code": "C12391",
+      "action": "modify",
+      "date": "2013-04-01"
+    },
+    {
+      "code": "C12391",
+      "action": "modify",
+      "date": "2013-04-08"
+    },
+    {
+      "code": "C12391",
+      "action": "modify",
+      "date": "2013-04-15"
+    },
+    {
+      "code": "C12391",
+      "action": "modify",
+      "date": "2013-04-22"
+    },
+    {
+      "code": "C12391",
+      "action": "modify",
+      "date": "2013-04-29"
+    },
+    {
+      "code": "C12391",
+      "action": "modify",
+      "date": "2013-05-06"
+    },
+    {
+      "code": "C12391",
+      "action": "modify",
+      "date": "2013-05-13"
+    },
+    {
+      "code": "C12391",
+      "action": "modify",
+      "date": "2013-05-20"
+    },
+    {
+      "code": "C12391",
+      "action": "modify",
+      "date": "2013-05-28"
+    },
+    {
+      "code": "C12391",
+      "action": "modify",
+      "date": "2013-06-03"
+    },
+    {
+      "code": "C12391",
+      "action": "modify",
+      "date": "2013-06-10"
+    },
+    {
+      "code": "C12391",
+      "action": "modify",
+      "date": "2013-06-17"
+    },
+    {
+      "code": "C12391",
+      "action": "modify",
+      "date": "2013-06-24"
+    },
+    {
+      "code": "C12391",
+      "action": "modify",
+      "date": "2013-07-01"
+    },
+    {
+      "code": "C12391",
+      "action": "modify",
+      "date": "2013-07-08"
+    },
+    {
+      "code": "C12391",
+      "action": "modify",
+      "date": "2014-02-03"
+    },
+    {
+      "code": "C12391",
+      "action": "modify",
+      "date": "2014-08-18"
+    },
+    {
+      "code": "C12391",
+      "action": "modify",
+      "date": "2014-12-22"
+    },
+    {
+      "code": "C12391",
+      "action": "modify",
+      "date": "2015-05-26"
+    },
+    {
+      "code": "C12391",
+      "action": "modify",
+      "date": "2015-06-01"
+    },
+    {
+      "code": "C12391",
+      "action": "modify",
+      "date": "2015-06-08"
+    },
+    {
+      "code": "C12391",
+      "action": "modify",
+      "date": "2015-06-15"
+    },
+    {
+      "code": "C12391",
+      "action": "modify",
+      "date": "2015-06-22"
+    },
+    {
+      "code": "C12391",
+      "action": "modify",
+      "date": "2015-06-29"
+    },
+    {
+      "code": "C12391",
+      "action": "modify",
+      "date": "2015-07-06"
+    },
+    {
+      "code": "C12391",
+      "action": "modify",
+      "date": "2015-07-13"
+    },
+    {
+      "code": "C12391",
+      "action": "modify",
+      "date": "2015-08-12"
+    },
+    {
+      "code": "C12391",
+      "action": "modify",
+      "date": "2015-08-31"
+    },
+    {
+      "code": "C12391",
+      "action": "modify",
+      "date": "2015-10-19"
+    },
+    {
+      "code": "C12391",
+      "action": "modify",
+      "date": "2015-11-30"
+    },
+    {
+      "code": "C12391",
+      "action": "modify",
+      "date": "2016-10-17"
+    },
+    {
+      "code": "C12391",
+      "action": "modify",
+      "date": "2017-02-27"
+    },
+    {
+      "code": "C12391",
+      "action": "modify",
+      "date": "2017-03-06"
+    },
+    {
+      "code": "C12391",
+      "action": "modify",
+      "date": "2017-03-13"
+    },
+    {
+      "code": "C12391",
+      "action": "modify",
+      "date": "2018-09-24"
+    },
+    {
+      "code": "C12391",
+      "action": "modify",
+      "date": "2018-10-29"
+    },
+    {
+      "code": "C12391",
+      "action": "modify",
+      "date": "2018-10-29"
+    },
+    {
+      "code": "C12391",
+      "action": "modify",
+      "date": "2018-11-26"
+    },
+    {
+      "code": "C12391",
+      "action": "modify",
+      "date": "2019-03-25"
+    },
+    {
+      "code": "C12391",
+      "action": "modify",
+      "date": "2019-04-29"
+    },
+    {
+      "code": "C12391",
+      "action": "modify",
+      "date": "2019-05-28"
+    },
+    {
+      "code": "C12391",
+      "action": "modify",
+      "date": "2019-06-24"
+    },
+    {
+      "code": "C12391",
+      "action": "modify",
+      "date": "2019-07-29"
+    },
+    {
+      "code": "C12391",
+      "action": "modify",
+      "date": "2019-09-30"
+    },
+    {
+      "code": "C12391",
+      "action": "modify",
+      "date": "2019-10-28"
+    },
+    {
+      "code": "C12391",
+      "action": "modify",
+      "date": "2020-02-24"
+    },
+    {
+      "code": "C12391",
+      "action": "modify",
+      "date": "2020-03-30"
+    },
+    {
+      "code": "C12391",
+      "action": "modify",
+      "date": "2020-08-31"
+    },
+    {
+      "code": "C12391",
+      "action": "modify",
+      "date": "2020-09-29"
+    },
+    {
+      "code": "C12391",
+      "action": "modify",
+      "date": "2021-02-22"
+    },
+    {
+      "code": "C12391",
+      "action": "modify",
+      "date": "2021-03-29"
+    },
+    {
+      "code": "C12391",
+      "action": "modify",
+      "date": "2021-11-29"
+    },
+    {
+      "code": "C12391",
+      "action": "modify",
+      "date": "2022-04-25"
+    },
+    {
+      "code": "C12391",
+      "action": "modify",
+      "date": "2022-08-29"
+    },
+    {
+      "code": "C12391",
+      "action": "modify",
+      "date": "2022-10-31"
+    },
+    {
+      "code": "C12391",
+      "action": "modify",
+      "date": "2023-02-27"
+    },
+    {
+      "code": "C12391",
+      "action": "modify",
+      "date": "2023-03-27"
+    },
+    {
+      "code": "C12391",
+      "action": "modify",
+      "date": "2023-05-30"
+    },
+    {
+      "code": "C12391",
+      "action": "modify",
+      "date": "2023-07-31"
+    },
+    {
+      "code": "C12391",
+      "action": "modify",
+      "date": "2023-09-25"
+    },
+    {
+      "code": "C12391",
+      "action": "modify",
+      "date": "2024-07-08"
+    }
+  ],
+  "maps": [
+    {
+      "type": "Related To",
+      "targetName": "Stomach, NOS",
+      "targetTermType": "PT",
+      "targetCode": "C16.9",
+      "targetTerminology": "ICDO3",
+      "targetTerminologyVersion": "3.1"
+    },
+    {
+      "type": "Related To",
+      "targetName": "Stomach, NOS",
+      "targetTermType": "PT",
+      "targetCode": "C16.9",
+      "targetTerminology": "ICDO3",
+      "targetTerminologyVersion": "3.2"
+    },
+    {
+      "type": "Has Synonym",
+      "targetName": "Stomach, NOS",
+      "targetTermType": "PT",
+      "targetCode": "progression_or_recurrence_anatomic_site",
+      "targetTerminology": "GDC"
+    },
+    {
+      "type": "Has Synonym",
+      "targetName": "Stomach, NOS",
+      "targetTermType": "PT",
+      "targetCode": "site_of_resection_or_biopsy",
+      "targetTerminology": "GDC"
+    },
+    {
+      "type": "Has Synonym",
+      "targetName": "Stomach, NOS",
+      "targetTermType": "PT",
+      "targetCode": "tissue_or_organ_of_origin",
+      "targetTerminology": "GDC"
+    },
+    {
+      "type": "Has Synonym",
+      "targetName": "Stomach",
+      "targetTermType": "PT",
+      "targetCode": "biospecimen_anatomic_site",
+      "targetTerminology": "GDC"
+    },
+    {
+      "type": "Related To",
+      "targetName": "STOMACH",
+      "targetTermType": "HT",
+      "targetCode": "C16",
+      "targetTerminology": "ICDO3",
+      "targetTerminologyVersion": "3.2"
+    },
+    {
+      "type": "Related To",
+      "targetName": "STOMACH",
+      "targetTermType": "HT",
+      "targetCode": "C16",
+      "targetTerminology": "ICDO3",
+      "targetTerminologyVersion": "3.1"
+    },
+    {
+      "type": "Has Synonym",
+      "targetName": "Stomach",
+      "targetTermType": "PT",
+      "targetCode": "max_tumor_bulk_site",
+      "targetTerminology": "GDC"
+    },
+    {
+      "type": "Has Synonym",
+      "targetName": "Stomach",
+      "targetTermType": "PT",
+      "targetCode": "primary_site",
+      "targetTerminology": "GDC"
+    },
+    {
+      "type": "Has Synonym",
+      "targetName": "Stomach",
+      "targetTermType": "PT",
+      "targetCode": "sites_of_involvement",
+      "targetTerminology": "GDC"
+    },
+    {
+      "type": "Has Synonym",
+      "targetName": "Stomach",
+      "targetTermType": "PT",
+      "targetCode": "treatment_anatomic_sites",
+      "targetTerminology": "GDC"
+    }
+  ]
+}

@@ -1,0 +1,1491 @@
+{
+  "code": "C3058",
+  "name": "Glioblastoma",
+  "terminology": "ncit",
+  "version": "25.11d",
+  "conceptStatus": "DEFAULT",
+  "leaf": false,
+  "active": true,
+  "synonyms": [
+    {
+      "name": "Glioblastoma",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "caDSR"
+    },
+    {
+      "name": "Glioblastoma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "Cellosaurus"
+    },
+    {
+      "name": "Glioblastoma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "CPTAC"
+    },
+    {
+      "name": "Glioblastoma Multiforme",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "CPTAC"
+    },
+    {
+      "name": "Glioblastoma multiforme",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "CPTAC"
+    },
+    {
+      "name": "Glioblastoma multiforme",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "CTEP",
+      "code": "10018337",
+      "subSource": "SDC"
+    },
+    {
+      "name": "CNS, glioblastoma (GBM)",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "GDC"
+    },
+    {
+      "name": "Glioblastoma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "GDC"
+    },
+    {
+      "name": "Glioblastoma multiforme",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "GDC"
+    },
+    {
+      "name": "Spongioblastoma multiforme",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "GDC"
+    },
+    {
+      "name": "GBM",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NCI-GLOSS",
+      "code": "CDR0000539131"
+    },
+    {
+      "name": "glioblastoma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NCI-GLOSS",
+      "code": "CDR0000045698"
+    },
+    {
+      "name": "glioblastoma multiforme",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NCI-GLOSS",
+      "code": "CDR0000045699"
+    },
+    {
+      "name": "GBM",
+      "termType": "AB",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "GBM (Glioblastoma)",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Glioblastoma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Glioblastoma Multiforme",
+      "termType": "AQS",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Spongioblastoma Multiforme",
+      "termType": "AQS",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Glioblastoma",
+      "type": "Preferred_Name"
+    }
+  ],
+  "definitions": [
+    {
+      "definition": "A fast-growing type of central nervous system tumor that forms from glial (supportive) tissue of the brain and spinal cord and has cells that look very different from normal cells. GBM usually occurs in adults and affects the brain more often than the spinal cord.",
+      "type": "ALT_DEFINITION",
+      "source": "NCI-GLOSS"
+    },
+    {
+      "definition": "The most malignant astrocytic tumor (WHO grade 4).  It is composed of poorly differentiated neoplastic astrocytes and is characterized by the presence of cellular polymorphism, nuclear atypia, brisk mitotic activity, vascular thrombosis, microvascular proliferation, and necrosis. It typically affects adults and is preferentially located in the cerebral hemispheres. (Adapted from WHO)",
+      "type": "DEFINITION",
+      "source": "NCI"
+    }
+  ],
+  "properties": [
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "Cellosaurus"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "CPTAC"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "CTEP"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "GDC"
+    },
+    {
+      "code": "P98",
+      "type": "DesignNote",
+      "value": "Glioblastoma is not an astrocytoma. It is an astrocytic tumor. The latter includes astrocytomas and glioblastomas.  However, when an anaplastic astrocytoma progresses to grade IV tumor, it is called a glioblastoma."
+    },
+    {
+      "code": "P334",
+      "type": "ICD-O-3_Code",
+      "value": "9440/3"
+    },
+    {
+      "code": "P366",
+      "type": "Legacy Concept Name",
+      "value": "Glioblastoma"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "01"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "02"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "03"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "04"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "10"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "20"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "62"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "9440/3"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "CNS, glioblastoma (GBM)"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "Glioblastoma"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "Glioblastoma multiforme"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "Glioblastoma, NOS"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "Spongioblastoma multiforme"
+    },
+    {
+      "code": "P363",
+      "type": "Neoplastic_Status",
+      "value": "Malignant"
+    },
+    {
+      "code": "P106",
+      "type": "Semantic_Type",
+      "value": "Neoplastic Process"
+    },
+    {
+      "code": "P207",
+      "type": "UMLS_CUI",
+      "value": "C0017636"
+    }
+  ],
+  "children": [
+    {
+      "code": "C9094",
+      "name": "Adult Glioblastoma",
+      "leaf": false
+    },
+    {
+      "code": "C4642",
+      "name": "Brain Glioblastoma",
+      "leaf": false
+    },
+    {
+      "code": "C5136",
+      "name": "Childhood Glioblastoma",
+      "leaf": false
+    },
+    {
+      "code": "C111691",
+      "name": "Glioblastoma by Gene Expression Profile",
+      "leaf": false
+    },
+    {
+      "code": "C39750",
+      "name": "Glioblastoma, IDH-Wildtype",
+      "leaf": false
+    },
+    {
+      "code": "C129295",
+      "name": "Glioblastoma, Not Otherwise Specified",
+      "leaf": true
+    },
+    {
+      "code": "C170979",
+      "name": "Metastatic Glioblastoma",
+      "leaf": false
+    },
+    {
+      "code": "C92549",
+      "name": "Multifocal Glioblastomas",
+      "leaf": true
+    },
+    {
+      "code": "C215127",
+      "name": "Optic Nerve Glioblastoma",
+      "leaf": true
+    },
+    {
+      "code": "C217575",
+      "name": "Progressive Glioblastoma",
+      "leaf": true
+    },
+    {
+      "code": "C126306",
+      "name": "Recurrent Glioblastoma",
+      "leaf": false
+    },
+    {
+      "code": "C146734",
+      "name": "Refractory Glioblastoma",
+      "leaf": false
+    },
+    {
+      "code": "C166156",
+      "name": "Resectable Glioblastoma",
+      "leaf": true
+    },
+    {
+      "code": "C39751",
+      "name": "Secondary Glioblastoma",
+      "leaf": true
+    },
+    {
+      "code": "C215130",
+      "name": "Spinal Cord Glioblastoma",
+      "leaf": false
+    },
+    {
+      "code": "C176890",
+      "name": "Unresectable Glioblastoma",
+      "leaf": true
+    }
+  ],
+  "parents": [
+    {
+      "code": "C36025",
+      "name": "Anaplastic Malignant Neoplasm"
+    },
+    {
+      "code": "C129325",
+      "name": "Diffuse Glioma"
+    },
+    {
+      "code": "C102897",
+      "name": "High Grade Astrocytic Tumor"
+    },
+    {
+      "code": "C200758",
+      "name": "WHO Grade 4 Glioma"
+    }
+  ],
+  "associations": [
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C165258",
+      "relatedName": "Cellosaurus Disease Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C138188",
+      "relatedName": "Clinical Trials Search-Application Programming Interface Disease Category Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C156953",
+      "relatedName": "CPTAC Baseline Medical Forms Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C158520",
+      "relatedName": "CPTAC Codelists Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C159328",
+      "relatedName": "CPTAC Follow-Up Forms Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C159420",
+      "relatedName": "CPTAC Glioblastoma Multiforme Baseline Form"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C159335",
+      "relatedName": "CPTAC Glioblastoma Multiforme Follow-Up Form"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C156966",
+      "relatedName": "CPTAC Neoplasms Codelist"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C156952",
+      "relatedName": "CPTAC Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C138190",
+      "relatedName": "CTS-API Disease Main Type Terminology"
+    },
+    {
+      "type": "Is_Value_For_GDC_Property",
+      "relatedCode": "C178243",
+      "relatedName": "Family Cancer History Relative Primary Diagnosis Question"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C157711",
+      "relatedName": "GDC Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C177537",
+      "relatedName": "GDC Value Terminology"
+    },
+    {
+      "type": "Is_Value_For_GDC_Property",
+      "relatedCode": "C176985",
+      "relatedName": "Histology ICD-O Morphology Code"
+    },
+    {
+      "type": "Is_Value_For_GDC_Property",
+      "relatedCode": "C177621",
+      "relatedName": "ICD-O-3 Morphology Term Diagnosis Question"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168658",
+      "relatedName": "Mapped ICDO3.1 Morphology PT Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168657",
+      "relatedName": "Mapped ICDO3.1 Morphology Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168655",
+      "relatedName": "Mapped ICDO3.1 Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168662",
+      "relatedName": "Mapped ICDO3.2 Morphology PT Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168661",
+      "relatedName": "Mapped ICDO3.2 Morphology Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168656",
+      "relatedName": "Mapped ICDO3.2 Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C103031",
+      "relatedName": "NCI CTEP SDC Astrocytoma, High Grade Sub-Category Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C102905",
+      "relatedName": "NCI CTEP Simplified Disease Classification Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C126659",
+      "relatedName": "NCIt Neoplasm Core Terminology"
+    },
+    {
+      "type": "Neoplasm_Has_Special_Category",
+      "relatedCode": "C9292",
+      "relatedName": "Solid Neoplasm"
+    },
+    {
+      "type": "Is_Value_For_GDC_Property",
+      "relatedCode": "C177584",
+      "relatedName": "TCGA BCR Tumor Code Identifier"
+    },
+    {
+      "type": "Is_Value_For_GDC_Property",
+      "relatedCode": "C177615",
+      "relatedName": "TCGA BCR Tumor Code Name"
+    }
+  ],
+  "inverseAssociations": [
+    {
+      "type": "Has_GDC_Value",
+      "relatedCode": "C178243",
+      "relatedName": "Family Cancer History Relative Primary Diagnosis Question"
+    },
+    {
+      "type": "Has_GDC_Value",
+      "relatedCode": "C176985",
+      "relatedName": "Histology ICD-O Morphology Code"
+    },
+    {
+      "type": "Has_GDC_Value",
+      "relatedCode": "C177621",
+      "relatedName": "ICD-O-3 Morphology Term Diagnosis Question"
+    },
+    {
+      "type": "Has_GDC_Value",
+      "relatedCode": "C177584",
+      "relatedName": "TCGA BCR Tumor Code Identifier"
+    },
+    {
+      "type": "Has_GDC_Value",
+      "relatedCode": "C177615",
+      "relatedName": "TCGA BCR Tumor Code Name"
+    }
+  ],
+  "roles": [
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C36113",
+      "relatedName": "Anaplastic Lesion"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C12477",
+      "relatedName": "Astrocyte"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C36122",
+      "relatedName": "Benign Cellular Infiltrate"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12438",
+      "relatedName": "Central Nervous System"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12438",
+      "relatedName": "Central Nervous System"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C35903",
+      "relatedName": "Diffuse Pattern"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C12615",
+      "relatedName": "Glial Cell"
+    },
+    {
+      "type": "Disease_Is_Grade",
+      "relatedCode": "C28082",
+      "relatedName": "Grade 4"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C34661",
+      "relatedName": "Headache"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C36129",
+      "relatedName": "High Grade Lesion"
+    },
+    {
+      "type": "Disease_Is_Grade",
+      "relatedCode": "C14158",
+      "relatedName": "High Grade"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C36105",
+      "relatedName": "Indolent Clinical Course"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C41453",
+      "relatedName": "Infiltrative Growth Pattern"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12917",
+      "relatedName": "Malignant Cell"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C36115",
+      "relatedName": "Malignant Cellular Infiltrate"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C41455",
+      "relatedName": "Microvascular Proliferation"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C35959",
+      "relatedName": "Mitotic Activity"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C36184",
+      "relatedName": "Necrotic Change"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C37127",
+      "relatedName": "Neoplastic Astrocyte"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12922",
+      "relatedName": "Neoplastic Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C37126",
+      "relatedName": "Neoplastic Glial Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C41408",
+      "relatedName": "Neoplastic Neuroepithelial Cell and Neoplastic Perineural Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C37125",
+      "relatedName": "Neoplastic Neuroepithelial Cell"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C41406",
+      "relatedName": "Nerve Tissue, Neuroepithelial Tissue, and Nerve Sheaths"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12755",
+      "relatedName": "Nervous System"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C41410",
+      "relatedName": "Neuroepithelial Cell"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C41409",
+      "relatedName": "Neuroepithelial Tissue"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C41405",
+      "relatedName": "Neuron, Neuroepithelial Cell, and Supporting Cell of the Nervous System"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C35989",
+      "relatedName": "Nuclear Atypia"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C37137",
+      "relatedName": "Poorly Differentiated Neoplastic Astrocyte"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C41611",
+      "relatedName": "Precise Histogenesis Unknown"
+    },
+    {
+      "type": "Disease_May_Have_Molecular_Abnormality",
+      "relatedCode": "C36692",
+      "relatedName": "PTEN Gene Inactivation"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C2962",
+      "relatedName": "Seizure"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C38328",
+      "relatedName": "Unfavorable Clinical Outcome"
+    }
+  ],
+  "inverseRoles": [
+    {
+      "type": "Gene_Associated_With_Disease",
+      "relatedCode": "C17756",
+      "relatedName": "ERBB2 Gene"
+    },
+    {
+      "type": "Gene_Associated_With_Disease",
+      "relatedCode": "C52166",
+      "relatedName": "ERBB2 wt Allele"
+    },
+    {
+      "type": "Gene_Associated_With_Disease",
+      "relatedCode": "C77216",
+      "relatedName": "IDH1 wt Allele"
+    },
+    {
+      "type": "Gene_Product_Malfunction_Associated_With_Disease",
+      "relatedCode": "C77217",
+      "relatedName": "Isocitrate Dehydrogenase [NADP] Cytoplasmic"
+    },
+    {
+      "type": "Gene_Associated_With_Disease",
+      "relatedCode": "C80723",
+      "relatedName": "MIR124-1 Gene"
+    },
+    {
+      "type": "Gene_Associated_With_Disease",
+      "relatedCode": "C82060",
+      "relatedName": "MIR124-1 wt Allele"
+    },
+    {
+      "type": "Gene_Associated_With_Disease",
+      "relatedCode": "C81737",
+      "relatedName": "MIR137 Gene"
+    },
+    {
+      "type": "Gene_Associated_With_Disease",
+      "relatedCode": "C82086",
+      "relatedName": "MIR137 wt Allele"
+    },
+    {
+      "type": "Gene_Associated_With_Disease",
+      "relatedCode": "C80740",
+      "relatedName": "MIR21 Gene"
+    },
+    {
+      "type": "Gene_Associated_With_Disease",
+      "relatedCode": "C81899",
+      "relatedName": "MIR21 wt Allele"
+    },
+    {
+      "type": "Gene_Associated_With_Disease",
+      "relatedCode": "C81756",
+      "relatedName": "MIR221 Gene"
+    },
+    {
+      "type": "Gene_Associated_With_Disease",
+      "relatedCode": "C82171",
+      "relatedName": "MIR221 wt Allele"
+    },
+    {
+      "type": "Gene_Associated_With_Disease",
+      "relatedCode": "C80726",
+      "relatedName": "MIR222 Gene"
+    },
+    {
+      "type": "Gene_Associated_With_Disease",
+      "relatedCode": "C82172",
+      "relatedName": "MIR222 wt Allele"
+    },
+    {
+      "type": "Gene_Associated_With_Disease",
+      "relatedCode": "C81813",
+      "relatedName": "MIR451A Gene"
+    },
+    {
+      "type": "Gene_Associated_With_Disease",
+      "relatedCode": "C82199",
+      "relatedName": "MIR451A wt Allele"
+    },
+    {
+      "type": "Gene_Associated_With_Disease",
+      "relatedCode": "C80700",
+      "relatedName": "MIRLET7A1 Gene"
+    },
+    {
+      "type": "Gene_Associated_With_Disease",
+      "relatedCode": "C81825",
+      "relatedName": "MIRLET7A1 wt Allele"
+    },
+    {
+      "type": "Gene_Associated_With_Disease",
+      "relatedCode": "C80701",
+      "relatedName": "MIRLET7A3 Gene"
+    },
+    {
+      "type": "Gene_Associated_With_Disease",
+      "relatedCode": "C81826",
+      "relatedName": "MIRLET7A3 wt Allele"
+    },
+    {
+      "type": "EO_Disease_Maps_To_Human_Disease",
+      "relatedCode": "C21939",
+      "relatedName": "Mouse Giant Cell Glioblastoma"
+    },
+    {
+      "type": "EO_Disease_Maps_To_Human_Disease",
+      "relatedCode": "C21938",
+      "relatedName": "Mouse Glioblastoma"
+    },
+    {
+      "type": "EO_Disease_Maps_To_Human_Disease",
+      "relatedCode": "C21940",
+      "relatedName": "Mouse Gliosarcoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Disease",
+      "relatedCode": "C40463",
+      "relatedName": "Turcot Syndrome Type 1"
+    },
+    {
+      "type": "Gene_Product_Malfunction_Associated_With_Disease",
+      "relatedCode": "C26288",
+      "relatedName": "YEATS Domain-Containing Protein 4"
+    },
+    {
+      "type": "Gene_Associated_With_Disease",
+      "relatedCode": "C24421",
+      "relatedName": "YEATS4 Gene"
+    },
+    {
+      "type": "Gene_Associated_With_Disease",
+      "relatedCode": "C54261",
+      "relatedName": "YEATS4 wt Allele"
+    },
+    {
+      "type": "Gene_Product_Malfunction_Associated_With_Disease",
+      "relatedCode": "C18171",
+      "relatedName": "Zinc Finger Protein GLI1"
+    }
+  ],
+  "history": [
+    {
+      "code": "C3058",
+      "action": "create",
+      "date": "2003-08-12"
+    },
+    {
+      "code": "C3058",
+      "action": "modify",
+      "date": "2003-10-31"
+    },
+    {
+      "code": "C3058",
+      "action": "modify",
+      "date": "2003-12-30"
+    },
+    {
+      "code": "C3058",
+      "action": "modify",
+      "date": "2004-03-30"
+    },
+    {
+      "code": "C3058",
+      "action": "modify",
+      "date": "2004-05-28"
+    },
+    {
+      "code": "C3058",
+      "action": "modify",
+      "date": "2004-06-25"
+    },
+    {
+      "code": "C3058",
+      "action": "modify",
+      "date": "2004-11-17"
+    },
+    {
+      "code": "C3058",
+      "action": "modify",
+      "date": "2004-11-01"
+    },
+    {
+      "code": "C3058",
+      "action": "modify",
+      "date": "2006-05-26"
+    },
+    {
+      "code": "C3058",
+      "action": "modify",
+      "date": "2006-09-29"
+    },
+    {
+      "code": "C3058",
+      "action": "modify",
+      "date": "2007-03-30"
+    },
+    {
+      "code": "C3058",
+      "action": "modify",
+      "date": "2007-04-30"
+    },
+    {
+      "code": "C3058",
+      "action": "modify",
+      "date": "2008-09-12"
+    },
+    {
+      "code": "C3058",
+      "action": "modify",
+      "date": "2009-04-06"
+    },
+    {
+      "code": "C3058",
+      "action": "modify",
+      "date": "2009-11-23"
+    },
+    {
+      "code": "C3058",
+      "action": "modify",
+      "date": "2009-12-07"
+    },
+    {
+      "code": "C3058",
+      "action": "modify",
+      "date": "2010-11-01"
+    },
+    {
+      "code": "C3058",
+      "action": "modify",
+      "date": "2010-11-08"
+    },
+    {
+      "code": "C3058",
+      "action": "modify",
+      "date": "2010-11-15"
+    },
+    {
+      "code": "C3058",
+      "action": "modify",
+      "date": "2010-11-22"
+    },
+    {
+      "code": "C3058",
+      "action": "modify",
+      "date": "2010-11-29"
+    },
+    {
+      "code": "C3058",
+      "action": "modify",
+      "date": "2010-12-06"
+    },
+    {
+      "code": "C3058",
+      "action": "modify",
+      "date": "2010-12-13"
+    },
+    {
+      "code": "C3058",
+      "action": "modify",
+      "date": "2010-12-27"
+    },
+    {
+      "code": "C3058",
+      "action": "modify",
+      "date": "2011-01-03"
+    },
+    {
+      "code": "C3058",
+      "action": "modify",
+      "date": "2011-01-10"
+    },
+    {
+      "code": "C3058",
+      "action": "modify",
+      "date": "2011-01-17"
+    },
+    {
+      "code": "C3058",
+      "action": "modify",
+      "date": "2011-01-24"
+    },
+    {
+      "code": "C3058",
+      "action": "modify",
+      "date": "2011-01-31"
+    },
+    {
+      "code": "C3058",
+      "action": "modify",
+      "date": "2012-09-10"
+    },
+    {
+      "code": "C3058",
+      "action": "modify",
+      "date": "2012-09-24"
+    },
+    {
+      "code": "C3058",
+      "action": "modify",
+      "date": "2012-10-01"
+    },
+    {
+      "code": "C3058",
+      "action": "modify",
+      "date": "2012-10-09"
+    },
+    {
+      "code": "C3058",
+      "action": "modify",
+      "date": "2012-10-15"
+    },
+    {
+      "code": "C3058",
+      "action": "modify",
+      "date": "2012-10-22"
+    },
+    {
+      "code": "C3058",
+      "action": "modify",
+      "date": "2012-10-31"
+    },
+    {
+      "code": "C3058",
+      "action": "modify",
+      "date": "2012-11-05"
+    },
+    {
+      "code": "C3058",
+      "action": "modify",
+      "date": "2012-11-13"
+    },
+    {
+      "code": "C3058",
+      "action": "modify",
+      "date": "2012-11-19"
+    },
+    {
+      "code": "C3058",
+      "action": "modify",
+      "date": "2012-11-26"
+    },
+    {
+      "code": "C3058",
+      "action": "modify",
+      "date": "2012-12-03"
+    },
+    {
+      "code": "C3058",
+      "action": "modify",
+      "date": "2012-12-10"
+    },
+    {
+      "code": "C3058",
+      "action": "modify",
+      "date": "2012-12-17"
+    },
+    {
+      "code": "C3058",
+      "action": "modify",
+      "date": "2012-12-28"
+    },
+    {
+      "code": "C3058",
+      "action": "modify",
+      "date": "2013-01-07"
+    },
+    {
+      "code": "C3058",
+      "action": "modify",
+      "date": "2013-01-14"
+    },
+    {
+      "code": "C3058",
+      "action": "modify",
+      "date": "2013-01-23"
+    },
+    {
+      "code": "C3058",
+      "action": "modify",
+      "date": "2013-02-04"
+    },
+    {
+      "code": "C3058",
+      "action": "modify",
+      "date": "2013-02-11"
+    },
+    {
+      "code": "C3058",
+      "action": "modify",
+      "date": "2013-02-19"
+    },
+    {
+      "code": "C3058",
+      "action": "modify",
+      "date": "2013-02-25"
+    },
+    {
+      "code": "C3058",
+      "action": "modify",
+      "date": "2013-03-04"
+    },
+    {
+      "code": "C3058",
+      "action": "modify",
+      "date": "2013-03-11"
+    },
+    {
+      "code": "C3058",
+      "action": "modify",
+      "date": "2013-03-18"
+    },
+    {
+      "code": "C3058",
+      "action": "modify",
+      "date": "2013-03-25"
+    },
+    {
+      "code": "C3058",
+      "action": "modify",
+      "date": "2013-04-01"
+    },
+    {
+      "code": "C3058",
+      "action": "modify",
+      "date": "2013-04-08"
+    },
+    {
+      "code": "C3058",
+      "action": "modify",
+      "date": "2013-04-15"
+    },
+    {
+      "code": "C3058",
+      "action": "modify",
+      "date": "2013-04-22"
+    },
+    {
+      "code": "C3058",
+      "action": "modify",
+      "date": "2013-04-29"
+    },
+    {
+      "code": "C3058",
+      "action": "modify",
+      "date": "2013-05-06"
+    },
+    {
+      "code": "C3058",
+      "action": "modify",
+      "date": "2013-05-13"
+    },
+    {
+      "code": "C3058",
+      "action": "modify",
+      "date": "2013-05-20"
+    },
+    {
+      "code": "C3058",
+      "action": "modify",
+      "date": "2013-05-28"
+    },
+    {
+      "code": "C3058",
+      "action": "modify",
+      "date": "2013-06-03"
+    },
+    {
+      "code": "C3058",
+      "action": "modify",
+      "date": "2013-06-10"
+    },
+    {
+      "code": "C3058",
+      "action": "modify",
+      "date": "2013-06-17"
+    },
+    {
+      "code": "C3058",
+      "action": "modify",
+      "date": "2013-06-24"
+    },
+    {
+      "code": "C3058",
+      "action": "modify",
+      "date": "2013-07-01"
+    },
+    {
+      "code": "C3058",
+      "action": "modify",
+      "date": "2013-07-08"
+    },
+    {
+      "code": "C3058",
+      "action": "modify",
+      "date": "2013-10-21"
+    },
+    {
+      "code": "C3058",
+      "action": "modify",
+      "date": "2014-02-03"
+    },
+    {
+      "code": "C3058",
+      "action": "modify",
+      "date": "2016-03-07"
+    },
+    {
+      "code": "C3058",
+      "action": "modify",
+      "date": "2016-03-28"
+    },
+    {
+      "code": "C3058",
+      "action": "modify",
+      "date": "2016-04-25"
+    },
+    {
+      "code": "C3058",
+      "action": "modify",
+      "date": "2016-06-13"
+    },
+    {
+      "code": "C3058",
+      "action": "modify",
+      "date": "2016-09-20"
+    },
+    {
+      "code": "C3058",
+      "action": "modify",
+      "date": "2016-09-26"
+    },
+    {
+      "code": "C3058",
+      "action": "modify",
+      "date": "2017-09-26"
+    },
+    {
+      "code": "C3058",
+      "action": "modify",
+      "date": "2018-01-29"
+    },
+    {
+      "code": "C3058",
+      "action": "modify",
+      "date": "2018-02-26"
+    },
+    {
+      "code": "C3058",
+      "action": "modify",
+      "date": "2018-04-30"
+    },
+    {
+      "code": "C3058",
+      "action": "modify",
+      "date": "2018-09-24"
+    },
+    {
+      "code": "C3058",
+      "action": "modify",
+      "date": "2018-10-29"
+    },
+    {
+      "code": "C3058",
+      "action": "modify",
+      "date": "2018-10-29"
+    },
+    {
+      "code": "C3058",
+      "action": "modify",
+      "date": "2018-11-26"
+    },
+    {
+      "code": "C3058",
+      "action": "modify",
+      "date": "2018-12-31"
+    },
+    {
+      "code": "C3058",
+      "action": "modify",
+      "date": "2019-03-25"
+    },
+    {
+      "code": "C3058",
+      "action": "modify",
+      "date": "2019-04-29"
+    },
+    {
+      "code": "C3058",
+      "action": "modify",
+      "date": "2019-05-28"
+    },
+    {
+      "code": "C3058",
+      "action": "modify",
+      "date": "2019-06-24"
+    },
+    {
+      "code": "C3058",
+      "action": "modify",
+      "date": "2019-07-29"
+    },
+    {
+      "code": "C3058",
+      "action": "modify",
+      "date": "2019-09-30"
+    },
+    {
+      "code": "C3058",
+      "action": "modify",
+      "date": "2019-10-28"
+    },
+    {
+      "code": "C3058",
+      "action": "modify",
+      "date": "2019-11-25"
+    },
+    {
+      "code": "C3058",
+      "action": "modify",
+      "date": "2020-01-27"
+    },
+    {
+      "code": "C3058",
+      "action": "modify",
+      "date": "2020-02-24"
+    },
+    {
+      "code": "C3058",
+      "action": "modify",
+      "date": "2020-03-30"
+    },
+    {
+      "code": "C3058",
+      "action": "modify",
+      "date": "2020-04-27"
+    },
+    {
+      "code": "C3058",
+      "action": "modify",
+      "date": "2020-09-29"
+    },
+    {
+      "code": "C3058",
+      "action": "modify",
+      "date": "2020-10-26"
+    },
+    {
+      "code": "C3058",
+      "action": "modify",
+      "date": "2020-12-28"
+    },
+    {
+      "code": "C3058",
+      "action": "modify",
+      "date": "2021-02-22"
+    },
+    {
+      "code": "C3058",
+      "action": "modify",
+      "date": "2021-03-29"
+    },
+    {
+      "code": "C3058",
+      "action": "modify",
+      "date": "2022-01-31"
+    },
+    {
+      "code": "C3058",
+      "action": "modify",
+      "date": "2023-02-27"
+    },
+    {
+      "code": "C3058",
+      "action": "modify",
+      "date": "2023-08-28"
+    },
+    {
+      "code": "C3058",
+      "action": "modify",
+      "date": "2023-12-26"
+    },
+    {
+      "code": "C3058",
+      "action": "modify",
+      "date": "2025-03-31"
+    }
+  ],
+  "maps": [
+    {
+      "type": "Related To",
+      "targetName": "01",
+      "targetTermType": "PT",
+      "targetCode": "tumor_code_id",
+      "targetTerminology": "GDC"
+    },
+    {
+      "type": "Related To",
+      "targetName": "02",
+      "targetTermType": "PT",
+      "targetCode": "tumor_code_id",
+      "targetTerminology": "GDC"
+    },
+    {
+      "type": "Related To",
+      "targetName": "03",
+      "targetTermType": "PT",
+      "targetCode": "tumor_code_id",
+      "targetTerminology": "GDC"
+    },
+    {
+      "type": "Related To",
+      "targetName": "04",
+      "targetTermType": "PT",
+      "targetCode": "tumor_code_id",
+      "targetTerminology": "GDC"
+    },
+    {
+      "type": "Related To",
+      "targetName": "10",
+      "targetTermType": "PT",
+      "targetCode": "tumor_code_id",
+      "targetTerminology": "GDC"
+    },
+    {
+      "type": "Related To",
+      "targetName": "20",
+      "targetTermType": "PT",
+      "targetCode": "tumor_code_id",
+      "targetTerminology": "GDC"
+    },
+    {
+      "type": "Related To",
+      "targetName": "62",
+      "targetTermType": "PT",
+      "targetCode": "tumor_code_id",
+      "targetTerminology": "GDC"
+    },
+    {
+      "type": "Related To",
+      "targetName": "9440/3",
+      "targetTermType": "PT",
+      "targetCode": "morphology",
+      "targetTerminology": "GDC"
+    },
+    {
+      "type": "Has Synonym",
+      "targetName": "CNS, glioblastoma (GBM)",
+      "targetTermType": "PT",
+      "targetCode": "tumor_code",
+      "targetTerminology": "GDC"
+    },
+    {
+      "type": "Has Synonym",
+      "targetName": "Glioblastoma multiforme",
+      "targetTermType": "PT",
+      "targetCode": "primary_diagnosis",
+      "targetTerminology": "GDC"
+    },
+    {
+      "type": "Related To",
+      "targetName": "Glioblastoma, NOS",
+      "targetTermType": "PT",
+      "targetCode": "9440/3",
+      "targetTerminology": "ICDO3",
+      "targetTerminologyVersion": "3.1"
+    },
+    {
+      "type": "Related To",
+      "targetName": "Glioblastoma, NOS",
+      "targetTermType": "PT",
+      "targetCode": "9440/3",
+      "targetTerminology": "ICDO3",
+      "targetTerminologyVersion": "3.2"
+    },
+    {
+      "type": "Has Synonym",
+      "targetName": "Glioblastoma",
+      "targetTermType": "PT",
+      "targetCode": "primary_diagnosis",
+      "targetTerminology": "GDC"
+    },
+    {
+      "type": "Has Synonym",
+      "targetName": "Glioblastoma",
+      "targetTermType": "PT",
+      "targetCode": "relationship_primary_diagnosis",
+      "targetTerminology": "GDC"
+    },
+    {
+      "type": "Has Synonym",
+      "targetName": "Spongioblastoma multiforme",
+      "targetTermType": "PT",
+      "targetCode": "primary_diagnosis",
+      "targetTerminology": "GDC"
+    }
+  ]
+}

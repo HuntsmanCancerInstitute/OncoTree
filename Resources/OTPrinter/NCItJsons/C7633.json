@@ -1,0 +1,316 @@
+{
+  "code": "C7633",
+  "name": "Peritoneal Mesothelial Neoplasm",
+  "terminology": "ncit",
+  "version": "25.11d",
+  "conceptStatus": "DEFAULT",
+  "leaf": false,
+  "active": true,
+  "synonyms": [
+    {
+      "name": "Peritoneal Mesothelioma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "CPTAC"
+    },
+    {
+      "name": "Mesothelioma of peritoneum",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "mCode",
+      "code": "C45.1",
+      "subSource": "ICD-10 CM"
+    },
+    {
+      "name": "Mesothelial Neoplasm of Peritoneum",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Mesothelial Neoplasm of the Peritoneum",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Mesothelial Tumor of Peritoneum",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Mesothelial Tumor of the Peritoneum",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Peritoneal Mesothelial Neoplasm",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Peritoneal Mesothelial Tumor",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Peritoneal Mesothelial Neoplasm",
+      "type": "Preferred_Name"
+    }
+  ],
+  "definitions": [
+    {
+      "definition": "A mesothelial neoplasm that arises from the peritoneum. It includes adenomatoid tumor, well differentiated papillary mesothelial tumor, multicystic mesothelioma, and malignant mesothelioma.",
+      "type": "DEFINITION",
+      "source": "NCI"
+    }
+  ],
+  "properties": [
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "CPTAC"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "mCode"
+    },
+    {
+      "code": "P366",
+      "type": "Legacy Concept Name",
+      "value": "Peritoneal_Mesothelioma"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "Mesothelioma of peritoneum"
+    },
+    {
+      "code": "P363",
+      "type": "Neoplastic_Status",
+      "value": "Undetermined"
+    },
+    {
+      "code": "P106",
+      "type": "Semantic_Type",
+      "value": "Neoplastic Process"
+    },
+    {
+      "code": "P207",
+      "type": "UMLS_CUI",
+      "value": "C1377610"
+    }
+  ],
+  "children": [
+    {
+      "code": "C7354",
+      "name": "Peritoneal Adenomatoid Tumor",
+      "leaf": true
+    },
+    {
+      "code": "C9350",
+      "name": "Peritoneal Malignant Mesothelioma",
+      "leaf": false
+    },
+    {
+      "code": "C6536",
+      "name": "Peritoneal Multicystic Mesothelioma",
+      "leaf": true
+    },
+    {
+      "code": "C45661",
+      "name": "Peritoneal Well Differentiated Papillary Mesothelial Tumor",
+      "leaf": true
+    }
+  ],
+  "parents": [
+    {
+      "code": "C3786",
+      "name": "Mesothelial Neoplasm"
+    },
+    {
+      "code": "C3322",
+      "name": "Peritoneal Neoplasm"
+    }
+  ],
+  "associations": [
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C158520",
+      "relatedName": "CPTAC Codelists Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C156966",
+      "relatedName": "CPTAC Neoplasms Codelist"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C156952",
+      "relatedName": "CPTAC Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C193249",
+      "relatedName": "mCode Cancer Disorder Value Set"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C193178",
+      "relatedName": "mCode Elixhauser Malignant Solid Tumors without Metastases Value Set"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C193248",
+      "relatedName": "mCode Primary Cancer Disorder Value Set"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C193231",
+      "relatedName": "mCode Primary Malignant Neoplasm Disorder Value Set"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C193006",
+      "relatedName": "mCode Terminology"
+    }
+  ],
+  "roles": [
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C33104",
+      "relatedName": "Mesothelial Cell"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C33105",
+      "relatedName": "Mesothelium"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12922",
+      "relatedName": "Neoplastic Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C41605",
+      "relatedName": "Neoplastic Mesothelial Cell"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12769",
+      "relatedName": "Peritoneal Cavity"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12769",
+      "relatedName": "Peritoneal Cavity"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C156712",
+      "relatedName": "Peritoneum and Retroperitoneum"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C12770",
+      "relatedName": "Peritoneum"
+    }
+  ],
+  "history": [
+    {
+      "code": "C7633",
+      "action": "create",
+      "date": "2003-08-12"
+    },
+    {
+      "code": "C7633",
+      "action": "modify",
+      "date": "2003-10-31"
+    },
+    {
+      "code": "C7633",
+      "action": "modify",
+      "date": "2003-12-30"
+    },
+    {
+      "code": "C7633",
+      "action": "modify",
+      "date": "2004-03-30"
+    },
+    {
+      "code": "C7633",
+      "action": "modify",
+      "date": "2005-03-16"
+    },
+    {
+      "code": "C7633",
+      "action": "modify",
+      "date": "2006-03-31"
+    },
+    {
+      "code": "C7633",
+      "action": "modify",
+      "date": "2006-05-26"
+    },
+    {
+      "code": "C7633",
+      "action": "modify",
+      "date": "2009-11-23"
+    },
+    {
+      "code": "C7633",
+      "action": "modify",
+      "date": "2011-10-03"
+    },
+    {
+      "code": "C7633",
+      "action": "modify",
+      "date": "2018-12-31"
+    },
+    {
+      "code": "C7633",
+      "action": "modify",
+      "date": "2019-02-25"
+    },
+    {
+      "code": "C7633",
+      "action": "modify",
+      "date": "2019-03-25"
+    },
+    {
+      "code": "C7633",
+      "action": "modify",
+      "date": "2019-05-28"
+    },
+    {
+      "code": "C7633",
+      "action": "modify",
+      "date": "2023-01-31"
+    },
+    {
+      "code": "C7633",
+      "action": "modify",
+      "date": "2023-03-27"
+    },
+    {
+      "code": "C7633",
+      "action": "modify",
+      "date": "2023-05-30"
+    }
+  ],
+  "maps": [
+    {
+      "type": "Has Synonym",
+      "targetName": "Mesothelioma of peritoneum",
+      "targetTermType": "PT",
+      "targetCode": "C45.1",
+      "targetTerminology": "ICD10CM 2017"
+    }
+  ]
+}

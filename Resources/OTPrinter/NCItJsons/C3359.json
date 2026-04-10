@@ -1,0 +1,1991 @@
+{
+  "code": "C3359",
+  "name": "Rhabdomyosarcoma",
+  "terminology": "ncit",
+  "version": "25.11d",
+  "conceptStatus": "DEFAULT",
+  "leaf": false,
+  "active": true,
+  "synonyms": [
+    {
+      "name": "RHABDOMYOSARCOMA, MALIGNANT",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "CDISC"
+    },
+    {
+      "name": "Rhabdomyosarcoma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "Cellosaurus"
+    },
+    {
+      "name": "Rhabdomyosarcoma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "CPTAC"
+    },
+    {
+      "name": "Rhabdomyosarcoma, NOS",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "CTEP",
+      "code": "10039024",
+      "subSource": "SDC"
+    },
+    {
+      "name": "Rhabdomyosarcoma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "GDC"
+    },
+    {
+      "name": "Rhabdomyosarcoma, NOS",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "GDC"
+    },
+    {
+      "name": "rhabdomyosarcoma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NCI-GLOSS",
+      "code": "CDR0000045872"
+    },
+    {
+      "name": "Rhabdomyosarcoma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Rhabdomyosarcoma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NICHD"
+    },
+    {
+      "name": "Rhabdomyosarcoma",
+      "type": "Display_Name"
+    },
+    {
+      "name": "Rhabdomyosarcoma",
+      "type": "Preferred_Name"
+    },
+    {
+      "name": "Rhabdomyosarcoma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "PCDC",
+      "subSource": "GCT"
+    }
+  ],
+  "definitions": [
+    {
+      "definition": "A malignant mesenchymal neoplasm arising from skeletal muscle.",
+      "type": "ALT_DEFINITION",
+      "source": "CDISC"
+    },
+    {
+      "definition": "A malignant neoplasm arising from skeletal myocytes.",
+      "type": "ALT_DEFINITION",
+      "source": "NICHD"
+    },
+    {
+      "definition": "A rare aggressive malignant mesenchymal neoplasm that arises from striated (skeletal or cardiac) muscle cells. It usually occurs in children and young adults.",
+      "type": "DEFINITION",
+      "source": "NCI"
+    },
+    {
+      "definition": "Cancer that forms in the soft tissues in a type of muscle called striated muscle. Rhabdomyosarcoma can occur anywhere in the body.",
+      "type": "ALT_DEFINITION",
+      "source": "NCI-GLOSS"
+    }
+  ],
+  "properties": [
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "CDISC"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "Cellosaurus"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "CPTAC"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "CTEP"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "GDC"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "MedDRA"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "NICHD"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "PCDC"
+    },
+    {
+      "code": "P334",
+      "type": "ICD-O-3_Code",
+      "value": "8900/3"
+    },
+    {
+      "code": "P366",
+      "type": "Legacy Concept Name",
+      "value": "Rhabdomyosarcoma"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "8900/3"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "Rhabdomyosarcoma"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "Rhabdomyosarcoma, NOS"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "Rhabdosarcoma"
+    },
+    {
+      "code": "P363",
+      "type": "Neoplastic_Status",
+      "value": "Malignant"
+    },
+    {
+      "code": "P106",
+      "type": "Semantic_Type",
+      "value": "Neoplastic Process"
+    },
+    {
+      "code": "P207",
+      "type": "UMLS_CUI",
+      "value": "C1276181"
+    }
+  ],
+  "children": [
+    {
+      "code": "C9130",
+      "name": "Adult Rhabdomyosarcoma",
+      "leaf": false
+    },
+    {
+      "code": "C3749",
+      "name": "Alveolar Rhabdomyosarcoma",
+      "leaf": false
+    },
+    {
+      "code": "C45759",
+      "name": "Cardiac Rhabdomyosarcoma",
+      "leaf": true
+    },
+    {
+      "code": "C7705",
+      "name": "Childhood Rhabdomyosarcoma",
+      "leaf": false
+    },
+    {
+      "code": "C8971",
+      "name": "Embryonal Rhabdomyosarcoma",
+      "leaf": false
+    },
+    {
+      "code": "C214845",
+      "name": "Extracardiac Rhabdomyosarcoma",
+      "leaf": false
+    },
+    {
+      "code": "C123736",
+      "name": "Fusion-Negative Rhabdomyosarcoma",
+      "leaf": false
+    },
+    {
+      "code": "C123735",
+      "name": "Fusion-Positive Rhabdomyosarcoma",
+      "leaf": false
+    },
+    {
+      "code": "C166414",
+      "name": "Metastatic Rhabdomyosarcoma",
+      "leaf": false
+    },
+    {
+      "code": "C4258",
+      "name": "Pleomorphic Rhabdomyosarcoma",
+      "leaf": false
+    },
+    {
+      "code": "C8824",
+      "name": "Recurrent Rhabdomyosarcoma",
+      "leaf": false
+    },
+    {
+      "code": "C142851",
+      "name": "Refractory Rhabdomyosarcoma",
+      "leaf": false
+    },
+    {
+      "code": "C4259",
+      "name": "Rhabdomyosarcoma with Mixed Embryonal and Alveolar Features",
+      "leaf": false
+    },
+    {
+      "code": "C202263",
+      "name": "Rhabdomyosarcoma with TFCP2 Rearrangement",
+      "leaf": false
+    },
+    {
+      "code": "C121654",
+      "name": "Spindle Cell/Sclerosing Rhabdomyosarcoma",
+      "leaf": false
+    },
+    {
+      "code": "C151983",
+      "name": "Unresectable Rhabdomyosarcoma",
+      "leaf": true
+    }
+  ],
+  "parents": [
+    {
+      "code": "C214801",
+      "name": "Myosarcoma"
+    }
+  ],
+  "associations": [
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C77526",
+      "relatedName": "CDISC SEND Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C88025",
+      "relatedName": "CDISC SEND Tumor Findings Results Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C165258",
+      "relatedName": "Cellosaurus Disease Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C61410",
+      "relatedName": "Clinical Data Interchange Standards Consortium Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C138188",
+      "relatedName": "Clinical Trials Search-Application Programming Interface Disease Category Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C156953",
+      "relatedName": "CPTAC Baseline Medical Forms Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C158520",
+      "relatedName": "CPTAC Codelists Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C156966",
+      "relatedName": "CPTAC Neoplasms Codelist"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C159414",
+      "relatedName": "CPTAC Sarcoma Baseline Form"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C156952",
+      "relatedName": "CPTAC Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C138190",
+      "relatedName": "CTS-API Disease Main Type Terminology"
+    },
+    {
+      "type": "Is_Value_For_GDC_Property",
+      "relatedCode": "C178243",
+      "relatedName": "Family Cancer History Relative Primary Diagnosis Question"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C177383",
+      "relatedName": "GCT Authorized Value Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C177396",
+      "relatedName": "GCT Histology Table"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C157711",
+      "relatedName": "GDC Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C177537",
+      "relatedName": "GDC Value Terminology"
+    },
+    {
+      "type": "Is_Value_For_GDC_Property",
+      "relatedCode": "C176985",
+      "relatedName": "Histology ICD-O Morphology Code"
+    },
+    {
+      "type": "Is_Value_For_GDC_Property",
+      "relatedCode": "C177621",
+      "relatedName": "ICD-O-3 Morphology Term Diagnosis Question"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168658",
+      "relatedName": "Mapped ICDO3.1 Morphology PT Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168657",
+      "relatedName": "Mapped ICDO3.1 Morphology Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168655",
+      "relatedName": "Mapped ICDO3.1 Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168662",
+      "relatedName": "Mapped ICDO3.2 Morphology PT Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168661",
+      "relatedName": "Mapped ICDO3.2 Morphology Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168656",
+      "relatedName": "Mapped ICDO3.2 Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C103118",
+      "relatedName": "NCI CTEP SDC Rhabdomyosarcoma Sub-Category Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C102905",
+      "relatedName": "NCI CTEP Simplified Disease Classification Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C126659",
+      "relatedName": "NCIt Neoplasm Core Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C99147",
+      "relatedName": "Neonatal Research Network Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C90259",
+      "relatedName": "NICHD Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C189762",
+      "relatedName": "Pediatric Adverse Events Terminology Mapped to MedDRA"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C118464",
+      "relatedName": "Pediatric Adverse Events Terminology"
+    },
+    {
+      "type": "Neoplasm_Has_Special_Category",
+      "relatedCode": "C9292",
+      "relatedName": "Solid Neoplasm"
+    },
+    {
+      "type": "Is_PCDC_GCT_Authorized_Value_For_Variable",
+      "relatedCode": "C177364",
+      "relatedName": "Somatic-Type Malignancy"
+    },
+    {
+      "type": "Is_Value_For_GDC_Property",
+      "relatedCode": "C177615",
+      "relatedName": "TCGA BCR Tumor Code Name"
+    }
+  ],
+  "inverseAssociations": [
+    {
+      "type": "Has_GDC_Value",
+      "relatedCode": "C178243",
+      "relatedName": "Family Cancer History Relative Primary Diagnosis Question"
+    },
+    {
+      "type": "Has_GDC_Value",
+      "relatedCode": "C176985",
+      "relatedName": "Histology ICD-O Morphology Code"
+    },
+    {
+      "type": "Has_GDC_Value",
+      "relatedCode": "C177621",
+      "relatedName": "ICD-O-3 Morphology Term Diagnosis Question"
+    },
+    {
+      "type": "Has_PCDC_GCT_Authorized_Value",
+      "relatedCode": "C177364",
+      "relatedName": "Somatic-Type Malignancy"
+    },
+    {
+      "type": "Has_GDC_Value",
+      "relatedCode": "C177615",
+      "relatedName": "TCGA BCR Tumor Code Name"
+    }
+  ],
+  "roles": [
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C36122",
+      "relatedName": "Benign Cellular Infiltrate"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C12555",
+      "relatedName": "Connective and Soft Tissue Cell"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12964",
+      "relatedName": "Connective and Soft Tissue"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12964",
+      "relatedName": "Connective and Soft Tissue"
+    },
+    {
+      "type": "Disease_Excludes_Normal_Cell_Origin",
+      "relatedCode": "C12578",
+      "relatedName": "Epithelial Cell"
+    },
+    {
+      "type": "Disease_Excludes_Normal_Tissue_Origin",
+      "relatedCode": "C45714",
+      "relatedName": "Epithelial Tissue"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C36105",
+      "relatedName": "Indolent Clinical Course"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C53665",
+      "relatedName": "Intermediate Filaments Present"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C53667",
+      "relatedName": "Intracytoplasmic Eosinophilic Inclusion"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12917",
+      "relatedName": "Malignant Cell"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C36115",
+      "relatedName": "Malignant Cellular Infiltrate"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C36779",
+      "relatedName": "Malignant Epithelial Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C214806",
+      "relatedName": "Malignant Muscle Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C49198",
+      "relatedName": "Malignant Rhabdomyoblast"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C12612",
+      "relatedName": "Muscle Cell"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12435",
+      "relatedName": "Muscle Tissue"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C13056",
+      "relatedName": "Muscle"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12754",
+      "relatedName": "Musculoskeletal System"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12922",
+      "relatedName": "Neoplastic Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36887",
+      "relatedName": "Neoplastic Connective and Soft Tissue Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36936",
+      "relatedName": "Neoplastic Muscle Cell"
+    },
+    {
+      "type": "Disease_Excludes_Normal_Cell_Origin",
+      "relatedCode": "C41405",
+      "relatedName": "Neuron, Neuroepithelial Cell, and Supporting Cell of the Nervous System"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C36103",
+      "relatedName": "Rapidly Enlarging Mass"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C33637",
+      "relatedName": "Striated Muscle Cell"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12436",
+      "relatedName": "Striated Muscle Tissue"
+    }
+  ],
+  "inverseRoles": [
+    {
+      "type": "Disease_May_Have_Associated_Disease",
+      "relatedCode": "C34415",
+      "relatedName": "Beckwith-Wiedemann Syndrome"
+    },
+    {
+      "type": "Disease_May_Have_Associated_Disease",
+      "relatedCode": "C84652",
+      "relatedName": "Costello Syndrome"
+    },
+    {
+      "type": "EO_Disease_Maps_To_Human_Disease",
+      "relatedCode": "C23078",
+      "relatedName": "Embryonal Rhabdomyosarcoma of the Mouse Pharynx"
+    },
+    {
+      "type": "Gene_Product_Malfunction_Associated_With_Disease",
+      "relatedCode": "C21513",
+      "relatedName": "G Antigen Family D Member 3"
+    },
+    {
+      "type": "Gene_Associated_With_Disease",
+      "relatedCode": "C80721",
+      "relatedName": "MIR29B2 Gene"
+    },
+    {
+      "type": "Gene_Associated_With_Disease",
+      "relatedCode": "C81915",
+      "relatedName": "MIR29B2 wt Allele"
+    },
+    {
+      "type": "Gene_Associated_With_Disease",
+      "relatedCode": "C80722",
+      "relatedName": "MIR29C Gene"
+    },
+    {
+      "type": "Gene_Associated_With_Disease",
+      "relatedCode": "C81917",
+      "relatedName": "MIR29C wt Allele"
+    },
+    {
+      "type": "Disease_May_Have_Associated_Disease",
+      "relatedCode": "C128192",
+      "relatedName": "Mosaic Variegated Aneuploidy Syndrome 1"
+    },
+    {
+      "type": "EO_Disease_Maps_To_Human_Disease",
+      "relatedCode": "C22913",
+      "relatedName": "Mouse Cardiac Rhabdomyosarcoma"
+    },
+    {
+      "type": "EO_Disease_Maps_To_Human_Disease",
+      "relatedCode": "C24022",
+      "relatedName": "Mouse Rhabdomyosarcoma"
+    },
+    {
+      "type": "Gene_Associated_With_Disease",
+      "relatedCode": "C20695",
+      "relatedName": "NCOA1 Gene"
+    },
+    {
+      "type": "Gene_Associated_With_Disease",
+      "relatedCode": "C52135",
+      "relatedName": "NCOA1 wt Allele"
+    },
+    {
+      "type": "Disease_May_Have_Associated_Disease",
+      "relatedCode": "C143014",
+      "relatedName": "Neurofibromatosis Type 1 with Inoperable, Progressive, Symptomatic Plexiform Neurofibromas"
+    },
+    {
+      "type": "Disease_May_Have_Associated_Disease",
+      "relatedCode": "C3273",
+      "relatedName": "Neurofibromatosis Type 1"
+    },
+    {
+      "type": "Gene_Product_Malfunction_Associated_With_Disease",
+      "relatedCode": "C30123",
+      "relatedName": "Paired Box Protein Pax-3"
+    },
+    {
+      "type": "Gene_Product_Malfunction_Associated_With_Disease",
+      "relatedCode": "C30137",
+      "relatedName": "Paired Box Protein Pax-7"
+    },
+    {
+      "type": "Gene_Product_Malfunction_Associated_With_Disease",
+      "relatedCode": "C21535",
+      "relatedName": "Protein TSSC4"
+    },
+    {
+      "type": "Disease_May_Have_Associated_Disease",
+      "relatedCode": "C155985",
+      "relatedName": "Recurrent Neurofibromatosis Type 1"
+    },
+    {
+      "type": "Disease_May_Have_Associated_Disease",
+      "relatedCode": "C155986",
+      "relatedName": "Refractory Neurofibromatosis Type 1"
+    },
+    {
+      "type": "EO_Disease_Maps_To_Human_Disease",
+      "relatedCode": "C21750",
+      "relatedName": "Rhabdomyosarcoma of the Mouse Prostate Gland"
+    },
+    {
+      "type": "EO_Disease_Maps_To_Human_Disease",
+      "relatedCode": "C21845",
+      "relatedName": "Rhabdomyosarcoma of the Mouse Skin"
+    },
+    {
+      "type": "Gene_Associated_With_Disease",
+      "relatedCode": "C20862",
+      "relatedName": "STIM1 Gene"
+    },
+    {
+      "type": "Gene_Associated_With_Disease",
+      "relatedCode": "C52380",
+      "relatedName": "STIM1 wt Allele"
+    },
+    {
+      "type": "Gene_Product_Malfunction_Associated_With_Disease",
+      "relatedCode": "C21219",
+      "relatedName": "Stromal Interaction Molecule 1"
+    },
+    {
+      "type": "Gene_Product_Malfunction_Associated_With_Disease",
+      "relatedCode": "C21530",
+      "relatedName": "Tetraspanin-32"
+    },
+    {
+      "type": "Gene_Associated_With_Disease",
+      "relatedCode": "C20798",
+      "relatedName": "TSPAN32 Gene"
+    },
+    {
+      "type": "Gene_Associated_With_Disease",
+      "relatedCode": "C52373",
+      "relatedName": "TSPAN32 wt Allele"
+    },
+    {
+      "type": "Gene_Associated_With_Disease",
+      "relatedCode": "C20803",
+      "relatedName": "TSSC4 Gene"
+    },
+    {
+      "type": "Gene_Associated_With_Disease",
+      "relatedCode": "C49432",
+      "relatedName": "TSSC4 wt Allele"
+    }
+  ],
+  "history": [
+    {
+      "code": "C3359",
+      "action": "create",
+      "date": "2003-08-12"
+    },
+    {
+      "code": "C3359",
+      "action": "modify",
+      "date": "2003-10-31"
+    },
+    {
+      "code": "C3359",
+      "action": "modify",
+      "date": "2003-12-30"
+    },
+    {
+      "code": "C3359",
+      "action": "modify",
+      "date": "2004-03-30"
+    },
+    {
+      "code": "C3359",
+      "action": "modify",
+      "date": "2005-04-29"
+    },
+    {
+      "code": "C3359",
+      "action": "modify",
+      "date": "2005-12-01"
+    },
+    {
+      "code": "C3359",
+      "action": "modify",
+      "date": "2006-01-27"
+    },
+    {
+      "code": "C3359",
+      "action": "modify",
+      "date": "2007-03-30"
+    },
+    {
+      "code": "C3359",
+      "action": "modify",
+      "date": "2007-06-28"
+    },
+    {
+      "code": "C3359",
+      "action": "modify",
+      "date": "2009-04-06"
+    },
+    {
+      "code": "C3359",
+      "action": "modify",
+      "date": "2009-11-23"
+    },
+    {
+      "code": "C3359",
+      "action": "modify",
+      "date": "2010-06-01"
+    },
+    {
+      "code": "C3359",
+      "action": "modify",
+      "date": "2010-11-08"
+    },
+    {
+      "code": "C3359",
+      "action": "modify",
+      "date": "2011-02-14"
+    },
+    {
+      "code": "C3359",
+      "action": "modify",
+      "date": "2011-04-11"
+    },
+    {
+      "code": "C3359",
+      "action": "modify",
+      "date": "2011-06-13"
+    },
+    {
+      "code": "C3359",
+      "action": "modify",
+      "date": "2011-10-03"
+    },
+    {
+      "code": "C3359",
+      "action": "modify",
+      "date": "2011-11-14"
+    },
+    {
+      "code": "C3359",
+      "action": "modify",
+      "date": "2011-11-21"
+    },
+    {
+      "code": "C3359",
+      "action": "modify",
+      "date": "2011-11-28"
+    },
+    {
+      "code": "C3359",
+      "action": "modify",
+      "date": "2011-12-05"
+    },
+    {
+      "code": "C3359",
+      "action": "modify",
+      "date": "2011-12-12"
+    },
+    {
+      "code": "C3359",
+      "action": "modify",
+      "date": "2011-12-19"
+    },
+    {
+      "code": "C3359",
+      "action": "modify",
+      "date": "2011-12-27"
+    },
+    {
+      "code": "C3359",
+      "action": "modify",
+      "date": "2012-01-09"
+    },
+    {
+      "code": "C3359",
+      "action": "modify",
+      "date": "2012-01-17"
+    },
+    {
+      "code": "C3359",
+      "action": "modify",
+      "date": "2012-01-23"
+    },
+    {
+      "code": "C3359",
+      "action": "modify",
+      "date": "2012-01-30"
+    },
+    {
+      "code": "C3359",
+      "action": "modify",
+      "date": "2012-02-06"
+    },
+    {
+      "code": "C3359",
+      "action": "modify",
+      "date": "2012-02-13"
+    },
+    {
+      "code": "C3359",
+      "action": "modify",
+      "date": "2012-02-21"
+    },
+    {
+      "code": "C3359",
+      "action": "modify",
+      "date": "2012-02-27"
+    },
+    {
+      "code": "C3359",
+      "action": "modify",
+      "date": "2012-03-05"
+    },
+    {
+      "code": "C3359",
+      "action": "modify",
+      "date": "2012-03-12"
+    },
+    {
+      "code": "C3359",
+      "action": "modify",
+      "date": "2012-03-19"
+    },
+    {
+      "code": "C3359",
+      "action": "modify",
+      "date": "2012-03-26"
+    },
+    {
+      "code": "C3359",
+      "action": "modify",
+      "date": "2012-04-02"
+    },
+    {
+      "code": "C3359",
+      "action": "modify",
+      "date": "2012-04-09"
+    },
+    {
+      "code": "C3359",
+      "action": "modify",
+      "date": "2012-04-16"
+    },
+    {
+      "code": "C3359",
+      "action": "modify",
+      "date": "2012-04-23"
+    },
+    {
+      "code": "C3359",
+      "action": "modify",
+      "date": "2012-04-30"
+    },
+    {
+      "code": "C3359",
+      "action": "modify",
+      "date": "2012-05-07"
+    },
+    {
+      "code": "C3359",
+      "action": "modify",
+      "date": "2012-05-14"
+    },
+    {
+      "code": "C3359",
+      "action": "modify",
+      "date": "2012-05-21"
+    },
+    {
+      "code": "C3359",
+      "action": "modify",
+      "date": "2012-05-29"
+    },
+    {
+      "code": "C3359",
+      "action": "modify",
+      "date": "2012-06-04"
+    },
+    {
+      "code": "C3359",
+      "action": "modify",
+      "date": "2012-06-11"
+    },
+    {
+      "code": "C3359",
+      "action": "modify",
+      "date": "2012-06-18"
+    },
+    {
+      "code": "C3359",
+      "action": "modify",
+      "date": "2012-06-18"
+    },
+    {
+      "code": "C3359",
+      "action": "modify",
+      "date": "2012-06-25"
+    },
+    {
+      "code": "C3359",
+      "action": "modify",
+      "date": "2012-07-03"
+    },
+    {
+      "code": "C3359",
+      "action": "modify",
+      "date": "2012-07-16"
+    },
+    {
+      "code": "C3359",
+      "action": "modify",
+      "date": "2012-07-23"
+    },
+    {
+      "code": "C3359",
+      "action": "modify",
+      "date": "2012-07-30"
+    },
+    {
+      "code": "C3359",
+      "action": "modify",
+      "date": "2012-08-06"
+    },
+    {
+      "code": "C3359",
+      "action": "modify",
+      "date": "2012-08-13"
+    },
+    {
+      "code": "C3359",
+      "action": "modify",
+      "date": "2012-08-20"
+    },
+    {
+      "code": "C3359",
+      "action": "modify",
+      "date": "2012-08-27"
+    },
+    {
+      "code": "C3359",
+      "action": "modify",
+      "date": "2012-09-04"
+    },
+    {
+      "code": "C3359",
+      "action": "modify",
+      "date": "2012-09-10"
+    },
+    {
+      "code": "C3359",
+      "action": "modify",
+      "date": "2012-09-17"
+    },
+    {
+      "code": "C3359",
+      "action": "modify",
+      "date": "2012-09-24"
+    },
+    {
+      "code": "C3359",
+      "action": "modify",
+      "date": "2012-10-01"
+    },
+    {
+      "code": "C3359",
+      "action": "modify",
+      "date": "2012-10-09"
+    },
+    {
+      "code": "C3359",
+      "action": "modify",
+      "date": "2012-10-15"
+    },
+    {
+      "code": "C3359",
+      "action": "modify",
+      "date": "2012-10-22"
+    },
+    {
+      "code": "C3359",
+      "action": "modify",
+      "date": "2012-10-31"
+    },
+    {
+      "code": "C3359",
+      "action": "modify",
+      "date": "2012-11-05"
+    },
+    {
+      "code": "C3359",
+      "action": "modify",
+      "date": "2012-11-13"
+    },
+    {
+      "code": "C3359",
+      "action": "modify",
+      "date": "2012-11-19"
+    },
+    {
+      "code": "C3359",
+      "action": "modify",
+      "date": "2012-11-26"
+    },
+    {
+      "code": "C3359",
+      "action": "modify",
+      "date": "2012-12-03"
+    },
+    {
+      "code": "C3359",
+      "action": "modify",
+      "date": "2012-12-10"
+    },
+    {
+      "code": "C3359",
+      "action": "modify",
+      "date": "2012-12-17"
+    },
+    {
+      "code": "C3359",
+      "action": "modify",
+      "date": "2012-12-28"
+    },
+    {
+      "code": "C3359",
+      "action": "modify",
+      "date": "2013-01-07"
+    },
+    {
+      "code": "C3359",
+      "action": "modify",
+      "date": "2013-01-14"
+    },
+    {
+      "code": "C3359",
+      "action": "modify",
+      "date": "2013-01-23"
+    },
+    {
+      "code": "C3359",
+      "action": "modify",
+      "date": "2013-02-04"
+    },
+    {
+      "code": "C3359",
+      "action": "modify",
+      "date": "2013-02-11"
+    },
+    {
+      "code": "C3359",
+      "action": "modify",
+      "date": "2013-02-19"
+    },
+    {
+      "code": "C3359",
+      "action": "modify",
+      "date": "2013-02-25"
+    },
+    {
+      "code": "C3359",
+      "action": "modify",
+      "date": "2013-03-04"
+    },
+    {
+      "code": "C3359",
+      "action": "modify",
+      "date": "2013-03-11"
+    },
+    {
+      "code": "C3359",
+      "action": "modify",
+      "date": "2013-03-18"
+    },
+    {
+      "code": "C3359",
+      "action": "modify",
+      "date": "2013-03-25"
+    },
+    {
+      "code": "C3359",
+      "action": "modify",
+      "date": "2013-04-01"
+    },
+    {
+      "code": "C3359",
+      "action": "modify",
+      "date": "2013-04-08"
+    },
+    {
+      "code": "C3359",
+      "action": "modify",
+      "date": "2013-04-15"
+    },
+    {
+      "code": "C3359",
+      "action": "modify",
+      "date": "2013-04-22"
+    },
+    {
+      "code": "C3359",
+      "action": "modify",
+      "date": "2013-04-29"
+    },
+    {
+      "code": "C3359",
+      "action": "modify",
+      "date": "2013-05-06"
+    },
+    {
+      "code": "C3359",
+      "action": "modify",
+      "date": "2013-05-13"
+    },
+    {
+      "code": "C3359",
+      "action": "modify",
+      "date": "2013-05-20"
+    },
+    {
+      "code": "C3359",
+      "action": "modify",
+      "date": "2013-05-28"
+    },
+    {
+      "code": "C3359",
+      "action": "modify",
+      "date": "2013-06-03"
+    },
+    {
+      "code": "C3359",
+      "action": "modify",
+      "date": "2013-06-10"
+    },
+    {
+      "code": "C3359",
+      "action": "modify",
+      "date": "2013-06-17"
+    },
+    {
+      "code": "C3359",
+      "action": "modify",
+      "date": "2013-06-24"
+    },
+    {
+      "code": "C3359",
+      "action": "modify",
+      "date": "2013-07-01"
+    },
+    {
+      "code": "C3359",
+      "action": "modify",
+      "date": "2013-07-08"
+    },
+    {
+      "code": "C3359",
+      "action": "modify",
+      "date": "2014-02-03"
+    },
+    {
+      "code": "C3359",
+      "action": "modify",
+      "date": "2014-03-05"
+    },
+    {
+      "code": "C3359",
+      "action": "modify",
+      "date": "2014-10-27"
+    },
+    {
+      "code": "C3359",
+      "action": "modify",
+      "date": "2014-11-03"
+    },
+    {
+      "code": "C3359",
+      "action": "modify",
+      "date": "2014-11-10"
+    },
+    {
+      "code": "C3359",
+      "action": "modify",
+      "date": "2014-11-17"
+    },
+    {
+      "code": "C3359",
+      "action": "modify",
+      "date": "2014-11-24"
+    },
+    {
+      "code": "C3359",
+      "action": "modify",
+      "date": "2014-12-01"
+    },
+    {
+      "code": "C3359",
+      "action": "modify",
+      "date": "2014-12-08"
+    },
+    {
+      "code": "C3359",
+      "action": "modify",
+      "date": "2014-12-15"
+    },
+    {
+      "code": "C3359",
+      "action": "modify",
+      "date": "2014-12-22"
+    },
+    {
+      "code": "C3359",
+      "action": "modify",
+      "date": "2014-12-29"
+    },
+    {
+      "code": "C3359",
+      "action": "modify",
+      "date": "2015-01-05"
+    },
+    {
+      "code": "C3359",
+      "action": "modify",
+      "date": "2015-01-12"
+    },
+    {
+      "code": "C3359",
+      "action": "modify",
+      "date": "2015-01-20"
+    },
+    {
+      "code": "C3359",
+      "action": "modify",
+      "date": "2015-01-26"
+    },
+    {
+      "code": "C3359",
+      "action": "modify",
+      "date": "2015-02-02"
+    },
+    {
+      "code": "C3359",
+      "action": "modify",
+      "date": "2015-02-09"
+    },
+    {
+      "code": "C3359",
+      "action": "modify",
+      "date": "2015-02-17"
+    },
+    {
+      "code": "C3359",
+      "action": "modify",
+      "date": "2015-02-23"
+    },
+    {
+      "code": "C3359",
+      "action": "modify",
+      "date": "2015-03-02"
+    },
+    {
+      "code": "C3359",
+      "action": "modify",
+      "date": "2015-03-09"
+    },
+    {
+      "code": "C3359",
+      "action": "modify",
+      "date": "2015-03-16"
+    },
+    {
+      "code": "C3359",
+      "action": "modify",
+      "date": "2015-03-23"
+    },
+    {
+      "code": "C3359",
+      "action": "modify",
+      "date": "2015-03-30"
+    },
+    {
+      "code": "C3359",
+      "action": "modify",
+      "date": "2015-04-06"
+    },
+    {
+      "code": "C3359",
+      "action": "modify",
+      "date": "2015-04-13"
+    },
+    {
+      "code": "C3359",
+      "action": "modify",
+      "date": "2015-04-20"
+    },
+    {
+      "code": "C3359",
+      "action": "modify",
+      "date": "2015-04-27"
+    },
+    {
+      "code": "C3359",
+      "action": "modify",
+      "date": "2015-05-04"
+    },
+    {
+      "code": "C3359",
+      "action": "modify",
+      "date": "2015-05-11"
+    },
+    {
+      "code": "C3359",
+      "action": "modify",
+      "date": "2015-05-18"
+    },
+    {
+      "code": "C3359",
+      "action": "modify",
+      "date": "2015-05-26"
+    },
+    {
+      "code": "C3359",
+      "action": "modify",
+      "date": "2015-06-01"
+    },
+    {
+      "code": "C3359",
+      "action": "modify",
+      "date": "2015-06-08"
+    },
+    {
+      "code": "C3359",
+      "action": "modify",
+      "date": "2015-06-15"
+    },
+    {
+      "code": "C3359",
+      "action": "modify",
+      "date": "2015-06-22"
+    },
+    {
+      "code": "C3359",
+      "action": "modify",
+      "date": "2015-06-29"
+    },
+    {
+      "code": "C3359",
+      "action": "modify",
+      "date": "2015-07-06"
+    },
+    {
+      "code": "C3359",
+      "action": "modify",
+      "date": "2015-07-13"
+    },
+    {
+      "code": "C3359",
+      "action": "modify",
+      "date": "2015-08-12"
+    },
+    {
+      "code": "C3359",
+      "action": "modify",
+      "date": "2015-08-24"
+    },
+    {
+      "code": "C3359",
+      "action": "modify",
+      "date": "2015-08-31"
+    },
+    {
+      "code": "C3359",
+      "action": "modify",
+      "date": "2015-09-08"
+    },
+    {
+      "code": "C3359",
+      "action": "modify",
+      "date": "2015-09-14"
+    },
+    {
+      "code": "C3359",
+      "action": "modify",
+      "date": "2015-09-21"
+    },
+    {
+      "code": "C3359",
+      "action": "modify",
+      "date": "2015-09-28"
+    },
+    {
+      "code": "C3359",
+      "action": "modify",
+      "date": "2015-10-05"
+    },
+    {
+      "code": "C3359",
+      "action": "modify",
+      "date": "2015-10-13"
+    },
+    {
+      "code": "C3359",
+      "action": "modify",
+      "date": "2015-10-19"
+    },
+    {
+      "code": "C3359",
+      "action": "modify",
+      "date": "2015-10-26"
+    },
+    {
+      "code": "C3359",
+      "action": "modify",
+      "date": "2015-11-02"
+    },
+    {
+      "code": "C3359",
+      "action": "modify",
+      "date": "2015-11-09"
+    },
+    {
+      "code": "C3359",
+      "action": "modify",
+      "date": "2015-11-16"
+    },
+    {
+      "code": "C3359",
+      "action": "modify",
+      "date": "2015-11-23"
+    },
+    {
+      "code": "C3359",
+      "action": "modify",
+      "date": "2015-11-30"
+    },
+    {
+      "code": "C3359",
+      "action": "modify",
+      "date": "2015-12-07"
+    },
+    {
+      "code": "C3359",
+      "action": "modify",
+      "date": "2015-12-14"
+    },
+    {
+      "code": "C3359",
+      "action": "modify",
+      "date": "2015-12-21"
+    },
+    {
+      "code": "C3359",
+      "action": "modify",
+      "date": "2015-12-28"
+    },
+    {
+      "code": "C3359",
+      "action": "modify",
+      "date": "2016-01-04"
+    },
+    {
+      "code": "C3359",
+      "action": "modify",
+      "date": "2016-01-11"
+    },
+    {
+      "code": "C3359",
+      "action": "modify",
+      "date": "2016-01-19"
+    },
+    {
+      "code": "C3359",
+      "action": "modify",
+      "date": "2016-01-29"
+    },
+    {
+      "code": "C3359",
+      "action": "modify",
+      "date": "2016-04-18"
+    },
+    {
+      "code": "C3359",
+      "action": "modify",
+      "date": "2016-04-25"
+    },
+    {
+      "code": "C3359",
+      "action": "modify",
+      "date": "2016-05-09"
+    },
+    {
+      "code": "C3359",
+      "action": "modify",
+      "date": "2016-05-16"
+    },
+    {
+      "code": "C3359",
+      "action": "modify",
+      "date": "2016-05-23"
+    },
+    {
+      "code": "C3359",
+      "action": "modify",
+      "date": "2016-05-31"
+    },
+    {
+      "code": "C3359",
+      "action": "modify",
+      "date": "2016-06-06"
+    },
+    {
+      "code": "C3359",
+      "action": "modify",
+      "date": "2016-06-13"
+    },
+    {
+      "code": "C3359",
+      "action": "modify",
+      "date": "2016-06-17"
+    },
+    {
+      "code": "C3359",
+      "action": "modify",
+      "date": "2016-06-27"
+    },
+    {
+      "code": "C3359",
+      "action": "modify",
+      "date": "2016-07-05"
+    },
+    {
+      "code": "C3359",
+      "action": "modify",
+      "date": "2016-07-11"
+    },
+    {
+      "code": "C3359",
+      "action": "modify",
+      "date": "2016-07-18"
+    },
+    {
+      "code": "C3359",
+      "action": "modify",
+      "date": "2016-07-25"
+    },
+    {
+      "code": "C3359",
+      "action": "modify",
+      "date": "2016-08-01"
+    },
+    {
+      "code": "C3359",
+      "action": "modify",
+      "date": "2016-08-08"
+    },
+    {
+      "code": "C3359",
+      "action": "modify",
+      "date": "2016-08-15"
+    },
+    {
+      "code": "C3359",
+      "action": "modify",
+      "date": "2016-08-22"
+    },
+    {
+      "code": "C3359",
+      "action": "modify",
+      "date": "2016-08-29"
+    },
+    {
+      "code": "C3359",
+      "action": "modify",
+      "date": "2016-09-06"
+    },
+    {
+      "code": "C3359",
+      "action": "modify",
+      "date": "2016-09-12"
+    },
+    {
+      "code": "C3359",
+      "action": "modify",
+      "date": "2016-09-20"
+    },
+    {
+      "code": "C3359",
+      "action": "modify",
+      "date": "2016-09-26"
+    },
+    {
+      "code": "C3359",
+      "action": "modify",
+      "date": "2016-10-03"
+    },
+    {
+      "code": "C3359",
+      "action": "modify",
+      "date": "2016-10-11"
+    },
+    {
+      "code": "C3359",
+      "action": "modify",
+      "date": "2016-10-17"
+    },
+    {
+      "code": "C3359",
+      "action": "modify",
+      "date": "2016-10-24"
+    },
+    {
+      "code": "C3359",
+      "action": "modify",
+      "date": "2016-10-31"
+    },
+    {
+      "code": "C3359",
+      "action": "modify",
+      "date": "2016-11-07"
+    },
+    {
+      "code": "C3359",
+      "action": "modify",
+      "date": "2016-11-14"
+    },
+    {
+      "code": "C3359",
+      "action": "modify",
+      "date": "2016-11-21"
+    },
+    {
+      "code": "C3359",
+      "action": "modify",
+      "date": "2016-11-28"
+    },
+    {
+      "code": "C3359",
+      "action": "modify",
+      "date": "2016-12-05"
+    },
+    {
+      "code": "C3359",
+      "action": "modify",
+      "date": "2016-12-12"
+    },
+    {
+      "code": "C3359",
+      "action": "modify",
+      "date": "2016-12-19"
+    },
+    {
+      "code": "C3359",
+      "action": "modify",
+      "date": "2016-12-27"
+    },
+    {
+      "code": "C3359",
+      "action": "modify",
+      "date": "2017-01-03"
+    },
+    {
+      "code": "C3359",
+      "action": "modify",
+      "date": "2017-01-09"
+    },
+    {
+      "code": "C3359",
+      "action": "modify",
+      "date": "2017-01-17"
+    },
+    {
+      "code": "C3359",
+      "action": "modify",
+      "date": "2017-01-23"
+    },
+    {
+      "code": "C3359",
+      "action": "modify",
+      "date": "2017-02-21"
+    },
+    {
+      "code": "C3359",
+      "action": "modify",
+      "date": "2017-09-26"
+    },
+    {
+      "code": "C3359",
+      "action": "modify",
+      "date": "2018-02-26"
+    },
+    {
+      "code": "C3359",
+      "action": "modify",
+      "date": "2018-09-24"
+    },
+    {
+      "code": "C3359",
+      "action": "modify",
+      "date": "2018-11-26"
+    },
+    {
+      "code": "C3359",
+      "action": "modify",
+      "date": "2019-02-25"
+    },
+    {
+      "code": "C3359",
+      "action": "modify",
+      "date": "2019-03-25"
+    },
+    {
+      "code": "C3359",
+      "action": "modify",
+      "date": "2019-04-29"
+    },
+    {
+      "code": "C3359",
+      "action": "modify",
+      "date": "2019-05-28"
+    },
+    {
+      "code": "C3359",
+      "action": "modify",
+      "date": "2019-06-24"
+    },
+    {
+      "code": "C3359",
+      "action": "modify",
+      "date": "2019-07-29"
+    },
+    {
+      "code": "C3359",
+      "action": "modify",
+      "date": "2019-09-30"
+    },
+    {
+      "code": "C3359",
+      "action": "modify",
+      "date": "2019-10-28"
+    },
+    {
+      "code": "C3359",
+      "action": "modify",
+      "date": "2019-11-25"
+    },
+    {
+      "code": "C3359",
+      "action": "modify",
+      "date": "2020-01-27"
+    },
+    {
+      "code": "C3359",
+      "action": "modify",
+      "date": "2020-02-24"
+    },
+    {
+      "code": "C3359",
+      "action": "modify",
+      "date": "2020-03-30"
+    },
+    {
+      "code": "C3359",
+      "action": "modify",
+      "date": "2020-04-27"
+    },
+    {
+      "code": "C3359",
+      "action": "modify",
+      "date": "2020-08-31"
+    },
+    {
+      "code": "C3359",
+      "action": "modify",
+      "date": "2020-09-29"
+    },
+    {
+      "code": "C3359",
+      "action": "modify",
+      "date": "2021-02-22"
+    },
+    {
+      "code": "C3359",
+      "action": "modify",
+      "date": "2021-03-29"
+    },
+    {
+      "code": "C3359",
+      "action": "modify",
+      "date": "2021-06-28"
+    },
+    {
+      "code": "C3359",
+      "action": "modify",
+      "date": "2022-09-26"
+    },
+    {
+      "code": "C3359",
+      "action": "modify",
+      "date": "2022-10-31"
+    },
+    {
+      "code": "C3359",
+      "action": "modify",
+      "date": "2023-02-27"
+    },
+    {
+      "code": "C3359",
+      "action": "modify",
+      "date": "2024-01-29"
+    },
+    {
+      "code": "C3359",
+      "action": "modify",
+      "date": "2025-03-31"
+    },
+    {
+      "code": "C3359",
+      "action": "modify",
+      "date": "2025-04-28"
+    }
+  ],
+  "maps": [
+    {
+      "type": "Related To",
+      "targetName": "8900/3",
+      "targetTermType": "PT",
+      "targetCode": "morphology",
+      "targetTerminology": "GDC"
+    },
+    {
+      "type": "Related To",
+      "targetName": "Rhabdomyosarcoma, NOS",
+      "targetTermType": "PT",
+      "targetCode": "8900/3",
+      "targetTerminology": "ICDO3",
+      "targetTerminologyVersion": "3.2"
+    },
+    {
+      "type": "Related To",
+      "targetName": "Rhabdomyosarcoma, NOS",
+      "targetTermType": "PT",
+      "targetCode": "8900/3",
+      "targetTerminology": "ICDO3",
+      "targetTerminologyVersion": "3.1"
+    },
+    {
+      "type": "Has Synonym",
+      "targetName": "Rhabdomyosarcoma, NOS",
+      "targetTermType": "PT",
+      "targetCode": "primary_diagnosis",
+      "targetTerminology": "GDC"
+    },
+    {
+      "type": "Has Synonym",
+      "targetName": "Rhabdomyosarcoma",
+      "targetTermType": "LLT",
+      "targetCode": "10039022",
+      "targetTerminology": "MedDRA",
+      "targetTerminologyVersion": "18.1"
+    },
+    {
+      "type": "Has Synonym",
+      "targetName": "Rhabdomyosarcoma",
+      "targetTermType": "PT",
+      "targetCode": "relationship_primary_diagnosis",
+      "targetTerminology": "GDC"
+    },
+    {
+      "type": "Has Synonym",
+      "targetName": "Rhabdomyosarcoma",
+      "targetTermType": "PT",
+      "targetCode": "tumor_code",
+      "targetTerminology": "GDC"
+    },
+    {
+      "type": "Related To",
+      "targetName": "Rhabdosarcoma",
+      "targetTermType": "PT",
+      "targetCode": "primary_diagnosis",
+      "targetTerminology": "GDC"
+    }
+  ]
+}

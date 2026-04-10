@@ -1,0 +1,879 @@
+{
+  "code": "C8971",
+  "name": "Embryonal Rhabdomyosarcoma",
+  "terminology": "ncit",
+  "version": "25.11d",
+  "conceptStatus": "DEFAULT",
+  "leaf": false,
+  "active": true,
+  "synonyms": [
+    {
+      "name": "Embryonal Rhabdomyosarcoma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "Cellosaurus"
+    },
+    {
+      "name": "Embryonal rhabdomyosarcoma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "CTEP",
+      "code": "10065868",
+      "subSource": "SDC"
+    },
+    {
+      "name": "embryonal rhabdomyosarcoma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NCI-GLOSS",
+      "code": "CDR0000044497"
+    },
+    {
+      "name": "ERMS",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NCI-GLOSS",
+      "code": "CDR0000641930"
+    },
+    {
+      "name": "Embryonal Rhabdomyosarcoma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "ERMS",
+      "termType": "AB",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Embryonal Rhabdomyosarcoma",
+      "type": "Preferred_Name"
+    }
+  ],
+  "definitions": [
+    {
+      "definition": "A poorly circumscribed morphologic variant of rhabdomyosarcoma that shows primitive skeletal muscle differentiation in any stage of myogenesis.",
+      "type": "DEFINITION",
+      "source": "NCI"
+    },
+    {
+      "definition": "A soft tissue tumor that is most common in infants and young children. It begins in muscles, usually in the head, neck, or genitourinary tract.",
+      "type": "ALT_DEFINITION",
+      "source": "NCI-GLOSS"
+    }
+  ],
+  "properties": [
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "Cellosaurus"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "CTEP"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "GDC"
+    },
+    {
+      "code": "P334",
+      "type": "ICD-O-3_Code",
+      "value": "8910/3"
+    },
+    {
+      "code": "P366",
+      "type": "Legacy Concept Name",
+      "value": "Embryonal_Rhabdomyosarcoma"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "8910/3"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "Embryonal rhabdomyosarcoma, NOS"
+    },
+    {
+      "code": "P363",
+      "type": "Neoplastic_Status",
+      "value": "Malignant"
+    },
+    {
+      "code": "P106",
+      "type": "Semantic_Type",
+      "value": "Neoplastic Process"
+    },
+    {
+      "code": "P207",
+      "type": "UMLS_CUI",
+      "value": "C0206656"
+    }
+  ],
+  "children": [
+    {
+      "code": "C49204",
+      "name": "Anaplastic Embryonal Rhabdomyosarcoma",
+      "leaf": true
+    },
+    {
+      "code": "C159668",
+      "name": "Bladder Embryonal Rhabdomyosarcoma",
+      "leaf": true
+    },
+    {
+      "code": "C9150",
+      "name": "Botryoid-Type Embryonal Rhabdomyosarcoma",
+      "leaf": false
+    },
+    {
+      "code": "C7957",
+      "name": "Childhood Embryonal Rhabdomyosarcoma",
+      "leaf": false
+    },
+    {
+      "code": "C5847",
+      "name": "Extrahepatic Bile Duct Embryonal Rhabdomyosarcoma",
+      "leaf": true
+    },
+    {
+      "code": "C213583",
+      "name": "Gastric Embryonal Rhabdomyosarcoma",
+      "leaf": true
+    },
+    {
+      "code": "C183250",
+      "name": "Metastatic Embryonal Rhabdomyosarcoma",
+      "leaf": true
+    },
+    {
+      "code": "C188115",
+      "name": "Middle Ear Embryonal Rhabdomyosarcoma",
+      "leaf": true
+    },
+    {
+      "code": "C6246",
+      "name": "Orbital Embryonal Rhabdomyosarcoma",
+      "leaf": true
+    },
+    {
+      "code": "C5525",
+      "name": "Prostate Embryonal Rhabdomyosarcoma",
+      "leaf": true
+    }
+  ],
+  "parents": [
+    {
+      "code": "C3359",
+      "name": "Rhabdomyosarcoma"
+    }
+  ],
+  "associations": [
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C165258",
+      "relatedName": "Cellosaurus Disease Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C157711",
+      "relatedName": "GDC Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C177537",
+      "relatedName": "GDC Value Terminology"
+    },
+    {
+      "type": "Is_Value_For_GDC_Property",
+      "relatedCode": "C176985",
+      "relatedName": "Histology ICD-O Morphology Code"
+    },
+    {
+      "type": "Is_Value_For_GDC_Property",
+      "relatedCode": "C177621",
+      "relatedName": "ICD-O-3 Morphology Term Diagnosis Question"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168658",
+      "relatedName": "Mapped ICDO3.1 Morphology PT Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168657",
+      "relatedName": "Mapped ICDO3.1 Morphology Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168655",
+      "relatedName": "Mapped ICDO3.1 Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168662",
+      "relatedName": "Mapped ICDO3.2 Morphology PT Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168661",
+      "relatedName": "Mapped ICDO3.2 Morphology Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168656",
+      "relatedName": "Mapped ICDO3.2 Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C103118",
+      "relatedName": "NCI CTEP SDC Rhabdomyosarcoma Sub-Category Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C102905",
+      "relatedName": "NCI CTEP Simplified Disease Classification Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C126659",
+      "relatedName": "NCIt Neoplasm Core Terminology"
+    }
+  ],
+  "inverseAssociations": [
+    {
+      "type": "Has_GDC_Value",
+      "relatedCode": "C176985",
+      "relatedName": "Histology ICD-O Morphology Code"
+    },
+    {
+      "type": "Has_GDC_Value",
+      "relatedCode": "C177621",
+      "relatedName": "ICD-O-3 Morphology Term Diagnosis Question"
+    }
+  ],
+  "roles": [
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C36122",
+      "relatedName": "Benign Cellular Infiltrate"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C12555",
+      "relatedName": "Connective and Soft Tissue Cell"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12964",
+      "relatedName": "Connective and Soft Tissue"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12964",
+      "relatedName": "Connective and Soft Tissue"
+    },
+    {
+      "type": "Disease_May_Have_Cytogenetic_Abnormality",
+      "relatedCode": "C36560",
+      "relatedName": "del(11p15)"
+    },
+    {
+      "type": "Disease_Excludes_Normal_Cell_Origin",
+      "relatedCode": "C12578",
+      "relatedName": "Epithelial Cell"
+    },
+    {
+      "type": "Disease_Excludes_Normal_Tissue_Origin",
+      "relatedCode": "C45714",
+      "relatedName": "Epithelial Tissue"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C36105",
+      "relatedName": "Indolent Clinical Course"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C53665",
+      "relatedName": "Intermediate Filaments Present"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C53667",
+      "relatedName": "Intracytoplasmic Eosinophilic Inclusion"
+    },
+    {
+      "type": "Disease_Has_Cytogenetic_Abnormality",
+      "relatedCode": "C36505",
+      "relatedName": "Loss of Chromosome 11p"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12917",
+      "relatedName": "Malignant Cell"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C36115",
+      "relatedName": "Malignant Cellular Infiltrate"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C36779",
+      "relatedName": "Malignant Epithelial Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C214806",
+      "relatedName": "Malignant Muscle Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C49198",
+      "relatedName": "Malignant Rhabdomyoblast"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C12612",
+      "relatedName": "Muscle Cell"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12435",
+      "relatedName": "Muscle Tissue"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C13056",
+      "relatedName": "Muscle"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12754",
+      "relatedName": "Musculoskeletal System"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12922",
+      "relatedName": "Neoplastic Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36887",
+      "relatedName": "Neoplastic Connective and Soft Tissue Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36936",
+      "relatedName": "Neoplastic Muscle Cell"
+    },
+    {
+      "type": "Disease_Excludes_Normal_Cell_Origin",
+      "relatedCode": "C41405",
+      "relatedName": "Neuron, Neuroepithelial Cell, and Supporting Cell of the Nervous System"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C49202",
+      "relatedName": "Primitive Malignant Skeletal Muscle Cell"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C36103",
+      "relatedName": "Rapidly Enlarging Mass"
+    },
+    {
+      "type": "Disease_May_Have_Cytogenetic_Abnormality",
+      "relatedCode": "C36562",
+      "relatedName": "Rearrangement of 12q13"
+    },
+    {
+      "type": "Disease_May_Have_Cytogenetic_Abnormality",
+      "relatedCode": "C36561",
+      "relatedName": "Rearrangement of 1p11-q11"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C33637",
+      "relatedName": "Striated Muscle Cell"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12436",
+      "relatedName": "Striated Muscle Tissue"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C41457",
+      "relatedName": "Well-Circumscribed Lesion"
+    }
+  ],
+  "history": [
+    {
+      "code": "C8971",
+      "action": "create",
+      "date": "2003-08-12"
+    },
+    {
+      "code": "C8971",
+      "action": "modify",
+      "date": "2003-10-31"
+    },
+    {
+      "code": "C8971",
+      "action": "modify",
+      "date": "2003-12-30"
+    },
+    {
+      "code": "C8971",
+      "action": "modify",
+      "date": "2004-03-30"
+    },
+    {
+      "code": "C6327",
+      "action": "retire",
+      "date": "2004-03-30",
+      "replacementCode": "C8971",
+      "replacementName": "Embryonal Rhabdomyosarcoma"
+    },
+    {
+      "code": "C8971",
+      "action": "modify",
+      "date": "2005-12-01"
+    },
+    {
+      "code": "C8971",
+      "action": "modify",
+      "date": "2006-01-27"
+    },
+    {
+      "code": "C8971",
+      "action": "modify",
+      "date": "2007-03-30"
+    },
+    {
+      "code": "C8971",
+      "action": "modify",
+      "date": "2009-04-06"
+    },
+    {
+      "code": "C8971",
+      "action": "modify",
+      "date": "2009-11-02"
+    },
+    {
+      "code": "C8971",
+      "action": "modify",
+      "date": "2009-11-23"
+    },
+    {
+      "code": "C8971",
+      "action": "modify",
+      "date": "2010-11-08"
+    },
+    {
+      "code": "C8971",
+      "action": "modify",
+      "date": "2010-11-15"
+    },
+    {
+      "code": "C8971",
+      "action": "modify",
+      "date": "2010-11-22"
+    },
+    {
+      "code": "C8971",
+      "action": "modify",
+      "date": "2010-11-29"
+    },
+    {
+      "code": "C8971",
+      "action": "modify",
+      "date": "2010-12-06"
+    },
+    {
+      "code": "C8971",
+      "action": "modify",
+      "date": "2010-12-13"
+    },
+    {
+      "code": "C8971",
+      "action": "modify",
+      "date": "2010-12-27"
+    },
+    {
+      "code": "C8971",
+      "action": "modify",
+      "date": "2011-01-03"
+    },
+    {
+      "code": "C8971",
+      "action": "modify",
+      "date": "2011-01-10"
+    },
+    {
+      "code": "C8971",
+      "action": "modify",
+      "date": "2011-01-17"
+    },
+    {
+      "code": "C8971",
+      "action": "modify",
+      "date": "2011-01-24"
+    },
+    {
+      "code": "C8971",
+      "action": "modify",
+      "date": "2011-01-31"
+    },
+    {
+      "code": "C8971",
+      "action": "modify",
+      "date": "2011-02-28"
+    },
+    {
+      "code": "C8971",
+      "action": "modify",
+      "date": "2011-10-03"
+    },
+    {
+      "code": "C8971",
+      "action": "modify",
+      "date": "2012-09-24"
+    },
+    {
+      "code": "C8971",
+      "action": "modify",
+      "date": "2012-10-01"
+    },
+    {
+      "code": "C8971",
+      "action": "modify",
+      "date": "2012-10-09"
+    },
+    {
+      "code": "C8971",
+      "action": "modify",
+      "date": "2012-10-15"
+    },
+    {
+      "code": "C8971",
+      "action": "modify",
+      "date": "2012-10-22"
+    },
+    {
+      "code": "C8971",
+      "action": "modify",
+      "date": "2012-10-31"
+    },
+    {
+      "code": "C8971",
+      "action": "modify",
+      "date": "2012-11-05"
+    },
+    {
+      "code": "C8971",
+      "action": "modify",
+      "date": "2012-11-13"
+    },
+    {
+      "code": "C8971",
+      "action": "modify",
+      "date": "2012-11-19"
+    },
+    {
+      "code": "C8971",
+      "action": "modify",
+      "date": "2012-11-26"
+    },
+    {
+      "code": "C8971",
+      "action": "modify",
+      "date": "2012-12-03"
+    },
+    {
+      "code": "C8971",
+      "action": "modify",
+      "date": "2012-12-10"
+    },
+    {
+      "code": "C8971",
+      "action": "modify",
+      "date": "2012-12-17"
+    },
+    {
+      "code": "C8971",
+      "action": "modify",
+      "date": "2012-12-28"
+    },
+    {
+      "code": "C8971",
+      "action": "modify",
+      "date": "2013-01-07"
+    },
+    {
+      "code": "C8971",
+      "action": "modify",
+      "date": "2013-01-14"
+    },
+    {
+      "code": "C8971",
+      "action": "modify",
+      "date": "2013-01-23"
+    },
+    {
+      "code": "C8971",
+      "action": "modify",
+      "date": "2013-02-04"
+    },
+    {
+      "code": "C8971",
+      "action": "modify",
+      "date": "2013-02-11"
+    },
+    {
+      "code": "C8971",
+      "action": "modify",
+      "date": "2013-02-19"
+    },
+    {
+      "code": "C8971",
+      "action": "modify",
+      "date": "2013-02-25"
+    },
+    {
+      "code": "C8971",
+      "action": "modify",
+      "date": "2013-03-04"
+    },
+    {
+      "code": "C8971",
+      "action": "modify",
+      "date": "2013-03-11"
+    },
+    {
+      "code": "C8971",
+      "action": "modify",
+      "date": "2013-03-18"
+    },
+    {
+      "code": "C8971",
+      "action": "modify",
+      "date": "2013-03-25"
+    },
+    {
+      "code": "C8971",
+      "action": "modify",
+      "date": "2013-04-01"
+    },
+    {
+      "code": "C8971",
+      "action": "modify",
+      "date": "2013-04-08"
+    },
+    {
+      "code": "C8971",
+      "action": "modify",
+      "date": "2013-04-15"
+    },
+    {
+      "code": "C8971",
+      "action": "modify",
+      "date": "2013-04-22"
+    },
+    {
+      "code": "C8971",
+      "action": "modify",
+      "date": "2013-04-29"
+    },
+    {
+      "code": "C8971",
+      "action": "modify",
+      "date": "2013-05-06"
+    },
+    {
+      "code": "C8971",
+      "action": "modify",
+      "date": "2013-05-13"
+    },
+    {
+      "code": "C8971",
+      "action": "modify",
+      "date": "2013-05-20"
+    },
+    {
+      "code": "C8971",
+      "action": "modify",
+      "date": "2013-05-28"
+    },
+    {
+      "code": "C8971",
+      "action": "modify",
+      "date": "2013-06-03"
+    },
+    {
+      "code": "C8971",
+      "action": "modify",
+      "date": "2013-06-10"
+    },
+    {
+      "code": "C8971",
+      "action": "modify",
+      "date": "2013-06-17"
+    },
+    {
+      "code": "C8971",
+      "action": "modify",
+      "date": "2013-06-24"
+    },
+    {
+      "code": "C8971",
+      "action": "modify",
+      "date": "2013-07-01"
+    },
+    {
+      "code": "C8971",
+      "action": "modify",
+      "date": "2013-07-08"
+    },
+    {
+      "code": "C8971",
+      "action": "modify",
+      "date": "2014-02-03"
+    },
+    {
+      "code": "C8971",
+      "action": "modify",
+      "date": "2015-03-09"
+    },
+    {
+      "code": "C8971",
+      "action": "modify",
+      "date": "2015-04-27"
+    },
+    {
+      "code": "C8971",
+      "action": "modify",
+      "date": "2015-05-26"
+    },
+    {
+      "code": "C8971",
+      "action": "modify",
+      "date": "2016-04-25"
+    },
+    {
+      "code": "C8971",
+      "action": "modify",
+      "date": "2017-04-03"
+    },
+    {
+      "code": "C8971",
+      "action": "modify",
+      "date": "2018-09-24"
+    },
+    {
+      "code": "C8971",
+      "action": "modify",
+      "date": "2019-05-28"
+    },
+    {
+      "code": "C8971",
+      "action": "modify",
+      "date": "2019-09-30"
+    },
+    {
+      "code": "C8971",
+      "action": "modify",
+      "date": "2019-10-28"
+    },
+    {
+      "code": "C8971",
+      "action": "modify",
+      "date": "2020-02-24"
+    },
+    {
+      "code": "C8971",
+      "action": "modify",
+      "date": "2020-03-30"
+    },
+    {
+      "code": "C8971",
+      "action": "modify",
+      "date": "2020-04-27"
+    },
+    {
+      "code": "C8971",
+      "action": "modify",
+      "date": "2021-02-22"
+    },
+    {
+      "code": "C8971",
+      "action": "modify",
+      "date": "2021-03-29"
+    },
+    {
+      "code": "C8971",
+      "action": "modify",
+      "date": "2023-02-27"
+    },
+    {
+      "code": "C8971",
+      "action": "modify",
+      "date": "2023-12-26"
+    },
+    {
+      "code": "C8971",
+      "action": "modify",
+      "date": "2024-01-29"
+    },
+    {
+      "code": "C8971",
+      "action": "modify",
+      "date": "2025-03-31"
+    },
+    {
+      "code": "C8971",
+      "action": "modify",
+      "date": "2025-04-28"
+    }
+  ],
+  "maps": [
+    {
+      "type": "Related To",
+      "targetName": "8910/3",
+      "targetTermType": "PT",
+      "targetCode": "morphology",
+      "targetTerminology": "GDC"
+    },
+    {
+      "type": "Related To",
+      "targetName": "Embryonal rhabdomyosarcoma, NOS",
+      "targetTermType": "PT",
+      "targetCode": "8910/3",
+      "targetTerminology": "ICDO3",
+      "targetTerminologyVersion": "3.1"
+    },
+    {
+      "type": "Related To",
+      "targetName": "Embryonal rhabdomyosarcoma, NOS",
+      "targetTermType": "PT",
+      "targetCode": "8910/3",
+      "targetTerminology": "ICDO3",
+      "targetTerminologyVersion": "3.2"
+    },
+    {
+      "type": "Related To",
+      "targetName": "Embryonal rhabdomyosarcoma, NOS",
+      "targetTermType": "PT",
+      "targetCode": "primary_diagnosis",
+      "targetTerminology": "GDC"
+    }
+  ]
+}

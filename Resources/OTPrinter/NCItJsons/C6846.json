@@ -1,0 +1,637 @@
+{
+  "code": "C6846",
+  "name": "Thyroid Gland Hyalinizing Trabecular Tumor",
+  "terminology": "ncit",
+  "version": "25.11d",
+  "conceptStatus": "DEFAULT",
+  "leaf": true,
+  "active": true,
+  "synonyms": [
+    {
+      "name": "Thyroid Gland Hyalinizing Trabecular Tumor",
+      "termType": "DN",
+      "type": "FULL_SYN",
+      "source": "CTRP"
+    },
+    {
+      "name": "Trabecular adenoma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "GDC"
+    },
+    {
+      "name": "HTA",
+      "termType": "AB",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "HTT",
+      "termType": "AB",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Hyalinizing Trabecular Adenoma",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Hyalinizing Trabecular Adenoma of the Thyroid",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Hyalinizing Trabecular Adenoma of Thyroid",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Hyalinizing Trabecular Tumor",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Paraganglioma-like Adenoma",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "PLAT",
+      "termType": "AB",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Thyroid Gland Hyalinizing Trabecular Tumor",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Thyroid Hyalinizing Trabecular Adenoma",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Trabecular Adenoma",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Thyroid Gland Hyalinizing Trabecular Tumor",
+      "type": "Display_Name"
+    },
+    {
+      "name": "Thyroid Gland Hyalinizing Trabecular Tumor",
+      "type": "Preferred_Name"
+    }
+  ],
+  "definitions": [
+    {
+      "definition": "A rare, circumscribed or encapsulated tumor arising from the follicular cells of the thyroid gland.  It is characterized by a trabecular growth pattern and hyalinized stroma formation.  The vast majority of cases have a benign clinical course.",
+      "type": "DEFINITION",
+      "source": "NCI"
+    }
+  ],
+  "properties": [
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "CTRP"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "GDC"
+    },
+    {
+      "code": "P334",
+      "type": "ICD-O-3_Code",
+      "value": "8190/0"
+    },
+    {
+      "code": "P334",
+      "type": "ICD-O-3_Code",
+      "value": "8336/0"
+    },
+    {
+      "code": "P366",
+      "type": "Legacy Concept Name",
+      "value": "Thyroid_Hyalinizing_Trabecular_Adenoma"
+    },
+    {
+      "code": "P366",
+      "type": "Legacy Concept Name",
+      "value": "Trabecular_Adenoma"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "8190/0"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "8336/0"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "Hyalinizing trabecular adenoma"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "Hyalinizing trabecular tumor"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "Trabecular adenoma"
+    },
+    {
+      "code": "P363",
+      "type": "Neoplastic_Status",
+      "value": "Benign"
+    },
+    {
+      "code": "P363",
+      "type": "Neoplastic_Status",
+      "value": "Undetermined"
+    },
+    {
+      "code": "P106",
+      "type": "Semantic_Type",
+      "value": "Neoplastic Process"
+    },
+    {
+      "code": "P207",
+      "type": "UMLS_CUI",
+      "value": "C1266049"
+    }
+  ],
+  "parents": [
+    {
+      "code": "C187273",
+      "name": "Low Risk Thyroid Gland Neoplasm"
+    }
+  ],
+  "associations": [
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C118168",
+      "relatedName": "CTRP Disease Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C116977",
+      "relatedName": "CTRP Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C157711",
+      "relatedName": "GDC Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C177537",
+      "relatedName": "GDC Value Terminology"
+    },
+    {
+      "type": "Is_Value_For_GDC_Property",
+      "relatedCode": "C176985",
+      "relatedName": "Histology ICD-O Morphology Code"
+    },
+    {
+      "type": "Is_Value_For_GDC_Property",
+      "relatedCode": "C177621",
+      "relatedName": "ICD-O-3 Morphology Term Diagnosis Question"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168658",
+      "relatedName": "Mapped ICDO3.1 Morphology PT Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168657",
+      "relatedName": "Mapped ICDO3.1 Morphology Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168655",
+      "relatedName": "Mapped ICDO3.1 Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168662",
+      "relatedName": "Mapped ICDO3.2 Morphology PT Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168661",
+      "relatedName": "Mapped ICDO3.2 Morphology Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168656",
+      "relatedName": "Mapped ICDO3.2 Terminology"
+    }
+  ],
+  "inverseAssociations": [
+    {
+      "type": "Has_GDC_Value",
+      "relatedCode": "C176985",
+      "relatedName": "Histology ICD-O Morphology Code"
+    },
+    {
+      "type": "Has_GDC_Value",
+      "relatedCode": "C177621",
+      "relatedName": "ICD-O-3 Morphology Term Diagnosis Question"
+    }
+  ],
+  "roles": [
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C28371",
+      "relatedName": "Cold Nodule"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C36108",
+      "relatedName": "Encapsulated Mass"
+    },
+    {
+      "type": "Disease_Has_Cytogenetic_Abnormality",
+      "relatedCode": "C187277",
+      "relatedName": "GLIS Gene Rearrangement"
+    },
+    {
+      "type": "Disease_May_Have_Cytogenetic_Abnormality",
+      "relatedCode": "C187432",
+      "relatedName": "GLIS1 Gene Rearrangement"
+    },
+    {
+      "type": "Disease_May_Have_Cytogenetic_Abnormality",
+      "relatedCode": "C187433",
+      "relatedName": "GLIS3 Gene Rearrangement"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12418",
+      "relatedName": "Head and Neck"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C36000",
+      "relatedName": "Hyalinized Stroma Formation"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C36105",
+      "relatedName": "Indolent Clinical Course"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C187272",
+      "relatedName": "Low Metastatic Risk"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C13063",
+      "relatedName": "Neck"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12922",
+      "relatedName": "Neoplastic Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36835",
+      "relatedName": "Neoplastic Thyroid Gland Follicular Cell"
+    },
+    {
+      "type": "Disease_Mapped_To_Gene",
+      "relatedCode": "C187434",
+      "relatedName": "PAX8/GLIS1 Fusion Gene"
+    },
+    {
+      "type": "Disease_Mapped_To_Gene",
+      "relatedCode": "C187436",
+      "relatedName": "PAX8/GLIS3 Fusion Gene"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C27709",
+      "relatedName": "Psammoma Body Formation"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C27962",
+      "relatedName": "Radiation Toxicity"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C47806",
+      "relatedName": "Thyroglobulin-Positive Neoplastic Cells Present"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C33782",
+      "relatedName": "Thyroid Gland Follicle"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C33783",
+      "relatedName": "Thyroid Gland Follicular Cell"
+    },
+    {
+      "type": "Disease_May_Have_Associated_Disease",
+      "relatedCode": "C4035",
+      "relatedName": "Thyroid Gland Papillary Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12400",
+      "relatedName": "Thyroid Gland"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12400",
+      "relatedName": "Thyroid Gland"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12400",
+      "relatedName": "Thyroid Gland"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C35913",
+      "relatedName": "Trabecular Pattern"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C41457",
+      "relatedName": "Well-Circumscribed Lesion"
+    }
+  ],
+  "inverseRoles": [
+    {
+      "type": "Gene_Involved_In_Pathogenesis_Of_Disease",
+      "relatedCode": "C187434",
+      "relatedName": "PAX8/GLIS1 Fusion Gene"
+    },
+    {
+      "type": "Gene_Involved_In_Pathogenesis_Of_Disease",
+      "relatedCode": "C187436",
+      "relatedName": "PAX8/GLIS3 Fusion Gene"
+    }
+  ],
+  "history": [
+    {
+      "code": "C6846",
+      "action": "create",
+      "date": "2003-08-12"
+    },
+    {
+      "code": "C6846",
+      "action": "modify",
+      "date": "2003-10-31"
+    },
+    {
+      "code": "C6846",
+      "action": "modify",
+      "date": "2003-12-30"
+    },
+    {
+      "code": "C6846",
+      "action": "modify",
+      "date": "2004-03-30"
+    },
+    {
+      "code": "C6846",
+      "action": "modify",
+      "date": "2005-05-27"
+    },
+    {
+      "code": "C6846",
+      "action": "modify",
+      "date": "2005-06-24"
+    },
+    {
+      "code": "C6846",
+      "action": "modify",
+      "date": "2005-07-29"
+    },
+    {
+      "code": "C6846",
+      "action": "modify",
+      "date": "2005-09-09"
+    },
+    {
+      "code": "C6846",
+      "action": "modify",
+      "date": "2007-03-30"
+    },
+    {
+      "code": "C6846",
+      "action": "modify",
+      "date": "2007-04-30"
+    },
+    {
+      "code": "C6846",
+      "action": "modify",
+      "date": "2009-04-06"
+    },
+    {
+      "code": "C6846",
+      "action": "modify",
+      "date": "2009-11-23"
+    },
+    {
+      "code": "C6846",
+      "action": "modify",
+      "date": "2010-01-11"
+    },
+    {
+      "code": "C6846",
+      "action": "modify",
+      "date": "2014-02-03"
+    },
+    {
+      "code": "C6846",
+      "action": "modify",
+      "date": "2016-04-11"
+    },
+    {
+      "code": "C6846",
+      "action": "modify",
+      "date": "2018-07-30"
+    },
+    {
+      "code": "C6846",
+      "action": "modify",
+      "date": "2018-09-24"
+    },
+    {
+      "code": "C6846",
+      "action": "modify",
+      "date": "2019-05-28"
+    },
+    {
+      "code": "C6846",
+      "action": "modify",
+      "date": "2019-09-30"
+    },
+    {
+      "code": "C6846",
+      "action": "modify",
+      "date": "2020-02-24"
+    },
+    {
+      "code": "C6846",
+      "action": "modify",
+      "date": "2020-03-30"
+    },
+    {
+      "code": "C6846",
+      "action": "modify",
+      "date": "2020-04-27"
+    },
+    {
+      "code": "C6846",
+      "action": "modify",
+      "date": "2021-02-22"
+    },
+    {
+      "code": "C6846",
+      "action": "modify",
+      "date": "2021-03-29"
+    },
+    {
+      "code": "C6846",
+      "action": "modify",
+      "date": "2022-05-31"
+    },
+    {
+      "code": "C6846",
+      "action": "modify",
+      "date": "2023-11-27"
+    },
+    {
+      "code": "C6846",
+      "action": "merge",
+      "date": "2024-08-26",
+      "replacementCode": "C6846",
+      "replacementName": "Thyroid Gland Hyalinizing Trabecular Tumor"
+    },
+    {
+      "code": "C3688",
+      "action": "merge",
+      "date": "2024-08-26",
+      "replacementCode": "C6846",
+      "replacementName": "Thyroid Gland Hyalinizing Trabecular Tumor"
+    },
+    {
+      "code": "C6846",
+      "action": "modify",
+      "date": "2024-08-26"
+    },
+    {
+      "code": "C6846",
+      "action": "merge",
+      "date": "2024-08-26",
+      "replacementCode": "C6846",
+      "replacementName": "Thyroid Gland Hyalinizing Trabecular Tumor"
+    },
+    {
+      "code": "C3688",
+      "action": "merge",
+      "date": "2024-08-26",
+      "replacementCode": "C6846",
+      "replacementName": "Thyroid Gland Hyalinizing Trabecular Tumor"
+    },
+    {
+      "code": "C6846",
+      "action": "modify",
+      "date": "2024-08-26"
+    },
+    {
+      "code": "C6846",
+      "action": "modify",
+      "date": "2024-09-30"
+    }
+  ],
+  "maps": [
+    {
+      "type": "Related To",
+      "targetName": "8190/0",
+      "targetTermType": "PT",
+      "targetCode": "morphology",
+      "targetTerminology": "GDC"
+    },
+    {
+      "type": "Related To",
+      "targetName": "8336/0",
+      "targetTermType": "PT",
+      "targetCode": "morphology",
+      "targetTerminology": "GDC"
+    },
+    {
+      "type": "Related To",
+      "targetName": "Hyalinizing trabecular adenoma",
+      "targetTermType": "PT",
+      "targetCode": "8336/0",
+      "targetTerminology": "ICDO3",
+      "targetTerminologyVersion": "3.1"
+    },
+    {
+      "type": "Related To",
+      "targetName": "Hyalinizing trabecular adenoma",
+      "targetTermType": "PT",
+      "targetCode": "primary_diagnosis",
+      "targetTerminology": "GDC"
+    },
+    {
+      "type": "Related To",
+      "targetName": "Hyalinizing trabecular tumor",
+      "targetTermType": "PT",
+      "targetCode": "8336/1",
+      "targetTerminology": "ICDO3",
+      "targetTerminologyVersion": "3.2"
+    },
+    {
+      "type": "Related To",
+      "targetName": "Trabecular adenoma",
+      "targetTermType": "PT",
+      "targetCode": "8190/0",
+      "targetTerminology": "ICDO3",
+      "targetTerminologyVersion": "3.1"
+    },
+    {
+      "type": "Related To",
+      "targetName": "Trabecular adenoma",
+      "targetTermType": "PT",
+      "targetCode": "8190/0",
+      "targetTerminology": "ICDO3",
+      "targetTerminologyVersion": "3.2"
+    },
+    {
+      "type": "Has Synonym",
+      "targetName": "Trabecular adenoma",
+      "targetTermType": "PT",
+      "targetCode": "primary_diagnosis",
+      "targetTerminology": "GDC"
+    }
+  ]
+}

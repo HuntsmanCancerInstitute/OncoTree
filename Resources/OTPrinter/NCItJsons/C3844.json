@@ -1,0 +1,1005 @@
+{
+  "code": "C3844",
+  "name": "Gallbladder Carcinoma",
+  "terminology": "ncit",
+  "version": "25.11d",
+  "conceptStatus": "DEFAULT",
+  "leaf": false,
+  "active": true,
+  "synonyms": [
+    {
+      "name": "Gallbladder Carcinoma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "Cellosaurus"
+    },
+    {
+      "name": "Gallbladder Cancer",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "CPTAC"
+    },
+    {
+      "name": "Gallbladder Carcinoma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "CPTAC"
+    },
+    {
+      "name": "Gall bladder carcinoma (adeno)",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "CTEP",
+      "code": "10017618",
+      "subSource": "SDC"
+    },
+    {
+      "name": "Gall bladder carcinoma (adenocarcinoma)",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "CTEP",
+      "code": "10017618",
+      "subSource": "SDC"
+    },
+    {
+      "name": "Gallbladder Cancer",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "CTRP"
+    },
+    {
+      "name": "Gallbladder Cancer",
+      "termType": "DN",
+      "type": "FULL_SYN",
+      "source": "CTRP"
+    },
+    {
+      "name": "Gallbladder Carcinoma",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "CTRP"
+    },
+    {
+      "name": "Gallbladder Cancer",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "GDC"
+    },
+    {
+      "name": "gallbladder cancer",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NCI-GLOSS",
+      "code": "CDR0000446566"
+    },
+    {
+      "name": "Cancer of Gallbladder",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Cancer of the Gallbladder",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Carcinoma of Gallbladder",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Carcinoma of the Gallbladder",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Gallbladder Cancer",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Gallbladder Carcinoma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Gallbladder Carcinoma",
+      "type": "Display_Name"
+    },
+    {
+      "name": "Gallbladder Carcinoma",
+      "type": "Preferred_Name"
+    }
+  ],
+  "definitions": [
+    {
+      "definition": "A malignant tumor arising from the epithelium of the gallbladder. It is usually associated with the presence of gallstones. Clinical symptoms are not specific and usually present late in the course. Morphologically, most gallbladder carcinomas are adenocarcinomas; squamous cell carcinomas, adenosquamous carcinomas, signet ring carcinomas, and undifferentiated carcinomas can also occur.",
+      "type": "DEFINITION",
+      "source": "NCI"
+    },
+    {
+      "definition": "Cancer that forms in tissues of the gallbladder. The gallbladder is a pear-shaped organ below the liver that collects and stores bile (a fluid made by the liver to digest fat). Gallbladder cancer begins in the innermost layer of tissue and spreads through the outer layers as it grows.",
+      "type": "ALT_DEFINITION",
+      "source": "NCI-GLOSS"
+    }
+  ],
+  "properties": [
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "Cellosaurus"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "CPTAC"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "CTEP"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "CTRP"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "GDC"
+    },
+    {
+      "code": "P366",
+      "type": "Legacy Concept Name",
+      "value": "Gallbladder_Carcinoma"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "Gallbladder Cancer"
+    },
+    {
+      "code": "P363",
+      "type": "Neoplastic_Status",
+      "value": "Malignant"
+    },
+    {
+      "code": "P106",
+      "type": "Semantic_Type",
+      "value": "Neoplastic Process"
+    },
+    {
+      "code": "P207",
+      "type": "UMLS_CUI",
+      "value": "C0235782"
+    }
+  ],
+  "children": [
+    {
+      "code": "C9166",
+      "name": "Gallbladder Adenocarcinoma",
+      "leaf": false
+    },
+    {
+      "code": "C7356",
+      "name": "Gallbladder Adenosquamous Carcinoma",
+      "leaf": true
+    },
+    {
+      "code": "C90512",
+      "name": "Gallbladder Cancer by AJCC v6 Stage",
+      "leaf": false
+    },
+    {
+      "code": "C91229",
+      "name": "Gallbladder Cancer by AJCC v7 Stage",
+      "leaf": false
+    },
+    {
+      "code": "C134660",
+      "name": "Gallbladder Cancer by AJCC v8 Stage",
+      "leaf": false
+    },
+    {
+      "code": "C96888",
+      "name": "Gallbladder Carcinosarcoma",
+      "leaf": true
+    },
+    {
+      "code": "C96927",
+      "name": "Gallbladder Mixed Adenoneuroendocrine Carcinoma",
+      "leaf": true
+    },
+    {
+      "code": "C96919",
+      "name": "Gallbladder Neuroendocrine Carcinoma",
+      "leaf": false
+    },
+    {
+      "code": "C5838",
+      "name": "Gallbladder Sarcomatoid Carcinoma",
+      "leaf": true
+    },
+    {
+      "code": "C9170",
+      "name": "Gallbladder Squamous Cell Carcinoma",
+      "leaf": true
+    },
+    {
+      "code": "C9167",
+      "name": "Gallbladder Undifferentiated Carcinoma",
+      "leaf": true
+    },
+    {
+      "code": "C175214",
+      "name": "Incidental Gallbladder Carcinoma",
+      "leaf": true
+    },
+    {
+      "code": "C7649",
+      "name": "Localized Gallbladder Carcinoma",
+      "leaf": true
+    },
+    {
+      "code": "C162754",
+      "name": "Metastatic Gallbladder Carcinoma",
+      "leaf": false
+    },
+    {
+      "code": "C4008",
+      "name": "Recurrent Gallbladder Carcinoma",
+      "leaf": true
+    },
+    {
+      "code": "C162753",
+      "name": "Refractory Gallbladder Carcinoma",
+      "leaf": true
+    },
+    {
+      "code": "C212898",
+      "name": "Resectable Gallbladder Carcinoma",
+      "leaf": false
+    },
+    {
+      "code": "C7890",
+      "name": "Unresectable Gallbladder Carcinoma",
+      "leaf": false
+    }
+  ],
+  "parents": [
+    {
+      "code": "C156781",
+      "name": "Biliary Tract Carcinoma"
+    },
+    {
+      "code": "C7481",
+      "name": "Malignant Gallbladder Neoplasm"
+    }
+  ],
+  "associations": [
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C165258",
+      "relatedName": "Cellosaurus Disease Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C138188",
+      "relatedName": "Clinical Trials Search-Application Programming Interface Disease Category Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C158520",
+      "relatedName": "CPTAC Codelists Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C158035",
+      "relatedName": "CPTAC Medical Conditions Codelist"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C156966",
+      "relatedName": "CPTAC Neoplasms Codelist"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C156952",
+      "relatedName": "CPTAC Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C118168",
+      "relatedName": "CTRP Disease Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C116977",
+      "relatedName": "CTRP Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C138190",
+      "relatedName": "CTS-API Disease Main Type Terminology"
+    },
+    {
+      "type": "Is_Value_For_GDC_Property",
+      "relatedCode": "C178243",
+      "relatedName": "Family Cancer History Relative Primary Diagnosis Question"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C157711",
+      "relatedName": "GDC Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C177537",
+      "relatedName": "GDC Value Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C103066",
+      "relatedName": "NCI CTEP SDC Liver and Hepatobiliary Cancer Sub-Category Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C102905",
+      "relatedName": "NCI CTEP Simplified Disease Classification Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C126659",
+      "relatedName": "NCIt Neoplasm Core Terminology"
+    },
+    {
+      "type": "Neoplasm_Has_Special_Category",
+      "relatedCode": "C9292",
+      "relatedName": "Solid Neoplasm"
+    }
+  ],
+  "inverseAssociations": [
+    {
+      "type": "Has_GDC_Value",
+      "relatedCode": "C178243",
+      "relatedName": "Family Cancer History Relative Primary Diagnosis Question"
+    }
+  ],
+  "roles": [
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C36122",
+      "relatedName": "Benign Cellular Infiltrate"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12678",
+      "relatedName": "Biliary Tract"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12678",
+      "relatedName": "Biliary Tract"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C54172",
+      "relatedName": "Carcinomatous Component Present"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12378",
+      "relatedName": "Digestive System"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12378",
+      "relatedName": "Digestive System"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C12578",
+      "relatedName": "Epithelial Cell"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C53596",
+      "relatedName": "Epithelial Component Present"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C45714",
+      "relatedName": "Epithelial Tissue"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C49227",
+      "relatedName": "Gallbladder Epithelium"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12377",
+      "relatedName": "Gallbladder"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12377",
+      "relatedName": "Gallbladder"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C43612",
+      "relatedName": "Hepatobiliary System"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C214985",
+      "relatedName": "Hepatopancreatobiliary System"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C155862",
+      "relatedName": "Intermediate Grade Neuroendocrine Lesion"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C155864",
+      "relatedName": "Low Grade Neuroendocrine Lesion"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12917",
+      "relatedName": "Malignant Cell"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C36115",
+      "relatedName": "Malignant Cellular Infiltrate"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36779",
+      "relatedName": "Malignant Epithelial Cell"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C37153",
+      "relatedName": "Malignant Stromal Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12922",
+      "relatedName": "Neoplastic Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36753",
+      "relatedName": "Neoplastic Epithelial Cell"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C36937",
+      "relatedName": "Neoplastic Smooth Muscle Cell"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C166416",
+      "relatedName": "Pancreatobiliary System"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C155861",
+      "relatedName": "Well Differentiated Neuroendocrine Lesion"
+    }
+  ],
+  "inverseRoles": [
+    {
+      "type": "Gene_Associated_With_Disease",
+      "relatedCode": "C45684",
+      "relatedName": "ABCB1 2 Allele"
+    },
+    {
+      "type": "Gene_Associated_With_Disease",
+      "relatedCode": "C17966",
+      "relatedName": "ABCB1 Gene"
+    },
+    {
+      "type": "Gene_Associated_With_Disease",
+      "relatedCode": "C52273",
+      "relatedName": "ABCB1 wt Allele"
+    },
+    {
+      "type": "Gene_Is_Biomarker_Of",
+      "relatedCode": "C52273",
+      "relatedName": "ABCB1 wt Allele"
+    },
+    {
+      "type": "Disease_May_Have_Associated_Disease",
+      "relatedCode": "C36101",
+      "relatedName": "BRCA2-Related Hereditary Breast and Ovarian Cancer Syndrome"
+    }
+  ],
+  "history": [
+    {
+      "code": "C3844",
+      "action": "create",
+      "date": "2003-08-12"
+    },
+    {
+      "code": "C3844",
+      "action": "modify",
+      "date": "2003-10-31"
+    },
+    {
+      "code": "C3844",
+      "action": "modify",
+      "date": "2003-12-30"
+    },
+    {
+      "code": "C3844",
+      "action": "modify",
+      "date": "2004-03-30"
+    },
+    {
+      "code": "C3844",
+      "action": "modify",
+      "date": "2005-03-16"
+    },
+    {
+      "code": "C3844",
+      "action": "modify",
+      "date": "2006-03-31"
+    },
+    {
+      "code": "C3844",
+      "action": "modify",
+      "date": "2006-05-26"
+    },
+    {
+      "code": "C3844",
+      "action": "modify",
+      "date": "2008-06-27"
+    },
+    {
+      "code": "C3844",
+      "action": "modify",
+      "date": "2009-04-06"
+    },
+    {
+      "code": "C3844",
+      "action": "modify",
+      "date": "2009-11-02"
+    },
+    {
+      "code": "C3844",
+      "action": "modify",
+      "date": "2009-11-23"
+    },
+    {
+      "code": "C3844",
+      "action": "modify",
+      "date": "2009-12-14"
+    },
+    {
+      "code": "C3844",
+      "action": "modify",
+      "date": "2010-11-01"
+    },
+    {
+      "code": "C3844",
+      "action": "modify",
+      "date": "2010-11-08"
+    },
+    {
+      "code": "C3844",
+      "action": "modify",
+      "date": "2010-11-15"
+    },
+    {
+      "code": "C3844",
+      "action": "modify",
+      "date": "2010-11-22"
+    },
+    {
+      "code": "C3844",
+      "action": "modify",
+      "date": "2010-11-29"
+    },
+    {
+      "code": "C3844",
+      "action": "modify",
+      "date": "2010-12-06"
+    },
+    {
+      "code": "C3844",
+      "action": "modify",
+      "date": "2010-12-13"
+    },
+    {
+      "code": "C3844",
+      "action": "modify",
+      "date": "2010-12-27"
+    },
+    {
+      "code": "C3844",
+      "action": "modify",
+      "date": "2011-01-03"
+    },
+    {
+      "code": "C3844",
+      "action": "modify",
+      "date": "2011-01-10"
+    },
+    {
+      "code": "C3844",
+      "action": "modify",
+      "date": "2011-01-17"
+    },
+    {
+      "code": "C3844",
+      "action": "modify",
+      "date": "2011-01-24"
+    },
+    {
+      "code": "C3844",
+      "action": "modify",
+      "date": "2011-01-31"
+    },
+    {
+      "code": "C3844",
+      "action": "modify",
+      "date": "2011-05-23"
+    },
+    {
+      "code": "C3844",
+      "action": "modify",
+      "date": "2011-05-31"
+    },
+    {
+      "code": "C3844",
+      "action": "modify",
+      "date": "2012-09-24"
+    },
+    {
+      "code": "C3844",
+      "action": "modify",
+      "date": "2012-10-01"
+    },
+    {
+      "code": "C3844",
+      "action": "modify",
+      "date": "2012-10-09"
+    },
+    {
+      "code": "C3844",
+      "action": "modify",
+      "date": "2012-10-15"
+    },
+    {
+      "code": "C3844",
+      "action": "modify",
+      "date": "2012-10-22"
+    },
+    {
+      "code": "C3844",
+      "action": "modify",
+      "date": "2012-10-31"
+    },
+    {
+      "code": "C3844",
+      "action": "modify",
+      "date": "2012-11-05"
+    },
+    {
+      "code": "C3844",
+      "action": "modify",
+      "date": "2012-11-13"
+    },
+    {
+      "code": "C3844",
+      "action": "modify",
+      "date": "2012-11-19"
+    },
+    {
+      "code": "C3844",
+      "action": "modify",
+      "date": "2012-11-26"
+    },
+    {
+      "code": "C3844",
+      "action": "modify",
+      "date": "2012-12-03"
+    },
+    {
+      "code": "C3844",
+      "action": "modify",
+      "date": "2012-12-10"
+    },
+    {
+      "code": "C3844",
+      "action": "modify",
+      "date": "2012-12-17"
+    },
+    {
+      "code": "C3844",
+      "action": "modify",
+      "date": "2012-12-28"
+    },
+    {
+      "code": "C3844",
+      "action": "modify",
+      "date": "2013-01-07"
+    },
+    {
+      "code": "C3844",
+      "action": "modify",
+      "date": "2013-01-14"
+    },
+    {
+      "code": "C3844",
+      "action": "modify",
+      "date": "2013-01-23"
+    },
+    {
+      "code": "C3844",
+      "action": "modify",
+      "date": "2013-02-04"
+    },
+    {
+      "code": "C3844",
+      "action": "modify",
+      "date": "2013-02-11"
+    },
+    {
+      "code": "C3844",
+      "action": "modify",
+      "date": "2013-02-19"
+    },
+    {
+      "code": "C3844",
+      "action": "modify",
+      "date": "2013-02-25"
+    },
+    {
+      "code": "C3844",
+      "action": "modify",
+      "date": "2013-03-04"
+    },
+    {
+      "code": "C3844",
+      "action": "modify",
+      "date": "2013-03-11"
+    },
+    {
+      "code": "C3844",
+      "action": "modify",
+      "date": "2013-03-18"
+    },
+    {
+      "code": "C3844",
+      "action": "modify",
+      "date": "2013-03-25"
+    },
+    {
+      "code": "C3844",
+      "action": "modify",
+      "date": "2013-04-01"
+    },
+    {
+      "code": "C3844",
+      "action": "modify",
+      "date": "2013-04-08"
+    },
+    {
+      "code": "C3844",
+      "action": "modify",
+      "date": "2013-04-15"
+    },
+    {
+      "code": "C3844",
+      "action": "modify",
+      "date": "2013-04-22"
+    },
+    {
+      "code": "C3844",
+      "action": "modify",
+      "date": "2013-04-29"
+    },
+    {
+      "code": "C3844",
+      "action": "modify",
+      "date": "2013-05-06"
+    },
+    {
+      "code": "C3844",
+      "action": "modify",
+      "date": "2013-05-13"
+    },
+    {
+      "code": "C3844",
+      "action": "modify",
+      "date": "2013-05-20"
+    },
+    {
+      "code": "C3844",
+      "action": "modify",
+      "date": "2013-05-28"
+    },
+    {
+      "code": "C3844",
+      "action": "modify",
+      "date": "2013-06-03"
+    },
+    {
+      "code": "C3844",
+      "action": "modify",
+      "date": "2013-06-10"
+    },
+    {
+      "code": "C3844",
+      "action": "modify",
+      "date": "2013-06-17"
+    },
+    {
+      "code": "C3844",
+      "action": "modify",
+      "date": "2013-06-24"
+    },
+    {
+      "code": "C3844",
+      "action": "modify",
+      "date": "2013-07-01"
+    },
+    {
+      "code": "C3844",
+      "action": "modify",
+      "date": "2013-07-08"
+    },
+    {
+      "code": "C3844",
+      "action": "modify",
+      "date": "2014-02-03"
+    },
+    {
+      "code": "C3844",
+      "action": "modify",
+      "date": "2014-08-25"
+    },
+    {
+      "code": "C3844",
+      "action": "modify",
+      "date": "2014-09-22"
+    },
+    {
+      "code": "C3844",
+      "action": "modify",
+      "date": "2014-10-27"
+    },
+    {
+      "code": "C3844",
+      "action": "modify",
+      "date": "2016-04-25"
+    },
+    {
+      "code": "C3844",
+      "action": "modify",
+      "date": "2017-07-31"
+    },
+    {
+      "code": "C3844",
+      "action": "modify",
+      "date": "2017-09-26"
+    },
+    {
+      "code": "C3844",
+      "action": "modify",
+      "date": "2018-02-26"
+    },
+    {
+      "code": "C3844",
+      "action": "modify",
+      "date": "2018-07-30"
+    },
+    {
+      "code": "C3844",
+      "action": "modify",
+      "date": "2018-08-27"
+    },
+    {
+      "code": "C3844",
+      "action": "modify",
+      "date": "2018-08-27"
+    },
+    {
+      "code": "C3844",
+      "action": "modify",
+      "date": "2018-09-24"
+    },
+    {
+      "code": "C3844",
+      "action": "modify",
+      "date": "2018-12-31"
+    },
+    {
+      "code": "C3844",
+      "action": "modify",
+      "date": "2019-02-25"
+    },
+    {
+      "code": "C3844",
+      "action": "modify",
+      "date": "2019-03-25"
+    },
+    {
+      "code": "C3844",
+      "action": "modify",
+      "date": "2019-05-28"
+    },
+    {
+      "code": "C3844",
+      "action": "modify",
+      "date": "2019-09-30"
+    },
+    {
+      "code": "C3844",
+      "action": "modify",
+      "date": "2019-10-28"
+    },
+    {
+      "code": "C3844",
+      "action": "modify",
+      "date": "2019-11-25"
+    },
+    {
+      "code": "C3844",
+      "action": "modify",
+      "date": "2020-02-24"
+    },
+    {
+      "code": "C3844",
+      "action": "modify",
+      "date": "2021-02-22"
+    },
+    {
+      "code": "C3844",
+      "action": "modify",
+      "date": "2021-03-29"
+    },
+    {
+      "code": "C3844",
+      "action": "modify",
+      "date": "2021-11-29"
+    },
+    {
+      "code": "C3844",
+      "action": "modify",
+      "date": "2023-02-27"
+    },
+    {
+      "code": "C3844",
+      "action": "modify",
+      "date": "2024-01-29"
+    },
+    {
+      "code": "C3844",
+      "action": "modify",
+      "date": "2025-03-31"
+    }
+  ],
+  "maps": [
+    {
+      "type": "Has Synonym",
+      "targetName": "Gallbladder Cancer",
+      "targetTermType": "PT",
+      "targetCode": "relationship_primary_diagnosis",
+      "targetTerminology": "GDC"
+    }
+  ]
+}

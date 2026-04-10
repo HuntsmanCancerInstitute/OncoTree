@@ -1,0 +1,772 @@
+{
+  "code": "C27838",
+  "name": "Endometrial Serous Adenocarcinoma",
+  "terminology": "ncit",
+  "version": "25.11d",
+  "conceptStatus": "DEFAULT",
+  "leaf": false,
+  "active": true,
+  "synonyms": [
+    {
+      "name": "Endometrial Serous Adenocarcinoma",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "caDSR"
+    },
+    {
+      "name": "Endometrial Serous Adenocarcinoma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "Cellosaurus"
+    },
+    {
+      "name": "Serous endometrial adenocarcinoma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "CTEP",
+      "code": "10033700",
+      "subSource": "SDC"
+    },
+    {
+      "name": "Endometrial Serous Adenocarcinoma",
+      "termType": "DN",
+      "type": "FULL_SYN",
+      "source": "CTRP"
+    },
+    {
+      "name": "Endometrial Serous Adenocarcinoma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Uterine Corpus Serous Adenocarcinoma",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Uterine Papillary Serous Carcinoma",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Uterine Serous Adenocarcinoma",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Uterine Serous Carcinoma",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Uterine Serous Papillary Adenocarcinoma",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Endometrial Serous Adenocarcinoma",
+      "type": "Display_Name"
+    },
+    {
+      "name": "Endometrial Serous Adenocarcinoma",
+      "type": "Preferred_Name"
+    }
+  ],
+  "definitions": [
+    {
+      "definition": "A high-grade, aggressive adenocarcinoma arising from the endometrium. It is characterized by the presence of complex papillary patterns with cellular budding. Atypical mitoses, necrosis, and psammoma bodies may be present. It is classified as type II endometrial carcinoma and it is not associated with endometrial hyperplasia. It tends to invade deeply into the myometrium and spreads into the lymphatic vessels. Patients frequently present with spread of the tumor beyond the uterus at the time of diagnosis. The prognosis is usually poor.",
+      "type": "DEFINITION",
+      "source": "NCI"
+    }
+  ],
+  "properties": [
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "Cellosaurus"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "CTEP"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "CTRP"
+    },
+    {
+      "code": "P366",
+      "type": "Legacy Concept Name",
+      "value": "Uterine_Serous_Carcinoma"
+    },
+    {
+      "code": "P363",
+      "type": "Neoplastic_Status",
+      "value": "Malignant"
+    },
+    {
+      "code": "P106",
+      "type": "Semantic_Type",
+      "value": "Neoplastic Process"
+    },
+    {
+      "code": "P207",
+      "type": "UMLS_CUI",
+      "value": "C0854924"
+    }
+  ],
+  "children": [
+    {
+      "code": "C170804",
+      "name": "Metastatic Endometrial Serous Adenocarcinoma",
+      "leaf": false
+    },
+    {
+      "code": "C187374",
+      "name": "Platinum-Sensitive Endometrial Serous Adenocarcinoma",
+      "leaf": true
+    },
+    {
+      "code": "C132294",
+      "name": "Recurrent Endometrial Serous Adenocarcinoma",
+      "leaf": true
+    },
+    {
+      "code": "C158378",
+      "name": "Refractory Endometrial Serous Adenocarcinoma",
+      "leaf": true
+    }
+  ],
+  "parents": [
+    {
+      "code": "C190680",
+      "name": "High Grade Endometrial Carcinoma"
+    },
+    {
+      "code": "C40101",
+      "name": "Serous Adenocarcinoma"
+    },
+    {
+      "code": "C39749",
+      "name": "Type II Endometrial Adenocarcinoma"
+    }
+  ],
+  "associations": [
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C165258",
+      "relatedName": "Cellosaurus Disease Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C118168",
+      "relatedName": "CTRP Disease Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C116977",
+      "relatedName": "CTRP Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C103103",
+      "relatedName": "NCI CTEP SDC Uterine Cancer Sub-Category Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C102905",
+      "relatedName": "NCI CTEP Simplified Disease Classification Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C126659",
+      "relatedName": "NCIt Neoplasm Core Terminology"
+    }
+  ],
+  "roles": [
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C37117",
+      "relatedName": "Adenocarcinoma Cell with Intracytoplasmic Mucin"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36773",
+      "relatedName": "Adenocarcinoma Cell"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C36104",
+      "relatedName": "Aggressive Clinical Course"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C36122",
+      "relatedName": "Benign Cellular Infiltrate"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C54172",
+      "relatedName": "Carcinomatous Component Present"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12316",
+      "relatedName": "Corpus Uteri"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C32514",
+      "relatedName": "Endometrial Cavity"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C32514",
+      "relatedName": "Endometrial Cavity"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C32515",
+      "relatedName": "Endometrial Glandular Cell"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C12313",
+      "relatedName": "Endometrium"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C12578",
+      "relatedName": "Epithelial Cell"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C53596",
+      "relatedName": "Epithelial Component Present"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C45714",
+      "relatedName": "Epithelial Tissue"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12402",
+      "relatedName": "Female Reproductive System"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12402",
+      "relatedName": "Female Reproductive System"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12810",
+      "relatedName": "Genitourinary System"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12810",
+      "relatedName": "Genitourinary System"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C36129",
+      "relatedName": "High Grade Lesion"
+    },
+    {
+      "type": "Disease_Is_Grade",
+      "relatedCode": "C14158",
+      "relatedName": "High Grade"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12917",
+      "relatedName": "Malignant Cell"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C36115",
+      "relatedName": "Malignant Cellular Infiltrate"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36779",
+      "relatedName": "Malignant Epithelial Cell"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C61539",
+      "relatedName": "Malignant Glandular Epithelium Resembling the Normal Endometrium Present"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C36771",
+      "relatedName": "Malignant Squamous Cell"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C37153",
+      "relatedName": "Malignant Stromal Cell"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C34818",
+      "relatedName": "Metrorrhagia"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C62273",
+      "relatedName": "Mixed Neoplastic Glandular and Squamous Cell Population"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12922",
+      "relatedName": "Neoplastic Cell"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C37116",
+      "relatedName": "Neoplastic Epithelial Cell with Intracytoplasmic Mucin"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36753",
+      "relatedName": "Neoplastic Epithelial Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36763",
+      "relatedName": "Neoplastic Glandular Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C37114",
+      "relatedName": "Neoplastic Serous Epithelial Cell"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C36937",
+      "relatedName": "Neoplastic Smooth Muscle Cell"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C36760",
+      "relatedName": "Neoplastic Squamous Cell"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C35911",
+      "relatedName": "Papillary Growth Pattern"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C34937",
+      "relatedName": "Postmenopausal Hemorrhage"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C27709",
+      "relatedName": "Psammoma Body Formation"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12841",
+      "relatedName": "Reproductive System"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C37115",
+      "relatedName": "Serous Adenocarcinoma Cell"
+    },
+    {
+      "type": "Disease_May_Have_Associated_Disease",
+      "relatedCode": "C40152",
+      "relatedName": "Serous Endometrial Intraepithelial Carcinoma"
+    },
+    {
+      "type": "Disease_May_Have_Molecular_Abnormality",
+      "relatedCode": "C36329",
+      "relatedName": "TP53 Gene Inactivation"
+    },
+    {
+      "type": "Disease_Mapped_To_Gene",
+      "relatedCode": "C17359",
+      "relatedName": "TP53 Gene"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12405",
+      "relatedName": "Uterus"
+    }
+  ],
+  "history": [
+    {
+      "code": "C27838",
+      "action": "create",
+      "date": "2003-08-12"
+    },
+    {
+      "code": "C27838",
+      "action": "modify",
+      "date": "2003-10-31"
+    },
+    {
+      "code": "C27838",
+      "action": "modify",
+      "date": "2003-12-30"
+    },
+    {
+      "code": "C27838",
+      "action": "modify",
+      "date": "2004-03-30"
+    },
+    {
+      "code": "C27838",
+      "action": "modify",
+      "date": "2004-05-28"
+    },
+    {
+      "code": "C27838",
+      "action": "modify",
+      "date": "2004-06-25"
+    },
+    {
+      "code": "C27838",
+      "action": "modify",
+      "date": "2004-08-02"
+    },
+    {
+      "code": "C27838",
+      "action": "modify",
+      "date": "2006-07-28"
+    },
+    {
+      "code": "C27838",
+      "action": "modify",
+      "date": "2007-06-28"
+    },
+    {
+      "code": "C27838",
+      "action": "modify",
+      "date": "2007-10-29"
+    },
+    {
+      "code": "C27838",
+      "action": "modify",
+      "date": "2009-11-23"
+    },
+    {
+      "code": "C27838",
+      "action": "modify",
+      "date": "2010-03-08"
+    },
+    {
+      "code": "C27838",
+      "action": "modify",
+      "date": "2012-06-25"
+    },
+    {
+      "code": "C27838",
+      "action": "modify",
+      "date": "2012-09-24"
+    },
+    {
+      "code": "C27838",
+      "action": "modify",
+      "date": "2012-10-01"
+    },
+    {
+      "code": "C27838",
+      "action": "modify",
+      "date": "2012-10-09"
+    },
+    {
+      "code": "C27838",
+      "action": "modify",
+      "date": "2012-10-15"
+    },
+    {
+      "code": "C27838",
+      "action": "modify",
+      "date": "2012-10-22"
+    },
+    {
+      "code": "C27838",
+      "action": "modify",
+      "date": "2012-10-31"
+    },
+    {
+      "code": "C27838",
+      "action": "modify",
+      "date": "2012-11-05"
+    },
+    {
+      "code": "C27838",
+      "action": "modify",
+      "date": "2012-11-13"
+    },
+    {
+      "code": "C27838",
+      "action": "modify",
+      "date": "2012-11-19"
+    },
+    {
+      "code": "C27838",
+      "action": "modify",
+      "date": "2012-11-26"
+    },
+    {
+      "code": "C27838",
+      "action": "modify",
+      "date": "2012-12-03"
+    },
+    {
+      "code": "C27838",
+      "action": "modify",
+      "date": "2012-12-10"
+    },
+    {
+      "code": "C27838",
+      "action": "modify",
+      "date": "2012-12-17"
+    },
+    {
+      "code": "C27838",
+      "action": "modify",
+      "date": "2012-12-28"
+    },
+    {
+      "code": "C27838",
+      "action": "modify",
+      "date": "2013-01-07"
+    },
+    {
+      "code": "C27838",
+      "action": "modify",
+      "date": "2013-01-14"
+    },
+    {
+      "code": "C27838",
+      "action": "modify",
+      "date": "2013-01-23"
+    },
+    {
+      "code": "C27838",
+      "action": "modify",
+      "date": "2013-02-04"
+    },
+    {
+      "code": "C27838",
+      "action": "modify",
+      "date": "2013-02-11"
+    },
+    {
+      "code": "C27838",
+      "action": "modify",
+      "date": "2013-02-19"
+    },
+    {
+      "code": "C27838",
+      "action": "modify",
+      "date": "2013-02-25"
+    },
+    {
+      "code": "C27838",
+      "action": "modify",
+      "date": "2013-03-04"
+    },
+    {
+      "code": "C27838",
+      "action": "modify",
+      "date": "2013-03-11"
+    },
+    {
+      "code": "C27838",
+      "action": "modify",
+      "date": "2013-03-18"
+    },
+    {
+      "code": "C27838",
+      "action": "modify",
+      "date": "2013-03-25"
+    },
+    {
+      "code": "C27838",
+      "action": "modify",
+      "date": "2013-04-01"
+    },
+    {
+      "code": "C27838",
+      "action": "modify",
+      "date": "2013-04-08"
+    },
+    {
+      "code": "C27838",
+      "action": "modify",
+      "date": "2013-04-15"
+    },
+    {
+      "code": "C27838",
+      "action": "modify",
+      "date": "2013-04-22"
+    },
+    {
+      "code": "C27838",
+      "action": "modify",
+      "date": "2013-04-29"
+    },
+    {
+      "code": "C27838",
+      "action": "modify",
+      "date": "2013-05-06"
+    },
+    {
+      "code": "C27838",
+      "action": "modify",
+      "date": "2013-05-13"
+    },
+    {
+      "code": "C27838",
+      "action": "modify",
+      "date": "2013-05-20"
+    },
+    {
+      "code": "C27838",
+      "action": "modify",
+      "date": "2013-05-28"
+    },
+    {
+      "code": "C27838",
+      "action": "modify",
+      "date": "2013-06-03"
+    },
+    {
+      "code": "C27838",
+      "action": "modify",
+      "date": "2013-06-10"
+    },
+    {
+      "code": "C27838",
+      "action": "modify",
+      "date": "2013-06-17"
+    },
+    {
+      "code": "C27838",
+      "action": "modify",
+      "date": "2013-06-24"
+    },
+    {
+      "code": "C27838",
+      "action": "modify",
+      "date": "2013-07-01"
+    },
+    {
+      "code": "C27838",
+      "action": "modify",
+      "date": "2013-07-08"
+    },
+    {
+      "code": "C27838",
+      "action": "modify",
+      "date": "2014-02-03"
+    },
+    {
+      "code": "C27838",
+      "action": "modify",
+      "date": "2014-08-04"
+    },
+    {
+      "code": "C27838",
+      "action": "modify",
+      "date": "2014-08-18"
+    },
+    {
+      "code": "C27838",
+      "action": "modify",
+      "date": "2014-09-22"
+    },
+    {
+      "code": "C27838",
+      "action": "modify",
+      "date": "2016-04-25"
+    },
+    {
+      "code": "C27838",
+      "action": "modify",
+      "date": "2017-02-27"
+    },
+    {
+      "code": "C27838",
+      "action": "modify",
+      "date": "2018-07-30"
+    },
+    {
+      "code": "C27838",
+      "action": "modify",
+      "date": "2018-08-27"
+    },
+    {
+      "code": "C27838",
+      "action": "modify",
+      "date": "2018-08-27"
+    },
+    {
+      "code": "C27838",
+      "action": "modify",
+      "date": "2018-09-24"
+    },
+    {
+      "code": "C27838",
+      "action": "modify",
+      "date": "2018-10-29"
+    },
+    {
+      "code": "C27838",
+      "action": "modify",
+      "date": "2018-10-29"
+    },
+    {
+      "code": "C27838",
+      "action": "modify",
+      "date": "2019-09-30"
+    },
+    {
+      "code": "C27838",
+      "action": "modify",
+      "date": "2019-10-28"
+    },
+    {
+      "code": "C27838",
+      "action": "modify",
+      "date": "2020-02-24"
+    },
+    {
+      "code": "C27838",
+      "action": "modify",
+      "date": "2020-09-29"
+    },
+    {
+      "code": "C27838",
+      "action": "modify",
+      "date": "2022-10-31"
+    },
+    {
+      "code": "C27838",
+      "action": "modify",
+      "date": "2023-02-27"
+    },
+    {
+      "code": "C27838",
+      "action": "modify",
+      "date": "2025-03-31"
+    }
+  ]
+}

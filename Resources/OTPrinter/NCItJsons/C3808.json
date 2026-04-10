@@ -1,0 +1,656 @@
+{
+  "code": "C3808",
+  "name": "Rhabdoid Tumor",
+  "terminology": "ncit",
+  "version": "25.11d",
+  "conceptStatus": "DEFAULT",
+  "leaf": false,
+  "active": true,
+  "synonyms": [
+    {
+      "name": "Rhabdoid Tumor",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "Cellosaurus"
+    },
+    {
+      "name": "Rhabdoid sarcoma",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "GDC"
+    },
+    {
+      "name": "Rhabdoid tumor, NOS",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "GDC"
+    },
+    {
+      "name": "rhabdoid tumor",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NCI-GLOSS",
+      "code": "CDR0000046139"
+    },
+    {
+      "name": "Rhabdoid Sarcoma",
+      "termType": "AQS",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Rhabdoid Tumor",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Rhabdoid Tumor",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NICHD"
+    },
+    {
+      "name": "Rhabdoid Tumor",
+      "type": "Preferred_Name"
+    }
+  ],
+  "definitions": [
+    {
+      "definition": "A malignant tumor of either the central nervous system (CNS) or the kidney. Malignant rhabdoid tumors of the CNS often have an abnormality of chromosome 22. These tumors usually occur in children younger than 2 years.",
+      "type": "ALT_DEFINITION",
+      "source": "NCI-GLOSS"
+    },
+    {
+      "definition": "An aggressive cancer of the central nervous system, kidney, or liver that occurs in very young children.\"",
+      "type": "ALT_DEFINITION",
+      "source": "NCI-GLOSS"
+    },
+    {
+      "definition": "An aggressive malignant embryonal neoplasm usually occurring during childhood.  It is characterized by the presence of large cells with abundant cytoplasm, large eccentric nucleus, and a prominent nucleolus and it is associated with abnormalities of chromosome 22.  It can arise from the central nervous system, kidney, and the soft tissues.  The prognosis is poor.",
+      "type": "DEFINITION",
+      "source": "NCI"
+    },
+    {
+      "definition": "Extremely aggressive malignancies that generally occur in infants and young children. The most common locations are the kidney and central nervous system (CNS), although they can also arise in most soft tissue sites. Approximately two-thirds of patients will present with advanced-stage disease. Rhabdoid tumors of the kidney tend to metastasize to the CNS and lungs. Rhabdoid tumors are associated with mutations of SMARCB1 (INI-1), a tumor suppressor gene.",
+      "type": "ALT_DEFINITION",
+      "source": "NICHD"
+    }
+  ],
+  "properties": [
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "Cellosaurus"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "GDC"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "NICHD"
+    },
+    {
+      "code": "P334",
+      "type": "ICD-O-3_Code",
+      "value": "8963/3"
+    },
+    {
+      "code": "P366",
+      "type": "Legacy Concept Name",
+      "value": "Rhabdoid_Tumor"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "8963/3"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "Malignant rhabdoid tumor"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "Rhabdoid sarcoma"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "Rhabdoid tumor, NOS"
+    },
+    {
+      "code": "P363",
+      "type": "Neoplastic_Status",
+      "value": "Malignant"
+    },
+    {
+      "code": "P106",
+      "type": "Semantic_Type",
+      "value": "Neoplastic Process"
+    },
+    {
+      "code": "P207",
+      "type": "UMLS_CUI",
+      "value": "C0206743"
+    }
+  ],
+  "children": [
+    {
+      "code": "C6906",
+      "name": "Atypical Teratoid/Rhabdoid Tumor",
+      "leaf": false
+    },
+    {
+      "code": "C6586",
+      "name": "Extrarenal Rhabdoid Tumor",
+      "leaf": false
+    },
+    {
+      "code": "C170828",
+      "name": "Metastatic Rhabdoid Tumor",
+      "leaf": false
+    },
+    {
+      "code": "C142849",
+      "name": "Recurrent Rhabdoid Tumor",
+      "leaf": false
+    },
+    {
+      "code": "C142858",
+      "name": "Refractory Rhabdoid Tumor",
+      "leaf": false
+    },
+    {
+      "code": "C8715",
+      "name": "Rhabdoid Tumor of the Kidney",
+      "leaf": false
+    },
+    {
+      "code": "C170829",
+      "name": "Unresectable Rhabdoid Tumor",
+      "leaf": false
+    }
+  ],
+  "parents": [
+    {
+      "code": "C3264",
+      "name": "Embryonal Neoplasm"
+    }
+  ],
+  "associations": [
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C165258",
+      "relatedName": "Cellosaurus Disease Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C157711",
+      "relatedName": "GDC Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C177537",
+      "relatedName": "GDC Value Terminology"
+    },
+    {
+      "type": "Is_Value_For_GDC_Property",
+      "relatedCode": "C176985",
+      "relatedName": "Histology ICD-O Morphology Code"
+    },
+    {
+      "type": "Is_Value_For_GDC_Property",
+      "relatedCode": "C177621",
+      "relatedName": "ICD-O-3 Morphology Term Diagnosis Question"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168658",
+      "relatedName": "Mapped ICDO3.1 Morphology PT Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168657",
+      "relatedName": "Mapped ICDO3.1 Morphology Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168655",
+      "relatedName": "Mapped ICDO3.1 Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168662",
+      "relatedName": "Mapped ICDO3.2 Morphology PT Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168661",
+      "relatedName": "Mapped ICDO3.2 Morphology Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168656",
+      "relatedName": "Mapped ICDO3.2 Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C126659",
+      "relatedName": "NCIt Neoplasm Core Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C90259",
+      "relatedName": "NICHD Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C132009",
+      "relatedName": "Pediatric Hematology-Oncology Terminology"
+    }
+  ],
+  "inverseAssociations": [
+    {
+      "type": "Has_GDC_Value",
+      "relatedCode": "C176985",
+      "relatedName": "Histology ICD-O Morphology Code"
+    },
+    {
+      "type": "Has_GDC_Value",
+      "relatedCode": "C177621",
+      "relatedName": "ICD-O-3 Morphology Term Diagnosis Question"
+    }
+  ],
+  "roles": [
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C36104",
+      "relatedName": "Aggressive Clinical Course"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C13054",
+      "relatedName": "Embryonic Cell"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C12950",
+      "relatedName": "Embryonic Tissue"
+    },
+    {
+      "type": "Disease_Excludes_Normal_Tissue_Origin",
+      "relatedCode": "C54105",
+      "relatedName": "Germinal Layer"
+    },
+    {
+      "type": "Disease_Is_Grade",
+      "relatedCode": "C28082",
+      "relatedName": "Grade 4"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C35960",
+      "relatedName": "High Mitotic Activity"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C53665",
+      "relatedName": "Intermediate Filaments Present"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C53667",
+      "relatedName": "Intracytoplasmic Eosinophilic Inclusion"
+    },
+    {
+      "type": "Disease_May_Have_Cytogenetic_Abnormality",
+      "relatedCode": "C36491",
+      "relatedName": "Loss of Chromosome 22"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C121966",
+      "relatedName": "Loss of INI 1 Protein Expression"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C53666",
+      "relatedName": "Malignant Cell with Large Nucleus and Abundant Eosinophilic Cytoplasm"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C36184",
+      "relatedName": "Necrotic Change"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12922",
+      "relatedName": "Neoplastic Cell"
+    },
+    {
+      "type": "Disease_May_Have_Abnormal_Cell",
+      "relatedCode": "C47816",
+      "relatedName": "Non-Neoplastic Osteoclast-Like Giant Cell"
+    },
+    {
+      "type": "Disease_May_Have_Molecular_Abnormality",
+      "relatedCode": "C136623",
+      "relatedName": "SMARCB1 Gene Mutation"
+    },
+    {
+      "type": "Disease_Mapped_To_Gene",
+      "relatedCode": "C18394",
+      "relatedName": "SMARCB1 Gene"
+    }
+  ],
+  "inverseRoles": [
+    {
+      "type": "Gene_Involved_In_Pathogenesis_Of_Disease",
+      "relatedCode": "C18394",
+      "relatedName": "SMARCB1 Gene"
+    },
+    {
+      "type": "Gene_Involved_In_Pathogenesis_Of_Disease",
+      "relatedCode": "C52113",
+      "relatedName": "SMARCB1 wt Allele"
+    },
+    {
+      "type": "Gene_Associated_With_Disease",
+      "relatedCode": "C20862",
+      "relatedName": "STIM1 Gene"
+    },
+    {
+      "type": "Gene_Associated_With_Disease",
+      "relatedCode": "C52380",
+      "relatedName": "STIM1 wt Allele"
+    },
+    {
+      "type": "Gene_Product_Malfunction_Associated_With_Disease",
+      "relatedCode": "C21219",
+      "relatedName": "Stromal Interaction Molecule 1"
+    }
+  ],
+  "history": [
+    {
+      "code": "C3808",
+      "action": "create",
+      "date": "2003-08-12"
+    },
+    {
+      "code": "C3808",
+      "action": "modify",
+      "date": "2003-10-31"
+    },
+    {
+      "code": "C3808",
+      "action": "modify",
+      "date": "2003-12-30"
+    },
+    {
+      "code": "C3808",
+      "action": "modify",
+      "date": "2004-03-30"
+    },
+    {
+      "code": "C3808",
+      "action": "modify",
+      "date": "2004-08-02"
+    },
+    {
+      "code": "C3808",
+      "action": "modify",
+      "date": "2006-02-24"
+    },
+    {
+      "code": "C3808",
+      "action": "modify",
+      "date": "2006-03-31"
+    },
+    {
+      "code": "C3808",
+      "action": "modify",
+      "date": "2006-12-29"
+    },
+    {
+      "code": "C3808",
+      "action": "modify",
+      "date": "2007-01-26"
+    },
+    {
+      "code": "C3808",
+      "action": "modify",
+      "date": "2007-03-30"
+    },
+    {
+      "code": "C3808",
+      "action": "modify",
+      "date": "2007-04-30"
+    },
+    {
+      "code": "C3808",
+      "action": "modify",
+      "date": "2007-06-28"
+    },
+    {
+      "code": "C3808",
+      "action": "modify",
+      "date": "2009-11-23"
+    },
+    {
+      "code": "C3808",
+      "action": "modify",
+      "date": "2010-01-11"
+    },
+    {
+      "code": "C3808",
+      "action": "modify",
+      "date": "2011-03-07"
+    },
+    {
+      "code": "C3808",
+      "action": "modify",
+      "date": "2011-12-19"
+    },
+    {
+      "code": "C3808",
+      "action": "modify",
+      "date": "2014-02-03"
+    },
+    {
+      "code": "C3808",
+      "action": "modify",
+      "date": "2016-04-25"
+    },
+    {
+      "code": "C3808",
+      "action": "modify",
+      "date": "2017-02-13"
+    },
+    {
+      "code": "C3808",
+      "action": "modify",
+      "date": "2017-02-21"
+    },
+    {
+      "code": "C3808",
+      "action": "modify",
+      "date": "2017-02-27"
+    },
+    {
+      "code": "C3808",
+      "action": "modify",
+      "date": "2017-03-06"
+    },
+    {
+      "code": "C3808",
+      "action": "modify",
+      "date": "2017-03-13"
+    },
+    {
+      "code": "C3808",
+      "action": "modify",
+      "date": "2017-03-20"
+    },
+    {
+      "code": "C3808",
+      "action": "modify",
+      "date": "2017-03-27"
+    },
+    {
+      "code": "C3808",
+      "action": "modify",
+      "date": "2017-04-03"
+    },
+    {
+      "code": "C3808",
+      "action": "modify",
+      "date": "2017-04-10"
+    },
+    {
+      "code": "C3808",
+      "action": "modify",
+      "date": "2017-04-17"
+    },
+    {
+      "code": "C3808",
+      "action": "modify",
+      "date": "2017-04-24"
+    },
+    {
+      "code": "C3808",
+      "action": "modify",
+      "date": "2017-05-01"
+    },
+    {
+      "code": "C3808",
+      "action": "modify",
+      "date": "2017-05-04"
+    },
+    {
+      "code": "C3808",
+      "action": "modify",
+      "date": "2018-09-24"
+    },
+    {
+      "code": "C3808",
+      "action": "modify",
+      "date": "2019-05-28"
+    },
+    {
+      "code": "C3808",
+      "action": "modify",
+      "date": "2019-09-30"
+    },
+    {
+      "code": "C3808",
+      "action": "modify",
+      "date": "2019-11-25"
+    },
+    {
+      "code": "C3808",
+      "action": "modify",
+      "date": "2020-02-24"
+    },
+    {
+      "code": "C3808",
+      "action": "modify",
+      "date": "2020-03-30"
+    },
+    {
+      "code": "C3808",
+      "action": "modify",
+      "date": "2020-04-27"
+    },
+    {
+      "code": "C3808",
+      "action": "modify",
+      "date": "2020-08-31"
+    },
+    {
+      "code": "C3808",
+      "action": "modify",
+      "date": "2020-09-29"
+    },
+    {
+      "code": "C3808",
+      "action": "modify",
+      "date": "2021-02-22"
+    },
+    {
+      "code": "C3808",
+      "action": "modify",
+      "date": "2021-03-29"
+    },
+    {
+      "code": "C3808",
+      "action": "modify",
+      "date": "2021-04-26"
+    },
+    {
+      "code": "C3808",
+      "action": "modify",
+      "date": "2023-02-27"
+    },
+    {
+      "code": "C3808",
+      "action": "modify",
+      "date": "2023-12-26"
+    },
+    {
+      "code": "C3808",
+      "action": "modify",
+      "date": "2025-03-31"
+    }
+  ],
+  "maps": [
+    {
+      "type": "Related To",
+      "targetName": "8963/3",
+      "targetTermType": "PT",
+      "targetCode": "morphology",
+      "targetTerminology": "GDC"
+    },
+    {
+      "type": "Related To",
+      "targetName": "Malignant rhabdoid tumor",
+      "targetTermType": "PT",
+      "targetCode": "8963/3",
+      "targetTerminology": "ICDO3",
+      "targetTerminologyVersion": "3.1"
+    },
+    {
+      "type": "Related To",
+      "targetName": "Malignant rhabdoid tumor",
+      "targetTermType": "PT",
+      "targetCode": "primary_diagnosis",
+      "targetTerminology": "GDC"
+    },
+    {
+      "type": "Has Synonym",
+      "targetName": "Rhabdoid sarcoma",
+      "targetTermType": "PT",
+      "targetCode": "primary_diagnosis",
+      "targetTerminology": "GDC"
+    },
+    {
+      "type": "Related To",
+      "targetName": "Rhabdoid tumor, NOS",
+      "targetTermType": "PT",
+      "targetCode": "8963/3",
+      "targetTerminology": "ICDO3",
+      "targetTerminologyVersion": "3.2"
+    },
+    {
+      "type": "Has Synonym",
+      "targetName": "Rhabdoid tumor, NOS",
+      "targetTermType": "PT",
+      "targetCode": "primary_diagnosis",
+      "targetTerminology": "GDC"
+    }
+  ]
+}

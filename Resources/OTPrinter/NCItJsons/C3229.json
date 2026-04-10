@@ -1,0 +1,364 @@
+{
+  "code": "C3229",
+  "name": "Meningeal Neoplasm",
+  "terminology": "ncit",
+  "version": "25.11d",
+  "conceptStatus": "DEFAULT",
+  "leaf": false,
+  "active": true,
+  "synonyms": [
+    {
+      "name": "Meningeal Neoplasm",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "CPTAC"
+    },
+    {
+      "name": "Meningeal Neoplasm",
+      "termType": "DN",
+      "type": "FULL_SYN",
+      "source": "CTRP"
+    },
+    {
+      "name": "Neoplasm of uncertain behavior of meninges, unspecified",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "mCode",
+      "code": "D42.9",
+      "subSource": "ICD-10 CM"
+    },
+    {
+      "name": "Meningeal Neoplasm",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Meningeal Neoplasms",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Meningeal Tumor",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Meninges Neoplasm",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Meninges Tumor",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Neoplasm of Meninges",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Neoplasm of the Meninges",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Tumor of Meninges",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Tumor of the Meninges",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Meningeal Neoplasm",
+      "type": "Display_Name"
+    },
+    {
+      "name": "Meningeal Neoplasm",
+      "type": "Preferred_Name"
+    }
+  ],
+  "definitions": [
+    {
+      "definition": "A benign or malignant neoplasm that affects the meninges.  The majority of the neoplasms arise from meningothelial cells and are called meningiomas.  Non-meningothelial cell neoplasms include mesenchymal, non-meningothelial tumors, hemangiopericytomas, and melanocytic lesions.",
+      "type": "DEFINITION",
+      "source": "NCI"
+    }
+  ],
+  "properties": [
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "CPTAC"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "CTRP"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "mCode"
+    },
+    {
+      "code": "P366",
+      "type": "Legacy Concept Name",
+      "value": "Meningeal_Neoplasm"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "Neoplasm of uncertain behavior of meninges"
+    },
+    {
+      "code": "P363",
+      "type": "Neoplastic_Status",
+      "value": "Undetermined"
+    },
+    {
+      "code": "P106",
+      "type": "Semantic_Type",
+      "value": "Neoplastic Process"
+    },
+    {
+      "code": "P207",
+      "type": "UMLS_CUI",
+      "value": "C0025284"
+    }
+  ],
+  "children": [
+    {
+      "code": "C4958",
+      "name": "Leptomeningeal Neoplasm",
+      "leaf": false
+    },
+    {
+      "code": "C4628",
+      "name": "Malignant Meningeal Neoplasm",
+      "leaf": false
+    },
+    {
+      "code": "C4660",
+      "name": "Meningeal Solitary Fibrous Tumor",
+      "leaf": false
+    },
+    {
+      "code": "C3230",
+      "name": "Meningioma",
+      "leaf": false
+    }
+  ],
+  "parents": [
+    {
+      "code": "C9293",
+      "name": "Central Nervous System Neoplasm"
+    }
+  ],
+  "associations": [
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C158520",
+      "relatedName": "CPTAC Codelists Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C156966",
+      "relatedName": "CPTAC Neoplasms Codelist"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C156952",
+      "relatedName": "CPTAC Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C118168",
+      "relatedName": "CTRP Disease Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C116977",
+      "relatedName": "CTRP Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C193209",
+      "relatedName": "mCode Benign Neoplasm of Brain and CNS Disorder Value Set"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C193249",
+      "relatedName": "mCode Cancer Disorder Value Set"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C193248",
+      "relatedName": "mCode Primary Cancer Disorder Value Set"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C193006",
+      "relatedName": "mCode Terminology"
+    }
+  ],
+  "roles": [
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12438",
+      "relatedName": "Central Nervous System"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12348",
+      "relatedName": "Meninges"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12922",
+      "relatedName": "Neoplastic Cell"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12755",
+      "relatedName": "Nervous System"
+    }
+  ],
+  "history": [
+    {
+      "code": "C3229",
+      "action": "create",
+      "date": "2003-08-12"
+    },
+    {
+      "code": "C3229",
+      "action": "modify",
+      "date": "2003-10-31"
+    },
+    {
+      "code": "C3229",
+      "action": "modify",
+      "date": "2003-12-30"
+    },
+    {
+      "code": "C3229",
+      "action": "modify",
+      "date": "2004-03-30"
+    },
+    {
+      "code": "C3229",
+      "action": "modify",
+      "date": "2004-11-01"
+    },
+    {
+      "code": "C3229",
+      "action": "modify",
+      "date": "2004-12-30"
+    },
+    {
+      "code": "C3229",
+      "action": "modify",
+      "date": "2005-09-29"
+    },
+    {
+      "code": "C3229",
+      "action": "modify",
+      "date": "2006-02-24"
+    },
+    {
+      "code": "C3229",
+      "action": "modify",
+      "date": "2006-03-31"
+    },
+    {
+      "code": "C3229",
+      "action": "modify",
+      "date": "2007-12-03"
+    },
+    {
+      "code": "C3229",
+      "action": "modify",
+      "date": "2009-11-23"
+    },
+    {
+      "code": "C3229",
+      "action": "modify",
+      "date": "2010-01-11"
+    },
+    {
+      "code": "C3229",
+      "action": "modify",
+      "date": "2010-10-25"
+    },
+    {
+      "code": "C3229",
+      "action": "modify",
+      "date": "2011-01-24"
+    },
+    {
+      "code": "C3229",
+      "action": "modify",
+      "date": "2018-12-31"
+    },
+    {
+      "code": "C3229",
+      "action": "modify",
+      "date": "2019-02-25"
+    },
+    {
+      "code": "C3229",
+      "action": "modify",
+      "date": "2019-03-25"
+    },
+    {
+      "code": "C3229",
+      "action": "modify",
+      "date": "2019-05-28"
+    },
+    {
+      "code": "C3229",
+      "action": "modify",
+      "date": "2022-08-29"
+    },
+    {
+      "code": "C3229",
+      "action": "merge",
+      "date": "2023-04-24",
+      "replacementCode": "C3229",
+      "replacementName": "Meningeal Neoplasm"
+    },
+    {
+      "code": "C194962",
+      "action": "merge",
+      "date": "2023-04-24",
+      "replacementCode": "C3229",
+      "replacementName": "Meningeal Neoplasm"
+    },
+    {
+      "code": "C3229",
+      "action": "modify",
+      "date": "2023-05-30"
+    }
+  ],
+  "maps": [
+    {
+      "type": "Broader Than",
+      "targetName": "Neoplasm of uncertain behavior of meninges",
+      "targetTermType": "PT",
+      "targetCode": "237.6",
+      "targetTerminology": "ICD9CM 2014"
+    }
+  ]
+}

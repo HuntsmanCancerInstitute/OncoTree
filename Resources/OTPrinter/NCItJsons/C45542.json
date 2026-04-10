@@ -1,0 +1,337 @@
+{
+  "code": "C45542",
+  "name": "Lung Pleomorphic Carcinoma",
+  "terminology": "ncit",
+  "version": "25.11d",
+  "conceptStatus": "DEFAULT",
+  "leaf": true,
+  "active": true,
+  "synonyms": [
+    {
+      "name": "Lung Pleomorphic Carcinoma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "Cellosaurus"
+    },
+    {
+      "name": "Lung Pleomorphic Carcinoma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Lung Pleomorphic Carcinoma",
+      "type": "Preferred_Name"
+    }
+  ],
+  "definitions": [
+    {
+      "definition": "A morphologic variant of sarcomatoid carcinoma characterized by the presence of malignant glandular or squamous cells associated with malignant giant and spindle cells.",
+      "type": "DEFINITION",
+      "source": "NCI"
+    }
+  ],
+  "properties": [
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "Cellosaurus"
+    },
+    {
+      "code": "P366",
+      "type": "Legacy Concept Name",
+      "value": "Lung_Pleomorphic_Carcinoma"
+    },
+    {
+      "code": "P363",
+      "type": "Neoplastic_Status",
+      "value": "Malignant"
+    },
+    {
+      "code": "P106",
+      "type": "Semantic_Type",
+      "value": "Neoplastic Process"
+    },
+    {
+      "code": "P207",
+      "type": "UMLS_CUI",
+      "value": "C1711397"
+    }
+  ],
+  "parents": [
+    {
+      "code": "C45540",
+      "name": "Lung Sarcomatoid Carcinoma"
+    },
+    {
+      "code": "C4094",
+      "name": "Pleomorphic Carcinoma"
+    }
+  ],
+  "associations": [
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C165258",
+      "relatedName": "Cellosaurus Disease Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C126659",
+      "relatedName": "NCIt Neoplasm Core Terminology"
+    }
+  ],
+  "roles": [
+    {
+      "type": "Disease_May_Have_Abnormal_Cell",
+      "relatedCode": "C36773",
+      "relatedName": "Adenocarcinoma Cell"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C36104",
+      "relatedName": "Aggressive Clinical Course"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C36113",
+      "relatedName": "Anaplastic Lesion"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C36122",
+      "relatedName": "Benign Cellular Infiltrate"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C54172",
+      "relatedName": "Carcinomatous Component Present"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C37935",
+      "relatedName": "Cough"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C2998",
+      "relatedName": "Dyspnea"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C12578",
+      "relatedName": "Epithelial Cell"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C53596",
+      "relatedName": "Epithelial Component Present"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C45714",
+      "relatedName": "Epithelial Tissue"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C3038",
+      "relatedName": "Fever"
+    },
+    {
+      "type": "Disease_May_Have_Cytogenetic_Abnormality",
+      "relatedCode": "C39914",
+      "relatedName": "Gain of Chromosome 12p"
+    },
+    {
+      "type": "Disease_May_Have_Cytogenetic_Abnormality",
+      "relatedCode": "C45807",
+      "relatedName": "Gain of Chromosome 13q"
+    },
+    {
+      "type": "Disease_May_Have_Cytogenetic_Abnormality",
+      "relatedCode": "C36484",
+      "relatedName": "Gain of Chromosome 17q"
+    },
+    {
+      "type": "Disease_May_Have_Cytogenetic_Abnormality",
+      "relatedCode": "C36545",
+      "relatedName": "Gain of Chromosome 5q"
+    },
+    {
+      "type": "Disease_May_Have_Cytogenetic_Abnormality",
+      "relatedCode": "C36483",
+      "relatedName": "Gain of Chromosome 9q"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C3094",
+      "relatedName": "Hemoptysis"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12468",
+      "relatedName": "Lung"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12468",
+      "relatedName": "Lung"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12917",
+      "relatedName": "Malignant Cell"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C36115",
+      "relatedName": "Malignant Cellular Infiltrate"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36779",
+      "relatedName": "Malignant Epithelial Cell"
+    },
+    {
+      "type": "Disease_May_Have_Abnormal_Cell",
+      "relatedCode": "C36824",
+      "relatedName": "Malignant Epithelial Giant Cell"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C36795",
+      "relatedName": "Malignant Epithelial Small Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C37109",
+      "relatedName": "Malignant Epithelial Spindle Cell"
+    },
+    {
+      "type": "Disease_May_Have_Abnormal_Cell",
+      "relatedCode": "C36771",
+      "relatedName": "Malignant Squamous Cell"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C37153",
+      "relatedName": "Malignant Stromal Cell"
+    },
+    {
+      "type": "Disease_Excludes_Primary_Anatomic_Site",
+      "relatedCode": "C13063",
+      "relatedName": "Neck"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12922",
+      "relatedName": "Neoplastic Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36753",
+      "relatedName": "Neoplastic Epithelial Cell"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C36937",
+      "relatedName": "Neoplastic Smooth Muscle Cell"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C38721",
+      "relatedName": "Nuclear Pleomorphism"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C42624",
+      "relatedName": "Premalignant Lesion"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12779",
+      "relatedName": "Respiratory System"
+    },
+    {
+      "type": "Disease_Excludes_Primary_Anatomic_Site",
+      "relatedCode": "C12470",
+      "relatedName": "Skin"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12905",
+      "relatedName": "Thoracic Cavity"
+    },
+    {
+      "type": "Disease_May_Have_Molecular_Abnormality",
+      "relatedCode": "C36329",
+      "relatedName": "TP53 Gene Inactivation"
+    },
+    {
+      "type": "Disease_May_Have_Molecular_Abnormality",
+      "relatedCode": "C118396",
+      "relatedName": "TP53 Gene Mutation"
+    },
+    {
+      "type": "Disease_Mapped_To_Gene",
+      "relatedCode": "C17359",
+      "relatedName": "TP53 Gene"
+    }
+  ],
+  "history": [
+    {
+      "code": "C45542",
+      "action": "create",
+      "date": "2005-04-29"
+    },
+    {
+      "code": "C45542",
+      "action": "modify",
+      "date": "2005-06-24"
+    },
+    {
+      "code": "C45542",
+      "action": "modify",
+      "date": "2006-04-28"
+    },
+    {
+      "code": "C45542",
+      "action": "modify",
+      "date": "2006-09-01"
+    },
+    {
+      "code": "C45542",
+      "action": "modify",
+      "date": "2009-11-23"
+    },
+    {
+      "code": "C45542",
+      "action": "modify",
+      "date": "2014-03-10"
+    },
+    {
+      "code": "C45542",
+      "action": "modify",
+      "date": "2016-04-25"
+    },
+    {
+      "code": "C45542",
+      "action": "modify",
+      "date": "2017-12-26"
+    },
+    {
+      "code": "C45542",
+      "action": "modify",
+      "date": "2019-10-28"
+    },
+    {
+      "code": "C45542",
+      "action": "modify",
+      "date": "2023-02-27"
+    },
+    {
+      "code": "C45542",
+      "action": "modify",
+      "date": "2025-03-31"
+    }
+  ]
+}

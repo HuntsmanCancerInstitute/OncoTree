@@ -1,0 +1,304 @@
+{
+  "code": "C39990",
+  "name": "Ovarian Polyembryoma",
+  "terminology": "ncit",
+  "version": "25.11d",
+  "conceptStatus": "DEFAULT",
+  "leaf": false,
+  "active": true,
+  "synonyms": [
+    {
+      "name": "Ovarian Polyembryoma",
+      "termType": "DN",
+      "type": "FULL_SYN",
+      "source": "CTRP"
+    },
+    {
+      "name": "Ovarian Polyembryoma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Polyembryoma of the Ovary",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Ovarian Polyembryoma",
+      "type": "Display_Name"
+    },
+    {
+      "name": "Ovarian Polyembryoma",
+      "type": "Preferred_Name"
+    }
+  ],
+  "definitions": [
+    {
+      "definition": "A rare, malignant germ cell tumor arising from the ovary.  It is characterized by the presence of embryoid bodies which resemble early embryos.",
+      "type": "DEFINITION",
+      "source": "NCI"
+    }
+  ],
+  "properties": [
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "CTRP"
+    },
+    {
+      "code": "P366",
+      "type": "Legacy Concept Name",
+      "value": "Polyembryoma_of_the_Ovary"
+    },
+    {
+      "code": "P363",
+      "type": "Neoplastic_Status",
+      "value": "Malignant"
+    },
+    {
+      "code": "P106",
+      "type": "Semantic_Type",
+      "value": "Neoplastic Process"
+    },
+    {
+      "code": "P207",
+      "type": "UMLS_CUI",
+      "value": "C1514199"
+    }
+  ],
+  "children": [
+    {
+      "code": "C8739",
+      "name": "Stage I Ovarian Polyembryoma AJCC v6 and v7",
+      "leaf": true
+    },
+    {
+      "code": "C8740",
+      "name": "Stage II Ovarian Polyembryoma AJCC v6 and v7",
+      "leaf": true
+    },
+    {
+      "code": "C8741",
+      "name": "Stage III Ovarian Polyembryoma AJCC v6 and v7",
+      "leaf": true
+    },
+    {
+      "code": "C8742",
+      "name": "Stage IV Ovarian Polyembryoma AJCC v6 and v7",
+      "leaf": true
+    }
+  ],
+  "parents": [
+    {
+      "code": "C66776",
+      "name": "Gonadal Polyembryoma"
+    },
+    {
+      "code": "C102870",
+      "name": "Ovarian Non-Dysgerminomatous Germ Cell Tumor"
+    }
+  ],
+  "associations": [
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C118168",
+      "relatedName": "CTRP Disease Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C116977",
+      "relatedName": "CTRP Terminology"
+    }
+  ],
+  "roles": [
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C34333",
+      "relatedName": "Abdominal Mass"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C26682",
+      "relatedName": "Abdominal Pain"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C137974",
+      "relatedName": "Adnexa"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C36122",
+      "relatedName": "Benign Cellular Infiltrate"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C61415",
+      "relatedName": "Embryoid Bodies Present"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12402",
+      "relatedName": "Female Reproductive System"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12810",
+      "relatedName": "Genitourinary System"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C12597",
+      "relatedName": "Germ Cell"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C54105",
+      "relatedName": "Germinal Layer"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12725",
+      "relatedName": "Gonad"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12917",
+      "relatedName": "Malignant Cell"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C36115",
+      "relatedName": "Malignant Cellular Infiltrate"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C123865",
+      "relatedName": "Malignant Germinomatous Cells Present"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C156460",
+      "relatedName": "Malignant Primitive Cellular Infiltrate"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12922",
+      "relatedName": "Neoplastic Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36903",
+      "relatedName": "Neoplastic Germ Cell"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C36898",
+      "relatedName": "Neoplastic Sex Cord-Stromal Cell"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12404",
+      "relatedName": "Ovary"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12404",
+      "relatedName": "Ovary"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12841",
+      "relatedName": "Reproductive System"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12321",
+      "relatedName": "Uterine Adnexa"
+    }
+  ],
+  "history": [
+    {
+      "code": "C39990",
+      "action": "create",
+      "date": "2004-08-02"
+    },
+    {
+      "code": "C39990",
+      "action": "modify",
+      "date": "2006-07-28"
+    },
+    {
+      "code": "C39990",
+      "action": "modify",
+      "date": "2007-03-30"
+    },
+    {
+      "code": "C39990",
+      "action": "modify",
+      "date": "2007-10-29"
+    },
+    {
+      "code": "C39990",
+      "action": "modify",
+      "date": "2009-04-06"
+    },
+    {
+      "code": "C39990",
+      "action": "modify",
+      "date": "2009-11-23"
+    },
+    {
+      "code": "C39990",
+      "action": "modify",
+      "date": "2012-09-04"
+    },
+    {
+      "code": "C39990",
+      "action": "modify",
+      "date": "2014-02-03"
+    },
+    {
+      "code": "C39990",
+      "action": "modify",
+      "date": "2014-08-04"
+    },
+    {
+      "code": "C39990",
+      "action": "modify",
+      "date": "2014-08-18"
+    },
+    {
+      "code": "C39990",
+      "action": "modify",
+      "date": "2014-09-22"
+    },
+    {
+      "code": "C39990",
+      "action": "modify",
+      "date": "2015-04-20"
+    },
+    {
+      "code": "C39990",
+      "action": "modify",
+      "date": "2017-07-31"
+    },
+    {
+      "code": "C39990",
+      "action": "modify",
+      "date": "2018-07-30"
+    },
+    {
+      "code": "C39990",
+      "action": "modify",
+      "date": "2018-08-27"
+    },
+    {
+      "code": "C39990",
+      "action": "modify",
+      "date": "2018-08-27"
+    }
+  ]
+}

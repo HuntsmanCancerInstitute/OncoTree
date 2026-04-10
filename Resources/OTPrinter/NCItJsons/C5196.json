@@ -1,0 +1,280 @@
+{
+  "code": "C5196",
+  "name": "Benign Breast Phyllodes Tumor",
+  "terminology": "ncit",
+  "version": "25.11d",
+  "conceptStatus": "DEFAULT",
+  "leaf": true,
+  "active": true,
+  "synonyms": [
+    {
+      "name": "Benign Breast Phyllodes Tumor",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Benign Phyllodes Neoplasm of Breast",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Benign Phyllodes Neoplasm of the Breast",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Benign Phyllodes Tumor of Breast",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Benign Phyllodes Tumor of the Breast",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Breast Benign Phyllodes Neoplasm",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Benign Breast Phyllodes Tumor",
+      "type": "Preferred_Name"
+    }
+  ],
+  "definitions": [
+    {
+      "definition": "A usually unilateral, benign and well circumscribed biphasic neoplasm that arises from the breast.  It usually affects middle-aged women.  It is characterized by the presence of a double layer of epithelial cells that are arranged in clefts, surrounded by a cellular, monomorphic spindle cell mesenchymal component.  Mitoses are rare.  Necrotic changes may be present in large tumors.",
+      "type": "DEFINITION",
+      "source": "NCI"
+    }
+  ],
+  "properties": [
+    {
+      "code": "P366",
+      "type": "Legacy Concept Name",
+      "value": "Benign_Phyllodes_Tumor_of_the_Breast"
+    },
+    {
+      "code": "P363",
+      "type": "Neoplastic_Status",
+      "value": "Benign"
+    },
+    {
+      "code": "P106",
+      "type": "Semantic_Type",
+      "value": "Neoplastic Process"
+    },
+    {
+      "code": "P207",
+      "type": "UMLS_CUI",
+      "value": "C1332533"
+    }
+  ],
+  "parents": [
+    {
+      "code": "C4505",
+      "name": "Benign Breast Neoplasm"
+    },
+    {
+      "code": "C4274",
+      "name": "Benign Phyllodes Tumor"
+    },
+    {
+      "code": "C7575",
+      "name": "Breast Phyllodes Tumor"
+    }
+  ],
+  "associations": [
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C126659",
+      "relatedName": "NCIt Neoplasm Core Terminology"
+    }
+  ],
+  "roles": [
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C36122",
+      "relatedName": "Benign Cellular Infiltrate"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C35907",
+      "relatedName": "Biphasic Pattern"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12971",
+      "relatedName": "Breast"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12971",
+      "relatedName": "Breast"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C12508",
+      "relatedName": "Cell"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C53596",
+      "relatedName": "Epithelial Component Present"
+    },
+    {
+      "type": "Disease_Excludes_Primary_Anatomic_Site",
+      "relatedCode": "C41165",
+      "relatedName": "Hematopoietic and Lymphatic System"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C54728",
+      "relatedName": "Intracanalicular Growth Pattern"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C12917",
+      "relatedName": "Malignant Cell"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C36115",
+      "relatedName": "Malignant Cellular Infiltrate"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C61539",
+      "relatedName": "Malignant Glandular Epithelium Resembling the Normal Endometrium Present"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C37153",
+      "relatedName": "Malignant Stromal Cell"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C12370",
+      "relatedName": "Mammary Gland Tissue"
+    },
+    {
+      "type": "Disease_May_Have_Molecular_Abnormality",
+      "relatedCode": "C150689",
+      "relatedName": "MED12 Gene Mutation"
+    },
+    {
+      "type": "Disease_Mapped_To_Gene",
+      "relatedCode": "C98210",
+      "relatedName": "MED12 Gene"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C54167",
+      "relatedName": "Mesenchymal Component Present"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C41610",
+      "relatedName": "Mixed Cellular Population"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12922",
+      "relatedName": "Neoplastic Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C37150",
+      "relatedName": "Neoplastic Stromal Cell"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C53991",
+      "relatedName": "Pushing Tumor Margin"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C12571",
+      "relatedName": "Stromal Cell"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C12801",
+      "relatedName": "Tissue"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C41457",
+      "relatedName": "Well-Circumscribed Lesion"
+    }
+  ],
+  "history": [
+    {
+      "code": "C5196",
+      "action": "create",
+      "date": "2003-08-12"
+    },
+    {
+      "code": "C5196",
+      "action": "modify",
+      "date": "2003-10-31"
+    },
+    {
+      "code": "C5196",
+      "action": "modify",
+      "date": "2003-12-05"
+    },
+    {
+      "code": "C5196",
+      "action": "modify",
+      "date": "2003-12-30"
+    },
+    {
+      "code": "C5196",
+      "action": "modify",
+      "date": "2004-03-30"
+    },
+    {
+      "code": "C5196",
+      "action": "modify",
+      "date": "2004-09-10"
+    },
+    {
+      "code": "C5196",
+      "action": "modify",
+      "date": "2006-06-30"
+    },
+    {
+      "code": "C5196",
+      "action": "modify",
+      "date": "2009-10-27"
+    },
+    {
+      "code": "C5196",
+      "action": "modify",
+      "date": "2009-11-23"
+    },
+    {
+      "code": "C5196",
+      "action": "modify",
+      "date": "2011-09-12"
+    },
+    {
+      "code": "C5196",
+      "action": "modify",
+      "date": "2014-02-03"
+    },
+    {
+      "code": "C5196",
+      "action": "modify",
+      "date": "2016-04-25"
+    }
+  ]
+}

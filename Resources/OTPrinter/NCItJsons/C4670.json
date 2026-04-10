@@ -1,0 +1,262 @@
+{
+  "code": "C4670",
+  "name": "Breast Sarcoma",
+  "terminology": "ncit",
+  "version": "25.11d",
+  "conceptStatus": "DEFAULT",
+  "leaf": false,
+  "active": true,
+  "synonyms": [
+    {
+      "name": "Breast Sarcoma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Sarcoma of Breast",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Sarcoma of the Breast",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Breast Sarcoma",
+      "type": "Preferred_Name"
+    }
+  ],
+  "definitions": [
+    {
+      "definition": "A malignant mesenchymal neoplasm that arises from the breast.  Representative examples include angiosarcoma, liposarcoma, leiomyosarcoma, rhabdomyosarcoma, and extraskeletal osteosarcoma.",
+      "type": "DEFINITION",
+      "source": "NCI"
+    }
+  ],
+  "properties": [
+    {
+      "code": "P366",
+      "type": "Legacy Concept Name",
+      "value": "Breast_Sarcoma"
+    },
+    {
+      "code": "P363",
+      "type": "Neoplastic_Status",
+      "value": "Malignant"
+    },
+    {
+      "code": "P106",
+      "type": "Semantic_Type",
+      "value": "Neoplastic Process"
+    },
+    {
+      "code": "P207",
+      "type": "UMLS_CUI",
+      "value": "C0349667"
+    }
+  ],
+  "children": [
+    {
+      "code": "C5184",
+      "name": "Breast Angiosarcoma",
+      "leaf": false
+    },
+    {
+      "code": "C5189",
+      "name": "Breast Extraskeletal Osteosarcoma",
+      "leaf": true
+    },
+    {
+      "code": "C5185",
+      "name": "Breast Fibrosarcoma",
+      "leaf": true
+    },
+    {
+      "code": "C5186",
+      "name": "Breast Leiomyosarcoma",
+      "leaf": true
+    },
+    {
+      "code": "C5187",
+      "name": "Breast Liposarcoma",
+      "leaf": true
+    },
+    {
+      "code": "C5190",
+      "name": "Breast Rhabdomyosarcoma",
+      "leaf": true
+    },
+    {
+      "code": "C170727",
+      "name": "Recurrent Breast Sarcoma",
+      "leaf": false
+    }
+  ],
+  "parents": [
+    {
+      "code": "C40406",
+      "name": "Breast Soft Tissue Neoplasm"
+    },
+    {
+      "code": "C9335",
+      "name": "Malignant Breast Neoplasm"
+    },
+    {
+      "code": "C9306",
+      "name": "Soft Tissue Sarcoma"
+    }
+  ],
+  "roles": [
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C36122",
+      "relatedName": "Benign Cellular Infiltrate"
+    },
+    {
+      "type": "Disease_Excludes_Primary_Anatomic_Site",
+      "relatedCode": "C12366",
+      "relatedName": "Bone"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12971",
+      "relatedName": "Breast"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12971",
+      "relatedName": "Breast"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12964",
+      "relatedName": "Connective and Soft Tissue"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12964",
+      "relatedName": "Connective and Soft Tissue"
+    },
+    {
+      "type": "Disease_Excludes_Normal_Cell_Origin",
+      "relatedCode": "C12578",
+      "relatedName": "Epithelial Cell"
+    },
+    {
+      "type": "Disease_Excludes_Normal_Tissue_Origin",
+      "relatedCode": "C45714",
+      "relatedName": "Epithelial Tissue"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C36105",
+      "relatedName": "Indolent Clinical Course"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C53665",
+      "relatedName": "Intermediate Filaments Present"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C53667",
+      "relatedName": "Intracytoplasmic Eosinophilic Inclusion"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12917",
+      "relatedName": "Malignant Cell"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C36115",
+      "relatedName": "Malignant Cellular Infiltrate"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C36779",
+      "relatedName": "Malignant Epithelial Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12922",
+      "relatedName": "Neoplastic Cell"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12471",
+      "relatedName": "Soft Tissue"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12471",
+      "relatedName": "Soft Tissue"
+    }
+  ],
+  "history": [
+    {
+      "code": "C4670",
+      "action": "create",
+      "date": "2003-08-12"
+    },
+    {
+      "code": "C4670",
+      "action": "modify",
+      "date": "2003-10-31"
+    },
+    {
+      "code": "C4670",
+      "action": "modify",
+      "date": "2003-12-30"
+    },
+    {
+      "code": "C4670",
+      "action": "modify",
+      "date": "2004-03-30"
+    },
+    {
+      "code": "C4670",
+      "action": "modify",
+      "date": "2004-09-10"
+    },
+    {
+      "code": "C4670",
+      "action": "modify",
+      "date": "2006-02-24"
+    },
+    {
+      "code": "C4670",
+      "action": "modify",
+      "date": "2009-04-06"
+    },
+    {
+      "code": "C4670",
+      "action": "modify",
+      "date": "2009-11-23"
+    },
+    {
+      "code": "C4670",
+      "action": "modify",
+      "date": "2010-01-11"
+    },
+    {
+      "code": "C4670",
+      "action": "modify",
+      "date": "2011-09-12"
+    },
+    {
+      "code": "C4670",
+      "action": "modify",
+      "date": "2015-04-27"
+    },
+    {
+      "code": "C4670",
+      "action": "modify",
+      "date": "2016-06-27"
+    }
+  ]
+}

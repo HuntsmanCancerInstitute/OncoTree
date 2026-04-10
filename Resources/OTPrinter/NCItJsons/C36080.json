@@ -1,0 +1,439 @@
+{
+  "code": "C36080",
+  "name": "Diffuse Large B-Cell Lymphoma Germinal Center B-Cell Type",
+  "terminology": "ncit",
+  "version": "25.11d",
+  "conceptStatus": "DEFAULT",
+  "leaf": false,
+  "active": true,
+  "synonyms": [
+    {
+      "name": "Diffuse Large B-Cell Lymphoma Germinal Center B-Cell Type",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "Cellosaurus"
+    },
+    {
+      "name": "Diffuse Large B-Cell Lymphoma Germinal Center B-Cell Type",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Diffuse Large B-Cell Lymphoma with a Germinal Center B-Cell Expression Profile",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "DLBCL Germinal Center B-Cell Type",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "GCB-DLBCL",
+      "termType": "AB",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Germinal Center B-Cell-Like Diffuse Large B-Cell Lymphoma",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Diffuse Large B-Cell Lymphoma Germinal Center B-Cell Type",
+      "type": "Preferred_Name"
+    }
+  ],
+  "definitions": [
+    {
+      "definition": "A biologic subset of diffuse large B-cell lymphomas with a unique molecular signature or expression profile.  It represents approximately 50% of diffuse large B-cell lymphomas, and is characterized by the expression of CD10, BCL-6, A-myb, and LMO2 genes, BCL-2 translocation, and c-REL amplification.  Morphologically, the vast majority of these lymphomas are centroblastic and a small minority are immunoblastic (ratio20:1).  Patients with this type of diffuse large B-cell lymphoma have a more favorable outcome, with a 5-year survival rate of 60% and a median survival of 10 years.",
+      "type": "DEFINITION",
+      "source": "NCI"
+    }
+  ],
+  "properties": [
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "Cellosaurus"
+    },
+    {
+      "code": "P366",
+      "type": "Legacy Concept Name",
+      "value": "Diffuse_Large_B-Cell_Lymphoma_with_a_Germinal_Center_B-Cell_Expression_Profile"
+    },
+    {
+      "code": "P363",
+      "type": "Neoplastic_Status",
+      "value": "Malignant"
+    },
+    {
+      "code": "P106",
+      "type": "Semantic_Type",
+      "value": "Neoplastic Process"
+    },
+    {
+      "code": "P207",
+      "type": "UMLS_CUI",
+      "value": "C1333295"
+    }
+  ],
+  "children": [
+    {
+      "code": "C160230",
+      "name": "Recurrent Diffuse Large B-Cell Lymphoma Germinal Center B-Cell Type",
+      "leaf": true
+    },
+    {
+      "code": "C160238",
+      "name": "Refractory Diffuse Large B-Cell Lymphoma Germinal Center B-Cell Type",
+      "leaf": true
+    }
+  ],
+  "parents": [
+    {
+      "code": "C45219",
+      "name": "Diffuse Large B-Cell Lymphoma, Not Otherwise Specified by Gene Expression Profile"
+    }
+  ],
+  "associations": [
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C165258",
+      "relatedName": "Cellosaurus Disease Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C126659",
+      "relatedName": "NCIt Neoplasm Core Terminology"
+    }
+  ],
+  "roles": [
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36725",
+      "relatedName": "Abnormal Lymphocyte"
+    },
+    {
+      "type": "Disease_Excludes_Molecular_Abnormality",
+      "relatedCode": "C38656",
+      "relatedName": "ALK Kinase Overexpression"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C12474",
+      "relatedName": "B-Lymphocyte"
+    },
+    {
+      "type": "Disease_Has_Molecular_Abnormality",
+      "relatedCode": "C38176",
+      "relatedName": "BCL2 Gene Translocation"
+    },
+    {
+      "type": "Disease_Has_Molecular_Abnormality",
+      "relatedCode": "C38168",
+      "relatedName": "BCL6 mRNA Overexpression"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C36122",
+      "relatedName": "Benign Cellular Infiltrate"
+    },
+    {
+      "type": "Disease_May_Have_Associated_Disease",
+      "relatedCode": "C4074",
+      "relatedName": "Centroblastic Lymphoma"
+    },
+    {
+      "type": "Disease_Has_Molecular_Abnormality",
+      "relatedCode": "C36443",
+      "relatedName": "Clonal Immunoglobulin Gene Rearrangement"
+    },
+    {
+      "type": "Disease_May_Have_Molecular_Abnormality",
+      "relatedCode": "C36444",
+      "relatedName": "Clonal Immunoglobulin Heavy Chain Gene Rearrangement"
+    },
+    {
+      "type": "Disease_Has_Molecular_Abnormality",
+      "relatedCode": "C36451",
+      "relatedName": "Clonal Immunoglobulin Kappa Light Chain Gene Rearrangement"
+    },
+    {
+      "type": "Disease_May_Have_Molecular_Abnormality",
+      "relatedCode": "C36452",
+      "relatedName": "Clonal Immunoglobulin Lambda Light Chain Gene Rearrangement"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C35903",
+      "relatedName": "Diffuse Pattern"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C36156",
+      "relatedName": "Favorable Clinical Outcome"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C38335",
+      "relatedName": "Germinal Center B-Lymphocyte"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C41165",
+      "relatedName": "Hematopoietic and Lymphatic System"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C41165",
+      "relatedName": "Hematopoietic and Lymphatic System"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C32725",
+      "relatedName": "Hematopoietic and Lymphoid Cell"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C41168",
+      "relatedName": "Hematopoietic and Lymphoid Tissue"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C3106",
+      "relatedName": "Histiocytosis"
+    },
+    {
+      "type": "Disease_May_Have_Associated_Disease",
+      "relatedCode": "C3461",
+      "relatedName": "Immunoblastic Lymphoma"
+    },
+    {
+      "type": "Disease_Has_Molecular_Abnormality",
+      "relatedCode": "C38170",
+      "relatedName": "LMO2 mRNA Overexpression"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C50764",
+      "relatedName": "Lymphadenopathy"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12746",
+      "relatedName": "Lymphatic System"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C37027",
+      "relatedName": "Lymphocyte Predominant Cell"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C12535",
+      "relatedName": "Lymphocyte"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C13049",
+      "relatedName": "Lymphoid Tissue"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12917",
+      "relatedName": "Malignant Cell"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C36115",
+      "relatedName": "Malignant Cellular Infiltrate"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C33058",
+      "relatedName": "Mature B-Lymphocyte"
+    },
+    {
+      "type": "Disease_Has_Molecular_Abnormality",
+      "relatedCode": "C38167",
+      "relatedName": "MME mRNA Overexpression"
+    },
+    {
+      "type": "Disease_Has_Molecular_Abnormality",
+      "relatedCode": "C38169",
+      "relatedName": "MYBL1 mRNA Overexpression"
+    },
+    {
+      "type": "Disease_Excludes_Normal_Cell_Origin",
+      "relatedCode": "C12549",
+      "relatedName": "Myeloid Cell"
+    },
+    {
+      "type": "Disease_May_Have_Abnormal_Cell",
+      "relatedCode": "C37010",
+      "relatedName": "Neoplastic B-Immunoblast"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C38640",
+      "relatedName": "Neoplastic B-Lymphocyte"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12922",
+      "relatedName": "Neoplastic Cell"
+    },
+    {
+      "type": "Disease_May_Have_Abnormal_Cell",
+      "relatedCode": "C37014",
+      "relatedName": "Neoplastic Centroblast"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C37060",
+      "relatedName": "Neoplastic Hematopoietic and Lymphoid Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C37013",
+      "relatedName": "Neoplastic Large B-Lymphocyte"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36988",
+      "relatedName": "Neoplastic Lymphocyte"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C39566",
+      "relatedName": "Neoplastic T-Lymphocyte and Neoplastic Natural Killer Cell"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C128698",
+      "relatedName": "Not Otherwise Specified Lesion"
+    },
+    {
+      "type": "Disease_Excludes_Normal_Cell_Origin",
+      "relatedCode": "C12486",
+      "relatedName": "Plasma Cell"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C37011",
+      "relatedName": "Plasmablastic Immunoblast"
+    },
+    {
+      "type": "Disease_Excludes_Normal_Cell_Origin",
+      "relatedCode": "C33931",
+      "relatedName": "Precursor B-Lymphoblast"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C12660",
+      "relatedName": "Reed-Sternberg Cell"
+    },
+    {
+      "type": "Disease_Has_Molecular_Abnormality",
+      "relatedCode": "C40571",
+      "relatedName": "REL Gene Amplification"
+    },
+    {
+      "type": "Disease_Excludes_Normal_Cell_Origin",
+      "relatedCode": "C38329",
+      "relatedName": "Thymic B-Lymphocyte"
+    },
+    {
+      "type": "Disease_Excludes_Primary_Anatomic_Site",
+      "relatedCode": "C12433",
+      "relatedName": "Thymus Gland"
+    },
+    {
+      "type": "Disease_Excludes_Primary_Anatomic_Site",
+      "relatedCode": "C33854",
+      "relatedName": "Vascular System"
+    }
+  ],
+  "history": [
+    {
+      "code": "C36080",
+      "action": "create",
+      "date": "2004-03-30"
+    },
+    {
+      "code": "C36080",
+      "action": "modify",
+      "date": "2004-04-30"
+    },
+    {
+      "code": "C36080",
+      "action": "modify",
+      "date": "2004-09-10"
+    },
+    {
+      "code": "C36080",
+      "action": "modify",
+      "date": "2005-03-16"
+    },
+    {
+      "code": "C36080",
+      "action": "modify",
+      "date": "2006-02-24"
+    },
+    {
+      "code": "C36080",
+      "action": "modify",
+      "date": "2009-04-06"
+    },
+    {
+      "code": "C36080",
+      "action": "modify",
+      "date": "2009-11-02"
+    },
+    {
+      "code": "C36080",
+      "action": "modify",
+      "date": "2009-11-23"
+    },
+    {
+      "code": "C36080",
+      "action": "modify",
+      "date": "2014-02-03"
+    },
+    {
+      "code": "C36080",
+      "action": "modify",
+      "date": "2015-04-13"
+    },
+    {
+      "code": "C36080",
+      "action": "modify",
+      "date": "2016-04-25"
+    },
+    {
+      "code": "C36080",
+      "action": "modify",
+      "date": "2017-09-26"
+    },
+    {
+      "code": "C36080",
+      "action": "modify",
+      "date": "2019-10-28"
+    },
+    {
+      "code": "C36080",
+      "action": "modify",
+      "date": "2023-02-27"
+    },
+    {
+      "code": "C36080",
+      "action": "modify",
+      "date": "2025-03-31"
+    }
+  ]
+}

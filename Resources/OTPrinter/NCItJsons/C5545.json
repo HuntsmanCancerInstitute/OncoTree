@@ -1,0 +1,233 @@
+{
+  "code": "C5545",
+  "name": "Prostate Neuroendocrine Neoplasm",
+  "terminology": "ncit",
+  "version": "25.11d",
+  "conceptStatus": "DEFAULT",
+  "leaf": false,
+  "active": true,
+  "synonyms": [
+    {
+      "name": "Neuroendocrine Neoplasm of Prostate",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Neuroendocrine Neoplasm of the Prostate",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Prostate Neuroendocrine Neoplasm",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Prostate Neuroendocrine Neoplasm",
+      "type": "Preferred_Name"
+    }
+  ],
+  "definitions": [
+    {
+      "definition": "A neoplasm with neuroendocrine differentiation that arises from the prostate gland.",
+      "type": "DEFINITION",
+      "source": "NCI"
+    }
+  ],
+  "properties": [
+    {
+      "code": "P366",
+      "type": "Legacy Concept Name",
+      "value": "Prostate_Neuroendocrine_Neoplasm"
+    },
+    {
+      "code": "P363",
+      "type": "Neoplastic_Status",
+      "value": "Undetermined"
+    },
+    {
+      "code": "P106",
+      "type": "Semantic_Type",
+      "value": "Neoplastic Process"
+    },
+    {
+      "code": "P207",
+      "type": "UMLS_CUI",
+      "value": "C1335515"
+    }
+  ],
+  "children": [
+    {
+      "code": "C158912",
+      "name": "Prostate Neuroendocrine Carcinoma",
+      "leaf": false
+    },
+    {
+      "code": "C5024",
+      "name": "Prostate Neuroendocrine Tumor",
+      "leaf": true
+    },
+    {
+      "code": "C161612",
+      "name": "Prostate Paraganglioma",
+      "leaf": true
+    }
+  ],
+  "parents": [
+    {
+      "code": "C3809",
+      "name": "Neuroendocrine Neoplasm"
+    },
+    {
+      "code": "C3343",
+      "name": "Prostate Neoplasm"
+    }
+  ],
+  "roles": [
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12704",
+      "relatedName": "Endocrine Gland"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12704",
+      "relatedName": "Endocrine Gland"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12705",
+      "relatedName": "Endocrine System"
+    },
+    {
+      "type": "Disease_Excludes_Normal_Cell_Origin",
+      "relatedCode": "C12865",
+      "relatedName": "Endothelial Cell"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C207031",
+      "relatedName": "Expression of Neuroendocrine Markers Present"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12810",
+      "relatedName": "Genitourinary System"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C36818",
+      "relatedName": "Large Osteoclastic Giant Cell"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12722",
+      "relatedName": "Male Reproductive System"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12922",
+      "relatedName": "Neoplastic Cell"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C37088",
+      "relatedName": "Neoplastic Endothelial Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36761",
+      "relatedName": "Neoplastic Neuroendocrine Cell"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C43574",
+      "relatedName": "Neuroendocrine Differentiation"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12410",
+      "relatedName": "Prostate Gland"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12410",
+      "relatedName": "Prostate Gland"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C33414",
+      "relatedName": "Prostatic Tissue"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12841",
+      "relatedName": "Reproductive System"
+    }
+  ],
+  "history": [
+    {
+      "code": "C5545",
+      "action": "create",
+      "date": "2003-08-12"
+    },
+    {
+      "code": "C5545",
+      "action": "modify",
+      "date": "2003-10-31"
+    },
+    {
+      "code": "C5545",
+      "action": "modify",
+      "date": "2003-12-30"
+    },
+    {
+      "code": "C5545",
+      "action": "modify",
+      "date": "2004-02-23"
+    },
+    {
+      "code": "C5545",
+      "action": "modify",
+      "date": "2004-03-30"
+    },
+    {
+      "code": "C5545",
+      "action": "modify",
+      "date": "2006-05-26"
+    },
+    {
+      "code": "C5545",
+      "action": "modify",
+      "date": "2009-04-06"
+    },
+    {
+      "code": "C5545",
+      "action": "modify",
+      "date": "2009-11-23"
+    },
+    {
+      "code": "C5545",
+      "action": "modify",
+      "date": "2011-06-20"
+    },
+    {
+      "code": "C5545",
+      "action": "modify",
+      "date": "2013-02-11"
+    },
+    {
+      "code": "C5545",
+      "action": "modify",
+      "date": "2014-02-03"
+    },
+    {
+      "code": "C5545",
+      "action": "modify",
+      "date": "2019-04-29"
+    }
+  ]
+}

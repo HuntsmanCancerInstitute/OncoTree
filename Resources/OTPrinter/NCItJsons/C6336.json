@@ -1,0 +1,407 @@
+{
+  "code": "C6336",
+  "name": "Uterine Corpus Adenosarcoma",
+  "terminology": "ncit",
+  "version": "25.11d",
+  "conceptStatus": "DEFAULT",
+  "leaf": false,
+  "active": true,
+  "synonyms": [
+    {
+      "name": "Adenosarcoma of Body of Uterus",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Adenosarcoma of the Body of Uterus",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Adenosarcoma of the Uterine Body",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Adenosarcoma of the Uterine Corpus",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Adenosarcoma of Uterine Body",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Adenosarcoma of Uterine Corpus",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Body of Uterus Adenosarcoma",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Uterine Body Adenosarcoma",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Uterine Corpus Adenosarcoma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Uterine Corpus Mullerian Adenosarcoma",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Uterine Corpus Müllerian Adenosarcoma",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Uterine Corpus Adenosarcoma",
+      "type": "Preferred_Name"
+    }
+  ],
+  "definitions": [
+    {
+      "definition": "A primary polypoid malignant neoplasm of the uterine corpus characterized by the presence of a sarcomatous mesenchymal component and a benign epithelial component. Patients usually present with abnormal vaginal bleeding. It is considered a low grade malignant neoplasm and may recur following resection.",
+      "type": "DEFINITION",
+      "source": "NCI"
+    }
+  ],
+  "properties": [
+    {
+      "code": "P366",
+      "type": "Legacy Concept Name",
+      "value": "Uterine_Corpus_Mullerian_Adenosarcoma"
+    },
+    {
+      "code": "P363",
+      "type": "Neoplastic_Status",
+      "value": "Malignant"
+    },
+    {
+      "code": "P106",
+      "type": "Semantic_Type",
+      "value": "Neoplastic Process"
+    },
+    {
+      "code": "P207",
+      "type": "UMLS_CUI",
+      "value": "C1336917"
+    }
+  ],
+  "children": [
+    {
+      "code": "C139894",
+      "name": "Uterine Corpus Adenosarcoma by AJCC v8 Stage",
+      "leaf": false
+    }
+  ],
+  "parents": [
+    {
+      "code": "C9474",
+      "name": "Adenosarcoma"
+    },
+    {
+      "code": "C6311",
+      "name": "Malignant Uterine Corpus Mixed Epithelial and Mesenchymal Neoplasm"
+    },
+    {
+      "code": "C6339",
+      "name": "Uterine Corpus Sarcoma"
+    }
+  ],
+  "associations": [
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C126659",
+      "relatedName": "NCIt Neoplasm Core Terminology"
+    }
+  ],
+  "roles": [
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C36122",
+      "relatedName": "Benign Cellular Infiltrate"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C35907",
+      "relatedName": "Biphasic Pattern"
+    },
+    {
+      "type": "Disease_Excludes_Primary_Anatomic_Site",
+      "relatedCode": "C12366",
+      "relatedName": "Bone"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C12508",
+      "relatedName": "Cell"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C12555",
+      "relatedName": "Connective and Soft Tissue Cell"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12964",
+      "relatedName": "Connective and Soft Tissue"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12964",
+      "relatedName": "Connective and Soft Tissue"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12316",
+      "relatedName": "Corpus Uteri"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12316",
+      "relatedName": "Corpus Uteri"
+    },
+    {
+      "type": "Disease_Excludes_Normal_Cell_Origin",
+      "relatedCode": "C53995",
+      "relatedName": "Endometrioid Stromal Cell"
+    },
+    {
+      "type": "Disease_Excludes_Normal_Cell_Origin",
+      "relatedCode": "C12578",
+      "relatedName": "Epithelial Cell"
+    },
+    {
+      "type": "Disease_Excludes_Normal_Tissue_Origin",
+      "relatedCode": "C45714",
+      "relatedName": "Epithelial Tissue"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12402",
+      "relatedName": "Female Reproductive System"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12402",
+      "relatedName": "Female Reproductive System"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12810",
+      "relatedName": "Genitourinary System"
+    },
+    {
+      "type": "Disease_Excludes_Normal_Cell_Origin",
+      "relatedCode": "C12615",
+      "relatedName": "Glial Cell"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C36105",
+      "relatedName": "Indolent Clinical Course"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C53665",
+      "relatedName": "Intermediate Filaments Present"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C53667",
+      "relatedName": "Intracytoplasmic Eosinophilic Inclusion"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12917",
+      "relatedName": "Malignant Cell"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C36115",
+      "relatedName": "Malignant Cellular Infiltrate"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C36779",
+      "relatedName": "Malignant Epithelial Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C37153",
+      "relatedName": "Malignant Stromal Cell"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C41610",
+      "relatedName": "Mixed Cellular Population"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12922",
+      "relatedName": "Neoplastic Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36887",
+      "relatedName": "Neoplastic Connective and Soft Tissue Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36753",
+      "relatedName": "Neoplastic Epithelial Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36763",
+      "relatedName": "Neoplastic Glandular Cell"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C37126",
+      "relatedName": "Neoplastic Glial Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C37150",
+      "relatedName": "Neoplastic Stromal Cell"
+    },
+    {
+      "type": "Disease_Excludes_Normal_Cell_Origin",
+      "relatedCode": "C41405",
+      "relatedName": "Neuron, Neuroepithelial Cell, and Supporting Cell of the Nervous System"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12841",
+      "relatedName": "Reproductive System"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12471",
+      "relatedName": "Soft Tissue"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C12471",
+      "relatedName": "Soft Tissue"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12471",
+      "relatedName": "Soft Tissue"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C12571",
+      "relatedName": "Stromal Cell"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C61611",
+      "relatedName": "Tissue of Mullerian Origin Present"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C12801",
+      "relatedName": "Tissue"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12405",
+      "relatedName": "Uterus"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12405",
+      "relatedName": "Uterus"
+    }
+  ],
+  "history": [
+    {
+      "code": "C6336",
+      "action": "create",
+      "date": "2003-08-12"
+    },
+    {
+      "code": "C6336",
+      "action": "modify",
+      "date": "2003-10-31"
+    },
+    {
+      "code": "C6336",
+      "action": "modify",
+      "date": "2003-12-30"
+    },
+    {
+      "code": "C6336",
+      "action": "modify",
+      "date": "2004-03-30"
+    },
+    {
+      "code": "C6336",
+      "action": "modify",
+      "date": "2004-08-02"
+    },
+    {
+      "code": "C6336",
+      "action": "modify",
+      "date": "2006-07-28"
+    },
+    {
+      "code": "C6336",
+      "action": "modify",
+      "date": "2009-11-23"
+    },
+    {
+      "code": "C6336",
+      "action": "modify",
+      "date": "2012-07-30"
+    },
+    {
+      "code": "C6336",
+      "action": "modify",
+      "date": "2014-02-03"
+    },
+    {
+      "code": "C6336",
+      "action": "modify",
+      "date": "2015-03-16"
+    },
+    {
+      "code": "C6336",
+      "action": "modify",
+      "date": "2016-04-25"
+    },
+    {
+      "code": "C6336",
+      "action": "modify",
+      "date": "2017-10-30"
+    },
+    {
+      "code": "C6336",
+      "action": "modify",
+      "date": "2025-01-27"
+    }
+  ]
+}

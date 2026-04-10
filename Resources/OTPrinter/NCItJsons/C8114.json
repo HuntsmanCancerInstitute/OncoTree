@@ -1,0 +1,407 @@
+{
+  "code": "C8114",
+  "name": "Ovarian Mixed Germ Cell Tumor",
+  "terminology": "ncit",
+  "version": "25.11d",
+  "conceptStatus": "DEFAULT",
+  "leaf": false,
+  "active": true,
+  "synonyms": [
+    {
+      "name": "Ovarian Mixed Germ Cell Tumor",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "Cellosaurus"
+    },
+    {
+      "name": "Ovarian Mixed Germ Cell Tumor",
+      "termType": "DN",
+      "type": "FULL_SYN",
+      "source": "CTRP"
+    },
+    {
+      "name": "Mixed Germ Cell Neoplasm of Ovary",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Mixed Germ Cell Neoplasm of the Ovary",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Mixed Germ Cell Tumor of Ovary",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Mixed Germ Cell Tumor of the Ovary",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Ovarian Mixed Germ Cell Neoplasm",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Ovarian Mixed Germ Cell Tumor",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Ovarian Mixed Germ Cell Tumor",
+      "type": "Display_Name"
+    },
+    {
+      "name": "Ovarian Mixed Germ Cell Tumor",
+      "type": "Preferred_Name"
+    }
+  ],
+  "definitions": [
+    {
+      "definition": "An ovarian malignant germ cell tumor characterized by the presence of at least two different germ cell tumor components. The most common combination of germ cell tumors is dysgerminoma and yolk sac tumor.",
+      "type": "DEFINITION",
+      "source": "NCI"
+    }
+  ],
+  "properties": [
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "Cellosaurus"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "CTRP"
+    },
+    {
+      "code": "P366",
+      "type": "Legacy Concept Name",
+      "value": "Ovarian_Mixed_Germ_Cell_Tumor"
+    },
+    {
+      "code": "P363",
+      "type": "Neoplastic_Status",
+      "value": "Malignant"
+    },
+    {
+      "code": "P106",
+      "type": "Semantic_Type",
+      "value": "Neoplastic Process"
+    },
+    {
+      "code": "P207",
+      "type": "UMLS_CUI",
+      "value": "C0280135"
+    }
+  ],
+  "children": [
+    {
+      "code": "C123849",
+      "name": "Childhood Ovarian Mixed Germ Cell Tumor",
+      "leaf": true
+    }
+  ],
+  "parents": [
+    {
+      "code": "C3729",
+      "name": "Malignant Mixed Neoplasm"
+    },
+    {
+      "code": "C4290",
+      "name": "Mixed Germ Cell Tumor"
+    },
+    {
+      "code": "C39986",
+      "name": "Ovarian Primitive Germ Cell Tumor"
+    }
+  ],
+  "associations": [
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C165258",
+      "relatedName": "Cellosaurus Disease Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C118168",
+      "relatedName": "CTRP Disease Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C116977",
+      "relatedName": "CTRP Terminology"
+    }
+  ],
+  "roles": [
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C34333",
+      "relatedName": "Abdominal Mass"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C26682",
+      "relatedName": "Abdominal Pain"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C137974",
+      "relatedName": "Adnexa"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C36122",
+      "relatedName": "Benign Cellular Infiltrate"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C12508",
+      "relatedName": "Cell"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12402",
+      "relatedName": "Female Reproductive System"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12810",
+      "relatedName": "Genitourinary System"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C12597",
+      "relatedName": "Germ Cell"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C54105",
+      "relatedName": "Germinal Layer"
+    },
+    {
+      "type": "Disease_Excludes_Normal_Cell_Origin",
+      "relatedCode": "C12615",
+      "relatedName": "Glial Cell"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12725",
+      "relatedName": "Gonad"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12917",
+      "relatedName": "Malignant Cell"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C36115",
+      "relatedName": "Malignant Cellular Infiltrate"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C156460",
+      "relatedName": "Malignant Primitive Cellular Infiltrate"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C41610",
+      "relatedName": "Mixed Cellular Population"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C54145",
+      "relatedName": "Mixture of Germ Cell Neoplastic Components Present"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12922",
+      "relatedName": "Neoplastic Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36903",
+      "relatedName": "Neoplastic Germ Cell"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C37126",
+      "relatedName": "Neoplastic Glial Cell"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C36898",
+      "relatedName": "Neoplastic Sex Cord-Stromal Cell"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12404",
+      "relatedName": "Ovary"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12404",
+      "relatedName": "Ovary"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12841",
+      "relatedName": "Reproductive System"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C12801",
+      "relatedName": "Tissue"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12321",
+      "relatedName": "Uterine Adnexa"
+    }
+  ],
+  "history": [
+    {
+      "code": "C8114",
+      "action": "create",
+      "date": "2003-08-12"
+    },
+    {
+      "code": "C8114",
+      "action": "modify",
+      "date": "2003-10-31"
+    },
+    {
+      "code": "C8114",
+      "action": "modify",
+      "date": "2003-12-30"
+    },
+    {
+      "code": "C8114",
+      "action": "modify",
+      "date": "2004-03-30"
+    },
+    {
+      "code": "C8114",
+      "action": "merge",
+      "date": "2004-08-02",
+      "replacementCode": "C8114",
+      "replacementName": "Ovarian Mixed Germ Cell Tumor"
+    },
+    {
+      "code": "C8109",
+      "action": "merge",
+      "date": "2004-08-02",
+      "replacementCode": "C8114",
+      "replacementName": "Ovarian Mixed Germ Cell Tumor"
+    },
+    {
+      "code": "C8114",
+      "action": "modify",
+      "date": "2006-06-30"
+    },
+    {
+      "code": "C8114",
+      "action": "modify",
+      "date": "2006-07-28"
+    },
+    {
+      "code": "C8114",
+      "action": "modify",
+      "date": "2007-10-29"
+    },
+    {
+      "code": "C8114",
+      "action": "modify",
+      "date": "2009-04-06"
+    },
+    {
+      "code": "C8114",
+      "action": "modify",
+      "date": "2009-11-23"
+    },
+    {
+      "code": "C8114",
+      "action": "modify",
+      "date": "2012-09-04"
+    },
+    {
+      "code": "C8114",
+      "action": "modify",
+      "date": "2014-02-03"
+    },
+    {
+      "code": "C8114",
+      "action": "modify",
+      "date": "2014-08-04"
+    },
+    {
+      "code": "C8114",
+      "action": "modify",
+      "date": "2014-08-18"
+    },
+    {
+      "code": "C8114",
+      "action": "modify",
+      "date": "2014-09-22"
+    },
+    {
+      "code": "C8114",
+      "action": "modify",
+      "date": "2015-04-20"
+    },
+    {
+      "code": "C8114",
+      "action": "modify",
+      "date": "2017-07-31"
+    },
+    {
+      "code": "C8114",
+      "action": "modify",
+      "date": "2018-02-26"
+    },
+    {
+      "code": "C8114",
+      "action": "modify",
+      "date": "2018-07-30"
+    },
+    {
+      "code": "C8114",
+      "action": "modify",
+      "date": "2018-08-27"
+    },
+    {
+      "code": "C8114",
+      "action": "modify",
+      "date": "2018-08-27"
+    },
+    {
+      "code": "C8114",
+      "action": "modify",
+      "date": "2019-06-24"
+    },
+    {
+      "code": "C8114",
+      "action": "modify",
+      "date": "2020-08-31"
+    },
+    {
+      "code": "C8114",
+      "action": "modify",
+      "date": "2023-02-27"
+    },
+    {
+      "code": "C8114",
+      "action": "modify",
+      "date": "2025-03-31"
+    }
+  ]
+}

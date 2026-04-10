@@ -1,0 +1,826 @@
+{
+  "code": "C4131",
+  "name": "Fibrolamellar Carcinoma",
+  "terminology": "ncit",
+  "version": "25.11d",
+  "conceptStatus": "DEFAULT",
+  "leaf": false,
+  "active": true,
+  "synonyms": [
+    {
+      "name": "Fibrolamellar Carcinoma",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "caDSR"
+    },
+    {
+      "name": "Fibrolamellar Carcinoma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "CPTAC"
+    },
+    {
+      "name": "Fibrolamellar Cancer",
+      "termType": "DN",
+      "type": "FULL_SYN",
+      "source": "CTRP"
+    },
+    {
+      "name": "Hepatocellular carcinoma, fibrolamellar",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "GDC"
+    },
+    {
+      "name": "Fibrolamellar Carcinoma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Fibrolamellar Carcinoma of Liver Cells",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Fibrolamellar Carcinoma of the Liver Cells",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Fibrolamellar Hepatocellular Carcinoma",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "FLC",
+      "termType": "AB",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Hepatocellular Fibrolamellar Carcinoma",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Liver Cell Fibrolamellar Carcinoma",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Oncocytic Hepatocellular Tumor",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Polygonal Cell Type Hepatocellular Carcinoma with Fibrous Stroma",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Fibrolamellar Carcinoma",
+      "type": "Display_Name"
+    },
+    {
+      "name": "Fibrolamellar Carcinoma",
+      "type": "Preferred_Name"
+    }
+  ],
+  "definitions": [
+    {
+      "definition": "A distinctive type of liver cell carcinoma that arises in non-cirrhotic livers and is seen predominantly in young patients.  The tumor cells are polygonal and deeply eosinophilic, and are embedded in a fibrous stroma.  The prognosis is similar to classical hepatocellular carcinoma that arises in non-cirrhotic livers, and better than hepatocellular carcinoma that arises in cirrhotic livers.",
+      "type": "DEFINITION",
+      "source": "NCI"
+    }
+  ],
+  "properties": [
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "CPTAC"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "CTRP"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "GDC"
+    },
+    {
+      "code": "P334",
+      "type": "ICD-O-3_Code",
+      "value": "8171/3"
+    },
+    {
+      "code": "P366",
+      "type": "Legacy Concept Name",
+      "value": "Fibrolamellar_Hepatocellular_Carcinoma"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "8171/3"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "Hepatocellular carcinoma, fibrolamellar"
+    },
+    {
+      "code": "P363",
+      "type": "Neoplastic_Status",
+      "value": "Malignant"
+    },
+    {
+      "code": "P106",
+      "type": "Semantic_Type",
+      "value": "Neoplastic Process"
+    },
+    {
+      "code": "P207",
+      "type": "UMLS_CUI",
+      "value": "C0334287"
+    }
+  ],
+  "children": [
+    {
+      "code": "C114992",
+      "name": "Adult Fibrolamellar Carcinoma",
+      "leaf": true
+    },
+    {
+      "code": "C189932",
+      "name": "Childhood Fibrolamellar Carcinoma",
+      "leaf": false
+    },
+    {
+      "code": "C154078",
+      "name": "Metastatic Fibrolamellar Carcinoma",
+      "leaf": false
+    },
+    {
+      "code": "C154082",
+      "name": "Recurrent Fibrolamellar Carcinoma",
+      "leaf": false
+    },
+    {
+      "code": "C188887",
+      "name": "Refractory Fibrolamellar Carcinoma",
+      "leaf": false
+    },
+    {
+      "code": "C162602",
+      "name": "Unresectable Fibrolamellar Carcinoma",
+      "leaf": true
+    }
+  ],
+  "parents": [
+    {
+      "code": "C3099",
+      "name": "Hepatocellular Carcinoma"
+    }
+  ],
+  "associations": [
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C156953",
+      "relatedName": "CPTAC Baseline Medical Forms Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C157529",
+      "relatedName": "CPTAC Liver Hepatocellular Carcinoma Baseline Form"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C156952",
+      "relatedName": "CPTAC Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C118168",
+      "relatedName": "CTRP Disease Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C116977",
+      "relatedName": "CTRP Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C157711",
+      "relatedName": "GDC Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C177537",
+      "relatedName": "GDC Value Terminology"
+    },
+    {
+      "type": "Is_Value_For_GDC_Property",
+      "relatedCode": "C176985",
+      "relatedName": "Histology ICD-O Morphology Code"
+    },
+    {
+      "type": "Is_Value_For_GDC_Property",
+      "relatedCode": "C177621",
+      "relatedName": "ICD-O-3 Morphology Term Diagnosis Question"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168658",
+      "relatedName": "Mapped ICDO3.1 Morphology PT Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168657",
+      "relatedName": "Mapped ICDO3.1 Morphology Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168655",
+      "relatedName": "Mapped ICDO3.1 Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168662",
+      "relatedName": "Mapped ICDO3.2 Morphology PT Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168661",
+      "relatedName": "Mapped ICDO3.2 Morphology Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168656",
+      "relatedName": "Mapped ICDO3.2 Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C126659",
+      "relatedName": "NCIt Neoplasm Core Terminology"
+    }
+  ],
+  "inverseAssociations": [
+    {
+      "type": "Has_GDC_Value",
+      "relatedCode": "C176985",
+      "relatedName": "Histology ICD-O Morphology Code"
+    },
+    {
+      "type": "Has_GDC_Value",
+      "relatedCode": "C177621",
+      "relatedName": "ICD-O-3 Morphology Term Diagnosis Question"
+    }
+  ],
+  "roles": [
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36880",
+      "relatedName": "Adenocarcinoma Cell with Eosinophilic Granular Cytoplasm"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36773",
+      "relatedName": "Adenocarcinoma Cell"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C36122",
+      "relatedName": "Benign Cellular Infiltrate"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C54172",
+      "relatedName": "Carcinomatous Component Present"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C2951",
+      "relatedName": "Cirrhosis"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12378",
+      "relatedName": "Digestive System"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12378",
+      "relatedName": "Digestive System"
+    },
+    {
+      "type": "Disease_May_Have_Molecular_Abnormality",
+      "relatedCode": "C189931",
+      "relatedName": "DNAJB1-PRKACA Fusion Protein Expression"
+    },
+    {
+      "type": "Disease_Mapped_To_Gene",
+      "relatedCode": "C122558",
+      "relatedName": "DNAJB1/PRKACA Fusion Gene"
+    },
+    {
+      "type": "Disease_Excludes_Normal_Cell_Origin",
+      "relatedCode": "C13054",
+      "relatedName": "Embryonic Cell"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C12578",
+      "relatedName": "Epithelial Cell"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C53596",
+      "relatedName": "Epithelial Component Present"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C45714",
+      "relatedName": "Epithelial Tissue"
+    },
+    {
+      "type": "Disease_Excludes_Primary_Anatomic_Site",
+      "relatedCode": "C32573",
+      "relatedName": "Extrahepatic Bile Duct"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C36156",
+      "relatedName": "Favorable Clinical Outcome"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C32735",
+      "relatedName": "Hepatic Tissue"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C43612",
+      "relatedName": "Hepatobiliary System"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C43612",
+      "relatedName": "Hepatobiliary System"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C43614",
+      "relatedName": "Hepatobiliary Tissue"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C12588",
+      "relatedName": "Hepatocyte"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C214985",
+      "relatedName": "Hepatopancreatobiliary System"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C155862",
+      "relatedName": "Intermediate Grade Neuroendocrine Lesion"
+    },
+    {
+      "type": "Disease_Excludes_Primary_Anatomic_Site",
+      "relatedCode": "C12677",
+      "relatedName": "Intrahepatic Bile Duct"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C43626",
+      "relatedName": "Lamellar Pattern"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12392",
+      "relatedName": "Liver"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12392",
+      "relatedName": "Liver"
+    },
+    {
+      "type": "Disease_May_Have_Cytogenetic_Abnormality",
+      "relatedCode": "C36632",
+      "relatedName": "Loss of Chromosome 19"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C155864",
+      "relatedName": "Low Grade Neuroendocrine Lesion"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12917",
+      "relatedName": "Malignant Cell"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C36115",
+      "relatedName": "Malignant Cellular Infiltrate"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36779",
+      "relatedName": "Malignant Epithelial Cell"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C36771",
+      "relatedName": "Malignant Squamous Cell"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C37153",
+      "relatedName": "Malignant Stromal Cell"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C62273",
+      "relatedName": "Mixed Neoplastic Glandular and Squamous Cell Population"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12922",
+      "relatedName": "Neoplastic Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36753",
+      "relatedName": "Neoplastic Epithelial Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36763",
+      "relatedName": "Neoplastic Glandular Cell"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C36937",
+      "relatedName": "Neoplastic Smooth Muscle Cell"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C36760",
+      "relatedName": "Neoplastic Squamous Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36850",
+      "relatedName": "Polygonal Adenocarcinoma Cell with Eosinophilic Cytoplasm"
+    },
+    {
+      "type": "Disease_May_Have_Molecular_Abnormality",
+      "relatedCode": "C129503",
+      "relatedName": "PRKAR1A Gene Mutation"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C155861",
+      "relatedName": "Well Differentiated Neuroendocrine Lesion"
+    }
+  ],
+  "inverseRoles": [
+    {
+      "type": "Gene_Involved_In_Pathogenesis_Of_Disease",
+      "relatedCode": "C122558",
+      "relatedName": "DNAJB1/PRKACA Fusion Gene"
+    }
+  ],
+  "history": [
+    {
+      "code": "C4131",
+      "action": "create",
+      "date": "2003-08-12"
+    },
+    {
+      "code": "C4131",
+      "action": "modify",
+      "date": "2003-10-31"
+    },
+    {
+      "code": "C4131",
+      "action": "modify",
+      "date": "2003-12-30"
+    },
+    {
+      "code": "C4131",
+      "action": "modify",
+      "date": "2004-03-30"
+    },
+    {
+      "code": "C4131",
+      "action": "modify",
+      "date": "2005-01-28"
+    },
+    {
+      "code": "C4131",
+      "action": "modify",
+      "date": "2005-03-16"
+    },
+    {
+      "code": "C4131",
+      "action": "modify",
+      "date": "2007-03-30"
+    },
+    {
+      "code": "C4131",
+      "action": "modify",
+      "date": "2007-04-30"
+    },
+    {
+      "code": "C4131",
+      "action": "modify",
+      "date": "2009-04-06"
+    },
+    {
+      "code": "C4131",
+      "action": "modify",
+      "date": "2009-10-27"
+    },
+    {
+      "code": "C4131",
+      "action": "modify",
+      "date": "2009-11-23"
+    },
+    {
+      "code": "C4131",
+      "action": "modify",
+      "date": "2011-05-16"
+    },
+    {
+      "code": "C4131",
+      "action": "modify",
+      "date": "2013-02-25"
+    },
+    {
+      "code": "C4131",
+      "action": "modify",
+      "date": "2013-03-04"
+    },
+    {
+      "code": "C4131",
+      "action": "modify",
+      "date": "2013-03-11"
+    },
+    {
+      "code": "C4131",
+      "action": "modify",
+      "date": "2013-03-18"
+    },
+    {
+      "code": "C4131",
+      "action": "modify",
+      "date": "2013-03-25"
+    },
+    {
+      "code": "C4131",
+      "action": "modify",
+      "date": "2013-04-01"
+    },
+    {
+      "code": "C4131",
+      "action": "modify",
+      "date": "2013-04-08"
+    },
+    {
+      "code": "C4131",
+      "action": "modify",
+      "date": "2013-04-15"
+    },
+    {
+      "code": "C4131",
+      "action": "modify",
+      "date": "2013-04-22"
+    },
+    {
+      "code": "C4131",
+      "action": "modify",
+      "date": "2013-04-29"
+    },
+    {
+      "code": "C4131",
+      "action": "modify",
+      "date": "2013-05-06"
+    },
+    {
+      "code": "C4131",
+      "action": "modify",
+      "date": "2013-05-13"
+    },
+    {
+      "code": "C4131",
+      "action": "modify",
+      "date": "2013-05-20"
+    },
+    {
+      "code": "C4131",
+      "action": "modify",
+      "date": "2013-05-28"
+    },
+    {
+      "code": "C4131",
+      "action": "modify",
+      "date": "2013-06-03"
+    },
+    {
+      "code": "C4131",
+      "action": "modify",
+      "date": "2013-06-10"
+    },
+    {
+      "code": "C4131",
+      "action": "modify",
+      "date": "2013-06-17"
+    },
+    {
+      "code": "C4131",
+      "action": "modify",
+      "date": "2013-06-24"
+    },
+    {
+      "code": "C4131",
+      "action": "modify",
+      "date": "2013-07-01"
+    },
+    {
+      "code": "C4131",
+      "action": "modify",
+      "date": "2013-07-08"
+    },
+    {
+      "code": "C4131",
+      "action": "modify",
+      "date": "2014-02-03"
+    },
+    {
+      "code": "C4131",
+      "action": "modify",
+      "date": "2015-06-15"
+    },
+    {
+      "code": "C4131",
+      "action": "modify",
+      "date": "2015-06-22"
+    },
+    {
+      "code": "C4131",
+      "action": "modify",
+      "date": "2016-04-25"
+    },
+    {
+      "code": "C4131",
+      "action": "modify",
+      "date": "2017-07-31"
+    },
+    {
+      "code": "C4131",
+      "action": "modify",
+      "date": "2018-07-30"
+    },
+    {
+      "code": "C4131",
+      "action": "modify",
+      "date": "2018-08-27"
+    },
+    {
+      "code": "C4131",
+      "action": "modify",
+      "date": "2018-08-27"
+    },
+    {
+      "code": "C4131",
+      "action": "modify",
+      "date": "2018-09-24"
+    },
+    {
+      "code": "C4131",
+      "action": "modify",
+      "date": "2018-10-29"
+    },
+    {
+      "code": "C4131",
+      "action": "modify",
+      "date": "2018-10-29"
+    },
+    {
+      "code": "C4131",
+      "action": "modify",
+      "date": "2019-03-25"
+    },
+    {
+      "code": "C4131",
+      "action": "modify",
+      "date": "2019-05-28"
+    },
+    {
+      "code": "C4131",
+      "action": "modify",
+      "date": "2019-06-24"
+    },
+    {
+      "code": "C4131",
+      "action": "modify",
+      "date": "2019-07-29"
+    },
+    {
+      "code": "C4131",
+      "action": "modify",
+      "date": "2019-09-30"
+    },
+    {
+      "code": "C4131",
+      "action": "modify",
+      "date": "2019-11-25"
+    },
+    {
+      "code": "C4131",
+      "action": "modify",
+      "date": "2020-02-24"
+    },
+    {
+      "code": "C4131",
+      "action": "modify",
+      "date": "2020-03-30"
+    },
+    {
+      "code": "C4131",
+      "action": "modify",
+      "date": "2020-04-27"
+    },
+    {
+      "code": "C4131",
+      "action": "modify",
+      "date": "2020-09-29"
+    },
+    {
+      "code": "C4131",
+      "action": "modify",
+      "date": "2021-02-22"
+    },
+    {
+      "code": "C4131",
+      "action": "modify",
+      "date": "2021-03-29"
+    },
+    {
+      "code": "C4131",
+      "action": "modify",
+      "date": "2022-09-26"
+    },
+    {
+      "code": "C4131",
+      "action": "modify",
+      "date": "2023-12-26"
+    }
+  ],
+  "maps": [
+    {
+      "type": "Related To",
+      "targetName": "8171/3",
+      "targetTermType": "PT",
+      "targetCode": "morphology",
+      "targetTerminology": "GDC"
+    },
+    {
+      "type": "Related To",
+      "targetName": "Hepatocellular carcinoma, fibrolamellar",
+      "targetTermType": "PT",
+      "targetCode": "8171/3",
+      "targetTerminology": "ICDO3",
+      "targetTerminologyVersion": "3.1"
+    },
+    {
+      "type": "Related To",
+      "targetName": "Hepatocellular carcinoma, fibrolamellar",
+      "targetTermType": "PT",
+      "targetCode": "8171/3",
+      "targetTerminology": "ICDO3",
+      "targetTerminologyVersion": "3.2"
+    },
+    {
+      "type": "Has Synonym",
+      "targetName": "Hepatocellular carcinoma, fibrolamellar",
+      "targetTermType": "PT",
+      "targetCode": "primary_diagnosis",
+      "targetTerminology": "GDC"
+    }
+  ]
+}

@@ -1,0 +1,212 @@
+{
+  "code": "C4952",
+  "name": "Localized Brain Neoplasm",
+  "terminology": "ncit",
+  "version": "25.11d",
+  "conceptStatus": "DEFAULT",
+  "leaf": false,
+  "active": true,
+  "synonyms": [
+    {
+      "name": "Localized Brain Neoplasm",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Non-Metastatic Brain Neoplasm",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Localized Brain Neoplasm",
+      "type": "Preferred_Name"
+    }
+  ],
+  "definitions": [
+    {
+      "definition": "A brain neoplasm that is confined to a specific site without evidence of spread to other anatomic sites.",
+      "type": "DEFINITION",
+      "source": "NCI"
+    }
+  ],
+  "properties": [
+    {
+      "code": "P366",
+      "type": "Legacy Concept Name",
+      "value": "Primary_Brain_Neoplasm"
+    },
+    {
+      "code": "P208",
+      "type": "NCI_META_CUI",
+      "value": "CL1406302"
+    },
+    {
+      "code": "P363",
+      "type": "Neoplastic_Status",
+      "value": "Undetermined"
+    },
+    {
+      "code": "P106",
+      "type": "Semantic_Type",
+      "value": "Neoplastic Process"
+    }
+  ],
+  "children": [
+    {
+      "code": "C150573",
+      "name": "Localized Cerebral Neoplasm",
+      "leaf": true
+    },
+    {
+      "code": "C4954",
+      "name": "Localized Malignant Brain Neoplasm",
+      "leaf": false
+    }
+  ],
+  "parents": [
+    {
+      "code": "C36037",
+      "name": "Localized Neoplasm"
+    },
+    {
+      "code": "C170814",
+      "name": "Primary Brain Neoplasm"
+    }
+  ],
+  "roles": [
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12439",
+      "relatedName": "Brain"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12439",
+      "relatedName": "Brain"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12438",
+      "relatedName": "Central Nervous System"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12438",
+      "relatedName": "Central Nervous System"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C36162",
+      "relatedName": "Localized Disease"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C176551",
+      "relatedName": "Locally Recurrent Disease"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C40557",
+      "relatedName": "Metastatic Disease"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12922",
+      "relatedName": "Neoplastic Cell"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12755",
+      "relatedName": "Nervous System"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C48558",
+      "relatedName": "No Evidence of Metastatic Disease"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C40558",
+      "relatedName": "Primary Lesion"
+    },
+    {
+      "type": "Disease_Excludes_Primary_Anatomic_Site",
+      "relatedCode": "C12464",
+      "relatedName": "Spinal Cord"
+    }
+  ],
+  "history": [
+    {
+      "code": "C4952",
+      "action": "create",
+      "date": "2003-08-12"
+    },
+    {
+      "code": "C4952",
+      "action": "modify",
+      "date": "2003-10-31"
+    },
+    {
+      "code": "C4952",
+      "action": "modify",
+      "date": "2003-12-30"
+    },
+    {
+      "code": "C4952",
+      "action": "modify",
+      "date": "2004-03-30"
+    },
+    {
+      "code": "C4952",
+      "action": "modify",
+      "date": "2006-03-31"
+    },
+    {
+      "code": "C4952",
+      "action": "modify",
+      "date": "2009-04-06"
+    },
+    {
+      "code": "C4952",
+      "action": "modify",
+      "date": "2009-11-23"
+    },
+    {
+      "code": "C4952",
+      "action": "modify",
+      "date": "2010-01-11"
+    },
+    {
+      "code": "C4952",
+      "action": "modify",
+      "date": "2019-07-29"
+    },
+    {
+      "code": "C4952",
+      "action": "modify",
+      "date": "2019-08-26"
+    },
+    {
+      "code": "C4952",
+      "action": "modify",
+      "date": "2020-03-30"
+    },
+    {
+      "code": "C4952",
+      "action": "modify",
+      "date": "2020-08-31"
+    },
+    {
+      "code": "C4952",
+      "action": "modify",
+      "date": "2020-09-29"
+    },
+    {
+      "code": "C4952",
+      "action": "modify",
+      "date": "2020-12-28"
+    }
+  ]
+}

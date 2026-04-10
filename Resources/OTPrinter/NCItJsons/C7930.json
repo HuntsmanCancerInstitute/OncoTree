@@ -1,0 +1,704 @@
+{
+  "code": "C7930",
+  "name": "Lymphomatoid Granulomatosis",
+  "terminology": "ncit",
+  "version": "25.11d",
+  "conceptStatus": "DEFAULT",
+  "leaf": false,
+  "active": true,
+  "synonyms": [
+    {
+      "name": "Lymphomatoid Granulomatosis",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "caDSR"
+    },
+    {
+      "name": "Lymphomatoid granulomatosis",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "CTEP",
+      "code": "10025325",
+      "subSource": "SDC"
+    },
+    {
+      "name": "Lymphomatoid granulomatosis",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "GDC"
+    },
+    {
+      "name": "lymphomatoid granulomatosis",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NCI-GLOSS",
+      "code": "CDR0000045766"
+    },
+    {
+      "name": "LYG",
+      "termType": "AB",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Lymphomatoid Granulomatosis",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Lymphomatoid Granulomatosis",
+      "type": "Preferred_Name"
+    }
+  ],
+  "definitions": [
+    {
+      "definition": "An angiocentric and angiodestructive lymphoproliferative disease involving extranodal sites, comprised of Epstein-Barr virus (EBV)-positive B-cells admixed with reactive T-cells.  Incidence is higher among adult males; patients with a history of immunodeficiency are at increased risk.  The most common site of involvement is the lung; other common sites include brain, kidney, liver, and skin.  Morphologically, three grades are recognized: grade I, II, and III.  Grade III lymphomatoid granulomatosis should be approached clinically as a subtype of diffuse large B-cell lymphoma.",
+      "type": "DEFINITION",
+      "source": "NCI"
+    },
+    {
+      "definition": "Destructive growth of lymph cells, usually involving the lungs, skin, kidneys, and central nervous system. Grades I and II are not considered cancerous, but grade III is considered a lymphoma.",
+      "type": "ALT_DEFINITION",
+      "source": "NCI-GLOSS"
+    }
+  ],
+  "properties": [
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "CTEP"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "GDC"
+    },
+    {
+      "code": "P334",
+      "type": "ICD-O-3_Code",
+      "value": "9766/1"
+    },
+    {
+      "code": "P366",
+      "type": "Legacy Concept Name",
+      "value": "Lymphomatoid_Granulomatosis"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "9766/1"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "Lymphomatoid granulomatosis"
+    },
+    {
+      "code": "P363",
+      "type": "Neoplastic_Status",
+      "value": "Uncertain Malignant Potential"
+    },
+    {
+      "code": "P106",
+      "type": "Semantic_Type",
+      "value": "Neoplastic Process"
+    },
+    {
+      "code": "P207",
+      "type": "UMLS_CUI",
+      "value": "C0024307"
+    }
+  ],
+  "children": [
+    {
+      "code": "C186662",
+      "name": "Central Nervous System Lymphomatoid Granulomatosis",
+      "leaf": true
+    },
+    {
+      "code": "C123392",
+      "name": "Childhood Lymphomatoid Granulomatosis",
+      "leaf": false
+    },
+    {
+      "code": "C45267",
+      "name": "Cutaneous Lymphomatoid Granulomatosis",
+      "leaf": true
+    },
+    {
+      "code": "C7931",
+      "name": "Grade I Lymphomatoid Granulomatosis",
+      "leaf": false
+    },
+    {
+      "code": "C7932",
+      "name": "Grade II Lymphomatoid Granulomatosis",
+      "leaf": false
+    },
+    {
+      "code": "C7933",
+      "name": "Grade III Lymphomatoid Granulomatosis",
+      "leaf": false
+    },
+    {
+      "code": "C45607",
+      "name": "Pulmonary Lymphomatoid Granulomatosis",
+      "leaf": true
+    },
+    {
+      "code": "C7934",
+      "name": "Recurrent Lymphomatoid Granulomatosis",
+      "leaf": false
+    },
+    {
+      "code": "C202989",
+      "name": "Refractory Lymphomatoid Granulomatosis",
+      "leaf": true
+    }
+  ],
+  "parents": [
+    {
+      "code": "C40970",
+      "name": "Angiocentric Immunoproliferative Lesion"
+    },
+    {
+      "code": "C7182",
+      "name": "B-Cell Proliferation of Uncertain Malignant Potential"
+    }
+  ],
+  "associations": [
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C157711",
+      "relatedName": "GDC Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C177537",
+      "relatedName": "GDC Value Terminology"
+    },
+    {
+      "type": "Is_Value_For_GDC_Property",
+      "relatedCode": "C176985",
+      "relatedName": "Histology ICD-O Morphology Code"
+    },
+    {
+      "type": "Is_Value_For_GDC_Property",
+      "relatedCode": "C177621",
+      "relatedName": "ICD-O-3 Morphology Term Diagnosis Question"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C103134",
+      "relatedName": "NCI CTEP SDC B-Cell Proliferations of Uncertain Malignant Potential Sub-Category Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C102905",
+      "relatedName": "NCI CTEP Simplified Disease Classification Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C126659",
+      "relatedName": "NCIt Neoplasm Core Terminology"
+    }
+  ],
+  "inverseAssociations": [
+    {
+      "type": "Has_GDC_Value",
+      "relatedCode": "C176985",
+      "relatedName": "Histology ICD-O Morphology Code"
+    },
+    {
+      "type": "Has_GDC_Value",
+      "relatedCode": "C177621",
+      "relatedName": "ICD-O-3 Morphology Term Diagnosis Question"
+    }
+  ],
+  "roles": [
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36987",
+      "relatedName": "Abnormal Hematopoietic and Lymphoid Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36725",
+      "relatedName": "Abnormal Lymphocyte"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C35905",
+      "relatedName": "Angiocentric Pattern"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C35906",
+      "relatedName": "Angiodestructive Pattern"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C12474",
+      "relatedName": "B-Lymphocyte"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C36116",
+      "relatedName": "Borderline Lesion"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C35980",
+      "relatedName": "Chronic Inflammatory Infiltrate"
+    },
+    {
+      "type": "Disease_Has_Associated_Disease",
+      "relatedCode": "C38759",
+      "relatedName": "EBV Infection"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C80283",
+      "relatedName": "EBV-Transformed Mature B-Lymphocyte"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C129454",
+      "relatedName": "Epstein-Barr Virus Positive"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C3038",
+      "relatedName": "Fever"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C41165",
+      "relatedName": "Hematopoietic and Lymphatic System"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C41165",
+      "relatedName": "Hematopoietic and Lymphatic System"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C32725",
+      "relatedName": "Hematopoietic and Lymphoid Cell"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C41168",
+      "relatedName": "Hematopoietic and Lymphoid Tissue"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12746",
+      "relatedName": "Lymphatic System"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12746",
+      "relatedName": "Lymphatic System"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C12535",
+      "relatedName": "Lymphocyte"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C13049",
+      "relatedName": "Lymphoid Tissue"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C3832",
+      "relatedName": "Malaise"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C33058",
+      "relatedName": "Mature B-Lymphocyte"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C38439",
+      "relatedName": "Mature Lymphocyte"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C3244",
+      "relatedName": "Musculoskeletal Pain"
+    },
+    {
+      "type": "Disease_Excludes_Normal_Cell_Origin",
+      "relatedCode": "C12549",
+      "relatedName": "Myeloid Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C38640",
+      "relatedName": "Neoplastic B-Lymphocyte"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12922",
+      "relatedName": "Neoplastic Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C37060",
+      "relatedName": "Neoplastic Hematopoietic and Lymphoid Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36988",
+      "relatedName": "Neoplastic Lymphocyte"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C39566",
+      "relatedName": "Neoplastic T-Lymphocyte and Neoplastic Natural Killer Cell"
+    },
+    {
+      "type": "Disease_Excludes_Normal_Cell_Origin",
+      "relatedCode": "C33931",
+      "relatedName": "Precursor B-Lymphoblast"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C3445",
+      "relatedName": "Weight Loss"
+    }
+  ],
+  "history": [
+    {
+      "code": "C7930",
+      "action": "create",
+      "date": "2003-08-12"
+    },
+    {
+      "code": "C7930",
+      "action": "modify",
+      "date": "2003-10-31"
+    },
+    {
+      "code": "C7930",
+      "action": "modify",
+      "date": "2003-12-30"
+    },
+    {
+      "code": "C7930",
+      "action": "modify",
+      "date": "2004-03-30"
+    },
+    {
+      "code": "C7930",
+      "action": "modify",
+      "date": "2004-04-30"
+    },
+    {
+      "code": "C7930",
+      "action": "modify",
+      "date": "2004-05-28"
+    },
+    {
+      "code": "C7930",
+      "action": "modify",
+      "date": "2004-09-10"
+    },
+    {
+      "code": "C7930",
+      "action": "modify",
+      "date": "2005-04-29"
+    },
+    {
+      "code": "C7930",
+      "action": "modify",
+      "date": "2009-11-23"
+    },
+    {
+      "code": "C7930",
+      "action": "modify",
+      "date": "2011-03-07"
+    },
+    {
+      "code": "C7930",
+      "action": "modify",
+      "date": "2012-07-30"
+    },
+    {
+      "code": "C7930",
+      "action": "modify",
+      "date": "2012-09-24"
+    },
+    {
+      "code": "C7930",
+      "action": "modify",
+      "date": "2012-10-01"
+    },
+    {
+      "code": "C7930",
+      "action": "modify",
+      "date": "2012-10-09"
+    },
+    {
+      "code": "C7930",
+      "action": "modify",
+      "date": "2012-10-15"
+    },
+    {
+      "code": "C7930",
+      "action": "modify",
+      "date": "2012-10-22"
+    },
+    {
+      "code": "C7930",
+      "action": "modify",
+      "date": "2012-10-31"
+    },
+    {
+      "code": "C7930",
+      "action": "modify",
+      "date": "2012-11-05"
+    },
+    {
+      "code": "C7930",
+      "action": "modify",
+      "date": "2012-11-13"
+    },
+    {
+      "code": "C7930",
+      "action": "modify",
+      "date": "2012-11-19"
+    },
+    {
+      "code": "C7930",
+      "action": "modify",
+      "date": "2012-11-26"
+    },
+    {
+      "code": "C7930",
+      "action": "modify",
+      "date": "2012-12-03"
+    },
+    {
+      "code": "C7930",
+      "action": "modify",
+      "date": "2012-12-10"
+    },
+    {
+      "code": "C7930",
+      "action": "modify",
+      "date": "2012-12-17"
+    },
+    {
+      "code": "C7930",
+      "action": "modify",
+      "date": "2012-12-28"
+    },
+    {
+      "code": "C7930",
+      "action": "modify",
+      "date": "2013-01-07"
+    },
+    {
+      "code": "C7930",
+      "action": "modify",
+      "date": "2013-01-14"
+    },
+    {
+      "code": "C7930",
+      "action": "modify",
+      "date": "2013-01-23"
+    },
+    {
+      "code": "C7930",
+      "action": "modify",
+      "date": "2013-02-04"
+    },
+    {
+      "code": "C7930",
+      "action": "modify",
+      "date": "2013-02-11"
+    },
+    {
+      "code": "C7930",
+      "action": "modify",
+      "date": "2013-02-19"
+    },
+    {
+      "code": "C7930",
+      "action": "modify",
+      "date": "2013-02-25"
+    },
+    {
+      "code": "C7930",
+      "action": "modify",
+      "date": "2013-03-04"
+    },
+    {
+      "code": "C7930",
+      "action": "modify",
+      "date": "2013-03-11"
+    },
+    {
+      "code": "C7930",
+      "action": "modify",
+      "date": "2013-03-18"
+    },
+    {
+      "code": "C7930",
+      "action": "modify",
+      "date": "2013-03-25"
+    },
+    {
+      "code": "C7930",
+      "action": "modify",
+      "date": "2013-04-01"
+    },
+    {
+      "code": "C7930",
+      "action": "modify",
+      "date": "2013-04-08"
+    },
+    {
+      "code": "C7930",
+      "action": "modify",
+      "date": "2013-04-15"
+    },
+    {
+      "code": "C7930",
+      "action": "modify",
+      "date": "2013-04-22"
+    },
+    {
+      "code": "C7930",
+      "action": "modify",
+      "date": "2013-04-29"
+    },
+    {
+      "code": "C7930",
+      "action": "modify",
+      "date": "2013-05-06"
+    },
+    {
+      "code": "C7930",
+      "action": "modify",
+      "date": "2013-05-13"
+    },
+    {
+      "code": "C7930",
+      "action": "modify",
+      "date": "2013-05-20"
+    },
+    {
+      "code": "C7930",
+      "action": "modify",
+      "date": "2013-05-28"
+    },
+    {
+      "code": "C7930",
+      "action": "modify",
+      "date": "2013-06-03"
+    },
+    {
+      "code": "C7930",
+      "action": "modify",
+      "date": "2013-06-10"
+    },
+    {
+      "code": "C7930",
+      "action": "modify",
+      "date": "2013-06-17"
+    },
+    {
+      "code": "C7930",
+      "action": "modify",
+      "date": "2013-06-24"
+    },
+    {
+      "code": "C7930",
+      "action": "modify",
+      "date": "2013-07-01"
+    },
+    {
+      "code": "C7930",
+      "action": "modify",
+      "date": "2013-07-08"
+    },
+    {
+      "code": "C7930",
+      "action": "modify",
+      "date": "2016-04-25"
+    },
+    {
+      "code": "C7930",
+      "action": "modify",
+      "date": "2016-06-13"
+    },
+    {
+      "code": "C7930",
+      "action": "modify",
+      "date": "2018-09-24"
+    },
+    {
+      "code": "C7930",
+      "action": "modify",
+      "date": "2018-11-26"
+    },
+    {
+      "code": "C7930",
+      "action": "modify",
+      "date": "2019-04-29"
+    },
+    {
+      "code": "C7930",
+      "action": "modify",
+      "date": "2019-05-28"
+    },
+    {
+      "code": "C7930",
+      "action": "modify",
+      "date": "2019-09-30"
+    },
+    {
+      "code": "C7930",
+      "action": "modify",
+      "date": "2019-11-25"
+    },
+    {
+      "code": "C7930",
+      "action": "modify",
+      "date": "2020-09-29"
+    },
+    {
+      "code": "C7930",
+      "action": "modify",
+      "date": "2021-02-22"
+    },
+    {
+      "code": "C7930",
+      "action": "modify",
+      "date": "2021-03-29"
+    }
+  ],
+  "maps": [
+    {
+      "type": "Related To",
+      "targetName": "9766/1",
+      "targetTermType": "PT",
+      "targetCode": "morphology",
+      "targetTerminology": "GDC"
+    },
+    {
+      "type": "Has Synonym",
+      "targetName": "Lymphomatoid granulomatosis",
+      "targetTermType": "PT",
+      "targetCode": "primary_diagnosis",
+      "targetTerminology": "GDC"
+    }
+  ]
+}

@@ -1,0 +1,351 @@
+{
+  "code": "C45544",
+  "name": "Lung Mucoepidermoid Carcinoma",
+  "terminology": "ncit",
+  "version": "25.11d",
+  "conceptStatus": "DEFAULT",
+  "leaf": true,
+  "active": true,
+  "synonyms": [
+    {
+      "name": "Lung Mucoepidermoid Carcinoma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "Cellosaurus"
+    },
+    {
+      "name": "Lung Mucoepidermoid Cancer",
+      "termType": "DN",
+      "type": "FULL_SYN",
+      "source": "CTRP"
+    },
+    {
+      "name": "Lung Mucoepidermoid Carcinoma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Lung Mucoepidermoid Carcinoma",
+      "type": "Display_Name"
+    },
+    {
+      "name": "Lung Mucoepidermoid Carcinoma",
+      "type": "Preferred_Name"
+    }
+  ],
+  "definitions": [
+    {
+      "definition": "A lung carcinoma characterized by the presence of malignant non-keratinizing squamoid cells, mucin-producing cells and intermediate type cells.",
+      "type": "DEFINITION",
+      "source": "NCI"
+    }
+  ],
+  "properties": [
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "Cellosaurus"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "CTRP"
+    },
+    {
+      "code": "P366",
+      "type": "Legacy Concept Name",
+      "value": "Lung_Mucoepidermoid_Carcinoma"
+    },
+    {
+      "code": "P363",
+      "type": "Neoplastic_Status",
+      "value": "Malignant"
+    },
+    {
+      "code": "P106",
+      "type": "Semantic_Type",
+      "value": "Neoplastic Process"
+    },
+    {
+      "code": "P207",
+      "type": "UMLS_CUI",
+      "value": "C1708778"
+    }
+  ],
+  "parents": [
+    {
+      "code": "C4878",
+      "name": "Lung Carcinoma"
+    },
+    {
+      "code": "C3772",
+      "name": "Mucoepidermoid Carcinoma"
+    },
+    {
+      "code": "C223194",
+      "name": "Primary Pulmonary Salivary Gland-Type Tumor"
+    }
+  ],
+  "associations": [
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C165258",
+      "relatedName": "Cellosaurus Disease Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C118168",
+      "relatedName": "CTRP Disease Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C116977",
+      "relatedName": "CTRP Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C126659",
+      "relatedName": "NCIt Neoplasm Core Terminology"
+    }
+  ],
+  "roles": [
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C36122",
+      "relatedName": "Benign Cellular Infiltrate"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C223195",
+      "relatedName": "Bronchial Submucosal Gland"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C54172",
+      "relatedName": "Carcinomatous Component Present"
+    },
+    {
+      "type": "Disease_May_Have_Molecular_Abnormality",
+      "relatedCode": "C54218",
+      "relatedName": "CRTC1-MAML2 Fusion Protein Expression"
+    },
+    {
+      "type": "Disease_Mapped_To_Gene",
+      "relatedCode": "C99741",
+      "relatedName": "CRTC1/MAML2 Fusion Gene"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C41454",
+      "relatedName": "Cystic Change"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C12578",
+      "relatedName": "Epithelial Cell"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C53596",
+      "relatedName": "Epithelial Component Present"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C45714",
+      "relatedName": "Epithelial Tissue"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C36178",
+      "relatedName": "Fibrotic Stroma Formation"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C36186",
+      "relatedName": "Globular Hyaline Body"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12468",
+      "relatedName": "Lung"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12468",
+      "relatedName": "Lung"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12917",
+      "relatedName": "Malignant Cell"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C36115",
+      "relatedName": "Malignant Cellular Infiltrate"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C47811",
+      "relatedName": "Malignant Cuboidal Mucous Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36779",
+      "relatedName": "Malignant Epithelial Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C47812",
+      "relatedName": "Malignant Goblet-Like Mucous Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C47808",
+      "relatedName": "Malignant Squamoid Cell"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C37153",
+      "relatedName": "Malignant Stromal Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C54219",
+      "relatedName": "Mucin-Producing Malignant Epithelial Cell"
+    },
+    {
+      "type": "Disease_Excludes_Primary_Anatomic_Site",
+      "relatedCode": "C13063",
+      "relatedName": "Neck"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12922",
+      "relatedName": "Neoplastic Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36753",
+      "relatedName": "Neoplastic Epithelial Cell"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C36937",
+      "relatedName": "Neoplastic Smooth Muscle Cell"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C42624",
+      "relatedName": "Premalignant Lesion"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12779",
+      "relatedName": "Respiratory System"
+    },
+    {
+      "type": "Disease_May_Have_Cytogenetic_Abnormality",
+      "relatedCode": "C54217",
+      "relatedName": "t(11;19)(q21;p13)"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12905",
+      "relatedName": "Thoracic Cavity"
+    },
+    {
+      "type": "Disease_Mapped_To_Gene",
+      "relatedCode": "C17359",
+      "relatedName": "TP53 Gene"
+    }
+  ],
+  "history": [
+    {
+      "code": "C45544",
+      "action": "create",
+      "date": "2005-04-29"
+    },
+    {
+      "code": "C45544",
+      "action": "modify",
+      "date": "2005-06-24"
+    },
+    {
+      "code": "C45544",
+      "action": "modify",
+      "date": "2006-03-31"
+    },
+    {
+      "code": "C45544",
+      "action": "modify",
+      "date": "2006-04-28"
+    },
+    {
+      "code": "C45544",
+      "action": "modify",
+      "date": "2009-04-06"
+    },
+    {
+      "code": "C45544",
+      "action": "modify",
+      "date": "2009-11-23"
+    },
+    {
+      "code": "C45544",
+      "action": "modify",
+      "date": "2014-02-03"
+    },
+    {
+      "code": "C45544",
+      "action": "modify",
+      "date": "2014-03-10"
+    },
+    {
+      "code": "C45544",
+      "action": "modify",
+      "date": "2016-04-25"
+    },
+    {
+      "code": "C45544",
+      "action": "modify",
+      "date": "2017-07-31"
+    },
+    {
+      "code": "C45544",
+      "action": "modify",
+      "date": "2018-07-30"
+    },
+    {
+      "code": "C45544",
+      "action": "modify",
+      "date": "2018-08-27"
+    },
+    {
+      "code": "C45544",
+      "action": "modify",
+      "date": "2018-08-27"
+    },
+    {
+      "code": "C45544",
+      "action": "modify",
+      "date": "2019-10-28"
+    },
+    {
+      "code": "C45544",
+      "action": "modify",
+      "date": "2023-02-27"
+    },
+    {
+      "code": "C45544",
+      "action": "modify",
+      "date": "2025-03-31"
+    },
+    {
+      "code": "C45544",
+      "action": "modify",
+      "date": "2025-11-24"
+    }
+  ]
+}

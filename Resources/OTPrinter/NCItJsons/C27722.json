@@ -1,0 +1,453 @@
+{
+  "code": "C27722",
+  "name": "Myelodysplastic Syndrome Post Cytotoxic Therapy",
+  "terminology": "ncit",
+  "version": "25.11d",
+  "conceptStatus": "DEFAULT",
+  "leaf": false,
+  "active": true,
+  "synonyms": [
+    {
+      "name": "MDS Post Cytotoxic Therapy",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "MDS-pCT",
+      "termType": "AB",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Myelodysplastic Syndrome Post Cytotoxic Therapy",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "t-MDS",
+      "termType": "AB",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Therapy Related Myelodysplastic Syndrome",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Therapy-Related MDS",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Therapy-Related Myelodysplastic Syndrome",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Myelodysplastic Syndrome Post Cytotoxic Therapy",
+      "type": "Preferred_Name"
+    }
+  ],
+  "definitions": [
+    {
+      "definition": "A myelodysplastic syndrome resulting from chemotherapy or radiation therapy for cancer.",
+      "type": "DEFINITION",
+      "source": "NCI"
+    }
+  ],
+  "properties": [
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "GDC"
+    },
+    {
+      "code": "P334",
+      "type": "ICD-O-3_Code",
+      "value": "9987/3"
+    },
+    {
+      "code": "P366",
+      "type": "Legacy Concept Name",
+      "value": "Therapy-Related_Myelodysplastic_Syndrome"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "9987/3"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "Therapy-related myelodysplastic syndrome, NOS"
+    },
+    {
+      "code": "P363",
+      "type": "Neoplastic_Status",
+      "value": "Malignant"
+    },
+    {
+      "code": "P106",
+      "type": "Semantic_Type",
+      "value": "Neoplastic Process"
+    },
+    {
+      "code": "P207",
+      "type": "UMLS_CUI",
+      "value": "C1292780"
+    }
+  ],
+  "children": [
+    {
+      "code": "C7643",
+      "name": "Alkylating Agent-Related Myelodysplastic Syndrome",
+      "leaf": true
+    },
+    {
+      "code": "C7642",
+      "name": "Epipodophyllotoxin-Related Myelodysplastic Syndrome",
+      "leaf": true
+    }
+  ],
+  "parents": [
+    {
+      "code": "C27912",
+      "name": "Myeloid Neoplasm Post Cytotoxic Therapy"
+    },
+    {
+      "code": "C27280",
+      "name": "Secondary Myelodysplastic Syndrome"
+    }
+  ],
+  "associations": [
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C157711",
+      "relatedName": "GDC Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C177537",
+      "relatedName": "GDC Value Terminology"
+    },
+    {
+      "type": "Is_Value_For_GDC_Property",
+      "relatedCode": "C176985",
+      "relatedName": "Histology ICD-O Morphology Code"
+    },
+    {
+      "type": "Is_Value_For_GDC_Property",
+      "relatedCode": "C177621",
+      "relatedName": "ICD-O-3 Morphology Term Diagnosis Question"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168658",
+      "relatedName": "Mapped ICDO3.1 Morphology PT Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168657",
+      "relatedName": "Mapped ICDO3.1 Morphology Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168655",
+      "relatedName": "Mapped ICDO3.1 Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168662",
+      "relatedName": "Mapped ICDO3.2 Morphology PT Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168661",
+      "relatedName": "Mapped ICDO3.2 Morphology Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168656",
+      "relatedName": "Mapped ICDO3.2 Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C126659",
+      "relatedName": "NCIt Neoplasm Core Terminology"
+    }
+  ],
+  "inverseAssociations": [
+    {
+      "type": "Has_GDC_Value",
+      "relatedCode": "C176985",
+      "relatedName": "Histology ICD-O Morphology Code"
+    },
+    {
+      "type": "Has_GDC_Value",
+      "relatedCode": "C177621",
+      "relatedName": "ICD-O-3 Morphology Term Diagnosis Question"
+    }
+  ],
+  "roles": [
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C36122",
+      "relatedName": "Benign Cellular Infiltrate"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C36235",
+      "relatedName": "Bone Marrow Dysplasia Present"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C13456",
+      "relatedName": "Bone Marrow Stem Cell"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12431",
+      "relatedName": "Bone Marrow"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12431",
+      "relatedName": "Bone Marrow"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C41165",
+      "relatedName": "Hematopoietic and Lymphatic System"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C41165",
+      "relatedName": "Hematopoietic and Lymphatic System"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C32725",
+      "relatedName": "Hematopoietic and Lymphoid Cell"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C41168",
+      "relatedName": "Hematopoietic and Lymphoid Tissue"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C13051",
+      "relatedName": "Hematopoietic Tissue"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C35788",
+      "relatedName": "Hypercellular Bone Marrow"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C36252",
+      "relatedName": "Ineffective Hematopoiesis"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12917",
+      "relatedName": "Malignant Cell"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C36115",
+      "relatedName": "Malignant Cellular Infiltrate"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C36216",
+      "relatedName": "Myeloblasts Under 20 Percent of Bone Marrow Nucleated Cells"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C36223",
+      "relatedName": "Myeloblasts Under 20 Percent of Peripheral Blood White Cells"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12922",
+      "relatedName": "Neoplastic Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C37060",
+      "relatedName": "Neoplastic Hematopoietic and Lymphoid Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C41063",
+      "relatedName": "Neoplastic Myeloid Cell"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C41444",
+      "relatedName": "Secondary Lesion"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C42607",
+      "relatedName": "Therapy-Related Toxicity"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C42607",
+      "relatedName": "Therapy-Related Toxicity"
+    }
+  ],
+  "history": [
+    {
+      "code": "C27722",
+      "action": "create",
+      "date": "2003-08-12"
+    },
+    {
+      "code": "C27722",
+      "action": "modify",
+      "date": "2003-10-31"
+    },
+    {
+      "code": "C27722",
+      "action": "modify",
+      "date": "2003-12-30"
+    },
+    {
+      "code": "C27722",
+      "action": "modify",
+      "date": "2004-03-30"
+    },
+    {
+      "code": "C27722",
+      "action": "modify",
+      "date": "2004-12-30"
+    },
+    {
+      "code": "C27722",
+      "action": "modify",
+      "date": "2007-03-30"
+    },
+    {
+      "code": "C27722",
+      "action": "modify",
+      "date": "2007-06-28"
+    },
+    {
+      "code": "C27722",
+      "action": "modify",
+      "date": "2009-04-06"
+    },
+    {
+      "code": "C27722",
+      "action": "modify",
+      "date": "2009-07-13"
+    },
+    {
+      "code": "C27722",
+      "action": "modify",
+      "date": "2009-11-23"
+    },
+    {
+      "code": "C27722",
+      "action": "modify",
+      "date": "2014-02-03"
+    },
+    {
+      "code": "C27722",
+      "action": "modify",
+      "date": "2016-04-25"
+    },
+    {
+      "code": "C27722",
+      "action": "modify",
+      "date": "2017-09-26"
+    },
+    {
+      "code": "C27722",
+      "action": "modify",
+      "date": "2018-09-24"
+    },
+    {
+      "code": "C27722",
+      "action": "modify",
+      "date": "2019-05-28"
+    },
+    {
+      "code": "C27722",
+      "action": "modify",
+      "date": "2019-09-30"
+    },
+    {
+      "code": "C27722",
+      "action": "modify",
+      "date": "2020-02-24"
+    },
+    {
+      "code": "C27722",
+      "action": "modify",
+      "date": "2020-03-30"
+    },
+    {
+      "code": "C27722",
+      "action": "modify",
+      "date": "2020-04-27"
+    },
+    {
+      "code": "C27722",
+      "action": "modify",
+      "date": "2021-02-22"
+    },
+    {
+      "code": "C27722",
+      "action": "modify",
+      "date": "2021-03-29"
+    },
+    {
+      "code": "C27722",
+      "action": "modify",
+      "date": "2023-07-31"
+    }
+  ],
+  "maps": [
+    {
+      "type": "Related To",
+      "targetName": "9987/3",
+      "targetTermType": "PT",
+      "targetCode": "morphology",
+      "targetTerminology": "GDC"
+    },
+    {
+      "type": "Related To",
+      "targetName": "Therapy-related myelodysplastic syndrome, NOS",
+      "targetTermType": "PT",
+      "targetCode": "9987/3",
+      "targetTerminology": "ICDO3",
+      "targetTerminologyVersion": "3.2"
+    },
+    {
+      "type": "Related To",
+      "targetName": "Therapy-related myelodysplastic syndrome, NOS",
+      "targetTermType": "PT",
+      "targetCode": "9987/3",
+      "targetTerminology": "ICDO3",
+      "targetTerminologyVersion": "3.1"
+    },
+    {
+      "type": "Related To",
+      "targetName": "Therapy-related myelodysplastic syndrome, NOS",
+      "targetTermType": "PT",
+      "targetCode": "primary_diagnosis",
+      "targetTerminology": "GDC"
+    }
+  ]
+}

@@ -1,0 +1,565 @@
+{
+  "code": "C3801",
+  "name": "Hemangioblastoma",
+  "terminology": "ncit",
+  "version": "25.11d",
+  "conceptStatus": "DEFAULT",
+  "leaf": false,
+  "active": true,
+  "synonyms": [
+    {
+      "name": "Hemangioblastoma",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "caDSR"
+    },
+    {
+      "name": "Angioblastoma",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "GDC"
+    },
+    {
+      "name": "Haemangioblastoma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "GDC"
+    },
+    {
+      "name": "Angioblastoma",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Capillary Hemangioblastoma",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Hemangioblastoma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Hemangioblastoma",
+      "type": "Preferred_Name"
+    }
+  ],
+  "definitions": [
+    {
+      "definition": "A rare, highly vascular tumor that is composed of abundant capillaries and stromal cells. It arises from the central nervous system and infrequently other sites. It is a slow growing tumor with a low risk of metastasis, despite its benign histological features.",
+      "type": "DEFINITION",
+      "source": "NCI"
+    }
+  ],
+  "properties": [
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "GDC"
+    },
+    {
+      "code": "P334",
+      "type": "ICD-O-3_Code",
+      "value": "9161/1"
+    },
+    {
+      "code": "P366",
+      "type": "Legacy Concept Name",
+      "value": "Hemangioblastoma"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "9161/1"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "Angioblastoma"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "Haemangioblastoma"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "Hemangioblastoma"
+    },
+    {
+      "code": "P363",
+      "type": "Neoplastic_Status",
+      "value": "Undetermined"
+    },
+    {
+      "code": "P106",
+      "type": "Semantic_Type",
+      "value": "Neoplastic Process"
+    },
+    {
+      "code": "P207",
+      "type": "UMLS_CUI",
+      "value": "C0206734"
+    }
+  ],
+  "children": [
+    {
+      "code": "C7007",
+      "name": "Central Nervous System Hemangioblastoma",
+      "leaf": false
+    },
+    {
+      "code": "C157450",
+      "name": "Peripheral Hemangioblastoma",
+      "leaf": false
+    }
+  ],
+  "parents": [
+    {
+      "code": "C7387",
+      "name": "Blood Vessel Neoplasm"
+    }
+  ],
+  "associations": [
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C157711",
+      "relatedName": "GDC Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C177537",
+      "relatedName": "GDC Value Terminology"
+    },
+    {
+      "type": "Is_Value_For_GDC_Property",
+      "relatedCode": "C176985",
+      "relatedName": "Histology ICD-O Morphology Code"
+    },
+    {
+      "type": "Is_Value_For_GDC_Property",
+      "relatedCode": "C177621",
+      "relatedName": "ICD-O-3 Morphology Term Diagnosis Question"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168658",
+      "relatedName": "Mapped ICDO3.1 Morphology PT Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168657",
+      "relatedName": "Mapped ICDO3.1 Morphology Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168655",
+      "relatedName": "Mapped ICDO3.1 Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168662",
+      "relatedName": "Mapped ICDO3.2 Morphology PT Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168661",
+      "relatedName": "Mapped ICDO3.2 Morphology Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168656",
+      "relatedName": "Mapped ICDO3.2 Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C126659",
+      "relatedName": "NCIt Neoplasm Core Terminology"
+    }
+  ],
+  "inverseAssociations": [
+    {
+      "type": "Has_GDC_Value",
+      "relatedCode": "C176985",
+      "relatedName": "Histology ICD-O Morphology Code"
+    },
+    {
+      "type": "Has_GDC_Value",
+      "relatedCode": "C177621",
+      "relatedName": "ICD-O-3 Morphology Term Diagnosis Question"
+    }
+  ],
+  "roles": [
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C53395",
+      "relatedName": "Blood Vessel Endothelium"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12679",
+      "relatedName": "Blood Vessel"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C51134",
+      "relatedName": "Capillary Sized Vascular Channel Formation"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12686",
+      "relatedName": "Cardiovascular System"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C12865",
+      "relatedName": "Endothelial Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12922",
+      "relatedName": "Neoplastic Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C37088",
+      "relatedName": "Neoplastic Endothelial Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C54090",
+      "relatedName": "Neoplastic Vacuolated Stromal Cell"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C41458",
+      "relatedName": "Slow Growing Mass"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C35976",
+      "relatedName": "Vascular Channel Formation"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C13053",
+      "relatedName": "Vascular Endothelium"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C33854",
+      "relatedName": "Vascular System"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C33854",
+      "relatedName": "Vascular System"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C41457",
+      "relatedName": "Well-Circumscribed Lesion"
+    }
+  ],
+  "history": [
+    {
+      "code": "C3801",
+      "action": "create",
+      "date": "2003-08-12"
+    },
+    {
+      "code": "C3801",
+      "action": "modify",
+      "date": "2003-10-31"
+    },
+    {
+      "code": "C3801",
+      "action": "modify",
+      "date": "2003-12-30"
+    },
+    {
+      "code": "C3801",
+      "action": "modify",
+      "date": "2004-03-30"
+    },
+    {
+      "code": "C3801",
+      "action": "modify",
+      "date": "2004-08-02"
+    },
+    {
+      "code": "C3801",
+      "action": "modify",
+      "date": "2004-09-10"
+    },
+    {
+      "code": "C3801",
+      "action": "modify",
+      "date": "2006-03-31"
+    },
+    {
+      "code": "C3801",
+      "action": "modify",
+      "date": "2007-03-30"
+    },
+    {
+      "code": "C3801",
+      "action": "modify",
+      "date": "2007-06-28"
+    },
+    {
+      "code": "C3801",
+      "action": "modify",
+      "date": "2009-04-06"
+    },
+    {
+      "code": "C3801",
+      "action": "modify",
+      "date": "2009-10-27"
+    },
+    {
+      "code": "C3801",
+      "action": "modify",
+      "date": "2009-11-23"
+    },
+    {
+      "code": "C3801",
+      "action": "modify",
+      "date": "2010-10-25"
+    },
+    {
+      "code": "C3801",
+      "action": "modify",
+      "date": "2010-11-01"
+    },
+    {
+      "code": "C3801",
+      "action": "modify",
+      "date": "2012-01-17"
+    },
+    {
+      "code": "C3801",
+      "action": "modify",
+      "date": "2013-02-25"
+    },
+    {
+      "code": "C3801",
+      "action": "modify",
+      "date": "2013-03-04"
+    },
+    {
+      "code": "C3801",
+      "action": "modify",
+      "date": "2013-03-11"
+    },
+    {
+      "code": "C3801",
+      "action": "modify",
+      "date": "2013-03-18"
+    },
+    {
+      "code": "C3801",
+      "action": "modify",
+      "date": "2013-03-25"
+    },
+    {
+      "code": "C3801",
+      "action": "modify",
+      "date": "2013-04-01"
+    },
+    {
+      "code": "C3801",
+      "action": "modify",
+      "date": "2013-04-08"
+    },
+    {
+      "code": "C3801",
+      "action": "modify",
+      "date": "2013-04-15"
+    },
+    {
+      "code": "C3801",
+      "action": "modify",
+      "date": "2013-04-22"
+    },
+    {
+      "code": "C3801",
+      "action": "modify",
+      "date": "2013-04-29"
+    },
+    {
+      "code": "C3801",
+      "action": "modify",
+      "date": "2013-05-06"
+    },
+    {
+      "code": "C3801",
+      "action": "modify",
+      "date": "2013-05-13"
+    },
+    {
+      "code": "C3801",
+      "action": "modify",
+      "date": "2013-05-20"
+    },
+    {
+      "code": "C3801",
+      "action": "modify",
+      "date": "2013-05-28"
+    },
+    {
+      "code": "C3801",
+      "action": "modify",
+      "date": "2013-06-03"
+    },
+    {
+      "code": "C3801",
+      "action": "modify",
+      "date": "2013-06-10"
+    },
+    {
+      "code": "C3801",
+      "action": "modify",
+      "date": "2013-06-17"
+    },
+    {
+      "code": "C3801",
+      "action": "modify",
+      "date": "2013-06-24"
+    },
+    {
+      "code": "C3801",
+      "action": "modify",
+      "date": "2013-07-01"
+    },
+    {
+      "code": "C3801",
+      "action": "modify",
+      "date": "2013-07-08"
+    },
+    {
+      "code": "C3801",
+      "action": "modify",
+      "date": "2014-02-03"
+    },
+    {
+      "code": "C3801",
+      "action": "modify",
+      "date": "2016-04-25"
+    },
+    {
+      "code": "C3801",
+      "action": "modify",
+      "date": "2018-09-24"
+    },
+    {
+      "code": "C3801",
+      "action": "modify",
+      "date": "2018-10-29"
+    },
+    {
+      "code": "C3801",
+      "action": "modify",
+      "date": "2018-10-29"
+    },
+    {
+      "code": "C3801",
+      "action": "modify",
+      "date": "2019-05-28"
+    },
+    {
+      "code": "C3801",
+      "action": "modify",
+      "date": "2019-09-30"
+    },
+    {
+      "code": "C3801",
+      "action": "modify",
+      "date": "2019-11-25"
+    },
+    {
+      "code": "C3801",
+      "action": "modify",
+      "date": "2020-02-24"
+    },
+    {
+      "code": "C3801",
+      "action": "modify",
+      "date": "2020-04-27"
+    },
+    {
+      "code": "C3801",
+      "action": "modify",
+      "date": "2020-09-29"
+    },
+    {
+      "code": "C3801",
+      "action": "modify",
+      "date": "2021-02-22"
+    },
+    {
+      "code": "C3801",
+      "action": "modify",
+      "date": "2021-03-29"
+    },
+    {
+      "code": "C3801",
+      "action": "modify",
+      "date": "2022-12-27"
+    },
+    {
+      "code": "C3801",
+      "action": "modify",
+      "date": "2023-12-26"
+    },
+    {
+      "code": "C3801",
+      "action": "modify",
+      "date": "2024-07-29"
+    }
+  ],
+  "maps": [
+    {
+      "type": "Related To",
+      "targetName": "9161/1",
+      "targetTermType": "PT",
+      "targetCode": "morphology",
+      "targetTerminology": "GDC"
+    },
+    {
+      "type": "Has Synonym",
+      "targetName": "Angioblastoma",
+      "targetTermType": "PT",
+      "targetCode": "primary_diagnosis",
+      "targetTerminology": "GDC"
+    },
+    {
+      "type": "Has Synonym",
+      "targetName": "Haemangioblastoma",
+      "targetTermType": "PT",
+      "targetCode": "primary_diagnosis",
+      "targetTerminology": "GDC"
+    },
+    {
+      "type": "Related To",
+      "targetName": "Hemangioblastoma",
+      "targetTermType": "PT",
+      "targetCode": "9161/1",
+      "targetTerminology": "ICDO3",
+      "targetTerminologyVersion": "3.1"
+    },
+    {
+      "type": "Related To",
+      "targetName": "Hemangioblastoma",
+      "targetTermType": "PT",
+      "targetCode": "9161/1",
+      "targetTerminology": "ICDO3",
+      "targetTerminologyVersion": "3.2"
+    }
+  ]
+}

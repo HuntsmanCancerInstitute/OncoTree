@@ -1,0 +1,4169 @@
+{
+  "code": "C12393",
+  "name": "Pancreas",
+  "terminology": "ncit",
+  "version": "25.11d",
+  "conceptStatus": "DEFAULT",
+  "leaf": true,
+  "active": true,
+  "synonyms": [
+    {
+      "name": "Pancreas",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "caDSR"
+    },
+    {
+      "name": "PANCREAS",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "CDISC"
+    },
+    {
+      "name": "Pancreas",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "GDC"
+    },
+    {
+      "name": "Pancreas, NOS",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "GDC"
+    },
+    {
+      "name": "Pancreatic structure (body structure)",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "mCode",
+      "code": "15776009",
+      "subSource": "SNOMED CT"
+    },
+    {
+      "name": "pancreas",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NCI-GLOSS",
+      "code": "CDR0000046254"
+    },
+    {
+      "name": "Gastrointestinal Tract, Pancreas",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Pancreas",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Pancreas",
+      "type": "Display_Name"
+    },
+    {
+      "name": "Pancreas",
+      "type": "Preferred_Name"
+    },
+    {
+      "name": "Pancreas",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "PCDC",
+      "subSource": "OS"
+    },
+    {
+      "name": "pancreas",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "UBERON"
+    }
+  ],
+  "definitions": [
+    {
+      "definition": "A digestive organ in the abdomen that has both endocrine and exocrine functions.",
+      "type": "ALT_DEFINITION",
+      "source": "CDISC"
+    },
+    {
+      "definition": "A glandular organ located in the abdomen. It makes pancreatic juices, which contain enzymes that aid in digestion, and it produces several hormones, including insulin. The pancreas is surrounded by the stomach, intestines, and other organs.",
+      "type": "ALT_DEFINITION",
+      "source": "NCI-GLOSS"
+    },
+    {
+      "definition": "An endoderm derived structure that produces precursors of digestive enzymes and blood glucose regulating hormones.",
+      "type": "ALT_DEFINITION",
+      "source": "UBERON"
+    },
+    {
+      "definition": "An organ behind the lower part of the stomach that is the shape of a fish and about the size of a hand. It is a compound gland composed of both exocrine and endocrine tissues. The endocrine pancreas makes insulin so that the body can use glucose (sugar) for energy. The exocrine pancreas makes enzymes that help the body digest food. Spread all over the pancreas are areas called the Islets of Langerhans. The cells in these areas each have a special purpose. The alpha cells make glucagon, which raises the level of glucose in the blood; the beta cells make insulin; the delta cells make somatostatin. There are also PP cells and D1 cells, about which little is known.",
+      "type": "DEFINITION",
+      "source": "NCI",
+      "qualifiers": [
+        {
+          "type": "attribution",
+          "value": "from Diabetes Dictionary: http://www.childrenwithdiabetes.com/dictionary"
+        }
+      ]
+    }
+  ],
+  "properties": [
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "CDISC"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "GDC"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "mCode"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "PCDC"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "UBERON"
+    },
+    {
+      "code": "P366",
+      "type": "Legacy Concept Name",
+      "value": "Pancreas"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "PANCREAS"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "Pancreas"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "Pancreas, NOS"
+    },
+    {
+      "code": "P106",
+      "type": "Semantic_Type",
+      "value": "Body Part, Organ, or Organ Component"
+    },
+    {
+      "code": "P207",
+      "type": "UMLS_CUI",
+      "value": "C0030274"
+    },
+    {
+      "code": "oboInOwl:hasDbXref",
+      "type": "xRef",
+      "value": "UBERON:0001264"
+    }
+  ],
+  "parents": [
+    {
+      "code": "C13018",
+      "name": "Organ"
+    }
+  ],
+  "associations": [
+    {
+      "type": "Is_Value_For_GDC_Property",
+      "relatedCode": "C188396",
+      "relatedName": "Anatomic Site of Maximum Tumor Bulk"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C74456",
+      "relatedName": "CDISC SDTM Anatomical Location Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C66830",
+      "relatedName": "CDISC SDTM Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C77529",
+      "relatedName": "CDISC SEND Biospecimens Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C77526",
+      "relatedName": "CDISC SEND Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C61410",
+      "relatedName": "Clinical Data Interchange Standards Consortium Terminology"
+    },
+    {
+      "type": "Is_Value_For_GDC_Property",
+      "relatedCode": "C173263",
+      "relatedName": "Disease Involvement Site"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C157711",
+      "relatedName": "GDC Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C177537",
+      "relatedName": "GDC Value Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168655",
+      "relatedName": "Mapped ICDO3.1 Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168660",
+      "relatedName": "Mapped ICDO3.1 Topography PT Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168659",
+      "relatedName": "Mapped ICDO3.1 Topography Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168656",
+      "relatedName": "Mapped ICDO3.2 Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168664",
+      "relatedName": "Mapped ICDO3.2 Topography PT Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168663",
+      "relatedName": "Mapped ICDO3.2 Topography Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C193234",
+      "relatedName": "mCode Radiotherapy Treatment Location Value Set"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C193006",
+      "relatedName": "mCode Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C179478",
+      "relatedName": "OS Authorized Value Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C179482",
+      "relatedName": "OS Biopsy/Surgical Procedures Table"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C179483",
+      "relatedName": "OS Radiation Therapy Table"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C179481",
+      "relatedName": "OS Tumor Assessment Table"
+    },
+    {
+      "type": "Is_Value_For_GDC_Property",
+      "relatedCode": "C158874",
+      "relatedName": "Primary Site of Disease"
+    },
+    {
+      "type": "Is_Value_For_GDC_Property",
+      "relatedCode": "C177570",
+      "relatedName": "Progressive or Recurrent Disease Anatomic Site"
+    },
+    {
+      "type": "Is_Value_For_GDC_Property",
+      "relatedCode": "C156421",
+      "relatedName": "Site of Resection or Biopsy"
+    },
+    {
+      "type": "Is_Value_For_GDC_Property",
+      "relatedCode": "C171435",
+      "relatedName": "Specimen Anatomic Site"
+    },
+    {
+      "type": "Is_Value_For_GDC_Property",
+      "relatedCode": "C70729",
+      "relatedName": "Targeted Anatomic Site"
+    },
+    {
+      "type": "Is_Value_For_GDC_Property",
+      "relatedCode": "C156422",
+      "relatedName": "Tissue or Organ of Origin"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C198975",
+      "relatedName": "UBERON Terminology"
+    }
+  ],
+  "inverseAssociations": [
+    {
+      "type": "Has_GDC_Value",
+      "relatedCode": "C188396",
+      "relatedName": "Anatomic Site of Maximum Tumor Bulk"
+    },
+    {
+      "type": "Has_GDC_Value",
+      "relatedCode": "C173263",
+      "relatedName": "Disease Involvement Site"
+    },
+    {
+      "type": "Has_GDC_Value",
+      "relatedCode": "C158874",
+      "relatedName": "Primary Site of Disease"
+    },
+    {
+      "type": "Has_GDC_Value",
+      "relatedCode": "C177570",
+      "relatedName": "Progressive or Recurrent Disease Anatomic Site"
+    },
+    {
+      "type": "Has_PCDC_OS_Authorized_Value",
+      "relatedCode": "C173281",
+      "relatedName": "Site of Radiation Therapy"
+    },
+    {
+      "type": "Has_GDC_Value",
+      "relatedCode": "C156421",
+      "relatedName": "Site of Resection or Biopsy"
+    },
+    {
+      "type": "Has_PCDC_OS_Authorized_Value",
+      "relatedCode": "C157120",
+      "relatedName": "Site of Tumor"
+    },
+    {
+      "type": "Has_GDC_Value",
+      "relatedCode": "C171435",
+      "relatedName": "Specimen Anatomic Site"
+    },
+    {
+      "type": "Has_PCDC_OS_Authorized_Value",
+      "relatedCode": "C164323",
+      "relatedName": "Surgical Site"
+    },
+    {
+      "type": "Has_GDC_Value",
+      "relatedCode": "C70729",
+      "relatedName": "Targeted Anatomic Site"
+    },
+    {
+      "type": "Has_GDC_Value",
+      "relatedCode": "C156422",
+      "relatedName": "Tissue or Organ of Origin"
+    }
+  ],
+  "roles": [
+    {
+      "type": "Anatomic_Structure_Has_Location",
+      "relatedCode": "C32525",
+      "relatedName": "Epigastric Region"
+    },
+    {
+      "type": "Anatomic_Structure_Is_Physical_Part_Of",
+      "relatedCode": "C166416",
+      "relatedName": "Pancreatobiliary System"
+    }
+  ],
+  "inverseRoles": [
+    {
+      "type": "Gene_Product_Expressed_In_Tissue",
+      "relatedCode": "C21279",
+      "relatedName": "A Disintegrin and Metalloprotease with Thrombospondin Motifs 9"
+    },
+    {
+      "type": "Gene_Product_Expressed_In_Tissue",
+      "relatedCode": "C21325",
+      "relatedName": "A-Kinase Anchor Protein 9"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C95546",
+      "relatedName": "Acinar Cystic Transformation of the Pancreas"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C95546",
+      "relatedName": "Acinar Cystic Transformation of the Pancreas"
+    },
+    {
+      "type": "Gene_Product_Expressed_In_Tissue",
+      "relatedCode": "C28714",
+      "relatedName": "Activin Receptor Type-1B"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C219784",
+      "relatedName": "Acute Hemorrhagic Pancreatitis"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C219784",
+      "relatedName": "Acute Hemorrhagic Pancreatitis"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C95437",
+      "relatedName": "Acute Pancreatitis"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C95437",
+      "relatedName": "Acute Pancreatitis"
+    },
+    {
+      "type": "Disease_Excludes_Metastatic_Anatomic_Site",
+      "relatedCode": "C162153",
+      "relatedName": "Advanced Pancreatic Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C162153",
+      "relatedName": "Advanced Pancreatic Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C162153",
+      "relatedName": "Advanced Pancreatic Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Excludes_Metastatic_Anatomic_Site",
+      "relatedCode": "C204035",
+      "relatedName": "Advanced Pancreatic Adenosquamous Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C204035",
+      "relatedName": "Advanced Pancreatic Adenosquamous Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C204035",
+      "relatedName": "Advanced Pancreatic Adenosquamous Carcinoma"
+    },
+    {
+      "type": "Disease_Excludes_Metastatic_Anatomic_Site",
+      "relatedCode": "C165452",
+      "relatedName": "Advanced Pancreatic Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C165452",
+      "relatedName": "Advanced Pancreatic Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C165452",
+      "relatedName": "Advanced Pancreatic Carcinoma"
+    },
+    {
+      "type": "Disease_Excludes_Metastatic_Anatomic_Site",
+      "relatedCode": "C164214",
+      "relatedName": "Advanced Pancreatic Ductal Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C164214",
+      "relatedName": "Advanced Pancreatic Ductal Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C164214",
+      "relatedName": "Advanced Pancreatic Ductal Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Excludes_Metastatic_Anatomic_Site",
+      "relatedCode": "C165448",
+      "relatedName": "Advanced Pancreatic Neuroendocrine Neoplasm"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C165448",
+      "relatedName": "Advanced Pancreatic Neuroendocrine Neoplasm"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C165448",
+      "relatedName": "Advanced Pancreatic Neuroendocrine Neoplasm"
+    },
+    {
+      "type": "Disease_Excludes_Metastatic_Anatomic_Site",
+      "relatedCode": "C190713",
+      "relatedName": "Advanced Pancreatic Neuroendocrine Tumor G1"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C190713",
+      "relatedName": "Advanced Pancreatic Neuroendocrine Tumor G1"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C190713",
+      "relatedName": "Advanced Pancreatic Neuroendocrine Tumor G1"
+    },
+    {
+      "type": "Disease_Excludes_Metastatic_Anatomic_Site",
+      "relatedCode": "C190715",
+      "relatedName": "Advanced Pancreatic Neuroendocrine Tumor G2"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C190715",
+      "relatedName": "Advanced Pancreatic Neuroendocrine Tumor G2"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C190715",
+      "relatedName": "Advanced Pancreatic Neuroendocrine Tumor G2"
+    },
+    {
+      "type": "Disease_Excludes_Metastatic_Anatomic_Site",
+      "relatedCode": "C156489",
+      "relatedName": "Advanced Pancreatic Neuroendocrine Tumor"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C156489",
+      "relatedName": "Advanced Pancreatic Neuroendocrine Tumor"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C156489",
+      "relatedName": "Advanced Pancreatic Neuroendocrine Tumor"
+    },
+    {
+      "type": "Gene_Product_Expressed_In_Tissue",
+      "relatedCode": "C21482",
+      "relatedName": "Anterior Gradient Protein 2 Homolog"
+    },
+    {
+      "type": "Gene_Product_Expressed_In_Tissue",
+      "relatedCode": "C202642",
+      "relatedName": "ATP-Sensitive Inward Rectifier Potassium Channel 11"
+    },
+    {
+      "type": "Gene_Product_Expressed_In_Tissue",
+      "relatedCode": "C25788",
+      "relatedName": "Atypical Chemokine Receptor 4"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C4612",
+      "relatedName": "Benign Pancreatic Neoplasm"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C4612",
+      "relatedName": "Benign Pancreatic Neoplasm"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C95470",
+      "relatedName": "Benign Pancreatic Serous Neoplasm"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C95470",
+      "relatedName": "Benign Pancreatic Serous Neoplasm"
+    },
+    {
+      "type": "Gene_Product_Expressed_In_Tissue",
+      "relatedCode": "C21161",
+      "relatedName": "Beta-Microseminoprotein"
+    },
+    {
+      "type": "Gene_Product_Expressed_In_Tissue",
+      "relatedCode": "C223133",
+      "relatedName": "Bile Acid-CoA:Amino Acid N-Acyltransferase"
+    },
+    {
+      "type": "Procedure_Has_Partially_Excised_Anatomy",
+      "relatedCode": "C51671",
+      "relatedName": "Biopsy of Pancreas"
+    },
+    {
+      "type": "Anatomic_Structure_Is_Physical_Part_Of",
+      "relatedCode": "C12270",
+      "relatedName": "Body of the Pancreas"
+    },
+    {
+      "type": "Gene_Product_Expressed_In_Tissue",
+      "relatedCode": "C21350",
+      "relatedName": "Bone Morphogenetic Protein 2"
+    },
+    {
+      "type": "Gene_Product_Expressed_In_Tissue",
+      "relatedCode": "C26293",
+      "relatedName": "Bone Morphogenetic Protein 3B"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C5716",
+      "relatedName": "Borderline Exocrine Pancreatic Neoplasm"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C5716",
+      "relatedName": "Borderline Exocrine Pancreatic Neoplasm"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C157350",
+      "relatedName": "Borderline Resectable Pancreatic Ductal Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C157350",
+      "relatedName": "Borderline Resectable Pancreatic Ductal Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C113665",
+      "relatedName": "Branch Duct Pancreatic Intraductal Papillary-Mucinous Neoplasm"
+    },
+    {
+      "type": "Gene_Product_Expressed_In_Tissue",
+      "relatedCode": "C26432",
+      "relatedName": "BRD4-Interacting Chromatin-Remodeling Complex-Associated Protein"
+    },
+    {
+      "type": "Gene_Product_Expressed_In_Tissue",
+      "relatedCode": "C21500",
+      "relatedName": "Breast Carcinoma-Amplified Sequence 4"
+    },
+    {
+      "type": "Gene_Product_Expressed_In_Tissue",
+      "relatedCode": "C26085",
+      "relatedName": "C-Terminal-Binding Protein 2"
+    },
+    {
+      "type": "Procedure_Has_Excised_Anatomy",
+      "relatedCode": "C199308",
+      "relatedName": "Central Pancreatectomy"
+    },
+    {
+      "type": "Procedure_Has_Partially_Excised_Anatomy",
+      "relatedCode": "C199308",
+      "relatedName": "Central Pancreatectomy"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C84433",
+      "relatedName": "Childhood Diabetes Mellitus"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C84433",
+      "relatedName": "Childhood Diabetes Mellitus"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C190024",
+      "relatedName": "Childhood Pancreatic Acinar Cell Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C190024",
+      "relatedName": "Childhood Pancreatic Acinar Cell Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C190026",
+      "relatedName": "Childhood Pancreatic Acinar Cell Cystadenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C190026",
+      "relatedName": "Childhood Pancreatic Acinar Cell Cystadenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C190023",
+      "relatedName": "Childhood Pancreatoblastoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C190027",
+      "relatedName": "Childhood Solid Pseudopapillary Neoplasm of the Pancreas"
+    },
+    {
+      "type": "Gene_Product_Has_Associated_Anatomy",
+      "relatedCode": "C17284",
+      "relatedName": "Chromogranin-A"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C84637",
+      "relatedName": "Chronic Pancreatitis"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C84637",
+      "relatedName": "Chronic Pancreatitis"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C131425",
+      "relatedName": "Congenital Hyperinsulinism"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C131425",
+      "relatedName": "Congenital Hyperinsulinism"
+    },
+    {
+      "type": "Gene_Product_Expressed_In_Tissue",
+      "relatedCode": "C25999",
+      "relatedName": "Contactin-Associated Protein 1"
+    },
+    {
+      "type": "Procedure_Has_Partially_Excised_Anatomy",
+      "relatedCode": "C51489",
+      "relatedName": "Core Biopsy of Pancreas"
+    },
+    {
+      "type": "Gene_Product_Expressed_In_Tissue",
+      "relatedCode": "C25878",
+      "relatedName": "Cyclin-Dependent Kinase 4 Inhibitor C"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C2985",
+      "relatedName": "Diabetes Mellitus"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C2985",
+      "relatedName": "Diabetes Mellitus"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C131843",
+      "relatedName": "Diffuse KATP-Associated Hyperinsulinism"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C131843",
+      "relatedName": "Diffuse KATP-Associated Hyperinsulinism"
+    },
+    {
+      "type": "Gene_Product_Expressed_In_Tissue",
+      "relatedCode": "C26211",
+      "relatedName": "Discoidin Domain-Containing Receptor 2"
+    },
+    {
+      "type": "Procedure_Has_Excised_Anatomy",
+      "relatedCode": "C51647",
+      "relatedName": "Distal Pancreatectomy"
+    },
+    {
+      "type": "Procedure_Has_Partially_Excised_Anatomy",
+      "relatedCode": "C51647",
+      "relatedName": "Distal Pancreatectomy"
+    },
+    {
+      "type": "Gene_Product_Expressed_In_Tissue",
+      "relatedCode": "C26117",
+      "relatedName": "Docking Protein 1"
+    },
+    {
+      "type": "Gene_Product_Expressed_In_Tissue",
+      "relatedCode": "C26485",
+      "relatedName": "Dual Specificity Mitogen-Activated Protein Kinase Kinase 6"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C158961",
+      "relatedName": "Early Stage Pancreatic Ductal Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C158961",
+      "relatedName": "Early Stage Pancreatic Ductal Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C27067",
+      "relatedName": "Endocrine Pancreas Disorder"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C27067",
+      "relatedName": "Endocrine Pancreas Disorder"
+    },
+    {
+      "type": "Procedure_Has_Partially_Excised_Anatomy",
+      "relatedCode": "C116512",
+      "relatedName": "Endoscopic Ultrasound-Guided Fine-Needle Aspiration of the Pancreas"
+    },
+    {
+      "type": "Gene_Product_Expressed_In_Tissue",
+      "relatedCode": "C26155",
+      "relatedName": "ETS Homologous Factor"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C3850",
+      "relatedName": "Exocrine Pancreas Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C3850",
+      "relatedName": "Exocrine Pancreas Carcinoma"
+    },
+    {
+      "type": "Anatomic_Structure_Is_Physical_Part_Of",
+      "relatedCode": "C32546",
+      "relatedName": "Exocrine Pancreas"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C219945",
+      "relatedName": "Fibrocalculous Pancreatic Diabetes"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C219945",
+      "relatedName": "Fibrocalculous Pancreatic Diabetes"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C131830",
+      "relatedName": "Focal KATP-Associated Hyperinsulinism"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C131830",
+      "relatedName": "Focal KATP-Associated Hyperinsulinism"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C219956",
+      "relatedName": "Fulminant Necrotizing Pancreatitis"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C219956",
+      "relatedName": "Fulminant Necrotizing Pancreatitis"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C45841",
+      "relatedName": "Functioning Pancreatic Neuroendocrine Tumor G2"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C45841",
+      "relatedName": "Functioning Pancreatic Neuroendocrine Tumor G2"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C45840",
+      "relatedName": "Functioning Pancreatic Neuroendocrine Tumor"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C45840",
+      "relatedName": "Functioning Pancreatic Neuroendocrine Tumor"
+    },
+    {
+      "type": "Gene_Product_Expressed_In_Tissue",
+      "relatedCode": "C21218",
+      "relatedName": "Gamma-Synuclein"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C112844",
+      "relatedName": "Gestational Diabetes Mellitus, A1"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C112844",
+      "relatedName": "Gestational Diabetes Mellitus, A1"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C112845",
+      "relatedName": "Gestational Diabetes Mellitus, A2"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C112845",
+      "relatedName": "Gestational Diabetes Mellitus, A2"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C34942",
+      "relatedName": "Gestational Diabetes"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C34942",
+      "relatedName": "Gestational Diabetes"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C129741",
+      "relatedName": "Glucokinase-Associated Diabetes Mellitus"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C129741",
+      "relatedName": "Glucokinase-Associated Diabetes Mellitus"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C131831",
+      "relatedName": "Glucokinase-Associated Hyperinsulinism"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C131831",
+      "relatedName": "Glucokinase-Associated Hyperinsulinism"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C131832",
+      "relatedName": "Glutamate Dehydrogenase 1 Hyperinsulinism"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C131832",
+      "relatedName": "Glutamate Dehydrogenase 1 Hyperinsulinism"
+    },
+    {
+      "type": "Gene_Product_Expressed_In_Tissue",
+      "relatedCode": "C21516",
+      "relatedName": "Glutaminase Liver Isoform, Mitochondrial"
+    },
+    {
+      "type": "Gene_Product_Expressed_In_Tissue",
+      "relatedCode": "C21487",
+      "relatedName": "GTP-Binding Protein Di-Ras3"
+    },
+    {
+      "type": "Anatomic_Structure_Is_Physical_Part_Of",
+      "relatedCode": "C12269",
+      "relatedName": "Head of the Pancreas"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C131833",
+      "relatedName": "Hepatocyte Nuclear Factor 1-Alpha Hyperinsulinism"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C131833",
+      "relatedName": "Hepatocyte Nuclear Factor 1-Alpha Hyperinsulinism"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C129742",
+      "relatedName": "Hepatocyte Nuclear Factor 1-Alpha-Associated Monogenic Diabetes"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C129742",
+      "relatedName": "Hepatocyte Nuclear Factor 1-Alpha-Associated Monogenic Diabetes"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C129744",
+      "relatedName": "Hepatocyte Nuclear Factor 4-Alpha Associated Monogenic Diabetes"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C129744",
+      "relatedName": "Hepatocyte Nuclear Factor 4-Alpha Associated Monogenic Diabetes"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C131834",
+      "relatedName": "Hepatocyte Nuclear Factor 4-Alpha Hyperinsulinism"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C131834",
+      "relatedName": "Hepatocyte Nuclear Factor 4-Alpha Hyperinsulinism"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C43298",
+      "relatedName": "Hereditary Pancreatic Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C43298",
+      "relatedName": "Hereditary Pancreatic Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C95436",
+      "relatedName": "Hereditary Pancreatitis"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C95436",
+      "relatedName": "Hereditary Pancreatitis"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C95432",
+      "relatedName": "High Grade Pancreatic Intraepithelial Neoplasia"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C95432",
+      "relatedName": "High Grade Pancreatic Intraepithelial Neoplasia"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C131835",
+      "relatedName": "Hyperinsulinism in the Infant of a Diabetic Mother"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C131835",
+      "relatedName": "Hyperinsulinism in the Infant of a Diabetic Mother"
+    },
+    {
+      "type": "Gene_Product_Expressed_In_Tissue",
+      "relatedCode": "C21520",
+      "relatedName": "Hypoxia Up-Regulated 1 Protein"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C219642",
+      "relatedName": "Immune Checkpoint Inhibitor-Induced Type 1 Diabetes Mellitus"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C219642",
+      "relatedName": "Immune Checkpoint Inhibitor-Induced Type 1 Diabetes Mellitus"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C131836",
+      "relatedName": "Insulin Resistant Diabetes Mellitus with Acanthosis Nigricans and Hyperandrogenism"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C131836",
+      "relatedName": "Insulin Resistant Diabetes Mellitus with Acanthosis Nigricans and Hyperandrogenism"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C172813",
+      "relatedName": "Invasive Pancreatic Micropapillary Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C172813",
+      "relatedName": "Invasive Pancreatic Micropapillary Adenocarcinoma"
+    },
+    {
+      "type": "Anatomic_Structure_Is_Physical_Part_Of",
+      "relatedCode": "C12608",
+      "relatedName": "Islet of Langerhans"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C131845",
+      "relatedName": "K ATP Associated Developmental Delay, Epilepsy and Neonatal Diabetes"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C131845",
+      "relatedName": "K ATP Associated Developmental Delay, Epilepsy and Neonatal Diabetes"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C131846",
+      "relatedName": "K ATP Associated Transient Neonatal Diabetes Mellitus"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C131846",
+      "relatedName": "K ATP Associated Transient Neonatal Diabetes Mellitus"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C131847",
+      "relatedName": "K ATP Channel-Associated Diabetes Mellitus"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C131847",
+      "relatedName": "K ATP Channel-Associated Diabetes Mellitus"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C131848",
+      "relatedName": "K ATP Permanent Neonatal Diabetes"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C131848",
+      "relatedName": "K ATP Permanent Neonatal Diabetes"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C131842",
+      "relatedName": "KATP-Associated Hyperinsulinism"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C131842",
+      "relatedName": "KATP-Associated Hyperinsulinism"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C129760",
+      "relatedName": "Kir6.2-Associated Diabetes Mellitus"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C129760",
+      "relatedName": "Kir6.2-Associated Diabetes Mellitus"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C34537",
+      "relatedName": "Lipoatrophic Diabetes Mellitus"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C34537",
+      "relatedName": "Lipoatrophic Diabetes Mellitus"
+    },
+    {
+      "type": "Gene_Product_Expressed_In_Tissue",
+      "relatedCode": "C131324",
+      "relatedName": "Lithostathine-1-Alpha"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C165631",
+      "relatedName": "Localized Malignant Pancreatic Neoplasm"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C165631",
+      "relatedName": "Localized Malignant Pancreatic Neoplasm"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C169041",
+      "relatedName": "Localized Pancreatic Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C169041",
+      "relatedName": "Localized Pancreatic Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C189009",
+      "relatedName": "Localized Pancreatic Ductal Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C189009",
+      "relatedName": "Localized Pancreatic Ductal Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Excludes_Metastatic_Anatomic_Site",
+      "relatedCode": "C156269",
+      "relatedName": "Locally Advanced Pancreatic Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C156269",
+      "relatedName": "Locally Advanced Pancreatic Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C156269",
+      "relatedName": "Locally Advanced Pancreatic Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Excludes_Metastatic_Anatomic_Site",
+      "relatedCode": "C168985",
+      "relatedName": "Locally Advanced Pancreatic Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C168985",
+      "relatedName": "Locally Advanced Pancreatic Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C168985",
+      "relatedName": "Locally Advanced Pancreatic Carcinoma"
+    },
+    {
+      "type": "Disease_Excludes_Metastatic_Anatomic_Site",
+      "relatedCode": "C151993",
+      "relatedName": "Locally Advanced Pancreatic Ductal Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C151993",
+      "relatedName": "Locally Advanced Pancreatic Ductal Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C151993",
+      "relatedName": "Locally Advanced Pancreatic Ductal Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Excludes_Metastatic_Anatomic_Site",
+      "relatedCode": "C155933",
+      "relatedName": "Locally Advanced Pancreatic Neuroendocrine Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C155933",
+      "relatedName": "Locally Advanced Pancreatic Neuroendocrine Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C155933",
+      "relatedName": "Locally Advanced Pancreatic Neuroendocrine Carcinoma"
+    },
+    {
+      "type": "Disease_Excludes_Metastatic_Anatomic_Site",
+      "relatedCode": "C192787",
+      "relatedName": "Locally Advanced Pancreatic Neuroendocrine Tumor G3"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C192787",
+      "relatedName": "Locally Advanced Pancreatic Neuroendocrine Tumor G3"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C192787",
+      "relatedName": "Locally Advanced Pancreatic Neuroendocrine Tumor G3"
+    },
+    {
+      "type": "Disease_Excludes_Metastatic_Anatomic_Site",
+      "relatedCode": "C167324",
+      "relatedName": "Locally Advanced Pancreatic Neuroendocrine Tumor"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C167324",
+      "relatedName": "Locally Advanced Pancreatic Neuroendocrine Tumor"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C167324",
+      "relatedName": "Locally Advanced Pancreatic Neuroendocrine Tumor"
+    },
+    {
+      "type": "Disease_Excludes_Metastatic_Anatomic_Site",
+      "relatedCode": "C155743",
+      "relatedName": "Locally Advanced Unresectable Pancreatic Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C155743",
+      "relatedName": "Locally Advanced Unresectable Pancreatic Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C155743",
+      "relatedName": "Locally Advanced Unresectable Pancreatic Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Excludes_Metastatic_Anatomic_Site",
+      "relatedCode": "C205226",
+      "relatedName": "Locally Advanced Unresectable Pancreatic Ductal Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C205226",
+      "relatedName": "Locally Advanced Unresectable Pancreatic Ductal Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C205226",
+      "relatedName": "Locally Advanced Unresectable Pancreatic Ductal Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C212216",
+      "relatedName": "Locally Recurrent Pancreatic Ductal Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C212216",
+      "relatedName": "Locally Recurrent Pancreatic Ductal Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C172803",
+      "relatedName": "Low Grade Pancreatic Intraepithelial Neoplasia"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C172803",
+      "relatedName": "Low Grade Pancreatic Intraepithelial Neoplasia"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C113664",
+      "relatedName": "Main Duct Pancreatic Intraductal Papillary-Mucinous Neoplasm"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C7430",
+      "relatedName": "Malignant Exocrine Pancreas Neoplasm"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C67458",
+      "relatedName": "Malignant Pancreatic Gastrinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C67458",
+      "relatedName": "Malignant Pancreatic Gastrinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C65187",
+      "relatedName": "Malignant Pancreatic Glucagonoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C65187",
+      "relatedName": "Malignant Pancreatic Glucagonoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C65186",
+      "relatedName": "Malignant Pancreatic Insulinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C65186",
+      "relatedName": "Malignant Pancreatic Insulinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C9005",
+      "relatedName": "Malignant Pancreatic Neoplasm"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C67369",
+      "relatedName": "Malignant Pancreatic Somatostatinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C67369",
+      "relatedName": "Malignant Pancreatic Somatostatinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C67461",
+      "relatedName": "Malignant Pancreatic Vipoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C67461",
+      "relatedName": "Malignant Pancreatic Vipoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C114769",
+      "relatedName": "Maturity-Onset Diabetes of the Young"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C114769",
+      "relatedName": "Maturity-Onset Diabetes of the Young"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C213055",
+      "relatedName": "MEN1-Associated Pancreatic Neuroendocrine Tumor"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C213055",
+      "relatedName": "MEN1-Associated Pancreatic Neuroendocrine Tumor"
+    },
+    {
+      "type": "Gene_Product_Expressed_In_Tissue",
+      "relatedCode": "C21141",
+      "relatedName": "Metastasis-Suppressor KiSS-1"
+    },
+    {
+      "type": "Disease_Excludes_Primary_Anatomic_Site",
+      "relatedCode": "C188077",
+      "relatedName": "Metastatic Carcinoma in the Pancreas"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C188077",
+      "relatedName": "Metastatic Carcinoma in the Pancreas"
+    },
+    {
+      "type": "Disease_Has_Metastatic_Anatomic_Site",
+      "relatedCode": "C188077",
+      "relatedName": "Metastatic Carcinoma in the Pancreas"
+    },
+    {
+      "type": "Disease_Excludes_Metastatic_Anatomic_Site",
+      "relatedCode": "C210165",
+      "relatedName": "Metastatic Exocrine Pancreas Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C210165",
+      "relatedName": "Metastatic Exocrine Pancreas Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C210165",
+      "relatedName": "Metastatic Exocrine Pancreas Carcinoma"
+    },
+    {
+      "type": "Disease_Excludes_Primary_Anatomic_Site",
+      "relatedCode": "C8543",
+      "relatedName": "Metastatic Malignant Neoplasm in the Pancreas"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C8543",
+      "relatedName": "Metastatic Malignant Neoplasm in the Pancreas"
+    },
+    {
+      "type": "Disease_Has_Metastatic_Anatomic_Site",
+      "relatedCode": "C8543",
+      "relatedName": "Metastatic Malignant Neoplasm in the Pancreas"
+    },
+    {
+      "type": "Disease_Excludes_Metastatic_Anatomic_Site",
+      "relatedCode": "C155852",
+      "relatedName": "Metastatic Malignant Pancreatic Neoplasm"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C155852",
+      "relatedName": "Metastatic Malignant Pancreatic Neoplasm"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C155852",
+      "relatedName": "Metastatic Malignant Pancreatic Neoplasm"
+    },
+    {
+      "type": "Disease_Excludes_Metastatic_Anatomic_Site",
+      "relatedCode": "C219509",
+      "relatedName": "Metastatic Microsatellite Stable Pancreatic Ductal Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C219509",
+      "relatedName": "Metastatic Microsatellite Stable Pancreatic Ductal Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C219509",
+      "relatedName": "Metastatic Microsatellite Stable Pancreatic Ductal Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Excludes_Metastatic_Anatomic_Site",
+      "relatedCode": "C201196",
+      "relatedName": "Metastatic Pancreatic Acinar Cell Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C201196",
+      "relatedName": "Metastatic Pancreatic Acinar Cell Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C201196",
+      "relatedName": "Metastatic Pancreatic Acinar Cell Carcinoma"
+    },
+    {
+      "type": "Disease_Excludes_Metastatic_Anatomic_Site",
+      "relatedCode": "C8933",
+      "relatedName": "Metastatic Pancreatic Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C8933",
+      "relatedName": "Metastatic Pancreatic Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C8933",
+      "relatedName": "Metastatic Pancreatic Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Excludes_Metastatic_Anatomic_Site",
+      "relatedCode": "C190770",
+      "relatedName": "Metastatic Pancreatic Adenosquamous Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C190770",
+      "relatedName": "Metastatic Pancreatic Adenosquamous Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C190770",
+      "relatedName": "Metastatic Pancreatic Adenosquamous Carcinoma"
+    },
+    {
+      "type": "Disease_Excludes_Metastatic_Anatomic_Site",
+      "relatedCode": "C156069",
+      "relatedName": "Metastatic Pancreatic Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C156069",
+      "relatedName": "Metastatic Pancreatic Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C156069",
+      "relatedName": "Metastatic Pancreatic Carcinoma"
+    },
+    {
+      "type": "Disease_Excludes_Metastatic_Anatomic_Site",
+      "relatedCode": "C158960",
+      "relatedName": "Metastatic Pancreatic Ductal Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C158960",
+      "relatedName": "Metastatic Pancreatic Ductal Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C158960",
+      "relatedName": "Metastatic Pancreatic Ductal Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Excludes_Metastatic_Anatomic_Site",
+      "relatedCode": "C153075",
+      "relatedName": "Metastatic Pancreatic Neuroendocrine Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C153075",
+      "relatedName": "Metastatic Pancreatic Neuroendocrine Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C153075",
+      "relatedName": "Metastatic Pancreatic Neuroendocrine Carcinoma"
+    },
+    {
+      "type": "Disease_Excludes_Metastatic_Anatomic_Site",
+      "relatedCode": "C165447",
+      "relatedName": "Metastatic Pancreatic Neuroendocrine Neoplasm"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C165447",
+      "relatedName": "Metastatic Pancreatic Neuroendocrine Neoplasm"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C165447",
+      "relatedName": "Metastatic Pancreatic Neuroendocrine Neoplasm"
+    },
+    {
+      "type": "Disease_Excludes_Metastatic_Anatomic_Site",
+      "relatedCode": "C190712",
+      "relatedName": "Metastatic Pancreatic Neuroendocrine Tumor G1"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C190712",
+      "relatedName": "Metastatic Pancreatic Neuroendocrine Tumor G1"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C190712",
+      "relatedName": "Metastatic Pancreatic Neuroendocrine Tumor G1"
+    },
+    {
+      "type": "Disease_Excludes_Metastatic_Anatomic_Site",
+      "relatedCode": "C190714",
+      "relatedName": "Metastatic Pancreatic Neuroendocrine Tumor G2"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C190714",
+      "relatedName": "Metastatic Pancreatic Neuroendocrine Tumor G2"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C190714",
+      "relatedName": "Metastatic Pancreatic Neuroendocrine Tumor G2"
+    },
+    {
+      "type": "Disease_Excludes_Metastatic_Anatomic_Site",
+      "relatedCode": "C192791",
+      "relatedName": "Metastatic Pancreatic Neuroendocrine Tumor G3"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C192791",
+      "relatedName": "Metastatic Pancreatic Neuroendocrine Tumor G3"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C192791",
+      "relatedName": "Metastatic Pancreatic Neuroendocrine Tumor G3"
+    },
+    {
+      "type": "Disease_Excludes_Metastatic_Anatomic_Site",
+      "relatedCode": "C156488",
+      "relatedName": "Metastatic Pancreatic Neuroendocrine Tumor"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C156488",
+      "relatedName": "Metastatic Pancreatic Neuroendocrine Tumor"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C156488",
+      "relatedName": "Metastatic Pancreatic Neuroendocrine Tumor"
+    },
+    {
+      "type": "Disease_Excludes_Metastatic_Anatomic_Site",
+      "relatedCode": "C190771",
+      "relatedName": "Metastatic Pancreatic Squamous Cell Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C190771",
+      "relatedName": "Metastatic Pancreatic Squamous Cell Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C190771",
+      "relatedName": "Metastatic Pancreatic Squamous Cell Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C219508",
+      "relatedName": "Microsatellite Stable Pancreatic Ductal Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C219508",
+      "relatedName": "Microsatellite Stable Pancreatic Ductal Adenocarcinoma"
+    },
+    {
+      "type": "Procedure_Has_Excised_Anatomy",
+      "relatedCode": "C187208",
+      "relatedName": "Minimally Invasive Distal Pancreatectomy"
+    },
+    {
+      "type": "Procedure_Has_Partially_Excised_Anatomy",
+      "relatedCode": "C187208",
+      "relatedName": "Minimally Invasive Distal Pancreatectomy"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C131859",
+      "relatedName": "Mitochondrial Diabetes"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C131859",
+      "relatedName": "Mitochondrial Diabetes"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C131837",
+      "relatedName": "Mitochondrial Hydroxyacyl-Coenzyme A Dehydrogenase Hyperinsulinism"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C131837",
+      "relatedName": "Mitochondrial Hydroxyacyl-Coenzyme A Dehydrogenase Hyperinsulinism"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C131838",
+      "relatedName": "Mitochondrial Uncoupling Protein 2 Hyperinsulinism"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C131838",
+      "relatedName": "Mitochondrial Uncoupling Protein 2 Hyperinsulinism"
+    },
+    {
+      "type": "Gene_Product_Expressed_In_Tissue",
+      "relatedCode": "C26368",
+      "relatedName": "Mitogen-Activated Protein Kinase 13"
+    },
+    {
+      "type": "Gene_Product_Expressed_In_Tissue",
+      "relatedCode": "C26369",
+      "relatedName": "Mitogen-Activated Protein Kinase 14"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C113667",
+      "relatedName": "Mixed Type Pancreatic Intraductal Papillary-Mucinous Neoplasm"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C131839",
+      "relatedName": "Monocarboxylate Transporter 1 Hyperinsulinism"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C131839",
+      "relatedName": "Monocarboxylate Transporter 1 Hyperinsulinism"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C129739",
+      "relatedName": "Monogenic Diabetes"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C129739",
+      "relatedName": "Monogenic Diabetes"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C131840",
+      "relatedName": "Monogenic Hyperinsulinism"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C131840",
+      "relatedName": "Monogenic Hyperinsulinism"
+    },
+    {
+      "type": "Gene_Product_Expressed_In_Tissue",
+      "relatedCode": "C125577",
+      "relatedName": "MORC Family CW-Type Zinc Finger Protein 2"
+    },
+    {
+      "type": "Gene_Product_Expressed_In_Tissue",
+      "relatedCode": "C97561",
+      "relatedName": "Motor Neuron and Pancreas Homeobox Protein 1"
+    },
+    {
+      "type": "Gene_Product_Expressed_In_Tissue",
+      "relatedCode": "C185547",
+      "relatedName": "Myosin-IIIa"
+    },
+    {
+      "type": "Anatomic_Structure_Is_Physical_Part_Of",
+      "relatedCode": "C158551",
+      "relatedName": "Neck of the Pancreas"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C99248",
+      "relatedName": "Neonatal Diabetes Mellitus"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C99248",
+      "relatedName": "Neonatal Diabetes Mellitus"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C4375",
+      "relatedName": "Nesidioblastosis"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C4375",
+      "relatedName": "Nesidioblastosis"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C129745",
+      "relatedName": "Neurogenic Differentiation Factor 1-Associated Monogenic Diabetes"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C129745",
+      "relatedName": "Neurogenic Differentiation Factor 1-Associated Monogenic Diabetes"
+    },
+    {
+      "type": "Gene_Product_Expressed_In_Tissue",
+      "relatedCode": "C94690",
+      "relatedName": "Neutral and Basic Amino Acid Transport Protein rBAT"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C114852",
+      "relatedName": "New Onset Diabetes After Transplant"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C114852",
+      "relatedName": "New Onset Diabetes After Transplant"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C28333",
+      "relatedName": "Non-Functioning Pancreatic Delta Cell Neuroendocrine Tumor"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C28333",
+      "relatedName": "Non-Functioning Pancreatic Delta Cell Neuroendocrine Tumor"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C95585",
+      "relatedName": "Non-Functioning Pancreatic Neuroendocrine Tumor G1"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C95585",
+      "relatedName": "Non-Functioning Pancreatic Neuroendocrine Tumor G1"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C45838",
+      "relatedName": "Non-Functioning Pancreatic Neuroendocrine Tumor G2"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C45838",
+      "relatedName": "Non-Functioning Pancreatic Neuroendocrine Tumor G2"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C45837",
+      "relatedName": "Non-Functioning Pancreatic Neuroendocrine Tumor"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C45837",
+      "relatedName": "Non-Functioning Pancreatic Neuroendocrine Tumor"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C95488",
+      "relatedName": "Non-Invasive Pancreatic Mucinous-Cystic Neoplasm"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C95488",
+      "relatedName": "Non-Invasive Pancreatic Mucinous-Cystic Neoplasm"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C171128",
+      "relatedName": "Non-Neoplastic Endocrine Pancreas Disorder"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C171128",
+      "relatedName": "Non-Neoplastic Endocrine Pancreas Disorder"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C53505",
+      "relatedName": "Non-Neoplastic Pancreatic Disorder"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C53505",
+      "relatedName": "Non-Neoplastic Pancreatic Disorder"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C131841",
+      "relatedName": "Obesity-Associated Insulin Resistance"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C131841",
+      "relatedName": "Obesity-Associated Insulin Resistance"
+    },
+    {
+      "type": "Disease_Excludes_Metastatic_Anatomic_Site",
+      "relatedCode": "C187450",
+      "relatedName": "Oligometastatic Pancreatic Ductal Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C187450",
+      "relatedName": "Oligometastatic Pancreatic Ductal Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C187450",
+      "relatedName": "Oligometastatic Pancreatic Ductal Adenocarcinoma"
+    },
+    {
+      "type": "Procedure_Has_Excised_Anatomy",
+      "relatedCode": "C187209",
+      "relatedName": "Open Distal Pancreatectomy"
+    },
+    {
+      "type": "Procedure_Has_Partially_Excised_Anatomy",
+      "relatedCode": "C187209",
+      "relatedName": "Open Distal Pancreatectomy"
+    },
+    {
+      "type": "Anatomic_Structure_Is_Physical_Part_Of",
+      "relatedCode": "C13024",
+      "relatedName": "Pancreas Part"
+    },
+    {
+      "type": "Procedure_Has_Excised_Anatomy",
+      "relatedCode": "C15294",
+      "relatedName": "Pancreatectomy"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C7977",
+      "relatedName": "Pancreatic Acinar Cell Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C7977",
+      "relatedName": "Pancreatic Acinar Cell Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C5727",
+      "relatedName": "Pancreatic Acinar Cell Cystadenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C5727",
+      "relatedName": "Pancreatic Acinar Cell Cystadenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C27466",
+      "relatedName": "Pancreatic ACTH-Producing Neuroendocrine Tumor"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C27466",
+      "relatedName": "Pancreatic ACTH-Producing Neuroendocrine Tumor"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C213632",
+      "relatedName": "Pancreatic Adamantinoma-Like Ewing Sarcoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C213632",
+      "relatedName": "Pancreatic Adamantinoma-Like Ewing Sarcoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C8294",
+      "relatedName": "Pancreatic Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C8294",
+      "relatedName": "Pancreatic Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C5721",
+      "relatedName": "Pancreatic Adenosquamous Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C5721",
+      "relatedName": "Pancreatic Adenosquamous Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C134902",
+      "relatedName": "Pancreatic Cancer by AJCC v6 and v7 Stage"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C134902",
+      "relatedName": "Pancreatic Cancer by AJCC v6 and v7 Stage"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C134909",
+      "relatedName": "Pancreatic Cancer by AJCC v8 Stage"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C134909",
+      "relatedName": "Pancreatic Cancer by AJCC v8 Stage"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C207229",
+      "relatedName": "Pancreatic Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C207229",
+      "relatedName": "Pancreatic Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C37214",
+      "relatedName": "Pancreatic Colloid Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C37214",
+      "relatedName": "Pancreatic Colloid Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C3874",
+      "relatedName": "Pancreatic Cystadenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C3874",
+      "relatedName": "Pancreatic Cystadenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C200227",
+      "relatedName": "Pancreatic Cystic Neoplasm"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C28396",
+      "relatedName": "Pancreatic Delta Cell Neuroendocrine Tumor"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C28396",
+      "relatedName": "Pancreatic Delta Cell Neuroendocrine Tumor"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C26842",
+      "relatedName": "Pancreatic Disorder"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C9120",
+      "relatedName": "Pancreatic Ductal Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C9120",
+      "relatedName": "Pancreatic Ductal Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C213375",
+      "relatedName": "Pancreatic Ductal Intestinal-Type Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C213375",
+      "relatedName": "Pancreatic Ductal Intestinal-Type Adenocarcinoma"
+    },
+    {
+      "type": "Gene_Product_Expressed_In_Tissue",
+      "relatedCode": "C18296",
+      "relatedName": "Pancreatic Enzyme"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C4445",
+      "relatedName": "Pancreatic Exocrine Neoplasm"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C79701",
+      "relatedName": "Pancreatic Fistula"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C79701",
+      "relatedName": "Pancreatic Fistula"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C37256",
+      "relatedName": "Pancreatic Foamy Gland Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C37256",
+      "relatedName": "Pancreatic Foamy Gland Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C9069",
+      "relatedName": "Pancreatic Gastrin-Producing Neuroendocrine Tumor"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C9069",
+      "relatedName": "Pancreatic Gastrin-Producing Neuroendocrine Tumor"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C95596",
+      "relatedName": "Pancreatic Gastrinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C95596",
+      "relatedName": "Pancreatic Gastrinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C3062",
+      "relatedName": "Pancreatic Glucagon-Producing Neuroendocrine Tumor"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C3062",
+      "relatedName": "Pancreatic Glucagon-Producing Neuroendocrine Tumor"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C95597",
+      "relatedName": "Pancreatic Glucagonoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C95597",
+      "relatedName": "Pancreatic Glucagonoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C95465",
+      "relatedName": "Pancreatic Hepatoid Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C95465",
+      "relatedName": "Pancreatic Hepatoid Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C78517",
+      "relatedName": "Pancreatic Infection"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C78517",
+      "relatedName": "Pancreatic Infection"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C84316",
+      "relatedName": "Pancreatic Insufficiency"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C84316",
+      "relatedName": "Pancreatic Insufficiency"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C3140",
+      "relatedName": "Pancreatic Insulin-Producing Neuroendocrine Tumor"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C3140",
+      "relatedName": "Pancreatic Insulin-Producing Neuroendocrine Tumor"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C95598",
+      "relatedName": "Pancreatic Insulinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C95598",
+      "relatedName": "Pancreatic Insulinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C95505",
+      "relatedName": "Pancreatic Intraductal Neoplasm"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C95508",
+      "relatedName": "Pancreatic Intraductal Papillary Mucinous Neoplasm, Gastric-Type"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C95510",
+      "relatedName": "Pancreatic Intraductal Papillary Mucinous Neoplasm, Intestinal-Type"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C95514",
+      "relatedName": "Pancreatic Intraductal Papillary Mucinous Neoplasm, Oncocytic-Type"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C95512",
+      "relatedName": "Pancreatic Intraductal Papillary Mucinous Neoplasm, Pancreatobiliary-Type"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C5726",
+      "relatedName": "Pancreatic Intraductal Papillary-Mucinous Neoplasm with an Associated Invasive Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C5726",
+      "relatedName": "Pancreatic Intraductal Papillary-Mucinous Neoplasm with an Associated Invasive Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C41251",
+      "relatedName": "Pancreatic Intraductal Papillary-Mucinous Neoplasm, High Grade"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C41251",
+      "relatedName": "Pancreatic Intraductal Papillary-Mucinous Neoplasm, High Grade"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C41249",
+      "relatedName": "Pancreatic Intraductal Papillary-Mucinous Neoplasm, Low Grade"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C41249",
+      "relatedName": "Pancreatic Intraductal Papillary-Mucinous Neoplasm, Low Grade"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C38342",
+      "relatedName": "Pancreatic Intraductal Papillary-Mucinous Neoplasm"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C95507",
+      "relatedName": "Pancreatic Intraductal Tubulopapillary Neoplasm with an Associated Invasive Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C95507",
+      "relatedName": "Pancreatic Intraductal Tubulopapillary Neoplasm with an Associated Invasive Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C95506",
+      "relatedName": "Pancreatic Intraductal Tubulopapillary Neoplasm"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C95506",
+      "relatedName": "Pancreatic Intraductal Tubulopapillary Neoplasm"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C95429",
+      "relatedName": "Pancreatic Intraepithelial Neoplasia-1A"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C95429",
+      "relatedName": "Pancreatic Intraepithelial Neoplasia-1A"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C95430",
+      "relatedName": "Pancreatic Intraepithelial Neoplasia-1B"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C95430",
+      "relatedName": "Pancreatic Intraepithelial Neoplasia-1B"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C6820",
+      "relatedName": "Pancreatic Intraepithelial Neoplasia-1"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C6820",
+      "relatedName": "Pancreatic Intraepithelial Neoplasia-1"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C4846",
+      "relatedName": "Pancreatic Intraepithelial Neoplasia-2"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C4846",
+      "relatedName": "Pancreatic Intraepithelial Neoplasia-2"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C4845",
+      "relatedName": "Pancreatic Intraepithelial Neoplasia"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C4845",
+      "relatedName": "Pancreatic Intraepithelial Neoplasia"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C95582",
+      "relatedName": "Pancreatic Large Cell Neuroendocrine Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C95582",
+      "relatedName": "Pancreatic Large Cell Neuroendocrine Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C188065",
+      "relatedName": "Pancreatic Leiomyosarcoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C188065",
+      "relatedName": "Pancreatic Leiomyosarcoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C5714",
+      "relatedName": "Pancreatic Lymphoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C5714",
+      "relatedName": "Pancreatic Lymphoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C95559",
+      "relatedName": "Pancreatic Mature Teratoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C95559",
+      "relatedName": "Pancreatic Mature Teratoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C95466",
+      "relatedName": "Pancreatic Medullary Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C95466",
+      "relatedName": "Pancreatic Medullary Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C6878",
+      "relatedName": "Pancreatic Mixed Acinar Carcinoma-Neuroendocrine Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C6878",
+      "relatedName": "Pancreatic Mixed Acinar Carcinoma-Neuroendocrine Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C95458",
+      "relatedName": "Pancreatic Mixed Acinar-Ductal Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C95458",
+      "relatedName": "Pancreatic Mixed Acinar-Ductal Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C45843",
+      "relatedName": "Pancreatic Mixed Adenoneuroendocrine Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C45843",
+      "relatedName": "Pancreatic Mixed Adenoneuroendocrine Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C95460",
+      "relatedName": "Pancreatic Mixed Ductal Adenocarcinoma-Acinar Carcinoma-Neuroendocrine Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C95460",
+      "relatedName": "Pancreatic Mixed Ductal Adenocarcinoma-Acinar Carcinoma-Neuroendocrine Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C6879",
+      "relatedName": "Pancreatic Mixed Ductal Adenocarcinoma-Neuroendocrine Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C6879",
+      "relatedName": "Pancreatic Mixed Ductal Adenocarcinoma-Neuroendocrine Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C188217",
+      "relatedName": "Pancreatic Mixed Ductal Adenocarcinoma-Neuroendocrine Neoplasm"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C188217",
+      "relatedName": "Pancreatic Mixed Ductal Adenocarcinoma-Neuroendocrine Neoplasm"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C203795",
+      "relatedName": "Pancreatic Mixed Ductal Adenocarcinoma-Neuroendocrine Tumor"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C203795",
+      "relatedName": "Pancreatic Mixed Ductal Adenocarcinoma-Neuroendocrine Tumor"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C95427",
+      "relatedName": "Pancreatic Moderately Differentiated Ductal Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C95427",
+      "relatedName": "Pancreatic Moderately Differentiated Ductal Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C5717",
+      "relatedName": "Pancreatic Mucinous Ductal Ectasia"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C5717",
+      "relatedName": "Pancreatic Mucinous Ductal Ectasia"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C41246",
+      "relatedName": "Pancreatic Mucinous-Cystic Neoplasm with an Associated Invasive Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C41246",
+      "relatedName": "Pancreatic Mucinous-Cystic Neoplasm with an Associated Invasive Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C95493",
+      "relatedName": "Pancreatic Mucinous-Cystic Neoplasm, High Grade"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C95493",
+      "relatedName": "Pancreatic Mucinous-Cystic Neoplasm, High Grade"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C95483",
+      "relatedName": "Pancreatic Mucinous-Cystic Neoplasm, Low Grade"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C95483",
+      "relatedName": "Pancreatic Mucinous-Cystic Neoplasm, Low Grade"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C41247",
+      "relatedName": "Pancreatic Mucinous-Cystic Neoplasm"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C3305",
+      "relatedName": "Pancreatic Neoplasm"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C3770",
+      "relatedName": "Pancreatic Neuroendocrine Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C3770",
+      "relatedName": "Pancreatic Neuroendocrine Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C45834",
+      "relatedName": "Pancreatic Neuroendocrine Microtumor"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C45834",
+      "relatedName": "Pancreatic Neuroendocrine Microtumor"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C27031",
+      "relatedName": "Pancreatic Neuroendocrine Neoplasm"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C27031",
+      "relatedName": "Pancreatic Neuroendocrine Neoplasm"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C135560",
+      "relatedName": "Pancreatic Neuroendocrine Tumor by AJCC v8 Stage"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C135560",
+      "relatedName": "Pancreatic Neuroendocrine Tumor by AJCC v8 Stage"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C208221",
+      "relatedName": "Pancreatic Neuroendocrine Tumor by AJCC v9 Stage"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C208221",
+      "relatedName": "Pancreatic Neuroendocrine Tumor by AJCC v9 Stage"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C95584",
+      "relatedName": "Pancreatic Neuroendocrine Tumor G1"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C95584",
+      "relatedName": "Pancreatic Neuroendocrine Tumor G1"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C45835",
+      "relatedName": "Pancreatic Neuroendocrine Tumor G2"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C45835",
+      "relatedName": "Pancreatic Neuroendocrine Tumor G2"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C172814",
+      "relatedName": "Pancreatic Neuroendocrine Tumor G3"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C172814",
+      "relatedName": "Pancreatic Neuroendocrine Tumor G3"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C27720",
+      "relatedName": "Pancreatic Neuroendocrine Tumor"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C27720",
+      "relatedName": "Pancreatic Neuroendocrine Tumor"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C5789",
+      "relatedName": "Pancreatic Non-Hodgkin Lymphoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C5789",
+      "relatedName": "Pancreatic Non-Hodgkin Lymphoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C172811",
+      "relatedName": "Pancreatic Poorly Cohesive Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C172811",
+      "relatedName": "Pancreatic Poorly Cohesive Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C95428",
+      "relatedName": "Pancreatic Poorly Differentiated Ductal Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C95428",
+      "relatedName": "Pancreatic Poorly Differentiated Ductal Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C7412",
+      "relatedName": "Pancreatic Precancerous Condition"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C7412",
+      "relatedName": "Pancreatic Precancerous Condition"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C5715",
+      "relatedName": "Pancreatic Sarcoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C5715",
+      "relatedName": "Pancreatic Sarcoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C4446",
+      "relatedName": "Pancreatic Serotonin-Producing Neuroendocrine Tumor"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C4446",
+      "relatedName": "Pancreatic Serotonin-Producing Neuroendocrine Tumor"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C5724",
+      "relatedName": "Pancreatic Serous Cystadenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C5724",
+      "relatedName": "Pancreatic Serous Cystadenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C5712",
+      "relatedName": "Pancreatic Serous Cystadenoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C5712",
+      "relatedName": "Pancreatic Serous Cystadenoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C95471",
+      "relatedName": "Pancreatic Serous Macrocystic Cystadenoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C95471",
+      "relatedName": "Pancreatic Serous Macrocystic Cystadenoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C209395",
+      "relatedName": "Pancreatic Serous Microcystic Adenoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C209395",
+      "relatedName": "Pancreatic Serous Microcystic Adenoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C41248",
+      "relatedName": "Pancreatic Serous Neoplasm"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C5720",
+      "relatedName": "Pancreatic Signet Ring Cell Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C5720",
+      "relatedName": "Pancreatic Signet Ring Cell Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C95583",
+      "relatedName": "Pancreatic Small Cell Neuroendocrine Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C95583",
+      "relatedName": "Pancreatic Small Cell Neuroendocrine Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C95475",
+      "relatedName": "Pancreatic Solid Serous Microcystic Adenoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C95475",
+      "relatedName": "Pancreatic Solid Serous Microcystic Adenoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C8006",
+      "relatedName": "Pancreatic Somatostatin-Producing Neuroendocrine Tumor"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C8006",
+      "relatedName": "Pancreatic Somatostatin-Producing Neuroendocrine Tumor"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C95595",
+      "relatedName": "Pancreatic Somatostatinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C95595",
+      "relatedName": "Pancreatic Somatostatinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C173813",
+      "relatedName": "Pancreatic Squamous Cell Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C173813",
+      "relatedName": "Pancreatic Squamous Cell Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C95558",
+      "relatedName": "Pancreatic Teratoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C95558",
+      "relatedName": "Pancreatic Teratoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C5723",
+      "relatedName": "Pancreatic Undifferentiated Carcinoma with Osteoclast-Like Giant Cells"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C5723",
+      "relatedName": "Pancreatic Undifferentiated Carcinoma with Osteoclast-Like Giant Cells"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C172812",
+      "relatedName": "Pancreatic Undifferentiated Carcinoma with Rhabdoid Cells"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C172812",
+      "relatedName": "Pancreatic Undifferentiated Carcinoma with Rhabdoid Cells"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C5722",
+      "relatedName": "Pancreatic Undifferentiated Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C5722",
+      "relatedName": "Pancreatic Undifferentiated Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C27454",
+      "relatedName": "Pancreatic VIP-Producing Neuroendocrine Tumor"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C27454",
+      "relatedName": "Pancreatic VIP-Producing Neuroendocrine Tumor"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C95599",
+      "relatedName": "Pancreatic Vipoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C95599",
+      "relatedName": "Pancreatic Vipoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C95426",
+      "relatedName": "Pancreatic Well Differentiated Ductal Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C95426",
+      "relatedName": "Pancreatic Well Differentiated Ductal Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C3306",
+      "relatedName": "Pancreatitis"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C3306",
+      "relatedName": "Pancreatitis"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C4265",
+      "relatedName": "Pancreatoblastoma"
+    },
+    {
+      "type": "Procedure_Has_Excised_Anatomy",
+      "relatedCode": "C51666",
+      "relatedName": "Partial Pancreatectomy"
+    },
+    {
+      "type": "Procedure_Has_Partially_Excised_Anatomy",
+      "relatedCode": "C51666",
+      "relatedName": "Partial Pancreatectomy"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C129746",
+      "relatedName": "PDX1-Associated Monogenic Diabetes"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C129746",
+      "relatedName": "PDX1-Associated Monogenic Diabetes"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C131277",
+      "relatedName": "Perinatal-Stress Induced Hyperinsulinism"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C131277",
+      "relatedName": "Perinatal-Stress Induced Hyperinsulinism"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C114902",
+      "relatedName": "Permanent Neonatal Diabetes Mellitus"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C114902",
+      "relatedName": "Permanent Neonatal Diabetes Mellitus"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C122923",
+      "relatedName": "Persistent Hyperinsulinemic Hypoglycemia of Infancy"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C122923",
+      "relatedName": "Persistent Hyperinsulinemic Hypoglycemia of Infancy"
+    },
+    {
+      "type": "Gene_Product_Expressed_In_Tissue",
+      "relatedCode": "C21246",
+      "relatedName": "Pleckstrin Homology-Like Domain Family A Member 2"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C111913",
+      "relatedName": "Pre-Gestational Diabetes"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C111913",
+      "relatedName": "Pre-Gestational Diabetes"
+    },
+    {
+      "type": "Gene_Product_Expressed_In_Tissue",
+      "relatedCode": "C17807",
+      "relatedName": "Prostasin"
+    },
+    {
+      "type": "Gene_Product_Expressed_In_Tissue",
+      "relatedCode": "C18320",
+      "relatedName": "Protein CBFA2T1"
+    },
+    {
+      "type": "Gene_Product_Expressed_In_Tissue",
+      "relatedCode": "C21451",
+      "relatedName": "Protein Wnt-11"
+    },
+    {
+      "type": "Gene_Product_Expressed_In_Tissue",
+      "relatedCode": "C21453",
+      "relatedName": "Protein Wnt-9a"
+    },
+    {
+      "type": "Gene_Product_Expressed_In_Tissue",
+      "relatedCode": "C98186",
+      "relatedName": "Ras-Interacting Protein 1"
+    },
+    {
+      "type": "Gene_Product_Expressed_In_Tissue",
+      "relatedCode": "C148308",
+      "relatedName": "Receptor-Type Tyrosine-Protein Phosphatase-Like N"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C184324",
+      "relatedName": "Recurrent Acute Pancreatitis"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C184324",
+      "relatedName": "Recurrent Acute Pancreatitis"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C153569",
+      "relatedName": "Recurrent Pancreatic Acinar Cell Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C153569",
+      "relatedName": "Recurrent Pancreatic Acinar Cell Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C155742",
+      "relatedName": "Recurrent Pancreatic Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C155742",
+      "relatedName": "Recurrent Pancreatic Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C7626",
+      "relatedName": "Recurrent Pancreatic Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C7626",
+      "relatedName": "Recurrent Pancreatic Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C153620",
+      "relatedName": "Recurrent Pancreatic Cystadenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C153620",
+      "relatedName": "Recurrent Pancreatic Cystadenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C153619",
+      "relatedName": "Recurrent Pancreatic Ductal Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C153619",
+      "relatedName": "Recurrent Pancreatic Ductal Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C115433",
+      "relatedName": "Recurrent Pancreatic Neuroendocrine Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C115433",
+      "relatedName": "Recurrent Pancreatic Neuroendocrine Carcinoma"
+    },
+    {
+      "type": "Disease_Excludes_Metastatic_Anatomic_Site",
+      "relatedCode": "C168583",
+      "relatedName": "Refractory Metastatic Pancreatic Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C168583",
+      "relatedName": "Refractory Metastatic Pancreatic Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C168583",
+      "relatedName": "Refractory Metastatic Pancreatic Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C162015",
+      "relatedName": "Refractory Pancreatic Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C162015",
+      "relatedName": "Refractory Pancreatic Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C142808",
+      "relatedName": "Refractory Pancreatic Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C142808",
+      "relatedName": "Refractory Pancreatic Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C165450",
+      "relatedName": "Refractory Pancreatic Ductal Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C165450",
+      "relatedName": "Refractory Pancreatic Ductal Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C137862",
+      "relatedName": "Refractory Pancreatic Neuroendocrine Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C137862",
+      "relatedName": "Refractory Pancreatic Neuroendocrine Carcinoma"
+    },
+    {
+      "type": "Gene_Product_Expressed_In_Tissue",
+      "relatedCode": "C105384",
+      "relatedName": "Regenerating Islet-Derived Protein 3-Alpha"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C123018",
+      "relatedName": "Renal Cysts and Diabetes Syndrome"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C123018",
+      "relatedName": "Renal Cysts and Diabetes Syndrome"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C156907",
+      "relatedName": "Resectable Pancreatic Acinar Cell Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C156907",
+      "relatedName": "Resectable Pancreatic Acinar Cell Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C156906",
+      "relatedName": "Resectable Pancreatic Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C156906",
+      "relatedName": "Resectable Pancreatic Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C174566",
+      "relatedName": "Resectable Pancreatic Adenosquamous Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C174566",
+      "relatedName": "Resectable Pancreatic Adenosquamous Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C5099",
+      "relatedName": "Resectable Pancreatic Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C5099",
+      "relatedName": "Resectable Pancreatic Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C151995",
+      "relatedName": "Resectable Pancreatic Ductal Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C151995",
+      "relatedName": "Resectable Pancreatic Ductal Adenocarcinoma"
+    },
+    {
+      "type": "Gene_Product_Expressed_In_Tissue",
+      "relatedCode": "C26433",
+      "relatedName": "Ribosome Biogenesis Protein NOP53"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C37212",
+      "relatedName": "Solid Pseudopapillary Neoplasm of the Pancreas"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C5729",
+      "relatedName": "Stage 0 Pancreatic Cancer AJCC v6 and v7"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C5729",
+      "relatedName": "Stage 0 Pancreatic Cancer AJCC v6 and v7"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C134914",
+      "relatedName": "Stage 0 Pancreatic Cancer AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C134914",
+      "relatedName": "Stage 0 Pancreatic Cancer AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C7785",
+      "relatedName": "Stage I Pancreatic Cancer AJCC v6 and v7"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C7785",
+      "relatedName": "Stage I Pancreatic Cancer AJCC v6 and v7"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C134915",
+      "relatedName": "Stage I Pancreatic Cancer AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C134915",
+      "relatedName": "Stage I Pancreatic Cancer AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C135561",
+      "relatedName": "Stage I Pancreatic Neuroendocrine Tumor AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C135561",
+      "relatedName": "Stage I Pancreatic Neuroendocrine Tumor AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C208222",
+      "relatedName": "Stage I Pancreatic Neuroendocrine Tumor AJCC v9"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C208222",
+      "relatedName": "Stage I Pancreatic Neuroendocrine Tumor AJCC v9"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C88100",
+      "relatedName": "Stage IA Pancreatic Cancer AJCC v6 and v7"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C88100",
+      "relatedName": "Stage IA Pancreatic Cancer AJCC v6 and v7"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C134917",
+      "relatedName": "Stage IA Pancreatic Cancer AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C134917",
+      "relatedName": "Stage IA Pancreatic Cancer AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C88101",
+      "relatedName": "Stage IB Pancreatic Cancer AJCC v6 and v7"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C88101",
+      "relatedName": "Stage IB Pancreatic Cancer AJCC v6 and v7"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C134920",
+      "relatedName": "Stage IB Pancreatic Cancer AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C134920",
+      "relatedName": "Stage IB Pancreatic Cancer AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C7786",
+      "relatedName": "Stage II Pancreatic Cancer AJCC v6 and v7"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C7786",
+      "relatedName": "Stage II Pancreatic Cancer AJCC v6 and v7"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C134921",
+      "relatedName": "Stage II Pancreatic Cancer AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C134921",
+      "relatedName": "Stage II Pancreatic Cancer AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C135562",
+      "relatedName": "Stage II Pancreatic Neuroendocrine Tumor AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C135562",
+      "relatedName": "Stage II Pancreatic Neuroendocrine Tumor AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C208223",
+      "relatedName": "Stage II Pancreatic Neuroendocrine Tumor AJCC v9"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C208223",
+      "relatedName": "Stage II Pancreatic Neuroendocrine Tumor AJCC v9"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C88102",
+      "relatedName": "Stage IIA Pancreatic Cancer AJCC v6 and v7"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C88102",
+      "relatedName": "Stage IIA Pancreatic Cancer AJCC v6 and v7"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C134925",
+      "relatedName": "Stage IIA Pancreatic Cancer AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C134925",
+      "relatedName": "Stage IIA Pancreatic Cancer AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C88103",
+      "relatedName": "Stage IIB Pancreatic Cancer AJCC v6 and v7"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C88103",
+      "relatedName": "Stage IIB Pancreatic Cancer AJCC v6 and v7"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C134927",
+      "relatedName": "Stage IIB Pancreatic Cancer AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C134927",
+      "relatedName": "Stage IIB Pancreatic Cancer AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C7787",
+      "relatedName": "Stage III Pancreatic Cancer AJCC v6 and v7"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C7787",
+      "relatedName": "Stage III Pancreatic Cancer AJCC v6 and v7"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C134928",
+      "relatedName": "Stage III Pancreatic Cancer AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C134928",
+      "relatedName": "Stage III Pancreatic Cancer AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C135563",
+      "relatedName": "Stage III Pancreatic Neuroendocrine Tumor AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C135563",
+      "relatedName": "Stage III Pancreatic Neuroendocrine Tumor AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C208224",
+      "relatedName": "Stage III Pancreatic Neuroendocrine Tumor AJCC v9"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C208224",
+      "relatedName": "Stage III Pancreatic Neuroendocrine Tumor AJCC v9"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C5711",
+      "relatedName": "Stage IV Pancreatic Cancer AJCC v6 and v7"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C5711",
+      "relatedName": "Stage IV Pancreatic Cancer AJCC v6 and v7"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C134930",
+      "relatedName": "Stage IV Pancreatic Cancer AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C134930",
+      "relatedName": "Stage IV Pancreatic Cancer AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C135564",
+      "relatedName": "Stage IV Pancreatic Neuroendocrine Tumor AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C135564",
+      "relatedName": "Stage IV Pancreatic Neuroendocrine Tumor AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C208225",
+      "relatedName": "Stage IV Pancreatic Neuroendocrine Tumor AJCC v9"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C208225",
+      "relatedName": "Stage IV Pancreatic Neuroendocrine Tumor AJCC v9"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C129747",
+      "relatedName": "SUR1-Associated Diabetes Mellitus"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C129747",
+      "relatedName": "SUR1-Associated Diabetes Mellitus"
+    },
+    {
+      "type": "Anatomic_Structure_Is_Physical_Part_Of",
+      "relatedCode": "C12271",
+      "relatedName": "Tail of the Pancreas"
+    },
+    {
+      "type": "Gene_Product_Expressed_In_Tissue",
+      "relatedCode": "C21544",
+      "relatedName": "TERF1-Interacting Nuclear Factor 2"
+    },
+    {
+      "type": "Procedure_Has_Completely_Excised_Anatomy",
+      "relatedCode": "C15340",
+      "relatedName": "Total Pancreatectomy"
+    },
+    {
+      "type": "Procedure_Has_Excised_Anatomy",
+      "relatedCode": "C15340",
+      "relatedName": "Total Pancreatectomy"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C129748",
+      "relatedName": "Transcription Factor-Associated Monogenic Diabetes"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C129748",
+      "relatedName": "Transcription Factor-Associated Monogenic Diabetes"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C131030",
+      "relatedName": "Transient Hyperinsulinism"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C131030",
+      "relatedName": "Transient Hyperinsulinism"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C114899",
+      "relatedName": "Transient Neonatal Diabetes Mellitus"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C114899",
+      "relatedName": "Transient Neonatal Diabetes Mellitus"
+    },
+    {
+      "type": "Gene_Product_Expressed_In_Tissue",
+      "relatedCode": "C21237",
+      "relatedName": "Tumor Susceptibility Gene 101 Protein"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C2986",
+      "relatedName": "Type 1 Diabetes Mellitus"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C2986",
+      "relatedName": "Type 1 Diabetes Mellitus"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C26747",
+      "relatedName": "Type 2 Diabetes Mellitus"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C26747",
+      "relatedName": "Type 2 Diabetes Mellitus"
+    },
+    {
+      "type": "Anatomic_Structure_Is_Physical_Part_Of",
+      "relatedCode": "C62432",
+      "relatedName": "Uncinate Process of Pancreas"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C177763",
+      "relatedName": "Uncomplicated Diabetes Mellitus"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C177763",
+      "relatedName": "Uncomplicated Diabetes Mellitus"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C162016",
+      "relatedName": "Unresectable Pancreatic Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C162016",
+      "relatedName": "Unresectable Pancreatic Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C5018",
+      "relatedName": "Unresectable Pancreatic Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C5018",
+      "relatedName": "Unresectable Pancreatic Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C172245",
+      "relatedName": "Unresectable Pancreatic Ductal Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C172245",
+      "relatedName": "Unresectable Pancreatic Ductal Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C153079",
+      "relatedName": "Unresectable Pancreatic Neuroendocrine Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C153079",
+      "relatedName": "Unresectable Pancreatic Neuroendocrine Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C165456",
+      "relatedName": "Unresectable Pancreatic Neuroendocrine Neoplasm"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C165456",
+      "relatedName": "Unresectable Pancreatic Neuroendocrine Neoplasm"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C222478",
+      "relatedName": "Unresectable Pancreatic Neuroendocrine Tumor G1"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C222478",
+      "relatedName": "Unresectable Pancreatic Neuroendocrine Tumor G1"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C222479",
+      "relatedName": "Unresectable Pancreatic Neuroendocrine Tumor G2"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C222479",
+      "relatedName": "Unresectable Pancreatic Neuroendocrine Tumor G2"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C192795",
+      "relatedName": "Unresectable Pancreatic Neuroendocrine Tumor G3"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C192795",
+      "relatedName": "Unresectable Pancreatic Neuroendocrine Tumor G3"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C190782",
+      "relatedName": "Unresectable Pancreatic Neuroendocrine Tumor"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C190782",
+      "relatedName": "Unresectable Pancreatic Neuroendocrine Tumor"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C95476",
+      "relatedName": "Von Hippel Lindau Syndrome-Associated Benign Pancreatic Serous Neoplasm"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C95476",
+      "relatedName": "Von Hippel Lindau Syndrome-Associated Benign Pancreatic Serous Neoplasm"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C213039",
+      "relatedName": "Von Hippel Lindau Syndrome-Associated Pancreatic Neuroendocrine Tumor"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C213039",
+      "relatedName": "Von Hippel Lindau Syndrome-Associated Pancreatic Neuroendocrine Tumor"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C213041",
+      "relatedName": "Von Hippel Lindau Syndrome-Associated Pancreatic Serous Cystadenoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C213041",
+      "relatedName": "Von Hippel Lindau Syndrome-Associated Pancreatic Serous Cystadenoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C213040",
+      "relatedName": "Von Hippel Lindau Syndrome-Associated Pancreatic Serous Microcystic Adenoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C213040",
+      "relatedName": "Von Hippel Lindau Syndrome-Associated Pancreatic Serous Microcystic Adenoma"
+    },
+    {
+      "type": "Procedure_Has_Partially_Excised_Anatomy",
+      "relatedCode": "C15356",
+      "relatedName": "Whipple Procedure"
+    }
+  ],
+  "history": [
+    {
+      "code": "C12393",
+      "action": "create",
+      "date": "2003-08-12"
+    },
+    {
+      "code": "C12393",
+      "action": "modify",
+      "date": "2003-10-31"
+    },
+    {
+      "code": "C12393",
+      "action": "modify",
+      "date": "2003-12-30"
+    },
+    {
+      "code": "C12393",
+      "action": "modify",
+      "date": "2004-02-23"
+    },
+    {
+      "code": "C12393",
+      "action": "modify",
+      "date": "2005-03-16"
+    },
+    {
+      "code": "C12393",
+      "action": "modify",
+      "date": "2005-03-30"
+    },
+    {
+      "code": "C12393",
+      "action": "modify",
+      "date": "2006-03-31"
+    },
+    {
+      "code": "C12393",
+      "action": "modify",
+      "date": "2007-08-31"
+    },
+    {
+      "code": "C12393",
+      "action": "modify",
+      "date": "2008-06-27"
+    },
+    {
+      "code": "C12393",
+      "action": "modify",
+      "date": "2008-09-12"
+    },
+    {
+      "code": "C12393",
+      "action": "modify",
+      "date": "2008-11-14"
+    },
+    {
+      "code": "C12393",
+      "action": "modify",
+      "date": "2008-11-26"
+    },
+    {
+      "code": "C12393",
+      "action": "modify",
+      "date": "2008-12-19"
+    },
+    {
+      "code": "C12393",
+      "action": "modify",
+      "date": "2008-11-07"
+    },
+    {
+      "code": "C12393",
+      "action": "modify",
+      "date": "2009-01-26"
+    },
+    {
+      "code": "C12393",
+      "action": "modify",
+      "date": "2009-04-06"
+    },
+    {
+      "code": "C12393",
+      "action": "modify",
+      "date": "2009-08-03"
+    },
+    {
+      "code": "C12393",
+      "action": "modify",
+      "date": "2009-11-23"
+    },
+    {
+      "code": "C12393",
+      "action": "modify",
+      "date": "2011-03-07"
+    },
+    {
+      "code": "C12393",
+      "action": "modify",
+      "date": "2013-02-25"
+    },
+    {
+      "code": "C12393",
+      "action": "modify",
+      "date": "2013-03-04"
+    },
+    {
+      "code": "C12393",
+      "action": "modify",
+      "date": "2013-03-11"
+    },
+    {
+      "code": "C12393",
+      "action": "modify",
+      "date": "2013-03-18"
+    },
+    {
+      "code": "C12393",
+      "action": "modify",
+      "date": "2013-03-25"
+    },
+    {
+      "code": "C12393",
+      "action": "modify",
+      "date": "2013-04-01"
+    },
+    {
+      "code": "C12393",
+      "action": "modify",
+      "date": "2013-04-08"
+    },
+    {
+      "code": "C12393",
+      "action": "modify",
+      "date": "2013-04-15"
+    },
+    {
+      "code": "C12393",
+      "action": "modify",
+      "date": "2013-04-22"
+    },
+    {
+      "code": "C12393",
+      "action": "modify",
+      "date": "2013-04-29"
+    },
+    {
+      "code": "C12393",
+      "action": "modify",
+      "date": "2013-05-06"
+    },
+    {
+      "code": "C12393",
+      "action": "modify",
+      "date": "2013-05-13"
+    },
+    {
+      "code": "C12393",
+      "action": "modify",
+      "date": "2013-05-20"
+    },
+    {
+      "code": "C12393",
+      "action": "modify",
+      "date": "2013-05-28"
+    },
+    {
+      "code": "C12393",
+      "action": "modify",
+      "date": "2013-06-03"
+    },
+    {
+      "code": "C12393",
+      "action": "modify",
+      "date": "2013-06-10"
+    },
+    {
+      "code": "C12393",
+      "action": "modify",
+      "date": "2013-06-17"
+    },
+    {
+      "code": "C12393",
+      "action": "modify",
+      "date": "2013-06-24"
+    },
+    {
+      "code": "C12393",
+      "action": "modify",
+      "date": "2013-07-01"
+    },
+    {
+      "code": "C12393",
+      "action": "modify",
+      "date": "2013-07-08"
+    },
+    {
+      "code": "C12393",
+      "action": "modify",
+      "date": "2014-02-03"
+    },
+    {
+      "code": "C12393",
+      "action": "modify",
+      "date": "2014-12-22"
+    },
+    {
+      "code": "C12393",
+      "action": "modify",
+      "date": "2015-05-26"
+    },
+    {
+      "code": "C12393",
+      "action": "modify",
+      "date": "2015-06-01"
+    },
+    {
+      "code": "C12393",
+      "action": "modify",
+      "date": "2015-06-08"
+    },
+    {
+      "code": "C12393",
+      "action": "modify",
+      "date": "2015-06-15"
+    },
+    {
+      "code": "C12393",
+      "action": "modify",
+      "date": "2015-06-22"
+    },
+    {
+      "code": "C12393",
+      "action": "modify",
+      "date": "2015-06-29"
+    },
+    {
+      "code": "C12393",
+      "action": "modify",
+      "date": "2015-07-06"
+    },
+    {
+      "code": "C12393",
+      "action": "modify",
+      "date": "2015-07-13"
+    },
+    {
+      "code": "C12393",
+      "action": "modify",
+      "date": "2015-07-20"
+    },
+    {
+      "code": "C12393",
+      "action": "modify",
+      "date": "2015-08-12"
+    },
+    {
+      "code": "C12393",
+      "action": "modify",
+      "date": "2015-08-31"
+    },
+    {
+      "code": "C12393",
+      "action": "modify",
+      "date": "2015-10-19"
+    },
+    {
+      "code": "C12393",
+      "action": "modify",
+      "date": "2016-10-17"
+    },
+    {
+      "code": "C12393",
+      "action": "modify",
+      "date": "2017-02-27"
+    },
+    {
+      "code": "C12393",
+      "action": "modify",
+      "date": "2017-03-13"
+    },
+    {
+      "code": "C12393",
+      "action": "modify",
+      "date": "2018-09-24"
+    },
+    {
+      "code": "C12393",
+      "action": "modify",
+      "date": "2018-10-29"
+    },
+    {
+      "code": "C12393",
+      "action": "modify",
+      "date": "2018-10-29"
+    },
+    {
+      "code": "C12393",
+      "action": "modify",
+      "date": "2018-11-26"
+    },
+    {
+      "code": "C12393",
+      "action": "modify",
+      "date": "2018-12-31"
+    },
+    {
+      "code": "C12393",
+      "action": "modify",
+      "date": "2019-01-28"
+    },
+    {
+      "code": "C12393",
+      "action": "modify",
+      "date": "2019-05-28"
+    },
+    {
+      "code": "C12393",
+      "action": "modify",
+      "date": "2019-09-30"
+    },
+    {
+      "code": "C12393",
+      "action": "modify",
+      "date": "2019-10-28"
+    },
+    {
+      "code": "C12393",
+      "action": "modify",
+      "date": "2019-12-30"
+    },
+    {
+      "code": "C12393",
+      "action": "modify",
+      "date": "2020-02-24"
+    },
+    {
+      "code": "C12393",
+      "action": "modify",
+      "date": "2020-03-30"
+    },
+    {
+      "code": "C12393",
+      "action": "modify",
+      "date": "2020-09-29"
+    },
+    {
+      "code": "C12393",
+      "action": "modify",
+      "date": "2021-02-22"
+    },
+    {
+      "code": "C12393",
+      "action": "modify",
+      "date": "2021-03-29"
+    },
+    {
+      "code": "C12393",
+      "action": "modify",
+      "date": "2021-11-29"
+    },
+    {
+      "code": "C12393",
+      "action": "modify",
+      "date": "2022-04-25"
+    },
+    {
+      "code": "C12393",
+      "action": "modify",
+      "date": "2022-08-29"
+    },
+    {
+      "code": "C12393",
+      "action": "modify",
+      "date": "2022-10-31"
+    },
+    {
+      "code": "C12393",
+      "action": "modify",
+      "date": "2023-02-27"
+    },
+    {
+      "code": "C12393",
+      "action": "modify",
+      "date": "2023-03-27"
+    },
+    {
+      "code": "C12393",
+      "action": "modify",
+      "date": "2023-05-30"
+    },
+    {
+      "code": "C12393",
+      "action": "modify",
+      "date": "2023-07-31"
+    },
+    {
+      "code": "C12393",
+      "action": "modify",
+      "date": "2023-09-25"
+    },
+    {
+      "code": "C12393",
+      "action": "modify",
+      "date": "2024-06-24"
+    },
+    {
+      "code": "C12393",
+      "action": "modify",
+      "date": "2024-07-08"
+    }
+  ],
+  "maps": [
+    {
+      "type": "Related To",
+      "targetName": "Pancreas, NOS",
+      "targetTermType": "PT",
+      "targetCode": "C25.9",
+      "targetTerminology": "ICDO3",
+      "targetTerminologyVersion": "3.2"
+    },
+    {
+      "type": "Related To",
+      "targetName": "Pancreas, NOS",
+      "targetTermType": "PT",
+      "targetCode": "C25.9",
+      "targetTerminology": "ICDO3",
+      "targetTerminologyVersion": "3.1"
+    },
+    {
+      "type": "Has Synonym",
+      "targetName": "Pancreas, NOS",
+      "targetTermType": "PT",
+      "targetCode": "progression_or_recurrence_anatomic_site",
+      "targetTerminology": "GDC"
+    },
+    {
+      "type": "Has Synonym",
+      "targetName": "Pancreas, NOS",
+      "targetTermType": "PT",
+      "targetCode": "site_of_resection_or_biopsy",
+      "targetTerminology": "GDC"
+    },
+    {
+      "type": "Has Synonym",
+      "targetName": "Pancreas, NOS",
+      "targetTermType": "PT",
+      "targetCode": "sites_of_involvement",
+      "targetTerminology": "GDC"
+    },
+    {
+      "type": "Has Synonym",
+      "targetName": "Pancreas, NOS",
+      "targetTermType": "PT",
+      "targetCode": "tissue_or_organ_of_origin",
+      "targetTerminology": "GDC"
+    },
+    {
+      "type": "Has Synonym",
+      "targetName": "Pancreas",
+      "targetTermType": "PT",
+      "targetCode": "biospecimen_anatomic_site",
+      "targetTerminology": "GDC"
+    },
+    {
+      "type": "Related To",
+      "targetName": "PANCREAS",
+      "targetTermType": "HT",
+      "targetCode": "C25",
+      "targetTerminology": "ICDO3",
+      "targetTerminologyVersion": "3.1"
+    },
+    {
+      "type": "Related To",
+      "targetName": "PANCREAS",
+      "targetTermType": "HT",
+      "targetCode": "C25",
+      "targetTerminology": "ICDO3",
+      "targetTerminologyVersion": "3.2"
+    },
+    {
+      "type": "Has Synonym",
+      "targetName": "Pancreas",
+      "targetTermType": "PT",
+      "targetCode": "max_tumor_bulk_site",
+      "targetTerminology": "GDC"
+    },
+    {
+      "type": "Has Synonym",
+      "targetName": "Pancreas",
+      "targetTermType": "PT",
+      "targetCode": "primary_site",
+      "targetTerminology": "GDC"
+    },
+    {
+      "type": "Has Synonym",
+      "targetName": "Pancreas",
+      "targetTermType": "PT",
+      "targetCode": "treatment_anatomic_sites",
+      "targetTerminology": "GDC"
+    }
+  ]
+}

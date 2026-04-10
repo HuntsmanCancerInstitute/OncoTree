@@ -1,0 +1,702 @@
+{
+  "code": "C80307",
+  "name": "Waldenstrom Macroglobulinemia",
+  "terminology": "ncit",
+  "version": "25.11d",
+  "conceptStatus": "DEFAULT",
+  "leaf": false,
+  "active": true,
+  "synonyms": [
+    {
+      "name": "Waldenstrom Macroglobulinemia",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "Cellosaurus"
+    },
+    {
+      "name": "Waldenstrom Macroglobulinemia",
+      "termType": "DN",
+      "type": "FULL_SYN",
+      "source": "CTRP"
+    },
+    {
+      "name": "Waldenstrom macroglobulinemia",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "GDC"
+    },
+    {
+      "name": "Waldenstrom macroglobulinemia",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "mCode",
+      "code": "C88.0",
+      "subSource": "ICD-10 CM"
+    },
+    {
+      "name": "Waldenstrom's macroglobulinemia",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NCI-GLOSS",
+      "code": "CDR0000044854"
+    },
+    {
+      "name": "Waldenstrom Macroglobulinemia",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Waldenstrom's Macroglobulinemia",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Waldenström Macroglobulinemia",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Waldenstrom Macroglobulinemia",
+      "type": "Display_Name"
+    },
+    {
+      "name": "Waldenstrom Macroglobulinemia",
+      "type": "Preferred_Name"
+    }
+  ],
+  "definitions": [
+    {
+      "definition": "An indolent (slow-growing) type of non-Hodgkin lymphoma marked by abnormal levels of IgM antibodies in the blood and an enlarged liver, spleen, or lymph nodes.",
+      "type": "ALT_DEFINITION",
+      "source": "NCI-GLOSS"
+    },
+    {
+      "definition": "Lymphoplasmacytic lymphoma associated with bone marrow involvement and IgM monoclonal gammopathy.",
+      "type": "DEFINITION",
+      "source": "NCI"
+    }
+  ],
+  "properties": [
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "Cellosaurus"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "CTRP"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "GDC"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "mCode"
+    },
+    {
+      "code": "P366",
+      "type": "Legacy Concept Name",
+      "value": "Waldenstrom_Macroglobulinemia"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "9761/3"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "Waldenstrom macroglobulinemia"
+    },
+    {
+      "code": "P363",
+      "type": "Neoplastic_Status",
+      "value": "Malignant"
+    },
+    {
+      "code": "P106",
+      "type": "Semantic_Type",
+      "value": "Neoplastic Process"
+    },
+    {
+      "code": "P207",
+      "type": "UMLS_CUI",
+      "value": "C0024419"
+    }
+  ],
+  "children": [
+    {
+      "code": "C115212",
+      "name": "Familial Waldenstrom Macroglobulinemia",
+      "leaf": true
+    },
+    {
+      "code": "C127840",
+      "name": "Recurrent Waldenstrom Macroglobulinemia",
+      "leaf": true
+    },
+    {
+      "code": "C142149",
+      "name": "Refractory Waldenstrom Macroglobulinemia",
+      "leaf": true
+    },
+    {
+      "code": "C155910",
+      "name": "Smoldering Waldenstrom Macroglobulinemia",
+      "leaf": true
+    }
+  ],
+  "parents": [
+    {
+      "code": "C3212",
+      "name": "Lymphoplasmacytic Lymphoma"
+    }
+  ],
+  "associations": [
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C165258",
+      "relatedName": "Cellosaurus Disease Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C118168",
+      "relatedName": "CTRP Disease Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C116977",
+      "relatedName": "CTRP Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C157711",
+      "relatedName": "GDC Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C177537",
+      "relatedName": "GDC Value Terminology"
+    },
+    {
+      "type": "Is_Value_For_GDC_Property",
+      "relatedCode": "C176985",
+      "relatedName": "Histology ICD-O Morphology Code"
+    },
+    {
+      "type": "Is_Value_For_GDC_Property",
+      "relatedCode": "C177621",
+      "relatedName": "ICD-O-3 Morphology Term Diagnosis Question"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168658",
+      "relatedName": "Mapped ICDO3.1 Morphology PT Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168657",
+      "relatedName": "Mapped ICDO3.1 Morphology Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168655",
+      "relatedName": "Mapped ICDO3.1 Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168662",
+      "relatedName": "Mapped ICDO3.2 Morphology PT Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168661",
+      "relatedName": "Mapped ICDO3.2 Morphology Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168656",
+      "relatedName": "Mapped ICDO3.2 Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C193249",
+      "relatedName": "mCode Cancer Disorder Value Set"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C193175",
+      "relatedName": "mCode Elixhauser Lymphoma Value Set"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C193248",
+      "relatedName": "mCode Primary Cancer Disorder Value Set"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C193231",
+      "relatedName": "mCode Primary Malignant Neoplasm Disorder Value Set"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C193006",
+      "relatedName": "mCode Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C126659",
+      "relatedName": "NCIt Neoplasm Core Terminology"
+    }
+  ],
+  "inverseAssociations": [
+    {
+      "type": "Has_GDC_Value",
+      "relatedCode": "C176985",
+      "relatedName": "Histology ICD-O Morphology Code"
+    },
+    {
+      "type": "Has_GDC_Value",
+      "relatedCode": "C177621",
+      "relatedName": "ICD-O-3 Morphology Term Diagnosis Question"
+    }
+  ],
+  "roles": [
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36725",
+      "relatedName": "Abnormal Lymphocyte"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C36104",
+      "relatedName": "Aggressive Clinical Course"
+    },
+    {
+      "type": "Disease_May_Have_Associated_Disease",
+      "relatedCode": "C2889",
+      "relatedName": "Autoimmune Disease"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C12474",
+      "relatedName": "B-Lymphocyte"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C36122",
+      "relatedName": "Benign Cellular Infiltrate"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C8288",
+      "relatedName": "Bone Marrow Involvement"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C155911",
+      "relatedName": "Bone Marrow Lymphoplasmacytic Infiltrate"
+    },
+    {
+      "type": "Disease_Has_Molecular_Abnormality",
+      "relatedCode": "C36443",
+      "relatedName": "Clonal Immunoglobulin Gene Rearrangement"
+    },
+    {
+      "type": "Disease_Has_Molecular_Abnormality",
+      "relatedCode": "C36444",
+      "relatedName": "Clonal Immunoglobulin Heavy Chain Gene Rearrangement"
+    },
+    {
+      "type": "Disease_Has_Molecular_Abnormality",
+      "relatedCode": "C36451",
+      "relatedName": "Clonal Immunoglobulin Kappa Light Chain Gene Rearrangement"
+    },
+    {
+      "type": "Disease_Has_Molecular_Abnormality",
+      "relatedCode": "C36452",
+      "relatedName": "Clonal Immunoglobulin Lambda Light Chain Gene Rearrangement"
+    },
+    {
+      "type": "Disease_May_Have_Molecular_Abnormality",
+      "relatedCode": "C150493",
+      "relatedName": "CXCR4 Gene Mutation"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C36020",
+      "relatedName": "Dutcher Body"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C41165",
+      "relatedName": "Hematopoietic and Lymphatic System"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C41165",
+      "relatedName": "Hematopoietic and Lymphatic System"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C32725",
+      "relatedName": "Hematopoietic and Lymphoid Cell"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C41168",
+      "relatedName": "Hematopoietic and Lymphoid Tissue"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12909",
+      "relatedName": "Hematopoietic System"
+    },
+    {
+      "type": "Disease_May_Have_Associated_Disease",
+      "relatedCode": "C3098",
+      "relatedName": "Hepatitis C Infection"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C50764",
+      "relatedName": "Lymphadenopathy"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12746",
+      "relatedName": "Lymphatic System"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C37027",
+      "relatedName": "Lymphocyte Predominant Cell"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C12535",
+      "relatedName": "Lymphocyte"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C13049",
+      "relatedName": "Lymphoid Tissue"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C35984",
+      "relatedName": "Lymphoplasmacytic Infiltrate"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C37000",
+      "relatedName": "Lymphoplasmacytoid Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12917",
+      "relatedName": "Malignant Cell"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C36115",
+      "relatedName": "Malignant Cellular Infiltrate"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C33058",
+      "relatedName": "Mature B-Lymphocyte"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C35548",
+      "relatedName": "Monoclonal Gammopathy"
+    },
+    {
+      "type": "Disease_May_Have_Molecular_Abnormality",
+      "relatedCode": "C128175",
+      "relatedName": "MYD88 Gene Mutation"
+    },
+    {
+      "type": "Disease_Excludes_Normal_Cell_Origin",
+      "relatedCode": "C12549",
+      "relatedName": "Myeloid Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C38640",
+      "relatedName": "Neoplastic B-Lymphocyte"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12922",
+      "relatedName": "Neoplastic Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C37060",
+      "relatedName": "Neoplastic Hematopoietic and Lymphoid Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36988",
+      "relatedName": "Neoplastic Lymphocyte"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C37077",
+      "relatedName": "Neoplastic Plasma Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C38702",
+      "relatedName": "Neoplastic Small B-Lymphocyte"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C39566",
+      "relatedName": "Neoplastic T-Lymphocyte and Neoplastic Natural Killer Cell"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C38330",
+      "relatedName": "Peripheral B-Lymphocyte"
+    },
+    {
+      "type": "Disease_Excludes_Normal_Cell_Origin",
+      "relatedCode": "C12486",
+      "relatedName": "Plasma Cell"
+    },
+    {
+      "type": "Disease_Excludes_Normal_Cell_Origin",
+      "relatedCode": "C33931",
+      "relatedName": "Precursor B-Lymphoblast"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C12660",
+      "relatedName": "Reed-Sternberg Cell"
+    },
+    {
+      "type": "Disease_May_Have_Cytogenetic_Abnormality",
+      "relatedCode": "C27748",
+      "relatedName": "t(9;14)(p13;q32)"
+    }
+  ],
+  "history": [
+    {
+      "code": "C80307",
+      "action": "modify",
+      "date": "2009-04-06"
+    },
+    {
+      "code": "C80307",
+      "action": "modify",
+      "date": "2009-04-13"
+    },
+    {
+      "code": "C80307",
+      "action": "modify",
+      "date": "2009-04-20"
+    },
+    {
+      "code": "C80307",
+      "action": "modify",
+      "date": "2009-04-27"
+    },
+    {
+      "code": "C80307",
+      "action": "modify",
+      "date": "2009-05-04"
+    },
+    {
+      "code": "C80307",
+      "action": "modify",
+      "date": "2009-11-23"
+    },
+    {
+      "code": "C80307",
+      "action": "modify",
+      "date": "2010-10-18"
+    },
+    {
+      "code": "C80307",
+      "action": "modify",
+      "date": "2012-06-25"
+    },
+    {
+      "code": "C80307",
+      "action": "modify",
+      "date": "2012-10-31"
+    },
+    {
+      "code": "C80307",
+      "action": "modify",
+      "date": "2012-11-05"
+    },
+    {
+      "code": "C80307",
+      "action": "create",
+      "date": "2009-04-02"
+    },
+    {
+      "code": "C80307",
+      "action": "modify",
+      "date": "2014-02-03"
+    },
+    {
+      "code": "C80307",
+      "action": "modify",
+      "date": "2014-08-25"
+    },
+    {
+      "code": "C80307",
+      "action": "modify",
+      "date": "2014-09-22"
+    },
+    {
+      "code": "C80307",
+      "action": "modify",
+      "date": "2015-03-16"
+    },
+    {
+      "code": "C80307",
+      "action": "modify",
+      "date": "2016-04-25"
+    },
+    {
+      "code": "C80307",
+      "action": "modify",
+      "date": "2018-07-30"
+    },
+    {
+      "code": "C80307",
+      "action": "modify",
+      "date": "2018-08-27"
+    },
+    {
+      "code": "C80307",
+      "action": "modify",
+      "date": "2018-08-27"
+    },
+    {
+      "code": "C80307",
+      "action": "modify",
+      "date": "2018-09-24"
+    },
+    {
+      "code": "C80307",
+      "action": "modify",
+      "date": "2018-10-29"
+    },
+    {
+      "code": "C80307",
+      "action": "modify",
+      "date": "2018-10-29"
+    },
+    {
+      "code": "C80307",
+      "action": "modify",
+      "date": "2019-05-28"
+    },
+    {
+      "code": "C80307",
+      "action": "modify",
+      "date": "2019-09-30"
+    },
+    {
+      "code": "C80307",
+      "action": "modify",
+      "date": "2019-10-28"
+    },
+    {
+      "code": "C80307",
+      "action": "modify",
+      "date": "2019-11-25"
+    },
+    {
+      "code": "C80307",
+      "action": "modify",
+      "date": "2020-02-24"
+    },
+    {
+      "code": "C80307",
+      "action": "modify",
+      "date": "2020-04-27"
+    },
+    {
+      "code": "C80307",
+      "action": "modify",
+      "date": "2021-02-22"
+    },
+    {
+      "code": "C80307",
+      "action": "modify",
+      "date": "2021-03-29"
+    },
+    {
+      "code": "C80307",
+      "action": "modify",
+      "date": "2023-02-27"
+    },
+    {
+      "code": "C80307",
+      "action": "modify",
+      "date": "2023-03-27"
+    },
+    {
+      "code": "C80307",
+      "action": "modify",
+      "date": "2023-05-30"
+    },
+    {
+      "code": "C80307",
+      "action": "modify",
+      "date": "2023-12-26"
+    },
+    {
+      "code": "C80307",
+      "action": "modify",
+      "date": "2025-03-31"
+    }
+  ],
+  "maps": [
+    {
+      "type": "Related To",
+      "targetName": "9761/3",
+      "targetTermType": "PT",
+      "targetCode": "morphology",
+      "targetTerminology": "GDC"
+    },
+    {
+      "type": "Related To",
+      "targetName": "Waldenstrom macroglobulinemia",
+      "targetTermType": "PT",
+      "targetCode": "9761/3",
+      "targetTerminology": "ICDO3",
+      "targetTerminologyVersion": "3.2"
+    },
+    {
+      "type": "Related To",
+      "targetName": "Waldenstrom macroglobulinemia",
+      "targetTermType": "PT",
+      "targetCode": "9761/3",
+      "targetTerminology": "ICDO3",
+      "targetTerminologyVersion": "3.1"
+    },
+    {
+      "type": "Has Synonym",
+      "targetName": "Waldenstrom macroglobulinemia",
+      "targetTermType": "PT",
+      "targetCode": "primary_diagnosis",
+      "targetTerminology": "GDC"
+    }
+  ]
+}

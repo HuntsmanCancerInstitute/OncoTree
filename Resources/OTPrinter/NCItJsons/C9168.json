@@ -1,0 +1,466 @@
+{
+  "code": "C9168",
+  "name": "Rectal Signet Ring Cell Adenocarcinoma",
+  "terminology": "ncit",
+  "version": "25.11d",
+  "conceptStatus": "DEFAULT",
+  "leaf": true,
+  "active": true,
+  "synonyms": [
+    {
+      "name": "Rectal Signet Ring Cell Adenocarcinoma",
+      "termType": "DN",
+      "type": "FULL_SYN",
+      "source": "CTRP"
+    },
+    {
+      "name": "Rectal Signet Ring Cell Adenocarcinoma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Rectal Signet-Ring Cell Adenocarcinoma",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Signet Ring Adenocarcinoma of Rectum",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Signet Ring Adenocarcinoma of the Rectum",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Signet Ring Cell Adenocarcinoma of Rectum",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Signet Ring Cell Adenocarcinoma of the Rectum",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Rectal Signet Ring Cell Adenocarcinoma",
+      "type": "Display_Name"
+    },
+    {
+      "name": "Rectal Signet Ring Cell Adenocarcinoma",
+      "type": "Preferred_Name"
+    }
+  ],
+  "definitions": [
+    {
+      "definition": "An infiltrating adenocarcinoma arising from the rectum.  It is characterized by the presence of malignant glandular cells with prominent intracytoplasmic mucin.  These cells constitute more than 50% of the malignant cellular population.",
+      "type": "DEFINITION",
+      "source": "NCI"
+    }
+  ],
+  "properties": [
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "CTRP"
+    },
+    {
+      "code": "P366",
+      "type": "Legacy Concept Name",
+      "value": "Rectal_Signet_Ring_Cell_Adenocarcinoma"
+    },
+    {
+      "code": "P363",
+      "type": "Neoplastic_Status",
+      "value": "Malignant"
+    },
+    {
+      "code": "P106",
+      "type": "Semantic_Type",
+      "value": "Neoplastic Process"
+    },
+    {
+      "code": "P207",
+      "type": "UMLS_CUI",
+      "value": "C0279654"
+    }
+  ],
+  "parents": [
+    {
+      "code": "C43586",
+      "name": "Colorectal Signet Ring Cell Adenocarcinoma"
+    },
+    {
+      "code": "C9383",
+      "name": "Rectal Adenocarcinoma"
+    }
+  ],
+  "associations": [
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C118168",
+      "relatedName": "CTRP Disease Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C116977",
+      "relatedName": "CTRP Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C126659",
+      "relatedName": "NCIt Neoplasm Core Terminology"
+    }
+  ],
+  "roles": [
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C26682",
+      "relatedName": "Abdominal Pain"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36773",
+      "relatedName": "Adenocarcinoma Cell"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C186102",
+      "relatedName": "Anorectal Area"
+    },
+    {
+      "type": "Disease_Mapped_To_Gene",
+      "relatedCode": "C17567",
+      "relatedName": "APC Gene"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C36122",
+      "relatedName": "Benign Cellular Infiltrate"
+    },
+    {
+      "type": "Disease_May_Have_Molecular_Abnormality",
+      "relatedCode": "C40430",
+      "relatedName": "BRAF Gene Mutation"
+    },
+    {
+      "type": "Disease_Mapped_To_Gene",
+      "relatedCode": "C18363",
+      "relatedName": "BRAF Gene"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C54172",
+      "relatedName": "Carcinomatous Component Present"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C54189",
+      "relatedName": "Colorectal Region"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C54189",
+      "relatedName": "Colorectal Region"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C37930",
+      "relatedName": "Constipation"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12378",
+      "relatedName": "Digestive System"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12378",
+      "relatedName": "Digestive System"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C12578",
+      "relatedName": "Epithelial Cell"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C53596",
+      "relatedName": "Epithelial Component Present"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C45714",
+      "relatedName": "Epithelial Tissue"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C3038",
+      "relatedName": "Fever"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C33923",
+      "relatedName": "Glandular Cell"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C43370",
+      "relatedName": "Glandular Epithelium"
+    },
+    {
+      "type": "Disease_May_Have_Molecular_Abnormality",
+      "relatedCode": "C36683",
+      "relatedName": "Inactivating APC Gene Mutation"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C155862",
+      "relatedName": "Intermediate Grade Neuroendocrine Lesion"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C8360",
+      "relatedName": "Intestinal Metaplasia"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12736",
+      "relatedName": "Intestine"
+    },
+    {
+      "type": "Disease_May_Have_Molecular_Abnormality",
+      "relatedCode": "C36665",
+      "relatedName": "KRAS Gene Amplification"
+    },
+    {
+      "type": "Disease_Mapped_To_Gene",
+      "relatedCode": "C25785",
+      "relatedName": "KRAS Gene"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C32926",
+      "relatedName": "Large Intestinal Mucosa"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12379",
+      "relatedName": "Large Intestine"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C155864",
+      "relatedName": "Low Grade Neuroendocrine Lesion"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C78438",
+      "relatedName": "Lower Gastrointestinal Hemorrhage"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12917",
+      "relatedName": "Malignant Cell"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C36115",
+      "relatedName": "Malignant Cellular Infiltrate"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36779",
+      "relatedName": "Malignant Epithelial Cell"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C36771",
+      "relatedName": "Malignant Squamous Cell"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C37153",
+      "relatedName": "Malignant Stromal Cell"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C62273",
+      "relatedName": "Mixed Neoplastic Glandular and Squamous Cell Population"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C35999",
+      "relatedName": "Mucoid Stroma Formation"
+    },
+    {
+      "type": "Disease_May_Have_Molecular_Abnormality",
+      "relatedCode": "C43597",
+      "relatedName": "MYC Gene Mutation"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12922",
+      "relatedName": "Neoplastic Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36753",
+      "relatedName": "Neoplastic Epithelial Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36763",
+      "relatedName": "Neoplastic Glandular Cell"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C36937",
+      "relatedName": "Neoplastic Smooth Muscle Cell"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C36760",
+      "relatedName": "Neoplastic Squamous Cell"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C95744",
+      "relatedName": "Poorly Cohesive Malignant Cellular Infiltrate"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C27054",
+      "relatedName": "Rectal Hemorrhage"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12390",
+      "relatedName": "Rectum"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12390",
+      "relatedName": "Rectum"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36777",
+      "relatedName": "Signet Ring Adenocarcinoma Cell"
+    },
+    {
+      "type": "Disease_May_Have_Molecular_Abnormality",
+      "relatedCode": "C36329",
+      "relatedName": "TP53 Gene Inactivation"
+    },
+    {
+      "type": "Disease_Mapped_To_Gene",
+      "relatedCode": "C17359",
+      "relatedName": "TP53 Gene"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C3445",
+      "relatedName": "Weight Loss"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C155861",
+      "relatedName": "Well Differentiated Neuroendocrine Lesion"
+    }
+  ],
+  "history": [
+    {
+      "code": "C9168",
+      "action": "create",
+      "date": "2003-08-12"
+    },
+    {
+      "code": "C9168",
+      "action": "modify",
+      "date": "2003-10-31"
+    },
+    {
+      "code": "C9168",
+      "action": "modify",
+      "date": "2003-12-30"
+    },
+    {
+      "code": "C9168",
+      "action": "modify",
+      "date": "2004-03-30"
+    },
+    {
+      "code": "C9168",
+      "action": "modify",
+      "date": "2005-03-16"
+    },
+    {
+      "code": "C9168",
+      "action": "modify",
+      "date": "2006-05-26"
+    },
+    {
+      "code": "C9168",
+      "action": "modify",
+      "date": "2007-10-29"
+    },
+    {
+      "code": "C9168",
+      "action": "modify",
+      "date": "2009-04-06"
+    },
+    {
+      "code": "C9168",
+      "action": "modify",
+      "date": "2009-11-23"
+    },
+    {
+      "code": "C9168",
+      "action": "modify",
+      "date": "2014-08-04"
+    },
+    {
+      "code": "C9168",
+      "action": "modify",
+      "date": "2014-08-18"
+    },
+    {
+      "code": "C9168",
+      "action": "modify",
+      "date": "2014-09-22"
+    },
+    {
+      "code": "C9168",
+      "action": "modify",
+      "date": "2016-04-25"
+    },
+    {
+      "code": "C9168",
+      "action": "modify",
+      "date": "2018-07-30"
+    },
+    {
+      "code": "C9168",
+      "action": "modify",
+      "date": "2018-08-27"
+    },
+    {
+      "code": "C9168",
+      "action": "modify",
+      "date": "2018-08-27"
+    },
+    {
+      "code": "C9168",
+      "action": "modify",
+      "date": "2021-05-24"
+    }
+  ]
+}

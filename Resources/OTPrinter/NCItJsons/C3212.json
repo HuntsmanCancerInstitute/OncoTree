@@ -1,0 +1,1381 @@
+{
+  "code": "C3212",
+  "name": "Lymphoplasmacytic Lymphoma",
+  "terminology": "ncit",
+  "version": "25.11d",
+  "conceptStatus": "DEFAULT",
+  "leaf": false,
+  "active": true,
+  "synonyms": [
+    {
+      "name": "Lymphoplasmacytic Lymphoma",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "caDSR"
+    },
+    {
+      "name": "Immunocytoma, Lymphoplasmacytic Type",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "CDISC"
+    },
+    {
+      "name": "LYMPHOMA, LYMPHOPLASMACYTIC, MALIGNANT",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "CDISC"
+    },
+    {
+      "name": "Lymphoma, Plasmacytic",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "CDISC"
+    },
+    {
+      "name": "Lymphoplasmacytoid Lymphoma",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "CDISC"
+    },
+    {
+      "name": "Lymphoplasmacytic lymphoma",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "CTEP",
+      "code": "10047803",
+      "subSource": "SDC"
+    },
+    {
+      "name": "Lymphoplasmacytic lymphoma (Waldenstrom macroglobulinemia)",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "CTEP",
+      "code": "10047803",
+      "subSource": "SDC"
+    },
+    {
+      "name": "Lymphoplasmacytic Lymphoma",
+      "termType": "DN",
+      "type": "FULL_SYN",
+      "source": "CTRP"
+    },
+    {
+      "name": "lymphoplasmacytic lymphoma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NCI-GLOSS",
+      "code": "CDR0000409750"
+    },
+    {
+      "name": "Immunocytoma, Lymphoplasmacytic Type",
+      "termType": "AQS",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Lymphoplasmacytic Lymphoma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Lymphoplasmacytoid Lymphoma",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Lymphoplasmacytic Lymphoma",
+      "type": "Display_Name"
+    },
+    {
+      "name": "Lymphoplasmacytic Lymphoma",
+      "type": "Preferred_Name"
+    }
+  ],
+  "definitions": [
+    {
+      "definition": "A clonal neoplasm of small B-lymphocytes, lymphoplasmacytoid cells, and plasma cells involving the bone marrow, lymph nodes, and the spleen. The majority of patients have a serum IgM paraprotein.",
+      "type": "DEFINITION",
+      "source": "NCI"
+    },
+    {
+      "definition": "A malignant neoplasm composed of lymphocytes (B-cells), lymphoplasmacytoid cells, and plasma cells.",
+      "type": "ALT_DEFINITION",
+      "source": "CDISC"
+    }
+  ],
+  "properties": [
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "CDISC"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "CTEP"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "CTRP"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "GDC"
+    },
+    {
+      "code": "P334",
+      "type": "ICD-O-3_Code",
+      "value": "9671/3"
+    },
+    {
+      "code": "P334",
+      "type": "ICD-O-3_Code",
+      "value": "9761/3"
+    },
+    {
+      "code": "P366",
+      "type": "Legacy Concept Name",
+      "value": "Lymphoplasmacytic_Lymphoma_Waldenstrom_s_Macroglobulinemia"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "9671/3"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "Lymphoplasmacytic lymphoma"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "Malignant lymphoma, lymphoplasmacytic"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "Malignant lymphoma, lymphoplasmacytoid"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "Malignant lymphoma, plasmacytoid"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "Plasmacytic lymphoma"
+    },
+    {
+      "code": "P363",
+      "type": "Neoplastic_Status",
+      "value": "Malignant"
+    },
+    {
+      "code": "P106",
+      "type": "Semantic_Type",
+      "value": "Neoplastic Process"
+    },
+    {
+      "code": "P207",
+      "type": "UMLS_CUI",
+      "value": "C0334633"
+    }
+  ],
+  "children": [
+    {
+      "code": "C141256",
+      "name": "Lymphoplasmacytic Lymphoma by Ann Arbor Stage",
+      "leaf": false
+    },
+    {
+      "code": "C8604",
+      "name": "Recurrent Lymphoplasmacytic Lymphoma",
+      "leaf": false
+    },
+    {
+      "code": "C8652",
+      "name": "Refractory Lymphoplasmacytic Lymphoma",
+      "leaf": false
+    },
+    {
+      "code": "C7305",
+      "name": "Splenic Lymphoplasmacytic Lymphoma",
+      "leaf": true
+    },
+    {
+      "code": "C80307",
+      "name": "Waldenstrom Macroglobulinemia",
+      "leaf": false
+    }
+  ],
+  "parents": [
+    {
+      "code": "C171299",
+      "name": "Indolent B-Cell Non-Hodgkin Lymphoma"
+    }
+  ],
+  "associations": [
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C77526",
+      "relatedName": "CDISC SEND Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C88025",
+      "relatedName": "CDISC SEND Tumor Findings Results Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C61410",
+      "relatedName": "Clinical Data Interchange Standards Consortium Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C118168",
+      "relatedName": "CTRP Disease Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C116977",
+      "relatedName": "CTRP Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C157711",
+      "relatedName": "GDC Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C177537",
+      "relatedName": "GDC Value Terminology"
+    },
+    {
+      "type": "Is_Value_For_GDC_Property",
+      "relatedCode": "C176985",
+      "relatedName": "Histology ICD-O Morphology Code"
+    },
+    {
+      "type": "Is_Value_For_GDC_Property",
+      "relatedCode": "C177621",
+      "relatedName": "ICD-O-3 Morphology Term Diagnosis Question"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168658",
+      "relatedName": "Mapped ICDO3.1 Morphology PT Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168657",
+      "relatedName": "Mapped ICDO3.1 Morphology Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168655",
+      "relatedName": "Mapped ICDO3.1 Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168662",
+      "relatedName": "Mapped ICDO3.2 Morphology PT Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168661",
+      "relatedName": "Mapped ICDO3.2 Morphology Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168656",
+      "relatedName": "Mapped ICDO3.2 Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C103133",
+      "relatedName": "NCI CTEP SDC Non-Hodgkin Lymphoma Sub-Category Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C102905",
+      "relatedName": "NCI CTEP Simplified Disease Classification Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C126659",
+      "relatedName": "NCIt Neoplasm Core Terminology"
+    }
+  ],
+  "inverseAssociations": [
+    {
+      "type": "Has_GDC_Value",
+      "relatedCode": "C176985",
+      "relatedName": "Histology ICD-O Morphology Code"
+    },
+    {
+      "type": "Has_GDC_Value",
+      "relatedCode": "C177621",
+      "relatedName": "ICD-O-3 Morphology Term Diagnosis Question"
+    }
+  ],
+  "roles": [
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36725",
+      "relatedName": "Abnormal Lymphocyte"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C36104",
+      "relatedName": "Aggressive Clinical Course"
+    },
+    {
+      "type": "Disease_May_Have_Associated_Disease",
+      "relatedCode": "C2889",
+      "relatedName": "Autoimmune Disease"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C12474",
+      "relatedName": "B-Lymphocyte"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C36122",
+      "relatedName": "Benign Cellular Infiltrate"
+    },
+    {
+      "type": "Disease_Has_Molecular_Abnormality",
+      "relatedCode": "C36443",
+      "relatedName": "Clonal Immunoglobulin Gene Rearrangement"
+    },
+    {
+      "type": "Disease_Has_Molecular_Abnormality",
+      "relatedCode": "C36444",
+      "relatedName": "Clonal Immunoglobulin Heavy Chain Gene Rearrangement"
+    },
+    {
+      "type": "Disease_Has_Molecular_Abnormality",
+      "relatedCode": "C36451",
+      "relatedName": "Clonal Immunoglobulin Kappa Light Chain Gene Rearrangement"
+    },
+    {
+      "type": "Disease_Has_Molecular_Abnormality",
+      "relatedCode": "C36452",
+      "relatedName": "Clonal Immunoglobulin Lambda Light Chain Gene Rearrangement"
+    },
+    {
+      "type": "Disease_May_Have_Molecular_Abnormality",
+      "relatedCode": "C150493",
+      "relatedName": "CXCR4 Gene Mutation"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C36020",
+      "relatedName": "Dutcher Body"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C41165",
+      "relatedName": "Hematopoietic and Lymphatic System"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C41165",
+      "relatedName": "Hematopoietic and Lymphatic System"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C32725",
+      "relatedName": "Hematopoietic and Lymphoid Cell"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C41168",
+      "relatedName": "Hematopoietic and Lymphoid Tissue"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12909",
+      "relatedName": "Hematopoietic System"
+    },
+    {
+      "type": "Disease_May_Have_Associated_Disease",
+      "relatedCode": "C3098",
+      "relatedName": "Hepatitis C Infection"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C50764",
+      "relatedName": "Lymphadenopathy"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12746",
+      "relatedName": "Lymphatic System"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C37027",
+      "relatedName": "Lymphocyte Predominant Cell"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C12535",
+      "relatedName": "Lymphocyte"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C13049",
+      "relatedName": "Lymphoid Tissue"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C35984",
+      "relatedName": "Lymphoplasmacytic Infiltrate"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C37000",
+      "relatedName": "Lymphoplasmacytoid Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12917",
+      "relatedName": "Malignant Cell"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C36115",
+      "relatedName": "Malignant Cellular Infiltrate"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C33058",
+      "relatedName": "Mature B-Lymphocyte"
+    },
+    {
+      "type": "Disease_May_Have_Molecular_Abnormality",
+      "relatedCode": "C128175",
+      "relatedName": "MYD88 Gene Mutation"
+    },
+    {
+      "type": "Disease_Excludes_Normal_Cell_Origin",
+      "relatedCode": "C12549",
+      "relatedName": "Myeloid Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C38640",
+      "relatedName": "Neoplastic B-Lymphocyte"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12922",
+      "relatedName": "Neoplastic Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C37060",
+      "relatedName": "Neoplastic Hematopoietic and Lymphoid Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36988",
+      "relatedName": "Neoplastic Lymphocyte"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C37077",
+      "relatedName": "Neoplastic Plasma Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C38702",
+      "relatedName": "Neoplastic Small B-Lymphocyte"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C39566",
+      "relatedName": "Neoplastic T-Lymphocyte and Neoplastic Natural Killer Cell"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C38330",
+      "relatedName": "Peripheral B-Lymphocyte"
+    },
+    {
+      "type": "Disease_Excludes_Normal_Cell_Origin",
+      "relatedCode": "C12486",
+      "relatedName": "Plasma Cell"
+    },
+    {
+      "type": "Disease_Excludes_Normal_Cell_Origin",
+      "relatedCode": "C33931",
+      "relatedName": "Precursor B-Lymphoblast"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C12660",
+      "relatedName": "Reed-Sternberg Cell"
+    },
+    {
+      "type": "Disease_May_Have_Cytogenetic_Abnormality",
+      "relatedCode": "C27748",
+      "relatedName": "t(9;14)(p13;q32)"
+    }
+  ],
+  "inverseRoles": [
+    {
+      "type": "Disease_Has_Associated_Disease",
+      "relatedCode": "C3083",
+      "relatedName": "Gamma Heavy Chain Disease"
+    }
+  ],
+  "history": [
+    {
+      "code": "C3212",
+      "action": "create",
+      "date": "2003-08-12"
+    },
+    {
+      "code": "C3212",
+      "action": "modify",
+      "date": "2003-10-31"
+    },
+    {
+      "code": "C3212",
+      "action": "modify",
+      "date": "2003-12-30"
+    },
+    {
+      "code": "C3212",
+      "action": "modify",
+      "date": "2004-03-30"
+    },
+    {
+      "code": "C3212",
+      "action": "modify",
+      "date": "2004-04-30"
+    },
+    {
+      "code": "C3212",
+      "action": "modify",
+      "date": "2004-05-28"
+    },
+    {
+      "code": "C3212",
+      "action": "modify",
+      "date": "2004-06-25"
+    },
+    {
+      "code": "C3212",
+      "action": "modify",
+      "date": "2004-11-17"
+    },
+    {
+      "code": "C3212",
+      "action": "modify",
+      "date": "2007-03-30"
+    },
+    {
+      "code": "C3212",
+      "action": "modify",
+      "date": "2007-05-25"
+    },
+    {
+      "code": "C3212",
+      "action": "modify",
+      "date": "2007-06-28"
+    },
+    {
+      "code": "C3212",
+      "action": "modify",
+      "date": "2009-04-06"
+    },
+    {
+      "code": "C3212",
+      "action": "modify",
+      "date": "2009-11-23"
+    },
+    {
+      "code": "C3212",
+      "action": "modify",
+      "date": "2010-05-17"
+    },
+    {
+      "code": "C3212",
+      "action": "modify",
+      "date": "2010-11-01"
+    },
+    {
+      "code": "C3212",
+      "action": "modify",
+      "date": "2010-11-08"
+    },
+    {
+      "code": "C3212",
+      "action": "modify",
+      "date": "2010-11-15"
+    },
+    {
+      "code": "C3212",
+      "action": "modify",
+      "date": "2010-11-22"
+    },
+    {
+      "code": "C3212",
+      "action": "modify",
+      "date": "2010-11-29"
+    },
+    {
+      "code": "C3212",
+      "action": "modify",
+      "date": "2010-12-06"
+    },
+    {
+      "code": "C3212",
+      "action": "modify",
+      "date": "2010-12-13"
+    },
+    {
+      "code": "C3212",
+      "action": "modify",
+      "date": "2010-12-27"
+    },
+    {
+      "code": "C3212",
+      "action": "modify",
+      "date": "2011-01-03"
+    },
+    {
+      "code": "C3212",
+      "action": "modify",
+      "date": "2011-01-10"
+    },
+    {
+      "code": "C3212",
+      "action": "modify",
+      "date": "2011-01-17"
+    },
+    {
+      "code": "C3212",
+      "action": "modify",
+      "date": "2011-01-24"
+    },
+    {
+      "code": "C3212",
+      "action": "modify",
+      "date": "2011-01-31"
+    },
+    {
+      "code": "C3212",
+      "action": "modify",
+      "date": "2011-02-14"
+    },
+    {
+      "code": "C3212",
+      "action": "modify",
+      "date": "2011-04-11"
+    },
+    {
+      "code": "C3212",
+      "action": "modify",
+      "date": "2011-11-14"
+    },
+    {
+      "code": "C3212",
+      "action": "modify",
+      "date": "2011-11-21"
+    },
+    {
+      "code": "C3212",
+      "action": "modify",
+      "date": "2011-11-28"
+    },
+    {
+      "code": "C3212",
+      "action": "modify",
+      "date": "2011-12-05"
+    },
+    {
+      "code": "C3212",
+      "action": "modify",
+      "date": "2011-12-12"
+    },
+    {
+      "code": "C3212",
+      "action": "modify",
+      "date": "2011-12-19"
+    },
+    {
+      "code": "C3212",
+      "action": "modify",
+      "date": "2011-12-27"
+    },
+    {
+      "code": "C3212",
+      "action": "modify",
+      "date": "2012-01-09"
+    },
+    {
+      "code": "C3212",
+      "action": "modify",
+      "date": "2012-01-17"
+    },
+    {
+      "code": "C3212",
+      "action": "modify",
+      "date": "2012-01-23"
+    },
+    {
+      "code": "C3212",
+      "action": "modify",
+      "date": "2012-01-30"
+    },
+    {
+      "code": "C3212",
+      "action": "modify",
+      "date": "2012-02-06"
+    },
+    {
+      "code": "C3212",
+      "action": "modify",
+      "date": "2012-02-13"
+    },
+    {
+      "code": "C3212",
+      "action": "modify",
+      "date": "2012-02-21"
+    },
+    {
+      "code": "C3212",
+      "action": "modify",
+      "date": "2012-02-27"
+    },
+    {
+      "code": "C3212",
+      "action": "modify",
+      "date": "2012-03-05"
+    },
+    {
+      "code": "C3212",
+      "action": "modify",
+      "date": "2012-03-12"
+    },
+    {
+      "code": "C3212",
+      "action": "modify",
+      "date": "2012-03-19"
+    },
+    {
+      "code": "C3212",
+      "action": "modify",
+      "date": "2012-03-26"
+    },
+    {
+      "code": "C3212",
+      "action": "modify",
+      "date": "2012-04-02"
+    },
+    {
+      "code": "C3212",
+      "action": "modify",
+      "date": "2012-04-09"
+    },
+    {
+      "code": "C3212",
+      "action": "modify",
+      "date": "2012-04-16"
+    },
+    {
+      "code": "C3212",
+      "action": "modify",
+      "date": "2012-04-23"
+    },
+    {
+      "code": "C3212",
+      "action": "modify",
+      "date": "2012-04-30"
+    },
+    {
+      "code": "C3212",
+      "action": "modify",
+      "date": "2012-05-07"
+    },
+    {
+      "code": "C3212",
+      "action": "modify",
+      "date": "2012-05-14"
+    },
+    {
+      "code": "C3212",
+      "action": "modify",
+      "date": "2012-05-21"
+    },
+    {
+      "code": "C3212",
+      "action": "modify",
+      "date": "2012-05-29"
+    },
+    {
+      "code": "C3212",
+      "action": "modify",
+      "date": "2012-06-04"
+    },
+    {
+      "code": "C3212",
+      "action": "modify",
+      "date": "2012-06-11"
+    },
+    {
+      "code": "C3212",
+      "action": "modify",
+      "date": "2012-06-18"
+    },
+    {
+      "code": "C3212",
+      "action": "modify",
+      "date": "2012-06-18"
+    },
+    {
+      "code": "C3212",
+      "action": "modify",
+      "date": "2012-06-25"
+    },
+    {
+      "code": "C3212",
+      "action": "modify",
+      "date": "2012-07-03"
+    },
+    {
+      "code": "C3212",
+      "action": "modify",
+      "date": "2012-07-16"
+    },
+    {
+      "code": "C3212",
+      "action": "modify",
+      "date": "2012-07-23"
+    },
+    {
+      "code": "C3212",
+      "action": "modify",
+      "date": "2012-07-30"
+    },
+    {
+      "code": "C3212",
+      "action": "modify",
+      "date": "2012-08-06"
+    },
+    {
+      "code": "C3212",
+      "action": "modify",
+      "date": "2012-08-13"
+    },
+    {
+      "code": "C3212",
+      "action": "modify",
+      "date": "2012-08-20"
+    },
+    {
+      "code": "C3212",
+      "action": "modify",
+      "date": "2012-08-27"
+    },
+    {
+      "code": "C3212",
+      "action": "modify",
+      "date": "2012-09-04"
+    },
+    {
+      "code": "C3212",
+      "action": "modify",
+      "date": "2012-09-10"
+    },
+    {
+      "code": "C3212",
+      "action": "modify",
+      "date": "2012-09-17"
+    },
+    {
+      "code": "C3212",
+      "action": "modify",
+      "date": "2012-09-24"
+    },
+    {
+      "code": "C3212",
+      "action": "modify",
+      "date": "2012-10-01"
+    },
+    {
+      "code": "C3212",
+      "action": "modify",
+      "date": "2012-10-09"
+    },
+    {
+      "code": "C3212",
+      "action": "modify",
+      "date": "2012-10-15"
+    },
+    {
+      "code": "C3212",
+      "action": "modify",
+      "date": "2012-10-22"
+    },
+    {
+      "code": "C3212",
+      "action": "modify",
+      "date": "2012-10-31"
+    },
+    {
+      "code": "C3212",
+      "action": "modify",
+      "date": "2012-11-05"
+    },
+    {
+      "code": "C3212",
+      "action": "modify",
+      "date": "2012-11-13"
+    },
+    {
+      "code": "C3212",
+      "action": "modify",
+      "date": "2012-11-19"
+    },
+    {
+      "code": "C3212",
+      "action": "modify",
+      "date": "2012-11-26"
+    },
+    {
+      "code": "C3212",
+      "action": "modify",
+      "date": "2012-12-03"
+    },
+    {
+      "code": "C3212",
+      "action": "modify",
+      "date": "2012-12-10"
+    },
+    {
+      "code": "C3212",
+      "action": "modify",
+      "date": "2012-12-17"
+    },
+    {
+      "code": "C3212",
+      "action": "modify",
+      "date": "2012-12-28"
+    },
+    {
+      "code": "C3212",
+      "action": "modify",
+      "date": "2013-01-07"
+    },
+    {
+      "code": "C3212",
+      "action": "modify",
+      "date": "2013-01-14"
+    },
+    {
+      "code": "C3212",
+      "action": "modify",
+      "date": "2013-01-23"
+    },
+    {
+      "code": "C3212",
+      "action": "modify",
+      "date": "2013-02-04"
+    },
+    {
+      "code": "C3212",
+      "action": "modify",
+      "date": "2013-02-11"
+    },
+    {
+      "code": "C3212",
+      "action": "modify",
+      "date": "2013-02-19"
+    },
+    {
+      "code": "C3212",
+      "action": "modify",
+      "date": "2013-02-25"
+    },
+    {
+      "code": "C3212",
+      "action": "modify",
+      "date": "2013-03-04"
+    },
+    {
+      "code": "C3212",
+      "action": "modify",
+      "date": "2013-03-11"
+    },
+    {
+      "code": "C3212",
+      "action": "modify",
+      "date": "2013-03-18"
+    },
+    {
+      "code": "C3212",
+      "action": "modify",
+      "date": "2013-03-25"
+    },
+    {
+      "code": "C3212",
+      "action": "modify",
+      "date": "2013-04-01"
+    },
+    {
+      "code": "C3212",
+      "action": "modify",
+      "date": "2013-04-08"
+    },
+    {
+      "code": "C3212",
+      "action": "modify",
+      "date": "2013-04-15"
+    },
+    {
+      "code": "C3212",
+      "action": "modify",
+      "date": "2013-04-22"
+    },
+    {
+      "code": "C3212",
+      "action": "modify",
+      "date": "2013-04-29"
+    },
+    {
+      "code": "C3212",
+      "action": "modify",
+      "date": "2013-05-06"
+    },
+    {
+      "code": "C3212",
+      "action": "modify",
+      "date": "2013-05-13"
+    },
+    {
+      "code": "C3212",
+      "action": "modify",
+      "date": "2013-05-20"
+    },
+    {
+      "code": "C3212",
+      "action": "modify",
+      "date": "2013-05-28"
+    },
+    {
+      "code": "C3212",
+      "action": "modify",
+      "date": "2013-06-03"
+    },
+    {
+      "code": "C3212",
+      "action": "modify",
+      "date": "2013-06-10"
+    },
+    {
+      "code": "C3212",
+      "action": "modify",
+      "date": "2013-06-17"
+    },
+    {
+      "code": "C3212",
+      "action": "modify",
+      "date": "2013-06-24"
+    },
+    {
+      "code": "C3212",
+      "action": "modify",
+      "date": "2013-07-01"
+    },
+    {
+      "code": "C3212",
+      "action": "modify",
+      "date": "2013-07-08"
+    },
+    {
+      "code": "C3212",
+      "action": "modify",
+      "date": "2014-11-24"
+    },
+    {
+      "code": "C3212",
+      "action": "modify",
+      "date": "2014-12-01"
+    },
+    {
+      "code": "C3212",
+      "action": "modify",
+      "date": "2014-12-08"
+    },
+    {
+      "code": "C3212",
+      "action": "modify",
+      "date": "2014-12-15"
+    },
+    {
+      "code": "C3212",
+      "action": "modify",
+      "date": "2014-12-22"
+    },
+    {
+      "code": "C3212",
+      "action": "modify",
+      "date": "2014-12-29"
+    },
+    {
+      "code": "C3212",
+      "action": "modify",
+      "date": "2015-01-05"
+    },
+    {
+      "code": "C3212",
+      "action": "modify",
+      "date": "2015-01-12"
+    },
+    {
+      "code": "C3212",
+      "action": "modify",
+      "date": "2015-01-20"
+    },
+    {
+      "code": "C3212",
+      "action": "modify",
+      "date": "2015-01-26"
+    },
+    {
+      "code": "C3212",
+      "action": "modify",
+      "date": "2015-02-02"
+    },
+    {
+      "code": "C3212",
+      "action": "modify",
+      "date": "2015-02-09"
+    },
+    {
+      "code": "C3212",
+      "action": "modify",
+      "date": "2015-02-17"
+    },
+    {
+      "code": "C3212",
+      "action": "modify",
+      "date": "2015-02-23"
+    },
+    {
+      "code": "C3212",
+      "action": "modify",
+      "date": "2015-03-02"
+    },
+    {
+      "code": "C3212",
+      "action": "modify",
+      "date": "2015-03-09"
+    },
+    {
+      "code": "C3212",
+      "action": "modify",
+      "date": "2015-03-16"
+    },
+    {
+      "code": "C3212",
+      "action": "modify",
+      "date": "2015-03-23"
+    },
+    {
+      "code": "C3212",
+      "action": "modify",
+      "date": "2015-03-30"
+    },
+    {
+      "code": "C3212",
+      "action": "modify",
+      "date": "2015-04-06"
+    },
+    {
+      "code": "C3212",
+      "action": "modify",
+      "date": "2015-04-13"
+    },
+    {
+      "code": "C3212",
+      "action": "modify",
+      "date": "2015-04-20"
+    },
+    {
+      "code": "C3212",
+      "action": "modify",
+      "date": "2015-04-27"
+    },
+    {
+      "code": "C3212",
+      "action": "modify",
+      "date": "2015-05-04"
+    },
+    {
+      "code": "C3212",
+      "action": "modify",
+      "date": "2015-05-11"
+    },
+    {
+      "code": "C3212",
+      "action": "modify",
+      "date": "2015-05-18"
+    },
+    {
+      "code": "C3212",
+      "action": "modify",
+      "date": "2016-04-25"
+    },
+    {
+      "code": "C3212",
+      "action": "modify",
+      "date": "2016-08-22"
+    },
+    {
+      "code": "C3212",
+      "action": "modify",
+      "date": "2017-07-31"
+    },
+    {
+      "code": "C3212",
+      "action": "modify",
+      "date": "2018-07-30"
+    },
+    {
+      "code": "C3212",
+      "action": "modify",
+      "date": "2018-08-27"
+    },
+    {
+      "code": "C3212",
+      "action": "modify",
+      "date": "2018-08-27"
+    },
+    {
+      "code": "C3212",
+      "action": "modify",
+      "date": "2018-09-24"
+    },
+    {
+      "code": "C3212",
+      "action": "modify",
+      "date": "2018-10-29"
+    },
+    {
+      "code": "C3212",
+      "action": "modify",
+      "date": "2018-10-29"
+    },
+    {
+      "code": "C3212",
+      "action": "modify",
+      "date": "2019-05-28"
+    },
+    {
+      "code": "C3212",
+      "action": "modify",
+      "date": "2019-09-30"
+    },
+    {
+      "code": "C3212",
+      "action": "modify",
+      "date": "2020-02-24"
+    },
+    {
+      "code": "C3212",
+      "action": "modify",
+      "date": "2020-03-30"
+    },
+    {
+      "code": "C3212",
+      "action": "modify",
+      "date": "2020-04-27"
+    },
+    {
+      "code": "C3212",
+      "action": "modify",
+      "date": "2020-09-29"
+    },
+    {
+      "code": "C3212",
+      "action": "modify",
+      "date": "2021-02-22"
+    },
+    {
+      "code": "C3212",
+      "action": "modify",
+      "date": "2021-03-29"
+    },
+    {
+      "code": "C3212",
+      "action": "modify",
+      "date": "2023-05-30"
+    }
+  ],
+  "maps": [
+    {
+      "type": "Related To",
+      "targetName": "9671/3",
+      "targetTermType": "PT",
+      "targetCode": "morphology",
+      "targetTerminology": "GDC"
+    },
+    {
+      "type": "Related To",
+      "targetName": "Lymphoplasmacytic lymphoma",
+      "targetTermType": "PT",
+      "targetCode": "9671/3",
+      "targetTerminology": "ICDO3",
+      "targetTerminologyVersion": "3.2"
+    },
+    {
+      "type": "Related To",
+      "targetName": "Malignant lymphoma, lymphoplasmacytic",
+      "targetTermType": "PT",
+      "targetCode": "9671/3",
+      "targetTerminology": "ICDO3",
+      "targetTerminologyVersion": "3.1"
+    },
+    {
+      "type": "Related To",
+      "targetName": "Malignant lymphoma, lymphoplasmacytic",
+      "targetTermType": "PT",
+      "targetCode": "primary_diagnosis",
+      "targetTerminology": "GDC"
+    },
+    {
+      "type": "Related To",
+      "targetName": "Malignant lymphoma, lymphoplasmacytoid",
+      "targetTermType": "PT",
+      "targetCode": "primary_diagnosis",
+      "targetTerminology": "GDC"
+    },
+    {
+      "type": "Related To",
+      "targetName": "Malignant lymphoma, plasmacytoid",
+      "targetTermType": "PT",
+      "targetCode": "primary_diagnosis",
+      "targetTerminology": "GDC"
+    },
+    {
+      "type": "Related To",
+      "targetName": "Plasmacytic lymphoma",
+      "targetTermType": "PT",
+      "targetCode": "primary_diagnosis",
+      "targetTerminology": "GDC"
+    }
+  ]
+}

@@ -1,0 +1,648 @@
+{
+  "code": "C9015",
+  "name": "Mature Teratoma",
+  "terminology": "ncit",
+  "version": "25.11d",
+  "conceptStatus": "DEFAULT",
+  "leaf": false,
+  "active": true,
+  "synonyms": [
+    {
+      "name": "Mature Teratoma",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "caDSR"
+    },
+    {
+      "name": "Mature teratoma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "GDC"
+    },
+    {
+      "name": "mature teratoma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NCI-GLOSS",
+      "code": "CDR0000443575"
+    },
+    {
+      "name": "Grade 0 Teratoma",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Mature Teratoma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Mature Teratoma",
+      "type": "Preferred_Name"
+    },
+    {
+      "name": "Mature Teratoma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "PCDC",
+      "subSource": "GCT"
+    }
+  ],
+  "definitions": [
+    {
+      "definition": "A teratoma which may be cystic; it is composed entirely of well differentiated, adult-type mature tissues, without evidence of fetal-type immature tissues (grade 0 teratoma).",
+      "type": "DEFINITION",
+      "source": "NCI"
+    },
+    {
+      "definition": "A type of benign (not cancer) germ cell tumor (type of tumor that begins in the cells that give rise to sperm or eggs) that often contains several different types of tissue such as hair, muscle, and bone.",
+      "type": "ALT_DEFINITION",
+      "source": "NCI-GLOSS"
+    }
+  ],
+  "properties": [
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "GDC"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "PCDC"
+    },
+    {
+      "code": "P334",
+      "type": "ICD-O-3_Code",
+      "value": "9080/0"
+    },
+    {
+      "code": "P366",
+      "type": "Legacy Concept Name",
+      "value": "Mature_Teratoma"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "9080/0"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "Mature teratoma"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "Teratoma, benign"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "Teratoma, differentiated"
+    },
+    {
+      "code": "P363",
+      "type": "Neoplastic_Status",
+      "value": "Benign"
+    },
+    {
+      "code": "P106",
+      "type": "Semantic_Type",
+      "value": "Neoplastic Process"
+    },
+    {
+      "code": "P207",
+      "type": "UMLS_CUI",
+      "value": "C1368910"
+    }
+  ],
+  "children": [
+    {
+      "code": "C7013",
+      "name": "Central Nervous System Mature Teratoma",
+      "leaf": false
+    },
+    {
+      "code": "C123836",
+      "name": "Childhood Mature Teratoma",
+      "leaf": false
+    },
+    {
+      "code": "C9011",
+      "name": "Dermoid Cyst",
+      "leaf": false
+    },
+    {
+      "code": "C5260",
+      "name": "Mature Gastric Teratoma",
+      "leaf": true
+    },
+    {
+      "code": "C8112",
+      "name": "Mature Ovarian Teratoma",
+      "leaf": false
+    },
+    {
+      "code": "C7104",
+      "name": "Mediastinal Mature Teratoma",
+      "leaf": true
+    },
+    {
+      "code": "C95559",
+      "name": "Pancreatic Mature Teratoma",
+      "leaf": true
+    },
+    {
+      "code": "C6744",
+      "name": "Pericardial Mature Teratoma",
+      "leaf": true
+    },
+    {
+      "code": "C6355",
+      "name": "Testicular Mature Teratoma",
+      "leaf": false
+    }
+  ],
+  "parents": [
+    {
+      "code": "C67107",
+      "name": "Benign Teratoma"
+    }
+  ],
+  "associations": [
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C177383",
+      "relatedName": "GCT Authorized Value Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C177396",
+      "relatedName": "GCT Histology Table"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C157711",
+      "relatedName": "GDC Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C177537",
+      "relatedName": "GDC Value Terminology"
+    },
+    {
+      "type": "Is_Value_For_GDC_Property",
+      "relatedCode": "C176985",
+      "relatedName": "Histology ICD-O Morphology Code"
+    },
+    {
+      "type": "Is_PCDC_GCT_Authorized_Value_For_Variable",
+      "relatedCode": "C16681",
+      "relatedName": "Histology"
+    },
+    {
+      "type": "Is_Value_For_GDC_Property",
+      "relatedCode": "C177621",
+      "relatedName": "ICD-O-3 Morphology Term Diagnosis Question"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C126659",
+      "relatedName": "NCIt Neoplasm Core Terminology"
+    }
+  ],
+  "inverseAssociations": [
+    {
+      "type": "Has_GDC_Value",
+      "relatedCode": "C176985",
+      "relatedName": "Histology ICD-O Morphology Code"
+    },
+    {
+      "type": "Has_PCDC_GCT_Authorized_Value",
+      "relatedCode": "C16681",
+      "relatedName": "Histology"
+    },
+    {
+      "type": "Has_GDC_Value",
+      "relatedCode": "C177621",
+      "relatedName": "ICD-O-3 Morphology Term Diagnosis Question"
+    }
+  ],
+  "roles": [
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C36122",
+      "relatedName": "Benign Cellular Infiltrate"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C54111",
+      "relatedName": "Ectodermal Differentiation"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C54112",
+      "relatedName": "Endodermal Differentiation"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C54107",
+      "relatedName": "Fully Differentiated \"Adult-Type\" Tissues Present"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C41433",
+      "relatedName": "Geographic Necrosis"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C12597",
+      "relatedName": "Germ Cell"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C54105",
+      "relatedName": "Germinal Layer"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C12917",
+      "relatedName": "Malignant Cell"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C36115",
+      "relatedName": "Malignant Cellular Infiltrate"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C54110",
+      "relatedName": "Malignant Germ Cell"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C123865",
+      "relatedName": "Malignant Germinomatous Cells Present"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C54127",
+      "relatedName": "Malignant Large Germ Cell with Abundant Cytoplasm"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C54113",
+      "relatedName": "Mesodermal Differentiation"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C35959",
+      "relatedName": "Mitotic Activity"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12922",
+      "relatedName": "Neoplastic Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36903",
+      "relatedName": "Neoplastic Germ Cell"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C36898",
+      "relatedName": "Neoplastic Sex Cord-Stromal Cell"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C61414",
+      "relatedName": "Seminomatous Component Present"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C54109",
+      "relatedName": "Undifferentiated \"Fetal-Type\" Tissues Present"
+    }
+  ],
+  "history": [
+    {
+      "code": "C9015",
+      "action": "create",
+      "date": "2003-08-12"
+    },
+    {
+      "code": "C9015",
+      "action": "modify",
+      "date": "2003-12-30"
+    },
+    {
+      "code": "C9015",
+      "action": "modify",
+      "date": "2006-03-31"
+    },
+    {
+      "code": "C9015",
+      "action": "modify",
+      "date": "2006-07-28"
+    },
+    {
+      "code": "C9015",
+      "action": "modify",
+      "date": "2007-03-30"
+    },
+    {
+      "code": "C9015",
+      "action": "modify",
+      "date": "2007-04-30"
+    },
+    {
+      "code": "C9015",
+      "action": "modify",
+      "date": "2007-06-28"
+    },
+    {
+      "code": "C9015",
+      "action": "modify",
+      "date": "2009-04-06"
+    },
+    {
+      "code": "C9015",
+      "action": "modify",
+      "date": "2009-10-27"
+    },
+    {
+      "code": "C9015",
+      "action": "modify",
+      "date": "2009-11-23"
+    },
+    {
+      "code": "C9015",
+      "action": "modify",
+      "date": "2010-03-08"
+    },
+    {
+      "code": "C9015",
+      "action": "modify",
+      "date": "2010-11-08"
+    },
+    {
+      "code": "C9015",
+      "action": "modify",
+      "date": "2010-11-15"
+    },
+    {
+      "code": "C9015",
+      "action": "modify",
+      "date": "2010-11-22"
+    },
+    {
+      "code": "C9015",
+      "action": "modify",
+      "date": "2010-11-29"
+    },
+    {
+      "code": "C9015",
+      "action": "modify",
+      "date": "2010-12-06"
+    },
+    {
+      "code": "C9015",
+      "action": "modify",
+      "date": "2010-12-13"
+    },
+    {
+      "code": "C9015",
+      "action": "modify",
+      "date": "2010-12-27"
+    },
+    {
+      "code": "C9015",
+      "action": "modify",
+      "date": "2011-01-03"
+    },
+    {
+      "code": "C9015",
+      "action": "modify",
+      "date": "2011-01-10"
+    },
+    {
+      "code": "C9015",
+      "action": "modify",
+      "date": "2011-01-17"
+    },
+    {
+      "code": "C9015",
+      "action": "modify",
+      "date": "2011-01-24"
+    },
+    {
+      "code": "C9015",
+      "action": "modify",
+      "date": "2011-01-31"
+    },
+    {
+      "code": "C9015",
+      "action": "modify",
+      "date": "2013-02-25"
+    },
+    {
+      "code": "C9015",
+      "action": "modify",
+      "date": "2013-03-04"
+    },
+    {
+      "code": "C9015",
+      "action": "modify",
+      "date": "2013-03-11"
+    },
+    {
+      "code": "C9015",
+      "action": "modify",
+      "date": "2013-03-18"
+    },
+    {
+      "code": "C9015",
+      "action": "modify",
+      "date": "2013-03-25"
+    },
+    {
+      "code": "C9015",
+      "action": "modify",
+      "date": "2013-04-01"
+    },
+    {
+      "code": "C9015",
+      "action": "modify",
+      "date": "2013-04-08"
+    },
+    {
+      "code": "C9015",
+      "action": "modify",
+      "date": "2013-04-15"
+    },
+    {
+      "code": "C9015",
+      "action": "modify",
+      "date": "2013-04-22"
+    },
+    {
+      "code": "C9015",
+      "action": "modify",
+      "date": "2013-04-29"
+    },
+    {
+      "code": "C9015",
+      "action": "modify",
+      "date": "2013-05-06"
+    },
+    {
+      "code": "C9015",
+      "action": "modify",
+      "date": "2013-05-13"
+    },
+    {
+      "code": "C9015",
+      "action": "modify",
+      "date": "2013-05-20"
+    },
+    {
+      "code": "C9015",
+      "action": "modify",
+      "date": "2013-05-28"
+    },
+    {
+      "code": "C9015",
+      "action": "modify",
+      "date": "2013-06-03"
+    },
+    {
+      "code": "C9015",
+      "action": "modify",
+      "date": "2013-06-10"
+    },
+    {
+      "code": "C9015",
+      "action": "modify",
+      "date": "2013-06-17"
+    },
+    {
+      "code": "C9015",
+      "action": "modify",
+      "date": "2013-06-24"
+    },
+    {
+      "code": "C9015",
+      "action": "modify",
+      "date": "2013-07-01"
+    },
+    {
+      "code": "C9015",
+      "action": "modify",
+      "date": "2013-07-08"
+    },
+    {
+      "code": "C9015",
+      "action": "modify",
+      "date": "2014-02-03"
+    },
+    {
+      "code": "C9015",
+      "action": "modify",
+      "date": "2016-04-25"
+    },
+    {
+      "code": "C9015",
+      "action": "modify",
+      "date": "2018-09-24"
+    },
+    {
+      "code": "C9015",
+      "action": "modify",
+      "date": "2018-11-26"
+    },
+    {
+      "code": "C9015",
+      "action": "modify",
+      "date": "2019-05-28"
+    },
+    {
+      "code": "C9015",
+      "action": "modify",
+      "date": "2019-09-30"
+    },
+    {
+      "code": "C9015",
+      "action": "modify",
+      "date": "2019-11-25"
+    },
+    {
+      "code": "C9015",
+      "action": "modify",
+      "date": "2020-03-30"
+    },
+    {
+      "code": "C9015",
+      "action": "modify",
+      "date": "2020-09-29"
+    },
+    {
+      "code": "C9015",
+      "action": "modify",
+      "date": "2021-02-22"
+    },
+    {
+      "code": "C9015",
+      "action": "modify",
+      "date": "2021-03-29"
+    },
+    {
+      "code": "C9015",
+      "action": "modify",
+      "date": "2021-06-28"
+    },
+    {
+      "code": "C9015",
+      "action": "modify",
+      "date": "2022-10-31"
+    },
+    {
+      "code": "C9015",
+      "action": "modify",
+      "date": "2023-02-27"
+    }
+  ],
+  "maps": [
+    {
+      "type": "Related To",
+      "targetName": "9080/0",
+      "targetTermType": "PT",
+      "targetCode": "morphology",
+      "targetTerminology": "GDC"
+    },
+    {
+      "type": "Has Synonym",
+      "targetName": "Mature teratoma",
+      "targetTermType": "PT",
+      "targetCode": "primary_diagnosis",
+      "targetTerminology": "GDC"
+    },
+    {
+      "type": "Related To",
+      "targetName": "Teratoma, benign",
+      "targetTermType": "PT",
+      "targetCode": "primary_diagnosis",
+      "targetTerminology": "GDC"
+    },
+    {
+      "type": "Related To",
+      "targetName": "Teratoma, differentiated",
+      "targetTermType": "PT",
+      "targetCode": "primary_diagnosis",
+      "targetTerminology": "GDC"
+    }
+  ]
+}

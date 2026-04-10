@@ -1,0 +1,1136 @@
+{
+  "code": "C3272",
+  "name": "Neurofibroma",
+  "terminology": "ncit",
+  "version": "25.11d",
+  "conceptStatus": "DEFAULT",
+  "leaf": false,
+  "active": true,
+  "synonyms": [
+    {
+      "name": "Neurofibroma",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "caDSR"
+    },
+    {
+      "name": "NEUROFIBROMA, BENIGN",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "CDISC"
+    },
+    {
+      "name": "Neurofibroma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "Cellosaurus"
+    },
+    {
+      "name": "Neurofibroma, NOS",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "GDC"
+    },
+    {
+      "name": "neurofibroma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NCI-GLOSS",
+      "code": "CDR0000045095"
+    },
+    {
+      "name": "Neurofibroma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Neurofibroma (WHO Grade I)",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Neurofibroma",
+      "type": "Preferred_Name"
+    }
+  ],
+  "definitions": [
+    {
+      "definition": "A benign tumor that develops from the cells and tissues that cover nerves.",
+      "type": "ALT_DEFINITION",
+      "source": "NCI-GLOSS"
+    },
+    {
+      "definition": "An intraneural or extraneural neoplasm arising from nerve tissues and neural sheaths, composed of perineurial-like fibroblasts and Schwann cells.",
+      "type": "ALT_DEFINITION",
+      "source": "CDISC"
+    },
+    {
+      "definition": "An intraneural or extraneural neoplasm arising from nerve tissues and neural sheaths. It is composed of perineurial-like fibroblasts and Schwann cells. It usually presents as a localized cutaneous lesion and less often as a circumscribed peripheral nerve mass. Patients with neurofibromatosis type 1 present with multiple masses. Neurofibromas which arise from major nerves and plexiform neurofibromas are precursor lesions to malignant peripheral nerve sheath tumors.",
+      "type": "DEFINITION",
+      "source": "NCI"
+    }
+  ],
+  "properties": [
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "CDISC"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "Cellosaurus"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "GDC"
+    },
+    {
+      "code": "P334",
+      "type": "ICD-O-3_Code",
+      "value": "9540/0"
+    },
+    {
+      "code": "P366",
+      "type": "Legacy Concept Name",
+      "value": "Neurofibroma"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "9540/0"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "Neurofibroma, NOS"
+    },
+    {
+      "code": "P363",
+      "type": "Neoplastic_Status",
+      "value": "Benign"
+    },
+    {
+      "code": "P106",
+      "type": "Semantic_Type",
+      "value": "Neoplastic Process"
+    },
+    {
+      "code": "P207",
+      "type": "UMLS_CUI",
+      "value": "C0027830"
+    }
+  ],
+  "children": [
+    {
+      "code": "C159682",
+      "name": "Bladder Neurofibroma",
+      "leaf": true
+    },
+    {
+      "code": "C176415",
+      "name": "Breast Neurofibroma",
+      "leaf": true
+    },
+    {
+      "code": "C5359",
+      "name": "Cardiac Neurofibroma",
+      "leaf": true
+    },
+    {
+      "code": "C41427",
+      "name": "Cellular Neurofibroma",
+      "leaf": true
+    },
+    {
+      "code": "C188995",
+      "name": "Childhood Neurofibroma",
+      "leaf": true
+    },
+    {
+      "code": "C8426",
+      "name": "Diffuse Neurofibroma",
+      "leaf": true
+    },
+    {
+      "code": "C6558",
+      "name": "Epithelioid Neurofibroma",
+      "leaf": true
+    },
+    {
+      "code": "C5704",
+      "name": "Esophageal Neurofibroma",
+      "leaf": true
+    },
+    {
+      "code": "C5746",
+      "name": "Gallbladder Neurofibroma",
+      "leaf": true
+    },
+    {
+      "code": "C6631",
+      "name": "Mediastinal Neurofibroma",
+      "leaf": true
+    },
+    {
+      "code": "C66841",
+      "name": "Melanotic Neurofibroma",
+      "leaf": true
+    },
+    {
+      "code": "C41426",
+      "name": "Neurofibroma with Atypia",
+      "leaf": true
+    },
+    {
+      "code": "C202860",
+      "name": "Oral Cavity Neurofibroma",
+      "leaf": false
+    },
+    {
+      "code": "C217746",
+      "name": "Orbital Neurofibroma",
+      "leaf": true
+    },
+    {
+      "code": "C4328",
+      "name": "Pacinian Neurofibroma",
+      "leaf": true
+    },
+    {
+      "code": "C162587",
+      "name": "Penile Neurofibroma",
+      "leaf": true
+    },
+    {
+      "code": "C3797",
+      "name": "Plexiform Neurofibroma",
+      "leaf": false
+    },
+    {
+      "code": "C173144",
+      "name": "Sinonasal Neurofibroma",
+      "leaf": true
+    },
+    {
+      "code": "C128451",
+      "name": "Skin Neurofibroma",
+      "leaf": true
+    },
+    {
+      "code": "C207078",
+      "name": "Solitary Neurofibroma",
+      "leaf": true
+    },
+    {
+      "code": "C5145",
+      "name": "Spinal Cord Neurofibroma",
+      "leaf": true
+    }
+  ],
+  "parents": [
+    {
+      "code": "C213862",
+      "name": "Benign Peripheral Nervous System Neoplasm"
+    },
+    {
+      "code": "C4972",
+      "name": "Nerve Sheath Neoplasm"
+    }
+  ],
+  "associations": [
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C77526",
+      "relatedName": "CDISC SEND Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C88025",
+      "relatedName": "CDISC SEND Tumor Findings Results Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C165258",
+      "relatedName": "Cellosaurus Disease Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C61410",
+      "relatedName": "Clinical Data Interchange Standards Consortium Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C157711",
+      "relatedName": "GDC Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C177537",
+      "relatedName": "GDC Value Terminology"
+    },
+    {
+      "type": "Is_Value_For_GDC_Property",
+      "relatedCode": "C176985",
+      "relatedName": "Histology ICD-O Morphology Code"
+    },
+    {
+      "type": "Is_Value_For_GDC_Property",
+      "relatedCode": "C177621",
+      "relatedName": "ICD-O-3 Morphology Term Diagnosis Question"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168658",
+      "relatedName": "Mapped ICDO3.1 Morphology PT Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168657",
+      "relatedName": "Mapped ICDO3.1 Morphology Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168655",
+      "relatedName": "Mapped ICDO3.1 Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168662",
+      "relatedName": "Mapped ICDO3.2 Morphology PT Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168661",
+      "relatedName": "Mapped ICDO3.2 Morphology Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168656",
+      "relatedName": "Mapped ICDO3.2 Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C126659",
+      "relatedName": "NCIt Neoplasm Core Terminology"
+    }
+  ],
+  "inverseAssociations": [
+    {
+      "type": "Has_GDC_Value",
+      "relatedCode": "C176985",
+      "relatedName": "Histology ICD-O Morphology Code"
+    },
+    {
+      "type": "Has_GDC_Value",
+      "relatedCode": "C177621",
+      "relatedName": "ICD-O-3 Morphology Term Diagnosis Question"
+    }
+  ],
+  "roles": [
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C36122",
+      "relatedName": "Benign Cellular Infiltrate"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C36108",
+      "relatedName": "Encapsulated Mass"
+    },
+    {
+      "type": "Disease_Is_Grade",
+      "relatedCode": "C28077",
+      "relatedName": "Grade 1"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C12917",
+      "relatedName": "Malignant Cell"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C36115",
+      "relatedName": "Malignant Cellular Infiltrate"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12922",
+      "relatedName": "Neoplastic Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36959",
+      "relatedName": "Neoplastic Fibroblast-Like Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C41408",
+      "relatedName": "Neoplastic Neuroepithelial Cell and Neoplastic Perineural Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C41413",
+      "relatedName": "Neoplastic Perineural Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C37152",
+      "relatedName": "Neoplastic Perineurial-Like Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C37151",
+      "relatedName": "Neoplastic Schwann Cell"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C41443",
+      "relatedName": "Nerve Tissue and Nerve Sheaths"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C41443",
+      "relatedName": "Nerve Tissue and Nerve Sheaths"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C41406",
+      "relatedName": "Nerve Tissue, Neuroepithelial Tissue, and Nerve Sheaths"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12755",
+      "relatedName": "Nervous System"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12755",
+      "relatedName": "Nervous System"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C41405",
+      "relatedName": "Neuron, Neuroepithelial Cell, and Supporting Cell of the Nervous System"
+    },
+    {
+      "type": "Disease_May_Have_Molecular_Abnormality",
+      "relatedCode": "C36685",
+      "relatedName": "NF1 Gene Inactivation"
+    },
+    {
+      "type": "Disease_Mapped_To_Gene",
+      "relatedCode": "C17424",
+      "relatedName": "NF1 Gene"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C41416",
+      "relatedName": "Perineural Cell"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C41416",
+      "relatedName": "Perineural Cell"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12465",
+      "relatedName": "Peripheral Nervous System"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12465",
+      "relatedName": "Peripheral Nervous System"
+    }
+  ],
+  "inverseRoles": [
+    {
+      "type": "EO_Disease_Maps_To_Human_Disease",
+      "relatedCode": "C22001",
+      "relatedName": "Mouse Neurofibroma"
+    },
+    {
+      "type": "EO_Disease_Maps_To_Human_Disease",
+      "relatedCode": "C22002",
+      "relatedName": "Mouse Plexiform Neurofibroma"
+    },
+    {
+      "type": "EO_Disease_Maps_To_Human_Disease",
+      "relatedCode": "C23058",
+      "relatedName": "Neurofibroma of the Mouse Oral Cavity"
+    },
+    {
+      "type": "EO_Disease_Maps_To_Human_Disease",
+      "relatedCode": "C21837",
+      "relatedName": "Neurofibroma of the Mouse Skin"
+    },
+    {
+      "type": "Disease_Has_Associated_Disease",
+      "relatedCode": "C143014",
+      "relatedName": "Neurofibromatosis Type 1 with Inoperable, Progressive, Symptomatic Plexiform Neurofibromas"
+    },
+    {
+      "type": "Disease_Has_Associated_Disease",
+      "relatedCode": "C3273",
+      "relatedName": "Neurofibromatosis Type 1"
+    },
+    {
+      "type": "Disease_May_Have_Associated_Disease",
+      "relatedCode": "C3274",
+      "relatedName": "Neurofibromatosis Type 2"
+    },
+    {
+      "type": "Gene_Involved_In_Pathogenesis_Of_Disease",
+      "relatedCode": "C17424",
+      "relatedName": "NF1 Gene"
+    },
+    {
+      "type": "Gene_Involved_In_Pathogenesis_Of_Disease",
+      "relatedCode": "C52882",
+      "relatedName": "NF1 wt Allele"
+    },
+    {
+      "type": "Disease_Has_Associated_Disease",
+      "relatedCode": "C155985",
+      "relatedName": "Recurrent Neurofibromatosis Type 1"
+    },
+    {
+      "type": "Disease_Has_Associated_Disease",
+      "relatedCode": "C155986",
+      "relatedName": "Refractory Neurofibromatosis Type 1"
+    }
+  ],
+  "history": [
+    {
+      "code": "C3272",
+      "action": "create",
+      "date": "2003-08-12"
+    },
+    {
+      "code": "C3272",
+      "action": "modify",
+      "date": "2003-10-31"
+    },
+    {
+      "code": "C3272",
+      "action": "modify",
+      "date": "2003-12-30"
+    },
+    {
+      "code": "C3272",
+      "action": "modify",
+      "date": "2004-03-30"
+    },
+    {
+      "code": "C3272",
+      "action": "modify",
+      "date": "2004-11-01"
+    },
+    {
+      "code": "C3272",
+      "action": "modify",
+      "date": "2006-03-31"
+    },
+    {
+      "code": "C3272",
+      "action": "modify",
+      "date": "2007-02-23"
+    },
+    {
+      "code": "C3272",
+      "action": "modify",
+      "date": "2007-03-30"
+    },
+    {
+      "code": "C3272",
+      "action": "modify",
+      "date": "2007-06-28"
+    },
+    {
+      "code": "C3272",
+      "action": "modify",
+      "date": "2009-04-06"
+    },
+    {
+      "code": "C3272",
+      "action": "modify",
+      "date": "2009-10-27"
+    },
+    {
+      "code": "C3272",
+      "action": "modify",
+      "date": "2009-11-23"
+    },
+    {
+      "code": "C3272",
+      "action": "modify",
+      "date": "2010-06-01"
+    },
+    {
+      "code": "C3272",
+      "action": "modify",
+      "date": "2010-10-25"
+    },
+    {
+      "code": "C3272",
+      "action": "modify",
+      "date": "2011-02-22"
+    },
+    {
+      "code": "C3272",
+      "action": "modify",
+      "date": "2011-03-07"
+    },
+    {
+      "code": "C3272",
+      "action": "modify",
+      "date": "2011-04-11"
+    },
+    {
+      "code": "C3272",
+      "action": "modify",
+      "date": "2011-11-14"
+    },
+    {
+      "code": "C3272",
+      "action": "modify",
+      "date": "2011-11-21"
+    },
+    {
+      "code": "C3272",
+      "action": "modify",
+      "date": "2011-11-28"
+    },
+    {
+      "code": "C3272",
+      "action": "modify",
+      "date": "2011-12-05"
+    },
+    {
+      "code": "C3272",
+      "action": "modify",
+      "date": "2011-12-12"
+    },
+    {
+      "code": "C3272",
+      "action": "modify",
+      "date": "2011-12-19"
+    },
+    {
+      "code": "C3272",
+      "action": "modify",
+      "date": "2011-12-27"
+    },
+    {
+      "code": "C3272",
+      "action": "modify",
+      "date": "2012-01-09"
+    },
+    {
+      "code": "C3272",
+      "action": "modify",
+      "date": "2012-01-17"
+    },
+    {
+      "code": "C3272",
+      "action": "modify",
+      "date": "2012-01-23"
+    },
+    {
+      "code": "C3272",
+      "action": "modify",
+      "date": "2012-01-30"
+    },
+    {
+      "code": "C3272",
+      "action": "modify",
+      "date": "2012-02-06"
+    },
+    {
+      "code": "C3272",
+      "action": "modify",
+      "date": "2012-02-13"
+    },
+    {
+      "code": "C3272",
+      "action": "modify",
+      "date": "2012-02-21"
+    },
+    {
+      "code": "C3272",
+      "action": "modify",
+      "date": "2012-02-27"
+    },
+    {
+      "code": "C3272",
+      "action": "modify",
+      "date": "2012-03-05"
+    },
+    {
+      "code": "C3272",
+      "action": "modify",
+      "date": "2012-03-12"
+    },
+    {
+      "code": "C3272",
+      "action": "modify",
+      "date": "2012-03-19"
+    },
+    {
+      "code": "C3272",
+      "action": "modify",
+      "date": "2012-03-26"
+    },
+    {
+      "code": "C3272",
+      "action": "modify",
+      "date": "2012-04-02"
+    },
+    {
+      "code": "C3272",
+      "action": "modify",
+      "date": "2012-04-09"
+    },
+    {
+      "code": "C3272",
+      "action": "modify",
+      "date": "2012-04-16"
+    },
+    {
+      "code": "C3272",
+      "action": "modify",
+      "date": "2012-04-23"
+    },
+    {
+      "code": "C3272",
+      "action": "modify",
+      "date": "2012-04-30"
+    },
+    {
+      "code": "C3272",
+      "action": "modify",
+      "date": "2012-05-07"
+    },
+    {
+      "code": "C3272",
+      "action": "modify",
+      "date": "2012-05-14"
+    },
+    {
+      "code": "C3272",
+      "action": "modify",
+      "date": "2012-05-21"
+    },
+    {
+      "code": "C3272",
+      "action": "modify",
+      "date": "2012-05-29"
+    },
+    {
+      "code": "C3272",
+      "action": "modify",
+      "date": "2012-06-04"
+    },
+    {
+      "code": "C3272",
+      "action": "modify",
+      "date": "2012-06-11"
+    },
+    {
+      "code": "C3272",
+      "action": "modify",
+      "date": "2012-06-18"
+    },
+    {
+      "code": "C3272",
+      "action": "modify",
+      "date": "2012-06-18"
+    },
+    {
+      "code": "C3272",
+      "action": "modify",
+      "date": "2012-06-25"
+    },
+    {
+      "code": "C3272",
+      "action": "modify",
+      "date": "2012-07-03"
+    },
+    {
+      "code": "C3272",
+      "action": "modify",
+      "date": "2012-07-16"
+    },
+    {
+      "code": "C3272",
+      "action": "modify",
+      "date": "2012-07-23"
+    },
+    {
+      "code": "C3272",
+      "action": "modify",
+      "date": "2012-07-30"
+    },
+    {
+      "code": "C3272",
+      "action": "modify",
+      "date": "2012-08-06"
+    },
+    {
+      "code": "C3272",
+      "action": "modify",
+      "date": "2012-08-13"
+    },
+    {
+      "code": "C3272",
+      "action": "modify",
+      "date": "2012-08-20"
+    },
+    {
+      "code": "C3272",
+      "action": "modify",
+      "date": "2012-08-27"
+    },
+    {
+      "code": "C3272",
+      "action": "modify",
+      "date": "2012-09-04"
+    },
+    {
+      "code": "C3272",
+      "action": "modify",
+      "date": "2012-09-10"
+    },
+    {
+      "code": "C3272",
+      "action": "modify",
+      "date": "2012-09-17"
+    },
+    {
+      "code": "C3272",
+      "action": "modify",
+      "date": "2012-09-24"
+    },
+    {
+      "code": "C3272",
+      "action": "modify",
+      "date": "2012-10-01"
+    },
+    {
+      "code": "C3272",
+      "action": "modify",
+      "date": "2012-10-09"
+    },
+    {
+      "code": "C3272",
+      "action": "modify",
+      "date": "2012-10-15"
+    },
+    {
+      "code": "C3272",
+      "action": "modify",
+      "date": "2012-10-22"
+    },
+    {
+      "code": "C3272",
+      "action": "modify",
+      "date": "2012-10-31"
+    },
+    {
+      "code": "C3272",
+      "action": "modify",
+      "date": "2012-11-05"
+    },
+    {
+      "code": "C3272",
+      "action": "modify",
+      "date": "2012-11-13"
+    },
+    {
+      "code": "C3272",
+      "action": "modify",
+      "date": "2012-11-19"
+    },
+    {
+      "code": "C3272",
+      "action": "modify",
+      "date": "2012-11-26"
+    },
+    {
+      "code": "C3272",
+      "action": "modify",
+      "date": "2012-12-03"
+    },
+    {
+      "code": "C3272",
+      "action": "modify",
+      "date": "2012-12-10"
+    },
+    {
+      "code": "C3272",
+      "action": "modify",
+      "date": "2012-12-17"
+    },
+    {
+      "code": "C3272",
+      "action": "modify",
+      "date": "2012-12-28"
+    },
+    {
+      "code": "C3272",
+      "action": "modify",
+      "date": "2013-01-07"
+    },
+    {
+      "code": "C3272",
+      "action": "modify",
+      "date": "2013-01-14"
+    },
+    {
+      "code": "C3272",
+      "action": "modify",
+      "date": "2013-01-23"
+    },
+    {
+      "code": "C3272",
+      "action": "modify",
+      "date": "2013-02-04"
+    },
+    {
+      "code": "C3272",
+      "action": "modify",
+      "date": "2013-02-11"
+    },
+    {
+      "code": "C3272",
+      "action": "modify",
+      "date": "2013-02-19"
+    },
+    {
+      "code": "C3272",
+      "action": "modify",
+      "date": "2013-02-25"
+    },
+    {
+      "code": "C3272",
+      "action": "modify",
+      "date": "2013-03-04"
+    },
+    {
+      "code": "C3272",
+      "action": "modify",
+      "date": "2013-03-11"
+    },
+    {
+      "code": "C3272",
+      "action": "modify",
+      "date": "2013-03-18"
+    },
+    {
+      "code": "C3272",
+      "action": "modify",
+      "date": "2013-03-25"
+    },
+    {
+      "code": "C3272",
+      "action": "modify",
+      "date": "2013-04-01"
+    },
+    {
+      "code": "C3272",
+      "action": "modify",
+      "date": "2013-04-08"
+    },
+    {
+      "code": "C3272",
+      "action": "modify",
+      "date": "2013-04-15"
+    },
+    {
+      "code": "C3272",
+      "action": "modify",
+      "date": "2013-04-22"
+    },
+    {
+      "code": "C3272",
+      "action": "modify",
+      "date": "2013-04-29"
+    },
+    {
+      "code": "C3272",
+      "action": "modify",
+      "date": "2013-05-06"
+    },
+    {
+      "code": "C3272",
+      "action": "modify",
+      "date": "2013-05-13"
+    },
+    {
+      "code": "C3272",
+      "action": "modify",
+      "date": "2013-05-20"
+    },
+    {
+      "code": "C3272",
+      "action": "modify",
+      "date": "2013-05-28"
+    },
+    {
+      "code": "C3272",
+      "action": "modify",
+      "date": "2013-06-03"
+    },
+    {
+      "code": "C3272",
+      "action": "modify",
+      "date": "2013-06-10"
+    },
+    {
+      "code": "C3272",
+      "action": "modify",
+      "date": "2013-06-17"
+    },
+    {
+      "code": "C3272",
+      "action": "modify",
+      "date": "2013-06-24"
+    },
+    {
+      "code": "C3272",
+      "action": "modify",
+      "date": "2013-07-01"
+    },
+    {
+      "code": "C3272",
+      "action": "modify",
+      "date": "2013-07-08"
+    },
+    {
+      "code": "C3272",
+      "action": "modify",
+      "date": "2015-05-26"
+    },
+    {
+      "code": "C3272",
+      "action": "modify",
+      "date": "2016-04-25"
+    },
+    {
+      "code": "C3272",
+      "action": "modify",
+      "date": "2016-08-22"
+    },
+    {
+      "code": "C3272",
+      "action": "modify",
+      "date": "2018-09-24"
+    },
+    {
+      "code": "C3272",
+      "action": "modify",
+      "date": "2018-10-29"
+    },
+    {
+      "code": "C3272",
+      "action": "modify",
+      "date": "2018-10-29"
+    },
+    {
+      "code": "C3272",
+      "action": "modify",
+      "date": "2019-05-28"
+    },
+    {
+      "code": "C3272",
+      "action": "modify",
+      "date": "2019-09-30"
+    },
+    {
+      "code": "C3272",
+      "action": "modify",
+      "date": "2019-10-28"
+    },
+    {
+      "code": "C3272",
+      "action": "modify",
+      "date": "2019-11-25"
+    },
+    {
+      "code": "C3272",
+      "action": "modify",
+      "date": "2020-02-24"
+    },
+    {
+      "code": "C3272",
+      "action": "modify",
+      "date": "2020-04-27"
+    },
+    {
+      "code": "C3272",
+      "action": "modify",
+      "date": "2020-09-29"
+    },
+    {
+      "code": "C3272",
+      "action": "modify",
+      "date": "2021-02-22"
+    },
+    {
+      "code": "C3272",
+      "action": "modify",
+      "date": "2021-03-29"
+    },
+    {
+      "code": "C3272",
+      "action": "modify",
+      "date": "2023-02-27"
+    },
+    {
+      "code": "C3272",
+      "action": "modify",
+      "date": "2025-02-24"
+    },
+    {
+      "code": "C3272",
+      "action": "modify",
+      "date": "2025-03-31"
+    }
+  ],
+  "maps": [
+    {
+      "type": "Related To",
+      "targetName": "9540/0",
+      "targetTermType": "PT",
+      "targetCode": "morphology",
+      "targetTerminology": "GDC"
+    },
+    {
+      "type": "Related To",
+      "targetName": "Neurofibroma, NOS",
+      "targetTermType": "PT",
+      "targetCode": "9540/0",
+      "targetTerminology": "ICDO3",
+      "targetTerminologyVersion": "3.1"
+    },
+    {
+      "type": "Related To",
+      "targetName": "Neurofibroma, NOS",
+      "targetTermType": "PT",
+      "targetCode": "9540/0",
+      "targetTerminology": "ICDO3",
+      "targetTerminologyVersion": "3.2"
+    },
+    {
+      "type": "Has Synonym",
+      "targetName": "Neurofibroma, NOS",
+      "targetTermType": "PT",
+      "targetCode": "primary_diagnosis",
+      "targetTerminology": "GDC"
+    }
+  ]
+}

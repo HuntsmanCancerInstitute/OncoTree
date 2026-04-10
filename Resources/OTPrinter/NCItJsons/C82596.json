@@ -1,0 +1,532 @@
+{
+  "code": "C82596",
+  "name": "Refractory Cytopenia of Childhood",
+  "terminology": "ncit",
+  "version": "25.11d",
+  "conceptStatus": "DEFAULT",
+  "leaf": true,
+  "active": true,
+  "synonyms": [
+    {
+      "name": "Refractory cytopenia of childhood",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "GDC"
+    },
+    {
+      "name": "RCC",
+      "termType": "AB",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Refractory Cytopenia of Childhood",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "RCC",
+      "termType": "AB",
+      "type": "FULL_SYN",
+      "source": "NICHD"
+    },
+    {
+      "name": "Refractory Cytopenia of Childhood",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NICHD"
+    },
+    {
+      "name": "Refractory Cytopenia of Childhood",
+      "type": "Preferred_Name"
+    }
+  ],
+  "definitions": [
+    {
+      "definition": "A myeloid disorder that occurs in childhood and is characterized by persistent cytopenia, dysplastic changes in at least two hematopoietic lineages or in 10% or more of cells in one hematopoietic lineage, less than 5% blasts in bone marrow, and less than 2% blasts in peripheral blood, absence of bone marrow fibrosis, and absence of history of prior cytotoxic chemotherapy or radiation therapy. In a subset of cases, somatic mutations or cytogenetic abnormalities can be identified. Other cases are the result of pre-existing disorders with germline mutations, including Fanconi anemia, Shwachman-Diamond syndrome, and dyskeratosis congenita.",
+      "type": "DEFINITION",
+      "source": "NCI"
+    },
+    {
+      "definition": "The most common subtype of the myelodysplastic syndromes affecting children. It is characterized by persistent cytopenia with less than 5% blasts in the bone marrow and less than 2% blasts in the peripheral blood. Most cases are associated with a normal karyotype, however, when abnormal, monosomy 7 is the most frequently seen cytogenetic abnormality.",
+      "type": "ALT_DEFINITION",
+      "source": "NICHD"
+    }
+  ],
+  "properties": [
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "GDC"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "NICHD"
+    },
+    {
+      "code": "P334",
+      "type": "ICD-O-3_Code",
+      "value": "9985/3"
+    },
+    {
+      "code": "P366",
+      "type": "Legacy Concept Name",
+      "value": "Refractory_Cytopenia_of_Childhood"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "9985/3"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "Refractory cytopenia of childhood"
+    },
+    {
+      "code": "P363",
+      "type": "Neoplastic_Status",
+      "value": "Malignant"
+    },
+    {
+      "code": "P106",
+      "type": "Semantic_Type",
+      "value": "Neoplastic Process"
+    },
+    {
+      "code": "P207",
+      "type": "UMLS_CUI",
+      "value": "C2826323"
+    }
+  ],
+  "parents": [
+    {
+      "code": "C9431",
+      "name": "Childhood Hematopoietic and Lymphoid Cell Neoplasm"
+    },
+    {
+      "code": "C198663",
+      "name": "Pediatric and/or Germline Mutation-Associated Myeloid Disorders"
+    }
+  ],
+  "associations": [
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C157711",
+      "relatedName": "GDC Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C177537",
+      "relatedName": "GDC Value Terminology"
+    },
+    {
+      "type": "Is_Value_For_GDC_Property",
+      "relatedCode": "C176985",
+      "relatedName": "Histology ICD-O Morphology Code"
+    },
+    {
+      "type": "Is_Value_For_GDC_Property",
+      "relatedCode": "C177621",
+      "relatedName": "ICD-O-3 Morphology Term Diagnosis Question"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C126659",
+      "relatedName": "NCIt Neoplasm Core Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C90259",
+      "relatedName": "NICHD Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C132009",
+      "relatedName": "Pediatric Hematology-Oncology Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C6283",
+      "relatedName": "Childhood Neoplasm",
+      "qualifiers": [
+        {
+          "type": "computed",
+          "value": "This is computed by the existing subset relationship"
+        }
+      ]
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C4005",
+      "relatedName": "Childhood Malignant Neoplasm",
+      "qualifiers": [
+        {
+          "type": "computed",
+          "value": "This is computed by the existing subset relationship"
+        }
+      ]
+    }
+  ],
+  "inverseAssociations": [
+    {
+      "type": "Has_GDC_Value",
+      "relatedCode": "C176985",
+      "relatedName": "Histology ICD-O Morphology Code"
+    },
+    {
+      "type": "Has_GDC_Value",
+      "relatedCode": "C177621",
+      "relatedName": "ICD-O-3 Morphology Term Diagnosis Question"
+    }
+  ],
+  "roles": [
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C36235",
+      "relatedName": "Bone Marrow Dysplasia Present"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C36212",
+      "relatedName": "Bone Marrow Fibrosis"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C13456",
+      "relatedName": "Bone Marrow Stem Cell"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C60644",
+      "relatedName": "Childhood Lesion"
+    },
+    {
+      "type": "Disease_Has_Associated_Disease",
+      "relatedCode": "C200396",
+      "relatedName": "Childhood Myelodysplastic Syndrome with Low Blasts"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C2979",
+      "relatedName": "Cytopenia"
+    },
+    {
+      "type": "Disease_May_Have_Associated_Disease",
+      "relatedCode": "C111802",
+      "relatedName": "Dyskeratosis Congenita"
+    },
+    {
+      "type": "Disease_May_Have_Associated_Disease",
+      "relatedCode": "C62505",
+      "relatedName": "Fanconi Anemia"
+    },
+    {
+      "type": "Disease_May_Have_Molecular_Abnormality",
+      "relatedCode": "C17666",
+      "relatedName": "Germline Variation"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C41165",
+      "relatedName": "Hematopoietic and Lymphatic System"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C41165",
+      "relatedName": "Hematopoietic and Lymphatic System"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C32725",
+      "relatedName": "Hematopoietic and Lymphoid Cell"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C41168",
+      "relatedName": "Hematopoietic and Lymphoid Tissue"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C13051",
+      "relatedName": "Hematopoietic Tissue"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C36208",
+      "relatedName": "Myeloblasts Under 2 Percent of Peripheral Blood White Cells"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C36209",
+      "relatedName": "Myeloblasts Under 5 Percent of Bone Marrow Nucleated Cells"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12922",
+      "relatedName": "Neoplastic Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C37060",
+      "relatedName": "Neoplastic Hematopoietic and Lymphoid Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C41063",
+      "relatedName": "Neoplastic Myeloid Cell"
+    },
+    {
+      "type": "Disease_May_Have_Associated_Disease",
+      "relatedCode": "C61235",
+      "relatedName": "Shwachman-Diamond Syndrome"
+    },
+    {
+      "type": "Disease_May_Have_Molecular_Abnormality",
+      "relatedCode": "C18060",
+      "relatedName": "Somatic Variation"
+    }
+  ],
+  "inverseRoles": [
+    {
+      "type": "Disease_Has_Associated_Disease",
+      "relatedCode": "C200397",
+      "relatedName": "Childhood Myelodysplastic Syndrome with Low Blasts, Hypocellular"
+    },
+    {
+      "type": "Disease_Has_Associated_Disease",
+      "relatedCode": "C200398",
+      "relatedName": "Childhood Myelodysplastic Syndrome with Low Blasts, Not Otherwise Specified"
+    },
+    {
+      "type": "Disease_Has_Associated_Disease",
+      "relatedCode": "C200396",
+      "relatedName": "Childhood Myelodysplastic Syndrome with Low Blasts"
+    }
+  ],
+  "history": [
+    {
+      "code": "C82596",
+      "action": "create",
+      "date": "2009-08-03"
+    },
+    {
+      "code": "C82596",
+      "action": "modify",
+      "date": "2009-08-10"
+    },
+    {
+      "code": "C82596",
+      "action": "modify",
+      "date": "2009-08-17"
+    },
+    {
+      "code": "C82596",
+      "action": "modify",
+      "date": "2009-08-24"
+    },
+    {
+      "code": "C82596",
+      "action": "modify",
+      "date": "2009-08-31"
+    },
+    {
+      "code": "C82596",
+      "action": "modify",
+      "date": "2009-09-08"
+    },
+    {
+      "code": "C82596",
+      "action": "modify",
+      "date": "2009-09-10"
+    },
+    {
+      "code": "C82596",
+      "action": "modify",
+      "date": "2009-11-23"
+    },
+    {
+      "code": "C82596",
+      "action": "modify",
+      "date": "2010-03-08"
+    },
+    {
+      "code": "C82596",
+      "action": "modify",
+      "date": "2011-07-25"
+    },
+    {
+      "code": "C82596",
+      "action": "modify",
+      "date": "2011-08-15"
+    },
+    {
+      "code": "C82596",
+      "action": "modify",
+      "date": "2012-07-30"
+    },
+    {
+      "code": "C82596",
+      "action": "modify",
+      "date": "2014-02-03"
+    },
+    {
+      "code": "C82596",
+      "action": "modify",
+      "date": "2015-02-17"
+    },
+    {
+      "code": "C82596",
+      "action": "modify",
+      "date": "2016-04-25"
+    },
+    {
+      "code": "C82596",
+      "action": "modify",
+      "date": "2017-02-13"
+    },
+    {
+      "code": "C82596",
+      "action": "modify",
+      "date": "2017-02-21"
+    },
+    {
+      "code": "C82596",
+      "action": "modify",
+      "date": "2017-02-27"
+    },
+    {
+      "code": "C82596",
+      "action": "modify",
+      "date": "2017-03-06"
+    },
+    {
+      "code": "C82596",
+      "action": "modify",
+      "date": "2017-03-13"
+    },
+    {
+      "code": "C82596",
+      "action": "modify",
+      "date": "2017-03-20"
+    },
+    {
+      "code": "C82596",
+      "action": "modify",
+      "date": "2017-03-27"
+    },
+    {
+      "code": "C82596",
+      "action": "modify",
+      "date": "2017-04-03"
+    },
+    {
+      "code": "C82596",
+      "action": "modify",
+      "date": "2017-04-10"
+    },
+    {
+      "code": "C82596",
+      "action": "modify",
+      "date": "2017-04-17"
+    },
+    {
+      "code": "C82596",
+      "action": "modify",
+      "date": "2017-04-24"
+    },
+    {
+      "code": "C82596",
+      "action": "modify",
+      "date": "2017-05-01"
+    },
+    {
+      "code": "C82596",
+      "action": "modify",
+      "date": "2017-05-04"
+    },
+    {
+      "code": "C82596",
+      "action": "modify",
+      "date": "2017-09-26"
+    },
+    {
+      "code": "C82596",
+      "action": "modify",
+      "date": "2018-09-24"
+    },
+    {
+      "code": "C82596",
+      "action": "modify",
+      "date": "2019-05-28"
+    },
+    {
+      "code": "C82596",
+      "action": "modify",
+      "date": "2019-08-26"
+    },
+    {
+      "code": "C82596",
+      "action": "modify",
+      "date": "2019-09-30"
+    },
+    {
+      "code": "C82596",
+      "action": "modify",
+      "date": "2019-11-25"
+    },
+    {
+      "code": "C82596",
+      "action": "modify",
+      "date": "2020-08-31"
+    },
+    {
+      "code": "C82596",
+      "action": "modify",
+      "date": "2020-09-29"
+    },
+    {
+      "code": "C82596",
+      "action": "modify",
+      "date": "2021-02-22"
+    },
+    {
+      "code": "C82596",
+      "action": "modify",
+      "date": "2021-03-29"
+    },
+    {
+      "code": "C82596",
+      "action": "modify",
+      "date": "2021-06-28"
+    },
+    {
+      "code": "C82596",
+      "action": "modify",
+      "date": "2023-04-24"
+    },
+    {
+      "code": "C82596",
+      "action": "modify",
+      "date": "2023-07-31"
+    }
+  ],
+  "maps": [
+    {
+      "type": "Related To",
+      "targetName": "9985/3",
+      "targetTermType": "PT",
+      "targetCode": "morphology",
+      "targetTerminology": "GDC"
+    },
+    {
+      "type": "Has Synonym",
+      "targetName": "Refractory cytopenia of childhood",
+      "targetTermType": "PT",
+      "targetCode": "primary_diagnosis",
+      "targetTerminology": "GDC"
+    }
+  ]
+}

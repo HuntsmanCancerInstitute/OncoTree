@@ -1,0 +1,900 @@
+{
+  "code": "C8459",
+  "name": "Hepatosplenic T-Cell Lymphoma",
+  "terminology": "ncit",
+  "version": "25.11d",
+  "conceptStatus": "DEFAULT",
+  "leaf": false,
+  "active": true,
+  "synonyms": [
+    {
+      "name": "Hepatosplenic T-Cell Lymphoma",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "caDSR"
+    },
+    {
+      "name": "Hepatosplenic T-Cell Lymphoma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "Cellosaurus"
+    },
+    {
+      "name": "Hepatosplenic T-Cell Lymphoma",
+      "termType": "DN",
+      "type": "FULL_SYN",
+      "source": "CTRP"
+    },
+    {
+      "name": "Hepatosplenic gamma-delta cell lymphoma",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "GDC"
+    },
+    {
+      "name": "Hepatosplenic T-cell lymphoma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "GDC"
+    },
+    {
+      "name": "Hepatosplenic T-cell lymphoma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "mCode",
+      "code": "C86.1",
+      "subSource": "ICD-10 CM"
+    },
+    {
+      "name": "Hepatosplenic Gamma/Delta T-Cell Lymphoma",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Hepatosplenic T-Cell Lymphoma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Hepatosplenic T-Cell Lymphoma",
+      "type": "Display_Name"
+    },
+    {
+      "name": "Hepatosplenic T-Cell Lymphoma",
+      "type": "Preferred_Name"
+    }
+  ],
+  "definitions": [
+    {
+      "definition": "An extranodal, mature T-cell non-Hodgkin lymphoma that originates from cytotoxic T-cells, usually of gamma/delta T-cell type.  It is characterized by the presence of medium-size neoplastic lymphocytes infiltrating the hepatic sinusoids.  A similar infiltrating pattern is also present in the spleen and bone marrow that are usually involved at the time of the diagnosis.",
+      "type": "DEFINITION",
+      "source": "NCI"
+    }
+  ],
+  "properties": [
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "Cellosaurus"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "CTRP"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "GDC"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "mCode"
+    },
+    {
+      "code": "P334",
+      "type": "ICD-O-3_Code",
+      "value": "9716/3"
+    },
+    {
+      "code": "P366",
+      "type": "Legacy Concept Name",
+      "value": "Hepatosplenic_T-Cell_Lymphoma"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "9716/3"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "Hepatosplenic gamma-delta cell lymphoma"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "Hepatosplenic T-cell lymphoma"
+    },
+    {
+      "code": "P363",
+      "type": "Neoplastic_Status",
+      "value": "Malignant"
+    },
+    {
+      "code": "P106",
+      "type": "Semantic_Type",
+      "value": "Neoplastic Process"
+    },
+    {
+      "code": "P207",
+      "type": "UMLS_CUI",
+      "value": "C0522627"
+    }
+  ],
+  "children": [
+    {
+      "code": "C153160",
+      "name": "Recurrent Hepatosplenic T-Cell Lymphoma",
+      "leaf": true
+    },
+    {
+      "code": "C153161",
+      "name": "Refractory Hepatosplenic T-Cell Lymphoma",
+      "leaf": true
+    }
+  ],
+  "parents": [
+    {
+      "code": "C178547",
+      "name": "Aggressive T-Cell Non-Hodgkin Lymphoma"
+    },
+    {
+      "code": "C5766",
+      "name": "Liver Non-Hodgkin Lymphoma"
+    },
+    {
+      "code": "C3468",
+      "name": "Mature T-Cell and NK-Cell Non-Hodgkin Lymphoma"
+    },
+    {
+      "code": "C7294",
+      "name": "Splenic Non-Hodgkin Lymphoma"
+    }
+  ],
+  "associations": [
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C165258",
+      "relatedName": "Cellosaurus Disease Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C118168",
+      "relatedName": "CTRP Disease Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C116977",
+      "relatedName": "CTRP Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C157711",
+      "relatedName": "GDC Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C177537",
+      "relatedName": "GDC Value Terminology"
+    },
+    {
+      "type": "Is_Value_For_GDC_Property",
+      "relatedCode": "C176985",
+      "relatedName": "Histology ICD-O Morphology Code"
+    },
+    {
+      "type": "Is_Value_For_GDC_Property",
+      "relatedCode": "C177621",
+      "relatedName": "ICD-O-3 Morphology Term Diagnosis Question"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168658",
+      "relatedName": "Mapped ICDO3.1 Morphology PT Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168657",
+      "relatedName": "Mapped ICDO3.1 Morphology Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168655",
+      "relatedName": "Mapped ICDO3.1 Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168662",
+      "relatedName": "Mapped ICDO3.2 Morphology PT Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168661",
+      "relatedName": "Mapped ICDO3.2 Morphology Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168656",
+      "relatedName": "Mapped ICDO3.2 Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C193249",
+      "relatedName": "mCode Cancer Disorder Value Set"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C193175",
+      "relatedName": "mCode Elixhauser Lymphoma Value Set"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C193248",
+      "relatedName": "mCode Primary Cancer Disorder Value Set"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C193231",
+      "relatedName": "mCode Primary Malignant Neoplasm Disorder Value Set"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C193006",
+      "relatedName": "mCode Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C126659",
+      "relatedName": "NCIt Neoplasm Core Terminology"
+    }
+  ],
+  "inverseAssociations": [
+    {
+      "type": "Has_GDC_Value",
+      "relatedCode": "C176985",
+      "relatedName": "Histology ICD-O Morphology Code"
+    },
+    {
+      "type": "Has_GDC_Value",
+      "relatedCode": "C177621",
+      "relatedName": "ICD-O-3 Morphology Term Diagnosis Question"
+    }
+  ],
+  "roles": [
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36725",
+      "relatedName": "Abnormal Lymphocyte"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C36104",
+      "relatedName": "Aggressive Clinical Course"
+    },
+    {
+      "type": "Disease_May_Have_Associated_Disease",
+      "relatedCode": "C2869",
+      "relatedName": "Anemia"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C36122",
+      "relatedName": "Benign Cellular Infiltrate"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C8288",
+      "relatedName": "Bone Marrow Involvement"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12431",
+      "relatedName": "Bone Marrow"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C45295",
+      "relatedName": "CD4-Positive Neoplastic Cells Present"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C45296",
+      "relatedName": "CD56-Positive Neoplastic Cells Present"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C45324",
+      "relatedName": "CD8-Positive Neoplastic Cells Present"
+    },
+    {
+      "type": "Disease_May_Have_Molecular_Abnormality",
+      "relatedCode": "C36447",
+      "relatedName": "Clonal T-Cell Receptor Beta Chain Gene Rearrangement"
+    },
+    {
+      "type": "Disease_Has_Molecular_Abnormality",
+      "relatedCode": "C36448",
+      "relatedName": "Clonal T-Cell Receptor Gamma Chain Gene Rearrangement"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12378",
+      "relatedName": "Digestive System"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12378",
+      "relatedName": "Digestive System"
+    },
+    {
+      "type": "Disease_Excludes_Normal_Cell_Origin",
+      "relatedCode": "C12578",
+      "relatedName": "Epithelial Cell"
+    },
+    {
+      "type": "Disease_Excludes_Normal_Tissue_Origin",
+      "relatedCode": "C12710",
+      "relatedName": "Epithelium"
+    },
+    {
+      "type": "Disease_Excludes_Primary_Anatomic_Site",
+      "relatedCode": "C32573",
+      "relatedName": "Extrahepatic Bile Duct"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C41165",
+      "relatedName": "Hematopoietic and Lymphatic System"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C41165",
+      "relatedName": "Hematopoietic and Lymphatic System"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C32725",
+      "relatedName": "Hematopoietic and Lymphoid Cell"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C41168",
+      "relatedName": "Hematopoietic and Lymphoid Tissue"
+    },
+    {
+      "type": "Disease_May_Have_Associated_Disease",
+      "relatedCode": "C3098",
+      "relatedName": "Hepatitis C Infection"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C43612",
+      "relatedName": "Hepatobiliary System"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C43612",
+      "relatedName": "Hepatobiliary System"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C43614",
+      "relatedName": "Hepatobiliary Tissue"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C3100",
+      "relatedName": "Hepatomegaly"
+    },
+    {
+      "type": "Disease_May_Have_Cytogenetic_Abnormality",
+      "relatedCode": "C36432",
+      "relatedName": "i(7q)"
+    },
+    {
+      "type": "Disease_May_Have_Normal_Cell_Origin",
+      "relatedCode": "C38327",
+      "relatedName": "Immature Peripheral Alpha/Beta Cell of Cytotoxic Type"
+    },
+    {
+      "type": "Disease_May_Have_Normal_Cell_Origin",
+      "relatedCode": "C38326",
+      "relatedName": "Immature Peripheral Gamma/Delta Cell of Cytotoxic Type"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C35524",
+      "relatedName": "Leukocytosis"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12392",
+      "relatedName": "Liver"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12392",
+      "relatedName": "Liver"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12746",
+      "relatedName": "Lymphatic System"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C37027",
+      "relatedName": "Lymphocyte Predominant Cell"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C12535",
+      "relatedName": "Lymphocyte"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C13049",
+      "relatedName": "Lymphoid Tissue"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12917",
+      "relatedName": "Malignant Cell"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C36115",
+      "relatedName": "Malignant Cellular Infiltrate"
+    },
+    {
+      "type": "Disease_Excludes_Normal_Cell_Origin",
+      "relatedCode": "C12549",
+      "relatedName": "Myeloid Cell"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C38640",
+      "relatedName": "Neoplastic B-Lymphocyte"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12922",
+      "relatedName": "Neoplastic Cell"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C36753",
+      "relatedName": "Neoplastic Epithelial Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C37060",
+      "relatedName": "Neoplastic Hematopoietic and Lymphoid Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36988",
+      "relatedName": "Neoplastic Lymphocyte"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C39600",
+      "relatedName": "Neoplastic Medium-Sized T-Lymphocyte"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C39566",
+      "relatedName": "Neoplastic T-Lymphocyte and Neoplastic Natural Killer Cell"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C39568",
+      "relatedName": "Peripheral (Post-Thymic) T-Lymphocyte and Natural Killer Cell"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C38434",
+      "relatedName": "Peripheral (Post-Thymic) T-Lymphocyte"
+    },
+    {
+      "type": "Disease_Excludes_Normal_Cell_Origin",
+      "relatedCode": "C12486",
+      "relatedName": "Plasma Cell"
+    },
+    {
+      "type": "Disease_Excludes_Normal_Cell_Origin",
+      "relatedCode": "C39300",
+      "relatedName": "Precursor Natural Killer Cell"
+    },
+    {
+      "type": "Disease_Excludes_Normal_Cell_Origin",
+      "relatedCode": "C33930",
+      "relatedName": "Precursor T-Lymphoblast"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C12660",
+      "relatedName": "Reed-Sternberg Cell"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C39615",
+      "relatedName": "Sinusoidal Infiltration"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12432",
+      "relatedName": "Spleen"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12432",
+      "relatedName": "Spleen"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C3384",
+      "relatedName": "Splenomegaly"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C39567",
+      "relatedName": "T-Lymphocyte and Natural Killer Cell"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C3408",
+      "relatedName": "Thrombocytopenia"
+    },
+    {
+      "type": "Disease_May_Have_Cytogenetic_Abnormality",
+      "relatedCode": "C36396",
+      "relatedName": "Trisomy 8"
+    }
+  ],
+  "history": [
+    {
+      "code": "C8459",
+      "action": "create",
+      "date": "2003-08-12"
+    },
+    {
+      "code": "C8459",
+      "action": "modify",
+      "date": "2003-10-31"
+    },
+    {
+      "code": "C8459",
+      "action": "modify",
+      "date": "2003-12-30"
+    },
+    {
+      "code": "C8459",
+      "action": "modify",
+      "date": "2004-03-30"
+    },
+    {
+      "code": "C8459",
+      "action": "modify",
+      "date": "2004-04-30"
+    },
+    {
+      "code": "C8459",
+      "action": "modify",
+      "date": "2004-06-25"
+    },
+    {
+      "code": "C8459",
+      "action": "modify",
+      "date": "2005-03-30"
+    },
+    {
+      "code": "C8459",
+      "action": "modify",
+      "date": "2005-09-29"
+    },
+    {
+      "code": "C8459",
+      "action": "modify",
+      "date": "2006-12-01"
+    },
+    {
+      "code": "C8459",
+      "action": "modify",
+      "date": "2007-03-30"
+    },
+    {
+      "code": "C8459",
+      "action": "modify",
+      "date": "2007-05-25"
+    },
+    {
+      "code": "C8459",
+      "action": "modify",
+      "date": "2009-01-26"
+    },
+    {
+      "code": "C8459",
+      "action": "modify",
+      "date": "2009-04-06"
+    },
+    {
+      "code": "C8459",
+      "action": "modify",
+      "date": "2009-11-23"
+    },
+    {
+      "code": "C8459",
+      "action": "modify",
+      "date": "2011-05-23"
+    },
+    {
+      "code": "C8459",
+      "action": "modify",
+      "date": "2013-02-25"
+    },
+    {
+      "code": "C8459",
+      "action": "modify",
+      "date": "2013-03-04"
+    },
+    {
+      "code": "C8459",
+      "action": "modify",
+      "date": "2013-03-11"
+    },
+    {
+      "code": "C8459",
+      "action": "modify",
+      "date": "2013-03-18"
+    },
+    {
+      "code": "C8459",
+      "action": "modify",
+      "date": "2013-03-25"
+    },
+    {
+      "code": "C8459",
+      "action": "modify",
+      "date": "2013-04-01"
+    },
+    {
+      "code": "C8459",
+      "action": "modify",
+      "date": "2013-04-08"
+    },
+    {
+      "code": "C8459",
+      "action": "modify",
+      "date": "2013-04-15"
+    },
+    {
+      "code": "C8459",
+      "action": "modify",
+      "date": "2013-04-22"
+    },
+    {
+      "code": "C8459",
+      "action": "modify",
+      "date": "2013-04-29"
+    },
+    {
+      "code": "C8459",
+      "action": "modify",
+      "date": "2013-05-06"
+    },
+    {
+      "code": "C8459",
+      "action": "modify",
+      "date": "2013-05-13"
+    },
+    {
+      "code": "C8459",
+      "action": "modify",
+      "date": "2013-05-20"
+    },
+    {
+      "code": "C8459",
+      "action": "modify",
+      "date": "2013-05-28"
+    },
+    {
+      "code": "C8459",
+      "action": "modify",
+      "date": "2013-06-03"
+    },
+    {
+      "code": "C8459",
+      "action": "modify",
+      "date": "2013-06-10"
+    },
+    {
+      "code": "C8459",
+      "action": "modify",
+      "date": "2013-06-17"
+    },
+    {
+      "code": "C8459",
+      "action": "modify",
+      "date": "2013-06-24"
+    },
+    {
+      "code": "C8459",
+      "action": "modify",
+      "date": "2013-07-01"
+    },
+    {
+      "code": "C8459",
+      "action": "modify",
+      "date": "2013-07-08"
+    },
+    {
+      "code": "C8459",
+      "action": "modify",
+      "date": "2014-08-04"
+    },
+    {
+      "code": "C8459",
+      "action": "modify",
+      "date": "2014-08-18"
+    },
+    {
+      "code": "C8459",
+      "action": "modify",
+      "date": "2014-09-22"
+    },
+    {
+      "code": "C8459",
+      "action": "modify",
+      "date": "2016-04-25"
+    },
+    {
+      "code": "C8459",
+      "action": "modify",
+      "date": "2018-07-30"
+    },
+    {
+      "code": "C8459",
+      "action": "modify",
+      "date": "2018-08-27"
+    },
+    {
+      "code": "C8459",
+      "action": "modify",
+      "date": "2018-08-27"
+    },
+    {
+      "code": "C8459",
+      "action": "modify",
+      "date": "2018-09-24"
+    },
+    {
+      "code": "C8459",
+      "action": "modify",
+      "date": "2018-11-26"
+    },
+    {
+      "code": "C8459",
+      "action": "modify",
+      "date": "2019-05-28"
+    },
+    {
+      "code": "C8459",
+      "action": "modify",
+      "date": "2019-09-30"
+    },
+    {
+      "code": "C8459",
+      "action": "modify",
+      "date": "2019-10-28"
+    },
+    {
+      "code": "C8459",
+      "action": "modify",
+      "date": "2019-11-25"
+    },
+    {
+      "code": "C8459",
+      "action": "modify",
+      "date": "2020-02-24"
+    },
+    {
+      "code": "C8459",
+      "action": "modify",
+      "date": "2020-04-27"
+    },
+    {
+      "code": "C8459",
+      "action": "modify",
+      "date": "2020-09-29"
+    },
+    {
+      "code": "C8459",
+      "action": "modify",
+      "date": "2021-02-22"
+    },
+    {
+      "code": "C8459",
+      "action": "modify",
+      "date": "2021-03-29"
+    },
+    {
+      "code": "C8459",
+      "action": "modify",
+      "date": "2021-04-26"
+    },
+    {
+      "code": "C8459",
+      "action": "modify",
+      "date": "2023-02-27"
+    },
+    {
+      "code": "C8459",
+      "action": "modify",
+      "date": "2023-03-27"
+    },
+    {
+      "code": "C8459",
+      "action": "modify",
+      "date": "2023-05-30"
+    },
+    {
+      "code": "C8459",
+      "action": "modify",
+      "date": "2025-03-31"
+    }
+  ],
+  "maps": [
+    {
+      "type": "Related To",
+      "targetName": "9716/3",
+      "targetTermType": "PT",
+      "targetCode": "morphology",
+      "targetTerminology": "GDC"
+    },
+    {
+      "type": "Has Synonym",
+      "targetName": "Hepatosplenic gamma-delta cell lymphoma",
+      "targetTermType": "PT",
+      "targetCode": "primary_diagnosis",
+      "targetTerminology": "GDC"
+    },
+    {
+      "type": "Related To",
+      "targetName": "Hepatosplenic T-cell lymphoma",
+      "targetTermType": "PT",
+      "targetCode": "9716/3",
+      "targetTerminology": "ICDO3",
+      "targetTerminologyVersion": "3.2"
+    },
+    {
+      "type": "Related To",
+      "targetName": "Hepatosplenic T-cell lymphoma",
+      "targetTermType": "PT",
+      "targetCode": "9716/3",
+      "targetTerminology": "ICDO3",
+      "targetTerminologyVersion": "3.1"
+    },
+    {
+      "type": "Has Synonym",
+      "targetName": "Hepatosplenic T-cell lymphoma",
+      "targetTermType": "PT",
+      "targetCode": "primary_diagnosis",
+      "targetTerminology": "GDC"
+    }
+  ]
+}

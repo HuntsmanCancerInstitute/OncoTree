@@ -1,0 +1,409 @@
+{
+  "code": "C40208",
+  "name": "Cervical Villoglandular Adenocarcinoma",
+  "terminology": "ncit",
+  "version": "25.11d",
+  "conceptStatus": "DEFAULT",
+  "leaf": true,
+  "active": true,
+  "synonyms": [
+    {
+      "name": "Cervical Adenocarcinoma, Villoglandular Variant",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Cervical Villoglandular Adenocarcinoma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Cervical Villoglandular Carcinoma",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Cervical Villoglandular Adenocarcinoma",
+      "type": "Preferred_Name"
+    }
+  ],
+  "definitions": [
+    {
+      "definition": "A cervical adenocarcinoma characterized by the presence of a prominent villoglandular pattern.",
+      "type": "DEFINITION",
+      "source": "NCI"
+    }
+  ],
+  "properties": [
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "GDC"
+    },
+    {
+      "code": "P366",
+      "type": "Legacy Concept Name",
+      "value": "Cervical_Mucinous_Adenocarcinoma_Villoglandular_Variant"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "Villoglandular carcinoma"
+    },
+    {
+      "code": "P363",
+      "type": "Neoplastic_Status",
+      "value": "Malignant"
+    },
+    {
+      "code": "P106",
+      "type": "Semantic_Type",
+      "value": "Neoplastic Process"
+    },
+    {
+      "code": "P207",
+      "type": "UMLS_CUI",
+      "value": "C1516425"
+    }
+  ],
+  "parents": [
+    {
+      "code": "C127907",
+      "name": "Endocervical Adenocarcinoma, Usual-Type"
+    },
+    {
+      "code": "C4142",
+      "name": "Villous Adenocarcinoma"
+    }
+  ],
+  "associations": [
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C157711",
+      "relatedName": "GDC Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C177537",
+      "relatedName": "GDC Value Terminology"
+    },
+    {
+      "type": "Is_Value_For_GDC_Property",
+      "relatedCode": "C177621",
+      "relatedName": "ICD-O-3 Morphology Term Diagnosis Question"
+    }
+  ],
+  "inverseAssociations": [
+    {
+      "type": "Has_GDC_Value",
+      "relatedCode": "C177621",
+      "relatedName": "ICD-O-3 Morphology Term Diagnosis Question"
+    }
+  ],
+  "roles": [
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C50795",
+      "relatedName": "Abnormal Vaginal Discharge"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36773",
+      "relatedName": "Adenocarcinoma Cell"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C36122",
+      "relatedName": "Benign Cellular Infiltrate"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C54172",
+      "relatedName": "Carcinomatous Component Present"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C49218",
+      "relatedName": "Cervix Epithelium"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12311",
+      "relatedName": "Cervix Uteri"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12311",
+      "relatedName": "Cervix Uteri"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C33914",
+      "relatedName": "Endocervical Columnar Cell"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C33989",
+      "relatedName": "Endocervical Mucosa"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12309",
+      "relatedName": "Endocervix"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C12578",
+      "relatedName": "Epithelial Cell"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C53596",
+      "relatedName": "Epithelial Component Present"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C45714",
+      "relatedName": "Epithelial Tissue"
+    },
+    {
+      "type": "Disease_May_Have_Molecular_Abnormality",
+      "relatedCode": "C36638",
+      "relatedName": "ERBB2 Gene Amplification"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12402",
+      "relatedName": "Female Reproductive System"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12402",
+      "relatedName": "Female Reproductive System"
+    },
+    {
+      "type": "Disease_Mapped_To_Gene",
+      "relatedCode": "C18524",
+      "relatedName": "FHIT Gene"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12810",
+      "relatedName": "Genitourinary System"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12810",
+      "relatedName": "Genitourinary System"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C33923",
+      "relatedName": "Glandular Cell"
+    },
+    {
+      "type": "Disease_Has_Associated_Disease",
+      "relatedCode": "C27851",
+      "relatedName": "Human Papillomavirus Infection"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C128839",
+      "relatedName": "Human Papillomavirus Positive"
+    },
+    {
+      "type": "Disease_May_Have_Molecular_Abnormality",
+      "relatedCode": "C36704",
+      "relatedName": "Inactivating FHIT Gene Mutation"
+    },
+    {
+      "type": "Disease_Has_Associated_Disease",
+      "relatedCode": "C26726",
+      "relatedName": "Infectious Disorder"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C180868",
+      "relatedName": "Intracytoplasmic Mucin Present in 50% or Less of Malignant Cells"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12917",
+      "relatedName": "Malignant Cell"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C36115",
+      "relatedName": "Malignant Cellular Infiltrate"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36779",
+      "relatedName": "Malignant Epithelial Cell"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C36771",
+      "relatedName": "Malignant Squamous Cell"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C37153",
+      "relatedName": "Malignant Stromal Cell"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C62273",
+      "relatedName": "Mixed Neoplastic Glandular and Squamous Cell Population"
+    },
+    {
+      "type": "Disease_May_Have_Molecular_Abnormality",
+      "relatedCode": "C36641",
+      "relatedName": "MYC Gene Amplification"
+    },
+    {
+      "type": "Disease_Mapped_To_Gene",
+      "relatedCode": "C16887",
+      "relatedName": "MYC Gene"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12922",
+      "relatedName": "Neoplastic Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36753",
+      "relatedName": "Neoplastic Epithelial Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36763",
+      "relatedName": "Neoplastic Glandular Cell"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C36937",
+      "relatedName": "Neoplastic Smooth Muscle Cell"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C36760",
+      "relatedName": "Neoplastic Squamous Cell"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C36792",
+      "relatedName": "Non-Keratinizing Malignant Squamous Cell"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C54038",
+      "relatedName": "Pseudostratified Tumor Cells Present"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12841",
+      "relatedName": "Reproductive System"
+    },
+    {
+      "type": "Disease_May_Have_Molecular_Abnormality",
+      "relatedCode": "C36329",
+      "relatedName": "TP53 Gene Inactivation"
+    },
+    {
+      "type": "Disease_Mapped_To_Gene",
+      "relatedCode": "C17359",
+      "relatedName": "TP53 Gene"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12405",
+      "relatedName": "Uterus"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C26945",
+      "relatedName": "Vaginal Hemorrhage"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C36121",
+      "relatedName": "Villous Pattern"
+    },
+    {
+      "type": "Disease_Has_Associated_Disease",
+      "relatedCode": "C3439",
+      "relatedName": "Viral Infection"
+    }
+  ],
+  "history": [
+    {
+      "code": "C40208",
+      "action": "create",
+      "date": "2004-08-02"
+    },
+    {
+      "code": "C40208",
+      "action": "modify",
+      "date": "2006-07-28"
+    },
+    {
+      "code": "C40208",
+      "action": "modify",
+      "date": "2009-10-27"
+    },
+    {
+      "code": "C40208",
+      "action": "modify",
+      "date": "2009-11-23"
+    },
+    {
+      "code": "C40208",
+      "action": "modify",
+      "date": "2012-08-06"
+    },
+    {
+      "code": "C40208",
+      "action": "modify",
+      "date": "2016-06-17"
+    },
+    {
+      "code": "C40208",
+      "action": "modify",
+      "date": "2019-05-28"
+    },
+    {
+      "code": "C40208",
+      "action": "modify",
+      "date": "2019-09-30"
+    },
+    {
+      "code": "C40208",
+      "action": "modify",
+      "date": "2021-02-22"
+    },
+    {
+      "code": "C40208",
+      "action": "modify",
+      "date": "2021-03-29"
+    },
+    {
+      "code": "C40208",
+      "action": "modify",
+      "date": "2021-07-26"
+    }
+  ],
+  "maps": [
+    {
+      "type": "Related To",
+      "targetName": "Villoglandular carcinoma",
+      "targetTermType": "PT",
+      "targetCode": "primary_diagnosis",
+      "targetTerminology": "GDC"
+    }
+  ]
+}

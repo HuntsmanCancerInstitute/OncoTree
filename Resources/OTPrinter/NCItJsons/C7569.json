@@ -1,0 +1,769 @@
+{
+  "code": "C7569",
+  "name": "Thymus Carcinoma",
+  "terminology": "ncit",
+  "version": "25.11d",
+  "conceptStatus": "DEFAULT",
+  "leaf": false,
+  "active": true,
+  "synonyms": [
+    {
+      "name": "Thymic Carcinoma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "Cellosaurus"
+    },
+    {
+      "name": "Thymic Carcinoma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "CPTAC"
+    },
+    {
+      "name": "Thymic Carcinoma",
+      "termType": "DN",
+      "type": "FULL_SYN",
+      "source": "CTRP"
+    },
+    {
+      "name": "Thymic Carcinoma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "CTRP"
+    },
+    {
+      "name": "thymic carcinoma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NCI-GLOSS",
+      "code": "CDR0000455462"
+    },
+    {
+      "name": "type C thymoma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NCI-GLOSS",
+      "code": "CDR0000467224"
+    },
+    {
+      "name": "Thymic Carcinoma",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Thymic Carcinoma (Excluding Well Differentiated Thymic Carcinoma)",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Thymic Carcinoma Excluding Well Differentiated Thymic Carcinoma",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Thymoma Type C",
+      "termType": "AQS",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Thymus Carcinoma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Thymic Carcinoma",
+      "type": "Display_Name"
+    },
+    {
+      "name": "Thymus Carcinoma",
+      "type": "Preferred_Name"
+    }
+  ],
+  "definitions": [
+    {
+      "definition": "A diverse group of carcinomas of the thymus gland, previously known as thymoma type C.  It includes morphologic variants derived from purely epithelial cells, as well as from cells with neuroendocrine differentiation.",
+      "type": "DEFINITION",
+      "source": "NCI"
+    },
+    {
+      "definition": "A rare type of thymus gland cancer. It usually spreads, has a high risk of recurrence, and has a poor survival rate. Thymic carcinoma is divided into subtypes, depending on the types of cells in which the cancer began.",
+      "type": "ALT_DEFINITION",
+      "source": "NCI-GLOSS"
+    }
+  ],
+  "properties": [
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "Cellosaurus"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "CPTAC"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "CTRP"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "GDC"
+    },
+    {
+      "code": "P334",
+      "type": "ICD-O-3_Code",
+      "value": "8586/3"
+    },
+    {
+      "code": "P366",
+      "type": "Legacy Concept Name",
+      "value": "Thymoma_Type_C"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "8586/3"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "Thymic carcinoma, NOS"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "Thymoma, type C"
+    },
+    {
+      "code": "P363",
+      "type": "Neoplastic_Status",
+      "value": "Malignant"
+    },
+    {
+      "code": "P106",
+      "type": "Semantic_Type",
+      "value": "Neoplastic Process"
+    },
+    {
+      "code": "P207",
+      "type": "UMLS_CUI",
+      "value": "C0205969"
+    }
+  ],
+  "children": [
+    {
+      "code": "C146706",
+      "name": "Mediastinal/Thymus NUT Carcinoma",
+      "leaf": true
+    },
+    {
+      "code": "C148128",
+      "name": "Metastatic Thymus Carcinoma",
+      "leaf": false
+    },
+    {
+      "code": "C148127",
+      "name": "Recurrent Thymus Carcinoma",
+      "leaf": true
+    },
+    {
+      "code": "C148173",
+      "name": "Refractory Thymus Carcinoma",
+      "leaf": true
+    },
+    {
+      "code": "C6459",
+      "name": "Thymus Adenocarcinoma",
+      "leaf": false
+    },
+    {
+      "code": "C6458",
+      "name": "Thymus Adenosquamous Carcinoma",
+      "leaf": true
+    },
+    {
+      "code": "C183313",
+      "name": "Thymus Carcinoma with Adenoid Cystic Carcinoma-Like Features",
+      "leaf": true
+    },
+    {
+      "code": "C183316",
+      "name": "Thymus Carcinoma, Not Otherwise Specified",
+      "leaf": true
+    },
+    {
+      "code": "C6462",
+      "name": "Thymus Clear Cell Carcinoma",
+      "leaf": true
+    },
+    {
+      "code": "C7998",
+      "name": "Thymus Lymphoepithelial Carcinoma",
+      "leaf": true
+    },
+    {
+      "code": "C6457",
+      "name": "Thymus Mucoepidermoid Carcinoma",
+      "leaf": true
+    },
+    {
+      "code": "C171031",
+      "name": "Thymus Neuroendocrine Carcinoma",
+      "leaf": false
+    },
+    {
+      "code": "C6463",
+      "name": "Thymus Sarcomatoid Carcinoma",
+      "leaf": true
+    },
+    {
+      "code": "C6455",
+      "name": "Thymus Squamous Cell Carcinoma",
+      "leaf": false
+    },
+    {
+      "code": "C35718",
+      "name": "Thymus Undifferentiated Carcinoma",
+      "leaf": true
+    },
+    {
+      "code": "C148125",
+      "name": "Unresectable Thymus Carcinoma",
+      "leaf": true
+    }
+  ],
+  "parents": [
+    {
+      "code": "C2916",
+      "name": "Carcinoma"
+    },
+    {
+      "code": "C4962",
+      "name": "Malignant Thymus Neoplasm"
+    },
+    {
+      "code": "C6450",
+      "name": "Thymus Epithelial Neoplasm"
+    }
+  ],
+  "associations": [
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C165258",
+      "relatedName": "Cellosaurus Disease Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C138188",
+      "relatedName": "Clinical Trials Search-Application Programming Interface Disease Category Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C158520",
+      "relatedName": "CPTAC Codelists Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C156966",
+      "relatedName": "CPTAC Neoplasms Codelist"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C156952",
+      "relatedName": "CPTAC Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C118168",
+      "relatedName": "CTRP Disease Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C116977",
+      "relatedName": "CTRP Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C138190",
+      "relatedName": "CTS-API Disease Main Type Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C157711",
+      "relatedName": "GDC Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C177537",
+      "relatedName": "GDC Value Terminology"
+    },
+    {
+      "type": "Is_Value_For_GDC_Property",
+      "relatedCode": "C176985",
+      "relatedName": "Histology ICD-O Morphology Code"
+    },
+    {
+      "type": "Is_Value_For_GDC_Property",
+      "relatedCode": "C177621",
+      "relatedName": "ICD-O-3 Morphology Term Diagnosis Question"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168658",
+      "relatedName": "Mapped ICDO3.1 Morphology PT Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168657",
+      "relatedName": "Mapped ICDO3.1 Morphology Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168655",
+      "relatedName": "Mapped ICDO3.1 Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168662",
+      "relatedName": "Mapped ICDO3.2 Morphology PT Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168661",
+      "relatedName": "Mapped ICDO3.2 Morphology Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168656",
+      "relatedName": "Mapped ICDO3.2 Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C126659",
+      "relatedName": "NCIt Neoplasm Core Terminology"
+    },
+    {
+      "type": "Neoplasm_Has_Special_Category",
+      "relatedCode": "C9292",
+      "relatedName": "Solid Neoplasm"
+    }
+  ],
+  "inverseAssociations": [
+    {
+      "type": "Has_GDC_Value",
+      "relatedCode": "C176985",
+      "relatedName": "Histology ICD-O Morphology Code"
+    },
+    {
+      "type": "Has_GDC_Value",
+      "relatedCode": "C177621",
+      "relatedName": "ICD-O-3 Morphology Term Diagnosis Question"
+    }
+  ],
+  "roles": [
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C36122",
+      "relatedName": "Benign Cellular Infiltrate"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C54172",
+      "relatedName": "Carcinomatous Component Present"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C12578",
+      "relatedName": "Epithelial Cell"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C53596",
+      "relatedName": "Epithelial Component Present"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C45714",
+      "relatedName": "Epithelial Tissue"
+    },
+    {
+      "type": "Disease_Excludes_Cytogenetic_Abnormality",
+      "relatedCode": "C36497",
+      "relatedName": "Loss of Chromosome 13q"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12917",
+      "relatedName": "Malignant Cell"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C36115",
+      "relatedName": "Malignant Cellular Infiltrate"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36779",
+      "relatedName": "Malignant Epithelial Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36779",
+      "relatedName": "Malignant Epithelial Cell"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C37153",
+      "relatedName": "Malignant Stromal Cell"
+    },
+    {
+      "type": "Disease_Excludes_Primary_Anatomic_Site",
+      "relatedCode": "C13063",
+      "relatedName": "Neck"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12922",
+      "relatedName": "Neoplastic Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36753",
+      "relatedName": "Neoplastic Epithelial Cell"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C36937",
+      "relatedName": "Neoplastic Smooth Muscle Cell"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12779",
+      "relatedName": "Respiratory System"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12905",
+      "relatedName": "Thoracic Cavity"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C33771",
+      "relatedName": "Thymic Epithelial Cell"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C45713",
+      "relatedName": "Thymic Epithelial Tissue"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12433",
+      "relatedName": "Thymus Gland"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12433",
+      "relatedName": "Thymus Gland"
+    }
+  ],
+  "history": [
+    {
+      "code": "C7569",
+      "action": "create",
+      "date": "2003-08-12"
+    },
+    {
+      "code": "C7569",
+      "action": "modify",
+      "date": "2003-10-31"
+    },
+    {
+      "code": "C7569",
+      "action": "modify",
+      "date": "2003-12-30"
+    },
+    {
+      "code": "C7569",
+      "action": "modify",
+      "date": "2004-03-30"
+    },
+    {
+      "code": "C7569",
+      "action": "modify",
+      "date": "2004-09-10"
+    },
+    {
+      "code": "C7569",
+      "action": "modify",
+      "date": "2005-04-29"
+    },
+    {
+      "code": "C7569",
+      "action": "modify",
+      "date": "2006-05-26"
+    },
+    {
+      "code": "C7569",
+      "action": "modify",
+      "date": "2006-06-30"
+    },
+    {
+      "code": "C7569",
+      "action": "modify",
+      "date": "2007-03-30"
+    },
+    {
+      "code": "C7569",
+      "action": "modify",
+      "date": "2007-04-30"
+    },
+    {
+      "code": "C7569",
+      "action": "modify",
+      "date": "2009-11-23"
+    },
+    {
+      "code": "C7569",
+      "action": "modify",
+      "date": "2010-11-08"
+    },
+    {
+      "code": "C7569",
+      "action": "modify",
+      "date": "2010-11-15"
+    },
+    {
+      "code": "C7569",
+      "action": "modify",
+      "date": "2010-11-22"
+    },
+    {
+      "code": "C7569",
+      "action": "modify",
+      "date": "2010-11-29"
+    },
+    {
+      "code": "C7569",
+      "action": "modify",
+      "date": "2010-12-06"
+    },
+    {
+      "code": "C7569",
+      "action": "modify",
+      "date": "2010-12-13"
+    },
+    {
+      "code": "C7569",
+      "action": "modify",
+      "date": "2010-12-27"
+    },
+    {
+      "code": "C7569",
+      "action": "modify",
+      "date": "2011-01-03"
+    },
+    {
+      "code": "C7569",
+      "action": "modify",
+      "date": "2011-01-10"
+    },
+    {
+      "code": "C7569",
+      "action": "modify",
+      "date": "2011-01-17"
+    },
+    {
+      "code": "C7569",
+      "action": "modify",
+      "date": "2011-01-24"
+    },
+    {
+      "code": "C7569",
+      "action": "modify",
+      "date": "2011-01-31"
+    },
+    {
+      "code": "C7569",
+      "action": "modify",
+      "date": "2014-02-03"
+    },
+    {
+      "code": "C7569",
+      "action": "modify",
+      "date": "2014-08-04"
+    },
+    {
+      "code": "C7569",
+      "action": "modify",
+      "date": "2014-08-18"
+    },
+    {
+      "code": "C7569",
+      "action": "modify",
+      "date": "2014-09-22"
+    },
+    {
+      "code": "C7569",
+      "action": "modify",
+      "date": "2016-04-25"
+    },
+    {
+      "code": "C7569",
+      "action": "modify",
+      "date": "2017-09-26"
+    },
+    {
+      "code": "C7569",
+      "action": "modify",
+      "date": "2018-02-26"
+    },
+    {
+      "code": "C7569",
+      "action": "modify",
+      "date": "2018-07-30"
+    },
+    {
+      "code": "C7569",
+      "action": "modify",
+      "date": "2018-08-27"
+    },
+    {
+      "code": "C7569",
+      "action": "modify",
+      "date": "2018-08-27"
+    },
+    {
+      "code": "C7569",
+      "action": "modify",
+      "date": "2018-09-24"
+    },
+    {
+      "code": "C7569",
+      "action": "modify",
+      "date": "2018-10-29"
+    },
+    {
+      "code": "C7569",
+      "action": "modify",
+      "date": "2018-10-29"
+    },
+    {
+      "code": "C7569",
+      "action": "modify",
+      "date": "2019-02-25"
+    },
+    {
+      "code": "C7569",
+      "action": "modify",
+      "date": "2019-03-25"
+    },
+    {
+      "code": "C7569",
+      "action": "modify",
+      "date": "2019-05-28"
+    },
+    {
+      "code": "C7569",
+      "action": "modify",
+      "date": "2019-06-24"
+    },
+    {
+      "code": "C7569",
+      "action": "modify",
+      "date": "2019-09-30"
+    },
+    {
+      "code": "C7569",
+      "action": "modify",
+      "date": "2019-10-28"
+    },
+    {
+      "code": "C7569",
+      "action": "modify",
+      "date": "2020-02-24"
+    },
+    {
+      "code": "C7569",
+      "action": "modify",
+      "date": "2020-03-30"
+    },
+    {
+      "code": "C7569",
+      "action": "modify",
+      "date": "2020-04-27"
+    },
+    {
+      "code": "C7569",
+      "action": "modify",
+      "date": "2021-02-22"
+    },
+    {
+      "code": "C7569",
+      "action": "modify",
+      "date": "2021-03-29"
+    },
+    {
+      "code": "C7569",
+      "action": "modify",
+      "date": "2023-02-27"
+    },
+    {
+      "code": "C7569",
+      "action": "modify",
+      "date": "2024-10-28"
+    },
+    {
+      "code": "C7569",
+      "action": "modify",
+      "date": "2025-03-31"
+    }
+  ],
+  "maps": [
+    {
+      "type": "Related To",
+      "targetName": "8586/3",
+      "targetTermType": "PT",
+      "targetCode": "morphology",
+      "targetTerminology": "GDC"
+    },
+    {
+      "type": "Related To",
+      "targetName": "Thymic carcinoma, NOS",
+      "targetTermType": "PT",
+      "targetCode": "8586/3",
+      "targetTerminology": "ICDO3",
+      "targetTerminologyVersion": "3.2"
+    },
+    {
+      "type": "Related To",
+      "targetName": "Thymic carcinoma, NOS",
+      "targetTermType": "PT",
+      "targetCode": "8586/3",
+      "targetTerminology": "ICDO3",
+      "targetTerminologyVersion": "3.1"
+    },
+    {
+      "type": "Related To",
+      "targetName": "Thymic carcinoma, NOS",
+      "targetTermType": "PT",
+      "targetCode": "primary_diagnosis",
+      "targetTerminology": "GDC"
+    },
+    {
+      "type": "Related To",
+      "targetName": "Thymoma, type C",
+      "targetTermType": "PT",
+      "targetCode": "primary_diagnosis",
+      "targetTerminology": "GDC"
+    }
+  ]
+}

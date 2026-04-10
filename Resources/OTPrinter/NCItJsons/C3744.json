@@ -1,0 +1,1137 @@
+{
+  "code": "C3744",
+  "name": "Breast Fibroadenoma",
+  "terminology": "ncit",
+  "version": "25.11d",
+  "conceptStatus": "DEFAULT",
+  "leaf": false,
+  "active": true,
+  "synonyms": [
+    {
+      "name": "Breast Fibroadenoma",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "CDISC"
+    },
+    {
+      "name": "Fibroadenoma of Breast",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "CDISC"
+    },
+    {
+      "name": "Fibroadenoma of the Breast",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "CDISC"
+    },
+    {
+      "name": "FIBROADENOMA, BENIGN",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "CDISC"
+    },
+    {
+      "name": "fibroadenoma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NCI-GLOSS",
+      "code": "CDR0000523438"
+    },
+    {
+      "name": "Breast Fibroadenoma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Fibroadenoma",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Fibroadenoma of Breast",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Fibroadenoma of the Breast",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Breast Fibroadenoma",
+      "type": "Preferred_Name"
+    }
+  ],
+  "definitions": [
+    {
+      "definition": "A benign (not cancer) tumor that usually forms in the breast from both fibrous and glandular tissue. Fibroadenomas are the most common benign breast tumors.",
+      "type": "ALT_DEFINITION",
+      "source": "NCI-GLOSS"
+    },
+    {
+      "definition": "A benign neoplasm originating from glandular cells with a fibrous or fibroblastic component.",
+      "type": "ALT_DEFINITION",
+      "source": "CDISC"
+    },
+    {
+      "definition": "A benign tumor of the breast characterized by the presence of stromal and epithelial elements. It presents as a painless, solitary, slow growing, firm, and mobile mass. It is the most common benign breast lesion. It usually occurs in women of childbearing age. The majority of fibroadenomas do not recur after complete excision. A slightly increased risk of developing cancer within fibroadenomas or in the breast tissue of patients previously treated for fibroadenomas has been reported.",
+      "type": "DEFINITION",
+      "source": "NCI"
+    }
+  ],
+  "properties": [
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "CDISC"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "GDC"
+    },
+    {
+      "code": "P334",
+      "type": "ICD-O-3_Code",
+      "value": "9010/0"
+    },
+    {
+      "code": "P366",
+      "type": "Legacy Concept Name",
+      "value": "Fibroadenoma"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "9010/0"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "Fibroadenoma, NOS"
+    },
+    {
+      "code": "P363",
+      "type": "Neoplastic_Status",
+      "value": "Benign"
+    },
+    {
+      "code": "P106",
+      "type": "Semantic_Type",
+      "value": "Neoplastic Process"
+    },
+    {
+      "code": "P207",
+      "type": "UMLS_CUI",
+      "value": "C0206650"
+    }
+  ],
+  "children": [
+    {
+      "code": "C176045",
+      "name": "Breast Cellular Fibroadenoma",
+      "leaf": true
+    },
+    {
+      "code": "C5194",
+      "name": "Breast Complex Fibroadenoma",
+      "leaf": true
+    },
+    {
+      "code": "C4273",
+      "name": "Breast Giant Fibroadenoma",
+      "leaf": true
+    },
+    {
+      "code": "C4271",
+      "name": "Breast Intracanalicular Fibroadenoma",
+      "leaf": true
+    },
+    {
+      "code": "C4272",
+      "name": "Breast Pericanalicular Fibroadenoma",
+      "leaf": true
+    },
+    {
+      "code": "C189339",
+      "name": "Childhood Breast Fibroadenoma",
+      "leaf": false
+    }
+  ],
+  "parents": [
+    {
+      "code": "C40405",
+      "name": "Breast Fibroepithelial Neoplasm"
+    }
+  ],
+  "associations": [
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C77526",
+      "relatedName": "CDISC SEND Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C88025",
+      "relatedName": "CDISC SEND Tumor Findings Results Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C61410",
+      "relatedName": "Clinical Data Interchange Standards Consortium Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C157711",
+      "relatedName": "GDC Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C177537",
+      "relatedName": "GDC Value Terminology"
+    },
+    {
+      "type": "Is_Value_For_GDC_Property",
+      "relatedCode": "C176985",
+      "relatedName": "Histology ICD-O Morphology Code"
+    },
+    {
+      "type": "Is_Value_For_GDC_Property",
+      "relatedCode": "C177621",
+      "relatedName": "ICD-O-3 Morphology Term Diagnosis Question"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168658",
+      "relatedName": "Mapped ICDO3.1 Morphology PT Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168657",
+      "relatedName": "Mapped ICDO3.1 Morphology Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168655",
+      "relatedName": "Mapped ICDO3.1 Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168662",
+      "relatedName": "Mapped ICDO3.2 Morphology PT Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168661",
+      "relatedName": "Mapped ICDO3.2 Morphology Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168656",
+      "relatedName": "Mapped ICDO3.2 Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C126659",
+      "relatedName": "NCIt Neoplasm Core Terminology"
+    }
+  ],
+  "inverseAssociations": [
+    {
+      "type": "Has_GDC_Value",
+      "relatedCode": "C176985",
+      "relatedName": "Histology ICD-O Morphology Code"
+    },
+    {
+      "type": "Has_GDC_Value",
+      "relatedCode": "C177621",
+      "relatedName": "ICD-O-3 Morphology Term Diagnosis Question"
+    }
+  ],
+  "roles": [
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C35907",
+      "relatedName": "Biphasic Pattern"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12971",
+      "relatedName": "Breast"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12971",
+      "relatedName": "Breast"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C3672",
+      "relatedName": "Calcification"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C12508",
+      "relatedName": "Cell"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C53596",
+      "relatedName": "Epithelial Component Present"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C61539",
+      "relatedName": "Malignant Glandular Epithelium Resembling the Normal Endometrium Present"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C12370",
+      "relatedName": "Mammary Gland Tissue"
+    },
+    {
+      "type": "Disease_May_Have_Molecular_Abnormality",
+      "relatedCode": "C150689",
+      "relatedName": "MED12 Gene Mutation"
+    },
+    {
+      "type": "Disease_Mapped_To_Gene",
+      "relatedCode": "C98210",
+      "relatedName": "MED12 Gene"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C54167",
+      "relatedName": "Mesenchymal Component Present"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C41610",
+      "relatedName": "Mixed Cellular Population"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12922",
+      "relatedName": "Neoplastic Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C37150",
+      "relatedName": "Neoplastic Stromal Cell"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C48586",
+      "relatedName": "Slow Growing Painless Mass"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C12571",
+      "relatedName": "Stromal Cell"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C12480",
+      "relatedName": "Terminal Ductal Lobular Unit"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C12801",
+      "relatedName": "Tissue"
+    }
+  ],
+  "history": [
+    {
+      "code": "C3744",
+      "action": "create",
+      "date": "2003-08-12"
+    },
+    {
+      "code": "C3744",
+      "action": "modify",
+      "date": "2003-10-31"
+    },
+    {
+      "code": "C3744",
+      "action": "modify",
+      "date": "2003-12-30"
+    },
+    {
+      "code": "C3744",
+      "action": "modify",
+      "date": "2004-03-30"
+    },
+    {
+      "code": "C3744",
+      "action": "modify",
+      "date": "2004-09-10"
+    },
+    {
+      "code": "C3744",
+      "action": "modify",
+      "date": "2006-09-01"
+    },
+    {
+      "code": "C3744",
+      "action": "modify",
+      "date": "2007-03-30"
+    },
+    {
+      "code": "C3744",
+      "action": "modify",
+      "date": "2007-04-30"
+    },
+    {
+      "code": "C3744",
+      "action": "modify",
+      "date": "2007-06-28"
+    },
+    {
+      "code": "C3744",
+      "action": "modify",
+      "date": "2009-04-06"
+    },
+    {
+      "code": "C3744",
+      "action": "modify",
+      "date": "2009-08-31"
+    },
+    {
+      "code": "C3744",
+      "action": "modify",
+      "date": "2009-10-27"
+    },
+    {
+      "code": "C3744",
+      "action": "modify",
+      "date": "2009-11-23"
+    },
+    {
+      "code": "C3744",
+      "action": "modify",
+      "date": "2010-05-17"
+    },
+    {
+      "code": "C3744",
+      "action": "modify",
+      "date": "2010-06-01"
+    },
+    {
+      "code": "C3744",
+      "action": "modify",
+      "date": "2010-08-02"
+    },
+    {
+      "code": "C3744",
+      "action": "modify",
+      "date": "2010-11-01"
+    },
+    {
+      "code": "C3744",
+      "action": "modify",
+      "date": "2010-11-08"
+    },
+    {
+      "code": "C3744",
+      "action": "modify",
+      "date": "2010-11-15"
+    },
+    {
+      "code": "C3744",
+      "action": "modify",
+      "date": "2010-11-22"
+    },
+    {
+      "code": "C3744",
+      "action": "modify",
+      "date": "2010-11-29"
+    },
+    {
+      "code": "C3744",
+      "action": "modify",
+      "date": "2010-12-06"
+    },
+    {
+      "code": "C3744",
+      "action": "modify",
+      "date": "2010-12-13"
+    },
+    {
+      "code": "C3744",
+      "action": "modify",
+      "date": "2010-12-27"
+    },
+    {
+      "code": "C3744",
+      "action": "modify",
+      "date": "2011-01-03"
+    },
+    {
+      "code": "C3744",
+      "action": "modify",
+      "date": "2011-01-10"
+    },
+    {
+      "code": "C3744",
+      "action": "modify",
+      "date": "2011-01-17"
+    },
+    {
+      "code": "C3744",
+      "action": "modify",
+      "date": "2011-01-24"
+    },
+    {
+      "code": "C3744",
+      "action": "modify",
+      "date": "2011-01-31"
+    },
+    {
+      "code": "C3744",
+      "action": "modify",
+      "date": "2011-04-11"
+    },
+    {
+      "code": "C3744",
+      "action": "modify",
+      "date": "2011-11-14"
+    },
+    {
+      "code": "C3744",
+      "action": "modify",
+      "date": "2011-11-21"
+    },
+    {
+      "code": "C3744",
+      "action": "modify",
+      "date": "2011-11-28"
+    },
+    {
+      "code": "C3744",
+      "action": "modify",
+      "date": "2011-12-05"
+    },
+    {
+      "code": "C3744",
+      "action": "modify",
+      "date": "2011-12-12"
+    },
+    {
+      "code": "C3744",
+      "action": "modify",
+      "date": "2011-12-19"
+    },
+    {
+      "code": "C3744",
+      "action": "modify",
+      "date": "2011-12-27"
+    },
+    {
+      "code": "C3744",
+      "action": "modify",
+      "date": "2012-01-09"
+    },
+    {
+      "code": "C3744",
+      "action": "modify",
+      "date": "2012-01-17"
+    },
+    {
+      "code": "C3744",
+      "action": "modify",
+      "date": "2012-01-23"
+    },
+    {
+      "code": "C3744",
+      "action": "modify",
+      "date": "2012-01-30"
+    },
+    {
+      "code": "C3744",
+      "action": "modify",
+      "date": "2012-02-06"
+    },
+    {
+      "code": "C3744",
+      "action": "modify",
+      "date": "2012-02-13"
+    },
+    {
+      "code": "C3744",
+      "action": "modify",
+      "date": "2012-02-21"
+    },
+    {
+      "code": "C3744",
+      "action": "modify",
+      "date": "2012-02-27"
+    },
+    {
+      "code": "C3744",
+      "action": "modify",
+      "date": "2012-03-05"
+    },
+    {
+      "code": "C3744",
+      "action": "modify",
+      "date": "2012-03-12"
+    },
+    {
+      "code": "C3744",
+      "action": "modify",
+      "date": "2012-03-19"
+    },
+    {
+      "code": "C3744",
+      "action": "modify",
+      "date": "2012-03-26"
+    },
+    {
+      "code": "C3744",
+      "action": "modify",
+      "date": "2012-04-02"
+    },
+    {
+      "code": "C3744",
+      "action": "modify",
+      "date": "2012-04-09"
+    },
+    {
+      "code": "C3744",
+      "action": "modify",
+      "date": "2012-04-16"
+    },
+    {
+      "code": "C3744",
+      "action": "modify",
+      "date": "2012-04-23"
+    },
+    {
+      "code": "C3744",
+      "action": "modify",
+      "date": "2012-04-30"
+    },
+    {
+      "code": "C3744",
+      "action": "modify",
+      "date": "2012-05-07"
+    },
+    {
+      "code": "C3744",
+      "action": "modify",
+      "date": "2012-05-14"
+    },
+    {
+      "code": "C3744",
+      "action": "modify",
+      "date": "2012-05-21"
+    },
+    {
+      "code": "C3744",
+      "action": "modify",
+      "date": "2012-05-29"
+    },
+    {
+      "code": "C3744",
+      "action": "modify",
+      "date": "2012-06-04"
+    },
+    {
+      "code": "C3744",
+      "action": "modify",
+      "date": "2012-06-11"
+    },
+    {
+      "code": "C3744",
+      "action": "modify",
+      "date": "2012-06-18"
+    },
+    {
+      "code": "C3744",
+      "action": "modify",
+      "date": "2012-06-18"
+    },
+    {
+      "code": "C3744",
+      "action": "modify",
+      "date": "2012-06-25"
+    },
+    {
+      "code": "C3744",
+      "action": "modify",
+      "date": "2012-07-03"
+    },
+    {
+      "code": "C3744",
+      "action": "modify",
+      "date": "2012-07-16"
+    },
+    {
+      "code": "C3744",
+      "action": "modify",
+      "date": "2012-07-23"
+    },
+    {
+      "code": "C3744",
+      "action": "modify",
+      "date": "2012-07-30"
+    },
+    {
+      "code": "C3744",
+      "action": "modify",
+      "date": "2012-08-06"
+    },
+    {
+      "code": "C3744",
+      "action": "modify",
+      "date": "2012-08-13"
+    },
+    {
+      "code": "C3744",
+      "action": "modify",
+      "date": "2012-08-20"
+    },
+    {
+      "code": "C3744",
+      "action": "modify",
+      "date": "2012-08-27"
+    },
+    {
+      "code": "C3744",
+      "action": "modify",
+      "date": "2012-09-04"
+    },
+    {
+      "code": "C3744",
+      "action": "modify",
+      "date": "2012-09-10"
+    },
+    {
+      "code": "C3744",
+      "action": "modify",
+      "date": "2012-09-17"
+    },
+    {
+      "code": "C3744",
+      "action": "modify",
+      "date": "2012-09-24"
+    },
+    {
+      "code": "C3744",
+      "action": "modify",
+      "date": "2012-10-01"
+    },
+    {
+      "code": "C3744",
+      "action": "modify",
+      "date": "2012-10-09"
+    },
+    {
+      "code": "C3744",
+      "action": "modify",
+      "date": "2012-10-15"
+    },
+    {
+      "code": "C3744",
+      "action": "modify",
+      "date": "2012-10-22"
+    },
+    {
+      "code": "C3744",
+      "action": "modify",
+      "date": "2012-10-31"
+    },
+    {
+      "code": "C3744",
+      "action": "modify",
+      "date": "2012-11-05"
+    },
+    {
+      "code": "C3744",
+      "action": "modify",
+      "date": "2012-11-13"
+    },
+    {
+      "code": "C3744",
+      "action": "modify",
+      "date": "2012-11-19"
+    },
+    {
+      "code": "C3744",
+      "action": "modify",
+      "date": "2012-11-26"
+    },
+    {
+      "code": "C3744",
+      "action": "modify",
+      "date": "2012-12-03"
+    },
+    {
+      "code": "C3744",
+      "action": "modify",
+      "date": "2012-12-10"
+    },
+    {
+      "code": "C3744",
+      "action": "modify",
+      "date": "2012-12-17"
+    },
+    {
+      "code": "C3744",
+      "action": "modify",
+      "date": "2012-12-28"
+    },
+    {
+      "code": "C3744",
+      "action": "modify",
+      "date": "2013-01-07"
+    },
+    {
+      "code": "C3744",
+      "action": "modify",
+      "date": "2013-01-14"
+    },
+    {
+      "code": "C3744",
+      "action": "modify",
+      "date": "2013-01-23"
+    },
+    {
+      "code": "C3744",
+      "action": "modify",
+      "date": "2013-02-04"
+    },
+    {
+      "code": "C3744",
+      "action": "modify",
+      "date": "2013-02-11"
+    },
+    {
+      "code": "C3744",
+      "action": "modify",
+      "date": "2013-02-19"
+    },
+    {
+      "code": "C3744",
+      "action": "modify",
+      "date": "2013-02-25"
+    },
+    {
+      "code": "C3744",
+      "action": "modify",
+      "date": "2013-03-04"
+    },
+    {
+      "code": "C3744",
+      "action": "modify",
+      "date": "2013-03-11"
+    },
+    {
+      "code": "C3744",
+      "action": "modify",
+      "date": "2013-03-18"
+    },
+    {
+      "code": "C3744",
+      "action": "modify",
+      "date": "2013-03-25"
+    },
+    {
+      "code": "C3744",
+      "action": "modify",
+      "date": "2013-04-01"
+    },
+    {
+      "code": "C3744",
+      "action": "modify",
+      "date": "2013-04-08"
+    },
+    {
+      "code": "C3744",
+      "action": "modify",
+      "date": "2013-04-15"
+    },
+    {
+      "code": "C3744",
+      "action": "modify",
+      "date": "2013-04-22"
+    },
+    {
+      "code": "C3744",
+      "action": "modify",
+      "date": "2013-04-29"
+    },
+    {
+      "code": "C3744",
+      "action": "modify",
+      "date": "2013-05-06"
+    },
+    {
+      "code": "C3744",
+      "action": "modify",
+      "date": "2013-05-13"
+    },
+    {
+      "code": "C3744",
+      "action": "modify",
+      "date": "2013-05-20"
+    },
+    {
+      "code": "C3744",
+      "action": "modify",
+      "date": "2013-05-28"
+    },
+    {
+      "code": "C3744",
+      "action": "modify",
+      "date": "2013-06-03"
+    },
+    {
+      "code": "C3744",
+      "action": "modify",
+      "date": "2013-06-10"
+    },
+    {
+      "code": "C3744",
+      "action": "modify",
+      "date": "2013-06-17"
+    },
+    {
+      "code": "C3744",
+      "action": "modify",
+      "date": "2013-06-24"
+    },
+    {
+      "code": "C3744",
+      "action": "modify",
+      "date": "2013-07-01"
+    },
+    {
+      "code": "C3744",
+      "action": "modify",
+      "date": "2013-07-08"
+    },
+    {
+      "code": "C3744",
+      "action": "modify",
+      "date": "2014-11-24"
+    },
+    {
+      "code": "C3744",
+      "action": "modify",
+      "date": "2014-12-01"
+    },
+    {
+      "code": "C3744",
+      "action": "modify",
+      "date": "2014-12-08"
+    },
+    {
+      "code": "C3744",
+      "action": "modify",
+      "date": "2014-12-15"
+    },
+    {
+      "code": "C3744",
+      "action": "modify",
+      "date": "2014-12-22"
+    },
+    {
+      "code": "C3744",
+      "action": "modify",
+      "date": "2014-12-29"
+    },
+    {
+      "code": "C3744",
+      "action": "modify",
+      "date": "2015-01-05"
+    },
+    {
+      "code": "C3744",
+      "action": "modify",
+      "date": "2015-01-12"
+    },
+    {
+      "code": "C3744",
+      "action": "modify",
+      "date": "2015-01-20"
+    },
+    {
+      "code": "C3744",
+      "action": "modify",
+      "date": "2015-01-26"
+    },
+    {
+      "code": "C3744",
+      "action": "modify",
+      "date": "2015-02-02"
+    },
+    {
+      "code": "C3744",
+      "action": "modify",
+      "date": "2015-02-09"
+    },
+    {
+      "code": "C3744",
+      "action": "modify",
+      "date": "2015-02-17"
+    },
+    {
+      "code": "C3744",
+      "action": "modify",
+      "date": "2015-02-23"
+    },
+    {
+      "code": "C3744",
+      "action": "modify",
+      "date": "2015-03-02"
+    },
+    {
+      "code": "C3744",
+      "action": "modify",
+      "date": "2015-03-09"
+    },
+    {
+      "code": "C3744",
+      "action": "modify",
+      "date": "2015-03-16"
+    },
+    {
+      "code": "C3744",
+      "action": "modify",
+      "date": "2015-03-23"
+    },
+    {
+      "code": "C3744",
+      "action": "modify",
+      "date": "2015-03-30"
+    },
+    {
+      "code": "C3744",
+      "action": "modify",
+      "date": "2015-04-06"
+    },
+    {
+      "code": "C3744",
+      "action": "modify",
+      "date": "2015-04-13"
+    },
+    {
+      "code": "C3744",
+      "action": "modify",
+      "date": "2015-04-20"
+    },
+    {
+      "code": "C3744",
+      "action": "modify",
+      "date": "2015-04-27"
+    },
+    {
+      "code": "C3744",
+      "action": "modify",
+      "date": "2015-05-04"
+    },
+    {
+      "code": "C3744",
+      "action": "modify",
+      "date": "2015-05-11"
+    },
+    {
+      "code": "C3744",
+      "action": "modify",
+      "date": "2015-05-18"
+    },
+    {
+      "code": "C3744",
+      "action": "modify",
+      "date": "2016-04-25"
+    },
+    {
+      "code": "C3744",
+      "action": "modify",
+      "date": "2016-07-11"
+    },
+    {
+      "code": "C3744",
+      "action": "modify",
+      "date": "2016-08-22"
+    },
+    {
+      "code": "C3744",
+      "action": "modify",
+      "date": "2018-09-24"
+    },
+    {
+      "code": "C3744",
+      "action": "modify",
+      "date": "2019-05-28"
+    },
+    {
+      "code": "C3744",
+      "action": "modify",
+      "date": "2019-09-30"
+    },
+    {
+      "code": "C3744",
+      "action": "modify",
+      "date": "2020-02-24"
+    },
+    {
+      "code": "C3744",
+      "action": "modify",
+      "date": "2020-03-30"
+    },
+    {
+      "code": "C3744",
+      "action": "modify",
+      "date": "2020-04-27"
+    },
+    {
+      "code": "C3744",
+      "action": "modify",
+      "date": "2021-02-22"
+    },
+    {
+      "code": "C3744",
+      "action": "modify",
+      "date": "2021-03-29"
+    }
+  ],
+  "maps": [
+    {
+      "type": "Related To",
+      "targetName": "9010/0",
+      "targetTermType": "PT",
+      "targetCode": "morphology",
+      "targetTerminology": "GDC"
+    },
+    {
+      "type": "Related To",
+      "targetName": "Fibroadenoma, NOS",
+      "targetTermType": "PT",
+      "targetCode": "9010/0",
+      "targetTerminology": "ICDO3",
+      "targetTerminologyVersion": "3.1"
+    },
+    {
+      "type": "Related To",
+      "targetName": "Fibroadenoma, NOS",
+      "targetTermType": "PT",
+      "targetCode": "9010/0",
+      "targetTerminology": "ICDO3",
+      "targetTerminologyVersion": "3.2"
+    },
+    {
+      "type": "Related To",
+      "targetName": "Fibroadenoma, NOS",
+      "targetTermType": "PT",
+      "targetCode": "primary_diagnosis",
+      "targetTerminology": "GDC"
+    }
+  ]
+}

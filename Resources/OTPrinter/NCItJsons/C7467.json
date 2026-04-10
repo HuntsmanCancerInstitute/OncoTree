@@ -1,0 +1,555 @@
+{
+  "code": "C7467",
+  "name": "Pure Erythroid Leukemia",
+  "terminology": "ncit",
+  "version": "25.11d",
+  "conceptStatus": "DEFAULT",
+  "leaf": false,
+  "active": true,
+  "synonyms": [
+    {
+      "name": "Acute erythremic myelosis",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "GDC"
+    },
+    {
+      "name": "Di Guglielmo disease",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "GDC"
+    },
+    {
+      "name": "M6B",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "GDC"
+    },
+    {
+      "name": "Acute Erythremic Myelosis",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Acute Myeloid Leukemia M6b",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Di Guglielmo Disease",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Di Guglielmo's Disease",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Erythremic Myelosis",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "M6b",
+      "termType": "AB",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "PEL",
+      "termType": "AB",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Pure Erythroid Leukemia",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Pure Erythroid Leukemia",
+      "type": "Preferred_Name"
+    },
+    {
+      "name": "Pure Erythroid Leukemia",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "PCDC",
+      "subSource": "AML"
+    }
+  ],
+  "definitions": [
+    {
+      "definition": "Acute erythroid leukemia characterized by the presence of immature erythroid cells in the bone marrow (at least 80% of the cellular component), without evidence of a significant myeloblastic cell population present.",
+      "type": "DEFINITION",
+      "source": "NCI"
+    }
+  ],
+  "properties": [
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "GDC"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "PCDC"
+    },
+    {
+      "code": "P366",
+      "type": "Legacy Concept Name",
+      "value": "Pure_Erythroid_Leukemia"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "9840/3"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "Acute erythremic myelosis"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "Di Guglielmo disease"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "Erythremic myelosis, NOS"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "M6B"
+    },
+    {
+      "code": "P208",
+      "type": "NCI_META_CUI",
+      "value": "CL028054"
+    },
+    {
+      "code": "P363",
+      "type": "Neoplastic_Status",
+      "value": "Malignant"
+    },
+    {
+      "code": "P106",
+      "type": "Semantic_Type",
+      "value": "Neoplastic Process"
+    }
+  ],
+  "children": [
+    {
+      "code": "C68693",
+      "name": "Adult Pure Erythroid Leukemia",
+      "leaf": true
+    }
+  ],
+  "parents": [
+    {
+      "code": "C8923",
+      "name": "Acute Erythroid Leukemia"
+    }
+  ],
+  "associations": [
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C174019",
+      "relatedName": "AML Authorized Value Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C173232",
+      "relatedName": "AML Disease Characteristics Table"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C157711",
+      "relatedName": "GDC Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C177537",
+      "relatedName": "GDC Value Terminology"
+    },
+    {
+      "type": "Is_Value_For_GDC_Property",
+      "relatedCode": "C176985",
+      "relatedName": "Histology ICD-O Morphology Code"
+    },
+    {
+      "type": "Is_Value_For_GDC_Property",
+      "relatedCode": "C177621",
+      "relatedName": "ICD-O-3 Morphology Term Diagnosis Question"
+    },
+    {
+      "type": "Is_PCDC_AML_Authorized_Value_For_Variable",
+      "relatedCode": "C159157",
+      "relatedName": "WHO AML Classification of Tumors"
+    }
+  ],
+  "inverseAssociations": [
+    {
+      "type": "Has_GDC_Value",
+      "relatedCode": "C176985",
+      "relatedName": "Histology ICD-O Morphology Code"
+    },
+    {
+      "type": "Has_GDC_Value",
+      "relatedCode": "C177621",
+      "relatedName": "ICD-O-3 Morphology Term Diagnosis Question"
+    },
+    {
+      "type": "Has_PCDC_AML_Authorized_Value",
+      "relatedCode": "C159157",
+      "relatedName": "WHO AML Classification of Tumors"
+    }
+  ],
+  "roles": [
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C36104",
+      "relatedName": "Aggressive Clinical Course"
+    },
+    {
+      "type": "Disease_Has_Associated_Disease",
+      "relatedCode": "C2869",
+      "relatedName": "Anemia"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C36122",
+      "relatedName": "Benign Cellular Infiltrate"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C36214",
+      "relatedName": "Blasts 20 Percent or More of Bone Marrow Nucleated Cells"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C36213",
+      "relatedName": "Blasts 20 Percent or More of Peripheral Blood White Cells"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C36236",
+      "relatedName": "Bone Marrow Dysplasia Present in 50 Percent or More of the Cells of Two Cell Lines"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C43220",
+      "relatedName": "Bone Marrow Myeloid Stem Cell with Some Degree of Commitment to the Erythroid Lineage"
+    },
+    {
+      "type": "Disease_Excludes_Normal_Cell_Origin",
+      "relatedCode": "C43221",
+      "relatedName": "Bone Marrow Stem Cell Committed to the Megakaryocytic Lineage"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C13456",
+      "relatedName": "Bone Marrow Stem Cell"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12431",
+      "relatedName": "Bone Marrow"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12431",
+      "relatedName": "Bone Marrow"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C36158",
+      "relatedName": "Chronic Clinical Course"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C36243",
+      "relatedName": "Erythroid Precursors 50 Percent or More of Bone Marrow Nucleated Cells"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C36245",
+      "relatedName": "Erythroid Precursors 80 Percent or More of Bone Marrow Nucleated Cells"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C41165",
+      "relatedName": "Hematopoietic and Lymphatic System"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C41165",
+      "relatedName": "Hematopoietic and Lymphatic System"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C32725",
+      "relatedName": "Hematopoietic and Lymphoid Cell"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C41168",
+      "relatedName": "Hematopoietic and Lymphoid Tissue"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C13051",
+      "relatedName": "Hematopoietic Tissue"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C35788",
+      "relatedName": "Hypercellular Bone Marrow"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C25553",
+      "relatedName": "Leukemic Cell"
+    },
+    {
+      "type": "Disease_Excludes_Normal_Cell_Origin",
+      "relatedCode": "C12535",
+      "relatedName": "Lymphocyte"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12917",
+      "relatedName": "Malignant Cell"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C36115",
+      "relatedName": "Malignant Cellular Infiltrate"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C36244",
+      "relatedName": "Myeloblasts 20 Percent or More of Bone Marrow Non-Erythroid Cells"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12922",
+      "relatedName": "Neoplastic Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C43217",
+      "relatedName": "Neoplastic Erythroblast"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C37060",
+      "relatedName": "Neoplastic Hematopoietic and Lymphoid Cell"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C12914",
+      "relatedName": "Neoplastic Lymphoblast"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C43218",
+      "relatedName": "Neoplastic Medium to Large Size Erythroblast"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C37065",
+      "relatedName": "Neoplastic Myeloblast"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C41063",
+      "relatedName": "Neoplastic Myeloid Cell"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C128698",
+      "relatedName": "Not Otherwise Specified Lesion"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C36182",
+      "relatedName": "Solid Growth Pattern"
+    }
+  ],
+  "history": [
+    {
+      "code": "C7467",
+      "action": "create",
+      "date": "2003-08-12"
+    },
+    {
+      "code": "C7467",
+      "action": "modify",
+      "date": "2003-10-31"
+    },
+    {
+      "code": "C7467",
+      "action": "modify",
+      "date": "2003-12-30"
+    },
+    {
+      "code": "C7467",
+      "action": "modify",
+      "date": "2004-03-30"
+    },
+    {
+      "code": "C7467",
+      "action": "modify",
+      "date": "2004-12-30"
+    },
+    {
+      "code": "C7467",
+      "action": "modify",
+      "date": "2009-04-06"
+    },
+    {
+      "code": "C7467",
+      "action": "modify",
+      "date": "2009-11-23"
+    },
+    {
+      "code": "C7467",
+      "action": "modify",
+      "date": "2011-03-21"
+    },
+    {
+      "code": "C7467",
+      "action": "modify",
+      "date": "2014-02-03"
+    },
+    {
+      "code": "C7467",
+      "action": "modify",
+      "date": "2018-09-24"
+    },
+    {
+      "code": "C7467",
+      "action": "modify",
+      "date": "2019-05-28"
+    },
+    {
+      "code": "C7467",
+      "action": "modify",
+      "date": "2019-09-30"
+    },
+    {
+      "code": "C7467",
+      "action": "modify",
+      "date": "2019-11-25"
+    },
+    {
+      "code": "C7467",
+      "action": "modify",
+      "date": "2020-02-24"
+    },
+    {
+      "code": "C7467",
+      "action": "modify",
+      "date": "2020-04-27"
+    },
+    {
+      "code": "C7467",
+      "action": "modify",
+      "date": "2020-06-29"
+    },
+    {
+      "code": "C7467",
+      "action": "modify",
+      "date": "2020-07-27"
+    },
+    {
+      "code": "C7467",
+      "action": "modify",
+      "date": "2020-08-31"
+    },
+    {
+      "code": "C7467",
+      "action": "modify",
+      "date": "2020-11-30"
+    },
+    {
+      "code": "C7467",
+      "action": "modify",
+      "date": "2020-12-28"
+    },
+    {
+      "code": "C7467",
+      "action": "modify",
+      "date": "2021-02-22"
+    },
+    {
+      "code": "C7467",
+      "action": "modify",
+      "date": "2021-03-29"
+    },
+    {
+      "code": "C7467",
+      "action": "modify",
+      "date": "2021-06-28"
+    },
+    {
+      "code": "C7467",
+      "action": "modify",
+      "date": "2022-10-31"
+    },
+    {
+      "code": "C7467",
+      "action": "modify",
+      "date": "2023-02-27"
+    }
+  ],
+  "maps": [
+    {
+      "type": "Related To",
+      "targetName": "9840/3",
+      "targetTermType": "PT",
+      "targetCode": "morphology",
+      "targetTerminology": "GDC"
+    },
+    {
+      "type": "Has Synonym",
+      "targetName": "Acute erythremic myelosis",
+      "targetTermType": "PT",
+      "targetCode": "primary_diagnosis",
+      "targetTerminology": "GDC"
+    },
+    {
+      "type": "Has Synonym",
+      "targetName": "Di Guglielmo disease",
+      "targetTermType": "PT",
+      "targetCode": "primary_diagnosis",
+      "targetTerminology": "GDC"
+    },
+    {
+      "type": "Related To",
+      "targetName": "Erythremic myelosis, NOS",
+      "targetTermType": "PT",
+      "targetCode": "primary_diagnosis",
+      "targetTerminology": "GDC"
+    },
+    {
+      "type": "Has Synonym",
+      "targetName": "M6B",
+      "targetTermType": "PT",
+      "targetCode": "primary_diagnosis",
+      "targetTerminology": "GDC"
+    }
+  ]
+}

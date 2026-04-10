@@ -1,0 +1,2656 @@
+{
+  "code": "C12408",
+  "name": "Vulva",
+  "terminology": "ncit",
+  "version": "25.11d",
+  "conceptStatus": "DEFAULT",
+  "leaf": true,
+  "active": true,
+  "synonyms": [
+    {
+      "name": "Vulva",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "caDSR"
+    },
+    {
+      "name": "VULVA",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "CDISC"
+    },
+    {
+      "name": "Vulva",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "GDC"
+    },
+    {
+      "name": "Vulva, NOS",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "GDC"
+    },
+    {
+      "name": "Vulval structure (body structure)",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "mCode",
+      "code": "45292006",
+      "subSource": "SNOMED CT"
+    },
+    {
+      "name": "vulva",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NCI-GLOSS",
+      "code": "CDR0000044974"
+    },
+    {
+      "name": "External Genitalia",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Vulva",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Vulva",
+      "type": "Display_Name"
+    },
+    {
+      "name": "Vulva",
+      "type": "Preferred_Name"
+    },
+    {
+      "name": "Vulva",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "PCDC",
+      "subSource": "OS"
+    },
+    {
+      "name": "female pudendum",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "UBERON"
+    },
+    {
+      "name": "mammalian vulva",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "UBERON"
+    },
+    {
+      "name": "mammalian vulva",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "UBERON"
+    },
+    {
+      "name": "puboperineal region",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "UBERON"
+    },
+    {
+      "name": "pudendum femininum",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "UBERON"
+    },
+    {
+      "name": "vulva",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "UBERON"
+    }
+  ],
+  "definitions": [
+    {
+      "definition": "External genital organs of the female mammal.",
+      "type": "ALT_DEFINITION",
+      "source": "UBERON"
+    },
+    {
+      "definition": "The external female genital organs, including the clitoris, vaginal lips, and the opening to the vagina.",
+      "type": "ALT_DEFINITION",
+      "source": "NCI-GLOSS"
+    },
+    {
+      "definition": "The external, visible part of the female genitalia surrounding the urethral and vaginal opening(s).",
+      "type": "ALT_DEFINITION",
+      "source": "CDISC"
+    },
+    {
+      "definition": "The external, visible part of the female genitalia surrounding the urethral and vaginal opening. The vulva includes the clitoris and inner as well as outer labia.",
+      "type": "DEFINITION",
+      "source": "NCI"
+    }
+  ],
+  "properties": [
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "CDISC"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "GDC"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "mCode"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "PCDC"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "UBERON"
+    },
+    {
+      "code": "P366",
+      "type": "Legacy Concept Name",
+      "value": "Vulva"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "VULVA"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "Vulva"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "Vulva, NOS"
+    },
+    {
+      "code": "P106",
+      "type": "Semantic_Type",
+      "value": "Body Part, Organ, or Organ Component"
+    },
+    {
+      "code": "P207",
+      "type": "UMLS_CUI",
+      "value": "C0042993"
+    },
+    {
+      "code": "oboInOwl:hasDbXref",
+      "type": "xRef",
+      "value": "UBERON:0000997"
+    }
+  ],
+  "parents": [
+    {
+      "code": "C13018",
+      "name": "Organ"
+    }
+  ],
+  "associations": [
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C74456",
+      "relatedName": "CDISC SDTM Anatomical Location Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C66830",
+      "relatedName": "CDISC SDTM Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C77529",
+      "relatedName": "CDISC SEND Biospecimens Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C77526",
+      "relatedName": "CDISC SEND Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C61410",
+      "relatedName": "Clinical Data Interchange Standards Consortium Terminology"
+    },
+    {
+      "type": "Is_Value_For_GDC_Property",
+      "relatedCode": "C173263",
+      "relatedName": "Disease Involvement Site"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C157711",
+      "relatedName": "GDC Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C177537",
+      "relatedName": "GDC Value Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168655",
+      "relatedName": "Mapped ICDO3.1 Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168660",
+      "relatedName": "Mapped ICDO3.1 Topography PT Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168659",
+      "relatedName": "Mapped ICDO3.1 Topography Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168656",
+      "relatedName": "Mapped ICDO3.2 Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168664",
+      "relatedName": "Mapped ICDO3.2 Topography PT Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168663",
+      "relatedName": "Mapped ICDO3.2 Topography Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C193234",
+      "relatedName": "mCode Radiotherapy Treatment Location Value Set"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C193006",
+      "relatedName": "mCode Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C179478",
+      "relatedName": "OS Authorized Value Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C179482",
+      "relatedName": "OS Biopsy/Surgical Procedures Table"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C179483",
+      "relatedName": "OS Radiation Therapy Table"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C179481",
+      "relatedName": "OS Tumor Assessment Table"
+    },
+    {
+      "type": "Is_Value_For_GDC_Property",
+      "relatedCode": "C158874",
+      "relatedName": "Primary Site of Disease"
+    },
+    {
+      "type": "Is_Value_For_GDC_Property",
+      "relatedCode": "C177570",
+      "relatedName": "Progressive or Recurrent Disease Anatomic Site"
+    },
+    {
+      "type": "Is_Value_For_GDC_Property",
+      "relatedCode": "C156421",
+      "relatedName": "Site of Resection or Biopsy"
+    },
+    {
+      "type": "Is_Value_For_GDC_Property",
+      "relatedCode": "C171435",
+      "relatedName": "Specimen Anatomic Site"
+    },
+    {
+      "type": "Is_Value_For_GDC_Property",
+      "relatedCode": "C70729",
+      "relatedName": "Targeted Anatomic Site"
+    },
+    {
+      "type": "Is_Value_For_GDC_Property",
+      "relatedCode": "C156422",
+      "relatedName": "Tissue or Organ of Origin"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C198975",
+      "relatedName": "UBERON Terminology"
+    }
+  ],
+  "inverseAssociations": [
+    {
+      "type": "Has_GDC_Value",
+      "relatedCode": "C173263",
+      "relatedName": "Disease Involvement Site"
+    },
+    {
+      "type": "Has_GDC_Value",
+      "relatedCode": "C158874",
+      "relatedName": "Primary Site of Disease"
+    },
+    {
+      "type": "Has_GDC_Value",
+      "relatedCode": "C177570",
+      "relatedName": "Progressive or Recurrent Disease Anatomic Site"
+    },
+    {
+      "type": "Has_PCDC_OS_Authorized_Value",
+      "relatedCode": "C173281",
+      "relatedName": "Site of Radiation Therapy"
+    },
+    {
+      "type": "Has_GDC_Value",
+      "relatedCode": "C156421",
+      "relatedName": "Site of Resection or Biopsy"
+    },
+    {
+      "type": "Has_PCDC_OS_Authorized_Value",
+      "relatedCode": "C157120",
+      "relatedName": "Site of Tumor"
+    },
+    {
+      "type": "Has_GDC_Value",
+      "relatedCode": "C171435",
+      "relatedName": "Specimen Anatomic Site"
+    },
+    {
+      "type": "Has_PCDC_OS_Authorized_Value",
+      "relatedCode": "C164323",
+      "relatedName": "Surgical Site"
+    },
+    {
+      "type": "Has_GDC_Value",
+      "relatedCode": "C70729",
+      "relatedName": "Targeted Anatomic Site"
+    },
+    {
+      "type": "Has_GDC_Value",
+      "relatedCode": "C156422",
+      "relatedName": "Tissue or Organ of Origin"
+    }
+  ],
+  "roles": [
+    {
+      "type": "Anatomic_Structure_Is_Physical_Part_Of",
+      "relatedCode": "C12402",
+      "relatedName": "Female Reproductive System"
+    }
+  ],
+  "inverseRoles": [
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C40301",
+      "relatedName": "Adenoma of Minor Vestibular Glands"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C40301",
+      "relatedName": "Adenoma of Minor Vestibular Glands"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C170786",
+      "relatedName": "Advanced Vulvar Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C170786",
+      "relatedName": "Advanced Vulvar Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C217098",
+      "relatedName": "Advanced Vulvar Squamous Cell Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C217098",
+      "relatedName": "Advanced Vulvar Squamous Cell Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C7719",
+      "relatedName": "Bartholin Gland Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C7719",
+      "relatedName": "Bartholin Gland Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C40295",
+      "relatedName": "Bartholin Gland Adenoid Cystic Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C40295",
+      "relatedName": "Bartholin Gland Adenoid Cystic Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C40299",
+      "relatedName": "Bartholin Gland Adenoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C40299",
+      "relatedName": "Bartholin Gland Adenoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C40300",
+      "relatedName": "Bartholin Gland Adenomyoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C40300",
+      "relatedName": "Bartholin Gland Adenomyoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C40296",
+      "relatedName": "Bartholin Gland Adenosquamous Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C40296",
+      "relatedName": "Bartholin Gland Adenosquamous Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C9055",
+      "relatedName": "Bartholin Gland Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C9055",
+      "relatedName": "Bartholin Gland Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C9055",
+      "relatedName": "Bartholin Gland Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C6434",
+      "relatedName": "Bartholin Gland Neoplasm"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C40298",
+      "relatedName": "Bartholin Gland Small Cell Neuroendocrine Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C40298",
+      "relatedName": "Bartholin Gland Small Cell Neuroendocrine Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C40293",
+      "relatedName": "Bartholin Gland Squamous Cell Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C40293",
+      "relatedName": "Bartholin Gland Squamous Cell Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C40297",
+      "relatedName": "Bartholin Gland Transitional Cell Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C40297",
+      "relatedName": "Bartholin Gland Transitional Cell Carcinoma"
+    },
+    {
+      "type": "Anatomic_Structure_Is_Physical_Part_Of",
+      "relatedCode": "C12675",
+      "relatedName": "Bartholin Gland"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C8418",
+      "relatedName": "Benign Bartholin Gland Neoplasm"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C8418",
+      "relatedName": "Benign Bartholin Gland Neoplasm"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C40302",
+      "relatedName": "Benign Mixed Tumor of the Vulva"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C40302",
+      "relatedName": "Benign Mixed Tumor of the Vulva"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C3611",
+      "relatedName": "Benign Vulvar Neoplasm"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C3611",
+      "relatedName": "Benign Vulvar Neoplasm"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C181906",
+      "relatedName": "Benign Vulvar Phyllodes Tumor"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C181906",
+      "relatedName": "Benign Vulvar Phyllodes Tumor"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C181907",
+      "relatedName": "Borderline Vulvar Phyllodes Tumor"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C181907",
+      "relatedName": "Borderline Vulvar Phyllodes Tumor"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C36098",
+      "relatedName": "Childhood Vulvar Botryoid-Type Embryonal Rhabdomyosarcoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C36098",
+      "relatedName": "Childhood Vulvar Botryoid-Type Embryonal Rhabdomyosarcoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C9362",
+      "relatedName": "Clitoral Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C9362",
+      "relatedName": "Clitoral Carcinoma"
+    },
+    {
+      "type": "Anatomic_Structure_Is_Physical_Part_Of",
+      "relatedCode": "C12308",
+      "relatedName": "Clitoris"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C4761",
+      "relatedName": "High Grade Vulvar Squamous Intraepithelial Lesion"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C4761",
+      "relatedName": "High Grade Vulvar Squamous Intraepithelial Lesion"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C181903",
+      "relatedName": "Human Papillomavirus-Independent Vulvar Squamous Cell Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C181903",
+      "relatedName": "Human Papillomavirus-Independent Vulvar Squamous Cell Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C27679",
+      "relatedName": "Human Papillomavirus-Related Vulvar Squamous Cell Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C27679",
+      "relatedName": "Human Papillomavirus-Related Vulvar Squamous Cell Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C9363",
+      "relatedName": "Labia Majora Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C9363",
+      "relatedName": "Labia Majora Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C9364",
+      "relatedName": "Labia Minora Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C9364",
+      "relatedName": "Labia Minora Carcinoma"
+    },
+    {
+      "type": "Anatomic_Structure_Is_Physical_Part_Of",
+      "relatedCode": "C12306",
+      "relatedName": "Labium Majus"
+    },
+    {
+      "type": "Anatomic_Structure_Is_Physical_Part_Of",
+      "relatedCode": "C12307",
+      "relatedName": "Labium Minus"
+    },
+    {
+      "type": "Anatomic_Structure_Is_Physical_Part_Of",
+      "relatedCode": "C52559",
+      "relatedName": "Labium"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C170785",
+      "relatedName": "Locally Advanced Vulvar Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C170785",
+      "relatedName": "Locally Advanced Vulvar Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C4760",
+      "relatedName": "Low Grade Vulvar Squamous Intraepithelial Lesion"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C4760",
+      "relatedName": "Low Grade Vulvar Squamous Intraepithelial Lesion"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C3557",
+      "relatedName": "Malignant Clitoral Neoplasm"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C7638",
+      "relatedName": "Malignant Labia Majora Neoplasm"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C7637",
+      "relatedName": "Malignant Labia Minora Neoplasm"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C7502",
+      "relatedName": "Malignant Vulvar Neoplasm"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C128165",
+      "relatedName": "Malignant Vulvar Phyllodes Tumor"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C128165",
+      "relatedName": "Malignant Vulvar Phyllodes Tumor"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C40304",
+      "relatedName": "Malignant Vulvar Sweat Gland Neoplasm"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C40304",
+      "relatedName": "Malignant Vulvar Sweat Gland Neoplasm"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C6332",
+      "relatedName": "Metastatic Malignant Neoplasm in the Vulva"
+    },
+    {
+      "type": "Disease_Has_Metastatic_Anatomic_Site",
+      "relatedCode": "C6332",
+      "relatedName": "Metastatic Malignant Neoplasm in the Vulva"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C156066",
+      "relatedName": "Metastatic Vulvar Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C156066",
+      "relatedName": "Metastatic Vulvar Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C174201",
+      "relatedName": "Metastatic Vulvar Squamous Cell Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C174201",
+      "relatedName": "Metastatic Vulvar Squamous Cell Carcinoma"
+    },
+    {
+      "type": "Anatomic_Structure_Is_Physical_Part_Of",
+      "relatedCode": "C33139",
+      "relatedName": "Mons Pubis"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C220099",
+      "relatedName": "Plasma Cell Vulvitis"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C9054",
+      "relatedName": "Recurrent Vulvar Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C9054",
+      "relatedName": "Recurrent Vulvar Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C174200",
+      "relatedName": "Recurrent Vulvar Squamous Cell Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C174200",
+      "relatedName": "Recurrent Vulvar Squamous Cell Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C174508",
+      "relatedName": "Refractory Vulvar Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C174508",
+      "relatedName": "Refractory Vulvar Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C185304",
+      "relatedName": "Refractory Vulvar Squamous Cell Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C185304",
+      "relatedName": "Refractory Vulvar Squamous Cell Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C4522",
+      "relatedName": "Stage 0 Vulvar Cancer AJCC v6"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C4522",
+      "relatedName": "Stage 0 Vulvar Cancer AJCC v6"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C89445",
+      "relatedName": "Stage 0 Vulvar Cancer AJCC v7"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C89445",
+      "relatedName": "Stage 0 Vulvar Cancer AJCC v7"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C7854",
+      "relatedName": "Stage I Vulvar Cancer AJCC v6"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C7854",
+      "relatedName": "Stage I Vulvar Cancer AJCC v6"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C89447",
+      "relatedName": "Stage I Vulvar Cancer AJCC v7"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C89447",
+      "relatedName": "Stage I Vulvar Cancer AJCC v7"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C139619",
+      "relatedName": "Stage I Vulvar Cancer AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C139619",
+      "relatedName": "Stage I Vulvar Cancer AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C207664",
+      "relatedName": "Stage I Vulvar Cancer AJCC v9"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C207664",
+      "relatedName": "Stage I Vulvar Cancer AJCC v9"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C89448",
+      "relatedName": "Stage IA Vulvar Cancer AJCC v7"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C89448",
+      "relatedName": "Stage IA Vulvar Cancer AJCC v7"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C139620",
+      "relatedName": "Stage IA Vulvar Cancer AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C139620",
+      "relatedName": "Stage IA Vulvar Cancer AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C207686",
+      "relatedName": "Stage IA Vulvar Cancer AJCC v9"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C207686",
+      "relatedName": "Stage IA Vulvar Cancer AJCC v9"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C6328",
+      "relatedName": "Stage IA Vulvar Carcinoma AJCC v6"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C6328",
+      "relatedName": "Stage IA Vulvar Carcinoma AJCC v6"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C89449",
+      "relatedName": "Stage IB Vulvar Cancer AJCC v7"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C89449",
+      "relatedName": "Stage IB Vulvar Cancer AJCC v7"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C139621",
+      "relatedName": "Stage IB Vulvar Cancer AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C139621",
+      "relatedName": "Stage IB Vulvar Cancer AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C207687",
+      "relatedName": "Stage IB Vulvar Cancer AJCC v9"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C207687",
+      "relatedName": "Stage IB Vulvar Cancer AJCC v9"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C6329",
+      "relatedName": "Stage IB Vulvar Carcinoma AJCC v6"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C6329",
+      "relatedName": "Stage IB Vulvar Carcinoma AJCC v6"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C9051",
+      "relatedName": "Stage II Vulvar Cancer AJCC v6"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C9051",
+      "relatedName": "Stage II Vulvar Cancer AJCC v6"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C89451",
+      "relatedName": "Stage II Vulvar Cancer AJCC v7"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C89451",
+      "relatedName": "Stage II Vulvar Cancer AJCC v7"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C139622",
+      "relatedName": "Stage II Vulvar Cancer AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C139622",
+      "relatedName": "Stage II Vulvar Cancer AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C207688",
+      "relatedName": "Stage II Vulvar Cancer AJCC v9"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C207688",
+      "relatedName": "Stage II Vulvar Cancer AJCC v9"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C9052",
+      "relatedName": "Stage III Vulvar Cancer AJCC v6"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C9052",
+      "relatedName": "Stage III Vulvar Cancer AJCC v6"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C89452",
+      "relatedName": "Stage III Vulvar Cancer AJCC v7"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C89452",
+      "relatedName": "Stage III Vulvar Cancer AJCC v7"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C139623",
+      "relatedName": "Stage III Vulvar Cancer AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C139623",
+      "relatedName": "Stage III Vulvar Cancer AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C207689",
+      "relatedName": "Stage III Vulvar Cancer AJCC v9"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C207689",
+      "relatedName": "Stage III Vulvar Cancer AJCC v9"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C87003",
+      "relatedName": "Stage IIIA Vulvar Cancer AJCC v7"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C87003",
+      "relatedName": "Stage IIIA Vulvar Cancer AJCC v7"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C139624",
+      "relatedName": "Stage IIIA Vulvar Cancer AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C139624",
+      "relatedName": "Stage IIIA Vulvar Cancer AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C207690",
+      "relatedName": "Stage IIIA Vulvar Cancer AJCC v9"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C207690",
+      "relatedName": "Stage IIIA Vulvar Cancer AJCC v9"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C87004",
+      "relatedName": "Stage IIIB Vulvar Cancer AJCC v7"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C87004",
+      "relatedName": "Stage IIIB Vulvar Cancer AJCC v7"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C139625",
+      "relatedName": "Stage IIIB Vulvar Cancer AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C139625",
+      "relatedName": "Stage IIIB Vulvar Cancer AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C207691",
+      "relatedName": "Stage IIIB Vulvar Cancer AJCC v9"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C207691",
+      "relatedName": "Stage IIIB Vulvar Cancer AJCC v9"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C87005",
+      "relatedName": "Stage IIIC Vulvar Cancer AJCC v7"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C87005",
+      "relatedName": "Stage IIIC Vulvar Cancer AJCC v7"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C139626",
+      "relatedName": "Stage IIIC Vulvar Cancer AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C139626",
+      "relatedName": "Stage IIIC Vulvar Cancer AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C207692",
+      "relatedName": "Stage IIIC Vulvar Cancer AJCC v9"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C207692",
+      "relatedName": "Stage IIIC Vulvar Cancer AJCC v9"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C9053",
+      "relatedName": "Stage IV Vulvar Cancer AJCC v6"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C9053",
+      "relatedName": "Stage IV Vulvar Cancer AJCC v6"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C89453",
+      "relatedName": "Stage IV Vulvar Cancer AJCC v7"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C89453",
+      "relatedName": "Stage IV Vulvar Cancer AJCC v7"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C139627",
+      "relatedName": "Stage IV Vulvar Cancer AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C139627",
+      "relatedName": "Stage IV Vulvar Cancer AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C207693",
+      "relatedName": "Stage IV Vulvar Cancer AJCC v9"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C207693",
+      "relatedName": "Stage IV Vulvar Cancer AJCC v9"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C6330",
+      "relatedName": "Stage IVA Vulvar Cancer AJCC v6"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C6330",
+      "relatedName": "Stage IVA Vulvar Cancer AJCC v6"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C89454",
+      "relatedName": "Stage IVA Vulvar Cancer AJCC v7"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C89454",
+      "relatedName": "Stage IVA Vulvar Cancer AJCC v7"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C139628",
+      "relatedName": "Stage IVA Vulvar Cancer AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C139628",
+      "relatedName": "Stage IVA Vulvar Cancer AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C207694",
+      "relatedName": "Stage IVA Vulvar Cancer AJCC v9"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C207694",
+      "relatedName": "Stage IVA Vulvar Cancer AJCC v9"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C27247",
+      "relatedName": "Stage IVB Vulvar Cancer AJCC v6 and v7"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C27247",
+      "relatedName": "Stage IVB Vulvar Cancer AJCC v6 and v7"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C139630",
+      "relatedName": "Stage IVB Vulvar Cancer AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C139630",
+      "relatedName": "Stage IVB Vulvar Cancer AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C207695",
+      "relatedName": "Stage IVB Vulvar Cancer AJCC v9"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C207695",
+      "relatedName": "Stage IVB Vulvar Cancer AJCC v9"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C174198",
+      "relatedName": "Unresectable Vulvar Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C174198",
+      "relatedName": "Unresectable Vulvar Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C174199",
+      "relatedName": "Unresectable Vulvar Squamous Cell Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C174199",
+      "relatedName": "Unresectable Vulvar Squamous Cell Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C78716",
+      "relatedName": "Vulval Infection"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C40331",
+      "relatedName": "Vulvar Acquired Nevus"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C40331",
+      "relatedName": "Vulvar Acquired Nevus"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C128162",
+      "relatedName": "Vulvar Adenocarcinoma of Mammary Gland Type"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C128162",
+      "relatedName": "Vulvar Adenocarcinoma of Mammary Gland Type"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C128164",
+      "relatedName": "Vulvar Adenocarcinoma of Sweat Gland Origin"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C128164",
+      "relatedName": "Vulvar Adenocarcinoma of Sweat Gland Origin"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C6380",
+      "relatedName": "Vulvar Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C6380",
+      "relatedName": "Vulvar Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C128273",
+      "relatedName": "Vulvar Alveolar Rhabdomyosarcoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C128273",
+      "relatedName": "Vulvar Alveolar Rhabdomyosarcoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C40320",
+      "relatedName": "Vulvar Alveolar Soft Part Sarcoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C40320",
+      "relatedName": "Vulvar Alveolar Soft Part Sarcoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C8596",
+      "relatedName": "Vulvar Angiokeratoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C45446",
+      "relatedName": "Vulvar Angiomyofibroblastoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C45446",
+      "relatedName": "Vulvar Angiomyofibroblastoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C176515",
+      "relatedName": "Vulvar Angiosarcoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C176515",
+      "relatedName": "Vulvar Angiosarcoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C40308",
+      "relatedName": "Vulvar Apocrine Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C40308",
+      "relatedName": "Vulvar Apocrine Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C40333",
+      "relatedName": "Vulvar Atypical Nevus"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C40333",
+      "relatedName": "Vulvar Atypical Nevus"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C6381",
+      "relatedName": "Vulvar Basal Cell Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C6381",
+      "relatedName": "Vulvar Basal Cell Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C40286",
+      "relatedName": "Vulvar Basaloid Squamous Cell Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C40286",
+      "relatedName": "Vulvar Basaloid Squamous Cell Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C40332",
+      "relatedName": "Vulvar Blue Nevus"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C40332",
+      "relatedName": "Vulvar Blue Nevus"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C90345",
+      "relatedName": "Vulvar Cancer by AJCC v6 Stage"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C90345",
+      "relatedName": "Vulvar Cancer by AJCC v6 Stage"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C91203",
+      "relatedName": "Vulvar Cancer by AJCC v7 Stage"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C91203",
+      "relatedName": "Vulvar Cancer by AJCC v7 Stage"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C139618",
+      "relatedName": "Vulvar Cancer by AJCC v8 Stage"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C139618",
+      "relatedName": "Vulvar Cancer by AJCC v8 Stage"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C207662",
+      "relatedName": "Vulvar Cancer by AJCC v9 Stage"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C207662",
+      "relatedName": "Vulvar Cancer by AJCC v9 Stage"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C4866",
+      "relatedName": "Vulvar Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C4866",
+      "relatedName": "Vulvar Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C40327",
+      "relatedName": "Vulvar Cellular Angiofibroma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C40327",
+      "relatedName": "Vulvar Cellular Angiofibroma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C40307",
+      "relatedName": "Vulvar Clear Cell Hidradenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C40307",
+      "relatedName": "Vulvar Clear Cell Hidradenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C139548",
+      "relatedName": "Vulvar Composite Hidradenoma Papilliferum and Fibroadenoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C139548",
+      "relatedName": "Vulvar Composite Hidradenoma Papilliferum and Fibroadenoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C4382",
+      "relatedName": "Vulvar Condyloma Acuminatum"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C4382",
+      "relatedName": "Vulvar Condyloma Acuminatum"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C40330",
+      "relatedName": "Vulvar Congenital Nevus"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C40330",
+      "relatedName": "Vulvar Congenital Nevus"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C40322",
+      "relatedName": "Vulvar Deep (Aggressive) Angiomyxoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C40322",
+      "relatedName": "Vulvar Deep (Aggressive) Angiomyxoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C27631",
+      "relatedName": "Vulvar Disorder"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C181973",
+      "relatedName": "Vulvar Distal-Type Epithelioid Sarcoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C181973",
+      "relatedName": "Vulvar Distal-Type Epithelioid Sarcoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C40334",
+      "relatedName": "Vulvar Dysplastic Nevus"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C40334",
+      "relatedName": "Vulvar Dysplastic Nevus"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C34565",
+      "relatedName": "Vulvar Dystrophy"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C40305",
+      "relatedName": "Vulvar Eccrine Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C40305",
+      "relatedName": "Vulvar Eccrine Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C181971",
+      "relatedName": "Vulvar Epithelioid Sarcoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C181971",
+      "relatedName": "Vulvar Epithelioid Sarcoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C181977",
+      "relatedName": "Vulvar Ewing Sarcoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C181977",
+      "relatedName": "Vulvar Ewing Sarcoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C128242",
+      "relatedName": "Vulvar Fibroadenoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C128242",
+      "relatedName": "Vulvar Fibroadenoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C6857",
+      "relatedName": "Vulvar Fibroepithelial Stromal Polyp"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C128271",
+      "relatedName": "Vulvar Fibrolipoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C128271",
+      "relatedName": "Vulvar Fibrolipoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C128294",
+      "relatedName": "Vulvar Germ Cell Tumor"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C128294",
+      "relatedName": "Vulvar Germ Cell Tumor"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C40292",
+      "relatedName": "Vulvar Glandular Neoplasm"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C40292",
+      "relatedName": "Vulvar Glandular Neoplasm"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C40328",
+      "relatedName": "Vulvar Granular Cell Tumor"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C40328",
+      "relatedName": "Vulvar Granular Cell Tumor"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C128240",
+      "relatedName": "Vulvar Hidradenoma Papilliferum"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C128240",
+      "relatedName": "Vulvar Hidradenoma Papilliferum"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C37272",
+      "relatedName": "Vulvar Intraepithelial Neoplasia, HPV-Independent"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C37272",
+      "relatedName": "Vulvar Intraepithelial Neoplasia, HPV-Independent"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C4756",
+      "relatedName": "Vulvar Intraepithelial Neoplasia"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C4756",
+      "relatedName": "Vulvar Intraepithelial Neoplasia"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C40291",
+      "relatedName": "Vulvar Inverted Follicular Keratosis"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C40291",
+      "relatedName": "Vulvar Inverted Follicular Keratosis"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C181938",
+      "relatedName": "Vulvar Kaposi Sarcoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C181938",
+      "relatedName": "Vulvar Kaposi Sarcoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C40284",
+      "relatedName": "Vulvar Keratinizing Squamous Cell Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C40284",
+      "relatedName": "Vulvar Keratinizing Squamous Cell Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C128167",
+      "relatedName": "Vulvar Keratoacanthoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C128167",
+      "relatedName": "Vulvar Keratoacanthoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C128245",
+      "relatedName": "Vulvar Large Cell Neuroendocrine Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C128245",
+      "relatedName": "Vulvar Large Cell Neuroendocrine Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C40326",
+      "relatedName": "Vulvar Leiomyoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C40326",
+      "relatedName": "Vulvar Leiomyoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C40318",
+      "relatedName": "Vulvar Leiomyosarcoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C40318",
+      "relatedName": "Vulvar Leiomyosarcoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C27723",
+      "relatedName": "Vulvar Lichen Sclerosus"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C181925",
+      "relatedName": "Vulvar Lipoblastoma-Like Tumor"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C181925",
+      "relatedName": "Vulvar Lipoblastoma-Like Tumor"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C128270",
+      "relatedName": "Vulvar Lipoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C128270",
+      "relatedName": "Vulvar Lipoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C40321",
+      "relatedName": "Vulvar Liposarcoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C40321",
+      "relatedName": "Vulvar Liposarcoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C40335",
+      "relatedName": "Vulvar Melanocytic Neoplasm"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C40335",
+      "relatedName": "Vulvar Melanocytic Neoplasm"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C40329",
+      "relatedName": "Vulvar Melanoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C40329",
+      "relatedName": "Vulvar Melanoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C40329",
+      "relatedName": "Vulvar Melanoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C128247",
+      "relatedName": "Vulvar Merkel Cell Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C128247",
+      "relatedName": "Vulvar Merkel Cell Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C128166",
+      "relatedName": "Vulvar Mucinous Adenocarcinoma, Intestinal-Type"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C128166",
+      "relatedName": "Vulvar Mucinous Adenocarcinoma, Intestinal-Type"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C40324",
+      "relatedName": "Vulvar Myxoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C40324",
+      "relatedName": "Vulvar Myxoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C40303",
+      "relatedName": "Vulvar Neoplasm of Skin Appendage Origin"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C40303",
+      "relatedName": "Vulvar Neoplasm of Skin Appendage Origin"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C3443",
+      "relatedName": "Vulvar Neoplasm"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C128243",
+      "relatedName": "Vulvar Neuroendocrine Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C128243",
+      "relatedName": "Vulvar Neuroendocrine Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C128289",
+      "relatedName": "Vulvar Nevus"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C128289",
+      "relatedName": "Vulvar Nevus"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C40312",
+      "relatedName": "Vulvar Nodular Hidradenoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C40312",
+      "relatedName": "Vulvar Nodular Hidradenoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C40285",
+      "relatedName": "Vulvar Non-Keratinizing Squamous Cell Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C40285",
+      "relatedName": "Vulvar Non-Keratinizing Squamous Cell Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C27620",
+      "relatedName": "Vulvar Non-Neoplastic Disorder"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C4027",
+      "relatedName": "Vulvar Paget Disease"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C4027",
+      "relatedName": "Vulvar Paget Disease"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C181905",
+      "relatedName": "Vulvar Phyllodes Tumor"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C181905",
+      "relatedName": "Vulvar Phyllodes Tumor"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C3978",
+      "relatedName": "Vulvar Polyp"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C40306",
+      "relatedName": "Vulvar Porocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C40306",
+      "relatedName": "Vulvar Porocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C181926",
+      "relatedName": "Vulvar Prepubertal Fibroma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C181926",
+      "relatedName": "Vulvar Prepubertal Fibroma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C40319",
+      "relatedName": "Vulvar Proximal-Type Epithelioid Sarcoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C40319",
+      "relatedName": "Vulvar Proximal-Type Epithelioid Sarcoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C181942",
+      "relatedName": "Vulvar Rhabdomyoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C181942",
+      "relatedName": "Vulvar Rhabdomyoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C181944",
+      "relatedName": "Vulvar Rhabdomyosarcoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C181944",
+      "relatedName": "Vulvar Rhabdomyosarcoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C40317",
+      "relatedName": "Vulvar Sarcoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C40317",
+      "relatedName": "Vulvar Sarcoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C40309",
+      "relatedName": "Vulvar Sebaceous Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C40309",
+      "relatedName": "Vulvar Sebaceous Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C6375",
+      "relatedName": "Vulvar Seborrheic Keratosis"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C6375",
+      "relatedName": "Vulvar Seborrheic Keratosis"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C128244",
+      "relatedName": "Vulvar Small Cell Neuroendocrine Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C128244",
+      "relatedName": "Vulvar Small Cell Neuroendocrine Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C181939",
+      "relatedName": "Vulvar Smooth Muscle Tumor of Uncertain Malignant Potential"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C181939",
+      "relatedName": "Vulvar Smooth Muscle Tumor of Uncertain Malignant Potential"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C40316",
+      "relatedName": "Vulvar Soft Tissue Neoplasm"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C40316",
+      "relatedName": "Vulvar Soft Tissue Neoplasm"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C181935",
+      "relatedName": "Vulvar Solitary Fibrous Tumor"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C181935",
+      "relatedName": "Vulvar Solitary Fibrous Tumor"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C213311",
+      "relatedName": "Vulvar Squamous Cell Carcinoma In Situ"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C213311",
+      "relatedName": "Vulvar Squamous Cell Carcinoma In Situ"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C40289",
+      "relatedName": "Vulvar Squamous Cell Carcinoma with Tumor Giant Cells"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C40289",
+      "relatedName": "Vulvar Squamous Cell Carcinoma with Tumor Giant Cells"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C181902",
+      "relatedName": "Vulvar Squamous Cell Carcinoma, Not Otherwise Specified"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C181902",
+      "relatedName": "Vulvar Squamous Cell Carcinoma, Not Otherwise Specified"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C4052",
+      "relatedName": "Vulvar Squamous Cell Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C4052",
+      "relatedName": "Vulvar Squamous Cell Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C128142",
+      "relatedName": "Vulvar Squamous Intraepithelial Lesion, HPV-Associated"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C128142",
+      "relatedName": "Vulvar Squamous Intraepithelial Lesion, HPV-Associated"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C40283",
+      "relatedName": "Vulvar Squamous Neoplasm"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C40283",
+      "relatedName": "Vulvar Squamous Neoplasm"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C6376",
+      "relatedName": "Vulvar Squamous Papilloma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C6376",
+      "relatedName": "Vulvar Squamous Papilloma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C40290",
+      "relatedName": "Vulvar Squamous Papillomatosis"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C40290",
+      "relatedName": "Vulvar Squamous Papillomatosis"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C128272",
+      "relatedName": "Vulvar Superficial Myofibroblastoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C128272",
+      "relatedName": "Vulvar Superficial Myofibroblastoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C40311",
+      "relatedName": "Vulvar Syringoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C40311",
+      "relatedName": "Vulvar Syringoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C40314",
+      "relatedName": "Vulvar Trichoblastoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C40314",
+      "relatedName": "Vulvar Trichoblastoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C200207",
+      "relatedName": "Vulvar Tubulovillous Adenoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C200207",
+      "relatedName": "Vulvar Tubulovillous Adenoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C6383",
+      "relatedName": "Vulvar Verrucous Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C6383",
+      "relatedName": "Vulvar Verrucous Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C40287",
+      "relatedName": "Vulvar Warty Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C40287",
+      "relatedName": "Vulvar Warty Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C128295",
+      "relatedName": "Vulvar Yolk Sac Tumor"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C128295",
+      "relatedName": "Vulvar Yolk Sac Tumor"
+    }
+  ],
+  "history": [
+    {
+      "code": "C12408",
+      "action": "create",
+      "date": "2003-08-12"
+    },
+    {
+      "code": "C12408",
+      "action": "modify",
+      "date": "2003-12-30"
+    },
+    {
+      "code": "C12408",
+      "action": "modify",
+      "date": "2004-02-23"
+    },
+    {
+      "code": "C12408",
+      "action": "modify",
+      "date": "2004-03-30"
+    },
+    {
+      "code": "C12408",
+      "action": "modify",
+      "date": "2005-03-16"
+    },
+    {
+      "code": "C12408",
+      "action": "modify",
+      "date": "2007-10-29"
+    },
+    {
+      "code": "C12408",
+      "action": "modify",
+      "date": "2008-06-27"
+    },
+    {
+      "code": "C12408",
+      "action": "modify",
+      "date": "2008-09-12"
+    },
+    {
+      "code": "C12408",
+      "action": "modify",
+      "date": "2008-11-14"
+    },
+    {
+      "code": "C12408",
+      "action": "modify",
+      "date": "2008-11-26"
+    },
+    {
+      "code": "C12408",
+      "action": "modify",
+      "date": "2008-12-19"
+    },
+    {
+      "code": "C12408",
+      "action": "modify",
+      "date": "2008-11-07"
+    },
+    {
+      "code": "C12408",
+      "action": "modify",
+      "date": "2009-01-26"
+    },
+    {
+      "code": "C12408",
+      "action": "modify",
+      "date": "2009-04-06"
+    },
+    {
+      "code": "C12408",
+      "action": "modify",
+      "date": "2009-11-23"
+    },
+    {
+      "code": "C12408",
+      "action": "modify",
+      "date": "2011-03-07"
+    },
+    {
+      "code": "C12408",
+      "action": "modify",
+      "date": "2011-04-25"
+    },
+    {
+      "code": "C12408",
+      "action": "modify",
+      "date": "2011-05-02"
+    },
+    {
+      "code": "C12408",
+      "action": "modify",
+      "date": "2011-05-09"
+    },
+    {
+      "code": "C12408",
+      "action": "modify",
+      "date": "2011-05-16"
+    },
+    {
+      "code": "C12408",
+      "action": "modify",
+      "date": "2011-05-23"
+    },
+    {
+      "code": "C12408",
+      "action": "modify",
+      "date": "2011-05-31"
+    },
+    {
+      "code": "C12408",
+      "action": "modify",
+      "date": "2011-06-06"
+    },
+    {
+      "code": "C12408",
+      "action": "modify",
+      "date": "2011-06-13"
+    },
+    {
+      "code": "C12408",
+      "action": "modify",
+      "date": "2011-06-20"
+    },
+    {
+      "code": "C12408",
+      "action": "modify",
+      "date": "2011-06-27"
+    },
+    {
+      "code": "C12408",
+      "action": "modify",
+      "date": "2013-02-25"
+    },
+    {
+      "code": "C12408",
+      "action": "modify",
+      "date": "2013-03-04"
+    },
+    {
+      "code": "C12408",
+      "action": "modify",
+      "date": "2013-03-11"
+    },
+    {
+      "code": "C12408",
+      "action": "modify",
+      "date": "2013-03-18"
+    },
+    {
+      "code": "C12408",
+      "action": "modify",
+      "date": "2013-03-25"
+    },
+    {
+      "code": "C12408",
+      "action": "modify",
+      "date": "2013-04-01"
+    },
+    {
+      "code": "C12408",
+      "action": "modify",
+      "date": "2013-04-08"
+    },
+    {
+      "code": "C12408",
+      "action": "modify",
+      "date": "2013-04-15"
+    },
+    {
+      "code": "C12408",
+      "action": "modify",
+      "date": "2013-04-22"
+    },
+    {
+      "code": "C12408",
+      "action": "modify",
+      "date": "2013-04-29"
+    },
+    {
+      "code": "C12408",
+      "action": "modify",
+      "date": "2013-05-06"
+    },
+    {
+      "code": "C12408",
+      "action": "modify",
+      "date": "2013-05-13"
+    },
+    {
+      "code": "C12408",
+      "action": "modify",
+      "date": "2013-05-20"
+    },
+    {
+      "code": "C12408",
+      "action": "modify",
+      "date": "2013-05-28"
+    },
+    {
+      "code": "C12408",
+      "action": "modify",
+      "date": "2013-06-03"
+    },
+    {
+      "code": "C12408",
+      "action": "modify",
+      "date": "2013-06-10"
+    },
+    {
+      "code": "C12408",
+      "action": "modify",
+      "date": "2013-06-17"
+    },
+    {
+      "code": "C12408",
+      "action": "modify",
+      "date": "2013-06-24"
+    },
+    {
+      "code": "C12408",
+      "action": "modify",
+      "date": "2013-07-01"
+    },
+    {
+      "code": "C12408",
+      "action": "modify",
+      "date": "2013-07-08"
+    },
+    {
+      "code": "C12408",
+      "action": "modify",
+      "date": "2014-02-03"
+    },
+    {
+      "code": "C12408",
+      "action": "modify",
+      "date": "2015-05-26"
+    },
+    {
+      "code": "C12408",
+      "action": "modify",
+      "date": "2015-06-01"
+    },
+    {
+      "code": "C12408",
+      "action": "modify",
+      "date": "2015-06-08"
+    },
+    {
+      "code": "C12408",
+      "action": "modify",
+      "date": "2015-06-15"
+    },
+    {
+      "code": "C12408",
+      "action": "modify",
+      "date": "2015-06-22"
+    },
+    {
+      "code": "C12408",
+      "action": "modify",
+      "date": "2015-06-29"
+    },
+    {
+      "code": "C12408",
+      "action": "modify",
+      "date": "2015-07-06"
+    },
+    {
+      "code": "C12408",
+      "action": "modify",
+      "date": "2015-07-13"
+    },
+    {
+      "code": "C12408",
+      "action": "modify",
+      "date": "2015-08-12"
+    },
+    {
+      "code": "C12408",
+      "action": "modify",
+      "date": "2015-08-31"
+    },
+    {
+      "code": "C12408",
+      "action": "modify",
+      "date": "2015-10-19"
+    },
+    {
+      "code": "C12408",
+      "action": "modify",
+      "date": "2016-10-17"
+    },
+    {
+      "code": "C12408",
+      "action": "modify",
+      "date": "2017-02-27"
+    },
+    {
+      "code": "C12408",
+      "action": "modify",
+      "date": "2017-03-13"
+    },
+    {
+      "code": "C12408",
+      "action": "modify",
+      "date": "2018-09-24"
+    },
+    {
+      "code": "C12408",
+      "action": "modify",
+      "date": "2018-10-29"
+    },
+    {
+      "code": "C12408",
+      "action": "modify",
+      "date": "2018-10-29"
+    },
+    {
+      "code": "C12408",
+      "action": "modify",
+      "date": "2019-05-28"
+    },
+    {
+      "code": "C12408",
+      "action": "modify",
+      "date": "2019-09-30"
+    },
+    {
+      "code": "C12408",
+      "action": "modify",
+      "date": "2019-10-28"
+    },
+    {
+      "code": "C12408",
+      "action": "modify",
+      "date": "2020-02-24"
+    },
+    {
+      "code": "C12408",
+      "action": "modify",
+      "date": "2020-03-30"
+    },
+    {
+      "code": "C12408",
+      "action": "modify",
+      "date": "2020-09-29"
+    },
+    {
+      "code": "C12408",
+      "action": "modify",
+      "date": "2021-02-22"
+    },
+    {
+      "code": "C12408",
+      "action": "modify",
+      "date": "2021-03-29"
+    },
+    {
+      "code": "C12408",
+      "action": "modify",
+      "date": "2021-11-29"
+    },
+    {
+      "code": "C12408",
+      "action": "modify",
+      "date": "2022-04-25"
+    },
+    {
+      "code": "C12408",
+      "action": "modify",
+      "date": "2022-10-31"
+    },
+    {
+      "code": "C12408",
+      "action": "modify",
+      "date": "2023-02-27"
+    },
+    {
+      "code": "C12408",
+      "action": "modify",
+      "date": "2023-03-27"
+    },
+    {
+      "code": "C12408",
+      "action": "modify",
+      "date": "2023-05-30"
+    },
+    {
+      "code": "C12408",
+      "action": "modify",
+      "date": "2023-07-31"
+    },
+    {
+      "code": "C12408",
+      "action": "modify",
+      "date": "2023-09-25"
+    },
+    {
+      "code": "C12408",
+      "action": "modify",
+      "date": "2024-07-08"
+    }
+  ],
+  "maps": [
+    {
+      "type": "Related To",
+      "targetName": "Vulva, NOS",
+      "targetTermType": "PT",
+      "targetCode": "C51.9",
+      "targetTerminology": "ICDO3",
+      "targetTerminologyVersion": "3.1"
+    },
+    {
+      "type": "Related To",
+      "targetName": "Vulva, NOS",
+      "targetTermType": "PT",
+      "targetCode": "C51.9",
+      "targetTerminology": "ICDO3",
+      "targetTerminologyVersion": "3.2"
+    },
+    {
+      "type": "Has Synonym",
+      "targetName": "Vulva, NOS",
+      "targetTermType": "PT",
+      "targetCode": "progression_or_recurrence_anatomic_site",
+      "targetTerminology": "GDC"
+    },
+    {
+      "type": "Has Synonym",
+      "targetName": "Vulva, NOS",
+      "targetTermType": "PT",
+      "targetCode": "site_of_resection_or_biopsy",
+      "targetTerminology": "GDC"
+    },
+    {
+      "type": "Has Synonym",
+      "targetName": "Vulva, NOS",
+      "targetTermType": "PT",
+      "targetCode": "sites_of_involvement",
+      "targetTerminology": "GDC"
+    },
+    {
+      "type": "Has Synonym",
+      "targetName": "Vulva, NOS",
+      "targetTermType": "PT",
+      "targetCode": "tissue_or_organ_of_origin",
+      "targetTerminology": "GDC"
+    },
+    {
+      "type": "Has Synonym",
+      "targetName": "Vulva",
+      "targetTermType": "PT",
+      "targetCode": "biospecimen_anatomic_site",
+      "targetTerminology": "GDC"
+    },
+    {
+      "type": "Related To",
+      "targetName": "VULVA",
+      "targetTermType": "HT",
+      "targetCode": "C51",
+      "targetTerminology": "ICDO3",
+      "targetTerminologyVersion": "3.1"
+    },
+    {
+      "type": "Related To",
+      "targetName": "VULVA",
+      "targetTermType": "HT",
+      "targetCode": "C51",
+      "targetTerminology": "ICDO3",
+      "targetTerminologyVersion": "3.2"
+    },
+    {
+      "type": "Has Synonym",
+      "targetName": "Vulva",
+      "targetTermType": "PT",
+      "targetCode": "primary_site",
+      "targetTerminology": "GDC"
+    },
+    {
+      "type": "Has Synonym",
+      "targetName": "Vulva",
+      "targetTermType": "PT",
+      "targetCode": "treatment_anatomic_sites",
+      "targetTerminology": "GDC"
+    }
+  ]
+}

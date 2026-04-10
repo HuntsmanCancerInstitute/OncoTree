@@ -1,0 +1,449 @@
+{
+  "code": "C92552",
+  "name": "Angiocentric Glioma",
+  "terminology": "ncit",
+  "version": "25.11d",
+  "conceptStatus": "DEFAULT",
+  "leaf": true,
+  "active": true,
+  "synonyms": [
+    {
+      "name": "Angiocentric Glioma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "Cellosaurus"
+    },
+    {
+      "name": "Angiocentric glioma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "GDC"
+    },
+    {
+      "name": "Angiocentric Glioma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Angiocentric Glioma (WHO Grade 1)",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Angiocentric Glioma (WHO Grade I)",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Angiocentric Neuroepithelial Tumor",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Monomorphus Angiocentric Glioma",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Angiocentric Glioma",
+      "type": "Preferred_Name"
+    }
+  ],
+  "definitions": [
+    {
+      "definition": "A WHO grade 1, slow-growing brain neoplasm of children and young adults, associated with epilepsy.  Morphologically it is characterized by an angiocentric pattern, monomorphic cellular infiltrate, and ependymal differentiation.",
+      "type": "DEFINITION",
+      "source": "NCI"
+    }
+  ],
+  "properties": [
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "Cellosaurus"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "GDC"
+    },
+    {
+      "code": "P334",
+      "type": "ICD-O-3_Code",
+      "value": "9431/1"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "9431/1"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "Angiocentric glioma"
+    },
+    {
+      "code": "P363",
+      "type": "Neoplastic_Status",
+      "value": "Undetermined"
+    },
+    {
+      "code": "P106",
+      "type": "Semantic_Type",
+      "value": "Neoplastic Process"
+    },
+    {
+      "code": "P207",
+      "type": "UMLS_CUI",
+      "value": "C2363903"
+    }
+  ],
+  "parents": [
+    {
+      "code": "C177797",
+      "name": "WHO Grade 1 Glioma"
+    }
+  ],
+  "associations": [
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C165258",
+      "relatedName": "Cellosaurus Disease Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C157711",
+      "relatedName": "GDC Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C177537",
+      "relatedName": "GDC Value Terminology"
+    },
+    {
+      "type": "Is_Value_For_GDC_Property",
+      "relatedCode": "C176985",
+      "relatedName": "Histology ICD-O Morphology Code"
+    },
+    {
+      "type": "Is_Value_For_GDC_Property",
+      "relatedCode": "C177621",
+      "relatedName": "ICD-O-3 Morphology Term Diagnosis Question"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168658",
+      "relatedName": "Mapped ICDO3.1 Morphology PT Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168657",
+      "relatedName": "Mapped ICDO3.1 Morphology Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168655",
+      "relatedName": "Mapped ICDO3.1 Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168662",
+      "relatedName": "Mapped ICDO3.2 Morphology PT Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168661",
+      "relatedName": "Mapped ICDO3.2 Morphology Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168656",
+      "relatedName": "Mapped ICDO3.2 Terminology"
+    }
+  ],
+  "inverseAssociations": [
+    {
+      "type": "Has_GDC_Value",
+      "relatedCode": "C176985",
+      "relatedName": "Histology ICD-O Morphology Code"
+    },
+    {
+      "type": "Has_GDC_Value",
+      "relatedCode": "C177621",
+      "relatedName": "ICD-O-3 Morphology Term Diagnosis Question"
+    }
+  ],
+  "roles": [
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C35905",
+      "relatedName": "Angiocentric Pattern"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12438",
+      "relatedName": "Central Nervous System"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12438",
+      "relatedName": "Central Nervous System"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C92553",
+      "relatedName": "Ependymal Differentiation"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C12615",
+      "relatedName": "Glial Cell"
+    },
+    {
+      "type": "Disease_Is_Grade",
+      "relatedCode": "C28077",
+      "relatedName": "Grade 1"
+    },
+    {
+      "type": "Disease_Is_Grade",
+      "relatedCode": "C28077",
+      "relatedName": "Grade 1"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C36130",
+      "relatedName": "Low Grade Lesion"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C38666",
+      "relatedName": "Monomorphic Cellular Infiltrate"
+    },
+    {
+      "type": "Disease_Has_Molecular_Abnormality",
+      "relatedCode": "C180937",
+      "relatedName": "MYB Gene Rearrangement"
+    },
+    {
+      "type": "Disease_Mapped_To_Gene",
+      "relatedCode": "C28569",
+      "relatedName": "MYB Gene"
+    },
+    {
+      "type": "Disease_Mapped_To_Gene",
+      "relatedCode": "C185216",
+      "relatedName": "MYB/QKI Fusion Gene"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12922",
+      "relatedName": "Neoplastic Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C37126",
+      "relatedName": "Neoplastic Glial Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C41408",
+      "relatedName": "Neoplastic Neuroepithelial Cell and Neoplastic Perineural Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C37125",
+      "relatedName": "Neoplastic Neuroepithelial Cell"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C41406",
+      "relatedName": "Nerve Tissue, Neuroepithelial Tissue, and Nerve Sheaths"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12755",
+      "relatedName": "Nervous System"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C41410",
+      "relatedName": "Neuroepithelial Cell"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C41409",
+      "relatedName": "Neuroepithelial Tissue"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C41405",
+      "relatedName": "Neuron, Neuroepithelial Cell, and Supporting Cell of the Nervous System"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C41611",
+      "relatedName": "Precise Histogenesis Unknown"
+    },
+    {
+      "type": "Disease_Has_Associated_Disease",
+      "relatedCode": "C3020",
+      "relatedName": "Seizure Disorder"
+    }
+  ],
+  "inverseRoles": [
+    {
+      "type": "Gene_Involved_In_Pathogenesis_Of_Disease",
+      "relatedCode": "C28569",
+      "relatedName": "MYB Gene"
+    },
+    {
+      "type": "Gene_Involved_In_Pathogenesis_Of_Disease",
+      "relatedCode": "C53082",
+      "relatedName": "MYB wt Allele"
+    },
+    {
+      "type": "Gene_Involved_In_Pathogenesis_Of_Disease",
+      "relatedCode": "C185216",
+      "relatedName": "MYB/QKI Fusion Gene"
+    }
+  ],
+  "history": [
+    {
+      "code": "C92552",
+      "action": "create",
+      "date": "2010-10-12"
+    },
+    {
+      "code": "C92552",
+      "action": "modify",
+      "date": "2010-12-27"
+    },
+    {
+      "code": "C92552",
+      "action": "modify",
+      "date": "2011-01-17"
+    },
+    {
+      "code": "C92552",
+      "action": "modify",
+      "date": "2012-07-30"
+    },
+    {
+      "code": "C92552",
+      "action": "modify",
+      "date": "2014-02-03"
+    },
+    {
+      "code": "C92552",
+      "action": "modify",
+      "date": "2014-08-11"
+    },
+    {
+      "code": "C92552",
+      "action": "modify",
+      "date": "2016-09-26"
+    },
+    {
+      "code": "C92552",
+      "action": "modify",
+      "date": "2017-02-21"
+    },
+    {
+      "code": "C92552",
+      "action": "modify",
+      "date": "2018-09-24"
+    },
+    {
+      "code": "C92552",
+      "action": "modify",
+      "date": "2019-05-28"
+    },
+    {
+      "code": "C92552",
+      "action": "modify",
+      "date": "2019-09-30"
+    },
+    {
+      "code": "C92552",
+      "action": "modify",
+      "date": "2019-11-25"
+    },
+    {
+      "code": "C92552",
+      "action": "modify",
+      "date": "2020-02-24"
+    },
+    {
+      "code": "C92552",
+      "action": "modify",
+      "date": "2020-04-27"
+    },
+    {
+      "code": "C92552",
+      "action": "modify",
+      "date": "2021-02-22"
+    },
+    {
+      "code": "C92552",
+      "action": "modify",
+      "date": "2021-03-29"
+    },
+    {
+      "code": "C92552",
+      "action": "modify",
+      "date": "2022-01-31"
+    },
+    {
+      "code": "C92552",
+      "action": "modify",
+      "date": "2023-12-26"
+    },
+    {
+      "code": "C92552",
+      "action": "modify",
+      "date": "2025-03-31"
+    },
+    {
+      "code": "C92552",
+      "action": "modify",
+      "date": "2025-04-28"
+    }
+  ],
+  "maps": [
+    {
+      "type": "Related To",
+      "targetName": "9431/1",
+      "targetTermType": "PT",
+      "targetCode": "morphology",
+      "targetTerminology": "GDC"
+    },
+    {
+      "type": "Related To",
+      "targetName": "Angiocentric glioma",
+      "targetTermType": "PT",
+      "targetCode": "9431/1",
+      "targetTerminology": "ICDO3",
+      "targetTerminologyVersion": "3.2"
+    },
+    {
+      "type": "Related To",
+      "targetName": "Angiocentric glioma",
+      "targetTermType": "PT",
+      "targetCode": "9431/1",
+      "targetTerminology": "ICDO3",
+      "targetTerminologyVersion": "3.1"
+    },
+    {
+      "type": "Has Synonym",
+      "targetName": "Angiocentric glioma",
+      "targetTermType": "PT",
+      "targetCode": "primary_diagnosis",
+      "targetTerminology": "GDC"
+    }
+  ]
+}

@@ -1,0 +1,686 @@
+{
+  "code": "C27502",
+  "name": "Extraskeletal Myxoid Chondrosarcoma",
+  "terminology": "ncit",
+  "version": "25.11d",
+  "conceptStatus": "DEFAULT",
+  "leaf": false,
+  "active": true,
+  "synonyms": [
+    {
+      "name": "Extraskeletal Myxoid Chondrosarcoma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "Cellosaurus"
+    },
+    {
+      "name": "Myxoid chondrosarcoma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "GDC"
+    },
+    {
+      "name": "EMC",
+      "termType": "AB",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Extraosseous Chondrosarcoma",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Extraskeletal Chondrosarcoma",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Extraskeletal Myxoid Chondrosarcoma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Myxoid Chondrosarcoma",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Myxoid Extraosseous Chondrosarcoma",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Myxoid Extraskeletal Chondrosarcoma",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "NR4A3-Rearranged Myxoid Sarcoma",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Extraskeletal Myxoid Chondrosarcoma",
+      "type": "Preferred_Name"
+    }
+  ],
+  "definitions": [
+    {
+      "definition": "A rare malignant soft tissue neoplasm of uncertain differentiation, characterized by the presence of chondroblast-like cells in a myxoid stroma and a multinodular growth pattern.  The most common sites of involvement are the deep soft tissues of the extremities, particularly the thigh.  It usually presents as an enlarging soft tissue mass.  Patients may have long survivals, but local recurrences and metastases occur in approximately half of the cases.  The most common site of metastasis is the lungs.",
+      "type": "DEFINITION",
+      "source": "NCI"
+    }
+  ],
+  "properties": [
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "Cellosaurus"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "GDC"
+    },
+    {
+      "code": "P334",
+      "type": "ICD-O-3_Code",
+      "value": "9231/3"
+    },
+    {
+      "code": "P366",
+      "type": "Legacy Concept Name",
+      "value": "Myxoid_Extraskeletal_Chondrosarcoma"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "9231/3"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "Myxoid chondrosarcoma"
+    },
+    {
+      "code": "P363",
+      "type": "Neoplastic_Status",
+      "value": "Malignant"
+    },
+    {
+      "code": "P106",
+      "type": "Semantic_Type",
+      "value": "Neoplastic Process"
+    },
+    {
+      "code": "P207",
+      "type": "UMLS_CUI",
+      "value": "C0334551"
+    }
+  ],
+  "children": [
+    {
+      "code": "C7924",
+      "name": "Adult Extraskeletal Myxoid Chondrosarcoma",
+      "leaf": true
+    },
+    {
+      "code": "C5462",
+      "name": "Brain Extraskeletal Myxoid Chondrosarcoma",
+      "leaf": true
+    },
+    {
+      "code": "C27377",
+      "name": "Childhood Extraskeletal Myxoid Chondrosarcoma",
+      "leaf": true
+    },
+    {
+      "code": "C27501",
+      "name": "Conventional Extraskeletal Myxoid Chondrosarcoma",
+      "leaf": true
+    },
+    {
+      "code": "C202881",
+      "name": "Head and Neck Extraskeletal Myxoid Chondrosarcoma",
+      "leaf": false
+    },
+    {
+      "code": "C8804",
+      "name": "Metastatic Extraskeletal Myxoid Chondrosarcoma",
+      "leaf": false
+    },
+    {
+      "code": "C8807",
+      "name": "Recurrent Extraskeletal Myxoid Chondrosarcoma",
+      "leaf": true
+    },
+    {
+      "code": "C171168",
+      "name": "Refractory Extraskeletal Myxoid Chondrosarcoma",
+      "leaf": true
+    }
+  ],
+  "parents": [
+    {
+      "code": "C6588",
+      "name": "Malignant Soft Tissue Neoplasm of Uncertain Differentiation"
+    },
+    {
+      "code": "C9306",
+      "name": "Soft Tissue Sarcoma"
+    }
+  ],
+  "associations": [
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C165258",
+      "relatedName": "Cellosaurus Disease Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C157711",
+      "relatedName": "GDC Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C177537",
+      "relatedName": "GDC Value Terminology"
+    },
+    {
+      "type": "Is_Value_For_GDC_Property",
+      "relatedCode": "C176985",
+      "relatedName": "Histology ICD-O Morphology Code"
+    },
+    {
+      "type": "Is_Value_For_GDC_Property",
+      "relatedCode": "C177621",
+      "relatedName": "ICD-O-3 Morphology Term Diagnosis Question"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168658",
+      "relatedName": "Mapped ICDO3.1 Morphology PT Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168657",
+      "relatedName": "Mapped ICDO3.1 Morphology Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168655",
+      "relatedName": "Mapped ICDO3.1 Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168662",
+      "relatedName": "Mapped ICDO3.2 Morphology PT Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168661",
+      "relatedName": "Mapped ICDO3.2 Morphology Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168656",
+      "relatedName": "Mapped ICDO3.2 Terminology"
+    }
+  ],
+  "inverseAssociations": [
+    {
+      "type": "Has_GDC_Value",
+      "relatedCode": "C176985",
+      "relatedName": "Histology ICD-O Morphology Code"
+    },
+    {
+      "type": "Has_GDC_Value",
+      "relatedCode": "C177621",
+      "relatedName": "ICD-O-3 Morphology Term Diagnosis Question"
+    }
+  ],
+  "roles": [
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C36122",
+      "relatedName": "Benign Cellular Infiltrate"
+    },
+    {
+      "type": "Disease_Excludes_Primary_Anatomic_Site",
+      "relatedCode": "C12366",
+      "relatedName": "Bone"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12964",
+      "relatedName": "Connective and Soft Tissue"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12964",
+      "relatedName": "Connective and Soft Tissue"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C53642",
+      "relatedName": "Cord-Like Pattern"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C35920",
+      "relatedName": "Cribriform Pattern"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C41454",
+      "relatedName": "Cystic Change"
+    },
+    {
+      "type": "Disease_Excludes_Normal_Cell_Origin",
+      "relatedCode": "C12578",
+      "relatedName": "Epithelial Cell"
+    },
+    {
+      "type": "Disease_Excludes_Normal_Tissue_Origin",
+      "relatedCode": "C45714",
+      "relatedName": "Epithelial Tissue"
+    },
+    {
+      "type": "Disease_May_Have_Molecular_Abnormality",
+      "relatedCode": "C37234",
+      "relatedName": "EWSR1-NR4A3 Fusion Protein Expression"
+    },
+    {
+      "type": "Disease_Mapped_To_Gene",
+      "relatedCode": "C99252",
+      "relatedName": "EWSR1/NR4A3 Fusion Gene"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C62108",
+      "relatedName": "Extraosseous Lesion"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C35380",
+      "relatedName": "Hemorrhagic Change"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C36105",
+      "relatedName": "Indolent Clinical Course"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C53665",
+      "relatedName": "Intermediate Filaments Present"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C53667",
+      "relatedName": "Intracytoplasmic Eosinophilic Inclusion"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C53644",
+      "relatedName": "Malignant Cell with Eosinophilic Cytoplasm"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12917",
+      "relatedName": "Malignant Cell"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C36115",
+      "relatedName": "Malignant Cellular Infiltrate"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C36779",
+      "relatedName": "Malignant Epithelial Cell"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C36163",
+      "relatedName": "Metastatic/Recurrent Disease"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C35900",
+      "relatedName": "Multinodular Pattern"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C35998",
+      "relatedName": "Myxoid Stroma Formation"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12922",
+      "relatedName": "Neoplastic Cell"
+    },
+    {
+      "type": "Disease_Has_Cytogenetic_Abnormality",
+      "relatedCode": "C178431",
+      "relatedName": "NR4A3 Gene Rearrangement"
+    },
+    {
+      "type": "Disease_Mapped_To_Gene",
+      "relatedCode": "C96007",
+      "relatedName": "NR4A3 Gene"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12471",
+      "relatedName": "Soft Tissue"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12471",
+      "relatedName": "Soft Tissue"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C53643",
+      "relatedName": "Spindle Cell Pattern"
+    },
+    {
+      "type": "Disease_May_Have_Cytogenetic_Abnormality",
+      "relatedCode": "C45469",
+      "relatedName": "t(3;9)(q11-12;q22)"
+    },
+    {
+      "type": "Disease_May_Have_Cytogenetic_Abnormality",
+      "relatedCode": "C36394",
+      "relatedName": "t(9;15)(q22;q21)"
+    },
+    {
+      "type": "Disease_May_Have_Cytogenetic_Abnormality",
+      "relatedCode": "C36393",
+      "relatedName": "t(9;17)(q22;q11)"
+    },
+    {
+      "type": "Disease_May_Have_Cytogenetic_Abnormality",
+      "relatedCode": "C37190",
+      "relatedName": "t(9;22)(q22-31;q12)"
+    },
+    {
+      "type": "Disease_May_Have_Molecular_Abnormality",
+      "relatedCode": "C37235",
+      "relatedName": "TAF15-NR4A3 Fusion Protein Expression"
+    },
+    {
+      "type": "Disease_Mapped_To_Gene",
+      "relatedCode": "C99501",
+      "relatedName": "TAF15/NR4A3 Fusion Gene"
+    },
+    {
+      "type": "Disease_May_Have_Molecular_Abnormality",
+      "relatedCode": "C37236",
+      "relatedName": "TCF12-NR4A3 Fusion Protein Expression"
+    },
+    {
+      "type": "Disease_Mapped_To_Gene",
+      "relatedCode": "C99401",
+      "relatedName": "TCF12/NR4A3 Fusion Gene"
+    },
+    {
+      "type": "Disease_May_Have_Molecular_Abnormality",
+      "relatedCode": "C45467",
+      "relatedName": "TFG-NR4A3 Fusion Protein Expression"
+    },
+    {
+      "type": "Disease_Mapped_To_Gene",
+      "relatedCode": "C99573",
+      "relatedName": "TFG/NR4A3 Fusion Gene"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C53583",
+      "relatedName": "Tissue Differentiation Uncertain"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C41457",
+      "relatedName": "Well-Circumscribed Lesion"
+    }
+  ],
+  "inverseRoles": [
+    {
+      "type": "Gene_Involved_In_Pathogenesis_Of_Disease",
+      "relatedCode": "C99252",
+      "relatedName": "EWSR1/NR4A3 Fusion Gene"
+    },
+    {
+      "type": "Gene_Involved_In_Pathogenesis_Of_Disease",
+      "relatedCode": "C96007",
+      "relatedName": "NR4A3 Gene"
+    },
+    {
+      "type": "Gene_Involved_In_Pathogenesis_Of_Disease",
+      "relatedCode": "C96008",
+      "relatedName": "NR4A3 wt Allele"
+    },
+    {
+      "type": "Gene_Involved_In_Pathogenesis_Of_Disease",
+      "relatedCode": "C99501",
+      "relatedName": "TAF15/NR4A3 Fusion Gene"
+    },
+    {
+      "type": "Gene_Involved_In_Pathogenesis_Of_Disease",
+      "relatedCode": "C99401",
+      "relatedName": "TCF12/NR4A3 Fusion Gene"
+    },
+    {
+      "type": "Gene_Involved_In_Pathogenesis_Of_Disease",
+      "relatedCode": "C99573",
+      "relatedName": "TFG/NR4A3 Fusion Gene"
+    }
+  ],
+  "history": [
+    {
+      "code": "C27502",
+      "action": "create",
+      "date": "2003-08-12"
+    },
+    {
+      "code": "C27502",
+      "action": "modify",
+      "date": "2003-10-31"
+    },
+    {
+      "code": "C27502",
+      "action": "modify",
+      "date": "2003-12-05"
+    },
+    {
+      "code": "C27502",
+      "action": "modify",
+      "date": "2003-12-30"
+    },
+    {
+      "code": "C27502",
+      "action": "modify",
+      "date": "2004-03-30"
+    },
+    {
+      "code": "C27502",
+      "action": "modify",
+      "date": "2004-04-30"
+    },
+    {
+      "code": "C27502",
+      "action": "modify",
+      "date": "2005-04-29"
+    },
+    {
+      "code": "C27502",
+      "action": "merge",
+      "date": "2006-02-24",
+      "replacementCode": "C27502",
+      "replacementName": "Extraskeletal Myxoid Chondrosarcoma"
+    },
+    {
+      "code": "C8806",
+      "action": "merge",
+      "date": "2006-02-24",
+      "replacementCode": "C27502",
+      "replacementName": "Extraskeletal Myxoid Chondrosarcoma"
+    },
+    {
+      "code": "C27502",
+      "action": "modify",
+      "date": "2006-07-28"
+    },
+    {
+      "code": "C27502",
+      "action": "modify",
+      "date": "2006-12-29"
+    },
+    {
+      "code": "C27502",
+      "action": "modify",
+      "date": "2009-04-06"
+    },
+    {
+      "code": "C27502",
+      "action": "modify",
+      "date": "2009-11-23"
+    },
+    {
+      "code": "C27502",
+      "action": "modify",
+      "date": "2010-01-11"
+    },
+    {
+      "code": "C27502",
+      "action": "modify",
+      "date": "2010-11-08"
+    },
+    {
+      "code": "C27502",
+      "action": "modify",
+      "date": "2011-03-07"
+    },
+    {
+      "code": "C27502",
+      "action": "modify",
+      "date": "2011-12-19"
+    },
+    {
+      "code": "C27502",
+      "action": "modify",
+      "date": "2012-03-05"
+    },
+    {
+      "code": "C27502",
+      "action": "modify",
+      "date": "2015-03-09"
+    },
+    {
+      "code": "C27502",
+      "action": "modify",
+      "date": "2015-05-04"
+    },
+    {
+      "code": "C27502",
+      "action": "modify",
+      "date": "2015-05-11"
+    },
+    {
+      "code": "C27502",
+      "action": "modify",
+      "date": "2015-05-26"
+    },
+    {
+      "code": "C27502",
+      "action": "modify",
+      "date": "2020-03-30"
+    },
+    {
+      "code": "C27502",
+      "action": "merge",
+      "date": "2021-04-26",
+      "replacementCode": "C27502",
+      "replacementName": "Extraskeletal Myxoid Chondrosarcoma"
+    },
+    {
+      "code": "C4303",
+      "action": "merge",
+      "date": "2021-04-26",
+      "replacementCode": "C27502",
+      "replacementName": "Extraskeletal Myxoid Chondrosarcoma"
+    },
+    {
+      "code": "C27502",
+      "action": "modify",
+      "date": "2021-04-26"
+    },
+    {
+      "code": "C27502",
+      "action": "modify",
+      "date": "2021-08-30"
+    },
+    {
+      "code": "C27502",
+      "action": "modify",
+      "date": "2023-02-27"
+    },
+    {
+      "code": "C27502",
+      "action": "modify",
+      "date": "2023-12-26"
+    },
+    {
+      "code": "C27502",
+      "action": "modify",
+      "date": "2025-03-31"
+    },
+    {
+      "code": "C27502",
+      "action": "modify",
+      "date": "2025-04-28"
+    }
+  ],
+  "maps": [
+    {
+      "type": "Related To",
+      "targetName": "9231/3",
+      "targetTermType": "PT",
+      "targetCode": "morphology",
+      "targetTerminology": "GDC"
+    },
+    {
+      "type": "Related To",
+      "targetName": "Myxoid chondrosarcoma",
+      "targetTermType": "PT",
+      "targetCode": "9231/3",
+      "targetTerminology": "ICDO3",
+      "targetTerminologyVersion": "3.2"
+    },
+    {
+      "type": "Related To",
+      "targetName": "Myxoid chondrosarcoma",
+      "targetTermType": "PT",
+      "targetCode": "9231/3",
+      "targetTerminology": "ICDO3",
+      "targetTerminologyVersion": "3.1"
+    },
+    {
+      "type": "Has Synonym",
+      "targetName": "Myxoid chondrosarcoma",
+      "targetTermType": "PT",
+      "targetCode": "primary_diagnosis",
+      "targetTerminology": "GDC"
+    }
+  ]
+}

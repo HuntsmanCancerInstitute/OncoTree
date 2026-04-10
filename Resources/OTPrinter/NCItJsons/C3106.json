@@ -1,0 +1,1201 @@
+{
+  "code": "C3106",
+  "name": "Histiocytosis",
+  "terminology": "ncit",
+  "version": "25.11d",
+  "conceptStatus": "DEFAULT",
+  "leaf": false,
+  "active": true,
+  "synonyms": [
+    {
+      "name": "Histiocytic Infiltrate",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "caDSR"
+    },
+    {
+      "name": "Histiocytosis",
+      "termType": "DN",
+      "type": "FULL_SYN",
+      "source": "CTRP"
+    },
+    {
+      "name": "Histiocytosis",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Histiocytic Syndrome",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NICHD"
+    },
+    {
+      "name": "Histiocytosis",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NICHD"
+    },
+    {
+      "name": "Histiocytosis",
+      "type": "Display_Name"
+    },
+    {
+      "name": "Histiocytosis",
+      "type": "Preferred_Name"
+    }
+  ],
+  "definitions": [
+    {
+      "definition": "A morphologic finding indicating tissue infiltration by non-neoplastic or neoplastic histiocytes.",
+      "type": "DEFINITION",
+      "source": "NCI"
+    }
+  ],
+  "properties": [
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "CTRP"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "NICHD"
+    },
+    {
+      "code": "P366",
+      "type": "Legacy Concept Name",
+      "value": "Histiocytosis"
+    },
+    {
+      "code": "P106",
+      "type": "Semantic_Type",
+      "value": "Finding"
+    },
+    {
+      "code": "P207",
+      "type": "UMLS_CUI",
+      "value": "C0019618"
+    }
+  ],
+  "children": [
+    {
+      "code": "C85069",
+      "name": "Sinus Histiocytosis",
+      "leaf": false
+    }
+  ],
+  "parents": [
+    {
+      "code": "C35867",
+      "name": "Morphologic Finding"
+    }
+  ],
+  "associations": [
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C118168",
+      "relatedName": "CTRP Disease Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C116977",
+      "relatedName": "CTRP Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C99147",
+      "relatedName": "Neonatal Research Network Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C90259",
+      "relatedName": "NICHD Terminology"
+    }
+  ],
+  "inverseRoles": [
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C187447",
+      "relatedName": "A53 Diffuse Large B-Cell Lymphoma"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C7873",
+      "relatedName": "Adult Immunoblastic Lymphoma"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C114929",
+      "relatedName": "Adult Langerhans Cell Histiocytosis"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C8285",
+      "relatedName": "AIDS-Related Immunoblastic Lymphoma"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C200105",
+      "relatedName": "ALK-Positive Histiocytosis"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C7247",
+      "relatedName": "Anaplastic Lymphoma Post-Transplant Lymphoproliferative Disorder"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C6916",
+      "relatedName": "Anaplastic Lymphoma"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C8078",
+      "relatedName": "Ann Arbor Stage I Adult Immunoblastic Lymphoma"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C8928",
+      "relatedName": "Ann Arbor Stage I Centroblastic Lymphoma"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C8564",
+      "relatedName": "Ann Arbor Stage II Adult Contiguous Immunoblastic Lymphoma"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C8124",
+      "relatedName": "Ann Arbor Stage II Adult Immunoblastic Lymphoma"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C8565",
+      "relatedName": "Ann Arbor Stage II Adult Non-Contiguous Immunoblastic Lymphoma"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C8929",
+      "relatedName": "Ann Arbor Stage II Centroblastic Lymphoma"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C8137",
+      "relatedName": "Ann Arbor Stage III Adult Immunoblastic Lymphoma"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C8930",
+      "relatedName": "Ann Arbor Stage III Centroblastic Lymphoma"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C8150",
+      "relatedName": "Ann Arbor Stage IV Adult Immunoblastic Lymphoma"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C8931",
+      "relatedName": "Ann Arbor Stage IV Centroblastic Lymphoma"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C7203",
+      "relatedName": "Blastic Plasmacytoid Dendritic Cell Neoplasm"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C148395",
+      "relatedName": "BN2 Diffuse Large B-Cell Lymphoma"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C178609",
+      "relatedName": "Bone Erdheim-Chester Disease"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C178607",
+      "relatedName": "Bone Langerhans Cell Histiocytosis"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C178613",
+      "relatedName": "Bone Rosai-Dorfman-Destombes Disease"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C129808",
+      "relatedName": "Central Nervous System Erdheim-Chester Disease"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C92944",
+      "relatedName": "Central Nervous System Histiocytic and Dendritic Cell Neoplasm"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C129807",
+      "relatedName": "Central Nervous System Histiocytic Sarcoma"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C129806",
+      "relatedName": "Central Nervous System Langerhans Cell Histiocytosis"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C186663",
+      "relatedName": "Central Nervous System Rosai-Dorfman-Destombes Disease"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C141263",
+      "relatedName": "Centroblastic Lymphoma by Ann Arbor Stage"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C7248",
+      "relatedName": "Centroblastic Lymphoma Post-Transplant Lymphoproliferative Disorder"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C4074",
+      "relatedName": "Centroblastic Lymphoma"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C9079",
+      "relatedName": "Childhood Immunoblastic Lymphoma"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C123395",
+      "relatedName": "Childhood Langerhans Cell Histiocytosis with Risk Organ Involvement"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C123396",
+      "relatedName": "Childhood Langerhans Cell Histiocytosis without Risk Organ Involvement"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C114483",
+      "relatedName": "Childhood Langerhans Cell Histiocytosis"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C172846",
+      "relatedName": "Conventional Follicular Dendritic Cell Sarcoma"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C27514",
+      "relatedName": "Cutaneous Adult Xanthogranuloma"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C206209",
+      "relatedName": "Cutaneous ALK-Positive Histiocytosis"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C206208",
+      "relatedName": "Cutaneous Blastic Plasmacytoid Dendritic Cell Neoplasm"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C168991",
+      "relatedName": "Cutaneous Erdheim-Chester Disease"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C168980",
+      "relatedName": "Cutaneous Histiocytic and Dendritic Cell Neoplasm"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C206210",
+      "relatedName": "Cutaneous Histiocytic Sarcoma"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C168984",
+      "relatedName": "Cutaneous Indeterminate Dendritic Cell Tumor"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C202966",
+      "relatedName": "Cutaneous Juvenile Xanthogranuloma"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C168983",
+      "relatedName": "Cutaneous Langerhans Cell Histiocytosis"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C206207",
+      "relatedName": "Cutaneous Plasmacytoid Dendritic Cell Neoplasm"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C168986",
+      "relatedName": "Cutaneous Rosai-Dorfman-Destombes Disease"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C36081",
+      "relatedName": "Diffuse Large B-Cell Lymphoma Activated B-Cell Type"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C36080",
+      "relatedName": "Diffuse Large B-Cell Lymphoma Germinal Center B-Cell Type"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C45231",
+      "relatedName": "Diffuse Large B-Cell Lymphoma Unclassifiable"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C45219",
+      "relatedName": "Diffuse Large B-Cell Lymphoma, Not Otherwise Specified by Gene Expression Profile"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C148392",
+      "relatedName": "Diffuse Large B-Cell Lymphoma, Not Otherwise Specified Molecular Subtypes"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C80280",
+      "relatedName": "Diffuse Large B-Cell Lymphoma, Not Otherwise Specified"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C213905",
+      "relatedName": "Digestive System Histiocytic and Dendritic Cell Neoplasm"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C81772",
+      "relatedName": "Disseminated Juvenile Xanthogranuloma"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C150704",
+      "relatedName": "EBV-Positive Inflammatory Follicular Dendritic Cell/Fibroblastic Reticular Cell Tumor of the Digestive System"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C172847",
+      "relatedName": "EBV-Positive Inflammatory Follicular Dendritic Cell/Fibroblastic Reticular Cell Tumor"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C203528",
+      "relatedName": "EBV-Related Hemophagocytic Lymphohistiocytosis"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C3016",
+      "relatedName": "Eosinophilic Granuloma"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C53972",
+      "relatedName": "Erdheim-Chester Disease"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C148398",
+      "relatedName": "EZB Diffuse Large B-Cell Lymphoma"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C203462",
+      "relatedName": "Familial Hemophagocytic Lymphohistiocytosis Type 2"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C203463",
+      "relatedName": "Familial Hemophagocytic Lymphohistiocytosis Type 3"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C203461",
+      "relatedName": "Familial Hemophagocytic Lymphohistiocytosis Type 4"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C203464",
+      "relatedName": "Familial Hemophagocytic Lymphohistiocytosis Type 5"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C61276",
+      "relatedName": "Familial Hemophagocytic Lymphohistiocytosis"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C81758",
+      "relatedName": "Fibroblastic Reticular Cell Sarcoma"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C9281",
+      "relatedName": "Follicular Dendritic Cell Sarcoma"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C213827",
+      "relatedName": "Gingival Langerhans Cell Histiocytosis"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C6920",
+      "relatedName": "Hand-Schuller-Christian Disease"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C202972",
+      "relatedName": "Head and Neck Erdheim-Chester Disease"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C173580",
+      "relatedName": "Head and Neck Follicular Dendritic Cell Sarcoma"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C173485",
+      "relatedName": "Head and Neck Histiocytic and Dendritic Cell Neoplasm"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C202967",
+      "relatedName": "Head and Neck Juvenile Xanthogranuloma"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C173486",
+      "relatedName": "Head and Neck Langerhans Cell Histiocytosis"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C202971",
+      "relatedName": "Head and Neck Rosai-Dorfman-Destombes Disease"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C34792",
+      "relatedName": "Hemophagocytic Lymphohistiocytosis"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C9294",
+      "relatedName": "Histiocytic and Dendritic Cell Neoplasm"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C203422",
+      "relatedName": "Histiocytic Disorder"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C27349",
+      "relatedName": "Histiocytic Sarcoma"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C7249",
+      "relatedName": "Immunoblastic Lymphoma Post-Transplant Lymphoproliferative Disorder"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C3461",
+      "relatedName": "Immunoblastic Lymphoma"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C81767",
+      "relatedName": "Indeterminate Dendritic Cell Tumor"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C215359",
+      "relatedName": "Infection-Associated Hemophagocytic Lymphohistiocytosis"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C9282",
+      "relatedName": "Interdigitating Dendritic Cell Sarcoma"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C3451",
+      "relatedName": "Juvenile Xanthogranuloma"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C71719",
+      "relatedName": "Kikuchi-Fujimoto Disease"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C150703",
+      "relatedName": "Langerhans Cell Histiocytosis, Disseminated"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C150701",
+      "relatedName": "Langerhans Cell Histiocytosis, Monostotic"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C150702",
+      "relatedName": "Langerhans Cell Histiocytosis, Polyostotic"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C3107",
+      "relatedName": "Langerhans Cell Histiocytosis"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C6921",
+      "relatedName": "Langerhans Cell Sarcoma"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C3160",
+      "relatedName": "Letterer-Siwe Disease"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C213906",
+      "relatedName": "Lung Histiocytic and Dendritic Cell Neoplasm"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C7207",
+      "relatedName": "Lymphohistiocytic Variant Anaplastic Large Cell Lymphoma"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C213904",
+      "relatedName": "Malignant Digestive System Histiocytic and Dendritic Cell Neoplasm"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C213903",
+      "relatedName": "Malignant Head and Neck Histiocytic and Dendritic Cell Neoplasm"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C212210",
+      "relatedName": "Malignant Histiocytic and Dendritic Cell Neoplasm"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C200513",
+      "relatedName": "Mature Plasmacytoid Dendritic Cell Proliferation Associated with Myeloid Neoplasm"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C148394",
+      "relatedName": "MCD Diffuse Large B-Cell Lymphoma"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C183374",
+      "relatedName": "Mediastinal Follicular Dendritic Cell Sarcoma"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C148396",
+      "relatedName": "N1 Diffuse Large B-Cell Lymphoma"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C173487",
+      "relatedName": "Oral Cavity Langerhans Cell Histiocytosis"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C206206",
+      "relatedName": "Plasmacytoid Dendritic Cell Neoplasm"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C45215",
+      "relatedName": "Primary Cutaneous T-Cell/Histiocyte-Rich Large B-Cell Lymphoma"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C223234",
+      "relatedName": "Pulmonary Erdheim-Chester Disease"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C142833",
+      "relatedName": "Pulmonary Langerhans Cell Histiocytosis"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C8163",
+      "relatedName": "Recurrent Adult Immunoblastic Lymphoma"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C156103",
+      "relatedName": "Recurrent Blastic Plasmacytoid Dendritic Cell Neoplasm"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C8926",
+      "relatedName": "Recurrent Centroblastic Lymphoma"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C160231",
+      "relatedName": "Recurrent Diffuse Large B-Cell Lymphoma Activated B-Cell Type"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C160230",
+      "relatedName": "Recurrent Diffuse Large B-Cell Lymphoma Germinal Center B-Cell Type"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C165240",
+      "relatedName": "Recurrent Diffuse Large B-Cell Lymphoma, Not Otherwise Specified"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C212187",
+      "relatedName": "Recurrent Erdheim-Chester Disease"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C212197",
+      "relatedName": "Recurrent Fibroblastic Reticular Cell Sarcoma"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C153296",
+      "relatedName": "Recurrent Hemophagocytic Lymphohistiocytosis"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C134172",
+      "relatedName": "Recurrent Histiocytic and Dendritic Cell Neoplasm"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C212190",
+      "relatedName": "Recurrent Histiocytic Sarcoma"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C182035",
+      "relatedName": "Recurrent Immunoblastic Lymphoma"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C212198",
+      "relatedName": "Recurrent Interdigitating Dendritic Cell Sarcoma"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C134175",
+      "relatedName": "Recurrent Langerhans Cell Histiocytosis"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C212211",
+      "relatedName": "Recurrent Malignant Histiocytic and Dendritic Cell Neoplasm"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C212192",
+      "relatedName": "Recurrent Rosai-Dorfman-Destombes Disease"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C156696",
+      "relatedName": "Recurrent T-Cell/Histiocyte-Rich Large B-Cell Lymphoma"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C156104",
+      "relatedName": "Refractory Blastic Plasmacytoid Dendritic Cell Neoplasm"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C8927",
+      "relatedName": "Refractory Centroblastic Lymphoma"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C160239",
+      "relatedName": "Refractory Diffuse Large B-Cell Lymphoma Activated B-Cell Type"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C160238",
+      "relatedName": "Refractory Diffuse Large B-Cell Lymphoma Germinal Center B-Cell Type"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C165241",
+      "relatedName": "Refractory Diffuse Large B-Cell Lymphoma, Not Otherwise Specified"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C136489",
+      "relatedName": "Refractory Erdheim-Chester Disease"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C212199",
+      "relatedName": "Refractory Fibroblastic Reticular Cell Sarcoma"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C153297",
+      "relatedName": "Refractory Hemophagocytic Lymphohistiocytosis"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C134168",
+      "relatedName": "Refractory Histiocytic and Dendritic Cell Neoplasm"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C212191",
+      "relatedName": "Refractory Histiocytic Sarcoma"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C182034",
+      "relatedName": "Refractory Immunoblastic Lymphoma"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C212200",
+      "relatedName": "Refractory Interdigitating Dendritic Cell Sarcoma"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C134177",
+      "relatedName": "Refractory Langerhans Cell Histiocytosis"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C212212",
+      "relatedName": "Refractory Malignant Histiocytic and Dendritic Cell Neoplasm"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C212193",
+      "relatedName": "Refractory Rosai-Dorfman-Destombes Disease"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C207802",
+      "relatedName": "Refractory Secondary Hemophagocytic Lymphohistiocytosis"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C157678",
+      "relatedName": "Refractory T-Cell/Histiocyte-Rich Large B-Cell Lymphoma"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C36075",
+      "relatedName": "Rosai-Dorfman-Destombes Disease"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C121184",
+      "relatedName": "Secondary Hemophagocytic Lymphohistiocytosis"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C187445",
+      "relatedName": "ST2 Diffuse Large B-Cell Lymphoma"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C9496",
+      "relatedName": "T-Cell/Histiocyte-Rich Large B-Cell Lymphoma"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C156408",
+      "relatedName": "Thyroid Gland Follicular Dendritic Cell Sarcoma"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C156406",
+      "relatedName": "Thyroid Gland Histiocytic and Dendritic Cell Neoplasm"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C7263",
+      "relatedName": "Thyroid Gland Immunoblastic Lymphoma"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C156407",
+      "relatedName": "Thyroid Gland Langerhans Cell Histiocytosis"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C156409",
+      "relatedName": "Thyroid Gland Rosai-Dorfman-Destombes Disease"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C150692",
+      "relatedName": "Tumors Derived from Langerhans Cells"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C162686",
+      "relatedName": "Virus-Related Hemophagocytic Lymphohistiocytosis"
+    }
+  ],
+  "history": [
+    {
+      "code": "C3106",
+      "action": "create",
+      "date": "2003-08-12"
+    },
+    {
+      "code": "C3106",
+      "action": "modify",
+      "date": "2003-12-30"
+    },
+    {
+      "code": "C3106",
+      "action": "modify",
+      "date": "2004-03-30"
+    },
+    {
+      "code": "C3106",
+      "action": "merge",
+      "date": "2004-09-24",
+      "replacementCode": "C3106",
+      "replacementName": "Histiocytosis"
+    },
+    {
+      "code": "C39693",
+      "action": "merge",
+      "date": "2004-09-24",
+      "replacementCode": "C3106",
+      "replacementName": "Histiocytosis"
+    },
+    {
+      "code": "C3106",
+      "action": "modify",
+      "date": "2005-03-16"
+    },
+    {
+      "code": "C3106",
+      "action": "modify",
+      "date": "2009-11-23"
+    },
+    {
+      "code": "C3106",
+      "action": "modify",
+      "date": "2010-06-21"
+    },
+    {
+      "code": "C3106",
+      "action": "modify",
+      "date": "2010-06-28"
+    },
+    {
+      "code": "C3106",
+      "action": "modify",
+      "date": "2010-07-06"
+    },
+    {
+      "code": "C3106",
+      "action": "modify",
+      "date": "2010-07-12"
+    },
+    {
+      "code": "C3106",
+      "action": "modify",
+      "date": "2010-07-19"
+    },
+    {
+      "code": "C3106",
+      "action": "modify",
+      "date": "2010-07-26"
+    },
+    {
+      "code": "C3106",
+      "action": "modify",
+      "date": "2010-08-02"
+    },
+    {
+      "code": "C3106",
+      "action": "modify",
+      "date": "2010-08-09"
+    },
+    {
+      "code": "C3106",
+      "action": "modify",
+      "date": "2010-08-16"
+    },
+    {
+      "code": "C3106",
+      "action": "modify",
+      "date": "2010-08-23"
+    },
+    {
+      "code": "C3106",
+      "action": "modify",
+      "date": "2010-08-30"
+    },
+    {
+      "code": "C3106",
+      "action": "modify",
+      "date": "2010-09-07"
+    },
+    {
+      "code": "C3106",
+      "action": "modify",
+      "date": "2010-09-13"
+    },
+    {
+      "code": "C3106",
+      "action": "modify",
+      "date": "2010-09-20"
+    },
+    {
+      "code": "C3106",
+      "action": "modify",
+      "date": "2010-09-27"
+    },
+    {
+      "code": "C3106",
+      "action": "modify",
+      "date": "2012-03-12"
+    },
+    {
+      "code": "C3106",
+      "action": "modify",
+      "date": "2012-10-01"
+    },
+    {
+      "code": "C3106",
+      "action": "modify",
+      "date": "2012-10-09"
+    },
+    {
+      "code": "C3106",
+      "action": "modify",
+      "date": "2012-10-15"
+    },
+    {
+      "code": "C3106",
+      "action": "modify",
+      "date": "2012-10-22"
+    },
+    {
+      "code": "C3106",
+      "action": "modify",
+      "date": "2012-12-17"
+    },
+    {
+      "code": "C3106",
+      "action": "modify",
+      "date": "2012-12-28"
+    },
+    {
+      "code": "C3106",
+      "action": "modify",
+      "date": "2013-02-25"
+    },
+    {
+      "code": "C3106",
+      "action": "modify",
+      "date": "2013-03-04"
+    },
+    {
+      "code": "C3106",
+      "action": "modify",
+      "date": "2013-03-11"
+    },
+    {
+      "code": "C3106",
+      "action": "modify",
+      "date": "2013-03-18"
+    },
+    {
+      "code": "C3106",
+      "action": "modify",
+      "date": "2013-03-25"
+    },
+    {
+      "code": "C3106",
+      "action": "modify",
+      "date": "2013-04-01"
+    },
+    {
+      "code": "C3106",
+      "action": "modify",
+      "date": "2013-04-08"
+    },
+    {
+      "code": "C3106",
+      "action": "modify",
+      "date": "2013-04-15"
+    },
+    {
+      "code": "C3106",
+      "action": "modify",
+      "date": "2013-04-22"
+    },
+    {
+      "code": "C3106",
+      "action": "modify",
+      "date": "2013-04-29"
+    },
+    {
+      "code": "C3106",
+      "action": "modify",
+      "date": "2013-05-06"
+    },
+    {
+      "code": "C3106",
+      "action": "modify",
+      "date": "2013-05-13"
+    },
+    {
+      "code": "C3106",
+      "action": "modify",
+      "date": "2013-05-20"
+    },
+    {
+      "code": "C3106",
+      "action": "modify",
+      "date": "2013-05-28"
+    },
+    {
+      "code": "C3106",
+      "action": "modify",
+      "date": "2013-06-03"
+    },
+    {
+      "code": "C3106",
+      "action": "modify",
+      "date": "2013-06-10"
+    },
+    {
+      "code": "C3106",
+      "action": "modify",
+      "date": "2013-06-17"
+    },
+    {
+      "code": "C3106",
+      "action": "modify",
+      "date": "2013-06-24"
+    },
+    {
+      "code": "C3106",
+      "action": "modify",
+      "date": "2013-07-01"
+    },
+    {
+      "code": "C3106",
+      "action": "modify",
+      "date": "2013-07-08"
+    },
+    {
+      "code": "C3106",
+      "action": "modify",
+      "date": "2013-08-26"
+    },
+    {
+      "code": "C3106",
+      "action": "modify",
+      "date": "2014-08-11"
+    },
+    {
+      "code": "C3106",
+      "action": "modify",
+      "date": "2014-08-25"
+    },
+    {
+      "code": "C3106",
+      "action": "modify",
+      "date": "2014-11-17"
+    },
+    {
+      "code": "C3106",
+      "action": "modify",
+      "date": "2015-05-18"
+    },
+    {
+      "code": "C3106",
+      "action": "modify",
+      "date": "2015-07-13"
+    },
+    {
+      "code": "C3106",
+      "action": "modify",
+      "date": "2015-08-12"
+    },
+    {
+      "code": "C3106",
+      "action": "modify",
+      "date": "2016-10-17"
+    },
+    {
+      "code": "C3106",
+      "action": "modify",
+      "date": "2018-10-29"
+    },
+    {
+      "code": "C3106",
+      "action": "modify",
+      "date": "2018-10-29"
+    },
+    {
+      "code": "C3106",
+      "action": "modify",
+      "date": "2020-03-30"
+    },
+    {
+      "code": "C3106",
+      "action": "modify",
+      "date": "2020-08-31"
+    },
+    {
+      "code": "C3106",
+      "action": "modify",
+      "date": "2020-09-29"
+    },
+    {
+      "code": "C3106",
+      "action": "modify",
+      "date": "2021-03-29"
+    },
+    {
+      "code": "C3106",
+      "action": "modify",
+      "date": "2022-08-29"
+    }
+  ]
+}

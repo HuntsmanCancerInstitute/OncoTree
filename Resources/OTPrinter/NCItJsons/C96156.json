@@ -1,0 +1,500 @@
+{
+  "code": "C96156",
+  "name": "Colorectal Neuroendocrine Carcinoma",
+  "terminology": "ncit",
+  "version": "25.11d",
+  "conceptStatus": "DEFAULT",
+  "leaf": false,
+  "active": true,
+  "synonyms": [
+    {
+      "name": "Colorectal Neuroendocrine Carcinoma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "Cellosaurus"
+    },
+    {
+      "name": "Colorectal (Colon or Rectal) Neuroendocrine Cancer",
+      "termType": "DN",
+      "type": "FULL_SYN",
+      "source": "CTRP"
+    },
+    {
+      "name": "Colorectal Neuroendocrine Carcinoma",
+      "termType": "DN",
+      "type": "FULL_SYN",
+      "source": "CTRP"
+    },
+    {
+      "name": "Colorectal NEC",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Colorectal Neuroendocrine Carcinoma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Colorectal Neuroendocrine Carcinoma",
+      "type": "Display_Name"
+    },
+    {
+      "name": "Colorectal Neuroendocrine Carcinoma",
+      "type": "Preferred_Name"
+    }
+  ],
+  "definitions": [
+    {
+      "definition": "An aggressive high-grade carcinoma with neuroendocrine differentiation that arises from the colon or rectum. It is composed of malignant small or large cells. The mitotic count is more than 20 per 2 mm2 and/or the Ki-67 index is more than 20%.",
+      "type": "DEFINITION",
+      "source": "NCI"
+    }
+  ],
+  "properties": [
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "Cellosaurus"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "CTRP"
+    },
+    {
+      "code": "P363",
+      "type": "Neoplastic_Status",
+      "value": "Malignant"
+    },
+    {
+      "code": "P106",
+      "type": "Semantic_Type",
+      "value": "Neoplastic Process"
+    },
+    {
+      "code": "P207",
+      "type": "UMLS_CUI",
+      "value": "C3272607"
+    }
+  ],
+  "children": [
+    {
+      "code": "C203384",
+      "name": "Colon Neuroendocrine Carcinoma",
+      "leaf": false
+    },
+    {
+      "code": "C96157",
+      "name": "Colorectal Large Cell Neuroendocrine Carcinoma",
+      "leaf": false
+    },
+    {
+      "code": "C43587",
+      "name": "Colorectal Small Cell Neuroendocrine Carcinoma",
+      "leaf": false
+    },
+    {
+      "code": "C203385",
+      "name": "Rectal Neuroendocrine Carcinoma",
+      "leaf": false
+    }
+  ],
+  "parents": [
+    {
+      "code": "C2955",
+      "name": "Colorectal Carcinoma"
+    },
+    {
+      "code": "C96152",
+      "name": "Colorectal Neuroendocrine Neoplasm"
+    },
+    {
+      "code": "C96063",
+      "name": "Intestinal Neuroendocrine Carcinoma"
+    }
+  ],
+  "associations": [
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C165258",
+      "relatedName": "Cellosaurus Disease Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C118168",
+      "relatedName": "CTRP Disease Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C116977",
+      "relatedName": "CTRP Terminology"
+    }
+  ],
+  "roles": [
+    {
+      "type": "Disease_Mapped_To_Gene",
+      "relatedCode": "C17567",
+      "relatedName": "APC Gene"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C36122",
+      "relatedName": "Benign Cellular Infiltrate"
+    },
+    {
+      "type": "Disease_May_Have_Molecular_Abnormality",
+      "relatedCode": "C40430",
+      "relatedName": "BRAF Gene Mutation"
+    },
+    {
+      "type": "Disease_Mapped_To_Gene",
+      "relatedCode": "C18363",
+      "relatedName": "BRAF Gene"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C54172",
+      "relatedName": "Carcinomatous Component Present"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C54189",
+      "relatedName": "Colorectal Region"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C54189",
+      "relatedName": "Colorectal Region"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C54189",
+      "relatedName": "Colorectal Region"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12378",
+      "relatedName": "Digestive System"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12378",
+      "relatedName": "Digestive System"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C12573",
+      "relatedName": "Endocrine Cell of the Digestive System"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C32506",
+      "relatedName": "Endocrine Cell"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C188014",
+      "relatedName": "Endocrine Differentiation"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12704",
+      "relatedName": "Endocrine Gland"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12704",
+      "relatedName": "Endocrine Gland"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12705",
+      "relatedName": "Endocrine System"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12705",
+      "relatedName": "Endocrine System"
+    },
+    {
+      "type": "Disease_Excludes_Normal_Cell_Origin",
+      "relatedCode": "C12865",
+      "relatedName": "Endothelial Cell"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C12578",
+      "relatedName": "Epithelial Cell"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C53596",
+      "relatedName": "Epithelial Component Present"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C45714",
+      "relatedName": "Epithelial Tissue"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C207031",
+      "relatedName": "Expression of Neuroendocrine Markers Present"
+    },
+    {
+      "type": "Disease_Is_Grade",
+      "relatedCode": "C14158",
+      "relatedName": "High Grade"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C35960",
+      "relatedName": "High Mitotic Activity"
+    },
+    {
+      "type": "Disease_May_Have_Molecular_Abnormality",
+      "relatedCode": "C36683",
+      "relatedName": "Inactivating APC Gene Mutation"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C155862",
+      "relatedName": "Intermediate Grade Neuroendocrine Lesion"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12736",
+      "relatedName": "Intestine"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12736",
+      "relatedName": "Intestine"
+    },
+    {
+      "type": "Disease_May_Have_Molecular_Abnormality",
+      "relatedCode": "C36665",
+      "relatedName": "KRAS Gene Amplification"
+    },
+    {
+      "type": "Disease_Mapped_To_Gene",
+      "relatedCode": "C25785",
+      "relatedName": "KRAS Gene"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C32926",
+      "relatedName": "Large Intestinal Mucosa"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12379",
+      "relatedName": "Large Intestine"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C36818",
+      "relatedName": "Large Osteoclastic Giant Cell"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C155864",
+      "relatedName": "Low Grade Neuroendocrine Lesion"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C35961",
+      "relatedName": "Low Mitotic Activity"
+    },
+    {
+      "type": "Disease_Excludes_Primary_Anatomic_Site",
+      "relatedCode": "C12468",
+      "relatedName": "Lung"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12917",
+      "relatedName": "Malignant Cell"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C36115",
+      "relatedName": "Malignant Cellular Infiltrate"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36929",
+      "relatedName": "Malignant Endocrine Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36779",
+      "relatedName": "Malignant Epithelial Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36825",
+      "relatedName": "Malignant Neuroendocrine Cell"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C37153",
+      "relatedName": "Malignant Stromal Cell"
+    },
+    {
+      "type": "Disease_May_Have_Molecular_Abnormality",
+      "relatedCode": "C43597",
+      "relatedName": "MYC Gene Mutation"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12922",
+      "relatedName": "Neoplastic Cell"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C37088",
+      "relatedName": "Neoplastic Endothelial Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36753",
+      "relatedName": "Neoplastic Epithelial Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36761",
+      "relatedName": "Neoplastic Neuroendocrine Cell"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C36937",
+      "relatedName": "Neoplastic Smooth Muscle Cell"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C43574",
+      "relatedName": "Neuroendocrine Differentiation"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C155863",
+      "relatedName": "Poorly Differentiated Neuroendocrine Lesion"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C8329",
+      "relatedName": "Severe Cytologic Atypia"
+    },
+    {
+      "type": "Disease_May_Have_Molecular_Abnormality",
+      "relatedCode": "C36329",
+      "relatedName": "TP53 Gene Inactivation"
+    },
+    {
+      "type": "Disease_Mapped_To_Gene",
+      "relatedCode": "C17359",
+      "relatedName": "TP53 Gene"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C155861",
+      "relatedName": "Well Differentiated Neuroendocrine Lesion"
+    }
+  ],
+  "history": [
+    {
+      "code": "C96156",
+      "action": "create",
+      "date": "2011-03-28"
+    },
+    {
+      "code": "C96156",
+      "action": "modify",
+      "date": "2011-05-31"
+    },
+    {
+      "code": "C96156",
+      "action": "modify",
+      "date": "2011-08-15"
+    },
+    {
+      "code": "C96156",
+      "action": "modify",
+      "date": "2012-03-12"
+    },
+    {
+      "code": "C96156",
+      "action": "modify",
+      "date": "2014-02-03"
+    },
+    {
+      "code": "C96156",
+      "action": "modify",
+      "date": "2017-07-31"
+    },
+    {
+      "code": "C96156",
+      "action": "modify",
+      "date": "2018-03-26"
+    },
+    {
+      "code": "C96156",
+      "action": "modify",
+      "date": "2018-07-30"
+    },
+    {
+      "code": "C96156",
+      "action": "modify",
+      "date": "2018-08-27"
+    },
+    {
+      "code": "C96156",
+      "action": "modify",
+      "date": "2018-08-27"
+    },
+    {
+      "code": "C96156",
+      "action": "modify",
+      "date": "2018-10-29"
+    },
+    {
+      "code": "C96156",
+      "action": "modify",
+      "date": "2018-10-29"
+    },
+    {
+      "code": "C96156",
+      "action": "modify",
+      "date": "2019-10-28"
+    },
+    {
+      "code": "C96156",
+      "action": "modify",
+      "date": "2023-02-27"
+    },
+    {
+      "code": "C96156",
+      "action": "modify",
+      "date": "2024-01-29"
+    },
+    {
+      "code": "C96156",
+      "action": "modify",
+      "date": "2024-10-28"
+    },
+    {
+      "code": "C96156",
+      "action": "modify",
+      "date": "2025-03-31"
+    },
+    {
+      "code": "C96156",
+      "action": "modify",
+      "date": "2025-04-28"
+    }
+  ]
+}

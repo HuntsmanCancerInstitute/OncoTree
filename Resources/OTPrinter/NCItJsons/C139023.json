@@ -1,0 +1,236 @@
+{
+  "code": "C139023",
+  "name": "Primary Cutaneous Acral CD8-Positive T-Cell Lymphoproliferative Disorder",
+  "terminology": "ncit",
+  "version": "25.11d",
+  "conceptStatus": "DEFAULT",
+  "leaf": true,
+  "active": true,
+  "synonyms": [
+    {
+      "name": "Primary Cutaneous Acral CD8-Positive T-Cell LPD",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Primary Cutaneous Acral CD8-Positive T-Cell Lymphoma",
+      "termType": "AQS",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Primary Cutaneous Acral CD8-Positive T-Cell Lymphoproliferative Disorder",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Primary Cutaneous Acral CD8-Positive T-Cell Lymphoproliferative Disorder",
+      "type": "Preferred_Name"
+    }
+  ],
+  "definitions": [
+    {
+      "definition": "A primary cutaneous T-cell lymphoproliferative disorder that presents as an acral (peripheral) lesion. It is composed of CD8-positive neoplastic T-lymphocytes. It is usually localized to a single site and has an indolent clinical course. Local or more extensive recurrences have been described in a minority of patients.",
+      "type": "DEFINITION",
+      "source": "NCI"
+    }
+  ],
+  "properties": [
+    {
+      "code": "P208",
+      "type": "NCI_META_CUI",
+      "value": "CL526531"
+    },
+    {
+      "code": "P363",
+      "type": "Neoplastic_Status",
+      "value": "Undetermined"
+    },
+    {
+      "code": "P106",
+      "type": "Semantic_Type",
+      "value": "Neoplastic Process"
+    }
+  ],
+  "parents": [
+    {
+      "code": "C7764",
+      "name": "Atypical Lymphoproliferative Disorder"
+    },
+    {
+      "code": "C45250",
+      "name": "Cutaneous Mature T-Cell and NK-Cell Neoplasm"
+    }
+  ],
+  "roles": [
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36987",
+      "relatedName": "Abnormal Hematopoietic and Lymphoid Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36725",
+      "relatedName": "Abnormal Lymphocyte"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C139024",
+      "relatedName": "Acral Lesion"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C37165",
+      "relatedName": "Atypical Lymphocyte"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C45324",
+      "relatedName": "CD8-Positive Neoplastic Cells Present"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C39570",
+      "relatedName": "Cutaneous Involvement"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C41165",
+      "relatedName": "Hematopoietic and Lymphatic System"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C41165",
+      "relatedName": "Hematopoietic and Lymphatic System"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C32725",
+      "relatedName": "Hematopoietic and Lymphoid Cell"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C41168",
+      "relatedName": "Hematopoietic and Lymphoid Tissue"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C36105",
+      "relatedName": "Indolent Clinical Course"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12907",
+      "relatedName": "Integumentary System"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12746",
+      "relatedName": "Lymphatic System"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C12535",
+      "relatedName": "Lymphocyte"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C13049",
+      "relatedName": "Lymphoid Tissue"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C38439",
+      "relatedName": "Mature Lymphocyte"
+    },
+    {
+      "type": "Disease_Excludes_Normal_Cell_Origin",
+      "relatedCode": "C12549",
+      "relatedName": "Myeloid Cell"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C38640",
+      "relatedName": "Neoplastic B-Lymphocyte"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12922",
+      "relatedName": "Neoplastic Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C37060",
+      "relatedName": "Neoplastic Hematopoietic and Lymphoid Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36988",
+      "relatedName": "Neoplastic Lymphocyte"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C39566",
+      "relatedName": "Neoplastic T-Lymphocyte and Neoplastic Natural Killer Cell"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C39568",
+      "relatedName": "Peripheral (Post-Thymic) T-Lymphocyte and Natural Killer Cell"
+    },
+    {
+      "type": "Disease_Excludes_Normal_Cell_Origin",
+      "relatedCode": "C39300",
+      "relatedName": "Precursor Natural Killer Cell"
+    },
+    {
+      "type": "Disease_Excludes_Normal_Cell_Origin",
+      "relatedCode": "C33930",
+      "relatedName": "Precursor T-Lymphoblast"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12470",
+      "relatedName": "Skin"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12470",
+      "relatedName": "Skin"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C39567",
+      "relatedName": "T-Lymphocyte and Natural Killer Cell"
+    }
+  ],
+  "history": [
+    {
+      "code": "C139023",
+      "action": "create",
+      "date": "2017-09-26"
+    },
+    {
+      "code": "C139023",
+      "action": "modify",
+      "date": "2017-09-26"
+    },
+    {
+      "code": "C139023",
+      "action": "modify",
+      "date": "2019-05-28"
+    },
+    {
+      "code": "C139023",
+      "action": "modify",
+      "date": "2023-06-26"
+    },
+    {
+      "code": "C139023",
+      "action": "modify",
+      "date": "2024-04-29"
+    }
+  ]
+}

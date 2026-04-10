@@ -1,0 +1,314 @@
+{
+  "code": "C54294",
+  "name": "Sinonasal Undifferentiated Carcinoma",
+  "terminology": "ncit",
+  "version": "25.11d",
+  "conceptStatus": "DEFAULT",
+  "leaf": true,
+  "active": true,
+  "synonyms": [
+    {
+      "name": "Sinonasal Undifferentiated Carcinoma",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "caDSR"
+    },
+    {
+      "name": "Sinonasal Undifferentiated Carcinoma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "Cellosaurus"
+    },
+    {
+      "name": "Undifferentiated Sinonasal Cancer",
+      "termType": "DN",
+      "type": "FULL_SYN",
+      "source": "CTRP"
+    },
+    {
+      "name": "Sinonasal Anaplastic Carcinoma",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Sinonasal Undifferentiated Carcinoma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Sinonasal Undifferentiated Carcinoma",
+      "type": "Display_Name"
+    },
+    {
+      "name": "Sinonasal Undifferentiated Carcinoma",
+      "type": "Preferred_Name"
+    }
+  ],
+  "definitions": [
+    {
+      "definition": "A rare, highly aggressive carcinoma that arises from the sinonasal tract.  It is characterized by the presence of small to medium size malignant cells.  The prognosis is poor.",
+      "type": "DEFINITION",
+      "source": "NCI"
+    }
+  ],
+  "properties": [
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "Cellosaurus"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "CTRP"
+    },
+    {
+      "code": "P366",
+      "type": "Legacy Concept Name",
+      "value": "Sinonasal_Undifferentiated_Carcinoma"
+    },
+    {
+      "code": "P363",
+      "type": "Neoplastic_Status",
+      "value": "Malignant"
+    },
+    {
+      "code": "P106",
+      "type": "Semantic_Type",
+      "value": "Neoplastic Process"
+    },
+    {
+      "code": "P207",
+      "type": "UMLS_CUI",
+      "value": "C1710096"
+    }
+  ],
+  "parents": [
+    {
+      "code": "C215427",
+      "name": "Head and Neck Undifferentiated Carcinoma"
+    },
+    {
+      "code": "C54293",
+      "name": "Sinonasal Carcinoma"
+    }
+  ],
+  "associations": [
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C165258",
+      "relatedName": "Cellosaurus Disease Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C118168",
+      "relatedName": "CTRP Disease Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C116977",
+      "relatedName": "CTRP Terminology"
+    }
+  ],
+  "roles": [
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C36122",
+      "relatedName": "Benign Cellular Infiltrate"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C54172",
+      "relatedName": "Carcinomatous Component Present"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C12578",
+      "relatedName": "Epithelial Cell"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C53596",
+      "relatedName": "Epithelial Component Present"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C45714",
+      "relatedName": "Epithelial Tissue"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C43573",
+      "relatedName": "Glandular Differentiation"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12418",
+      "relatedName": "Head and Neck"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12418",
+      "relatedName": "Head and Neck"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12917",
+      "relatedName": "Malignant Cell"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C36115",
+      "relatedName": "Malignant Cellular Infiltrate"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36779",
+      "relatedName": "Malignant Epithelial Cell"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C54387",
+      "relatedName": "Malignant Epithelial Large Cell with Vesicular Nucleus and Distinct Nucleolus"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C37153",
+      "relatedName": "Malignant Stromal Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12922",
+      "relatedName": "Neoplastic Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36753",
+      "relatedName": "Neoplastic Epithelial Cell"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C36937",
+      "relatedName": "Neoplastic Smooth Muscle Cell"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C54292",
+      "relatedName": "Sinonasal Tract"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C54292",
+      "relatedName": "Sinonasal Tract"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C38770",
+      "relatedName": "Squamous Differentiation"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C37085",
+      "relatedName": "Undifferentiated Carcinoma Cell"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C36134",
+      "relatedName": "Undifferentiated Lesion"
+    }
+  ],
+  "history": [
+    {
+      "code": "C54294",
+      "action": "create",
+      "date": "2006-03-31"
+    },
+    {
+      "code": "C54294",
+      "action": "modify",
+      "date": "2006-06-30"
+    },
+    {
+      "code": "C54294",
+      "action": "modify",
+      "date": "2007-06-28"
+    },
+    {
+      "code": "C54294",
+      "action": "modify",
+      "date": "2009-04-06"
+    },
+    {
+      "code": "C54294",
+      "action": "modify",
+      "date": "2009-11-23"
+    },
+    {
+      "code": "C54294",
+      "action": "modify",
+      "date": "2013-08-12"
+    },
+    {
+      "code": "C54294",
+      "action": "modify",
+      "date": "2017-07-31"
+    },
+    {
+      "code": "C54294",
+      "action": "modify",
+      "date": "2018-07-30"
+    },
+    {
+      "code": "C54294",
+      "action": "modify",
+      "date": "2018-08-27"
+    },
+    {
+      "code": "C54294",
+      "action": "modify",
+      "date": "2018-08-27"
+    },
+    {
+      "code": "C54294",
+      "action": "modify",
+      "date": "2019-06-24"
+    },
+    {
+      "code": "C54294",
+      "action": "modify",
+      "date": "2019-10-28"
+    },
+    {
+      "code": "C54294",
+      "action": "modify",
+      "date": "2020-09-29"
+    },
+    {
+      "code": "C54294",
+      "action": "modify",
+      "date": "2023-02-27"
+    },
+    {
+      "code": "C54294",
+      "action": "modify",
+      "date": "2024-08-26"
+    },
+    {
+      "code": "C54294",
+      "action": "modify",
+      "date": "2024-08-26"
+    },
+    {
+      "code": "C54294",
+      "action": "modify",
+      "date": "2025-03-31"
+    },
+    {
+      "code": "C54294",
+      "action": "modify",
+      "date": "2025-04-28"
+    }
+  ]
+}

@@ -1,0 +1,431 @@
+{
+  "code": "C84277",
+  "name": "Myeloid/Lymphoid Neoplasms with FGFR1 Rearrangement",
+  "terminology": "ncit",
+  "version": "25.11d",
+  "conceptStatus": "DEFAULT",
+  "leaf": true,
+  "active": true,
+  "synonyms": [
+    {
+      "name": "Myeloid and lymphoid neoplasms with FGFR1 abnormalities",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "GDC"
+    },
+    {
+      "name": "8p11 Myeloproliferative Syndrome",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "8p11 Stem Cell Leukemia/Lymphoma Syndrome",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "8p11 Stem Cell Lymphoma/Leukemia Syndrome",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "8p11 Stem Cell Syndrome",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "M/LN-eo with FGFR1 Rearrangement",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Myeloid and Lymphoid Neoplasms with FGFR1 Rearrangement",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Myeloid/Lymphoid Neoplasm with FGFR1 Rearrangement",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Myeloid/Lymphoid Neoplasms with FGFR1 Rearrangement",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Myeloid/Lymphoid Neoplasms with FGFR1 Rearrangement",
+      "type": "Preferred_Name"
+    }
+  ],
+  "definitions": [
+    {
+      "definition": "Hematologic neoplasms characterized by the rearrangement of the FGFR1 gene, resulting in translocations with an 8p11 breakpoint. Patients present with a myeloproliferative neoplasm, acute myeloid leukemia, lymphoblastic lymphoma/leukemia of T or B-cell lineage, or acute leukemia of mixed phenotype.",
+      "type": "DEFINITION",
+      "source": "NCI"
+    }
+  ],
+  "properties": [
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "GDC"
+    },
+    {
+      "code": "P334",
+      "type": "ICD-O-3_Code",
+      "value": "9967/3"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "9967/3"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "Myeloid and lymphoid neoplasms with FGFR1 abnormalities"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "Myeloid or lymphoid neoplasm with FGFR1 abnormalities"
+    },
+    {
+      "code": "P208",
+      "type": "NCI_META_CUI",
+      "value": "CL497893"
+    },
+    {
+      "code": "P363",
+      "type": "Neoplastic_Status",
+      "value": "Malignant"
+    },
+    {
+      "code": "P106",
+      "type": "Semantic_Type",
+      "value": "Neoplastic Process"
+    }
+  ],
+  "parents": [
+    {
+      "code": "C84270",
+      "name": "Myeloid/Lymphoid Neoplasms with Eosinophilia and Tyrosine Kinase Gene Fusions"
+    }
+  ],
+  "associations": [
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C157711",
+      "relatedName": "GDC Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C177537",
+      "relatedName": "GDC Value Terminology"
+    },
+    {
+      "type": "Is_Value_For_GDC_Property",
+      "relatedCode": "C176985",
+      "relatedName": "Histology ICD-O Morphology Code"
+    },
+    {
+      "type": "Is_Value_For_GDC_Property",
+      "relatedCode": "C177621",
+      "relatedName": "ICD-O-3 Morphology Term Diagnosis Question"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168658",
+      "relatedName": "Mapped ICDO3.1 Morphology PT Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168657",
+      "relatedName": "Mapped ICDO3.1 Morphology Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168655",
+      "relatedName": "Mapped ICDO3.1 Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168662",
+      "relatedName": "Mapped ICDO3.2 Morphology PT Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168661",
+      "relatedName": "Mapped ICDO3.2 Morphology Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168656",
+      "relatedName": "Mapped ICDO3.2 Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C126659",
+      "relatedName": "NCIt Neoplasm Core Terminology"
+    }
+  ],
+  "inverseAssociations": [
+    {
+      "type": "Has_GDC_Value",
+      "relatedCode": "C176985",
+      "relatedName": "Histology ICD-O Morphology Code"
+    },
+    {
+      "type": "Has_GDC_Value",
+      "relatedCode": "C177621",
+      "relatedName": "ICD-O-3 Morphology Term Diagnosis Question"
+    }
+  ],
+  "roles": [
+    {
+      "type": "Disease_Excludes_Molecular_Abnormality",
+      "relatedCode": "C36715",
+      "relatedName": "BCR-ABL1 Fusion Protein Expression"
+    },
+    {
+      "type": "Disease_May_Have_Molecular_Abnormality",
+      "relatedCode": "C37881",
+      "relatedName": "BCR-FGFR1 Fusion Protein Expression"
+    },
+    {
+      "type": "Disease_Mapped_To_Gene",
+      "relatedCode": "C99311",
+      "relatedName": "BCR/FGFR1 Fusion Gene"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C36122",
+      "relatedName": "Benign Cellular Infiltrate"
+    },
+    {
+      "type": "Disease_Has_Molecular_Abnormality",
+      "relatedCode": "C84273",
+      "relatedName": "FGFR1 Gene Rearrangement"
+    },
+    {
+      "type": "Disease_Mapped_To_Gene",
+      "relatedCode": "C19929",
+      "relatedName": "FGFR1 Gene"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C41165",
+      "relatedName": "Hematopoietic and Lymphatic System"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C41165",
+      "relatedName": "Hematopoietic and Lymphatic System"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C32725",
+      "relatedName": "Hematopoietic and Lymphoid Cell"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C41168",
+      "relatedName": "Hematopoietic and Lymphoid Tissue"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12917",
+      "relatedName": "Malignant Cell"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C36115",
+      "relatedName": "Malignant Cellular Infiltrate"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12922",
+      "relatedName": "Neoplastic Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C37060",
+      "relatedName": "Neoplastic Hematopoietic and Lymphoid Cell"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C12977",
+      "relatedName": "Pluripotent Stem Cell"
+    },
+    {
+      "type": "Disease_Has_Molecular_Abnormality",
+      "relatedCode": "C198558",
+      "relatedName": "Tyrosine Kinase Gene Fusion"
+    }
+  ],
+  "inverseRoles": [
+    {
+      "type": "Gene_Involved_In_Pathogenesis_Of_Disease",
+      "relatedCode": "C99311",
+      "relatedName": "BCR/FGFR1 Fusion Gene"
+    },
+    {
+      "type": "Gene_Involved_In_Pathogenesis_Of_Disease",
+      "relatedCode": "C19929",
+      "relatedName": "FGFR1 Gene"
+    },
+    {
+      "type": "Gene_Involved_In_Pathogenesis_Of_Disease",
+      "relatedCode": "C51542",
+      "relatedName": "FGFR1 wt Allele"
+    }
+  ],
+  "history": [
+    {
+      "code": "C84277",
+      "action": "create",
+      "date": "2009-10-19"
+    },
+    {
+      "code": "C84277",
+      "action": "modify",
+      "date": "2010-03-08"
+    },
+    {
+      "code": "C84277",
+      "action": "modify",
+      "date": "2010-04-05"
+    },
+    {
+      "code": "C84277",
+      "action": "modify",
+      "date": "2011-07-25"
+    },
+    {
+      "code": "C84277",
+      "action": "modify",
+      "date": "2011-08-15"
+    },
+    {
+      "code": "C84277",
+      "action": "modify",
+      "date": "2012-03-05"
+    },
+    {
+      "code": "C84277",
+      "action": "modify",
+      "date": "2012-03-26"
+    },
+    {
+      "code": "C84277",
+      "action": "modify",
+      "date": "2012-07-30"
+    },
+    {
+      "code": "C84277",
+      "action": "modify",
+      "date": "2014-02-03"
+    },
+    {
+      "code": "C84277",
+      "action": "modify",
+      "date": "2016-04-25"
+    },
+    {
+      "code": "C84277",
+      "action": "modify",
+      "date": "2018-06-25"
+    },
+    {
+      "code": "C84277",
+      "action": "modify",
+      "date": "2018-06-25"
+    },
+    {
+      "code": "C84277",
+      "action": "modify",
+      "date": "2020-02-24"
+    },
+    {
+      "code": "C84277",
+      "action": "modify",
+      "date": "2020-03-30"
+    },
+    {
+      "code": "C84277",
+      "action": "modify",
+      "date": "2020-04-27"
+    },
+    {
+      "code": "C84277",
+      "action": "modify",
+      "date": "2020-08-31"
+    },
+    {
+      "code": "C84277",
+      "action": "modify",
+      "date": "2020-09-29"
+    },
+    {
+      "code": "C84277",
+      "action": "modify",
+      "date": "2021-02-22"
+    },
+    {
+      "code": "C84277",
+      "action": "modify",
+      "date": "2021-03-29"
+    },
+    {
+      "code": "C84277",
+      "action": "modify",
+      "date": "2023-04-24"
+    },
+    {
+      "code": "C84277",
+      "action": "modify",
+      "date": "2023-07-31"
+    }
+  ],
+  "maps": [
+    {
+      "type": "Related To",
+      "targetName": "9967/3",
+      "targetTermType": "PT",
+      "targetCode": "morphology",
+      "targetTerminology": "GDC"
+    },
+    {
+      "type": "Related To",
+      "targetName": "Myeloid and lymphoid neoplasms with FGFR1 abnormalities",
+      "targetTermType": "PT",
+      "targetCode": "9967/3",
+      "targetTerminology": "ICDO3",
+      "targetTerminologyVersion": "3.1"
+    },
+    {
+      "type": "Has Synonym",
+      "targetName": "Myeloid and lymphoid neoplasms with FGFR1 abnormalities",
+      "targetTermType": "PT",
+      "targetCode": "primary_diagnosis",
+      "targetTerminology": "GDC"
+    },
+    {
+      "type": "Related To",
+      "targetName": "Myeloid or lymphoid neoplasm with FGFR1 abnormalities",
+      "targetTermType": "PT",
+      "targetCode": "9967/3",
+      "targetTerminology": "ICDO3",
+      "targetTerminologyVersion": "3.2"
+    }
+  ]
+}

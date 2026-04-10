@@ -1,0 +1,902 @@
+{
+  "code": "C3493",
+  "name": "Lung Squamous Cell Carcinoma",
+  "terminology": "ncit",
+  "version": "25.11d",
+  "conceptStatus": "DEFAULT",
+  "leaf": false,
+  "active": true,
+  "synonyms": [
+    {
+      "name": "Squamous Cell Lung Carcinoma",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "caDSR"
+    },
+    {
+      "name": "Lung Squamous Cell Carcinoma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "Cellosaurus"
+    },
+    {
+      "name": "Squamous cell lung carcinoma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "CTEP",
+      "code": "10025126",
+      "subSource": "SDC"
+    },
+    {
+      "name": "Lung Squamous Cell Carcinoma",
+      "termType": "DN",
+      "type": "FULL_SYN",
+      "source": "CTRP"
+    },
+    {
+      "name": "Squamous Cell Lung Cancer",
+      "termType": "DN",
+      "type": "FULL_SYN",
+      "source": "CTRP"
+    },
+    {
+      "name": "Epidermoid Cell Carcinoma of Lung",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Epidermoid Cell Carcinoma of the Lung",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Epidermoid Cell Lung Carcinoma",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "LSCC",
+      "termType": "AB",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Lung Squamous Cell Carcinoma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "LUSC",
+      "termType": "AB",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Squamous Cell Carcinoma of Lung",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Squamous Cell Carcinoma of the Lung",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Squamous Cell Lung Carcinoma",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Lung Squamous Cell Carcinoma",
+      "type": "Display_Name"
+    },
+    {
+      "name": "Squamous Cell Lung Carcinoma",
+      "type": "Display_Name"
+    },
+    {
+      "name": "Lung Squamous Cell Carcinoma",
+      "type": "Preferred_Name"
+    }
+  ],
+  "definitions": [
+    {
+      "definition": "A carcinoma arising from squamous bronchial epithelial cells. It may be keratinizing or non-keratinizing. Keratinizing squamous cell carcinoma is characterized by the presence of keratinization, pearl formation, and/or intercellular bridges. Non-keratinizing squamous cell carcinoma is characterized by the absence of keratinization, pearl formation, and intercellular bridges. Cigarette smoking and arsenic exposure are strongly associated with squamous cell lung carcinoma.",
+      "type": "DEFINITION",
+      "source": "NCI"
+    }
+  ],
+  "properties": [
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "Cellosaurus"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "CTEP"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "CTRP"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "GDC"
+    },
+    {
+      "code": "P366",
+      "type": "Legacy Concept Name",
+      "value": "Squamous_Cell_Lung_Carcinoma"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "60"
+    },
+    {
+      "code": "P363",
+      "type": "Neoplastic_Status",
+      "value": "Malignant"
+    },
+    {
+      "code": "P106",
+      "type": "Semantic_Type",
+      "value": "Neoplastic Process"
+    },
+    {
+      "code": "P207",
+      "type": "UMLS_CUI",
+      "value": "C0149782"
+    }
+  ],
+  "children": [
+    {
+      "code": "C213321",
+      "name": "Lung Acantholytic Squamous Cell Carcinoma",
+      "leaf": true
+    },
+    {
+      "code": "C45507",
+      "name": "Lung Basaloid Squamous Cell Carcinoma",
+      "leaf": true
+    },
+    {
+      "code": "C136713",
+      "name": "Lung Keratinizing Squamous Cell Carcinoma",
+      "leaf": true
+    },
+    {
+      "code": "C136714",
+      "name": "Lung Non-Keratinizing Squamous Cell Carcinoma",
+      "leaf": true
+    },
+    {
+      "code": "C133254",
+      "name": "Lung Non-Small Cell Squamous Carcinoma",
+      "leaf": false
+    },
+    {
+      "code": "C136494",
+      "name": "Lung Squamous Cell Carcinoma by AJCC v7 Stage",
+      "leaf": false
+    },
+    {
+      "code": "C136719",
+      "name": "Lung Squamous Cell Carcinoma In Situ",
+      "leaf": false
+    },
+    {
+      "code": "C45504",
+      "name": "Lung Squamous Cell Carcinoma, Small Cell Variant",
+      "leaf": true
+    },
+    {
+      "code": "C156092",
+      "name": "Metastatic Lung Squamous Cell Carcinoma",
+      "leaf": false
+    },
+    {
+      "code": "C6686",
+      "name": "Occult Lung Squamous Cell Carcinoma",
+      "leaf": true
+    },
+    {
+      "code": "C5014",
+      "name": "Recurrent Lung Squamous Cell Carcinoma",
+      "leaf": false
+    },
+    {
+      "code": "C173331",
+      "name": "Refractory Lung Squamous Cell Carcinoma",
+      "leaf": false
+    },
+    {
+      "code": "C190953",
+      "name": "Resectable Lung Squamous Cell Carcinoma",
+      "leaf": false
+    }
+  ],
+  "parents": [
+    {
+      "code": "C4878",
+      "name": "Lung Carcinoma"
+    },
+    {
+      "code": "C2929",
+      "name": "Squamous Cell Carcinoma"
+    }
+  ],
+  "associations": [
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C165258",
+      "relatedName": "Cellosaurus Disease Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C118168",
+      "relatedName": "CTRP Disease Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C116977",
+      "relatedName": "CTRP Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C157711",
+      "relatedName": "GDC Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C177537",
+      "relatedName": "GDC Value Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C103090",
+      "relatedName": "NCI CTEP SDC Non-Small Cell Lung Cancer Sub-Category Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C102905",
+      "relatedName": "NCI CTEP Simplified Disease Classification Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C126659",
+      "relatedName": "NCIt Neoplasm Core Terminology"
+    },
+    {
+      "type": "Is_Value_For_GDC_Property",
+      "relatedCode": "C177584",
+      "relatedName": "TCGA BCR Tumor Code Identifier"
+    }
+  ],
+  "inverseAssociations": [
+    {
+      "type": "Has_GDC_Value",
+      "relatedCode": "C177584",
+      "relatedName": "TCGA BCR Tumor Code Identifier"
+    }
+  ],
+  "roles": [
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C36122",
+      "relatedName": "Benign Cellular Infiltrate"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C54242",
+      "relatedName": "Bronchial Epithelial Cell"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C32231",
+      "relatedName": "Bronchial Epithelium"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C32233",
+      "relatedName": "Bronchial Tree"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C54172",
+      "relatedName": "Carcinomatous Component Present"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C12578",
+      "relatedName": "Epithelial Cell"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C53596",
+      "relatedName": "Epithelial Component Present"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C45714",
+      "relatedName": "Epithelial Tissue"
+    },
+    {
+      "type": "Disease_May_Have_Cytogenetic_Abnormality",
+      "relatedCode": "C39914",
+      "relatedName": "Gain of Chromosome 12p"
+    },
+    {
+      "type": "Disease_May_Have_Cytogenetic_Abnormality",
+      "relatedCode": "C45566",
+      "relatedName": "Gain of Chromosome 3q24-qter"
+    },
+    {
+      "type": "Disease_May_Have_Cytogenetic_Abnormality",
+      "relatedCode": "C36488",
+      "relatedName": "Gain of Chromosome 8q"
+    },
+    {
+      "type": "Disease_May_Have_Molecular_Abnormality",
+      "relatedCode": "C36683",
+      "relatedName": "Inactivating APC Gene Mutation"
+    },
+    {
+      "type": "Disease_May_Have_Molecular_Abnormality",
+      "relatedCode": "C36704",
+      "relatedName": "Inactivating FHIT Gene Mutation"
+    },
+    {
+      "type": "Disease_May_Have_Cytogenetic_Abnormality",
+      "relatedCode": "C36516",
+      "relatedName": "Loss of Chromosome 10q"
+    },
+    {
+      "type": "Disease_May_Have_Cytogenetic_Abnormality",
+      "relatedCode": "C36505",
+      "relatedName": "Loss of Chromosome 11p"
+    },
+    {
+      "type": "Disease_May_Have_Cytogenetic_Abnormality",
+      "relatedCode": "C36497",
+      "relatedName": "Loss of Chromosome 13q"
+    },
+    {
+      "type": "Disease_May_Have_Cytogenetic_Abnormality",
+      "relatedCode": "C36499",
+      "relatedName": "Loss of Chromosome 17p"
+    },
+    {
+      "type": "Disease_May_Have_Cytogenetic_Abnormality",
+      "relatedCode": "C36496",
+      "relatedName": "Loss of Chromosome 18q"
+    },
+    {
+      "type": "Disease_May_Have_Cytogenetic_Abnormality",
+      "relatedCode": "C36502",
+      "relatedName": "Loss of Chromosome 3p"
+    },
+    {
+      "type": "Disease_May_Have_Cytogenetic_Abnormality",
+      "relatedCode": "C36667",
+      "relatedName": "Loss of Chromosome 4q"
+    },
+    {
+      "type": "Disease_May_Have_Cytogenetic_Abnormality",
+      "relatedCode": "C27712",
+      "relatedName": "Loss of Chromosome 5q"
+    },
+    {
+      "type": "Disease_May_Have_Cytogenetic_Abnormality",
+      "relatedCode": "C36503",
+      "relatedName": "Loss of Chromosome 8p"
+    },
+    {
+      "type": "Disease_May_Have_Cytogenetic_Abnormality",
+      "relatedCode": "C36636",
+      "relatedName": "Loss of Chromosome 9p"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12468",
+      "relatedName": "Lung"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12468",
+      "relatedName": "Lung"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12917",
+      "relatedName": "Malignant Cell"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C36115",
+      "relatedName": "Malignant Cellular Infiltrate"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36779",
+      "relatedName": "Malignant Epithelial Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36771",
+      "relatedName": "Malignant Squamous Cell"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C37153",
+      "relatedName": "Malignant Stromal Cell"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C62273",
+      "relatedName": "Mixed Neoplastic Glandular and Squamous Cell Population"
+    },
+    {
+      "type": "Disease_Excludes_Primary_Anatomic_Site",
+      "relatedCode": "C13063",
+      "relatedName": "Neck"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12922",
+      "relatedName": "Neoplastic Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36753",
+      "relatedName": "Neoplastic Epithelial Cell"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C36763",
+      "relatedName": "Neoplastic Glandular Cell"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C36937",
+      "relatedName": "Neoplastic Smooth Muscle Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36760",
+      "relatedName": "Neoplastic Squamous Cell"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C42624",
+      "relatedName": "Premalignant Lesion"
+    },
+    {
+      "type": "Disease_May_Have_Molecular_Abnormality",
+      "relatedCode": "C36328",
+      "relatedName": "RB1 Gene Inactivation"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12779",
+      "relatedName": "Respiratory System"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12905",
+      "relatedName": "Thoracic Cavity"
+    },
+    {
+      "type": "Disease_May_Have_Molecular_Abnormality",
+      "relatedCode": "C36329",
+      "relatedName": "TP53 Gene Inactivation"
+    },
+    {
+      "type": "Disease_Mapped_To_Gene",
+      "relatedCode": "C17359",
+      "relatedName": "TP53 Gene"
+    }
+  ],
+  "history": [
+    {
+      "code": "C3493",
+      "action": "create",
+      "date": "2003-08-12"
+    },
+    {
+      "code": "C3493",
+      "action": "modify",
+      "date": "2003-10-31"
+    },
+    {
+      "code": "C3493",
+      "action": "modify",
+      "date": "2003-12-30"
+    },
+    {
+      "code": "C3493",
+      "action": "modify",
+      "date": "2004-03-30"
+    },
+    {
+      "code": "C3493",
+      "action": "modify",
+      "date": "2005-04-29"
+    },
+    {
+      "code": "C3493",
+      "action": "modify",
+      "date": "2005-06-24"
+    },
+    {
+      "code": "C3493",
+      "action": "modify",
+      "date": "2006-03-31"
+    },
+    {
+      "code": "C3493",
+      "action": "modify",
+      "date": "2006-04-28"
+    },
+    {
+      "code": "C3493",
+      "action": "modify",
+      "date": "2007-09-27"
+    },
+    {
+      "code": "C3493",
+      "action": "modify",
+      "date": "2009-11-23"
+    },
+    {
+      "code": "C3493",
+      "action": "modify",
+      "date": "2012-09-24"
+    },
+    {
+      "code": "C3493",
+      "action": "modify",
+      "date": "2012-10-01"
+    },
+    {
+      "code": "C3493",
+      "action": "modify",
+      "date": "2012-10-09"
+    },
+    {
+      "code": "C3493",
+      "action": "modify",
+      "date": "2012-10-15"
+    },
+    {
+      "code": "C3493",
+      "action": "modify",
+      "date": "2012-10-22"
+    },
+    {
+      "code": "C3493",
+      "action": "modify",
+      "date": "2012-10-31"
+    },
+    {
+      "code": "C3493",
+      "action": "modify",
+      "date": "2012-11-05"
+    },
+    {
+      "code": "C3493",
+      "action": "modify",
+      "date": "2012-11-13"
+    },
+    {
+      "code": "C3493",
+      "action": "modify",
+      "date": "2012-11-19"
+    },
+    {
+      "code": "C3493",
+      "action": "modify",
+      "date": "2012-11-26"
+    },
+    {
+      "code": "C3493",
+      "action": "modify",
+      "date": "2012-12-03"
+    },
+    {
+      "code": "C3493",
+      "action": "modify",
+      "date": "2012-12-10"
+    },
+    {
+      "code": "C3493",
+      "action": "modify",
+      "date": "2012-12-17"
+    },
+    {
+      "code": "C3493",
+      "action": "modify",
+      "date": "2012-12-28"
+    },
+    {
+      "code": "C3493",
+      "action": "modify",
+      "date": "2013-01-07"
+    },
+    {
+      "code": "C3493",
+      "action": "modify",
+      "date": "2013-01-14"
+    },
+    {
+      "code": "C3493",
+      "action": "modify",
+      "date": "2013-01-23"
+    },
+    {
+      "code": "C3493",
+      "action": "modify",
+      "date": "2013-02-04"
+    },
+    {
+      "code": "C3493",
+      "action": "modify",
+      "date": "2013-02-11"
+    },
+    {
+      "code": "C3493",
+      "action": "modify",
+      "date": "2013-02-19"
+    },
+    {
+      "code": "C3493",
+      "action": "modify",
+      "date": "2013-02-25"
+    },
+    {
+      "code": "C3493",
+      "action": "modify",
+      "date": "2013-03-04"
+    },
+    {
+      "code": "C3493",
+      "action": "modify",
+      "date": "2013-03-11"
+    },
+    {
+      "code": "C3493",
+      "action": "modify",
+      "date": "2013-03-18"
+    },
+    {
+      "code": "C3493",
+      "action": "modify",
+      "date": "2013-03-25"
+    },
+    {
+      "code": "C3493",
+      "action": "modify",
+      "date": "2013-04-01"
+    },
+    {
+      "code": "C3493",
+      "action": "modify",
+      "date": "2013-04-08"
+    },
+    {
+      "code": "C3493",
+      "action": "modify",
+      "date": "2013-04-15"
+    },
+    {
+      "code": "C3493",
+      "action": "modify",
+      "date": "2013-04-22"
+    },
+    {
+      "code": "C3493",
+      "action": "modify",
+      "date": "2013-04-29"
+    },
+    {
+      "code": "C3493",
+      "action": "modify",
+      "date": "2013-05-06"
+    },
+    {
+      "code": "C3493",
+      "action": "modify",
+      "date": "2013-05-13"
+    },
+    {
+      "code": "C3493",
+      "action": "modify",
+      "date": "2013-05-20"
+    },
+    {
+      "code": "C3493",
+      "action": "modify",
+      "date": "2013-05-28"
+    },
+    {
+      "code": "C3493",
+      "action": "modify",
+      "date": "2013-06-03"
+    },
+    {
+      "code": "C3493",
+      "action": "modify",
+      "date": "2013-06-10"
+    },
+    {
+      "code": "C3493",
+      "action": "modify",
+      "date": "2013-06-17"
+    },
+    {
+      "code": "C3493",
+      "action": "modify",
+      "date": "2013-06-24"
+    },
+    {
+      "code": "C3493",
+      "action": "modify",
+      "date": "2013-07-01"
+    },
+    {
+      "code": "C3493",
+      "action": "modify",
+      "date": "2013-07-08"
+    },
+    {
+      "code": "C3493",
+      "action": "modify",
+      "date": "2014-02-03"
+    },
+    {
+      "code": "C3493",
+      "action": "modify",
+      "date": "2014-08-04"
+    },
+    {
+      "code": "C3493",
+      "action": "modify",
+      "date": "2014-08-18"
+    },
+    {
+      "code": "C3493",
+      "action": "modify",
+      "date": "2014-09-22"
+    },
+    {
+      "code": "C3493",
+      "action": "modify",
+      "date": "2014-10-27"
+    },
+    {
+      "code": "C3493",
+      "action": "modify",
+      "date": "2016-04-25"
+    },
+    {
+      "code": "C3493",
+      "action": "modify",
+      "date": "2017-07-31"
+    },
+    {
+      "code": "C3493",
+      "action": "modify",
+      "date": "2018-07-30"
+    },
+    {
+      "code": "C3493",
+      "action": "modify",
+      "date": "2018-08-27"
+    },
+    {
+      "code": "C3493",
+      "action": "modify",
+      "date": "2018-08-27"
+    },
+    {
+      "code": "C3493",
+      "action": "modify",
+      "date": "2018-09-24"
+    },
+    {
+      "code": "C3493",
+      "action": "modify",
+      "date": "2018-10-29"
+    },
+    {
+      "code": "C3493",
+      "action": "modify",
+      "date": "2018-10-29"
+    },
+    {
+      "code": "C3493",
+      "action": "modify",
+      "date": "2018-11-26"
+    },
+    {
+      "code": "C3493",
+      "action": "modify",
+      "date": "2019-03-25"
+    },
+    {
+      "code": "C3493",
+      "action": "modify",
+      "date": "2019-05-28"
+    },
+    {
+      "code": "C3493",
+      "action": "modify",
+      "date": "2019-09-30"
+    },
+    {
+      "code": "C3493",
+      "action": "modify",
+      "date": "2019-10-28"
+    },
+    {
+      "code": "C3493",
+      "action": "modify",
+      "date": "2020-01-27"
+    },
+    {
+      "code": "C3493",
+      "action": "modify",
+      "date": "2020-08-31"
+    },
+    {
+      "code": "C3493",
+      "action": "modify",
+      "date": "2020-09-29"
+    },
+    {
+      "code": "C3493",
+      "action": "modify",
+      "date": "2021-02-22"
+    },
+    {
+      "code": "C3493",
+      "action": "modify",
+      "date": "2021-03-29"
+    },
+    {
+      "code": "C3493",
+      "action": "modify",
+      "date": "2022-08-29"
+    },
+    {
+      "code": "C3493",
+      "action": "modify",
+      "date": "2023-02-27"
+    },
+    {
+      "code": "C3493",
+      "action": "modify",
+      "date": "2025-03-31"
+    }
+  ],
+  "maps": [
+    {
+      "type": "Related To",
+      "targetName": "60",
+      "targetTermType": "PT",
+      "targetCode": "tumor_code_id",
+      "targetTerminology": "GDC"
+    }
+  ]
+}

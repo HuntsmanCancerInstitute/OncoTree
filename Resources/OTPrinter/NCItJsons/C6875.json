@@ -1,0 +1,718 @@
+{
+  "code": "C6875",
+  "name": "Large Cell Neuroendocrine Carcinoma",
+  "terminology": "ncit",
+  "version": "25.11d",
+  "conceptStatus": "DEFAULT",
+  "leaf": false,
+  "active": true,
+  "synonyms": [
+    {
+      "name": "Large Cell Neuroendocrine Carcinoma",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "caDSR"
+    },
+    {
+      "name": "Large cell neuroendocrine carcinoma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "CPTAC"
+    },
+    {
+      "name": "Large cell neuroendocrine carcinoma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "GDC"
+    },
+    {
+      "name": "Large Cell NEC",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Large Cell Neuroendocrine Carcinoma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Large-cell neuroendocrine carcinoma",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "LCNEC",
+      "termType": "AB",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Large Cell Neuroendocrine Carcinoma",
+      "type": "Preferred_Name"
+    }
+  ],
+  "definitions": [
+    {
+      "definition": "An aggressive high-grade carcinoma with neuroendocrine differentiation composed of malignant large cells.",
+      "type": "DEFINITION",
+      "source": "NCI"
+    }
+  ],
+  "properties": [
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "CPTAC"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "GDC"
+    },
+    {
+      "code": "P334",
+      "type": "ICD-O-3_Code",
+      "value": "8013/3"
+    },
+    {
+      "code": "P366",
+      "type": "Legacy Concept Name",
+      "value": "Large_Cell_Neuroendocrine_Carcinoma"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "8013/3"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "Large cell neuroendocrine carcinoma"
+    },
+    {
+      "code": "P363",
+      "type": "Neoplastic_Status",
+      "value": "Malignant"
+    },
+    {
+      "code": "P106",
+      "type": "Semantic_Type",
+      "value": "Neoplastic Process"
+    },
+    {
+      "code": "P207",
+      "type": "UMLS_CUI",
+      "value": "C1265996"
+    }
+  ],
+  "children": [
+    {
+      "code": "C191984",
+      "name": "Extrapulmonary Large Cell Neuroendocrine Carcinoma",
+      "leaf": false
+    },
+    {
+      "code": "C5672",
+      "name": "Lung Large Cell Neuroendocrine Carcinoma",
+      "leaf": false
+    },
+    {
+      "code": "C158908",
+      "name": "Metastatic Large Cell Neuroendocrine Carcinoma",
+      "leaf": false
+    },
+    {
+      "code": "C192023",
+      "name": "Recurrent Large Cell Neuroendocrine Carcinoma",
+      "leaf": false
+    },
+    {
+      "code": "C191997",
+      "name": "Refractory Large Cell Neuroendocrine Carcinoma",
+      "leaf": false
+    },
+    {
+      "code": "C172810",
+      "name": "Unresectable Large Cell Neuroendocrine Carcinoma",
+      "leaf": false
+    }
+  ],
+  "parents": [
+    {
+      "code": "C3780",
+      "name": "Large Cell Carcinoma"
+    },
+    {
+      "code": "C3773",
+      "name": "Neuroendocrine Carcinoma"
+    }
+  ],
+  "associations": [
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C156953",
+      "relatedName": "CPTAC Baseline Medical Forms Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C156952",
+      "relatedName": "CPTAC Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C159413",
+      "relatedName": "CPTAC Uterine Corpus Endometrial Carcinoma Baseline Form"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C157711",
+      "relatedName": "GDC Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C177537",
+      "relatedName": "GDC Value Terminology"
+    },
+    {
+      "type": "Is_Value_For_GDC_Property",
+      "relatedCode": "C176985",
+      "relatedName": "Histology ICD-O Morphology Code"
+    },
+    {
+      "type": "Is_Value_For_GDC_Property",
+      "relatedCode": "C177621",
+      "relatedName": "ICD-O-3 Morphology Term Diagnosis Question"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168658",
+      "relatedName": "Mapped ICDO3.1 Morphology PT Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168657",
+      "relatedName": "Mapped ICDO3.1 Morphology Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168655",
+      "relatedName": "Mapped ICDO3.1 Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168662",
+      "relatedName": "Mapped ICDO3.2 Morphology PT Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168661",
+      "relatedName": "Mapped ICDO3.2 Morphology Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168656",
+      "relatedName": "Mapped ICDO3.2 Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C126659",
+      "relatedName": "NCIt Neoplasm Core Terminology"
+    }
+  ],
+  "inverseAssociations": [
+    {
+      "type": "Has_GDC_Value",
+      "relatedCode": "C176985",
+      "relatedName": "Histology ICD-O Morphology Code"
+    },
+    {
+      "type": "Has_GDC_Value",
+      "relatedCode": "C177621",
+      "relatedName": "ICD-O-3 Morphology Term Diagnosis Question"
+    }
+  ],
+  "roles": [
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C36104",
+      "relatedName": "Aggressive Clinical Course"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C36122",
+      "relatedName": "Benign Cellular Infiltrate"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C54172",
+      "relatedName": "Carcinomatous Component Present"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C32506",
+      "relatedName": "Endocrine Cell"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C188014",
+      "relatedName": "Endocrine Differentiation"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12704",
+      "relatedName": "Endocrine Gland"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12704",
+      "relatedName": "Endocrine Gland"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12705",
+      "relatedName": "Endocrine System"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12705",
+      "relatedName": "Endocrine System"
+    },
+    {
+      "type": "Disease_Excludes_Normal_Cell_Origin",
+      "relatedCode": "C12865",
+      "relatedName": "Endothelial Cell"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C12578",
+      "relatedName": "Epithelial Cell"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C53596",
+      "relatedName": "Epithelial Component Present"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C45714",
+      "relatedName": "Epithelial Tissue"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C207031",
+      "relatedName": "Expression of Neuroendocrine Markers Present"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C35960",
+      "relatedName": "High Mitotic Activity"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C36818",
+      "relatedName": "Large Osteoclastic Giant Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12917",
+      "relatedName": "Malignant Cell"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C36115",
+      "relatedName": "Malignant Cellular Infiltrate"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36929",
+      "relatedName": "Malignant Endocrine Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36779",
+      "relatedName": "Malignant Epithelial Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36822",
+      "relatedName": "Malignant Epithelial Large Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36825",
+      "relatedName": "Malignant Neuroendocrine Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36821",
+      "relatedName": "Malignant Neuroendocrine Large Cell"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C36820",
+      "relatedName": "Malignant Neuroendocrine Small Cell"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C37153",
+      "relatedName": "Malignant Stromal Cell"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C36184",
+      "relatedName": "Necrotic Change"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12922",
+      "relatedName": "Neoplastic Cell"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C37088",
+      "relatedName": "Neoplastic Endothelial Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36753",
+      "relatedName": "Neoplastic Epithelial Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36761",
+      "relatedName": "Neoplastic Neuroendocrine Cell"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C36937",
+      "relatedName": "Neoplastic Smooth Muscle Cell"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C43574",
+      "relatedName": "Neuroendocrine Differentiation"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C60707",
+      "relatedName": "Neuron-Specific Enolase Positive Neoplastic Cells Present"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C155863",
+      "relatedName": "Poorly Differentiated Neuroendocrine Lesion"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C155861",
+      "relatedName": "Well Differentiated Neuroendocrine Lesion"
+    }
+  ],
+  "history": [
+    {
+      "code": "C6875",
+      "action": "create",
+      "date": "2003-08-12"
+    },
+    {
+      "code": "C6875",
+      "action": "modify",
+      "date": "2003-10-31"
+    },
+    {
+      "code": "C6875",
+      "action": "modify",
+      "date": "2003-12-30"
+    },
+    {
+      "code": "C6875",
+      "action": "modify",
+      "date": "2004-03-30"
+    },
+    {
+      "code": "C6875",
+      "action": "modify",
+      "date": "2005-04-29"
+    },
+    {
+      "code": "C6875",
+      "action": "modify",
+      "date": "2006-04-28"
+    },
+    {
+      "code": "C6875",
+      "action": "modify",
+      "date": "2006-05-26"
+    },
+    {
+      "code": "C6875",
+      "action": "modify",
+      "date": "2007-03-30"
+    },
+    {
+      "code": "C6875",
+      "action": "modify",
+      "date": "2007-04-30"
+    },
+    {
+      "code": "C6875",
+      "action": "modify",
+      "date": "2009-10-27"
+    },
+    {
+      "code": "C6875",
+      "action": "modify",
+      "date": "2009-11-23"
+    },
+    {
+      "code": "C6875",
+      "action": "modify",
+      "date": "2011-06-20"
+    },
+    {
+      "code": "C6875",
+      "action": "modify",
+      "date": "2013-02-25"
+    },
+    {
+      "code": "C6875",
+      "action": "modify",
+      "date": "2013-03-04"
+    },
+    {
+      "code": "C6875",
+      "action": "modify",
+      "date": "2013-03-11"
+    },
+    {
+      "code": "C6875",
+      "action": "modify",
+      "date": "2013-03-18"
+    },
+    {
+      "code": "C6875",
+      "action": "modify",
+      "date": "2013-03-25"
+    },
+    {
+      "code": "C6875",
+      "action": "modify",
+      "date": "2013-04-01"
+    },
+    {
+      "code": "C6875",
+      "action": "modify",
+      "date": "2013-04-08"
+    },
+    {
+      "code": "C6875",
+      "action": "modify",
+      "date": "2013-04-15"
+    },
+    {
+      "code": "C6875",
+      "action": "modify",
+      "date": "2013-04-22"
+    },
+    {
+      "code": "C6875",
+      "action": "modify",
+      "date": "2013-04-29"
+    },
+    {
+      "code": "C6875",
+      "action": "modify",
+      "date": "2013-05-06"
+    },
+    {
+      "code": "C6875",
+      "action": "modify",
+      "date": "2013-05-13"
+    },
+    {
+      "code": "C6875",
+      "action": "modify",
+      "date": "2013-05-20"
+    },
+    {
+      "code": "C6875",
+      "action": "modify",
+      "date": "2013-05-28"
+    },
+    {
+      "code": "C6875",
+      "action": "modify",
+      "date": "2013-06-03"
+    },
+    {
+      "code": "C6875",
+      "action": "modify",
+      "date": "2013-06-10"
+    },
+    {
+      "code": "C6875",
+      "action": "modify",
+      "date": "2013-06-17"
+    },
+    {
+      "code": "C6875",
+      "action": "modify",
+      "date": "2013-06-24"
+    },
+    {
+      "code": "C6875",
+      "action": "modify",
+      "date": "2013-07-01"
+    },
+    {
+      "code": "C6875",
+      "action": "modify",
+      "date": "2013-07-08"
+    },
+    {
+      "code": "C6875",
+      "action": "modify",
+      "date": "2014-02-03"
+    },
+    {
+      "code": "C6875",
+      "action": "modify",
+      "date": "2016-04-25"
+    },
+    {
+      "code": "C6875",
+      "action": "modify",
+      "date": "2018-02-26"
+    },
+    {
+      "code": "C6875",
+      "action": "modify",
+      "date": "2018-09-24"
+    },
+    {
+      "code": "C6875",
+      "action": "modify",
+      "date": "2018-10-29"
+    },
+    {
+      "code": "C6875",
+      "action": "modify",
+      "date": "2018-10-29"
+    },
+    {
+      "code": "C6875",
+      "action": "modify",
+      "date": "2019-04-29"
+    },
+    {
+      "code": "C6875",
+      "action": "modify",
+      "date": "2019-05-28"
+    },
+    {
+      "code": "C6875",
+      "action": "modify",
+      "date": "2019-06-24"
+    },
+    {
+      "code": "C6875",
+      "action": "modify",
+      "date": "2019-07-29"
+    },
+    {
+      "code": "C6875",
+      "action": "modify",
+      "date": "2019-09-30"
+    },
+    {
+      "code": "C6875",
+      "action": "modify",
+      "date": "2019-11-25"
+    },
+    {
+      "code": "C6875",
+      "action": "modify",
+      "date": "2020-02-24"
+    },
+    {
+      "code": "C6875",
+      "action": "modify",
+      "date": "2020-03-30"
+    },
+    {
+      "code": "C6875",
+      "action": "modify",
+      "date": "2020-04-27"
+    },
+    {
+      "code": "C6875",
+      "action": "modify",
+      "date": "2020-07-27"
+    },
+    {
+      "code": "C6875",
+      "action": "modify",
+      "date": "2020-09-29"
+    },
+    {
+      "code": "C6875",
+      "action": "modify",
+      "date": "2020-11-30"
+    },
+    {
+      "code": "C6875",
+      "action": "modify",
+      "date": "2021-02-22"
+    },
+    {
+      "code": "C6875",
+      "action": "modify",
+      "date": "2021-03-29"
+    },
+    {
+      "code": "C6875",
+      "action": "modify",
+      "date": "2023-12-26"
+    },
+    {
+      "code": "C6875",
+      "action": "modify",
+      "date": "2024-10-28"
+    }
+  ],
+  "maps": [
+    {
+      "type": "Related To",
+      "targetName": "8013/3",
+      "targetTermType": "PT",
+      "targetCode": "morphology",
+      "targetTerminology": "GDC"
+    },
+    {
+      "type": "Related To",
+      "targetName": "Large cell neuroendocrine carcinoma",
+      "targetTermType": "PT",
+      "targetCode": "8013/3",
+      "targetTerminology": "ICDO3",
+      "targetTerminologyVersion": "3.1"
+    },
+    {
+      "type": "Related To",
+      "targetName": "Large cell neuroendocrine carcinoma",
+      "targetTermType": "PT",
+      "targetCode": "8013/3",
+      "targetTerminology": "ICDO3",
+      "targetTerminologyVersion": "3.2"
+    },
+    {
+      "type": "Has Synonym",
+      "targetName": "Large cell neuroendocrine carcinoma",
+      "targetTermType": "PT",
+      "targetCode": "primary_diagnosis",
+      "targetTerminology": "GDC"
+    }
+  ]
+}

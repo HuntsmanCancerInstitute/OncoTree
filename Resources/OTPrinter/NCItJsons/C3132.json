@@ -1,0 +1,737 @@
+{
+  "code": "C3132",
+  "name": "Alpha Heavy Chain Disease",
+  "terminology": "ncit",
+  "version": "25.11d",
+  "conceptStatus": "DEFAULT",
+  "leaf": true,
+  "active": true,
+  "synonyms": [
+    {
+      "name": "Alpha heavy chain disease",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "GDC"
+    },
+    {
+      "name": "Immunoproliferative disease, NOS",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "GDC"
+    },
+    {
+      "name": "Immunoproliferative small intestinal disease",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "GDC"
+    },
+    {
+      "name": "Mediterranean lymphoma",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "GDC"
+    },
+    {
+      "name": "Immunoproliferative small intestinal diseases",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "mCode",
+      "code": "C88.3",
+      "subSource": "ICD-10 CM"
+    },
+    {
+      "name": "Alpha Heavy Chain Disease",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Immunoproliferative Small Intestinal Disease",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "IPSID",
+      "termType": "AB",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Mediterranean Abdominal Lymphoma",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Mediterranean Lymphoma",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Alpha Heavy Chain Disease",
+      "type": "Preferred_Name"
+    }
+  ],
+  "definitions": [
+    {
+      "definition": "A clonal disorder, also known as immunoproliferative small intestinal disease or Mediterranean lymphoma, characterized by the secretion of a defective alpha heavy chain. It predominantly affects young people in the Mediterranean region. It involves the small intestine, and patients usually present with malabsorption syndrome, abdominal pain, weight loss, and fever. There is extensive villous atrophy of the small intestinal mucosa, which is heavily infiltrated by small lymphocytes and plasma cells. The small intestinal morphologic changes are consistent with a mucosa-associated lymphoid tissue lymphoma (MALT lymphoma).",
+      "type": "DEFINITION",
+      "source": "NCI"
+    }
+  ],
+  "properties": [
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "GDC"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "mCode"
+    },
+    {
+      "code": "P334",
+      "type": "ICD-O-3_Code",
+      "value": "9760/3"
+    },
+    {
+      "code": "P334",
+      "type": "ICD-O-3_Code",
+      "value": "9764/3"
+    },
+    {
+      "code": "P366",
+      "type": "Legacy Concept Name",
+      "value": "Alpha_Heavy_Chain_Disease"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "9760/3"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "9762/3"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "9764/3"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "Alpha heavy chain disease"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "Immunoproliferative disease, NOS"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "Immunoproliferative small intestinal disease"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "Mediterranean lymphoma"
+    },
+    {
+      "code": "P363",
+      "type": "Neoplastic_Status",
+      "value": "Malignant"
+    },
+    {
+      "code": "P106",
+      "type": "Semantic_Type",
+      "value": "Neoplastic Process"
+    },
+    {
+      "code": "P207",
+      "type": "UMLS_CUI",
+      "value": "C0021071"
+    }
+  ],
+  "parents": [
+    {
+      "code": "C3082",
+      "name": "Heavy Chain Disease"
+    },
+    {
+      "code": "C96053",
+      "name": "Small Intestinal B-Cell Non-Hodgkin Lymphoma"
+    }
+  ],
+  "associations": [
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C157711",
+      "relatedName": "GDC Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C177537",
+      "relatedName": "GDC Value Terminology"
+    },
+    {
+      "type": "Is_Value_For_GDC_Property",
+      "relatedCode": "C176985",
+      "relatedName": "Histology ICD-O Morphology Code"
+    },
+    {
+      "type": "Is_Value_For_GDC_Property",
+      "relatedCode": "C177621",
+      "relatedName": "ICD-O-3 Morphology Term Diagnosis Question"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168658",
+      "relatedName": "Mapped ICDO3.1 Morphology PT Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168657",
+      "relatedName": "Mapped ICDO3.1 Morphology Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168655",
+      "relatedName": "Mapped ICDO3.1 Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168662",
+      "relatedName": "Mapped ICDO3.2 Morphology PT Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168661",
+      "relatedName": "Mapped ICDO3.2 Morphology Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168656",
+      "relatedName": "Mapped ICDO3.2 Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C193249",
+      "relatedName": "mCode Cancer Disorder Value Set"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C193175",
+      "relatedName": "mCode Elixhauser Lymphoma Value Set"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C193248",
+      "relatedName": "mCode Primary Cancer Disorder Value Set"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C193231",
+      "relatedName": "mCode Primary Malignant Neoplasm Disorder Value Set"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C193006",
+      "relatedName": "mCode Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C126659",
+      "relatedName": "NCIt Neoplasm Core Terminology"
+    }
+  ],
+  "inverseAssociations": [
+    {
+      "type": "Has_GDC_Value",
+      "relatedCode": "C176985",
+      "relatedName": "Histology ICD-O Morphology Code"
+    },
+    {
+      "type": "Has_GDC_Value",
+      "relatedCode": "C177621",
+      "relatedName": "ICD-O-3 Morphology Term Diagnosis Question"
+    }
+  ],
+  "roles": [
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C26682",
+      "relatedName": "Abdominal Pain"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36725",
+      "relatedName": "Abnormal Lymphocyte"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C12474",
+      "relatedName": "B-Lymphocyte"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C36122",
+      "relatedName": "Benign Cellular Infiltrate"
+    },
+    {
+      "type": "Disease_May_Have_Associated_Disease",
+      "relatedCode": "C43300",
+      "relatedName": "Campylobacter Jejuni Infection"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C37001",
+      "relatedName": "Centrocyte-Like Cell"
+    },
+    {
+      "type": "Disease_Has_Molecular_Abnormality",
+      "relatedCode": "C36443",
+      "relatedName": "Clonal Immunoglobulin Gene Rearrangement"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C38732",
+      "relatedName": "Defective Alpha Heavy Chain Present"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C39722",
+      "relatedName": "Defective Heavy Chain Present"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C2987",
+      "relatedName": "Diarrhea"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12378",
+      "relatedName": "Digestive System"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12378",
+      "relatedName": "Digestive System"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C3038",
+      "relatedName": "Fever"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C12936",
+      "relatedName": "Gut-Associated Lymphoid Tissue"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C41165",
+      "relatedName": "Hematopoietic and Lymphatic System"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C41165",
+      "relatedName": "Hematopoietic and Lymphatic System"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C32725",
+      "relatedName": "Hematopoietic and Lymphoid Cell"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C41168",
+      "relatedName": "Hematopoietic and Lymphoid Tissue"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C37973",
+      "relatedName": "Hypocalcemia"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12736",
+      "relatedName": "Intestine"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12736",
+      "relatedName": "Intestine"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12746",
+      "relatedName": "Lymphatic System"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12746",
+      "relatedName": "Lymphatic System"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C37027",
+      "relatedName": "Lymphocyte Predominant Cell"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C12535",
+      "relatedName": "Lymphocyte"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C38730",
+      "relatedName": "Lymphoepithelial Lesion"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C13049",
+      "relatedName": "Lymphoid Tissue"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C3214",
+      "relatedName": "Malabsorption Syndrome"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12917",
+      "relatedName": "Malignant Cell"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C36115",
+      "relatedName": "Malignant Cellular Infiltrate"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C33058",
+      "relatedName": "Mature B-Lymphocyte"
+    },
+    {
+      "type": "Disease_Excludes_Normal_Cell_Origin",
+      "relatedCode": "C12549",
+      "relatedName": "Myeloid Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C38640",
+      "relatedName": "Neoplastic B-Lymphocyte"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12922",
+      "relatedName": "Neoplastic Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C37060",
+      "relatedName": "Neoplastic Hematopoietic and Lymphoid Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36988",
+      "relatedName": "Neoplastic Lymphocyte"
+    },
+    {
+      "type": "Disease_May_Have_Abnormal_Cell",
+      "relatedCode": "C37003",
+      "relatedName": "Neoplastic Monocytoid B-Lymphocyte"
+    },
+    {
+      "type": "Disease_May_Have_Abnormal_Cell",
+      "relatedCode": "C37077",
+      "relatedName": "Neoplastic Plasma Cell"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C39566",
+      "relatedName": "Neoplastic T-Lymphocyte and Neoplastic Natural Killer Cell"
+    },
+    {
+      "type": "Disease_Excludes_Normal_Cell_Origin",
+      "relatedCode": "C12486",
+      "relatedName": "Plasma Cell"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C38334",
+      "relatedName": "Postgerminal Center Marginal Zone B-Lymphocyte"
+    },
+    {
+      "type": "Disease_Excludes_Normal_Cell_Origin",
+      "relatedCode": "C33931",
+      "relatedName": "Precursor B-Lymphoblast"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C12660",
+      "relatedName": "Reed-Sternberg Cell"
+    },
+    {
+      "type": "Disease_Has_Associated_Disease",
+      "relatedCode": "C5635",
+      "relatedName": "Small Intestinal Mucosa-Associated Lymphoid Tissue Lymphoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12386",
+      "relatedName": "Small Intestine"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12386",
+      "relatedName": "Small Intestine"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12386",
+      "relatedName": "Small Intestine"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12386",
+      "relatedName": "Small Intestine"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C38328",
+      "relatedName": "Unfavorable Clinical Outcome"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C38731",
+      "relatedName": "Villous Atrophy"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C3445",
+      "relatedName": "Weight Loss"
+    }
+  ],
+  "history": [
+    {
+      "code": "C3132",
+      "action": "create",
+      "date": "2003-08-12"
+    },
+    {
+      "code": "C3132",
+      "action": "modify",
+      "date": "2003-10-31"
+    },
+    {
+      "code": "C3132",
+      "action": "modify",
+      "date": "2003-12-30"
+    },
+    {
+      "code": "C3132",
+      "action": "modify",
+      "date": "2004-03-30"
+    },
+    {
+      "code": "C3132",
+      "action": "modify",
+      "date": "2004-05-28"
+    },
+    {
+      "code": "C3132",
+      "action": "modify",
+      "date": "2005-01-28"
+    },
+    {
+      "code": "C3132",
+      "action": "modify",
+      "date": "2006-04-28"
+    },
+    {
+      "code": "C3132",
+      "action": "modify",
+      "date": "2007-03-30"
+    },
+    {
+      "code": "C3132",
+      "action": "modify",
+      "date": "2007-05-25"
+    },
+    {
+      "code": "C3132",
+      "action": "modify",
+      "date": "2009-04-06"
+    },
+    {
+      "code": "C3132",
+      "action": "modify",
+      "date": "2009-11-02"
+    },
+    {
+      "code": "C3132",
+      "action": "modify",
+      "date": "2009-11-23"
+    },
+    {
+      "code": "C3132",
+      "action": "modify",
+      "date": "2011-03-28"
+    },
+    {
+      "code": "C3132",
+      "action": "modify",
+      "date": "2014-02-03"
+    },
+    {
+      "code": "C3132",
+      "action": "modify",
+      "date": "2015-02-09"
+    },
+    {
+      "code": "C3132",
+      "action": "modify",
+      "date": "2016-04-25"
+    },
+    {
+      "code": "C3132",
+      "action": "modify",
+      "date": "2018-09-24"
+    },
+    {
+      "code": "C3132",
+      "action": "modify",
+      "date": "2019-05-28"
+    },
+    {
+      "code": "C3132",
+      "action": "modify",
+      "date": "2019-09-30"
+    },
+    {
+      "code": "C3132",
+      "action": "modify",
+      "date": "2019-11-25"
+    },
+    {
+      "code": "C3132",
+      "action": "modify",
+      "date": "2020-02-24"
+    },
+    {
+      "code": "C3132",
+      "action": "modify",
+      "date": "2020-04-27"
+    },
+    {
+      "code": "C3132",
+      "action": "modify",
+      "date": "2021-02-22"
+    },
+    {
+      "code": "C3132",
+      "action": "modify",
+      "date": "2021-03-29"
+    },
+    {
+      "code": "C3132",
+      "action": "modify",
+      "date": "2023-03-27"
+    },
+    {
+      "code": "C3132",
+      "action": "modify",
+      "date": "2023-05-30"
+    }
+  ],
+  "maps": [
+    {
+      "type": "Related To",
+      "targetName": "9760/3",
+      "targetTermType": "PT",
+      "targetCode": "morphology",
+      "targetTerminology": "GDC"
+    },
+    {
+      "type": "Related To",
+      "targetName": "9762/3",
+      "targetTermType": "PT",
+      "targetCode": "morphology",
+      "targetTerminology": "GDC"
+    },
+    {
+      "type": "Related To",
+      "targetName": "9764/3",
+      "targetTermType": "PT",
+      "targetCode": "morphology",
+      "targetTerminology": "GDC"
+    },
+    {
+      "type": "Has Synonym",
+      "targetName": "Alpha heavy chain disease",
+      "targetTermType": "PT",
+      "targetCode": "primary_diagnosis",
+      "targetTerminology": "GDC"
+    },
+    {
+      "type": "Related To",
+      "targetName": "Immunoproliferative disease, NOS",
+      "targetTermType": "PT",
+      "targetCode": "9760/3",
+      "targetTerminology": "ICDO3",
+      "targetTerminologyVersion": "3.2"
+    },
+    {
+      "type": "Related To",
+      "targetName": "Immunoproliferative disease, NOS",
+      "targetTermType": "PT",
+      "targetCode": "9760/3",
+      "targetTerminology": "ICDO3",
+      "targetTerminologyVersion": "3.1"
+    },
+    {
+      "type": "Has Synonym",
+      "targetName": "Immunoproliferative disease, NOS",
+      "targetTermType": "PT",
+      "targetCode": "primary_diagnosis",
+      "targetTerminology": "GDC"
+    },
+    {
+      "type": "Related To",
+      "targetName": "Immunoproliferative small intestinal disease",
+      "targetTermType": "PT",
+      "targetCode": "9764/3",
+      "targetTerminology": "ICDO3",
+      "targetTerminologyVersion": "3.2"
+    },
+    {
+      "type": "Related To",
+      "targetName": "Immunoproliferative small intestinal disease",
+      "targetTermType": "PT",
+      "targetCode": "9764/3",
+      "targetTerminology": "ICDO3",
+      "targetTerminologyVersion": "3.1"
+    },
+    {
+      "type": "Has Synonym",
+      "targetName": "Immunoproliferative small intestinal disease",
+      "targetTermType": "PT",
+      "targetCode": "primary_diagnosis",
+      "targetTerminology": "GDC"
+    },
+    {
+      "type": "Has Synonym",
+      "targetName": "Mediterranean lymphoma",
+      "targetTermType": "PT",
+      "targetCode": "primary_diagnosis",
+      "targetTerminology": "GDC"
+    }
+  ]
+}

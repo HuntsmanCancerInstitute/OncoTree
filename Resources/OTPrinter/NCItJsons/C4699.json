@@ -1,0 +1,681 @@
+{
+  "code": "C4699",
+  "name": "Gestational Trophoblastic Tumor",
+  "terminology": "ncit",
+  "version": "25.11d",
+  "conceptStatus": "DEFAULT",
+  "leaf": false,
+  "active": true,
+  "synonyms": [
+    {
+      "name": "Gestational Trophoblastic Tumor",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "CPTAC"
+    },
+    {
+      "name": "Gestational Trophoblastic Tumor",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "CTRP"
+    },
+    {
+      "name": "Gestational Trophoblastic Tumor",
+      "termType": "DN",
+      "type": "FULL_SYN",
+      "source": "CTRP"
+    },
+    {
+      "name": "gestational trophoblastic neoplasia",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NCI-GLOSS",
+      "code": "CDR0000046750"
+    },
+    {
+      "name": "gestational trophoblastic tumor",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NCI-GLOSS",
+      "code": "CDR0000045115"
+    },
+    {
+      "name": "Gestational Trophoblastic Tumor",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "GTT",
+      "termType": "AB",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Gestational Trophoblastic Tumor",
+      "type": "Display_Name"
+    },
+    {
+      "name": "Gestational Trophoblastic Tumor",
+      "type": "Preferred_Name"
+    }
+  ],
+  "definitions": [
+    {
+      "definition": "A diverse group of pregnancy-related tumors characterized by excessive proliferation of trophoblasts. It includes gestational choriocarcinoma, epithelioid trophoblastic tumor, placental site trophoblastic tumor, and mixed trophoblastic tumor.",
+      "type": "DEFINITION",
+      "source": "NCI"
+    },
+    {
+      "definition": "Any of a group of tumors that develops from trophoblastic cells (cells that help an embryo attach to the uterus and help form the placenta) after fertilization of an egg by a sperm. The two main types of gestational trophoblastic tumors are hydatidiform mole and choriocarcinoma.",
+      "type": "ALT_DEFINITION",
+      "source": "NCI-GLOSS"
+    }
+  ],
+  "properties": [
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "CPTAC"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "CTEP"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "CTRP"
+    },
+    {
+      "code": "P366",
+      "type": "Legacy Concept Name",
+      "value": "Gestational_Trophoblastic_Tumor"
+    },
+    {
+      "code": "P363",
+      "type": "Neoplastic_Status",
+      "value": "Undetermined"
+    },
+    {
+      "code": "P106",
+      "type": "Semantic_Type",
+      "value": "Neoplastic Process"
+    },
+    {
+      "code": "P207",
+      "type": "UMLS_CUI",
+      "value": "C1135868"
+    }
+  ],
+  "children": [
+    {
+      "code": "C6900",
+      "name": "Epithelioid Trophoblastic Tumor",
+      "leaf": true
+    },
+    {
+      "code": "C4646",
+      "name": "Gestational Choriocarcinoma",
+      "leaf": false
+    },
+    {
+      "code": "C140032",
+      "name": "Gestational Trophoblastic Tumor by AJCC v7 Stage",
+      "leaf": false
+    },
+    {
+      "code": "C6390",
+      "name": "Gestational Trophoblastic Tumor by FIGO Stage",
+      "leaf": false
+    },
+    {
+      "code": "C9177",
+      "name": "Good Prognosis Metastatic Gestational Trophoblastic Tumor",
+      "leaf": true
+    },
+    {
+      "code": "C180634",
+      "name": "Mixed Trophoblastic Tumor",
+      "leaf": true
+    },
+    {
+      "code": "C9176",
+      "name": "Non-Metastatic Gestational Trophoblastic Tumor",
+      "leaf": true
+    },
+    {
+      "code": "C3757",
+      "name": "Placental Site Trophoblastic Tumor",
+      "leaf": true
+    },
+    {
+      "code": "C9178",
+      "name": "Poor Prognosis Metastatic Gestational Trophoblastic Tumor",
+      "leaf": true
+    },
+    {
+      "code": "C7887",
+      "name": "Recurrent Gestational Trophoblastic Tumor",
+      "leaf": true
+    }
+  ],
+  "parents": [
+    {
+      "code": "C3053",
+      "name": "Female Reproductive System Neoplasm"
+    },
+    {
+      "code": "C180633",
+      "name": "Gestational Trophoblastic Disorder"
+    },
+    {
+      "code": "C3422",
+      "name": "Trophoblastic Tumor"
+    }
+  ],
+  "associations": [
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C138188",
+      "relatedName": "Clinical Trials Search-Application Programming Interface Disease Category Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C158520",
+      "relatedName": "CPTAC Codelists Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C156966",
+      "relatedName": "CPTAC Neoplasms Codelist"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C156952",
+      "relatedName": "CPTAC Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C118168",
+      "relatedName": "CTRP Disease Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C116977",
+      "relatedName": "CTRP Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C138190",
+      "relatedName": "CTS-API Disease Main Type Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C103101",
+      "relatedName": "NCI CTEP SDC Gestational Trophoblastic Disease Sub-Category Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C102905",
+      "relatedName": "NCI CTEP Simplified Disease Classification Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C126659",
+      "relatedName": "NCIt Neoplasm Core Terminology"
+    },
+    {
+      "type": "Neoplasm_Has_Special_Category",
+      "relatedCode": "C9292",
+      "relatedName": "Solid Neoplasm"
+    }
+  ],
+  "roles": [
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C12578",
+      "relatedName": "Epithelial Cell"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C53596",
+      "relatedName": "Epithelial Component Present"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C45714",
+      "relatedName": "Epithelial Tissue"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12402",
+      "relatedName": "Female Reproductive System"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12402",
+      "relatedName": "Female Reproductive System"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12810",
+      "relatedName": "Genitourinary System"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C61064",
+      "relatedName": "Malignant Round Germ Cell with Glycogen-Rich Cytoplasm and Round Nucleus"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12922",
+      "relatedName": "Neoplastic Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36753",
+      "relatedName": "Neoplastic Epithelial Cell"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C36937",
+      "relatedName": "Neoplastic Smooth Muscle Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36803",
+      "relatedName": "Neoplastic Trophoblastic Cell"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C34941",
+      "relatedName": "Pregnancy Complication"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12841",
+      "relatedName": "Reproductive System"
+    }
+  ],
+  "inverseRoles": [
+    {
+      "type": "Regimen_Has_Accepted_Use_For_Disease",
+      "relatedCode": "C67512",
+      "relatedName": "EMA-CE Regimen"
+    },
+    {
+      "type": "Regimen_Has_Accepted_Use_For_Disease",
+      "relatedCode": "C67511",
+      "relatedName": "EMA-CO Regimen"
+    },
+    {
+      "type": "Regimen_Has_Accepted_Use_For_Disease",
+      "relatedCode": "C67510",
+      "relatedName": "MAC Regimen"
+    },
+    {
+      "type": "Regimen_Has_Accepted_Use_For_Disease",
+      "relatedCode": "C67515",
+      "relatedName": "PEBA Regimen"
+    },
+    {
+      "type": "Regimen_Has_Accepted_Use_For_Disease",
+      "relatedCode": "C64788",
+      "relatedName": "PVB Regimen"
+    },
+    {
+      "type": "Regimen_Has_Accepted_Use_For_Disease",
+      "relatedCode": "C205236",
+      "relatedName": "TP/TE Regimen"
+    }
+  ],
+  "history": [
+    {
+      "code": "C4699",
+      "action": "create",
+      "date": "2003-08-12"
+    },
+    {
+      "code": "C4699",
+      "action": "modify",
+      "date": "2003-10-31"
+    },
+    {
+      "code": "C4699",
+      "action": "modify",
+      "date": "2003-12-30"
+    },
+    {
+      "code": "C4699",
+      "action": "modify",
+      "date": "2004-03-30"
+    },
+    {
+      "code": "C4699",
+      "action": "modify",
+      "date": "2004-11-17"
+    },
+    {
+      "code": "C4699",
+      "action": "modify",
+      "date": "2006-07-28"
+    },
+    {
+      "code": "C4699",
+      "action": "modify",
+      "date": "2007-05-25"
+    },
+    {
+      "code": "C4699",
+      "action": "modify",
+      "date": "2007-06-28"
+    },
+    {
+      "code": "C4699",
+      "action": "modify",
+      "date": "2009-04-06"
+    },
+    {
+      "code": "C4699",
+      "action": "modify",
+      "date": "2009-11-23"
+    },
+    {
+      "code": "C4699",
+      "action": "modify",
+      "date": "2011-02-14"
+    },
+    {
+      "code": "C4699",
+      "action": "modify",
+      "date": "2012-08-06"
+    },
+    {
+      "code": "C4699",
+      "action": "modify",
+      "date": "2012-08-20"
+    },
+    {
+      "code": "C4699",
+      "action": "modify",
+      "date": "2012-09-04"
+    },
+    {
+      "code": "C4699",
+      "action": "modify",
+      "date": "2012-09-24"
+    },
+    {
+      "code": "C4699",
+      "action": "modify",
+      "date": "2012-10-01"
+    },
+    {
+      "code": "C4699",
+      "action": "modify",
+      "date": "2012-10-09"
+    },
+    {
+      "code": "C4699",
+      "action": "modify",
+      "date": "2012-10-15"
+    },
+    {
+      "code": "C4699",
+      "action": "modify",
+      "date": "2012-10-22"
+    },
+    {
+      "code": "C4699",
+      "action": "modify",
+      "date": "2012-10-31"
+    },
+    {
+      "code": "C4699",
+      "action": "modify",
+      "date": "2012-11-05"
+    },
+    {
+      "code": "C4699",
+      "action": "modify",
+      "date": "2012-11-13"
+    },
+    {
+      "code": "C4699",
+      "action": "modify",
+      "date": "2012-11-19"
+    },
+    {
+      "code": "C4699",
+      "action": "modify",
+      "date": "2012-11-26"
+    },
+    {
+      "code": "C4699",
+      "action": "modify",
+      "date": "2012-12-03"
+    },
+    {
+      "code": "C4699",
+      "action": "modify",
+      "date": "2012-12-10"
+    },
+    {
+      "code": "C4699",
+      "action": "modify",
+      "date": "2012-12-17"
+    },
+    {
+      "code": "C4699",
+      "action": "modify",
+      "date": "2012-12-28"
+    },
+    {
+      "code": "C4699",
+      "action": "modify",
+      "date": "2013-01-07"
+    },
+    {
+      "code": "C4699",
+      "action": "modify",
+      "date": "2013-01-14"
+    },
+    {
+      "code": "C4699",
+      "action": "modify",
+      "date": "2013-01-23"
+    },
+    {
+      "code": "C4699",
+      "action": "modify",
+      "date": "2013-02-04"
+    },
+    {
+      "code": "C4699",
+      "action": "modify",
+      "date": "2013-02-11"
+    },
+    {
+      "code": "C4699",
+      "action": "modify",
+      "date": "2013-02-19"
+    },
+    {
+      "code": "C4699",
+      "action": "modify",
+      "date": "2013-02-25"
+    },
+    {
+      "code": "C4699",
+      "action": "modify",
+      "date": "2013-03-04"
+    },
+    {
+      "code": "C4699",
+      "action": "modify",
+      "date": "2013-03-11"
+    },
+    {
+      "code": "C4699",
+      "action": "modify",
+      "date": "2013-03-18"
+    },
+    {
+      "code": "C4699",
+      "action": "modify",
+      "date": "2013-03-25"
+    },
+    {
+      "code": "C4699",
+      "action": "modify",
+      "date": "2013-04-01"
+    },
+    {
+      "code": "C4699",
+      "action": "modify",
+      "date": "2013-04-08"
+    },
+    {
+      "code": "C4699",
+      "action": "modify",
+      "date": "2013-04-15"
+    },
+    {
+      "code": "C4699",
+      "action": "modify",
+      "date": "2013-04-22"
+    },
+    {
+      "code": "C4699",
+      "action": "modify",
+      "date": "2013-04-29"
+    },
+    {
+      "code": "C4699",
+      "action": "modify",
+      "date": "2013-05-06"
+    },
+    {
+      "code": "C4699",
+      "action": "modify",
+      "date": "2013-05-13"
+    },
+    {
+      "code": "C4699",
+      "action": "modify",
+      "date": "2013-05-20"
+    },
+    {
+      "code": "C4699",
+      "action": "modify",
+      "date": "2013-05-28"
+    },
+    {
+      "code": "C4699",
+      "action": "modify",
+      "date": "2013-06-03"
+    },
+    {
+      "code": "C4699",
+      "action": "modify",
+      "date": "2013-06-10"
+    },
+    {
+      "code": "C4699",
+      "action": "modify",
+      "date": "2013-06-17"
+    },
+    {
+      "code": "C4699",
+      "action": "modify",
+      "date": "2013-06-24"
+    },
+    {
+      "code": "C4699",
+      "action": "modify",
+      "date": "2013-07-01"
+    },
+    {
+      "code": "C4699",
+      "action": "modify",
+      "date": "2013-07-08"
+    },
+    {
+      "code": "C4699",
+      "action": "modify",
+      "date": "2014-08-25"
+    },
+    {
+      "code": "C4699",
+      "action": "modify",
+      "date": "2014-09-22"
+    },
+    {
+      "code": "C4699",
+      "action": "modify",
+      "date": "2016-04-25"
+    },
+    {
+      "code": "C4699",
+      "action": "modify",
+      "date": "2017-07-31"
+    },
+    {
+      "code": "C4699",
+      "action": "modify",
+      "date": "2017-09-26"
+    },
+    {
+      "code": "C4699",
+      "action": "modify",
+      "date": "2017-10-30"
+    },
+    {
+      "code": "C4699",
+      "action": "modify",
+      "date": "2018-02-26"
+    },
+    {
+      "code": "C4699",
+      "action": "modify",
+      "date": "2018-07-30"
+    },
+    {
+      "code": "C4699",
+      "action": "modify",
+      "date": "2018-08-27"
+    },
+    {
+      "code": "C4699",
+      "action": "modify",
+      "date": "2018-08-27"
+    },
+    {
+      "code": "C4699",
+      "action": "modify",
+      "date": "2019-02-25"
+    },
+    {
+      "code": "C4699",
+      "action": "modify",
+      "date": "2019-03-25"
+    },
+    {
+      "code": "C4699",
+      "action": "modify",
+      "date": "2019-05-28"
+    },
+    {
+      "code": "C4699",
+      "action": "modify",
+      "date": "2020-05-26"
+    },
+    {
+      "code": "C4699",
+      "action": "modify",
+      "date": "2021-07-26"
+    }
+  ]
+}

@@ -1,0 +1,551 @@
+{
+  "code": "C5473",
+  "name": "Gastric Tubular Adenocarcinoma",
+  "terminology": "ncit",
+  "version": "25.11d",
+  "conceptStatus": "DEFAULT",
+  "leaf": true,
+  "active": true,
+  "synonyms": [
+    {
+      "name": "Gastric Tubular Adenocarcinoma",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "caDSR"
+    },
+    {
+      "name": "Gastric Tubular Adenocarcinoma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "Cellosaurus"
+    },
+    {
+      "name": "Tubular adenocarcinoma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "CPTAC"
+    },
+    {
+      "name": "Gastric Tubular Adenocarcinoma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Tubular Adenocarcinoma of Stomach",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Tubular Adenocarcinoma of the Stomach",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Gastric Tubular Adenocarcinoma",
+      "type": "Preferred_Name"
+    }
+  ],
+  "definitions": [
+    {
+      "definition": "A variant of gastric adenocarcinoma characterized by prominent dilated or slit-like tubules.",
+      "type": "DEFINITION",
+      "source": "NCI"
+    }
+  ],
+  "properties": [
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "Cellosaurus"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "CPTAC"
+    },
+    {
+      "code": "P366",
+      "type": "Legacy Concept Name",
+      "value": "Gastric_Tubular_Adenocarcinoma"
+    },
+    {
+      "code": "P363",
+      "type": "Neoplastic_Status",
+      "value": "Malignant"
+    },
+    {
+      "code": "P106",
+      "type": "Semantic_Type",
+      "value": "Neoplastic Process"
+    },
+    {
+      "code": "P207",
+      "type": "UMLS_CUI",
+      "value": "C1333791"
+    }
+  ],
+  "parents": [
+    {
+      "code": "C43527",
+      "name": "Sporadic Gastric Adenocarcinoma"
+    },
+    {
+      "code": "C65192",
+      "name": "Tubular Adenocarcinoma"
+    }
+  ],
+  "associations": [
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C165258",
+      "relatedName": "Cellosaurus Disease Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C156953",
+      "relatedName": "CPTAC Baseline Medical Forms Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C157532",
+      "relatedName": "CPTAC Stomach Adenocarcinoma Baseline Form"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C156952",
+      "relatedName": "CPTAC Terminology"
+    }
+  ],
+  "roles": [
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C26682",
+      "relatedName": "Abdominal Pain"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36773",
+      "relatedName": "Adenocarcinoma Cell"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C36122",
+      "relatedName": "Benign Cellular Infiltrate"
+    },
+    {
+      "type": "Disease_May_Have_Molecular_Abnormality",
+      "relatedCode": "C43532",
+      "relatedName": "c-MET Gene Amplification"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C54172",
+      "relatedName": "Carcinomatous Component Present"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12378",
+      "relatedName": "Digestive System"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12378",
+      "relatedName": "Digestive System"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C26756",
+      "relatedName": "Dyspepsia"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C12578",
+      "relatedName": "Epithelial Cell"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C53596",
+      "relatedName": "Epithelial Component Present"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C45714",
+      "relatedName": "Epithelial Tissue"
+    },
+    {
+      "type": "Disease_May_Have_Molecular_Abnormality",
+      "relatedCode": "C36638",
+      "relatedName": "ERBB2 Gene Amplification"
+    },
+    {
+      "type": "Disease_Excludes_Primary_Anatomic_Site",
+      "relatedCode": "C12957",
+      "relatedName": "Exocrine System"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C54582",
+      "relatedName": "Gastric Hemorrhage"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C32656",
+      "relatedName": "Gastric Mucosa"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C33923",
+      "relatedName": "Glandular Cell"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C43370",
+      "relatedName": "Glandular Epithelium"
+    },
+    {
+      "type": "Disease_May_Have_Molecular_Abnormality",
+      "relatedCode": "C36683",
+      "relatedName": "Inactivating APC Gene Mutation"
+    },
+    {
+      "type": "Disease_May_Have_Molecular_Abnormality",
+      "relatedCode": "C36654",
+      "relatedName": "Inactivating CDH1 Gene Mutation"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C155862",
+      "relatedName": "Intermediate Grade Neuroendocrine Lesion"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C36879",
+      "relatedName": "Lobular Carcinoma Cell"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C155864",
+      "relatedName": "Low Grade Neuroendocrine Lesion"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12917",
+      "relatedName": "Malignant Cell"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C36115",
+      "relatedName": "Malignant Cellular Infiltrate"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36779",
+      "relatedName": "Malignant Epithelial Cell"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C36771",
+      "relatedName": "Malignant Squamous Cell"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C37153",
+      "relatedName": "Malignant Stromal Cell"
+    },
+    {
+      "type": "Disease_May_Have_Molecular_Abnormality",
+      "relatedCode": "C36318",
+      "relatedName": "Microsatellite Instability"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C62273",
+      "relatedName": "Mixed Neoplastic Glandular and Squamous Cell Population"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12922",
+      "relatedName": "Neoplastic Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36753",
+      "relatedName": "Neoplastic Epithelial Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36763",
+      "relatedName": "Neoplastic Glandular Cell"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C36937",
+      "relatedName": "Neoplastic Smooth Muscle Cell"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C36760",
+      "relatedName": "Neoplastic Squamous Cell"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C53974",
+      "relatedName": "Non-Hereditary Lesion"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12391",
+      "relatedName": "Stomach"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12391",
+      "relatedName": "Stomach"
+    },
+    {
+      "type": "Disease_May_Have_Molecular_Abnormality",
+      "relatedCode": "C36329",
+      "relatedName": "TP53 Gene Inactivation"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C61294",
+      "relatedName": "Tubular Structures Present"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C155861",
+      "relatedName": "Well Differentiated Neuroendocrine Lesion"
+    }
+  ],
+  "history": [
+    {
+      "code": "C5473",
+      "action": "create",
+      "date": "2003-08-12"
+    },
+    {
+      "code": "C5473",
+      "action": "modify",
+      "date": "2003-10-31"
+    },
+    {
+      "code": "C5473",
+      "action": "modify",
+      "date": "2003-12-30"
+    },
+    {
+      "code": "C5473",
+      "action": "modify",
+      "date": "2004-03-30"
+    },
+    {
+      "code": "C5473",
+      "action": "modify",
+      "date": "2005-03-16"
+    },
+    {
+      "code": "C5473",
+      "action": "modify",
+      "date": "2006-05-26"
+    },
+    {
+      "code": "C5473",
+      "action": "modify",
+      "date": "2006-09-29"
+    },
+    {
+      "code": "C5473",
+      "action": "modify",
+      "date": "2007-03-30"
+    },
+    {
+      "code": "C5473",
+      "action": "modify",
+      "date": "2009-04-06"
+    },
+    {
+      "code": "C5473",
+      "action": "modify",
+      "date": "2009-11-23"
+    },
+    {
+      "code": "C5473",
+      "action": "modify",
+      "date": "2011-02-28"
+    },
+    {
+      "code": "C5473",
+      "action": "modify",
+      "date": "2013-02-25"
+    },
+    {
+      "code": "C5473",
+      "action": "modify",
+      "date": "2013-03-04"
+    },
+    {
+      "code": "C5473",
+      "action": "modify",
+      "date": "2013-03-11"
+    },
+    {
+      "code": "C5473",
+      "action": "modify",
+      "date": "2013-03-18"
+    },
+    {
+      "code": "C5473",
+      "action": "modify",
+      "date": "2013-03-25"
+    },
+    {
+      "code": "C5473",
+      "action": "modify",
+      "date": "2013-04-01"
+    },
+    {
+      "code": "C5473",
+      "action": "modify",
+      "date": "2013-04-08"
+    },
+    {
+      "code": "C5473",
+      "action": "modify",
+      "date": "2013-04-15"
+    },
+    {
+      "code": "C5473",
+      "action": "modify",
+      "date": "2013-04-22"
+    },
+    {
+      "code": "C5473",
+      "action": "modify",
+      "date": "2013-04-29"
+    },
+    {
+      "code": "C5473",
+      "action": "modify",
+      "date": "2013-05-06"
+    },
+    {
+      "code": "C5473",
+      "action": "modify",
+      "date": "2013-05-13"
+    },
+    {
+      "code": "C5473",
+      "action": "modify",
+      "date": "2013-05-20"
+    },
+    {
+      "code": "C5473",
+      "action": "modify",
+      "date": "2013-05-28"
+    },
+    {
+      "code": "C5473",
+      "action": "modify",
+      "date": "2013-06-03"
+    },
+    {
+      "code": "C5473",
+      "action": "modify",
+      "date": "2013-06-10"
+    },
+    {
+      "code": "C5473",
+      "action": "modify",
+      "date": "2013-06-17"
+    },
+    {
+      "code": "C5473",
+      "action": "modify",
+      "date": "2013-06-24"
+    },
+    {
+      "code": "C5473",
+      "action": "modify",
+      "date": "2013-07-01"
+    },
+    {
+      "code": "C5473",
+      "action": "modify",
+      "date": "2013-07-08"
+    },
+    {
+      "code": "C5473",
+      "action": "modify",
+      "date": "2018-09-24"
+    },
+    {
+      "code": "C5473",
+      "action": "modify",
+      "date": "2018-10-29"
+    },
+    {
+      "code": "C5473",
+      "action": "modify",
+      "date": "2018-10-29"
+    },
+    {
+      "code": "C5473",
+      "action": "modify",
+      "date": "2019-03-25"
+    },
+    {
+      "code": "C5473",
+      "action": "modify",
+      "date": "2019-05-28"
+    },
+    {
+      "code": "C5473",
+      "action": "modify",
+      "date": "2019-06-24"
+    },
+    {
+      "code": "C5473",
+      "action": "modify",
+      "date": "2019-07-29"
+    },
+    {
+      "code": "C5473",
+      "action": "modify",
+      "date": "2019-09-30"
+    },
+    {
+      "code": "C5473",
+      "action": "modify",
+      "date": "2019-10-28"
+    },
+    {
+      "code": "C5473",
+      "action": "modify",
+      "date": "2020-02-24"
+    },
+    {
+      "code": "C5473",
+      "action": "modify",
+      "date": "2020-03-30"
+    },
+    {
+      "code": "C5473",
+      "action": "modify",
+      "date": "2020-09-29"
+    },
+    {
+      "code": "C5473",
+      "action": "modify",
+      "date": "2023-02-27"
+    },
+    {
+      "code": "C5473",
+      "action": "modify",
+      "date": "2025-03-31"
+    }
+  ]
+}

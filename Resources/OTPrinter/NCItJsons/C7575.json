@@ -1,0 +1,549 @@
+{
+  "code": "C7575",
+  "name": "Breast Phyllodes Tumor",
+  "terminology": "ncit",
+  "version": "25.11d",
+  "conceptStatus": "DEFAULT",
+  "leaf": false,
+  "active": true,
+  "synonyms": [
+    {
+      "name": "Cystosarcoma phylloides - breast",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "CTEP",
+      "code": "10053130",
+      "subSource": "SDC"
+    },
+    {
+      "name": "Cystosarcoma phylloides of the breast",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "CTEP",
+      "code": "10053130",
+      "subSource": "SDC"
+    },
+    {
+      "name": "Breast Cystosarcoma Phyllodes",
+      "termType": "AQS",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Breast Phyllodes Neoplasm",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Breast Phyllodes Tumor",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Cystosarcoma Phyllodes of Breast",
+      "termType": "AQS",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Cystosarcoma Phyllodes of the Breast",
+      "termType": "AQS",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Phyllodes Breast Neoplasm",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Phyllodes Breast Tumor",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Phyllodes Neoplasm of Breast",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Phyllodes Neoplasm of the Breast",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Phyllodes Tumor of Breast",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Phyllodes Tumor of the Breast",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Breast Phyllodes Tumor",
+      "type": "Preferred_Name"
+    }
+  ],
+  "definitions": [
+    {
+      "definition": "A benign, malignant, or borderline circumscribed biphasic neoplasm that arises from the breast.  It usually affects middle-aged women.  It is characterized by the presence of a double layer of epithelial cells that are arranged in clefts, surrounded by a spindle cell mesenchymal (stromal) component.",
+      "type": "DEFINITION",
+      "source": "NCI"
+    }
+  ],
+  "properties": [
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "CTEP"
+    },
+    {
+      "code": "P366",
+      "type": "Legacy Concept Name",
+      "value": "Phyllodes_Tumor_of_the_Breast"
+    },
+    {
+      "code": "P363",
+      "type": "Neoplastic_Status",
+      "value": "Undetermined"
+    },
+    {
+      "code": "P106",
+      "type": "Semantic_Type",
+      "value": "Neoplastic Process"
+    },
+    {
+      "code": "P207",
+      "type": "UMLS_CUI",
+      "value": "C0238031"
+    }
+  ],
+  "children": [
+    {
+      "code": "C5196",
+      "name": "Benign Breast Phyllodes Tumor",
+      "leaf": true
+    },
+    {
+      "code": "C5316",
+      "name": "Borderline Breast Phyllodes Tumor",
+      "leaf": true
+    },
+    {
+      "code": "C189340",
+      "name": "Childhood Breast Phyllodes Tumor",
+      "leaf": true
+    },
+    {
+      "code": "C4504",
+      "name": "Malignant Breast Phyllodes Tumor",
+      "leaf": true
+    }
+  ],
+  "parents": [
+    {
+      "code": "C40405",
+      "name": "Breast Fibroepithelial Neoplasm"
+    },
+    {
+      "code": "C2977",
+      "name": "Phyllodes Tumor"
+    }
+  ],
+  "associations": [
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C103041",
+      "relatedName": "NCI CTEP SDC Breast Cancer - Invasive Sub-Category Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C102905",
+      "relatedName": "NCI CTEP Simplified Disease Classification Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C126659",
+      "relatedName": "NCIt Neoplasm Core Terminology"
+    }
+  ],
+  "roles": [
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C35907",
+      "relatedName": "Biphasic Pattern"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12971",
+      "relatedName": "Breast"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12971",
+      "relatedName": "Breast"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C12508",
+      "relatedName": "Cell"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C53596",
+      "relatedName": "Epithelial Component Present"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C54728",
+      "relatedName": "Intracanalicular Growth Pattern"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C61539",
+      "relatedName": "Malignant Glandular Epithelium Resembling the Normal Endometrium Present"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C12370",
+      "relatedName": "Mammary Gland Tissue"
+    },
+    {
+      "type": "Disease_May_Have_Molecular_Abnormality",
+      "relatedCode": "C150689",
+      "relatedName": "MED12 Gene Mutation"
+    },
+    {
+      "type": "Disease_Mapped_To_Gene",
+      "relatedCode": "C98210",
+      "relatedName": "MED12 Gene"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C54167",
+      "relatedName": "Mesenchymal Component Present"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C41610",
+      "relatedName": "Mixed Cellular Population"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12922",
+      "relatedName": "Neoplastic Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C37150",
+      "relatedName": "Neoplastic Stromal Cell"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C12571",
+      "relatedName": "Stromal Cell"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C12801",
+      "relatedName": "Tissue"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C41457",
+      "relatedName": "Well-Circumscribed Lesion"
+    }
+  ],
+  "history": [
+    {
+      "code": "C7575",
+      "action": "create",
+      "date": "2003-08-12"
+    },
+    {
+      "code": "C7575",
+      "action": "modify",
+      "date": "2003-10-31"
+    },
+    {
+      "code": "C7575",
+      "action": "modify",
+      "date": "2003-12-30"
+    },
+    {
+      "code": "C7575",
+      "action": "modify",
+      "date": "2004-03-30"
+    },
+    {
+      "code": "C7575",
+      "action": "modify",
+      "date": "2004-09-10"
+    },
+    {
+      "code": "C7575",
+      "action": "modify",
+      "date": "2006-04-28"
+    },
+    {
+      "code": "C7575",
+      "action": "modify",
+      "date": "2006-05-26"
+    },
+    {
+      "code": "C7575",
+      "action": "modify",
+      "date": "2006-06-30"
+    },
+    {
+      "code": "C7575",
+      "action": "modify",
+      "date": "2006-09-01"
+    },
+    {
+      "code": "C7575",
+      "action": "modify",
+      "date": "2009-04-06"
+    },
+    {
+      "code": "C7575",
+      "action": "modify",
+      "date": "2009-10-27"
+    },
+    {
+      "code": "C7575",
+      "action": "modify",
+      "date": "2009-11-23"
+    },
+    {
+      "code": "C7575",
+      "action": "modify",
+      "date": "2011-01-24"
+    },
+    {
+      "code": "C7575",
+      "action": "modify",
+      "date": "2011-09-12"
+    },
+    {
+      "code": "C7575",
+      "action": "modify",
+      "date": "2012-09-24"
+    },
+    {
+      "code": "C7575",
+      "action": "modify",
+      "date": "2012-10-01"
+    },
+    {
+      "code": "C7575",
+      "action": "modify",
+      "date": "2012-10-09"
+    },
+    {
+      "code": "C7575",
+      "action": "modify",
+      "date": "2012-10-15"
+    },
+    {
+      "code": "C7575",
+      "action": "modify",
+      "date": "2012-10-22"
+    },
+    {
+      "code": "C7575",
+      "action": "modify",
+      "date": "2012-10-31"
+    },
+    {
+      "code": "C7575",
+      "action": "modify",
+      "date": "2012-11-05"
+    },
+    {
+      "code": "C7575",
+      "action": "modify",
+      "date": "2012-11-13"
+    },
+    {
+      "code": "C7575",
+      "action": "modify",
+      "date": "2012-11-19"
+    },
+    {
+      "code": "C7575",
+      "action": "modify",
+      "date": "2012-11-26"
+    },
+    {
+      "code": "C7575",
+      "action": "modify",
+      "date": "2012-12-03"
+    },
+    {
+      "code": "C7575",
+      "action": "modify",
+      "date": "2012-12-10"
+    },
+    {
+      "code": "C7575",
+      "action": "modify",
+      "date": "2012-12-17"
+    },
+    {
+      "code": "C7575",
+      "action": "modify",
+      "date": "2012-12-28"
+    },
+    {
+      "code": "C7575",
+      "action": "modify",
+      "date": "2013-01-07"
+    },
+    {
+      "code": "C7575",
+      "action": "modify",
+      "date": "2013-01-14"
+    },
+    {
+      "code": "C7575",
+      "action": "modify",
+      "date": "2013-01-23"
+    },
+    {
+      "code": "C7575",
+      "action": "modify",
+      "date": "2013-02-04"
+    },
+    {
+      "code": "C7575",
+      "action": "modify",
+      "date": "2013-02-11"
+    },
+    {
+      "code": "C7575",
+      "action": "modify",
+      "date": "2013-02-19"
+    },
+    {
+      "code": "C7575",
+      "action": "modify",
+      "date": "2013-02-25"
+    },
+    {
+      "code": "C7575",
+      "action": "modify",
+      "date": "2013-03-04"
+    },
+    {
+      "code": "C7575",
+      "action": "modify",
+      "date": "2013-03-11"
+    },
+    {
+      "code": "C7575",
+      "action": "modify",
+      "date": "2013-03-18"
+    },
+    {
+      "code": "C7575",
+      "action": "modify",
+      "date": "2013-03-25"
+    },
+    {
+      "code": "C7575",
+      "action": "modify",
+      "date": "2013-04-01"
+    },
+    {
+      "code": "C7575",
+      "action": "modify",
+      "date": "2013-04-08"
+    },
+    {
+      "code": "C7575",
+      "action": "modify",
+      "date": "2013-04-15"
+    },
+    {
+      "code": "C7575",
+      "action": "modify",
+      "date": "2013-04-22"
+    },
+    {
+      "code": "C7575",
+      "action": "modify",
+      "date": "2013-04-29"
+    },
+    {
+      "code": "C7575",
+      "action": "modify",
+      "date": "2013-05-06"
+    },
+    {
+      "code": "C7575",
+      "action": "modify",
+      "date": "2013-05-13"
+    },
+    {
+      "code": "C7575",
+      "action": "modify",
+      "date": "2013-05-20"
+    },
+    {
+      "code": "C7575",
+      "action": "modify",
+      "date": "2013-05-28"
+    },
+    {
+      "code": "C7575",
+      "action": "modify",
+      "date": "2013-06-03"
+    },
+    {
+      "code": "C7575",
+      "action": "modify",
+      "date": "2013-06-10"
+    },
+    {
+      "code": "C7575",
+      "action": "modify",
+      "date": "2013-06-17"
+    },
+    {
+      "code": "C7575",
+      "action": "modify",
+      "date": "2013-06-24"
+    },
+    {
+      "code": "C7575",
+      "action": "modify",
+      "date": "2013-07-01"
+    },
+    {
+      "code": "C7575",
+      "action": "modify",
+      "date": "2013-07-08"
+    },
+    {
+      "code": "C7575",
+      "action": "modify",
+      "date": "2016-04-25"
+    },
+    {
+      "code": "C7575",
+      "action": "modify",
+      "date": "2020-11-30"
+    }
+  ]
+}

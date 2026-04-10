@@ -1,0 +1,423 @@
+{
+  "code": "C6981",
+  "name": "Penile Warty Carcinoma",
+  "terminology": "ncit",
+  "version": "25.11d",
+  "conceptStatus": "DEFAULT",
+  "leaf": true,
+  "active": true,
+  "synonyms": [
+    {
+      "name": "Condylomatous Carcinoma of Penis",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Condylomatous Carcinoma of the Penis",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Condylomatous Penile Squamous Cell Carcinoma",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Condylomatous Squamous Cell Carcinoma of Penis",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Condylomatous Squamous Cell Carcinoma of the Penis",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Penile Warty Carcinoma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Squamous Cell Carcinoma of Penis, Condylomatous Type",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Squamous Cell Carcinoma of Penis, Warty Type",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Squamous Cell Carcinoma of the Penis, Condylomatous Type",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Squamous Cell Carcinoma of the Penis, Warty Type",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Warty Carcinoma of Penis",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Warty Carcinoma of the Penis",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Warty Penile Squamous Cell Carcinoma",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Warty Squamous Cell Carcinoma of Penis",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Warty Squamous Cell Carcinoma of the Penis",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Penile Warty Carcinoma",
+      "type": "Preferred_Name"
+    }
+  ],
+  "definitions": [
+    {
+      "definition": "A squamous cell carcinoma that arises from the penis.  It is characterized by a papillary growth pattern, hyperkeratosis and parakeratosis.  Koilocytotic atypia is present.  Human papillomavirus types 16 and 6 have been identified in some cases.",
+      "type": "DEFINITION",
+      "source": "NCI"
+    }
+  ],
+  "properties": [
+    {
+      "code": "P366",
+      "type": "Legacy Concept Name",
+      "value": "Warty_Carcinoma_of_the_Penis"
+    },
+    {
+      "code": "P363",
+      "type": "Neoplastic_Status",
+      "value": "Malignant"
+    },
+    {
+      "code": "P106",
+      "type": "Semantic_Type",
+      "value": "Neoplastic Process"
+    },
+    {
+      "code": "P207",
+      "type": "UMLS_CUI",
+      "value": "C1337009"
+    }
+  ],
+  "parents": [
+    {
+      "code": "C27682",
+      "name": "Human Papillomavirus-Related Penile Squamous Cell Carcinoma"
+    },
+    {
+      "code": "C164248",
+      "name": "Warty Carcinoma"
+    }
+  ],
+  "roles": [
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C35265",
+      "relatedName": "Acanthosis"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C36122",
+      "relatedName": "Benign Cellular Infiltrate"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C54172",
+      "relatedName": "Carcinomatous Component Present"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C12578",
+      "relatedName": "Epithelial Cell"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C53596",
+      "relatedName": "Epithelial Component Present"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C45714",
+      "relatedName": "Epithelial Tissue"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C54201",
+      "relatedName": "Exophytic Papillary Lesion"
+    },
+    {
+      "type": "Disease_Excludes_Primary_Anatomic_Site",
+      "relatedCode": "C32573",
+      "relatedName": "Extrahepatic Bile Duct"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12810",
+      "relatedName": "Genitourinary System"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12810",
+      "relatedName": "Genitourinary System"
+    },
+    {
+      "type": "Disease_Has_Associated_Disease",
+      "relatedCode": "C27851",
+      "relatedName": "Human Papillomavirus Infection"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C128839",
+      "relatedName": "Human Papillomavirus Positive"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C35541",
+      "relatedName": "Hyperkeratosis"
+    },
+    {
+      "type": "Disease_Has_Associated_Disease",
+      "relatedCode": "C26726",
+      "relatedName": "Infectious Disorder"
+    },
+    {
+      "type": "Disease_Excludes_Primary_Anatomic_Site",
+      "relatedCode": "C12677",
+      "relatedName": "Intrahepatic Bile Duct"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C8351",
+      "relatedName": "Koilocytotic Atypia"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12722",
+      "relatedName": "Male Reproductive System"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12722",
+      "relatedName": "Male Reproductive System"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12917",
+      "relatedName": "Malignant Cell"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C36115",
+      "relatedName": "Malignant Cellular Infiltrate"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36779",
+      "relatedName": "Malignant Epithelial Cell"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C54208",
+      "relatedName": "Malignant Hyperchromatic Squamous Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36771",
+      "relatedName": "Malignant Squamous Cell"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C37153",
+      "relatedName": "Malignant Stromal Cell"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C62273",
+      "relatedName": "Mixed Neoplastic Glandular and Squamous Cell Population"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C35999",
+      "relatedName": "Mucoid Stroma Formation"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12922",
+      "relatedName": "Neoplastic Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36753",
+      "relatedName": "Neoplastic Epithelial Cell"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C36763",
+      "relatedName": "Neoplastic Glandular Cell"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C36937",
+      "relatedName": "Neoplastic Smooth Muscle Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36760",
+      "relatedName": "Neoplastic Squamous Cell"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C35911",
+      "relatedName": "Papillary Growth Pattern"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12409",
+      "relatedName": "Penis"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12409",
+      "relatedName": "Penis"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C35912",
+      "relatedName": "Pseudopapillary Pattern"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C53991",
+      "relatedName": "Pushing Tumor Margin"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12841",
+      "relatedName": "Reproductive System"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C12849",
+      "relatedName": "Squamous Cell"
+    },
+    {
+      "type": "Disease_Has_Associated_Disease",
+      "relatedCode": "C3439",
+      "relatedName": "Viral Infection"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C36133",
+      "relatedName": "Well Differentiated Lesion"
+    }
+  ],
+  "history": [
+    {
+      "code": "C6981",
+      "action": "create",
+      "date": "2003-08-12"
+    },
+    {
+      "code": "C6981",
+      "action": "modify",
+      "date": "2003-10-31"
+    },
+    {
+      "code": "C6981",
+      "action": "modify",
+      "date": "2003-12-30"
+    },
+    {
+      "code": "C6981",
+      "action": "modify",
+      "date": "2004-03-30"
+    },
+    {
+      "code": "C6981",
+      "action": "modify",
+      "date": "2004-08-02"
+    },
+    {
+      "code": "C6981",
+      "action": "modify",
+      "date": "2006-03-31"
+    },
+    {
+      "code": "C6981",
+      "action": "modify",
+      "date": "2006-09-29"
+    },
+    {
+      "code": "C6981",
+      "action": "modify",
+      "date": "2009-04-06"
+    },
+    {
+      "code": "C6981",
+      "action": "modify",
+      "date": "2009-11-23"
+    },
+    {
+      "code": "C6981",
+      "action": "modify",
+      "date": "2011-02-22"
+    },
+    {
+      "code": "C6981",
+      "action": "modify",
+      "date": "2012-10-09"
+    },
+    {
+      "code": "C6981",
+      "action": "modify",
+      "date": "2014-02-03"
+    },
+    {
+      "code": "C6981",
+      "action": "modify",
+      "date": "2019-04-29"
+    },
+    {
+      "code": "C6981",
+      "action": "modify",
+      "date": "2019-09-30"
+    },
+    {
+      "code": "C6981",
+      "action": "modify",
+      "date": "2023-01-31"
+    }
+  ]
+}

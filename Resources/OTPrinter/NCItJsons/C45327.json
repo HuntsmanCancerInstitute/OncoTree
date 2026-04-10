@@ -1,0 +1,598 @@
+{
+  "code": "C45327",
+  "name": "Hydroa Vacciniforme Lymphoproliferative Disorder",
+  "terminology": "ncit",
+  "version": "25.11d",
+  "conceptStatus": "DEFAULT",
+  "leaf": false,
+  "active": true,
+  "synonyms": [
+    {
+      "name": "Hydroa vacciniforme-like lymphoma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "GDC"
+    },
+    {
+      "name": "HV LPD",
+      "termType": "AB",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "HV-Like LPD",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "HV-LPD",
+      "termType": "AB",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Hydroa Vacciniforme Lymphoproliferative Disorder",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Hydroa Vacciniforme-Like Cutaneous T-Cell Lymphoma",
+      "termType": "AQS",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Hydroa Vacciniforme-Like Lymphoma",
+      "termType": "AQS",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Hydroa Vacciniforme-Like Lymphoproliferative Disorder",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "HV-Like Lymphoma",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NICHD"
+    },
+    {
+      "name": "Hydroa Vacciniforme-Like Lymphoma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NICHD"
+    },
+    {
+      "name": "Hydroa Vacciniforme Lymphoproliferative Disorder",
+      "type": "Preferred_Name"
+    }
+  ],
+  "definitions": [
+    {
+      "definition": "A rare, EBV-positive cutaneous T-cell lymphoproliferative disorder, composed of CD8 positive cytotoxic T-lymphocytes.  It affects children, almost exclusively in Latin America and Asia. Patients present with papulovesicular skin lesions, clinically resembling hydroa vacciniforme, in areas of sun-exposed skin.",
+      "type": "DEFINITION",
+      "source": "NCI"
+    },
+    {
+      "definition": "In contrast to hydroa vacciniforme (HV), HV-like lymphoma is not induced by sun exposure and the lesions can occur in both sun-exposed and covered body areas. It affects children, almost exclusively in Latin America and Asia.",
+      "type": "ALT_DEFINITION",
+      "source": "NICHD"
+    }
+  ],
+  "properties": [
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "GDC"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "NICHD"
+    },
+    {
+      "code": "P334",
+      "type": "ICD-O-3_Code",
+      "value": "9725/3"
+    },
+    {
+      "code": "P366",
+      "type": "Legacy Concept Name",
+      "value": "Hydroa_Vacciniforme-Like_Cutaneous_T-Cell_Lymphoma"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "9725/3"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "Hydroa vacciniforme-like lymphoma"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "Hydroa vacciniforme-like lymphoproliferative disorder"
+    },
+    {
+      "code": "P363",
+      "type": "Neoplastic_Status",
+      "value": "Undetermined"
+    },
+    {
+      "code": "P106",
+      "type": "Semantic_Type",
+      "value": "Neoplastic Process"
+    },
+    {
+      "code": "P207",
+      "type": "UMLS_CUI",
+      "value": "C1708397"
+    }
+  ],
+  "children": [
+    {
+      "code": "C199676",
+      "name": "Classic Hydroa Vacciniforme Lymphoproliferative Disorder",
+      "leaf": true
+    },
+    {
+      "code": "C199677",
+      "name": "Systemic Hydroa Vacciniforme Lymphoproliferative Disorder",
+      "leaf": true
+    }
+  ],
+  "parents": [
+    {
+      "code": "C80373",
+      "name": "EBV-Positive T-Cell/NK-Cell Lymphoproliferative Disorder of Childhood"
+    }
+  ],
+  "associations": [
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C157711",
+      "relatedName": "GDC Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C177537",
+      "relatedName": "GDC Value Terminology"
+    },
+    {
+      "type": "Is_Value_For_GDC_Property",
+      "relatedCode": "C176985",
+      "relatedName": "Histology ICD-O Morphology Code"
+    },
+    {
+      "type": "Is_Value_For_GDC_Property",
+      "relatedCode": "C177621",
+      "relatedName": "ICD-O-3 Morphology Term Diagnosis Question"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168658",
+      "relatedName": "Mapped ICDO3.1 Morphology PT Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168657",
+      "relatedName": "Mapped ICDO3.1 Morphology Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168655",
+      "relatedName": "Mapped ICDO3.1 Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168662",
+      "relatedName": "Mapped ICDO3.2 Morphology PT Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168661",
+      "relatedName": "Mapped ICDO3.2 Morphology Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168656",
+      "relatedName": "Mapped ICDO3.2 Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C126659",
+      "relatedName": "NCIt Neoplasm Core Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C90259",
+      "relatedName": "NICHD Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C132009",
+      "relatedName": "Pediatric Hematology-Oncology Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C6283",
+      "relatedName": "Childhood Neoplasm",
+      "qualifiers": [
+        {
+          "type": "computed",
+          "value": "This is computed by the existing subset relationship"
+        }
+      ]
+    }
+  ],
+  "inverseAssociations": [
+    {
+      "type": "Has_GDC_Value",
+      "relatedCode": "C176985",
+      "relatedName": "Histology ICD-O Morphology Code"
+    },
+    {
+      "type": "Has_GDC_Value",
+      "relatedCode": "C177621",
+      "relatedName": "ICD-O-3 Morphology Term Diagnosis Question"
+    }
+  ],
+  "roles": [
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36725",
+      "relatedName": "Abnormal Lymphocyte"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C45324",
+      "relatedName": "CD8-Positive Neoplastic Cells Present"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C60644",
+      "relatedName": "Childhood Lesion"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C12543",
+      "relatedName": "Cytotoxic T-Lymphocyte"
+    },
+    {
+      "type": "Disease_Has_Associated_Disease",
+      "relatedCode": "C38759",
+      "relatedName": "EBV Infection"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C73940",
+      "relatedName": "EBV-Positive Neoplastic Cells Present"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C129454",
+      "relatedName": "Epstein-Barr Virus Positive"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C41165",
+      "relatedName": "Hematopoietic and Lymphatic System"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C41165",
+      "relatedName": "Hematopoietic and Lymphatic System"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C32725",
+      "relatedName": "Hematopoietic and Lymphoid Cell"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C41168",
+      "relatedName": "Hematopoietic and Lymphoid Tissue"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12746",
+      "relatedName": "Lymphatic System"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C12535",
+      "relatedName": "Lymphocyte"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C13049",
+      "relatedName": "Lymphoid Tissue"
+    },
+    {
+      "type": "Disease_Excludes_Normal_Cell_Origin",
+      "relatedCode": "C12549",
+      "relatedName": "Myeloid Cell"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C38640",
+      "relatedName": "Neoplastic B-Lymphocyte"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12922",
+      "relatedName": "Neoplastic Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C37060",
+      "relatedName": "Neoplastic Hematopoietic and Lymphoid Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36988",
+      "relatedName": "Neoplastic Lymphocyte"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C39566",
+      "relatedName": "Neoplastic T-Lymphocyte and Neoplastic Natural Killer Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C38641",
+      "relatedName": "Neoplastic T-Lymphocyte"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C45328",
+      "relatedName": "Papulovesicular Lesion"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C39568",
+      "relatedName": "Peripheral (Post-Thymic) T-Lymphocyte and Natural Killer Cell"
+    },
+    {
+      "type": "Disease_Excludes_Normal_Cell_Origin",
+      "relatedCode": "C39300",
+      "relatedName": "Precursor Natural Killer Cell"
+    },
+    {
+      "type": "Disease_Excludes_Normal_Cell_Origin",
+      "relatedCode": "C33930",
+      "relatedName": "Precursor T-Lymphoblast"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C39567",
+      "relatedName": "T-Lymphocyte and Natural Killer Cell"
+    }
+  ],
+  "history": [
+    {
+      "code": "C45327",
+      "action": "create",
+      "date": "2005-03-30"
+    },
+    {
+      "code": "C45327",
+      "action": "modify",
+      "date": "2005-09-29"
+    },
+    {
+      "code": "C45327",
+      "action": "modify",
+      "date": "2009-04-27"
+    },
+    {
+      "code": "C45327",
+      "action": "modify",
+      "date": "2009-06-01"
+    },
+    {
+      "code": "C45327",
+      "action": "modify",
+      "date": "2009-10-27"
+    },
+    {
+      "code": "C45327",
+      "action": "modify",
+      "date": "2009-11-23"
+    },
+    {
+      "code": "C45327",
+      "action": "modify",
+      "date": "2011-01-17"
+    },
+    {
+      "code": "C45327",
+      "action": "modify",
+      "date": "2012-07-30"
+    },
+    {
+      "code": "C45327",
+      "action": "modify",
+      "date": "2016-04-25"
+    },
+    {
+      "code": "C45327",
+      "action": "modify",
+      "date": "2017-02-13"
+    },
+    {
+      "code": "C45327",
+      "action": "modify",
+      "date": "2017-02-21"
+    },
+    {
+      "code": "C45327",
+      "action": "modify",
+      "date": "2017-02-27"
+    },
+    {
+      "code": "C45327",
+      "action": "modify",
+      "date": "2017-03-06"
+    },
+    {
+      "code": "C45327",
+      "action": "modify",
+      "date": "2017-03-13"
+    },
+    {
+      "code": "C45327",
+      "action": "modify",
+      "date": "2017-03-20"
+    },
+    {
+      "code": "C45327",
+      "action": "modify",
+      "date": "2017-03-27"
+    },
+    {
+      "code": "C45327",
+      "action": "modify",
+      "date": "2017-04-03"
+    },
+    {
+      "code": "C45327",
+      "action": "modify",
+      "date": "2017-04-10"
+    },
+    {
+      "code": "C45327",
+      "action": "modify",
+      "date": "2017-04-17"
+    },
+    {
+      "code": "C45327",
+      "action": "modify",
+      "date": "2017-04-24"
+    },
+    {
+      "code": "C45327",
+      "action": "modify",
+      "date": "2017-05-01"
+    },
+    {
+      "code": "C45327",
+      "action": "modify",
+      "date": "2017-05-04"
+    },
+    {
+      "code": "C45327",
+      "action": "modify",
+      "date": "2017-09-26"
+    },
+    {
+      "code": "C45327",
+      "action": "modify",
+      "date": "2017-10-30"
+    },
+    {
+      "code": "C45327",
+      "action": "modify",
+      "date": "2018-02-26"
+    },
+    {
+      "code": "C45327",
+      "action": "modify",
+      "date": "2018-09-24"
+    },
+    {
+      "code": "C45327",
+      "action": "modify",
+      "date": "2019-05-28"
+    },
+    {
+      "code": "C45327",
+      "action": "modify",
+      "date": "2019-09-30"
+    },
+    {
+      "code": "C45327",
+      "action": "modify",
+      "date": "2019-11-25"
+    },
+    {
+      "code": "C45327",
+      "action": "modify",
+      "date": "2020-02-24"
+    },
+    {
+      "code": "C45327",
+      "action": "modify",
+      "date": "2020-04-27"
+    },
+    {
+      "code": "C45327",
+      "action": "modify",
+      "date": "2020-08-31"
+    },
+    {
+      "code": "C45327",
+      "action": "modify",
+      "date": "2020-09-29"
+    },
+    {
+      "code": "C45327",
+      "action": "modify",
+      "date": "2021-02-22"
+    },
+    {
+      "code": "C45327",
+      "action": "modify",
+      "date": "2021-03-29"
+    },
+    {
+      "code": "C45327",
+      "action": "modify",
+      "date": "2021-05-24"
+    },
+    {
+      "code": "C45327",
+      "action": "modify",
+      "date": "2023-06-26"
+    }
+  ],
+  "maps": [
+    {
+      "type": "Related To",
+      "targetName": "9725/3",
+      "targetTermType": "PT",
+      "targetCode": "morphology",
+      "targetTerminology": "GDC"
+    },
+    {
+      "type": "Related To",
+      "targetName": "Hydroa vacciniforme-like lymphoma",
+      "targetTermType": "PT",
+      "targetCode": "9725/3",
+      "targetTerminology": "ICDO3",
+      "targetTerminologyVersion": "3.1"
+    },
+    {
+      "type": "Has Synonym",
+      "targetName": "Hydroa vacciniforme-like lymphoma",
+      "targetTermType": "PT",
+      "targetCode": "primary_diagnosis",
+      "targetTerminology": "GDC"
+    },
+    {
+      "type": "Related To",
+      "targetName": "Hydroa vacciniforme-like lymphoproliferative disorder",
+      "targetTermType": "PT",
+      "targetCode": "9725/1",
+      "targetTerminology": "ICDO3",
+      "targetTerminologyVersion": "3.2"
+    }
+  ]
+}

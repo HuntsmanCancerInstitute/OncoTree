@@ -1,0 +1,421 @@
+{
+  "code": "C92624",
+  "name": "Papillary Tumor of the Pineal Region",
+  "terminology": "ncit",
+  "version": "25.11d",
+  "conceptStatus": "DEFAULT",
+  "leaf": true,
+  "active": true,
+  "synonyms": [
+    {
+      "name": "Papillary tumor of the pineal region",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "GDC"
+    },
+    {
+      "name": "Papillary Tumor of the Pineal Region",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "PTPR",
+      "termType": "AB",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Papillary Tumor of the Pineal Region",
+      "type": "Preferred_Name"
+    }
+  ],
+  "definitions": [
+    {
+      "definition": "A rare tumor that arises from the pineal region and affects adults.  It is characterized by the presence of neuroepithelial cells and a papillary architecture.  Electron microscopic studies suggest ependymal differentiation.  The clinical course is variable.",
+      "type": "DEFINITION",
+      "source": "NCI"
+    }
+  ],
+  "properties": [
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "GDC"
+    },
+    {
+      "code": "P334",
+      "type": "ICD-O-3_Code",
+      "value": "9395/3"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "9395/3"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "Papillary tumor of pineal region"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "Papillary tumor of the pineal region"
+    },
+    {
+      "code": "P363",
+      "type": "Neoplastic_Status",
+      "value": "Undetermined"
+    },
+    {
+      "code": "P106",
+      "type": "Semantic_Type",
+      "value": "Neoplastic Process"
+    },
+    {
+      "code": "P207",
+      "type": "UMLS_CUI",
+      "value": "C2985219"
+    }
+  ],
+  "parents": [
+    {
+      "code": "C3787",
+      "name": "Neuroepithelial Neoplasm"
+    },
+    {
+      "code": "C36031",
+      "name": "Papillary Neoplasm"
+    },
+    {
+      "code": "C3328",
+      "name": "Pineal Region Neoplasm"
+    }
+  ],
+  "associations": [
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C157711",
+      "relatedName": "GDC Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C177537",
+      "relatedName": "GDC Value Terminology"
+    },
+    {
+      "type": "Is_Value_For_GDC_Property",
+      "relatedCode": "C176985",
+      "relatedName": "Histology ICD-O Morphology Code"
+    },
+    {
+      "type": "Is_Value_For_GDC_Property",
+      "relatedCode": "C177621",
+      "relatedName": "ICD-O-3 Morphology Term Diagnosis Question"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168658",
+      "relatedName": "Mapped ICDO3.1 Morphology PT Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168657",
+      "relatedName": "Mapped ICDO3.1 Morphology Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168655",
+      "relatedName": "Mapped ICDO3.1 Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168662",
+      "relatedName": "Mapped ICDO3.2 Morphology PT Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168661",
+      "relatedName": "Mapped ICDO3.2 Morphology Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168656",
+      "relatedName": "Mapped ICDO3.2 Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C126659",
+      "relatedName": "NCIt Neoplasm Core Terminology"
+    }
+  ],
+  "inverseAssociations": [
+    {
+      "type": "Has_GDC_Value",
+      "relatedCode": "C176985",
+      "relatedName": "Histology ICD-O Morphology Code"
+    },
+    {
+      "type": "Has_GDC_Value",
+      "relatedCode": "C177621",
+      "relatedName": "ICD-O-3 Morphology Term Diagnosis Question"
+    }
+  ],
+  "roles": [
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12439",
+      "relatedName": "Brain"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12438",
+      "relatedName": "Central Nervous System"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C92553",
+      "relatedName": "Ependymal Differentiation"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C42585",
+      "relatedName": "Epithelial Differentiation"
+    },
+    {
+      "type": "Disease_May_Have_Cytogenetic_Abnormality",
+      "relatedCode": "C36464",
+      "relatedName": "Gain of Chromosome 12"
+    },
+    {
+      "type": "Disease_May_Have_Cytogenetic_Abnormality",
+      "relatedCode": "C45858",
+      "relatedName": "Gain of Chromosome 4"
+    },
+    {
+      "type": "Disease_May_Have_Cytogenetic_Abnormality",
+      "relatedCode": "C36455",
+      "relatedName": "Gain of Chromosome 8"
+    },
+    {
+      "type": "Disease_May_Have_Cytogenetic_Abnormality",
+      "relatedCode": "C36463",
+      "relatedName": "Gain of Chromosome 9"
+    },
+    {
+      "type": "Disease_May_Have_Cytogenetic_Abnormality",
+      "relatedCode": "C36585",
+      "relatedName": "Loss of Chromosome 10"
+    },
+    {
+      "type": "Disease_May_Have_Cytogenetic_Abnormality",
+      "relatedCode": "C36506",
+      "relatedName": "Loss of Chromosome 22q"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C35999",
+      "relatedName": "Mucoid Stroma Formation"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12922",
+      "relatedName": "Neoplastic Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C41408",
+      "relatedName": "Neoplastic Neuroepithelial Cell and Neoplastic Perineural Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C37125",
+      "relatedName": "Neoplastic Neuroepithelial Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C37125",
+      "relatedName": "Neoplastic Neuroepithelial Cell"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C41406",
+      "relatedName": "Nerve Tissue, Neuroepithelial Tissue, and Nerve Sheaths"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12755",
+      "relatedName": "Nervous System"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C41410",
+      "relatedName": "Neuroepithelial Cell"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C41410",
+      "relatedName": "Neuroepithelial Cell"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C41409",
+      "relatedName": "Neuroepithelial Tissue"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C41405",
+      "relatedName": "Neuron, Neuroepithelial Cell, and Supporting Cell of the Nervous System"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C35911",
+      "relatedName": "Papillary Growth Pattern"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C35911",
+      "relatedName": "Papillary Growth Pattern"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12398",
+      "relatedName": "Pineal Gland"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12398",
+      "relatedName": "Pineal Gland"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C35912",
+      "relatedName": "Pseudopapillary Pattern"
+    },
+    {
+      "type": "Disease_Excludes_Primary_Anatomic_Site",
+      "relatedCode": "C12464",
+      "relatedName": "Spinal Cord"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12512",
+      "relatedName": "Supratentorial Brain"
+    }
+  ],
+  "history": [
+    {
+      "code": "C92624",
+      "action": "create",
+      "date": "2010-10-18"
+    },
+    {
+      "code": "C92624",
+      "action": "modify",
+      "date": "2010-12-27"
+    },
+    {
+      "code": "C92624",
+      "action": "modify",
+      "date": "2011-01-17"
+    },
+    {
+      "code": "C92624",
+      "action": "modify",
+      "date": "2012-07-30"
+    },
+    {
+      "code": "C92624",
+      "action": "modify",
+      "date": "2012-12-10"
+    },
+    {
+      "code": "C92624",
+      "action": "modify",
+      "date": "2014-02-03"
+    },
+    {
+      "code": "C92624",
+      "action": "modify",
+      "date": "2016-04-25"
+    },
+    {
+      "code": "C92624",
+      "action": "modify",
+      "date": "2018-09-24"
+    },
+    {
+      "code": "C92624",
+      "action": "modify",
+      "date": "2019-05-28"
+    },
+    {
+      "code": "C92624",
+      "action": "modify",
+      "date": "2019-09-30"
+    },
+    {
+      "code": "C92624",
+      "action": "modify",
+      "date": "2019-11-25"
+    },
+    {
+      "code": "C92624",
+      "action": "modify",
+      "date": "2020-02-24"
+    },
+    {
+      "code": "C92624",
+      "action": "modify",
+      "date": "2020-04-27"
+    },
+    {
+      "code": "C92624",
+      "action": "modify",
+      "date": "2021-02-22"
+    },
+    {
+      "code": "C92624",
+      "action": "modify",
+      "date": "2021-03-29"
+    },
+    {
+      "code": "C92624",
+      "action": "modify",
+      "date": "2022-04-25"
+    }
+  ],
+  "maps": [
+    {
+      "type": "Related To",
+      "targetName": "9395/3",
+      "targetTermType": "PT",
+      "targetCode": "morphology",
+      "targetTerminology": "GDC"
+    },
+    {
+      "type": "Related To",
+      "targetName": "Papillary tumor of pineal region",
+      "targetTermType": "PT",
+      "targetCode": "9395/3",
+      "targetTerminology": "ICDO3",
+      "targetTerminologyVersion": "3.2"
+    },
+    {
+      "type": "Related To",
+      "targetName": "Papillary tumor of the pineal region",
+      "targetTermType": "PT",
+      "targetCode": "9395/3",
+      "targetTerminology": "ICDO3",
+      "targetTerminologyVersion": "3.1"
+    },
+    {
+      "type": "Has Synonym",
+      "targetName": "Papillary tumor of the pineal region",
+      "targetTermType": "PT",
+      "targetCode": "primary_diagnosis",
+      "targetTerminology": "GDC"
+    }
+  ]
+}

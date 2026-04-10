@@ -1,0 +1,359 @@
+{
+  "code": "C4504",
+  "name": "Malignant Breast Phyllodes Tumor",
+  "terminology": "ncit",
+  "version": "25.11d",
+  "conceptStatus": "DEFAULT",
+  "leaf": true,
+  "active": true,
+  "synonyms": [
+    {
+      "name": "Malignant Breast Phyllodes Tumor",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "Cellosaurus"
+    },
+    {
+      "name": "Malignant Breast Phyllodes Neoplasm",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Malignant Breast Phyllodes Tumor",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Malignant Mammary Phyllodes Neoplasm",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Malignant Mammary Phyllodes Tumor",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Malignant Phyllodes Breast Neoplasm",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Malignant Phyllodes Neoplasm of Breast",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Malignant Phyllodes Neoplasm of the Breast",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Malignant Phyllodes Tumor of Breast",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Malignant Phyllodes Tumor of the Breast",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Malignant Breast Phyllodes Tumor",
+      "type": "Preferred_Name"
+    }
+  ],
+  "definitions": [
+    {
+      "definition": "A phyllodes tumor of the breast characterized by infiltrative margins and a sarcomatous stromal component.  The sarcomatous stroma usually displays features of fibrosarcoma.  Liposarcomatous, osteosarcomatous, or rhabdomyosarcomatous elements may also be present.",
+      "type": "DEFINITION",
+      "source": "NCI"
+    }
+  ],
+  "properties": [
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "Cellosaurus"
+    },
+    {
+      "code": "P366",
+      "type": "Legacy Concept Name",
+      "value": "Malignant_Phyllodes_Breast_Tumor"
+    },
+    {
+      "code": "P363",
+      "type": "Neoplastic_Status",
+      "value": "Malignant"
+    },
+    {
+      "code": "P106",
+      "type": "Semantic_Type",
+      "value": "Neoplastic Process"
+    },
+    {
+      "code": "P207",
+      "type": "UMLS_CUI",
+      "value": "C0346154"
+    }
+  ],
+  "parents": [
+    {
+      "code": "C7575",
+      "name": "Breast Phyllodes Tumor"
+    },
+    {
+      "code": "C9335",
+      "name": "Malignant Breast Neoplasm"
+    },
+    {
+      "code": "C4275",
+      "name": "Malignant Phyllodes Tumor"
+    }
+  ],
+  "associations": [
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C165258",
+      "relatedName": "Cellosaurus Disease Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C126659",
+      "relatedName": "NCIt Neoplasm Core Terminology"
+    }
+  ],
+  "roles": [
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C36122",
+      "relatedName": "Benign Cellular Infiltrate"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C35907",
+      "relatedName": "Biphasic Pattern"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12971",
+      "relatedName": "Breast"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12971",
+      "relatedName": "Breast"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C35860",
+      "relatedName": "Cartilaginous Metaplasia"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C12508",
+      "relatedName": "Cell"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C53596",
+      "relatedName": "Epithelial Component Present"
+    },
+    {
+      "type": "Disease_Excludes_Normal_Cell_Origin",
+      "relatedCode": "C12615",
+      "relatedName": "Glial Cell"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C53992",
+      "relatedName": "Infiltrating Tumor Margins Present"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C54728",
+      "relatedName": "Intracanalicular Growth Pattern"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C49120",
+      "relatedName": "Lipomatous Metaplasia"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12917",
+      "relatedName": "Malignant Cell"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C36115",
+      "relatedName": "Malignant Cellular Infiltrate"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C61539",
+      "relatedName": "Malignant Glandular Epithelium Resembling the Normal Endometrium Present"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C37153",
+      "relatedName": "Malignant Stromal Cell"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C12370",
+      "relatedName": "Mammary Gland Tissue"
+    },
+    {
+      "type": "Disease_May_Have_Molecular_Abnormality",
+      "relatedCode": "C150689",
+      "relatedName": "MED12 Gene Mutation"
+    },
+    {
+      "type": "Disease_Mapped_To_Gene",
+      "relatedCode": "C98210",
+      "relatedName": "MED12 Gene"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C54167",
+      "relatedName": "Mesenchymal Component Present"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C41610",
+      "relatedName": "Mixed Cellular Population"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12922",
+      "relatedName": "Neoplastic Cell"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C37126",
+      "relatedName": "Neoplastic Glial Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C37150",
+      "relatedName": "Neoplastic Stromal Cell"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C35859",
+      "relatedName": "Osseous Metaplasia"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C54727",
+      "relatedName": "Sarcomatous Component Present"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C12571",
+      "relatedName": "Stromal Cell"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C12801",
+      "relatedName": "Tissue"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C41457",
+      "relatedName": "Well-Circumscribed Lesion"
+    }
+  ],
+  "history": [
+    {
+      "code": "C4504",
+      "action": "create",
+      "date": "2003-08-12"
+    },
+    {
+      "code": "C4504",
+      "action": "modify",
+      "date": "2003-10-31"
+    },
+    {
+      "code": "C4504",
+      "action": "modify",
+      "date": "2003-12-30"
+    },
+    {
+      "code": "C4504",
+      "action": "modify",
+      "date": "2004-03-30"
+    },
+    {
+      "code": "C4504",
+      "action": "modify",
+      "date": "2004-09-10"
+    },
+    {
+      "code": "C4504",
+      "action": "modify",
+      "date": "2006-02-24"
+    },
+    {
+      "code": "C4504",
+      "action": "modify",
+      "date": "2006-04-28"
+    },
+    {
+      "code": "C4504",
+      "action": "modify",
+      "date": "2006-05-26"
+    },
+    {
+      "code": "C4504",
+      "action": "modify",
+      "date": "2009-04-06"
+    },
+    {
+      "code": "C4504",
+      "action": "modify",
+      "date": "2009-11-23"
+    },
+    {
+      "code": "C4504",
+      "action": "modify",
+      "date": "2011-09-12"
+    },
+    {
+      "code": "C4504",
+      "action": "modify",
+      "date": "2016-04-25"
+    },
+    {
+      "code": "C4504",
+      "action": "modify",
+      "date": "2019-10-28"
+    },
+    {
+      "code": "C4504",
+      "action": "modify",
+      "date": "2020-11-30"
+    },
+    {
+      "code": "C4504",
+      "action": "modify",
+      "date": "2023-02-27"
+    },
+    {
+      "code": "C4504",
+      "action": "modify",
+      "date": "2025-03-31"
+    }
+  ]
+}

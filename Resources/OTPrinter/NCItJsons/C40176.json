@@ -1,0 +1,241 @@
+{
+  "code": "C40176",
+  "name": "Uterine Corpus Smooth Muscle Neoplasm",
+  "terminology": "ncit",
+  "version": "25.11d",
+  "conceptStatus": "DEFAULT",
+  "leaf": false,
+  "active": true,
+  "synonyms": [
+    {
+      "name": "Uterine Corpus Smooth Muscle Neoplasm",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Uterine Corpus Smooth Muscle Neoplasm",
+      "type": "Preferred_Name"
+    }
+  ],
+  "definitions": [
+    {
+      "definition": "A benign, intermediate, or malignant neoplasm that arises from the uterine corpus and is composed of neoplastic cells with smooth muscle differentiation.",
+      "type": "DEFINITION",
+      "source": "NCI"
+    }
+  ],
+  "properties": [
+    {
+      "code": "P366",
+      "type": "Legacy Concept Name",
+      "value": "Uterine_Corpus_Smooth_Muscle_Neoplasm"
+    },
+    {
+      "code": "P363",
+      "type": "Neoplastic_Status",
+      "value": "Undetermined"
+    },
+    {
+      "code": "P106",
+      "type": "Semantic_Type",
+      "value": "Neoplastic Process"
+    },
+    {
+      "code": "P207",
+      "type": "UMLS_CUI",
+      "value": "C1519863"
+    }
+  ],
+  "children": [
+    {
+      "code": "C3434",
+      "name": "Uterine Corpus Leiomyoma",
+      "leaf": false
+    },
+    {
+      "code": "C6340",
+      "name": "Uterine Corpus Leiomyosarcoma",
+      "leaf": false
+    },
+    {
+      "code": "C40177",
+      "name": "Uterine Corpus Smooth Muscle Tumor of Uncertain Malignant Potential",
+      "leaf": false
+    }
+  ],
+  "parents": [
+    {
+      "code": "C3751",
+      "name": "Smooth Muscle Neoplasm"
+    },
+    {
+      "code": "C40179",
+      "name": "Uterine Corpus Soft Tissue Neoplasm"
+    }
+  ],
+  "roles": [
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C12555",
+      "relatedName": "Connective and Soft Tissue Cell"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12964",
+      "relatedName": "Connective and Soft Tissue"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12964",
+      "relatedName": "Connective and Soft Tissue"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12316",
+      "relatedName": "Corpus Uteri"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12316",
+      "relatedName": "Corpus Uteri"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12402",
+      "relatedName": "Female Reproductive System"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12810",
+      "relatedName": "Genitourinary System"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C12612",
+      "relatedName": "Muscle Cell"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12435",
+      "relatedName": "Muscle Tissue"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C13056",
+      "relatedName": "Muscle"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12754",
+      "relatedName": "Musculoskeletal System"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12314",
+      "relatedName": "Myometrium"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12922",
+      "relatedName": "Neoplastic Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36887",
+      "relatedName": "Neoplastic Connective and Soft Tissue Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36936",
+      "relatedName": "Neoplastic Muscle Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36937",
+      "relatedName": "Neoplastic Smooth Muscle Cell"
+    },
+    {
+      "type": "Disease_Excludes_Normal_Cell_Origin",
+      "relatedCode": "C41405",
+      "relatedName": "Neuron, Neuroepithelial Cell, and Supporting Cell of the Nervous System"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12841",
+      "relatedName": "Reproductive System"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C13001",
+      "relatedName": "Smooth Muscle Cell"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12437",
+      "relatedName": "Smooth Muscle Tissue"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12471",
+      "relatedName": "Soft Tissue"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12471",
+      "relatedName": "Soft Tissue"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12405",
+      "relatedName": "Uterus"
+    }
+  ],
+  "history": [
+    {
+      "code": "C40176",
+      "action": "create",
+      "date": "2004-08-02"
+    },
+    {
+      "code": "C40176",
+      "action": "modify",
+      "date": "2005-10-31"
+    },
+    {
+      "code": "C40176",
+      "action": "modify",
+      "date": "2009-04-06"
+    },
+    {
+      "code": "C40176",
+      "action": "modify",
+      "date": "2009-11-23"
+    },
+    {
+      "code": "C40176",
+      "action": "modify",
+      "date": "2012-07-30"
+    },
+    {
+      "code": "C40176",
+      "action": "modify",
+      "date": "2014-02-03"
+    },
+    {
+      "code": "C40176",
+      "action": "modify",
+      "date": "2016-05-23"
+    },
+    {
+      "code": "C40176",
+      "action": "modify",
+      "date": "2025-03-31"
+    },
+    {
+      "code": "C40176",
+      "action": "modify",
+      "date": "2025-04-28"
+    }
+  ]
+}

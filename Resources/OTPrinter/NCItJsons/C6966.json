@@ -1,0 +1,1276 @@
+{
+  "code": "C6966",
+  "name": "Pineocytoma",
+  "terminology": "ncit",
+  "version": "25.11d",
+  "conceptStatus": "DEFAULT",
+  "leaf": false,
+  "active": true,
+  "synonyms": [
+    {
+      "name": "Pineocytoma",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "caDSR"
+    },
+    {
+      "name": "Benign Pinealoma",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "CDISC"
+    },
+    {
+      "name": "PINEOCYTOMA, BENIGN",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "CDISC"
+    },
+    {
+      "name": "Pineocytoma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "GDC"
+    },
+    {
+      "name": "Benign neoplasm of pineal gland",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "mCode",
+      "code": "D35.4",
+      "subSource": "ICD-10 CM"
+    },
+    {
+      "name": "pineocytoma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NCI-GLOSS",
+      "code": "CDR0000046228"
+    },
+    {
+      "name": "Pineocytoma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Pineocytoma (WHO Grade 1)",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Pineocytoma (WHO Grade I)",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Benign Pinealoma",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NICHD"
+    },
+    {
+      "name": "Pinealocytoma",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NICHD"
+    },
+    {
+      "name": "Pineocytoma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NICHD"
+    },
+    {
+      "name": "Pineocytoma",
+      "type": "Preferred_Name"
+    }
+  ],
+  "definitions": [
+    {
+      "definition": "A WHO grade 1 slow growing tumor, more frequently affecting young adults. It is composed of small, uniform, mature cells resembling pineocytes with occasional large pineocytomatous rosettes. It may show a wide range of divergent phenotypes, including neuronal, glial, melanocytic, photoreceptor and mesenchymal differentiation. Pineocytoma generally has a relatively favorable prognosis. (Adapted from WHO)",
+      "type": "DEFINITION",
+      "source": "NCI"
+    },
+    {
+      "definition": "A benign neoplasm of the brain arising from the pineal gland.",
+      "type": "ALT_DEFINITION",
+      "source": "CDISC"
+    },
+    {
+      "definition": "A benign, slow growing, pineal parenchymal tumor that more frequently affects young adults.",
+      "type": "ALT_DEFINITION",
+      "source": "NICHD"
+    },
+    {
+      "definition": "A slow growing type of brain tumor that occurs in or around the pineal gland, a tiny organ near the center of the brain.",
+      "type": "ALT_DEFINITION",
+      "source": "NCI-GLOSS"
+    }
+  ],
+  "properties": [
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "CDISC"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "GDC"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "mCode"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "NICHD"
+    },
+    {
+      "code": "P334",
+      "type": "ICD-O-3_Code",
+      "value": "9361/1"
+    },
+    {
+      "code": "P366",
+      "type": "Legacy Concept Name",
+      "value": "Pineocytoma"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "9361/1"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "Pineocytoma"
+    },
+    {
+      "code": "P363",
+      "type": "Neoplastic_Status",
+      "value": "Benign"
+    },
+    {
+      "code": "P106",
+      "type": "Semantic_Type",
+      "value": "Neoplastic Process"
+    },
+    {
+      "code": "P207",
+      "type": "UMLS_CUI",
+      "value": "C0917890"
+    }
+  ],
+  "children": [
+    {
+      "code": "C8291",
+      "name": "Adult Pineocytoma",
+      "leaf": true
+    }
+  ],
+  "parents": [
+    {
+      "code": "C3631",
+      "name": "Benign Pineal Region Neoplasm"
+    },
+    {
+      "code": "C6965",
+      "name": "Pineal Parenchymal Cell Neoplasm"
+    }
+  ],
+  "associations": [
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C77526",
+      "relatedName": "CDISC SEND Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C88025",
+      "relatedName": "CDISC SEND Tumor Findings Results Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C61410",
+      "relatedName": "Clinical Data Interchange Standards Consortium Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C157711",
+      "relatedName": "GDC Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C177537",
+      "relatedName": "GDC Value Terminology"
+    },
+    {
+      "type": "Is_Value_For_GDC_Property",
+      "relatedCode": "C176985",
+      "relatedName": "Histology ICD-O Morphology Code"
+    },
+    {
+      "type": "Is_Value_For_GDC_Property",
+      "relatedCode": "C177621",
+      "relatedName": "ICD-O-3 Morphology Term Diagnosis Question"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168658",
+      "relatedName": "Mapped ICDO3.1 Morphology PT Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168657",
+      "relatedName": "Mapped ICDO3.1 Morphology Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168655",
+      "relatedName": "Mapped ICDO3.1 Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168662",
+      "relatedName": "Mapped ICDO3.2 Morphology PT Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168661",
+      "relatedName": "Mapped ICDO3.2 Morphology Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168656",
+      "relatedName": "Mapped ICDO3.2 Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C193209",
+      "relatedName": "mCode Benign Neoplasm of Brain and CNS Disorder Value Set"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C193249",
+      "relatedName": "mCode Cancer Disorder Value Set"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C193248",
+      "relatedName": "mCode Primary Cancer Disorder Value Set"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C193006",
+      "relatedName": "mCode Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C126659",
+      "relatedName": "NCIt Neoplasm Core Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C90259",
+      "relatedName": "NICHD Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C132009",
+      "relatedName": "Pediatric Hematology-Oncology Terminology"
+    }
+  ],
+  "inverseAssociations": [
+    {
+      "type": "Has_GDC_Value",
+      "relatedCode": "C176985",
+      "relatedName": "Histology ICD-O Morphology Code"
+    },
+    {
+      "type": "Has_GDC_Value",
+      "relatedCode": "C177621",
+      "relatedName": "ICD-O-3 Morphology Term Diagnosis Question"
+    }
+  ],
+  "roles": [
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C36122",
+      "relatedName": "Benign Cellular Infiltrate"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12439",
+      "relatedName": "Brain"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12439",
+      "relatedName": "Brain"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12438",
+      "relatedName": "Central Nervous System"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12438",
+      "relatedName": "Central Nervous System"
+    },
+    {
+      "type": "Disease_Is_Grade",
+      "relatedCode": "C28077",
+      "relatedName": "Grade 1"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12419",
+      "relatedName": "Head"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C12917",
+      "relatedName": "Malignant Cell"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C36115",
+      "relatedName": "Malignant Cellular Infiltrate"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C35959",
+      "relatedName": "Mitotic Activity"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12922",
+      "relatedName": "Neoplastic Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C41408",
+      "relatedName": "Neoplastic Neuroepithelial Cell and Neoplastic Perineural Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C37125",
+      "relatedName": "Neoplastic Neuroepithelial Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C41837",
+      "relatedName": "Neoplastic Small Mature Neuroepithelial Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C41835",
+      "relatedName": "Neoplastic Small Neuroepithelial Cell"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C41406",
+      "relatedName": "Nerve Tissue, Neuroepithelial Tissue, and Nerve Sheaths"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12755",
+      "relatedName": "Nervous System"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12755",
+      "relatedName": "Nervous System"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C41410",
+      "relatedName": "Neuroepithelial Cell"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C41409",
+      "relatedName": "Neuroepithelial Tissue"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C41405",
+      "relatedName": "Neuron, Neuroepithelial Cell, and Supporting Cell of the Nervous System"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12398",
+      "relatedName": "Pineal Gland"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12398",
+      "relatedName": "Pineal Gland"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C41834",
+      "relatedName": "Pineal Parenchyma"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C33323",
+      "relatedName": "Pinealocyte"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C35945",
+      "relatedName": "Pineocytomatous Rosette Formation"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C41458",
+      "relatedName": "Slow Growing Mass"
+    },
+    {
+      "type": "Disease_Excludes_Primary_Anatomic_Site",
+      "relatedCode": "C12464",
+      "relatedName": "Spinal Cord"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12512",
+      "relatedName": "Supratentorial Brain"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12512",
+      "relatedName": "Supratentorial Brain"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C41457",
+      "relatedName": "Well-Circumscribed Lesion"
+    }
+  ],
+  "history": [
+    {
+      "code": "C6966",
+      "action": "create",
+      "date": "2003-08-12"
+    },
+    {
+      "code": "C6966",
+      "action": "modify",
+      "date": "2003-10-31"
+    },
+    {
+      "code": "C6966",
+      "action": "modify",
+      "date": "2003-12-30"
+    },
+    {
+      "code": "C6966",
+      "action": "modify",
+      "date": "2004-03-30"
+    },
+    {
+      "code": "C6966",
+      "action": "modify",
+      "date": "2004-05-28"
+    },
+    {
+      "code": "C6966",
+      "action": "modify",
+      "date": "2004-11-17"
+    },
+    {
+      "code": "C6966",
+      "action": "modify",
+      "date": "2007-03-30"
+    },
+    {
+      "code": "C6966",
+      "action": "modify",
+      "date": "2007-04-30"
+    },
+    {
+      "code": "C6966",
+      "action": "modify",
+      "date": "2009-04-06"
+    },
+    {
+      "code": "C6966",
+      "action": "modify",
+      "date": "2009-11-23"
+    },
+    {
+      "code": "C6966",
+      "action": "modify",
+      "date": "2009-12-22"
+    },
+    {
+      "code": "C6966",
+      "action": "modify",
+      "date": "2010-06-01"
+    },
+    {
+      "code": "C6966",
+      "action": "modify",
+      "date": "2010-10-18"
+    },
+    {
+      "code": "C6966",
+      "action": "modify",
+      "date": "2011-01-17"
+    },
+    {
+      "code": "C6966",
+      "action": "modify",
+      "date": "2011-04-11"
+    },
+    {
+      "code": "C6966",
+      "action": "modify",
+      "date": "2011-11-14"
+    },
+    {
+      "code": "C6966",
+      "action": "modify",
+      "date": "2011-11-21"
+    },
+    {
+      "code": "C6966",
+      "action": "modify",
+      "date": "2011-11-28"
+    },
+    {
+      "code": "C6966",
+      "action": "modify",
+      "date": "2011-12-05"
+    },
+    {
+      "code": "C6966",
+      "action": "modify",
+      "date": "2011-12-12"
+    },
+    {
+      "code": "C6966",
+      "action": "modify",
+      "date": "2011-12-19"
+    },
+    {
+      "code": "C6966",
+      "action": "modify",
+      "date": "2011-12-27"
+    },
+    {
+      "code": "C6966",
+      "action": "modify",
+      "date": "2012-01-09"
+    },
+    {
+      "code": "C6966",
+      "action": "modify",
+      "date": "2012-01-17"
+    },
+    {
+      "code": "C6966",
+      "action": "modify",
+      "date": "2012-01-23"
+    },
+    {
+      "code": "C6966",
+      "action": "modify",
+      "date": "2012-01-30"
+    },
+    {
+      "code": "C6966",
+      "action": "modify",
+      "date": "2012-02-06"
+    },
+    {
+      "code": "C6966",
+      "action": "modify",
+      "date": "2012-02-13"
+    },
+    {
+      "code": "C6966",
+      "action": "modify",
+      "date": "2012-02-21"
+    },
+    {
+      "code": "C6966",
+      "action": "modify",
+      "date": "2012-02-27"
+    },
+    {
+      "code": "C6966",
+      "action": "modify",
+      "date": "2012-03-05"
+    },
+    {
+      "code": "C6966",
+      "action": "modify",
+      "date": "2012-03-12"
+    },
+    {
+      "code": "C6966",
+      "action": "modify",
+      "date": "2012-03-19"
+    },
+    {
+      "code": "C6966",
+      "action": "modify",
+      "date": "2012-03-26"
+    },
+    {
+      "code": "C6966",
+      "action": "modify",
+      "date": "2012-04-02"
+    },
+    {
+      "code": "C6966",
+      "action": "modify",
+      "date": "2012-04-09"
+    },
+    {
+      "code": "C6966",
+      "action": "modify",
+      "date": "2012-04-16"
+    },
+    {
+      "code": "C6966",
+      "action": "modify",
+      "date": "2012-04-23"
+    },
+    {
+      "code": "C6966",
+      "action": "modify",
+      "date": "2012-04-30"
+    },
+    {
+      "code": "C6966",
+      "action": "modify",
+      "date": "2012-05-07"
+    },
+    {
+      "code": "C6966",
+      "action": "modify",
+      "date": "2012-05-14"
+    },
+    {
+      "code": "C6966",
+      "action": "modify",
+      "date": "2012-05-21"
+    },
+    {
+      "code": "C6966",
+      "action": "modify",
+      "date": "2012-05-29"
+    },
+    {
+      "code": "C6966",
+      "action": "modify",
+      "date": "2012-06-04"
+    },
+    {
+      "code": "C6966",
+      "action": "modify",
+      "date": "2012-06-11"
+    },
+    {
+      "code": "C6966",
+      "action": "modify",
+      "date": "2012-06-18"
+    },
+    {
+      "code": "C6966",
+      "action": "modify",
+      "date": "2012-06-18"
+    },
+    {
+      "code": "C6966",
+      "action": "modify",
+      "date": "2012-06-25"
+    },
+    {
+      "code": "C6966",
+      "action": "modify",
+      "date": "2012-07-03"
+    },
+    {
+      "code": "C6966",
+      "action": "modify",
+      "date": "2012-07-16"
+    },
+    {
+      "code": "C6966",
+      "action": "modify",
+      "date": "2012-07-23"
+    },
+    {
+      "code": "C6966",
+      "action": "modify",
+      "date": "2012-07-30"
+    },
+    {
+      "code": "C6966",
+      "action": "modify",
+      "date": "2012-08-06"
+    },
+    {
+      "code": "C6966",
+      "action": "modify",
+      "date": "2012-08-13"
+    },
+    {
+      "code": "C6966",
+      "action": "modify",
+      "date": "2012-08-20"
+    },
+    {
+      "code": "C6966",
+      "action": "modify",
+      "date": "2012-08-27"
+    },
+    {
+      "code": "C6966",
+      "action": "modify",
+      "date": "2012-09-04"
+    },
+    {
+      "code": "C6966",
+      "action": "modify",
+      "date": "2012-09-10"
+    },
+    {
+      "code": "C6966",
+      "action": "modify",
+      "date": "2012-09-17"
+    },
+    {
+      "code": "C6966",
+      "action": "modify",
+      "date": "2012-09-24"
+    },
+    {
+      "code": "C6966",
+      "action": "modify",
+      "date": "2012-10-01"
+    },
+    {
+      "code": "C6966",
+      "action": "modify",
+      "date": "2012-10-09"
+    },
+    {
+      "code": "C6966",
+      "action": "modify",
+      "date": "2012-10-15"
+    },
+    {
+      "code": "C6966",
+      "action": "modify",
+      "date": "2012-10-22"
+    },
+    {
+      "code": "C6966",
+      "action": "modify",
+      "date": "2012-10-31"
+    },
+    {
+      "code": "C6966",
+      "action": "modify",
+      "date": "2012-11-05"
+    },
+    {
+      "code": "C6966",
+      "action": "modify",
+      "date": "2012-11-13"
+    },
+    {
+      "code": "C6966",
+      "action": "modify",
+      "date": "2012-11-19"
+    },
+    {
+      "code": "C6966",
+      "action": "modify",
+      "date": "2012-11-26"
+    },
+    {
+      "code": "C6966",
+      "action": "modify",
+      "date": "2012-12-03"
+    },
+    {
+      "code": "C6966",
+      "action": "modify",
+      "date": "2012-12-10"
+    },
+    {
+      "code": "C6966",
+      "action": "modify",
+      "date": "2012-12-17"
+    },
+    {
+      "code": "C6966",
+      "action": "modify",
+      "date": "2012-12-28"
+    },
+    {
+      "code": "C6966",
+      "action": "modify",
+      "date": "2013-01-07"
+    },
+    {
+      "code": "C6966",
+      "action": "modify",
+      "date": "2013-01-14"
+    },
+    {
+      "code": "C6966",
+      "action": "modify",
+      "date": "2013-01-23"
+    },
+    {
+      "code": "C6966",
+      "action": "modify",
+      "date": "2013-02-04"
+    },
+    {
+      "code": "C6966",
+      "action": "modify",
+      "date": "2013-02-11"
+    },
+    {
+      "code": "C6966",
+      "action": "modify",
+      "date": "2013-02-19"
+    },
+    {
+      "code": "C6966",
+      "action": "modify",
+      "date": "2013-02-25"
+    },
+    {
+      "code": "C6966",
+      "action": "modify",
+      "date": "2013-03-04"
+    },
+    {
+      "code": "C6966",
+      "action": "modify",
+      "date": "2013-03-11"
+    },
+    {
+      "code": "C6966",
+      "action": "modify",
+      "date": "2013-03-18"
+    },
+    {
+      "code": "C6966",
+      "action": "modify",
+      "date": "2013-03-25"
+    },
+    {
+      "code": "C6966",
+      "action": "modify",
+      "date": "2013-04-01"
+    },
+    {
+      "code": "C6966",
+      "action": "modify",
+      "date": "2013-04-08"
+    },
+    {
+      "code": "C6966",
+      "action": "modify",
+      "date": "2013-04-15"
+    },
+    {
+      "code": "C6966",
+      "action": "modify",
+      "date": "2013-04-22"
+    },
+    {
+      "code": "C6966",
+      "action": "modify",
+      "date": "2013-04-29"
+    },
+    {
+      "code": "C6966",
+      "action": "modify",
+      "date": "2013-05-06"
+    },
+    {
+      "code": "C6966",
+      "action": "modify",
+      "date": "2013-05-13"
+    },
+    {
+      "code": "C6966",
+      "action": "modify",
+      "date": "2013-05-20"
+    },
+    {
+      "code": "C6966",
+      "action": "modify",
+      "date": "2013-05-28"
+    },
+    {
+      "code": "C6966",
+      "action": "modify",
+      "date": "2013-06-03"
+    },
+    {
+      "code": "C6966",
+      "action": "modify",
+      "date": "2013-06-10"
+    },
+    {
+      "code": "C6966",
+      "action": "modify",
+      "date": "2013-06-17"
+    },
+    {
+      "code": "C6966",
+      "action": "modify",
+      "date": "2013-06-24"
+    },
+    {
+      "code": "C6966",
+      "action": "modify",
+      "date": "2013-07-01"
+    },
+    {
+      "code": "C6966",
+      "action": "modify",
+      "date": "2013-07-08"
+    },
+    {
+      "code": "C6966",
+      "action": "modify",
+      "date": "2014-02-03"
+    },
+    {
+      "code": "C6966",
+      "action": "modify",
+      "date": "2014-11-24"
+    },
+    {
+      "code": "C6966",
+      "action": "modify",
+      "date": "2014-12-01"
+    },
+    {
+      "code": "C6966",
+      "action": "modify",
+      "date": "2014-12-08"
+    },
+    {
+      "code": "C6966",
+      "action": "modify",
+      "date": "2014-12-15"
+    },
+    {
+      "code": "C6966",
+      "action": "modify",
+      "date": "2014-12-22"
+    },
+    {
+      "code": "C6966",
+      "action": "modify",
+      "date": "2014-12-29"
+    },
+    {
+      "code": "C6966",
+      "action": "modify",
+      "date": "2015-01-05"
+    },
+    {
+      "code": "C6966",
+      "action": "modify",
+      "date": "2015-01-12"
+    },
+    {
+      "code": "C6966",
+      "action": "modify",
+      "date": "2015-01-20"
+    },
+    {
+      "code": "C6966",
+      "action": "modify",
+      "date": "2015-01-26"
+    },
+    {
+      "code": "C6966",
+      "action": "modify",
+      "date": "2015-02-02"
+    },
+    {
+      "code": "C6966",
+      "action": "modify",
+      "date": "2015-02-09"
+    },
+    {
+      "code": "C6966",
+      "action": "modify",
+      "date": "2015-02-17"
+    },
+    {
+      "code": "C6966",
+      "action": "modify",
+      "date": "2015-02-23"
+    },
+    {
+      "code": "C6966",
+      "action": "modify",
+      "date": "2015-03-02"
+    },
+    {
+      "code": "C6966",
+      "action": "modify",
+      "date": "2015-03-09"
+    },
+    {
+      "code": "C6966",
+      "action": "modify",
+      "date": "2015-03-16"
+    },
+    {
+      "code": "C6966",
+      "action": "modify",
+      "date": "2015-03-23"
+    },
+    {
+      "code": "C6966",
+      "action": "modify",
+      "date": "2015-03-30"
+    },
+    {
+      "code": "C6966",
+      "action": "modify",
+      "date": "2015-04-06"
+    },
+    {
+      "code": "C6966",
+      "action": "modify",
+      "date": "2015-04-13"
+    },
+    {
+      "code": "C6966",
+      "action": "modify",
+      "date": "2015-04-20"
+    },
+    {
+      "code": "C6966",
+      "action": "modify",
+      "date": "2015-04-27"
+    },
+    {
+      "code": "C6966",
+      "action": "modify",
+      "date": "2015-05-04"
+    },
+    {
+      "code": "C6966",
+      "action": "modify",
+      "date": "2015-05-11"
+    },
+    {
+      "code": "C6966",
+      "action": "modify",
+      "date": "2015-05-18"
+    },
+    {
+      "code": "C6966",
+      "action": "modify",
+      "date": "2015-11-30"
+    },
+    {
+      "code": "C6966",
+      "action": "modify",
+      "date": "2016-04-25"
+    },
+    {
+      "code": "C6966",
+      "action": "modify",
+      "date": "2016-08-22"
+    },
+    {
+      "code": "C6966",
+      "action": "modify",
+      "date": "2017-02-13"
+    },
+    {
+      "code": "C6966",
+      "action": "modify",
+      "date": "2017-02-21"
+    },
+    {
+      "code": "C6966",
+      "action": "modify",
+      "date": "2017-02-27"
+    },
+    {
+      "code": "C6966",
+      "action": "modify",
+      "date": "2017-03-06"
+    },
+    {
+      "code": "C6966",
+      "action": "modify",
+      "date": "2017-03-13"
+    },
+    {
+      "code": "C6966",
+      "action": "modify",
+      "date": "2017-03-20"
+    },
+    {
+      "code": "C6966",
+      "action": "modify",
+      "date": "2017-03-27"
+    },
+    {
+      "code": "C6966",
+      "action": "modify",
+      "date": "2017-04-03"
+    },
+    {
+      "code": "C6966",
+      "action": "modify",
+      "date": "2017-04-10"
+    },
+    {
+      "code": "C6966",
+      "action": "modify",
+      "date": "2017-04-17"
+    },
+    {
+      "code": "C6966",
+      "action": "modify",
+      "date": "2017-04-24"
+    },
+    {
+      "code": "C6966",
+      "action": "modify",
+      "date": "2017-05-01"
+    },
+    {
+      "code": "C6966",
+      "action": "modify",
+      "date": "2017-05-04"
+    },
+    {
+      "code": "C6966",
+      "action": "modify",
+      "date": "2018-09-24"
+    },
+    {
+      "code": "C6966",
+      "action": "modify",
+      "date": "2018-10-29"
+    },
+    {
+      "code": "C6966",
+      "action": "modify",
+      "date": "2018-10-29"
+    },
+    {
+      "code": "C6966",
+      "action": "modify",
+      "date": "2019-05-28"
+    },
+    {
+      "code": "C6966",
+      "action": "modify",
+      "date": "2019-09-30"
+    },
+    {
+      "code": "C6966",
+      "action": "modify",
+      "date": "2019-11-25"
+    },
+    {
+      "code": "C6966",
+      "action": "modify",
+      "date": "2020-02-24"
+    },
+    {
+      "code": "C6966",
+      "action": "modify",
+      "date": "2020-04-27"
+    },
+    {
+      "code": "C6966",
+      "action": "modify",
+      "date": "2020-08-31"
+    },
+    {
+      "code": "C6966",
+      "action": "modify",
+      "date": "2020-09-29"
+    },
+    {
+      "code": "C6966",
+      "action": "modify",
+      "date": "2021-02-22"
+    },
+    {
+      "code": "C6966",
+      "action": "modify",
+      "date": "2021-03-29"
+    },
+    {
+      "code": "C6966",
+      "action": "modify",
+      "date": "2022-01-31"
+    },
+    {
+      "code": "C6966",
+      "action": "modify",
+      "date": "2023-03-27"
+    },
+    {
+      "code": "C6966",
+      "action": "modify",
+      "date": "2023-05-30"
+    }
+  ],
+  "maps": [
+    {
+      "type": "Related To",
+      "targetName": "9361/1",
+      "targetTermType": "PT",
+      "targetCode": "morphology",
+      "targetTerminology": "GDC"
+    },
+    {
+      "type": "Related To",
+      "targetName": "Pineocytoma",
+      "targetTermType": "PT",
+      "targetCode": "9361/1",
+      "targetTerminology": "ICDO3",
+      "targetTerminologyVersion": "3.2"
+    },
+    {
+      "type": "Related To",
+      "targetName": "Pineocytoma",
+      "targetTermType": "PT",
+      "targetCode": "9361/1",
+      "targetTerminology": "ICDO3",
+      "targetTerminologyVersion": "3.1"
+    },
+    {
+      "type": "Has Synonym",
+      "targetName": "Pineocytoma",
+      "targetTermType": "PT",
+      "targetCode": "primary_diagnosis",
+      "targetTerminology": "GDC"
+    }
+  ]
+}

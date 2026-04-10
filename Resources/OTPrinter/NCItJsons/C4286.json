@@ -1,0 +1,1091 @@
+{
+  "code": "C4286",
+  "name": "Immature Teratoma",
+  "terminology": "ncit",
+  "version": "25.11d",
+  "conceptStatus": "DEFAULT",
+  "leaf": false,
+  "active": true,
+  "synonyms": [
+    {
+      "name": "Immature Teratoma",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "caDSR"
+    },
+    {
+      "name": "Embryonal teratoma",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "GDC"
+    },
+    {
+      "name": "Immature teratoma, NOS",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "GDC"
+    },
+    {
+      "name": "immature teratoma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NCI-GLOSS",
+      "code": "CDR0000443576"
+    },
+    {
+      "name": "Grade 2 Teratoma",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Immature Teratoma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Immature Teratoma",
+      "type": "Preferred_Name"
+    },
+    {
+      "name": "Immature Teratoma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "PCDC",
+      "subSource": "GCT"
+    }
+  ],
+  "definitions": [
+    {
+      "definition": "A rare type of malignant (cancer) germ cell tumor (type of tumor that begins in the cells that give rise to sperm or eggs) that often contains several different types of tissue such as hair, muscle, and bone.",
+      "type": "ALT_DEFINITION",
+      "source": "NCI-GLOSS"
+    },
+    {
+      "definition": "A teratoma characterized by the presence of an extensive component of immature, fetal-type tissues.",
+      "type": "DEFINITION",
+      "source": "NCI"
+    }
+  ],
+  "properties": [
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "GDC"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "PCDC"
+    },
+    {
+      "code": "P334",
+      "type": "ICD-O-3_Code",
+      "value": "9080/3"
+    },
+    {
+      "code": "P366",
+      "type": "Legacy Concept Name",
+      "value": "Immature_Teratoma"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "Embryonal teratoma"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "Immature teratoma, malignant"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "Immature teratoma, NOS"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "Teratoblastoma, malignant"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "Teratoma, malignant, NOS"
+    },
+    {
+      "code": "P363",
+      "type": "Neoplastic_Status",
+      "value": "Undetermined"
+    },
+    {
+      "code": "P106",
+      "type": "Semantic_Type",
+      "value": "Neoplastic Process"
+    },
+    {
+      "code": "P207",
+      "type": "UMLS_CUI",
+      "value": "C0334520"
+    }
+  ],
+  "children": [
+    {
+      "code": "C123834",
+      "name": "Childhood Immature Teratoma",
+      "leaf": false
+    },
+    {
+      "code": "C8884",
+      "name": "Immature Extragonadal Teratoma",
+      "leaf": false
+    },
+    {
+      "code": "C8111",
+      "name": "Immature Ovarian Teratoma",
+      "leaf": false
+    },
+    {
+      "code": "C6353",
+      "name": "Testicular Immature Teratoma",
+      "leaf": false
+    }
+  ],
+  "parents": [
+    {
+      "code": "C3403",
+      "name": "Teratoma"
+    }
+  ],
+  "associations": [
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C177383",
+      "relatedName": "GCT Authorized Value Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C177396",
+      "relatedName": "GCT Histology Table"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C157711",
+      "relatedName": "GDC Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C177537",
+      "relatedName": "GDC Value Terminology"
+    },
+    {
+      "type": "Is_PCDC_GCT_Authorized_Value_For_Variable",
+      "relatedCode": "C16681",
+      "relatedName": "Histology"
+    },
+    {
+      "type": "Is_Value_For_GDC_Property",
+      "relatedCode": "C177621",
+      "relatedName": "ICD-O-3 Morphology Term Diagnosis Question"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C126659",
+      "relatedName": "NCIt Neoplasm Core Terminology"
+    }
+  ],
+  "inverseAssociations": [
+    {
+      "type": "Has_PCDC_GCT_Authorized_Value",
+      "relatedCode": "C16681",
+      "relatedName": "Histology"
+    },
+    {
+      "type": "Has_GDC_Value",
+      "relatedCode": "C177621",
+      "relatedName": "ICD-O-3 Morphology Term Diagnosis Question"
+    }
+  ],
+  "roles": [
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C54111",
+      "relatedName": "Ectodermal Differentiation"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C54112",
+      "relatedName": "Endodermal Differentiation"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C54107",
+      "relatedName": "Fully Differentiated \"Adult-Type\" Tissues Present"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C12597",
+      "relatedName": "Germ Cell"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C54105",
+      "relatedName": "Germinal Layer"
+    },
+    {
+      "type": "Disease_Is_Grade",
+      "relatedCode": "C28078",
+      "relatedName": "Grade 2"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C123865",
+      "relatedName": "Malignant Germinomatous Cells Present"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C54127",
+      "relatedName": "Malignant Large Germ Cell with Abundant Cytoplasm"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C54113",
+      "relatedName": "Mesodermal Differentiation"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12922",
+      "relatedName": "Neoplastic Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36903",
+      "relatedName": "Neoplastic Germ Cell"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C36898",
+      "relatedName": "Neoplastic Sex Cord-Stromal Cell"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C61414",
+      "relatedName": "Seminomatous Component Present"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C54109",
+      "relatedName": "Undifferentiated \"Fetal-Type\" Tissues Present"
+    }
+  ],
+  "history": [
+    {
+      "code": "C4286",
+      "action": "create",
+      "date": "2003-08-12"
+    },
+    {
+      "code": "C4286",
+      "action": "modify",
+      "date": "2003-10-31"
+    },
+    {
+      "code": "C4286",
+      "action": "modify",
+      "date": "2003-12-30"
+    },
+    {
+      "code": "C4286",
+      "action": "modify",
+      "date": "2004-03-30"
+    },
+    {
+      "code": "C4286",
+      "action": "modify",
+      "date": "2006-03-31"
+    },
+    {
+      "code": "C4286",
+      "action": "modify",
+      "date": "2006-07-28"
+    },
+    {
+      "code": "C4286",
+      "action": "modify",
+      "date": "2007-03-30"
+    },
+    {
+      "code": "C4286",
+      "action": "modify",
+      "date": "2007-06-28"
+    },
+    {
+      "code": "C4286",
+      "action": "modify",
+      "date": "2009-04-06"
+    },
+    {
+      "code": "C4286",
+      "action": "modify",
+      "date": "2009-10-27"
+    },
+    {
+      "code": "C4286",
+      "action": "modify",
+      "date": "2009-11-23"
+    },
+    {
+      "code": "C4286",
+      "action": "modify",
+      "date": "2010-06-01"
+    },
+    {
+      "code": "C4286",
+      "action": "modify",
+      "date": "2010-06-07"
+    },
+    {
+      "code": "C4286",
+      "action": "modify",
+      "date": "2010-11-08"
+    },
+    {
+      "code": "C4286",
+      "action": "modify",
+      "date": "2010-11-15"
+    },
+    {
+      "code": "C4286",
+      "action": "modify",
+      "date": "2010-11-22"
+    },
+    {
+      "code": "C4286",
+      "action": "modify",
+      "date": "2010-11-29"
+    },
+    {
+      "code": "C4286",
+      "action": "modify",
+      "date": "2010-12-06"
+    },
+    {
+      "code": "C4286",
+      "action": "modify",
+      "date": "2010-12-13"
+    },
+    {
+      "code": "C4286",
+      "action": "modify",
+      "date": "2010-12-27"
+    },
+    {
+      "code": "C4286",
+      "action": "modify",
+      "date": "2011-01-03"
+    },
+    {
+      "code": "C4286",
+      "action": "modify",
+      "date": "2011-01-10"
+    },
+    {
+      "code": "C4286",
+      "action": "modify",
+      "date": "2011-01-17"
+    },
+    {
+      "code": "C4286",
+      "action": "modify",
+      "date": "2011-01-24"
+    },
+    {
+      "code": "C4286",
+      "action": "modify",
+      "date": "2011-01-31"
+    },
+    {
+      "code": "C4286",
+      "action": "modify",
+      "date": "2011-04-11"
+    },
+    {
+      "code": "C4286",
+      "action": "modify",
+      "date": "2011-11-14"
+    },
+    {
+      "code": "C4286",
+      "action": "modify",
+      "date": "2011-11-21"
+    },
+    {
+      "code": "C4286",
+      "action": "modify",
+      "date": "2011-11-28"
+    },
+    {
+      "code": "C4286",
+      "action": "modify",
+      "date": "2011-12-05"
+    },
+    {
+      "code": "C4286",
+      "action": "modify",
+      "date": "2011-12-12"
+    },
+    {
+      "code": "C4286",
+      "action": "modify",
+      "date": "2011-12-19"
+    },
+    {
+      "code": "C4286",
+      "action": "modify",
+      "date": "2011-12-27"
+    },
+    {
+      "code": "C4286",
+      "action": "modify",
+      "date": "2012-01-09"
+    },
+    {
+      "code": "C4286",
+      "action": "modify",
+      "date": "2012-01-17"
+    },
+    {
+      "code": "C4286",
+      "action": "modify",
+      "date": "2012-01-23"
+    },
+    {
+      "code": "C4286",
+      "action": "modify",
+      "date": "2012-01-30"
+    },
+    {
+      "code": "C4286",
+      "action": "modify",
+      "date": "2012-02-06"
+    },
+    {
+      "code": "C4286",
+      "action": "modify",
+      "date": "2012-02-13"
+    },
+    {
+      "code": "C4286",
+      "action": "modify",
+      "date": "2012-02-21"
+    },
+    {
+      "code": "C4286",
+      "action": "modify",
+      "date": "2012-02-27"
+    },
+    {
+      "code": "C4286",
+      "action": "modify",
+      "date": "2012-03-05"
+    },
+    {
+      "code": "C4286",
+      "action": "modify",
+      "date": "2012-03-12"
+    },
+    {
+      "code": "C4286",
+      "action": "modify",
+      "date": "2012-03-19"
+    },
+    {
+      "code": "C4286",
+      "action": "modify",
+      "date": "2012-03-26"
+    },
+    {
+      "code": "C4286",
+      "action": "modify",
+      "date": "2012-04-02"
+    },
+    {
+      "code": "C4286",
+      "action": "modify",
+      "date": "2012-04-09"
+    },
+    {
+      "code": "C4286",
+      "action": "modify",
+      "date": "2012-04-16"
+    },
+    {
+      "code": "C4286",
+      "action": "modify",
+      "date": "2012-04-23"
+    },
+    {
+      "code": "C4286",
+      "action": "modify",
+      "date": "2012-04-30"
+    },
+    {
+      "code": "C4286",
+      "action": "modify",
+      "date": "2012-05-07"
+    },
+    {
+      "code": "C4286",
+      "action": "modify",
+      "date": "2012-05-14"
+    },
+    {
+      "code": "C4286",
+      "action": "modify",
+      "date": "2012-05-21"
+    },
+    {
+      "code": "C4286",
+      "action": "modify",
+      "date": "2012-05-29"
+    },
+    {
+      "code": "C4286",
+      "action": "modify",
+      "date": "2012-06-04"
+    },
+    {
+      "code": "C4286",
+      "action": "modify",
+      "date": "2012-06-11"
+    },
+    {
+      "code": "C4286",
+      "action": "modify",
+      "date": "2012-06-18"
+    },
+    {
+      "code": "C4286",
+      "action": "modify",
+      "date": "2012-06-18"
+    },
+    {
+      "code": "C4286",
+      "action": "modify",
+      "date": "2012-06-25"
+    },
+    {
+      "code": "C4286",
+      "action": "modify",
+      "date": "2012-07-03"
+    },
+    {
+      "code": "C4286",
+      "action": "modify",
+      "date": "2012-07-16"
+    },
+    {
+      "code": "C4286",
+      "action": "modify",
+      "date": "2012-07-23"
+    },
+    {
+      "code": "C4286",
+      "action": "modify",
+      "date": "2012-07-30"
+    },
+    {
+      "code": "C4286",
+      "action": "modify",
+      "date": "2012-08-06"
+    },
+    {
+      "code": "C4286",
+      "action": "modify",
+      "date": "2012-08-13"
+    },
+    {
+      "code": "C4286",
+      "action": "modify",
+      "date": "2012-08-20"
+    },
+    {
+      "code": "C4286",
+      "action": "modify",
+      "date": "2012-08-27"
+    },
+    {
+      "code": "C4286",
+      "action": "modify",
+      "date": "2012-09-04"
+    },
+    {
+      "code": "C4286",
+      "action": "modify",
+      "date": "2012-09-10"
+    },
+    {
+      "code": "C4286",
+      "action": "modify",
+      "date": "2012-09-17"
+    },
+    {
+      "code": "C4286",
+      "action": "modify",
+      "date": "2012-09-24"
+    },
+    {
+      "code": "C4286",
+      "action": "modify",
+      "date": "2012-10-01"
+    },
+    {
+      "code": "C4286",
+      "action": "modify",
+      "date": "2012-10-09"
+    },
+    {
+      "code": "C4286",
+      "action": "modify",
+      "date": "2012-10-15"
+    },
+    {
+      "code": "C4286",
+      "action": "modify",
+      "date": "2012-10-22"
+    },
+    {
+      "code": "C4286",
+      "action": "modify",
+      "date": "2012-10-31"
+    },
+    {
+      "code": "C4286",
+      "action": "modify",
+      "date": "2012-11-05"
+    },
+    {
+      "code": "C4286",
+      "action": "modify",
+      "date": "2012-11-13"
+    },
+    {
+      "code": "C4286",
+      "action": "modify",
+      "date": "2012-11-19"
+    },
+    {
+      "code": "C4286",
+      "action": "modify",
+      "date": "2012-11-26"
+    },
+    {
+      "code": "C4286",
+      "action": "modify",
+      "date": "2012-12-03"
+    },
+    {
+      "code": "C4286",
+      "action": "modify",
+      "date": "2012-12-10"
+    },
+    {
+      "code": "C4286",
+      "action": "modify",
+      "date": "2012-12-17"
+    },
+    {
+      "code": "C4286",
+      "action": "modify",
+      "date": "2012-12-28"
+    },
+    {
+      "code": "C4286",
+      "action": "modify",
+      "date": "2013-01-07"
+    },
+    {
+      "code": "C4286",
+      "action": "modify",
+      "date": "2013-01-14"
+    },
+    {
+      "code": "C4286",
+      "action": "modify",
+      "date": "2013-01-23"
+    },
+    {
+      "code": "C4286",
+      "action": "modify",
+      "date": "2013-02-04"
+    },
+    {
+      "code": "C4286",
+      "action": "modify",
+      "date": "2013-02-11"
+    },
+    {
+      "code": "C4286",
+      "action": "modify",
+      "date": "2013-02-19"
+    },
+    {
+      "code": "C4286",
+      "action": "modify",
+      "date": "2013-02-25"
+    },
+    {
+      "code": "C4286",
+      "action": "modify",
+      "date": "2013-03-04"
+    },
+    {
+      "code": "C4286",
+      "action": "modify",
+      "date": "2013-03-11"
+    },
+    {
+      "code": "C4286",
+      "action": "modify",
+      "date": "2013-03-18"
+    },
+    {
+      "code": "C4286",
+      "action": "modify",
+      "date": "2013-03-25"
+    },
+    {
+      "code": "C4286",
+      "action": "modify",
+      "date": "2013-04-01"
+    },
+    {
+      "code": "C4286",
+      "action": "modify",
+      "date": "2013-04-08"
+    },
+    {
+      "code": "C4286",
+      "action": "modify",
+      "date": "2013-04-15"
+    },
+    {
+      "code": "C4286",
+      "action": "modify",
+      "date": "2013-04-22"
+    },
+    {
+      "code": "C4286",
+      "action": "modify",
+      "date": "2013-04-29"
+    },
+    {
+      "code": "C4286",
+      "action": "modify",
+      "date": "2013-05-06"
+    },
+    {
+      "code": "C4286",
+      "action": "modify",
+      "date": "2013-05-13"
+    },
+    {
+      "code": "C4286",
+      "action": "modify",
+      "date": "2013-05-20"
+    },
+    {
+      "code": "C4286",
+      "action": "modify",
+      "date": "2013-05-28"
+    },
+    {
+      "code": "C4286",
+      "action": "modify",
+      "date": "2013-06-03"
+    },
+    {
+      "code": "C4286",
+      "action": "modify",
+      "date": "2013-06-10"
+    },
+    {
+      "code": "C4286",
+      "action": "modify",
+      "date": "2013-06-17"
+    },
+    {
+      "code": "C4286",
+      "action": "modify",
+      "date": "2013-06-24"
+    },
+    {
+      "code": "C4286",
+      "action": "modify",
+      "date": "2013-07-01"
+    },
+    {
+      "code": "C4286",
+      "action": "modify",
+      "date": "2013-07-08"
+    },
+    {
+      "code": "C4286",
+      "action": "modify",
+      "date": "2014-02-03"
+    },
+    {
+      "code": "C4286",
+      "action": "modify",
+      "date": "2014-11-24"
+    },
+    {
+      "code": "C4286",
+      "action": "modify",
+      "date": "2014-12-01"
+    },
+    {
+      "code": "C4286",
+      "action": "modify",
+      "date": "2014-12-08"
+    },
+    {
+      "code": "C4286",
+      "action": "modify",
+      "date": "2014-12-15"
+    },
+    {
+      "code": "C4286",
+      "action": "modify",
+      "date": "2014-12-22"
+    },
+    {
+      "code": "C4286",
+      "action": "modify",
+      "date": "2014-12-29"
+    },
+    {
+      "code": "C4286",
+      "action": "modify",
+      "date": "2015-01-05"
+    },
+    {
+      "code": "C4286",
+      "action": "modify",
+      "date": "2015-01-12"
+    },
+    {
+      "code": "C4286",
+      "action": "modify",
+      "date": "2015-01-20"
+    },
+    {
+      "code": "C4286",
+      "action": "modify",
+      "date": "2015-01-26"
+    },
+    {
+      "code": "C4286",
+      "action": "modify",
+      "date": "2015-02-02"
+    },
+    {
+      "code": "C4286",
+      "action": "modify",
+      "date": "2015-02-09"
+    },
+    {
+      "code": "C4286",
+      "action": "modify",
+      "date": "2015-02-17"
+    },
+    {
+      "code": "C4286",
+      "action": "modify",
+      "date": "2015-02-23"
+    },
+    {
+      "code": "C4286",
+      "action": "modify",
+      "date": "2015-03-02"
+    },
+    {
+      "code": "C4286",
+      "action": "modify",
+      "date": "2015-03-09"
+    },
+    {
+      "code": "C4286",
+      "action": "modify",
+      "date": "2015-03-16"
+    },
+    {
+      "code": "C4286",
+      "action": "modify",
+      "date": "2015-03-23"
+    },
+    {
+      "code": "C4286",
+      "action": "modify",
+      "date": "2015-03-30"
+    },
+    {
+      "code": "C4286",
+      "action": "modify",
+      "date": "2015-04-06"
+    },
+    {
+      "code": "C4286",
+      "action": "modify",
+      "date": "2015-04-13"
+    },
+    {
+      "code": "C4286",
+      "action": "modify",
+      "date": "2015-04-20"
+    },
+    {
+      "code": "C4286",
+      "action": "modify",
+      "date": "2015-04-27"
+    },
+    {
+      "code": "C4286",
+      "action": "modify",
+      "date": "2015-05-04"
+    },
+    {
+      "code": "C4286",
+      "action": "modify",
+      "date": "2015-05-11"
+    },
+    {
+      "code": "C4286",
+      "action": "modify",
+      "date": "2015-05-18"
+    },
+    {
+      "code": "C4286",
+      "action": "modify",
+      "date": "2016-04-25"
+    },
+    {
+      "code": "C4286",
+      "action": "modify",
+      "date": "2016-08-22"
+    },
+    {
+      "code": "C4286",
+      "action": "modify",
+      "date": "2018-09-24"
+    },
+    {
+      "code": "C4286",
+      "action": "modify",
+      "date": "2018-10-29"
+    },
+    {
+      "code": "C4286",
+      "action": "modify",
+      "date": "2018-10-29"
+    },
+    {
+      "code": "C4286",
+      "action": "modify",
+      "date": "2018-11-26"
+    },
+    {
+      "code": "C4286",
+      "action": "modify",
+      "date": "2019-03-25"
+    },
+    {
+      "code": "C4286",
+      "action": "modify",
+      "date": "2019-05-28"
+    },
+    {
+      "code": "C4286",
+      "action": "modify",
+      "date": "2019-09-30"
+    },
+    {
+      "code": "C4286",
+      "action": "modify",
+      "date": "2019-11-25"
+    },
+    {
+      "code": "C4286",
+      "action": "modify",
+      "date": "2020-09-29"
+    },
+    {
+      "code": "C4286",
+      "action": "modify",
+      "date": "2021-02-22"
+    },
+    {
+      "code": "C4286",
+      "action": "modify",
+      "date": "2021-03-29"
+    },
+    {
+      "code": "C4286",
+      "action": "modify",
+      "date": "2021-06-28"
+    },
+    {
+      "code": "C4286",
+      "action": "modify",
+      "date": "2022-10-31"
+    },
+    {
+      "code": "C4286",
+      "action": "modify",
+      "date": "2023-02-27"
+    },
+    {
+      "code": "C4286",
+      "action": "modify",
+      "date": "2023-12-26"
+    }
+  ],
+  "maps": [
+    {
+      "type": "Has Synonym",
+      "targetName": "Embryonal teratoma",
+      "targetTermType": "PT",
+      "targetCode": "primary_diagnosis",
+      "targetTerminology": "GDC"
+    },
+    {
+      "type": "Related To",
+      "targetName": "Immature teratoma, malignant",
+      "targetTermType": "PT",
+      "targetCode": "primary_diagnosis",
+      "targetTerminology": "GDC"
+    },
+    {
+      "type": "Has Synonym",
+      "targetName": "Immature teratoma, NOS",
+      "targetTermType": "PT",
+      "targetCode": "primary_diagnosis",
+      "targetTerminology": "GDC"
+    },
+    {
+      "type": "Related To",
+      "targetName": "Teratoblastoma, malignant",
+      "targetTermType": "PT",
+      "targetCode": "primary_diagnosis",
+      "targetTerminology": "GDC"
+    },
+    {
+      "type": "Related To",
+      "targetName": "Teratoma, malignant, NOS",
+      "targetTermType": "PT",
+      "targetCode": "primary_diagnosis",
+      "targetTerminology": "GDC"
+    }
+  ]
+}

@@ -1,0 +1,543 @@
+{
+  "code": "C53953",
+  "name": "Osteoblastic Osteosarcoma",
+  "terminology": "ncit",
+  "version": "25.11d",
+  "conceptStatus": "DEFAULT",
+  "leaf": true,
+  "active": true,
+  "synonyms": [
+    {
+      "name": "Osteoblastic Osteosarcoma",
+      "termType": "DN",
+      "type": "FULL_SYN",
+      "source": "CTRP"
+    },
+    {
+      "name": "Osteoblastic sarcoma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "GDC"
+    },
+    {
+      "name": "Osteoblastic Osteosarcoma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Osteoblastic Osteosarcoma",
+      "type": "Display_Name"
+    },
+    {
+      "name": "Osteoblastic Osteosarcoma",
+      "type": "Preferred_Name"
+    },
+    {
+      "name": "Osteoblastic Osteosarcoma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "PCDC",
+      "subSource": "OS"
+    }
+  ],
+  "definitions": [
+    {
+      "definition": "A conventional osteosarcoma characterized by the predominance of osteoid matrix.",
+      "type": "DEFINITION",
+      "source": "NCI"
+    }
+  ],
+  "properties": [
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "CTRP"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "GDC"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "PCDC"
+    },
+    {
+      "code": "P366",
+      "type": "Legacy Concept Name",
+      "value": "Osteoblastic_Osteosarcoma"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "9180/3"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "Osteoblastic sarcoma"
+    },
+    {
+      "code": "P363",
+      "type": "Neoplastic_Status",
+      "value": "Malignant"
+    },
+    {
+      "code": "P106",
+      "type": "Semantic_Type",
+      "value": "Neoplastic Process"
+    },
+    {
+      "code": "P207",
+      "type": "UMLS_CUI",
+      "value": "C1704328"
+    }
+  ],
+  "parents": [
+    {
+      "code": "C35870",
+      "name": "Conventional Osteosarcoma"
+    }
+  ],
+  "associations": [
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C118168",
+      "relatedName": "CTRP Disease Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C116977",
+      "relatedName": "CTRP Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C157711",
+      "relatedName": "GDC Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C177537",
+      "relatedName": "GDC Value Terminology"
+    },
+    {
+      "type": "Is_Value_For_GDC_Property",
+      "relatedCode": "C176985",
+      "relatedName": "Histology ICD-O Morphology Code"
+    },
+    {
+      "type": "Is_Value_For_GDC_Property",
+      "relatedCode": "C177621",
+      "relatedName": "ICD-O-3 Morphology Term Diagnosis Question"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C126659",
+      "relatedName": "NCIt Neoplasm Core Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C179478",
+      "relatedName": "OS Authorized Value Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C179490",
+      "relatedName": "OS Histology Table"
+    }
+  ],
+  "inverseAssociations": [
+    {
+      "type": "Has_GDC_Value",
+      "relatedCode": "C176985",
+      "relatedName": "Histology ICD-O Morphology Code"
+    },
+    {
+      "type": "Has_PCDC_OS_Authorized_Value",
+      "relatedCode": "C16681",
+      "relatedName": "Histology"
+    },
+    {
+      "type": "Has_GDC_Value",
+      "relatedCode": "C177621",
+      "relatedName": "ICD-O-3 Morphology Term Diagnosis Question"
+    }
+  ],
+  "roles": [
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C36122",
+      "relatedName": "Benign Cellular Infiltrate"
+    },
+    {
+      "type": "Disease_Excludes_Normal_Cell_Origin",
+      "relatedCode": "C13456",
+      "relatedName": "Bone Marrow Stem Cell"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C13076",
+      "relatedName": "Bone Tissue"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12366",
+      "relatedName": "Bone"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12366",
+      "relatedName": "Bone"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C49066",
+      "relatedName": "Cellular Pleomorphism"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C12555",
+      "relatedName": "Connective and Soft Tissue Cell"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12964",
+      "relatedName": "Connective and Soft Tissue"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12964",
+      "relatedName": "Connective and Soft Tissue"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12374",
+      "relatedName": "Connective Tissue"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C12374",
+      "relatedName": "Connective Tissue"
+    },
+    {
+      "type": "Disease_May_Have_Cytogenetic_Abnormality",
+      "relatedCode": "C36421",
+      "relatedName": "del(13q14)"
+    },
+    {
+      "type": "Disease_May_Have_Cytogenetic_Abnormality",
+      "relatedCode": "C6833",
+      "relatedName": "Double Minutes"
+    },
+    {
+      "type": "Disease_Excludes_Normal_Cell_Origin",
+      "relatedCode": "C12578",
+      "relatedName": "Epithelial Cell"
+    },
+    {
+      "type": "Disease_Excludes_Normal_Tissue_Origin",
+      "relatedCode": "C45714",
+      "relatedName": "Epithelial Tissue"
+    },
+    {
+      "type": "Disease_May_Have_Molecular_Abnormality",
+      "relatedCode": "C36678",
+      "relatedName": "FOS Gene Amplification"
+    },
+    {
+      "type": "Disease_May_Have_Cytogenetic_Abnormality",
+      "relatedCode": "C36558",
+      "relatedName": "Gain of Chromosome 1"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C36129",
+      "relatedName": "High Grade Lesion"
+    },
+    {
+      "type": "Disease_Is_Grade",
+      "relatedCode": "C14158",
+      "relatedName": "High Grade"
+    },
+    {
+      "type": "Disease_May_Have_Cytogenetic_Abnormality",
+      "relatedCode": "C6832",
+      "relatedName": "Homogeneously Staining Region"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C36105",
+      "relatedName": "Indolent Clinical Course"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C53665",
+      "relatedName": "Intermediate Filaments Present"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C53667",
+      "relatedName": "Intracytoplasmic Eosinophilic Inclusion"
+    },
+    {
+      "type": "Disease_May_Have_Cytogenetic_Abnormality",
+      "relatedCode": "C36585",
+      "relatedName": "Loss of Chromosome 10"
+    },
+    {
+      "type": "Disease_May_Have_Cytogenetic_Abnormality",
+      "relatedCode": "C36536",
+      "relatedName": "Loss of Chromosome 13"
+    },
+    {
+      "type": "Disease_May_Have_Cytogenetic_Abnormality",
+      "relatedCode": "C36583",
+      "relatedName": "Loss of Chromosome 6q"
+    },
+    {
+      "type": "Disease_May_Have_Cytogenetic_Abnormality",
+      "relatedCode": "C36584",
+      "relatedName": "Loss of Chromosome 9"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C41040",
+      "relatedName": "Lytic Bone Lesion"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12917",
+      "relatedName": "Malignant Cell"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C36115",
+      "relatedName": "Malignant Cellular Infiltrate"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C48787",
+      "relatedName": "Malignant Connective and Soft Tissue Cell"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C36779",
+      "relatedName": "Malignant Epithelial Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36901",
+      "relatedName": "Malignant Osteoblast"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C53466",
+      "relatedName": "Medullary Bone"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12754",
+      "relatedName": "Musculoskeletal System"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12922",
+      "relatedName": "Neoplastic Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36887",
+      "relatedName": "Neoplastic Connective and Soft Tissue Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36900",
+      "relatedName": "Neoplastic Osteoblast"
+    },
+    {
+      "type": "Disease_Excludes_Normal_Cell_Origin",
+      "relatedCode": "C41405",
+      "relatedName": "Neuron, Neuroepithelial Cell, and Supporting Cell of the Nervous System"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C53954",
+      "relatedName": "New Bone Formation"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C53444",
+      "relatedName": "Osseous Differentiation"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C12568",
+      "relatedName": "Osteoblast"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C53695",
+      "relatedName": "Osteoid Formation"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C41018",
+      "relatedName": "Osteosclerotic Lesion"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C3303",
+      "relatedName": "Pain"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C3047",
+      "relatedName": "Pathologic Fracture"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C40558",
+      "relatedName": "Primary Lesion"
+    },
+    {
+      "type": "Disease_May_Have_Molecular_Abnormality",
+      "relatedCode": "C36328",
+      "relatedName": "RB1 Gene Inactivation"
+    },
+    {
+      "type": "Disease_Excludes_Primary_Anatomic_Site",
+      "relatedCode": "C12471",
+      "relatedName": "Soft Tissue"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C35976",
+      "relatedName": "Vascular Channel Formation"
+    }
+  ],
+  "history": [
+    {
+      "code": "C53953",
+      "action": "create",
+      "date": "2006-02-24"
+    },
+    {
+      "code": "C53953",
+      "action": "modify",
+      "date": "2006-10-27"
+    },
+    {
+      "code": "C53953",
+      "action": "modify",
+      "date": "2009-04-06"
+    },
+    {
+      "code": "C53953",
+      "action": "modify",
+      "date": "2009-11-23"
+    },
+    {
+      "code": "C53953",
+      "action": "modify",
+      "date": "2014-08-04"
+    },
+    {
+      "code": "C53953",
+      "action": "modify",
+      "date": "2014-08-18"
+    },
+    {
+      "code": "C53953",
+      "action": "modify",
+      "date": "2014-09-22"
+    },
+    {
+      "code": "C53953",
+      "action": "modify",
+      "date": "2015-05-26"
+    },
+    {
+      "code": "C53953",
+      "action": "modify",
+      "date": "2016-04-25"
+    },
+    {
+      "code": "C53953",
+      "action": "modify",
+      "date": "2018-07-30"
+    },
+    {
+      "code": "C53953",
+      "action": "modify",
+      "date": "2018-08-27"
+    },
+    {
+      "code": "C53953",
+      "action": "modify",
+      "date": "2018-08-27"
+    },
+    {
+      "code": "C53953",
+      "action": "modify",
+      "date": "2018-09-24"
+    },
+    {
+      "code": "C53953",
+      "action": "modify",
+      "date": "2019-05-28"
+    },
+    {
+      "code": "C53953",
+      "action": "modify",
+      "date": "2019-09-30"
+    },
+    {
+      "code": "C53953",
+      "action": "modify",
+      "date": "2019-11-25"
+    },
+    {
+      "code": "C53953",
+      "action": "modify",
+      "date": "2021-02-22"
+    },
+    {
+      "code": "C53953",
+      "action": "modify",
+      "date": "2021-03-29"
+    },
+    {
+      "code": "C53953",
+      "action": "modify",
+      "date": "2022-04-25"
+    },
+    {
+      "code": "C53953",
+      "action": "modify",
+      "date": "2022-10-31"
+    },
+    {
+      "code": "C53953",
+      "action": "modify",
+      "date": "2023-02-27"
+    }
+  ],
+  "maps": [
+    {
+      "type": "Related To",
+      "targetName": "9180/3",
+      "targetTermType": "PT",
+      "targetCode": "morphology",
+      "targetTerminology": "GDC"
+    },
+    {
+      "type": "Has Synonym",
+      "targetName": "Osteoblastic sarcoma",
+      "targetTermType": "PT",
+      "targetCode": "primary_diagnosis",
+      "targetTerminology": "GDC"
+    }
+  ]
+}

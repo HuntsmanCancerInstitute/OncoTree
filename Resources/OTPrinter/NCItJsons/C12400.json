@@ -1,0 +1,4352 @@
+{
+  "code": "C12400",
+  "name": "Thyroid Gland",
+  "terminology": "ncit",
+  "version": "25.11d",
+  "conceptStatus": "DEFAULT",
+  "leaf": true,
+  "active": true,
+  "synonyms": [
+    {
+      "name": "Thyroid Gland",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "caDSR"
+    },
+    {
+      "name": "GLAND, THYROID",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "CDISC",
+      "code": "SEND-SPEC"
+    },
+    {
+      "name": "THYROID GLAND",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "CDISC",
+      "code": "SDTM-LOC"
+    },
+    {
+      "name": "Total Thyroid",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "CPTAC"
+    },
+    {
+      "name": "Thyroid",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "GDC"
+    },
+    {
+      "name": "Thyroid gland",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "GDC"
+    },
+    {
+      "name": "Thyroid structure (body structure)",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "mCode",
+      "code": "69748006",
+      "subSource": "SNOMED CT"
+    },
+    {
+      "name": "thyroid",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NCI-GLOSS",
+      "code": "CDR0000046036"
+    },
+    {
+      "name": "thyroid gland",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NCI-GLOSS",
+      "code": "CDR0000044751"
+    },
+    {
+      "name": "Head and Neck, Thyroid",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Thyroid",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Thyroid Gland",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Thyroid",
+      "type": "Display_Name"
+    },
+    {
+      "name": "Thyroid Gland",
+      "type": "Preferred_Name"
+    },
+    {
+      "name": "Thyroid",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "PCDC",
+      "subSource": "OS"
+    },
+    {
+      "name": "thyroid",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "UBERON"
+    },
+    {
+      "name": "thyroid gland",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "UBERON"
+    }
+  ],
+  "definitions": [
+    {
+      "definition": "A gland located beneath the larynx (voice box) that makes thyroid hormone and calcitonin. The thyroid gland helps regulate growth and metabolism.",
+      "type": "ALT_DEFINITION",
+      "source": "NCI-GLOSS"
+    },
+    {
+      "definition": "A two-lobed endocrine gland found in all vertebrates, located in front of and on either side of the trachea in humans, and producing various hormones, such as triiodothyronine and calcitonin.",
+      "type": "ALT_DEFINITION",
+      "source": "UBERON"
+    },
+    {
+      "definition": "An endocrine gland located at the base of the neck that produces and secretes thyroxine and other hormones. Thyroxine is important for metabolic control.",
+      "type": "DEFINITION",
+      "source": "NCI"
+    },
+    {
+      "definition": "Endocrine gland(s) adjacent to the trachea in mammals that produce thyroxine and other hormones.",
+      "type": "ALT_DEFINITION",
+      "source": "CDISC"
+    }
+  ],
+  "properties": [
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "CDISC"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "CPTAC"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "GDC"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "mCode"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "PCDC"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "UBERON"
+    },
+    {
+      "code": "P366",
+      "type": "Legacy Concept Name",
+      "value": "Thyroid_Gland"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "Thyroid"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "THYROID GLAND"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "Thyroid gland"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "Thyroid, NOS"
+    },
+    {
+      "code": "P106",
+      "type": "Semantic_Type",
+      "value": "Body Part, Organ, or Organ Component"
+    },
+    {
+      "code": "P207",
+      "type": "UMLS_CUI",
+      "value": "C0040132"
+    },
+    {
+      "code": "oboInOwl:hasDbXref",
+      "type": "xRef",
+      "value": "UBERON:0002046"
+    }
+  ],
+  "parents": [
+    {
+      "code": "C12704",
+      "name": "Endocrine Gland"
+    }
+  ],
+  "associations": [
+    {
+      "type": "Is_Value_For_GDC_Property",
+      "relatedCode": "C188396",
+      "relatedName": "Anatomic Site of Maximum Tumor Bulk"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C74456",
+      "relatedName": "CDISC SDTM Anatomical Location Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C66830",
+      "relatedName": "CDISC SDTM Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C77529",
+      "relatedName": "CDISC SEND Biospecimens Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C77526",
+      "relatedName": "CDISC SEND Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C61410",
+      "relatedName": "Clinical Data Interchange Standards Consortium Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C156953",
+      "relatedName": "CPTAC Baseline Medical Forms Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C156952",
+      "relatedName": "CPTAC Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C157533",
+      "relatedName": "CPTAC Thyroid Carcinoma Baseline Form"
+    },
+    {
+      "type": "Is_Value_For_GDC_Property",
+      "relatedCode": "C173263",
+      "relatedName": "Disease Involvement Site"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C157711",
+      "relatedName": "GDC Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C177537",
+      "relatedName": "GDC Value Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168655",
+      "relatedName": "Mapped ICDO3.1 Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168660",
+      "relatedName": "Mapped ICDO3.1 Topography PT Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168659",
+      "relatedName": "Mapped ICDO3.1 Topography Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168656",
+      "relatedName": "Mapped ICDO3.2 Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168664",
+      "relatedName": "Mapped ICDO3.2 Topography PT Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168663",
+      "relatedName": "Mapped ICDO3.2 Topography Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C193234",
+      "relatedName": "mCode Radiotherapy Treatment Location Value Set"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C193006",
+      "relatedName": "mCode Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C179478",
+      "relatedName": "OS Authorized Value Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C179482",
+      "relatedName": "OS Biopsy/Surgical Procedures Table"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C179483",
+      "relatedName": "OS Radiation Therapy Table"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C179481",
+      "relatedName": "OS Tumor Assessment Table"
+    },
+    {
+      "type": "Is_Value_For_GDC_Property",
+      "relatedCode": "C158874",
+      "relatedName": "Primary Site of Disease"
+    },
+    {
+      "type": "Is_Value_For_GDC_Property",
+      "relatedCode": "C177570",
+      "relatedName": "Progressive or Recurrent Disease Anatomic Site"
+    },
+    {
+      "type": "Is_Value_For_GDC_Property",
+      "relatedCode": "C156421",
+      "relatedName": "Site of Resection or Biopsy"
+    },
+    {
+      "type": "Is_Value_For_GDC_Property",
+      "relatedCode": "C171435",
+      "relatedName": "Specimen Anatomic Site"
+    },
+    {
+      "type": "Is_Value_For_GDC_Property",
+      "relatedCode": "C70729",
+      "relatedName": "Targeted Anatomic Site"
+    },
+    {
+      "type": "Is_Value_For_GDC_Property",
+      "relatedCode": "C156422",
+      "relatedName": "Tissue or Organ of Origin"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C198975",
+      "relatedName": "UBERON Terminology"
+    }
+  ],
+  "inverseAssociations": [
+    {
+      "type": "Has_GDC_Value",
+      "relatedCode": "C188396",
+      "relatedName": "Anatomic Site of Maximum Tumor Bulk"
+    },
+    {
+      "type": "Has_GDC_Value",
+      "relatedCode": "C173263",
+      "relatedName": "Disease Involvement Site"
+    },
+    {
+      "type": "Has_GDC_Value",
+      "relatedCode": "C158874",
+      "relatedName": "Primary Site of Disease"
+    },
+    {
+      "type": "Has_GDC_Value",
+      "relatedCode": "C177570",
+      "relatedName": "Progressive or Recurrent Disease Anatomic Site"
+    },
+    {
+      "type": "Has_PCDC_OS_Authorized_Value",
+      "relatedCode": "C173281",
+      "relatedName": "Site of Radiation Therapy"
+    },
+    {
+      "type": "Has_GDC_Value",
+      "relatedCode": "C156421",
+      "relatedName": "Site of Resection or Biopsy"
+    },
+    {
+      "type": "Has_PCDC_OS_Authorized_Value",
+      "relatedCode": "C157120",
+      "relatedName": "Site of Tumor"
+    },
+    {
+      "type": "Has_GDC_Value",
+      "relatedCode": "C171435",
+      "relatedName": "Specimen Anatomic Site"
+    },
+    {
+      "type": "Has_PCDC_OS_Authorized_Value",
+      "relatedCode": "C164323",
+      "relatedName": "Surgical Site"
+    },
+    {
+      "type": "Has_GDC_Value",
+      "relatedCode": "C70729",
+      "relatedName": "Targeted Anatomic Site"
+    },
+    {
+      "type": "Has_GDC_Value",
+      "relatedCode": "C156422",
+      "relatedName": "Tissue or Organ of Origin"
+    }
+  ],
+  "roles": [
+    {
+      "type": "Anatomic_Structure_Is_Physical_Part_Of",
+      "relatedCode": "C12705",
+      "relatedName": "Endocrine System"
+    },
+    {
+      "type": "Anatomic_Structure_Is_Physical_Part_Of",
+      "relatedCode": "C13063",
+      "relatedName": "Neck"
+    }
+  ],
+  "inverseRoles": [
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C120442",
+      "relatedName": "Acquired Central Hypothyroidism"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C120442",
+      "relatedName": "Acquired Central Hypothyroidism"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C129635",
+      "relatedName": "Acquired Hyperthyroidism"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C129635",
+      "relatedName": "Acquired Hyperthyroidism"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C129644",
+      "relatedName": "Acquired Hypothyroidism"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C129644",
+      "relatedName": "Acquired Hypothyroidism"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C197821",
+      "relatedName": "Acquired Thyroid Gland Atrophy"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C197821",
+      "relatedName": "Acquired Thyroid Gland Atrophy"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C129724",
+      "relatedName": "Acute Suppurative Thyroiditis"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C129724",
+      "relatedName": "Acute Suppurative Thyroiditis"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C197831",
+      "relatedName": "Acute Thyroiditis"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C197831",
+      "relatedName": "Acute Thyroiditis"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C173980",
+      "relatedName": "Advanced Differentiated Thyroid Gland Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C173980",
+      "relatedName": "Advanced Differentiated Thyroid Gland Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C173336",
+      "relatedName": "Advanced Thyroid Gland Anaplastic Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C173336",
+      "relatedName": "Advanced Thyroid Gland Anaplastic Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C170517",
+      "relatedName": "Advanced Thyroid Gland Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C170517",
+      "relatedName": "Advanced Thyroid Gland Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C163964",
+      "relatedName": "Advanced Thyroid Gland Medullary Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C163964",
+      "relatedName": "Advanced Thyroid Gland Medullary Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C3628",
+      "relatedName": "Benign Thyroid Gland Neoplasm"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C3628",
+      "relatedName": "Benign Thyroid Gland Neoplasm"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C156342",
+      "relatedName": "Benign Thyroid Gland Vascular Neoplasm"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C156342",
+      "relatedName": "Benign Thyroid Gland Vascular Neoplasm"
+    },
+    {
+      "type": "Procedure_Has_Partially_Excised_Anatomy",
+      "relatedCode": "C51613",
+      "relatedName": "Biopsy of Thyroid Gland"
+    },
+    {
+      "type": "Disease_Excludes_Primary_Anatomic_Site",
+      "relatedCode": "C5201",
+      "relatedName": "Breast Intraductal Papillomatosis"
+    },
+    {
+      "type": "Disease_Excludes_Primary_Anatomic_Site",
+      "relatedCode": "C211514",
+      "relatedName": "Bronchial Papillomatosis"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C46100",
+      "relatedName": "C-Cell Hyperplasia"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C46100",
+      "relatedName": "C-Cell Hyperplasia"
+    },
+    {
+      "type": "Gene_Product_Expressed_In_Tissue",
+      "relatedCode": "C136377",
+      "relatedName": "Calcitonin Precursor"
+    },
+    {
+      "type": "Gene_Product_Expressed_In_Tissue",
+      "relatedCode": "C2281",
+      "relatedName": "Calcitonin"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C113146",
+      "relatedName": "Central Hyperthyroidism"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C113146",
+      "relatedName": "Central Hyperthyroidism"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C113144",
+      "relatedName": "Central Hypothyroidism"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C113144",
+      "relatedName": "Central Hypothyroidism"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C118827",
+      "relatedName": "Childhood Thyroid Gland Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C118827",
+      "relatedName": "Childhood Thyroid Gland Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C190060",
+      "relatedName": "Childhood Thyroid Gland Follicular Adenoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C190060",
+      "relatedName": "Childhood Thyroid Gland Follicular Adenoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C123904",
+      "relatedName": "Childhood Thyroid Gland Follicular Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C123904",
+      "relatedName": "Childhood Thyroid Gland Follicular Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C123905",
+      "relatedName": "Childhood Thyroid Gland Medullary Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C123905",
+      "relatedName": "Childhood Thyroid Gland Medullary Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C123903",
+      "relatedName": "Childhood Thyroid Gland Papillary Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C123903",
+      "relatedName": "Childhood Thyroid Gland Papillary Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C190064",
+      "relatedName": "Childhood Thyroid Gland Spindle Epithelial Tumor with Thymus-Like Elements"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C190064",
+      "relatedName": "Childhood Thyroid Gland Spindle Epithelial Tumor with Thymus-Like Elements"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C197872",
+      "relatedName": "Chronic Thyroiditis with Transient Thyrotoxicosis"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C197872",
+      "relatedName": "Chronic Thyroiditis with Transient Thyrotoxicosis"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C187644",
+      "relatedName": "Classic Thyroid Gland Papillary Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C187644",
+      "relatedName": "Classic Thyroid Gland Papillary Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C46094",
+      "relatedName": "Clear Cell Variant Thyroid Gland Papillary Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C46094",
+      "relatedName": "Clear Cell Variant Thyroid Gland Papillary Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C35830",
+      "relatedName": "Columnar Cell Variant Thyroid Gland Papillary Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C35830",
+      "relatedName": "Columnar Cell Variant Thyroid Gland Papillary Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C121727",
+      "relatedName": "Compensated Hypothyroidism"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C121727",
+      "relatedName": "Compensated Hypothyroidism"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C131852",
+      "relatedName": "Congenital Hyperthyroidism"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C131852",
+      "relatedName": "Congenital Hyperthyroidism"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C27114",
+      "relatedName": "Congenital Hypothyroidism with Ectopic Thyroid"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C27114",
+      "relatedName": "Congenital Hypothyroidism with Ectopic Thyroid"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C26734",
+      "relatedName": "Congenital Hypothyroidism"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C26734",
+      "relatedName": "Congenital Hypothyroidism"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C27116",
+      "relatedName": "Congenital Iodine Deficiency Hypothyroidism"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C27116",
+      "relatedName": "Congenital Iodine Deficiency Hypothyroidism"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C27112",
+      "relatedName": "Congenital Thyroid Gland Aplasia"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C27112",
+      "relatedName": "Congenital Thyroid Gland Aplasia"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C27304",
+      "relatedName": "Congenital Thyroid Gland Disorder"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C27304",
+      "relatedName": "Congenital Thyroid Gland Disorder"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C27113",
+      "relatedName": "Congenital Thyroid Gland Hypoplasia"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C27113",
+      "relatedName": "Congenital Thyroid Gland Hypoplasia"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C131431",
+      "relatedName": "Defective Thyroglobulin Synthesis"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C131431",
+      "relatedName": "Defective Thyroglobulin Synthesis"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C131432",
+      "relatedName": "Defective Thyroglobulin Transport"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C131432",
+      "relatedName": "Defective Thyroglobulin Transport"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C187648",
+      "relatedName": "Differentiated High Grade Thyroid Gland Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C187648",
+      "relatedName": "Differentiated High Grade Thyroid Gland Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C140959",
+      "relatedName": "Differentiated Thyroid Gland Carcinoma by AJCC v7 Stage"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C140959",
+      "relatedName": "Differentiated Thyroid Gland Carcinoma by AJCC v7 Stage"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C140965",
+      "relatedName": "Differentiated Thyroid Gland Carcinoma by AJCC v8 Stage"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C140965",
+      "relatedName": "Differentiated Thyroid Gland Carcinoma by AJCC v8 Stage"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C7153",
+      "relatedName": "Differentiated Thyroid Gland Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C7153",
+      "relatedName": "Differentiated Thyroid Gland Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C35407",
+      "relatedName": "Diffuse C-Cell Hyperplasia"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C35407",
+      "relatedName": "Diffuse C-Cell Hyperplasia"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C197917",
+      "relatedName": "Diffuse Endemic Goiter"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C197917",
+      "relatedName": "Diffuse Endemic Goiter"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C131436",
+      "relatedName": "Diffuse Goiter"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C131436",
+      "relatedName": "Diffuse Goiter"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C7427",
+      "relatedName": "Diffuse Sclerosing Variant Thyroid Gland Papillary Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C7427",
+      "relatedName": "Diffuse Sclerosing Variant Thyroid Gland Papillary Carcinoma"
+    },
+    {
+      "type": "Gene_Product_Expressed_In_Tissue",
+      "relatedCode": "C21464",
+      "relatedName": "DNA Mismatch Repair Protein Mlh1"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C121748",
+      "relatedName": "Dual Oxidase 2 Deficiency"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C121748",
+      "relatedName": "Dual Oxidase 2 Deficiency"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C132051",
+      "relatedName": "Ectopic Thyroid Gland"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C132051",
+      "relatedName": "Ectopic Thyroid Gland"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C156034",
+      "relatedName": "Encapsulated Variant Thyroid Gland Papillary Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C156034",
+      "relatedName": "Encapsulated Variant Thyroid Gland Papillary Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C35023",
+      "relatedName": "Endemic Goiter"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C35023",
+      "relatedName": "Endemic Goiter"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C131813",
+      "relatedName": "Familial Dysalbuminemic Hyperthyroidism"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C131813",
+      "relatedName": "Familial Dysalbuminemic Hyperthyroidism"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C126594",
+      "relatedName": "Follicular Variant Thyroid Gland Papillary Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C126594",
+      "relatedName": "Follicular Variant Thyroid Gland Papillary Carcinoma"
+    },
+    {
+      "type": "Disease_Excludes_Primary_Anatomic_Site",
+      "relatedCode": "C65198",
+      "relatedName": "Glandular Papillomatosis"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C26785",
+      "relatedName": "Goiter"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C26785",
+      "relatedName": "Goiter"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C219971",
+      "relatedName": "Graves Disease with Pretibial Myxedema and Thyrotoxic Crisis"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C219971",
+      "relatedName": "Graves Disease with Pretibial Myxedema and Thyrotoxic Crisis"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C3071",
+      "relatedName": "Graves Disease"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C3071",
+      "relatedName": "Graves Disease"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C27191",
+      "relatedName": "Hashimoto Thyroiditis"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C27191",
+      "relatedName": "Hashimoto Thyroiditis"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C113147",
+      "relatedName": "Hashitoxicosis"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C113147",
+      "relatedName": "Hashitoxicosis"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C118829",
+      "relatedName": "Hereditary Nonmedullary Thyroid Gland Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C118829",
+      "relatedName": "Hereditary Nonmedullary Thyroid Gland Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C46099",
+      "relatedName": "Hereditary Thyroid Gland Medullary Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C46099",
+      "relatedName": "Hereditary Thyroid Gland Medullary Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C187645",
+      "relatedName": "High Grade Follicular Cell-Derived Non-Anaplastic Thyroid Gland Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C187645",
+      "relatedName": "High Grade Follicular Cell-Derived Non-Anaplastic Thyroid Gland Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C156050",
+      "relatedName": "Hobnail Variant Thyroid Gland Papillary Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C156050",
+      "relatedName": "Hobnail Variant Thyroid Gland Papillary Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C3123",
+      "relatedName": "Hyperthyroidism"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C3123",
+      "relatedName": "Hyperthyroidism"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C121741",
+      "relatedName": "Hypothalamic Hypothyroidism"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C121741",
+      "relatedName": "Hypothalamic Hypothyroidism"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C131440",
+      "relatedName": "Hypothyroid Goiter"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C131440",
+      "relatedName": "Hypothyroid Goiter"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C26800",
+      "relatedName": "Hypothyroidism"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C26800",
+      "relatedName": "Hypothyroidism"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C131818",
+      "relatedName": "Iatrogenic Central Hypothyroidism"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C131818",
+      "relatedName": "Iatrogenic Central Hypothyroidism"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C131819",
+      "relatedName": "Iatrogenic Primary Hypothyroidism"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C131819",
+      "relatedName": "Iatrogenic Primary Hypothyroidism"
+    },
+    {
+      "type": "Disease_Excludes_Primary_Anatomic_Site",
+      "relatedCode": "C7363",
+      "relatedName": "Intraductal Papillomatosis"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C46106",
+      "relatedName": "Intrathyroid Thymic Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C46106",
+      "relatedName": "Intrathyroid Thymic Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C156268",
+      "relatedName": "Intrathyroidal Thymoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C156268",
+      "relatedName": "Intrathyroidal Thymoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C66850",
+      "relatedName": "Invasive Encapsulated Follicular Variant Thyroid Gland Papillary Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C66850",
+      "relatedName": "Invasive Encapsulated Follicular Variant Thyroid Gland Papillary Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C7381",
+      "relatedName": "Invasive Follicular Variant Thyroid Gland Papillary Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C7381",
+      "relatedName": "Invasive Follicular Variant Thyroid Gland Papillary Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C121747",
+      "relatedName": "Iodide Transport Defect"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C121747",
+      "relatedName": "Iodide Transport Defect"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C132053",
+      "relatedName": "Iodine Deficiency Hypothyroidism"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C132053",
+      "relatedName": "Iodine Deficiency Hypothyroidism"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C131860",
+      "relatedName": "Iodine-Induced Hyperthyroidism"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C131860",
+      "relatedName": "Iodine-Induced Hyperthyroidism"
+    },
+    {
+      "type": "Disease_Excludes_Primary_Anatomic_Site",
+      "relatedCode": "C9503",
+      "relatedName": "Juvenile Breast Papillomatosis"
+    },
+    {
+      "type": "Gene_Product_Expressed_In_Tissue",
+      "relatedCode": "C28485",
+      "relatedName": "Kallikrein-15"
+    },
+    {
+      "type": "Disease_Excludes_Primary_Anatomic_Site",
+      "relatedCode": "C157733",
+      "relatedName": "Laryngeal Papillomatosis"
+    },
+    {
+      "type": "Anatomic_Structure_Is_Physical_Part_Of",
+      "relatedCode": "C32973",
+      "relatedName": "Left Thyroid Gland Lobe"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C132052",
+      "relatedName": "Lingual Thyroid Gland"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C132052",
+      "relatedName": "Lingual Thyroid Gland"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C200083",
+      "relatedName": "Locally Advanced Differentiated Thyroid Gland Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C200083",
+      "relatedName": "Locally Advanced Differentiated Thyroid Gland Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C216075",
+      "relatedName": "Locally Advanced Poorly Differentiated Thyroid Gland Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C216075",
+      "relatedName": "Locally Advanced Poorly Differentiated Thyroid Gland Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C188128",
+      "relatedName": "Locally Advanced Thyroid Gland Anaplastic Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C188128",
+      "relatedName": "Locally Advanced Thyroid Gland Anaplastic Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C170965",
+      "relatedName": "Locally Advanced Thyroid Gland Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C170965",
+      "relatedName": "Locally Advanced Thyroid Gland Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C216078",
+      "relatedName": "Locally Advanced Thyroid Gland Follicular Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C216078",
+      "relatedName": "Locally Advanced Thyroid Gland Follicular Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C168543",
+      "relatedName": "Locally Advanced Thyroid Gland Medullary Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C168543",
+      "relatedName": "Locally Advanced Thyroid Gland Medullary Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C175507",
+      "relatedName": "Locally Advanced Thyroid Gland Oncocytic Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C175507",
+      "relatedName": "Locally Advanced Thyroid Gland Oncocytic Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C216079",
+      "relatedName": "Locally Advanced Thyroid Gland Papillary Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C216079",
+      "relatedName": "Locally Advanced Thyroid Gland Papillary Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C187273",
+      "relatedName": "Low Risk Thyroid Gland Neoplasm"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C187273",
+      "relatedName": "Low Risk Thyroid Gland Neoplasm"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C38766",
+      "relatedName": "Lymphocytic Thyroiditis"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C38766",
+      "relatedName": "Lymphocytic Thyroiditis"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C46092",
+      "relatedName": "Macrofollicular Variant Thyroid Gland Papillary Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C46092",
+      "relatedName": "Macrofollicular Variant Thyroid Gland Papillary Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C7510",
+      "relatedName": "Malignant Thyroid Gland Neoplasm"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C173979",
+      "relatedName": "Metastatic Differentiated Thyroid Gland Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C173979",
+      "relatedName": "Metastatic Differentiated Thyroid Gland Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C7509",
+      "relatedName": "Metastatic Malignant Neoplasm in the Thyroid Gland"
+    },
+    {
+      "type": "Disease_Has_Metastatic_Anatomic_Site",
+      "relatedCode": "C7509",
+      "relatedName": "Metastatic Malignant Neoplasm in the Thyroid Gland"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C174046",
+      "relatedName": "Metastatic Poorly Differentiated Thyroid Gland Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C174046",
+      "relatedName": "Metastatic Poorly Differentiated Thyroid Gland Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C170831",
+      "relatedName": "Metastatic Thyroid Gland Anaplastic Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C170831",
+      "relatedName": "Metastatic Thyroid Gland Anaplastic Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C133193",
+      "relatedName": "Metastatic Thyroid Gland Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C133193",
+      "relatedName": "Metastatic Thyroid Gland Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C156099",
+      "relatedName": "Metastatic Thyroid Gland Follicular Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C156099",
+      "relatedName": "Metastatic Thyroid Gland Follicular Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C162706",
+      "relatedName": "Metastatic Thyroid Gland Medullary Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C162706",
+      "relatedName": "Metastatic Thyroid Gland Medullary Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C174574",
+      "relatedName": "Metastatic Thyroid Gland Oncocytic Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C174574",
+      "relatedName": "Metastatic Thyroid Gland Oncocytic Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C156100",
+      "relatedName": "Metastatic Thyroid Gland Papillary Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C156100",
+      "relatedName": "Metastatic Thyroid Gland Papillary Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C37304",
+      "relatedName": "Multicentric Thyroid Gland Papillary Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C37304",
+      "relatedName": "Multicentric Thyroid Gland Papillary Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C197918",
+      "relatedName": "Multinodular Endemic Goiter"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C197918",
+      "relatedName": "Multinodular Endemic Goiter"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C131438",
+      "relatedName": "Multinodular Goiter"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C131438",
+      "relatedName": "Multinodular Goiter"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C34834",
+      "relatedName": "Myxedema"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C34834",
+      "relatedName": "Myxedema"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C131433",
+      "relatedName": "Neonatal Graves Disease"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C131433",
+      "relatedName": "Neonatal Graves Disease"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C114906",
+      "relatedName": "Neonatal Thyrotoxicosis"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C114906",
+      "relatedName": "Neonatal Thyrotoxicosis"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C46101",
+      "relatedName": "Neoplastic C-Cell Hyperplasia"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C46101",
+      "relatedName": "Neoplastic C-Cell Hyperplasia"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C131437",
+      "relatedName": "Nodular Goiter"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C131437",
+      "relatedName": "Nodular Goiter"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C27566",
+      "relatedName": "Non-Neoplastic Thyroid Gland Disorder"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C27566",
+      "relatedName": "Non-Neoplastic Thyroid Gland Disorder"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C197942",
+      "relatedName": "Non-Toxic Diffuse Goiter"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C197942",
+      "relatedName": "Non-Toxic Diffuse Goiter"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C197943",
+      "relatedName": "Non-Toxic Multinodular Goiter"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C197943",
+      "relatedName": "Non-Toxic Multinodular Goiter"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C34647",
+      "relatedName": "Non-Toxic Nodular Goiter"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C34647",
+      "relatedName": "Non-Toxic Nodular Goiter"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C35271",
+      "relatedName": "Nontoxic Goiter"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C35271",
+      "relatedName": "Nontoxic Goiter"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C46093",
+      "relatedName": "Oncocytic Variant Thyroid Gland Papillary Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C46093",
+      "relatedName": "Oncocytic Variant Thyroid Gland Papillary Carcinoma"
+    },
+    {
+      "type": "Disease_Excludes_Primary_Anatomic_Site",
+      "relatedCode": "C3713",
+      "relatedName": "Papillomatosis"
+    },
+    {
+      "type": "Procedure_Has_Excised_Anatomy",
+      "relatedCode": "C51921",
+      "relatedName": "Partial Thyroidectomy"
+    },
+    {
+      "type": "Procedure_Has_Partially_Excised_Anatomy",
+      "relatedCode": "C51921",
+      "relatedName": "Partial Thyroidectomy"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C121745",
+      "relatedName": "Pendred Syndrome"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C121745",
+      "relatedName": "Pendred Syndrome"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C121743",
+      "relatedName": "Pituitary Hypothyroidism"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C121743",
+      "relatedName": "Pituitary Hypothyroidism"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C6040",
+      "relatedName": "Poorly Differentiated Thyroid Gland Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C6040",
+      "relatedName": "Poorly Differentiated Thyroid Gland Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C114389",
+      "relatedName": "Postpartum Thyroiditis"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C114389",
+      "relatedName": "Postpartum Thyroiditis"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C113145",
+      "relatedName": "Primary Hyperthyroidism"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C113145",
+      "relatedName": "Primary Hyperthyroidism"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C113143",
+      "relatedName": "Primary Hypothyroidism"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C113143",
+      "relatedName": "Primary Hypothyroidism"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C161765",
+      "relatedName": "Progressive Thyroid Gland Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C161765",
+      "relatedName": "Progressive Thyroid Gland Carcinoma"
+    },
+    {
+      "type": "Anatomic_Structure_Is_Physical_Part_Of",
+      "relatedCode": "C33437",
+      "relatedName": "Pyramidal Lobe"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C46102",
+      "relatedName": "Reactive C-Cell Hyperplasia"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C46102",
+      "relatedName": "Reactive C-Cell Hyperplasia"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C165611",
+      "relatedName": "Recurrent Differentiated Thyroid Gland Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C165611",
+      "relatedName": "Recurrent Differentiated Thyroid Gland Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C173638",
+      "relatedName": "Recurrent Hereditary Thyroid Gland Medullary Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C173638",
+      "relatedName": "Recurrent Hereditary Thyroid Gland Medullary Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C150538",
+      "relatedName": "Recurrent Malignant Thyroid Gland Neoplasm"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C174047",
+      "relatedName": "Recurrent Poorly Differentiated Thyroid Gland Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C174047",
+      "relatedName": "Recurrent Poorly Differentiated Thyroid Gland Carcinoma"
+    },
+    {
+      "type": "Disease_Excludes_Primary_Anatomic_Site",
+      "relatedCode": "C128637",
+      "relatedName": "Recurrent Respiratory Papillomatosis"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C153624",
+      "relatedName": "Recurrent Thyroid Gland Anaplastic Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C153624",
+      "relatedName": "Recurrent Thyroid Gland Anaplastic Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C7908",
+      "relatedName": "Recurrent Thyroid Gland Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C7908",
+      "relatedName": "Recurrent Thyroid Gland Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C153622",
+      "relatedName": "Recurrent Thyroid Gland Follicular Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C153622",
+      "relatedName": "Recurrent Thyroid Gland Follicular Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C153623",
+      "relatedName": "Recurrent Thyroid Gland Medullary Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C153623",
+      "relatedName": "Recurrent Thyroid Gland Medullary Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C174573",
+      "relatedName": "Recurrent Thyroid Gland Oncocytic Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C174573",
+      "relatedName": "Recurrent Thyroid Gland Oncocytic Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C153621",
+      "relatedName": "Recurrent Thyroid Gland Papillary Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C153621",
+      "relatedName": "Recurrent Thyroid Gland Papillary Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C165607",
+      "relatedName": "Refractory Differentiated Thyroid Gland Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C165607",
+      "relatedName": "Refractory Differentiated Thyroid Gland Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C150539",
+      "relatedName": "Refractory Malignant Thyroid Gland Neoplasm"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C216074",
+      "relatedName": "Refractory Poorly Differentiated Thyroid Gland Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C216074",
+      "relatedName": "Refractory Poorly Differentiated Thyroid Gland Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C170832",
+      "relatedName": "Refractory Thyroid Gland Anaplastic Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C170832",
+      "relatedName": "Refractory Thyroid Gland Anaplastic Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C142983",
+      "relatedName": "Refractory Thyroid Gland Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C142983",
+      "relatedName": "Refractory Thyroid Gland Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C165609",
+      "relatedName": "Refractory Thyroid Gland Follicular Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C165609",
+      "relatedName": "Refractory Thyroid Gland Follicular Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C180404",
+      "relatedName": "Refractory Thyroid Gland Medullary Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C180404",
+      "relatedName": "Refractory Thyroid Gland Medullary Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C165610",
+      "relatedName": "Refractory Thyroid Gland Oncocytic Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C165610",
+      "relatedName": "Refractory Thyroid Gland Oncocytic Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C165608",
+      "relatedName": "Refractory Thyroid Gland Papillary Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C165608",
+      "relatedName": "Refractory Thyroid Gland Papillary Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C35827",
+      "relatedName": "Riedel Fibrosing Thyroiditis"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C35827",
+      "relatedName": "Riedel Fibrosing Thyroiditis"
+    },
+    {
+      "type": "Anatomic_Structure_Is_Physical_Part_Of",
+      "relatedCode": "C33491",
+      "relatedName": "Right Thyroid Gland Lobe"
+    },
+    {
+      "type": "Gene_Product_Expressed_In_Tissue",
+      "relatedCode": "C126790",
+      "relatedName": "Slit Homolog 3 Protein"
+    },
+    {
+      "type": "Gene_Product_Expressed_In_Tissue",
+      "relatedCode": "C17536",
+      "relatedName": "Sodium/Iodide Cotransporter"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C46095",
+      "relatedName": "Solid/Trabecular Variant Thyroid Gland Papillary Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C46095",
+      "relatedName": "Solid/Trabecular Variant Thyroid Gland Papillary Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C156045",
+      "relatedName": "Spindle Cell Variant Thyroid Gland Papillary Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C156045",
+      "relatedName": "Spindle Cell Variant Thyroid Gland Papillary Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C46098",
+      "relatedName": "Sporadic Thyroid Gland Medullary Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C46098",
+      "relatedName": "Sporadic Thyroid Gland Medullary Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C46103",
+      "relatedName": "Sporadic Thyroid Gland Micromedullary Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C46103",
+      "relatedName": "Sporadic Thyroid Gland Micromedullary Carcinoma"
+    },
+    {
+      "type": "Disease_Excludes_Primary_Anatomic_Site",
+      "relatedCode": "C9009",
+      "relatedName": "Squamous Papillomatosis"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C101540",
+      "relatedName": "Stage I Differentiated Thyroid Gland Carcinoma 45 Years and Older AJCC v7"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C101540",
+      "relatedName": "Stage I Differentiated Thyroid Gland Carcinoma 45 Years and Older AJCC v7"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C140968",
+      "relatedName": "Stage I Differentiated Thyroid Gland Carcinoma 55 Years and Older AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C140968",
+      "relatedName": "Stage I Differentiated Thyroid Gland Carcinoma 55 Years and Older AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C87543",
+      "relatedName": "Stage I Differentiated Thyroid Gland Carcinoma AJCC v7"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C87543",
+      "relatedName": "Stage I Differentiated Thyroid Gland Carcinoma AJCC v7"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C140966",
+      "relatedName": "Stage I Differentiated Thyroid Gland Carcinoma AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C140966",
+      "relatedName": "Stage I Differentiated Thyroid Gland Carcinoma AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C101539",
+      "relatedName": "Stage I Differentiated Thyroid Gland Carcinoma Under 45 Years AJCC v7"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C101539",
+      "relatedName": "Stage I Differentiated Thyroid Gland Carcinoma Under 45 Years AJCC v7"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C140967",
+      "relatedName": "Stage I Differentiated Thyroid Gland Carcinoma Under 55 Years AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C140967",
+      "relatedName": "Stage I Differentiated Thyroid Gland Carcinoma Under 55 Years AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C140990",
+      "relatedName": "Stage I Thyroid Gland Follicular Carcinoma 55 Years and Older AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C140990",
+      "relatedName": "Stage I Thyroid Gland Follicular Carcinoma 55 Years and Older AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C9084",
+      "relatedName": "Stage I Thyroid Gland Follicular Carcinoma AJCC v7"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C9084",
+      "relatedName": "Stage I Thyroid Gland Follicular Carcinoma AJCC v7"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C140988",
+      "relatedName": "Stage I Thyroid Gland Follicular Carcinoma AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C140988",
+      "relatedName": "Stage I Thyroid Gland Follicular Carcinoma AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C140989",
+      "relatedName": "Stage I Thyroid Gland Follicular Carcinoma Under 55 Years AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C140989",
+      "relatedName": "Stage I Thyroid Gland Follicular Carcinoma Under 55 Years AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C6133",
+      "relatedName": "Stage I Thyroid Gland Medullary Carcinoma AJCC v7"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C6133",
+      "relatedName": "Stage I Thyroid Gland Medullary Carcinoma AJCC v7"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C141043",
+      "relatedName": "Stage I Thyroid Gland Medullary Carcinoma AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C141043",
+      "relatedName": "Stage I Thyroid Gland Medullary Carcinoma AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C140979",
+      "relatedName": "Stage I Thyroid Gland Papillary Carcinoma 55 Years and Older AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C140979",
+      "relatedName": "Stage I Thyroid Gland Papillary Carcinoma 55 Years and Older AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C9081",
+      "relatedName": "Stage I Thyroid Gland Papillary Carcinoma AJCC v7"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C9081",
+      "relatedName": "Stage I Thyroid Gland Papillary Carcinoma AJCC v7"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C140977",
+      "relatedName": "Stage I Thyroid Gland Papillary Carcinoma AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C140977",
+      "relatedName": "Stage I Thyroid Gland Papillary Carcinoma AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C140978",
+      "relatedName": "Stage I Thyroid Gland Papillary Carcinoma Under 55 Years AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C140978",
+      "relatedName": "Stage I Thyroid Gland Papillary Carcinoma Under 55 Years AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C101542",
+      "relatedName": "Stage II Differentiated Thyroid Gland Carcinoma 45 Years and Older AJCC v7"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C101542",
+      "relatedName": "Stage II Differentiated Thyroid Gland Carcinoma 45 Years and Older AJCC v7"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C140971",
+      "relatedName": "Stage II Differentiated Thyroid Gland Carcinoma 55 Years and Older AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C140971",
+      "relatedName": "Stage II Differentiated Thyroid Gland Carcinoma 55 Years and Older AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C87544",
+      "relatedName": "Stage II Differentiated Thyroid Gland Carcinoma AJCC v7"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C87544",
+      "relatedName": "Stage II Differentiated Thyroid Gland Carcinoma AJCC v7"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C140969",
+      "relatedName": "Stage II Differentiated Thyroid Gland Carcinoma AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C140969",
+      "relatedName": "Stage II Differentiated Thyroid Gland Carcinoma AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C101541",
+      "relatedName": "Stage II Differentiated Thyroid Gland Carcinoma Under 45 Years AJCC v7"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C101541",
+      "relatedName": "Stage II Differentiated Thyroid Gland Carcinoma Under 45 Years AJCC v7"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C140970",
+      "relatedName": "Stage II Differentiated Thyroid Gland Carcinoma Under 55 Years AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C140970",
+      "relatedName": "Stage II Differentiated Thyroid Gland Carcinoma Under 55 Years AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C140993",
+      "relatedName": "Stage II Thyroid Gland Follicular Carcinoma 55 Years and Older AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C140993",
+      "relatedName": "Stage II Thyroid Gland Follicular Carcinoma 55 Years and Older AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C9085",
+      "relatedName": "Stage II Thyroid Gland Follicular Carcinoma AJCC v7"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C9085",
+      "relatedName": "Stage II Thyroid Gland Follicular Carcinoma AJCC v7"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C140991",
+      "relatedName": "Stage II Thyroid Gland Follicular Carcinoma AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C140991",
+      "relatedName": "Stage II Thyroid Gland Follicular Carcinoma AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C140992",
+      "relatedName": "Stage II Thyroid Gland Follicular Carcinoma Under 55 Years AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C140992",
+      "relatedName": "Stage II Thyroid Gland Follicular Carcinoma Under 55 Years AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C6134",
+      "relatedName": "Stage II Thyroid Gland Medullary Carcinoma AJCC v7"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C6134",
+      "relatedName": "Stage II Thyroid Gland Medullary Carcinoma AJCC v7"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C141044",
+      "relatedName": "Stage II Thyroid Gland Medullary Carcinoma AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C141044",
+      "relatedName": "Stage II Thyroid Gland Medullary Carcinoma AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C140982",
+      "relatedName": "Stage II Thyroid Gland Papillary Carcinoma 55 Years and Older AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C140982",
+      "relatedName": "Stage II Thyroid Gland Papillary Carcinoma 55 Years and Older AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C9082",
+      "relatedName": "Stage II Thyroid Gland Papillary Carcinoma AJCC v7"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C9082",
+      "relatedName": "Stage II Thyroid Gland Papillary Carcinoma AJCC v7"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C140980",
+      "relatedName": "Stage II Thyroid Gland Papillary Carcinoma AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C140980",
+      "relatedName": "Stage II Thyroid Gland Papillary Carcinoma AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C140981",
+      "relatedName": "Stage II Thyroid Gland Papillary Carcinoma Under 55 Years AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C140981",
+      "relatedName": "Stage II Thyroid Gland Papillary Carcinoma Under 55 Years AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C87545",
+      "relatedName": "Stage III Differentiated Thyroid Gland Carcinoma AJCC v7"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C87545",
+      "relatedName": "Stage III Differentiated Thyroid Gland Carcinoma AJCC v7"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C140972",
+      "relatedName": "Stage III Differentiated Thyroid Gland Carcinoma AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C140972",
+      "relatedName": "Stage III Differentiated Thyroid Gland Carcinoma AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C9121",
+      "relatedName": "Stage III Thyroid Gland Follicular Carcinoma AJCC v7"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C9121",
+      "relatedName": "Stage III Thyroid Gland Follicular Carcinoma AJCC v7"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C140995",
+      "relatedName": "Stage III Thyroid Gland Follicular Carcinoma AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C140995",
+      "relatedName": "Stage III Thyroid Gland Follicular Carcinoma AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C6135",
+      "relatedName": "Stage III Thyroid Gland Medullary Carcinoma AJCC v7"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C6135",
+      "relatedName": "Stage III Thyroid Gland Medullary Carcinoma AJCC v7"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C141045",
+      "relatedName": "Stage III Thyroid Gland Medullary Carcinoma AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C141045",
+      "relatedName": "Stage III Thyroid Gland Medullary Carcinoma AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C9122",
+      "relatedName": "Stage III Thyroid Gland Papillary Carcinoma AJCC v7"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C9122",
+      "relatedName": "Stage III Thyroid Gland Papillary Carcinoma AJCC v7"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C140983",
+      "relatedName": "Stage III Thyroid Gland Papillary Carcinoma AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C140983",
+      "relatedName": "Stage III Thyroid Gland Papillary Carcinoma AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C140973",
+      "relatedName": "Stage IV Differentiated Thyroid Gland Carcinoma AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C140973",
+      "relatedName": "Stage IV Differentiated Thyroid Gland Carcinoma AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C9086",
+      "relatedName": "Stage IV Thyroid Gland Follicular Carcinoma AJCC v7"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C9086",
+      "relatedName": "Stage IV Thyroid Gland Follicular Carcinoma AJCC v7"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C140996",
+      "relatedName": "Stage IV Thyroid Gland Follicular Carcinoma AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C140996",
+      "relatedName": "Stage IV Thyroid Gland Follicular Carcinoma AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C6136",
+      "relatedName": "Stage IV Thyroid Gland Medullary Carcinoma AJCC v7"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C6136",
+      "relatedName": "Stage IV Thyroid Gland Medullary Carcinoma AJCC v7"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C141046",
+      "relatedName": "Stage IV Thyroid Gland Medullary Carcinoma AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C141046",
+      "relatedName": "Stage IV Thyroid Gland Medullary Carcinoma AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C9083",
+      "relatedName": "Stage IV Thyroid Gland Papillary Carcinoma AJCC v7"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C9083",
+      "relatedName": "Stage IV Thyroid Gland Papillary Carcinoma AJCC v7"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C140984",
+      "relatedName": "Stage IV Thyroid Gland Papillary Carcinoma AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C140984",
+      "relatedName": "Stage IV Thyroid Gland Papillary Carcinoma AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C87546",
+      "relatedName": "Stage IVA Differentiated Thyroid Gland Carcinoma AJCC v7"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C87546",
+      "relatedName": "Stage IVA Differentiated Thyroid Gland Carcinoma AJCC v7"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C140974",
+      "relatedName": "Stage IVA Differentiated Thyroid Gland Carcinoma AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C140974",
+      "relatedName": "Stage IVA Differentiated Thyroid Gland Carcinoma AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C87552",
+      "relatedName": "Stage IVA Thyroid Gland Anaplastic Carcinoma AJCC v7"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C87552",
+      "relatedName": "Stage IVA Thyroid Gland Anaplastic Carcinoma AJCC v7"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C141001",
+      "relatedName": "Stage IVA Thyroid Gland Anaplastic Carcinoma AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C141001",
+      "relatedName": "Stage IVA Thyroid Gland Anaplastic Carcinoma AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C115035",
+      "relatedName": "Stage IVA Thyroid Gland Follicular Carcinoma AJCC v7"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C115035",
+      "relatedName": "Stage IVA Thyroid Gland Follicular Carcinoma AJCC v7"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C140997",
+      "relatedName": "Stage IVA Thyroid Gland Follicular Carcinoma AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C140997",
+      "relatedName": "Stage IVA Thyroid Gland Follicular Carcinoma AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C87549",
+      "relatedName": "Stage IVA Thyroid Gland Medullary Carcinoma AJCC v7"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C87549",
+      "relatedName": "Stage IVA Thyroid Gland Medullary Carcinoma AJCC v7"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C141047",
+      "relatedName": "Stage IVA Thyroid Gland Medullary Carcinoma AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C141047",
+      "relatedName": "Stage IVA Thyroid Gland Medullary Carcinoma AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C115038",
+      "relatedName": "Stage IVA Thyroid Gland Papillary Carcinoma AJCC v7"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C115038",
+      "relatedName": "Stage IVA Thyroid Gland Papillary Carcinoma AJCC v7"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C140985",
+      "relatedName": "Stage IVA Thyroid Gland Papillary Carcinoma AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C140985",
+      "relatedName": "Stage IVA Thyroid Gland Papillary Carcinoma AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C87547",
+      "relatedName": "Stage IVB Differentiated Thyroid Gland Carcinoma AJCC v7"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C87547",
+      "relatedName": "Stage IVB Differentiated Thyroid Gland Carcinoma AJCC v7"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C140975",
+      "relatedName": "Stage IVB Differentiated Thyroid Gland Carcinoma AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C140975",
+      "relatedName": "Stage IVB Differentiated Thyroid Gland Carcinoma AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C87553",
+      "relatedName": "Stage IVB Thyroid Gland Anaplastic Carcinoma AJCC v7"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C87553",
+      "relatedName": "Stage IVB Thyroid Gland Anaplastic Carcinoma AJCC v7"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C141003",
+      "relatedName": "Stage IVB Thyroid Gland Anaplastic Carcinoma AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C141003",
+      "relatedName": "Stage IVB Thyroid Gland Anaplastic Carcinoma AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C115036",
+      "relatedName": "Stage IVB Thyroid Gland Follicular Carcinoma AJCC v7"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C115036",
+      "relatedName": "Stage IVB Thyroid Gland Follicular Carcinoma AJCC v7"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C140998",
+      "relatedName": "Stage IVB Thyroid Gland Follicular Carcinoma AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C140998",
+      "relatedName": "Stage IVB Thyroid Gland Follicular Carcinoma AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C87550",
+      "relatedName": "Stage IVB Thyroid Gland Medullary Carcinoma AJCC v7"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C87550",
+      "relatedName": "Stage IVB Thyroid Gland Medullary Carcinoma AJCC v7"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C141048",
+      "relatedName": "Stage IVB Thyroid Gland Medullary Carcinoma AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C141048",
+      "relatedName": "Stage IVB Thyroid Gland Medullary Carcinoma AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C115039",
+      "relatedName": "Stage IVB Thyroid Gland Papillary Carcinoma AJCC v7"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C115039",
+      "relatedName": "Stage IVB Thyroid Gland Papillary Carcinoma AJCC v7"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C140986",
+      "relatedName": "Stage IVB Thyroid Gland Papillary Carcinoma AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C140986",
+      "relatedName": "Stage IVB Thyroid Gland Papillary Carcinoma AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C87548",
+      "relatedName": "Stage IVC Differentiated Thyroid Gland Carcinoma AJCC v7"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C87548",
+      "relatedName": "Stage IVC Differentiated Thyroid Gland Carcinoma AJCC v7"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C87554",
+      "relatedName": "Stage IVC Thyroid Gland Anaplastic Carcinoma AJCC v7"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C87554",
+      "relatedName": "Stage IVC Thyroid Gland Anaplastic Carcinoma AJCC v7"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C141004",
+      "relatedName": "Stage IVC Thyroid Gland Anaplastic Carcinoma AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C141004",
+      "relatedName": "Stage IVC Thyroid Gland Anaplastic Carcinoma AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C115037",
+      "relatedName": "Stage IVC Thyroid Gland Follicular Carcinoma AJCC v7"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C115037",
+      "relatedName": "Stage IVC Thyroid Gland Follicular Carcinoma AJCC v7"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C87551",
+      "relatedName": "Stage IVC Thyroid Gland Medullary Carcinoma AJCC v7"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C87551",
+      "relatedName": "Stage IVC Thyroid Gland Medullary Carcinoma AJCC v7"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C141049",
+      "relatedName": "Stage IVC Thyroid Gland Medullary Carcinoma AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C141049",
+      "relatedName": "Stage IVC Thyroid Gland Medullary Carcinoma AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C115040",
+      "relatedName": "Stage IVC Thyroid Gland Papillary Carcinoma AJCC v7"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C115040",
+      "relatedName": "Stage IVC Thyroid Gland Papillary Carcinoma AJCC v7"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C35828",
+      "relatedName": "Subacute Granulomatous Thyroiditis"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C35828",
+      "relatedName": "Subacute Granulomatous Thyroiditis"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C35829",
+      "relatedName": "Subacute Lymphocytic Thyroiditis"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C35829",
+      "relatedName": "Subacute Lymphocytic Thyroiditis"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C35071",
+      "relatedName": "Subacute Thyroiditis"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C35071",
+      "relatedName": "Subacute Thyroiditis"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C35558",
+      "relatedName": "Tall Cell Variant Thyroid Gland Papillary Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C35558",
+      "relatedName": "Tall Cell Variant Thyroid Gland Papillary Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C187995",
+      "relatedName": "Thyroblastoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C187995",
+      "relatedName": "Thyroblastoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C121749",
+      "relatedName": "Thyroglobulin Deficiency"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C121749",
+      "relatedName": "Thyroglobulin Deficiency"
+    },
+    {
+      "type": "Gene_Product_Expressed_In_Tissue",
+      "relatedCode": "C2304",
+      "relatedName": "Thyroglobulin"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C85190",
+      "relatedName": "Thyroid Dysgenesis"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C85190",
+      "relatedName": "Thyroid Dysgenesis"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C121751",
+      "relatedName": "Thyroid Dyshormonogenesis"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C121751",
+      "relatedName": "Thyroid Dyshormonogenesis"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C27115",
+      "relatedName": "Thyroid Gland Abscess"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C27115",
+      "relatedName": "Thyroid Gland Abscess"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C27380",
+      "relatedName": "Thyroid Gland Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C27380",
+      "relatedName": "Thyroid Gland Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C140999",
+      "relatedName": "Thyroid Gland Anaplastic Carcinoma by AJCC v7 Stage"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C140999",
+      "relatedName": "Thyroid Gland Anaplastic Carcinoma by AJCC v7 Stage"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C141000",
+      "relatedName": "Thyroid Gland Anaplastic Carcinoma by AJCC v8 Stage"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C141000",
+      "relatedName": "Thyroid Gland Anaplastic Carcinoma by AJCC v8 Stage"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C7906",
+      "relatedName": "Thyroid Gland Anaplastic Carcinoma, Osteoclastic Variant"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C7906",
+      "relatedName": "Thyroid Gland Anaplastic Carcinoma, Osteoclastic Variant"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C46008",
+      "relatedName": "Thyroid Gland Anaplastic Carcinoma, Squamous Cell Carcinoma Pattern"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C46008",
+      "relatedName": "Thyroid Gland Anaplastic Carcinoma, Squamous Cell Carcinoma Pattern"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C3878",
+      "relatedName": "Thyroid Gland Anaplastic Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C3878",
+      "relatedName": "Thyroid Gland Anaplastic Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C6043",
+      "relatedName": "Thyroid Gland Angiosarcoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C6043",
+      "relatedName": "Thyroid Gland Angiosarcoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C26942",
+      "relatedName": "Thyroid Gland Atrophy"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C26942",
+      "relatedName": "Thyroid Gland Atrophy"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C155958",
+      "relatedName": "Thyroid Gland Black Follicular Adenoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C155958",
+      "relatedName": "Thyroid Gland Black Follicular Adenoma"
+    },
+    {
+      "type": "Anatomic_Structure_Is_Physical_Part_Of",
+      "relatedCode": "C33781",
+      "relatedName": "Thyroid Gland Capsule"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C4815",
+      "relatedName": "Thyroid Gland Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C4815",
+      "relatedName": "Thyroid Gland Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C156344",
+      "relatedName": "Thyroid Gland Cavernous Hemangioma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C156344",
+      "relatedName": "Thyroid Gland Cavernous Hemangioma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C46119",
+      "relatedName": "Thyroid Gland Clear Cell Follicular Adenoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C46119",
+      "relatedName": "Thyroid Gland Clear Cell Follicular Adenoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C126408",
+      "relatedName": "Thyroid Gland Cribriform Morular Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C126408",
+      "relatedName": "Thyroid Gland Cribriform Morular Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C6046",
+      "relatedName": "Thyroid Gland Diffuse Large B-Cell Lymphoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C6046",
+      "relatedName": "Thyroid Gland Diffuse Large B-Cell Lymphoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C26893",
+      "relatedName": "Thyroid Gland Disorder"
+    },
+    {
+      "type": "Anatomic_Structure_Is_Physical_Part_Of",
+      "relatedCode": "C47809",
+      "relatedName": "Thyroid Gland Epithelial Tissue"
+    },
+    {
+      "type": "Anatomic_Structure_Is_Physical_Part_Of",
+      "relatedCode": "C33782",
+      "relatedName": "Thyroid Gland Follicle"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C46123",
+      "relatedName": "Thyroid Gland Follicular Adenoma with Bizarre Nuclei"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C46123",
+      "relatedName": "Thyroid Gland Follicular Adenoma with Bizarre Nuclei"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C187261",
+      "relatedName": "Thyroid Gland Follicular Adenoma with Papillary Architecture"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C187261",
+      "relatedName": "Thyroid Gland Follicular Adenoma with Papillary Architecture"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C3502",
+      "relatedName": "Thyroid Gland Follicular Adenoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C3502",
+      "relatedName": "Thyroid Gland Follicular Adenoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C140958",
+      "relatedName": "Thyroid Gland Follicular Carcinoma by AJCC v7 Stage"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C140958",
+      "relatedName": "Thyroid Gland Follicular Carcinoma by AJCC v7 Stage"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C140987",
+      "relatedName": "Thyroid Gland Follicular Carcinoma by AJCC v8 Stage"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C140987",
+      "relatedName": "Thyroid Gland Follicular Carcinoma by AJCC v8 Stage"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C46096",
+      "relatedName": "Thyroid Gland Follicular Carcinoma, Clear Cell Variant"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C46096",
+      "relatedName": "Thyroid Gland Follicular Carcinoma, Clear Cell Variant"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C156122",
+      "relatedName": "Thyroid Gland Follicular Carcinoma, Encapsulated Angioinvasive"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C156122",
+      "relatedName": "Thyroid Gland Follicular Carcinoma, Encapsulated Angioinvasive"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C65200",
+      "relatedName": "Thyroid Gland Follicular Carcinoma, Minimally Invasive"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C65200",
+      "relatedName": "Thyroid Gland Follicular Carcinoma, Minimally Invasive"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C187643",
+      "relatedName": "Thyroid Gland Follicular Carcinoma, Signet Ring Cell Variant"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C187643",
+      "relatedName": "Thyroid Gland Follicular Carcinoma, Signet Ring Cell Variant"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C156123",
+      "relatedName": "Thyroid Gland Follicular Carcinoma, Widely Invasive"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C156123",
+      "relatedName": "Thyroid Gland Follicular Carcinoma, Widely Invasive"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C8054",
+      "relatedName": "Thyroid Gland Follicular Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C8054",
+      "relatedName": "Thyroid Gland Follicular Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C156408",
+      "relatedName": "Thyroid Gland Follicular Dendritic Cell Sarcoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C156408",
+      "relatedName": "Thyroid Gland Follicular Dendritic Cell Sarcoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C156410",
+      "relatedName": "Thyroid Gland Follicular Lymphoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C156410",
+      "relatedName": "Thyroid Gland Follicular Lymphoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C187255",
+      "relatedName": "Thyroid Gland Follicular Nodular Disease"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C187255",
+      "relatedName": "Thyroid Gland Follicular Nodular Disease"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C155978",
+      "relatedName": "Thyroid Gland Follicular Tumor of Uncertain Malignant Potential"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C155978",
+      "relatedName": "Thyroid Gland Follicular Tumor of Uncertain Malignant Potential"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C156343",
+      "relatedName": "Thyroid Gland Hemangioma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C156343",
+      "relatedName": "Thyroid Gland Hemangioma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C210129",
+      "relatedName": "Thyroid Gland High Grade Medullary Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C210129",
+      "relatedName": "Thyroid Gland High Grade Medullary Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C156406",
+      "relatedName": "Thyroid Gland Histiocytic and Dendritic Cell Neoplasm"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C181209",
+      "relatedName": "Thyroid Gland Hodgkin Lymphoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C181209",
+      "relatedName": "Thyroid Gland Hodgkin Lymphoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C6846",
+      "relatedName": "Thyroid Gland Hyalinizing Trabecular Tumor"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C6846",
+      "relatedName": "Thyroid Gland Hyalinizing Trabecular Tumor"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C6846",
+      "relatedName": "Thyroid Gland Hyalinizing Trabecular Tumor"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C46122",
+      "relatedName": "Thyroid Gland Hyperfunctioning Adenoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C46122",
+      "relatedName": "Thyroid Gland Hyperfunctioning Adenoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C7263",
+      "relatedName": "Thyroid Gland Immunoblastic Lymphoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C7263",
+      "relatedName": "Thyroid Gland Immunoblastic Lymphoma"
+    },
+    {
+      "type": "Anatomic_Structure_Is_Physical_Part_Of",
+      "relatedCode": "C32887",
+      "relatedName": "Thyroid Gland Isthmus"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C156407",
+      "relatedName": "Thyroid Gland Langerhans Cell Histiocytosis"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C156346",
+      "relatedName": "Thyroid Gland Leiomyoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C156346",
+      "relatedName": "Thyroid Gland Leiomyoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C156347",
+      "relatedName": "Thyroid Gland Leiomyosarcoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C156347",
+      "relatedName": "Thyroid Gland Leiomyosarcoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C46118",
+      "relatedName": "Thyroid Gland Lipoadenoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C46118",
+      "relatedName": "Thyroid Gland Lipoadenoma"
+    },
+    {
+      "type": "Anatomic_Structure_Is_Physical_Part_Of",
+      "relatedCode": "C33784",
+      "relatedName": "Thyroid Gland Lobe"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C210125",
+      "relatedName": "Thyroid Gland Low Grade Medullary Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C210125",
+      "relatedName": "Thyroid Gland Low Grade Medullary Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C156345",
+      "relatedName": "Thyroid Gland Lymphangioma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C156345",
+      "relatedName": "Thyroid Gland Lymphangioma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C5265",
+      "relatedName": "Thyroid Gland Lymphoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C5265",
+      "relatedName": "Thyroid Gland Lymphoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C4161",
+      "relatedName": "Thyroid Gland Macrofollicular Adenoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C4161",
+      "relatedName": "Thyroid Gland Macrofollicular Adenoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C156341",
+      "relatedName": "Thyroid Gland Malignant Peripheral Nerve Sheath Tumor"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C156341",
+      "relatedName": "Thyroid Gland Malignant Peripheral Nerve Sheath Tumor"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C213669",
+      "relatedName": "Thyroid Gland Mantle Cell Lymphoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C213669",
+      "relatedName": "Thyroid Gland Mantle Cell Lymphoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C141041",
+      "relatedName": "Thyroid Gland Medullary Carcinoma by AJCC v7 Stage"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C141041",
+      "relatedName": "Thyroid Gland Medullary Carcinoma by AJCC v7 Stage"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C141042",
+      "relatedName": "Thyroid Gland Medullary Carcinoma by AJCC v8 Stage"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C141042",
+      "relatedName": "Thyroid Gland Medullary Carcinoma by AJCC v8 Stage"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C4193",
+      "relatedName": "Thyroid Gland Medullary Carcinoma with Amyloid Stroma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C4193",
+      "relatedName": "Thyroid Gland Medullary Carcinoma with Amyloid Stroma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C3879",
+      "relatedName": "Thyroid Gland Medullary Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C3879",
+      "relatedName": "Thyroid Gland Medullary Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C4160",
+      "relatedName": "Thyroid Gland Microfollicular Adenoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C4160",
+      "relatedName": "Thyroid Gland Microfollicular Adenoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C187992",
+      "relatedName": "Thyroid Gland Mixed Medullary and Follicular Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C187992",
+      "relatedName": "Thyroid Gland Mixed Medullary and Follicular Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C46104",
+      "relatedName": "Thyroid Gland Mixed Medullary and Follicular Cell-Derived Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C46104",
+      "relatedName": "Thyroid Gland Mixed Medullary and Follicular Cell-Derived Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C187993",
+      "relatedName": "Thyroid Gland Mixed Medullary and Papillary Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C187993",
+      "relatedName": "Thyroid Gland Mixed Medullary and Papillary Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C156267",
+      "relatedName": "Thyroid Gland Mucinous Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C156267",
+      "relatedName": "Thyroid Gland Mucinous Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C46116",
+      "relatedName": "Thyroid Gland Mucinous Follicular Adenoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C46116",
+      "relatedName": "Thyroid Gland Mucinous Follicular Adenoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C38762",
+      "relatedName": "Thyroid Gland Mucoepidermoid Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C38762",
+      "relatedName": "Thyroid Gland Mucoepidermoid Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C7601",
+      "relatedName": "Thyroid Gland Mucosa-Associated Lymphoid Tissue Lymphoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C7601",
+      "relatedName": "Thyroid Gland Mucosa-Associated Lymphoid Tissue Lymphoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C3414",
+      "relatedName": "Thyroid Gland Neoplasm"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C3415",
+      "relatedName": "Thyroid Gland Nodule"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C6044",
+      "relatedName": "Thyroid Gland Non-Hodgkin Lymphoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C6044",
+      "relatedName": "Thyroid Gland Non-Hodgkin Lymphoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C126598",
+      "relatedName": "Thyroid Gland Noninvasive Follicular Neoplasm with Papillary-Like Nuclear Features"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C126598",
+      "relatedName": "Thyroid Gland Noninvasive Follicular Neoplasm with Papillary-Like Nuclear Features"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C126598",
+      "relatedName": "Thyroid Gland Noninvasive Follicular Neoplasm with Papillary-Like Nuclear Features"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C6042",
+      "relatedName": "Thyroid Gland Oncocytic Adenoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C6042",
+      "relatedName": "Thyroid Gland Oncocytic Adenoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C4946",
+      "relatedName": "Thyroid Gland Oncocytic Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C4946",
+      "relatedName": "Thyroid Gland Oncocytic Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C46068",
+      "relatedName": "Thyroid Gland Oncocytic Neoplasm"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C46068",
+      "relatedName": "Thyroid Gland Oncocytic Neoplasm"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C140960",
+      "relatedName": "Thyroid Gland Papillary Carcinoma by AJCC v7 Stage"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C140960",
+      "relatedName": "Thyroid Gland Papillary Carcinoma by AJCC v7 Stage"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C140976",
+      "relatedName": "Thyroid Gland Papillary Carcinoma by AJCC v8 Stage"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C140976",
+      "relatedName": "Thyroid Gland Papillary Carcinoma by AJCC v8 Stage"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C126410",
+      "relatedName": "Thyroid Gland Papillary Carcinoma with Fibromatosis/Fasciitis-Like/Desmoid-Type Stroma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C126410",
+      "relatedName": "Thyroid Gland Papillary Carcinoma with Fibromatosis/Fasciitis-Like/Desmoid-Type Stroma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C4035",
+      "relatedName": "Thyroid Gland Papillary Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C4035",
+      "relatedName": "Thyroid Gland Papillary Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C46004",
+      "relatedName": "Thyroid Gland Papillary Microcarcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C46004",
+      "relatedName": "Thyroid Gland Papillary Microcarcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C46125",
+      "relatedName": "Thyroid Gland Paraganglioma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C156409",
+      "relatedName": "Thyroid Gland Rosai-Dorfman-Destombes Disease"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C6041",
+      "relatedName": "Thyroid Gland Sarcoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C6041",
+      "relatedName": "Thyroid Gland Sarcoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C156340",
+      "relatedName": "Thyroid Gland Schwannoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C156340",
+      "relatedName": "Thyroid Gland Schwannoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C38763",
+      "relatedName": "Thyroid Gland Sclerosing Mucoepidermoid Carcinoma with Eosinophilia"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C38763",
+      "relatedName": "Thyroid Gland Sclerosing Mucoepidermoid Carcinoma with Eosinophilia"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C187994",
+      "relatedName": "Thyroid Gland Secretory Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C187994",
+      "relatedName": "Thyroid Gland Secretory Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C46115",
+      "relatedName": "Thyroid Gland Signet Ring Cell Follicular Adenoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C46115",
+      "relatedName": "Thyroid Gland Signet Ring Cell Follicular Adenoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C156349",
+      "relatedName": "Thyroid Gland Solitary Fibrous Tumor"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C155957",
+      "relatedName": "Thyroid Gland Spindle Cell Follicular Adenoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C155957",
+      "relatedName": "Thyroid Gland Spindle Cell Follicular Adenoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C46105",
+      "relatedName": "Thyroid Gland Spindle Epithelial Tumor with Thymus-Like Elements"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C46105",
+      "relatedName": "Thyroid Gland Spindle Epithelial Tumor with Thymus-Like Elements"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C46124",
+      "relatedName": "Thyroid Gland Teratoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C46124",
+      "relatedName": "Thyroid Gland Teratoma"
+    },
+    {
+      "type": "Anatomic_Structure_Is_Physical_Part_Of",
+      "relatedCode": "C33785",
+      "relatedName": "Thyroid Gland Tissue"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C187284",
+      "relatedName": "Thyroid Gland Tumor of Uncertain Malignant Potential"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C187284",
+      "relatedName": "Thyroid Gland Tumor of Uncertain Malignant Potential"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C27729",
+      "relatedName": "Thyroid Gland Well-Differentiated Tumor of Uncertain Malignant Potential"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C27729",
+      "relatedName": "Thyroid Gland Well-Differentiated Tumor of Uncertain Malignant Potential"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C85191",
+      "relatedName": "Thyroid Hormone Resistance Syndrome"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C85191",
+      "relatedName": "Thyroid Hormone Resistance Syndrome"
+    },
+    {
+      "type": "Procedure_Has_Excised_Anatomy",
+      "relatedCode": "C51737",
+      "relatedName": "Thyroid Isthmectomy"
+    },
+    {
+      "type": "Procedure_Has_Excised_Anatomy",
+      "relatedCode": "C51649",
+      "relatedName": "Thyroid Lobectomy"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C121750",
+      "relatedName": "Thyroid Peroxidase Deficiency"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C121750",
+      "relatedName": "Thyroid Peroxidase Deficiency"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C112836",
+      "relatedName": "Thyroid Storm"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C112836",
+      "relatedName": "Thyroid Storm"
+    },
+    {
+      "type": "Procedure_Has_Excised_Anatomy",
+      "relatedCode": "C51648",
+      "relatedName": "Thyroidectomy"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C26894",
+      "relatedName": "Thyroiditis"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C26894",
+      "relatedName": "Thyroiditis"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C61469",
+      "relatedName": "Thyrotoxicosis"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C61469",
+      "relatedName": "Thyrotoxicosis"
+    },
+    {
+      "type": "Procedure_Has_Completely_Excised_Anatomy",
+      "relatedCode": "C51762",
+      "relatedName": "Total Thyroidectomy"
+    },
+    {
+      "type": "Procedure_Has_Excised_Anatomy",
+      "relatedCode": "C51762",
+      "relatedName": "Total Thyroidectomy"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C35171",
+      "relatedName": "Toxic Nodular Goiter"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C35171",
+      "relatedName": "Toxic Nodular Goiter"
+    },
+    {
+      "type": "Disease_Excludes_Primary_Anatomic_Site",
+      "relatedCode": "C211515",
+      "relatedName": "Tracheal Papillomatosis"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C113171",
+      "relatedName": "Transient Hypothyroxinemia of Prematurity"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C113171",
+      "relatedName": "Transient Hypothyroxinemia of Prematurity"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C131031",
+      "relatedName": "Transient Hypothyroxinemia"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C131031",
+      "relatedName": "Transient Hypothyroxinemia"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C131034",
+      "relatedName": "Transient Primary Hypothyroidism"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C131034",
+      "relatedName": "Transient Primary Hypothyroidism"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C131072",
+      "relatedName": "Uninodular Goiter"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C131072",
+      "relatedName": "Uninodular Goiter"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C168572",
+      "relatedName": "Unresectable Differentiated Thyroid Gland Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C168572",
+      "relatedName": "Unresectable Differentiated Thyroid Gland Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C173637",
+      "relatedName": "Unresectable Hereditary Thyroid Gland Medullary Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C173637",
+      "relatedName": "Unresectable Hereditary Thyroid Gland Medullary Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C174569",
+      "relatedName": "Unresectable Poorly Differentiated Thyroid Gland Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C174569",
+      "relatedName": "Unresectable Poorly Differentiated Thyroid Gland Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C170833",
+      "relatedName": "Unresectable Thyroid Gland Anaplastic Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C170833",
+      "relatedName": "Unresectable Thyroid Gland Anaplastic Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C129784",
+      "relatedName": "Unresectable Thyroid Gland Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C129784",
+      "relatedName": "Unresectable Thyroid Gland Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C174571",
+      "relatedName": "Unresectable Thyroid Gland Follicular Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C174571",
+      "relatedName": "Unresectable Thyroid Gland Follicular Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C163974",
+      "relatedName": "Unresectable Thyroid Gland Medullary Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C163974",
+      "relatedName": "Unresectable Thyroid Gland Medullary Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C174572",
+      "relatedName": "Unresectable Thyroid Gland Oncocytic Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C174572",
+      "relatedName": "Unresectable Thyroid Gland Oncocytic Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C174570",
+      "relatedName": "Unresectable Thyroid Gland Papillary Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C174570",
+      "relatedName": "Unresectable Thyroid Gland Papillary Carcinoma"
+    },
+    {
+      "type": "Disease_Excludes_Primary_Anatomic_Site",
+      "relatedCode": "C40290",
+      "relatedName": "Vulvar Squamous Papillomatosis"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C126409",
+      "relatedName": "Warthin-Like Variant Thyroid Gland Papillary Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C126409",
+      "relatedName": "Warthin-Like Variant Thyroid Gland Papillary Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C131078",
+      "relatedName": "Wolff-Chaikoff Phenomenon"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C131078",
+      "relatedName": "Wolff-Chaikoff Phenomenon"
+    }
+  ],
+  "history": [
+    {
+      "code": "C12400",
+      "action": "create",
+      "date": "2003-08-12"
+    },
+    {
+      "code": "C12400",
+      "action": "modify",
+      "date": "2003-08-22"
+    },
+    {
+      "code": "C12400",
+      "action": "modify",
+      "date": "2003-09-29"
+    },
+    {
+      "code": "C12400",
+      "action": "modify",
+      "date": "2003-10-31"
+    },
+    {
+      "code": "C12400",
+      "action": "modify",
+      "date": "2003-12-05"
+    },
+    {
+      "code": "C12400",
+      "action": "modify",
+      "date": "2003-12-30"
+    },
+    {
+      "code": "C12400",
+      "action": "modify",
+      "date": "2004-02-23"
+    },
+    {
+      "code": "C12400",
+      "action": "modify",
+      "date": "2004-03-30"
+    },
+    {
+      "code": "C12400",
+      "action": "modify",
+      "date": "2004-04-30"
+    },
+    {
+      "code": "C12400",
+      "action": "modify",
+      "date": "2005-03-16"
+    },
+    {
+      "code": "C12400",
+      "action": "modify",
+      "date": "2005-05-27"
+    },
+    {
+      "code": "C12400",
+      "action": "modify",
+      "date": "2006-01-03"
+    },
+    {
+      "code": "C12400",
+      "action": "modify",
+      "date": "2007-10-29"
+    },
+    {
+      "code": "C12400",
+      "action": "modify",
+      "date": "2008-06-27"
+    },
+    {
+      "code": "C12400",
+      "action": "modify",
+      "date": "2008-09-12"
+    },
+    {
+      "code": "C12400",
+      "action": "modify",
+      "date": "2008-11-14"
+    },
+    {
+      "code": "C12400",
+      "action": "modify",
+      "date": "2008-11-26"
+    },
+    {
+      "code": "C12400",
+      "action": "modify",
+      "date": "2008-12-19"
+    },
+    {
+      "code": "C12400",
+      "action": "modify",
+      "date": "2008-11-07"
+    },
+    {
+      "code": "C12400",
+      "action": "modify",
+      "date": "2009-11-23"
+    },
+    {
+      "code": "C12400",
+      "action": "modify",
+      "date": "2011-02-14"
+    },
+    {
+      "code": "C12400",
+      "action": "modify",
+      "date": "2013-02-25"
+    },
+    {
+      "code": "C12400",
+      "action": "modify",
+      "date": "2013-03-04"
+    },
+    {
+      "code": "C12400",
+      "action": "modify",
+      "date": "2013-03-11"
+    },
+    {
+      "code": "C12400",
+      "action": "modify",
+      "date": "2013-03-18"
+    },
+    {
+      "code": "C12400",
+      "action": "modify",
+      "date": "2013-03-25"
+    },
+    {
+      "code": "C12400",
+      "action": "modify",
+      "date": "2013-04-01"
+    },
+    {
+      "code": "C12400",
+      "action": "modify",
+      "date": "2013-04-08"
+    },
+    {
+      "code": "C12400",
+      "action": "modify",
+      "date": "2013-04-15"
+    },
+    {
+      "code": "C12400",
+      "action": "modify",
+      "date": "2013-04-22"
+    },
+    {
+      "code": "C12400",
+      "action": "modify",
+      "date": "2013-04-29"
+    },
+    {
+      "code": "C12400",
+      "action": "modify",
+      "date": "2013-05-06"
+    },
+    {
+      "code": "C12400",
+      "action": "modify",
+      "date": "2013-05-13"
+    },
+    {
+      "code": "C12400",
+      "action": "modify",
+      "date": "2013-05-20"
+    },
+    {
+      "code": "C12400",
+      "action": "modify",
+      "date": "2013-05-28"
+    },
+    {
+      "code": "C12400",
+      "action": "modify",
+      "date": "2013-06-03"
+    },
+    {
+      "code": "C12400",
+      "action": "modify",
+      "date": "2013-06-10"
+    },
+    {
+      "code": "C12400",
+      "action": "modify",
+      "date": "2013-06-17"
+    },
+    {
+      "code": "C12400",
+      "action": "modify",
+      "date": "2013-06-24"
+    },
+    {
+      "code": "C12400",
+      "action": "modify",
+      "date": "2013-07-01"
+    },
+    {
+      "code": "C12400",
+      "action": "modify",
+      "date": "2013-07-08"
+    },
+    {
+      "code": "C12400",
+      "action": "modify",
+      "date": "2015-05-26"
+    },
+    {
+      "code": "C12400",
+      "action": "modify",
+      "date": "2015-06-01"
+    },
+    {
+      "code": "C12400",
+      "action": "modify",
+      "date": "2015-06-08"
+    },
+    {
+      "code": "C12400",
+      "action": "modify",
+      "date": "2015-06-15"
+    },
+    {
+      "code": "C12400",
+      "action": "modify",
+      "date": "2015-06-22"
+    },
+    {
+      "code": "C12400",
+      "action": "modify",
+      "date": "2015-06-29"
+    },
+    {
+      "code": "C12400",
+      "action": "modify",
+      "date": "2015-07-06"
+    },
+    {
+      "code": "C12400",
+      "action": "modify",
+      "date": "2015-07-13"
+    },
+    {
+      "code": "C12400",
+      "action": "modify",
+      "date": "2015-08-12"
+    },
+    {
+      "code": "C12400",
+      "action": "modify",
+      "date": "2015-08-31"
+    },
+    {
+      "code": "C12400",
+      "action": "modify",
+      "date": "2015-10-19"
+    },
+    {
+      "code": "C12400",
+      "action": "modify",
+      "date": "2015-11-30"
+    },
+    {
+      "code": "C12400",
+      "action": "modify",
+      "date": "2016-10-17"
+    },
+    {
+      "code": "C12400",
+      "action": "modify",
+      "date": "2017-02-27"
+    },
+    {
+      "code": "C12400",
+      "action": "modify",
+      "date": "2017-03-06"
+    },
+    {
+      "code": "C12400",
+      "action": "modify",
+      "date": "2017-03-13"
+    },
+    {
+      "code": "C12400",
+      "action": "modify",
+      "date": "2018-09-24"
+    },
+    {
+      "code": "C12400",
+      "action": "modify",
+      "date": "2018-10-29"
+    },
+    {
+      "code": "C12400",
+      "action": "modify",
+      "date": "2018-10-29"
+    },
+    {
+      "code": "C12400",
+      "action": "modify",
+      "date": "2019-03-25"
+    },
+    {
+      "code": "C12400",
+      "action": "modify",
+      "date": "2019-05-28"
+    },
+    {
+      "code": "C12400",
+      "action": "modify",
+      "date": "2019-06-24"
+    },
+    {
+      "code": "C12400",
+      "action": "modify",
+      "date": "2019-07-29"
+    },
+    {
+      "code": "C12400",
+      "action": "modify",
+      "date": "2019-09-30"
+    },
+    {
+      "code": "C12400",
+      "action": "modify",
+      "date": "2019-10-28"
+    },
+    {
+      "code": "C12400",
+      "action": "modify",
+      "date": "2020-02-24"
+    },
+    {
+      "code": "C12400",
+      "action": "modify",
+      "date": "2020-03-30"
+    },
+    {
+      "code": "C12400",
+      "action": "modify",
+      "date": "2020-09-29"
+    },
+    {
+      "code": "C12400",
+      "action": "modify",
+      "date": "2021-02-22"
+    },
+    {
+      "code": "C12400",
+      "action": "modify",
+      "date": "2021-03-29"
+    },
+    {
+      "code": "C12400",
+      "action": "modify",
+      "date": "2021-11-29"
+    },
+    {
+      "code": "C12400",
+      "action": "modify",
+      "date": "2022-04-25"
+    },
+    {
+      "code": "C12400",
+      "action": "modify",
+      "date": "2022-08-29"
+    },
+    {
+      "code": "C12400",
+      "action": "modify",
+      "date": "2022-10-31"
+    },
+    {
+      "code": "C12400",
+      "action": "modify",
+      "date": "2023-02-27"
+    },
+    {
+      "code": "C12400",
+      "action": "modify",
+      "date": "2023-03-27"
+    },
+    {
+      "code": "C12400",
+      "action": "modify",
+      "date": "2023-05-30"
+    },
+    {
+      "code": "C12400",
+      "action": "modify",
+      "date": "2023-09-25"
+    },
+    {
+      "code": "C12400",
+      "action": "modify",
+      "date": "2024-07-08"
+    }
+  ],
+  "maps": [
+    {
+      "type": "Related To",
+      "targetName": "THYROID GLAND",
+      "targetTermType": "HT",
+      "targetCode": "C73",
+      "targetTerminology": "ICDO3",
+      "targetTerminologyVersion": "3.2"
+    },
+    {
+      "type": "Related To",
+      "targetName": "THYROID GLAND",
+      "targetTermType": "HT",
+      "targetCode": "C73",
+      "targetTerminology": "ICDO3",
+      "targetTerminologyVersion": "3.1"
+    },
+    {
+      "type": "Related To",
+      "targetName": "Thyroid gland",
+      "targetTermType": "PT",
+      "targetCode": "C73.9",
+      "targetTerminology": "ICDO3",
+      "targetTerminologyVersion": "3.2"
+    },
+    {
+      "type": "Related To",
+      "targetName": "Thyroid gland",
+      "targetTermType": "PT",
+      "targetCode": "C73.9",
+      "targetTerminology": "ICDO3",
+      "targetTerminologyVersion": "3.1"
+    },
+    {
+      "type": "Has Synonym",
+      "targetName": "Thyroid gland",
+      "targetTermType": "PT",
+      "targetCode": "primary_site",
+      "targetTerminology": "GDC"
+    },
+    {
+      "type": "Has Synonym",
+      "targetName": "Thyroid gland",
+      "targetTermType": "PT",
+      "targetCode": "progression_or_recurrence_anatomic_site",
+      "targetTerminology": "GDC"
+    },
+    {
+      "type": "Has Synonym",
+      "targetName": "Thyroid gland",
+      "targetTermType": "PT",
+      "targetCode": "site_of_resection_or_biopsy",
+      "targetTerminology": "GDC"
+    },
+    {
+      "type": "Has Synonym",
+      "targetName": "Thyroid gland",
+      "targetTermType": "PT",
+      "targetCode": "tissue_or_organ_of_origin",
+      "targetTerminology": "GDC"
+    },
+    {
+      "type": "Related To",
+      "targetName": "Thyroid, NOS",
+      "targetTermType": "SY",
+      "targetCode": "C73.9",
+      "targetTerminology": "ICDO3",
+      "targetTerminologyVersion": "3.2"
+    },
+    {
+      "type": "Related To",
+      "targetName": "Thyroid, NOS",
+      "targetTermType": "SY",
+      "targetCode": "C73.9",
+      "targetTerminology": "ICDO3",
+      "targetTerminologyVersion": "3.1"
+    },
+    {
+      "type": "Has Synonym",
+      "targetName": "Thyroid",
+      "targetTermType": "PT",
+      "targetCode": "biospecimen_anatomic_site",
+      "targetTerminology": "GDC"
+    },
+    {
+      "type": "Has Synonym",
+      "targetName": "Thyroid",
+      "targetTermType": "PT",
+      "targetCode": "max_tumor_bulk_site",
+      "targetTerminology": "GDC"
+    },
+    {
+      "type": "Has Synonym",
+      "targetName": "Thyroid",
+      "targetTermType": "PT",
+      "targetCode": "sites_of_involvement",
+      "targetTerminology": "GDC"
+    },
+    {
+      "type": "Has Synonym",
+      "targetName": "Thyroid",
+      "targetTermType": "PT",
+      "targetCode": "treatment_anatomic_sites",
+      "targetTerminology": "GDC"
+    }
+  ]
+}

@@ -1,0 +1,992 @@
+{
+  "code": "C3184",
+  "name": "Adult T-Cell Leukemia/Lymphoma",
+  "terminology": "ncit",
+  "version": "25.11d",
+  "conceptStatus": "DEFAULT",
+  "leaf": false,
+  "active": true,
+  "synonyms": [
+    {
+      "name": "Adult T-Cell Leukemia/Lymphoma",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "caDSR"
+    },
+    {
+      "name": "Adult T-Cell Leukemia/Lymphoma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "Cellosaurus"
+    },
+    {
+      "name": "Adult T-cell leukemia/lymphoma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "CTEP",
+      "code": "10001415",
+      "subSource": "SDC"
+    },
+    {
+      "name": "Adult T-Cell Leukemia/Lymphoma",
+      "termType": "DN",
+      "type": "FULL_SYN",
+      "source": "CTRP"
+    },
+    {
+      "name": "Adult T-cell lymphoma/leukemia",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "GDC"
+    },
+    {
+      "name": "adult T-cell leukemia/lymphoma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NCI-GLOSS",
+      "code": "CDR0000269410"
+    },
+    {
+      "name": "ATLL",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NCI-GLOSS",
+      "code": "CDR0000269411"
+    },
+    {
+      "name": "Adult T Cell Lymphoma/Leukemia",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Adult T-Cell Leukemia/Lymphoma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Adult T-Cell Lymphoma/Leukemia",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "ATLL",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "HTLV-1 Associated Adult T-Cell Lymphoma/Leukemia",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "HTLV-I Associated Adult T-Cell Leukemia/Lymphoma",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Adult T-Cell Leukemia/Lymphoma",
+      "type": "Display_Name"
+    },
+    {
+      "name": "Adult T-Cell Leukemia/Lymphoma",
+      "type": "Preferred_Name"
+    }
+  ],
+  "definitions": [
+    {
+      "definition": "A peripheral (mature) T-cell neoplasm linked to the human T-cell leukemia virus type 1 (HTLV-1).  Adult T-cell leukemia/lymphoma is endemic in several regions of the world, in particular Japan, the Caribbean, and parts of Central Africa.",
+      "type": "DEFINITION",
+      "source": "NCI"
+    },
+    {
+      "definition": "An aggressive (fast-growing) type of T-cell non-Hodgkin lymphoma caused by the human T-cell leukemia virus type 1 (HTLV-1). It is marked by bone and skin lesions, high calcium levels, and enlarged lymph nodes, spleen, and liver.",
+      "type": "ALT_DEFINITION",
+      "source": "NCI-GLOSS"
+    }
+  ],
+  "properties": [
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "Cellosaurus"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "CTEP"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "CTRP"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "GDC"
+    },
+    {
+      "code": "P334",
+      "type": "ICD-O-3_Code",
+      "value": "9827/3"
+    },
+    {
+      "code": "P366",
+      "type": "Legacy Concept Name",
+      "value": "Adult_T-Cell_Lymphoma_Leukemia"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "9827/3"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "Adult T-cell leukemia"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "Adult T-cell leukemia/lymphoma (HTLV-1 positive)"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "Adult T-cell leukemia/lymphoma (HTLV-1 positive) (includes all variants)"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "Adult T-cell lymphoma"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "Adult T-cell lymphoma/leukemia"
+    },
+    {
+      "code": "P363",
+      "type": "Neoplastic_Status",
+      "value": "Malignant"
+    },
+    {
+      "code": "P106",
+      "type": "Semantic_Type",
+      "value": "Neoplastic Process"
+    },
+    {
+      "code": "P207",
+      "type": "UMLS_CUI",
+      "value": "C0023493"
+    }
+  ],
+  "children": [
+    {
+      "code": "C36265",
+      "name": "Acute Adult T-Cell Leukemia/Lymphoma",
+      "leaf": true
+    },
+    {
+      "code": "C141283",
+      "name": "Adult T-Cell Leukemia/Lymphoma by Ann Arbor Stage",
+      "leaf": false
+    },
+    {
+      "code": "C7179",
+      "name": "Chronic Adult T-Cell Leukemia/Lymphoma",
+      "leaf": true
+    },
+    {
+      "code": "C45272",
+      "name": "Cutaneous Adult T-Cell Leukemia/Lymphoma",
+      "leaf": true
+    },
+    {
+      "code": "C36268",
+      "name": "Hodgkin-Like Adult T-Cell Leukemia/Lymphoma",
+      "leaf": true
+    },
+    {
+      "code": "C36266",
+      "name": "Lymphomatous Adult T-Cell Leukemia/Lymphoma",
+      "leaf": true
+    },
+    {
+      "code": "C8251",
+      "name": "Recurrent Adult T-Cell Leukemia/Lymphoma",
+      "leaf": true
+    },
+    {
+      "code": "C8657",
+      "name": "Refractory Adult T-Cell Leukemia/Lymphoma",
+      "leaf": true
+    },
+    {
+      "code": "C7178",
+      "name": "Smoldering Adult T-Cell Leukemia/Lymphoma",
+      "leaf": true
+    }
+  ],
+  "parents": [
+    {
+      "code": "C8492",
+      "name": "Aggressive Adult Non-Hodgkin Lymphoma"
+    },
+    {
+      "code": "C178547",
+      "name": "Aggressive T-Cell Non-Hodgkin Lymphoma"
+    },
+    {
+      "code": "C27685",
+      "name": "HTLV-1-Related Malignant Neoplasm"
+    },
+    {
+      "code": "C3468",
+      "name": "Mature T-Cell and NK-Cell Non-Hodgkin Lymphoma"
+    },
+    {
+      "code": "C27699",
+      "name": "Virus-Related Lymphoma"
+    }
+  ],
+  "associations": [
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C165258",
+      "relatedName": "Cellosaurus Disease Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C118168",
+      "relatedName": "CTRP Disease Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C116977",
+      "relatedName": "CTRP Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C157711",
+      "relatedName": "GDC Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C177537",
+      "relatedName": "GDC Value Terminology"
+    },
+    {
+      "type": "Is_Value_For_GDC_Property",
+      "relatedCode": "C176985",
+      "relatedName": "Histology ICD-O Morphology Code"
+    },
+    {
+      "type": "Is_Value_For_GDC_Property",
+      "relatedCode": "C177621",
+      "relatedName": "ICD-O-3 Morphology Term Diagnosis Question"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168658",
+      "relatedName": "Mapped ICDO3.1 Morphology PT Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168657",
+      "relatedName": "Mapped ICDO3.1 Morphology Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168655",
+      "relatedName": "Mapped ICDO3.1 Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168662",
+      "relatedName": "Mapped ICDO3.2 Morphology PT Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168661",
+      "relatedName": "Mapped ICDO3.2 Morphology Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168656",
+      "relatedName": "Mapped ICDO3.2 Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C103125",
+      "relatedName": "NCI CTEP SDC Chronic Lymphoid Leukemia Sub-Category Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C102905",
+      "relatedName": "NCI CTEP Simplified Disease Classification Terminology"
+    }
+  ],
+  "inverseAssociations": [
+    {
+      "type": "Has_GDC_Value",
+      "relatedCode": "C176985",
+      "relatedName": "Histology ICD-O Morphology Code"
+    },
+    {
+      "type": "Has_GDC_Value",
+      "relatedCode": "C177621",
+      "relatedName": "ICD-O-3 Morphology Term Diagnosis Question"
+    }
+  ],
+  "roles": [
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36725",
+      "relatedName": "Abnormal Lymphocyte"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C60643",
+      "relatedName": "Adulthood Lesion"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C36104",
+      "relatedName": "Aggressive Clinical Course"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C36122",
+      "relatedName": "Benign Cellular Infiltrate"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C12537",
+      "relatedName": "CD4-Positive T-Lymphocyte"
+    },
+    {
+      "type": "Disease_Has_Molecular_Abnormality",
+      "relatedCode": "C36447",
+      "relatedName": "Clonal T-Cell Receptor Beta Chain Gene Rearrangement"
+    },
+    {
+      "type": "Disease_Has_Molecular_Abnormality",
+      "relatedCode": "C36448",
+      "relatedName": "Clonal T-Cell Receptor Gamma Chain Gene Rearrangement"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C41165",
+      "relatedName": "Hematopoietic and Lymphatic System"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C41165",
+      "relatedName": "Hematopoietic and Lymphatic System"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C32725",
+      "relatedName": "Hematopoietic and Lymphoid Cell"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C41168",
+      "relatedName": "Hematopoietic and Lymphoid Tissue"
+    },
+    {
+      "type": "Disease_Has_Associated_Disease",
+      "relatedCode": "C39292",
+      "relatedName": "HTLV-1 Infection"
+    },
+    {
+      "type": "Disease_Has_Associated_Disease",
+      "relatedCode": "C26726",
+      "relatedName": "Infectious Disorder"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12746",
+      "relatedName": "Lymphatic System"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C37027",
+      "relatedName": "Lymphocyte Predominant Cell"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C12535",
+      "relatedName": "Lymphocyte"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C13049",
+      "relatedName": "Lymphoid Tissue"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12917",
+      "relatedName": "Malignant Cell"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C36115",
+      "relatedName": "Malignant Cellular Infiltrate"
+    },
+    {
+      "type": "Disease_Excludes_Normal_Cell_Origin",
+      "relatedCode": "C12549",
+      "relatedName": "Myeloid Cell"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C38640",
+      "relatedName": "Neoplastic B-Lymphocyte"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12922",
+      "relatedName": "Neoplastic Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C37060",
+      "relatedName": "Neoplastic Hematopoietic and Lymphoid Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36988",
+      "relatedName": "Neoplastic Lymphocyte"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C39566",
+      "relatedName": "Neoplastic T-Lymphocyte and Neoplastic Natural Killer Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C38641",
+      "relatedName": "Neoplastic T-Lymphocyte"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C39568",
+      "relatedName": "Peripheral (Post-Thymic) T-Lymphocyte and Natural Killer Cell"
+    },
+    {
+      "type": "Disease_Excludes_Normal_Cell_Origin",
+      "relatedCode": "C12486",
+      "relatedName": "Plasma Cell"
+    },
+    {
+      "type": "Disease_Excludes_Normal_Cell_Origin",
+      "relatedCode": "C39300",
+      "relatedName": "Precursor Natural Killer Cell"
+    },
+    {
+      "type": "Disease_Excludes_Normal_Cell_Origin",
+      "relatedCode": "C33930",
+      "relatedName": "Precursor T-Lymphoblast"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C12660",
+      "relatedName": "Reed-Sternberg Cell"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C39567",
+      "relatedName": "T-Lymphocyte and Natural Killer Cell"
+    },
+    {
+      "type": "Disease_Has_Associated_Disease",
+      "relatedCode": "C3439",
+      "relatedName": "Viral Infection"
+    }
+  ],
+  "inverseRoles": [
+    {
+      "type": "EO_Disease_Maps_To_Human_Disease",
+      "relatedCode": "C21927",
+      "relatedName": "Mature T Cell Lineage Lymphoma of the Mouse Hematologic System"
+    },
+    {
+      "type": "Gene_Associated_With_Disease",
+      "relatedCode": "C80738",
+      "relatedName": "MIR19B2 Gene"
+    },
+    {
+      "type": "Gene_Associated_With_Disease",
+      "relatedCode": "C81894",
+      "relatedName": "MIR19B2 wt Allele"
+    },
+    {
+      "type": "Gene_Associated_With_Disease",
+      "relatedCode": "C92467",
+      "relatedName": "MIR93 Gene"
+    },
+    {
+      "type": "Gene_Associated_With_Disease",
+      "relatedCode": "C92468",
+      "relatedName": "MIR93 wt Allele"
+    },
+    {
+      "type": "EO_Disease_Maps_To_Human_Disease",
+      "relatedCode": "C21929",
+      "relatedName": "Mouse T-NK Cell Lymphoma"
+    },
+    {
+      "type": "EO_Disease_Maps_To_Human_Disease",
+      "relatedCode": "C21928",
+      "relatedName": "Small T Cell Lymphoma of the Mouse Hematologic System"
+    },
+    {
+      "type": "Gene_Product_Malfunction_Associated_With_Disease",
+      "relatedCode": "C20465",
+      "relatedName": "Thioredoxin"
+    }
+  ],
+  "history": [
+    {
+      "code": "C3184",
+      "action": "create",
+      "date": "2003-08-12"
+    },
+    {
+      "code": "C3184",
+      "action": "modify",
+      "date": "2003-10-31"
+    },
+    {
+      "code": "C3184",
+      "action": "modify",
+      "date": "2003-12-30"
+    },
+    {
+      "code": "C3184",
+      "action": "modify",
+      "date": "2004-03-30"
+    },
+    {
+      "code": "C3184",
+      "action": "modify",
+      "date": "2004-04-30"
+    },
+    {
+      "code": "C3184",
+      "action": "modify",
+      "date": "2004-06-25"
+    },
+    {
+      "code": "C3184",
+      "action": "modify",
+      "date": "2007-03-30"
+    },
+    {
+      "code": "C3184",
+      "action": "modify",
+      "date": "2007-05-25"
+    },
+    {
+      "code": "C3184",
+      "action": "modify",
+      "date": "2007-08-31"
+    },
+    {
+      "code": "C3184",
+      "action": "modify",
+      "date": "2009-10-27"
+    },
+    {
+      "code": "C3184",
+      "action": "modify",
+      "date": "2009-11-23"
+    },
+    {
+      "code": "C3184",
+      "action": "modify",
+      "date": "2011-01-17"
+    },
+    {
+      "code": "C3184",
+      "action": "modify",
+      "date": "2012-09-24"
+    },
+    {
+      "code": "C3184",
+      "action": "modify",
+      "date": "2012-10-01"
+    },
+    {
+      "code": "C3184",
+      "action": "modify",
+      "date": "2012-10-09"
+    },
+    {
+      "code": "C3184",
+      "action": "modify",
+      "date": "2012-10-15"
+    },
+    {
+      "code": "C3184",
+      "action": "modify",
+      "date": "2012-10-22"
+    },
+    {
+      "code": "C3184",
+      "action": "modify",
+      "date": "2012-10-31"
+    },
+    {
+      "code": "C3184",
+      "action": "modify",
+      "date": "2012-11-05"
+    },
+    {
+      "code": "C3184",
+      "action": "modify",
+      "date": "2012-11-13"
+    },
+    {
+      "code": "C3184",
+      "action": "modify",
+      "date": "2012-11-19"
+    },
+    {
+      "code": "C3184",
+      "action": "modify",
+      "date": "2012-11-26"
+    },
+    {
+      "code": "C3184",
+      "action": "modify",
+      "date": "2012-12-03"
+    },
+    {
+      "code": "C3184",
+      "action": "modify",
+      "date": "2012-12-10"
+    },
+    {
+      "code": "C3184",
+      "action": "modify",
+      "date": "2012-12-17"
+    },
+    {
+      "code": "C3184",
+      "action": "modify",
+      "date": "2012-12-28"
+    },
+    {
+      "code": "C3184",
+      "action": "modify",
+      "date": "2013-01-07"
+    },
+    {
+      "code": "C3184",
+      "action": "modify",
+      "date": "2013-01-14"
+    },
+    {
+      "code": "C3184",
+      "action": "modify",
+      "date": "2013-01-23"
+    },
+    {
+      "code": "C3184",
+      "action": "modify",
+      "date": "2013-02-04"
+    },
+    {
+      "code": "C3184",
+      "action": "modify",
+      "date": "2013-02-11"
+    },
+    {
+      "code": "C3184",
+      "action": "modify",
+      "date": "2013-02-19"
+    },
+    {
+      "code": "C3184",
+      "action": "modify",
+      "date": "2013-02-25"
+    },
+    {
+      "code": "C3184",
+      "action": "modify",
+      "date": "2013-03-04"
+    },
+    {
+      "code": "C3184",
+      "action": "modify",
+      "date": "2013-03-11"
+    },
+    {
+      "code": "C3184",
+      "action": "modify",
+      "date": "2013-03-18"
+    },
+    {
+      "code": "C3184",
+      "action": "modify",
+      "date": "2013-03-25"
+    },
+    {
+      "code": "C3184",
+      "action": "modify",
+      "date": "2013-04-01"
+    },
+    {
+      "code": "C3184",
+      "action": "modify",
+      "date": "2013-04-08"
+    },
+    {
+      "code": "C3184",
+      "action": "modify",
+      "date": "2013-04-15"
+    },
+    {
+      "code": "C3184",
+      "action": "modify",
+      "date": "2013-04-22"
+    },
+    {
+      "code": "C3184",
+      "action": "modify",
+      "date": "2013-04-29"
+    },
+    {
+      "code": "C3184",
+      "action": "modify",
+      "date": "2013-05-06"
+    },
+    {
+      "code": "C3184",
+      "action": "modify",
+      "date": "2013-05-13"
+    },
+    {
+      "code": "C3184",
+      "action": "modify",
+      "date": "2013-05-20"
+    },
+    {
+      "code": "C3184",
+      "action": "modify",
+      "date": "2013-05-28"
+    },
+    {
+      "code": "C3184",
+      "action": "modify",
+      "date": "2013-06-03"
+    },
+    {
+      "code": "C3184",
+      "action": "modify",
+      "date": "2013-06-10"
+    },
+    {
+      "code": "C3184",
+      "action": "modify",
+      "date": "2013-06-17"
+    },
+    {
+      "code": "C3184",
+      "action": "modify",
+      "date": "2013-06-24"
+    },
+    {
+      "code": "C3184",
+      "action": "modify",
+      "date": "2013-07-01"
+    },
+    {
+      "code": "C3184",
+      "action": "modify",
+      "date": "2013-07-08"
+    },
+    {
+      "code": "C3184",
+      "action": "modify",
+      "date": "2014-08-04"
+    },
+    {
+      "code": "C3184",
+      "action": "modify",
+      "date": "2014-08-18"
+    },
+    {
+      "code": "C3184",
+      "action": "modify",
+      "date": "2014-09-22"
+    },
+    {
+      "code": "C3184",
+      "action": "modify",
+      "date": "2015-02-09"
+    },
+    {
+      "code": "C3184",
+      "action": "modify",
+      "date": "2017-07-31"
+    },
+    {
+      "code": "C3184",
+      "action": "modify",
+      "date": "2018-07-30"
+    },
+    {
+      "code": "C3184",
+      "action": "modify",
+      "date": "2018-08-27"
+    },
+    {
+      "code": "C3184",
+      "action": "modify",
+      "date": "2018-08-27"
+    },
+    {
+      "code": "C3184",
+      "action": "modify",
+      "date": "2018-09-24"
+    },
+    {
+      "code": "C3184",
+      "action": "modify",
+      "date": "2018-10-29"
+    },
+    {
+      "code": "C3184",
+      "action": "modify",
+      "date": "2018-10-29"
+    },
+    {
+      "code": "C3184",
+      "action": "modify",
+      "date": "2019-05-28"
+    },
+    {
+      "code": "C3184",
+      "action": "modify",
+      "date": "2019-09-30"
+    },
+    {
+      "code": "C3184",
+      "action": "modify",
+      "date": "2019-11-25"
+    },
+    {
+      "code": "C3184",
+      "action": "modify",
+      "date": "2020-02-24"
+    },
+    {
+      "code": "C3184",
+      "action": "modify",
+      "date": "2020-04-27"
+    },
+    {
+      "code": "C3184",
+      "action": "modify",
+      "date": "2020-09-29"
+    },
+    {
+      "code": "C3184",
+      "action": "modify",
+      "date": "2021-02-22"
+    },
+    {
+      "code": "C3184",
+      "action": "modify",
+      "date": "2021-03-29"
+    },
+    {
+      "code": "C3184",
+      "action": "modify",
+      "date": "2021-04-26"
+    },
+    {
+      "code": "C3184",
+      "action": "modify",
+      "date": "2022-05-31"
+    },
+    {
+      "code": "C3184",
+      "action": "modify",
+      "date": "2023-02-27"
+    },
+    {
+      "code": "C3184",
+      "action": "modify",
+      "date": "2023-12-26"
+    },
+    {
+      "code": "C3184",
+      "action": "modify",
+      "date": "2025-03-31"
+    }
+  ],
+  "maps": [
+    {
+      "type": "Related To",
+      "targetName": "9827/3",
+      "targetTermType": "PT",
+      "targetCode": "morphology",
+      "targetTerminology": "GDC"
+    },
+    {
+      "type": "Related To",
+      "targetName": "Adult T-cell leukemia/lymphoma (HTLV-1 positive) (includes all variants)",
+      "targetTermType": "PT",
+      "targetCode": "primary_diagnosis",
+      "targetTerminology": "GDC"
+    },
+    {
+      "type": "Related To",
+      "targetName": "Adult T-cell leukemia/lymphoma (HTLV-1 positive)",
+      "targetTermType": "PT",
+      "targetCode": "9827/3",
+      "targetTerminology": "ICDO3",
+      "targetTerminologyVersion": "3.1"
+    },
+    {
+      "type": "Related To",
+      "targetName": "Adult T-cell leukemia/lymphoma (HTLV-1 positive)",
+      "targetTermType": "PT",
+      "targetCode": "9827/3",
+      "targetTerminology": "ICDO3",
+      "targetTerminologyVersion": "3.2"
+    },
+    {
+      "type": "Related To",
+      "targetName": "Adult T-cell leukemia",
+      "targetTermType": "PT",
+      "targetCode": "primary_diagnosis",
+      "targetTerminology": "GDC"
+    },
+    {
+      "type": "Has Synonym",
+      "targetName": "Adult T-cell lymphoma/leukemia",
+      "targetTermType": "PT",
+      "targetCode": "primary_diagnosis",
+      "targetTerminology": "GDC"
+    },
+    {
+      "type": "Related To",
+      "targetName": "Adult T-cell lymphoma",
+      "targetTermType": "PT",
+      "targetCode": "primary_diagnosis",
+      "targetTerminology": "GDC"
+    }
+  ]
+}

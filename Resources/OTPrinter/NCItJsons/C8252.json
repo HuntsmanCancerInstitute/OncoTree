@@ -1,0 +1,730 @@
+{
+  "code": "C8252",
+  "name": "Acute Myeloid Leukemia Post Cytotoxic Therapy",
+  "terminology": "ncit",
+  "version": "25.11d",
+  "conceptStatus": "DEFAULT",
+  "leaf": false,
+  "active": true,
+  "synonyms": [
+    {
+      "name": "Therapy-Related Acute Myeloid Leukemia",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "Cellosaurus"
+    },
+    {
+      "name": "Treatment related acute myeloid leukemia",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "CTEP",
+      "code": "10066353",
+      "subSource": "SDC"
+    },
+    {
+      "name": "Treatment related AML",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "CTEP",
+      "code": "10066353",
+      "subSource": "SDC"
+    },
+    {
+      "name": "High-Grade Treatment-Related Myeloid Neoplasm",
+      "termType": "DN",
+      "type": "FULL_SYN",
+      "source": "CTRP"
+    },
+    {
+      "name": "Acute Myeloid Leukemia Post Cytotoxic Therapy",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "t-AML",
+      "termType": "AB",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Therapy-Related Acute Myeloid Leukemia",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Treatment Related Acute Myelogenous Leukemia",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Treatment Related Acute Myeloid Leukemia",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Treatment Related AML",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Treatment-Related Acute Myelogenous Leukemia",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Treatment-related Acute Myeloid Leukemia",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Treatment-Related AML",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Therapy-Related Acute Myeloid Leukemia",
+      "type": "Display_Name"
+    },
+    {
+      "name": "Acute Myeloid Leukemia Post Cytotoxic Therapy",
+      "type": "Preferred_Name"
+    }
+  ],
+  "definitions": [
+    {
+      "definition": "An acute myeloid leukemia arising as a result of the mutagenic effect of chemotherapy agents and/or ionizing radiation.  (WHO, 2001)",
+      "type": "DEFINITION",
+      "source": "NCI"
+    }
+  ],
+  "properties": [
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "Cellosaurus"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "CTEP"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "CTRP"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "GDC"
+    },
+    {
+      "code": "P334",
+      "type": "ICD-O-3_Code",
+      "value": "9920/3"
+    },
+    {
+      "code": "P366",
+      "type": "Legacy Concept Name",
+      "value": "Therapy-Related_Acute_Myeloid_Leukemia"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "9920/3"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "Therapy-related acute myeloid leukemia, NOS"
+    },
+    {
+      "code": "P363",
+      "type": "Neoplastic_Status",
+      "value": "Malignant"
+    },
+    {
+      "code": "P106",
+      "type": "Semantic_Type",
+      "value": "Neoplastic Process"
+    },
+    {
+      "code": "P207",
+      "type": "UMLS_CUI",
+      "value": "C1336735"
+    }
+  ],
+  "children": [
+    {
+      "code": "C27754",
+      "name": "Alkylating Agent-Related Acute Myeloid Leukemia",
+      "leaf": true
+    },
+    {
+      "code": "C186730",
+      "name": "Cytogenetically Normal Acute Myeloid Leukemia Post Cytotoxic Therapy",
+      "leaf": true
+    },
+    {
+      "code": "C213425",
+      "name": "Recurrent Acute Myeloid Leukemia Post Cytotoxic Therapy",
+      "leaf": true
+    },
+    {
+      "code": "C213426",
+      "name": "Refractory Acute Myeloid Leukemia Post Cytotoxic Therapy",
+      "leaf": true
+    },
+    {
+      "code": "C27755",
+      "name": "Topoisomerase II Inhibitor-Related Acute Myeloid Leukemia",
+      "leaf": true
+    }
+  ],
+  "parents": [
+    {
+      "code": "C27912",
+      "name": "Myeloid Neoplasm Post Cytotoxic Therapy"
+    },
+    {
+      "code": "C25765",
+      "name": "Secondary Acute Myeloid Leukemia"
+    },
+    {
+      "code": "C80683",
+      "name": "Therapy-Related Leukemia"
+    }
+  ],
+  "associations": [
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C165258",
+      "relatedName": "Cellosaurus Disease Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C118168",
+      "relatedName": "CTRP Disease Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C116977",
+      "relatedName": "CTRP Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C157711",
+      "relatedName": "GDC Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C177537",
+      "relatedName": "GDC Value Terminology"
+    },
+    {
+      "type": "Is_Value_For_GDC_Property",
+      "relatedCode": "C176985",
+      "relatedName": "Histology ICD-O Morphology Code"
+    },
+    {
+      "type": "Is_Value_For_GDC_Property",
+      "relatedCode": "C177621",
+      "relatedName": "ICD-O-3 Morphology Term Diagnosis Question"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C103124",
+      "relatedName": "NCI CTEP SDC Acute Myeloid Leukemia Sub-Category Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C102905",
+      "relatedName": "NCI CTEP Simplified Disease Classification Terminology"
+    }
+  ],
+  "inverseAssociations": [
+    {
+      "type": "Has_GDC_Value",
+      "relatedCode": "C176985",
+      "relatedName": "Histology ICD-O Morphology Code"
+    },
+    {
+      "type": "Has_GDC_Value",
+      "relatedCode": "C177621",
+      "relatedName": "ICD-O-3 Morphology Term Diagnosis Question"
+    }
+  ],
+  "roles": [
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C36122",
+      "relatedName": "Benign Cellular Infiltrate"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C13456",
+      "relatedName": "Bone Marrow Stem Cell"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12431",
+      "relatedName": "Bone Marrow"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12431",
+      "relatedName": "Bone Marrow"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C36158",
+      "relatedName": "Chronic Clinical Course"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C41165",
+      "relatedName": "Hematopoietic and Lymphatic System"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C41165",
+      "relatedName": "Hematopoietic and Lymphatic System"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C32725",
+      "relatedName": "Hematopoietic and Lymphoid Cell"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C41168",
+      "relatedName": "Hematopoietic and Lymphoid Tissue"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C13051",
+      "relatedName": "Hematopoietic Tissue"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C35788",
+      "relatedName": "Hypercellular Bone Marrow"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C42776",
+      "relatedName": "Immature Myeloid Cells Increased in Bone Marrow"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C36252",
+      "relatedName": "Ineffective Hematopoiesis"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C25553",
+      "relatedName": "Leukemic Cell"
+    },
+    {
+      "type": "Disease_Excludes_Normal_Cell_Origin",
+      "relatedCode": "C12535",
+      "relatedName": "Lymphocyte"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12917",
+      "relatedName": "Malignant Cell"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C36115",
+      "relatedName": "Malignant Cellular Infiltrate"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12922",
+      "relatedName": "Neoplastic Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C37060",
+      "relatedName": "Neoplastic Hematopoietic and Lymphoid Cell"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C12914",
+      "relatedName": "Neoplastic Lymphoblast"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C37065",
+      "relatedName": "Neoplastic Myeloblast"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C37067",
+      "relatedName": "Neoplastic Myeloid Blast"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C41063",
+      "relatedName": "Neoplastic Myeloid Cell"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C41444",
+      "relatedName": "Secondary Lesion"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C36182",
+      "relatedName": "Solid Growth Pattern"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C42607",
+      "relatedName": "Therapy-Related Toxicity"
+    }
+  ],
+  "history": [
+    {
+      "code": "C8252",
+      "action": "create",
+      "date": "2003-08-12"
+    },
+    {
+      "code": "C8252",
+      "action": "modify",
+      "date": "2003-10-31"
+    },
+    {
+      "code": "C8252",
+      "action": "modify",
+      "date": "2003-12-30"
+    },
+    {
+      "code": "C8252",
+      "action": "modify",
+      "date": "2004-03-30"
+    },
+    {
+      "code": "C8252",
+      "action": "modify",
+      "date": "2004-12-30"
+    },
+    {
+      "code": "C8252",
+      "action": "modify",
+      "date": "2007-03-30"
+    },
+    {
+      "code": "C8252",
+      "action": "modify",
+      "date": "2007-05-25"
+    },
+    {
+      "code": "C8252",
+      "action": "modify",
+      "date": "2009-04-06"
+    },
+    {
+      "code": "C8252",
+      "action": "modify",
+      "date": "2009-07-13"
+    },
+    {
+      "code": "C8252",
+      "action": "modify",
+      "date": "2009-11-23"
+    },
+    {
+      "code": "C8252",
+      "action": "modify",
+      "date": "2012-09-24"
+    },
+    {
+      "code": "C8252",
+      "action": "modify",
+      "date": "2012-10-01"
+    },
+    {
+      "code": "C8252",
+      "action": "modify",
+      "date": "2012-10-09"
+    },
+    {
+      "code": "C8252",
+      "action": "modify",
+      "date": "2012-10-15"
+    },
+    {
+      "code": "C8252",
+      "action": "modify",
+      "date": "2012-10-22"
+    },
+    {
+      "code": "C8252",
+      "action": "modify",
+      "date": "2012-10-31"
+    },
+    {
+      "code": "C8252",
+      "action": "modify",
+      "date": "2012-11-05"
+    },
+    {
+      "code": "C8252",
+      "action": "modify",
+      "date": "2012-11-13"
+    },
+    {
+      "code": "C8252",
+      "action": "modify",
+      "date": "2012-11-19"
+    },
+    {
+      "code": "C8252",
+      "action": "modify",
+      "date": "2012-11-26"
+    },
+    {
+      "code": "C8252",
+      "action": "modify",
+      "date": "2012-12-03"
+    },
+    {
+      "code": "C8252",
+      "action": "modify",
+      "date": "2012-12-10"
+    },
+    {
+      "code": "C8252",
+      "action": "modify",
+      "date": "2012-12-17"
+    },
+    {
+      "code": "C8252",
+      "action": "modify",
+      "date": "2012-12-28"
+    },
+    {
+      "code": "C8252",
+      "action": "modify",
+      "date": "2013-01-07"
+    },
+    {
+      "code": "C8252",
+      "action": "modify",
+      "date": "2013-01-14"
+    },
+    {
+      "code": "C8252",
+      "action": "modify",
+      "date": "2013-01-23"
+    },
+    {
+      "code": "C8252",
+      "action": "modify",
+      "date": "2013-02-04"
+    },
+    {
+      "code": "C8252",
+      "action": "modify",
+      "date": "2013-02-11"
+    },
+    {
+      "code": "C8252",
+      "action": "modify",
+      "date": "2013-02-19"
+    },
+    {
+      "code": "C8252",
+      "action": "modify",
+      "date": "2013-02-25"
+    },
+    {
+      "code": "C8252",
+      "action": "modify",
+      "date": "2013-03-04"
+    },
+    {
+      "code": "C8252",
+      "action": "modify",
+      "date": "2013-03-11"
+    },
+    {
+      "code": "C8252",
+      "action": "modify",
+      "date": "2013-03-18"
+    },
+    {
+      "code": "C8252",
+      "action": "modify",
+      "date": "2013-03-25"
+    },
+    {
+      "code": "C8252",
+      "action": "modify",
+      "date": "2013-04-01"
+    },
+    {
+      "code": "C8252",
+      "action": "modify",
+      "date": "2013-04-08"
+    },
+    {
+      "code": "C8252",
+      "action": "modify",
+      "date": "2013-04-15"
+    },
+    {
+      "code": "C8252",
+      "action": "modify",
+      "date": "2013-04-22"
+    },
+    {
+      "code": "C8252",
+      "action": "modify",
+      "date": "2013-04-29"
+    },
+    {
+      "code": "C8252",
+      "action": "modify",
+      "date": "2013-05-06"
+    },
+    {
+      "code": "C8252",
+      "action": "modify",
+      "date": "2013-05-13"
+    },
+    {
+      "code": "C8252",
+      "action": "modify",
+      "date": "2013-05-20"
+    },
+    {
+      "code": "C8252",
+      "action": "modify",
+      "date": "2013-05-28"
+    },
+    {
+      "code": "C8252",
+      "action": "modify",
+      "date": "2013-06-03"
+    },
+    {
+      "code": "C8252",
+      "action": "modify",
+      "date": "2013-06-10"
+    },
+    {
+      "code": "C8252",
+      "action": "modify",
+      "date": "2013-06-17"
+    },
+    {
+      "code": "C8252",
+      "action": "modify",
+      "date": "2013-06-24"
+    },
+    {
+      "code": "C8252",
+      "action": "modify",
+      "date": "2013-07-01"
+    },
+    {
+      "code": "C8252",
+      "action": "modify",
+      "date": "2013-07-08"
+    },
+    {
+      "code": "C8252",
+      "action": "modify",
+      "date": "2014-02-03"
+    },
+    {
+      "code": "C8252",
+      "action": "modify",
+      "date": "2018-09-24"
+    },
+    {
+      "code": "C8252",
+      "action": "modify",
+      "date": "2019-03-25"
+    },
+    {
+      "code": "C8252",
+      "action": "modify",
+      "date": "2019-04-29"
+    },
+    {
+      "code": "C8252",
+      "action": "modify",
+      "date": "2019-05-28"
+    },
+    {
+      "code": "C8252",
+      "action": "modify",
+      "date": "2019-09-30"
+    },
+    {
+      "code": "C8252",
+      "action": "modify",
+      "date": "2019-10-28"
+    },
+    {
+      "code": "C8252",
+      "action": "modify",
+      "date": "2020-03-30"
+    },
+    {
+      "code": "C8252",
+      "action": "modify",
+      "date": "2021-02-22"
+    },
+    {
+      "code": "C8252",
+      "action": "modify",
+      "date": "2021-03-29"
+    },
+    {
+      "code": "C8252",
+      "action": "modify",
+      "date": "2023-02-27"
+    },
+    {
+      "code": "C8252",
+      "action": "modify",
+      "date": "2023-07-31"
+    },
+    {
+      "code": "C8252",
+      "action": "modify",
+      "date": "2025-03-31"
+    }
+  ],
+  "maps": [
+    {
+      "type": "Related To",
+      "targetName": "9920/3",
+      "targetTermType": "PT",
+      "targetCode": "morphology",
+      "targetTerminology": "GDC"
+    },
+    {
+      "type": "Related To",
+      "targetName": "Therapy-related acute myeloid leukemia, NOS",
+      "targetTermType": "PT",
+      "targetCode": "primary_diagnosis",
+      "targetTerminology": "GDC"
+    }
+  ]
+}

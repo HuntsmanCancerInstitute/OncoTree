@@ -1,0 +1,334 @@
+{
+  "code": "C39954",
+  "name": "Brenner Tumor",
+  "terminology": "ncit",
+  "version": "25.11d",
+  "conceptStatus": "DEFAULT",
+  "leaf": false,
+  "active": true,
+  "synonyms": [
+    {
+      "name": "Brenner tumor, NOS",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "GDC"
+    },
+    {
+      "name": "Brenner Tumor",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Brenner Tumor",
+      "type": "Preferred_Name"
+    }
+  ],
+  "definitions": [
+    {
+      "definition": "A tumor composed of solid and cystic nests of neoplastic urothelial-type cells in an abundant stromal component that is dense and fibroblastic in nature. It arises from the ovary and very rarely the paratesticular structures. It includes benign Brenner tumor, borderline Brenner tumor, and malignant Brenner tumor.",
+      "type": "DEFINITION",
+      "source": "NCI"
+    }
+  ],
+  "properties": [
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "GDC"
+    },
+    {
+      "code": "P334",
+      "type": "ICD-O-3_Code",
+      "value": "9000/0"
+    },
+    {
+      "code": "P366",
+      "type": "Legacy Concept Name",
+      "value": "Brenner_Tumor"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "9000/0"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "Brenner tumor, NOS"
+    },
+    {
+      "code": "P208",
+      "type": "NCI_META_CUI",
+      "value": "CL323981"
+    },
+    {
+      "code": "P363",
+      "type": "Neoplastic_Status",
+      "value": "Undetermined"
+    },
+    {
+      "code": "P106",
+      "type": "Semantic_Type",
+      "value": "Neoplastic Process"
+    }
+  ],
+  "children": [
+    {
+      "code": "C3872",
+      "name": "Ovarian Brenner Tumor",
+      "leaf": false
+    },
+    {
+      "code": "C39953",
+      "name": "Paratesticular Brenner Tumor",
+      "leaf": true
+    }
+  ],
+  "parents": [
+    {
+      "code": "C6783",
+      "name": "Transitional Cell Neoplasm"
+    }
+  ],
+  "associations": [
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C157711",
+      "relatedName": "GDC Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C177537",
+      "relatedName": "GDC Value Terminology"
+    },
+    {
+      "type": "Is_Value_For_GDC_Property",
+      "relatedCode": "C176985",
+      "relatedName": "Histology ICD-O Morphology Code"
+    },
+    {
+      "type": "Is_Value_For_GDC_Property",
+      "relatedCode": "C177621",
+      "relatedName": "ICD-O-3 Morphology Term Diagnosis Question"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168658",
+      "relatedName": "Mapped ICDO3.1 Morphology PT Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168657",
+      "relatedName": "Mapped ICDO3.1 Morphology Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168655",
+      "relatedName": "Mapped ICDO3.1 Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168662",
+      "relatedName": "Mapped ICDO3.2 Morphology PT Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168661",
+      "relatedName": "Mapped ICDO3.2 Morphology Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168656",
+      "relatedName": "Mapped ICDO3.2 Terminology"
+    }
+  ],
+  "inverseAssociations": [
+    {
+      "type": "Has_GDC_Value",
+      "relatedCode": "C176985",
+      "relatedName": "Histology ICD-O Morphology Code"
+    },
+    {
+      "type": "Has_GDC_Value",
+      "relatedCode": "C177621",
+      "relatedName": "ICD-O-3 Morphology Term Diagnosis Question"
+    }
+  ],
+  "roles": [
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C41454",
+      "relatedName": "Cystic Change"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C12578",
+      "relatedName": "Epithelial Cell"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C53596",
+      "relatedName": "Epithelial Component Present"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C45714",
+      "relatedName": "Epithelial Tissue"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C36178",
+      "relatedName": "Fibrotic Stroma Formation"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12725",
+      "relatedName": "Gonad"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12922",
+      "relatedName": "Neoplastic Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36753",
+      "relatedName": "Neoplastic Epithelial Cell"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C36937",
+      "relatedName": "Neoplastic Smooth Muscle Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36768",
+      "relatedName": "Neoplastic Transitional Cell"
+    }
+  ],
+  "history": [
+    {
+      "code": "C39954",
+      "action": "create",
+      "date": "2004-08-02"
+    },
+    {
+      "code": "C39954",
+      "action": "modify",
+      "date": "2006-06-30"
+    },
+    {
+      "code": "C39954",
+      "action": "modify",
+      "date": "2006-07-28"
+    },
+    {
+      "code": "C39954",
+      "action": "modify",
+      "date": "2007-03-30"
+    },
+    {
+      "code": "C39954",
+      "action": "modify",
+      "date": "2007-06-28"
+    },
+    {
+      "code": "C39954",
+      "action": "modify",
+      "date": "2009-04-06"
+    },
+    {
+      "code": "C39954",
+      "action": "modify",
+      "date": "2009-10-27"
+    },
+    {
+      "code": "C39954",
+      "action": "modify",
+      "date": "2009-11-23"
+    },
+    {
+      "code": "C39954",
+      "action": "modify",
+      "date": "2014-02-03"
+    },
+    {
+      "code": "C39954",
+      "action": "modify",
+      "date": "2018-09-24"
+    },
+    {
+      "code": "C39954",
+      "action": "modify",
+      "date": "2019-05-28"
+    },
+    {
+      "code": "C39954",
+      "action": "modify",
+      "date": "2019-09-30"
+    },
+    {
+      "code": "C39954",
+      "action": "modify",
+      "date": "2019-11-25"
+    },
+    {
+      "code": "C39954",
+      "action": "modify",
+      "date": "2020-02-24"
+    },
+    {
+      "code": "C39954",
+      "action": "modify",
+      "date": "2020-04-27"
+    },
+    {
+      "code": "C39954",
+      "action": "modify",
+      "date": "2021-02-22"
+    },
+    {
+      "code": "C39954",
+      "action": "modify",
+      "date": "2021-03-29"
+    },
+    {
+      "code": "C39954",
+      "action": "modify",
+      "date": "2023-01-31"
+    }
+  ],
+  "maps": [
+    {
+      "type": "Related To",
+      "targetName": "9000/0",
+      "targetTermType": "PT",
+      "targetCode": "morphology",
+      "targetTerminology": "GDC"
+    },
+    {
+      "type": "Related To",
+      "targetName": "Brenner tumor, NOS",
+      "targetTermType": "PT",
+      "targetCode": "9000/0",
+      "targetTerminology": "ICDO3",
+      "targetTerminologyVersion": "3.1"
+    },
+    {
+      "type": "Related To",
+      "targetName": "Brenner tumor, NOS",
+      "targetTermType": "PT",
+      "targetCode": "9000/0",
+      "targetTerminology": "ICDO3",
+      "targetTerminologyVersion": "3.2"
+    },
+    {
+      "type": "Has Synonym",
+      "targetName": "Brenner tumor, NOS",
+      "targetTermType": "PT",
+      "targetCode": "primary_diagnosis",
+      "targetTerminology": "GDC"
+    }
+  ]
+}

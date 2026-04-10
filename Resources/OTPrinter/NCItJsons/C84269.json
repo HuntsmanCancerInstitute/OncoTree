@@ -1,0 +1,235 @@
+{
+  "code": "C84269",
+  "name": "Mastocytosis",
+  "terminology": "ncit",
+  "version": "25.11d",
+  "conceptStatus": "DEFAULT",
+  "leaf": false,
+  "active": true,
+  "synonyms": [
+    {
+      "name": "Mastocytosis",
+      "termType": "DN",
+      "type": "FULL_SYN",
+      "source": "CTRP"
+    },
+    {
+      "name": "Mast Cell Disease",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Mastocytosis",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Mastocytosis",
+      "type": "Display_Name"
+    },
+    {
+      "name": "Mastocytosis",
+      "type": "Preferred_Name"
+    }
+  ],
+  "definitions": [
+    {
+      "definition": "A clonal myeloproliferative neoplasm characterized by the proliferation and accumulation of neoplastic mast cells in one or multiple organs or organ systems. It is a heterogeneous group of neoplasms, ranging from cutaneous proliferations which may regress spontaneously, to aggressive neoplasms associated with organ failure and short survival.",
+      "type": "DEFINITION",
+      "source": "NCI"
+    }
+  ],
+  "properties": [
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "CTRP"
+    },
+    {
+      "code": "P363",
+      "type": "Neoplastic_Status",
+      "value": "Undetermined"
+    },
+    {
+      "code": "P106",
+      "type": "Semantic_Type",
+      "value": "Neoplastic Process"
+    },
+    {
+      "code": "P207",
+      "type": "UMLS_CUI",
+      "value": "C0024899"
+    }
+  ],
+  "children": [
+    {
+      "code": "C7137",
+      "name": "Cutaneous Mastocytosis",
+      "leaf": false
+    },
+    {
+      "code": "C9235",
+      "name": "Systemic Mastocytosis",
+      "leaf": false
+    }
+  ],
+  "parents": [
+    {
+      "code": "C9295",
+      "name": "Mast Cell Neoplasm"
+    }
+  ],
+  "associations": [
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C118168",
+      "relatedName": "CTRP Disease Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C116977",
+      "relatedName": "CTRP Terminology"
+    }
+  ],
+  "roles": [
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C13456",
+      "relatedName": "Bone Marrow Stem Cell"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C41165",
+      "relatedName": "Hematopoietic and Lymphatic System"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C41165",
+      "relatedName": "Hematopoietic and Lymphatic System"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C32725",
+      "relatedName": "Hematopoietic and Lymphoid Cell"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C41168",
+      "relatedName": "Hematopoietic and Lymphoid Tissue"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C13051",
+      "relatedName": "Hematopoietic Tissue"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C12747",
+      "relatedName": "Mast Cell"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C41179",
+      "relatedName": "Monoclonal Cellular Population Present"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12922",
+      "relatedName": "Neoplastic Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C37060",
+      "relatedName": "Neoplastic Hematopoietic and Lymphoid Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C37062",
+      "relatedName": "Neoplastic Mast Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C41063",
+      "relatedName": "Neoplastic Myeloid Cell"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C42094",
+      "relatedName": "Rare Lesion"
+    }
+  ],
+  "history": [
+    {
+      "code": "C84269",
+      "action": "create",
+      "date": "2009-10-19"
+    },
+    {
+      "code": "C84269",
+      "action": "modify",
+      "date": "2010-01-11"
+    },
+    {
+      "code": "C84269",
+      "action": "modify",
+      "date": "2010-03-08"
+    },
+    {
+      "code": "C84269",
+      "action": "modify",
+      "date": "2012-01-09"
+    },
+    {
+      "code": "C84269",
+      "action": "modify",
+      "date": "2014-08-04"
+    },
+    {
+      "code": "C84269",
+      "action": "modify",
+      "date": "2014-08-18"
+    },
+    {
+      "code": "C84269",
+      "action": "modify",
+      "date": "2014-09-22"
+    },
+    {
+      "code": "C84269",
+      "action": "modify",
+      "date": "2016-11-14"
+    },
+    {
+      "code": "C84269",
+      "action": "modify",
+      "date": "2018-07-30"
+    },
+    {
+      "code": "C84269",
+      "action": "modify",
+      "date": "2018-08-27"
+    },
+    {
+      "code": "C84269",
+      "action": "modify",
+      "date": "2018-08-27"
+    },
+    {
+      "code": "C84269",
+      "action": "modify",
+      "date": "2019-10-28"
+    },
+    {
+      "code": "C84269",
+      "action": "modify",
+      "date": "2020-03-30"
+    },
+    {
+      "code": "C84269",
+      "action": "modify",
+      "date": "2023-03-27"
+    }
+  ]
+}

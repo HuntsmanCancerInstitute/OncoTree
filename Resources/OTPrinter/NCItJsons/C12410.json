@@ -1,0 +1,3710 @@
+{
+  "code": "C12410",
+  "name": "Prostate Gland",
+  "terminology": "ncit",
+  "version": "25.11d",
+  "conceptStatus": "DEFAULT",
+  "leaf": true,
+  "active": true,
+  "synonyms": [
+    {
+      "name": "Prostate Gland",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "caDSR"
+    },
+    {
+      "name": "GLAND, PROSTATE",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "CDISC",
+      "code": "SEND-SPEC"
+    },
+    {
+      "name": "PROSTATE GLAND",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "CDISC",
+      "code": "SDTM-LOC"
+    },
+    {
+      "name": "Prostate",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "CPTAC"
+    },
+    {
+      "name": "Prostate",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "GDC"
+    },
+    {
+      "name": "Prostate gland",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "GDC"
+    },
+    {
+      "name": "Prostatic structure (body structure)",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "mCode",
+      "code": "41216001",
+      "subSource": "SNOMED CT"
+    },
+    {
+      "name": "prostate",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NCI-GLOSS",
+      "code": "CDR0000046539"
+    },
+    {
+      "name": "Genital System, Male, Prostate",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Prostate",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Prostate Gland",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Prostatic Gland",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Prostate",
+      "type": "Display_Name"
+    },
+    {
+      "name": "Prostate Gland",
+      "type": "Preferred_Name"
+    },
+    {
+      "name": "Prostate",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "PCDC",
+      "subSource": "OS"
+    },
+    {
+      "name": "male prostate",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "UBERON"
+    },
+    {
+      "name": "prostate",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "UBERON"
+    },
+    {
+      "name": "prostate gland",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "UBERON"
+    }
+  ],
+  "definitions": [
+    {
+      "definition": "A gland in the male reproductive system. The prostate surrounds the part of the urethra (the tube that empties the bladder) just below the bladder, and produces a fluid that forms part of the semen.",
+      "type": "ALT_DEFINITION",
+      "source": "NCI-GLOSS"
+    },
+    {
+      "definition": "The male reproductive accessory gland that produces prostatic fluid and is located adjacent to or around the urethra distal to the urinary bladder in mammals.",
+      "type": "ALT_DEFINITION",
+      "source": "CDISC"
+    },
+    {
+      "definition": "The prostate gland is a partly muscular, partly glandular body that is situated near the base of the mammalian male urethra and secretes an alkaline viscid fluid which is a major constituent of the ejaculatory fluid.",
+      "type": "ALT_DEFINITION",
+      "source": "UBERON"
+    },
+    {
+      "definition": "The walnut shaped accessory sex gland of the male reproductive system. It is located in the pelvis just below the bladder, surrounding the prostatic part of the urethra. The prostate gland secretes a fluid which is part of the semen.",
+      "type": "DEFINITION",
+      "source": "NCI"
+    }
+  ],
+  "properties": [
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "CDISC"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "CPTAC"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "GDC"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "mCode"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "PCDC"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "UBERON"
+    },
+    {
+      "code": "P366",
+      "type": "Legacy Concept Name",
+      "value": "Prostate_Gland"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "Prostate"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "PROSTATE GLAND"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "Prostate gland"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "Prostate, NOS"
+    },
+    {
+      "code": "P106",
+      "type": "Semantic_Type",
+      "value": "Body Part, Organ, or Organ Component"
+    },
+    {
+      "code": "P207",
+      "type": "UMLS_CUI",
+      "value": "C0033572"
+    },
+    {
+      "code": "oboInOwl:hasDbXref",
+      "type": "xRef",
+      "value": "UBERON:0002367"
+    }
+  ],
+  "parents": [
+    {
+      "code": "C12712",
+      "name": "Exocrine Gland"
+    }
+  ],
+  "associations": [
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C74456",
+      "relatedName": "CDISC SDTM Anatomical Location Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C66830",
+      "relatedName": "CDISC SDTM Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C77529",
+      "relatedName": "CDISC SEND Biospecimens Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C77526",
+      "relatedName": "CDISC SEND Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C61410",
+      "relatedName": "Clinical Data Interchange Standards Consortium Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C159328",
+      "relatedName": "CPTAC Follow-Up Forms Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C159336",
+      "relatedName": "CPTAC Melanoma Follow-Up Form"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C156952",
+      "relatedName": "CPTAC Terminology"
+    },
+    {
+      "type": "Is_Value_For_GDC_Property",
+      "relatedCode": "C173263",
+      "relatedName": "Disease Involvement Site"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C157711",
+      "relatedName": "GDC Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C177537",
+      "relatedName": "GDC Value Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168655",
+      "relatedName": "Mapped ICDO3.1 Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168660",
+      "relatedName": "Mapped ICDO3.1 Topography PT Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168659",
+      "relatedName": "Mapped ICDO3.1 Topography Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168656",
+      "relatedName": "Mapped ICDO3.2 Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168664",
+      "relatedName": "Mapped ICDO3.2 Topography PT Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168663",
+      "relatedName": "Mapped ICDO3.2 Topography Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C193234",
+      "relatedName": "mCode Radiotherapy Treatment Location Value Set"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C193006",
+      "relatedName": "mCode Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C179478",
+      "relatedName": "OS Authorized Value Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C179482",
+      "relatedName": "OS Biopsy/Surgical Procedures Table"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C179483",
+      "relatedName": "OS Radiation Therapy Table"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C179481",
+      "relatedName": "OS Tumor Assessment Table"
+    },
+    {
+      "type": "Is_Value_For_GDC_Property",
+      "relatedCode": "C158874",
+      "relatedName": "Primary Site of Disease"
+    },
+    {
+      "type": "Is_Value_For_GDC_Property",
+      "relatedCode": "C177570",
+      "relatedName": "Progressive or Recurrent Disease Anatomic Site"
+    },
+    {
+      "type": "Is_Value_For_GDC_Property",
+      "relatedCode": "C156421",
+      "relatedName": "Site of Resection or Biopsy"
+    },
+    {
+      "type": "Is_Value_For_GDC_Property",
+      "relatedCode": "C171435",
+      "relatedName": "Specimen Anatomic Site"
+    },
+    {
+      "type": "Is_Value_For_GDC_Property",
+      "relatedCode": "C70729",
+      "relatedName": "Targeted Anatomic Site"
+    },
+    {
+      "type": "Is_Value_For_GDC_Property",
+      "relatedCode": "C156422",
+      "relatedName": "Tissue or Organ of Origin"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C198975",
+      "relatedName": "UBERON Terminology"
+    }
+  ],
+  "inverseAssociations": [
+    {
+      "type": "Has_GDC_Value",
+      "relatedCode": "C173263",
+      "relatedName": "Disease Involvement Site"
+    },
+    {
+      "type": "Has_GDC_Value",
+      "relatedCode": "C158874",
+      "relatedName": "Primary Site of Disease"
+    },
+    {
+      "type": "Has_GDC_Value",
+      "relatedCode": "C177570",
+      "relatedName": "Progressive or Recurrent Disease Anatomic Site"
+    },
+    {
+      "type": "Has_PCDC_OS_Authorized_Value",
+      "relatedCode": "C173281",
+      "relatedName": "Site of Radiation Therapy"
+    },
+    {
+      "type": "Has_GDC_Value",
+      "relatedCode": "C156421",
+      "relatedName": "Site of Resection or Biopsy"
+    },
+    {
+      "type": "Has_PCDC_OS_Authorized_Value",
+      "relatedCode": "C157120",
+      "relatedName": "Site of Tumor"
+    },
+    {
+      "type": "Has_GDC_Value",
+      "relatedCode": "C171435",
+      "relatedName": "Specimen Anatomic Site"
+    },
+    {
+      "type": "Has_PCDC_OS_Authorized_Value",
+      "relatedCode": "C164323",
+      "relatedName": "Surgical Site"
+    },
+    {
+      "type": "Has_GDC_Value",
+      "relatedCode": "C70729",
+      "relatedName": "Targeted Anatomic Site"
+    },
+    {
+      "type": "Has_GDC_Value",
+      "relatedCode": "C156422",
+      "relatedName": "Tissue or Organ of Origin"
+    }
+  ],
+  "roles": [
+    {
+      "type": "Anatomic_Structure_Is_Physical_Part_Of",
+      "relatedCode": "C12957",
+      "relatedName": "Exocrine System"
+    },
+    {
+      "type": "Anatomic_Structure_Is_Physical_Part_Of",
+      "relatedCode": "C12722",
+      "relatedName": "Male Reproductive System"
+    }
+  ],
+  "inverseRoles": [
+    {
+      "type": "Procedure_Has_Partially_Excised_Anatomy",
+      "relatedCode": "C142182",
+      "relatedName": "12-Core Prostate Biopsy"
+    },
+    {
+      "type": "Gene_Product_Expressed_In_Tissue",
+      "relatedCode": "C26314",
+      "relatedName": "3-Keto-Steroid Reductase"
+    },
+    {
+      "type": "Gene_Product_Expressed_In_Tissue",
+      "relatedCode": "C105160",
+      "relatedName": "3-Oxo-5-Alpha-Steroid 4-Dehydrogenase 1"
+    },
+    {
+      "type": "Gene_Product_Expressed_In_Tissue",
+      "relatedCode": "C17190",
+      "relatedName": "3-Oxo-5-Alpha-Steroid 4-Dehydrogenase 2"
+    },
+    {
+      "type": "Procedure_Has_Partially_Excised_Anatomy",
+      "relatedCode": "C142181",
+      "relatedName": "8-Core Prostate Biopsy"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C92957",
+      "relatedName": "Acute Bacterial Prostatitis"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C92957",
+      "relatedName": "Acute Bacterial Prostatitis"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C26935",
+      "relatedName": "Acute Prostatitis"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C26935",
+      "relatedName": "Acute Prostatitis"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C222232",
+      "relatedName": "Advanced Castration-Resistant Prostate Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C222232",
+      "relatedName": "Advanced Castration-Resistant Prostate Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C186456",
+      "relatedName": "Advanced Prostate Adenocarcinoma with Neuroendocrine Differentiation"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C186456",
+      "relatedName": "Advanced Prostate Adenocarcinoma with Neuroendocrine Differentiation"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C156286",
+      "relatedName": "Advanced Prostate Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C156286",
+      "relatedName": "Advanced Prostate Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C156284",
+      "relatedName": "Advanced Prostate Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C156284",
+      "relatedName": "Advanced Prostate Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C202894",
+      "relatedName": "Advanced Prostate Small Cell Neuroendocrine Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C202894",
+      "relatedName": "Advanced Prostate Small Cell Neuroendocrine Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C164185",
+      "relatedName": "Aggressive Prostate Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C164185",
+      "relatedName": "Aggressive Prostate Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C171576",
+      "relatedName": "Aggressive Variant Prostate Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C171576",
+      "relatedName": "Aggressive Variant Prostate Carcinoma"
+    },
+    {
+      "type": "Gene_Product_Expressed_In_Tissue",
+      "relatedCode": "C21285",
+      "relatedName": "Alpha-1A Adrenergic Receptor"
+    },
+    {
+      "type": "Gene_Product_Expressed_In_Tissue",
+      "relatedCode": "C21482",
+      "relatedName": "Anterior Gradient Protein 2 Homolog"
+    },
+    {
+      "type": "Anatomic_Structure_Is_Physical_Part_Of",
+      "relatedCode": "C13089",
+      "relatedName": "Anterior Surface of the Prostate"
+    },
+    {
+      "type": "Anatomic_Structure_Is_Physical_Part_Of",
+      "relatedCode": "C13087",
+      "relatedName": "Apex of the Prostate"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C94410",
+      "relatedName": "Asymptomatic Inflammatory Prostatitis"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C94410",
+      "relatedName": "Asymptomatic Inflammatory Prostatitis"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C37268",
+      "relatedName": "Atypical Small Acinar Proliferation of the Prostate Gland"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C37268",
+      "relatedName": "Atypical Small Acinar Proliferation of the Prostate Gland"
+    },
+    {
+      "type": "Gene_Product_Expressed_In_Tissue",
+      "relatedCode": "C28707",
+      "relatedName": "B-Cell CLL/Lymphoma 9 Protein"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C27203",
+      "relatedName": "Bacterial Prostatitis"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C27203",
+      "relatedName": "Bacterial Prostatitis"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C138170",
+      "relatedName": "Basal-Like Prostate Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C138170",
+      "relatedName": "Basal-Like Prostate Carcinoma"
+    },
+    {
+      "type": "Anatomic_Structure_Is_Physical_Part_Of",
+      "relatedCode": "C13088",
+      "relatedName": "Base of the Prostate"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C3613",
+      "relatedName": "Benign Prostate Neoplasm"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C3613",
+      "relatedName": "Benign Prostate Neoplasm"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C5532",
+      "relatedName": "Benign Prostate Phyllodes Tumor"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C5532",
+      "relatedName": "Benign Prostate Phyllodes Tumor"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C2897",
+      "relatedName": "Benign Prostatic Hyperplasia"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C2897",
+      "relatedName": "Benign Prostatic Hyperplasia"
+    },
+    {
+      "type": "Gene_Product_Expressed_In_Tissue",
+      "relatedCode": "C21161",
+      "relatedName": "Beta-Microseminoprotein"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C156771",
+      "relatedName": "Biochemically Recurrent Prostate Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C156771",
+      "relatedName": "Biochemically Recurrent Prostate Carcinoma"
+    },
+    {
+      "type": "Procedure_Has_Partially_Excised_Anatomy",
+      "relatedCode": "C51701",
+      "relatedName": "Biopsy of Prostate"
+    },
+    {
+      "type": "Gene_Product_Expressed_In_Tissue",
+      "relatedCode": "C21350",
+      "relatedName": "Bone Morphogenetic Protein 2"
+    },
+    {
+      "type": "Gene_Product_Expressed_In_Tissue",
+      "relatedCode": "C21496",
+      "relatedName": "Breast Cancer Anti-Estrogen Resistance 3 Protein"
+    },
+    {
+      "type": "Gene_Product_Expressed_In_Tissue",
+      "relatedCode": "C21500",
+      "relatedName": "Breast Carcinoma-Amplified Sequence 4"
+    },
+    {
+      "type": "Gene_Product_Expressed_In_Tissue",
+      "relatedCode": "C26086",
+      "relatedName": "Cardiotrophin-1"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C148536",
+      "relatedName": "Castration-Naive Prostate Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C148536",
+      "relatedName": "Castration-Naive Prostate Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C222490",
+      "relatedName": "Castration-Resistant Prostate Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C222490",
+      "relatedName": "Castration-Resistant Prostate Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C157497",
+      "relatedName": "Castration-Resistant Prostate Carcinoma Refractory to Second-Generation Androgen Receptor Axis-Targeted Agents"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C157497",
+      "relatedName": "Castration-Resistant Prostate Carcinoma Refractory to Second-Generation Androgen Receptor Axis-Targeted Agents"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C130234",
+      "relatedName": "Castration-Resistant Prostate Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C130234",
+      "relatedName": "Castration-Resistant Prostate Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C222658",
+      "relatedName": "Castration-Resistant Prostate Neuroendocrine Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C222658",
+      "relatedName": "Castration-Resistant Prostate Neuroendocrine Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C222492",
+      "relatedName": "Castration-Sensitive Prostate Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C222492",
+      "relatedName": "Castration-Sensitive Prostate Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C153336",
+      "relatedName": "Castration-Sensitive Prostate Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C153336",
+      "relatedName": "Castration-Sensitive Prostate Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C219848",
+      "relatedName": "Cavitary Prostatitis"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C219848",
+      "relatedName": "Cavitary Prostatitis"
+    },
+    {
+      "type": "Anatomic_Structure_Is_Physical_Part_Of",
+      "relatedCode": "C32282",
+      "relatedName": "Central Zone of the Prostatic Parenchyma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C92956",
+      "relatedName": "Chronic Bacterial Prostatitis"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C92956",
+      "relatedName": "Chronic Bacterial Prostatitis"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C26930",
+      "relatedName": "Chronic Prostatitis"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C26930",
+      "relatedName": "Chronic Prostatitis"
+    },
+    {
+      "type": "Procedure_Has_Partially_Excised_Anatomy",
+      "relatedCode": "C192891",
+      "relatedName": "Combination Prostate Biopsy"
+    },
+    {
+      "type": "Procedure_Has_Partially_Excised_Anatomy",
+      "relatedCode": "C116511",
+      "relatedName": "Contrast-Enhanced Ultrasound-Guided Prostate Biopsy"
+    },
+    {
+      "type": "Gene_Product_Expressed_In_Tissue",
+      "relatedCode": "C21372",
+      "relatedName": "Cytoplasmic Tyrosine-Protein Kinase BMX"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C213961",
+      "relatedName": "De Novo High Volume Metastatic Castration-Sensitive Prostate Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C213961",
+      "relatedName": "De Novo High Volume Metastatic Castration-Sensitive Prostate Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C222472",
+      "relatedName": "De Novo Low Volume Metastatic Castration-Sensitive Prostate Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C222472",
+      "relatedName": "De Novo Low Volume Metastatic Castration-Sensitive Prostate Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C213962",
+      "relatedName": "De Novo Low Volume Metastatic Castration-Sensitive Prostate Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C213962",
+      "relatedName": "De Novo Low Volume Metastatic Castration-Sensitive Prostate Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C213960",
+      "relatedName": "De Novo Metastatic Castration-Sensitive Prostate Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C213960",
+      "relatedName": "De Novo Metastatic Castration-Sensitive Prostate Carcinoma"
+    },
+    {
+      "type": "Gene_Product_Expressed_In_Tissue",
+      "relatedCode": "C26210",
+      "relatedName": "Disabled Homolog 2"
+    },
+    {
+      "type": "Gene_Product_Expressed_In_Tissue",
+      "relatedCode": "C21463",
+      "relatedName": "DNA Ligase 4"
+    },
+    {
+      "type": "Gene_Product_Expressed_In_Tissue",
+      "relatedCode": "C21464",
+      "relatedName": "DNA Mismatch Repair Protein Mlh1"
+    },
+    {
+      "type": "Gene_Product_Expressed_In_Tissue",
+      "relatedCode": "C21209",
+      "relatedName": "DNA Repair Protein RAD51 Homolog 3"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C161609",
+      "relatedName": "Double-Negative Prostate Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C161609",
+      "relatedName": "Double-Negative Prostate Carcinoma"
+    },
+    {
+      "type": "Gene_Product_Expressed_In_Tissue",
+      "relatedCode": "C98095",
+      "relatedName": "Dresden Prostate Carcinoma Protein 2"
+    },
+    {
+      "type": "Gene_Product_Expressed_In_Tissue",
+      "relatedCode": "C21511",
+      "relatedName": "Epithelial-Stromal Interaction Protein 1"
+    },
+    {
+      "type": "Gene_Product_Expressed_In_Tissue",
+      "relatedCode": "C26155",
+      "relatedName": "ETS Homologous Factor"
+    },
+    {
+      "type": "Procedure_Has_Partially_Excised_Anatomy",
+      "relatedCode": "C113105",
+      "relatedName": "Extended Template Biopsy"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C161608",
+      "relatedName": "Extrarenal Rhabdoid Tumor of the Prostate"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C7360",
+      "relatedName": "Grade II Prostatic Intraepithelial Neoplasia"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C7360",
+      "relatedName": "Grade II Prostatic Intraepithelial Neoplasia"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C3642",
+      "relatedName": "Grade III Prostatic Intraepithelial Neoplasia"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C3642",
+      "relatedName": "Grade III Prostatic Intraepithelial Neoplasia"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C26789",
+      "relatedName": "Granulomatous Prostatitis"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C26789",
+      "relatedName": "Granulomatous Prostatitis"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C103817",
+      "relatedName": "Hereditary Prostate Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C103817",
+      "relatedName": "Hereditary Prostate Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C39889",
+      "relatedName": "High Grade Prostatic Intraepithelial Neoplasia, Foamy Variant"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C39889",
+      "relatedName": "High Grade Prostatic Intraepithelial Neoplasia, Foamy Variant"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C39890",
+      "relatedName": "High Grade Prostatic Intraepithelial Neoplasia, Inverted Variant"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C39890",
+      "relatedName": "High Grade Prostatic Intraepithelial Neoplasia, Inverted Variant"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C39888",
+      "relatedName": "High Grade Prostatic Intraepithelial Neoplasia, Mucinous Variant"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C39888",
+      "relatedName": "High Grade Prostatic Intraepithelial Neoplasia, Mucinous Variant"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C39887",
+      "relatedName": "High Grade Prostatic Intraepithelial Neoplasia, Signet Ring Variant"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C39887",
+      "relatedName": "High Grade Prostatic Intraepithelial Neoplasia, Signet Ring Variant"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C39891",
+      "relatedName": "High Grade Prostatic Intraepithelial Neoplasia, Small Cell Neuroendocrine Variant"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C39891",
+      "relatedName": "High Grade Prostatic Intraepithelial Neoplasia, Small Cell Neuroendocrine Variant"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C5541",
+      "relatedName": "High Grade Prostatic Intraepithelial Neoplasia"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C5541",
+      "relatedName": "High Grade Prostatic Intraepithelial Neoplasia"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C114933",
+      "relatedName": "Hormone-Resistant Prostate Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C114933",
+      "relatedName": "Hormone-Resistant Prostate Carcinoma"
+    },
+    {
+      "type": "Anatomic_Structure_Is_Physical_Part_Of",
+      "relatedCode": "C13090",
+      "relatedName": "Inferolateral Surface of the Prostate"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C136972",
+      "relatedName": "Intermediate Atypical Prostate Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C136972",
+      "relatedName": "Intermediate Atypical Prostate Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C48596",
+      "relatedName": "Invasive Prostate Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C48596",
+      "relatedName": "Invasive Prostate Carcinoma"
+    },
+    {
+      "type": "Gene_Product_Expressed_In_Tissue",
+      "relatedCode": "C97208",
+      "relatedName": "Kallikrein-10"
+    },
+    {
+      "type": "Gene_Product_Expressed_In_Tissue",
+      "relatedCode": "C43297",
+      "relatedName": "Kallikrein-11"
+    },
+    {
+      "type": "Gene_Product_Expressed_In_Tissue",
+      "relatedCode": "C28485",
+      "relatedName": "Kallikrein-15"
+    },
+    {
+      "type": "Procedure_Has_Excised_Anatomy",
+      "relatedCode": "C94452",
+      "relatedName": "Laparoscopic Prostatectomy"
+    },
+    {
+      "type": "Procedure_Has_Completely_Excised_Anatomy",
+      "relatedCode": "C165183",
+      "relatedName": "Laparoscopic Radical Prostatectomy with Robotics"
+    },
+    {
+      "type": "Procedure_Has_Excised_Anatomy",
+      "relatedCode": "C165183",
+      "relatedName": "Laparoscopic Radical Prostatectomy with Robotics"
+    },
+    {
+      "type": "Procedure_Has_Completely_Excised_Anatomy",
+      "relatedCode": "C165184",
+      "relatedName": "Laparoscopic Radical Prostatectomy"
+    },
+    {
+      "type": "Procedure_Has_Excised_Anatomy",
+      "relatedCode": "C165184",
+      "relatedName": "Laparoscopic Radical Prostatectomy"
+    },
+    {
+      "type": "Anatomic_Structure_Is_Physical_Part_Of",
+      "relatedCode": "C13092",
+      "relatedName": "Lateral Lobe of the Prostate"
+    },
+    {
+      "type": "Anatomic_Structure_Is_Physical_Part_Of",
+      "relatedCode": "C32949",
+      "relatedName": "Lateral Surface of the Prostate"
+    },
+    {
+      "type": "Gene_Product_Expressed_In_Tissue",
+      "relatedCode": "C26349",
+      "relatedName": "Leptin Receptor"
+    },
+    {
+      "type": "Gene_Product_Expressed_In_Tissue",
+      "relatedCode": "C26219",
+      "relatedName": "Leukemia-Associated Protein 1"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C201849",
+      "relatedName": "Localized Prostate Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C201849",
+      "relatedName": "Localized Prostate Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C176517",
+      "relatedName": "Localized Prostate Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C176517",
+      "relatedName": "Localized Prostate Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C213497",
+      "relatedName": "Locally Advanced Castration-Resistant Prostate Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C213497",
+      "relatedName": "Locally Advanced Castration-Resistant Prostate Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C156287",
+      "relatedName": "Locally Advanced Prostate Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C156287",
+      "relatedName": "Locally Advanced Prostate Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C156285",
+      "relatedName": "Locally Advanced Prostate Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C156285",
+      "relatedName": "Locally Advanced Prostate Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C158914",
+      "relatedName": "Locally Advanced Prostate Neuroendocrine Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C158914",
+      "relatedName": "Locally Advanced Prostate Neuroendocrine Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C156289",
+      "relatedName": "Locally Advanced Unresectable Prostate Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C156289",
+      "relatedName": "Locally Advanced Unresectable Prostate Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C156288",
+      "relatedName": "Locally Advanced Unresectable Prostate Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C156288",
+      "relatedName": "Locally Advanced Unresectable Prostate Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C221747",
+      "relatedName": "Locally Recurrent Prostate Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C221747",
+      "relatedName": "Locally Recurrent Prostate Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C212215",
+      "relatedName": "Locally Recurrent Prostate Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C212215",
+      "relatedName": "Locally Recurrent Prostate Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C5542",
+      "relatedName": "Low Grade Prostatic Intraepithelial Neoplasia"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C5542",
+      "relatedName": "Low Grade Prostatic Intraepithelial Neoplasia"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C138168",
+      "relatedName": "Luminal A Prostate Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C138168",
+      "relatedName": "Luminal A Prostate Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C138169",
+      "relatedName": "Luminal B Prostate Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C138169",
+      "relatedName": "Luminal B Prostate Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C7378",
+      "relatedName": "Malignant Prostate Neoplasm"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C5531",
+      "relatedName": "Malignant Prostate Phyllodes Tumor"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C5531",
+      "relatedName": "Malignant Prostate Phyllodes Tumor"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C161580",
+      "relatedName": "Malignant Prostate Solitary Fibrous Tumor"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C161580",
+      "relatedName": "Malignant Prostate Solitary Fibrous Tumor"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C213964",
+      "relatedName": "Metachronous High Volume Metastatic Castration-Sensitive Prostate Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C213964",
+      "relatedName": "Metachronous High Volume Metastatic Castration-Sensitive Prostate Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C213963",
+      "relatedName": "Metachronous Metastatic Castration-Sensitive Prostate Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C213963",
+      "relatedName": "Metachronous Metastatic Castration-Sensitive Prostate Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C39899",
+      "relatedName": "Metastatic Bladder Urothelial Carcinoma in the Prostate Gland"
+    },
+    {
+      "type": "Disease_Has_Metastatic_Anatomic_Site",
+      "relatedCode": "C39899",
+      "relatedName": "Metastatic Bladder Urothelial Carcinoma in the Prostate Gland"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C213281",
+      "relatedName": "Metastatic Carcinoma in the Prostate Gland"
+    },
+    {
+      "type": "Disease_Has_Metastatic_Anatomic_Site",
+      "relatedCode": "C213281",
+      "relatedName": "Metastatic Carcinoma in the Prostate Gland"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C222491",
+      "relatedName": "Metastatic Castration-Resistant Prostate Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C222491",
+      "relatedName": "Metastatic Castration-Resistant Prostate Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C210981",
+      "relatedName": "Metastatic Castration-Resistant Prostate Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C210981",
+      "relatedName": "Metastatic Castration-Resistant Prostate Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C222493",
+      "relatedName": "Metastatic Castration-Sensitive Prostate Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C222493",
+      "relatedName": "Metastatic Castration-Sensitive Prostate Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C210982",
+      "relatedName": "Metastatic Castration-Sensitive Prostate Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C210982",
+      "relatedName": "Metastatic Castration-Sensitive Prostate Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C7080",
+      "relatedName": "Metastatic Malignant Neoplasm in the Prostate Gland"
+    },
+    {
+      "type": "Disease_Has_Metastatic_Anatomic_Site",
+      "relatedCode": "C7080",
+      "relatedName": "Metastatic Malignant Neoplasm in the Prostate Gland"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C186455",
+      "relatedName": "Metastatic Prostate Adenocarcinoma with Neuroendocrine Differentiation"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C186455",
+      "relatedName": "Metastatic Prostate Adenocarcinoma with Neuroendocrine Differentiation"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C8945",
+      "relatedName": "Metastatic Prostate Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C8945",
+      "relatedName": "Metastatic Prostate Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C161587",
+      "relatedName": "Metastatic Prostate Carcinoma in the Lymph Nodes"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C161587",
+      "relatedName": "Metastatic Prostate Carcinoma in the Lymph Nodes"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C132881",
+      "relatedName": "Metastatic Prostate Carcinoma in the Soft Tissue"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C132881",
+      "relatedName": "Metastatic Prostate Carcinoma in the Soft Tissue"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C8946",
+      "relatedName": "Metastatic Prostate Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C8946",
+      "relatedName": "Metastatic Prostate Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C158913",
+      "relatedName": "Metastatic Prostate Neuroendocrine Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C158913",
+      "relatedName": "Metastatic Prostate Neuroendocrine Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C157764",
+      "relatedName": "Metastatic Prostate Small Cell Neuroendocrine Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C157764",
+      "relatedName": "Metastatic Prostate Small Cell Neuroendocrine Carcinoma"
+    },
+    {
+      "type": "Anatomic_Structure_Is_Physical_Part_Of",
+      "relatedCode": "C13094",
+      "relatedName": "Middle Lobe of the Prostate"
+    },
+    {
+      "type": "Gene_Product_Expressed_In_Tissue",
+      "relatedCode": "C26487",
+      "relatedName": "Mitogen-Activated Protein Kinase Kinase Kinase 14"
+    },
+    {
+      "type": "Procedure_Has_Partially_Excised_Anatomy",
+      "relatedCode": "C51694",
+      "relatedName": "Needle Biopsy of Prostate"
+    },
+    {
+      "type": "Procedure_Has_Completely_Excised_Anatomy",
+      "relatedCode": "C16218",
+      "relatedName": "Nerve-Sparing Prostatectomy"
+    },
+    {
+      "type": "Procedure_Has_Excised_Anatomy",
+      "relatedCode": "C16218",
+      "relatedName": "Nerve-Sparing Prostatectomy"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C27614",
+      "relatedName": "Non-Neoplastic Prostate Disorder"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C27614",
+      "relatedName": "Non-Neoplastic Prostate Disorder"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C215319",
+      "relatedName": "Non-Neoplastic Prostatic Hyperplasia"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C215319",
+      "relatedName": "Non-Neoplastic Prostatic Hyperplasia"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C210980",
+      "relatedName": "Nonmetastatic Castration-Resistant Prostate Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C210980",
+      "relatedName": "Nonmetastatic Castration-Resistant Prostate Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C210990",
+      "relatedName": "Nonmetastatic Castration-Sensitive Prostate Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C210990",
+      "relatedName": "Nonmetastatic Castration-Sensitive Prostate Carcinoma"
+    },
+    {
+      "type": "Gene_Product_Expressed_In_Tissue",
+      "relatedCode": "C132108",
+      "relatedName": "Olfactory Receptor 51E2"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C220613",
+      "relatedName": "Oligometastatic Prostate Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C220613",
+      "relatedName": "Oligometastatic Prostate Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C171265",
+      "relatedName": "Oligometastatic Prostate Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C171265",
+      "relatedName": "Oligometastatic Prostate Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C222471",
+      "relatedName": "Oligoprogressive Prostate Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C222471",
+      "relatedName": "Oligoprogressive Prostate Adenocarcinoma"
+    },
+    {
+      "type": "Procedure_Has_Excised_Anatomy",
+      "relatedCode": "C92983",
+      "relatedName": "Open Prostatectomy"
+    },
+    {
+      "type": "Procedure_Has_Completely_Excised_Anatomy",
+      "relatedCode": "C165188",
+      "relatedName": "Open Radical Prostatectomy"
+    },
+    {
+      "type": "Procedure_Has_Excised_Anatomy",
+      "relatedCode": "C165188",
+      "relatedName": "Open Radical Prostatectomy"
+    },
+    {
+      "type": "Anatomic_Structure_Is_Physical_Part_Of",
+      "relatedCode": "C157522",
+      "relatedName": "Overlapping/Multiple Zones of Prostate"
+    },
+    {
+      "type": "Procedure_Has_Completely_Excised_Anatomy",
+      "relatedCode": "C187309",
+      "relatedName": "Pelvic Fascia-Sparing Radical Prostatectomy"
+    },
+    {
+      "type": "Procedure_Has_Excised_Anatomy",
+      "relatedCode": "C187309",
+      "relatedName": "Pelvic Fascia-Sparing Radical Prostatectomy"
+    },
+    {
+      "type": "Procedure_Has_Excised_Anatomy",
+      "relatedCode": "C15400",
+      "relatedName": "Perineal Prostatectomy"
+    },
+    {
+      "type": "Anatomic_Structure_Is_Physical_Part_Of",
+      "relatedCode": "C33308",
+      "relatedName": "Peripheral Zone of the Prostatic Parenchyma"
+    },
+    {
+      "type": "Anatomic_Structure_Is_Physical_Part_Of",
+      "relatedCode": "C33311",
+      "relatedName": "Periurethral Zone of the Prostatic Parenchyma"
+    },
+    {
+      "type": "Anatomic_Structure_Is_Physical_Part_Of",
+      "relatedCode": "C13093",
+      "relatedName": "Posterior Lobe of the Prostate"
+    },
+    {
+      "type": "Anatomic_Structure_Is_Physical_Part_Of",
+      "relatedCode": "C13095",
+      "relatedName": "Posterior Surface of the Prostate"
+    },
+    {
+      "type": "Anatomic_Structure_Is_Physical_Part_Of",
+      "relatedCode": "C48663",
+      "relatedName": "Posterolateral Part of the Prostate"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C39898",
+      "relatedName": "Primary Prostate Urothelial Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C39898",
+      "relatedName": "Primary Prostate Urothelial Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C97114",
+      "relatedName": "Proliferative Inflammatory Atrophy"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C97114",
+      "relatedName": "Proliferative Inflammatory Atrophy"
+    },
+    {
+      "type": "Gene_Product_Expressed_In_Tissue",
+      "relatedCode": "C17807",
+      "relatedName": "Prostasin"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C39880",
+      "relatedName": "Prostate Acinar Adenocarcinoma, Atrophic Pattern"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C39880",
+      "relatedName": "Prostate Acinar Adenocarcinoma, Atrophic Pattern"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C5596",
+      "relatedName": "Prostate Acinar Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C5596",
+      "relatedName": "Prostate Acinar Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C39882",
+      "relatedName": "Prostate Acinar Foamy Gland Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C39882",
+      "relatedName": "Prostate Acinar Foamy Gland Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C39885",
+      "relatedName": "Prostate Acinar Lymphoepithelioma-Like Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C39885",
+      "relatedName": "Prostate Acinar Lymphoepithelioma-Like Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C160817",
+      "relatedName": "Prostate Acinar Microcystic Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C160817",
+      "relatedName": "Prostate Acinar Microcystic Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C5537",
+      "relatedName": "Prostate Acinar Mucinous Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C5537",
+      "relatedName": "Prostate Acinar Mucinous Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C39884",
+      "relatedName": "Prostate Acinar Oncocytic Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C39884",
+      "relatedName": "Prostate Acinar Oncocytic Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C160818",
+      "relatedName": "Prostate Acinar Pleomorphic Giant Cell Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C160818",
+      "relatedName": "Prostate Acinar Pleomorphic Giant Cell Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C39881",
+      "relatedName": "Prostate Acinar Pseudohyperplastic Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C39881",
+      "relatedName": "Prostate Acinar Pseudohyperplastic Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C5530",
+      "relatedName": "Prostate Acinar Sarcomatoid Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C5530",
+      "relatedName": "Prostate Acinar Sarcomatoid Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C5535",
+      "relatedName": "Prostate Acinar Signet Ring Cell-Like Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C5535",
+      "relatedName": "Prostate Acinar Signet Ring Cell-Like Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C164186",
+      "relatedName": "Prostate Adenocarcinoma by AJCC v7 Stage"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C164186",
+      "relatedName": "Prostate Adenocarcinoma by AJCC v7 Stage"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C39903",
+      "relatedName": "Prostate Adenocarcinoma with Neuroendocrine Differentiation"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C39903",
+      "relatedName": "Prostate Adenocarcinoma with Neuroendocrine Differentiation"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C158664",
+      "relatedName": "Prostate Adenocarcinoma with Paneth Cell-Like Neuroendocrine Differentiation"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C158664",
+      "relatedName": "Prostate Adenocarcinoma with Paneth Cell-Like Neuroendocrine Differentiation"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C150557",
+      "relatedName": "Prostate Adenocarcinoma without Neuroendocrine Differentiation"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C150557",
+      "relatedName": "Prostate Adenocarcinoma without Neuroendocrine Differentiation"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C2919",
+      "relatedName": "Prostate Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C2919",
+      "relatedName": "Prostate Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C5539",
+      "relatedName": "Prostate Adenoid Cystic Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C5539",
+      "relatedName": "Prostate Adenoid Cystic Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C5538",
+      "relatedName": "Prostate Adenosquamous Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C5538",
+      "relatedName": "Prostate Adenosquamous Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C188070",
+      "relatedName": "Prostate Alveolar Rhabdomyosarcoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C188070",
+      "relatedName": "Prostate Alveolar Rhabdomyosarcoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C5528",
+      "relatedName": "Prostate Angiosarcoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C5528",
+      "relatedName": "Prostate Angiosarcoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C39902",
+      "relatedName": "Prostate Basal Cell Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C39902",
+      "relatedName": "Prostate Basal Cell Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C90521",
+      "relatedName": "Prostate Cancer by AJCC v6 Stage"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C90521",
+      "relatedName": "Prostate Cancer by AJCC v6 Stage"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C91233",
+      "relatedName": "Prostate Cancer by AJCC v7 Stage"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C91233",
+      "relatedName": "Prostate Cancer by AJCC v7 Stage"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C140163",
+      "relatedName": "Prostate Cancer by AJCC v8 Stage"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C140163",
+      "relatedName": "Prostate Cancer by AJCC v8 Stage"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C7079",
+      "relatedName": "Prostate Cancer by Whitmore-Jewett Stage"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C7079",
+      "relatedName": "Prostate Cancer by Whitmore-Jewett Stage"
+    },
+    {
+      "type": "Anatomic_Structure_Is_Physical_Part_Of",
+      "relatedCode": "C13086",
+      "relatedName": "Prostate Capsule"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C138167",
+      "relatedName": "Prostate Carcinoma by Gene Expression Profile"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C138167",
+      "relatedName": "Prostate Carcinoma by Gene Expression Profile"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C36308",
+      "relatedName": "Prostate Carcinoma Metastatic in the Bone"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C36308",
+      "relatedName": "Prostate Carcinoma Metastatic in the Bone"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C36307",
+      "relatedName": "Prostate Carcinoma Metastatic in the Lung"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C36307",
+      "relatedName": "Prostate Carcinoma Metastatic in the Lung"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C161584",
+      "relatedName": "Prostate Carcinoma Metastatic in the Pelvic Cavity"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C161584",
+      "relatedName": "Prostate Carcinoma Metastatic in the Pelvic Cavity"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C4863",
+      "relatedName": "Prostate Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C4863",
+      "relatedName": "Prostate Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C161606",
+      "relatedName": "Prostate Cystadenoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C161606",
+      "relatedName": "Prostate Cystadenoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C161602",
+      "relatedName": "Prostate Diffuse Large B-Cell Lymphoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C161602",
+      "relatedName": "Prostate Diffuse Large B-Cell Lymphoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C26865",
+      "relatedName": "Prostate Disorder"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C39895",
+      "relatedName": "Prostate Ductal Adenocarcinoma, Cribriform Pattern"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C39895",
+      "relatedName": "Prostate Ductal Adenocarcinoma, Cribriform Pattern"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C39896",
+      "relatedName": "Prostate Ductal Adenocarcinoma, Papillary Pattern"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C39896",
+      "relatedName": "Prostate Ductal Adenocarcinoma, Papillary Pattern"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C39897",
+      "relatedName": "Prostate Ductal Adenocarcinoma, Solid Pattern"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C39897",
+      "relatedName": "Prostate Ductal Adenocarcinoma, Solid Pattern"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C6813",
+      "relatedName": "Prostate Ductal Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C6813",
+      "relatedName": "Prostate Ductal Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C5525",
+      "relatedName": "Prostate Embryonal Rhabdomyosarcoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C5525",
+      "relatedName": "Prostate Embryonal Rhabdomyosarcoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C3972",
+      "relatedName": "Prostate Fibroma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C3972",
+      "relatedName": "Prostate Fibroma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C161603",
+      "relatedName": "Prostate Follicular Lymphoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C161603",
+      "relatedName": "Prostate Follicular Lymphoma"
+    },
+    {
+      "type": "Anatomic_Structure_Is_Physical_Part_Of",
+      "relatedCode": "C52726",
+      "relatedName": "Prostate Gland Lobe"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C161582",
+      "relatedName": "Prostate Granular Cell Tumor"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C161582",
+      "relatedName": "Prostate Granular Cell Tumor"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C161581",
+      "relatedName": "Prostate Hemangioma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C161581",
+      "relatedName": "Prostate Hemangioma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C161042",
+      "relatedName": "Prostate Inflammatory Myofibroblastic Tumor"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C161042",
+      "relatedName": "Prostate Inflammatory Myofibroblastic Tumor"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C161022",
+      "relatedName": "Prostate Intraductal Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C161022",
+      "relatedName": "Prostate Intraductal Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C5523",
+      "relatedName": "Prostate Kaposi Sarcoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C5523",
+      "relatedName": "Prostate Kaposi Sarcoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C158650",
+      "relatedName": "Prostate Large Cell Neuroendocrine Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C158650",
+      "relatedName": "Prostate Large Cell Neuroendocrine Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C5544",
+      "relatedName": "Prostate Leiomyoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C5544",
+      "relatedName": "Prostate Leiomyoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C5526",
+      "relatedName": "Prostate Leiomyosarcoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C5526",
+      "relatedName": "Prostate Leiomyosarcoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C5533",
+      "relatedName": "Prostate Lymphoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C5533",
+      "relatedName": "Prostate Lymphoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C161604",
+      "relatedName": "Prostate Mantle Cell Lymphoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C161604",
+      "relatedName": "Prostate Mantle Cell Lymphoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C161611",
+      "relatedName": "Prostate Melanoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C27906",
+      "relatedName": "Prostate Moderately Differentiated Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C27906",
+      "relatedName": "Prostate Moderately Differentiated Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C5527",
+      "relatedName": "Prostate Myeloid Sarcoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C5527",
+      "relatedName": "Prostate Myeloid Sarcoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C3343",
+      "relatedName": "Prostate Neoplasm"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C158912",
+      "relatedName": "Prostate Neuroendocrine Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C158912",
+      "relatedName": "Prostate Neuroendocrine Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C5545",
+      "relatedName": "Prostate Neuroendocrine Neoplasm"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C5545",
+      "relatedName": "Prostate Neuroendocrine Neoplasm"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C5024",
+      "relatedName": "Prostate Neuroendocrine Tumor"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C5024",
+      "relatedName": "Prostate Neuroendocrine Tumor"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C5534",
+      "relatedName": "Prostate Non-Hodgkin Lymphoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C5534",
+      "relatedName": "Prostate Non-Hodgkin Lymphoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C161035",
+      "relatedName": "Prostate Osteosarcoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C161035",
+      "relatedName": "Prostate Osteosarcoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C161612",
+      "relatedName": "Prostate Paraganglioma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C161612",
+      "relatedName": "Prostate Paraganglioma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C7574",
+      "relatedName": "Prostate Phyllodes Tumor"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C7574",
+      "relatedName": "Prostate Phyllodes Tumor"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C27916",
+      "relatedName": "Prostate Poorly Differentiated Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C27916",
+      "relatedName": "Prostate Poorly Differentiated Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C5522",
+      "relatedName": "Prostate Rhabdomyosarcoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C5522",
+      "relatedName": "Prostate Rhabdomyosarcoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C7731",
+      "relatedName": "Prostate Sarcoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C7731",
+      "relatedName": "Prostate Sarcoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C7731",
+      "relatedName": "Prostate Sarcoma"
+    },
+    {
+      "type": "Procedure_Has_Partially_Excised_Anatomy",
+      "relatedCode": "C113288",
+      "relatedName": "Prostate Saturation Biopsy"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C6766",
+      "relatedName": "Prostate Small Cell Neuroendocrine Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C6766",
+      "relatedName": "Prostate Small Cell Neuroendocrine Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C161605",
+      "relatedName": "Prostate Small Lymphocytic Lymphoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C161605",
+      "relatedName": "Prostate Small Lymphocytic Lymphoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C161045",
+      "relatedName": "Prostate Soft Tissue Neoplasm"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C161045",
+      "relatedName": "Prostate Soft Tissue Neoplasm"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C161579",
+      "relatedName": "Prostate Solitary Fibrous Tumor"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C161579",
+      "relatedName": "Prostate Solitary Fibrous Tumor"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C5536",
+      "relatedName": "Prostate Squamous Cell Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C5536",
+      "relatedName": "Prostate Squamous Cell Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C5524",
+      "relatedName": "Prostate Stromal Sarcoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C5524",
+      "relatedName": "Prostate Stromal Sarcoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C39905",
+      "relatedName": "Prostate Stromal Tumor of Uncertain Malignant Potential"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C39905",
+      "relatedName": "Prostate Stromal Tumor of Uncertain Malignant Potential"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C161034",
+      "relatedName": "Prostate Synovial Sarcoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C161034",
+      "relatedName": "Prostate Synovial Sarcoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C5597",
+      "relatedName": "Prostate Undifferentiated Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C5597",
+      "relatedName": "Prostate Undifferentiated Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C161038",
+      "relatedName": "Prostate Undifferentiated Pleomorphic Sarcoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C161038",
+      "relatedName": "Prostate Undifferentiated Pleomorphic Sarcoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C27905",
+      "relatedName": "Prostate Well Differentiated Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C27905",
+      "relatedName": "Prostate Well Differentiated Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C161607",
+      "relatedName": "Prostate Wilms Tumor"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C161607",
+      "relatedName": "Prostate Wilms Tumor"
+    },
+    {
+      "type": "Gene_Product_Expressed_In_Tissue",
+      "relatedCode": "C17525",
+      "relatedName": "Prostate-Specific Antigen"
+    },
+    {
+      "type": "Procedure_Has_Excised_Anatomy",
+      "relatedCode": "C15307",
+      "relatedName": "Prostatectomy"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C5595",
+      "relatedName": "Prostatic Atypical Adenomatous Hyperplasia"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C5595",
+      "relatedName": "Prostatic Atypical Adenomatous Hyperplasia"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C5593",
+      "relatedName": "Prostatic Basal Cell Hyperplasia"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C5593",
+      "relatedName": "Prostatic Basal Cell Hyperplasia"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C5594",
+      "relatedName": "Prostatic Clear Cell Cribriform Hyperplasia"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C5594",
+      "relatedName": "Prostatic Clear Cell Cribriform Hyperplasia"
+    },
+    {
+      "type": "Anatomic_Structure_Is_Physical_Part_Of",
+      "relatedCode": "C33407",
+      "relatedName": "Prostatic Duct Tissue"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C39901",
+      "relatedName": "Prostatic Duct Urothelial Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C39901",
+      "relatedName": "Prostatic Duct Urothelial Carcinoma"
+    },
+    {
+      "type": "Anatomic_Structure_Is_Physical_Part_Of",
+      "relatedCode": "C13102",
+      "relatedName": "Prostatic Duct"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C27615",
+      "relatedName": "Prostatic Infection"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C27615",
+      "relatedName": "Prostatic Infection"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C191961",
+      "relatedName": "Prostatic Intraepithelial Neoplasia-Like Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C191961",
+      "relatedName": "Prostatic Intraepithelial Neoplasia-Like Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C4064",
+      "relatedName": "Prostatic Intraepithelial Neoplasia"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C4064",
+      "relatedName": "Prostatic Intraepithelial Neoplasia"
+    },
+    {
+      "type": "Anatomic_Structure_Is_Physical_Part_Of",
+      "relatedCode": "C13104",
+      "relatedName": "Prostatic Stroma"
+    },
+    {
+      "type": "Anatomic_Structure_Is_Physical_Part_Of",
+      "relatedCode": "C33414",
+      "relatedName": "Prostatic Tissue"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C39900",
+      "relatedName": "Prostatic Urethra Urothelial Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C39900",
+      "relatedName": "Prostatic Urethra Urothelial Carcinoma"
+    },
+    {
+      "type": "Anatomic_Structure_Has_Location",
+      "relatedCode": "C63862",
+      "relatedName": "Prostatic Utricle"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C26866",
+      "relatedName": "Prostatitis"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C26866",
+      "relatedName": "Prostatitis"
+    },
+    {
+      "type": "Gene_Product_Expressed_In_Tissue",
+      "relatedCode": "C97484",
+      "relatedName": "Protein FEV"
+    },
+    {
+      "type": "Gene_Product_Expressed_In_Tissue",
+      "relatedCode": "C21448",
+      "relatedName": "Protein Wnt-2b"
+    },
+    {
+      "type": "Procedure_Has_Completely_Excised_Anatomy",
+      "relatedCode": "C51899",
+      "relatedName": "Radical Cystoprostatectomy"
+    },
+    {
+      "type": "Procedure_Has_Excised_Anatomy",
+      "relatedCode": "C51899",
+      "relatedName": "Radical Cystoprostatectomy"
+    },
+    {
+      "type": "Procedure_Has_Completely_Excised_Anatomy",
+      "relatedCode": "C94451",
+      "relatedName": "Radical Perineal Prostatectomy"
+    },
+    {
+      "type": "Procedure_Has_Excised_Anatomy",
+      "relatedCode": "C94451",
+      "relatedName": "Radical Perineal Prostatectomy"
+    },
+    {
+      "type": "Procedure_Has_Completely_Excised_Anatomy",
+      "relatedCode": "C15399",
+      "relatedName": "Radical Prostatectomy"
+    },
+    {
+      "type": "Procedure_Has_Excised_Anatomy",
+      "relatedCode": "C15399",
+      "relatedName": "Radical Prostatectomy"
+    },
+    {
+      "type": "Procedure_Has_Completely_Excised_Anatomy",
+      "relatedCode": "C51884",
+      "relatedName": "Radical Retropubic Prostatectomy"
+    },
+    {
+      "type": "Procedure_Has_Excised_Anatomy",
+      "relatedCode": "C51884",
+      "relatedName": "Radical Retropubic Prostatectomy"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C222566",
+      "relatedName": "Recurrent Castration-Resistant Prostate Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C222566",
+      "relatedName": "Recurrent Castration-Resistant Prostate Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C205238",
+      "relatedName": "Recurrent Castration-Sensitive Prostate Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C205238",
+      "relatedName": "Recurrent Castration-Sensitive Prostate Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C153570",
+      "relatedName": "Recurrent Prostate Acinar Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C153570",
+      "relatedName": "Recurrent Prostate Acinar Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C171012",
+      "relatedName": "Recurrent Prostate Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C171012",
+      "relatedName": "Recurrent Prostate Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C7902",
+      "relatedName": "Recurrent Prostate Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C7902",
+      "relatedName": "Recurrent Prostate Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C215318",
+      "relatedName": "Recurrent Prostate Neuroendocrine Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C215318",
+      "relatedName": "Recurrent Prostate Neuroendocrine Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C191859",
+      "relatedName": "Recurrent Prostate Small Cell Neuroendocrine Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C191859",
+      "relatedName": "Recurrent Prostate Small Cell Neuroendocrine Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C167256",
+      "relatedName": "Refractory Prostate Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C167256",
+      "relatedName": "Refractory Prostate Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C167255",
+      "relatedName": "Refractory Prostate Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C167255",
+      "relatedName": "Refractory Prostate Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C191862",
+      "relatedName": "Refractory Prostate Small Cell Neuroendocrine Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C191862",
+      "relatedName": "Refractory Prostate Small Cell Neuroendocrine Carcinoma"
+    },
+    {
+      "type": "Procedure_Has_Excised_Anatomy",
+      "relatedCode": "C15401",
+      "relatedName": "Retropubic Prostatectomy"
+    },
+    {
+      "type": "Gene_Product_Expressed_In_Tissue",
+      "relatedCode": "C102920",
+      "relatedName": "SAM Pointed Domain-Containing Ets Transcription Factor"
+    },
+    {
+      "type": "Gene_Product_Expressed_In_Tissue",
+      "relatedCode": "C98049",
+      "relatedName": "Sentrin-Specific Protease 6"
+    },
+    {
+      "type": "Procedure_Has_Partially_Excised_Anatomy",
+      "relatedCode": "C142183",
+      "relatedName": "Sextant Core Biopsy"
+    },
+    {
+      "type": "Gene_Product_Expressed_In_Tissue",
+      "relatedCode": "C21323",
+      "relatedName": "SH2B Adapter Protein 2"
+    },
+    {
+      "type": "Gene_Product_Expressed_In_Tissue",
+      "relatedCode": "C97793",
+      "relatedName": "Solute Carrier Family 45 Member 3"
+    },
+    {
+      "type": "Gene_Product_Expressed_In_Tissue",
+      "relatedCode": "C208012",
+      "relatedName": "Sorbitol Dehydrogenase"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C7556",
+      "relatedName": "Stage A Prostate Cancer"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C7556",
+      "relatedName": "Stage A Prostate Cancer"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C7554",
+      "relatedName": "Stage B Prostate Cancer"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C7554",
+      "relatedName": "Stage B Prostate Cancer"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C7552",
+      "relatedName": "Stage C Prostate Cancer"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C7552",
+      "relatedName": "Stage C Prostate Cancer"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C7099",
+      "relatedName": "Stage D Prostate Cancer"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C7099",
+      "relatedName": "Stage D Prostate Cancer"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C8947",
+      "relatedName": "Stage I Prostate Adenocarcinoma AJCC v7"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C8947",
+      "relatedName": "Stage I Prostate Adenocarcinoma AJCC v7"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C7555",
+      "relatedName": "Stage I Prostate Cancer AJCC v6"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C7555",
+      "relatedName": "Stage I Prostate Cancer AJCC v6"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C89232",
+      "relatedName": "Stage I Prostate Cancer AJCC v7"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C89232",
+      "relatedName": "Stage I Prostate Cancer AJCC v7"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C140164",
+      "relatedName": "Stage I Prostate Cancer AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C140164",
+      "relatedName": "Stage I Prostate Cancer AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C8948",
+      "relatedName": "Stage II Prostate Adenocarcinoma AJCC v7"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C8948",
+      "relatedName": "Stage II Prostate Adenocarcinoma AJCC v7"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C7553",
+      "relatedName": "Stage II Prostate Cancer AJCC v6"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C7553",
+      "relatedName": "Stage II Prostate Cancer AJCC v6"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C89233",
+      "relatedName": "Stage II Prostate Cancer AJCC v7"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C89233",
+      "relatedName": "Stage II Prostate Cancer AJCC v7"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C140165",
+      "relatedName": "Stage II Prostate Cancer AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C140165",
+      "relatedName": "Stage II Prostate Cancer AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C88106",
+      "relatedName": "Stage IIA Prostate Cancer AJCC v7"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C88106",
+      "relatedName": "Stage IIA Prostate Cancer AJCC v7"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C140166",
+      "relatedName": "Stage IIA Prostate Cancer AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C140166",
+      "relatedName": "Stage IIA Prostate Cancer AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C88107",
+      "relatedName": "Stage IIB Prostate Cancer AJCC v7"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C88107",
+      "relatedName": "Stage IIB Prostate Cancer AJCC v7"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C140167",
+      "relatedName": "Stage IIB Prostate Cancer AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C140167",
+      "relatedName": "Stage IIB Prostate Cancer AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C140168",
+      "relatedName": "Stage IIC Prostate Cancer AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C140168",
+      "relatedName": "Stage IIC Prostate Cancer AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C8949",
+      "relatedName": "Stage III Prostate Adenocarcinoma AJCC v7"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C8949",
+      "relatedName": "Stage III Prostate Adenocarcinoma AJCC v7"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C7551",
+      "relatedName": "Stage III Prostate Cancer AJCC v6"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C7551",
+      "relatedName": "Stage III Prostate Cancer AJCC v6"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C89234",
+      "relatedName": "Stage III Prostate Cancer AJCC v7"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C89234",
+      "relatedName": "Stage III Prostate Cancer AJCC v7"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C140169",
+      "relatedName": "Stage III Prostate Cancer AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C140169",
+      "relatedName": "Stage III Prostate Cancer AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C140170",
+      "relatedName": "Stage IIIA Prostate Cancer AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C140170",
+      "relatedName": "Stage IIIA Prostate Cancer AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C140171",
+      "relatedName": "Stage IIIB Prostate Cancer AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C140171",
+      "relatedName": "Stage IIIB Prostate Cancer AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C140172",
+      "relatedName": "Stage IIIC Prostate Cancer AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C140172",
+      "relatedName": "Stage IIIC Prostate Cancer AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C8950",
+      "relatedName": "Stage IV Prostate Adenocarcinoma AJCC v7"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C8950",
+      "relatedName": "Stage IV Prostate Adenocarcinoma AJCC v7"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C9075",
+      "relatedName": "Stage IV Prostate Cancer AJCC v6"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C9075",
+      "relatedName": "Stage IV Prostate Cancer AJCC v6"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C89235",
+      "relatedName": "Stage IV Prostate Cancer AJCC v7"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C89235",
+      "relatedName": "Stage IV Prostate Cancer AJCC v7"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C140173",
+      "relatedName": "Stage IV Prostate Cancer AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C140173",
+      "relatedName": "Stage IV Prostate Cancer AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C140174",
+      "relatedName": "Stage IVA Prostate Cancer AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C140174",
+      "relatedName": "Stage IVA Prostate Cancer AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C140175",
+      "relatedName": "Stage IVB Prostate Cancer AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C140175",
+      "relatedName": "Stage IVB Prostate Cancer AJCC v8"
+    },
+    {
+      "type": "Procedure_Has_Excised_Anatomy",
+      "relatedCode": "C172325",
+      "relatedName": "Subtotal Prostatectomy"
+    },
+    {
+      "type": "Procedure_Has_Partially_Excised_Anatomy",
+      "relatedCode": "C172325",
+      "relatedName": "Subtotal Prostatectomy"
+    },
+    {
+      "type": "Gene_Product_Expressed_In_Tissue",
+      "relatedCode": "C18295",
+      "relatedName": "Suppressor of Tumorigenicity 14 Protein"
+    },
+    {
+      "type": "Procedure_Has_Excised_Anatomy",
+      "relatedCode": "C51589",
+      "relatedName": "Suprapubic Prostatectomy"
+    },
+    {
+      "type": "Anatomic_Structure_Is_Physical_Part_Of",
+      "relatedCode": "C13091",
+      "relatedName": "Surface of the Prostate"
+    },
+    {
+      "type": "Procedure_Has_Partially_Excised_Anatomy",
+      "relatedCode": "C192890",
+      "relatedName": "Systematic Prostate Biopsy"
+    },
+    {
+      "type": "Procedure_Has_Partially_Excised_Anatomy",
+      "relatedCode": "C192889",
+      "relatedName": "Targeted Prostate Biopsy"
+    },
+    {
+      "type": "Anatomic_Structure_Is_Physical_Part_Of",
+      "relatedCode": "C33803",
+      "relatedName": "Transitional Zone of the Prostatic Parenchyma"
+    },
+    {
+      "type": "Procedure_Has_Partially_Excised_Anatomy",
+      "relatedCode": "C93199",
+      "relatedName": "Transperineal Biopsy"
+    },
+    {
+      "type": "Procedure_Has_Partially_Excised_Anatomy",
+      "relatedCode": "C182616",
+      "relatedName": "Transperineal MRI-guided Prostate Biopsy"
+    },
+    {
+      "type": "Procedure_Has_Partially_Excised_Anatomy",
+      "relatedCode": "C179440",
+      "relatedName": "Transrectal MRI-Guided Prostate Biopsy"
+    },
+    {
+      "type": "Procedure_Has_Partially_Excised_Anatomy",
+      "relatedCode": "C93200",
+      "relatedName": "Transrectal Prostate Biopsy"
+    },
+    {
+      "type": "Procedure_Has_Partially_Excised_Anatomy",
+      "relatedCode": "C143148",
+      "relatedName": "Transrectal Ultrasonography Guided Biopsy"
+    },
+    {
+      "type": "Procedure_Has_Excised_Anatomy",
+      "relatedCode": "C16188",
+      "relatedName": "Transurethral Electrovaporization of the Prostate"
+    },
+    {
+      "type": "Procedure_Has_Partially_Excised_Anatomy",
+      "relatedCode": "C16188",
+      "relatedName": "Transurethral Electrovaporization of the Prostate"
+    },
+    {
+      "type": "Procedure_Has_Excised_Anatomy",
+      "relatedCode": "C89823",
+      "relatedName": "Transurethral Microwave Thermotherapy of the Prostate"
+    },
+    {
+      "type": "Procedure_Has_Partially_Excised_Anatomy",
+      "relatedCode": "C89823",
+      "relatedName": "Transurethral Microwave Thermotherapy of the Prostate"
+    },
+    {
+      "type": "Procedure_Has_Excised_Anatomy",
+      "relatedCode": "C89821",
+      "relatedName": "Transurethral Needle Ablation of the Prostate"
+    },
+    {
+      "type": "Procedure_Has_Partially_Excised_Anatomy",
+      "relatedCode": "C89821",
+      "relatedName": "Transurethral Needle Ablation of the Prostate"
+    },
+    {
+      "type": "Procedure_Has_Partially_Excised_Anatomy",
+      "relatedCode": "C93198",
+      "relatedName": "Transurethral Prostate Biopsy"
+    },
+    {
+      "type": "Procedure_Has_Excised_Anatomy",
+      "relatedCode": "C15343",
+      "relatedName": "Transurethral Prostatic Resection"
+    },
+    {
+      "type": "Procedure_Has_Partially_Excised_Anatomy",
+      "relatedCode": "C15343",
+      "relatedName": "Transurethral Prostatic Resection"
+    },
+    {
+      "type": "Procedure_Has_Excised_Anatomy",
+      "relatedCode": "C204439",
+      "relatedName": "Transurethral Vaporesection of the Prostate"
+    },
+    {
+      "type": "Procedure_Has_Partially_Excised_Anatomy",
+      "relatedCode": "C204439",
+      "relatedName": "Transurethral Vaporesection of the Prostate"
+    },
+    {
+      "type": "Procedure_Has_Excised_Anatomy",
+      "relatedCode": "C207807",
+      "relatedName": "Transvesical Single Port Robotic Partial Prostatectomy"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C191963",
+      "relatedName": "Treatment-Related Prostate Neuroendocrine Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C191963",
+      "relatedName": "Treatment-Related Prostate Neuroendocrine Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C35176",
+      "relatedName": "Trichomonas Prostatitis"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C35176",
+      "relatedName": "Trichomonas Prostatitis"
+    },
+    {
+      "type": "Gene_Product_Expressed_In_Tissue",
+      "relatedCode": "C20533",
+      "relatedName": "Tumor Necrosis Factor Ligand Superfamily Member 10"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C39904",
+      "relatedName": "Tumor of Specialized Prostatic Stroma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C39904",
+      "relatedName": "Tumor of Specialized Prostatic Stroma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C39904",
+      "relatedName": "Tumor of Specialized Prostatic Stroma"
+    },
+    {
+      "type": "Procedure_Has_Partially_Excised_Anatomy",
+      "relatedCode": "C116510",
+      "relatedName": "Ultrasound-Guided Prostate Biopsy"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C179461",
+      "relatedName": "Unresectable Castration-Resistant Prostate Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C179461",
+      "relatedName": "Unresectable Castration-Resistant Prostate Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C171611",
+      "relatedName": "Unresectable Prostate Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C171611",
+      "relatedName": "Unresectable Prostate Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C222655",
+      "relatedName": "Unresectable Prostate Neuroendocrine Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C222655",
+      "relatedName": "Unresectable Prostate Neuroendocrine Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C191856",
+      "relatedName": "Unresectable Prostate Small Cell Neuroendocrine Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C191856",
+      "relatedName": "Unresectable Prostate Small Cell Neuroendocrine Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C158656",
+      "relatedName": "Usual Prostate Adenocarcinoma with Neuroendocrine Differentiation"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C158656",
+      "relatedName": "Usual Prostate Adenocarcinoma with Neuroendocrine Differentiation"
+    },
+    {
+      "type": "Gene_Product_Expressed_In_Tissue",
+      "relatedCode": "C21441",
+      "relatedName": "Vascular Endothelial Growth Factor C"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C63796",
+      "relatedName": "Verumontanum Mucosal Gland Hyperplasia"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C63796",
+      "relatedName": "Verumontanum Mucosal Gland Hyperplasia"
+    }
+  ],
+  "history": [
+    {
+      "code": "C12410",
+      "action": "create",
+      "date": "2003-08-12"
+    },
+    {
+      "code": "C12410",
+      "action": "modify",
+      "date": "2003-10-31"
+    },
+    {
+      "code": "C12410",
+      "action": "modify",
+      "date": "2003-12-30"
+    },
+    {
+      "code": "C12410",
+      "action": "modify",
+      "date": "2004-02-23"
+    },
+    {
+      "code": "C12410",
+      "action": "modify",
+      "date": "2004-03-30"
+    },
+    {
+      "code": "C12410",
+      "action": "modify",
+      "date": "2004-08-02"
+    },
+    {
+      "code": "C12410",
+      "action": "modify",
+      "date": "2005-03-16"
+    },
+    {
+      "code": "C12410",
+      "action": "modify",
+      "date": "2005-03-30"
+    },
+    {
+      "code": "C12410",
+      "action": "modify",
+      "date": "2006-01-03"
+    },
+    {
+      "code": "C12410",
+      "action": "modify",
+      "date": "2008-06-27"
+    },
+    {
+      "code": "C12410",
+      "action": "modify",
+      "date": "2008-09-12"
+    },
+    {
+      "code": "C12410",
+      "action": "modify",
+      "date": "2008-11-14"
+    },
+    {
+      "code": "C12410",
+      "action": "modify",
+      "date": "2008-11-26"
+    },
+    {
+      "code": "C12410",
+      "action": "modify",
+      "date": "2008-12-19"
+    },
+    {
+      "code": "C12410",
+      "action": "modify",
+      "date": "2008-11-07"
+    },
+    {
+      "code": "C12410",
+      "action": "modify",
+      "date": "2009-03-16"
+    },
+    {
+      "code": "C12410",
+      "action": "modify",
+      "date": "2009-11-23"
+    },
+    {
+      "code": "C12410",
+      "action": "modify",
+      "date": "2011-02-14"
+    },
+    {
+      "code": "C12410",
+      "action": "modify",
+      "date": "2013-02-25"
+    },
+    {
+      "code": "C12410",
+      "action": "modify",
+      "date": "2013-03-04"
+    },
+    {
+      "code": "C12410",
+      "action": "modify",
+      "date": "2013-03-11"
+    },
+    {
+      "code": "C12410",
+      "action": "modify",
+      "date": "2013-03-18"
+    },
+    {
+      "code": "C12410",
+      "action": "modify",
+      "date": "2013-03-25"
+    },
+    {
+      "code": "C12410",
+      "action": "modify",
+      "date": "2013-04-01"
+    },
+    {
+      "code": "C12410",
+      "action": "modify",
+      "date": "2013-04-08"
+    },
+    {
+      "code": "C12410",
+      "action": "modify",
+      "date": "2013-04-15"
+    },
+    {
+      "code": "C12410",
+      "action": "modify",
+      "date": "2013-04-22"
+    },
+    {
+      "code": "C12410",
+      "action": "modify",
+      "date": "2013-04-29"
+    },
+    {
+      "code": "C12410",
+      "action": "modify",
+      "date": "2013-05-06"
+    },
+    {
+      "code": "C12410",
+      "action": "modify",
+      "date": "2013-05-13"
+    },
+    {
+      "code": "C12410",
+      "action": "modify",
+      "date": "2013-05-20"
+    },
+    {
+      "code": "C12410",
+      "action": "modify",
+      "date": "2013-05-28"
+    },
+    {
+      "code": "C12410",
+      "action": "modify",
+      "date": "2013-06-03"
+    },
+    {
+      "code": "C12410",
+      "action": "modify",
+      "date": "2013-06-10"
+    },
+    {
+      "code": "C12410",
+      "action": "modify",
+      "date": "2013-06-17"
+    },
+    {
+      "code": "C12410",
+      "action": "modify",
+      "date": "2013-06-24"
+    },
+    {
+      "code": "C12410",
+      "action": "modify",
+      "date": "2013-07-01"
+    },
+    {
+      "code": "C12410",
+      "action": "modify",
+      "date": "2013-07-08"
+    },
+    {
+      "code": "C12410",
+      "action": "modify",
+      "date": "2014-02-03"
+    },
+    {
+      "code": "C12410",
+      "action": "modify",
+      "date": "2015-05-26"
+    },
+    {
+      "code": "C12410",
+      "action": "modify",
+      "date": "2015-06-01"
+    },
+    {
+      "code": "C12410",
+      "action": "modify",
+      "date": "2015-06-08"
+    },
+    {
+      "code": "C12410",
+      "action": "modify",
+      "date": "2015-06-15"
+    },
+    {
+      "code": "C12410",
+      "action": "modify",
+      "date": "2015-06-22"
+    },
+    {
+      "code": "C12410",
+      "action": "modify",
+      "date": "2015-06-29"
+    },
+    {
+      "code": "C12410",
+      "action": "modify",
+      "date": "2015-07-06"
+    },
+    {
+      "code": "C12410",
+      "action": "modify",
+      "date": "2015-07-13"
+    },
+    {
+      "code": "C12410",
+      "action": "modify",
+      "date": "2015-07-20"
+    },
+    {
+      "code": "C12410",
+      "action": "modify",
+      "date": "2015-08-12"
+    },
+    {
+      "code": "C12410",
+      "action": "modify",
+      "date": "2015-08-31"
+    },
+    {
+      "code": "C12410",
+      "action": "modify",
+      "date": "2015-10-19"
+    },
+    {
+      "code": "C12410",
+      "action": "modify",
+      "date": "2015-11-30"
+    },
+    {
+      "code": "C12410",
+      "action": "modify",
+      "date": "2016-10-17"
+    },
+    {
+      "code": "C12410",
+      "action": "modify",
+      "date": "2017-02-27"
+    },
+    {
+      "code": "C12410",
+      "action": "modify",
+      "date": "2017-03-06"
+    },
+    {
+      "code": "C12410",
+      "action": "modify",
+      "date": "2017-03-13"
+    },
+    {
+      "code": "C12410",
+      "action": "modify",
+      "date": "2018-09-24"
+    },
+    {
+      "code": "C12410",
+      "action": "modify",
+      "date": "2018-10-29"
+    },
+    {
+      "code": "C12410",
+      "action": "modify",
+      "date": "2018-10-29"
+    },
+    {
+      "code": "C12410",
+      "action": "modify",
+      "date": "2019-04-29"
+    },
+    {
+      "code": "C12410",
+      "action": "modify",
+      "date": "2019-05-28"
+    },
+    {
+      "code": "C12410",
+      "action": "modify",
+      "date": "2019-06-24"
+    },
+    {
+      "code": "C12410",
+      "action": "modify",
+      "date": "2019-07-29"
+    },
+    {
+      "code": "C12410",
+      "action": "modify",
+      "date": "2019-09-30"
+    },
+    {
+      "code": "C12410",
+      "action": "modify",
+      "date": "2019-10-28"
+    },
+    {
+      "code": "C12410",
+      "action": "modify",
+      "date": "2020-02-24"
+    },
+    {
+      "code": "C12410",
+      "action": "modify",
+      "date": "2020-03-30"
+    },
+    {
+      "code": "C12410",
+      "action": "modify",
+      "date": "2020-09-29"
+    },
+    {
+      "code": "C12410",
+      "action": "modify",
+      "date": "2021-02-22"
+    },
+    {
+      "code": "C12410",
+      "action": "modify",
+      "date": "2021-03-29"
+    },
+    {
+      "code": "C12410",
+      "action": "modify",
+      "date": "2021-11-29"
+    },
+    {
+      "code": "C12410",
+      "action": "modify",
+      "date": "2022-04-25"
+    },
+    {
+      "code": "C12410",
+      "action": "modify",
+      "date": "2022-08-29"
+    },
+    {
+      "code": "C12410",
+      "action": "modify",
+      "date": "2022-10-31"
+    },
+    {
+      "code": "C12410",
+      "action": "modify",
+      "date": "2023-02-27"
+    },
+    {
+      "code": "C12410",
+      "action": "modify",
+      "date": "2023-03-27"
+    },
+    {
+      "code": "C12410",
+      "action": "modify",
+      "date": "2023-05-30"
+    },
+    {
+      "code": "C12410",
+      "action": "modify",
+      "date": "2023-09-25"
+    },
+    {
+      "code": "C12410",
+      "action": "modify",
+      "date": "2024-07-08"
+    }
+  ],
+  "maps": [
+    {
+      "type": "Related To",
+      "targetName": "PROSTATE GLAND",
+      "targetTermType": "HT",
+      "targetCode": "C61",
+      "targetTerminology": "ICDO3",
+      "targetTerminologyVersion": "3.1"
+    },
+    {
+      "type": "Related To",
+      "targetName": "PROSTATE GLAND",
+      "targetTermType": "HT",
+      "targetCode": "C61",
+      "targetTerminology": "ICDO3",
+      "targetTerminologyVersion": "3.2"
+    },
+    {
+      "type": "Related To",
+      "targetName": "Prostate gland",
+      "targetTermType": "PT",
+      "targetCode": "C61.9",
+      "targetTerminology": "ICDO3",
+      "targetTerminologyVersion": "3.2"
+    },
+    {
+      "type": "Related To",
+      "targetName": "Prostate gland",
+      "targetTermType": "PT",
+      "targetCode": "C61.9",
+      "targetTerminology": "ICDO3",
+      "targetTerminologyVersion": "3.1"
+    },
+    {
+      "type": "Has Synonym",
+      "targetName": "Prostate gland",
+      "targetTermType": "PT",
+      "targetCode": "primary_site",
+      "targetTerminology": "GDC"
+    },
+    {
+      "type": "Has Synonym",
+      "targetName": "Prostate gland",
+      "targetTermType": "PT",
+      "targetCode": "progression_or_recurrence_anatomic_site",
+      "targetTerminology": "GDC"
+    },
+    {
+      "type": "Has Synonym",
+      "targetName": "Prostate gland",
+      "targetTermType": "PT",
+      "targetCode": "site_of_resection_or_biopsy",
+      "targetTerminology": "GDC"
+    },
+    {
+      "type": "Has Synonym",
+      "targetName": "Prostate gland",
+      "targetTermType": "PT",
+      "targetCode": "tissue_or_organ_of_origin",
+      "targetTerminology": "GDC"
+    },
+    {
+      "type": "Related To",
+      "targetName": "Prostate, NOS",
+      "targetTermType": "SY",
+      "targetCode": "C61.9",
+      "targetTerminology": "ICDO3",
+      "targetTerminologyVersion": "3.2"
+    },
+    {
+      "type": "Related To",
+      "targetName": "Prostate, NOS",
+      "targetTermType": "SY",
+      "targetCode": "C61.9",
+      "targetTerminology": "ICDO3",
+      "targetTerminologyVersion": "3.1"
+    },
+    {
+      "type": "Has Synonym",
+      "targetName": "Prostate",
+      "targetTermType": "PT",
+      "targetCode": "biospecimen_anatomic_site",
+      "targetTerminology": "GDC"
+    },
+    {
+      "type": "Has Synonym",
+      "targetName": "Prostate",
+      "targetTermType": "PT",
+      "targetCode": "sites_of_involvement",
+      "targetTerminology": "GDC"
+    },
+    {
+      "type": "Has Synonym",
+      "targetName": "Prostate",
+      "targetTermType": "PT",
+      "targetCode": "treatment_anatomic_sites",
+      "targetTerminology": "GDC"
+    }
+  ]
+}

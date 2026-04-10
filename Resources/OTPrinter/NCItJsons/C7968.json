@@ -1,0 +1,647 @@
+{
+  "code": "C7968",
+  "name": "Childhood Acute Promyelocytic Leukemia with t(15;17)(q24.1;q21.2); PML-RARA",
+  "terminology": "ncit",
+  "version": "25.11d",
+  "conceptStatus": "DEFAULT",
+  "leaf": true,
+  "active": true,
+  "synonyms": [
+    {
+      "name": "Acute Promyelocytic Leukemia with PML-RARA",
+      "termType": "DN",
+      "type": "FULL_SYN",
+      "source": "CTRP"
+    },
+    {
+      "name": "Childhood Acute Promyelocytic Leukemia with PML-RARA",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Childhood Acute Promyelocytic Leukemia with t(15;17)(q24.1;q21.2); PML-RARA",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Childhood Acute Promyelocytic Leukemia with t(15;17)(q24.1;q21.2); PML-RARA",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Childhood Acute Promyelocytic Leukemia with t(15;17)(q24.1;q21.2); PML-RARA Fusion",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Childhood Acute Promyelocytic Leukemia with t(15;17)(q24.1;q21.2); PML::RARA",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Childhood Acute Promyelocytic Leukemia with t(15;17)(q24.1;q21.2); PML::RARA Fusion",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Childhood Acute Promyelocytic Leukemia with t(15;17)(q24.1;q21.2); PML-RARA",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NICHD"
+    },
+    {
+      "name": "Childhood APL with t(15;17)(q24.1;q21.2); PML-RARA",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NICHD"
+    },
+    {
+      "name": "Childhood APML with t(15;17)(q24.1;q21.2); PML-RARA",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NICHD"
+    },
+    {
+      "name": "Childhood Acute Promyelocytic Leukemia with t(15;17)(q22;q12); PML-RARA",
+      "type": "Display_Name"
+    },
+    {
+      "name": "Childhood Acute Promyelocytic Leukemia with t(15;17)(q24.1;q21.2); PML-RARA",
+      "type": "Preferred_Name"
+    },
+    {
+      "name": "APL with PML-RARA",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "PCDC",
+      "subSource": "AML"
+    }
+  ],
+  "definitions": [
+    {
+      "definition": "An acute promyelocytic leukemia with t(15;17)(q24.1;q21.2); PML-RARA that occurs in children.",
+      "type": "ALT_DEFINITION",
+      "source": "NICHD"
+    },
+    {
+      "definition": "An acute promyelocytic leukemia with t(15;17)(q24.1;q21.2); PML-RARA that occurs in children.",
+      "type": "DEFINITION",
+      "source": "NCI"
+    }
+  ],
+  "properties": [
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "CTRP"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "NICHD"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "PCDC"
+    },
+    {
+      "code": "P366",
+      "type": "Legacy Concept Name",
+      "value": "Childhood_Acute_Promyelocytic_Leukemia"
+    },
+    {
+      "code": "P363",
+      "type": "Neoplastic_Status",
+      "value": "Malignant"
+    },
+    {
+      "code": "P106",
+      "type": "Semantic_Type",
+      "value": "Neoplastic Process"
+    },
+    {
+      "code": "P207",
+      "type": "UMLS_CUI",
+      "value": "C0279641"
+    }
+  ],
+  "parents": [
+    {
+      "code": "C3182",
+      "name": "Acute Promyelocytic Leukemia with t(15;17)(q24.1;q21.2); PML-RARA"
+    },
+    {
+      "code": "C208354",
+      "name": "Childhood Acute Promyelocytic Leukemia"
+    }
+  ],
+  "associations": [
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C174019",
+      "relatedName": "AML Authorized Value Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C173232",
+      "relatedName": "AML Disease Characteristics Table"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C118168",
+      "relatedName": "CTRP Disease Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C116977",
+      "relatedName": "CTRP Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C90259",
+      "relatedName": "NICHD Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C132009",
+      "relatedName": "Pediatric Hematology-Oncology Terminology"
+    },
+    {
+      "type": "Is_PCDC_AML_Authorized_Value_For_Variable",
+      "relatedCode": "C159157",
+      "relatedName": "WHO AML Classification of Tumors"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C6283",
+      "relatedName": "Childhood Neoplasm",
+      "qualifiers": [
+        {
+          "type": "computed",
+          "value": "This is computed by the existing subset relationship"
+        }
+      ]
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C4005",
+      "relatedName": "Childhood Malignant Neoplasm",
+      "qualifiers": [
+        {
+          "type": "computed",
+          "value": "This is computed by the existing subset relationship"
+        }
+      ]
+    }
+  ],
+  "inverseAssociations": [
+    {
+      "type": "Has_PCDC_AML_Authorized_Value",
+      "relatedCode": "C159157",
+      "relatedName": "WHO AML Classification of Tumors"
+    }
+  ],
+  "roles": [
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C36122",
+      "relatedName": "Benign Cellular Infiltrate"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C136648",
+      "relatedName": "Blasts 10 Percent or More of Bone Marrow Nucleated Cells"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C138056",
+      "relatedName": "Blasts 10 Percent or More of Peripheral Blood White Cells"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C42716",
+      "relatedName": "Bone Marrow Stem Cell with Potential to Differentiate to Granulocytic Lineage"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C13456",
+      "relatedName": "Bone Marrow Stem Cell"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12431",
+      "relatedName": "Bone Marrow"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12431",
+      "relatedName": "Bone Marrow"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C60644",
+      "relatedName": "Childhood Lesion"
+    },
+    {
+      "type": "Disease_Has_Cytogenetic_Abnormality",
+      "relatedCode": "C36541",
+      "relatedName": "Chromosomal Rearrangement"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C36158",
+      "relatedName": "Chronic Clinical Course"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C158864",
+      "relatedName": "Cytogenetic Abnormalities Not Detected"
+    },
+    {
+      "type": "Disease_May_Have_Associated_Disease",
+      "relatedCode": "C2992",
+      "relatedName": "Disseminated Intravascular Coagulation"
+    },
+    {
+      "type": "Disease_May_Have_Abnormal_Cell",
+      "relatedCode": "C37052",
+      "relatedName": "Faggot Cell"
+    },
+    {
+      "type": "Disease_Has_Molecular_Abnormality",
+      "relatedCode": "C36346",
+      "relatedName": "Fusion Protein Expression"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C41165",
+      "relatedName": "Hematopoietic and Lymphatic System"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C41165",
+      "relatedName": "Hematopoietic and Lymphatic System"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C32725",
+      "relatedName": "Hematopoietic and Lymphoid Cell"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C41168",
+      "relatedName": "Hematopoietic and Lymphoid Tissue"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C13051",
+      "relatedName": "Hematopoietic Tissue"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C35788",
+      "relatedName": "Hypercellular Bone Marrow"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C25553",
+      "relatedName": "Leukemic Cell"
+    },
+    {
+      "type": "Disease_Excludes_Normal_Cell_Origin",
+      "relatedCode": "C12535",
+      "relatedName": "Lymphocyte"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12917",
+      "relatedName": "Malignant Cell"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C36115",
+      "relatedName": "Malignant Cellular Infiltrate"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12922",
+      "relatedName": "Neoplastic Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C37060",
+      "relatedName": "Neoplastic Hematopoietic and Lymphoid Cell"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C12914",
+      "relatedName": "Neoplastic Lymphoblast"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C37065",
+      "relatedName": "Neoplastic Myeloblast"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C41063",
+      "relatedName": "Neoplastic Myeloid Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C37072",
+      "relatedName": "Neoplastic Promyelocyte"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C42773",
+      "relatedName": "Neoplastic Promyelocytes in Bone Marrow Markedly Increased"
+    },
+    {
+      "type": "Disease_Has_Molecular_Abnormality",
+      "relatedCode": "C37223",
+      "relatedName": "PML-RARA Fusion Protein Expression"
+    },
+    {
+      "type": "Disease_Mapped_To_Gene",
+      "relatedCode": "C99186",
+      "relatedName": "PML/RARA Fusion Gene"
+    },
+    {
+      "type": "Disease_Has_Cytogenetic_Abnormality",
+      "relatedCode": "C186964",
+      "relatedName": "RARA Gene Rearrangement"
+    },
+    {
+      "type": "Disease_Mapped_To_Gene",
+      "relatedCode": "C21571",
+      "relatedName": "RARA Gene"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C80329",
+      "relatedName": "Recurrent Genetic Abnormalities Present"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C36182",
+      "relatedName": "Solid Growth Pattern"
+    },
+    {
+      "type": "Disease_Has_Cytogenetic_Abnormality",
+      "relatedCode": "C27758",
+      "relatedName": "t(15;17)(q24;q21)"
+    }
+  ],
+  "inverseRoles": [
+    {
+      "type": "Regimen_Has_Accepted_Use_For_Disease",
+      "relatedCode": "C67482",
+      "relatedName": "Cytarabine/Fludarabine/Idarubicin Regimen"
+    },
+    {
+      "type": "Regimen_Has_Accepted_Use_For_Disease",
+      "relatedCode": "C67483",
+      "relatedName": "IDA-FLAG Regimen"
+    }
+  ],
+  "history": [
+    {
+      "code": "C7968",
+      "action": "create",
+      "date": "2003-08-12"
+    },
+    {
+      "code": "C7968",
+      "action": "modify",
+      "date": "2003-10-31"
+    },
+    {
+      "code": "C7968",
+      "action": "modify",
+      "date": "2003-12-30"
+    },
+    {
+      "code": "C7968",
+      "action": "modify",
+      "date": "2004-03-30"
+    },
+    {
+      "code": "C7968",
+      "action": "modify",
+      "date": "2004-12-30"
+    },
+    {
+      "code": "C7968",
+      "action": "modify",
+      "date": "2006-05-26"
+    },
+    {
+      "code": "C7968",
+      "action": "modify",
+      "date": "2007-10-29"
+    },
+    {
+      "code": "C7968",
+      "action": "modify",
+      "date": "2009-11-02"
+    },
+    {
+      "code": "C7968",
+      "action": "modify",
+      "date": "2009-11-23"
+    },
+    {
+      "code": "C7968",
+      "action": "modify",
+      "date": "2014-08-04"
+    },
+    {
+      "code": "C7968",
+      "action": "modify",
+      "date": "2014-08-18"
+    },
+    {
+      "code": "C7968",
+      "action": "modify",
+      "date": "2014-09-22"
+    },
+    {
+      "code": "C7968",
+      "action": "modify",
+      "date": "2016-11-07"
+    },
+    {
+      "code": "C7968",
+      "action": "modify",
+      "date": "2017-02-13"
+    },
+    {
+      "code": "C7968",
+      "action": "modify",
+      "date": "2017-02-21"
+    },
+    {
+      "code": "C7968",
+      "action": "modify",
+      "date": "2017-02-27"
+    },
+    {
+      "code": "C7968",
+      "action": "modify",
+      "date": "2017-03-06"
+    },
+    {
+      "code": "C7968",
+      "action": "modify",
+      "date": "2017-03-13"
+    },
+    {
+      "code": "C7968",
+      "action": "modify",
+      "date": "2017-03-20"
+    },
+    {
+      "code": "C7968",
+      "action": "modify",
+      "date": "2017-03-27"
+    },
+    {
+      "code": "C7968",
+      "action": "modify",
+      "date": "2017-04-03"
+    },
+    {
+      "code": "C7968",
+      "action": "modify",
+      "date": "2017-04-10"
+    },
+    {
+      "code": "C7968",
+      "action": "modify",
+      "date": "2017-04-17"
+    },
+    {
+      "code": "C7968",
+      "action": "modify",
+      "date": "2017-04-24"
+    },
+    {
+      "code": "C7968",
+      "action": "modify",
+      "date": "2017-05-01"
+    },
+    {
+      "code": "C7968",
+      "action": "modify",
+      "date": "2017-05-04"
+    },
+    {
+      "code": "C7968",
+      "action": "modify",
+      "date": "2017-07-31"
+    },
+    {
+      "code": "C7968",
+      "action": "modify",
+      "date": "2018-07-30"
+    },
+    {
+      "code": "C7968",
+      "action": "modify",
+      "date": "2018-08-27"
+    },
+    {
+      "code": "C7968",
+      "action": "modify",
+      "date": "2018-08-27"
+    },
+    {
+      "code": "C7968",
+      "action": "modify",
+      "date": "2020-02-24"
+    },
+    {
+      "code": "C7968",
+      "action": "modify",
+      "date": "2020-04-27"
+    },
+    {
+      "code": "C7968",
+      "action": "modify",
+      "date": "2020-06-29"
+    },
+    {
+      "code": "C7968",
+      "action": "modify",
+      "date": "2020-07-27"
+    },
+    {
+      "code": "C7968",
+      "action": "modify",
+      "date": "2020-08-31"
+    },
+    {
+      "code": "C7968",
+      "action": "modify",
+      "date": "2020-09-29"
+    },
+    {
+      "code": "C7968",
+      "action": "modify",
+      "date": "2020-11-30"
+    },
+    {
+      "code": "C7968",
+      "action": "modify",
+      "date": "2020-12-28"
+    },
+    {
+      "code": "C7968",
+      "action": "modify",
+      "date": "2021-03-29"
+    },
+    {
+      "code": "C7968",
+      "action": "modify",
+      "date": "2021-06-28"
+    },
+    {
+      "code": "C7968",
+      "action": "modify",
+      "date": "2022-10-31"
+    },
+    {
+      "code": "C7968",
+      "action": "modify",
+      "date": "2023-02-27"
+    },
+    {
+      "code": "C7968",
+      "action": "modify",
+      "date": "2023-04-24"
+    },
+    {
+      "code": "C7968",
+      "action": "modify",
+      "date": "2023-07-31"
+    },
+    {
+      "code": "C7968",
+      "action": "modify",
+      "date": "2024-08-26"
+    },
+    {
+      "code": "C7968",
+      "action": "modify",
+      "date": "2024-08-26"
+    }
+  ]
+}

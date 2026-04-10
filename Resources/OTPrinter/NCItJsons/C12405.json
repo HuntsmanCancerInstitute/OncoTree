@@ -1,0 +1,4770 @@
+{
+  "code": "C12405",
+  "name": "Uterus",
+  "terminology": "ncit",
+  "version": "25.11d",
+  "conceptStatus": "DEFAULT",
+  "leaf": false,
+  "active": true,
+  "synonyms": [
+    {
+      "name": "Uterus",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "caDSR"
+    },
+    {
+      "name": "UTERUS",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "CDISC"
+    },
+    {
+      "name": "Womb",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "CDISC"
+    },
+    {
+      "name": "Uterus",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "CPTAC"
+    },
+    {
+      "name": "Uterus",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "GDC"
+    },
+    {
+      "name": "Uterus, NOS",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "GDC"
+    },
+    {
+      "name": "Uterine structure (body structure)",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "mCode",
+      "code": "35039007",
+      "subSource": "SNOMED CT"
+    },
+    {
+      "name": "uterus",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NCI-GLOSS",
+      "code": "CDR0000046645"
+    },
+    {
+      "name": "womb",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NCI-GLOSS",
+      "code": "CDR0000044473"
+    },
+    {
+      "name": "Genital System, Female, Uterus",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Uterine",
+      "termType": "AD",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Utero",
+      "termType": "AD",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Uterus",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Uterus",
+      "type": "Display_Name"
+    },
+    {
+      "name": "Uterus",
+      "type": "Preferred_Name"
+    },
+    {
+      "name": "Uterus",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "PCDC",
+      "subSource": "OS"
+    },
+    {
+      "name": "uterus",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "UBERON"
+    }
+  ],
+  "definitions": [
+    {
+      "definition": "A hollow muscular organ within which the fertilized egg implants and the embryo/fetus develops during pregnancy.",
+      "type": "ALT_DEFINITION",
+      "source": "CDISC"
+    },
+    {
+      "definition": "A hollow, thick-walled, muscular organ located within the pelvic cavity of a woman. Within the uterus the fertilized egg implants and the fetus develops during pregnancy.",
+      "type": "DEFINITION",
+      "source": "NCI"
+    },
+    {
+      "definition": "The female muscular organ of gestation in which the developing embryo or fetus is nourished until birth.",
+      "type": "ALT_DEFINITION",
+      "source": "UBERON"
+    },
+    {
+      "definition": "The small, hollow, pear-shaped organ in a woman's pelvis. This is the organ in which a fetus develops.",
+      "type": "ALT_DEFINITION",
+      "source": "NCI-GLOSS"
+    }
+  ],
+  "properties": [
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "CDISC"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "CPTAC"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "GDC"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "mCode"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "PCDC"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "UBERON"
+    },
+    {
+      "code": "P366",
+      "type": "Legacy Concept Name",
+      "value": "Uterus"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "Uterine, NOS"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "Uterus"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "UTERUS, NOS"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "Uterus, NOS"
+    },
+    {
+      "code": "P106",
+      "type": "Semantic_Type",
+      "value": "Body Part, Organ, or Organ Component"
+    },
+    {
+      "code": "P207",
+      "type": "UMLS_CUI",
+      "value": "C0042149"
+    },
+    {
+      "code": "oboInOwl:hasDbXref",
+      "type": "xRef",
+      "value": "UBERON:0000995"
+    }
+  ],
+  "children": [
+    {
+      "code": "C12406",
+      "name": "Pregnant Uterus",
+      "leaf": true
+    }
+  ],
+  "parents": [
+    {
+      "code": "C13018",
+      "name": "Organ"
+    }
+  ],
+  "associations": [
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C74456",
+      "relatedName": "CDISC SDTM Anatomical Location Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C66830",
+      "relatedName": "CDISC SDTM Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C77529",
+      "relatedName": "CDISC SEND Biospecimens Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C77526",
+      "relatedName": "CDISC SEND Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C61410",
+      "relatedName": "Clinical Data Interchange Standards Consortium Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C156953",
+      "relatedName": "CPTAC Baseline Medical Forms Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C159414",
+      "relatedName": "CPTAC Sarcoma Baseline Form"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C156952",
+      "relatedName": "CPTAC Terminology"
+    },
+    {
+      "type": "Is_Value_For_GDC_Property",
+      "relatedCode": "C173263",
+      "relatedName": "Disease Involvement Site"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C157711",
+      "relatedName": "GDC Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C177537",
+      "relatedName": "GDC Value Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168655",
+      "relatedName": "Mapped ICDO3.1 Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168660",
+      "relatedName": "Mapped ICDO3.1 Topography PT Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168659",
+      "relatedName": "Mapped ICDO3.1 Topography Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168656",
+      "relatedName": "Mapped ICDO3.2 Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168664",
+      "relatedName": "Mapped ICDO3.2 Topography PT Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168663",
+      "relatedName": "Mapped ICDO3.2 Topography Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C193234",
+      "relatedName": "mCode Radiotherapy Treatment Location Value Set"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C193006",
+      "relatedName": "mCode Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C179478",
+      "relatedName": "OS Authorized Value Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C179482",
+      "relatedName": "OS Biopsy/Surgical Procedures Table"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C179483",
+      "relatedName": "OS Radiation Therapy Table"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C179481",
+      "relatedName": "OS Tumor Assessment Table"
+    },
+    {
+      "type": "Is_Value_For_GDC_Property",
+      "relatedCode": "C158874",
+      "relatedName": "Primary Site of Disease"
+    },
+    {
+      "type": "Is_Value_For_GDC_Property",
+      "relatedCode": "C177570",
+      "relatedName": "Progressive or Recurrent Disease Anatomic Site"
+    },
+    {
+      "type": "Is_Value_For_GDC_Property",
+      "relatedCode": "C156421",
+      "relatedName": "Site of Resection or Biopsy"
+    },
+    {
+      "type": "Is_Value_For_GDC_Property",
+      "relatedCode": "C171435",
+      "relatedName": "Specimen Anatomic Site"
+    },
+    {
+      "type": "Is_Value_For_GDC_Property",
+      "relatedCode": "C70729",
+      "relatedName": "Targeted Anatomic Site"
+    },
+    {
+      "type": "Is_Value_For_GDC_Property",
+      "relatedCode": "C156422",
+      "relatedName": "Tissue or Organ of Origin"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C198975",
+      "relatedName": "UBERON Terminology"
+    }
+  ],
+  "inverseAssociations": [
+    {
+      "type": "Has_GDC_Value",
+      "relatedCode": "C173263",
+      "relatedName": "Disease Involvement Site"
+    },
+    {
+      "type": "Has_GDC_Value",
+      "relatedCode": "C158874",
+      "relatedName": "Primary Site of Disease"
+    },
+    {
+      "type": "Has_GDC_Value",
+      "relatedCode": "C177570",
+      "relatedName": "Progressive or Recurrent Disease Anatomic Site"
+    },
+    {
+      "type": "Has_PCDC_OS_Authorized_Value",
+      "relatedCode": "C173281",
+      "relatedName": "Site of Radiation Therapy"
+    },
+    {
+      "type": "Has_GDC_Value",
+      "relatedCode": "C156421",
+      "relatedName": "Site of Resection or Biopsy"
+    },
+    {
+      "type": "Has_PCDC_OS_Authorized_Value",
+      "relatedCode": "C157120",
+      "relatedName": "Site of Tumor"
+    },
+    {
+      "type": "Has_GDC_Value",
+      "relatedCode": "C171435",
+      "relatedName": "Specimen Anatomic Site"
+    },
+    {
+      "type": "Has_PCDC_OS_Authorized_Value",
+      "relatedCode": "C164323",
+      "relatedName": "Surgical Site"
+    },
+    {
+      "type": "Has_GDC_Value",
+      "relatedCode": "C70729",
+      "relatedName": "Targeted Anatomic Site"
+    },
+    {
+      "type": "Has_GDC_Value",
+      "relatedCode": "C156422",
+      "relatedName": "Tissue or Organ of Origin"
+    }
+  ],
+  "roles": [
+    {
+      "type": "Anatomic_Structure_Is_Physical_Part_Of",
+      "relatedCode": "C12402",
+      "relatedName": "Female Reproductive System"
+    }
+  ],
+  "inverseRoles": [
+    {
+      "type": "Procedure_Has_Excised_Anatomy",
+      "relatedCode": "C51660",
+      "relatedName": "Abdominal Hysterectomy"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C27056",
+      "relatedName": "Acute Cervicitis"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C27056",
+      "relatedName": "Acute Cervicitis"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C27022",
+      "relatedName": "Acute Endometritis"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C27022",
+      "relatedName": "Acute Endometritis"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C156304",
+      "relatedName": "Advanced Cervical Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C174032",
+      "relatedName": "Advanced Cervical Adenosquamous Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C156294",
+      "relatedName": "Advanced Cervical Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C206199",
+      "relatedName": "Advanced Cervical Non-Squamous Cell Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C174030",
+      "relatedName": "Advanced Cervical Squamous Cell Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C222634",
+      "relatedName": "Advanced Endometrial Adenocarcinoma, Not Otherwise Specified"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C170805",
+      "relatedName": "Advanced Endometrial Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C159676",
+      "relatedName": "Advanced Endometrial Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C222629",
+      "relatedName": "Advanced Endometrial Clear Cell Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C222628",
+      "relatedName": "Advanced Endometrial Dedifferentiated Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C170810",
+      "relatedName": "Advanced Endometrial Endometrioid Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C222631",
+      "relatedName": "Advanced Endometrial Mixed Cell Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C222639",
+      "relatedName": "Advanced Endometrial Mucinous Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C170809",
+      "relatedName": "Advanced Endometrial Serous Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C222641",
+      "relatedName": "Advanced Endometrial Squamous Cell Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C222644",
+      "relatedName": "Advanced Endometrial Transitional Cell Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C198706",
+      "relatedName": "Advanced Endometrial Undifferentiated Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C172450",
+      "relatedName": "Advanced Malignant Uterine Corpus Neoplasm"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C180337",
+      "relatedName": "Advanced Microsatellite Stable Endometrial Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C158383",
+      "relatedName": "Advanced Uterine Corpus Carcinosarcoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C158383",
+      "relatedName": "Advanced Uterine Corpus Carcinosarcoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C7432",
+      "relatedName": "AIDS-Related Cervical Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C7433",
+      "relatedName": "AIDS-Related Cervical Kaposi Sarcoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C7434",
+      "relatedName": "AIDS-Related Cervical Non-Hodgkin Lymphoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C5052",
+      "relatedName": "AIDS-Related Malignant Cervical Neoplasm"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C6895",
+      "relatedName": "Atypical Polypoid Adenomyoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C40227",
+      "relatedName": "Benign Cervical Mixed Epithelial and Mesenchymal Neoplasm"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C40227",
+      "relatedName": "Benign Cervical Mixed Epithelial and Mesenchymal Neoplasm"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C3607",
+      "relatedName": "Benign Cervical Neoplasm"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C3607",
+      "relatedName": "Benign Cervical Neoplasm"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C128053",
+      "relatedName": "Benign Cervical Soft Tissue Neoplasm"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C128053",
+      "relatedName": "Benign Cervical Soft Tissue Neoplasm"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C4894",
+      "relatedName": "Benign Endometrial Neoplasm"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C4894",
+      "relatedName": "Benign Endometrial Neoplasm"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C6335",
+      "relatedName": "Benign Uterine Corpus Mixed Epithelial and Mesenchymal Neoplasm"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C6335",
+      "relatedName": "Benign Uterine Corpus Mixed Epithelial and Mesenchymal Neoplasm"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C3608",
+      "relatedName": "Benign Uterine Corpus Neoplasm"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C3608",
+      "relatedName": "Benign Uterine Corpus Neoplasm"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C127071",
+      "relatedName": "Benign Uterine Corpus PEComa"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C127071",
+      "relatedName": "Benign Uterine Corpus PEComa"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C3609",
+      "relatedName": "Benign Uterine Neoplasm"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C3609",
+      "relatedName": "Benign Uterine Neoplasm"
+    },
+    {
+      "type": "Gene_Product_Expressed_In_Tissue",
+      "relatedCode": "C21161",
+      "relatedName": "Beta-Microseminoprotein"
+    },
+    {
+      "type": "Anatomic_Structure_Is_Physical_Part_Of",
+      "relatedCode": "C12318",
+      "relatedName": "Broad Ligament"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C127915",
+      "relatedName": "Cervical Adenocarcinoma Admixed with Neuroendocrine Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C4520",
+      "relatedName": "Cervical Adenocarcinoma In Situ"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C180870",
+      "relatedName": "Cervical Adenocarcinoma, Not Otherwise Specified"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C4029",
+      "relatedName": "Cervical Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C40230",
+      "relatedName": "Cervical Adenofibroma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C40230",
+      "relatedName": "Cervical Adenofibroma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C40213",
+      "relatedName": "Cervical Adenoid Basal Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C6346",
+      "relatedName": "Cervical Adenoid Cystic Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C40232",
+      "relatedName": "Cervical Adenomyoma, Endocervical-Type"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C40232",
+      "relatedName": "Cervical Adenomyoma, Endocervical-Type"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C40233",
+      "relatedName": "Cervical Adenomyoma, Mesonephric-Type"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C40233",
+      "relatedName": "Cervical Adenomyoma, Mesonephric-Type"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C40231",
+      "relatedName": "Cervical Adenomyoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C40231",
+      "relatedName": "Cervical Adenomyoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C40229",
+      "relatedName": "Cervical Adenosarcoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C4519",
+      "relatedName": "Cervical Adenosquamous Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C40225",
+      "relatedName": "Cervical Alveolar Soft Part Sarcoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C128049",
+      "relatedName": "Cervical Angiosarcoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C128049",
+      "relatedName": "Cervical Angiosarcoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C180837",
+      "relatedName": "Cervical Atrophy"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C180837",
+      "relatedName": "Cervical Atrophy"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C40234",
+      "relatedName": "Cervical Atypical Polypoid Adenomyoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C40234",
+      "relatedName": "Cervical Atypical Polypoid Adenomyoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C40189",
+      "relatedName": "Cervical Basaloid Squamous Cell Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C40240",
+      "relatedName": "Cervical Blue Nevus"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C40240",
+      "relatedName": "Cervical Blue Nevus"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C90493",
+      "relatedName": "Cervical Cancer by AJCC v6 Stage"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C91208",
+      "relatedName": "Cervical Cancer by AJCC v7 Stage"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C139733",
+      "relatedName": "Cervical Cancer by AJCC v8 Stage"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C181562",
+      "relatedName": "Cervical Cancer by AJCC v9 Stage"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C186619",
+      "relatedName": "Cervical Cancer by FIGO Stage 2009"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C162225",
+      "relatedName": "Cervical Cancer by FIGO Stage 2018"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C9039",
+      "relatedName": "Cervical Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C36097",
+      "relatedName": "Cervical Carcinosarcoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C36097",
+      "relatedName": "Cervical Carcinosarcoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C8421",
+      "relatedName": "Cervical Condyloma Acuminatum"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C40241",
+      "relatedName": "Cervical Disorder"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C6343",
+      "relatedName": "Cervical Endometrioid Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C40218",
+      "relatedName": "Cervical Endometrioid Stromal and Related Neoplasms"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C27623",
+      "relatedName": "Cervical Endometriosis"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C27623",
+      "relatedName": "Cervical Endometriosis"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C40200",
+      "relatedName": "Cervical Fibroepithelial Polyp"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C40200",
+      "relatedName": "Cervical Fibroepithelial Polyp"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C180879",
+      "relatedName": "Cervical Germ Cell Tumor"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C7673",
+      "relatedName": "Cervical Glandular Intraepithelial Neoplasia"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C40210",
+      "relatedName": "Cervical Glandular Neoplasm"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C94676",
+      "relatedName": "Cervical Intraepithelial Neoplasia Grade 2/3"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C3782",
+      "relatedName": "Cervical Intraepithelial Neoplasia"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C180861",
+      "relatedName": "Cervical Invasive Stratified Mucinous Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C40187",
+      "relatedName": "Cervical Keratinizing Squamous Cell Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C40214",
+      "relatedName": "Cervical Large Cell Neuroendocrine Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C128046",
+      "relatedName": "Cervical Leiomyoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C128046",
+      "relatedName": "Cervical Leiomyoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C128047",
+      "relatedName": "Cervical Leiomyosarcoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C40222",
+      "relatedName": "Cervical Low Grade Endometrioid Stromal Sarcoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C40193",
+      "relatedName": "Cervical Lymphoepithelioma-Like Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C213739",
+      "relatedName": "Cervical Lymphoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C128050",
+      "relatedName": "Cervical Malignant Peripheral Nerve Sheath Tumor"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C40239",
+      "relatedName": "Cervical Melanoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C40254",
+      "relatedName": "Cervical Mesonephric Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C6856",
+      "relatedName": "Cervical Microglandular Polyp"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C6856",
+      "relatedName": "Cervical Microglandular Polyp"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C180864",
+      "relatedName": "Cervical Micropapillary Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C40226",
+      "relatedName": "Cervical Mixed Epithelial and Mesenchymal Neoplasm"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C40203",
+      "relatedName": "Cervical Mucinous Adenocarcinoma, Intestinal-Type"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C180869",
+      "relatedName": "Cervical Mucinous Adenocarcinoma, Not Otherwise Specified"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C40205",
+      "relatedName": "Cervical Mucinous Adenocarcinoma, Signet Ring Cell-Type"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C36095",
+      "relatedName": "Cervical Mucinous Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C180878",
+      "relatedName": "Cervical Mucoepidermoid Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C40215",
+      "relatedName": "Cervical Mullerian Papilloma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C40215",
+      "relatedName": "Cervical Mullerian Papilloma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C2940",
+      "relatedName": "Cervical Neoplasm"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C213638",
+      "relatedName": "Cervical Neuroblastoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C128045",
+      "relatedName": "Cervical Neuroendocrine Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C128041",
+      "relatedName": "Cervical Neuroendocrine Neoplasm"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C128043",
+      "relatedName": "Cervical Neuroendocrine Tumor G1"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C128044",
+      "relatedName": "Cervical Neuroendocrine Tumor G2"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C188221",
+      "relatedName": "Cervical Neuroendocrine Tumor"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C40188",
+      "relatedName": "Cervical Non-Keratinizing Squamous Cell Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C27622",
+      "relatedName": "Cervical Non-Neoplastic Disorder"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C27622",
+      "relatedName": "Cervical Non-Neoplastic Disorder"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C206192",
+      "relatedName": "Cervical Non-Squamous Cell Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C40192",
+      "relatedName": "Cervical Papillary Squamous Cell Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C2939",
+      "relatedName": "Cervical Polyp"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C2939",
+      "relatedName": "Cervical Polyp"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C40212",
+      "relatedName": "Cervical Poorly Differentiated Adenosquamous Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C40266",
+      "relatedName": "Cervical Rhabdomyoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C40266",
+      "relatedName": "Cervical Rhabdomyoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C128048",
+      "relatedName": "Cervical Rhabdomyosarcoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C128054",
+      "relatedName": "Cervical Sarcoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C40201",
+      "relatedName": "Cervical Serous Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C7982",
+      "relatedName": "Cervical Small Cell Neuroendocrine Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C40216",
+      "relatedName": "Cervical Soft Tissue Neoplasm"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C40194",
+      "relatedName": "Cervical Squamotransitional Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C7347",
+      "relatedName": "Cervical Squamous Cell Carcinoma In Situ"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C180839",
+      "relatedName": "Cervical Squamous Cell Carcinoma, Not Otherwise Specified"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C4028",
+      "relatedName": "Cervical Squamous Cell Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C40199",
+      "relatedName": "Cervical Squamous Intraepithelial Neoplasia 1"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C40198",
+      "relatedName": "Cervical Squamous Intraepithelial Neoplasia 2"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C7346",
+      "relatedName": "Cervical Squamous Intraepithelial Neoplasia"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C40195",
+      "relatedName": "Cervical Squamous Neoplasm"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C6342",
+      "relatedName": "Cervical Squamous Papilloma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C6342",
+      "relatedName": "Cervical Squamous Papilloma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C180860",
+      "relatedName": "Cervical Stratified Mucin-Producing Intraepithelial Lesion"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C6345",
+      "relatedName": "Cervical Undifferentiated Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C40190",
+      "relatedName": "Cervical Verrucous Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C40208",
+      "relatedName": "Cervical Villoglandular Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C40191",
+      "relatedName": "Cervical Warty Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C40236",
+      "relatedName": "Cervical Wilms Tumor"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C128055",
+      "relatedName": "Cervical Yolk Sac Tumor"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C26716",
+      "relatedName": "Cervicitis"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C26716",
+      "relatedName": "Cervicitis"
+    },
+    {
+      "type": "Anatomic_Structure_Is_Physical_Part_Of",
+      "relatedCode": "C12311",
+      "relatedName": "Cervix Uteri"
+    },
+    {
+      "type": "Procedure_Has_Excised_Anatomy",
+      "relatedCode": "C92753",
+      "relatedName": "Cesarean Hysterectomy"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C27057",
+      "relatedName": "Chronic Cervicitis"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C27057",
+      "relatedName": "Chronic Cervicitis"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C102820",
+      "relatedName": "Chronic Endometritis"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C102820",
+      "relatedName": "Chronic Endometritis"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C6993",
+      "relatedName": "Complex Endometrial Hyperplasia without Atypia"
+    },
+    {
+      "type": "Anatomic_Structure_Is_Physical_Part_Of",
+      "relatedCode": "C12316",
+      "relatedName": "Corpus Uteri"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C34519",
+      "relatedName": "Cystic Endometrial Hyperplasia"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C36096",
+      "relatedName": "Early Invasive Cervical Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C205287",
+      "relatedName": "Early Stage Cervical Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C205295",
+      "relatedName": "Early Stage Endometrial Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C127907",
+      "relatedName": "Endocervical Adenocarcinoma, Usual-Type"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C34584",
+      "relatedName": "Endocervical Polyp"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C34584",
+      "relatedName": "Endocervical Polyp"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C40224",
+      "relatedName": "Endocervical Undifferentiated Sarcoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C26762",
+      "relatedName": "Endocervicitis"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C26762",
+      "relatedName": "Endocervicitis"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C222632",
+      "relatedName": "Endometrial Adenocarcinoma, Not Otherwise Specified"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C7359",
+      "relatedName": "Endometrial Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C114656",
+      "relatedName": "Endometrial Adenosquamous Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C27789",
+      "relatedName": "Endometrial Atypical Hyperplasia/Endometrioid Intraepithelial Neoplasia"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C206217",
+      "relatedName": "Endometrial Cancer by FIGO Stage 2023"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C206218",
+      "relatedName": "Endometrial Cancer with Molecular Classification by FIGO Stage 2023"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C206278",
+      "relatedName": "Endometrial Carcinoma Molecular Subtypes"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C7558",
+      "relatedName": "Endometrial Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C8028",
+      "relatedName": "Endometrial Clear Cell Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C126769",
+      "relatedName": "Endometrial Dedifferentiated Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C3504",
+      "relatedName": "Endometrial Disorder"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C27844",
+      "relatedName": "Endometrial Endometrioid Adenocarcinoma with a Poorly Differentiated Carcinomatous Component"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C27845",
+      "relatedName": "Endometrial Endometrioid Adenocarcinoma with an Undifferentiated Carcinomatous Component"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C27843",
+      "relatedName": "Endometrial Endometrioid Adenocarcinoma with Clear Cell Change"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C27850",
+      "relatedName": "Endometrial Endometrioid Adenocarcinoma with Spindled Epithelial Cells"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C27848",
+      "relatedName": "Endometrial Endometrioid Adenocarcinoma, Ciliated Variant"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C27839",
+      "relatedName": "Endometrial Endometrioid Adenocarcinoma, Secretory Variant"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C6290",
+      "relatedName": "Endometrial Endometrioid Adenocarcinoma, Variant with Squamous Differentiation"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C6287",
+      "relatedName": "Endometrial Endometrioid Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C40148",
+      "relatedName": "Endometrial High Grade Endometrioid Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C40157",
+      "relatedName": "Endometrial Hyperplasia without Atypia"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C3013",
+      "relatedName": "Endometrial Hyperplasia"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C126772",
+      "relatedName": "Endometrial Large Cell Neuroendocrine Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C180510",
+      "relatedName": "Endometrial Low Grade Endometrioid Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C179322",
+      "relatedName": "Endometrial Mesonephric-Like Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C40153",
+      "relatedName": "Endometrial Mixed Cell Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C180537",
+      "relatedName": "Endometrial Mucinous Adenocarcinoma, Gastric-Type"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C180536",
+      "relatedName": "Endometrial Mucinous Adenocarcinoma, Intestinal-Type"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C40144",
+      "relatedName": "Endometrial Mucinous Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C181910",
+      "relatedName": "Endometrial Mucosa-Associated Lymphoid Tissue Lymphoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C3012",
+      "relatedName": "Endometrial Neoplasm"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C171033",
+      "relatedName": "Endometrial Neuroendocrine Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C6433",
+      "relatedName": "Endometrial Polyp"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C6433",
+      "relatedName": "Endometrial Polyp"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C27838",
+      "relatedName": "Endometrial Serous Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C40155",
+      "relatedName": "Endometrial Small Cell Neuroendocrine Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C8719",
+      "relatedName": "Endometrial Squamous Cell Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C4262",
+      "relatedName": "Endometrial Stromal Nodule"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C4262",
+      "relatedName": "Endometrial Stromal Nodule"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C40154",
+      "relatedName": "Endometrial Transitional Cell Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C40156",
+      "relatedName": "Endometrial Undifferentiated Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C26764",
+      "relatedName": "Endometritis"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C26764",
+      "relatedName": "Endometritis"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C7453",
+      "relatedName": "Exocervical Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C188074",
+      "relatedName": "Extramedullary Disease in Multiple Myeloma Involving the Uterine Corpus"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C40146",
+      "relatedName": "FIGO Grade 1 Endometrial Endometrioid Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C40149",
+      "relatedName": "FIGO Grade 1 Endometrial Mucinous Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C40147",
+      "relatedName": "FIGO Grade 2 Endometrial Endometrioid Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C40150",
+      "relatedName": "FIGO Grade 2 Endometrial Mucinous Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C40151",
+      "relatedName": "FIGO Grade 3 Endometrial Mucinous Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C35339",
+      "relatedName": "First Degree Uterine Prolapse"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C35339",
+      "relatedName": "First Degree Uterine Prolapse"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C27626",
+      "relatedName": "Granulomatous Endometritis"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C27626",
+      "relatedName": "Granulomatous Endometritis"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C7675",
+      "relatedName": "High Grade Cervical Glandular Intraepithelial Neoplasia"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C7670",
+      "relatedName": "High Grade Cervical Intraepithelial Neoplasia"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C40197",
+      "relatedName": "High Grade Cervical Squamous Intraepithelial Neoplasia"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C190680",
+      "relatedName": "High Grade Endometrial Carcinoma"
+    },
+    {
+      "type": "Gene_Product_Expressed_In_Tissue",
+      "relatedCode": "C97738",
+      "relatedName": "Histone-Lysine N-Methyltransferase PRDM16"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C180846",
+      "relatedName": "Human Papillomavirus-Independent Cervical Adenocarcinoma In Situ"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C6344",
+      "relatedName": "Human Papillomavirus-Independent Cervical Adenocarcinoma, Clear Cell-Type"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C40206",
+      "relatedName": "Human Papillomavirus-Independent Cervical Adenocarcinoma, Gastric-Type"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C180848",
+      "relatedName": "Human Papillomavirus-Independent Cervical Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C180841",
+      "relatedName": "Human Papillomavirus-Independent Cervical Squamous Cell Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C180845",
+      "relatedName": "Human Papillomavirus-Related Cervical Adenocarcinoma In Situ"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C27677",
+      "relatedName": "Human Papillomavirus-Related Cervical Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C27675",
+      "relatedName": "Human Papillomavirus-Related Cervical Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C27676",
+      "relatedName": "Human Papillomavirus-Related Cervical Squamous Cell Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C206276",
+      "relatedName": "Hypermutated/MMRd Endometrial Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C180514",
+      "relatedName": "Hypermutated/MMRd Endometrial Endometrioid Adenocarcinoma"
+    },
+    {
+      "type": "Procedure_Has_Excised_Anatomy",
+      "relatedCode": "C15256",
+      "relatedName": "Hysterectomy"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C78360",
+      "relatedName": "Infectious Cervicitis"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C78360",
+      "relatedName": "Infectious Cervicitis"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C8577",
+      "relatedName": "Invasive Cervical Carcinoma"
+    },
+    {
+      "type": "Anatomic_Structure_Is_Physical_Part_Of",
+      "relatedCode": "C12312",
+      "relatedName": "Isthmus Uteri"
+    },
+    {
+      "type": "Procedure_Has_Excised_Anatomy",
+      "relatedCode": "C126387",
+      "relatedName": "Laparoscopically Assisted Vaginal Hysterectomy"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C156297",
+      "relatedName": "Locally Advanced Cervical Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C206426",
+      "relatedName": "Locally Advanced Cervical Adenosquamous Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C156295",
+      "relatedName": "Locally Advanced Cervical Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C206200",
+      "relatedName": "Locally Advanced Cervical Non-Squamous Cell Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C174505",
+      "relatedName": "Locally Advanced Cervical Squamous Cell Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C174043",
+      "relatedName": "Locally Advanced Endometrial Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C170461",
+      "relatedName": "Locally Advanced Endometrial Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C174044",
+      "relatedName": "Locally Advanced Endometrial Endometrioid Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C156299",
+      "relatedName": "Locally Advanced Unresectable Cervical Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C156300",
+      "relatedName": "Locally Advanced Unresectable Cervical Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C187406",
+      "relatedName": "Locally Advanced Unresectable Endometrial Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C188208",
+      "relatedName": "Locally Advanced Uterine Corpus Leiomyosarcoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C217316",
+      "relatedName": "Locally Recurrent Cervical Squamous Cell Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C190200",
+      "relatedName": "Locally Recurrent Endometrial Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C179182",
+      "relatedName": "Locally Recurrent Uterine Corpus Leiomyosarcoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C7674",
+      "relatedName": "Low Grade Cervical Glandular Intraepithelial Neoplasia"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C4630",
+      "relatedName": "Low Grade Cervical Intraepithelial Neoplasia"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C40196",
+      "relatedName": "Low Grade Cervical Squamous Intraepithelial Neoplasia"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C9311",
+      "relatedName": "Malignant Cervical Neoplasm"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C3553",
+      "relatedName": "Malignant Endocervical Neoplasm"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C27815",
+      "relatedName": "Malignant Endometrial Neoplasm"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C3554",
+      "relatedName": "Malignant Exocervical Neoplasm"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C40228",
+      "relatedName": "Malignant Mixed Epithelial and Mesenchymal Neoplasm of the Cervix"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C6311",
+      "relatedName": "Malignant Uterine Corpus Mixed Epithelial and Mesenchymal Neoplasm"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C6311",
+      "relatedName": "Malignant Uterine Corpus Mixed Epithelial and Mesenchymal Neoplasm"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C61574",
+      "relatedName": "Malignant Uterine Corpus Neoplasm"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C3552",
+      "relatedName": "Malignant Uterine Neoplasm"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C188270",
+      "relatedName": "Malposition of Uterus"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C188270",
+      "relatedName": "Malposition of Uterus"
+    },
+    {
+      "type": "Biological_Process_Has_Associated_Location",
+      "relatedCode": "C16838",
+      "relatedName": "Menstrual Cycle"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C6334",
+      "relatedName": "Metastatic Carcinoma in the Uterine Cervix"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C153389",
+      "relatedName": "Metastatic Cervical Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C153390",
+      "relatedName": "Metastatic Cervical Adenosquamous Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C153387",
+      "relatedName": "Metastatic Cervical Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C206195",
+      "relatedName": "Metastatic Cervical Non-Squamous Cell Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C153388",
+      "relatedName": "Metastatic Cervical Squamous Cell Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C222633",
+      "relatedName": "Metastatic Endometrial Adenocarcinoma, Not Otherwise Specified"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C8942",
+      "relatedName": "Metastatic Endometrial Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C175597",
+      "relatedName": "Metastatic Endometrial Adenosquamous Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C156068",
+      "relatedName": "Metastatic Endometrial Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C175596",
+      "relatedName": "Metastatic Endometrial Clear Cell Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C222627",
+      "relatedName": "Metastatic Endometrial Dedifferentiated Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C170806",
+      "relatedName": "Metastatic Endometrial Endometrioid Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C175599",
+      "relatedName": "Metastatic Endometrial Mixed Cell Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C222638",
+      "relatedName": "Metastatic Endometrial Mucinous Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C170804",
+      "relatedName": "Metastatic Endometrial Serous Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C222640",
+      "relatedName": "Metastatic Endometrial Squamous Cell Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C222643",
+      "relatedName": "Metastatic Endometrial Transitional Cell Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C198705",
+      "relatedName": "Metastatic Endometrial Undifferentiated Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C6385",
+      "relatedName": "Metastatic Malignant Neoplasm in the Uterine Cervix"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C213048",
+      "relatedName": "Metastatic Malignant Uterine Corpus Neoplasm"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C180336",
+      "relatedName": "Metastatic Microsatellite Stable Endometrial Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C170931",
+      "relatedName": "Metastatic Uterine Corpus Carcinosarcoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C170931",
+      "relatedName": "Metastatic Uterine Corpus Carcinosarcoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C188207",
+      "relatedName": "Metastatic Uterine Corpus Leiomyosarcoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C190009",
+      "relatedName": "Metastatic Uterine Corpus Sarcoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C36094",
+      "relatedName": "Microinvasive Cervical Squamous Cell Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C180335",
+      "relatedName": "Microsatellite Stable Endometrial Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C40178",
+      "relatedName": "Mixed Endometrial Stromal and Smooth Muscle Neoplasm"
+    },
+    {
+      "type": "Procedure_Has_Excised_Anatomy",
+      "relatedCode": "C136238",
+      "relatedName": "Modified Radical Hysterectomy"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C34826",
+      "relatedName": "Mucous Polyp of Cervix"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C34826",
+      "relatedName": "Mucous Polyp of Cervix"
+    },
+    {
+      "type": "Procedure_Has_Excised_Anatomy",
+      "relatedCode": "C51645",
+      "relatedName": "Myomectomy"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C180516",
+      "relatedName": "No Specific Molecular Profile Endometrial Endometrioid Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C27625",
+      "relatedName": "Non Specific Chronic Endometritis"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C27625",
+      "relatedName": "Non Specific Chronic Endometritis"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C27849",
+      "relatedName": "Oxyphilic Endometrial Endometrioid Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C206275",
+      "relatedName": "p53abn Endometrial Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C180515",
+      "relatedName": "p53abn Endometrial Endometrioid Adenocarcinoma"
+    },
+    {
+      "type": "Anatomic_Structure_Is_Physical_Part_Of",
+      "relatedCode": "C12320",
+      "relatedName": "Parametrium"
+    },
+    {
+      "type": "Procedure_Has_Excised_Anatomy",
+      "relatedCode": "C40961",
+      "relatedName": "Partial Hysterectomy"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C214997",
+      "relatedName": "Platinum-Resistant Cervical Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C214996",
+      "relatedName": "Platinum-Resistant Endometrial Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C205187",
+      "relatedName": "Platinum-Sensitive Endometrial Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C187374",
+      "relatedName": "Platinum-Sensitive Endometrial Serous Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C206277",
+      "relatedName": "POLEm Endometrial Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C180512",
+      "relatedName": "POLEm Endometrial Endometrioid Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C142885",
+      "relatedName": "Post-Abortion Endometritis"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C142885",
+      "relatedName": "Post-Abortion Endometritis"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C111914",
+      "relatedName": "Postpartum Endometritis"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C111914",
+      "relatedName": "Postpartum Endometritis"
+    },
+    {
+      "type": "Procedure_Has_Excised_Anatomy",
+      "relatedCode": "C117316",
+      "relatedName": "Postpartum Hysterectomy"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C114377",
+      "relatedName": "Postpartum Uterine Inversion"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C114377",
+      "relatedName": "Postpartum Uterine Inversion"
+    },
+    {
+      "type": "Procedure_Has_Excised_Anatomy",
+      "relatedCode": "C94470",
+      "relatedName": "Radical Hysterectomy"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C136651",
+      "relatedName": "Recurrent Cervical Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C136650",
+      "relatedName": "Recurrent Cervical Adenosquamous Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C7804",
+      "relatedName": "Recurrent Cervical Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C206197",
+      "relatedName": "Recurrent Cervical Non-Squamous Cell Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C136649",
+      "relatedName": "Recurrent Cervical Squamous Cell Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C153573",
+      "relatedName": "Recurrent Endocervical Adenocarcinoma, Usual-Type"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C222636",
+      "relatedName": "Recurrent Endometrial Adenocarcinoma, Not Otherwise Specified"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C158437",
+      "relatedName": "Recurrent Endometrial Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C175598",
+      "relatedName": "Recurrent Endometrial Adenosquamous Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C150094",
+      "relatedName": "Recurrent Endometrial Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C155816",
+      "relatedName": "Recurrent Endometrial Clear Cell Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C165282",
+      "relatedName": "Recurrent Endometrial Dedifferentiated Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C150097",
+      "relatedName": "Recurrent Endometrial Endometrioid Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C199156",
+      "relatedName": "Recurrent Endometrial High Grade Endometrioid Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C199153",
+      "relatedName": "Recurrent Endometrial Low Grade Endometrioid Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C155819",
+      "relatedName": "Recurrent Endometrial Mixed Cell Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C165291",
+      "relatedName": "Recurrent Endometrial Mucinous Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C223264",
+      "relatedName": "Recurrent Endometrial Neuroendocrine Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C132294",
+      "relatedName": "Recurrent Endometrial Serous Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C165283",
+      "relatedName": "Recurrent Endometrial Squamous Cell Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C165284",
+      "relatedName": "Recurrent Endometrial Transitional Cell Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C155817",
+      "relatedName": "Recurrent Endometrial Undifferentiated Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C9269",
+      "relatedName": "Recurrent Malignant Endocervical Neoplasm"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C9072",
+      "relatedName": "Recurrent Malignant Uterine Corpus Neoplasm"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C214999",
+      "relatedName": "Recurrent Platinum-Resistant Cervical Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C214998",
+      "relatedName": "Recurrent Platinum-Resistant Endometrial Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C205188",
+      "relatedName": "Recurrent Platinum-Sensitive Endometrial Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C155818",
+      "relatedName": "Recurrent Uterine Corpus Carcinosarcoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C155818",
+      "relatedName": "Recurrent Uterine Corpus Carcinosarcoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C8261",
+      "relatedName": "Recurrent Uterine Corpus Sarcoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C181036",
+      "relatedName": "Refractory Cervical Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C206202",
+      "relatedName": "Refractory Cervical Adenosquamous Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C170513",
+      "relatedName": "Refractory Cervical Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C206198",
+      "relatedName": "Refractory Cervical Non-Squamous Cell Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C181035",
+      "relatedName": "Refractory Cervical Squamous Cell Carcinoma, Not Otherwise Specified"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C181034",
+      "relatedName": "Refractory Cervical Squamous Cell Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C222637",
+      "relatedName": "Refractory Endometrial Adenocarcinoma, Not Otherwise Specified"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C165289",
+      "relatedName": "Refractory Endometrial Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C150093",
+      "relatedName": "Refractory Endometrial Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C158380",
+      "relatedName": "Refractory Endometrial Clear Cell Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C165286",
+      "relatedName": "Refractory Endometrial Dedifferentiated Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C150098",
+      "relatedName": "Refractory Endometrial Endometrioid Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C158379",
+      "relatedName": "Refractory Endometrial Mixed Cell Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C165290",
+      "relatedName": "Refractory Endometrial Mucinous Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C158378",
+      "relatedName": "Refractory Endometrial Serous Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C165287",
+      "relatedName": "Refractory Endometrial Squamous Cell Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C165288",
+      "relatedName": "Refractory Endometrial Transitional Cell Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C165298",
+      "relatedName": "Refractory Endometrial Undifferentiated Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C150092",
+      "relatedName": "Refractory Malignant Uterine Corpus Neoplasm"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C188230",
+      "relatedName": "Refractory Microsatellite Stable Endometrial Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C158381",
+      "relatedName": "Refractory Uterine Corpus Carcinosarcoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C158381",
+      "relatedName": "Refractory Uterine Corpus Carcinosarcoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C205308",
+      "relatedName": "Resectable Cervical Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C205310",
+      "relatedName": "Resectable Endometrial Carcinoma"
+    },
+    {
+      "type": "Biological_Process_Has_Associated_Location",
+      "relatedCode": "C20901",
+      "relatedName": "Restraining Placental Growth"
+    },
+    {
+      "type": "Procedure_Has_Excised_Anatomy",
+      "relatedCode": "C167214",
+      "relatedName": "Robotic Hysterectomy"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C35340",
+      "relatedName": "Second Degree Uterine Prolapse"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C35340",
+      "relatedName": "Second Degree Uterine Prolapse"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C40152",
+      "relatedName": "Serous Endometrial Intraepithelial Carcinoma"
+    },
+    {
+      "type": "Gene_Product_Expressed_In_Tissue",
+      "relatedCode": "C21323",
+      "relatedName": "SH2B Adapter Protein 2"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C6992",
+      "relatedName": "Simple Endometrial Hyperplasia without Atypia"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C4000",
+      "relatedName": "Stage 0 Cervical Cancer AJCC v6"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C89550",
+      "relatedName": "Stage 0 Cervical Cancer AJCC v7"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C9071",
+      "relatedName": "Stage 0 Uterine Corpus Carcinoma or Carcinosarcoma AJCC v6"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C89632",
+      "relatedName": "Stage 0 Uterine Corpus Carcinoma or Carcinosarcoma by AJCC v7 Stage"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C9204",
+      "relatedName": "Stage I Cervical Cancer AJCC v6 and v7"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C139734",
+      "relatedName": "Stage I Cervical Cancer AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C181564",
+      "relatedName": "Stage I Cervical Cancer AJCC v9"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C186620",
+      "relatedName": "Stage I Cervical Cancer FIGO 2009"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C162226",
+      "relatedName": "Stage I Cervical Cancer FIGO 2018"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C206219",
+      "relatedName": "Stage I Endometrial Cancer FIGO 2023"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C139895",
+      "relatedName": "Stage I Uterine Corpus Adenosarcoma AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C139895",
+      "relatedName": "Stage I Uterine Corpus Adenosarcoma AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C9207",
+      "relatedName": "Stage I Uterine Corpus Carcinoma or Carcinosarcoma AJCC v6"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C139802",
+      "relatedName": "Stage I Uterine Corpus Carcinoma or Carcinosarcoma AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C89633",
+      "relatedName": "Stage I Uterine Corpus Carcinoma or Carcinosarcoma by AJCC v7 Stage"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C139883",
+      "relatedName": "Stage I Uterine Corpus Endometrial Stromal Sarcoma AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C139871",
+      "relatedName": "Stage I Uterine Corpus Leiomyosarcoma AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C8258",
+      "relatedName": "Stage I Uterine Sarcoma AJCC v7"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C6313",
+      "relatedName": "Stage IA Cervical Cancer AJCC v6 and v7"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C139735",
+      "relatedName": "Stage IA Cervical Cancer AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C181565",
+      "relatedName": "Stage IA Cervical Cancer AJCC v9"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C186621",
+      "relatedName": "Stage IA Cervical Cancer FIGO 2009"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C162227",
+      "relatedName": "Stage IA Cervical Cancer FIGO 2018"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C139896",
+      "relatedName": "Stage IA Uterine Corpus Adenosarcoma AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C139896",
+      "relatedName": "Stage IA Uterine Corpus Adenosarcoma AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C139803",
+      "relatedName": "Stage IA Uterine Corpus Carcinoma or Carcinosarcoma AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C6301",
+      "relatedName": "Stage IA Uterine Corpus Carcinoma or Carcinosarcoma by AJCC v7 Stage"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C139884",
+      "relatedName": "Stage IA Uterine Corpus Endometrial Stromal Sarcoma AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C139872",
+      "relatedName": "Stage IA Uterine Corpus Leiomyosarcoma AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C87132",
+      "relatedName": "Stage IA Uterine Sarcoma AJCC v7"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C6314",
+      "relatedName": "Stage IA1 Cervical Cancer AJCC v6 and v7"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C139736",
+      "relatedName": "Stage IA1 Cervical Cancer AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C181567",
+      "relatedName": "Stage IA1 Cervical Cancer AJCC v9"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C186622",
+      "relatedName": "Stage IA1 Cervical Cancer FIGO 2009"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C162228",
+      "relatedName": "Stage IA1 Cervical Cancer FIGO 2018"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C206225",
+      "relatedName": "Stage IA1 Endometrial Cancer FIGO 2023"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C6315",
+      "relatedName": "Stage IA2 Cervical Cancer AJCC v6 and v7"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C139737",
+      "relatedName": "Stage IA2 Cervical Cancer AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C181568",
+      "relatedName": "Stage IA2 Cervical Cancer AJCC v9"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C186623",
+      "relatedName": "Stage IA2 Cervical Cancer FIGO 2009"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C162229",
+      "relatedName": "Stage IA2 Cervical Cancer FIGO 2018"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C206226",
+      "relatedName": "Stage IA2 Endometrial Cancer FIGO 2023"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C206227",
+      "relatedName": "Stage IA3 Endometrial Cancer FIGO 2023"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C206223",
+      "relatedName": "Stage IAmPOLEm Endometrial Cancer FIGO 2023"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C6316",
+      "relatedName": "Stage IB Cervical Cancer AJCC v6 and v7"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C139738",
+      "relatedName": "Stage IB Cervical Cancer AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C181570",
+      "relatedName": "Stage IB Cervical Cancer AJCC v9"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C186624",
+      "relatedName": "Stage IB Cervical Cancer FIGO 2009"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C162230",
+      "relatedName": "Stage IB Cervical Cancer FIGO 2018"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C206228",
+      "relatedName": "Stage IB Endometrial Cancer FIGO 2023"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C139897",
+      "relatedName": "Stage IB Uterine Corpus Adenosarcoma AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C139897",
+      "relatedName": "Stage IB Uterine Corpus Adenosarcoma AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C139804",
+      "relatedName": "Stage IB Uterine Corpus Carcinoma or Carcinosarcoma AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C6302",
+      "relatedName": "Stage IB Uterine Corpus Carcinoma or Carcinosarcoma by AJCC v7 Stage"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C139885",
+      "relatedName": "Stage IB Uterine Corpus Endometrial Stromal Sarcoma AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C139873",
+      "relatedName": "Stage IB Uterine Corpus Leiomyosarcoma AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C87133",
+      "relatedName": "Stage IB Uterine Sarcoma AJCC v7"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C6317",
+      "relatedName": "Stage IB1 Cervical Cancer AJCC v6 and v7"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C139739",
+      "relatedName": "Stage IB1 Cervical Cancer AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C181571",
+      "relatedName": "Stage IB1 Cervical Cancer AJCC v9"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C186625",
+      "relatedName": "Stage IB1 Cervical Cancer FIGO 2009"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C162231",
+      "relatedName": "Stage IB1 Cervical Cancer FIGO 2018"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C6318",
+      "relatedName": "Stage IB2 Cervical Cancer AJCC v6 and v7"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C139740",
+      "relatedName": "Stage IB2 Cervical Cancer AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C181576",
+      "relatedName": "Stage IB2 Cervical Cancer AJCC v9"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C186626",
+      "relatedName": "Stage IB2 Cervical Cancer FIGO 2009"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C162232",
+      "relatedName": "Stage IB2 Cervical Cancer FIGO 2018"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C181579",
+      "relatedName": "Stage IB3 Cervical Cancer AJCC v9"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C162233",
+      "relatedName": "Stage IB3 Cervical Cancer FIGO 2018"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C206229",
+      "relatedName": "Stage IC Endometrial Cancer FIGO 2023"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C139898",
+      "relatedName": "Stage IC Uterine Corpus Adenosarcoma AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C139898",
+      "relatedName": "Stage IC Uterine Corpus Adenosarcoma AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C87134",
+      "relatedName": "Stage IC Uterine Sarcoma AJCC v7"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C7803",
+      "relatedName": "Stage II Cervical Cancer AJCC v6"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C89551",
+      "relatedName": "Stage II Cervical Cancer AJCC v7"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C139743",
+      "relatedName": "Stage II Cervical Cancer AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C181583",
+      "relatedName": "Stage II Cervical Cancer AJCC v9"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C186627",
+      "relatedName": "Stage II Cervical Cancer FIGO 2009"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C162234",
+      "relatedName": "Stage II Cervical Cancer FIGO 2018"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C206220",
+      "relatedName": "Stage II Endometrial Cancer FIGO 2023"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C139899",
+      "relatedName": "Stage II Uterine Corpus Adenosarcoma AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C139899",
+      "relatedName": "Stage II Uterine Corpus Adenosarcoma AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C9208",
+      "relatedName": "Stage II Uterine Corpus Carcinoma or Carcinosarcoma AJCC v6"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C139805",
+      "relatedName": "Stage II Uterine Corpus Carcinoma or Carcinosarcoma AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C89634",
+      "relatedName": "Stage II Uterine Corpus Carcinoma or Carcinosarcoma by AJCC v7 Stage"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C139886",
+      "relatedName": "Stage II Uterine Corpus Endometrial Stromal Sarcoma AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C139874",
+      "relatedName": "Stage II Uterine Corpus Leiomyosarcoma AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C8259",
+      "relatedName": "Stage II Uterine Sarcoma AJCC v7"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C6319",
+      "relatedName": "Stage IIA Cervical Cancer AJCC v6"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C89552",
+      "relatedName": "Stage IIA Cervical Cancer AJCC v7"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C139744",
+      "relatedName": "Stage IIA Cervical Cancer AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C181584",
+      "relatedName": "Stage IIA Cervical Cancer AJCC v9"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C186628",
+      "relatedName": "Stage IIA Cervical Cancer FIGO 2009"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C162235",
+      "relatedName": "Stage IIA Cervical Cancer FIGO 2018"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C206230",
+      "relatedName": "Stage IIA Endometrial Cancer FIGO 2023"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C6304",
+      "relatedName": "Stage IIA Uterine Corpus Carcinoma or Carcinosarcoma AJCC v6"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C115130",
+      "relatedName": "Stage IIA Uterine Sarcoma AJCC v7"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C95172",
+      "relatedName": "Stage IIA1 Cervical Cancer AJCC v7"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C139745",
+      "relatedName": "Stage IIA1 Cervical Cancer AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C181586",
+      "relatedName": "Stage IIA1 Cervical Cancer AJCC v9"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C186629",
+      "relatedName": "Stage IIA1 Cervical Cancer FIGO 2009"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C162236",
+      "relatedName": "Stage IIA1 Cervical Cancer FIGO 2018"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C95173",
+      "relatedName": "Stage IIA2 Cervical Cancer AJCC v7"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C139746",
+      "relatedName": "Stage IIA2 Cervical Cancer AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C181588",
+      "relatedName": "Stage IIA2 Cervical Cancer AJCC v9"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C186630",
+      "relatedName": "Stage IIA2 Cervical Cancer FIGO 2009"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C162237",
+      "relatedName": "Stage IIA2 Cervical Cancer FIGO 2018"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C6320",
+      "relatedName": "Stage IIB Cervical Cancer AJCC v6 and v7"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C139748",
+      "relatedName": "Stage IIB Cervical Cancer AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C181591",
+      "relatedName": "Stage IIB Cervical Cancer AJCC v9"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C186631",
+      "relatedName": "Stage IIB Cervical Cancer FIGO 2009"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C162238",
+      "relatedName": "Stage IIB Cervical Cancer FIGO 2018"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C206231",
+      "relatedName": "Stage IIB Endometrial Cancer FIGO 2023"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C6305",
+      "relatedName": "Stage IIB Uterine Corpus Carcinoma or Carcinosarcoma AJCC v6"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C115131",
+      "relatedName": "Stage IIB Uterine Sarcoma AJCC v7"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C206232",
+      "relatedName": "Stage IIC Endometrial Cancer FIGO 2023"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C206224",
+      "relatedName": "Stage IICmp53abn Endometrial Cancer FIGO 2023"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C9205",
+      "relatedName": "Stage III Cervical Cancer AJCC v6 and v7"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C139749",
+      "relatedName": "Stage III Cervical Cancer AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C181592",
+      "relatedName": "Stage III Cervical Cancer AJCC v9"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C186632",
+      "relatedName": "Stage III Cervical Cancer FIGO 2009"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C162239",
+      "relatedName": "Stage III Cervical Cancer FIGO 2018"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C206221",
+      "relatedName": "Stage III Endometrial Cancer FIGO 2023"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C139900",
+      "relatedName": "Stage III Uterine Corpus Adenosarcoma AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C139900",
+      "relatedName": "Stage III Uterine Corpus Adenosarcoma AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C9209",
+      "relatedName": "Stage III Uterine Corpus Carcinoma or Carcinosarcoma AJCC v6"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C139806",
+      "relatedName": "Stage III Uterine Corpus Carcinoma or Carcinosarcoma AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C89635",
+      "relatedName": "Stage III Uterine Corpus Carcinoma or Carcinosarcoma by AJCC v7 Stage"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C139887",
+      "relatedName": "Stage III Uterine Corpus Endometrial Stromal Sarcoma AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C139875",
+      "relatedName": "Stage III Uterine Corpus Leiomyosarcoma AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C8260",
+      "relatedName": "Stage III Uterine Sarcoma AJCC v7"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C6322",
+      "relatedName": "Stage IIIA Cervical Cancer AJCC v6 and v7"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C139750",
+      "relatedName": "Stage IIIA Cervical Cancer AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C181594",
+      "relatedName": "Stage IIIA Cervical Cancer AJCC v9"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C186633",
+      "relatedName": "Stage IIIA Cervical Cancer FIGO 2009"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C162240",
+      "relatedName": "Stage IIIA Cervical Cancer FIGO 2018"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C206233",
+      "relatedName": "Stage IIIA Endometrial Cancer FIGO 2023"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C139901",
+      "relatedName": "Stage IIIA Uterine Corpus Adenosarcoma AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C139901",
+      "relatedName": "Stage IIIA Uterine Corpus Adenosarcoma AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C139807",
+      "relatedName": "Stage IIIA Uterine Corpus Carcinoma or Carcinosarcoma AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C6306",
+      "relatedName": "Stage IIIA Uterine Corpus Carcinoma or Carcinosarcoma by AJCC v7 Stage"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C139888",
+      "relatedName": "Stage IIIA Uterine Corpus Endometrial Stromal Sarcoma AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C139876",
+      "relatedName": "Stage IIIA Uterine Corpus Leiomyosarcoma AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C87135",
+      "relatedName": "Stage IIIA Uterine Sarcoma AJCC v7"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C206234",
+      "relatedName": "Stage IIIA1 Endometrial Cancer FIGO 2023"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C206235",
+      "relatedName": "Stage IIIA2 Endometrial Cancer FIGO 2023"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C6321",
+      "relatedName": "Stage IIIB Cervical Cancer AJCC v6 and v7"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C139752",
+      "relatedName": "Stage IIIB Cervical Cancer AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C181595",
+      "relatedName": "Stage IIIB Cervical Cancer AJCC v9"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C186634",
+      "relatedName": "Stage IIIB Cervical Cancer FIGO 2009"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C162241",
+      "relatedName": "Stage IIIB Cervical Cancer FIGO 2018"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C206236",
+      "relatedName": "Stage IIIB Endometrial Cancer FIGO 2023"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C139902",
+      "relatedName": "Stage IIIB Uterine Corpus Adenosarcoma AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C139902",
+      "relatedName": "Stage IIIB Uterine Corpus Adenosarcoma AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C139808",
+      "relatedName": "Stage IIIB Uterine Corpus Carcinoma or Carcinosarcoma AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C6307",
+      "relatedName": "Stage IIIB Uterine Corpus Carcinoma or Carcinosarcoma by AJCC v7 Stage"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C139889",
+      "relatedName": "Stage IIIB Uterine Corpus Endometrial Stromal Sarcoma AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C139877",
+      "relatedName": "Stage IIIB Uterine Corpus Leiomyosarcoma AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C87137",
+      "relatedName": "Stage IIIB Uterine Sarcoma AJCC v7"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C206237",
+      "relatedName": "Stage IIIB1 Endometrial Cancer FIGO 2023"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C206238",
+      "relatedName": "Stage IIIB2 Endometrial Cancer FIGO 2023"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C181596",
+      "relatedName": "Stage IIIC Cervical Cancer AJCC v9"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C162242",
+      "relatedName": "Stage IIIC Cervical Cancer FIGO 2018"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C206239",
+      "relatedName": "Stage IIIC Endometrial Cancer FIGO 2023"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C139903",
+      "relatedName": "Stage IIIC Uterine Corpus Adenosarcoma AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C139903",
+      "relatedName": "Stage IIIC Uterine Corpus Adenosarcoma AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C139809",
+      "relatedName": "Stage IIIC Uterine Corpus Carcinoma or Carcinosarcoma AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C6308",
+      "relatedName": "Stage IIIC Uterine Corpus Carcinoma or Carcinosarcoma by AJCC v7 Stage"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C139890",
+      "relatedName": "Stage IIIC Uterine Corpus Endometrial Stromal Sarcoma AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C139878",
+      "relatedName": "Stage IIIC Uterine Corpus Leiomyosarcoma AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C87138",
+      "relatedName": "Stage IIIC Uterine Sarcoma AJCC v7"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C181597",
+      "relatedName": "Stage IIIC1 Cervical Cancer AJCC v9"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C162243",
+      "relatedName": "Stage IIIC1 Cervical Cancer FIGO 2018"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C206240",
+      "relatedName": "Stage IIIC1 Endometrial Cancer FIGO 2023"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C139810",
+      "relatedName": "Stage IIIC1 Uterine Corpus Carcinoma or Carcinosarcoma AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C95174",
+      "relatedName": "Stage IIIC1 Uterine Corpus Carcinoma or Carcinosarcoma by AJCC v7 Stage"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C206241",
+      "relatedName": "Stage IIIC1i Endometrial Cancer FIGO 2023"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C206242",
+      "relatedName": "Stage IIIC1ii Endometrial Cancer FIGO 2023"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C181598",
+      "relatedName": "Stage IIIC2 Cervical Cancer AJCC v9"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C162244",
+      "relatedName": "Stage IIIC2 Cervical Cancer FIGO 2018"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C206243",
+      "relatedName": "Stage IIIC2 Endometrial Cancer FIGO 2023"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C139811",
+      "relatedName": "Stage IIIC2 Uterine Corpus Carcinoma or Carcinosarcoma AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C95176",
+      "relatedName": "Stage IIIC2 Uterine Corpus Carcinoma or Carcinosarcoma by AJCC v7 Stage"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C206244",
+      "relatedName": "Stage IIIC2i Endometrial Cancer FIGO 2023"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C206245",
+      "relatedName": "Stage IIIC2ii Endometrial Cancer FIGO 2023"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C9206",
+      "relatedName": "Stage IV Cervical Cancer AJCC v6 and v7"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C139753",
+      "relatedName": "Stage IV Cervical Cancer AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C181599",
+      "relatedName": "Stage IV Cervical Cancer AJCC v9"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C186635",
+      "relatedName": "Stage IV Cervical Cancer FIGO 2009"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C162245",
+      "relatedName": "Stage IV Cervical Cancer FIGO 2018"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C206222",
+      "relatedName": "Stage IV Endometrial Cancer FIGO 2023"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C139904",
+      "relatedName": "Stage IV Uterine Corpus Adenosarcoma AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C139904",
+      "relatedName": "Stage IV Uterine Corpus Adenosarcoma AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C4006",
+      "relatedName": "Stage IV Uterine Corpus Carcinoma or Carcinosarcoma AJCC v6"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C139812",
+      "relatedName": "Stage IV Uterine Corpus Carcinoma or Carcinosarcoma AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C89636",
+      "relatedName": "Stage IV Uterine Corpus Carcinoma or Carcinosarcoma by AJCC v7 Stage"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C139891",
+      "relatedName": "Stage IV Uterine Corpus Endometrial Stromal Sarcoma AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C139879",
+      "relatedName": "Stage IV Uterine Corpus Leiomyosarcoma AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C9179",
+      "relatedName": "Stage IV Uterine Sarcoma AJCC v7"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C6323",
+      "relatedName": "Stage IVA Cervical Cancer AJCC v6 and v7"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C139754",
+      "relatedName": "Stage IVA Cervical Cancer AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C181601",
+      "relatedName": "Stage IVA Cervical Cancer AJCC v9"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C186636",
+      "relatedName": "Stage IVA Cervical Cancer FIGO 2009"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C162246",
+      "relatedName": "Stage IVA Cervical Cancer FIGO 2018"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C206246",
+      "relatedName": "Stage IVA Endometrial Cancer FIGO 2023"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C139905",
+      "relatedName": "Stage IVA Uterine Corpus Adenosarcoma AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C139905",
+      "relatedName": "Stage IVA Uterine Corpus Adenosarcoma AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C139813",
+      "relatedName": "Stage IVA Uterine Corpus Carcinoma or Carcinosarcoma AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C6309",
+      "relatedName": "Stage IVA Uterine Corpus Carcinoma or Carcinosarcoma by AJCC v7 Stage"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C139892",
+      "relatedName": "Stage IVA Uterine Corpus Endometrial Stromal Sarcoma AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C139880",
+      "relatedName": "Stage IVA Uterine Corpus Leiomyosarcoma AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C87140",
+      "relatedName": "Stage IVA Uterine Sarcoma AJCC v7"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C6324",
+      "relatedName": "Stage IVB Cervical Cancer AJCC v6 and v7"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C139755",
+      "relatedName": "Stage IVB Cervical Cancer AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C181603",
+      "relatedName": "Stage IVB Cervical Cancer AJCC v9"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C186637",
+      "relatedName": "Stage IVB Cervical Cancer FIGO 2009"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C162247",
+      "relatedName": "Stage IVB Cervical Cancer FIGO 2018"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C206247",
+      "relatedName": "Stage IVB Endometrial Cancer FIGO 2023"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C139906",
+      "relatedName": "Stage IVB Uterine Corpus Adenosarcoma AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C139906",
+      "relatedName": "Stage IVB Uterine Corpus Adenosarcoma AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C139814",
+      "relatedName": "Stage IVB Uterine Corpus Carcinoma or Carcinosarcoma AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C6310",
+      "relatedName": "Stage IVB Uterine Corpus Carcinoma or Carcinosarcoma by AJCC v7 Stage"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C139893",
+      "relatedName": "Stage IVB Uterine Corpus Endometrial Stromal Sarcoma AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C139881",
+      "relatedName": "Stage IVB Uterine Corpus Leiomyosarcoma AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C87144",
+      "relatedName": "Stage IVB Uterine Sarcoma AJCC v7"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C206248",
+      "relatedName": "Stage IVC Endometrial Cancer FIGO 2023"
+    },
+    {
+      "type": "Procedure_Has_Excised_Anatomy",
+      "relatedCode": "C126397",
+      "relatedName": "Supracervical Hysterectomy"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C40159",
+      "relatedName": "Tamoxifen-Related Endometrial Disorder"
+    },
+    {
+      "type": "Gene_Product_Expressed_In_Tissue",
+      "relatedCode": "C21544",
+      "relatedName": "TERF1-Interacting Nuclear Factor 2"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C35722",
+      "relatedName": "Third Degree Uterine Prolapse"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C35722",
+      "relatedName": "Third Degree Uterine Prolapse"
+    },
+    {
+      "type": "Procedure_Has_Completely_Excised_Anatomy",
+      "relatedCode": "C51761",
+      "relatedName": "Total Abdominal Hysterectomy with Bilateral Salpingo-Oophorectomy"
+    },
+    {
+      "type": "Procedure_Has_Excised_Anatomy",
+      "relatedCode": "C51761",
+      "relatedName": "Total Abdominal Hysterectomy with Bilateral Salpingo-Oophorectomy"
+    },
+    {
+      "type": "Procedure_Has_Completely_Excised_Anatomy",
+      "relatedCode": "C51695",
+      "relatedName": "Total Abdominal Hysterectomy"
+    },
+    {
+      "type": "Procedure_Has_Excised_Anatomy",
+      "relatedCode": "C51695",
+      "relatedName": "Total Abdominal Hysterectomy"
+    },
+    {
+      "type": "Procedure_Has_Completely_Excised_Anatomy",
+      "relatedCode": "C15701",
+      "relatedName": "Total Hysterectomy"
+    },
+    {
+      "type": "Procedure_Has_Excised_Anatomy",
+      "relatedCode": "C15701",
+      "relatedName": "Total Hysterectomy"
+    },
+    {
+      "type": "Procedure_Has_Completely_Excised_Anatomy",
+      "relatedCode": "C203967",
+      "relatedName": "Total Laparoscopic Hysterectomy"
+    },
+    {
+      "type": "Procedure_Has_Excised_Anatomy",
+      "relatedCode": "C203967",
+      "relatedName": "Total Laparoscopic Hysterectomy"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C40145",
+      "relatedName": "Type I Endometrial Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C39749",
+      "relatedName": "Type II Endometrial Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C174029",
+      "relatedName": "Unresectable Cervical Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C174027",
+      "relatedName": "Unresectable Cervical Adenosquamous Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C174024",
+      "relatedName": "Unresectable Cervical Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C206203",
+      "relatedName": "Unresectable Cervical Non-Squamous Cell Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C174025",
+      "relatedName": "Unresectable Cervical Squamous Cell Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C221811",
+      "relatedName": "Unresectable Endometrial Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C171610",
+      "relatedName": "Unresectable Endometrial Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C188209",
+      "relatedName": "Unresectable Uterine Corpus Leiomyosarcoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C190016",
+      "relatedName": "Unresectable Uterine Corpus Sarcoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C5385",
+      "relatedName": "Uterine Angiosarcoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C5385",
+      "relatedName": "Uterine Angiosarcoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C113239",
+      "relatedName": "Uterine Carcinosarcoma, Heterologous Type"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C113239",
+      "relatedName": "Uterine Carcinosarcoma, Heterologous Type"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C113238",
+      "relatedName": "Uterine Carcinosarcoma, Homologous Type"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C113238",
+      "relatedName": "Uterine Carcinosarcoma, Homologous Type"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C42700",
+      "relatedName": "Uterine Carcinosarcoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C42700",
+      "relatedName": "Uterine Carcinosarcoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C6337",
+      "relatedName": "Uterine Corpus Adenofibroma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C6337",
+      "relatedName": "Uterine Corpus Adenofibroma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C27250",
+      "relatedName": "Uterine Corpus Adenomatoid Tumor"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C27250",
+      "relatedName": "Uterine Corpus Adenomatoid Tumor"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C6338",
+      "relatedName": "Uterine Corpus Adenomyoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C6338",
+      "relatedName": "Uterine Corpus Adenomyoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C6996",
+      "relatedName": "Uterine Corpus Adenomyosis"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C6996",
+      "relatedName": "Uterine Corpus Adenomyosis"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C139894",
+      "relatedName": "Uterine Corpus Adenosarcoma by AJCC v8 Stage"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C139894",
+      "relatedName": "Uterine Corpus Adenosarcoma by AJCC v8 Stage"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C6336",
+      "relatedName": "Uterine Corpus Adenosarcoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C6336",
+      "relatedName": "Uterine Corpus Adenosarcoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C40165",
+      "relatedName": "Uterine Corpus Apoplectic Leiomyoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C40165",
+      "relatedName": "Uterine Corpus Apoplectic Leiomyoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C40235",
+      "relatedName": "Uterine Corpus Atypical Polypoid Adenomyoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C40235",
+      "relatedName": "Uterine Corpus Atypical Polypoid Adenomyoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C40167",
+      "relatedName": "Uterine Corpus Bizarre Leiomyoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C40167",
+      "relatedName": "Uterine Corpus Bizarre Leiomyoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C40182",
+      "relatedName": "Uterine Corpus Carcinofibroma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C40182",
+      "relatedName": "Uterine Corpus Carcinofibroma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C90494",
+      "relatedName": "Uterine Corpus Carcinoma or Carcinosarcoma by AJCC v6 Stage"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C91218",
+      "relatedName": "Uterine Corpus Carcinoma or Carcinosarcoma by AJCC v7 Stage"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C139801",
+      "relatedName": "Uterine Corpus Carcinoma or Carcinosarcoma by AJCC v8 Stage"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C9180",
+      "relatedName": "Uterine Corpus Carcinosarcoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C9180",
+      "relatedName": "Uterine Corpus Carcinosarcoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C40163",
+      "relatedName": "Uterine Corpus Cellular Leiomyoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C40163",
+      "relatedName": "Uterine Corpus Cellular Leiomyoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C180546",
+      "relatedName": "Uterine Corpus Central Primitive Neuroectodermal Tumor"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C27246",
+      "relatedName": "Uterine Corpus Choriocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C3511",
+      "relatedName": "Uterine Corpus Degenerated Leiomyoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C3511",
+      "relatedName": "Uterine Corpus Degenerated Leiomyoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C40170",
+      "relatedName": "Uterine Corpus Diffuse Leiomyomatosis"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C40170",
+      "relatedName": "Uterine Corpus Diffuse Leiomyomatosis"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C40172",
+      "relatedName": "Uterine Corpus Dissecting Leiomyoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C40172",
+      "relatedName": "Uterine Corpus Dissecting Leiomyoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C40217",
+      "relatedName": "Uterine Corpus Endometrial Stromal and Related Neoplasms"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C139882",
+      "relatedName": "Uterine Corpus Endometrial Stromal Sarcoma by AJCC v8 Stage"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C40219",
+      "relatedName": "Uterine Corpus Endometrial Stromal Sarcoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C40164",
+      "relatedName": "Uterine Corpus Epithelioid Leiomyoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C40164",
+      "relatedName": "Uterine Corpus Epithelioid Leiomyoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C40174",
+      "relatedName": "Uterine Corpus Epithelioid Leiomyosarcoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C180542",
+      "relatedName": "Uterine Corpus Epithelioid Smooth Muscle Tumor of Uncertain Malignant Potential"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C127077",
+      "relatedName": "Uterine Corpus Germ Cell Tumor"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C126998",
+      "relatedName": "Uterine Corpus High Grade Endometrial Stromal Sarcoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C126975",
+      "relatedName": "Uterine Corpus Hydropic Leiomyoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C126975",
+      "relatedName": "Uterine Corpus Hydropic Leiomyoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C180545",
+      "relatedName": "Uterine Corpus Inflammatory Myofibroblastic Tumor"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C5356",
+      "relatedName": "Uterine Corpus Intravenous Leiomyomatosis"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C5356",
+      "relatedName": "Uterine Corpus Intravenous Leiomyomatosis"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C40162",
+      "relatedName": "Uterine Corpus Leiomyoma, Mitotically Active Variant"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C40162",
+      "relatedName": "Uterine Corpus Leiomyoma, Mitotically Active Variant"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C3434",
+      "relatedName": "Uterine Corpus Leiomyoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C3434",
+      "relatedName": "Uterine Corpus Leiomyoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C139870",
+      "relatedName": "Uterine Corpus Leiomyosarcoma by AJCC v8 Stage"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C6340",
+      "relatedName": "Uterine Corpus Leiomyosarcoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C40168",
+      "relatedName": "Uterine Corpus Lipoleiomyoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C40168",
+      "relatedName": "Uterine Corpus Lipoleiomyoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C40223",
+      "relatedName": "Uterine Corpus Low Grade Endometrial Stromal Sarcoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C127072",
+      "relatedName": "Uterine Corpus Malignant PEComa"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C40173",
+      "relatedName": "Uterine Corpus Metastasizing Leiomyoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C40173",
+      "relatedName": "Uterine Corpus Metastasizing Leiomyoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C40181",
+      "relatedName": "Uterine Corpus Mixed Epithelial and Mesenchymal Neoplasm"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C40181",
+      "relatedName": "Uterine Corpus Mixed Epithelial and Mesenchymal Neoplasm"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C40166",
+      "relatedName": "Uterine Corpus Myxoid Leiomyoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C40166",
+      "relatedName": "Uterine Corpus Myxoid Leiomyoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C40175",
+      "relatedName": "Uterine Corpus Myxoid Leiomyosarcoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C180541",
+      "relatedName": "Uterine Corpus Myxoid Smooth Muscle Tumor of Uncertain Malignant Potential"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C6300",
+      "relatedName": "Uterine Corpus Neoplasm"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C126771",
+      "relatedName": "Uterine Corpus Neuroendocrine Neoplasm"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C126773",
+      "relatedName": "Uterine Corpus Neuroendocrine Tumor G1"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C27624",
+      "relatedName": "Uterine Corpus Non-Neoplastic Disorder"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C27624",
+      "relatedName": "Uterine Corpus Non-Neoplastic Disorder"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C40180",
+      "relatedName": "Uterine Corpus PEComa"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C127058",
+      "relatedName": "Uterine Corpus Rhabdomyosarcoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C136708",
+      "relatedName": "Uterine Corpus Sarcoma by AJCC v7 Stage"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C139869",
+      "relatedName": "Uterine Corpus Sarcoma by AJCC v8 Stage"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C6339",
+      "relatedName": "Uterine Corpus Sarcoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C40176",
+      "relatedName": "Uterine Corpus Smooth Muscle Neoplasm"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C40177",
+      "relatedName": "Uterine Corpus Smooth Muscle Tumor of Uncertain Malignant Potential"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C40179",
+      "relatedName": "Uterine Corpus Soft Tissue Neoplasm"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C180540",
+      "relatedName": "Uterine Corpus Spindle Smooth Muscle Tumor of Uncertain Malignant Potential"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C127005",
+      "relatedName": "Uterine Corpus Tumor Resembling Ovarian Sex Cord Tumor"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C8972",
+      "relatedName": "Uterine Corpus Undifferentiated Sarcoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C26907",
+      "relatedName": "Uterine Disorder"
+    },
+    {
+      "type": "Anatomic_Structure_Is_Physical_Part_Of",
+      "relatedCode": "C61360",
+      "relatedName": "Uterine Ligament"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C3435",
+      "relatedName": "Uterine Neoplasm"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C27629",
+      "relatedName": "Uterine Non-Neoplastic Disorder"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C27629",
+      "relatedName": "Uterine Non-Neoplastic Disorder"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C3662",
+      "relatedName": "Uterine Polyp"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C3662",
+      "relatedName": "Uterine Polyp"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C35108",
+      "relatedName": "Uterine Prolapse"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C35108",
+      "relatedName": "Uterine Prolapse"
+    },
+    {
+      "type": "Biological_Process_Has_Associated_Location",
+      "relatedCode": "C20914",
+      "relatedName": "Uterine Swelling"
+    },
+    {
+      "type": "Anatomic_Structure_Is_Physical_Part_Of",
+      "relatedCode": "C49312",
+      "relatedName": "Uterus Serosal Surface"
+    },
+    {
+      "type": "Gene_Product_Expressed_In_Tissue",
+      "relatedCode": "C120581",
+      "relatedName": "V-Type Immunoglobulin Domain-Containing Suppressor of T-Cell Activation"
+    },
+    {
+      "type": "Procedure_Has_Completely_Excised_Anatomy",
+      "relatedCode": "C51784",
+      "relatedName": "Vaginal Hysterectomy"
+    },
+    {
+      "type": "Procedure_Has_Excised_Anatomy",
+      "relatedCode": "C51784",
+      "relatedName": "Vaginal Hysterectomy"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C27846",
+      "relatedName": "Villoglandular Endometrial Endometrioid Adenocarcinoma"
+    },
+    {
+      "type": "Anatomic_Structure_Is_Physical_Part_Of",
+      "relatedCode": "C41270",
+      "relatedName": "Wall of Body of Uterus"
+    }
+  ],
+  "history": [
+    {
+      "code": "C12405",
+      "action": "create",
+      "date": "2003-08-12"
+    },
+    {
+      "code": "C12405",
+      "action": "modify",
+      "date": "2003-10-31"
+    },
+    {
+      "code": "C12405",
+      "action": "modify",
+      "date": "2003-12-30"
+    },
+    {
+      "code": "C12405",
+      "action": "modify",
+      "date": "2004-02-23"
+    },
+    {
+      "code": "C12405",
+      "action": "modify",
+      "date": "2004-11-17"
+    },
+    {
+      "code": "C12405",
+      "action": "modify",
+      "date": "2005-03-16"
+    },
+    {
+      "code": "C12405",
+      "action": "modify",
+      "date": "2005-05-27"
+    },
+    {
+      "code": "C12405",
+      "action": "modify",
+      "date": "2006-06-30"
+    },
+    {
+      "code": "C12405",
+      "action": "modify",
+      "date": "2007-10-29"
+    },
+    {
+      "code": "C12405",
+      "action": "modify",
+      "date": "2008-06-27"
+    },
+    {
+      "code": "C12405",
+      "action": "modify",
+      "date": "2008-08-22"
+    },
+    {
+      "code": "C12405",
+      "action": "modify",
+      "date": "2008-09-12"
+    },
+    {
+      "code": "C12405",
+      "action": "modify",
+      "date": "2008-11-14"
+    },
+    {
+      "code": "C12405",
+      "action": "modify",
+      "date": "2008-11-26"
+    },
+    {
+      "code": "C12405",
+      "action": "modify",
+      "date": "2008-12-19"
+    },
+    {
+      "code": "C12405",
+      "action": "modify",
+      "date": "2008-11-07"
+    },
+    {
+      "code": "C12405",
+      "action": "modify",
+      "date": "2009-01-26"
+    },
+    {
+      "code": "C12405",
+      "action": "modify",
+      "date": "2009-04-06"
+    },
+    {
+      "code": "C12405",
+      "action": "modify",
+      "date": "2009-11-23"
+    },
+    {
+      "code": "C12405",
+      "action": "modify",
+      "date": "2011-02-22"
+    },
+    {
+      "code": "C12405",
+      "action": "modify",
+      "date": "2011-04-25"
+    },
+    {
+      "code": "C12405",
+      "action": "modify",
+      "date": "2011-05-02"
+    },
+    {
+      "code": "C12405",
+      "action": "modify",
+      "date": "2011-05-09"
+    },
+    {
+      "code": "C12405",
+      "action": "modify",
+      "date": "2011-05-16"
+    },
+    {
+      "code": "C12405",
+      "action": "modify",
+      "date": "2011-05-23"
+    },
+    {
+      "code": "C12405",
+      "action": "modify",
+      "date": "2011-05-31"
+    },
+    {
+      "code": "C12405",
+      "action": "modify",
+      "date": "2011-06-06"
+    },
+    {
+      "code": "C12405",
+      "action": "modify",
+      "date": "2011-06-13"
+    },
+    {
+      "code": "C12405",
+      "action": "modify",
+      "date": "2011-06-20"
+    },
+    {
+      "code": "C12405",
+      "action": "modify",
+      "date": "2011-06-27"
+    },
+    {
+      "code": "C12405",
+      "action": "modify",
+      "date": "2013-02-25"
+    },
+    {
+      "code": "C12405",
+      "action": "modify",
+      "date": "2013-03-04"
+    },
+    {
+      "code": "C12405",
+      "action": "modify",
+      "date": "2013-03-11"
+    },
+    {
+      "code": "C12405",
+      "action": "modify",
+      "date": "2013-03-18"
+    },
+    {
+      "code": "C12405",
+      "action": "modify",
+      "date": "2013-03-25"
+    },
+    {
+      "code": "C12405",
+      "action": "modify",
+      "date": "2013-04-01"
+    },
+    {
+      "code": "C12405",
+      "action": "modify",
+      "date": "2013-04-08"
+    },
+    {
+      "code": "C12405",
+      "action": "modify",
+      "date": "2013-04-15"
+    },
+    {
+      "code": "C12405",
+      "action": "modify",
+      "date": "2013-04-22"
+    },
+    {
+      "code": "C12405",
+      "action": "modify",
+      "date": "2013-04-29"
+    },
+    {
+      "code": "C12405",
+      "action": "modify",
+      "date": "2013-05-06"
+    },
+    {
+      "code": "C12405",
+      "action": "modify",
+      "date": "2013-05-13"
+    },
+    {
+      "code": "C12405",
+      "action": "modify",
+      "date": "2013-05-20"
+    },
+    {
+      "code": "C12405",
+      "action": "modify",
+      "date": "2013-05-28"
+    },
+    {
+      "code": "C12405",
+      "action": "modify",
+      "date": "2013-06-03"
+    },
+    {
+      "code": "C12405",
+      "action": "modify",
+      "date": "2013-06-10"
+    },
+    {
+      "code": "C12405",
+      "action": "modify",
+      "date": "2013-06-17"
+    },
+    {
+      "code": "C12405",
+      "action": "modify",
+      "date": "2013-06-24"
+    },
+    {
+      "code": "C12405",
+      "action": "modify",
+      "date": "2013-07-01"
+    },
+    {
+      "code": "C12405",
+      "action": "modify",
+      "date": "2013-07-08"
+    },
+    {
+      "code": "C12405",
+      "action": "modify",
+      "date": "2014-02-03"
+    },
+    {
+      "code": "C12405",
+      "action": "modify",
+      "date": "2015-05-26"
+    },
+    {
+      "code": "C12405",
+      "action": "modify",
+      "date": "2015-06-01"
+    },
+    {
+      "code": "C12405",
+      "action": "modify",
+      "date": "2015-06-08"
+    },
+    {
+      "code": "C12405",
+      "action": "modify",
+      "date": "2015-06-15"
+    },
+    {
+      "code": "C12405",
+      "action": "modify",
+      "date": "2015-06-22"
+    },
+    {
+      "code": "C12405",
+      "action": "modify",
+      "date": "2015-06-29"
+    },
+    {
+      "code": "C12405",
+      "action": "modify",
+      "date": "2015-07-06"
+    },
+    {
+      "code": "C12405",
+      "action": "modify",
+      "date": "2015-07-13"
+    },
+    {
+      "code": "C12405",
+      "action": "modify",
+      "date": "2015-08-12"
+    },
+    {
+      "code": "C12405",
+      "action": "modify",
+      "date": "2015-08-31"
+    },
+    {
+      "code": "C12405",
+      "action": "modify",
+      "date": "2015-10-19"
+    },
+    {
+      "code": "C12405",
+      "action": "modify",
+      "date": "2016-10-17"
+    },
+    {
+      "code": "C12405",
+      "action": "modify",
+      "date": "2017-03-13"
+    },
+    {
+      "code": "C12405",
+      "action": "modify",
+      "date": "2018-09-24"
+    },
+    {
+      "code": "C12405",
+      "action": "modify",
+      "date": "2018-10-29"
+    },
+    {
+      "code": "C12405",
+      "action": "modify",
+      "date": "2018-10-29"
+    },
+    {
+      "code": "C12405",
+      "action": "modify",
+      "date": "2018-11-26"
+    },
+    {
+      "code": "C12405",
+      "action": "modify",
+      "date": "2019-03-25"
+    },
+    {
+      "code": "C12405",
+      "action": "modify",
+      "date": "2019-04-29"
+    },
+    {
+      "code": "C12405",
+      "action": "modify",
+      "date": "2019-05-28"
+    },
+    {
+      "code": "C12405",
+      "action": "modify",
+      "date": "2019-06-24"
+    },
+    {
+      "code": "C12405",
+      "action": "modify",
+      "date": "2019-07-29"
+    },
+    {
+      "code": "C12405",
+      "action": "modify",
+      "date": "2019-09-30"
+    },
+    {
+      "code": "C12405",
+      "action": "modify",
+      "date": "2019-10-28"
+    },
+    {
+      "code": "C12405",
+      "action": "modify",
+      "date": "2020-02-24"
+    },
+    {
+      "code": "C12405",
+      "action": "modify",
+      "date": "2020-03-30"
+    },
+    {
+      "code": "C12405",
+      "action": "modify",
+      "date": "2020-09-29"
+    },
+    {
+      "code": "C12405",
+      "action": "modify",
+      "date": "2021-02-22"
+    },
+    {
+      "code": "C12405",
+      "action": "modify",
+      "date": "2021-03-29"
+    },
+    {
+      "code": "C12405",
+      "action": "modify",
+      "date": "2021-11-29"
+    },
+    {
+      "code": "C12405",
+      "action": "modify",
+      "date": "2022-04-25"
+    },
+    {
+      "code": "C12405",
+      "action": "modify",
+      "date": "2022-08-29"
+    },
+    {
+      "code": "C12405",
+      "action": "modify",
+      "date": "2022-10-31"
+    },
+    {
+      "code": "C12405",
+      "action": "modify",
+      "date": "2023-02-27"
+    },
+    {
+      "code": "C12405",
+      "action": "modify",
+      "date": "2023-03-27"
+    },
+    {
+      "code": "C12405",
+      "action": "modify",
+      "date": "2023-05-30"
+    },
+    {
+      "code": "C12405",
+      "action": "modify",
+      "date": "2023-09-25"
+    },
+    {
+      "code": "C12405",
+      "action": "modify",
+      "date": "2024-07-08"
+    }
+  ],
+  "maps": [
+    {
+      "type": "Related To",
+      "targetName": "Uterine, NOS",
+      "targetTermType": "SY",
+      "targetCode": "C55.9",
+      "targetTerminology": "ICDO3",
+      "targetTerminologyVersion": "3.1"
+    },
+    {
+      "type": "Related To",
+      "targetName": "Uterine, NOS",
+      "targetTermType": "SY",
+      "targetCode": "C55.9",
+      "targetTerminology": "ICDO3",
+      "targetTerminologyVersion": "3.2"
+    },
+    {
+      "type": "Related To",
+      "targetName": "UTERUS, NOS",
+      "targetTermType": "HT",
+      "targetCode": "C55",
+      "targetTerminology": "ICDO3",
+      "targetTerminologyVersion": "3.1"
+    },
+    {
+      "type": "Related To",
+      "targetName": "UTERUS, NOS",
+      "targetTermType": "HT",
+      "targetCode": "C55",
+      "targetTerminology": "ICDO3",
+      "targetTerminologyVersion": "3.2"
+    },
+    {
+      "type": "Related To",
+      "targetName": "Uterus, NOS",
+      "targetTermType": "PT",
+      "targetCode": "C55.9",
+      "targetTerminology": "ICDO3",
+      "targetTerminologyVersion": "3.1"
+    },
+    {
+      "type": "Related To",
+      "targetName": "Uterus, NOS",
+      "targetTermType": "PT",
+      "targetCode": "C55.9",
+      "targetTerminology": "ICDO3",
+      "targetTerminologyVersion": "3.2"
+    },
+    {
+      "type": "Has Synonym",
+      "targetName": "Uterus, NOS",
+      "targetTermType": "PT",
+      "targetCode": "primary_site",
+      "targetTerminology": "GDC"
+    },
+    {
+      "type": "Has Synonym",
+      "targetName": "Uterus, NOS",
+      "targetTermType": "PT",
+      "targetCode": "progression_or_recurrence_anatomic_site",
+      "targetTerminology": "GDC"
+    },
+    {
+      "type": "Has Synonym",
+      "targetName": "Uterus, NOS",
+      "targetTermType": "PT",
+      "targetCode": "site_of_resection_or_biopsy",
+      "targetTerminology": "GDC"
+    },
+    {
+      "type": "Has Synonym",
+      "targetName": "Uterus, NOS",
+      "targetTermType": "PT",
+      "targetCode": "tissue_or_organ_of_origin",
+      "targetTerminology": "GDC"
+    },
+    {
+      "type": "Has Synonym",
+      "targetName": "Uterus",
+      "targetTermType": "PT",
+      "targetCode": "biospecimen_anatomic_site",
+      "targetTerminology": "GDC"
+    },
+    {
+      "type": "Has Synonym",
+      "targetName": "Uterus",
+      "targetTermType": "PT",
+      "targetCode": "sites_of_involvement",
+      "targetTerminology": "GDC"
+    },
+    {
+      "type": "Has Synonym",
+      "targetName": "Uterus",
+      "targetTermType": "PT",
+      "targetCode": "treatment_anatomic_sites",
+      "targetTerminology": "GDC"
+    }
+  ]
+}

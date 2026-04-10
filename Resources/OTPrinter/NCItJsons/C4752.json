@@ -1,0 +1,795 @@
+{
+  "code": "C4752",
+  "name": "T-Cell Prolymphocytic Leukemia",
+  "terminology": "ncit",
+  "version": "25.11d",
+  "conceptStatus": "DEFAULT",
+  "leaf": false,
+  "active": true,
+  "synonyms": [
+    {
+      "name": "T-Cell Prolymphocytic Leukemia",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "caDSR"
+    },
+    {
+      "name": "T-Cell Prolymphocytic Leukemia",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "Cellosaurus"
+    },
+    {
+      "name": "T-Cell Prolymphocytic Leukemia",
+      "termType": "DN",
+      "type": "FULL_SYN",
+      "source": "CTRP"
+    },
+    {
+      "name": "Prolymphocytic leukemia, T-cell type",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "GDC"
+    },
+    {
+      "name": "T Cell Prolymphocytic Leukemia",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "T Prolymphocytic Leukemia",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "T-Cell Prolymphocytic Leukemia",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "T-Prolymphocytic Leukemia",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "T-Cell Prolymphocytic Leukemia",
+      "type": "Display_Name"
+    },
+    {
+      "name": "T-Cell Prolymphocytic Leukemia",
+      "type": "Preferred_Name"
+    }
+  ],
+  "definitions": [
+    {
+      "definition": "An aggressive T-cell leukemia, characterized by the proliferation of small to medium sized prolymphocytes with a mature T-cell phenotype, involving the blood, bone marrow, lymph nodes, liver, spleen, and skin.  (WHO, 2001)",
+      "type": "DEFINITION",
+      "source": "NCI"
+    }
+  ],
+  "properties": [
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "Cellosaurus"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "CTRP"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "GDC"
+    },
+    {
+      "code": "P334",
+      "type": "ICD-O-3_Code",
+      "value": "9834/3"
+    },
+    {
+      "code": "P366",
+      "type": "Legacy Concept Name",
+      "value": "T-Cell_Prolymphocytic_Leukemia"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "9834/3"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "Prolymphocytic leukemia, T-cell type"
+    },
+    {
+      "code": "P363",
+      "type": "Neoplastic_Status",
+      "value": "Malignant"
+    },
+    {
+      "code": "P106",
+      "type": "Semantic_Type",
+      "value": "Neoplastic Process"
+    },
+    {
+      "code": "P207",
+      "type": "UMLS_CUI",
+      "value": "C2363142"
+    }
+  ],
+  "children": [
+    {
+      "code": "C150133",
+      "name": "Recurrent T-Cell Prolymphocytic Leukemia",
+      "leaf": true
+    },
+    {
+      "code": "C157691",
+      "name": "Refractory T-Cell Prolymphocytic Leukemia",
+      "leaf": true
+    },
+    {
+      "code": "C7298",
+      "name": "Splenic Manifestation of T-Cell Prolymphocytic Leukemia",
+      "leaf": true
+    },
+    {
+      "code": "C206378",
+      "name": "T-Cell Prolymphocytic Leukemia Involving the Skin",
+      "leaf": true
+    },
+    {
+      "code": "C36271",
+      "name": "T-Cell Prolymphocytic Leukemia, Cerebriform Cell Variant",
+      "leaf": true
+    },
+    {
+      "code": "C36270",
+      "name": "T-Cell Prolymphocytic Leukemia, Small Cell Variant",
+      "leaf": true
+    }
+  ],
+  "parents": [
+    {
+      "code": "C27909",
+      "name": "Mature T-Cell and NK-Cell Neoplasm"
+    },
+    {
+      "code": "C3181",
+      "name": "Prolymphocytic Leukemia"
+    }
+  ],
+  "associations": [
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C165258",
+      "relatedName": "Cellosaurus Disease Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C118168",
+      "relatedName": "CTRP Disease Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C116977",
+      "relatedName": "CTRP Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C157711",
+      "relatedName": "GDC Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C177537",
+      "relatedName": "GDC Value Terminology"
+    },
+    {
+      "type": "Is_Value_For_GDC_Property",
+      "relatedCode": "C176985",
+      "relatedName": "Histology ICD-O Morphology Code"
+    },
+    {
+      "type": "Is_Value_For_GDC_Property",
+      "relatedCode": "C177621",
+      "relatedName": "ICD-O-3 Morphology Term Diagnosis Question"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168658",
+      "relatedName": "Mapped ICDO3.1 Morphology PT Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168657",
+      "relatedName": "Mapped ICDO3.1 Morphology Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168655",
+      "relatedName": "Mapped ICDO3.1 Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168662",
+      "relatedName": "Mapped ICDO3.2 Morphology PT Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168661",
+      "relatedName": "Mapped ICDO3.2 Morphology Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168656",
+      "relatedName": "Mapped ICDO3.2 Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C126659",
+      "relatedName": "NCIt Neoplasm Core Terminology"
+    }
+  ],
+  "inverseAssociations": [
+    {
+      "type": "Has_GDC_Value",
+      "relatedCode": "C176985",
+      "relatedName": "Histology ICD-O Morphology Code"
+    },
+    {
+      "type": "Has_GDC_Value",
+      "relatedCode": "C177621",
+      "relatedName": "ICD-O-3 Morphology Term Diagnosis Question"
+    }
+  ],
+  "roles": [
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36725",
+      "relatedName": "Abnormal Lymphocyte"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C36157",
+      "relatedName": "Acute Clinical Course"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C36104",
+      "relatedName": "Aggressive Clinical Course"
+    },
+    {
+      "type": "Disease_May_Have_Associated_Disease",
+      "relatedCode": "C2869",
+      "relatedName": "Anemia"
+    },
+    {
+      "type": "Disease_May_Have_Associated_Disease",
+      "relatedCode": "C2869",
+      "relatedName": "Anemia"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C36122",
+      "relatedName": "Benign Cellular Infiltrate"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12431",
+      "relatedName": "Bone Marrow"
+    },
+    {
+      "type": "Disease_Has_Molecular_Abnormality",
+      "relatedCode": "C36447",
+      "relatedName": "Clonal T-Cell Receptor Beta Chain Gene Rearrangement"
+    },
+    {
+      "type": "Disease_Has_Molecular_Abnormality",
+      "relatedCode": "C36448",
+      "relatedName": "Clonal T-Cell Receptor Gamma Chain Gene Rearrangement"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C39570",
+      "relatedName": "Cutaneous Involvement"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C39569",
+      "relatedName": "Cytoplasmic Protrusions Present"
+    },
+    {
+      "type": "Disease_May_Have_Cytogenetic_Abnormality",
+      "relatedCode": "C36429",
+      "relatedName": "del(12p13)"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C3003",
+      "relatedName": "Effusion"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C41165",
+      "relatedName": "Hematopoietic and Lymphatic System"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C41165",
+      "relatedName": "Hematopoietic and Lymphatic System"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C32725",
+      "relatedName": "Hematopoietic and Lymphoid Cell"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C41168",
+      "relatedName": "Hematopoietic and Lymphoid Tissue"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C3100",
+      "relatedName": "Hepatomegaly"
+    },
+    {
+      "type": "Disease_May_Have_Cytogenetic_Abnormality",
+      "relatedCode": "C36426",
+      "relatedName": "inv(14)"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C25553",
+      "relatedName": "Leukemic Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C41073",
+      "relatedName": "Leukemic Lymphocyte"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C41071",
+      "relatedName": "Leukemic Plasma Cell"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C50764",
+      "relatedName": "Lymphadenopathy"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12746",
+      "relatedName": "Lymphatic System"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C12535",
+      "relatedName": "Lymphocyte"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C13049",
+      "relatedName": "Lymphoid Tissue"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12917",
+      "relatedName": "Malignant Cell"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C36115",
+      "relatedName": "Malignant Cellular Infiltrate"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C38439",
+      "relatedName": "Mature Lymphocyte"
+    },
+    {
+      "type": "Disease_Excludes_Normal_Cell_Origin",
+      "relatedCode": "C12549",
+      "relatedName": "Myeloid Cell"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C38640",
+      "relatedName": "Neoplastic B-Lymphocyte"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12922",
+      "relatedName": "Neoplastic Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C37060",
+      "relatedName": "Neoplastic Hematopoietic and Lymphoid Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36988",
+      "relatedName": "Neoplastic Lymphocyte"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C37182",
+      "relatedName": "Neoplastic Prolymphocyte"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C39566",
+      "relatedName": "Neoplastic T-Lymphocyte and Neoplastic Natural Killer Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C37184",
+      "relatedName": "Neoplastic T-Prolymphocyte"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C39568",
+      "relatedName": "Peripheral (Post-Thymic) T-Lymphocyte and Natural Killer Cell"
+    },
+    {
+      "type": "Disease_Excludes_Normal_Cell_Origin",
+      "relatedCode": "C39300",
+      "relatedName": "Precursor Natural Killer Cell"
+    },
+    {
+      "type": "Disease_Excludes_Normal_Cell_Origin",
+      "relatedCode": "C33930",
+      "relatedName": "Precursor T-Lymphoblast"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C36182",
+      "relatedName": "Solid Growth Pattern"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C3384",
+      "relatedName": "Splenomegaly"
+    },
+    {
+      "type": "Disease_May_Have_Cytogenetic_Abnormality",
+      "relatedCode": "C36356",
+      "relatedName": "t(14;14)(q11;q32)"
+    },
+    {
+      "type": "Disease_May_Have_Cytogenetic_Abnormality",
+      "relatedCode": "C36427",
+      "relatedName": "t(8;8)(p11-12;q12)"
+    },
+    {
+      "type": "Disease_May_Have_Cytogenetic_Abnormality",
+      "relatedCode": "C36360",
+      "relatedName": "t(X;14)(q28;q11)"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C39567",
+      "relatedName": "T-Lymphocyte and Natural Killer Cell"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C39573",
+      "relatedName": "T-Lymphocyte with a Post-Thymic Immunophenotype"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C3408",
+      "relatedName": "Thrombocytopenia"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C3408",
+      "relatedName": "Thrombocytopenia"
+    },
+    {
+      "type": "Disease_May_Have_Cytogenetic_Abnormality",
+      "relatedCode": "C36428",
+      "relatedName": "Trisomy 8q"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C38328",
+      "relatedName": "Unfavorable Clinical Outcome"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C38328",
+      "relatedName": "Unfavorable Clinical Outcome"
+    }
+  ],
+  "inverseRoles": [
+    {
+      "type": "Disease_May_Have_Associated_Disease",
+      "relatedCode": "C2887",
+      "relatedName": "Ataxia Telangiectasia Syndrome"
+    }
+  ],
+  "history": [
+    {
+      "code": "C4752",
+      "action": "create",
+      "date": "2003-08-12"
+    },
+    {
+      "code": "C4752",
+      "action": "modify",
+      "date": "2003-10-31"
+    },
+    {
+      "code": "C4752",
+      "action": "modify",
+      "date": "2003-12-30"
+    },
+    {
+      "code": "C4752",
+      "action": "modify",
+      "date": "2004-03-30"
+    },
+    {
+      "code": "C4752",
+      "action": "modify",
+      "date": "2004-04-30"
+    },
+    {
+      "code": "C4752",
+      "action": "modify",
+      "date": "2004-06-25"
+    },
+    {
+      "code": "C4752",
+      "action": "modify",
+      "date": "2007-03-30"
+    },
+    {
+      "code": "C4752",
+      "action": "modify",
+      "date": "2007-05-25"
+    },
+    {
+      "code": "C4752",
+      "action": "modify",
+      "date": "2009-11-23"
+    },
+    {
+      "code": "C4752",
+      "action": "modify",
+      "date": "2011-07-11"
+    },
+    {
+      "code": "C4752",
+      "action": "modify",
+      "date": "2011-12-27"
+    },
+    {
+      "code": "C4752",
+      "action": "modify",
+      "date": "2013-02-25"
+    },
+    {
+      "code": "C4752",
+      "action": "modify",
+      "date": "2013-03-04"
+    },
+    {
+      "code": "C4752",
+      "action": "modify",
+      "date": "2013-03-11"
+    },
+    {
+      "code": "C4752",
+      "action": "modify",
+      "date": "2013-03-18"
+    },
+    {
+      "code": "C4752",
+      "action": "modify",
+      "date": "2013-03-25"
+    },
+    {
+      "code": "C4752",
+      "action": "modify",
+      "date": "2013-04-01"
+    },
+    {
+      "code": "C4752",
+      "action": "modify",
+      "date": "2013-04-08"
+    },
+    {
+      "code": "C4752",
+      "action": "modify",
+      "date": "2013-04-15"
+    },
+    {
+      "code": "C4752",
+      "action": "modify",
+      "date": "2013-04-22"
+    },
+    {
+      "code": "C4752",
+      "action": "modify",
+      "date": "2013-04-29"
+    },
+    {
+      "code": "C4752",
+      "action": "modify",
+      "date": "2013-05-06"
+    },
+    {
+      "code": "C4752",
+      "action": "modify",
+      "date": "2013-05-13"
+    },
+    {
+      "code": "C4752",
+      "action": "modify",
+      "date": "2013-05-20"
+    },
+    {
+      "code": "C4752",
+      "action": "modify",
+      "date": "2013-05-28"
+    },
+    {
+      "code": "C4752",
+      "action": "modify",
+      "date": "2013-06-03"
+    },
+    {
+      "code": "C4752",
+      "action": "modify",
+      "date": "2013-06-10"
+    },
+    {
+      "code": "C4752",
+      "action": "modify",
+      "date": "2013-06-17"
+    },
+    {
+      "code": "C4752",
+      "action": "modify",
+      "date": "2013-06-24"
+    },
+    {
+      "code": "C4752",
+      "action": "modify",
+      "date": "2013-07-01"
+    },
+    {
+      "code": "C4752",
+      "action": "modify",
+      "date": "2013-07-08"
+    },
+    {
+      "code": "C4752",
+      "action": "modify",
+      "date": "2016-04-25"
+    },
+    {
+      "code": "C4752",
+      "action": "modify",
+      "date": "2018-09-24"
+    },
+    {
+      "code": "C4752",
+      "action": "modify",
+      "date": "2018-10-29"
+    },
+    {
+      "code": "C4752",
+      "action": "modify",
+      "date": "2018-10-29"
+    },
+    {
+      "code": "C4752",
+      "action": "modify",
+      "date": "2019-05-28"
+    },
+    {
+      "code": "C4752",
+      "action": "modify",
+      "date": "2019-09-30"
+    },
+    {
+      "code": "C4752",
+      "action": "modify",
+      "date": "2019-10-28"
+    },
+    {
+      "code": "C4752",
+      "action": "modify",
+      "date": "2019-11-25"
+    },
+    {
+      "code": "C4752",
+      "action": "modify",
+      "date": "2020-02-24"
+    },
+    {
+      "code": "C4752",
+      "action": "modify",
+      "date": "2020-04-27"
+    },
+    {
+      "code": "C4752",
+      "action": "modify",
+      "date": "2020-09-29"
+    },
+    {
+      "code": "C4752",
+      "action": "modify",
+      "date": "2021-02-22"
+    },
+    {
+      "code": "C4752",
+      "action": "modify",
+      "date": "2021-03-29"
+    },
+    {
+      "code": "C4752",
+      "action": "modify",
+      "date": "2022-08-29"
+    },
+    {
+      "code": "C4752",
+      "action": "modify",
+      "date": "2023-02-27"
+    },
+    {
+      "code": "C4752",
+      "action": "modify",
+      "date": "2023-08-28"
+    },
+    {
+      "code": "C4752",
+      "action": "modify",
+      "date": "2025-03-31"
+    }
+  ],
+  "maps": [
+    {
+      "type": "Related To",
+      "targetName": "9834/3",
+      "targetTermType": "PT",
+      "targetCode": "morphology",
+      "targetTerminology": "GDC"
+    },
+    {
+      "type": "Related To",
+      "targetName": "Prolymphocytic leukemia, T-cell type",
+      "targetTermType": "PT",
+      "targetCode": "9834/3",
+      "targetTerminology": "ICDO3",
+      "targetTerminologyVersion": "3.1"
+    },
+    {
+      "type": "Related To",
+      "targetName": "Prolymphocytic leukemia, T-cell type",
+      "targetTermType": "PT",
+      "targetCode": "9834/3",
+      "targetTerminology": "ICDO3",
+      "targetTerminologyVersion": "3.2"
+    },
+    {
+      "type": "Has Synonym",
+      "targetName": "Prolymphocytic leukemia, T-cell type",
+      "targetTermType": "PT",
+      "targetCode": "primary_diagnosis",
+      "targetTerminology": "GDC"
+    }
+  ]
+}

@@ -1,0 +1,299 @@
+{
+  "code": "C4381",
+  "name": "Ovarian Epithelial Tumor",
+  "terminology": "ncit",
+  "version": "25.11d",
+  "conceptStatus": "DEFAULT",
+  "leaf": false,
+  "active": true,
+  "synonyms": [
+    {
+      "name": "Epithelial Neoplasm of Ovary",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Epithelial Neoplasm of the Ovary",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Epithelial Tumor of Ovary",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Epithelial Tumor of the Ovary",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Ovarian Epithelial Tumor",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Ovarian Surface Epithelial-Stromal Tumor",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Ovarian Surface-Epithelial Stromal Neoplasm",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Ovarian Epithelial Tumor",
+      "type": "Preferred_Name"
+    }
+  ],
+  "definitions": [
+    {
+      "definition": "A benign, borderline, or malignant tumor that originates from the surface epithelium of the ovary.  It is composed of epithelial cells and stroma.  Representative examples of benign tumors include serous cystadenoma, mucinous cystadenoma, and benign Brenner tumor.  Representative examples of borderline tumors include serous surface papillary tumor, mucinous adenofibroma, and borderline Brenner tumor.  Representative examples of malignant tumors include serous adenocarcinoma, mucinous adenocarcinoma, endometrioid adenocarcinoma, and malignant Brenner tumor.",
+      "type": "DEFINITION",
+      "source": "NCI"
+    }
+  ],
+  "properties": [
+    {
+      "code": "P366",
+      "type": "Legacy Concept Name",
+      "value": "Ovarian_Epithelial_Neoplasm"
+    },
+    {
+      "code": "P363",
+      "type": "Neoplastic_Status",
+      "value": "Undetermined"
+    },
+    {
+      "code": "P106",
+      "type": "Semantic_Type",
+      "value": "Neoplastic Process"
+    },
+    {
+      "code": "P207",
+      "type": "UMLS_CUI",
+      "value": "C0341823"
+    }
+  ],
+  "children": [
+    {
+      "code": "C4510",
+      "name": "Benign Ovarian Epithelial Tumor",
+      "leaf": false
+    },
+    {
+      "code": "C4783",
+      "name": "Borderline Ovarian Epithelial Tumor",
+      "leaf": false
+    },
+    {
+      "code": "C40026",
+      "name": "Malignant Ovarian Epithelial Tumor",
+      "leaf": false
+    },
+    {
+      "code": "C3872",
+      "name": "Ovarian Brenner Tumor",
+      "leaf": false
+    },
+    {
+      "code": "C40076",
+      "name": "Ovarian Clear Cell Tumor",
+      "leaf": false
+    },
+    {
+      "code": "C6257",
+      "name": "Ovarian Endometrioid Tumor",
+      "leaf": false
+    },
+    {
+      "code": "C5242",
+      "name": "Ovarian Mucinous Tumor",
+      "leaf": false
+    },
+    {
+      "code": "C8430",
+      "name": "Ovarian Papillary Tumor",
+      "leaf": false
+    },
+    {
+      "code": "C4508",
+      "name": "Ovarian Seromucinous Tumor",
+      "leaf": false
+    },
+    {
+      "code": "C8431",
+      "name": "Ovarian Serous Tumor",
+      "leaf": false
+    },
+    {
+      "code": "C179548",
+      "name": "Ovarian Wolffian Tumor",
+      "leaf": true
+    }
+  ],
+  "parents": [
+    {
+      "code": "C3709",
+      "name": "Epithelial Neoplasm"
+    },
+    {
+      "code": "C4984",
+      "name": "Ovarian Neoplasm"
+    }
+  ],
+  "roles": [
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C137974",
+      "relatedName": "Adnexa"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C12578",
+      "relatedName": "Epithelial Cell"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C53596",
+      "relatedName": "Epithelial Component Present"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C45714",
+      "relatedName": "Epithelial Tissue"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12402",
+      "relatedName": "Female Reproductive System"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12810",
+      "relatedName": "Genitourinary System"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12922",
+      "relatedName": "Neoplastic Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36753",
+      "relatedName": "Neoplastic Epithelial Cell"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C36937",
+      "relatedName": "Neoplastic Smooth Muscle Cell"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C61518",
+      "relatedName": "Ovarian Surface Epithelium"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12404",
+      "relatedName": "Ovary"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12404",
+      "relatedName": "Ovary"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12841",
+      "relatedName": "Reproductive System"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12321",
+      "relatedName": "Uterine Adnexa"
+    }
+  ],
+  "inverseRoles": [
+    {
+      "type": "Gene_Product_Is_Biomarker_Of",
+      "relatedCode": "C17585",
+      "relatedName": "Solute Carrier Family 2, Facilitated Glucose Transporter Member 1"
+    }
+  ],
+  "history": [
+    {
+      "code": "C4381",
+      "action": "create",
+      "date": "2003-08-12"
+    },
+    {
+      "code": "C4381",
+      "action": "modify",
+      "date": "2003-10-31"
+    },
+    {
+      "code": "C4381",
+      "action": "modify",
+      "date": "2003-12-30"
+    },
+    {
+      "code": "C4381",
+      "action": "modify",
+      "date": "2004-03-30"
+    },
+    {
+      "code": "C4381",
+      "action": "modify",
+      "date": "2004-08-02"
+    },
+    {
+      "code": "C4381",
+      "action": "modify",
+      "date": "2006-03-31"
+    },
+    {
+      "code": "C4381",
+      "action": "modify",
+      "date": "2006-07-28"
+    },
+    {
+      "code": "C4381",
+      "action": "modify",
+      "date": "2009-11-23"
+    },
+    {
+      "code": "C4381",
+      "action": "modify",
+      "date": "2011-10-03"
+    },
+    {
+      "code": "C4381",
+      "action": "modify",
+      "date": "2014-02-03"
+    },
+    {
+      "code": "C4381",
+      "action": "modify",
+      "date": "2015-06-22"
+    },
+    {
+      "code": "C4381",
+      "action": "modify",
+      "date": "2016-03-28"
+    },
+    {
+      "code": "C4381",
+      "action": "modify",
+      "date": "2025-04-28"
+    }
+  ]
+}

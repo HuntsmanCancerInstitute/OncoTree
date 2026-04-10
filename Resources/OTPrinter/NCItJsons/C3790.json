@@ -1,0 +1,1047 @@
+{
+  "code": "C3790",
+  "name": "Ganglioneuroblastoma",
+  "terminology": "ncit",
+  "version": "25.11d",
+  "conceptStatus": "DEFAULT",
+  "leaf": false,
+  "active": true,
+  "synonyms": [
+    {
+      "name": "GANGLIONEUROBLASTOMA, MALIGNANT",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "CDISC"
+    },
+    {
+      "name": "Ganglioneuroblastoma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "Cellosaurus"
+    },
+    {
+      "name": "Ganglioneuroblastoma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "CPTAC"
+    },
+    {
+      "name": "Ganglioneuroblastoma",
+      "termType": "DN",
+      "type": "FULL_SYN",
+      "source": "CTRP"
+    },
+    {
+      "name": "Ganglioneuroblastoma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "GDC"
+    },
+    {
+      "name": "Ganglioneuroblastoma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Ganglioneuroblastoma",
+      "type": "Display_Name"
+    },
+    {
+      "name": "Ganglioneuroblastoma",
+      "type": "Preferred_Name"
+    }
+  ],
+  "definitions": [
+    {
+      "definition": "A malignant neoplasm characterized by the presence of neuroblastic and ganglion cells and a stroma with Schwannian differentiation.",
+      "type": "ALT_DEFINITION",
+      "source": "CDISC"
+    },
+    {
+      "definition": "A malignant neuroblastic tumor characterized by the presence of neuroblastic cells, ganglion cells, and a stroma with Schwannian differentiation constituting more than fifty-percent of the tumor volume.  There are two histologic subtypes identified: ganglioneuroblastoma, intermixed and ganglioneuroblastoma, nodular.",
+      "type": "DEFINITION",
+      "source": "NCI"
+    }
+  ],
+  "properties": [
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "CDISC"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "Cellosaurus"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "CPTAC"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "CTRP"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "GDC"
+    },
+    {
+      "code": "P334",
+      "type": "ICD-O-3_Code",
+      "value": "9490/3"
+    },
+    {
+      "code": "P366",
+      "type": "Legacy Concept Name",
+      "value": "Ganglioneuroblastoma"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "9490/3"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "Ganglioneuroblastoma"
+    },
+    {
+      "code": "P363",
+      "type": "Neoplastic_Status",
+      "value": "Malignant"
+    },
+    {
+      "code": "P106",
+      "type": "Semantic_Type",
+      "value": "Neoplastic Process"
+    },
+    {
+      "code": "P207",
+      "type": "UMLS_CUI",
+      "value": "C0206718"
+    }
+  ],
+  "children": [
+    {
+      "code": "C92629",
+      "name": "Central Nervous System Ganglioneuroblastoma",
+      "leaf": false
+    },
+    {
+      "code": "C124271",
+      "name": "Childhood Ganglioneuroblastoma",
+      "leaf": false
+    },
+    {
+      "code": "C42057",
+      "name": "Ganglioneuroblastoma, Intermixed",
+      "leaf": false
+    },
+    {
+      "code": "C42058",
+      "name": "Ganglioneuroblastoma, Nodular",
+      "leaf": false
+    },
+    {
+      "code": "C6594",
+      "name": "Peripheral Ganglioneuroblastoma",
+      "leaf": false
+    },
+    {
+      "code": "C173531",
+      "name": "Recurrent Ganglioneuroblastoma",
+      "leaf": true
+    },
+    {
+      "code": "C173530",
+      "name": "Refractory Ganglioneuroblastoma",
+      "leaf": true
+    }
+  ],
+  "parents": [
+    {
+      "code": "C6963",
+      "name": "Neuroblastic Tumor"
+    }
+  ],
+  "associations": [
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C77526",
+      "relatedName": "CDISC SEND Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C88025",
+      "relatedName": "CDISC SEND Tumor Findings Results Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C165258",
+      "relatedName": "Cellosaurus Disease Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C61410",
+      "relatedName": "Clinical Data Interchange Standards Consortium Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C138188",
+      "relatedName": "Clinical Trials Search-Application Programming Interface Disease Category Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C158520",
+      "relatedName": "CPTAC Codelists Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C156966",
+      "relatedName": "CPTAC Neoplasms Codelist"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C156952",
+      "relatedName": "CPTAC Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C118168",
+      "relatedName": "CTRP Disease Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C116977",
+      "relatedName": "CTRP Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C138190",
+      "relatedName": "CTS-API Disease Main Type Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C157711",
+      "relatedName": "GDC Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C177537",
+      "relatedName": "GDC Value Terminology"
+    },
+    {
+      "type": "Is_Value_For_GDC_Property",
+      "relatedCode": "C176985",
+      "relatedName": "Histology ICD-O Morphology Code"
+    },
+    {
+      "type": "Is_Value_For_GDC_Property",
+      "relatedCode": "C177621",
+      "relatedName": "ICD-O-3 Morphology Term Diagnosis Question"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168658",
+      "relatedName": "Mapped ICDO3.1 Morphology PT Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168657",
+      "relatedName": "Mapped ICDO3.1 Morphology Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168655",
+      "relatedName": "Mapped ICDO3.1 Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168662",
+      "relatedName": "Mapped ICDO3.2 Morphology PT Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168661",
+      "relatedName": "Mapped ICDO3.2 Morphology Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168656",
+      "relatedName": "Mapped ICDO3.2 Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C126659",
+      "relatedName": "NCIt Neoplasm Core Terminology"
+    },
+    {
+      "type": "Neoplasm_Has_Special_Category",
+      "relatedCode": "C9292",
+      "relatedName": "Solid Neoplasm"
+    }
+  ],
+  "inverseAssociations": [
+    {
+      "type": "Has_GDC_Value",
+      "relatedCode": "C176985",
+      "relatedName": "Histology ICD-O Morphology Code"
+    },
+    {
+      "type": "Has_GDC_Value",
+      "relatedCode": "C177621",
+      "relatedName": "ICD-O-3 Morphology Term Diagnosis Question"
+    }
+  ],
+  "roles": [
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C36122",
+      "relatedName": "Benign Cellular Infiltrate"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C13054",
+      "relatedName": "Embryonic Cell"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C12950",
+      "relatedName": "Embryonic Tissue"
+    },
+    {
+      "type": "Disease_Excludes_Normal_Tissue_Origin",
+      "relatedCode": "C54105",
+      "relatedName": "Germinal Layer"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C36105",
+      "relatedName": "Indolent Clinical Course"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12917",
+      "relatedName": "Malignant Cell"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C36115",
+      "relatedName": "Malignant Cellular Infiltrate"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C37145",
+      "relatedName": "Malignant Neuroblast"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C53987",
+      "relatedName": "Malignant Neuroectodermal Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12922",
+      "relatedName": "Neoplastic Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C37146",
+      "relatedName": "Neoplastic Ganglion Cell"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12755",
+      "relatedName": "Nervous System"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12755",
+      "relatedName": "Nervous System"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C12991",
+      "relatedName": "Neuroblast"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C42050",
+      "relatedName": "Neuroectodermal Cell"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C53978",
+      "relatedName": "Neuroectodermal Differentiation"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C34228",
+      "relatedName": "Neuroectoderm"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C42074",
+      "relatedName": "Scattered Collections of Differentiating Neuroblasts Present"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C42062",
+      "relatedName": "Schwannian Stroma More than 50 Percent of the Tumor Volume"
+    }
+  ],
+  "history": [
+    {
+      "code": "C3790",
+      "action": "create",
+      "date": "2003-08-12"
+    },
+    {
+      "code": "C3790",
+      "action": "modify",
+      "date": "2003-12-30"
+    },
+    {
+      "code": "C3790",
+      "action": "modify",
+      "date": "2004-03-30"
+    },
+    {
+      "code": "C3790",
+      "action": "modify",
+      "date": "2004-11-17"
+    },
+    {
+      "code": "C3790",
+      "action": "modify",
+      "date": "2006-12-29"
+    },
+    {
+      "code": "C3790",
+      "action": "modify",
+      "date": "2007-01-26"
+    },
+    {
+      "code": "C3790",
+      "action": "modify",
+      "date": "2007-03-30"
+    },
+    {
+      "code": "C3790",
+      "action": "modify",
+      "date": "2007-06-28"
+    },
+    {
+      "code": "C3790",
+      "action": "modify",
+      "date": "2009-04-06"
+    },
+    {
+      "code": "C3790",
+      "action": "modify",
+      "date": "2009-07-13"
+    },
+    {
+      "code": "C3790",
+      "action": "modify",
+      "date": "2009-11-23"
+    },
+    {
+      "code": "C3790",
+      "action": "modify",
+      "date": "2010-05-17"
+    },
+    {
+      "code": "C3790",
+      "action": "modify",
+      "date": "2010-06-01"
+    },
+    {
+      "code": "C3790",
+      "action": "modify",
+      "date": "2011-04-11"
+    },
+    {
+      "code": "C3790",
+      "action": "modify",
+      "date": "2011-11-14"
+    },
+    {
+      "code": "C3790",
+      "action": "modify",
+      "date": "2011-11-21"
+    },
+    {
+      "code": "C3790",
+      "action": "modify",
+      "date": "2011-11-28"
+    },
+    {
+      "code": "C3790",
+      "action": "modify",
+      "date": "2011-12-05"
+    },
+    {
+      "code": "C3790",
+      "action": "modify",
+      "date": "2011-12-12"
+    },
+    {
+      "code": "C3790",
+      "action": "modify",
+      "date": "2011-12-19"
+    },
+    {
+      "code": "C3790",
+      "action": "modify",
+      "date": "2011-12-27"
+    },
+    {
+      "code": "C3790",
+      "action": "modify",
+      "date": "2012-01-09"
+    },
+    {
+      "code": "C3790",
+      "action": "modify",
+      "date": "2012-01-17"
+    },
+    {
+      "code": "C3790",
+      "action": "modify",
+      "date": "2012-01-23"
+    },
+    {
+      "code": "C3790",
+      "action": "modify",
+      "date": "2012-01-30"
+    },
+    {
+      "code": "C3790",
+      "action": "modify",
+      "date": "2012-02-06"
+    },
+    {
+      "code": "C3790",
+      "action": "modify",
+      "date": "2012-02-13"
+    },
+    {
+      "code": "C3790",
+      "action": "modify",
+      "date": "2012-02-21"
+    },
+    {
+      "code": "C3790",
+      "action": "modify",
+      "date": "2012-02-27"
+    },
+    {
+      "code": "C3790",
+      "action": "modify",
+      "date": "2012-03-05"
+    },
+    {
+      "code": "C3790",
+      "action": "modify",
+      "date": "2012-03-12"
+    },
+    {
+      "code": "C3790",
+      "action": "modify",
+      "date": "2012-03-19"
+    },
+    {
+      "code": "C3790",
+      "action": "modify",
+      "date": "2012-03-26"
+    },
+    {
+      "code": "C3790",
+      "action": "modify",
+      "date": "2012-04-02"
+    },
+    {
+      "code": "C3790",
+      "action": "modify",
+      "date": "2012-04-09"
+    },
+    {
+      "code": "C3790",
+      "action": "modify",
+      "date": "2012-04-16"
+    },
+    {
+      "code": "C3790",
+      "action": "modify",
+      "date": "2012-04-23"
+    },
+    {
+      "code": "C3790",
+      "action": "modify",
+      "date": "2012-04-30"
+    },
+    {
+      "code": "C3790",
+      "action": "modify",
+      "date": "2012-05-07"
+    },
+    {
+      "code": "C3790",
+      "action": "modify",
+      "date": "2012-05-14"
+    },
+    {
+      "code": "C3790",
+      "action": "modify",
+      "date": "2012-05-21"
+    },
+    {
+      "code": "C3790",
+      "action": "modify",
+      "date": "2012-05-29"
+    },
+    {
+      "code": "C3790",
+      "action": "modify",
+      "date": "2012-06-04"
+    },
+    {
+      "code": "C3790",
+      "action": "modify",
+      "date": "2012-06-11"
+    },
+    {
+      "code": "C3790",
+      "action": "modify",
+      "date": "2012-06-18"
+    },
+    {
+      "code": "C3790",
+      "action": "modify",
+      "date": "2012-06-18"
+    },
+    {
+      "code": "C3790",
+      "action": "modify",
+      "date": "2012-06-25"
+    },
+    {
+      "code": "C3790",
+      "action": "modify",
+      "date": "2012-07-03"
+    },
+    {
+      "code": "C3790",
+      "action": "modify",
+      "date": "2012-07-16"
+    },
+    {
+      "code": "C3790",
+      "action": "modify",
+      "date": "2012-07-23"
+    },
+    {
+      "code": "C3790",
+      "action": "modify",
+      "date": "2012-07-30"
+    },
+    {
+      "code": "C3790",
+      "action": "modify",
+      "date": "2012-08-06"
+    },
+    {
+      "code": "C3790",
+      "action": "modify",
+      "date": "2012-08-13"
+    },
+    {
+      "code": "C3790",
+      "action": "modify",
+      "date": "2012-08-20"
+    },
+    {
+      "code": "C3790",
+      "action": "modify",
+      "date": "2012-08-27"
+    },
+    {
+      "code": "C3790",
+      "action": "modify",
+      "date": "2012-09-04"
+    },
+    {
+      "code": "C3790",
+      "action": "modify",
+      "date": "2012-09-10"
+    },
+    {
+      "code": "C3790",
+      "action": "modify",
+      "date": "2012-09-17"
+    },
+    {
+      "code": "C3790",
+      "action": "modify",
+      "date": "2012-09-24"
+    },
+    {
+      "code": "C3790",
+      "action": "modify",
+      "date": "2012-10-01"
+    },
+    {
+      "code": "C3790",
+      "action": "modify",
+      "date": "2012-10-09"
+    },
+    {
+      "code": "C3790",
+      "action": "modify",
+      "date": "2012-10-15"
+    },
+    {
+      "code": "C3790",
+      "action": "modify",
+      "date": "2012-10-22"
+    },
+    {
+      "code": "C3790",
+      "action": "modify",
+      "date": "2012-10-31"
+    },
+    {
+      "code": "C3790",
+      "action": "modify",
+      "date": "2012-11-05"
+    },
+    {
+      "code": "C3790",
+      "action": "modify",
+      "date": "2012-11-13"
+    },
+    {
+      "code": "C3790",
+      "action": "modify",
+      "date": "2012-11-19"
+    },
+    {
+      "code": "C3790",
+      "action": "modify",
+      "date": "2012-11-26"
+    },
+    {
+      "code": "C3790",
+      "action": "modify",
+      "date": "2012-12-03"
+    },
+    {
+      "code": "C3790",
+      "action": "modify",
+      "date": "2012-12-10"
+    },
+    {
+      "code": "C3790",
+      "action": "modify",
+      "date": "2012-12-17"
+    },
+    {
+      "code": "C3790",
+      "action": "modify",
+      "date": "2012-12-28"
+    },
+    {
+      "code": "C3790",
+      "action": "modify",
+      "date": "2013-01-07"
+    },
+    {
+      "code": "C3790",
+      "action": "modify",
+      "date": "2013-01-14"
+    },
+    {
+      "code": "C3790",
+      "action": "modify",
+      "date": "2013-01-23"
+    },
+    {
+      "code": "C3790",
+      "action": "modify",
+      "date": "2013-02-04"
+    },
+    {
+      "code": "C3790",
+      "action": "modify",
+      "date": "2013-02-11"
+    },
+    {
+      "code": "C3790",
+      "action": "modify",
+      "date": "2013-02-19"
+    },
+    {
+      "code": "C3790",
+      "action": "modify",
+      "date": "2013-02-25"
+    },
+    {
+      "code": "C3790",
+      "action": "modify",
+      "date": "2013-03-04"
+    },
+    {
+      "code": "C3790",
+      "action": "modify",
+      "date": "2013-03-11"
+    },
+    {
+      "code": "C3790",
+      "action": "modify",
+      "date": "2013-03-18"
+    },
+    {
+      "code": "C3790",
+      "action": "modify",
+      "date": "2013-03-25"
+    },
+    {
+      "code": "C3790",
+      "action": "modify",
+      "date": "2013-04-01"
+    },
+    {
+      "code": "C3790",
+      "action": "modify",
+      "date": "2013-04-08"
+    },
+    {
+      "code": "C3790",
+      "action": "modify",
+      "date": "2013-04-15"
+    },
+    {
+      "code": "C3790",
+      "action": "modify",
+      "date": "2013-04-22"
+    },
+    {
+      "code": "C3790",
+      "action": "modify",
+      "date": "2013-04-29"
+    },
+    {
+      "code": "C3790",
+      "action": "modify",
+      "date": "2013-05-06"
+    },
+    {
+      "code": "C3790",
+      "action": "modify",
+      "date": "2013-05-13"
+    },
+    {
+      "code": "C3790",
+      "action": "modify",
+      "date": "2013-05-20"
+    },
+    {
+      "code": "C3790",
+      "action": "modify",
+      "date": "2013-05-28"
+    },
+    {
+      "code": "C3790",
+      "action": "modify",
+      "date": "2013-06-03"
+    },
+    {
+      "code": "C3790",
+      "action": "modify",
+      "date": "2013-06-10"
+    },
+    {
+      "code": "C3790",
+      "action": "modify",
+      "date": "2013-06-17"
+    },
+    {
+      "code": "C3790",
+      "action": "modify",
+      "date": "2013-06-24"
+    },
+    {
+      "code": "C3790",
+      "action": "modify",
+      "date": "2013-07-01"
+    },
+    {
+      "code": "C3790",
+      "action": "modify",
+      "date": "2013-07-08"
+    },
+    {
+      "code": "C3790",
+      "action": "modify",
+      "date": "2014-02-03"
+    },
+    {
+      "code": "C3790",
+      "action": "modify",
+      "date": "2014-09-29"
+    },
+    {
+      "code": "C3790",
+      "action": "modify",
+      "date": "2016-04-25"
+    },
+    {
+      "code": "C3790",
+      "action": "modify",
+      "date": "2016-08-22"
+    },
+    {
+      "code": "C3790",
+      "action": "modify",
+      "date": "2017-09-26"
+    },
+    {
+      "code": "C3790",
+      "action": "modify",
+      "date": "2018-02-26"
+    },
+    {
+      "code": "C3790",
+      "action": "modify",
+      "date": "2018-07-30"
+    },
+    {
+      "code": "C3790",
+      "action": "modify",
+      "date": "2018-08-27"
+    },
+    {
+      "code": "C3790",
+      "action": "modify",
+      "date": "2018-08-27"
+    },
+    {
+      "code": "C3790",
+      "action": "modify",
+      "date": "2018-09-24"
+    },
+    {
+      "code": "C3790",
+      "action": "modify",
+      "date": "2019-02-25"
+    },
+    {
+      "code": "C3790",
+      "action": "modify",
+      "date": "2019-03-25"
+    },
+    {
+      "code": "C3790",
+      "action": "modify",
+      "date": "2019-05-28"
+    },
+    {
+      "code": "C3790",
+      "action": "modify",
+      "date": "2019-09-30"
+    },
+    {
+      "code": "C3790",
+      "action": "modify",
+      "date": "2019-10-28"
+    },
+    {
+      "code": "C3790",
+      "action": "modify",
+      "date": "2019-11-25"
+    },
+    {
+      "code": "C3790",
+      "action": "modify",
+      "date": "2020-02-24"
+    },
+    {
+      "code": "C3790",
+      "action": "modify",
+      "date": "2020-04-27"
+    },
+    {
+      "code": "C3790",
+      "action": "modify",
+      "date": "2021-02-22"
+    },
+    {
+      "code": "C3790",
+      "action": "modify",
+      "date": "2021-03-29"
+    },
+    {
+      "code": "C3790",
+      "action": "modify",
+      "date": "2023-02-27"
+    },
+    {
+      "code": "C3790",
+      "action": "modify",
+      "date": "2023-03-27"
+    },
+    {
+      "code": "C3790",
+      "action": "modify",
+      "date": "2023-12-26"
+    },
+    {
+      "code": "C3790",
+      "action": "modify",
+      "date": "2025-02-24"
+    },
+    {
+      "code": "C3790",
+      "action": "modify",
+      "date": "2025-03-31"
+    }
+  ],
+  "maps": [
+    {
+      "type": "Related To",
+      "targetName": "9490/3",
+      "targetTermType": "PT",
+      "targetCode": "morphology",
+      "targetTerminology": "GDC"
+    },
+    {
+      "type": "Related To",
+      "targetName": "Ganglioneuroblastoma",
+      "targetTermType": "PT",
+      "targetCode": "9490/3",
+      "targetTerminology": "ICDO3",
+      "targetTerminologyVersion": "3.1"
+    },
+    {
+      "type": "Related To",
+      "targetName": "Ganglioneuroblastoma",
+      "targetTermType": "PT",
+      "targetCode": "9490/3",
+      "targetTerminology": "ICDO3",
+      "targetTerminologyVersion": "3.2"
+    },
+    {
+      "type": "Has Synonym",
+      "targetName": "Ganglioneuroblastoma",
+      "targetTermType": "PT",
+      "targetCode": "primary_diagnosis",
+      "targetTerminology": "GDC"
+    }
+  ]
+}

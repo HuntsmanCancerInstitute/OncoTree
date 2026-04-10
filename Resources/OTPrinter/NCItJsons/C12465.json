@@ -1,0 +1,3469 @@
+{
+  "code": "C12465",
+  "name": "Peripheral Nervous System",
+  "terminology": "ncit",
+  "version": "25.11d",
+  "conceptStatus": "DEFAULT",
+  "leaf": true,
+  "active": true,
+  "synonyms": [
+    {
+      "name": "Peripheral nervous system",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "GDC"
+    },
+    {
+      "name": "Peripheral Nervous System",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Peripheral Nervous System",
+      "type": "Display_Name"
+    },
+    {
+      "name": "Peripheral Nervous System",
+      "type": "Preferred_Name"
+    },
+    {
+      "name": "peripheral nervous system",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "UBERON"
+    }
+  ],
+  "definitions": [
+    {
+      "definition": "A major division of the nervous system that contains nerves which connect the central nervous system (CNS) with sensory organs, other organs, muscles, blood vessels and glands.",
+      "type": "ALT_DEFINITION",
+      "source": "UBERON"
+    },
+    {
+      "definition": "That part of the nervous system consisting of the nerves and neurons that reside or extend outside the central nervous system.",
+      "type": "DEFINITION",
+      "source": "NCI"
+    }
+  ],
+  "properties": [
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "GDC"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "UBERON"
+    },
+    {
+      "code": "P366",
+      "type": "Legacy Concept Name",
+      "value": "Peripheral_Nervous_System"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "PERIPHERAL NERVES AND AUTONOMIC NERVOUS SYSTEM"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "Peripheral nerves and autonomic nervous system"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "Peripheral nervous system"
+    },
+    {
+      "code": "P106",
+      "type": "Semantic_Type",
+      "value": "Body System"
+    },
+    {
+      "code": "P207",
+      "type": "UMLS_CUI",
+      "value": "C0206417"
+    },
+    {
+      "code": "oboInOwl:hasDbXref",
+      "type": "xRef",
+      "value": "UBERON:0000010"
+    }
+  ],
+  "parents": [
+    {
+      "code": "C13040",
+      "name": "Nervous System Part"
+    }
+  ],
+  "associations": [
+    {
+      "type": "Is_Value_For_GDC_Property",
+      "relatedCode": "C173263",
+      "relatedName": "Disease Involvement Site"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C157711",
+      "relatedName": "GDC Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C177537",
+      "relatedName": "GDC Value Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168655",
+      "relatedName": "Mapped ICDO3.1 Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168659",
+      "relatedName": "Mapped ICDO3.1 Topography Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168656",
+      "relatedName": "Mapped ICDO3.2 Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168663",
+      "relatedName": "Mapped ICDO3.2 Topography Terminology"
+    },
+    {
+      "type": "Is_Value_For_GDC_Property",
+      "relatedCode": "C158874",
+      "relatedName": "Primary Site of Disease"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C198975",
+      "relatedName": "UBERON Terminology"
+    }
+  ],
+  "inverseAssociations": [
+    {
+      "type": "Has_GDC_Value",
+      "relatedCode": "C173263",
+      "relatedName": "Disease Involvement Site"
+    },
+    {
+      "type": "Has_GDC_Value",
+      "relatedCode": "C158874",
+      "relatedName": "Primary Site of Disease"
+    }
+  ],
+  "roles": [
+    {
+      "type": "Anatomic_Structure_Is_Physical_Part_Of",
+      "relatedCode": "C12755",
+      "relatedName": "Nervous System"
+    }
+  ],
+  "inverseRoles": [
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C26790",
+      "relatedName": "Acute Infective Polyneuritis"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C26790",
+      "relatedName": "Acute Infective Polyneuritis"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C116926",
+      "relatedName": "Acute Inflammatory Demyelinating Polyradiculoneuropathy"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C116926",
+      "relatedName": "Acute Inflammatory Demyelinating Polyradiculoneuropathy"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C116927",
+      "relatedName": "Acute Motor and Sensory Axonal Neuropathy"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C116927",
+      "relatedName": "Acute Motor and Sensory Axonal Neuropathy"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C116929",
+      "relatedName": "Acute Motor Axonal Neuropathy"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C116929",
+      "relatedName": "Acute Motor Axonal Neuropathy"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C48306",
+      "relatedName": "Adrenal Gland Composite Pheochromocytoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C157243",
+      "relatedName": "Adrenal Gland Ganglioneuroblastoma, Intermixed"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C157243",
+      "relatedName": "Adrenal Gland Ganglioneuroblastoma, Intermixed"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C157244",
+      "relatedName": "Adrenal Gland Ganglioneuroblastoma, Nodular"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C157244",
+      "relatedName": "Adrenal Gland Ganglioneuroblastoma, Nodular"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C7646",
+      "relatedName": "Adrenal Gland Ganglioneuroblastoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C7646",
+      "relatedName": "Adrenal Gland Ganglioneuroblastoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C157245",
+      "relatedName": "Adrenal Gland Ganglioneuroma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C157245",
+      "relatedName": "Adrenal Gland Ganglioneuroma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C4827",
+      "relatedName": "Adrenal Gland Neuroblastoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C4827",
+      "relatedName": "Adrenal Gland Neuroblastoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C141128",
+      "relatedName": "Adrenal Gland Pheochromocytoma and Sympathetic Paraganglioma by AJCC v8 Stage"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C3326",
+      "relatedName": "Adrenal Gland Pheochromocytoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C156944",
+      "relatedName": "Adrenal Gland Schwannoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C156944",
+      "relatedName": "Adrenal Gland Schwannoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C188947",
+      "relatedName": "Adult Ganglioneuroma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C188947",
+      "relatedName": "Adult Ganglioneuroma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C7814",
+      "relatedName": "Adult Malignant Peripheral Nerve Sheath Tumor"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C7814",
+      "relatedName": "Adult Malignant Peripheral Nerve Sheath Tumor"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C160853",
+      "relatedName": "Advanced Adrenal Gland Pheochromocytoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C160853",
+      "relatedName": "Advanced Adrenal Gland Pheochromocytoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C168714",
+      "relatedName": "Advanced Malignant Peripheral Nerve Sheath Tumor"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C168714",
+      "relatedName": "Advanced Malignant Peripheral Nerve Sheath Tumor"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C160852",
+      "relatedName": "Advanced Paraganglioma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C160852",
+      "relatedName": "Advanced Paraganglioma"
+    },
+    {
+      "type": "Anatomic_Structure_Is_Physical_Part_Of",
+      "relatedCode": "C13080",
+      "relatedName": "Afferent Pathway"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C35824",
+      "relatedName": "Amputation Neuroma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C35824",
+      "relatedName": "Amputation Neuroma"
+    },
+    {
+      "type": "Anatomic_Structure_Is_Physical_Part_Of",
+      "relatedCode": "C12645",
+      "relatedName": "Anterior Horn Cell"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C4218",
+      "relatedName": "Aorticopulmonary Paraganglioma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C96436",
+      "relatedName": "Appendix Neuroma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C96436",
+      "relatedName": "Appendix Neuroma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C27953",
+      "relatedName": "Asymmetric Motor Neuropathy"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C27953",
+      "relatedName": "Asymmetric Motor Neuropathy"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C5390",
+      "relatedName": "Atrial Paraganglioma"
+    },
+    {
+      "type": "Anatomic_Structure_Is_Physical_Part_Of",
+      "relatedCode": "C12720",
+      "relatedName": "Autonomic Ganglion"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C5112",
+      "relatedName": "Autonomic Nervous System Neoplasm"
+    },
+    {
+      "type": "Anatomic_Structure_Is_Physical_Part_Of",
+      "relatedCode": "C12673",
+      "relatedName": "Autonomic Nervous System"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C214860",
+      "relatedName": "Autosomal Dominant Distal Hereditary Motor Neuronopathy-14"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C214860",
+      "relatedName": "Autosomal Dominant Distal Hereditary Motor Neuronopathy-14"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C206095",
+      "relatedName": "Autosomal Recessive Distal Hereditary Motor Neuronopathy 8"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C206095",
+      "relatedName": "Autosomal Recessive Distal Hereditary Motor Neuronopathy 8"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C181000",
+      "relatedName": "Autosomal Recessive Limb-Girdle Muscular Dystrophy Type 2Y"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C181000",
+      "relatedName": "Autosomal Recessive Limb-Girdle Muscular Dystrophy Type 2Y"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C180849",
+      "relatedName": "Autosomal Recessive Limb-Girdle Muscular Dystrophy-4"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C180849",
+      "relatedName": "Autosomal Recessive Limb-Girdle Muscular Dystrophy-4"
+    },
+    {
+      "type": "Anatomic_Structure_Is_Physical_Part_Of",
+      "relatedCode": "C52817",
+      "relatedName": "Axillary Nerve"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C84587",
+      "relatedName": "Becker's Muscular Dystrophy"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C84587",
+      "relatedName": "Becker's Muscular Dystrophy"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C5502",
+      "relatedName": "Benign Peripheral Nerve Granular Cell Tumor"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C5502",
+      "relatedName": "Benign Peripheral Nerve Granular Cell Tumor"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C213862",
+      "relatedName": "Benign Peripheral Nervous System Neoplasm"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C213862",
+      "relatedName": "Benign Peripheral Nervous System Neoplasm"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C159682",
+      "relatedName": "Bladder Neurofibroma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C159682",
+      "relatedName": "Bladder Neurofibroma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C6414",
+      "relatedName": "Bladder Paraganglioma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C188064",
+      "relatedName": "Bone Malignant Peripheral Nerve Sheath Tumor"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C188064",
+      "relatedName": "Bone Malignant Peripheral Nerve Sheath Tumor"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C27476",
+      "relatedName": "Bone Schwannoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C27476",
+      "relatedName": "Bone Schwannoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C5823",
+      "relatedName": "Brachial Plexus Neoplasm"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C84600",
+      "relatedName": "Brachial Plexus Neuritis"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C84600",
+      "relatedName": "Brachial Plexus Neuritis"
+    },
+    {
+      "type": "Anatomic_Structure_Is_Physical_Part_Of",
+      "relatedCode": "C12682",
+      "relatedName": "Brachial Plexus"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C176415",
+      "relatedName": "Breast Neurofibroma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C176415",
+      "relatedName": "Breast Neurofibroma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C176414",
+      "relatedName": "Breast Schwannoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C176414",
+      "relatedName": "Breast Schwannoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C5367",
+      "relatedName": "Cardiac Malignant Peripheral Nerve Sheath Tumor"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C5367",
+      "relatedName": "Cardiac Malignant Peripheral Nerve Sheath Tumor"
+    },
+    {
+      "type": "Anatomic_Structure_Is_Physical_Part_Of",
+      "relatedCode": "C52833",
+      "relatedName": "Cardiac Nerve Plexus"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C5359",
+      "relatedName": "Cardiac Neurofibroma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C5359",
+      "relatedName": "Cardiac Neurofibroma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C6410",
+      "relatedName": "Cardiac Paraganglioma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C5358",
+      "relatedName": "Cardiac Schwannoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C5358",
+      "relatedName": "Cardiac Schwannoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C2932",
+      "relatedName": "Carotid Body Paraganglioma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C34453",
+      "relatedName": "Cauda Equina Syndrome with Neurogenic Bladder"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C34453",
+      "relatedName": "Cauda Equina Syndrome with Neurogenic Bladder"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C35436",
+      "relatedName": "Cauda Equina Syndrome"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C35436",
+      "relatedName": "Cauda Equina Syndrome"
+    },
+    {
+      "type": "Anatomic_Structure_Is_Physical_Part_Of",
+      "relatedCode": "C52830",
+      "relatedName": "Celiac Ganglion"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C41427",
+      "relatedName": "Cellular Neurofibroma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C41427",
+      "relatedName": "Cellular Neurofibroma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C5466",
+      "relatedName": "Central Nervous System Paraganglioma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C48318",
+      "relatedName": "Cerebellar Paraganglioma"
+    },
+    {
+      "type": "Anatomic_Structure_Is_Physical_Part_Of",
+      "relatedCode": "C98713",
+      "relatedName": "Cervical Ganglia"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C128050",
+      "relatedName": "Cervical Malignant Peripheral Nerve Sheath Tumor"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C128050",
+      "relatedName": "Cervical Malignant Peripheral Nerve Sheath Tumor"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C213638",
+      "relatedName": "Cervical Neuroblastoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C213638",
+      "relatedName": "Cervical Neuroblastoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C75468",
+      "relatedName": "Charcot-Marie-Tooth Disease Type 1A"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C75468",
+      "relatedName": "Charcot-Marie-Tooth Disease Type 1A"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C118782",
+      "relatedName": "Charcot-Marie-Tooth Disease Type 1B"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C118782",
+      "relatedName": "Charcot-Marie-Tooth Disease Type 1B"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C217417",
+      "relatedName": "Charcot-Marie-Tooth Disease Type 1C"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C217417",
+      "relatedName": "Charcot-Marie-Tooth Disease Type 1C"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C150609",
+      "relatedName": "Charcot-Marie-Tooth Disease Type 2A1"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C150609",
+      "relatedName": "Charcot-Marie-Tooth Disease Type 2A1"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C150646",
+      "relatedName": "Charcot-Marie-Tooth Disease Type 2A2A"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C150646",
+      "relatedName": "Charcot-Marie-Tooth Disease Type 2A2A"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C150647",
+      "relatedName": "Charcot-Marie-Tooth Disease Type 2A2B"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C150647",
+      "relatedName": "Charcot-Marie-Tooth Disease Type 2A2B"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C134952",
+      "relatedName": "Charcot-Marie-Tooth Disease Type 2A"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C134952",
+      "relatedName": "Charcot-Marie-Tooth Disease Type 2A"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C122659",
+      "relatedName": "Charcot-Marie-Tooth Disease Type 2D"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C122659",
+      "relatedName": "Charcot-Marie-Tooth Disease Type 2D"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C212863",
+      "relatedName": "Charcot-Marie-Tooth Disease Type 2EE"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C212863",
+      "relatedName": "Charcot-Marie-Tooth Disease Type 2EE"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C134953",
+      "relatedName": "Charcot-Marie-Tooth Disease Type 2E"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C134953",
+      "relatedName": "Charcot-Marie-Tooth Disease Type 2E"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C133886",
+      "relatedName": "Charcot-Marie-Tooth Disease Type 2K"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C133886",
+      "relatedName": "Charcot-Marie-Tooth Disease Type 2K"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C168974",
+      "relatedName": "Charcot-Marie-Tooth Disease Type 2Y"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C168974",
+      "relatedName": "Charcot-Marie-Tooth Disease Type 2Y"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C190871",
+      "relatedName": "Charcot-Marie-Tooth Disease Type 4B3"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C190871",
+      "relatedName": "Charcot-Marie-Tooth Disease Type 4B3"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C129864",
+      "relatedName": "Charcot-Marie-Tooth Disease Type 4C"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C129864",
+      "relatedName": "Charcot-Marie-Tooth Disease Type 4C"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C134954",
+      "relatedName": "Charcot-Marie-Tooth Disease Type 4J"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C134954",
+      "relatedName": "Charcot-Marie-Tooth Disease Type 4J"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C132826",
+      "relatedName": "Charcot-Marie-Tooth Disease, Spinal, Type I"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C132826",
+      "relatedName": "Charcot-Marie-Tooth Disease, Spinal, Type I"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C133087",
+      "relatedName": "Charcot-Marie-Tooth Disease, Type 3"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C133087",
+      "relatedName": "Charcot-Marie-Tooth Disease, Type 3"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C75467",
+      "relatedName": "Charcot-Marie-Tooth Disease"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C75467",
+      "relatedName": "Charcot-Marie-Tooth Disease"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C129068",
+      "relatedName": "Charcot-Marie-Tooth Neuropathy X Type 1"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C129068",
+      "relatedName": "Charcot-Marie-Tooth Neuropathy X Type 1"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C118822",
+      "relatedName": "Childhood Adrenal Gland Pheochromocytoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C190073",
+      "relatedName": "Childhood Composite Paraganglioma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C188946",
+      "relatedName": "Childhood Ganglioneuroma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C188946",
+      "relatedName": "Childhood Ganglioneuroma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C8094",
+      "relatedName": "Childhood Malignant Peripheral Nerve Sheath Tumor"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C8094",
+      "relatedName": "Childhood Malignant Peripheral Nerve Sheath Tumor"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C5429",
+      "relatedName": "Childhood Mediastinal Neurogenic Neoplasm"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C188995",
+      "relatedName": "Childhood Neurofibroma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C188995",
+      "relatedName": "Childhood Neurofibroma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C190074",
+      "relatedName": "Childhood Paraganglioma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C190072",
+      "relatedName": "Childhood Parasympathetic Paraganglioma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C188951",
+      "relatedName": "Childhood Peripheral Nervous System Neoplasm"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C209834",
+      "relatedName": "Childhood Peripheral Neuroblastoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C209834",
+      "relatedName": "Childhood Peripheral Neuroblastoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C190071",
+      "relatedName": "Childhood Sympathetic Paraganglioma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C188956",
+      "relatedName": "Choroidal Ganglioneuroma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C188956",
+      "relatedName": "Choroidal Ganglioneuroma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C84636",
+      "relatedName": "Chronic Inflammatory Demyelinating Polyneuropathy"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C84636",
+      "relatedName": "Chronic Inflammatory Demyelinating Polyneuropathy"
+    },
+    {
+      "type": "Anatomic_Structure_Is_Physical_Part_Of",
+      "relatedCode": "C214763",
+      "relatedName": "Ciliary Ganglion"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C7042",
+      "relatedName": "Colon Ganglioneuroma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C7042",
+      "relatedName": "Colon Ganglioneuroma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C96514",
+      "relatedName": "Colorectal Ganglioneuroma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C96514",
+      "relatedName": "Colorectal Ganglioneuroma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C96512",
+      "relatedName": "Colorectal Schwannoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C96512",
+      "relatedName": "Colorectal Schwannoma"
+    },
+    {
+      "type": "Anatomic_Structure_Is_Physical_Part_Of",
+      "relatedCode": "C92601",
+      "relatedName": "Common Peroneal Nerve"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C157246",
+      "relatedName": "Composite Paraganglioma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C126690",
+      "relatedName": "Congenital Muscular Dystrophy-Dystroglycanopathy with Intellectual Developmental Disorder Type B2"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C126690",
+      "relatedName": "Congenital Muscular Dystrophy-Dystroglycanopathy with Intellectual Developmental Disorder Type B2"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C123308",
+      "relatedName": "Congenital Myotonic Dystrophy"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C123308",
+      "relatedName": "Congenital Myotonic Dystrophy"
+    },
+    {
+      "type": "Anatomic_Structure_Is_Physical_Part_Of",
+      "relatedCode": "C92602",
+      "relatedName": "Deep Peroneal Nerve"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C207063",
+      "relatedName": "Dermal Hyperneury"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C207063",
+      "relatedName": "Dermal Hyperneury"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C121680",
+      "relatedName": "Dermal Nerve Sheath Myxoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C121680",
+      "relatedName": "Dermal Nerve Sheath Myxoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C8426",
+      "relatedName": "Diffuse Neurofibroma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C8426",
+      "relatedName": "Diffuse Neurofibroma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C84675",
+      "relatedName": "Distal Muscular Dystrophy"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C84675",
+      "relatedName": "Distal Muscular Dystrophy"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C206521",
+      "relatedName": "Distal Myopathy-5"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C206521",
+      "relatedName": "Distal Myopathy-5"
+    },
+    {
+      "type": "Anatomic_Structure_Is_Physical_Part_Of",
+      "relatedCode": "C12462",
+      "relatedName": "Dorsal Root Ganglion"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C75482",
+      "relatedName": "Duchenne Muscular Dystrophy"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C75482",
+      "relatedName": "Duchenne Muscular Dystrophy"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C53439",
+      "relatedName": "Dysautonomia"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C53439",
+      "relatedName": "Dysautonomia"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C84679",
+      "relatedName": "Dystrophia Myotonica 1"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C84679",
+      "relatedName": "Dystrophia Myotonica 1"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C84680",
+      "relatedName": "Dystrophia Myotonica 2"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C84680",
+      "relatedName": "Dystrophia Myotonica 2"
+    },
+    {
+      "type": "Anatomic_Structure_Is_Physical_Part_Of",
+      "relatedCode": "C13081",
+      "relatedName": "Efferent Pathway"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C168730",
+      "relatedName": "Emery-Dreifuss Muscular Dystrophy 1, X-Linked"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C168730",
+      "relatedName": "Emery-Dreifuss Muscular Dystrophy 1, X-Linked"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C126745",
+      "relatedName": "Emery-Dreifuss Muscular Dystrophy 2, Autosomal Dominant"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C126745",
+      "relatedName": "Emery-Dreifuss Muscular Dystrophy 2, Autosomal Dominant"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C84685",
+      "relatedName": "Emery-Dreifuss Muscular Dystrophy"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C84685",
+      "relatedName": "Emery-Dreifuss Muscular Dystrophy"
+    },
+    {
+      "type": "Anatomic_Structure_Is_Physical_Part_Of",
+      "relatedCode": "C52709",
+      "relatedName": "Enteric Ganglion"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C207062",
+      "relatedName": "Epithelial Sheath Neuroma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C207062",
+      "relatedName": "Epithelial Sheath Neuroma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C172625",
+      "relatedName": "Epithelioid Malignant Peripheral Nerve Sheath Tumor of the Skin"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C172625",
+      "relatedName": "Epithelioid Malignant Peripheral Nerve Sheath Tumor of the Skin"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C6561",
+      "relatedName": "Epithelioid Malignant Peripheral Nerve Sheath Tumor"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C6561",
+      "relatedName": "Epithelioid Malignant Peripheral Nerve Sheath Tumor"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C6558",
+      "relatedName": "Epithelioid Neurofibroma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C6558",
+      "relatedName": "Epithelioid Neurofibroma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C92185",
+      "relatedName": "Esophageal Malignant Peripheral Nerve Sheath Tumor"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C92185",
+      "relatedName": "Esophageal Malignant Peripheral Nerve Sheath Tumor"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C5704",
+      "relatedName": "Esophageal Neurofibroma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C5704",
+      "relatedName": "Esophageal Neurofibroma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C5703",
+      "relatedName": "Esophageal Schwannoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C5703",
+      "relatedName": "Esophageal Schwannoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C5703",
+      "relatedName": "Esophageal Schwannoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C3309",
+      "relatedName": "Extra-Adrenal Paraganglioma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C5328",
+      "relatedName": "Extra-Adrenal Retroperitoneal Paraganglioma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C48576",
+      "relatedName": "Extra-Adrenal Sympathetic Paraganglioma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C172704",
+      "relatedName": "Facioscapulohumeral Muscular Dystrophy 1"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C172704",
+      "relatedName": "Facioscapulohumeral Muscular Dystrophy 1"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C172705",
+      "relatedName": "Facioscapulohumeral Muscular Dystrophy 2"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C172705",
+      "relatedName": "Facioscapulohumeral Muscular Dystrophy 2"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C84704",
+      "relatedName": "Facioscapulohumeral Muscular Dystrophy"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C84704",
+      "relatedName": "Facioscapulohumeral Muscular Dystrophy"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C84706",
+      "relatedName": "Familial Dysautonomia"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C84706",
+      "relatedName": "Familial Dysautonomia"
+    },
+    {
+      "type": "Anatomic_Structure_Is_Physical_Part_Of",
+      "relatedCode": "C52816",
+      "relatedName": "Femoral Nerve"
+    },
+    {
+      "type": "Anatomic_Structure_Is_Physical_Part_Of",
+      "relatedCode": "C32638",
+      "relatedName": "Frontal Nerve"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C5746",
+      "relatedName": "Gallbladder Neurofibroma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C5746",
+      "relatedName": "Gallbladder Neurofibroma"
+    },
+    {
+      "type": "Anatomic_Structure_Is_Physical_Part_Of",
+      "relatedCode": "C12646",
+      "relatedName": "Gamma Motor Neuron"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C3049",
+      "relatedName": "Ganglioneuroma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C3049",
+      "relatedName": "Ganglioneuroma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C66804",
+      "relatedName": "Ganglioneuromatosis"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C66804",
+      "relatedName": "Ganglioneuromatosis"
+    },
+    {
+      "type": "Anatomic_Structure_Is_Physical_Part_Of",
+      "relatedCode": "C12719",
+      "relatedName": "Ganglion"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C95901",
+      "relatedName": "Gastric Schwannoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C95901",
+      "relatedName": "Gastric Schwannoma"
+    },
+    {
+      "type": "Anatomic_Structure_Is_Physical_Part_Of",
+      "relatedCode": "C12721",
+      "relatedName": "Geniculate Ganglion"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C6560",
+      "relatedName": "Glandular Malignant Peripheral Nerve Sheath Tumor"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C6560",
+      "relatedName": "Glandular Malignant Peripheral Nerve Sheath Tumor"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C27212",
+      "relatedName": "Glossopharyngeal Motor Neuropathy"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C27212",
+      "relatedName": "Glossopharyngeal Motor Neuropathy"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C116345",
+      "relatedName": "Guillain-Barre Syndrome"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C116345",
+      "relatedName": "Guillain-Barre Syndrome"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C202878",
+      "relatedName": "Head and Neck Malignant Peripheral Nerve Sheath Tumor"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C202878",
+      "relatedName": "Head and Neck Malignant Peripheral Nerve Sheath Tumor"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C5327",
+      "relatedName": "Head and Neck Paraganglioma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C157248",
+      "relatedName": "Hereditary Adrenal Gland Pheochromocytoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C5329",
+      "relatedName": "Hereditary Paraganglioma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C9030",
+      "relatedName": "High Grade Malignant Peripheral Nerve Sheath Tumor"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C9030",
+      "relatedName": "High Grade Malignant Peripheral Nerve Sheath Tumor"
+    },
+    {
+      "type": "Anatomic_Structure_Is_Physical_Part_Of",
+      "relatedCode": "C52831",
+      "relatedName": "Hypogastric Nerve Plexus"
+    },
+    {
+      "type": "Anatomic_Structure_Is_Physical_Part_Of",
+      "relatedCode": "C92211",
+      "relatedName": "Inferior Cervical Ganglion"
+    },
+    {
+      "type": "Anatomic_Structure_Is_Physical_Part_Of",
+      "relatedCode": "C52721",
+      "relatedName": "Inferior Hypogastric Nerve Plexus"
+    },
+    {
+      "type": "Anatomic_Structure_Is_Physical_Part_Of",
+      "relatedCode": "C32779",
+      "relatedName": "Inferior Maxillary Nerve"
+    },
+    {
+      "type": "Anatomic_Structure_Is_Physical_Part_Of",
+      "relatedCode": "C32825",
+      "relatedName": "Intercostal Nerve"
+    },
+    {
+      "type": "Anatomic_Structure_Is_Physical_Part_Of",
+      "relatedCode": "C52746",
+      "relatedName": "Internal Carotid Nerve Plexus"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C5326",
+      "relatedName": "Intra-Abdominal Paraganglioma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C6911",
+      "relatedName": "Intraneural Perineurioma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C92186",
+      "relatedName": "Intraocular Malignant Peripheral Nerve Sheath Tumor"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C92186",
+      "relatedName": "Intraocular Malignant Peripheral Nerve Sheath Tumor"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C92182",
+      "relatedName": "Intraocular Schwannoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C92182",
+      "relatedName": "Intraocular Schwannoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C6411",
+      "relatedName": "Intrathoracic Paravertebral Paraganglioma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C5323",
+      "relatedName": "Jugular Foramen Schwannoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C5323",
+      "relatedName": "Jugular Foramen Schwannoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C3061",
+      "relatedName": "Jugulotympanic Paraganglioma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C213639",
+      "relatedName": "Kidney Neuroblastoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C213639",
+      "relatedName": "Kidney Neuroblastoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C159226",
+      "relatedName": "Kidney Paraganglioma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C159221",
+      "relatedName": "Kidney Schwannoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C159221",
+      "relatedName": "Kidney Schwannoma"
+    },
+    {
+      "type": "Anatomic_Structure_Is_Physical_Part_Of",
+      "relatedCode": "C32908",
+      "relatedName": "Lacrimal Nerve"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C3155",
+      "relatedName": "Lambert Eaton Myasthenic Syndrome"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C3155",
+      "relatedName": "Lambert Eaton Myasthenic Syndrome"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C78591",
+      "relatedName": "Laryngeal Nerve Paralysis"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C78591",
+      "relatedName": "Laryngeal Nerve Paralysis"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C6409",
+      "relatedName": "Laryngeal Paraganglioma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C148318",
+      "relatedName": "Limb-Girdle Muscular Dystrophy Type 1C"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C148318",
+      "relatedName": "Limb-Girdle Muscular Dystrophy Type 1C"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C142079",
+      "relatedName": "Limb-Girdle Muscular Dystrophy Type 2A"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C142079",
+      "relatedName": "Limb-Girdle Muscular Dystrophy Type 2A"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C142080",
+      "relatedName": "Limb-Girdle Muscular Dystrophy Type 2B"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C142080",
+      "relatedName": "Limb-Girdle Muscular Dystrophy Type 2B"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C142081",
+      "relatedName": "Limb-Girdle Muscular Dystrophy Type 2D"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C142081",
+      "relatedName": "Limb-Girdle Muscular Dystrophy Type 2D"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C142082",
+      "relatedName": "Limb-Girdle Muscular Dystrophy Type 2Z"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C142082",
+      "relatedName": "Limb-Girdle Muscular Dystrophy Type 2Z"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C84828",
+      "relatedName": "Limb-Girdle Muscular Dystrophy"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C84828",
+      "relatedName": "Limb-Girdle Muscular Dystrophy"
+    },
+    {
+      "type": "Anatomic_Structure_Is_Physical_Part_Of",
+      "relatedCode": "C127835",
+      "relatedName": "Lingual Nerve"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C5431",
+      "relatedName": "Lipomatosis of Nerve"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C5431",
+      "relatedName": "Lipomatosis of Nerve"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C157129",
+      "relatedName": "Locally Advanced Adrenal Gland Pheochromocytoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C157129",
+      "relatedName": "Locally Advanced Adrenal Gland Pheochromocytoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C164074",
+      "relatedName": "Locally Advanced Malignant Peripheral Nerve Sheath Tumor"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C164074",
+      "relatedName": "Locally Advanced Malignant Peripheral Nerve Sheath Tumor"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C133713",
+      "relatedName": "Locally Advanced Paraganglioma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C133713",
+      "relatedName": "Locally Advanced Paraganglioma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C9026",
+      "relatedName": "Low Grade Malignant Peripheral Nerve Sheath Tumor"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C9026",
+      "relatedName": "Low Grade Malignant Peripheral Nerve Sheath Tumor"
+    },
+    {
+      "type": "Anatomic_Structure_Is_Physical_Part_Of",
+      "relatedCode": "C198407",
+      "relatedName": "Lumbar Ganglion"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C5824",
+      "relatedName": "Lumbar Plexus Neoplasm"
+    },
+    {
+      "type": "Anatomic_Structure_Is_Physical_Part_Of",
+      "relatedCode": "C12845",
+      "relatedName": "Lumbar Plexus"
+    },
+    {
+      "type": "Anatomic_Structure_Is_Physical_Part_Of",
+      "relatedCode": "C52805",
+      "relatedName": "Lumbosacral Plexus"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C223235",
+      "relatedName": "Lung Paraganglioma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C223177",
+      "relatedName": "Lung Schwannoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C223177",
+      "relatedName": "Lung Schwannoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C5484",
+      "relatedName": "Malignant Gastric Granular Cell Tumor"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C5484",
+      "relatedName": "Malignant Gastric Granular Cell Tumor"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C4336",
+      "relatedName": "Malignant Granular Cell Tumor"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C4336",
+      "relatedName": "Malignant Granular Cell Tumor"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C6630",
+      "relatedName": "Malignant Melanotic Peripheral Nerve Sheath Tumor of the Mediastinum"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C6630",
+      "relatedName": "Malignant Melanotic Peripheral Nerve Sheath Tumor of the Mediastinum"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C4748",
+      "relatedName": "Malignant Melanotic Peripheral Nerve Sheath Tumor"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C4748",
+      "relatedName": "Malignant Melanotic Peripheral Nerve Sheath Tumor"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C6910",
+      "relatedName": "Malignant Melanotic Psammomatous Peripheral Nerve Sheath Tumor"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C6910",
+      "relatedName": "Malignant Melanotic Psammomatous Peripheral Nerve Sheath Tumor"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C207066",
+      "relatedName": "Malignant Perineurioma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C207066",
+      "relatedName": "Malignant Perineurioma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C172624",
+      "relatedName": "Malignant Peripheral Nerve Sheath Tumor of the Skin"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C172624",
+      "relatedName": "Malignant Peripheral Nerve Sheath Tumor of the Skin"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C92647",
+      "relatedName": "Malignant Peripheral Nerve Sheath Tumor with Mesenchymal Differentiation"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C92647",
+      "relatedName": "Malignant Peripheral Nerve Sheath Tumor with Mesenchymal Differentiation"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C3798",
+      "relatedName": "Malignant Peripheral Nerve Sheath Tumor"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C3798",
+      "relatedName": "Malignant Peripheral Nerve Sheath Tumor"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C4961",
+      "relatedName": "Malignant Peripheral Nervous System Neoplasm"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C5614",
+      "relatedName": "Malignant Skin Granular Cell Tumor"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C5614",
+      "relatedName": "Malignant Skin Granular Cell Tumor"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C4335",
+      "relatedName": "Malignant Triton Tumor"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C4335",
+      "relatedName": "Malignant Triton Tumor"
+    },
+    {
+      "type": "Anatomic_Structure_Is_Physical_Part_Of",
+      "relatedCode": "C127834",
+      "relatedName": "Marginal Mandibular Branch of the Facial Nerve"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C42065",
+      "relatedName": "Mature Ganglioneuroma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C42065",
+      "relatedName": "Mature Ganglioneuroma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C42064",
+      "relatedName": "Maturing Ganglioneuroma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C42064",
+      "relatedName": "Maturing Ganglioneuroma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C213493",
+      "relatedName": "Maxillary Bone Paraganglioma"
+    },
+    {
+      "type": "Anatomic_Structure_Is_Physical_Part_Of",
+      "relatedCode": "C13821",
+      "relatedName": "Mechanoreceptor"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C27337",
+      "relatedName": "Median Nerve Paralysis"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C27337",
+      "relatedName": "Median Nerve Paralysis"
+    },
+    {
+      "type": "Anatomic_Structure_Is_Physical_Part_Of",
+      "relatedCode": "C52815",
+      "relatedName": "Median Nerve"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C6627",
+      "relatedName": "Mediastinal Ganglioneuroblastoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C6627",
+      "relatedName": "Mediastinal Ganglioneuroblastoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C6632",
+      "relatedName": "Mediastinal Ganglioneuroma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C6632",
+      "relatedName": "Mediastinal Ganglioneuroma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C6626",
+      "relatedName": "Mediastinal Malignant Peripheral Nerve Sheath Tumor"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C6626",
+      "relatedName": "Mediastinal Malignant Peripheral Nerve Sheath Tumor"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C6635",
+      "relatedName": "Mediastinal Melanotic Schwannoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C6635",
+      "relatedName": "Mediastinal Melanotic Schwannoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C6628",
+      "relatedName": "Mediastinal Neuroblastoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C6628",
+      "relatedName": "Mediastinal Neuroblastoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C6631",
+      "relatedName": "Mediastinal Neurofibroma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C6631",
+      "relatedName": "Mediastinal Neurofibroma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C45743",
+      "relatedName": "Mediastinal Paraganglioma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C6636",
+      "relatedName": "Mediastinal Psammomatous Schwannoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C6636",
+      "relatedName": "Mediastinal Psammomatous Schwannoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C6643",
+      "relatedName": "Mediastinal Schwannoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C6643",
+      "relatedName": "Mediastinal Schwannoma"
+    },
+    {
+      "type": "Anatomic_Structure_Is_Physical_Part_Of",
+      "relatedCode": "C13171",
+      "relatedName": "Meissner Corpuscle"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C66841",
+      "relatedName": "Melanotic Neurofibroma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C66841",
+      "relatedName": "Melanotic Neurofibroma"
+    },
+    {
+      "type": "Anatomic_Structure_Is_Physical_Part_Of",
+      "relatedCode": "C33094",
+      "relatedName": "Meningeal Nerve"
+    },
+    {
+      "type": "Anatomic_Structure_Is_Physical_Part_Of",
+      "relatedCode": "C13173",
+      "relatedName": "Merkel's Corpuscle"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C118783",
+      "relatedName": "Merosin-Deficient Congenital Muscular Dystrophy Type 1A"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C118783",
+      "relatedName": "Merosin-Deficient Congenital Muscular Dystrophy Type 1A"
+    },
+    {
+      "type": "Anatomic_Structure_Is_Physical_Part_Of",
+      "relatedCode": "C202464",
+      "relatedName": "Mesenteric Ganglion"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C92184",
+      "relatedName": "Metastatic Adrenal Gland Composite Pheochromocytoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C92184",
+      "relatedName": "Metastatic Adrenal Gland Composite Pheochromocytoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C4220",
+      "relatedName": "Metastatic Adrenal Gland Pheochromocytoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C4220",
+      "relatedName": "Metastatic Adrenal Gland Pheochromocytoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C6416",
+      "relatedName": "Metastatic Bladder Paraganglioma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C6416",
+      "relatedName": "Metastatic Bladder Paraganglioma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C5392",
+      "relatedName": "Metastatic Cardiac Paraganglioma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C5392",
+      "relatedName": "Metastatic Cardiac Paraganglioma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C3574",
+      "relatedName": "Metastatic Carotid Body Paraganglioma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C3574",
+      "relatedName": "Metastatic Carotid Body Paraganglioma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C4219",
+      "relatedName": "Metastatic Extra-Adrenal Paraganglioma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C4219",
+      "relatedName": "Metastatic Extra-Adrenal Paraganglioma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C6413",
+      "relatedName": "Metastatic Intrathoracic Paravertebral Paraganglioma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C6413",
+      "relatedName": "Metastatic Intrathoracic Paravertebral Paraganglioma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C4623",
+      "relatedName": "Metastatic Jugulotympanic Paraganglioma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C4623",
+      "relatedName": "Metastatic Jugulotympanic Paraganglioma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C8822",
+      "relatedName": "Metastatic Malignant Peripheral Nerve Sheath Tumor"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C8822",
+      "relatedName": "Metastatic Malignant Peripheral Nerve Sheath Tumor"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C8559",
+      "relatedName": "Metastatic Paraganglioma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C8559",
+      "relatedName": "Metastatic Paraganglioma"
+    },
+    {
+      "type": "Anatomic_Structure_Is_Physical_Part_Of",
+      "relatedCode": "C92212",
+      "relatedName": "Middle Cervical Ganglion"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C6085",
+      "relatedName": "Middle Ear Paraganglioma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C220039",
+      "relatedName": "Mixed Sensory-Motor Polyneuropathy"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C220039",
+      "relatedName": "Mixed Sensory-Motor Polyneuropathy"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C118846",
+      "relatedName": "Miyoshi Muscular Dystrophy 1"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C118846",
+      "relatedName": "Miyoshi Muscular Dystrophy 1"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C4075",
+      "relatedName": "Morton Neuroma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C4075",
+      "relatedName": "Morton Neuroma"
+    },
+    {
+      "type": "Anatomic_Structure_Is_Physical_Part_Of",
+      "relatedCode": "C12644",
+      "relatedName": "Motor Neuron"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C6559",
+      "relatedName": "Mucosal Neuroma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C6559",
+      "relatedName": "Mucosal Neuroma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C148369",
+      "relatedName": "Muscular Dystrophy Congenital, LMNA-Related"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C148369",
+      "relatedName": "Muscular Dystrophy Congenital, LMNA-Related"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C168331",
+      "relatedName": "Muscular Dystrophy Secondary to Mitochondrial Disorder"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C168331",
+      "relatedName": "Muscular Dystrophy Secondary to Mitochondrial Disorder"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C168332",
+      "relatedName": "Muscular Dystrophy Secondary to Oxidative Phosphorylation Disorder"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C168332",
+      "relatedName": "Muscular Dystrophy Secondary to Oxidative Phosphorylation Disorder"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C128118",
+      "relatedName": "Muscular Dystrophy-Dystroglycanopathy (Congenital with Brain and Eye Anomalies) Type A, 1"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C128118",
+      "relatedName": "Muscular Dystrophy-Dystroglycanopathy (Congenital with Brain and Eye Anomalies) Type A, 1"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C126742",
+      "relatedName": "Muscular Dystrophy-Dystroglycanopathy (Congenital with Brain and Eye Anomalies) Type A, 2"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C126742",
+      "relatedName": "Muscular Dystrophy-Dystroglycanopathy (Congenital with Brain and Eye Anomalies) Type A, 2"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C126740",
+      "relatedName": "Muscular Dystrophy-Dystroglycanopathy (Congenital with Brain and Eye Anomalies) Type A, 3"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C126740",
+      "relatedName": "Muscular Dystrophy-Dystroglycanopathy (Congenital with Brain and Eye Anomalies) Type A, 3"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C126741",
+      "relatedName": "Muscular Dystrophy-Dystroglycanopathy (Congenital with Brain and Eye Anomalies) Type A, 4"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C126741",
+      "relatedName": "Muscular Dystrophy-Dystroglycanopathy (Congenital with Brain and Eye Anomalies) Type A, 4"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C126743",
+      "relatedName": "Muscular Dystrophy-Dystroglycanopathy (Congenital with Brain and Eye Anomalies) Type A, 6"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C126743",
+      "relatedName": "Muscular Dystrophy-Dystroglycanopathy (Congenital with Brain and Eye Anomalies) Type A, 6"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C133730",
+      "relatedName": "Muscular Dystrophy-Dystroglycanopathy (Limb-Girdle) Type C, 1"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C133730",
+      "relatedName": "Muscular Dystrophy-Dystroglycanopathy (Limb-Girdle) Type C, 1"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C126739",
+      "relatedName": "Muscular Dystrophy-Dystroglycanopathy (Limb-Girdle) Type C, 5"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C126739",
+      "relatedName": "Muscular Dystrophy-Dystroglycanopathy (Limb-Girdle) Type C, 5"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C84910",
+      "relatedName": "Muscular Dystrophy"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C84910",
+      "relatedName": "Muscular Dystrophy"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C60989",
+      "relatedName": "Myasthenia Gravis"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C60989",
+      "relatedName": "Myasthenia Gravis"
+    },
+    {
+      "type": "Gene_Product_Expressed_In_Tissue",
+      "relatedCode": "C203818",
+      "relatedName": "Myelin Protein P0"
+    },
+    {
+      "type": "Anatomic_Structure_Is_Physical_Part_Of",
+      "relatedCode": "C52748",
+      "relatedName": "Myenteric Nerve Plexus"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C34833",
+      "relatedName": "Myotonic Cataract"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C34833",
+      "relatedName": "Myotonic Cataract"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C84914",
+      "relatedName": "Myotonic Dystrophy"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C84914",
+      "relatedName": "Myotonic Dystrophy"
+    },
+    {
+      "type": "Anatomic_Structure_Is_Physical_Part_Of",
+      "relatedCode": "C33159",
+      "relatedName": "Nasal Nerve"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C48316",
+      "relatedName": "Nasopharyngeal Paraganglioma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C5822",
+      "relatedName": "Nerve Plexus Neoplasm"
+    },
+    {
+      "type": "Anatomic_Structure_Is_Physical_Part_Of",
+      "relatedCode": "C12929",
+      "relatedName": "Nerve Plexus"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C7018",
+      "relatedName": "Nerve Sheath Myxoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C7018",
+      "relatedName": "Nerve Sheath Myxoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C116381",
+      "relatedName": "Neuritis"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C116381",
+      "relatedName": "Neuritis"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C6964",
+      "relatedName": "Neuroblastoma of the Adrenal Gland and Sympathetic Nervous System"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C6964",
+      "relatedName": "Neuroblastoma of the Adrenal Gland and Sympathetic Nervous System"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C41426",
+      "relatedName": "Neurofibroma with Atypia"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C41426",
+      "relatedName": "Neurofibroma with Atypia"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C3272",
+      "relatedName": "Neurofibroma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C3272",
+      "relatedName": "Neurofibroma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C3275",
+      "relatedName": "Neuroma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C3275",
+      "relatedName": "Neuroma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C189005",
+      "relatedName": "Neuromuscular Disorder"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C189005",
+      "relatedName": "Neuromuscular Disorder"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C170433",
+      "relatedName": "Neuropathy, Hereditary Sensory and Autonomic, Type I"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C118633",
+      "relatedName": "Neuropathy, Hereditary Sensory and Autonomic, Type IV"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C125388",
+      "relatedName": "Neuropathy, Hereditary Sensory and Autonomic, Type VII"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C156360",
+      "relatedName": "Neuropathy, Hereditary Sensory and Autonomic, Type V"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C176898",
+      "relatedName": "Neuropathy, Recurrent, with Pressure Palsies"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C164313",
+      "relatedName": "NF1-Associated Malignant Peripheral Nerve Sheath Tumor"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C164313",
+      "relatedName": "NF1-Associated Malignant Peripheral Nerve Sheath Tumor"
+    },
+    {
+      "type": "Anatomic_Structure_Is_Physical_Part_Of",
+      "relatedCode": "C13176",
+      "relatedName": "Nociceptor"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C92181",
+      "relatedName": "Non-Metastatic Adrenal Gland Composite Pheochromocytoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C48305",
+      "relatedName": "Non-Metastatic Adrenal Gland Pheochromocytoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C79950",
+      "relatedName": "Non-Metastatic Carotid Body Paraganglioma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C48314",
+      "relatedName": "Non-Metastatic Paraganglioma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C27587",
+      "relatedName": "Non-Neoplastic Peripheral Nervous System Disorder"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C27587",
+      "relatedName": "Non-Neoplastic Peripheral Nervous System Disorder"
+    },
+    {
+      "type": "Anatomic_Structure_Is_Physical_Part_Of",
+      "relatedCode": "C75909",
+      "relatedName": "Obturator Nerve"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C84942",
+      "relatedName": "Oculopharyngeal Muscular Dystrophy"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C84942",
+      "relatedName": "Oculopharyngeal Muscular Dystrophy"
+    },
+    {
+      "type": "Anatomic_Structure_Is_Physical_Part_Of",
+      "relatedCode": "C33215",
+      "relatedName": "Ophthalmic Nerve"
+    },
+    {
+      "type": "Anatomic_Structure_Is_Physical_Part_Of",
+      "relatedCode": "C53057",
+      "relatedName": "Ophthalmic Plexus"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C202860",
+      "relatedName": "Oral Cavity Neurofibroma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C202860",
+      "relatedName": "Oral Cavity Neurofibroma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C202876",
+      "relatedName": "Oral Cavity Schwannoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C202876",
+      "relatedName": "Oral Cavity Schwannoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C219711",
+      "relatedName": "Orbital Malignant Peripheral Nerve Sheath Tumor"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C219711",
+      "relatedName": "Orbital Malignant Peripheral Nerve Sheath Tumor"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C217746",
+      "relatedName": "Orbital Neurofibroma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C217746",
+      "relatedName": "Orbital Neurofibroma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C6408",
+      "relatedName": "Orbital Paraganglioma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C217745",
+      "relatedName": "Orbital Schwannoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C217745",
+      "relatedName": "Orbital Schwannoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C4328",
+      "relatedName": "Pacinian Neurofibroma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C4328",
+      "relatedName": "Pacinian Neurofibroma"
+    },
+    {
+      "type": "Anatomic_Structure_Is_Physical_Part_Of",
+      "relatedCode": "C97925",
+      "relatedName": "Para-Spinal Ganglion"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C3308",
+      "relatedName": "Paraganglioma"
+    },
+    {
+      "type": "Anatomic_Structure_Is_Physical_Part_Of",
+      "relatedCode": "C52557",
+      "relatedName": "Parasympathetic Ganglion"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C4217",
+      "relatedName": "Parasympathetic Paraganglioma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C162490",
+      "relatedName": "Paratesticular Paraganglioma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C162502",
+      "relatedName": "Paratesticular Schwannoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C162502",
+      "relatedName": "Paratesticular Schwannoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C162584",
+      "relatedName": "Penile Malignant Peripheral Nerve Sheath Tumor"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C162584",
+      "relatedName": "Penile Malignant Peripheral Nerve Sheath Tumor"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C162587",
+      "relatedName": "Penile Neurofibroma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C162587",
+      "relatedName": "Penile Neurofibroma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C162586",
+      "relatedName": "Penile Schwannoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C162586",
+      "relatedName": "Penile Schwannoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C6594",
+      "relatedName": "Peripheral Ganglioneuroblastoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C6594",
+      "relatedName": "Peripheral Ganglioneuroblastoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C3500",
+      "relatedName": "Peripheral Motor Neuropathy"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C3500",
+      "relatedName": "Peripheral Motor Neuropathy"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C27507",
+      "relatedName": "Peripheral Nerve Hemangioma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C27507",
+      "relatedName": "Peripheral Nerve Hemangioma"
+    },
+    {
+      "type": "Anatomic_Structure_Is_Physical_Part_Of",
+      "relatedCode": "C206393",
+      "relatedName": "Peripheral Nerve of Head, Face, and Neck"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C41430",
+      "relatedName": "Peripheral Nerve Schwannoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C41430",
+      "relatedName": "Peripheral Nerve Schwannoma"
+    },
+    {
+      "type": "Anatomic_Structure_Is_Physical_Part_Of",
+      "relatedCode": "C12768",
+      "relatedName": "Peripheral Nerve"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C27580",
+      "relatedName": "Peripheral Nervous System Disorder"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C27589",
+      "relatedName": "Peripheral Nervous System Infectious Disorder"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C27589",
+      "relatedName": "Peripheral Nervous System Infectious Disorder"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C3321",
+      "relatedName": "Peripheral Nervous System Neoplasm"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C3321",
+      "relatedName": "Peripheral Nervous System Neoplasm"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C6591",
+      "relatedName": "Peripheral Neuroblastoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C6591",
+      "relatedName": "Peripheral Neuroblastoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C119734",
+      "relatedName": "Peripheral Neuropathy"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C3501",
+      "relatedName": "Peripheral Sensory Neuropathy"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C27061",
+      "relatedName": "Peroneal Nerve Paralysis"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C27061",
+      "relatedName": "Peroneal Nerve Paralysis"
+    },
+    {
+      "type": "Anatomic_Structure_Is_Physical_Part_Of",
+      "relatedCode": "C52814",
+      "relatedName": "Peroneal Nerve"
+    },
+    {
+      "type": "Anatomic_Structure_Is_Physical_Part_Of",
+      "relatedCode": "C52813",
+      "relatedName": "Phrenic Nerve"
+    },
+    {
+      "type": "Anatomic_Structure_Is_Physical_Part_Of",
+      "relatedCode": "C77674",
+      "relatedName": "Plantar Nerve"
+    },
+    {
+      "type": "Gene_Product_Expressed_In_Tissue",
+      "relatedCode": "C150303",
+      "relatedName": "Pleckstrin Homology Domain-Containing Family G Member 5"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C5418",
+      "relatedName": "Pleural Schwannoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C5418",
+      "relatedName": "Pleural Schwannoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C3797",
+      "relatedName": "Plexiform Neurofibroma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C3797",
+      "relatedName": "Plexiform Neurofibroma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C26864",
+      "relatedName": "Polyneuritis"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C26864",
+      "relatedName": "Polyneuritis"
+    },
+    {
+      "type": "Anatomic_Structure_Is_Physical_Part_Of",
+      "relatedCode": "C13823",
+      "relatedName": "Proprioceptor"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C161612",
+      "relatedName": "Prostate Paraganglioma"
+    },
+    {
+      "type": "Anatomic_Structure_Is_Physical_Part_Of",
+      "relatedCode": "C52812",
+      "relatedName": "Radial Nerve"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C164316",
+      "relatedName": "Radiation-Induced Malignant Peripheral Nerve Sheath Tumor"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C164316",
+      "relatedName": "Radiation-Induced Malignant Peripheral Nerve Sheath Tumor"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C78581",
+      "relatedName": "Radiculitis"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C78581",
+      "relatedName": "Radiculitis"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C8047",
+      "relatedName": "Recurrent Adrenal Gland Pheochromocytoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C162724",
+      "relatedName": "Recurrent Epithelioid Malignant Peripheral Nerve Sheath Tumor"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C162724",
+      "relatedName": "Recurrent Epithelioid Malignant Peripheral Nerve Sheath Tumor"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C78592",
+      "relatedName": "Recurrent Laryngeal Nerve Paralysis"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C78592",
+      "relatedName": "Recurrent Laryngeal Nerve Paralysis"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C8823",
+      "relatedName": "Recurrent Malignant Peripheral Nerve Sheath Tumor"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C8823",
+      "relatedName": "Recurrent Malignant Peripheral Nerve Sheath Tumor"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C157125",
+      "relatedName": "Recurrent Paraganglioma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C158402",
+      "relatedName": "Refractory Adrenal Gland Pheochromocytoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C162725",
+      "relatedName": "Refractory Epithelioid Malignant Peripheral Nerve Sheath Tumor"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C162725",
+      "relatedName": "Refractory Epithelioid Malignant Peripheral Nerve Sheath Tumor"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C212204",
+      "relatedName": "Refractory Generalized Myasthenia Gravis"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C212204",
+      "relatedName": "Refractory Generalized Myasthenia Gravis"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C155987",
+      "relatedName": "Refractory Malignant Peripheral Nerve Sheath Tumor"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C155987",
+      "relatedName": "Refractory Malignant Peripheral Nerve Sheath Tumor"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C158401",
+      "relatedName": "Refractory Paraganglioma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C8045",
+      "relatedName": "Regional Adrenal Gland Pheochromocytoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C5427",
+      "relatedName": "Retroperitoneal Ganglioneuroma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C5427",
+      "relatedName": "Retroperitoneal Ganglioneuroma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C188073",
+      "relatedName": "Retroperitoneal Malignant Peripheral Nerve Sheath Tumor"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C188073",
+      "relatedName": "Retroperitoneal Malignant Peripheral Nerve Sheath Tumor"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C126691",
+      "relatedName": "Rigid Spine Muscular Dystrophy 1"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C126691",
+      "relatedName": "Rigid Spine Muscular Dystrophy 1"
+    },
+    {
+      "type": "Anatomic_Structure_Is_Physical_Part_Of",
+      "relatedCode": "C13175",
+      "relatedName": "Ruffini Corpuscle"
+    },
+    {
+      "type": "Anatomic_Structure_Is_Physical_Part_Of",
+      "relatedCode": "C12846",
+      "relatedName": "Sacral Plexus"
+    },
+    {
+      "type": "Anatomic_Structure_Is_Physical_Part_Of",
+      "relatedCode": "C147511",
+      "relatedName": "Saphenous Nerve"
+    },
+    {
+      "type": "Anatomic_Structure_Is_Physical_Part_Of",
+      "relatedCode": "C52810",
+      "relatedName": "Sciatic Nerve"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C155769",
+      "relatedName": "Sellar Paraganglioma"
+    },
+    {
+      "type": "Anatomic_Structure_Is_Physical_Part_Of",
+      "relatedCode": "C13060",
+      "relatedName": "Sensory Ganglion"
+    },
+    {
+      "type": "Anatomic_Structure_Is_Physical_Part_Of",
+      "relatedCode": "C33533",
+      "relatedName": "Sensory-Somatic Nervous System"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C173127",
+      "relatedName": "Sinonasal Malignant Peripheral Nerve Sheath Tumor"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C173127",
+      "relatedName": "Sinonasal Malignant Peripheral Nerve Sheath Tumor"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C173144",
+      "relatedName": "Sinonasal Neurofibroma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C173144",
+      "relatedName": "Sinonasal Neurofibroma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C4481",
+      "relatedName": "Skin Ganglioneuroma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C4481",
+      "relatedName": "Skin Ganglioneuroma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C5617",
+      "relatedName": "Skin Granular Cell Tumor"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C207083",
+      "relatedName": "Skin Hybrid Nerve Sheath Tumor"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C4479",
+      "relatedName": "Skin Neural Neoplasm"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C128451",
+      "relatedName": "Skin Neurofibroma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C128451",
+      "relatedName": "Skin Neurofibroma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C172621",
+      "relatedName": "Skin Perineurioma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C5569",
+      "relatedName": "Skin Schwannoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C5569",
+      "relatedName": "Skin Schwannoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C207078",
+      "relatedName": "Solitary Neurofibroma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C207078",
+      "relatedName": "Solitary Neurofibroma"
+    },
+    {
+      "type": "Anatomic_Structure_Is_Physical_Part_Of",
+      "relatedCode": "C13819",
+      "relatedName": "Somatosensory Receptor"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C5145",
+      "relatedName": "Spinal Cord Neurofibroma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C5145",
+      "relatedName": "Spinal Cord Neurofibroma"
+    },
+    {
+      "type": "Anatomic_Structure_Is_Physical_Part_Of",
+      "relatedCode": "C49601",
+      "relatedName": "Spinal Nerve Plexus"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C213592",
+      "relatedName": "Spindle Cell Synovial Sarcoma of Nerve"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C213592",
+      "relatedName": "Spindle Cell Synovial Sarcoma of Nerve"
+    },
+    {
+      "type": "Anatomic_Structure_Is_Physical_Part_Of",
+      "relatedCode": "C179825",
+      "relatedName": "Spiral Ganglion"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C164314",
+      "relatedName": "Sporadic Malignant Peripheral Nerve Sheath Tumor"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C164314",
+      "relatedName": "Sporadic Malignant Peripheral Nerve Sheath Tumor"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C141129",
+      "relatedName": "Stage I Adrenal Gland Pheochromocytoma and Sympathetic Paraganglioma AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C141130",
+      "relatedName": "Stage II Adrenal Gland Pheochromocytoma and Sympathetic Paraganglioma AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C141131",
+      "relatedName": "Stage III Adrenal Gland Pheochromocytoma and Sympathetic Paraganglioma AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C141132",
+      "relatedName": "Stage IV Adrenal Gland Pheochromocytoma and Sympathetic Paraganglioma AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C6718",
+      "relatedName": "Sternal Intraosseous Schwannoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C6718",
+      "relatedName": "Sternal Intraosseous Schwannoma"
+    },
+    {
+      "type": "Anatomic_Structure_Is_Physical_Part_Of",
+      "relatedCode": "C52558",
+      "relatedName": "Submandibular Ganglion"
+    },
+    {
+      "type": "Anatomic_Structure_Is_Physical_Part_Of",
+      "relatedCode": "C52747",
+      "relatedName": "Submucous Nerve Plexus"
+    },
+    {
+      "type": "Anatomic_Structure_Is_Physical_Part_Of",
+      "relatedCode": "C92603",
+      "relatedName": "Superficial Peroneal Nerve"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C48317",
+      "relatedName": "Superior and Inferior Paraaortic Paraganglioma"
+    },
+    {
+      "type": "Anatomic_Structure_Is_Physical_Part_Of",
+      "relatedCode": "C92213",
+      "relatedName": "Superior Cervical Ganglion"
+    },
+    {
+      "type": "Anatomic_Structure_Is_Physical_Part_Of",
+      "relatedCode": "C33683",
+      "relatedName": "Superior Maxillary Nerve"
+    },
+    {
+      "type": "Anatomic_Structure_Is_Physical_Part_Of",
+      "relatedCode": "C77675",
+      "relatedName": "Sural Nerve"
+    },
+    {
+      "type": "Anatomic_Structure_Is_Physical_Part_Of",
+      "relatedCode": "C12467",
+      "relatedName": "Sympathetic Ganglion"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C4216",
+      "relatedName": "Sympathetic Paraganglioma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C5421",
+      "relatedName": "Sympathetic Schwannoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C5421",
+      "relatedName": "Sympathetic Schwannoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C213591",
+      "relatedName": "Synovial Sarcoma of Nerve"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C213591",
+      "relatedName": "Synovial Sarcoma of Nerve"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C213492",
+      "relatedName": "Temporal Bone Paraganglioma"
+    },
+    {
+      "type": "Anatomic_Structure_Is_Physical_Part_Of",
+      "relatedCode": "C13822",
+      "relatedName": "Thermoreceptor"
+    },
+    {
+      "type": "Anatomic_Structure_Is_Physical_Part_Of",
+      "relatedCode": "C52829",
+      "relatedName": "Thoracic Ganglion"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C220183",
+      "relatedName": "Thoracic Radiculitis"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C220183",
+      "relatedName": "Thoracic Radiculitis"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C156341",
+      "relatedName": "Thyroid Gland Malignant Peripheral Nerve Sheath Tumor"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C156341",
+      "relatedName": "Thyroid Gland Malignant Peripheral Nerve Sheath Tumor"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C46125",
+      "relatedName": "Thyroid Gland Paraganglioma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C156340",
+      "relatedName": "Thyroid Gland Schwannoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C156340",
+      "relatedName": "Thyroid Gland Schwannoma"
+    },
+    {
+      "type": "Anatomic_Structure_Is_Physical_Part_Of",
+      "relatedCode": "C52809",
+      "relatedName": "Tibial Nerve"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C202861",
+      "relatedName": "Tongue Neurofibroma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C202861",
+      "relatedName": "Tongue Neurofibroma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C202877",
+      "relatedName": "Tongue Schwannoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C202877",
+      "relatedName": "Tongue Schwannoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C117308",
+      "relatedName": "Transient Neonatal Myasthenia Gravis"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C117308",
+      "relatedName": "Transient Neonatal Myasthenia Gravis"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C3666",
+      "relatedName": "Traumatic Neuroma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C3666",
+      "relatedName": "Traumatic Neuroma"
+    },
+    {
+      "type": "Anatomic_Structure_Is_Physical_Part_Of",
+      "relatedCode": "C62642",
+      "relatedName": "Trigeminal Ganglion"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C8428",
+      "relatedName": "Tympanic Paraganglioma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C123438",
+      "relatedName": "Ullrich Congenital Muscular Dystrophy"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C123438",
+      "relatedName": "Ullrich Congenital Muscular Dystrophy"
+    },
+    {
+      "type": "Anatomic_Structure_Is_Physical_Part_Of",
+      "relatedCode": "C52807",
+      "relatedName": "Ulnar Nerve"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C157128",
+      "relatedName": "Unresectable Adrenal Gland Pheochromocytoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C164312",
+      "relatedName": "Unresectable Malignant Peripheral Nerve Sheath Tumor"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C164312",
+      "relatedName": "Unresectable Malignant Peripheral Nerve Sheath Tumor"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C157126",
+      "relatedName": "Unresectable Paraganglioma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C179423",
+      "relatedName": "Unresectable Plexiform Neurofibroma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C179423",
+      "relatedName": "Unresectable Plexiform Neurofibroma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C6162",
+      "relatedName": "Ureter Schwannoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C6162",
+      "relatedName": "Ureter Schwannoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C7046",
+      "relatedName": "Urinary System Paraganglioma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C8427",
+      "relatedName": "Vagal Paraganglioma"
+    },
+    {
+      "type": "Anatomic_Structure_Is_Physical_Part_Of",
+      "relatedCode": "C13172",
+      "relatedName": "Vater-Pacini Corpuscle"
+    },
+    {
+      "type": "Anatomic_Structure_Is_Physical_Part_Of",
+      "relatedCode": "C33870",
+      "relatedName": "Vestibular Ganglion"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C99109",
+      "relatedName": "Walker-Warburg Syndrome"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C99109",
+      "relatedName": "Walker-Warburg Syndrome"
+    }
+  ],
+  "history": [
+    {
+      "code": "C12465",
+      "action": "create",
+      "date": "2003-08-12"
+    },
+    {
+      "code": "C12465",
+      "action": "modify",
+      "date": "2003-12-30"
+    },
+    {
+      "code": "C12465",
+      "action": "modify",
+      "date": "2004-02-23"
+    },
+    {
+      "code": "C12465",
+      "action": "modify",
+      "date": "2004-03-30"
+    },
+    {
+      "code": "C12465",
+      "action": "modify",
+      "date": "2004-08-02"
+    },
+    {
+      "code": "C12465",
+      "action": "modify",
+      "date": "2005-03-16"
+    },
+    {
+      "code": "C12465",
+      "action": "modify",
+      "date": "2006-09-29"
+    },
+    {
+      "code": "C12465",
+      "action": "modify",
+      "date": "2008-11-26"
+    },
+    {
+      "code": "C12465",
+      "action": "modify",
+      "date": "2009-04-06"
+    },
+    {
+      "code": "C12465",
+      "action": "modify",
+      "date": "2009-11-23"
+    },
+    {
+      "code": "C12465",
+      "action": "modify",
+      "date": "2014-02-03"
+    },
+    {
+      "code": "C12465",
+      "action": "modify",
+      "date": "2015-10-19"
+    },
+    {
+      "code": "C12465",
+      "action": "modify",
+      "date": "2022-08-29"
+    },
+    {
+      "code": "C12465",
+      "action": "modify",
+      "date": "2024-07-08"
+    },
+    {
+      "code": "C12465",
+      "action": "modify",
+      "date": "2024-07-29"
+    }
+  ],
+  "maps": [
+    {
+      "type": "Related To",
+      "targetName": "PERIPHERAL NERVES AND AUTONOMIC NERVOUS SYSTEM",
+      "targetTermType": "HT",
+      "targetCode": "C47",
+      "targetTerminology": "ICDO3",
+      "targetTerminologyVersion": "3.1"
+    },
+    {
+      "type": "Related To",
+      "targetName": "PERIPHERAL NERVES AND AUTONOMIC NERVOUS SYSTEM",
+      "targetTermType": "HT",
+      "targetCode": "C47",
+      "targetTerminology": "ICDO3",
+      "targetTerminologyVersion": "3.2"
+    },
+    {
+      "type": "Related To",
+      "targetName": "Peripheral nerves and autonomic nervous system",
+      "targetTermType": "PT",
+      "targetCode": "primary_site",
+      "targetTerminology": "GDC"
+    },
+    {
+      "type": "Has Synonym",
+      "targetName": "Peripheral nervous system",
+      "targetTermType": "PT",
+      "targetCode": "sites_of_involvement",
+      "targetTerminology": "GDC"
+    }
+  ]
+}

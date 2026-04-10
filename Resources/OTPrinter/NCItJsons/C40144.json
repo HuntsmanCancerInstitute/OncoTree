@@ -1,0 +1,353 @@
+{
+  "code": "C40144",
+  "name": "Endometrial Mucinous Adenocarcinoma",
+  "terminology": "ncit",
+  "version": "25.11d",
+  "conceptStatus": "DEFAULT",
+  "leaf": false,
+  "active": true,
+  "synonyms": [
+    {
+      "name": "Endometrial Mucinous Adenocarcinoma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Uterine Corpus Mucinous Adenocarcinoma",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Endometrial Mucinous Adenocarcinoma",
+      "type": "Preferred_Name"
+    }
+  ],
+  "definitions": [
+    {
+      "definition": "A primary, usually low grade adenocarcinoma of the endometrium in which the majority of the malignant epithelial cells contain abundant intracytoplasmic mucin.",
+      "type": "DEFINITION",
+      "source": "NCI"
+    }
+  ],
+  "properties": [
+    {
+      "code": "P366",
+      "type": "Legacy Concept Name",
+      "value": "Mucin-Rich_Uterine_Corpus_Endometrioid_Adenocarcinoma"
+    },
+    {
+      "code": "P366",
+      "type": "Legacy Concept Name",
+      "value": "Uterine_Corpus_Mucinous_Adenocarcinoma"
+    },
+    {
+      "code": "P363",
+      "type": "Neoplastic_Status",
+      "value": "Malignant"
+    },
+    {
+      "code": "P106",
+      "type": "Semantic_Type",
+      "value": "Neoplastic Process"
+    },
+    {
+      "code": "P207",
+      "type": "UMLS_CUI",
+      "value": "C0854923"
+    }
+  ],
+  "children": [
+    {
+      "code": "C40149",
+      "name": "FIGO Grade 1 Endometrial Mucinous Adenocarcinoma",
+      "leaf": true
+    },
+    {
+      "code": "C40150",
+      "name": "FIGO Grade 2 Endometrial Mucinous Adenocarcinoma",
+      "leaf": true
+    },
+    {
+      "code": "C40151",
+      "name": "FIGO Grade 3 Endometrial Mucinous Adenocarcinoma",
+      "leaf": true
+    },
+    {
+      "code": "C222638",
+      "name": "Metastatic Endometrial Mucinous Adenocarcinoma",
+      "leaf": false
+    },
+    {
+      "code": "C165291",
+      "name": "Recurrent Endometrial Mucinous Adenocarcinoma",
+      "leaf": true
+    },
+    {
+      "code": "C165290",
+      "name": "Refractory Endometrial Mucinous Adenocarcinoma",
+      "leaf": true
+    }
+  ],
+  "parents": [
+    {
+      "code": "C26712",
+      "name": "Mucinous Adenocarcinoma"
+    },
+    {
+      "code": "C40145",
+      "name": "Type I Endometrial Adenocarcinoma"
+    }
+  ],
+  "associations": [
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C126659",
+      "relatedName": "NCIt Neoplasm Core Terminology"
+    }
+  ],
+  "roles": [
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C37117",
+      "relatedName": "Adenocarcinoma Cell with Intracytoplasmic Mucin"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36773",
+      "relatedName": "Adenocarcinoma Cell"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C36122",
+      "relatedName": "Benign Cellular Infiltrate"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C54172",
+      "relatedName": "Carcinomatous Component Present"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12316",
+      "relatedName": "Corpus Uteri"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C32514",
+      "relatedName": "Endometrial Cavity"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C32514",
+      "relatedName": "Endometrial Cavity"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C32515",
+      "relatedName": "Endometrial Glandular Cell"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C12313",
+      "relatedName": "Endometrium"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C12578",
+      "relatedName": "Epithelial Cell"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C53596",
+      "relatedName": "Epithelial Component Present"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C45714",
+      "relatedName": "Epithelial Tissue"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C187404",
+      "relatedName": "Extracellular Mucin Present"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12402",
+      "relatedName": "Female Reproductive System"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12402",
+      "relatedName": "Female Reproductive System"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12810",
+      "relatedName": "Genitourinary System"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12810",
+      "relatedName": "Genitourinary System"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12917",
+      "relatedName": "Malignant Cell"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C36115",
+      "relatedName": "Malignant Cellular Infiltrate"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36779",
+      "relatedName": "Malignant Epithelial Cell"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C36771",
+      "relatedName": "Malignant Squamous Cell"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C37153",
+      "relatedName": "Malignant Stromal Cell"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C34818",
+      "relatedName": "Metrorrhagia"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C62273",
+      "relatedName": "Mixed Neoplastic Glandular and Squamous Cell Population"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C38768",
+      "relatedName": "Mucinous Differentiation"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C35999",
+      "relatedName": "Mucoid Stroma Formation"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12922",
+      "relatedName": "Neoplastic Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C37116",
+      "relatedName": "Neoplastic Epithelial Cell with Intracytoplasmic Mucin"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36753",
+      "relatedName": "Neoplastic Epithelial Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36763",
+      "relatedName": "Neoplastic Glandular Cell"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C37114",
+      "relatedName": "Neoplastic Serous Epithelial Cell"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C36937",
+      "relatedName": "Neoplastic Smooth Muscle Cell"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C36760",
+      "relatedName": "Neoplastic Squamous Cell"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C34937",
+      "relatedName": "Postmenopausal Hemorrhage"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12841",
+      "relatedName": "Reproductive System"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C37115",
+      "relatedName": "Serous Adenocarcinoma Cell"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12405",
+      "relatedName": "Uterus"
+    }
+  ],
+  "history": [
+    {
+      "code": "C40144",
+      "action": "create",
+      "date": "2004-08-02"
+    },
+    {
+      "code": "C40144",
+      "action": "modify",
+      "date": "2006-07-28"
+    },
+    {
+      "code": "C40144",
+      "action": "modify",
+      "date": "2009-04-06"
+    },
+    {
+      "code": "C40144",
+      "action": "modify",
+      "date": "2009-11-23"
+    },
+    {
+      "code": "C40144",
+      "action": "modify",
+      "date": "2010-03-08"
+    },
+    {
+      "code": "C40144",
+      "action": "modify",
+      "date": "2012-07-30"
+    },
+    {
+      "code": "C40144",
+      "action": "modify",
+      "date": "2016-04-25"
+    },
+    {
+      "code": "C40144",
+      "action": "merge",
+      "date": "2025-07-28",
+      "replacementCode": "C40144",
+      "replacementName": "Endometrial Mucinous Adenocarcinoma"
+    },
+    {
+      "code": "C8717",
+      "action": "merge",
+      "date": "2025-07-28",
+      "replacementCode": "C40144",
+      "replacementName": "Endometrial Mucinous Adenocarcinoma"
+    },
+    {
+      "code": "C40144",
+      "action": "modify",
+      "date": "2025-08-25"
+    }
+  ]
+}

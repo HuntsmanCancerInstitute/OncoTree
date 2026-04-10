@@ -1,0 +1,3436 @@
+{
+  "code": "C12412",
+  "name": "Testis",
+  "terminology": "ncit",
+  "version": "25.11d",
+  "conceptStatus": "DEFAULT",
+  "leaf": false,
+  "active": true,
+  "synonyms": [
+    {
+      "name": "Testis",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "caDSR"
+    },
+    {
+      "name": "Testicle",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "CDISC"
+    },
+    {
+      "name": "TESTIS",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "CDISC"
+    },
+    {
+      "name": "Testicle",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "CTDC"
+    },
+    {
+      "name": "Testis",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "GDC"
+    },
+    {
+      "name": "Testis, NOS",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "GDC"
+    },
+    {
+      "name": "Testis structure (body structure)",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "mCode",
+      "code": "40689003",
+      "subSource": "SNOMED CT"
+    },
+    {
+      "name": "testicle",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NCI-GLOSS",
+      "code": "CDR0000046611"
+    },
+    {
+      "name": "testis",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI-GLOSS",
+      "code": "CDR0000367406"
+    },
+    {
+      "name": "Genital System, Male, Testis",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Testes",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Testicle",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Testicles",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Testis",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Testis",
+      "type": "Display_Name"
+    },
+    {
+      "name": "Testis",
+      "type": "Preferred_Name"
+    },
+    {
+      "name": "Testis",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "PCDC",
+      "subSource": "ALL"
+    },
+    {
+      "name": "Testis",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "PCDC",
+      "subSource": "AML"
+    },
+    {
+      "name": "Testis",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "PCDC",
+      "subSource": "GCT"
+    },
+    {
+      "name": "Testis",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "PCDC",
+      "subSource": "OS"
+    },
+    {
+      "name": "gonad of male genitalia",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "UBERON"
+    },
+    {
+      "name": "gonad of male reproductive system",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "UBERON"
+    },
+    {
+      "name": "male gonad",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "UBERON"
+    },
+    {
+      "name": "testicle",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "UBERON"
+    },
+    {
+      "name": "testis",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "UBERON"
+    }
+  ],
+  "definitions": [
+    {
+      "definition": "A gonad of a male animal. A gonad produces and releases sperm.",
+      "type": "ALT_DEFINITION",
+      "source": "UBERON"
+    },
+    {
+      "definition": "Either of the paired male reproductive glands that produce the male germ cells and the male hormones.",
+      "type": "DEFINITION",
+      "source": "NCI"
+    },
+    {
+      "definition": "One of two egg-shaped glands inside the scrotum that produce sperm and male hormones.",
+      "type": "ALT_DEFINITION",
+      "source": "NCI-GLOSS"
+    },
+    {
+      "definition": "The male gonad.",
+      "type": "ALT_DEFINITION",
+      "source": "CDISC"
+    }
+  ],
+  "properties": [
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "CDISC"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "CTDC"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "GDC"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "mCode"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "PCDC"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "UBERON"
+    },
+    {
+      "code": "P366",
+      "type": "Legacy Concept Name",
+      "value": "Testis"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "Testes"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "Testicle, NOS"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "TESTIS"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "Testis"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "Testis, NOS"
+    },
+    {
+      "code": "P106",
+      "type": "Semantic_Type",
+      "value": "Body Part, Organ, or Organ Component"
+    },
+    {
+      "code": "P207",
+      "type": "UMLS_CUI",
+      "value": "C0039597"
+    },
+    {
+      "code": "oboInOwl:hasDbXref",
+      "type": "xRef",
+      "value": "UBERON:0000473"
+    }
+  ],
+  "children": [
+    {
+      "code": "C49323",
+      "name": "Left Testis",
+      "leaf": true
+    },
+    {
+      "code": "C49326",
+      "name": "Right Testis",
+      "leaf": true
+    }
+  ],
+  "parents": [
+    {
+      "code": "C12725",
+      "name": "Gonad"
+    }
+  ],
+  "associations": [
+    {
+      "type": "Is_PCDC_ALL_Authorized_Value_For_Variable",
+      "relatedCode": "C3167",
+      "relatedName": "Acute Lymphoblastic Leukemia"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C178115",
+      "relatedName": "ALL Authorized Value Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C178123",
+      "relatedName": "ALL Disease Characteristics Table"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C178108",
+      "relatedName": "ALL Radiation Therapy Table"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C174019",
+      "relatedName": "AML Authorized Value Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C173232",
+      "relatedName": "AML Disease Characteristics Table"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C173204",
+      "relatedName": "AML Myeloid Sarcoma Involvement Table"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C74456",
+      "relatedName": "CDISC SDTM Anatomical Location Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C66830",
+      "relatedName": "CDISC SDTM Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C77529",
+      "relatedName": "CDISC SEND Biospecimens Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C77526",
+      "relatedName": "CDISC SEND Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C61410",
+      "relatedName": "Clinical Data Interchange Standards Consortium Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C173073",
+      "relatedName": "CTDC Value Terminology"
+    },
+    {
+      "type": "Is_PCDC_AML_Authorized_Value_For_Variable",
+      "relatedCode": "C173263",
+      "relatedName": "Disease Involvement Site"
+    },
+    {
+      "type": "Is_Value_For_GDC_Property",
+      "relatedCode": "C173263",
+      "relatedName": "Disease Involvement Site"
+    },
+    {
+      "type": "Is_PCDC_AML_Authorized_Value_For_Variable",
+      "relatedCode": "C168822",
+      "relatedName": "Extramedullary Myeloid Sarcoma Site"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C177383",
+      "relatedName": "GCT Authorized Value Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C177402",
+      "relatedName": "GCT Biopsy/Surgical Procedures Table"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C177403",
+      "relatedName": "GCT Radiation Therapy Table"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C177394",
+      "relatedName": "GCT Tumor Assessment Table"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C157711",
+      "relatedName": "GDC Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C177537",
+      "relatedName": "GDC Value Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168655",
+      "relatedName": "Mapped ICDO3.1 Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168660",
+      "relatedName": "Mapped ICDO3.1 Topography PT Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168659",
+      "relatedName": "Mapped ICDO3.1 Topography Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168656",
+      "relatedName": "Mapped ICDO3.2 Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168664",
+      "relatedName": "Mapped ICDO3.2 Topography PT Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168663",
+      "relatedName": "Mapped ICDO3.2 Topography Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C193234",
+      "relatedName": "mCode Radiotherapy Treatment Location Value Set"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C193006",
+      "relatedName": "mCode Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C179478",
+      "relatedName": "OS Authorized Value Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C179482",
+      "relatedName": "OS Biopsy/Surgical Procedures Table"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C179483",
+      "relatedName": "OS Radiation Therapy Table"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C179481",
+      "relatedName": "OS Tumor Assessment Table"
+    },
+    {
+      "type": "Is_Value_For_GDC_Property",
+      "relatedCode": "C158874",
+      "relatedName": "Primary Site of Disease"
+    },
+    {
+      "type": "Is_Value_For_GDC_Property",
+      "relatedCode": "C177570",
+      "relatedName": "Progressive or Recurrent Disease Anatomic Site"
+    },
+    {
+      "type": "Is_PCDC_ALL_Authorized_Value_For_Variable",
+      "relatedCode": "C173281",
+      "relatedName": "Site of Radiation Therapy"
+    },
+    {
+      "type": "Is_PCDC_GCT_Authorized_Value_For_Variable",
+      "relatedCode": "C173281",
+      "relatedName": "Site of Radiation Therapy"
+    },
+    {
+      "type": "Is_Value_For_GDC_Property",
+      "relatedCode": "C156421",
+      "relatedName": "Site of Resection or Biopsy"
+    },
+    {
+      "type": "Is_PCDC_GCT_Authorized_Value_For_Variable",
+      "relatedCode": "C157120",
+      "relatedName": "Site of Tumor"
+    },
+    {
+      "type": "Is_Value_For_GDC_Property",
+      "relatedCode": "C171435",
+      "relatedName": "Specimen Anatomic Site"
+    },
+    {
+      "type": "Is_PCDC_GCT_Authorized_Value_For_Variable",
+      "relatedCode": "C164323",
+      "relatedName": "Surgical Site"
+    },
+    {
+      "type": "Is_Value_For_GDC_Property",
+      "relatedCode": "C70729",
+      "relatedName": "Targeted Anatomic Site"
+    },
+    {
+      "type": "Is_Value_For_GDC_Property",
+      "relatedCode": "C156422",
+      "relatedName": "Tissue or Organ of Origin"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C198975",
+      "relatedName": "UBERON Terminology"
+    }
+  ],
+  "inverseAssociations": [
+    {
+      "type": "Has_GDC_Value",
+      "relatedCode": "C173263",
+      "relatedName": "Disease Involvement Site"
+    },
+    {
+      "type": "Has_PCDC_ALL_Authorized_Value",
+      "relatedCode": "C173263",
+      "relatedName": "Disease Involvement Site"
+    },
+    {
+      "type": "Has_PCDC_AML_Authorized_Value",
+      "relatedCode": "C173263",
+      "relatedName": "Disease Involvement Site"
+    },
+    {
+      "type": "Has_PCDC_AML_Authorized_Value",
+      "relatedCode": "C168822",
+      "relatedName": "Extramedullary Myeloid Sarcoma Site"
+    },
+    {
+      "type": "Has_GDC_Value",
+      "relatedCode": "C158874",
+      "relatedName": "Primary Site of Disease"
+    },
+    {
+      "type": "Has_GDC_Value",
+      "relatedCode": "C177570",
+      "relatedName": "Progressive or Recurrent Disease Anatomic Site"
+    },
+    {
+      "type": "Has_CTDC_Value",
+      "relatedCode": "C172273",
+      "relatedName": "Site of Metastasis at Trial Entry"
+    },
+    {
+      "type": "Has_PCDC_ALL_Authorized_Value",
+      "relatedCode": "C173281",
+      "relatedName": "Site of Radiation Therapy"
+    },
+    {
+      "type": "Has_PCDC_GCT_Authorized_Value",
+      "relatedCode": "C173281",
+      "relatedName": "Site of Radiation Therapy"
+    },
+    {
+      "type": "Has_PCDC_OS_Authorized_Value",
+      "relatedCode": "C173281",
+      "relatedName": "Site of Radiation Therapy"
+    },
+    {
+      "type": "Has_GDC_Value",
+      "relatedCode": "C156421",
+      "relatedName": "Site of Resection or Biopsy"
+    },
+    {
+      "type": "Has_PCDC_GCT_Authorized_Value",
+      "relatedCode": "C157120",
+      "relatedName": "Site of Tumor"
+    },
+    {
+      "type": "Has_PCDC_OS_Authorized_Value",
+      "relatedCode": "C157120",
+      "relatedName": "Site of Tumor"
+    },
+    {
+      "type": "Has_GDC_Value",
+      "relatedCode": "C171435",
+      "relatedName": "Specimen Anatomic Site"
+    },
+    {
+      "type": "Has_PCDC_GCT_Authorized_Value",
+      "relatedCode": "C164323",
+      "relatedName": "Surgical Site"
+    },
+    {
+      "type": "Has_PCDC_OS_Authorized_Value",
+      "relatedCode": "C164323",
+      "relatedName": "Surgical Site"
+    },
+    {
+      "type": "Has_GDC_Value",
+      "relatedCode": "C70729",
+      "relatedName": "Targeted Anatomic Site"
+    },
+    {
+      "type": "Has_GDC_Value",
+      "relatedCode": "C156422",
+      "relatedName": "Tissue or Organ of Origin"
+    }
+  ],
+  "roles": [
+    {
+      "type": "Anatomic_Structure_Is_Physical_Part_Of",
+      "relatedCode": "C12722",
+      "relatedName": "Male Reproductive System"
+    },
+    {
+      "type": "Anatomic_Structure_Is_Physical_Part_Of",
+      "relatedCode": "C12841",
+      "relatedName": "Reproductive System"
+    },
+    {
+      "type": "Anatomic_Structure_Has_Location",
+      "relatedCode": "C12785",
+      "relatedName": "Scrotum"
+    }
+  ],
+  "inverseRoles": [
+    {
+      "type": "Gene_Product_Expressed_In_Tissue",
+      "relatedCode": "C26314",
+      "relatedName": "3-Keto-Steroid Reductase"
+    },
+    {
+      "type": "Gene_Product_Expressed_In_Tissue",
+      "relatedCode": "C142996",
+      "relatedName": "A-Kinase Anchor Protein 4"
+    },
+    {
+      "type": "Gene_Product_Expressed_In_Tissue",
+      "relatedCode": "C21478",
+      "relatedName": "Acrosin-Binding Protein"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C39946",
+      "relatedName": "Adult Testicular Granulosa Cell Tumor"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C39946",
+      "relatedName": "Adult Testicular Granulosa Cell Tumor"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C187316",
+      "relatedName": "Advanced Malignant Testicular Germ Cell Tumor"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C187316",
+      "relatedName": "Advanced Malignant Testicular Germ Cell Tumor"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C212206",
+      "relatedName": "Advanced Malignant Testicular Neoplasm"
+    },
+    {
+      "type": "Gene_Product_Expressed_In_Tissue",
+      "relatedCode": "C97219",
+      "relatedName": "Aldehyde Dehydrogenase X, Mitochondrial"
+    },
+    {
+      "type": "Biological_Process_Has_Associated_Location",
+      "relatedCode": "C41527",
+      "relatedName": "Androgen Activity Induction"
+    },
+    {
+      "type": "Biological_Process_Has_Associated_Location",
+      "relatedCode": "C41524",
+      "relatedName": "Androgen Activity Inhibition"
+    },
+    {
+      "type": "Biological_Process_Has_Associated_Location",
+      "relatedCode": "C19958",
+      "relatedName": "Androgen Metabolism Process"
+    },
+    {
+      "type": "Gene_Product_Expressed_In_Tissue",
+      "relatedCode": "C21505",
+      "relatedName": "Ankyrin Repeat Domain-Containing Protein 30A"
+    },
+    {
+      "type": "Gene_Product_Expressed_In_Tissue",
+      "relatedCode": "C101090",
+      "relatedName": "AT-Rich Interactive Domain-Containing Protein 2"
+    },
+    {
+      "type": "Gene_Product_Expressed_In_Tissue",
+      "relatedCode": "C104494",
+      "relatedName": "B Melanoma Antigen 1"
+    },
+    {
+      "type": "Gene_Product_Expressed_In_Tissue",
+      "relatedCode": "C28707",
+      "relatedName": "B-Cell CLL/Lymphoma 9 Protein"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C3612",
+      "relatedName": "Benign Testicular Neoplasm"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C3612",
+      "relatedName": "Benign Testicular Neoplasm"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C6522",
+      "relatedName": "Benign Testicular Sertoli Cell Tumor"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C6522",
+      "relatedName": "Benign Testicular Sertoli Cell Tumor"
+    },
+    {
+      "type": "Procedure_Has_Excised_Anatomy",
+      "relatedCode": "C218841",
+      "relatedName": "Bilateral Orchiectomy"
+    },
+    {
+      "type": "Procedure_Has_Partially_Excised_Anatomy",
+      "relatedCode": "C51894",
+      "relatedName": "Biopsy of Testis"
+    },
+    {
+      "type": "Gene_Product_Expressed_In_Tissue",
+      "relatedCode": "C26293",
+      "relatedName": "Bone Morphogenetic Protein 3B"
+    },
+    {
+      "type": "Gene_Product_Expressed_In_Tissue",
+      "relatedCode": "C21496",
+      "relatedName": "Breast Cancer Anti-Estrogen Resistance 3 Protein"
+    },
+    {
+      "type": "Gene_Product_Expressed_In_Tissue",
+      "relatedCode": "C147574",
+      "relatedName": "Bromodomain Adjacent to Zinc Finger Domain Protein 1A"
+    },
+    {
+      "type": "Gene_Product_Expressed_In_Tissue",
+      "relatedCode": "C21583",
+      "relatedName": "Calcium Signal-Modulating Cyclophilin Ligand"
+    },
+    {
+      "type": "Gene_Product_Expressed_In_Tissue",
+      "relatedCode": "C162405",
+      "relatedName": "cAMP-Responsive Element Modulator"
+    },
+    {
+      "type": "Gene_Product_Expressed_In_Tissue",
+      "relatedCode": "C126601",
+      "relatedName": "Cancer/Testis Antigen Family 45 Member A2"
+    },
+    {
+      "type": "Gene_Product_Expressed_In_Tissue",
+      "relatedCode": "C99473",
+      "relatedName": "Carnitine O-Palmitoyltransferase 1, Brain Isoform"
+    },
+    {
+      "type": "Gene_Product_Expressed_In_Tissue",
+      "relatedCode": "C28431",
+      "relatedName": "Caspase-4"
+    },
+    {
+      "type": "Gene_Product_Expressed_In_Tissue",
+      "relatedCode": "C101397",
+      "relatedName": "Cation Channel Sperm-Associated Protein Subunit Zeta"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C68628",
+      "relatedName": "Childhood Malignant Testicular Germ Cell Tumor"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C68628",
+      "relatedName": "Childhood Malignant Testicular Germ Cell Tumor"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C6544",
+      "relatedName": "Childhood Testicular Choriocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C6544",
+      "relatedName": "Childhood Testicular Choriocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C6545",
+      "relatedName": "Childhood Testicular Embryonal Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C6545",
+      "relatedName": "Childhood Testicular Embryonal Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C198414",
+      "relatedName": "Childhood Testicular Germ Cell Tumor by Toronto Guidelines v2 Stage, Tier 1"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C198414",
+      "relatedName": "Childhood Testicular Germ Cell Tumor by Toronto Guidelines v2 Stage, Tier 1"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C198418",
+      "relatedName": "Childhood Testicular Germ Cell Tumor by Toronto Guidelines v2 Stage, Tier 2"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C198418",
+      "relatedName": "Childhood Testicular Germ Cell Tumor by Toronto Guidelines v2 Stage, Tier 2"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C198413",
+      "relatedName": "Childhood Testicular Germ Cell Tumor by Toronto Guidelines v2 Stage"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C198413",
+      "relatedName": "Childhood Testicular Germ Cell Tumor by Toronto Guidelines v2 Stage"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C6552",
+      "relatedName": "Childhood Testicular Germ Cell Tumor"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C6552",
+      "relatedName": "Childhood Testicular Germ Cell Tumor"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C123835",
+      "relatedName": "Childhood Testicular Immature Teratoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C123835",
+      "relatedName": "Childhood Testicular Immature Teratoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C123837",
+      "relatedName": "Childhood Testicular Mature Teratoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C123837",
+      "relatedName": "Childhood Testicular Mature Teratoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C6539",
+      "relatedName": "Childhood Testicular Mixed Embryonal Carcinoma and Teratoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C6539",
+      "relatedName": "Childhood Testicular Mixed Embryonal Carcinoma and Teratoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C6542",
+      "relatedName": "Childhood Testicular Mixed Germ Cell Tumor"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C6542",
+      "relatedName": "Childhood Testicular Mixed Germ Cell Tumor"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C5053",
+      "relatedName": "Childhood Testicular Neoplasm"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C123843",
+      "relatedName": "Childhood Testicular Non-Seminomatous Germ Cell Tumor"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C123843",
+      "relatedName": "Childhood Testicular Non-Seminomatous Germ Cell Tumor"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C6540",
+      "relatedName": "Childhood Testicular Teratoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C6540",
+      "relatedName": "Childhood Testicular Teratoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C6543",
+      "relatedName": "Childhood Testicular Yolk Sac Tumor"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C6543",
+      "relatedName": "Childhood Testicular Yolk Sac Tumor"
+    },
+    {
+      "type": "Gene_Product_Expressed_In_Tissue",
+      "relatedCode": "C116706",
+      "relatedName": "Circadian Clock Protein PASD1"
+    },
+    {
+      "type": "Gene_Product_Expressed_In_Tissue",
+      "relatedCode": "C25999",
+      "relatedName": "Contactin-Associated Protein 1"
+    },
+    {
+      "type": "Gene_Product_Expressed_In_Tissue",
+      "relatedCode": "C25858",
+      "relatedName": "Cyclin-Dependent Kinase 2-Associated Protein 1"
+    },
+    {
+      "type": "Gene_Product_Expressed_In_Tissue",
+      "relatedCode": "C97533",
+      "relatedName": "Cytospin-B"
+    },
+    {
+      "type": "Gene_Product_Expressed_In_Tissue",
+      "relatedCode": "C92147",
+      "relatedName": "DAZ-Associated Protein 1"
+    },
+    {
+      "type": "Gene_Product_Expressed_In_Tissue",
+      "relatedCode": "C17316",
+      "relatedName": "DBL Oncoprotein"
+    },
+    {
+      "type": "Gene_Product_Expressed_In_Tissue",
+      "relatedCode": "C124849",
+      "relatedName": "Deleted in Azoospermia Protein 1"
+    },
+    {
+      "type": "Gene_Product_Expressed_In_Tissue",
+      "relatedCode": "C114634",
+      "relatedName": "Deleted In Azoospermia-Like"
+    },
+    {
+      "type": "Gene_Product_Expressed_In_Tissue",
+      "relatedCode": "C26220",
+      "relatedName": "Deleted In Lymphocytic Leukemia 2 Non-Protein Coding RNA"
+    },
+    {
+      "type": "Gene_Product_Expressed_In_Tissue",
+      "relatedCode": "C26210",
+      "relatedName": "Disabled Homolog 2"
+    },
+    {
+      "type": "Gene_Product_Expressed_In_Tissue",
+      "relatedCode": "C21463",
+      "relatedName": "DNA Ligase 4"
+    },
+    {
+      "type": "Gene_Product_Expressed_In_Tissue",
+      "relatedCode": "C21464",
+      "relatedName": "DNA Mismatch Repair Protein Mlh1"
+    },
+    {
+      "type": "Gene_Product_Expressed_In_Tissue",
+      "relatedCode": "C21209",
+      "relatedName": "DNA Repair Protein RAD51 Homolog 3"
+    },
+    {
+      "type": "Gene_Product_Expressed_In_Tissue",
+      "relatedCode": "C99656",
+      "relatedName": "Doublesex- and Mab-3-Related Transcription Factor 1"
+    },
+    {
+      "type": "Gene_Product_Expressed_In_Tissue",
+      "relatedCode": "C21590",
+      "relatedName": "E3 Ubiquitin-Protein Ligase CBL-B"
+    },
+    {
+      "type": "Anatomic_Structure_Is_Physical_Part_Of",
+      "relatedCode": "C32511",
+      "relatedName": "Endocrine Testis"
+    },
+    {
+      "type": "Gene_Product_Expressed_In_Tissue",
+      "relatedCode": "C18288",
+      "relatedName": "ETS Domain-Containing Protein Elk-1"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C115211",
+      "relatedName": "Familial Testicular Germ Cell Tumor"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C115211",
+      "relatedName": "Familial Testicular Germ Cell Tumor"
+    },
+    {
+      "type": "Gene_Product_Expressed_In_Tissue",
+      "relatedCode": "C104491",
+      "relatedName": "G Antigen 1"
+    },
+    {
+      "type": "Gene_Product_Expressed_In_Tissue",
+      "relatedCode": "C104469",
+      "relatedName": "G Antigen 2D"
+    },
+    {
+      "type": "Gene_Product_Expressed_In_Tissue",
+      "relatedCode": "C104484",
+      "relatedName": "G Antigen 4"
+    },
+    {
+      "type": "Gene_Product_Expressed_In_Tissue",
+      "relatedCode": "C104482",
+      "relatedName": "G Antigen 5"
+    },
+    {
+      "type": "Gene_Product_Expressed_In_Tissue",
+      "relatedCode": "C104477",
+      "relatedName": "G Antigen 6"
+    },
+    {
+      "type": "Gene_Product_Expressed_In_Tissue",
+      "relatedCode": "C21513",
+      "relatedName": "G Antigen Family D Member 3"
+    },
+    {
+      "type": "Gene_Product_Expressed_In_Tissue",
+      "relatedCode": "C21218",
+      "relatedName": "Gamma-Synuclein"
+    },
+    {
+      "type": "Gene_Product_Expressed_In_Tissue",
+      "relatedCode": "C112074",
+      "relatedName": "Glutathione S-Transferase Mu 3"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C192116",
+      "relatedName": "Gonadal Myoid Stromal Tumor"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C192116",
+      "relatedName": "Gonadal Myoid Stromal Tumor"
+    },
+    {
+      "type": "Gene_Product_Expressed_In_Tissue",
+      "relatedCode": "C20331",
+      "relatedName": "High Mobility Group Protein HMG-R"
+    },
+    {
+      "type": "Gene_Product_Expressed_In_Tissue",
+      "relatedCode": "C162866",
+      "relatedName": "Histone H1t"
+    },
+    {
+      "type": "Gene_Product_Expressed_In_Tissue",
+      "relatedCode": "C162920",
+      "relatedName": "Histone H2B Type 1-A"
+    },
+    {
+      "type": "Gene_Product_Expressed_In_Tissue",
+      "relatedCode": "C162843",
+      "relatedName": "Histone H2B Type W-T"
+    },
+    {
+      "type": "Procedure_Has_Completely_Excised_Anatomy",
+      "relatedCode": "C15724",
+      "relatedName": "Inguinal Orchiectomy"
+    },
+    {
+      "type": "Procedure_Has_Excised_Anatomy",
+      "relatedCode": "C15724",
+      "relatedName": "Inguinal Orchiectomy"
+    },
+    {
+      "type": "Gene_Product_Expressed_In_Tissue",
+      "relatedCode": "C21392",
+      "relatedName": "Interferon-Inducible Protein AIM2"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C192096",
+      "relatedName": "Intratubular Embryonal Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C192096",
+      "relatedName": "Intratubular Embryonal Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C162466",
+      "relatedName": "Intratubular Large Cell Hyalinizing Sertoli Cell Neoplasia"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C162466",
+      "relatedName": "Intratubular Large Cell Hyalinizing Sertoli Cell Neoplasia"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C7325",
+      "relatedName": "Intratubular Non-Seminoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C7329",
+      "relatedName": "Intratubular Seminoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C7329",
+      "relatedName": "Intratubular Seminoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C39947",
+      "relatedName": "Juvenile Testicular Granulosa Cell Tumor"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C39947",
+      "relatedName": "Juvenile Testicular Granulosa Cell Tumor"
+    },
+    {
+      "type": "Gene_Product_Expressed_In_Tissue",
+      "relatedCode": "C28485",
+      "relatedName": "Kallikrein-15"
+    },
+    {
+      "type": "Gene_Product_Expressed_In_Tissue",
+      "relatedCode": "C26219",
+      "relatedName": "Leukemia-Associated Protein 1"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C198415",
+      "relatedName": "Localized Childhood Testicular Germ Cell Tumor by Toronto Guidelines v2"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C198415",
+      "relatedName": "Localized Childhood Testicular Germ Cell Tumor by Toronto Guidelines v2"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C9063",
+      "relatedName": "Malignant Testicular Germ Cell Tumor"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C9063",
+      "relatedName": "Malignant Testicular Germ Cell Tumor"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C39942",
+      "relatedName": "Malignant Testicular Leydig Cell Tumor"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C39942",
+      "relatedName": "Malignant Testicular Leydig Cell Tumor"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C7251",
+      "relatedName": "Malignant Testicular Neoplasm"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C5027",
+      "relatedName": "Malignant Testicular Non-Seminomatous Germ Cell Tumor"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C5027",
+      "relatedName": "Malignant Testicular Non-Seminomatous Germ Cell Tumor"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C6523",
+      "relatedName": "Malignant Testicular Sertoli Cell Tumor"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C6523",
+      "relatedName": "Malignant Testicular Sertoli Cell Tumor"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C39948",
+      "relatedName": "Malignant Testicular Sex Cord-Stromal Tumor"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C39948",
+      "relatedName": "Malignant Testicular Sex Cord-Stromal Tumor"
+    },
+    {
+      "type": "Gene_Product_Expressed_In_Tissue",
+      "relatedCode": "C26479",
+      "relatedName": "MAP Kinase-Activating Death Domain Protein"
+    },
+    {
+      "type": "Gene_Product_Expressed_In_Tissue",
+      "relatedCode": "C21409",
+      "relatedName": "Meiotic Recombination Protein SPO11"
+    },
+    {
+      "type": "Gene_Product_Expressed_In_Tissue",
+      "relatedCode": "C104498",
+      "relatedName": "Melanoma-Associated Antigen 10"
+    },
+    {
+      "type": "Gene_Product_Expressed_In_Tissue",
+      "relatedCode": "C104501",
+      "relatedName": "Melanoma-Associated Antigen 2"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C198417",
+      "relatedName": "Metastatic Childhood Testicular Germ Cell Tumor by Toronto Guidelines v2"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C198417",
+      "relatedName": "Metastatic Childhood Testicular Germ Cell Tumor by Toronto Guidelines v2"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C4584",
+      "relatedName": "Metastatic Malignant Neoplasm in the Testis"
+    },
+    {
+      "type": "Disease_Has_Metastatic_Anatomic_Site",
+      "relatedCode": "C4584",
+      "relatedName": "Metastatic Malignant Neoplasm in the Testis"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C25771",
+      "relatedName": "Metastatic Malignant Testicular Germ Cell Tumor"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C25771",
+      "relatedName": "Metastatic Malignant Testicular Germ Cell Tumor"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C212205",
+      "relatedName": "Metastatic Malignant Testicular Neoplasm"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C222489",
+      "relatedName": "Metastatic Malignant Testicular Non-Seminomatous Germ Cell Tumor"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C222489",
+      "relatedName": "Metastatic Malignant Testicular Non-Seminomatous Germ Cell Tumor"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C222480",
+      "relatedName": "Metastatic Testicular Seminoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C222480",
+      "relatedName": "Metastatic Testicular Seminoma"
+    },
+    {
+      "type": "Gene_Product_Expressed_In_Tissue",
+      "relatedCode": "C26368",
+      "relatedName": "Mitogen-Activated Protein Kinase 13"
+    },
+    {
+      "type": "Gene_Product_Expressed_In_Tissue",
+      "relatedCode": "C26487",
+      "relatedName": "Mitogen-Activated Protein Kinase Kinase Kinase 14"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C39936",
+      "relatedName": "Monodermal Testicular Teratoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C39936",
+      "relatedName": "Monodermal Testicular Teratoma"
+    },
+    {
+      "type": "Gene_Product_Expressed_In_Tissue",
+      "relatedCode": "C17682",
+      "relatedName": "Multidrug Resistance-Associated Protein 1"
+    },
+    {
+      "type": "Gene_Product_Expressed_In_Tissue",
+      "relatedCode": "C21403",
+      "relatedName": "MutS Protein Homolog 4"
+    },
+    {
+      "type": "Gene_Product_Expressed_In_Tissue",
+      "relatedCode": "C186689",
+      "relatedName": "MutS Protein Homolog 5"
+    },
+    {
+      "type": "Gene_Product_Expressed_In_Tissue",
+      "relatedCode": "C18180",
+      "relatedName": "Neuregulin-3"
+    },
+    {
+      "type": "Gene_Product_Expressed_In_Tissue",
+      "relatedCode": "C21171",
+      "relatedName": "Nibrin"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C27616",
+      "relatedName": "Non-Neoplastic Testicular Disorder"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C27616",
+      "relatedName": "Non-Neoplastic Testicular Disorder"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C27162",
+      "relatedName": "Non-Specific Granulomatous Orchitis"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C27162",
+      "relatedName": "Non-Specific Granulomatous Orchitis"
+    },
+    {
+      "type": "Gene_Product_Has_Associated_Anatomy",
+      "relatedCode": "C92707",
+      "relatedName": "NUT Family Member 1"
+    },
+    {
+      "type": "Procedure_Has_Excised_Anatomy",
+      "relatedCode": "C15288",
+      "relatedName": "Orchiectomy"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C97145",
+      "relatedName": "Orchitis"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C97145",
+      "relatedName": "Orchitis"
+    },
+    {
+      "type": "Gene_Product_Expressed_In_Tissue",
+      "relatedCode": "C200621",
+      "relatedName": "Paraneoplastic Antigen Ma1"
+    },
+    {
+      "type": "Gene_Product_Expressed_In_Tissue",
+      "relatedCode": "C18320",
+      "relatedName": "Protein CBFA2T1"
+    },
+    {
+      "type": "Gene_Product_Expressed_In_Tissue",
+      "relatedCode": "C21448",
+      "relatedName": "Protein Wnt-2b"
+    },
+    {
+      "type": "Gene_Product_Expressed_In_Tissue",
+      "relatedCode": "C21449",
+      "relatedName": "Protein Wnt-6"
+    },
+    {
+      "type": "Gene_Product_Expressed_In_Tissue",
+      "relatedCode": "C17327",
+      "relatedName": "Proto-Oncogene Serine/Threonine-Protein Kinase mos"
+    },
+    {
+      "type": "Gene_Product_Expressed_In_Tissue",
+      "relatedCode": "C178153",
+      "relatedName": "Putative Tyrosine-Protein Phosphatase TPTE"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C9369",
+      "relatedName": "Recurrent Malignant Testicular Germ Cell Tumor"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C9369",
+      "relatedName": "Recurrent Malignant Testicular Germ Cell Tumor"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C138021",
+      "relatedName": "Recurrent Testicular Lymphoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C138021",
+      "relatedName": "Recurrent Testicular Lymphoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C9077",
+      "relatedName": "Refractory Malignant Testicular Germ Cell Tumor"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C9077",
+      "relatedName": "Refractory Malignant Testicular Germ Cell Tumor"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C138022",
+      "relatedName": "Refractory Testicular Lymphoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C138022",
+      "relatedName": "Refractory Testicular Lymphoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C198416",
+      "relatedName": "Regional Childhood Testicular Germ Cell Tumor by Toronto Guidelines v2"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C198416",
+      "relatedName": "Regional Childhood Testicular Germ Cell Tumor by Toronto Guidelines v2"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C162139",
+      "relatedName": "Regressed Testicular Germ Cell Tumor"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C162139",
+      "relatedName": "Regressed Testicular Germ Cell Tumor"
+    },
+    {
+      "type": "Anatomic_Structure_Is_Physical_Part_Of",
+      "relatedCode": "C33467",
+      "relatedName": "Rete Testis"
+    },
+    {
+      "type": "Gene_Product_Expressed_In_Tissue",
+      "relatedCode": "C185567",
+      "relatedName": "Rho Guanine Nucleotide Exchange Factor TIAM2"
+    },
+    {
+      "type": "Gene_Product_Expressed_In_Tissue",
+      "relatedCode": "C143010",
+      "relatedName": "Ropporin-1A"
+    },
+    {
+      "type": "Anatomic_Structure_Is_Physical_Part_Of",
+      "relatedCode": "C13047",
+      "relatedName": "Seminiferous Tubule"
+    },
+    {
+      "type": "Gene_Product_Expressed_In_Tissue",
+      "relatedCode": "C98049",
+      "relatedName": "Sentrin-Specific Protease 6"
+    },
+    {
+      "type": "Gene_Product_Expressed_In_Tissue",
+      "relatedCode": "C17476",
+      "relatedName": "Serine/Threonine-Protein Kinase B-Raf"
+    },
+    {
+      "type": "Gene_Product_Expressed_In_Tissue",
+      "relatedCode": "C25919",
+      "relatedName": "Serine/Threonine-Protein Kinase Chk1"
+    },
+    {
+      "type": "Gene_Product_Has_Associated_Anatomy",
+      "relatedCode": "C17128",
+      "relatedName": "Sex Hormone-Binding Globulin"
+    },
+    {
+      "type": "Gene_Product_Expressed_In_Tissue",
+      "relatedCode": "C21323",
+      "relatedName": "SH2B Adapter Protein 2"
+    },
+    {
+      "type": "Gene_Product_Expressed_In_Tissue",
+      "relatedCode": "C142992",
+      "relatedName": "Sperm Surface Protein Sp17"
+    },
+    {
+      "type": "Gene_Product_Expressed_In_Tissue",
+      "relatedCode": "C162869",
+      "relatedName": "Spermatid-Specific Linker Histone H1-Like Protein"
+    },
+    {
+      "type": "Biological_Process_Has_Associated_Location",
+      "relatedCode": "C17161",
+      "relatedName": "Spermatogenesis"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C4523",
+      "relatedName": "Stage 0 Testicular Cancer AJCC v6 and v7"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C140226",
+      "relatedName": "Stage 0 Testicular Cancer AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C198419",
+      "relatedName": "Stage I Childhood Testicular Germ Cell Tumor by Toronto Guidelines v2"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C198419",
+      "relatedName": "Stage I Childhood Testicular Germ Cell Tumor by Toronto Guidelines v2"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C7901",
+      "relatedName": "Stage I Testicular Cancer AJCC v6 and v7"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C140227",
+      "relatedName": "Stage I Testicular Cancer AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C8907",
+      "relatedName": "Stage I Testicular Choriocarcinoma AJCC v6 and v7"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C8907",
+      "relatedName": "Stage I Testicular Choriocarcinoma AJCC v6 and v7"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C8908",
+      "relatedName": "Stage I Testicular Embryonal Carcinoma AJCC v6 and v7"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C8908",
+      "relatedName": "Stage I Testicular Embryonal Carcinoma AJCC v6 and v7"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C8914",
+      "relatedName": "Stage I Testicular Immature Teratoma AJCC v6 and v7"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C8914",
+      "relatedName": "Stage I Testicular Immature Teratoma AJCC v6 and v7"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C8912",
+      "relatedName": "Stage I Testicular Mixed Germ Cell Tumor AJCC v6 and v7"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C8912",
+      "relatedName": "Stage I Testicular Mixed Germ Cell Tumor AJCC v6 and v7"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C27785",
+      "relatedName": "Stage I Testicular Non-Seminomatous Germ Cell Tumor AJCC v6 and v7"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C27785",
+      "relatedName": "Stage I Testicular Non-Seminomatous Germ Cell Tumor AJCC v6 and v7"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C8917",
+      "relatedName": "Stage I Testicular Seminoma AJCC v6 and v7"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C8917",
+      "relatedName": "Stage I Testicular Seminoma AJCC v6 and v7"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C8920",
+      "relatedName": "Stage I Testicular Yolk Sac Tumor AJCC v6 and v7"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C8920",
+      "relatedName": "Stage I Testicular Yolk Sac Tumor AJCC v6 and v7"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C198420",
+      "relatedName": "Stage IA Childhood Testicular Germ Cell Tumor by Toronto Guidelines v2"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C198420",
+      "relatedName": "Stage IA Childhood Testicular Germ Cell Tumor by Toronto Guidelines v2"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C6361",
+      "relatedName": "Stage IA Testicular Cancer AJCC v6 and v7"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C140228",
+      "relatedName": "Stage IA Testicular Cancer AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C198421",
+      "relatedName": "Stage IB Childhood Testicular Germ Cell Tumor by Toronto Guidelines v2"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C198421",
+      "relatedName": "Stage IB Childhood Testicular Germ Cell Tumor by Toronto Guidelines v2"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C6362",
+      "relatedName": "Stage IB Testicular Cancer AJCC v6 and v7"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C140229",
+      "relatedName": "Stage IB Testicular Cancer AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C198424",
+      "relatedName": "Stage II Childhood Testicular Germ Cell Tumor by Toronto Guidelines v2"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C198424",
+      "relatedName": "Stage II Childhood Testicular Germ Cell Tumor by Toronto Guidelines v2"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C9073",
+      "relatedName": "Stage II Testicular Cancer AJCC v6 and v7"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C140233",
+      "relatedName": "Stage II Testicular Cancer AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C8606",
+      "relatedName": "Stage II Testicular Choriocarcinoma AJCC v6 and v7"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C8606",
+      "relatedName": "Stage II Testicular Choriocarcinoma AJCC v6 and v7"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C8909",
+      "relatedName": "Stage II Testicular Embryonal Carcinoma AJCC v6 and v7"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C8909",
+      "relatedName": "Stage II Testicular Embryonal Carcinoma AJCC v6 and v7"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C8915",
+      "relatedName": "Stage II Testicular Immature Teratoma AJCC v6 and v7"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C8915",
+      "relatedName": "Stage II Testicular Immature Teratoma AJCC v6 and v7"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C8911",
+      "relatedName": "Stage II Testicular Mixed Germ Cell Tumor AJCC v6 and v7"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C8911",
+      "relatedName": "Stage II Testicular Mixed Germ Cell Tumor AJCC v6 and v7"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C27786",
+      "relatedName": "Stage II Testicular Non-Seminomatous Germ Cell Tumor AJCC v6 and v7"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C27786",
+      "relatedName": "Stage II Testicular Non-Seminomatous Germ Cell Tumor AJCC v6 and v7"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C8918",
+      "relatedName": "Stage II Testicular Seminoma AJCC v6 and v7"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C8918",
+      "relatedName": "Stage II Testicular Seminoma AJCC v6 and v7"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C8921",
+      "relatedName": "Stage II Testicular Yolk Sac Tumor AJCC v6 and v7"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C8921",
+      "relatedName": "Stage II Testicular Yolk Sac Tumor AJCC v6 and v7"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C198425",
+      "relatedName": "Stage IIA Childhood Testicular Germ Cell Tumor by Toronto Guidelines v2"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C198425",
+      "relatedName": "Stage IIA Childhood Testicular Germ Cell Tumor by Toronto Guidelines v2"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C6364",
+      "relatedName": "Stage IIA Testicular Cancer AJCC v6 and v7"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C140234",
+      "relatedName": "Stage IIA Testicular Cancer AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C198426",
+      "relatedName": "Stage IIB Childhood Testicular Germ Cell Tumor by Toronto Guidelines v2"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C198426",
+      "relatedName": "Stage IIB Childhood Testicular Germ Cell Tumor by Toronto Guidelines v2"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C6365",
+      "relatedName": "Stage IIB Testicular Cancer AJCC v6 and v7"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C140235",
+      "relatedName": "Stage IIB Testicular Cancer AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C198427",
+      "relatedName": "Stage IIC Childhood Testicular Germ Cell Tumor by Toronto Guidelines v2"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C198427",
+      "relatedName": "Stage IIC Childhood Testicular Germ Cell Tumor by Toronto Guidelines v2"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C6366",
+      "relatedName": "Stage IIC Testicular Cancer AJCC v6 and v7"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C140236",
+      "relatedName": "Stage IIC Testicular Cancer AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C198428",
+      "relatedName": "Stage III Childhood Testicular Germ Cell Tumor by Toronto Guidelines v2"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C198428",
+      "relatedName": "Stage III Childhood Testicular Germ Cell Tumor by Toronto Guidelines v2"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C9074",
+      "relatedName": "Stage III Testicular Cancer AJCC v6 and v7"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C140237",
+      "relatedName": "Stage III Testicular Cancer AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C8900",
+      "relatedName": "Stage III Testicular Choriocarcinoma AJCC v6 and v7"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C8900",
+      "relatedName": "Stage III Testicular Choriocarcinoma AJCC v6 and v7"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C8910",
+      "relatedName": "Stage III Testicular Embryonal Carcinoma AJCC v6 and v7"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C8910",
+      "relatedName": "Stage III Testicular Embryonal Carcinoma AJCC v6 and v7"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C8916",
+      "relatedName": "Stage III Testicular Immature Teratoma AJCC v6 and v7"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C8916",
+      "relatedName": "Stage III Testicular Immature Teratoma AJCC v6 and v7"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C8913",
+      "relatedName": "Stage III Testicular Mixed Germ Cell Tumor AJCC v6 and v7"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C8913",
+      "relatedName": "Stage III Testicular Mixed Germ Cell Tumor AJCC v6 and v7"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C27787",
+      "relatedName": "Stage III Testicular Non-Seminomatous Germ Cell Tumor AJCC v6 and v7"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C27787",
+      "relatedName": "Stage III Testicular Non-Seminomatous Germ Cell Tumor AJCC v6 and v7"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C8919",
+      "relatedName": "Stage III Testicular Seminoma AJCC v6 and v7"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C8919",
+      "relatedName": "Stage III Testicular Seminoma AJCC v6 and v7"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C8922",
+      "relatedName": "Stage III Testicular Yolk Sac Tumor AJCC v6 and v7"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C8922",
+      "relatedName": "Stage III Testicular Yolk Sac Tumor AJCC v6 and v7"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C198429",
+      "relatedName": "Stage IIIA Childhood Testicular Germ Cell Tumor by Toronto Guidelines v2"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C198429",
+      "relatedName": "Stage IIIA Childhood Testicular Germ Cell Tumor by Toronto Guidelines v2"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C6369",
+      "relatedName": "Stage IIIA Testicular Cancer AJCC v6 and v7"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C140238",
+      "relatedName": "Stage IIIA Testicular Cancer AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C198430",
+      "relatedName": "Stage IIIB Childhood Testicular Germ Cell Tumor by Toronto Guidelines v2"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C198430",
+      "relatedName": "Stage IIIB Childhood Testicular Germ Cell Tumor by Toronto Guidelines v2"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C6368",
+      "relatedName": "Stage IIIB Testicular Cancer AJCC v6 and v7"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C140239",
+      "relatedName": "Stage IIIB Testicular Cancer AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C198432",
+      "relatedName": "Stage IIIC Childhood Testicular Germ Cell Tumor by Toronto Guidelines v2"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C198432",
+      "relatedName": "Stage IIIC Childhood Testicular Germ Cell Tumor by Toronto Guidelines v2"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C6367",
+      "relatedName": "Stage IIIC Testicular Cancer AJCC v6 and v7"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C140240",
+      "relatedName": "Stage IIIC Testicular Cancer AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C198423",
+      "relatedName": "Stage IS Childhood Testicular Germ Cell Tumor by Toronto Guidelines v2"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C198423",
+      "relatedName": "Stage IS Childhood Testicular Germ Cell Tumor by Toronto Guidelines v2"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C6363",
+      "relatedName": "Stage IS Testicular Cancer AJCC v6 and v7"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C140232",
+      "relatedName": "Stage IS Testicular Cancer AJCC v8"
+    },
+    {
+      "type": "Gene_Product_Expressed_In_Tissue",
+      "relatedCode": "C18554",
+      "relatedName": "T-Lymphoma Invasion and Metastasis-Inducing Protein 1"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C140241",
+      "relatedName": "Testicular Cancer by AJCC v6 and v7 Stage"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C140225",
+      "relatedName": "Testicular Cancer by AJCC v8 Stage"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C7733",
+      "relatedName": "Testicular Choriocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C7733",
+      "relatedName": "Testicular Choriocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C192106",
+      "relatedName": "Testicular Cystic Trophoblastic Tumor"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C192106",
+      "relatedName": "Testicular Cystic Trophoblastic Tumor"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C36092",
+      "relatedName": "Testicular Dermoid Cyst"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C36092",
+      "relatedName": "Testicular Dermoid Cyst"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C162467",
+      "relatedName": "Testicular Diffuse Large B-Cell Lymphoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C162467",
+      "relatedName": "Testicular Diffuse Large B-Cell Lymphoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C26890",
+      "relatedName": "Testicular Disorder"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C6341",
+      "relatedName": "Testicular Embryonal Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C6341",
+      "relatedName": "Testicular Embryonal Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C39951",
+      "relatedName": "Testicular Fibroma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C39951",
+      "relatedName": "Testicular Fibroma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C150589",
+      "relatedName": "Testicular Follicular Lymphoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C150589",
+      "relatedName": "Testicular Follicular Lymphoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C7326",
+      "relatedName": "Testicular Germ Cell Neoplasia In Situ with Extratubular Extension"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C7326",
+      "relatedName": "Testicular Germ Cell Neoplasia In Situ with Extratubular Extension"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C40345",
+      "relatedName": "Testicular Germ Cell Neoplasia In Situ"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C8591",
+      "relatedName": "Testicular Germ Cell Tumor"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C8591",
+      "relatedName": "Testicular Germ Cell Tumor"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C39911",
+      "relatedName": "Testicular Gonadoblastoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C39911",
+      "relatedName": "Testicular Gonadoblastoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C6357",
+      "relatedName": "Testicular Granulosa Cell Tumor"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C6357",
+      "relatedName": "Testicular Granulosa Cell Tumor"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C6353",
+      "relatedName": "Testicular Immature Teratoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C6353",
+      "relatedName": "Testicular Immature Teratoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C27617",
+      "relatedName": "Testicular Infarction"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C27617",
+      "relatedName": "Testicular Infarction"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C39944",
+      "relatedName": "Testicular Large Cell Calcifying Sertoli Cell Tumor"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C39944",
+      "relatedName": "Testicular Large Cell Calcifying Sertoli Cell Tumor"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C9277",
+      "relatedName": "Testicular Leukemia"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C6356",
+      "relatedName": "Testicular Leydig Cell Tumor"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C6356",
+      "relatedName": "Testicular Leydig Cell Tumor"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C6810",
+      "relatedName": "Testicular Lymphoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C6810",
+      "relatedName": "Testicular Lymphoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C6355",
+      "relatedName": "Testicular Mature Teratoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C6355",
+      "relatedName": "Testicular Mature Teratoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C6348",
+      "relatedName": "Testicular Mixed Choriocarcinoma and Embryonal Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C6348",
+      "relatedName": "Testicular Mixed Choriocarcinoma and Embryonal Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C9173",
+      "relatedName": "Testicular Mixed Choriocarcinoma and Seminoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C9173",
+      "relatedName": "Testicular Mixed Choriocarcinoma and Seminoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C6349",
+      "relatedName": "Testicular Mixed Choriocarcinoma and Teratoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C6349",
+      "relatedName": "Testicular Mixed Choriocarcinoma and Teratoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C67548",
+      "relatedName": "Testicular Mixed Choriocarcinoma and Yolk Sac Tumor"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C67548",
+      "relatedName": "Testicular Mixed Choriocarcinoma and Yolk Sac Tumor"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C6350",
+      "relatedName": "Testicular Mixed Embryonal Carcinoma and Seminoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C6350",
+      "relatedName": "Testicular Mixed Embryonal Carcinoma and Seminoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C6352",
+      "relatedName": "Testicular Mixed Embryonal Carcinoma and Teratoma with Seminoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C6352",
+      "relatedName": "Testicular Mixed Embryonal Carcinoma and Teratoma with Seminoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C6351",
+      "relatedName": "Testicular Mixed Embryonal Carcinoma and Teratoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C6351",
+      "relatedName": "Testicular Mixed Embryonal Carcinoma and Teratoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C9172",
+      "relatedName": "Testicular Mixed Embryonal Carcinoma and Yolk Sac Tumor with Seminoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C9172",
+      "relatedName": "Testicular Mixed Embryonal Carcinoma and Yolk Sac Tumor with Seminoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C8001",
+      "relatedName": "Testicular Mixed Embryonal Carcinoma and Yolk Sac Tumor"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C8001",
+      "relatedName": "Testicular Mixed Embryonal Carcinoma and Yolk Sac Tumor"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C6347",
+      "relatedName": "Testicular Mixed Germ Cell Tumor"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C6347",
+      "relatedName": "Testicular Mixed Germ Cell Tumor"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C39912",
+      "relatedName": "Testicular Mixed Germ Cell-Sex Cord-Stromal Tumor, Unclassified"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C39912",
+      "relatedName": "Testicular Mixed Germ Cell-Sex Cord-Stromal Tumor, Unclassified"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C7322",
+      "relatedName": "Testicular Mixed Germ Cell-Sex Cord-Stromal Tumor"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C7322",
+      "relatedName": "Testicular Mixed Germ Cell-Sex Cord-Stromal Tumor"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C66991",
+      "relatedName": "Testicular Mixed Sex Cord-Stromal Tumor"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C66991",
+      "relatedName": "Testicular Mixed Sex Cord-Stromal Tumor"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C192115",
+      "relatedName": "Testicular Mixed Teratoma and Yolk Sac Tumor, Prepubertal-Type"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C192115",
+      "relatedName": "Testicular Mixed Teratoma and Yolk Sac Tumor, Prepubertal-Type"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C8003",
+      "relatedName": "Testicular Mixed Yolk Sac Tumor and Teratoma with Seminoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C8003",
+      "relatedName": "Testicular Mixed Yolk Sac Tumor and Teratoma with Seminoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C8002",
+      "relatedName": "Testicular Mixed Yolk Sac Tumor and Teratoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C8002",
+      "relatedName": "Testicular Mixed Yolk Sac Tumor and Teratoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C39935",
+      "relatedName": "Testicular Monophasic Choriocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C39935",
+      "relatedName": "Testicular Monophasic Choriocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C162469",
+      "relatedName": "Testicular Myeloid Sarcoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C162469",
+      "relatedName": "Testicular Myeloid Sarcoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C162468",
+      "relatedName": "Testicular Nasal Type Extranodal NK/T-Cell Lymphoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C162468",
+      "relatedName": "Testicular Nasal Type Extranodal NK/T-Cell Lymphoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C3404",
+      "relatedName": "Testicular Neoplasm"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C6360",
+      "relatedName": "Testicular Neuroendocrine Tumor, Prepubertal-Type"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C9313",
+      "relatedName": "Testicular Non-Seminomatous Germ Cell Tumor"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C9313",
+      "relatedName": "Testicular Non-Seminomatous Germ Cell Tumor"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C162470",
+      "relatedName": "Testicular Plasmacytoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C162470",
+      "relatedName": "Testicular Plasmacytoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C40962",
+      "relatedName": "Testicular Polyembryoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C40962",
+      "relatedName": "Testicular Polyembryoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C39915",
+      "relatedName": "Testicular Pure Germ Cell Tumor"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C39915",
+      "relatedName": "Testicular Pure Germ Cell Tumor"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C6378",
+      "relatedName": "Testicular Rhabdomyosarcoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C6378",
+      "relatedName": "Testicular Rhabdomyosarcoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C6359",
+      "relatedName": "Testicular Sarcoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C6359",
+      "relatedName": "Testicular Sarcoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C39945",
+      "relatedName": "Testicular Sclerosing Sertoli Cell Tumor"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C39945",
+      "relatedName": "Testicular Sclerosing Sertoli Cell Tumor"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C39920",
+      "relatedName": "Testicular Seminoma with High Mitotic Index"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C39920",
+      "relatedName": "Testicular Seminoma with High Mitotic Index"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C39919",
+      "relatedName": "Testicular Seminoma with Syncytiotrophoblastic Cells"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C39919",
+      "relatedName": "Testicular Seminoma with Syncytiotrophoblastic Cells"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C40957",
+      "relatedName": "Testicular Seminoma, Cribriform Variant"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C40957",
+      "relatedName": "Testicular Seminoma, Cribriform Variant"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C40958",
+      "relatedName": "Testicular Seminoma, Pseudoglandular Variant"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C40958",
+      "relatedName": "Testicular Seminoma, Pseudoglandular Variant"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C40959",
+      "relatedName": "Testicular Seminoma, Tubular Variant"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C40959",
+      "relatedName": "Testicular Seminoma, Tubular Variant"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C7328",
+      "relatedName": "Testicular Seminoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C7328",
+      "relatedName": "Testicular Seminoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C39943",
+      "relatedName": "Testicular Sertoli Cell Tumor, Lipid Rich Variant"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C39943",
+      "relatedName": "Testicular Sertoli Cell Tumor, Lipid Rich Variant"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C4672",
+      "relatedName": "Testicular Sertoli Cell Tumor"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C4672",
+      "relatedName": "Testicular Sertoli Cell Tumor"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C66748",
+      "relatedName": "Testicular Sex Cord-Stromal Tumor, Not Otherwise Specified"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C66748",
+      "relatedName": "Testicular Sex Cord-Stromal Tumor, Not Otherwise Specified"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C6358",
+      "relatedName": "Testicular Sex Cord-Stromal Tumor"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C6358",
+      "relatedName": "Testicular Sex Cord-Stromal Tumor"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C162966",
+      "relatedName": "Testicular Signet Ring Stromal Tumor"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C162966",
+      "relatedName": "Testicular Signet Ring Stromal Tumor"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C39922",
+      "relatedName": "Testicular Spermatocytic Tumor with Sarcoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C39922",
+      "relatedName": "Testicular Spermatocytic Tumor with Sarcoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C39921",
+      "relatedName": "Testicular Spermatocytic Tumor"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C39921",
+      "relatedName": "Testicular Spermatocytic Tumor"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C35711",
+      "relatedName": "Testicular Teratoma with Somatic-Type Malignancy"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C35711",
+      "relatedName": "Testicular Teratoma with Somatic-Type Malignancy"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C189057",
+      "relatedName": "Testicular Teratoma, Postpubertal-Type"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C189057",
+      "relatedName": "Testicular Teratoma, Postpubertal-Type"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C192107",
+      "relatedName": "Testicular Teratoma, Prepubertal-Type"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C192107",
+      "relatedName": "Testicular Teratoma, Prepubertal-Type"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C3877",
+      "relatedName": "Testicular Teratoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C3877",
+      "relatedName": "Testicular Teratoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C39952",
+      "relatedName": "Testicular Thecoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C39952",
+      "relatedName": "Testicular Thecoma"
+    },
+    {
+      "type": "Anatomic_Structure_Is_Physical_Part_Of",
+      "relatedCode": "C33758",
+      "relatedName": "Testicular Tissue"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C26885",
+      "relatedName": "Testicular Torsion"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C26885",
+      "relatedName": "Testicular Torsion"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C39934",
+      "relatedName": "Testicular Trophoblastic Tumor"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C39934",
+      "relatedName": "Testicular Trophoblastic Tumor"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C39949",
+      "relatedName": "Testicular Tumor of the Thecoma/Fibroma Group"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C39949",
+      "relatedName": "Testicular Tumor of the Thecoma/Fibroma Group"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C61383",
+      "relatedName": "Testicular Typical Seminoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C61383",
+      "relatedName": "Testicular Typical Seminoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C39927",
+      "relatedName": "Testicular Yolk Sac Tumor, Endodermal Sinus/Perivascular Pattern"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C39927",
+      "relatedName": "Testicular Yolk Sac Tumor, Endodermal Sinus/Perivascular Pattern"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C39932",
+      "relatedName": "Testicular Yolk Sac Tumor, Enteric Pattern"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C39932",
+      "relatedName": "Testicular Yolk Sac Tumor, Enteric Pattern"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C39926",
+      "relatedName": "Testicular Yolk Sac Tumor, Glandular-Alveolar Pattern"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C39926",
+      "relatedName": "Testicular Yolk Sac Tumor, Glandular-Alveolar Pattern"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C39931",
+      "relatedName": "Testicular Yolk Sac Tumor, Hepatoid Pattern"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C39931",
+      "relatedName": "Testicular Yolk Sac Tumor, Hepatoid Pattern"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C39924",
+      "relatedName": "Testicular Yolk Sac Tumor, Macrocystic Pattern"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C39924",
+      "relatedName": "Testicular Yolk Sac Tumor, Macrocystic Pattern"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C39923",
+      "relatedName": "Testicular Yolk Sac Tumor, Microcystic Pattern"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C39923",
+      "relatedName": "Testicular Yolk Sac Tumor, Microcystic Pattern"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C39929",
+      "relatedName": "Testicular Yolk Sac Tumor, Myxomatous Pattern"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C39929",
+      "relatedName": "Testicular Yolk Sac Tumor, Myxomatous Pattern"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C39928",
+      "relatedName": "Testicular Yolk Sac Tumor, Papillary Pattern"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C39928",
+      "relatedName": "Testicular Yolk Sac Tumor, Papillary Pattern"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C39930",
+      "relatedName": "Testicular Yolk Sac Tumor, Polyvesicular Vitelline Pattern"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C39930",
+      "relatedName": "Testicular Yolk Sac Tumor, Polyvesicular Vitelline Pattern"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C192099",
+      "relatedName": "Testicular Yolk Sac Tumor, Postpubertal-Type"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C192099",
+      "relatedName": "Testicular Yolk Sac Tumor, Postpubertal-Type"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C192100",
+      "relatedName": "Testicular Yolk Sac Tumor, Prepubertal-Type"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C192100",
+      "relatedName": "Testicular Yolk Sac Tumor, Prepubertal-Type"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C39925",
+      "relatedName": "Testicular Yolk Sac Tumor, Solid Pattern"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C39925",
+      "relatedName": "Testicular Yolk Sac Tumor, Solid Pattern"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C8000",
+      "relatedName": "Testicular Yolk Sac Tumor"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C8000",
+      "relatedName": "Testicular Yolk Sac Tumor"
+    },
+    {
+      "type": "Gene_Product_Expressed_In_Tissue",
+      "relatedCode": "C162801",
+      "relatedName": "Testis-Specific Histone H1"
+    },
+    {
+      "type": "Gene_Product_Expressed_In_Tissue",
+      "relatedCode": "C28701",
+      "relatedName": "TFIIA-Alpha and Beta Like Factor"
+    },
+    {
+      "type": "Gene_Product_Expressed_In_Tissue",
+      "relatedCode": "C150335",
+      "relatedName": "Transcription Initiation Factor TFIID Subunit 1-Like"
+    },
+    {
+      "type": "Anatomic_Structure_Is_Physical_Part_Of",
+      "relatedCode": "C33819",
+      "relatedName": "Tunica Albuginea"
+    },
+    {
+      "type": "Gene_Product_Expressed_In_Tissue",
+      "relatedCode": "C21439",
+      "relatedName": "Ubiquitin Carboxyl-Terminal Hydrolase 6"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12326",
+      "relatedName": "Undescended Testes"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12326",
+      "relatedName": "Undescended Testes"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C217543",
+      "relatedName": "Unresectable Malignant Testicular Germ Cell Tumor"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C217543",
+      "relatedName": "Unresectable Malignant Testicular Germ Cell Tumor"
+    },
+    {
+      "type": "Gene_Product_Expressed_In_Tissue",
+      "relatedCode": "C21441",
+      "relatedName": "Vascular Endothelial Growth Factor C"
+    },
+    {
+      "type": "Gene_Product_Expressed_In_Tissue",
+      "relatedCode": "C97881",
+      "relatedName": "Zinc Finger Protein 331"
+    },
+    {
+      "type": "Gene_Product_Expressed_In_Tissue",
+      "relatedCode": "C143105",
+      "relatedName": "Zinc Finger Protein 479"
+    },
+    {
+      "type": "Gene_Product_Expressed_In_Tissue",
+      "relatedCode": "C18171",
+      "relatedName": "Zinc Finger Protein GLI1"
+    }
+  ],
+  "history": [
+    {
+      "code": "C12412",
+      "action": "create",
+      "date": "2003-08-12"
+    },
+    {
+      "code": "C12412",
+      "action": "modify",
+      "date": "2003-10-31"
+    },
+    {
+      "code": "C12412",
+      "action": "modify",
+      "date": "2003-12-30"
+    },
+    {
+      "code": "C12412",
+      "action": "modify",
+      "date": "2004-02-23"
+    },
+    {
+      "code": "C12412",
+      "action": "modify",
+      "date": "2005-03-16"
+    },
+    {
+      "code": "C12412",
+      "action": "modify",
+      "date": "2005-05-27"
+    },
+    {
+      "code": "C12412",
+      "action": "modify",
+      "date": "2006-06-30"
+    },
+    {
+      "code": "C12412",
+      "action": "modify",
+      "date": "2008-06-27"
+    },
+    {
+      "code": "C12412",
+      "action": "modify",
+      "date": "2008-09-12"
+    },
+    {
+      "code": "C12412",
+      "action": "modify",
+      "date": "2008-11-14"
+    },
+    {
+      "code": "C12412",
+      "action": "modify",
+      "date": "2008-11-26"
+    },
+    {
+      "code": "C12412",
+      "action": "modify",
+      "date": "2008-12-19"
+    },
+    {
+      "code": "C12412",
+      "action": "modify",
+      "date": "2008-11-07"
+    },
+    {
+      "code": "C12412",
+      "action": "modify",
+      "date": "2009-01-26"
+    },
+    {
+      "code": "C12412",
+      "action": "modify",
+      "date": "2009-04-06"
+    },
+    {
+      "code": "C12412",
+      "action": "modify",
+      "date": "2009-08-03"
+    },
+    {
+      "code": "C12412",
+      "action": "modify",
+      "date": "2009-11-23"
+    },
+    {
+      "code": "C12412",
+      "action": "modify",
+      "date": "2010-10-18"
+    },
+    {
+      "code": "C12412",
+      "action": "modify",
+      "date": "2011-04-25"
+    },
+    {
+      "code": "C12412",
+      "action": "modify",
+      "date": "2011-05-02"
+    },
+    {
+      "code": "C12412",
+      "action": "modify",
+      "date": "2011-05-09"
+    },
+    {
+      "code": "C12412",
+      "action": "modify",
+      "date": "2011-05-16"
+    },
+    {
+      "code": "C12412",
+      "action": "modify",
+      "date": "2011-05-23"
+    },
+    {
+      "code": "C12412",
+      "action": "modify",
+      "date": "2011-05-31"
+    },
+    {
+      "code": "C12412",
+      "action": "modify",
+      "date": "2011-06-06"
+    },
+    {
+      "code": "C12412",
+      "action": "modify",
+      "date": "2011-06-13"
+    },
+    {
+      "code": "C12412",
+      "action": "modify",
+      "date": "2011-06-20"
+    },
+    {
+      "code": "C12412",
+      "action": "modify",
+      "date": "2011-06-27"
+    },
+    {
+      "code": "C12412",
+      "action": "modify",
+      "date": "2013-02-25"
+    },
+    {
+      "code": "C12412",
+      "action": "modify",
+      "date": "2013-03-04"
+    },
+    {
+      "code": "C12412",
+      "action": "modify",
+      "date": "2013-03-11"
+    },
+    {
+      "code": "C12412",
+      "action": "modify",
+      "date": "2013-03-18"
+    },
+    {
+      "code": "C12412",
+      "action": "modify",
+      "date": "2013-03-25"
+    },
+    {
+      "code": "C12412",
+      "action": "modify",
+      "date": "2013-04-01"
+    },
+    {
+      "code": "C12412",
+      "action": "modify",
+      "date": "2013-04-08"
+    },
+    {
+      "code": "C12412",
+      "action": "modify",
+      "date": "2013-04-15"
+    },
+    {
+      "code": "C12412",
+      "action": "modify",
+      "date": "2013-04-22"
+    },
+    {
+      "code": "C12412",
+      "action": "modify",
+      "date": "2013-04-29"
+    },
+    {
+      "code": "C12412",
+      "action": "modify",
+      "date": "2013-05-06"
+    },
+    {
+      "code": "C12412",
+      "action": "modify",
+      "date": "2013-05-13"
+    },
+    {
+      "code": "C12412",
+      "action": "modify",
+      "date": "2013-05-20"
+    },
+    {
+      "code": "C12412",
+      "action": "modify",
+      "date": "2013-05-28"
+    },
+    {
+      "code": "C12412",
+      "action": "modify",
+      "date": "2013-06-03"
+    },
+    {
+      "code": "C12412",
+      "action": "modify",
+      "date": "2013-06-10"
+    },
+    {
+      "code": "C12412",
+      "action": "modify",
+      "date": "2013-06-17"
+    },
+    {
+      "code": "C12412",
+      "action": "modify",
+      "date": "2013-06-24"
+    },
+    {
+      "code": "C12412",
+      "action": "modify",
+      "date": "2013-07-01"
+    },
+    {
+      "code": "C12412",
+      "action": "modify",
+      "date": "2013-07-08"
+    },
+    {
+      "code": "C12412",
+      "action": "modify",
+      "date": "2013-11-25"
+    },
+    {
+      "code": "C12412",
+      "action": "modify",
+      "date": "2014-02-03"
+    },
+    {
+      "code": "C12412",
+      "action": "modify",
+      "date": "2015-05-26"
+    },
+    {
+      "code": "C12412",
+      "action": "modify",
+      "date": "2015-06-01"
+    },
+    {
+      "code": "C12412",
+      "action": "modify",
+      "date": "2015-06-08"
+    },
+    {
+      "code": "C12412",
+      "action": "modify",
+      "date": "2015-06-15"
+    },
+    {
+      "code": "C12412",
+      "action": "modify",
+      "date": "2015-06-22"
+    },
+    {
+      "code": "C12412",
+      "action": "modify",
+      "date": "2015-06-29"
+    },
+    {
+      "code": "C12412",
+      "action": "modify",
+      "date": "2015-07-06"
+    },
+    {
+      "code": "C12412",
+      "action": "modify",
+      "date": "2015-07-13"
+    },
+    {
+      "code": "C12412",
+      "action": "modify",
+      "date": "2015-08-12"
+    },
+    {
+      "code": "C12412",
+      "action": "modify",
+      "date": "2015-08-24"
+    },
+    {
+      "code": "C12412",
+      "action": "modify",
+      "date": "2015-08-31"
+    },
+    {
+      "code": "C12412",
+      "action": "modify",
+      "date": "2015-10-19"
+    },
+    {
+      "code": "C12412",
+      "action": "modify",
+      "date": "2016-10-17"
+    },
+    {
+      "code": "C12412",
+      "action": "modify",
+      "date": "2017-02-27"
+    },
+    {
+      "code": "C12412",
+      "action": "modify",
+      "date": "2017-03-13"
+    },
+    {
+      "code": "C12412",
+      "action": "modify",
+      "date": "2018-09-24"
+    },
+    {
+      "code": "C12412",
+      "action": "modify",
+      "date": "2019-05-28"
+    },
+    {
+      "code": "C12412",
+      "action": "modify",
+      "date": "2019-09-30"
+    },
+    {
+      "code": "C12412",
+      "action": "modify",
+      "date": "2019-10-28"
+    },
+    {
+      "code": "C12412",
+      "action": "modify",
+      "date": "2020-02-24"
+    },
+    {
+      "code": "C12412",
+      "action": "modify",
+      "date": "2020-03-30"
+    },
+    {
+      "code": "C12412",
+      "action": "modify",
+      "date": "2020-04-27"
+    },
+    {
+      "code": "C12412",
+      "action": "modify",
+      "date": "2020-06-29"
+    },
+    {
+      "code": "C12412",
+      "action": "modify",
+      "date": "2020-07-27"
+    },
+    {
+      "code": "C12412",
+      "action": "modify",
+      "date": "2020-08-31"
+    },
+    {
+      "code": "C12412",
+      "action": "modify",
+      "date": "2020-09-29"
+    },
+    {
+      "code": "C12412",
+      "action": "modify",
+      "date": "2020-11-30"
+    },
+    {
+      "code": "C12412",
+      "action": "modify",
+      "date": "2020-12-28"
+    },
+    {
+      "code": "C12412",
+      "action": "modify",
+      "date": "2021-02-22"
+    },
+    {
+      "code": "C12412",
+      "action": "modify",
+      "date": "2021-03-29"
+    },
+    {
+      "code": "C12412",
+      "action": "modify",
+      "date": "2021-04-26"
+    },
+    {
+      "code": "C12412",
+      "action": "modify",
+      "date": "2021-06-28"
+    },
+    {
+      "code": "C12412",
+      "action": "modify",
+      "date": "2021-11-29"
+    },
+    {
+      "code": "C12412",
+      "action": "modify",
+      "date": "2022-04-25"
+    },
+    {
+      "code": "C12412",
+      "action": "modify",
+      "date": "2022-08-29"
+    },
+    {
+      "code": "C12412",
+      "action": "modify",
+      "date": "2022-10-31"
+    },
+    {
+      "code": "C12412",
+      "action": "modify",
+      "date": "2023-02-27"
+    },
+    {
+      "code": "C12412",
+      "action": "modify",
+      "date": "2023-03-27"
+    },
+    {
+      "code": "C12412",
+      "action": "modify",
+      "date": "2023-05-30"
+    },
+    {
+      "code": "C12412",
+      "action": "modify",
+      "date": "2023-09-25"
+    },
+    {
+      "code": "C12412",
+      "action": "modify",
+      "date": "2024-07-08"
+    }
+  ],
+  "maps": [
+    {
+      "type": "Has Synonym",
+      "targetName": "Testes",
+      "targetTermType": "PT",
+      "targetCode": "sites_of_involvement",
+      "targetTerminology": "GDC"
+    },
+    {
+      "type": "Related To",
+      "targetName": "Testicle, NOS",
+      "targetTermType": "SY",
+      "targetCode": "C62.9",
+      "targetTerminology": "ICDO3",
+      "targetTerminologyVersion": "3.2"
+    },
+    {
+      "type": "Related To",
+      "targetName": "Testicle, NOS",
+      "targetTermType": "SY",
+      "targetCode": "C62.9",
+      "targetTerminology": "ICDO3",
+      "targetTerminologyVersion": "3.1"
+    },
+    {
+      "type": "Related To",
+      "targetName": "Testis, NOS",
+      "targetTermType": "PT",
+      "targetCode": "C62.9",
+      "targetTerminology": "ICDO3",
+      "targetTerminologyVersion": "3.1"
+    },
+    {
+      "type": "Related To",
+      "targetName": "Testis, NOS",
+      "targetTermType": "PT",
+      "targetCode": "C62.9",
+      "targetTerminology": "ICDO3",
+      "targetTerminologyVersion": "3.2"
+    },
+    {
+      "type": "Has Synonym",
+      "targetName": "Testis, NOS",
+      "targetTermType": "PT",
+      "targetCode": "progression_or_recurrence_anatomic_site",
+      "targetTerminology": "GDC"
+    },
+    {
+      "type": "Has Synonym",
+      "targetName": "Testis, NOS",
+      "targetTermType": "PT",
+      "targetCode": "site_of_resection_or_biopsy",
+      "targetTerminology": "GDC"
+    },
+    {
+      "type": "Has Synonym",
+      "targetName": "Testis, NOS",
+      "targetTermType": "PT",
+      "targetCode": "tissue_or_organ_of_origin",
+      "targetTerminology": "GDC"
+    },
+    {
+      "type": "Has Synonym",
+      "targetName": "Testis",
+      "targetTermType": "PT",
+      "targetCode": "biospecimen_anatomic_site",
+      "targetTerminology": "GDC"
+    },
+    {
+      "type": "Related To",
+      "targetName": "TESTIS",
+      "targetTermType": "HT",
+      "targetCode": "C62",
+      "targetTerminology": "ICDO3",
+      "targetTerminologyVersion": "3.2"
+    },
+    {
+      "type": "Related To",
+      "targetName": "TESTIS",
+      "targetTermType": "HT",
+      "targetCode": "C62",
+      "targetTerminology": "ICDO3",
+      "targetTerminologyVersion": "3.1"
+    },
+    {
+      "type": "Has Synonym",
+      "targetName": "Testis",
+      "targetTermType": "PT",
+      "targetCode": "primary_site",
+      "targetTerminology": "GDC"
+    },
+    {
+      "type": "Has Synonym",
+      "targetName": "Testis",
+      "targetTermType": "PT",
+      "targetCode": "treatment_anatomic_sites",
+      "targetTerminology": "GDC"
+    }
+  ]
+}

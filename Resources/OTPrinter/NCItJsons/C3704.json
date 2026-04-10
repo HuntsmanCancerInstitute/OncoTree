@@ -1,0 +1,702 @@
+{
+  "code": "C3704",
+  "name": "Dedifferentiated Liposarcoma",
+  "terminology": "ncit",
+  "version": "25.11d",
+  "conceptStatus": "DEFAULT",
+  "leaf": false,
+  "active": true,
+  "synonyms": [
+    {
+      "name": "Dedifferentiated Liposarcoma",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "caDSR"
+    },
+    {
+      "name": "Dedifferentiated Liposarcoma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "Cellosaurus"
+    },
+    {
+      "name": "Dedifferentiated Liposarcoma",
+      "termType": "DN",
+      "type": "FULL_SYN",
+      "source": "CTRP"
+    },
+    {
+      "name": "Dedifferentiated liposarcoma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "GDC"
+    },
+    {
+      "name": "DDLPS",
+      "termType": "AB",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Dedifferentiated Liposarcoma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Dedifferentiated Liposarcoma",
+      "type": "Display_Name"
+    },
+    {
+      "name": "Dedifferentiated Liposarcoma",
+      "type": "Preferred_Name"
+    }
+  ],
+  "definitions": [
+    {
+      "definition": "An atypical lipomatous tumor/well differentiated liposarcoma that shows progression to a usually non-lipomatous, high grade sarcoma.  The non-lipomatous sarcoma component may be present in the primary lesion or at the site of recurrence.",
+      "type": "DEFINITION",
+      "source": "NCI"
+    }
+  ],
+  "properties": [
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "Cellosaurus"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "CTRP"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "GDC"
+    },
+    {
+      "code": "P334",
+      "type": "ICD-O-3_Code",
+      "value": "8858/3"
+    },
+    {
+      "code": "P366",
+      "type": "Legacy Concept Name",
+      "value": "Dedifferentiated_Liposarcoma"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "8858/3"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "Dedifferentiated liposarcoma"
+    },
+    {
+      "code": "P363",
+      "type": "Neoplastic_Status",
+      "value": "Malignant"
+    },
+    {
+      "code": "P106",
+      "type": "Semantic_Type",
+      "value": "Neoplastic Process"
+    },
+    {
+      "code": "P207",
+      "type": "UMLS_CUI",
+      "value": "C0205824"
+    }
+  ],
+  "children": [
+    {
+      "code": "C213547",
+      "name": "Liver Dedifferentiated Liposarcoma",
+      "leaf": true
+    },
+    {
+      "code": "C219557",
+      "name": "Localized Dedifferentiated Liposarcoma",
+      "leaf": true
+    },
+    {
+      "code": "C164070",
+      "name": "Metastatic Dedifferentiated Liposarcoma",
+      "leaf": false
+    },
+    {
+      "code": "C150592",
+      "name": "Recurrent Dedifferentiated Liposarcoma",
+      "leaf": false
+    },
+    {
+      "code": "C150593",
+      "name": "Refractory Dedifferentiated Liposarcoma",
+      "leaf": true
+    },
+    {
+      "code": "C150607",
+      "name": "Resectable Dedifferentiated Liposarcoma",
+      "leaf": true
+    },
+    {
+      "code": "C150598",
+      "name": "Unresectable Dedifferentiated Liposarcoma",
+      "leaf": true
+    }
+  ],
+  "parents": [
+    {
+      "code": "C3194",
+      "name": "Liposarcoma"
+    }
+  ],
+  "associations": [
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C165258",
+      "relatedName": "Cellosaurus Disease Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C118168",
+      "relatedName": "CTRP Disease Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C116977",
+      "relatedName": "CTRP Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C157711",
+      "relatedName": "GDC Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C177537",
+      "relatedName": "GDC Value Terminology"
+    },
+    {
+      "type": "Is_Value_For_GDC_Property",
+      "relatedCode": "C176985",
+      "relatedName": "Histology ICD-O Morphology Code"
+    },
+    {
+      "type": "Is_Value_For_GDC_Property",
+      "relatedCode": "C177621",
+      "relatedName": "ICD-O-3 Morphology Term Diagnosis Question"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168658",
+      "relatedName": "Mapped ICDO3.1 Morphology PT Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168657",
+      "relatedName": "Mapped ICDO3.1 Morphology Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168655",
+      "relatedName": "Mapped ICDO3.1 Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168662",
+      "relatedName": "Mapped ICDO3.2 Morphology PT Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168661",
+      "relatedName": "Mapped ICDO3.2 Morphology Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168656",
+      "relatedName": "Mapped ICDO3.2 Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C126659",
+      "relatedName": "NCIt Neoplasm Core Terminology"
+    }
+  ],
+  "inverseAssociations": [
+    {
+      "type": "Has_GDC_Value",
+      "relatedCode": "C176985",
+      "relatedName": "Histology ICD-O Morphology Code"
+    },
+    {
+      "type": "Has_GDC_Value",
+      "relatedCode": "C177621",
+      "relatedName": "ICD-O-3 Morphology Term Diagnosis Question"
+    }
+  ],
+  "roles": [
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C12556",
+      "relatedName": "Adipocyte"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C12472",
+      "relatedName": "Adipose Tissue"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C36122",
+      "relatedName": "Benign Cellular Infiltrate"
+    },
+    {
+      "type": "Disease_May_Have_Molecular_Abnormality",
+      "relatedCode": "C131786",
+      "relatedName": "CDK4 Gene Amplification"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C12555",
+      "relatedName": "Connective and Soft Tissue Cell"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12964",
+      "relatedName": "Connective and Soft Tissue"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12964",
+      "relatedName": "Connective and Soft Tissue"
+    },
+    {
+      "type": "Disease_Excludes_Normal_Cell_Origin",
+      "relatedCode": "C12578",
+      "relatedName": "Epithelial Cell"
+    },
+    {
+      "type": "Disease_Excludes_Normal_Tissue_Origin",
+      "relatedCode": "C45714",
+      "relatedName": "Epithelial Tissue"
+    },
+    {
+      "type": "Disease_May_Have_Cytogenetic_Abnormality",
+      "relatedCode": "C36441",
+      "relatedName": "Gain of Chromosome 12q"
+    },
+    {
+      "type": "Disease_May_Have_Cytogenetic_Abnormality",
+      "relatedCode": "C36482",
+      "relatedName": "Gain of Chromosome 1q"
+    },
+    {
+      "type": "Disease_May_Have_Cytogenetic_Abnormality",
+      "relatedCode": "C36385",
+      "relatedName": "Giant Rod Chromosome"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C36129",
+      "relatedName": "High Grade Lesion"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C36105",
+      "relatedName": "Indolent Clinical Course"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C53665",
+      "relatedName": "Intermediate Filaments Present"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C53667",
+      "relatedName": "Intracytoplasmic Eosinophilic Inclusion"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12917",
+      "relatedName": "Malignant Cell"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C36115",
+      "relatedName": "Malignant Cellular Infiltrate"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C36779",
+      "relatedName": "Malignant Epithelial Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C48877",
+      "relatedName": "Malignant Lipocyte"
+    },
+    {
+      "type": "Disease_May_Have_Molecular_Abnormality",
+      "relatedCode": "C36681",
+      "relatedName": "MDM2 Gene Amplification"
+    },
+    {
+      "type": "Disease_May_Have_Abnormal_Cell",
+      "relatedCode": "C36972",
+      "relatedName": "Monovacuolated Lipoblast"
+    },
+    {
+      "type": "Disease_May_Have_Abnormal_Cell",
+      "relatedCode": "C36973",
+      "relatedName": "Multivacuolated Lipoblast"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C36184",
+      "relatedName": "Necrotic Change"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12922",
+      "relatedName": "Neoplastic Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36887",
+      "relatedName": "Neoplastic Connective and Soft Tissue Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C48683",
+      "relatedName": "Neoplastic Lipocyte"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C48897",
+      "relatedName": "Neoplastic Mature Adipocyte"
+    },
+    {
+      "type": "Disease_Excludes_Normal_Cell_Origin",
+      "relatedCode": "C41405",
+      "relatedName": "Neuron, Neuroepithelial Cell, and Supporting Cell of the Nervous System"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C48915",
+      "relatedName": "Non Lipogenic Sarcomatous Stroma Present"
+    },
+    {
+      "type": "Disease_May_Have_Cytogenetic_Abnormality",
+      "relatedCode": "C3360",
+      "relatedName": "Supernumerary Circular Chromosome"
+    }
+  ],
+  "history": [
+    {
+      "code": "C3704",
+      "action": "create",
+      "date": "2003-08-12"
+    },
+    {
+      "code": "C3704",
+      "action": "modify",
+      "date": "2003-12-30"
+    },
+    {
+      "code": "C3704",
+      "action": "modify",
+      "date": "2004-03-30"
+    },
+    {
+      "code": "C3704",
+      "action": "modify",
+      "date": "2005-04-29"
+    },
+    {
+      "code": "C3704",
+      "action": "modify",
+      "date": "2005-10-31"
+    },
+    {
+      "code": "C3704",
+      "action": "modify",
+      "date": "2005-12-01"
+    },
+    {
+      "code": "C3704",
+      "action": "modify",
+      "date": "2007-03-30"
+    },
+    {
+      "code": "C3704",
+      "action": "modify",
+      "date": "2009-04-06"
+    },
+    {
+      "code": "C3704",
+      "action": "modify",
+      "date": "2009-11-02"
+    },
+    {
+      "code": "C3704",
+      "action": "modify",
+      "date": "2009-11-23"
+    },
+    {
+      "code": "C3704",
+      "action": "modify",
+      "date": "2010-11-08"
+    },
+    {
+      "code": "C3704",
+      "action": "modify",
+      "date": "2013-02-25"
+    },
+    {
+      "code": "C3704",
+      "action": "modify",
+      "date": "2013-03-04"
+    },
+    {
+      "code": "C3704",
+      "action": "modify",
+      "date": "2013-03-11"
+    },
+    {
+      "code": "C3704",
+      "action": "modify",
+      "date": "2013-03-18"
+    },
+    {
+      "code": "C3704",
+      "action": "modify",
+      "date": "2013-03-25"
+    },
+    {
+      "code": "C3704",
+      "action": "modify",
+      "date": "2013-04-01"
+    },
+    {
+      "code": "C3704",
+      "action": "modify",
+      "date": "2013-04-08"
+    },
+    {
+      "code": "C3704",
+      "action": "modify",
+      "date": "2013-04-15"
+    },
+    {
+      "code": "C3704",
+      "action": "modify",
+      "date": "2013-04-22"
+    },
+    {
+      "code": "C3704",
+      "action": "modify",
+      "date": "2013-04-29"
+    },
+    {
+      "code": "C3704",
+      "action": "modify",
+      "date": "2013-05-06"
+    },
+    {
+      "code": "C3704",
+      "action": "modify",
+      "date": "2013-05-13"
+    },
+    {
+      "code": "C3704",
+      "action": "modify",
+      "date": "2013-05-20"
+    },
+    {
+      "code": "C3704",
+      "action": "modify",
+      "date": "2013-05-28"
+    },
+    {
+      "code": "C3704",
+      "action": "modify",
+      "date": "2013-06-03"
+    },
+    {
+      "code": "C3704",
+      "action": "modify",
+      "date": "2013-06-10"
+    },
+    {
+      "code": "C3704",
+      "action": "modify",
+      "date": "2013-06-17"
+    },
+    {
+      "code": "C3704",
+      "action": "modify",
+      "date": "2013-06-24"
+    },
+    {
+      "code": "C3704",
+      "action": "modify",
+      "date": "2013-07-01"
+    },
+    {
+      "code": "C3704",
+      "action": "modify",
+      "date": "2013-07-08"
+    },
+    {
+      "code": "C3704",
+      "action": "modify",
+      "date": "2014-02-03"
+    },
+    {
+      "code": "C3704",
+      "action": "modify",
+      "date": "2015-03-09"
+    },
+    {
+      "code": "C3704",
+      "action": "modify",
+      "date": "2015-03-16"
+    },
+    {
+      "code": "C3704",
+      "action": "modify",
+      "date": "2015-05-26"
+    },
+    {
+      "code": "C3704",
+      "action": "modify",
+      "date": "2016-04-25"
+    },
+    {
+      "code": "C3704",
+      "action": "modify",
+      "date": "2018-09-24"
+    },
+    {
+      "code": "C3704",
+      "action": "modify",
+      "date": "2018-10-29"
+    },
+    {
+      "code": "C3704",
+      "action": "modify",
+      "date": "2018-10-29"
+    },
+    {
+      "code": "C3704",
+      "action": "modify",
+      "date": "2019-05-28"
+    },
+    {
+      "code": "C3704",
+      "action": "modify",
+      "date": "2019-09-30"
+    },
+    {
+      "code": "C3704",
+      "action": "modify",
+      "date": "2019-10-28"
+    },
+    {
+      "code": "C3704",
+      "action": "modify",
+      "date": "2019-11-25"
+    },
+    {
+      "code": "C3704",
+      "action": "modify",
+      "date": "2020-02-24"
+    },
+    {
+      "code": "C3704",
+      "action": "modify",
+      "date": "2020-04-27"
+    },
+    {
+      "code": "C3704",
+      "action": "modify",
+      "date": "2020-09-29"
+    },
+    {
+      "code": "C3704",
+      "action": "modify",
+      "date": "2021-01-25"
+    },
+    {
+      "code": "C3704",
+      "action": "modify",
+      "date": "2021-02-22"
+    },
+    {
+      "code": "C3704",
+      "action": "modify",
+      "date": "2021-03-29"
+    },
+    {
+      "code": "C3704",
+      "action": "modify",
+      "date": "2022-08-29"
+    },
+    {
+      "code": "C3704",
+      "action": "modify",
+      "date": "2023-02-27"
+    },
+    {
+      "code": "C3704",
+      "action": "modify",
+      "date": "2023-12-26"
+    },
+    {
+      "code": "C3704",
+      "action": "modify",
+      "date": "2024-01-29"
+    },
+    {
+      "code": "C3704",
+      "action": "modify",
+      "date": "2025-03-31"
+    }
+  ],
+  "maps": [
+    {
+      "type": "Related To",
+      "targetName": "8858/3",
+      "targetTermType": "PT",
+      "targetCode": "morphology",
+      "targetTerminology": "GDC"
+    },
+    {
+      "type": "Related To",
+      "targetName": "Dedifferentiated liposarcoma",
+      "targetTermType": "PT",
+      "targetCode": "8858/3",
+      "targetTerminology": "ICDO3",
+      "targetTerminologyVersion": "3.1"
+    },
+    {
+      "type": "Related To",
+      "targetName": "Dedifferentiated liposarcoma",
+      "targetTermType": "PT",
+      "targetCode": "8858/3",
+      "targetTerminology": "ICDO3",
+      "targetTerminologyVersion": "3.2"
+    },
+    {
+      "type": "Has Synonym",
+      "targetName": "Dedifferentiated liposarcoma",
+      "targetTermType": "PT",
+      "targetCode": "primary_diagnosis",
+      "targetTerminology": "GDC"
+    }
+  ]
+}

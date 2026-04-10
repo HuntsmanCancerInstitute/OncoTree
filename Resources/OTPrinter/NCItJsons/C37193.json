@@ -1,0 +1,873 @@
+{
+  "code": "C37193",
+  "name": "Anaplastic Large Cell Lymphoma, ALK-Positive",
+  "terminology": "ncit",
+  "version": "25.11d",
+  "conceptStatus": "DEFAULT",
+  "leaf": false,
+  "active": true,
+  "synonyms": [
+    {
+      "name": "Anaplastic Large Cell Lymphoma, ALK-Positive",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "Cellosaurus"
+    },
+    {
+      "name": "Anaplastic Large Cell Lymphoma, ALK-Positive",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "CPTAC"
+    },
+    {
+      "name": "Anaplastic large cell lymphoma, ALK positive",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "GDC"
+    },
+    {
+      "name": "Anaplastic large cell lymphoma, ALK-positive, unspecified site",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "mCode",
+      "code": "C84.60",
+      "subSource": "ICD-10 CM"
+    },
+    {
+      "name": "ALCL, ALK+",
+      "termType": "AB",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "ALK-Positive Anaplastic Large Cell Lymphoma",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "ALKoma",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Anaplastic Large Cell Lymphoma, ALK-Positive",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Anaplastic Large Cell Lymphoma, ALK-Positive",
+      "type": "Preferred_Name"
+    }
+  ],
+  "definitions": [
+    {
+      "definition": "A T-cell peripheral lymphoma composed of usually large, pleomorphic, CD30 positive T-lymphocytes with abundant cytoplasm. It is characterized by the presence of a translocation involving the ALK gene and expression of ALK fusion protein. Most patients present with peripheral and/or abdominal lymphadenopathy, and often have advanced disease and extranodal involvement.",
+      "type": "DEFINITION",
+      "source": "NCI"
+    }
+  ],
+  "properties": [
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "Cellosaurus"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "CPTAC"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "GDC"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "mCode"
+    },
+    {
+      "code": "P334",
+      "type": "ICD-O-3_Code",
+      "value": "9714/3"
+    },
+    {
+      "code": "P366",
+      "type": "Legacy Concept Name",
+      "value": "ALK-Positive_Anaplastic_Large_Cell_Lymphoma"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "9714/3"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "Anaplastic large cell lymphoma, ALK positive"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "Anaplastic large cell lymphoma, ALK-positive, extranodal and solid organ sites"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "Anaplastic large cell lymphoma, ALK-positive, lymph nodes of axilla and upper limb"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "Anaplastic large cell lymphoma, ALK-positive, lymph nodes of head, face, and neck"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "Anaplastic large cell lymphoma, ALK-positive, lymph nodes of multiple sites"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "Anaplastic large cell lymphoma, ALK-positive, unspecified site"
+    },
+    {
+      "code": "P363",
+      "type": "Neoplastic_Status",
+      "value": "Malignant"
+    },
+    {
+      "code": "P106",
+      "type": "Semantic_Type",
+      "value": "Neoplastic Process"
+    },
+    {
+      "code": "P207",
+      "type": "UMLS_CUI",
+      "value": "C1332079"
+    }
+  ],
+  "children": [
+    {
+      "code": "C188460",
+      "name": "Childhood Anaplastic Large Cell Lymphoma, ALK-Positive",
+      "leaf": true
+    },
+    {
+      "code": "C129598",
+      "name": "Primary Central Nervous System Anaplastic Large Cell Lymphoma, ALK-Positive",
+      "leaf": true
+    },
+    {
+      "code": "C37195",
+      "name": "Systemic Anaplastic Large Cell Lymphoma, ALK-Positive",
+      "leaf": false
+    }
+  ],
+  "parents": [
+    {
+      "code": "C3720",
+      "name": "Anaplastic Large Cell Lymphoma"
+    }
+  ],
+  "associations": [
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C165258",
+      "relatedName": "Cellosaurus Disease Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C158520",
+      "relatedName": "CPTAC Codelists Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C156966",
+      "relatedName": "CPTAC Neoplasms Codelist"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C156952",
+      "relatedName": "CPTAC Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C157711",
+      "relatedName": "GDC Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C177537",
+      "relatedName": "GDC Value Terminology"
+    },
+    {
+      "type": "Is_Value_For_GDC_Property",
+      "relatedCode": "C176985",
+      "relatedName": "Histology ICD-O Morphology Code"
+    },
+    {
+      "type": "Is_Value_For_GDC_Property",
+      "relatedCode": "C177621",
+      "relatedName": "ICD-O-3 Morphology Term Diagnosis Question"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C193249",
+      "relatedName": "mCode Cancer Disorder Value Set"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C193175",
+      "relatedName": "mCode Elixhauser Lymphoma Value Set"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C193248",
+      "relatedName": "mCode Primary Cancer Disorder Value Set"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C193231",
+      "relatedName": "mCode Primary Malignant Neoplasm Disorder Value Set"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C193006",
+      "relatedName": "mCode Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C126659",
+      "relatedName": "NCIt Neoplasm Core Terminology"
+    }
+  ],
+  "inverseAssociations": [
+    {
+      "type": "Has_GDC_Value",
+      "relatedCode": "C176985",
+      "relatedName": "Histology ICD-O Morphology Code"
+    },
+    {
+      "type": "Has_GDC_Value",
+      "relatedCode": "C177621",
+      "relatedName": "ICD-O-3 Morphology Term Diagnosis Question"
+    }
+  ],
+  "roles": [
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36725",
+      "relatedName": "Abnormal Lymphocyte"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C39687",
+      "relatedName": "Activated Mature Cytotoxic T-Lymphocyte"
+    },
+    {
+      "type": "Disease_Has_Molecular_Abnormality",
+      "relatedCode": "C81946",
+      "relatedName": "ALK Fusion Protein Expression"
+    },
+    {
+      "type": "Disease_Mapped_To_Gene",
+      "relatedCode": "C38184",
+      "relatedName": "ALK Gene"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C37017",
+      "relatedName": "Anaplastic Large T-Lymphocyte"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C36113",
+      "relatedName": "Anaplastic Lesion"
+    },
+    {
+      "type": "Disease_May_Have_Molecular_Abnormality",
+      "relatedCode": "C36711",
+      "relatedName": "ATIC-ALK Fusion Protein Expression"
+    },
+    {
+      "type": "Disease_Mapped_To_Gene",
+      "relatedCode": "C101046",
+      "relatedName": "ATIC/ALK Fusion Gene"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C36122",
+      "relatedName": "Benign Cellular Infiltrate"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C39715",
+      "relatedName": "CD30-Positive Neoplastic Cells Present"
+    },
+    {
+      "type": "Disease_May_Have_Molecular_Abnormality",
+      "relatedCode": "C36447",
+      "relatedName": "Clonal T-Cell Receptor Beta Chain Gene Rearrangement"
+    },
+    {
+      "type": "Disease_May_Have_Molecular_Abnormality",
+      "relatedCode": "C36448",
+      "relatedName": "Clonal T-Cell Receptor Gamma Chain Gene Rearrangement"
+    },
+    {
+      "type": "Disease_May_Have_Molecular_Abnormality",
+      "relatedCode": "C37216",
+      "relatedName": "CLTC-ALK Fusion Protein Expression"
+    },
+    {
+      "type": "Disease_Mapped_To_Gene",
+      "relatedCode": "C99873",
+      "relatedName": "CLTC/ALK Fusion Gene"
+    },
+    {
+      "type": "Disease_May_Have_Abnormal_Cell",
+      "relatedCode": "C39680",
+      "relatedName": "Doughnut Cell"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C39695",
+      "relatedName": "Extranodal Disease"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C36156",
+      "relatedName": "Favorable Clinical Outcome"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C39679",
+      "relatedName": "Hallmark Cell"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C41165",
+      "relatedName": "Hematopoietic and Lymphatic System"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C41165",
+      "relatedName": "Hematopoietic and Lymphatic System"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C32725",
+      "relatedName": "Hematopoietic and Lymphoid Cell"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C41168",
+      "relatedName": "Hematopoietic and Lymphoid Tissue"
+    },
+    {
+      "type": "Disease_May_Have_Abnormal_Cell",
+      "relatedCode": "C37026",
+      "relatedName": "Hodgkin-Like Cell"
+    },
+    {
+      "type": "Disease_May_Have_Cytogenetic_Abnormality",
+      "relatedCode": "C36437",
+      "relatedName": "inv(2)(p23;q35)"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C50764",
+      "relatedName": "Lymphadenopathy"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12746",
+      "relatedName": "Lymphatic System"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C37027",
+      "relatedName": "Lymphocyte Predominant Cell"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C12535",
+      "relatedName": "Lymphocyte"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C13049",
+      "relatedName": "Lymphoid Tissue"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12917",
+      "relatedName": "Malignant Cell"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C36115",
+      "relatedName": "Malignant Cellular Infiltrate"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C33061",
+      "relatedName": "Mature T-Lymphocyte"
+    },
+    {
+      "type": "Disease_May_Have_Molecular_Abnormality",
+      "relatedCode": "C38348",
+      "relatedName": "MSN-ALK Fusion Protein Expression"
+    },
+    {
+      "type": "Disease_Mapped_To_Gene",
+      "relatedCode": "C101059",
+      "relatedName": "MSN/ALK Fusion Gene"
+    },
+    {
+      "type": "Disease_Excludes_Normal_Cell_Origin",
+      "relatedCode": "C12549",
+      "relatedName": "Myeloid Cell"
+    },
+    {
+      "type": "Disease_May_Have_Molecular_Abnormality",
+      "relatedCode": "C45444",
+      "relatedName": "MYH9-ALK Fusion Protein Expression"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C38640",
+      "relatedName": "Neoplastic B-Lymphocyte"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12922",
+      "relatedName": "Neoplastic Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C37060",
+      "relatedName": "Neoplastic Hematopoietic and Lymphoid Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36988",
+      "relatedName": "Neoplastic Lymphocyte"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C39566",
+      "relatedName": "Neoplastic T-Lymphocyte and Neoplastic Natural Killer Cell"
+    },
+    {
+      "type": "Disease_May_Have_Molecular_Abnormality",
+      "relatedCode": "C36706",
+      "relatedName": "NPM1-ALK Fusion Protein Expression"
+    },
+    {
+      "type": "Disease_Mapped_To_Gene",
+      "relatedCode": "C99361",
+      "relatedName": "NPM1/ALK Fusion Gene"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C39568",
+      "relatedName": "Peripheral (Post-Thymic) T-Lymphocyte and Natural Killer Cell"
+    },
+    {
+      "type": "Disease_Excludes_Normal_Cell_Origin",
+      "relatedCode": "C12486",
+      "relatedName": "Plasma Cell"
+    },
+    {
+      "type": "Disease_Excludes_Normal_Cell_Origin",
+      "relatedCode": "C39300",
+      "relatedName": "Precursor Natural Killer Cell"
+    },
+    {
+      "type": "Disease_Excludes_Normal_Cell_Origin",
+      "relatedCode": "C33930",
+      "relatedName": "Precursor T-Lymphoblast"
+    },
+    {
+      "type": "Disease_Has_Molecular_Abnormality",
+      "relatedCode": "C37208",
+      "relatedName": "Rearrangement of 2p23"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C12660",
+      "relatedName": "Reed-Sternberg Cell"
+    },
+    {
+      "type": "Disease_May_Have_Abnormal_Cell",
+      "relatedCode": "C37024",
+      "relatedName": "Reed-Sternberg-Like Cell"
+    },
+    {
+      "type": "Disease_May_Have_Molecular_Abnormality",
+      "relatedCode": "C45443",
+      "relatedName": "RNF213-ALK Fusion Protein Expression"
+    },
+    {
+      "type": "Disease_Mapped_To_Gene",
+      "relatedCode": "C99869",
+      "relatedName": "RNF213/ALK Fusion Gene"
+    },
+    {
+      "type": "Disease_May_Have_Cytogenetic_Abnormality",
+      "relatedCode": "C36435",
+      "relatedName": "t(1;2)(q25;p23)"
+    },
+    {
+      "type": "Disease_May_Have_Cytogenetic_Abnormality",
+      "relatedCode": "C36590",
+      "relatedName": "t(2;17)(p23;q23)"
+    },
+    {
+      "type": "Disease_May_Have_Cytogenetic_Abnormality",
+      "relatedCode": "C45440",
+      "relatedName": "t(2;17)(p23;q35)"
+    },
+    {
+      "type": "Disease_May_Have_Cytogenetic_Abnormality",
+      "relatedCode": "C45439",
+      "relatedName": "t(2;19)(p23;p13)"
+    },
+    {
+      "type": "Disease_May_Have_Cytogenetic_Abnormality",
+      "relatedCode": "C45441",
+      "relatedName": "t(2;22)(p23;q11)"
+    },
+    {
+      "type": "Disease_May_Have_Cytogenetic_Abnormality",
+      "relatedCode": "C36436",
+      "relatedName": "t(2;3)(p23;q21)"
+    },
+    {
+      "type": "Disease_May_Have_Cytogenetic_Abnormality",
+      "relatedCode": "C27711",
+      "relatedName": "t(2;5)(p23;q35)"
+    },
+    {
+      "type": "Disease_May_Have_Cytogenetic_Abnormality",
+      "relatedCode": "C36591",
+      "relatedName": "t(X;2)(q11-12;p23)"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C39567",
+      "relatedName": "T-Lymphocyte and Natural Killer Cell"
+    },
+    {
+      "type": "Disease_May_Have_Molecular_Abnormality",
+      "relatedCode": "C36708",
+      "relatedName": "TFG-ALK Fusion Protein Expression"
+    },
+    {
+      "type": "Disease_Mapped_To_Gene",
+      "relatedCode": "C101075",
+      "relatedName": "TFG/ALK Fusion Gene"
+    },
+    {
+      "type": "Disease_May_Have_Molecular_Abnormality",
+      "relatedCode": "C36707",
+      "relatedName": "TPM3-ALK Fusion Protein Expression"
+    },
+    {
+      "type": "Disease_Mapped_To_Gene",
+      "relatedCode": "C101083",
+      "relatedName": "TPM3/ALK Fusion Gene"
+    },
+    {
+      "type": "Disease_May_Have_Molecular_Abnormality",
+      "relatedCode": "C45442",
+      "relatedName": "TPM4-ALK Fusion Protein Expression"
+    },
+    {
+      "type": "Disease_Mapped_To_Gene",
+      "relatedCode": "C101085",
+      "relatedName": "TPM4/ALK Fusion Gene"
+    }
+  ],
+  "inverseRoles": [
+    {
+      "type": "Gene_Involved_In_Pathogenesis_Of_Disease",
+      "relatedCode": "C38184",
+      "relatedName": "ALK Gene"
+    },
+    {
+      "type": "Gene_Involved_In_Pathogenesis_Of_Disease",
+      "relatedCode": "C51738",
+      "relatedName": "ALK wt Allele"
+    },
+    {
+      "type": "Gene_Involved_In_Pathogenesis_Of_Disease",
+      "relatedCode": "C150443",
+      "relatedName": "ALKATI Allele"
+    },
+    {
+      "type": "Gene_Involved_In_Pathogenesis_Of_Disease",
+      "relatedCode": "C101046",
+      "relatedName": "ATIC/ALK Fusion Gene"
+    },
+    {
+      "type": "Gene_Involved_In_Pathogenesis_Of_Disease",
+      "relatedCode": "C99873",
+      "relatedName": "CLTC/ALK Fusion Gene"
+    },
+    {
+      "type": "Gene_Involved_In_Pathogenesis_Of_Disease",
+      "relatedCode": "C101059",
+      "relatedName": "MSN/ALK Fusion Gene"
+    },
+    {
+      "type": "Gene_Involved_In_Pathogenesis_Of_Disease",
+      "relatedCode": "C99361",
+      "relatedName": "NPM1/ALK Fusion Gene"
+    },
+    {
+      "type": "Gene_Involved_In_Pathogenesis_Of_Disease",
+      "relatedCode": "C99869",
+      "relatedName": "RNF213/ALK Fusion Gene"
+    },
+    {
+      "type": "Gene_Involved_In_Pathogenesis_Of_Disease",
+      "relatedCode": "C101079",
+      "relatedName": "TFG/ALK Extra Long Form Fusion Gene"
+    },
+    {
+      "type": "Gene_Involved_In_Pathogenesis_Of_Disease",
+      "relatedCode": "C101075",
+      "relatedName": "TFG/ALK Fusion Gene"
+    },
+    {
+      "type": "Gene_Involved_In_Pathogenesis_Of_Disease",
+      "relatedCode": "C101078",
+      "relatedName": "TFG/ALK Long Form Fusion Gene"
+    },
+    {
+      "type": "Gene_Involved_In_Pathogenesis_Of_Disease",
+      "relatedCode": "C101077",
+      "relatedName": "TFG/ALK Short Form Fusion Gene"
+    },
+    {
+      "type": "Gene_Involved_In_Pathogenesis_Of_Disease",
+      "relatedCode": "C101083",
+      "relatedName": "TPM3/ALK Fusion Gene"
+    },
+    {
+      "type": "Gene_Involved_In_Pathogenesis_Of_Disease",
+      "relatedCode": "C101085",
+      "relatedName": "TPM4/ALK Fusion Gene"
+    }
+  ],
+  "history": [
+    {
+      "code": "C37193",
+      "action": "create",
+      "date": "2004-03-30"
+    },
+    {
+      "code": "C37193",
+      "action": "modify",
+      "date": "2004-04-30"
+    },
+    {
+      "code": "C37193",
+      "action": "modify",
+      "date": "2004-06-25"
+    },
+    {
+      "code": "C37193",
+      "action": "modify",
+      "date": "2005-03-30"
+    },
+    {
+      "code": "C37193",
+      "action": "modify",
+      "date": "2009-03-23"
+    },
+    {
+      "code": "C37193",
+      "action": "modify",
+      "date": "2009-04-06"
+    },
+    {
+      "code": "C37193",
+      "action": "modify",
+      "date": "2009-04-27"
+    },
+    {
+      "code": "C37193",
+      "action": "modify",
+      "date": "2009-06-15"
+    },
+    {
+      "code": "C37193",
+      "action": "modify",
+      "date": "2009-11-02"
+    },
+    {
+      "code": "C37193",
+      "action": "modify",
+      "date": "2009-11-23"
+    },
+    {
+      "code": "C37193",
+      "action": "modify",
+      "date": "2011-08-29"
+    },
+    {
+      "code": "C37193",
+      "action": "modify",
+      "date": "2012-03-05"
+    },
+    {
+      "code": "C37193",
+      "action": "modify",
+      "date": "2012-03-26"
+    },
+    {
+      "code": "C37193",
+      "action": "modify",
+      "date": "2012-07-30"
+    },
+    {
+      "code": "C37193",
+      "action": "modify",
+      "date": "2016-04-25"
+    },
+    {
+      "code": "C37193",
+      "action": "modify",
+      "date": "2018-09-24"
+    },
+    {
+      "code": "C37193",
+      "action": "modify",
+      "date": "2018-12-31"
+    },
+    {
+      "code": "C37193",
+      "action": "modify",
+      "date": "2019-02-25"
+    },
+    {
+      "code": "C37193",
+      "action": "modify",
+      "date": "2019-03-25"
+    },
+    {
+      "code": "C37193",
+      "action": "modify",
+      "date": "2019-05-28"
+    },
+    {
+      "code": "C37193",
+      "action": "modify",
+      "date": "2019-09-30"
+    },
+    {
+      "code": "C37193",
+      "action": "modify",
+      "date": "2019-11-25"
+    },
+    {
+      "code": "C37193",
+      "action": "modify",
+      "date": "2020-03-30"
+    },
+    {
+      "code": "C37193",
+      "action": "modify",
+      "date": "2021-02-22"
+    },
+    {
+      "code": "C37193",
+      "action": "modify",
+      "date": "2021-03-29"
+    },
+    {
+      "code": "C37193",
+      "action": "modify",
+      "date": "2023-02-27"
+    },
+    {
+      "code": "C37193",
+      "action": "modify",
+      "date": "2023-03-27"
+    },
+    {
+      "code": "C37193",
+      "action": "modify",
+      "date": "2023-05-30"
+    },
+    {
+      "code": "C37193",
+      "action": "modify",
+      "date": "2023-06-26"
+    },
+    {
+      "code": "C37193",
+      "action": "modify",
+      "date": "2025-03-31"
+    }
+  ],
+  "maps": [
+    {
+      "type": "Related To",
+      "targetName": "9714/3",
+      "targetTermType": "PT",
+      "targetCode": "morphology",
+      "targetTerminology": "GDC"
+    },
+    {
+      "type": "Has Synonym",
+      "targetName": "Anaplastic large cell lymphoma, ALK positive",
+      "targetTermType": "PT",
+      "targetCode": "primary_diagnosis",
+      "targetTerminology": "GDC"
+    },
+    {
+      "type": "Related To",
+      "targetName": "Anaplastic large cell lymphoma, ALK-positive, extranodal and solid organ sites",
+      "targetTermType": "PT",
+      "targetCode": "C84.69",
+      "targetTerminology": "ICD10CM 2017"
+    },
+    {
+      "type": "Related To",
+      "targetName": "Anaplastic large cell lymphoma, ALK-positive, lymph nodes of axilla and upper limb",
+      "targetTermType": "PT",
+      "targetCode": "C84.64",
+      "targetTerminology": "ICD10CM 2017"
+    },
+    {
+      "type": "Related To",
+      "targetName": "Anaplastic large cell lymphoma, ALK-positive, lymph nodes of head, face, and neck",
+      "targetTermType": "PT",
+      "targetCode": "C84.61",
+      "targetTerminology": "ICD10CM 2017"
+    },
+    {
+      "type": "Related To",
+      "targetName": "Anaplastic large cell lymphoma, ALK-positive, lymph nodes of multiple sites",
+      "targetTermType": "PT",
+      "targetCode": "C84.68",
+      "targetTerminology": "ICD10CM 2017"
+    },
+    {
+      "type": "Related To",
+      "targetName": "Anaplastic large cell lymphoma, ALK-positive, unspecified site",
+      "targetTermType": "PT",
+      "targetCode": "C84.60",
+      "targetTerminology": "ICD10CM 2017"
+    }
+  ]
+}

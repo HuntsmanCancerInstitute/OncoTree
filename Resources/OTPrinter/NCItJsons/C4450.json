@@ -1,0 +1,527 @@
+{
+  "code": "C4450",
+  "name": "Lung Large Cell Carcinoma",
+  "terminology": "ncit",
+  "version": "25.11d",
+  "conceptStatus": "DEFAULT",
+  "leaf": false,
+  "active": true,
+  "synonyms": [
+    {
+      "name": "Lung Large Cell Carcinoma",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "caDSR"
+    },
+    {
+      "name": "Lung Large Cell Carcinoma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "Cellosaurus"
+    },
+    {
+      "name": "Large Cell Lung Cancer",
+      "termType": "DN",
+      "type": "FULL_SYN",
+      "source": "CTRP"
+    },
+    {
+      "name": "large cell carcinoma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NCI-GLOSS",
+      "code": "CDR0000046316"
+    },
+    {
+      "name": "Anaplastic Lung Carcinoma",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Large Cell Carcinoma of Lung",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Large Cell Carcinoma of the Lung",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Large Cell Lung Carcinoma",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Large Cell Undifferentiated Lung Carcinoma",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Lung Large Cell Carcinoma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Lung Large Cell Undifferentiated Carcinoma",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Large Cell Lung Carcinoma",
+      "type": "Display_Name"
+    },
+    {
+      "name": "Lung Large Cell Carcinoma",
+      "type": "Preferred_Name"
+    }
+  ],
+  "definitions": [
+    {
+      "definition": "An undifferentiated non-small cell lung carcinoma composed of large polygonal cells without evidence of glandular, squamous, or neuroendocrine differentiation.",
+      "type": "DEFINITION",
+      "source": "NCI"
+    },
+    {
+      "definition": "Lung cancer in which the cells are large and look abnormal when viewed under a microscope.",
+      "type": "ALT_DEFINITION",
+      "source": "NCI-GLOSS"
+    }
+  ],
+  "properties": [
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "Cellosaurus"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "CTRP"
+    },
+    {
+      "code": "P366",
+      "type": "Legacy Concept Name",
+      "value": "Large_Cell_Lung_Carcinoma"
+    },
+    {
+      "code": "P363",
+      "type": "Neoplastic_Status",
+      "value": "Malignant"
+    },
+    {
+      "code": "P106",
+      "type": "Semantic_Type",
+      "value": "Neoplastic Process"
+    },
+    {
+      "code": "P207",
+      "type": "UMLS_CUI",
+      "value": "C0345958"
+    }
+  ],
+  "children": [
+    {
+      "code": "C7266",
+      "name": "Lung Basaloid Large Cell Carcinoma",
+      "leaf": true
+    },
+    {
+      "code": "C136493",
+      "name": "Lung Large Cell Carcinoma by AJCC v7 Stage",
+      "leaf": false
+    },
+    {
+      "code": "C6876",
+      "name": "Lung Large Cell Carcinoma with Rhabdoid Phenotype",
+      "leaf": true
+    },
+    {
+      "code": "C4451",
+      "name": "Lung Large Cell Carcinoma, Clear Cell Variant",
+      "leaf": true
+    },
+    {
+      "code": "C208359",
+      "name": "Metastatic Lung Large Cell Carcinoma",
+      "leaf": false
+    },
+    {
+      "code": "C6685",
+      "name": "Occult Lung Large Cell Carcinoma",
+      "leaf": true
+    },
+    {
+      "code": "C8753",
+      "name": "Recurrent Lung Large Cell Carcinoma",
+      "leaf": true
+    }
+  ],
+  "parents": [
+    {
+      "code": "C3780",
+      "name": "Large Cell Carcinoma"
+    },
+    {
+      "code": "C2926",
+      "name": "Lung Non-Small Cell Carcinoma"
+    },
+    {
+      "code": "C3692",
+      "name": "Undifferentiated Carcinoma"
+    }
+  ],
+  "associations": [
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C165258",
+      "relatedName": "Cellosaurus Disease Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C118168",
+      "relatedName": "CTRP Disease Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C116977",
+      "relatedName": "CTRP Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C126659",
+      "relatedName": "NCIt Neoplasm Core Terminology"
+    }
+  ],
+  "roles": [
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C36122",
+      "relatedName": "Benign Cellular Infiltrate"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C54172",
+      "relatedName": "Carcinomatous Component Present"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C12578",
+      "relatedName": "Epithelial Cell"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C53596",
+      "relatedName": "Epithelial Component Present"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C45714",
+      "relatedName": "Epithelial Tissue"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C43573",
+      "relatedName": "Glandular Differentiation"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C43573",
+      "relatedName": "Glandular Differentiation"
+    },
+    {
+      "type": "Disease_May_Have_Molecular_Abnormality",
+      "relatedCode": "C41361",
+      "relatedName": "KRAS Gene Mutation"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12468",
+      "relatedName": "Lung"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12468",
+      "relatedName": "Lung"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12917",
+      "relatedName": "Malignant Cell"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C36115",
+      "relatedName": "Malignant Cellular Infiltrate"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36779",
+      "relatedName": "Malignant Epithelial Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36822",
+      "relatedName": "Malignant Epithelial Large Cell"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C36795",
+      "relatedName": "Malignant Epithelial Small Cell"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C37153",
+      "relatedName": "Malignant Stromal Cell"
+    },
+    {
+      "type": "Disease_Excludes_Primary_Anatomic_Site",
+      "relatedCode": "C13063",
+      "relatedName": "Neck"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12922",
+      "relatedName": "Neoplastic Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36753",
+      "relatedName": "Neoplastic Epithelial Cell"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C36937",
+      "relatedName": "Neoplastic Smooth Muscle Cell"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C43574",
+      "relatedName": "Neuroendocrine Differentiation"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C42624",
+      "relatedName": "Premalignant Lesion"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12779",
+      "relatedName": "Respiratory System"
+    },
+    {
+      "type": "Disease_Excludes_Primary_Anatomic_Site",
+      "relatedCode": "C12470",
+      "relatedName": "Skin"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C38770",
+      "relatedName": "Squamous Differentiation"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C38770",
+      "relatedName": "Squamous Differentiation"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12905",
+      "relatedName": "Thoracic Cavity"
+    },
+    {
+      "type": "Disease_May_Have_Molecular_Abnormality",
+      "relatedCode": "C36329",
+      "relatedName": "TP53 Gene Inactivation"
+    },
+    {
+      "type": "Disease_Mapped_To_Gene",
+      "relatedCode": "C17359",
+      "relatedName": "TP53 Gene"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C37085",
+      "relatedName": "Undifferentiated Carcinoma Cell"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C36134",
+      "relatedName": "Undifferentiated Lesion"
+    }
+  ],
+  "history": [
+    {
+      "code": "C4450",
+      "action": "create",
+      "date": "2003-08-12"
+    },
+    {
+      "code": "C4450",
+      "action": "modify",
+      "date": "2003-10-31"
+    },
+    {
+      "code": "C4450",
+      "action": "modify",
+      "date": "2003-12-30"
+    },
+    {
+      "code": "C4450",
+      "action": "modify",
+      "date": "2004-03-30"
+    },
+    {
+      "code": "C4450",
+      "action": "modify",
+      "date": "2005-04-29"
+    },
+    {
+      "code": "C4450",
+      "action": "modify",
+      "date": "2005-06-24"
+    },
+    {
+      "code": "C4450",
+      "action": "modify",
+      "date": "2006-03-31"
+    },
+    {
+      "code": "C4450",
+      "action": "modify",
+      "date": "2006-04-28"
+    },
+    {
+      "code": "C4450",
+      "action": "modify",
+      "date": "2007-10-29"
+    },
+    {
+      "code": "C4450",
+      "action": "modify",
+      "date": "2009-04-06"
+    },
+    {
+      "code": "C4450",
+      "action": "modify",
+      "date": "2009-10-27"
+    },
+    {
+      "code": "C4450",
+      "action": "modify",
+      "date": "2009-11-23"
+    },
+    {
+      "code": "C4450",
+      "action": "modify",
+      "date": "2014-08-04"
+    },
+    {
+      "code": "C4450",
+      "action": "modify",
+      "date": "2014-08-18"
+    },
+    {
+      "code": "C4450",
+      "action": "modify",
+      "date": "2014-09-22"
+    },
+    {
+      "code": "C4450",
+      "action": "modify",
+      "date": "2014-10-27"
+    },
+    {
+      "code": "C4450",
+      "action": "modify",
+      "date": "2016-04-25"
+    },
+    {
+      "code": "C4450",
+      "action": "modify",
+      "date": "2017-02-27"
+    },
+    {
+      "code": "C4450",
+      "action": "modify",
+      "date": "2017-06-05"
+    },
+    {
+      "code": "C4450",
+      "action": "modify",
+      "date": "2017-07-31"
+    },
+    {
+      "code": "C4450",
+      "action": "modify",
+      "date": "2017-12-26"
+    },
+    {
+      "code": "C4450",
+      "action": "modify",
+      "date": "2018-07-30"
+    },
+    {
+      "code": "C4450",
+      "action": "modify",
+      "date": "2018-08-27"
+    },
+    {
+      "code": "C4450",
+      "action": "modify",
+      "date": "2018-08-27"
+    },
+    {
+      "code": "C4450",
+      "action": "modify",
+      "date": "2018-09-24"
+    },
+    {
+      "code": "C4450",
+      "action": "modify",
+      "date": "2019-09-30"
+    },
+    {
+      "code": "C4450",
+      "action": "modify",
+      "date": "2019-10-28"
+    },
+    {
+      "code": "C4450",
+      "action": "modify",
+      "date": "2020-02-24"
+    },
+    {
+      "code": "C4450",
+      "action": "modify",
+      "date": "2020-09-29"
+    },
+    {
+      "code": "C4450",
+      "action": "modify",
+      "date": "2023-02-27"
+    },
+    {
+      "code": "C4450",
+      "action": "modify",
+      "date": "2024-08-26"
+    },
+    {
+      "code": "C4450",
+      "action": "modify",
+      "date": "2024-08-26"
+    },
+    {
+      "code": "C4450",
+      "action": "modify",
+      "date": "2025-03-31"
+    }
+  ]
+}

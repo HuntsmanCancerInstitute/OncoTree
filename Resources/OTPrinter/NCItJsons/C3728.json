@@ -1,0 +1,1956 @@
+{
+  "code": "C3728",
+  "name": "Hepatoblastoma",
+  "terminology": "ncit",
+  "version": "25.11d",
+  "conceptStatus": "DEFAULT",
+  "leaf": false,
+  "active": true,
+  "synonyms": [
+    {
+      "name": "HBL",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "CDISC"
+    },
+    {
+      "name": "HEPATOBLASTOMA, MALIGNANT",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "CDISC"
+    },
+    {
+      "name": "Pediatric Embryonal Hepatoma",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "CDISC"
+    },
+    {
+      "name": "Pediatric Hepatoblastoma",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "CDISC"
+    },
+    {
+      "name": "Hepatoblastoma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "Cellosaurus"
+    },
+    {
+      "name": "Hepatoblastoma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "CPTAC"
+    },
+    {
+      "name": "Hepatoblastoma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "CTEP",
+      "code": "10019822",
+      "subSource": "SDC"
+    },
+    {
+      "name": "Hepatoblastoma",
+      "termType": "DN",
+      "type": "FULL_SYN",
+      "source": "CTRP"
+    },
+    {
+      "name": "Hepatoblastoma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "CTRP"
+    },
+    {
+      "name": "Hepatoblastoma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "GDC"
+    },
+    {
+      "name": "Hepatoblastoma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "mCode",
+      "code": "C22.2",
+      "subSource": "ICD-10 CM"
+    },
+    {
+      "name": "hepatoblastoma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NCI-GLOSS",
+      "code": "CDR0000046160"
+    },
+    {
+      "name": "HBL",
+      "termType": "AB",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Hepatoblastoma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Pediatric Embryonal Hepatoma",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Pediatric Hepatoblastoma",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Hepatoblastoma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NICHD"
+    },
+    {
+      "name": "Hepatoblastoma",
+      "type": "Display_Name"
+    },
+    {
+      "name": "Hepatoblastoma",
+      "type": "Preferred_Name"
+    }
+  ],
+  "definitions": [
+    {
+      "definition": "A malignant embryonal neoplasm that arises from the liver. It occurs almost exclusively in infants, although isolated cases in older children and adults have been reported. Microscopically,  it consists of either epithelial or epithelial and mesenchymal components.",
+      "type": "DEFINITION",
+      "source": "NCI"
+    },
+    {
+      "definition": "A malignant liver neoplasm composed of immature hepatocytic elements.",
+      "type": "ALT_DEFINITION",
+      "source": "CDISC"
+    },
+    {
+      "definition": "A malignant liver tumor that arises from precursors of hepatocytes. It occurs almost exclusively in infants. The lungs are the most common site of metastasis.",
+      "type": "ALT_DEFINITION",
+      "source": "NICHD"
+    },
+    {
+      "definition": "A type of liver tumor that occurs in infants and children.",
+      "type": "ALT_DEFINITION",
+      "source": "NCI-GLOSS"
+    }
+  ],
+  "properties": [
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "CDISC"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "Cellosaurus"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "CPTAC"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "CTEP"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "CTRP"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "GDC"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "mCode"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "MedDRA"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "NICHD"
+    },
+    {
+      "code": "P334",
+      "type": "ICD-O-3_Code",
+      "value": "8970/3"
+    },
+    {
+      "code": "P366",
+      "type": "Legacy Concept Name",
+      "value": "Hepatoblastoma"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "8970/3"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "Embryonal hepatoma"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "Hepatoblastoma"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "Hepatoblastoma, NOS"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "Malignant neoplasm: Hepatoblastoma"
+    },
+    {
+      "code": "P363",
+      "type": "Neoplastic_Status",
+      "value": "Malignant"
+    },
+    {
+      "code": "P106",
+      "type": "Semantic_Type",
+      "value": "Neoplastic Process"
+    },
+    {
+      "code": "P207",
+      "type": "UMLS_CUI",
+      "value": "C0206624"
+    }
+  ],
+  "children": [
+    {
+      "code": "C213350",
+      "name": "Adult Hepatoblastoma",
+      "leaf": true
+    },
+    {
+      "code": "C213351",
+      "name": "Childhood Hepatoblastoma",
+      "leaf": false
+    },
+    {
+      "code": "C189923",
+      "name": "Epithelial Hepatoblastoma",
+      "leaf": false
+    },
+    {
+      "code": "C189929",
+      "name": "Hepatoblastoma by Postsurgical Stage",
+      "leaf": false
+    },
+    {
+      "code": "C189927",
+      "name": "Hepatoblastoma by PRETEXT Stage",
+      "leaf": false
+    },
+    {
+      "code": "C161838",
+      "name": "Hepatocellular Malignant Neoplasm, Not Otherwise Specified",
+      "leaf": false
+    },
+    {
+      "code": "C192216",
+      "name": "Metastatic Hepatoblastoma",
+      "leaf": false
+    },
+    {
+      "code": "C7097",
+      "name": "Mixed Epithelial and Mesenchymal Hepatoblastoma",
+      "leaf": false
+    },
+    {
+      "code": "C8643",
+      "name": "Recurrent Hepatoblastoma",
+      "leaf": false
+    },
+    {
+      "code": "C142854",
+      "name": "Refractory Hepatoblastoma",
+      "leaf": false
+    },
+    {
+      "code": "C8642",
+      "name": "Resectable Hepatoblastoma",
+      "leaf": true
+    },
+    {
+      "code": "C8641",
+      "name": "Unresectable Hepatoblastoma",
+      "leaf": true
+    }
+  ],
+  "parents": [
+    {
+      "code": "C3264",
+      "name": "Embryonal Neoplasm"
+    },
+    {
+      "code": "C34803",
+      "name": "Primary Malignant Liver Neoplasm"
+    }
+  ],
+  "associations": [
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C77526",
+      "relatedName": "CDISC SEND Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C88025",
+      "relatedName": "CDISC SEND Tumor Findings Results Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C165258",
+      "relatedName": "Cellosaurus Disease Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C61410",
+      "relatedName": "Clinical Data Interchange Standards Consortium Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C138188",
+      "relatedName": "Clinical Trials Search-Application Programming Interface Disease Category Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C158520",
+      "relatedName": "CPTAC Codelists Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C156966",
+      "relatedName": "CPTAC Neoplasms Codelist"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C156952",
+      "relatedName": "CPTAC Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C118168",
+      "relatedName": "CTRP Disease Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C116977",
+      "relatedName": "CTRP Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C138190",
+      "relatedName": "CTS-API Disease Main Type Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C157711",
+      "relatedName": "GDC Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C177537",
+      "relatedName": "GDC Value Terminology"
+    },
+    {
+      "type": "Is_Value_For_GDC_Property",
+      "relatedCode": "C176985",
+      "relatedName": "Histology ICD-O Morphology Code"
+    },
+    {
+      "type": "Is_Value_For_GDC_Property",
+      "relatedCode": "C177621",
+      "relatedName": "ICD-O-3 Morphology Term Diagnosis Question"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168658",
+      "relatedName": "Mapped ICDO3.1 Morphology PT Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168657",
+      "relatedName": "Mapped ICDO3.1 Morphology Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168655",
+      "relatedName": "Mapped ICDO3.1 Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168662",
+      "relatedName": "Mapped ICDO3.2 Morphology PT Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168661",
+      "relatedName": "Mapped ICDO3.2 Morphology Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168656",
+      "relatedName": "Mapped ICDO3.2 Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C193249",
+      "relatedName": "mCode Cancer Disorder Value Set"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C193178",
+      "relatedName": "mCode Elixhauser Malignant Solid Tumors without Metastases Value Set"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C193248",
+      "relatedName": "mCode Primary Cancer Disorder Value Set"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C193231",
+      "relatedName": "mCode Primary Malignant Neoplasm Disorder Value Set"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C193006",
+      "relatedName": "mCode Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C103066",
+      "relatedName": "NCI CTEP SDC Liver and Hepatobiliary Cancer Sub-Category Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C102905",
+      "relatedName": "NCI CTEP Simplified Disease Classification Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C126659",
+      "relatedName": "NCIt Neoplasm Core Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C99147",
+      "relatedName": "Neonatal Research Network Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C90259",
+      "relatedName": "NICHD Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C189762",
+      "relatedName": "Pediatric Adverse Events Terminology Mapped to MedDRA"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C118464",
+      "relatedName": "Pediatric Adverse Events Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C132009",
+      "relatedName": "Pediatric Hematology-Oncology Terminology"
+    },
+    {
+      "type": "Neoplasm_Has_Special_Category",
+      "relatedCode": "C9292",
+      "relatedName": "Solid Neoplasm"
+    }
+  ],
+  "inverseAssociations": [
+    {
+      "type": "Has_GDC_Value",
+      "relatedCode": "C176985",
+      "relatedName": "Histology ICD-O Morphology Code"
+    },
+    {
+      "type": "Has_GDC_Value",
+      "relatedCode": "C177621",
+      "relatedName": "ICD-O-3 Morphology Term Diagnosis Question"
+    }
+  ],
+  "roles": [
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C34333",
+      "relatedName": "Abdominal Mass"
+    },
+    {
+      "type": "Disease_May_Have_Associated_Disease",
+      "relatedCode": "C2869",
+      "relatedName": "Anemia"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C2875",
+      "relatedName": "Anorexia"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C36122",
+      "relatedName": "Benign Cellular Infiltrate"
+    },
+    {
+      "type": "Disease_May_Have_Molecular_Abnormality",
+      "relatedCode": "C36659",
+      "relatedName": "CTNNB1 Gene Mutation"
+    },
+    {
+      "type": "Disease_Mapped_To_Gene",
+      "relatedCode": "C20987",
+      "relatedName": "CTNNB1 Gene"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C34687",
+      "relatedName": "Diaphragmatic Hernia"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12378",
+      "relatedName": "Digestive System"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C13054",
+      "relatedName": "Embryonic Cell"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C12950",
+      "relatedName": "Embryonic Tissue"
+    },
+    {
+      "type": "Disease_Excludes_Primary_Anatomic_Site",
+      "relatedCode": "C32573",
+      "relatedName": "Extrahepatic Bile Duct"
+    },
+    {
+      "type": "Disease_Excludes_Normal_Tissue_Origin",
+      "relatedCode": "C54105",
+      "relatedName": "Germinal Layer"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C43612",
+      "relatedName": "Hepatobiliary System"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C43612",
+      "relatedName": "Hepatobiliary System"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C43614",
+      "relatedName": "Hepatobiliary Tissue"
+    },
+    {
+      "type": "Disease_May_Have_Associated_Disease",
+      "relatedCode": "C34690",
+      "relatedName": "Inguinal Hernia"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C3143",
+      "relatedName": "Jaundice"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12392",
+      "relatedName": "Liver"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12392",
+      "relatedName": "Liver"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12392",
+      "relatedName": "Liver"
+    },
+    {
+      "type": "Disease_May_Have_Cytogenetic_Abnormality",
+      "relatedCode": "C36505",
+      "relatedName": "Loss of Chromosome 11p"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12917",
+      "relatedName": "Malignant Cell"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C36115",
+      "relatedName": "Malignant Cellular Infiltrate"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C12264",
+      "relatedName": "Meckel Diverticulum"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12922",
+      "relatedName": "Neoplastic Cell"
+    },
+    {
+      "type": "Disease_May_Have_Molecular_Abnormality",
+      "relatedCode": "C129684",
+      "relatedName": "NFE2L2 Gene Mutation"
+    },
+    {
+      "type": "Disease_May_Have_Molecular_Abnormality",
+      "relatedCode": "C160585",
+      "relatedName": "TERT Promoter Mutation"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C35530",
+      "relatedName": "Thrombocytosis"
+    },
+    {
+      "type": "Disease_May_Have_Cytogenetic_Abnormality",
+      "relatedCode": "C36397",
+      "relatedName": "Trisomy 20"
+    },
+    {
+      "type": "Disease_May_Have_Cytogenetic_Abnormality",
+      "relatedCode": "C36495",
+      "relatedName": "Trisomy 2"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C3445",
+      "relatedName": "Weight Loss"
+    }
+  ],
+  "inverseRoles": [
+    {
+      "type": "Gene_Associated_With_Disease",
+      "relatedCode": "C19969",
+      "relatedName": "AXIN1 Gene"
+    },
+    {
+      "type": "Gene_Associated_With_Disease",
+      "relatedCode": "C52463",
+      "relatedName": "AXIN1 wt Allele"
+    },
+    {
+      "type": "Disease_May_Have_Associated_Disease",
+      "relatedCode": "C34415",
+      "relatedName": "Beckwith-Wiedemann Syndrome"
+    },
+    {
+      "type": "Gene_Product_Malfunction_Associated_With_Disease",
+      "relatedCode": "C17478",
+      "relatedName": "Catenin Beta-1"
+    },
+    {
+      "type": "Gene_Involved_In_Pathogenesis_Of_Disease",
+      "relatedCode": "C20987",
+      "relatedName": "CTNNB1 Gene"
+    },
+    {
+      "type": "Gene_Involved_In_Pathogenesis_Of_Disease",
+      "relatedCode": "C52512",
+      "relatedName": "CTNNB1 wt Allele"
+    },
+    {
+      "type": "Regimen_Has_Accepted_Use_For_Disease",
+      "relatedCode": "C67296",
+      "relatedName": "IPA Liver Cancer Regimen"
+    },
+    {
+      "type": "Regimen_Has_Accepted_Use_For_Disease",
+      "relatedCode": "C67295",
+      "relatedName": "POG-8697 Liver Cancer Regimen"
+    }
+  ],
+  "history": [
+    {
+      "code": "C3728",
+      "action": "create",
+      "date": "2003-08-12"
+    },
+    {
+      "code": "C3728",
+      "action": "modify",
+      "date": "2003-10-31"
+    },
+    {
+      "code": "C3728",
+      "action": "modify",
+      "date": "2003-12-30"
+    },
+    {
+      "code": "C3728",
+      "action": "modify",
+      "date": "2004-03-30"
+    },
+    {
+      "code": "C3728",
+      "action": "modify",
+      "date": "2005-03-16"
+    },
+    {
+      "code": "C3728",
+      "action": "modify",
+      "date": "2006-05-26"
+    },
+    {
+      "code": "C3728",
+      "action": "modify",
+      "date": "2006-12-29"
+    },
+    {
+      "code": "C3728",
+      "action": "modify",
+      "date": "2007-03-30"
+    },
+    {
+      "code": "C3728",
+      "action": "modify",
+      "date": "2007-05-25"
+    },
+    {
+      "code": "C3728",
+      "action": "modify",
+      "date": "2007-06-28"
+    },
+    {
+      "code": "C3728",
+      "action": "modify",
+      "date": "2009-11-23"
+    },
+    {
+      "code": "C3728",
+      "action": "modify",
+      "date": "2010-01-11"
+    },
+    {
+      "code": "C3728",
+      "action": "modify",
+      "date": "2010-05-17"
+    },
+    {
+      "code": "C3728",
+      "action": "modify",
+      "date": "2010-06-01"
+    },
+    {
+      "code": "C3728",
+      "action": "modify",
+      "date": "2011-01-31"
+    },
+    {
+      "code": "C3728",
+      "action": "modify",
+      "date": "2011-04-11"
+    },
+    {
+      "code": "C3728",
+      "action": "modify",
+      "date": "2011-11-14"
+    },
+    {
+      "code": "C3728",
+      "action": "modify",
+      "date": "2011-11-21"
+    },
+    {
+      "code": "C3728",
+      "action": "modify",
+      "date": "2011-11-28"
+    },
+    {
+      "code": "C3728",
+      "action": "modify",
+      "date": "2011-12-05"
+    },
+    {
+      "code": "C3728",
+      "action": "modify",
+      "date": "2011-12-12"
+    },
+    {
+      "code": "C3728",
+      "action": "modify",
+      "date": "2011-12-19"
+    },
+    {
+      "code": "C3728",
+      "action": "modify",
+      "date": "2011-12-27"
+    },
+    {
+      "code": "C3728",
+      "action": "modify",
+      "date": "2012-01-09"
+    },
+    {
+      "code": "C3728",
+      "action": "modify",
+      "date": "2012-01-17"
+    },
+    {
+      "code": "C3728",
+      "action": "modify",
+      "date": "2012-01-23"
+    },
+    {
+      "code": "C3728",
+      "action": "modify",
+      "date": "2012-01-30"
+    },
+    {
+      "code": "C3728",
+      "action": "modify",
+      "date": "2012-02-06"
+    },
+    {
+      "code": "C3728",
+      "action": "modify",
+      "date": "2012-02-13"
+    },
+    {
+      "code": "C3728",
+      "action": "modify",
+      "date": "2012-02-21"
+    },
+    {
+      "code": "C3728",
+      "action": "modify",
+      "date": "2012-02-27"
+    },
+    {
+      "code": "C3728",
+      "action": "modify",
+      "date": "2012-03-05"
+    },
+    {
+      "code": "C3728",
+      "action": "modify",
+      "date": "2012-03-12"
+    },
+    {
+      "code": "C3728",
+      "action": "modify",
+      "date": "2012-03-19"
+    },
+    {
+      "code": "C3728",
+      "action": "modify",
+      "date": "2012-03-26"
+    },
+    {
+      "code": "C3728",
+      "action": "modify",
+      "date": "2012-04-02"
+    },
+    {
+      "code": "C3728",
+      "action": "modify",
+      "date": "2012-04-09"
+    },
+    {
+      "code": "C3728",
+      "action": "modify",
+      "date": "2012-04-16"
+    },
+    {
+      "code": "C3728",
+      "action": "modify",
+      "date": "2012-04-23"
+    },
+    {
+      "code": "C3728",
+      "action": "modify",
+      "date": "2012-04-30"
+    },
+    {
+      "code": "C3728",
+      "action": "modify",
+      "date": "2012-05-07"
+    },
+    {
+      "code": "C3728",
+      "action": "modify",
+      "date": "2012-05-14"
+    },
+    {
+      "code": "C3728",
+      "action": "modify",
+      "date": "2012-05-21"
+    },
+    {
+      "code": "C3728",
+      "action": "modify",
+      "date": "2012-05-29"
+    },
+    {
+      "code": "C3728",
+      "action": "modify",
+      "date": "2012-06-04"
+    },
+    {
+      "code": "C3728",
+      "action": "modify",
+      "date": "2012-06-11"
+    },
+    {
+      "code": "C3728",
+      "action": "modify",
+      "date": "2012-06-18"
+    },
+    {
+      "code": "C3728",
+      "action": "modify",
+      "date": "2012-06-18"
+    },
+    {
+      "code": "C3728",
+      "action": "modify",
+      "date": "2012-06-25"
+    },
+    {
+      "code": "C3728",
+      "action": "modify",
+      "date": "2012-07-03"
+    },
+    {
+      "code": "C3728",
+      "action": "modify",
+      "date": "2012-07-16"
+    },
+    {
+      "code": "C3728",
+      "action": "modify",
+      "date": "2012-07-23"
+    },
+    {
+      "code": "C3728",
+      "action": "modify",
+      "date": "2012-07-30"
+    },
+    {
+      "code": "C3728",
+      "action": "modify",
+      "date": "2012-08-06"
+    },
+    {
+      "code": "C3728",
+      "action": "modify",
+      "date": "2012-08-13"
+    },
+    {
+      "code": "C3728",
+      "action": "modify",
+      "date": "2012-08-20"
+    },
+    {
+      "code": "C3728",
+      "action": "modify",
+      "date": "2012-08-27"
+    },
+    {
+      "code": "C3728",
+      "action": "modify",
+      "date": "2012-09-04"
+    },
+    {
+      "code": "C3728",
+      "action": "modify",
+      "date": "2012-09-10"
+    },
+    {
+      "code": "C3728",
+      "action": "modify",
+      "date": "2012-09-17"
+    },
+    {
+      "code": "C3728",
+      "action": "modify",
+      "date": "2012-09-24"
+    },
+    {
+      "code": "C3728",
+      "action": "modify",
+      "date": "2012-10-01"
+    },
+    {
+      "code": "C3728",
+      "action": "modify",
+      "date": "2012-10-09"
+    },
+    {
+      "code": "C3728",
+      "action": "modify",
+      "date": "2012-10-15"
+    },
+    {
+      "code": "C3728",
+      "action": "modify",
+      "date": "2012-10-22"
+    },
+    {
+      "code": "C3728",
+      "action": "modify",
+      "date": "2012-10-31"
+    },
+    {
+      "code": "C3728",
+      "action": "modify",
+      "date": "2012-11-05"
+    },
+    {
+      "code": "C3728",
+      "action": "modify",
+      "date": "2012-11-13"
+    },
+    {
+      "code": "C3728",
+      "action": "modify",
+      "date": "2012-11-19"
+    },
+    {
+      "code": "C3728",
+      "action": "modify",
+      "date": "2012-11-26"
+    },
+    {
+      "code": "C3728",
+      "action": "modify",
+      "date": "2012-12-03"
+    },
+    {
+      "code": "C3728",
+      "action": "modify",
+      "date": "2012-12-10"
+    },
+    {
+      "code": "C3728",
+      "action": "modify",
+      "date": "2012-12-17"
+    },
+    {
+      "code": "C3728",
+      "action": "modify",
+      "date": "2012-12-28"
+    },
+    {
+      "code": "C3728",
+      "action": "modify",
+      "date": "2013-01-07"
+    },
+    {
+      "code": "C3728",
+      "action": "modify",
+      "date": "2013-01-14"
+    },
+    {
+      "code": "C3728",
+      "action": "modify",
+      "date": "2013-01-23"
+    },
+    {
+      "code": "C3728",
+      "action": "modify",
+      "date": "2013-02-04"
+    },
+    {
+      "code": "C3728",
+      "action": "modify",
+      "date": "2013-02-11"
+    },
+    {
+      "code": "C3728",
+      "action": "modify",
+      "date": "2013-02-19"
+    },
+    {
+      "code": "C3728",
+      "action": "modify",
+      "date": "2013-02-25"
+    },
+    {
+      "code": "C3728",
+      "action": "modify",
+      "date": "2013-03-04"
+    },
+    {
+      "code": "C3728",
+      "action": "modify",
+      "date": "2013-03-11"
+    },
+    {
+      "code": "C3728",
+      "action": "modify",
+      "date": "2013-03-18"
+    },
+    {
+      "code": "C3728",
+      "action": "modify",
+      "date": "2013-03-25"
+    },
+    {
+      "code": "C3728",
+      "action": "modify",
+      "date": "2013-04-01"
+    },
+    {
+      "code": "C3728",
+      "action": "modify",
+      "date": "2013-04-08"
+    },
+    {
+      "code": "C3728",
+      "action": "modify",
+      "date": "2013-04-15"
+    },
+    {
+      "code": "C3728",
+      "action": "modify",
+      "date": "2013-04-22"
+    },
+    {
+      "code": "C3728",
+      "action": "modify",
+      "date": "2013-04-29"
+    },
+    {
+      "code": "C3728",
+      "action": "modify",
+      "date": "2013-05-06"
+    },
+    {
+      "code": "C3728",
+      "action": "modify",
+      "date": "2013-05-13"
+    },
+    {
+      "code": "C3728",
+      "action": "modify",
+      "date": "2013-05-20"
+    },
+    {
+      "code": "C3728",
+      "action": "modify",
+      "date": "2013-05-28"
+    },
+    {
+      "code": "C3728",
+      "action": "modify",
+      "date": "2013-06-03"
+    },
+    {
+      "code": "C3728",
+      "action": "modify",
+      "date": "2013-06-10"
+    },
+    {
+      "code": "C3728",
+      "action": "modify",
+      "date": "2013-06-17"
+    },
+    {
+      "code": "C3728",
+      "action": "modify",
+      "date": "2013-06-24"
+    },
+    {
+      "code": "C3728",
+      "action": "modify",
+      "date": "2013-07-01"
+    },
+    {
+      "code": "C3728",
+      "action": "modify",
+      "date": "2013-07-08"
+    },
+    {
+      "code": "C3728",
+      "action": "modify",
+      "date": "2014-02-03"
+    },
+    {
+      "code": "C3728",
+      "action": "modify",
+      "date": "2014-03-05"
+    },
+    {
+      "code": "C3728",
+      "action": "modify",
+      "date": "2014-08-04"
+    },
+    {
+      "code": "C3728",
+      "action": "modify",
+      "date": "2014-08-18"
+    },
+    {
+      "code": "C3728",
+      "action": "modify",
+      "date": "2014-09-22"
+    },
+    {
+      "code": "C3728",
+      "action": "modify",
+      "date": "2014-10-27"
+    },
+    {
+      "code": "C3728",
+      "action": "modify",
+      "date": "2014-11-03"
+    },
+    {
+      "code": "C3728",
+      "action": "modify",
+      "date": "2014-11-10"
+    },
+    {
+      "code": "C3728",
+      "action": "modify",
+      "date": "2014-11-17"
+    },
+    {
+      "code": "C3728",
+      "action": "modify",
+      "date": "2014-11-24"
+    },
+    {
+      "code": "C3728",
+      "action": "modify",
+      "date": "2014-12-01"
+    },
+    {
+      "code": "C3728",
+      "action": "modify",
+      "date": "2014-12-08"
+    },
+    {
+      "code": "C3728",
+      "action": "modify",
+      "date": "2014-12-15"
+    },
+    {
+      "code": "C3728",
+      "action": "modify",
+      "date": "2014-12-22"
+    },
+    {
+      "code": "C3728",
+      "action": "modify",
+      "date": "2014-12-29"
+    },
+    {
+      "code": "C3728",
+      "action": "modify",
+      "date": "2015-01-05"
+    },
+    {
+      "code": "C3728",
+      "action": "modify",
+      "date": "2015-01-12"
+    },
+    {
+      "code": "C3728",
+      "action": "modify",
+      "date": "2015-01-20"
+    },
+    {
+      "code": "C3728",
+      "action": "modify",
+      "date": "2015-01-26"
+    },
+    {
+      "code": "C3728",
+      "action": "modify",
+      "date": "2015-02-02"
+    },
+    {
+      "code": "C3728",
+      "action": "modify",
+      "date": "2015-02-09"
+    },
+    {
+      "code": "C3728",
+      "action": "modify",
+      "date": "2015-02-17"
+    },
+    {
+      "code": "C3728",
+      "action": "modify",
+      "date": "2015-02-23"
+    },
+    {
+      "code": "C3728",
+      "action": "modify",
+      "date": "2015-03-02"
+    },
+    {
+      "code": "C3728",
+      "action": "modify",
+      "date": "2015-03-09"
+    },
+    {
+      "code": "C3728",
+      "action": "modify",
+      "date": "2015-03-16"
+    },
+    {
+      "code": "C3728",
+      "action": "modify",
+      "date": "2015-03-23"
+    },
+    {
+      "code": "C3728",
+      "action": "modify",
+      "date": "2015-03-30"
+    },
+    {
+      "code": "C3728",
+      "action": "modify",
+      "date": "2015-04-06"
+    },
+    {
+      "code": "C3728",
+      "action": "modify",
+      "date": "2015-04-13"
+    },
+    {
+      "code": "C3728",
+      "action": "modify",
+      "date": "2015-04-20"
+    },
+    {
+      "code": "C3728",
+      "action": "modify",
+      "date": "2015-04-27"
+    },
+    {
+      "code": "C3728",
+      "action": "modify",
+      "date": "2015-05-04"
+    },
+    {
+      "code": "C3728",
+      "action": "modify",
+      "date": "2015-05-11"
+    },
+    {
+      "code": "C3728",
+      "action": "modify",
+      "date": "2015-05-18"
+    },
+    {
+      "code": "C3728",
+      "action": "modify",
+      "date": "2015-05-26"
+    },
+    {
+      "code": "C3728",
+      "action": "modify",
+      "date": "2015-06-01"
+    },
+    {
+      "code": "C3728",
+      "action": "modify",
+      "date": "2015-06-08"
+    },
+    {
+      "code": "C3728",
+      "action": "modify",
+      "date": "2015-06-15"
+    },
+    {
+      "code": "C3728",
+      "action": "modify",
+      "date": "2015-06-22"
+    },
+    {
+      "code": "C3728",
+      "action": "modify",
+      "date": "2015-06-29"
+    },
+    {
+      "code": "C3728",
+      "action": "modify",
+      "date": "2015-07-06"
+    },
+    {
+      "code": "C3728",
+      "action": "modify",
+      "date": "2015-07-13"
+    },
+    {
+      "code": "C3728",
+      "action": "modify",
+      "date": "2015-08-12"
+    },
+    {
+      "code": "C3728",
+      "action": "modify",
+      "date": "2015-08-24"
+    },
+    {
+      "code": "C3728",
+      "action": "modify",
+      "date": "2015-08-31"
+    },
+    {
+      "code": "C3728",
+      "action": "modify",
+      "date": "2015-09-08"
+    },
+    {
+      "code": "C3728",
+      "action": "modify",
+      "date": "2015-09-14"
+    },
+    {
+      "code": "C3728",
+      "action": "modify",
+      "date": "2015-09-21"
+    },
+    {
+      "code": "C3728",
+      "action": "modify",
+      "date": "2015-09-28"
+    },
+    {
+      "code": "C3728",
+      "action": "modify",
+      "date": "2015-10-05"
+    },
+    {
+      "code": "C3728",
+      "action": "modify",
+      "date": "2015-10-13"
+    },
+    {
+      "code": "C3728",
+      "action": "modify",
+      "date": "2015-10-19"
+    },
+    {
+      "code": "C3728",
+      "action": "modify",
+      "date": "2015-10-26"
+    },
+    {
+      "code": "C3728",
+      "action": "modify",
+      "date": "2015-11-02"
+    },
+    {
+      "code": "C3728",
+      "action": "modify",
+      "date": "2015-11-09"
+    },
+    {
+      "code": "C3728",
+      "action": "modify",
+      "date": "2015-11-16"
+    },
+    {
+      "code": "C3728",
+      "action": "modify",
+      "date": "2015-11-23"
+    },
+    {
+      "code": "C3728",
+      "action": "modify",
+      "date": "2015-11-30"
+    },
+    {
+      "code": "C3728",
+      "action": "modify",
+      "date": "2015-12-07"
+    },
+    {
+      "code": "C3728",
+      "action": "modify",
+      "date": "2015-12-14"
+    },
+    {
+      "code": "C3728",
+      "action": "modify",
+      "date": "2015-12-21"
+    },
+    {
+      "code": "C3728",
+      "action": "modify",
+      "date": "2015-12-28"
+    },
+    {
+      "code": "C3728",
+      "action": "modify",
+      "date": "2016-01-04"
+    },
+    {
+      "code": "C3728",
+      "action": "modify",
+      "date": "2016-01-11"
+    },
+    {
+      "code": "C3728",
+      "action": "modify",
+      "date": "2016-01-19"
+    },
+    {
+      "code": "C3728",
+      "action": "modify",
+      "date": "2016-01-29"
+    },
+    {
+      "code": "C3728",
+      "action": "modify",
+      "date": "2016-04-18"
+    },
+    {
+      "code": "C3728",
+      "action": "modify",
+      "date": "2016-04-25"
+    },
+    {
+      "code": "C3728",
+      "action": "modify",
+      "date": "2016-05-09"
+    },
+    {
+      "code": "C3728",
+      "action": "modify",
+      "date": "2016-05-16"
+    },
+    {
+      "code": "C3728",
+      "action": "modify",
+      "date": "2016-05-23"
+    },
+    {
+      "code": "C3728",
+      "action": "modify",
+      "date": "2016-05-31"
+    },
+    {
+      "code": "C3728",
+      "action": "modify",
+      "date": "2016-06-06"
+    },
+    {
+      "code": "C3728",
+      "action": "modify",
+      "date": "2016-06-13"
+    },
+    {
+      "code": "C3728",
+      "action": "modify",
+      "date": "2016-06-17"
+    },
+    {
+      "code": "C3728",
+      "action": "modify",
+      "date": "2016-06-27"
+    },
+    {
+      "code": "C3728",
+      "action": "modify",
+      "date": "2016-07-05"
+    },
+    {
+      "code": "C3728",
+      "action": "modify",
+      "date": "2016-07-11"
+    },
+    {
+      "code": "C3728",
+      "action": "modify",
+      "date": "2016-07-18"
+    },
+    {
+      "code": "C3728",
+      "action": "modify",
+      "date": "2016-07-25"
+    },
+    {
+      "code": "C3728",
+      "action": "modify",
+      "date": "2016-08-01"
+    },
+    {
+      "code": "C3728",
+      "action": "modify",
+      "date": "2016-08-08"
+    },
+    {
+      "code": "C3728",
+      "action": "modify",
+      "date": "2016-08-15"
+    },
+    {
+      "code": "C3728",
+      "action": "modify",
+      "date": "2016-08-22"
+    },
+    {
+      "code": "C3728",
+      "action": "modify",
+      "date": "2016-08-29"
+    },
+    {
+      "code": "C3728",
+      "action": "modify",
+      "date": "2016-09-06"
+    },
+    {
+      "code": "C3728",
+      "action": "modify",
+      "date": "2016-09-12"
+    },
+    {
+      "code": "C3728",
+      "action": "modify",
+      "date": "2016-09-20"
+    },
+    {
+      "code": "C3728",
+      "action": "modify",
+      "date": "2016-09-26"
+    },
+    {
+      "code": "C3728",
+      "action": "modify",
+      "date": "2016-10-03"
+    },
+    {
+      "code": "C3728",
+      "action": "modify",
+      "date": "2016-10-11"
+    },
+    {
+      "code": "C3728",
+      "action": "modify",
+      "date": "2016-10-17"
+    },
+    {
+      "code": "C3728",
+      "action": "modify",
+      "date": "2016-10-24"
+    },
+    {
+      "code": "C3728",
+      "action": "modify",
+      "date": "2016-10-31"
+    },
+    {
+      "code": "C3728",
+      "action": "modify",
+      "date": "2016-11-07"
+    },
+    {
+      "code": "C3728",
+      "action": "modify",
+      "date": "2016-11-14"
+    },
+    {
+      "code": "C3728",
+      "action": "modify",
+      "date": "2016-11-21"
+    },
+    {
+      "code": "C3728",
+      "action": "modify",
+      "date": "2016-11-28"
+    },
+    {
+      "code": "C3728",
+      "action": "modify",
+      "date": "2016-12-05"
+    },
+    {
+      "code": "C3728",
+      "action": "modify",
+      "date": "2016-12-12"
+    },
+    {
+      "code": "C3728",
+      "action": "modify",
+      "date": "2016-12-19"
+    },
+    {
+      "code": "C3728",
+      "action": "modify",
+      "date": "2016-12-27"
+    },
+    {
+      "code": "C3728",
+      "action": "modify",
+      "date": "2017-01-03"
+    },
+    {
+      "code": "C3728",
+      "action": "modify",
+      "date": "2017-01-09"
+    },
+    {
+      "code": "C3728",
+      "action": "modify",
+      "date": "2017-01-17"
+    },
+    {
+      "code": "C3728",
+      "action": "modify",
+      "date": "2017-01-23"
+    },
+    {
+      "code": "C3728",
+      "action": "modify",
+      "date": "2017-02-13"
+    },
+    {
+      "code": "C3728",
+      "action": "modify",
+      "date": "2017-02-21"
+    },
+    {
+      "code": "C3728",
+      "action": "modify",
+      "date": "2017-07-31"
+    },
+    {
+      "code": "C3728",
+      "action": "modify",
+      "date": "2017-09-26"
+    },
+    {
+      "code": "C3728",
+      "action": "modify",
+      "date": "2018-02-26"
+    },
+    {
+      "code": "C3728",
+      "action": "modify",
+      "date": "2018-07-30"
+    },
+    {
+      "code": "C3728",
+      "action": "modify",
+      "date": "2018-08-27"
+    },
+    {
+      "code": "C3728",
+      "action": "modify",
+      "date": "2018-08-27"
+    },
+    {
+      "code": "C3728",
+      "action": "modify",
+      "date": "2018-09-24"
+    },
+    {
+      "code": "C3728",
+      "action": "modify",
+      "date": "2018-12-31"
+    },
+    {
+      "code": "C3728",
+      "action": "modify",
+      "date": "2019-02-25"
+    },
+    {
+      "code": "C3728",
+      "action": "modify",
+      "date": "2019-03-25"
+    },
+    {
+      "code": "C3728",
+      "action": "modify",
+      "date": "2019-05-28"
+    },
+    {
+      "code": "C3728",
+      "action": "modify",
+      "date": "2019-09-30"
+    },
+    {
+      "code": "C3728",
+      "action": "modify",
+      "date": "2019-10-28"
+    },
+    {
+      "code": "C3728",
+      "action": "modify",
+      "date": "2019-11-25"
+    },
+    {
+      "code": "C3728",
+      "action": "modify",
+      "date": "2020-02-24"
+    },
+    {
+      "code": "C3728",
+      "action": "modify",
+      "date": "2020-03-30"
+    },
+    {
+      "code": "C3728",
+      "action": "modify",
+      "date": "2020-04-27"
+    },
+    {
+      "code": "C3728",
+      "action": "modify",
+      "date": "2020-08-31"
+    },
+    {
+      "code": "C3728",
+      "action": "modify",
+      "date": "2020-09-29"
+    },
+    {
+      "code": "C3728",
+      "action": "modify",
+      "date": "2021-02-22"
+    },
+    {
+      "code": "C3728",
+      "action": "modify",
+      "date": "2021-03-29"
+    },
+    {
+      "code": "C3728",
+      "action": "modify",
+      "date": "2022-09-26"
+    },
+    {
+      "code": "C3728",
+      "action": "modify",
+      "date": "2022-10-31"
+    },
+    {
+      "code": "C3728",
+      "action": "modify",
+      "date": "2023-02-27"
+    },
+    {
+      "code": "C3728",
+      "action": "modify",
+      "date": "2023-03-27"
+    },
+    {
+      "code": "C3728",
+      "action": "modify",
+      "date": "2023-05-30"
+    },
+    {
+      "code": "C3728",
+      "action": "modify",
+      "date": "2023-12-26"
+    },
+    {
+      "code": "C3728",
+      "action": "modify",
+      "date": "2024-06-24"
+    },
+    {
+      "code": "C3728",
+      "action": "modify",
+      "date": "2025-02-24"
+    },
+    {
+      "code": "C3728",
+      "action": "modify",
+      "date": "2025-03-31"
+    }
+  ],
+  "maps": [
+    {
+      "type": "Related To",
+      "targetName": "8970/3",
+      "targetTermType": "PT",
+      "targetCode": "morphology",
+      "targetTerminology": "GDC"
+    },
+    {
+      "type": "Related To",
+      "targetName": "Embryonal hepatoma",
+      "targetTermType": "PT",
+      "targetCode": "primary_diagnosis",
+      "targetTerminology": "GDC"
+    },
+    {
+      "type": "Related To",
+      "targetName": "Hepatoblastoma, NOS",
+      "targetTermType": "PT",
+      "targetCode": "8970/3",
+      "targetTerminology": "ICDO3",
+      "targetTerminologyVersion": "3.2"
+    },
+    {
+      "type": "Has Synonym",
+      "targetName": "Hepatoblastoma",
+      "targetTermType": "LLT",
+      "targetCode": "10062001",
+      "targetTerminology": "MedDRA",
+      "targetTerminologyVersion": "18.1"
+    },
+    {
+      "type": "Related To",
+      "targetName": "Hepatoblastoma",
+      "targetTermType": "PT",
+      "targetCode": "8970/3",
+      "targetTerminology": "ICDO3",
+      "targetTerminologyVersion": "3.1"
+    },
+    {
+      "type": "Has Synonym",
+      "targetName": "Hepatoblastoma",
+      "targetTermType": "PT",
+      "targetCode": "primary_diagnosis",
+      "targetTerminology": "GDC"
+    },
+    {
+      "type": "Has Synonym",
+      "targetName": "Malignant neoplasm: Hepatoblastoma",
+      "targetTermType": "PT",
+      "targetCode": "C22.2",
+      "targetTerminology": "ICD10CM 2017"
+    }
+  ]
+}

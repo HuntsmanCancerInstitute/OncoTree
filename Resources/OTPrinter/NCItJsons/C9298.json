@@ -1,0 +1,580 @@
+{
+  "code": "C9298",
+  "name": "Acute Undifferentiated Leukemia",
+  "terminology": "ncit",
+  "version": "25.11d",
+  "conceptStatus": "DEFAULT",
+  "leaf": false,
+  "active": true,
+  "synonyms": [
+    {
+      "name": "Acute Undifferentiated Leukemia",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "caDSR"
+    },
+    {
+      "name": "Acute Undifferentiated Leukemia",
+      "termType": "DN",
+      "type": "FULL_SYN",
+      "source": "CTRP"
+    },
+    {
+      "name": "Acute leukemia, NOS",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "GDC"
+    },
+    {
+      "name": "Stem cell leukemia",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "GDC"
+    },
+    {
+      "name": "Acute Undifferentiated Leukemia",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Leukemia Stem Cell",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Stem Cell Acute Leukemia",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Stem Cell Leukemia",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Undifferentiated Acute Leukemia",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Acute Undifferentiated Leukemia",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NICHD"
+    },
+    {
+      "name": "Stem Cell Leukemia",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NICHD"
+    },
+    {
+      "name": "Acute Undifferentiated Leukemia",
+      "type": "Display_Name"
+    },
+    {
+      "name": "Acute Undifferentiated Leukemia",
+      "type": "Preferred_Name"
+    }
+  ],
+  "definitions": [
+    {
+      "definition": "A rare acute leukemia in which the blasts do not express markers specific to myeloid or lymphoid lineage.",
+      "type": "ALT_DEFINITION",
+      "source": "NICHD"
+    },
+    {
+      "definition": "A rare acute leukemia of ambiguous lineage in which the blasts do not express markers specific to myeloid or lymphoid lineage.",
+      "type": "DEFINITION",
+      "source": "NCI"
+    }
+  ],
+  "properties": [
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "CTRP"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "GDC"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "NICHD"
+    },
+    {
+      "code": "P366",
+      "type": "Legacy Concept Name",
+      "value": "Stem_Cell_Leukemia"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "Acute leukemia, NOS"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "Stem cell leukemia"
+    },
+    {
+      "code": "P363",
+      "type": "Neoplastic_Status",
+      "value": "Malignant"
+    },
+    {
+      "code": "P106",
+      "type": "Semantic_Type",
+      "value": "Neoplastic Process"
+    },
+    {
+      "code": "P207",
+      "type": "UMLS_CUI",
+      "value": "C1378511"
+    }
+  ],
+  "children": [
+    {
+      "code": "C126110",
+      "name": "Infant Acute Undifferentiated Leukemia",
+      "leaf": true
+    },
+    {
+      "code": "C141446",
+      "name": "Recurrent Acute Undifferentiated Leukemia",
+      "leaf": true
+    },
+    {
+      "code": "C173503",
+      "name": "Refractory Acute Undifferentiated Leukemia",
+      "leaf": true
+    }
+  ],
+  "parents": [
+    {
+      "code": "C7464",
+      "name": "Acute Leukemia of Ambiguous Lineage"
+    }
+  ],
+  "associations": [
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C118168",
+      "relatedName": "CTRP Disease Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C116977",
+      "relatedName": "CTRP Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C157711",
+      "relatedName": "GDC Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C177537",
+      "relatedName": "GDC Value Terminology"
+    },
+    {
+      "type": "Is_Value_For_GDC_Property",
+      "relatedCode": "C177621",
+      "relatedName": "ICD-O-3 Morphology Term Diagnosis Question"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C126659",
+      "relatedName": "NCIt Neoplasm Core Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C90259",
+      "relatedName": "NICHD Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C132009",
+      "relatedName": "Pediatric Hematology-Oncology Terminology"
+    }
+  ],
+  "inverseAssociations": [
+    {
+      "type": "Has_GDC_Value",
+      "relatedCode": "C177621",
+      "relatedName": "ICD-O-3 Morphology Term Diagnosis Question"
+    }
+  ],
+  "roles": [
+    {
+      "type": "Disease_May_Have_Associated_Disease",
+      "relatedCode": "C2869",
+      "relatedName": "Anemia"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C36122",
+      "relatedName": "Benign Cellular Infiltrate"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C13456",
+      "relatedName": "Bone Marrow Stem Cell"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12431",
+      "relatedName": "Bone Marrow"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C36158",
+      "relatedName": "Chronic Clinical Course"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C2863",
+      "relatedName": "Granulocytopenia"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C41165",
+      "relatedName": "Hematopoietic and Lymphatic System"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C41165",
+      "relatedName": "Hematopoietic and Lymphatic System"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C32725",
+      "relatedName": "Hematopoietic and Lymphoid Cell"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C41168",
+      "relatedName": "Hematopoietic and Lymphoid Tissue"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C36252",
+      "relatedName": "Ineffective Hematopoiesis"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C25553",
+      "relatedName": "Leukemic Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12917",
+      "relatedName": "Malignant Cell"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C36115",
+      "relatedName": "Malignant Cellular Infiltrate"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C41058",
+      "relatedName": "Multipotent Bone Marrow Stem Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C37064",
+      "relatedName": "Neoplastic Blast"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12922",
+      "relatedName": "Neoplastic Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C37060",
+      "relatedName": "Neoplastic Hematopoietic and Lymphoid Cell"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C36182",
+      "relatedName": "Solid Growth Pattern"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C3408",
+      "relatedName": "Thrombocytopenia"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C42873",
+      "relatedName": "Undifferentiated Neoplastic Blast"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C38328",
+      "relatedName": "Unfavorable Clinical Outcome"
+    }
+  ],
+  "history": [
+    {
+      "code": "C9298",
+      "action": "create",
+      "date": "2003-08-12"
+    },
+    {
+      "code": "C9298",
+      "action": "modify",
+      "date": "2003-10-31"
+    },
+    {
+      "code": "C9298",
+      "action": "modify",
+      "date": "2003-12-30"
+    },
+    {
+      "code": "C9298",
+      "action": "modify",
+      "date": "2004-02-23"
+    },
+    {
+      "code": "C9298",
+      "action": "modify",
+      "date": "2004-03-30"
+    },
+    {
+      "code": "C9298",
+      "action": "modify",
+      "date": "2004-11-01"
+    },
+    {
+      "code": "C9298",
+      "action": "modify",
+      "date": "2004-12-30"
+    },
+    {
+      "code": "C9298",
+      "action": "modify",
+      "date": "2009-04-06"
+    },
+    {
+      "code": "C9299",
+      "action": "merge",
+      "date": "2009-06-22",
+      "replacementCode": "C9298",
+      "replacementName": "Acute Undifferentiated Leukemia"
+    },
+    {
+      "code": "C9298",
+      "action": "merge",
+      "date": "2009-06-22",
+      "replacementCode": "C9298",
+      "replacementName": "Acute Undifferentiated Leukemia"
+    },
+    {
+      "code": "C9298",
+      "action": "modify",
+      "date": "2009-06-22"
+    },
+    {
+      "code": "C9298",
+      "action": "modify",
+      "date": "2009-10-27"
+    },
+    {
+      "code": "C9298",
+      "action": "modify",
+      "date": "2009-11-23"
+    },
+    {
+      "code": "C9298",
+      "action": "modify",
+      "date": "2013-02-25"
+    },
+    {
+      "code": "C9298",
+      "action": "modify",
+      "date": "2014-02-03"
+    },
+    {
+      "code": "C9298",
+      "action": "modify",
+      "date": "2014-08-04"
+    },
+    {
+      "code": "C9298",
+      "action": "modify",
+      "date": "2014-08-18"
+    },
+    {
+      "code": "C9298",
+      "action": "modify",
+      "date": "2014-09-22"
+    },
+    {
+      "code": "C9298",
+      "action": "modify",
+      "date": "2016-04-25"
+    },
+    {
+      "code": "C9298",
+      "action": "modify",
+      "date": "2017-02-13"
+    },
+    {
+      "code": "C9298",
+      "action": "modify",
+      "date": "2017-02-21"
+    },
+    {
+      "code": "C9298",
+      "action": "modify",
+      "date": "2017-02-27"
+    },
+    {
+      "code": "C9298",
+      "action": "modify",
+      "date": "2017-03-06"
+    },
+    {
+      "code": "C9298",
+      "action": "modify",
+      "date": "2017-03-13"
+    },
+    {
+      "code": "C9298",
+      "action": "modify",
+      "date": "2017-03-20"
+    },
+    {
+      "code": "C9298",
+      "action": "modify",
+      "date": "2017-03-27"
+    },
+    {
+      "code": "C9298",
+      "action": "modify",
+      "date": "2017-04-03"
+    },
+    {
+      "code": "C9298",
+      "action": "modify",
+      "date": "2017-04-10"
+    },
+    {
+      "code": "C9298",
+      "action": "modify",
+      "date": "2017-04-17"
+    },
+    {
+      "code": "C9298",
+      "action": "modify",
+      "date": "2017-04-24"
+    },
+    {
+      "code": "C9298",
+      "action": "modify",
+      "date": "2017-05-01"
+    },
+    {
+      "code": "C9298",
+      "action": "modify",
+      "date": "2017-05-04"
+    },
+    {
+      "code": "C9298",
+      "action": "modify",
+      "date": "2018-07-30"
+    },
+    {
+      "code": "C9298",
+      "action": "modify",
+      "date": "2018-08-27"
+    },
+    {
+      "code": "C9298",
+      "action": "modify",
+      "date": "2018-08-27"
+    },
+    {
+      "code": "C9298",
+      "action": "modify",
+      "date": "2018-09-24"
+    },
+    {
+      "code": "C9298",
+      "action": "modify",
+      "date": "2018-11-26"
+    },
+    {
+      "code": "C9298",
+      "action": "modify",
+      "date": "2019-05-28"
+    },
+    {
+      "code": "C9298",
+      "action": "modify",
+      "date": "2019-09-30"
+    },
+    {
+      "code": "C9298",
+      "action": "modify",
+      "date": "2019-11-25"
+    },
+    {
+      "code": "C9298",
+      "action": "modify",
+      "date": "2020-08-31"
+    },
+    {
+      "code": "C9298",
+      "action": "modify",
+      "date": "2020-09-29"
+    },
+    {
+      "code": "C9298",
+      "action": "modify",
+      "date": "2021-02-22"
+    },
+    {
+      "code": "C9298",
+      "action": "modify",
+      "date": "2021-03-29"
+    },
+    {
+      "code": "C9298",
+      "action": "modify",
+      "date": "2023-04-24"
+    },
+    {
+      "code": "C9298",
+      "action": "modify",
+      "date": "2023-05-30"
+    }
+  ],
+  "maps": [
+    {
+      "type": "Has Synonym",
+      "targetName": "Acute leukemia, NOS",
+      "targetTermType": "PT",
+      "targetCode": "primary_diagnosis",
+      "targetTerminology": "GDC"
+    },
+    {
+      "type": "Has Synonym",
+      "targetName": "Stem cell leukemia",
+      "targetTermType": "PT",
+      "targetCode": "primary_diagnosis",
+      "targetTerminology": "GDC"
+    }
+  ]
+}

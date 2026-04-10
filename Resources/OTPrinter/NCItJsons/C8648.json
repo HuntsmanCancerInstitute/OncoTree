@@ -1,0 +1,386 @@
+{
+  "code": "C8648",
+  "name": "Myelodysplastic Syndrome, Unclassifiable",
+  "terminology": "ncit",
+  "version": "25.11d",
+  "conceptStatus": "DEFAULT",
+  "leaf": false,
+  "active": true,
+  "synonyms": [
+    {
+      "name": "Myelodysplastic Syndrome, Unclassifiable",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "caDSR"
+    },
+    {
+      "name": "Myelodysplastic syndrome, unclassifiable",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "GDC"
+    },
+    {
+      "name": "MDS, U",
+      "termType": "AB",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "MDS-U",
+      "termType": "AB",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Myelodysplastic Syndrome, Unclassifiable",
+      "termType": "AQ",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Unclassifiable MDS",
+      "termType": "AQS",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Unclassifiable Myelodysplastic Syndrome",
+      "termType": "AQS",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Myelodysplastic Syndrome, Unclassifiable",
+      "type": "Preferred_Name"
+    }
+  ],
+  "definitions": [
+    {
+      "definition": "A subtype of myelodysplastic syndrome which initially lacks findings appropriate for classification into any other myelodysplastic category.  There are no specific morphologic findings.  The diagnosis can be made in the following instances: 1. in cases of refractory cytopenia with unilineage dysplasia or refractory cytopenia with multilineage dysplasia but with 1% blasts in the peripheral blood; 2: in cases of myelodysplastic syndrome with unilineage dysplasia which are associated with pancytopenia; 3: in cases with persistent cytopenia (s) with 1% or fewer blasts in the blood and fewer than 5% in the bone marrow, unequivocal dysplasia in less than 10% of the cells in one or more myeloid lineages, and cytogenetic abnormalities considered as presumptive evidence of myelodysplastic syndrome. (WHO, 2008)",
+      "type": "DEFINITION",
+      "source": "NCI"
+    }
+  ],
+  "properties": [
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "GDC"
+    },
+    {
+      "code": "P334",
+      "type": "ICD-O-3_Code",
+      "value": "9989/3"
+    },
+    {
+      "code": "P366",
+      "type": "Legacy Concept Name",
+      "value": "Myelodysplastic_Syndrome_Unclassifiable"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "Myelodysplastic syndrome, unclassifiable"
+    },
+    {
+      "code": "P363",
+      "type": "Neoplastic_Status",
+      "value": "Malignant"
+    },
+    {
+      "code": "P106",
+      "type": "Semantic_Type",
+      "value": "Neoplastic Process"
+    },
+    {
+      "code": "P207",
+      "type": "UMLS_CUI",
+      "value": "C0854809"
+    }
+  ],
+  "children": [
+    {
+      "code": "C168677",
+      "name": "Myelodysplastic Syndrome, Unclassifiable, with 1 Percent Blasts",
+      "leaf": true
+    },
+    {
+      "code": "C168678",
+      "name": "Myelodysplastic Syndrome, Unclassifiable, with Defining Cytogenetic Abnormality",
+      "leaf": true
+    },
+    {
+      "code": "C168681",
+      "name": "Myelodysplastic Syndrome, Unclassifiable, with Single Lineage Dysplasia",
+      "leaf": true
+    }
+  ],
+  "parents": [
+    {
+      "code": "C7340",
+      "name": "Hematopoietic and Lymphoid Neoplasm by Obsolete Classification"
+    }
+  ],
+  "associations": [
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C157711",
+      "relatedName": "GDC Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C177537",
+      "relatedName": "GDC Value Terminology"
+    },
+    {
+      "type": "Is_Value_For_GDC_Property",
+      "relatedCode": "C177621",
+      "relatedName": "ICD-O-3 Morphology Term Diagnosis Question"
+    }
+  ],
+  "inverseAssociations": [
+    {
+      "type": "Has_GDC_Value",
+      "relatedCode": "C177621",
+      "relatedName": "ICD-O-3 Morphology Term Diagnosis Question"
+    }
+  ],
+  "roles": [
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12922",
+      "relatedName": "Neoplastic Cell"
+    }
+  ],
+  "history": [
+    {
+      "code": "C8648",
+      "action": "create",
+      "date": "2003-08-12"
+    },
+    {
+      "code": "C8648",
+      "action": "modify",
+      "date": "2003-10-31"
+    },
+    {
+      "code": "C8648",
+      "action": "modify",
+      "date": "2003-12-30"
+    },
+    {
+      "code": "C8648",
+      "action": "modify",
+      "date": "2004-03-30"
+    },
+    {
+      "code": "C8648",
+      "action": "modify",
+      "date": "2004-12-30"
+    },
+    {
+      "code": "C8648",
+      "action": "modify",
+      "date": "2005-03-16"
+    },
+    {
+      "code": "C8648",
+      "action": "modify",
+      "date": "2009-10-27"
+    },
+    {
+      "code": "C8648",
+      "action": "modify",
+      "date": "2009-11-23"
+    },
+    {
+      "code": "C8648",
+      "action": "modify",
+      "date": "2012-07-30"
+    },
+    {
+      "code": "C8648",
+      "action": "modify",
+      "date": "2013-02-25"
+    },
+    {
+      "code": "C8648",
+      "action": "modify",
+      "date": "2013-03-04"
+    },
+    {
+      "code": "C8648",
+      "action": "modify",
+      "date": "2013-03-11"
+    },
+    {
+      "code": "C8648",
+      "action": "modify",
+      "date": "2013-03-18"
+    },
+    {
+      "code": "C8648",
+      "action": "modify",
+      "date": "2013-03-25"
+    },
+    {
+      "code": "C8648",
+      "action": "modify",
+      "date": "2013-04-01"
+    },
+    {
+      "code": "C8648",
+      "action": "modify",
+      "date": "2013-04-08"
+    },
+    {
+      "code": "C8648",
+      "action": "modify",
+      "date": "2013-04-15"
+    },
+    {
+      "code": "C8648",
+      "action": "modify",
+      "date": "2013-04-22"
+    },
+    {
+      "code": "C8648",
+      "action": "modify",
+      "date": "2013-04-29"
+    },
+    {
+      "code": "C8648",
+      "action": "modify",
+      "date": "2013-05-06"
+    },
+    {
+      "code": "C8648",
+      "action": "modify",
+      "date": "2013-05-13"
+    },
+    {
+      "code": "C8648",
+      "action": "modify",
+      "date": "2013-05-20"
+    },
+    {
+      "code": "C8648",
+      "action": "modify",
+      "date": "2013-05-28"
+    },
+    {
+      "code": "C8648",
+      "action": "modify",
+      "date": "2013-06-03"
+    },
+    {
+      "code": "C8648",
+      "action": "modify",
+      "date": "2013-06-10"
+    },
+    {
+      "code": "C8648",
+      "action": "modify",
+      "date": "2013-06-17"
+    },
+    {
+      "code": "C8648",
+      "action": "modify",
+      "date": "2013-06-24"
+    },
+    {
+      "code": "C8648",
+      "action": "modify",
+      "date": "2013-07-01"
+    },
+    {
+      "code": "C8648",
+      "action": "modify",
+      "date": "2013-07-08"
+    },
+    {
+      "code": "C8648",
+      "action": "modify",
+      "date": "2015-03-23"
+    },
+    {
+      "code": "C8648",
+      "action": "modify",
+      "date": "2016-04-25"
+    },
+    {
+      "code": "C8648",
+      "action": "modify",
+      "date": "2017-09-26"
+    },
+    {
+      "code": "C8648",
+      "action": "modify",
+      "date": "2018-09-24"
+    },
+    {
+      "code": "C8648",
+      "action": "modify",
+      "date": "2018-11-26"
+    },
+    {
+      "code": "C8648",
+      "action": "modify",
+      "date": "2019-05-28"
+    },
+    {
+      "code": "C8648",
+      "action": "modify",
+      "date": "2019-09-30"
+    },
+    {
+      "code": "C8648",
+      "action": "modify",
+      "date": "2019-11-25"
+    },
+    {
+      "code": "C8648",
+      "action": "modify",
+      "date": "2020-02-24"
+    },
+    {
+      "code": "C8648",
+      "action": "modify",
+      "date": "2020-09-29"
+    },
+    {
+      "code": "C8648",
+      "action": "modify",
+      "date": "2021-02-22"
+    },
+    {
+      "code": "C8648",
+      "action": "modify",
+      "date": "2021-03-29"
+    },
+    {
+      "code": "C8648",
+      "action": "modify",
+      "date": "2023-04-24"
+    },
+    {
+      "code": "C8648",
+      "action": "modify",
+      "date": "2023-07-31"
+    },
+    {
+      "code": "C8648",
+      "action": "modify",
+      "date": "2023-12-26"
+    }
+  ],
+  "maps": [
+    {
+      "type": "Has Synonym",
+      "targetName": "Myelodysplastic syndrome, unclassifiable",
+      "targetTermType": "PT",
+      "targetCode": "primary_diagnosis",
+      "targetTerminology": "GDC"
+    }
+  ]
+}

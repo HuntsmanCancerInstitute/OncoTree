@@ -1,0 +1,529 @@
+{
+  "code": "C9106",
+  "name": "Urethral Carcinoma",
+  "terminology": "ncit",
+  "version": "25.11d",
+  "conceptStatus": "DEFAULT",
+  "leaf": false,
+  "active": true,
+  "synonyms": [
+    {
+      "name": "Urethral Carcinoma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "CPTAC"
+    },
+    {
+      "name": "Urethral Cancer",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "CTRP"
+    },
+    {
+      "name": "Urethral Cancer",
+      "termType": "DN",
+      "type": "FULL_SYN",
+      "source": "CTRP"
+    },
+    {
+      "name": "Urethral Carcinoma",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "CTRP"
+    },
+    {
+      "name": "urethral cancer",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NCI-GLOSS",
+      "code": "CDR0000446540"
+    },
+    {
+      "name": "Carcinoma of the Urethra",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Carcinoma of Urethra",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Urethra Carcinoma",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Urethral Cancer",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Urethral Carcinoma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Urethral Carcinoma",
+      "type": "Display_Name"
+    },
+    {
+      "name": "Urethral Carcinoma",
+      "type": "Preferred_Name"
+    }
+  ],
+  "definitions": [
+    {
+      "definition": "A carcinoma that arises from the urethra. Morphologically, the tumors are similar to those described in the bladder.",
+      "type": "DEFINITION",
+      "source": "NCI"
+    },
+    {
+      "definition": "A rare cancer that forms in tissues of the urethra (the tube through which urine empties the bladder and leaves the body). Types of urethral cancer include transitional cell carcinoma (cancer that begins in cells that can change shape and stretch without breaking apart), squamous cell carcinoma (cancer that begins in flat cells lining the urethra), and adenocarcinoma (cancer that begins in cells that make and release mucus and other fluids).",
+      "type": "ALT_DEFINITION",
+      "source": "NCI-GLOSS"
+    }
+  ],
+  "properties": [
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "CPTAC"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "CTRP"
+    },
+    {
+      "code": "P366",
+      "type": "Legacy Concept Name",
+      "value": "Urethral_Carcinoma"
+    },
+    {
+      "code": "P363",
+      "type": "Neoplastic_Status",
+      "value": "Malignant"
+    },
+    {
+      "code": "P106",
+      "type": "Semantic_Type",
+      "value": "Neoplastic Process"
+    },
+    {
+      "code": "P207",
+      "type": "UMLS_CUI",
+      "value": "C0700101"
+    }
+  ],
+  "children": [
+    {
+      "code": "C115210",
+      "name": "Distal Urethral Carcinoma",
+      "leaf": true
+    },
+    {
+      "code": "C27819",
+      "name": "Metastatic Urethral Carcinoma",
+      "leaf": false
+    },
+    {
+      "code": "C115334",
+      "name": "Proximal Urethral Carcinoma",
+      "leaf": true
+    },
+    {
+      "code": "C7508",
+      "name": "Recurrent Urethral Carcinoma",
+      "leaf": false
+    },
+    {
+      "code": "C6167",
+      "name": "Urethral Adenocarcinoma",
+      "leaf": false
+    },
+    {
+      "code": "C140464",
+      "name": "Urethral Cancer by AJCC v7 Stage",
+      "leaf": false
+    },
+    {
+      "code": "C140457",
+      "name": "Urethral Cancer by AJCC v8 Stage",
+      "leaf": false
+    },
+    {
+      "code": "C6165",
+      "name": "Urethral Squamous Cell Carcinoma",
+      "leaf": false
+    },
+    {
+      "code": "C6168",
+      "name": "Urethral Undifferentiated Carcinoma",
+      "leaf": true
+    },
+    {
+      "code": "C6166",
+      "name": "Urethral Urothelial Carcinoma",
+      "leaf": false
+    }
+  ],
+  "parents": [
+    {
+      "code": "C7507",
+      "name": "Malignant Urethral Neoplasm"
+    },
+    {
+      "code": "C192669",
+      "name": "Urinary Tract Carcinoma"
+    }
+  ],
+  "associations": [
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C138188",
+      "relatedName": "Clinical Trials Search-Application Programming Interface Disease Category Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C158520",
+      "relatedName": "CPTAC Codelists Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C156966",
+      "relatedName": "CPTAC Neoplasms Codelist"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C156952",
+      "relatedName": "CPTAC Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C118168",
+      "relatedName": "CTRP Disease Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C116977",
+      "relatedName": "CTRP Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C138190",
+      "relatedName": "CTS-API Disease Main Type Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C126659",
+      "relatedName": "NCIt Neoplasm Core Terminology"
+    },
+    {
+      "type": "Neoplasm_Has_Special_Category",
+      "relatedCode": "C9292",
+      "relatedName": "Solid Neoplasm"
+    }
+  ],
+  "roles": [
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C36122",
+      "relatedName": "Benign Cellular Infiltrate"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C54172",
+      "relatedName": "Carcinomatous Component Present"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C12578",
+      "relatedName": "Epithelial Cell"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C53596",
+      "relatedName": "Epithelial Component Present"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C45714",
+      "relatedName": "Epithelial Tissue"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12810",
+      "relatedName": "Genitourinary System"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12810",
+      "relatedName": "Genitourinary System"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12917",
+      "relatedName": "Malignant Cell"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C36115",
+      "relatedName": "Malignant Cellular Infiltrate"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36779",
+      "relatedName": "Malignant Epithelial Cell"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C37153",
+      "relatedName": "Malignant Stromal Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12922",
+      "relatedName": "Neoplastic Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36753",
+      "relatedName": "Neoplastic Epithelial Cell"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C36937",
+      "relatedName": "Neoplastic Smooth Muscle Cell"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12417",
+      "relatedName": "Urethra"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12417",
+      "relatedName": "Urethra"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12413",
+      "relatedName": "Urinary System"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12413",
+      "relatedName": "Urinary System"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C191741",
+      "relatedName": "Urinary Tract"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C191741",
+      "relatedName": "Urinary Tract"
+    }
+  ],
+  "inverseRoles": [
+    {
+      "type": "Disease_Has_Associated_Disease",
+      "relatedCode": "C115966",
+      "relatedName": "Invasive Bladder Urothelial Carcinoma Associated with Urethral Carcinoma"
+    }
+  ],
+  "history": [
+    {
+      "code": "C9106",
+      "action": "create",
+      "date": "2003-08-12"
+    },
+    {
+      "code": "C9106",
+      "action": "modify",
+      "date": "2003-10-31"
+    },
+    {
+      "code": "C9106",
+      "action": "modify",
+      "date": "2003-12-30"
+    },
+    {
+      "code": "C9106",
+      "action": "modify",
+      "date": "2004-03-30"
+    },
+    {
+      "code": "C9106",
+      "action": "modify",
+      "date": "2006-03-31"
+    },
+    {
+      "code": "C9106",
+      "action": "modify",
+      "date": "2006-06-30"
+    },
+    {
+      "code": "C9106",
+      "action": "modify",
+      "date": "2009-11-23"
+    },
+    {
+      "code": "C9106",
+      "action": "modify",
+      "date": "2010-11-08"
+    },
+    {
+      "code": "C9106",
+      "action": "modify",
+      "date": "2010-11-15"
+    },
+    {
+      "code": "C9106",
+      "action": "modify",
+      "date": "2010-11-22"
+    },
+    {
+      "code": "C9106",
+      "action": "modify",
+      "date": "2010-11-29"
+    },
+    {
+      "code": "C9106",
+      "action": "modify",
+      "date": "2010-12-06"
+    },
+    {
+      "code": "C9106",
+      "action": "modify",
+      "date": "2010-12-13"
+    },
+    {
+      "code": "C9106",
+      "action": "modify",
+      "date": "2010-12-27"
+    },
+    {
+      "code": "C9106",
+      "action": "modify",
+      "date": "2011-01-03"
+    },
+    {
+      "code": "C9106",
+      "action": "modify",
+      "date": "2011-01-10"
+    },
+    {
+      "code": "C9106",
+      "action": "modify",
+      "date": "2011-01-17"
+    },
+    {
+      "code": "C9106",
+      "action": "modify",
+      "date": "2011-01-24"
+    },
+    {
+      "code": "C9106",
+      "action": "modify",
+      "date": "2011-01-31"
+    },
+    {
+      "code": "C9106",
+      "action": "modify",
+      "date": "2014-02-03"
+    },
+    {
+      "code": "C9106",
+      "action": "modify",
+      "date": "2014-08-25"
+    },
+    {
+      "code": "C9106",
+      "action": "modify",
+      "date": "2014-09-22"
+    },
+    {
+      "code": "C9106",
+      "action": "modify",
+      "date": "2014-10-27"
+    },
+    {
+      "code": "C9106",
+      "action": "modify",
+      "date": "2016-04-25"
+    },
+    {
+      "code": "C9106",
+      "action": "modify",
+      "date": "2017-07-31"
+    },
+    {
+      "code": "C9106",
+      "action": "modify",
+      "date": "2017-09-26"
+    },
+    {
+      "code": "C9106",
+      "action": "modify",
+      "date": "2018-02-26"
+    },
+    {
+      "code": "C9106",
+      "action": "modify",
+      "date": "2018-07-30"
+    },
+    {
+      "code": "C9106",
+      "action": "modify",
+      "date": "2018-08-27"
+    },
+    {
+      "code": "C9106",
+      "action": "modify",
+      "date": "2018-08-27"
+    },
+    {
+      "code": "C9106",
+      "action": "modify",
+      "date": "2018-12-31"
+    },
+    {
+      "code": "C9106",
+      "action": "modify",
+      "date": "2019-03-25"
+    },
+    {
+      "code": "C9106",
+      "action": "modify",
+      "date": "2019-05-28"
+    },
+    {
+      "code": "C9106",
+      "action": "modify",
+      "date": "2019-09-30"
+    },
+    {
+      "code": "C9106",
+      "action": "modify",
+      "date": "2021-09-27"
+    },
+    {
+      "code": "C9106",
+      "action": "modify",
+      "date": "2023-02-27"
+    },
+    {
+      "code": "C9106",
+      "action": "modify",
+      "date": "2024-01-29"
+    }
+  ]
+}

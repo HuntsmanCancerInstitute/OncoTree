@@ -1,0 +1,452 @@
+{
+  "code": "C45551",
+  "name": "Lung Neuroendocrine Tumor G2",
+  "terminology": "ncit",
+  "version": "25.11d",
+  "conceptStatus": "DEFAULT",
+  "leaf": true,
+  "active": true,
+  "synonyms": [
+    {
+      "name": "Lung Atypical Carcinoid Tumor",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "CPTAC"
+    },
+    {
+      "name": "Malignant carcinoid tumor of the bronchus and lung",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "mCode",
+      "code": "C7A.090",
+      "subSource": "ICD-10 CM"
+    },
+    {
+      "name": "Lung Atypical Carcinoid Tumor",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Lung NET G2",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Lung NET Grade 2",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Lung NET, Grade 2",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Lung Neuroendocrine Tumor G2",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Lung Neuroendocrine Tumor Grade 2",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Lung Neuroendocrine Tumor, Grade 2",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Lung Neuroendocrine Tumor G2",
+      "type": "Preferred_Name"
+    }
+  ],
+  "definitions": [
+    {
+      "definition": "A neuroendocrine tumor of the lung characterized by the presence of 2-10 mitoses per 2 mm2 and/or necrosis (usually punctate).",
+      "type": "DEFINITION",
+      "source": "NCI"
+    }
+  ],
+  "properties": [
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "CPTAC"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "mCode"
+    },
+    {
+      "code": "P334",
+      "type": "ICD-O-3_Code",
+      "value": "8249/3"
+    },
+    {
+      "code": "P366",
+      "type": "Legacy Concept Name",
+      "value": "Lung_Atypical_Carcinoid_Tumor"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "Malignant carcinoid tumor of the bronchus and lung"
+    },
+    {
+      "code": "P363",
+      "type": "Neoplastic_Status",
+      "value": "Undetermined"
+    },
+    {
+      "code": "P106",
+      "type": "Semantic_Type",
+      "value": "Neoplastic Process"
+    },
+    {
+      "code": "P207",
+      "type": "UMLS_CUI",
+      "value": "C1708766"
+    }
+  ],
+  "parents": [
+    {
+      "code": "C4038",
+      "name": "Lung Neuroendocrine Tumor"
+    },
+    {
+      "code": "C72074",
+      "name": "Neuroendocrine Tumor G2"
+    }
+  ],
+  "associations": [
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C158520",
+      "relatedName": "CPTAC Codelists Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C156966",
+      "relatedName": "CPTAC Neoplasms Codelist"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C156952",
+      "relatedName": "CPTAC Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C193249",
+      "relatedName": "mCode Cancer Disorder Value Set"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C193178",
+      "relatedName": "mCode Elixhauser Malignant Solid Tumors without Metastases Value Set"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C193248",
+      "relatedName": "mCode Primary Cancer Disorder Value Set"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C193231",
+      "relatedName": "mCode Primary Malignant Neoplasm Disorder Value Set"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C193006",
+      "relatedName": "mCode Terminology"
+    }
+  ],
+  "roles": [
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C9478",
+      "relatedName": "Atypia"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12683",
+      "relatedName": "Bronchus"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C3672",
+      "relatedName": "Calcification"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C37935",
+      "relatedName": "Cough"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12704",
+      "relatedName": "Endocrine Gland"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12704",
+      "relatedName": "Endocrine Gland"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12705",
+      "relatedName": "Endocrine System"
+    },
+    {
+      "type": "Disease_Excludes_Normal_Cell_Origin",
+      "relatedCode": "C12865",
+      "relatedName": "Endothelial Cell"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C207031",
+      "relatedName": "Expression of Neuroendocrine Markers Present"
+    },
+    {
+      "type": "Disease_Is_Grade",
+      "relatedCode": "C28078",
+      "relatedName": "Grade 2"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C3094",
+      "relatedName": "Hemoptysis"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C155862",
+      "relatedName": "Intermediate Grade Neuroendocrine Lesion"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C36818",
+      "relatedName": "Large Osteoclastic Giant Cell"
+    },
+    {
+      "type": "Disease_May_Have_Cytogenetic_Abnormality",
+      "relatedCode": "C36516",
+      "relatedName": "Loss of Chromosome 10q"
+    },
+    {
+      "type": "Disease_May_Have_Cytogenetic_Abnormality",
+      "relatedCode": "C37312",
+      "relatedName": "Loss of Chromosome 11q"
+    },
+    {
+      "type": "Disease_May_Have_Cytogenetic_Abnormality",
+      "relatedCode": "C36497",
+      "relatedName": "Loss of Chromosome 13q"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12468",
+      "relatedName": "Lung"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12468",
+      "relatedName": "Lung"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C60308",
+      "relatedName": "More than 10 Mitoses per 10HPF"
+    },
+    {
+      "type": "Disease_Excludes_Primary_Anatomic_Site",
+      "relatedCode": "C13063",
+      "relatedName": "Neck"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12922",
+      "relatedName": "Neoplastic Cell"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C37088",
+      "relatedName": "Neoplastic Endothelial Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36761",
+      "relatedName": "Neoplastic Neuroendocrine Cell"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C43574",
+      "relatedName": "Neuroendocrine Differentiation"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C41425",
+      "relatedName": "Nodular Lesion"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C38721",
+      "relatedName": "Nuclear Pleomorphism"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C155863",
+      "relatedName": "Poorly Differentiated Neuroendocrine Lesion"
+    },
+    {
+      "type": "Disease_May_Have_Molecular_Abnormality",
+      "relatedCode": "C36328",
+      "relatedName": "RB1 Gene Inactivation"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12779",
+      "relatedName": "Respiratory System"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12905",
+      "relatedName": "Thoracic Cavity"
+    },
+    {
+      "type": "Disease_May_Have_Molecular_Abnormality",
+      "relatedCode": "C36329",
+      "relatedName": "TP53 Gene Inactivation"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C155861",
+      "relatedName": "Well Differentiated Neuroendocrine Lesion"
+    }
+  ],
+  "history": [
+    {
+      "code": "C45551",
+      "action": "create",
+      "date": "2005-04-29"
+    },
+    {
+      "code": "C45551",
+      "action": "modify",
+      "date": "2006-04-28"
+    },
+    {
+      "code": "C45551",
+      "action": "modify",
+      "date": "2007-03-30"
+    },
+    {
+      "code": "C45551",
+      "action": "modify",
+      "date": "2007-06-28"
+    },
+    {
+      "code": "C45551",
+      "action": "modify",
+      "date": "2007-07-27"
+    },
+    {
+      "code": "C45551",
+      "action": "modify",
+      "date": "2008-02-29"
+    },
+    {
+      "code": "C45551",
+      "action": "modify",
+      "date": "2009-11-23"
+    },
+    {
+      "code": "C45551",
+      "action": "modify",
+      "date": "2014-02-03"
+    },
+    {
+      "code": "C45551",
+      "action": "modify",
+      "date": "2017-12-26"
+    },
+    {
+      "code": "C45551",
+      "action": "modify",
+      "date": "2018-12-31"
+    },
+    {
+      "code": "C45551",
+      "action": "modify",
+      "date": "2019-02-25"
+    },
+    {
+      "code": "C45551",
+      "action": "modify",
+      "date": "2019-03-25"
+    },
+    {
+      "code": "C45551",
+      "action": "modify",
+      "date": "2019-05-28"
+    },
+    {
+      "code": "C45551",
+      "action": "modify",
+      "date": "2020-03-30"
+    },
+    {
+      "code": "C45551",
+      "action": "modify",
+      "date": "2020-11-30"
+    },
+    {
+      "code": "C45551",
+      "action": "modify",
+      "date": "2021-10-25"
+    },
+    {
+      "code": "C45551",
+      "action": "modify",
+      "date": "2023-03-27"
+    },
+    {
+      "code": "C45551",
+      "action": "modify",
+      "date": "2023-05-30"
+    },
+    {
+      "code": "C45551",
+      "action": "modify",
+      "date": "2023-12-26"
+    },
+    {
+      "code": "C45551",
+      "action": "modify",
+      "date": "2024-09-30"
+    }
+  ],
+  "maps": [
+    {
+      "type": "Related To",
+      "targetName": "Malignant carcinoid tumor of the bronchus and lung",
+      "targetTermType": "PT",
+      "targetCode": "209.21",
+      "targetTerminology": "ICD9CM 2014"
+    },
+    {
+      "type": "Related To",
+      "targetName": "Malignant carcinoid tumor of the bronchus and lung",
+      "targetTermType": "PT",
+      "targetCode": "C7A.090",
+      "targetTerminology": "ICD10CM 2017"
+    }
+  ]
+}

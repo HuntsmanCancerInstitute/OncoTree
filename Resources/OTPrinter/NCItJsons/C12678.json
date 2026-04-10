@@ -1,0 +1,3564 @@
+{
+  "code": "C12678",
+  "name": "Biliary Tract",
+  "terminology": "ncit",
+  "version": "25.11d",
+  "conceptStatus": "DEFAULT",
+  "leaf": true,
+  "active": true,
+  "synonyms": [
+    {
+      "name": "BILIARY TRACT",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "CDISC"
+    },
+    {
+      "name": "Biliary Tract",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "CDISC"
+    },
+    {
+      "name": "Biliary tract, NOS",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "GDC"
+    },
+    {
+      "name": "biliary system",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NCI-GLOSS",
+      "code": "CDR0000589337"
+    },
+    {
+      "name": "biliary tract",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NCI-GLOSS",
+      "code": "CDR0000559456"
+    },
+    {
+      "name": "Bile Tract",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Biliary System",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Biliary Tract",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Tract, Biliary",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Biliary Tract",
+      "type": "Display_Name"
+    },
+    {
+      "name": "Biliary Tract",
+      "type": "Preferred_Name"
+    }
+  ],
+  "definitions": [
+    {
+      "definition": "The duct system that transports bile from its origination by hepatocytes in the liver to the small intestine. It is comprised of the common bile duct that connects the liver and gall bladder to the small intestine and the cystic duct that connects the gall bladder to the common bile duct. (NCI)",
+      "type": "ALT_DEFINITION",
+      "source": "CDISC"
+    },
+    {
+      "definition": "The organs and ducts that make and store bile (a fluid made by the liver that helps digest fat), and release it into the small intestine. The biliary tract includes the gallbladder and bile ducts inside and outside the liver.",
+      "type": "ALT_DEFINITION",
+      "source": "NCI-GLOSS"
+    },
+    {
+      "definition": "The system that transports bile from the hepatocytes in the liver to the small intestine. It is comprised of the intrahepatic bile ducts, hepatic ducts, common bile duct, cystic duct, and the gallbladder.",
+      "type": "DEFINITION",
+      "source": "NCI"
+    }
+  ],
+  "properties": [
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "CDISC"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "GDC"
+    },
+    {
+      "code": "P366",
+      "type": "Legacy Concept Name",
+      "value": "Biliary_Tract"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "Biliary tract, NOS"
+    },
+    {
+      "code": "P106",
+      "type": "Semantic_Type",
+      "value": "Body Part, Organ, or Organ Component"
+    },
+    {
+      "code": "P207",
+      "type": "UMLS_CUI",
+      "value": "C0005423"
+    },
+    {
+      "code": "oboInOwl:hasDbXref",
+      "type": "xRef",
+      "value": "IMDRF:E11"
+    }
+  ],
+  "parents": [
+    {
+      "code": "C13018",
+      "name": "Organ"
+    }
+  ],
+  "associations": [
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C74456",
+      "relatedName": "CDISC SDTM Anatomical Location Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C66830",
+      "relatedName": "CDISC SDTM Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C77526",
+      "relatedName": "CDISC SEND Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C61410",
+      "relatedName": "Clinical Data Interchange Standards Consortium Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C157711",
+      "relatedName": "GDC Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C177537",
+      "relatedName": "GDC Value Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168655",
+      "relatedName": "Mapped ICDO3.1 Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168660",
+      "relatedName": "Mapped ICDO3.1 Topography PT Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168659",
+      "relatedName": "Mapped ICDO3.1 Topography Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168656",
+      "relatedName": "Mapped ICDO3.2 Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168664",
+      "relatedName": "Mapped ICDO3.2 Topography PT Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168663",
+      "relatedName": "Mapped ICDO3.2 Topography Terminology"
+    },
+    {
+      "type": "Is_Value_For_GDC_Property",
+      "relatedCode": "C177570",
+      "relatedName": "Progressive or Recurrent Disease Anatomic Site"
+    },
+    {
+      "type": "Is_Value_For_GDC_Property",
+      "relatedCode": "C156421",
+      "relatedName": "Site of Resection or Biopsy"
+    },
+    {
+      "type": "Is_Value_For_GDC_Property",
+      "relatedCode": "C156422",
+      "relatedName": "Tissue or Organ of Origin"
+    }
+  ],
+  "inverseAssociations": [
+    {
+      "type": "Has_GDC_Value",
+      "relatedCode": "C177570",
+      "relatedName": "Progressive or Recurrent Disease Anatomic Site"
+    },
+    {
+      "type": "Has_GDC_Value",
+      "relatedCode": "C156421",
+      "relatedName": "Site of Resection or Biopsy"
+    },
+    {
+      "type": "Has_GDC_Value",
+      "relatedCode": "C156422",
+      "relatedName": "Tissue or Organ of Origin"
+    }
+  ],
+  "roles": [
+    {
+      "type": "Anatomic_Structure_Has_Location",
+      "relatedCode": "C12664",
+      "relatedName": "Abdomen"
+    },
+    {
+      "type": "Anatomic_Structure_Is_Physical_Part_Of",
+      "relatedCode": "C43612",
+      "relatedName": "Hepatobiliary System"
+    },
+    {
+      "type": "Anatomic_Structure_Is_Physical_Part_Of",
+      "relatedCode": "C166416",
+      "relatedName": "Pancreatobiliary System"
+    }
+  ],
+  "inverseRoles": [
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C35578",
+      "relatedName": "Acalculous Cholecystitis"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C35579",
+      "relatedName": "Acute Acalculous Cholecystitis"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C35334",
+      "relatedName": "Acute Cholangitis"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C35152",
+      "relatedName": "Acute Cholecystitis"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C8265",
+      "relatedName": "Adult Cholangiocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C8265",
+      "relatedName": "Adult Cholangiocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C142870",
+      "relatedName": "Advanced Bile Duct Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C142870",
+      "relatedName": "Advanced Bile Duct Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C171331",
+      "relatedName": "Advanced Biliary Tract Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C171331",
+      "relatedName": "Advanced Biliary Tract Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C162752",
+      "relatedName": "Advanced Cholangiocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C162752",
+      "relatedName": "Advanced Cholangiocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C209286",
+      "relatedName": "Advanced Distal Bile Duct Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C209286",
+      "relatedName": "Advanced Distal Bile Duct Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C176888",
+      "relatedName": "Advanced Distal Cholangiocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C176888",
+      "relatedName": "Advanced Distal Cholangiocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C185072",
+      "relatedName": "Advanced Extrahepatic Bile Duct Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C185072",
+      "relatedName": "Advanced Extrahepatic Bile Duct Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C213338",
+      "relatedName": "Advanced Extrahepatic Cholangiocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C213338",
+      "relatedName": "Advanced Extrahepatic Cholangiocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C162755",
+      "relatedName": "Advanced Gallbladder Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C162755",
+      "relatedName": "Advanced Gallbladder Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C185070",
+      "relatedName": "Advanced Hilar Cholangiocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C185070",
+      "relatedName": "Advanced Hilar Cholangiocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C176891",
+      "relatedName": "Advanced Intrahepatic Cholangiocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C176891",
+      "relatedName": "Advanced Intrahepatic Cholangiocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C35372",
+      "relatedName": "Ascending Cholangitis"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C5852",
+      "relatedName": "Benign Extrahepatic Bile Duct Granular Cell Tumor"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C4776",
+      "relatedName": "Benign Extrahepatic Bile Duct Neoplasm"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C7128",
+      "relatedName": "Benign Extrahepatic Bile Duct Non-Epithelial Neoplasm"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C5856",
+      "relatedName": "Benign Extrahepatic Bile Duct Soft Tissue Neoplasm"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C7131",
+      "relatedName": "Benign Gallbladder Granular Cell Tumor"
+    },
+    {
+      "type": "Anatomic_Structure_Is_Physical_Part_Of",
+      "relatedCode": "C32202",
+      "relatedName": "Bile Canaliculus"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C27813",
+      "relatedName": "Bile Duct Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C27813",
+      "relatedName": "Bile Duct Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C2942",
+      "relatedName": "Bile Duct Adenoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C96945",
+      "relatedName": "Bile Duct Biliary Intraepithelial Neoplasia"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C96945",
+      "relatedName": "Bile Duct Biliary Intraepithelial Neoplasia"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C27814",
+      "relatedName": "Bile Duct Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C27814",
+      "relatedName": "Bile Duct Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C96716",
+      "relatedName": "Bile Duct Disorder"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C96810",
+      "relatedName": "Bile Duct Intraductal Papillary Neoplasm with an Associated Invasive Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C96810",
+      "relatedName": "Bile Duct Intraductal Papillary Neoplasm with an Associated Invasive Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C96809",
+      "relatedName": "Bile Duct Intraductal Papillary Neoplasm, High Grade"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C96807",
+      "relatedName": "Bile Duct Intraductal Papillary Neoplasm, Low Grade"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C6881",
+      "relatedName": "Bile Duct Intraductal Papillary Neoplasm"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C4130",
+      "relatedName": "Bile Duct Mucinous Cystic Neoplasm with an Associated Invasive Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C4130",
+      "relatedName": "Bile Duct Mucinous Cystic Neoplasm with an Associated Invasive Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C96838",
+      "relatedName": "Bile Duct Mucinous Cystic Neoplasm, High Grade"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C96836",
+      "relatedName": "Bile Duct Mucinous Cystic Neoplasm, Low Grade"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C4129",
+      "relatedName": "Bile Duct Mucinous Cystic Neoplasm"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C2898",
+      "relatedName": "Bile Duct Neoplasm"
+    },
+    {
+      "type": "Anatomic_Structure_Is_Physical_Part_Of",
+      "relatedCode": "C12376",
+      "relatedName": "Bile Duct"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C34421",
+      "relatedName": "Biliary Atresia"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C67491",
+      "relatedName": "Biliary Intraepithelial Neoplasia-1"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C67491",
+      "relatedName": "Biliary Intraepithelial Neoplasia-1"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C67492",
+      "relatedName": "Biliary Intraepithelial Neoplasia-2"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C67492",
+      "relatedName": "Biliary Intraepithelial Neoplasia-2"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C4843",
+      "relatedName": "Biliary Intraepithelial Neoplasia"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C4843",
+      "relatedName": "Biliary Intraepithelial Neoplasia"
+    },
+    {
+      "type": "Procedure_Has_Target_Anatomy",
+      "relatedCode": "C62741",
+      "relatedName": "Biliary Stenting"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C2899",
+      "relatedName": "Biliary System Disorder"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C222829",
+      "relatedName": "Biliary Tract Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C222829",
+      "relatedName": "Biliary Tract Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C156781",
+      "relatedName": "Biliary Tract Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C156781",
+      "relatedName": "Biliary Tract Carcinoma"
+    },
+    {
+      "type": "Procedure_Has_Target_Anatomy",
+      "relatedCode": "C51576",
+      "relatedName": "Biliary Tract Surgery"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C208024",
+      "relatedName": "Borderline Resectable Intrahepatic Cholangiocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C208024",
+      "relatedName": "Borderline Resectable Intrahepatic Cholangiocarcinoma"
+    },
+    {
+      "type": "Anatomic_Structure_Is_Physical_Part_Of",
+      "relatedCode": "C32255",
+      "relatedName": "Canal of Hering"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C84619",
+      "relatedName": "Caroli Disease"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C4436",
+      "relatedName": "Cholangiocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C4436",
+      "relatedName": "Cholangiocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C41617",
+      "relatedName": "Cholangiolocellular Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C41617",
+      "relatedName": "Cholangiolocellular Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C26718",
+      "relatedName": "Cholangitis"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C35332",
+      "relatedName": "Cholecystitis with Cholelithiasis"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C34465",
+      "relatedName": "Cholecystitis"
+    },
+    {
+      "type": "Procedure_Has_Target_Anatomy",
+      "relatedCode": "C211004",
+      "relatedName": "Cholecystostomy"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C122822",
+      "relatedName": "Cholelithiasis"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C96169",
+      "relatedName": "Chronic Acalculous Cholecystitis"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C35335",
+      "relatedName": "Chronic Cholangitis"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C35146",
+      "relatedName": "Chronic Cholecystitis"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C43848",
+      "relatedName": "Clear Cell Intrahepatic Cholangiocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C43848",
+      "relatedName": "Clear Cell Intrahepatic Cholangiocarcinoma"
+    },
+    {
+      "type": "Anatomic_Structure_Is_Physical_Part_Of",
+      "relatedCode": "C12698",
+      "relatedName": "Common Bile Duct"
+    },
+    {
+      "type": "Anatomic_Structure_Is_Physical_Part_Of",
+      "relatedCode": "C32356",
+      "relatedName": "Common Hepatic Duct"
+    },
+    {
+      "type": "Anatomic_Structure_Is_Physical_Part_Of",
+      "relatedCode": "C32421",
+      "relatedName": "Cystic Duct"
+    },
+    {
+      "type": "Anatomic_Structure_Is_Physical_Part_Of",
+      "relatedCode": "C60800",
+      "relatedName": "Distal 1/3 of the Common Bile Duct"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C134810",
+      "relatedName": "Distal Bile Duct Cancer by AJCC v7 Stage"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C134810",
+      "relatedName": "Distal Bile Duct Cancer by AJCC v7 Stage"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C134811",
+      "relatedName": "Distal Bile Duct Cancer by AJCC v8 Stage"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C134811",
+      "relatedName": "Distal Bile Duct Cancer by AJCC v8 Stage"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C7109",
+      "relatedName": "Distal Bile Duct Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C7109",
+      "relatedName": "Distal Bile Duct Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C7976",
+      "relatedName": "Distal Cholangiocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C7976",
+      "relatedName": "Distal Cholangiocarcinoma"
+    },
+    {
+      "type": "Anatomic_Structure_Is_Physical_Part_Of",
+      "relatedCode": "C60801",
+      "relatedName": "Distal Common Bile Duct"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C35592",
+      "relatedName": "Emphysematous Cholecystitis"
+    },
+    {
+      "type": "Procedure_Has_Target_Anatomy",
+      "relatedCode": "C51577",
+      "relatedName": "Excision of Bile Duct"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C96936",
+      "relatedName": "Extrahepatic Bile Duct Adenocarcinoma, Biliary Type"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C96936",
+      "relatedName": "Extrahepatic Bile Duct Adenocarcinoma, Biliary Type"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C96937",
+      "relatedName": "Extrahepatic Bile Duct Adenocarcinoma, Gastric Foveolar Type"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C96937",
+      "relatedName": "Extrahepatic Bile Duct Adenocarcinoma, Gastric Foveolar Type"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C96938",
+      "relatedName": "Extrahepatic Bile Duct Adenocarcinoma, Intestinal Type"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C96938",
+      "relatedName": "Extrahepatic Bile Duct Adenocarcinoma, Intestinal Type"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C7975",
+      "relatedName": "Extrahepatic Bile Duct Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C7975",
+      "relatedName": "Extrahepatic Bile Duct Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C5857",
+      "relatedName": "Extrahepatic Bile Duct Adenoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C5778",
+      "relatedName": "Extrahepatic Bile Duct Adenosquamous Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C5778",
+      "relatedName": "Extrahepatic Bile Duct Adenosquamous Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C96942",
+      "relatedName": "Extrahepatic Bile Duct Biliary Intraepithelial Neoplasia"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C96942",
+      "relatedName": "Extrahepatic Bile Duct Biliary Intraepithelial Neoplasia"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C3860",
+      "relatedName": "Extrahepatic Bile Duct Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C3860",
+      "relatedName": "Extrahepatic Bile Duct Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C96939",
+      "relatedName": "Extrahepatic Bile Duct Carcinosarcoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C96939",
+      "relatedName": "Extrahepatic Bile Duct Carcinosarcoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C5775",
+      "relatedName": "Extrahepatic Bile Duct Clear Cell Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C5775",
+      "relatedName": "Extrahepatic Bile Duct Clear Cell Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C5847",
+      "relatedName": "Extrahepatic Bile Duct Embryonal Rhabdomyosarcoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C5853",
+      "relatedName": "Extrahepatic Bile Duct Fibroma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C96948",
+      "relatedName": "Extrahepatic Bile Duct Intraductal Papillary Neoplasm with an Associated Invasive Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C96948",
+      "relatedName": "Extrahepatic Bile Duct Intraductal Papillary Neoplasm with an Associated Invasive Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C7124",
+      "relatedName": "Extrahepatic Bile Duct Intraductal Papillary Neoplasm"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C96951",
+      "relatedName": "Extrahepatic Bile Duct Kaposi Sarcoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C96958",
+      "relatedName": "Extrahepatic Bile Duct Large Cell Neuroendocrine Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C96958",
+      "relatedName": "Extrahepatic Bile Duct Large Cell Neuroendocrine Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C5855",
+      "relatedName": "Extrahepatic Bile Duct Leiomyoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C5848",
+      "relatedName": "Extrahepatic Bile Duct Leiomyosarcoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C5854",
+      "relatedName": "Extrahepatic Bile Duct Lipoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C96952",
+      "relatedName": "Extrahepatic Bile Duct Lymphoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C96959",
+      "relatedName": "Extrahepatic Bile Duct Mixed Adenoneuroendocrine Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C96959",
+      "relatedName": "Extrahepatic Bile Duct Mixed Adenoneuroendocrine Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C5846",
+      "relatedName": "Extrahepatic Bile Duct Mucinous Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C5846",
+      "relatedName": "Extrahepatic Bile Duct Mucinous Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C96946",
+      "relatedName": "Extrahepatic Bile Duct Mucinous Cystic Neoplasm with an Associated Invasive Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C96946",
+      "relatedName": "Extrahepatic Bile Duct Mucinous Cystic Neoplasm with an Associated Invasive Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C5851",
+      "relatedName": "Extrahepatic Bile Duct Mucinous Cystic Neoplasm"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C5862",
+      "relatedName": "Extrahepatic Bile Duct Mucoepidermoid Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C5862",
+      "relatedName": "Extrahepatic Bile Duct Mucoepidermoid Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C4441",
+      "relatedName": "Extrahepatic Bile Duct Neoplasm"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C96956",
+      "relatedName": "Extrahepatic Bile Duct Neuroendocrine Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C96956",
+      "relatedName": "Extrahepatic Bile Duct Neuroendocrine Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C96954",
+      "relatedName": "Extrahepatic Bile Duct Neuroendocrine Neoplasm"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C5861",
+      "relatedName": "Extrahepatic Bile Duct Neuroendocrine Tumor G1"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C96957",
+      "relatedName": "Extrahepatic Bile Duct Neuroendocrine Tumor G2"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C172743",
+      "relatedName": "Extrahepatic Bile Duct Neuroendocrine Tumor G3"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C96955",
+      "relatedName": "Extrahepatic Bile Duct Neuroendocrine Tumor"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C5849",
+      "relatedName": "Extrahepatic Bile Duct Papillary Adenoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C5860",
+      "relatedName": "Extrahepatic Bile Duct Rhabdomyosarcoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C5029",
+      "relatedName": "Extrahepatic Bile Duct Sarcoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C5776",
+      "relatedName": "Extrahepatic Bile Duct Signet Ring Cell Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C5776",
+      "relatedName": "Extrahepatic Bile Duct Signet Ring Cell Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C5845",
+      "relatedName": "Extrahepatic Bile Duct Small Cell Neuroendocrine Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C5845",
+      "relatedName": "Extrahepatic Bile Duct Small Cell Neuroendocrine Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C5777",
+      "relatedName": "Extrahepatic Bile Duct Squamous Cell Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C5777",
+      "relatedName": "Extrahepatic Bile Duct Squamous Cell Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C5850",
+      "relatedName": "Extrahepatic Bile Duct Tubular Adenoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C96811",
+      "relatedName": "Extrahepatic Bile Duct Tubulopapillary Adenoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C5780",
+      "relatedName": "Extrahepatic Bile Duct Undifferentiated Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C5780",
+      "relatedName": "Extrahepatic Bile Duct Undifferentiated Carcinoma"
+    },
+    {
+      "type": "Anatomic_Structure_Is_Physical_Part_Of",
+      "relatedCode": "C32573",
+      "relatedName": "Extrahepatic Bile Duct"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C97069",
+      "relatedName": "Extrahepatic Biliary Atresia"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C208025",
+      "relatedName": "Extrahepatic Cholangiocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C208025",
+      "relatedName": "Extrahepatic Cholangiocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C9169",
+      "relatedName": "Gallbladder Adenocarcinoma with Squamous Metaplasia"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C9169",
+      "relatedName": "Gallbladder Adenocarcinoma with Squamous Metaplasia"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C96915",
+      "relatedName": "Gallbladder Adenocarcinoma, Biliary Type"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C96915",
+      "relatedName": "Gallbladder Adenocarcinoma, Biliary Type"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C96916",
+      "relatedName": "Gallbladder Adenocarcinoma, Gastric Foveolar Type"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C96916",
+      "relatedName": "Gallbladder Adenocarcinoma, Gastric Foveolar Type"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C43604",
+      "relatedName": "Gallbladder Adenocarcinoma, Intestinal-Type"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C43604",
+      "relatedName": "Gallbladder Adenocarcinoma, Intestinal-Type"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C9166",
+      "relatedName": "Gallbladder Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C9166",
+      "relatedName": "Gallbladder Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C172735",
+      "relatedName": "Gallbladder Adenoma, Intestinal-Type"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C7720",
+      "relatedName": "Gallbladder Adenoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C7356",
+      "relatedName": "Gallbladder Adenosquamous Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C7356",
+      "relatedName": "Gallbladder Adenosquamous Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C5840",
+      "relatedName": "Gallbladder Angiosarcoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C4440",
+      "relatedName": "Gallbladder Benign Neoplasm"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C7129",
+      "relatedName": "Gallbladder Benign Non-Epithelial Neoplasm"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C43606",
+      "relatedName": "Gallbladder Biliary Intraepithelial Neoplasia"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C43606",
+      "relatedName": "Gallbladder Biliary Intraepithelial Neoplasia"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C90512",
+      "relatedName": "Gallbladder Cancer by AJCC v6 Stage"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C90512",
+      "relatedName": "Gallbladder Cancer by AJCC v6 Stage"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C91229",
+      "relatedName": "Gallbladder Cancer by AJCC v7 Stage"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C91229",
+      "relatedName": "Gallbladder Cancer by AJCC v7 Stage"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C134660",
+      "relatedName": "Gallbladder Cancer by AJCC v8 Stage"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C134660",
+      "relatedName": "Gallbladder Cancer by AJCC v8 Stage"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C3844",
+      "relatedName": "Gallbladder Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C3844",
+      "relatedName": "Gallbladder Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C96888",
+      "relatedName": "Gallbladder Carcinosarcoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C96888",
+      "relatedName": "Gallbladder Carcinosarcoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C43605",
+      "relatedName": "Gallbladder Clear Cell Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C43605",
+      "relatedName": "Gallbladder Clear Cell Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C96891",
+      "relatedName": "Gallbladder Cribriform Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C96891",
+      "relatedName": "Gallbladder Cribriform Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C34631",
+      "relatedName": "Gallbladder Disorder"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C78305",
+      "relatedName": "Gallbladder Fistula"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C43607",
+      "relatedName": "Gallbladder Flat Biliary Intraepithelial Neoplasia"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C43607",
+      "relatedName": "Gallbladder Flat Biliary Intraepithelial Neoplasia"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C96928",
+      "relatedName": "Gallbladder Goblet Cell Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C96928",
+      "relatedName": "Gallbladder Goblet Cell Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C96890",
+      "relatedName": "Gallbladder Hepatoid Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C96890",
+      "relatedName": "Gallbladder Hepatoid Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C7417",
+      "relatedName": "Gallbladder Hyperplastic Polyp"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C78306",
+      "relatedName": "Gallbladder Infection"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C5743",
+      "relatedName": "Gallbladder Intracholecystic Papillary Neoplasm with an Associated Invasive Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C5743",
+      "relatedName": "Gallbladder Intracholecystic Papillary Neoplasm with an Associated Invasive Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C96879",
+      "relatedName": "Gallbladder Intracholecystic Papillary Neoplasm, High Grade"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C96877",
+      "relatedName": "Gallbladder Intracholecystic Papillary Neoplasm, Low Grade"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C7130",
+      "relatedName": "Gallbladder Intracholecystic Papillary Neoplasm"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C5842",
+      "relatedName": "Gallbladder Kaposi Sarcoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C96921",
+      "relatedName": "Gallbladder Large Cell Neuroendocrine Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C96921",
+      "relatedName": "Gallbladder Large Cell Neuroendocrine Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C5747",
+      "relatedName": "Gallbladder Leiomyoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C5841",
+      "relatedName": "Gallbladder Leiomyosarcoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C5835",
+      "relatedName": "Gallbladder Lipoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C5734",
+      "relatedName": "Gallbladder Lymphoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C5735",
+      "relatedName": "Gallbladder Melanoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C96927",
+      "relatedName": "Gallbladder Mixed Adenoneuroendocrine Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C96927",
+      "relatedName": "Gallbladder Mixed Adenoneuroendocrine Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C5744",
+      "relatedName": "Gallbladder Mucinous Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C5744",
+      "relatedName": "Gallbladder Mucinous Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C96887",
+      "relatedName": "Gallbladder Mucinous Cystic Neoplasm with an Associated Invasive Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C96887",
+      "relatedName": "Gallbladder Mucinous Cystic Neoplasm with an Associated Invasive Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C96886",
+      "relatedName": "Gallbladder Mucinous Cystic Neoplasm, High Grade"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C96883",
+      "relatedName": "Gallbladder Mucinous Cystic Neoplasm, Low Grade"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C96881",
+      "relatedName": "Gallbladder Mucinous Cystic Neoplasm"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C168216",
+      "relatedName": "Gallbladder Mucocele"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C3048",
+      "relatedName": "Gallbladder Neoplasm"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C96919",
+      "relatedName": "Gallbladder Neuroendocrine Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C96919",
+      "relatedName": "Gallbladder Neuroendocrine Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C96917",
+      "relatedName": "Gallbladder Neuroendocrine Neoplasm"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C96924",
+      "relatedName": "Gallbladder Neuroendocrine Tumor G1"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C96925",
+      "relatedName": "Gallbladder Neuroendocrine Tumor G2"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C172742",
+      "relatedName": "Gallbladder Neuroendocrine Tumor G3"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C96918",
+      "relatedName": "Gallbladder Neuroendocrine Tumor"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C5746",
+      "relatedName": "Gallbladder Neurofibroma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C43609",
+      "relatedName": "Gallbladder Papillary Biliary Intraepithelial Neoplasia"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C43609",
+      "relatedName": "Gallbladder Papillary Biliary Intraepithelial Neoplasia"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C3909",
+      "relatedName": "Gallbladder Polyp"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C172731",
+      "relatedName": "Gallbladder Pyloric Gland Adenoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C5839",
+      "relatedName": "Gallbladder Rhabdomyosarcoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C5736",
+      "relatedName": "Gallbladder Sarcoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C5838",
+      "relatedName": "Gallbladder Sarcomatoid Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C5838",
+      "relatedName": "Gallbladder Sarcomatoid Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C5745",
+      "relatedName": "Gallbladder Signet Ring Cell Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C5745",
+      "relatedName": "Gallbladder Signet Ring Cell Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C6763",
+      "relatedName": "Gallbladder Small Cell Neuroendocrine Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C6763",
+      "relatedName": "Gallbladder Small Cell Neuroendocrine Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C172855",
+      "relatedName": "Gallbladder Soft Tissue Neoplasm"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C9170",
+      "relatedName": "Gallbladder Squamous Cell Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C9170",
+      "relatedName": "Gallbladder Squamous Cell Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C96930",
+      "relatedName": "Gallbladder Tubular Carcinoid"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C9167",
+      "relatedName": "Gallbladder Undifferentiated Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C9167",
+      "relatedName": "Gallbladder Undifferentiated Carcinoma"
+    },
+    {
+      "type": "Anatomic_Structure_Is_Physical_Part_Of",
+      "relatedCode": "C12377",
+      "relatedName": "Gallbladder"
+    },
+    {
+      "type": "Anatomic_Structure_Is_Physical_Part_Of",
+      "relatedCode": "C32730",
+      "relatedName": "Hepatic Duct"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C67493",
+      "relatedName": "High-Grade Biliary Intraepithelial Neoplasia"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C67493",
+      "relatedName": "High-Grade Biliary Intraepithelial Neoplasia"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C134742",
+      "relatedName": "Hilar Cholangiocarcinoma by AJCC v7 Stage"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C134742",
+      "relatedName": "Hilar Cholangiocarcinoma by AJCC v7 Stage"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C134743",
+      "relatedName": "Hilar Cholangiocarcinoma by AJCC v8 Stage"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C134743",
+      "relatedName": "Hilar Cholangiocarcinoma by AJCC v8 Stage"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C36077",
+      "relatedName": "Hilar Cholangiocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C36077",
+      "relatedName": "Hilar Cholangiocarcinoma"
+    },
+    {
+      "type": "Anatomic_Structure_Is_Physical_Part_Of",
+      "relatedCode": "C43630",
+      "relatedName": "Hilar Portion of the Hepatic Duct"
+    },
+    {
+      "type": "Anatomic_Structure_Is_Physical_Part_Of",
+      "relatedCode": "C38670",
+      "relatedName": "Hilar Portion of the Left Hepatic Duct"
+    },
+    {
+      "type": "Anatomic_Structure_Is_Physical_Part_Of",
+      "relatedCode": "C38671",
+      "relatedName": "Hilar Portion of the Right Hepatic Duct"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C175214",
+      "relatedName": "Incidental Gallbladder Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C175214",
+      "relatedName": "Incidental Gallbladder Carcinoma"
+    },
+    {
+      "type": "Anatomic_Structure_Is_Physical_Part_Of",
+      "relatedCode": "C32827",
+      "relatedName": "Interlobular Bile Duct"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C7126",
+      "relatedName": "Intrahepatic Bile Duct Adenoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C96943",
+      "relatedName": "Intrahepatic Bile Duct Biliary Intraepithelial Neoplasia"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C96943",
+      "relatedName": "Intrahepatic Bile Duct Biliary Intraepithelial Neoplasia"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C96949",
+      "relatedName": "Intrahepatic Bile Duct Intraductal Papillary Neoplasm with an Associated Invasive Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C96949",
+      "relatedName": "Intrahepatic Bile Duct Intraductal Papillary Neoplasm with an Associated Invasive Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C7125",
+      "relatedName": "Intrahepatic Bile Duct Intraductal Papillary Neoplasm"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C7127",
+      "relatedName": "Intrahepatic Bile Duct Microcystic Adenoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C96947",
+      "relatedName": "Intrahepatic Bile Duct Mucinous Cystic Neoplasm with an Associated Invasive Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C96947",
+      "relatedName": "Intrahepatic Bile Duct Mucinous Cystic Neoplasm with an Associated Invasive Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C96835",
+      "relatedName": "Intrahepatic Bile Duct Mucinous Cystic Neoplasm"
+    },
+    {
+      "type": "Anatomic_Structure_Is_Physical_Part_Of",
+      "relatedCode": "C12677",
+      "relatedName": "Intrahepatic Bile Duct"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C97070",
+      "relatedName": "Intrahepatic Biliary Atresia"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C134514",
+      "relatedName": "Intrahepatic Cholangiocarcinoma by AJCC v7 Stage"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C134514",
+      "relatedName": "Intrahepatic Cholangiocarcinoma by AJCC v7 Stage"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C134755",
+      "relatedName": "Intrahepatic Cholangiocarcinoma by AJCC v8 Stage"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C134755",
+      "relatedName": "Intrahepatic Cholangiocarcinoma by AJCC v8 Stage"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C35417",
+      "relatedName": "Intrahepatic Cholangiocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C35417",
+      "relatedName": "Intrahepatic Cholangiocarcinoma"
+    },
+    {
+      "type": "Anatomic_Structure_Is_Physical_Part_Of",
+      "relatedCode": "C96803",
+      "relatedName": "Intrahepatic Large Bile Duct"
+    },
+    {
+      "type": "Anatomic_Structure_Is_Physical_Part_Of",
+      "relatedCode": "C38668",
+      "relatedName": "Intrahepatic Portion of the Left Hepatic Duct"
+    },
+    {
+      "type": "Anatomic_Structure_Is_Physical_Part_Of",
+      "relatedCode": "C38669",
+      "relatedName": "Intrahepatic Portion of the Right Hepatic Duct"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C96804",
+      "relatedName": "Large Duct Intrahepatic Cholangiocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C96804",
+      "relatedName": "Large Duct Intrahepatic Cholangiocarcinoma"
+    },
+    {
+      "type": "Anatomic_Structure_Is_Physical_Part_Of",
+      "relatedCode": "C32960",
+      "relatedName": "Left Hepatic Duct"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C7891",
+      "relatedName": "Localized Extrahepatic Bile Duct Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C7891",
+      "relatedName": "Localized Extrahepatic Bile Duct Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C7649",
+      "relatedName": "Localized Gallbladder Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C7649",
+      "relatedName": "Localized Gallbladder Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C35676",
+      "relatedName": "Localized Malignant Gallbladder Neoplasm"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C151971",
+      "relatedName": "Locally Advanced Bile Duct Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C151971",
+      "relatedName": "Locally Advanced Bile Duct Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C222832",
+      "relatedName": "Locally Advanced Biliary Tract Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C222832",
+      "relatedName": "Locally Advanced Biliary Tract Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C168981",
+      "relatedName": "Locally Advanced Biliary Tract Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C168981",
+      "relatedName": "Locally Advanced Biliary Tract Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C168994",
+      "relatedName": "Locally Advanced Cholangiocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C168994",
+      "relatedName": "Locally Advanced Cholangiocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C175506",
+      "relatedName": "Locally Advanced Distal Bile Duct Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C175506",
+      "relatedName": "Locally Advanced Distal Bile Duct Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C209280",
+      "relatedName": "Locally Advanced Distal Cholangiocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C209280",
+      "relatedName": "Locally Advanced Distal Cholangiocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C187244",
+      "relatedName": "Locally Advanced Extrahepatic Bile Duct Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C187244",
+      "relatedName": "Locally Advanced Extrahepatic Bile Duct Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C213912",
+      "relatedName": "Locally Advanced Extrahepatic Cholangiocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C213912",
+      "relatedName": "Locally Advanced Extrahepatic Cholangiocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C170462",
+      "relatedName": "Locally Advanced Gallbladder Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C170462",
+      "relatedName": "Locally Advanced Gallbladder Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C173814",
+      "relatedName": "Locally Advanced Intrahepatic Cholangiocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C173814",
+      "relatedName": "Locally Advanced Intrahepatic Cholangiocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C187412",
+      "relatedName": "Locally Advanced Unresectable Cholangiocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C187412",
+      "relatedName": "Locally Advanced Unresectable Cholangiocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C213713",
+      "relatedName": "Locally Advanced Unresectable Gallbladder Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C213713",
+      "relatedName": "Locally Advanced Unresectable Gallbladder Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C187413",
+      "relatedName": "Locally Advanced Unresectable Gallbladder Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C187413",
+      "relatedName": "Locally Advanced Unresectable Gallbladder Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C212217",
+      "relatedName": "Locally Recurrent Biliary Tract Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C212217",
+      "relatedName": "Locally Recurrent Biliary Tract Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C172804",
+      "relatedName": "Low Grade Biliary Intraepithelial Neoplasia"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C172804",
+      "relatedName": "Low Grade Biliary Intraepithelial Neoplasia"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C7483",
+      "relatedName": "Malignant Extrahepatic Bile Duct Neoplasm"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C7481",
+      "relatedName": "Malignant Gallbladder Neoplasm"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C142869",
+      "relatedName": "Metastatic Bile Duct Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C142869",
+      "relatedName": "Metastatic Bile Duct Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C222831",
+      "relatedName": "Metastatic Biliary Tract Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C222831",
+      "relatedName": "Metastatic Biliary Tract Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C162751",
+      "relatedName": "Metastatic Biliary Tract Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C162751",
+      "relatedName": "Metastatic Biliary Tract Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C157623",
+      "relatedName": "Metastatic Cholangiocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C157623",
+      "relatedName": "Metastatic Cholangiocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C175503",
+      "relatedName": "Metastatic Distal Bile Duct Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C175503",
+      "relatedName": "Metastatic Distal Bile Duct Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C172242",
+      "relatedName": "Metastatic Distal Cholangiocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C172242",
+      "relatedName": "Metastatic Distal Cholangiocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C185071",
+      "relatedName": "Metastatic Extrahepatic Bile Duct Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C185071",
+      "relatedName": "Metastatic Extrahepatic Bile Duct Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C213337",
+      "relatedName": "Metastatic Extrahepatic Cholangiocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C213337",
+      "relatedName": "Metastatic Extrahepatic Cholangiocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C162754",
+      "relatedName": "Metastatic Gallbladder Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C162754",
+      "relatedName": "Metastatic Gallbladder Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C185069",
+      "relatedName": "Metastatic Hilar Cholangiocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C185069",
+      "relatedName": "Metastatic Hilar Cholangiocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C172252",
+      "relatedName": "Metastatic Intrahepatic Cholangiocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C172252",
+      "relatedName": "Metastatic Intrahepatic Cholangiocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C96953",
+      "relatedName": "Metastatic Malignant Neoplasm in the Extrahepatic Bile Ducts"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C7482",
+      "relatedName": "Metastatic Malignant Neoplasm in the Gallbladder"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C41618",
+      "relatedName": "Mucin-Producing Intrahepatic Cholangiocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C41618",
+      "relatedName": "Mucin-Producing Intrahepatic Cholangiocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C35774",
+      "relatedName": "Non-Neoplastic Bile Duct Disorder"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C96717",
+      "relatedName": "Non-Neoplastic Gallbladder Disorder"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C200569",
+      "relatedName": "Oligometastatic Intrahepatic Cholangiocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C200569",
+      "relatedName": "Oligometastatic Intrahepatic Cholangiocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C27769",
+      "relatedName": "Opisthorchis Viverrini-Related Cholangiocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C27769",
+      "relatedName": "Opisthorchis Viverrini-Related Cholangiocarcinoma"
+    },
+    {
+      "type": "Procedure_Has_Target_Anatomy",
+      "relatedCode": "C220077",
+      "relatedName": "Papilla of Vater Sphincterotomy"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C34916",
+      "relatedName": "Pericholangitis"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C27167",
+      "relatedName": "Primary Biliary Cirrhosis"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C4828",
+      "relatedName": "Primary Sclerosing Cholangitis"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C153360",
+      "relatedName": "Recurrent Bile Duct Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C153360",
+      "relatedName": "Recurrent Bile Duct Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C156782",
+      "relatedName": "Recurrent Biliary Tract Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C156782",
+      "relatedName": "Recurrent Biliary Tract Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C27325",
+      "relatedName": "Recurrent Cholangiocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C27325",
+      "relatedName": "Recurrent Cholangiocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C181966",
+      "relatedName": "Recurrent Distal Cholangiocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C181966",
+      "relatedName": "Recurrent Distal Cholangiocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C7893",
+      "relatedName": "Recurrent Extrahepatic Bile Duct Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C7893",
+      "relatedName": "Recurrent Extrahepatic Bile Duct Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C213336",
+      "relatedName": "Recurrent Extrahepatic Cholangiocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C213336",
+      "relatedName": "Recurrent Extrahepatic Cholangiocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C4008",
+      "relatedName": "Recurrent Gallbladder Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C4008",
+      "relatedName": "Recurrent Gallbladder Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C128807",
+      "relatedName": "Recurrent Intrahepatic Cholangiocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C128807",
+      "relatedName": "Recurrent Intrahepatic Cholangiocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C164213",
+      "relatedName": "Recurrent Pyogenic Cholangitis"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C153355",
+      "relatedName": "Refractory Bile Duct Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C153355",
+      "relatedName": "Refractory Bile Duct Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C162750",
+      "relatedName": "Refractory Biliary Tract Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C162750",
+      "relatedName": "Refractory Biliary Tract Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C158101",
+      "relatedName": "Refractory Cholangiocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C158101",
+      "relatedName": "Refractory Cholangiocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C175438",
+      "relatedName": "Refractory Distal Cholangiocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C175438",
+      "relatedName": "Refractory Distal Cholangiocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C175437",
+      "relatedName": "Refractory Extrahepatic Bile Duct Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C175437",
+      "relatedName": "Refractory Extrahepatic Bile Duct Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C213913",
+      "relatedName": "Refractory Extrahepatic Cholangiocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C213913",
+      "relatedName": "Refractory Extrahepatic Cholangiocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C162753",
+      "relatedName": "Refractory Gallbladder Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C162753",
+      "relatedName": "Refractory Gallbladder Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C174247",
+      "relatedName": "Refractory Intrahepatic Cholangiocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C174247",
+      "relatedName": "Refractory Intrahepatic Cholangiocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C156910",
+      "relatedName": "Resectable Bile Duct Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C156910",
+      "relatedName": "Resectable Bile Duct Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C212896",
+      "relatedName": "Resectable Biliary Tract Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C212896",
+      "relatedName": "Resectable Biliary Tract Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C27326",
+      "relatedName": "Resectable Cholangiocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C27326",
+      "relatedName": "Resectable Cholangiocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C156911",
+      "relatedName": "Resectable Extrahepatic Bile Duct Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C156911",
+      "relatedName": "Resectable Extrahepatic Bile Duct Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C8640",
+      "relatedName": "Resectable Extrahepatic Bile Duct Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C8640",
+      "relatedName": "Resectable Extrahepatic Bile Duct Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C198617",
+      "relatedName": "Resectable Gallbladder Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C198617",
+      "relatedName": "Resectable Gallbladder Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C212898",
+      "relatedName": "Resectable Gallbladder Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C212898",
+      "relatedName": "Resectable Gallbladder Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C212895",
+      "relatedName": "Resectable Hilar Cholangiocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C212895",
+      "relatedName": "Resectable Hilar Cholangiocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C156908",
+      "relatedName": "Resectable Intrahepatic Cholangiocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C156908",
+      "relatedName": "Resectable Intrahepatic Cholangiocarcinoma"
+    },
+    {
+      "type": "Anatomic_Structure_Is_Physical_Part_Of",
+      "relatedCode": "C33476",
+      "relatedName": "Right Hepatic Duct"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C41620",
+      "relatedName": "Sarcomatoid Intrahepatic Cholangiocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C41620",
+      "relatedName": "Sarcomatoid Intrahepatic Cholangiocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C41619",
+      "relatedName": "Signet Ring Cell Intrahepatic Cholangiocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C41619",
+      "relatedName": "Signet Ring Cell Intrahepatic Cholangiocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C96805",
+      "relatedName": "Small Duct Intrahepatic Cholangiocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C96805",
+      "relatedName": "Small Duct Intrahepatic Cholangiocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C88089",
+      "relatedName": "Stage 0 Distal Bile Duct Cancer AJCC v7"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C88089",
+      "relatedName": "Stage 0 Distal Bile Duct Cancer AJCC v7"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C134812",
+      "relatedName": "Stage 0 Distal Bile Duct Cancer AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C134812",
+      "relatedName": "Stage 0 Distal Bile Duct Cancer AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C4439",
+      "relatedName": "Stage 0 Gallbladder Cancer AJCC v6 and v7"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C4439",
+      "relatedName": "Stage 0 Gallbladder Cancer AJCC v6 and v7"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C134663",
+      "relatedName": "Stage 0 Gallbladder Cancer AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C134663",
+      "relatedName": "Stage 0 Gallbladder Cancer AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C88058",
+      "relatedName": "Stage 0 Hilar Cholangiocarcinoma AJCC v7"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C88058",
+      "relatedName": "Stage 0 Hilar Cholangiocarcinoma AJCC v7"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C134744",
+      "relatedName": "Stage 0 Hilar Cholangiocarcinoma AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C134744",
+      "relatedName": "Stage 0 Hilar Cholangiocarcinoma AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C88049",
+      "relatedName": "Stage 0 Intrahepatic Cholangiocarcinoma AJCC v7"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C88049",
+      "relatedName": "Stage 0 Intrahepatic Cholangiocarcinoma AJCC v7"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C134756",
+      "relatedName": "Stage 0 Intrahepatic Cholangiocarcinoma AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C134756",
+      "relatedName": "Stage 0 Intrahepatic Cholangiocarcinoma AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C134813",
+      "relatedName": "Stage I Distal Bile Duct Cancer AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C134813",
+      "relatedName": "Stage I Distal Bile Duct Cancer AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C5737",
+      "relatedName": "Stage I Gallbladder Cancer AJCC v6"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C5737",
+      "relatedName": "Stage I Gallbladder Cancer AJCC v6"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C90216",
+      "relatedName": "Stage I Gallbladder Cancer AJCC v7"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C90216",
+      "relatedName": "Stage I Gallbladder Cancer AJCC v7"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C134665",
+      "relatedName": "Stage I Gallbladder Cancer AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C134665",
+      "relatedName": "Stage I Gallbladder Cancer AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C88059",
+      "relatedName": "Stage I Hilar Cholangiocarcinoma AJCC v7"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C88059",
+      "relatedName": "Stage I Hilar Cholangiocarcinoma AJCC v7"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C134745",
+      "relatedName": "Stage I Hilar Cholangiocarcinoma AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C134745",
+      "relatedName": "Stage I Hilar Cholangiocarcinoma AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C88050",
+      "relatedName": "Stage I Intrahepatic Cholangiocarcinoma AJCC v7"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C88050",
+      "relatedName": "Stage I Intrahepatic Cholangiocarcinoma AJCC v7"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C134757",
+      "relatedName": "Stage I Intrahepatic Cholangiocarcinoma AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C134757",
+      "relatedName": "Stage I Intrahepatic Cholangiocarcinoma AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C88090",
+      "relatedName": "Stage IA Distal Bile Duct Cancer AJCC v7"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C88090",
+      "relatedName": "Stage IA Distal Bile Duct Cancer AJCC v7"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C134758",
+      "relatedName": "Stage IA Intrahepatic Cholangiocarcinoma AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C134758",
+      "relatedName": "Stage IA Intrahepatic Cholangiocarcinoma AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C88091",
+      "relatedName": "Stage IB Distal Bile Duct Cancer AJCC v7"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C88091",
+      "relatedName": "Stage IB Distal Bile Duct Cancer AJCC v7"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C134759",
+      "relatedName": "Stage IB Intrahepatic Cholangiocarcinoma AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C134759",
+      "relatedName": "Stage IB Intrahepatic Cholangiocarcinoma AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C134814",
+      "relatedName": "Stage II Distal Bile Duct Cancer AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C134814",
+      "relatedName": "Stage II Distal Bile Duct Cancer AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C5738",
+      "relatedName": "Stage II Gallbladder Cancer AJCC v6"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C5738",
+      "relatedName": "Stage II Gallbladder Cancer AJCC v6"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C90217",
+      "relatedName": "Stage II Gallbladder Cancer AJCC v7"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C90217",
+      "relatedName": "Stage II Gallbladder Cancer AJCC v7"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C134667",
+      "relatedName": "Stage II Gallbladder Cancer AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C134667",
+      "relatedName": "Stage II Gallbladder Cancer AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C88060",
+      "relatedName": "Stage II Hilar Cholangiocarcinoma AJCC v7"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C88060",
+      "relatedName": "Stage II Hilar Cholangiocarcinoma AJCC v7"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C134746",
+      "relatedName": "Stage II Hilar Cholangiocarcinoma AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C134746",
+      "relatedName": "Stage II Hilar Cholangiocarcinoma AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C88051",
+      "relatedName": "Stage II Intrahepatic Cholangiocarcinoma AJCC v7"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C88051",
+      "relatedName": "Stage II Intrahepatic Cholangiocarcinoma AJCC v7"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C134760",
+      "relatedName": "Stage II Intrahepatic Cholangiocarcinoma AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C134760",
+      "relatedName": "Stage II Intrahepatic Cholangiocarcinoma AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C88092",
+      "relatedName": "Stage IIA Distal Bile Duct Cancer AJCC v7"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C88092",
+      "relatedName": "Stage IIA Distal Bile Duct Cancer AJCC v7"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C134815",
+      "relatedName": "Stage IIA Distal Bile Duct Cancer AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C134815",
+      "relatedName": "Stage IIA Distal Bile Duct Cancer AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C134670",
+      "relatedName": "Stage IIA Gallbladder Cancer AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C134670",
+      "relatedName": "Stage IIA Gallbladder Cancer AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C88093",
+      "relatedName": "Stage IIB Distal Bile Duct Cancer AJCC v7"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C88093",
+      "relatedName": "Stage IIB Distal Bile Duct Cancer AJCC v7"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C134816",
+      "relatedName": "Stage IIB Distal Bile Duct Cancer AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C134816",
+      "relatedName": "Stage IIB Distal Bile Duct Cancer AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C134671",
+      "relatedName": "Stage IIB Gallbladder Cancer AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C134671",
+      "relatedName": "Stage IIB Gallbladder Cancer AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C88094",
+      "relatedName": "Stage III Distal Bile Duct Cancer AJCC v7"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C88094",
+      "relatedName": "Stage III Distal Bile Duct Cancer AJCC v7"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C134817",
+      "relatedName": "Stage III Distal Bile Duct Cancer AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C134817",
+      "relatedName": "Stage III Distal Bile Duct Cancer AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C5739",
+      "relatedName": "Stage III Gallbladder Cancer AJCC v6"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C5739",
+      "relatedName": "Stage III Gallbladder Cancer AJCC v6"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C90218",
+      "relatedName": "Stage III Gallbladder Cancer AJCC v7"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C90218",
+      "relatedName": "Stage III Gallbladder Cancer AJCC v7"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C134672",
+      "relatedName": "Stage III Gallbladder Cancer AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C134672",
+      "relatedName": "Stage III Gallbladder Cancer AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C134747",
+      "relatedName": "Stage III Hilar Cholangiocarcinoma AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C134747",
+      "relatedName": "Stage III Hilar Cholangiocarcinoma AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C88052",
+      "relatedName": "Stage III Intrahepatic Cholangiocarcinoma AJCC v7"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C88052",
+      "relatedName": "Stage III Intrahepatic Cholangiocarcinoma AJCC v7"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C134761",
+      "relatedName": "Stage III Intrahepatic Cholangiocarcinoma AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C134761",
+      "relatedName": "Stage III Intrahepatic Cholangiocarcinoma AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C134818",
+      "relatedName": "Stage IIIA Distal Bile Duct Cancer AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C134818",
+      "relatedName": "Stage IIIA Distal Bile Duct Cancer AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C88056",
+      "relatedName": "Stage IIIA Gallbladder Cancer AJCC v7"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C88056",
+      "relatedName": "Stage IIIA Gallbladder Cancer AJCC v7"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C134673",
+      "relatedName": "Stage IIIA Gallbladder Cancer AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C134673",
+      "relatedName": "Stage IIIA Gallbladder Cancer AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C88061",
+      "relatedName": "Stage IIIA Hilar Cholangiocarcinoma AJCC v7"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C88061",
+      "relatedName": "Stage IIIA Hilar Cholangiocarcinoma AJCC v7"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C134748",
+      "relatedName": "Stage IIIA Hilar Cholangiocarcinoma AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C134748",
+      "relatedName": "Stage IIIA Hilar Cholangiocarcinoma AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C134762",
+      "relatedName": "Stage IIIA Intrahepatic Cholangiocarcinoma AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C134762",
+      "relatedName": "Stage IIIA Intrahepatic Cholangiocarcinoma AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C134819",
+      "relatedName": "Stage IIIB Distal Bile Duct Cancer AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C134819",
+      "relatedName": "Stage IIIB Distal Bile Duct Cancer AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C88057",
+      "relatedName": "Stage IIIB Gallbladder Cancer AJCC v7"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C88057",
+      "relatedName": "Stage IIIB Gallbladder Cancer AJCC v7"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C134674",
+      "relatedName": "Stage IIIB Gallbladder Cancer AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C134674",
+      "relatedName": "Stage IIIB Gallbladder Cancer AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C88062",
+      "relatedName": "Stage IIIB Hilar Cholangiocarcinoma AJCC v7"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C88062",
+      "relatedName": "Stage IIIB Hilar Cholangiocarcinoma AJCC v7"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C134749",
+      "relatedName": "Stage IIIB Hilar Cholangiocarcinoma AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C134749",
+      "relatedName": "Stage IIIB Hilar Cholangiocarcinoma AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C134763",
+      "relatedName": "Stage IIIB Intrahepatic Cholangiocarcinoma AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C134763",
+      "relatedName": "Stage IIIB Intrahepatic Cholangiocarcinoma AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C134750",
+      "relatedName": "Stage IIIC Hilar Cholangiocarcinoma AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C134750",
+      "relatedName": "Stage IIIC Hilar Cholangiocarcinoma AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C88095",
+      "relatedName": "Stage IV Distal Bile Duct Cancer AJCC v7"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C88095",
+      "relatedName": "Stage IV Distal Bile Duct Cancer AJCC v7"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C134820",
+      "relatedName": "Stage IV Distal Bile Duct Cancer AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C134820",
+      "relatedName": "Stage IV Distal Bile Duct Cancer AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C5740",
+      "relatedName": "Stage IV Gallbladder Cancer AJCC v6"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C5740",
+      "relatedName": "Stage IV Gallbladder Cancer AJCC v6"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C90219",
+      "relatedName": "Stage IV Gallbladder Cancer AJCC v7"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C90219",
+      "relatedName": "Stage IV Gallbladder Cancer AJCC v7"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C134675",
+      "relatedName": "Stage IV Gallbladder Cancer AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C134675",
+      "relatedName": "Stage IV Gallbladder Cancer AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C134751",
+      "relatedName": "Stage IV Hilar Cholangiocarcinoma AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C134751",
+      "relatedName": "Stage IV Hilar Cholangiocarcinoma AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C134764",
+      "relatedName": "Stage IV Intrahepatic Cholangiocarcinoma AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C134764",
+      "relatedName": "Stage IV Intrahepatic Cholangiocarcinoma AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C5741",
+      "relatedName": "Stage IVA Gallbladder Cancer AJCC v7"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C5741",
+      "relatedName": "Stage IVA Gallbladder Cancer AJCC v7"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C134676",
+      "relatedName": "Stage IVA Gallbladder Cancer AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C134676",
+      "relatedName": "Stage IVA Gallbladder Cancer AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C88063",
+      "relatedName": "Stage IVA Hilar Cholangiocarcinoma AJCC v7"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C88063",
+      "relatedName": "Stage IVA Hilar Cholangiocarcinoma AJCC v7"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C134752",
+      "relatedName": "Stage IVA Hilar Cholangiocarcinoma AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C134752",
+      "relatedName": "Stage IVA Hilar Cholangiocarcinoma AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C88053",
+      "relatedName": "Stage IVA Intrahepatic Cholangiocarcinoma AJCC v7"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C88053",
+      "relatedName": "Stage IVA Intrahepatic Cholangiocarcinoma AJCC v7"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C5742",
+      "relatedName": "Stage IVB Gallbladder Cancer AJCC v7"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C5742",
+      "relatedName": "Stage IVB Gallbladder Cancer AJCC v7"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C134678",
+      "relatedName": "Stage IVB Gallbladder Cancer AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C134678",
+      "relatedName": "Stage IVB Gallbladder Cancer AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C88064",
+      "relatedName": "Stage IVB Hilar Cholangiocarcinoma AJCC v7"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C88064",
+      "relatedName": "Stage IVB Hilar Cholangiocarcinoma AJCC v7"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C134753",
+      "relatedName": "Stage IVB Hilar Cholangiocarcinoma AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C134753",
+      "relatedName": "Stage IVB Hilar Cholangiocarcinoma AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C88054",
+      "relatedName": "Stage IVB Intrahepatic Cholangiocarcinoma AJCC v7"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C88054",
+      "relatedName": "Stage IVB Intrahepatic Cholangiocarcinoma AJCC v7"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C35336",
+      "relatedName": "Suppurative Cholangitis"
+    },
+    {
+      "type": "Procedure_Has_Target_Anatomy",
+      "relatedCode": "C220199",
+      "relatedName": "Transduodenal Sphincterotomy"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C171322",
+      "relatedName": "Unresectable Bile Duct Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C171322",
+      "relatedName": "Unresectable Bile Duct Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C222830",
+      "relatedName": "Unresectable Biliary Tract Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C222830",
+      "relatedName": "Unresectable Biliary Tract Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C176042",
+      "relatedName": "Unresectable Biliary Tract Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C176042",
+      "relatedName": "Unresectable Biliary Tract Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C27324",
+      "relatedName": "Unresectable Cholangiocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C27324",
+      "relatedName": "Unresectable Cholangiocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C172241",
+      "relatedName": "Unresectable Distal Cholangiocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C172241",
+      "relatedName": "Unresectable Distal Cholangiocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C7892",
+      "relatedName": "Unresectable Extrahepatic Bile Duct Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C7892",
+      "relatedName": "Unresectable Extrahepatic Bile Duct Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C213331",
+      "relatedName": "Unresectable Extrahepatic Cholangiocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C213331",
+      "relatedName": "Unresectable Extrahepatic Cholangiocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C189064",
+      "relatedName": "Unresectable Gallbladder Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C189064",
+      "relatedName": "Unresectable Gallbladder Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C7890",
+      "relatedName": "Unresectable Gallbladder Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C7890",
+      "relatedName": "Unresectable Gallbladder Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C185068",
+      "relatedName": "Unresectable Hilar Cholangiocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C185068",
+      "relatedName": "Unresectable Hilar Cholangiocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C148432",
+      "relatedName": "Unresectable Intrahepatic Cholangiocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C148432",
+      "relatedName": "Unresectable Intrahepatic Cholangiocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C35792",
+      "relatedName": "Xanthogranulomatous Cholecystitis"
+    }
+  ],
+  "history": [
+    {
+      "code": "C12678",
+      "action": "create",
+      "date": "2003-08-12"
+    },
+    {
+      "code": "C12678",
+      "action": "modify",
+      "date": "2003-09-29"
+    },
+    {
+      "code": "C12678",
+      "action": "modify",
+      "date": "2003-10-31"
+    },
+    {
+      "code": "C12678",
+      "action": "modify",
+      "date": "2003-12-30"
+    },
+    {
+      "code": "C12678",
+      "action": "modify",
+      "date": "2004-02-23"
+    },
+    {
+      "code": "C12678",
+      "action": "modify",
+      "date": "2004-03-30"
+    },
+    {
+      "code": "C12678",
+      "action": "modify",
+      "date": "2005-03-16"
+    },
+    {
+      "code": "C12678",
+      "action": "modify",
+      "date": "2007-09-27"
+    },
+    {
+      "code": "C12678",
+      "action": "modify",
+      "date": "2008-06-27"
+    },
+    {
+      "code": "C12678",
+      "action": "modify",
+      "date": "2008-09-12"
+    },
+    {
+      "code": "C12678",
+      "action": "modify",
+      "date": "2008-11-26"
+    },
+    {
+      "code": "C12678",
+      "action": "modify",
+      "date": "2009-04-06"
+    },
+    {
+      "code": "C12678",
+      "action": "modify",
+      "date": "2009-08-03"
+    },
+    {
+      "code": "C12678",
+      "action": "modify",
+      "date": "2009-11-23"
+    },
+    {
+      "code": "C12678",
+      "action": "modify",
+      "date": "2010-11-01"
+    },
+    {
+      "code": "C12678",
+      "action": "modify",
+      "date": "2010-11-08"
+    },
+    {
+      "code": "C12678",
+      "action": "modify",
+      "date": "2010-11-15"
+    },
+    {
+      "code": "C12678",
+      "action": "modify",
+      "date": "2010-11-22"
+    },
+    {
+      "code": "C12678",
+      "action": "modify",
+      "date": "2010-11-29"
+    },
+    {
+      "code": "C12678",
+      "action": "modify",
+      "date": "2010-12-06"
+    },
+    {
+      "code": "C12678",
+      "action": "modify",
+      "date": "2010-12-13"
+    },
+    {
+      "code": "C12678",
+      "action": "modify",
+      "date": "2010-12-27"
+    },
+    {
+      "code": "C12678",
+      "action": "modify",
+      "date": "2011-01-03"
+    },
+    {
+      "code": "C12678",
+      "action": "modify",
+      "date": "2011-01-10"
+    },
+    {
+      "code": "C12678",
+      "action": "modify",
+      "date": "2011-01-17"
+    },
+    {
+      "code": "C12678",
+      "action": "modify",
+      "date": "2011-01-24"
+    },
+    {
+      "code": "C12678",
+      "action": "modify",
+      "date": "2011-01-31"
+    },
+    {
+      "code": "C12678",
+      "action": "modify",
+      "date": "2011-05-31"
+    },
+    {
+      "code": "C12678",
+      "action": "modify",
+      "date": "2014-02-03"
+    },
+    {
+      "code": "C12678",
+      "action": "modify",
+      "date": "2014-08-18"
+    },
+    {
+      "code": "C12678",
+      "action": "modify",
+      "date": "2015-05-26"
+    },
+    {
+      "code": "C12678",
+      "action": "modify",
+      "date": "2015-06-01"
+    },
+    {
+      "code": "C12678",
+      "action": "modify",
+      "date": "2015-06-08"
+    },
+    {
+      "code": "C12678",
+      "action": "modify",
+      "date": "2015-06-15"
+    },
+    {
+      "code": "C12678",
+      "action": "modify",
+      "date": "2015-06-22"
+    },
+    {
+      "code": "C12678",
+      "action": "modify",
+      "date": "2015-06-29"
+    },
+    {
+      "code": "C12678",
+      "action": "modify",
+      "date": "2015-07-06"
+    },
+    {
+      "code": "C12678",
+      "action": "modify",
+      "date": "2015-07-13"
+    },
+    {
+      "code": "C12678",
+      "action": "modify",
+      "date": "2015-08-12"
+    },
+    {
+      "code": "C12678",
+      "action": "modify",
+      "date": "2015-08-31"
+    },
+    {
+      "code": "C12678",
+      "action": "modify",
+      "date": "2015-10-19"
+    },
+    {
+      "code": "C12678",
+      "action": "modify",
+      "date": "2015-11-30"
+    },
+    {
+      "code": "C12678",
+      "action": "modify",
+      "date": "2016-04-04"
+    },
+    {
+      "code": "C12678",
+      "action": "modify",
+      "date": "2016-10-17"
+    },
+    {
+      "code": "C12678",
+      "action": "modify",
+      "date": "2017-03-13"
+    },
+    {
+      "code": "C12678",
+      "action": "modify",
+      "date": "2018-09-24"
+    },
+    {
+      "code": "C12678",
+      "action": "modify",
+      "date": "2019-05-28"
+    },
+    {
+      "code": "C12678",
+      "action": "modify",
+      "date": "2019-09-30"
+    },
+    {
+      "code": "C12678",
+      "action": "modify",
+      "date": "2019-10-28"
+    },
+    {
+      "code": "C12678",
+      "action": "modify",
+      "date": "2019-12-30"
+    },
+    {
+      "code": "C12678",
+      "action": "modify",
+      "date": "2020-02-24"
+    },
+    {
+      "code": "C12678",
+      "action": "modify",
+      "date": "2020-03-30"
+    },
+    {
+      "code": "C12678",
+      "action": "modify",
+      "date": "2020-05-26"
+    },
+    {
+      "code": "C12678",
+      "action": "modify",
+      "date": "2021-02-22"
+    },
+    {
+      "code": "C12678",
+      "action": "modify",
+      "date": "2021-03-29"
+    },
+    {
+      "code": "C12678",
+      "action": "modify",
+      "date": "2021-11-29"
+    },
+    {
+      "code": "C12678",
+      "action": "modify",
+      "date": "2023-09-25"
+    }
+  ],
+  "maps": [
+    {
+      "type": "Related To",
+      "targetName": "Biliary tract, NOS",
+      "targetTermType": "PT",
+      "targetCode": "C24.9",
+      "targetTerminology": "ICDO3",
+      "targetTerminologyVersion": "3.2"
+    },
+    {
+      "type": "Related To",
+      "targetName": "Biliary tract, NOS",
+      "targetTermType": "PT",
+      "targetCode": "C24.9",
+      "targetTerminology": "ICDO3",
+      "targetTerminologyVersion": "3.1"
+    },
+    {
+      "type": "Has Synonym",
+      "targetName": "Biliary tract, NOS",
+      "targetTermType": "PT",
+      "targetCode": "progression_or_recurrence_anatomic_site",
+      "targetTerminology": "GDC"
+    },
+    {
+      "type": "Has Synonym",
+      "targetName": "Biliary tract, NOS",
+      "targetTermType": "PT",
+      "targetCode": "site_of_resection_or_biopsy",
+      "targetTerminology": "GDC"
+    },
+    {
+      "type": "Has Synonym",
+      "targetName": "Biliary tract, NOS",
+      "targetTermType": "PT",
+      "targetCode": "tissue_or_organ_of_origin",
+      "targetTerminology": "GDC"
+    }
+  ]
+}

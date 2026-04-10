@@ -1,0 +1,569 @@
+{
+  "code": "C5722",
+  "name": "Pancreatic Undifferentiated Carcinoma",
+  "terminology": "ncit",
+  "version": "25.11d",
+  "conceptStatus": "DEFAULT",
+  "leaf": false,
+  "active": true,
+  "synonyms": [
+    {
+      "name": "Undifferentiated Pancreatic Carcinoma",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "caDSR"
+    },
+    {
+      "name": "Pancreatic Undifferentiated Carcinoma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "Cellosaurus"
+    },
+    {
+      "name": "Undifferentiated carcinoma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "CPTAC"
+    },
+    {
+      "name": "Pancreatic Carcinosarcoma",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Pancreatic Undifferentiated Carcinoma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Pleomorphic Large Cell Pancreatic Carcinoma",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Sarcomatoid Pancreatic Carcinoma",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Spindle Cell Pancreatic Carcinoma",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Undifferentiated (Anaplastic) Pancreatic Carcinoma",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Undifferentiated Carcinoma of Pancreas",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Undifferentiated Carcinoma of the Pancreas",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Undifferentiated Pancreatic Carcinoma",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Pancreatic Undifferentiated Carcinoma",
+      "type": "Preferred_Name"
+    }
+  ],
+  "definitions": [
+    {
+      "definition": "A carcinoma that arises from the pancreas and is characterized by the presence of malignant cells that do not show differentiation. The prognosis is poor.",
+      "type": "DEFINITION",
+      "source": "NCI"
+    }
+  ],
+  "properties": [
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "Cellosaurus"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "CPTAC"
+    },
+    {
+      "code": "P366",
+      "type": "Legacy Concept Name",
+      "value": "Undifferentiated_Pancreatic_Carcinoma"
+    },
+    {
+      "code": "P363",
+      "type": "Neoplastic_Status",
+      "value": "Malignant"
+    },
+    {
+      "code": "P106",
+      "type": "Semantic_Type",
+      "value": "Neoplastic Process"
+    },
+    {
+      "code": "P207",
+      "type": "UMLS_CUI",
+      "value": "C1336861"
+    }
+  ],
+  "children": [
+    {
+      "code": "C5723",
+      "name": "Pancreatic Undifferentiated Carcinoma with Osteoclast-Like Giant Cells",
+      "leaf": true
+    },
+    {
+      "code": "C172812",
+      "name": "Pancreatic Undifferentiated Carcinoma with Rhabdoid Cells",
+      "leaf": true
+    }
+  ],
+  "parents": [
+    {
+      "code": "C3850",
+      "name": "Exocrine Pancreas Carcinoma"
+    },
+    {
+      "code": "C3692",
+      "name": "Undifferentiated Carcinoma"
+    }
+  ],
+  "associations": [
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C165258",
+      "relatedName": "Cellosaurus Disease Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C156953",
+      "relatedName": "CPTAC Baseline Medical Forms Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C159416",
+      "relatedName": "CPTAC Pancreatic Baseline Form"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C156952",
+      "relatedName": "CPTAC Terminology"
+    }
+  ],
+  "roles": [
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C36122",
+      "relatedName": "Benign Cellular Infiltrate"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C54172",
+      "relatedName": "Carcinomatous Component Present"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12378",
+      "relatedName": "Digestive System"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12378",
+      "relatedName": "Digestive System"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C12578",
+      "relatedName": "Epithelial Cell"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C53596",
+      "relatedName": "Epithelial Component Present"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C45714",
+      "relatedName": "Epithelial Tissue"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C32546",
+      "relatedName": "Exocrine Pancreas"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C43573",
+      "relatedName": "Glandular Differentiation"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C214985",
+      "relatedName": "Hepatopancreatobiliary System"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C35960",
+      "relatedName": "High Mitotic Activity"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C155862",
+      "relatedName": "Intermediate Grade Neuroendocrine Lesion"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C155864",
+      "relatedName": "Low Grade Neuroendocrine Lesion"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12917",
+      "relatedName": "Malignant Cell"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C36115",
+      "relatedName": "Malignant Cellular Infiltrate"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36779",
+      "relatedName": "Malignant Epithelial Cell"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C37153",
+      "relatedName": "Malignant Stromal Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12922",
+      "relatedName": "Neoplastic Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36753",
+      "relatedName": "Neoplastic Epithelial Cell"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C36937",
+      "relatedName": "Neoplastic Smooth Muscle Cell"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C38721",
+      "relatedName": "Nuclear Pleomorphism"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12393",
+      "relatedName": "Pancreas"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12393",
+      "relatedName": "Pancreas"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C166416",
+      "relatedName": "Pancreatobiliary System"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C48260",
+      "relatedName": "Perineural Invasion"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C38770",
+      "relatedName": "Squamous Differentiation"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C35939",
+      "relatedName": "Tumor Vascular Invasion"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C37085",
+      "relatedName": "Undifferentiated Carcinoma Cell"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C36134",
+      "relatedName": "Undifferentiated Lesion"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C155861",
+      "relatedName": "Well Differentiated Neuroendocrine Lesion"
+    }
+  ],
+  "history": [
+    {
+      "code": "C5722",
+      "action": "create",
+      "date": "2003-08-12"
+    },
+    {
+      "code": "C5722",
+      "action": "modify",
+      "date": "2003-10-31"
+    },
+    {
+      "code": "C5722",
+      "action": "modify",
+      "date": "2003-12-30"
+    },
+    {
+      "code": "C5722",
+      "action": "modify",
+      "date": "2004-03-30"
+    },
+    {
+      "code": "C5722",
+      "action": "modify",
+      "date": "2006-05-26"
+    },
+    {
+      "code": "C5722",
+      "action": "modify",
+      "date": "2009-04-06"
+    },
+    {
+      "code": "C5722",
+      "action": "modify",
+      "date": "2009-11-23"
+    },
+    {
+      "code": "C5722",
+      "action": "modify",
+      "date": "2011-01-31"
+    },
+    {
+      "code": "C5722",
+      "action": "modify",
+      "date": "2013-02-25"
+    },
+    {
+      "code": "C5722",
+      "action": "modify",
+      "date": "2013-03-04"
+    },
+    {
+      "code": "C5722",
+      "action": "modify",
+      "date": "2013-03-11"
+    },
+    {
+      "code": "C5722",
+      "action": "modify",
+      "date": "2013-03-18"
+    },
+    {
+      "code": "C5722",
+      "action": "modify",
+      "date": "2013-03-25"
+    },
+    {
+      "code": "C5722",
+      "action": "modify",
+      "date": "2013-04-01"
+    },
+    {
+      "code": "C5722",
+      "action": "modify",
+      "date": "2013-04-08"
+    },
+    {
+      "code": "C5722",
+      "action": "modify",
+      "date": "2013-04-15"
+    },
+    {
+      "code": "C5722",
+      "action": "modify",
+      "date": "2013-04-22"
+    },
+    {
+      "code": "C5722",
+      "action": "modify",
+      "date": "2013-04-29"
+    },
+    {
+      "code": "C5722",
+      "action": "modify",
+      "date": "2013-05-06"
+    },
+    {
+      "code": "C5722",
+      "action": "modify",
+      "date": "2013-05-13"
+    },
+    {
+      "code": "C5722",
+      "action": "modify",
+      "date": "2013-05-20"
+    },
+    {
+      "code": "C5722",
+      "action": "modify",
+      "date": "2013-05-28"
+    },
+    {
+      "code": "C5722",
+      "action": "modify",
+      "date": "2013-06-03"
+    },
+    {
+      "code": "C5722",
+      "action": "modify",
+      "date": "2013-06-10"
+    },
+    {
+      "code": "C5722",
+      "action": "modify",
+      "date": "2013-06-17"
+    },
+    {
+      "code": "C5722",
+      "action": "modify",
+      "date": "2013-06-24"
+    },
+    {
+      "code": "C5722",
+      "action": "modify",
+      "date": "2013-07-01"
+    },
+    {
+      "code": "C5722",
+      "action": "modify",
+      "date": "2013-07-08"
+    },
+    {
+      "code": "C5722",
+      "action": "modify",
+      "date": "2014-02-03"
+    },
+    {
+      "code": "C5722",
+      "action": "modify",
+      "date": "2015-05-26"
+    },
+    {
+      "code": "C5722",
+      "action": "modify",
+      "date": "2018-09-24"
+    },
+    {
+      "code": "C5722",
+      "action": "modify",
+      "date": "2018-10-29"
+    },
+    {
+      "code": "C5722",
+      "action": "modify",
+      "date": "2018-10-29"
+    },
+    {
+      "code": "C5722",
+      "action": "modify",
+      "date": "2019-04-29"
+    },
+    {
+      "code": "C5722",
+      "action": "modify",
+      "date": "2019-05-28"
+    },
+    {
+      "code": "C5722",
+      "action": "modify",
+      "date": "2019-06-24"
+    },
+    {
+      "code": "C5722",
+      "action": "modify",
+      "date": "2019-07-29"
+    },
+    {
+      "code": "C5722",
+      "action": "modify",
+      "date": "2019-09-30"
+    },
+    {
+      "code": "C5722",
+      "action": "modify",
+      "date": "2019-10-28"
+    },
+    {
+      "code": "C5722",
+      "action": "modify",
+      "date": "2020-02-24"
+    },
+    {
+      "code": "C5722",
+      "action": "modify",
+      "date": "2020-03-30"
+    },
+    {
+      "code": "C5722",
+      "action": "modify",
+      "date": "2020-06-29"
+    },
+    {
+      "code": "C5722",
+      "action": "modify",
+      "date": "2020-09-29"
+    },
+    {
+      "code": "C5722",
+      "action": "modify",
+      "date": "2020-11-30"
+    },
+    {
+      "code": "C5722",
+      "action": "modify",
+      "date": "2023-02-27"
+    },
+    {
+      "code": "C5722",
+      "action": "modify",
+      "date": "2023-12-26"
+    },
+    {
+      "code": "C5722",
+      "action": "modify",
+      "date": "2024-08-26"
+    },
+    {
+      "code": "C5722",
+      "action": "modify",
+      "date": "2024-08-26"
+    },
+    {
+      "code": "C5722",
+      "action": "modify",
+      "date": "2025-03-31"
+    }
+  ]
+}

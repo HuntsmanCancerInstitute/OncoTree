@@ -1,0 +1,370 @@
+{
+  "code": "C8021",
+  "name": "Salivary Gland Adenocarcinoma",
+  "terminology": "ncit",
+  "version": "25.11d",
+  "conceptStatus": "DEFAULT",
+  "leaf": false,
+  "active": true,
+  "synonyms": [
+    {
+      "name": "Salivary Gland Adenocarcinoma",
+      "termType": "DN",
+      "type": "FULL_SYN",
+      "source": "CTRP"
+    },
+    {
+      "name": "Adenocarcinoma of Salivary Gland",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Adenocarcinoma of the Salivary Gland",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Salivary Gland Adenocarcinoma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Salivary Gland Adenocarcinoma",
+      "type": "Display_Name"
+    },
+    {
+      "name": "Salivary Gland Adenocarcinoma",
+      "type": "Preferred_Name"
+    }
+  ],
+  "definitions": [
+    {
+      "definition": "An adenocarcinoma arising from the salivary gland.  It includes the salivary gland polymorphous low grade adenocarcinoma, salivary gland oncocytic carcinoma, salivary gland mucinous adenocarcinoma, salivary gland low grade cribriform cystadenocarcinoma, salivary gland cystadenocarcinoma, salivary gland basal cell adenocarcinoma, salivary gland acinic cell carcinoma, salivary duct carcinoma, and salivary gland adenocarcinoma not otherwise specified.",
+      "type": "DEFINITION",
+      "source": "NCI"
+    }
+  ],
+  "properties": [
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "CTRP"
+    },
+    {
+      "code": "P366",
+      "type": "Legacy Concept Name",
+      "value": "Salivary_Gland_Adenocarcinoma"
+    },
+    {
+      "code": "P363",
+      "type": "Neoplastic_Status",
+      "value": "Malignant"
+    },
+    {
+      "code": "P106",
+      "type": "Semantic_Type",
+      "value": "Neoplastic Process"
+    },
+    {
+      "code": "P207",
+      "type": "UMLS_CUI",
+      "value": "C0279746"
+    }
+  ],
+  "children": [
+    {
+      "code": "C5903",
+      "name": "Major Salivary Gland Adenocarcinoma",
+      "leaf": false
+    },
+    {
+      "code": "C199665",
+      "name": "Metastatic Salivary Gland Adenocarcinoma",
+      "leaf": false
+    },
+    {
+      "code": "C5948",
+      "name": "Minor Salivary Gland Adenocarcinoma",
+      "leaf": false
+    },
+    {
+      "code": "C199666",
+      "name": "Recurrent Salivary Gland Adenocarcinoma",
+      "leaf": false
+    },
+    {
+      "code": "C5904",
+      "name": "Salivary Duct Carcinoma",
+      "leaf": false
+    },
+    {
+      "code": "C8013",
+      "name": "Salivary Gland Acinic Cell Carcinoma",
+      "leaf": false
+    },
+    {
+      "code": "C62196",
+      "name": "Salivary Gland Adenocarcinoma, Not Otherwise Specified",
+      "leaf": false
+    },
+    {
+      "code": "C3678",
+      "name": "Salivary Gland Basal Cell Adenocarcinoma",
+      "leaf": false
+    },
+    {
+      "code": "C5980",
+      "name": "Salivary Gland Cystadenocarcinoma",
+      "leaf": true
+    },
+    {
+      "code": "C62192",
+      "name": "Salivary Gland Intraductal Carcinoma",
+      "leaf": true
+    },
+    {
+      "code": "C201772",
+      "name": "Salivary Gland Microsecretory Adenocarcinoma",
+      "leaf": true
+    },
+    {
+      "code": "C62193",
+      "name": "Salivary Gland Mucinous Adenocarcinoma",
+      "leaf": true
+    },
+    {
+      "code": "C35702",
+      "name": "Salivary Gland Polymorphous Adenocarcinoma",
+      "leaf": false
+    },
+    {
+      "code": "C173648",
+      "name": "Salivary Gland Sebaceous Carcinoma",
+      "leaf": true
+    },
+    {
+      "code": "C123384",
+      "name": "Salivary Gland Secretory Carcinoma",
+      "leaf": false
+    }
+  ],
+  "parents": [
+    {
+      "code": "C215426",
+      "name": "Head and Neck Adenocarcinoma"
+    },
+    {
+      "code": "C9272",
+      "name": "Salivary Gland Carcinoma"
+    }
+  ],
+  "associations": [
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C118168",
+      "relatedName": "CTRP Disease Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C116977",
+      "relatedName": "CTRP Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C126659",
+      "relatedName": "NCIt Neoplasm Core Terminology"
+    }
+  ],
+  "roles": [
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36773",
+      "relatedName": "Adenocarcinoma Cell"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C36122",
+      "relatedName": "Benign Cellular Infiltrate"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C54172",
+      "relatedName": "Carcinomatous Component Present"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C12578",
+      "relatedName": "Epithelial Cell"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C53596",
+      "relatedName": "Epithelial Component Present"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C45714",
+      "relatedName": "Epithelial Tissue"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12418",
+      "relatedName": "Head and Neck"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12418",
+      "relatedName": "Head and Neck"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12917",
+      "relatedName": "Malignant Cell"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C36115",
+      "relatedName": "Malignant Cellular Infiltrate"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36779",
+      "relatedName": "Malignant Epithelial Cell"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C36771",
+      "relatedName": "Malignant Squamous Cell"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C37153",
+      "relatedName": "Malignant Stromal Cell"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C62273",
+      "relatedName": "Mixed Neoplastic Glandular and Squamous Cell Population"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12922",
+      "relatedName": "Neoplastic Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36753",
+      "relatedName": "Neoplastic Epithelial Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36763",
+      "relatedName": "Neoplastic Glandular Cell"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C36937",
+      "relatedName": "Neoplastic Smooth Muscle Cell"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C36760",
+      "relatedName": "Neoplastic Squamous Cell"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12426",
+      "relatedName": "Salivary Gland"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12426",
+      "relatedName": "Salivary Gland"
+    }
+  ],
+  "history": [
+    {
+      "code": "C8021",
+      "action": "create",
+      "date": "2003-08-12"
+    },
+    {
+      "code": "C8021",
+      "action": "modify",
+      "date": "2003-10-31"
+    },
+    {
+      "code": "C8021",
+      "action": "modify",
+      "date": "2003-12-30"
+    },
+    {
+      "code": "C8021",
+      "action": "modify",
+      "date": "2004-03-30"
+    },
+    {
+      "code": "C8021",
+      "action": "modify",
+      "date": "2006-09-01"
+    },
+    {
+      "code": "C8021",
+      "action": "modify",
+      "date": "2007-10-29"
+    },
+    {
+      "code": "C8021",
+      "action": "modify",
+      "date": "2009-11-23"
+    },
+    {
+      "code": "C8021",
+      "action": "modify",
+      "date": "2014-02-03"
+    },
+    {
+      "code": "C8021",
+      "action": "modify",
+      "date": "2014-08-04"
+    },
+    {
+      "code": "C8021",
+      "action": "modify",
+      "date": "2014-08-18"
+    },
+    {
+      "code": "C8021",
+      "action": "modify",
+      "date": "2014-09-22"
+    },
+    {
+      "code": "C8021",
+      "action": "modify",
+      "date": "2016-04-25"
+    },
+    {
+      "code": "C8021",
+      "action": "modify",
+      "date": "2018-07-30"
+    },
+    {
+      "code": "C8021",
+      "action": "modify",
+      "date": "2018-08-27"
+    },
+    {
+      "code": "C8021",
+      "action": "modify",
+      "date": "2018-08-27"
+    },
+    {
+      "code": "C8021",
+      "action": "modify",
+      "date": "2025-04-28"
+    }
+  ]
+}

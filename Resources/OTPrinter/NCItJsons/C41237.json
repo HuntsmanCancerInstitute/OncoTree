@@ -1,0 +1,404 @@
+{
+  "code": "C41237",
+  "name": "Prefibrotic Primary Myelofibrosis",
+  "terminology": "ncit",
+  "version": "25.11d",
+  "conceptStatus": "DEFAULT",
+  "leaf": true,
+  "active": true,
+  "synonyms": [
+    {
+      "name": "Early/Prefibrotic Primary Myelofibrosis",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Early/Prefibrotic Stage PMF",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Early/Prefibrotic Stage Primary Myelofibrosis",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Pre-PMF",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Prefibrotic Primary Myelofibrosis",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Prefibrotic/Early Primary Myelofibrosis",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Primary Myelofibrosis, Prefibrotic Stage",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Primary Myelofibrosis, Prefibrotic/Early Stage",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Prefibrotic Primary Myelofibrosis",
+      "type": "Preferred_Name"
+    }
+  ],
+  "definitions": [
+    {
+      "definition": "Primary myelofibrosis characterized by bone marrow hypercellularity and the presence of atypical megakaryocytes. There is no increase in the percentage of myeloblasts and no significant increase in reticulin or collagen fibrosis in the bone marrow.",
+      "type": "DEFINITION",
+      "source": "NCI"
+    }
+  ],
+  "properties": [
+    {
+      "code": "P366",
+      "type": "Legacy Concept Name",
+      "value": "Chronic_Idiopathic_Myelofibrosis_Prefibrotic_Stage"
+    },
+    {
+      "code": "P363",
+      "type": "Neoplastic_Status",
+      "value": "Malignant"
+    },
+    {
+      "code": "P106",
+      "type": "Semantic_Type",
+      "value": "Neoplastic Process"
+    },
+    {
+      "code": "P207",
+      "type": "UMLS_CUI",
+      "value": "C1516553"
+    }
+  ],
+  "parents": [
+    {
+      "code": "C2862",
+      "name": "Primary Myelofibrosis"
+    }
+  ],
+  "associations": [
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C126659",
+      "relatedName": "NCIt Neoplasm Core Terminology"
+    }
+  ],
+  "roles": [
+    {
+      "type": "Disease_May_Have_Associated_Disease",
+      "relatedCode": "C2869",
+      "relatedName": "Anemia"
+    },
+    {
+      "type": "Disease_Excludes_Molecular_Abnormality",
+      "relatedCode": "C36715",
+      "relatedName": "BCR-ABL1 Fusion Protein Expression"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C36122",
+      "relatedName": "Benign Cellular Infiltrate"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C36212",
+      "relatedName": "Bone Marrow Fibrosis"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C13456",
+      "relatedName": "Bone Marrow Stem Cell"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12431",
+      "relatedName": "Bone Marrow"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12431",
+      "relatedName": "Bone Marrow"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C36158",
+      "relatedName": "Chronic Clinical Course"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C3015",
+      "relatedName": "Eosinophilia"
+    },
+    {
+      "type": "Disease_May_Have_Cytogenetic_Abnormality",
+      "relatedCode": "C36455",
+      "relatedName": "Gain of Chromosome 8"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C41242",
+      "relatedName": "Granulocytes Increased in Bone Marrow"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C41165",
+      "relatedName": "Hematopoietic and Lymphatic System"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C41165",
+      "relatedName": "Hematopoietic and Lymphatic System"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C32725",
+      "relatedName": "Hematopoietic and Lymphoid Cell"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C41168",
+      "relatedName": "Hematopoietic and Lymphoid Tissue"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C13051",
+      "relatedName": "Hematopoietic Tissue"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C3100",
+      "relatedName": "Hepatomegaly"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C35788",
+      "relatedName": "Hypercellular Bone Marrow"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C36215",
+      "relatedName": "Immature Granulocytes in Peripheral Blood Increased"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C36252",
+      "relatedName": "Ineffective Hematopoiesis"
+    },
+    {
+      "type": "Disease_May_Have_Abnormal_Cell",
+      "relatedCode": "C37039",
+      "relatedName": "Large Atypical Platelet"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C37044",
+      "relatedName": "Large Megakaryocyte"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C35524",
+      "relatedName": "Leukocytosis"
+    },
+    {
+      "type": "Disease_May_Have_Cytogenetic_Abnormality",
+      "relatedCode": "C36497",
+      "relatedName": "Loss of Chromosome 13q"
+    },
+    {
+      "type": "Disease_May_Have_Cytogenetic_Abnormality",
+      "relatedCode": "C36403",
+      "relatedName": "Loss of Chromosome 20q"
+    },
+    {
+      "type": "Disease_May_Have_Cytogenetic_Abnormality",
+      "relatedCode": "C36524",
+      "relatedName": "Loss of Chromosome 7"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12917",
+      "relatedName": "Malignant Cell"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C36115",
+      "relatedName": "Malignant Cellular Infiltrate"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C35168",
+      "relatedName": "Megakaryocytes Increased in Bone Marrow"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C41239",
+      "relatedName": "Minimal Reticulin Fibrosis of the Bone Marrow"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C36219",
+      "relatedName": "Myeloblasts Under 10 Percent of Bone Marrow Nucleated Cells"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C36219",
+      "relatedName": "Myeloblasts Under 10 Percent of Bone Marrow Nucleated Cells"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12922",
+      "relatedName": "Neoplastic Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C37060",
+      "relatedName": "Neoplastic Hematopoietic and Lymphoid Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C41063",
+      "relatedName": "Neoplastic Myeloid Cell"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C35164",
+      "relatedName": "Neutrophilia"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C128698",
+      "relatedName": "Not Otherwise Specified Lesion"
+    },
+    {
+      "type": "Disease_May_Have_Cytogenetic_Abnormality",
+      "relatedCode": "C36521",
+      "relatedName": "Partial Trisomy 1q"
+    },
+    {
+      "type": "Disease_Excludes_Cytogenetic_Abnormality",
+      "relatedCode": "C28452",
+      "relatedName": "Philadelphia Chromosome"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C41444",
+      "relatedName": "Secondary Lesion"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C36719",
+      "relatedName": "Segmented Neutrophil"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C3384",
+      "relatedName": "Splenomegaly"
+    },
+    {
+      "type": "Disease_Excludes_Cytogenetic_Abnormality",
+      "relatedCode": "C13271",
+      "relatedName": "t(9;22)(q34.1;q11.2)"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C35530",
+      "relatedName": "Thrombocytosis"
+    }
+  ],
+  "history": [
+    {
+      "code": "C41237",
+      "action": "create",
+      "date": "2004-11-01"
+    },
+    {
+      "code": "C41237",
+      "action": "modify",
+      "date": "2009-01-26"
+    },
+    {
+      "code": "C41237",
+      "action": "modify",
+      "date": "2009-04-06"
+    },
+    {
+      "code": "C41237",
+      "action": "modify",
+      "date": "2009-10-13"
+    },
+    {
+      "code": "C41237",
+      "action": "modify",
+      "date": "2009-11-02"
+    },
+    {
+      "code": "C41237",
+      "action": "modify",
+      "date": "2009-11-23"
+    },
+    {
+      "code": "C41237",
+      "action": "modify",
+      "date": "2016-04-25"
+    },
+    {
+      "code": "C41237",
+      "action": "modify",
+      "date": "2016-05-16"
+    },
+    {
+      "code": "C41237",
+      "action": "modify",
+      "date": "2016-11-14"
+    },
+    {
+      "code": "C41237",
+      "action": "modify",
+      "date": "2018-06-25"
+    },
+    {
+      "code": "C41237",
+      "action": "modify",
+      "date": "2018-06-25"
+    },
+    {
+      "code": "C41237",
+      "action": "modify",
+      "date": "2022-07-25"
+    },
+    {
+      "code": "C41237",
+      "action": "modify",
+      "date": "2023-01-31"
+    },
+    {
+      "code": "C41237",
+      "action": "modify",
+      "date": "2023-04-24"
+    },
+    {
+      "code": "C41237",
+      "action": "modify",
+      "date": "2025-01-27"
+    }
+  ]
+}

@@ -1,0 +1,365 @@
+{
+  "code": "C5177",
+  "name": "Breast Squamous Cell Carcinoma",
+  "terminology": "ncit",
+  "version": "25.11d",
+  "conceptStatus": "DEFAULT",
+  "leaf": false,
+  "active": true,
+  "synonyms": [
+    {
+      "name": "Breast Squamous Cell Carcinoma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Primary Squamous Cell Breast Carcinoma",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Primary Squamous Cell Carcinoma of Breast",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Primary Squamous Cell Carcinoma of the Breast",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "SCC of Breast",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "SCC of the Breast",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Squamous Breast Carcinoma",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Squamous Carcinoma of Breast",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Squamous Carcinoma of the Breast",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Squamous Cell Breast Carcinoma",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Squamous Cell Carcinoma of Breast",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Squamous Cell Carcinoma of the Breast",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Breast Squamous Cell Carcinoma",
+      "type": "Preferred_Name"
+    }
+  ],
+  "definitions": [
+    {
+      "definition": "A rare carcinoma that arises from the breast parenchyma and is entirely composed of squamous cells.",
+      "type": "DEFINITION",
+      "source": "NCI"
+    }
+  ],
+  "properties": [
+    {
+      "code": "P366",
+      "type": "Legacy Concept Name",
+      "value": "Squamous_Cell_Breast_Carcinoma"
+    },
+    {
+      "code": "P363",
+      "type": "Neoplastic_Status",
+      "value": "Malignant"
+    },
+    {
+      "code": "P106",
+      "type": "Semantic_Type",
+      "value": "Neoplastic Process"
+    },
+    {
+      "code": "P207",
+      "type": "UMLS_CUI",
+      "value": "C1336079"
+    }
+  ],
+  "children": [
+    {
+      "code": "C40359",
+      "name": "Breast Acantholytic Squamous Cell Carcinoma",
+      "leaf": true
+    },
+    {
+      "code": "C40357",
+      "name": "Breast Squamous Cell Carcinoma, Large Cell Keratinizing Variant",
+      "leaf": true
+    },
+    {
+      "code": "C40358",
+      "name": "Breast Squamous Cell Carcinoma, Spindle Cell Variant",
+      "leaf": true
+    },
+    {
+      "code": "C5178",
+      "name": "Metastatic Breast Squamous Cell Carcinoma",
+      "leaf": true
+    }
+  ],
+  "parents": [
+    {
+      "code": "C9245",
+      "name": "Invasive Breast Carcinoma"
+    },
+    {
+      "code": "C2929",
+      "name": "Squamous Cell Carcinoma"
+    }
+  ],
+  "associations": [
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C126659",
+      "relatedName": "NCIt Neoplasm Core Terminology"
+    }
+  ],
+  "roles": [
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C36122",
+      "relatedName": "Benign Cellular Infiltrate"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C3197",
+      "relatedName": "Breast Lump"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12971",
+      "relatedName": "Breast"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12971",
+      "relatedName": "Breast"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C54172",
+      "relatedName": "Carcinomatous Component Present"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C41454",
+      "relatedName": "Cystic Change"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C12578",
+      "relatedName": "Epithelial Cell"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C53596",
+      "relatedName": "Epithelial Component Present"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C45714",
+      "relatedName": "Epithelial Tissue"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C36117",
+      "relatedName": "Invasive Lesion"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12917",
+      "relatedName": "Malignant Cell"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C36115",
+      "relatedName": "Malignant Cellular Infiltrate"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36779",
+      "relatedName": "Malignant Epithelial Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36771",
+      "relatedName": "Malignant Squamous Cell"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C37153",
+      "relatedName": "Malignant Stromal Cell"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C12937",
+      "relatedName": "Mammary Epithelium"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C62273",
+      "relatedName": "Mixed Neoplastic Glandular and Squamous Cell Population"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12922",
+      "relatedName": "Neoplastic Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36753",
+      "relatedName": "Neoplastic Epithelial Cell"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C36763",
+      "relatedName": "Neoplastic Glandular Cell"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C36937",
+      "relatedName": "Neoplastic Smooth Muscle Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36760",
+      "relatedName": "Neoplastic Squamous Cell"
+    }
+  ],
+  "inverseRoles": [
+    {
+      "type": "Gene_Associated_With_Disease",
+      "relatedCode": "C18382",
+      "relatedName": "CTTN Gene"
+    },
+    {
+      "type": "Gene_Associated_With_Disease",
+      "relatedCode": "C51238",
+      "relatedName": "CTTN wt Allele"
+    },
+    {
+      "type": "Gene_Product_Malfunction_Associated_With_Disease",
+      "relatedCode": "C17689",
+      "relatedName": "SRC Substrate Cortactin"
+    }
+  ],
+  "history": [
+    {
+      "code": "C5177",
+      "action": "create",
+      "date": "2003-08-12"
+    },
+    {
+      "code": "C5177",
+      "action": "modify",
+      "date": "2003-10-31"
+    },
+    {
+      "code": "C5177",
+      "action": "modify",
+      "date": "2003-12-30"
+    },
+    {
+      "code": "C5177",
+      "action": "modify",
+      "date": "2004-03-30"
+    },
+    {
+      "code": "C5177",
+      "action": "modify",
+      "date": "2004-09-10"
+    },
+    {
+      "code": "C5177",
+      "action": "modify",
+      "date": "2006-03-31"
+    },
+    {
+      "code": "C5177",
+      "action": "modify",
+      "date": "2006-04-28"
+    },
+    {
+      "code": "C5177",
+      "action": "modify",
+      "date": "2006-05-26"
+    },
+    {
+      "code": "C5177",
+      "action": "modify",
+      "date": "2009-04-06"
+    },
+    {
+      "code": "C5177",
+      "action": "modify",
+      "date": "2009-11-23"
+    },
+    {
+      "code": "C5177",
+      "action": "modify",
+      "date": "2011-09-19"
+    },
+    {
+      "code": "C5179",
+      "action": "merge",
+      "date": "2006-04-14",
+      "replacementCode": "C5177",
+      "replacementName": "Breast Squamous Cell Carcinoma"
+    },
+    {
+      "code": "C5177",
+      "action": "merge",
+      "date": "2006-04-14",
+      "replacementCode": "C5177",
+      "replacementName": "Breast Squamous Cell Carcinoma"
+    },
+    {
+      "code": "C5177",
+      "action": "modify",
+      "date": "2016-04-25"
+    },
+    {
+      "code": "C5177",
+      "action": "modify",
+      "date": "2020-10-26"
+    }
+  ]
+}

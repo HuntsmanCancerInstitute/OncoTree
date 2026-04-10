@@ -1,0 +1,326 @@
+{
+  "code": "C7266",
+  "name": "Lung Basaloid Large Cell Carcinoma",
+  "terminology": "ncit",
+  "version": "25.11d",
+  "conceptStatus": "DEFAULT",
+  "leaf": true,
+  "active": true,
+  "synonyms": [
+    {
+      "name": "Lung Basaloid Large Cell Carcinoma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Lung Basaloid Large Cell Carcinoma",
+      "type": "Preferred_Name"
+    }
+  ],
+  "definitions": [
+    {
+      "definition": "A large cell lung carcinoma characterized by the presence of a solid nodular or anastomotic trabecular growth pattern, peripheral palisading, and comedo type necrosis.",
+      "type": "DEFINITION",
+      "source": "NCI"
+    }
+  ],
+  "properties": [
+    {
+      "code": "P366",
+      "type": "Legacy Concept Name",
+      "value": "Basaloid_Lung_Carcinoma"
+    },
+    {
+      "code": "P363",
+      "type": "Neoplastic_Status",
+      "value": "Malignant"
+    },
+    {
+      "code": "P106",
+      "type": "Semantic_Type",
+      "value": "Neoplastic Process"
+    },
+    {
+      "code": "P207",
+      "type": "UMLS_CUI",
+      "value": "C1332463"
+    }
+  ],
+  "parents": [
+    {
+      "code": "C4121",
+      "name": "Basaloid Carcinoma"
+    },
+    {
+      "code": "C4450",
+      "name": "Lung Large Cell Carcinoma"
+    }
+  ],
+  "associations": [
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C126659",
+      "relatedName": "NCIt Neoplasm Core Terminology"
+    }
+  ],
+  "roles": [
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C36122",
+      "relatedName": "Benign Cellular Infiltrate"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C54172",
+      "relatedName": "Carcinomatous Component Present"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C36128",
+      "relatedName": "Comedo Necrosis"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C37935",
+      "relatedName": "Cough"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C2998",
+      "relatedName": "Dyspnea"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C12578",
+      "relatedName": "Epithelial Cell"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C53596",
+      "relatedName": "Epithelial Component Present"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C45714",
+      "relatedName": "Epithelial Tissue"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C3038",
+      "relatedName": "Fever"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C43573",
+      "relatedName": "Glandular Differentiation"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C3094",
+      "relatedName": "Hemoptysis"
+    },
+    {
+      "type": "Disease_May_Have_Molecular_Abnormality",
+      "relatedCode": "C41361",
+      "relatedName": "KRAS Gene Mutation"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12468",
+      "relatedName": "Lung"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12468",
+      "relatedName": "Lung"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12917",
+      "relatedName": "Malignant Cell"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C36115",
+      "relatedName": "Malignant Cellular Infiltrate"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36779",
+      "relatedName": "Malignant Epithelial Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36822",
+      "relatedName": "Malignant Epithelial Large Cell"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C36795",
+      "relatedName": "Malignant Epithelial Small Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C54245",
+      "relatedName": "Malignant Hyperchromatic Epithelial Cell"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C37153",
+      "relatedName": "Malignant Stromal Cell"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C38666",
+      "relatedName": "Monomorphic Cellular Infiltrate"
+    },
+    {
+      "type": "Disease_Excludes_Primary_Anatomic_Site",
+      "relatedCode": "C13063",
+      "relatedName": "Neck"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12922",
+      "relatedName": "Neoplastic Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36753",
+      "relatedName": "Neoplastic Epithelial Cell"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C36937",
+      "relatedName": "Neoplastic Smooth Muscle Cell"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C43574",
+      "relatedName": "Neuroendocrine Differentiation"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C54209",
+      "relatedName": "Peripheral Nuclear Palisading"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C42624",
+      "relatedName": "Premalignant Lesion"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12779",
+      "relatedName": "Respiratory System"
+    },
+    {
+      "type": "Disease_Excludes_Primary_Anatomic_Site",
+      "relatedCode": "C12470",
+      "relatedName": "Skin"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C38770",
+      "relatedName": "Squamous Differentiation"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12905",
+      "relatedName": "Thoracic Cavity"
+    },
+    {
+      "type": "Disease_May_Have_Molecular_Abnormality",
+      "relatedCode": "C36329",
+      "relatedName": "TP53 Gene Inactivation"
+    },
+    {
+      "type": "Disease_Mapped_To_Gene",
+      "relatedCode": "C17359",
+      "relatedName": "TP53 Gene"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C37085",
+      "relatedName": "Undifferentiated Carcinoma Cell"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C36134",
+      "relatedName": "Undifferentiated Lesion"
+    }
+  ],
+  "history": [
+    {
+      "code": "C7266",
+      "action": "create",
+      "date": "2003-08-12"
+    },
+    {
+      "code": "C7266",
+      "action": "modify",
+      "date": "2003-12-30"
+    },
+    {
+      "code": "C7266",
+      "action": "modify",
+      "date": "2005-04-29"
+    },
+    {
+      "code": "C7266",
+      "action": "modify",
+      "date": "2005-06-24"
+    },
+    {
+      "code": "C7266",
+      "action": "modify",
+      "date": "2006-03-31"
+    },
+    {
+      "code": "C7266",
+      "action": "modify",
+      "date": "2006-04-28"
+    },
+    {
+      "code": "C7266",
+      "action": "modify",
+      "date": "2009-04-06"
+    },
+    {
+      "code": "C7266",
+      "action": "modify",
+      "date": "2009-11-02"
+    },
+    {
+      "code": "C7266",
+      "action": "modify",
+      "date": "2009-11-23"
+    },
+    {
+      "code": "C7266",
+      "action": "modify",
+      "date": "2014-02-03"
+    },
+    {
+      "code": "C7266",
+      "action": "modify",
+      "date": "2014-03-10"
+    },
+    {
+      "code": "C7266",
+      "action": "modify",
+      "date": "2016-04-25"
+    },
+    {
+      "code": "C7266",
+      "action": "modify",
+      "date": "2017-12-26"
+    },
+    {
+      "code": "C7266",
+      "action": "modify",
+      "date": "2018-09-24"
+    }
+  ]
+}

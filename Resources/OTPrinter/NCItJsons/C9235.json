@@ -1,0 +1,794 @@
+{
+  "code": "C9235",
+  "name": "Systemic Mastocytosis",
+  "terminology": "ncit",
+  "version": "25.11d",
+  "conceptStatus": "DEFAULT",
+  "leaf": false,
+  "active": true,
+  "synonyms": [
+    {
+      "name": "Systemic Mastocytosis",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "Cellosaurus"
+    },
+    {
+      "name": "Systemic mastocytosis, NOS",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "CTEP",
+      "code": "10025638",
+      "subSource": "SDC"
+    },
+    {
+      "name": "Systemic Mastocytosis",
+      "termType": "DN",
+      "type": "FULL_SYN",
+      "source": "CTRP"
+    },
+    {
+      "name": "Systemic tissue mast cell disease",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "GDC"
+    },
+    {
+      "name": "Systemic mastocytosis",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "mCode",
+      "code": "D47.02",
+      "subSource": "ICD-10 CM"
+    },
+    {
+      "name": "systemic mastocytosis",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NCI-GLOSS",
+      "code": "CDR0000455141"
+    },
+    {
+      "name": "Systemic Mastocytosis",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Systemic Tissue Mast Cell Disease",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Systemic Mastocytosis",
+      "type": "Display_Name"
+    },
+    {
+      "name": "Systemic Mastocytosis",
+      "type": "Preferred_Name"
+    }
+  ],
+  "definitions": [
+    {
+      "definition": "A rare disease in which too many mast cells (a type of immune system cell) are found in the skin, bones, joints, lymph nodes, liver, spleen, and gastrointestinal tract. Mast cells give off chemicals such as histamine that can cause flushing (a hot, red face), itching, abdominal cramps, muscle pain, nausea, vomiting, diarrhea, low blood pressure, and shock.",
+      "type": "ALT_DEFINITION",
+      "source": "NCI-GLOSS"
+    },
+    {
+      "definition": "Systemic infiltration of extracutaneous sites by clonal mast cells, with or without evidence of skin involvement.",
+      "type": "DEFINITION",
+      "source": "NCI"
+    }
+  ],
+  "properties": [
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "Cellosaurus"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "CTEP"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "CTRP"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "GDC"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "mCode"
+    },
+    {
+      "code": "P366",
+      "type": "Legacy Concept Name",
+      "value": "Primary_Systemic_Mastocytosis"
+    },
+    {
+      "code": "P366",
+      "type": "Legacy Concept Name",
+      "value": "Systemic_Mastocytosis"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "9741/3"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "Systemic tissue mast cell disease"
+    },
+    {
+      "code": "P363",
+      "type": "Neoplastic_Status",
+      "value": "Undetermined"
+    },
+    {
+      "code": "P106",
+      "type": "Semantic_Type",
+      "value": "Neoplastic Process"
+    },
+    {
+      "code": "P207",
+      "type": "UMLS_CUI",
+      "value": "C0221013"
+    }
+  ],
+  "children": [
+    {
+      "code": "C9286",
+      "name": "Indolent Systemic Mastocytosis",
+      "leaf": false
+    },
+    {
+      "code": "C8991",
+      "name": "Malignant Mastocytosis",
+      "leaf": false
+    },
+    {
+      "code": "C115460",
+      "name": "Smoldering Systemic Mastocytosis",
+      "leaf": false
+    },
+    {
+      "code": "C186735",
+      "name": "Systemic Mastocytosis with an Associated Germ Cell Tumor",
+      "leaf": false
+    }
+  ],
+  "parents": [
+    {
+      "code": "C84269",
+      "name": "Mastocytosis"
+    }
+  ],
+  "associations": [
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C165258",
+      "relatedName": "Cellosaurus Disease Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C118168",
+      "relatedName": "CTRP Disease Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C116977",
+      "relatedName": "CTRP Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C157711",
+      "relatedName": "GDC Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C177537",
+      "relatedName": "GDC Value Terminology"
+    },
+    {
+      "type": "Is_Value_For_GDC_Property",
+      "relatedCode": "C176985",
+      "relatedName": "Histology ICD-O Morphology Code"
+    },
+    {
+      "type": "Is_Value_For_GDC_Property",
+      "relatedCode": "C177621",
+      "relatedName": "ICD-O-3 Morphology Term Diagnosis Question"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C193249",
+      "relatedName": "mCode Cancer Disorder Value Set"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C193248",
+      "relatedName": "mCode Primary Cancer Disorder Value Set"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C193231",
+      "relatedName": "mCode Primary Malignant Neoplasm Disorder Value Set"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C193006",
+      "relatedName": "mCode Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C103079",
+      "relatedName": "NCI CTEP SDC Mastocytosis Sub-Category Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C102905",
+      "relatedName": "NCI CTEP Simplified Disease Classification Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C126659",
+      "relatedName": "NCIt Neoplasm Core Terminology"
+    }
+  ],
+  "inverseAssociations": [
+    {
+      "type": "Has_GDC_Value",
+      "relatedCode": "C176985",
+      "relatedName": "Histology ICD-O Morphology Code"
+    },
+    {
+      "type": "Has_GDC_Value",
+      "relatedCode": "C177621",
+      "relatedName": "ICD-O-3 Morphology Term Diagnosis Question"
+    }
+  ],
+  "roles": [
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C13456",
+      "relatedName": "Bone Marrow Stem Cell"
+    },
+    {
+      "type": "Disease_May_Have_Molecular_Abnormality",
+      "relatedCode": "C38407",
+      "relatedName": "C-KIT Somatic Point Mutation"
+    },
+    {
+      "type": "Disease_May_Have_Molecular_Abnormality",
+      "relatedCode": "C39711",
+      "relatedName": "C-KIT Tyrosine Kinase Protein Overexpression"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C41165",
+      "relatedName": "Hematopoietic and Lymphatic System"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C41165",
+      "relatedName": "Hematopoietic and Lymphatic System"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C32725",
+      "relatedName": "Hematopoietic and Lymphoid Cell"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C41168",
+      "relatedName": "Hematopoietic and Lymphoid Tissue"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C13051",
+      "relatedName": "Hematopoietic Tissue"
+    },
+    {
+      "type": "Disease_Mapped_To_Gene",
+      "relatedCode": "C18609",
+      "relatedName": "KIT Gene"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C12747",
+      "relatedName": "Mast Cell"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C41179",
+      "relatedName": "Monoclonal Cellular Population Present"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12922",
+      "relatedName": "Neoplastic Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C37060",
+      "relatedName": "Neoplastic Hematopoietic and Lymphoid Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C37062",
+      "relatedName": "Neoplastic Mast Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C41063",
+      "relatedName": "Neoplastic Myeloid Cell"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C42094",
+      "relatedName": "Rare Lesion"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C43276",
+      "relatedName": "Serum Total Tryptase Levels Increased"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C9229",
+      "relatedName": "Systemic Disease"
+    }
+  ],
+  "inverseRoles": [
+    {
+      "type": "Gene_Involved_In_Pathogenesis_Of_Disease",
+      "relatedCode": "C18609",
+      "relatedName": "KIT Gene"
+    },
+    {
+      "type": "Gene_Involved_In_Pathogenesis_Of_Disease",
+      "relatedCode": "C51741",
+      "relatedName": "KIT wt Allele"
+    }
+  ],
+  "history": [
+    {
+      "code": "C9235",
+      "action": "create",
+      "date": "2003-08-12"
+    },
+    {
+      "code": "C9235",
+      "action": "modify",
+      "date": "2003-10-31"
+    },
+    {
+      "code": "C9235",
+      "action": "modify",
+      "date": "2003-12-30"
+    },
+    {
+      "code": "C9235",
+      "action": "modify",
+      "date": "2004-03-30"
+    },
+    {
+      "code": "C9235",
+      "action": "modify",
+      "date": "2005-01-28"
+    },
+    {
+      "code": "C9235",
+      "action": "modify",
+      "date": "2009-10-19"
+    },
+    {
+      "code": "C9235",
+      "action": "modify",
+      "date": "2009-11-23"
+    },
+    {
+      "code": "C9235",
+      "action": "modify",
+      "date": "2010-11-08"
+    },
+    {
+      "code": "C9235",
+      "action": "modify",
+      "date": "2010-11-15"
+    },
+    {
+      "code": "C9235",
+      "action": "modify",
+      "date": "2010-11-22"
+    },
+    {
+      "code": "C9235",
+      "action": "modify",
+      "date": "2010-11-29"
+    },
+    {
+      "code": "C9235",
+      "action": "modify",
+      "date": "2010-12-06"
+    },
+    {
+      "code": "C9235",
+      "action": "modify",
+      "date": "2010-12-13"
+    },
+    {
+      "code": "C9235",
+      "action": "modify",
+      "date": "2010-12-27"
+    },
+    {
+      "code": "C9235",
+      "action": "modify",
+      "date": "2011-01-03"
+    },
+    {
+      "code": "C9235",
+      "action": "modify",
+      "date": "2011-01-10"
+    },
+    {
+      "code": "C9235",
+      "action": "modify",
+      "date": "2011-01-17"
+    },
+    {
+      "code": "C9235",
+      "action": "modify",
+      "date": "2011-01-24"
+    },
+    {
+      "code": "C9235",
+      "action": "modify",
+      "date": "2011-01-31"
+    },
+    {
+      "code": "C9235",
+      "action": "modify",
+      "date": "2011-07-25"
+    },
+    {
+      "code": "C9235",
+      "action": "modify",
+      "date": "2012-09-24"
+    },
+    {
+      "code": "C9235",
+      "action": "modify",
+      "date": "2012-10-01"
+    },
+    {
+      "code": "C9235",
+      "action": "modify",
+      "date": "2012-10-09"
+    },
+    {
+      "code": "C9235",
+      "action": "modify",
+      "date": "2012-10-15"
+    },
+    {
+      "code": "C9235",
+      "action": "modify",
+      "date": "2012-10-22"
+    },
+    {
+      "code": "C9235",
+      "action": "modify",
+      "date": "2012-10-31"
+    },
+    {
+      "code": "C9235",
+      "action": "modify",
+      "date": "2012-11-05"
+    },
+    {
+      "code": "C9235",
+      "action": "modify",
+      "date": "2012-11-13"
+    },
+    {
+      "code": "C9235",
+      "action": "modify",
+      "date": "2012-11-19"
+    },
+    {
+      "code": "C9235",
+      "action": "modify",
+      "date": "2012-11-26"
+    },
+    {
+      "code": "C9235",
+      "action": "modify",
+      "date": "2012-12-03"
+    },
+    {
+      "code": "C9235",
+      "action": "modify",
+      "date": "2012-12-10"
+    },
+    {
+      "code": "C9235",
+      "action": "modify",
+      "date": "2012-12-17"
+    },
+    {
+      "code": "C9235",
+      "action": "modify",
+      "date": "2012-12-28"
+    },
+    {
+      "code": "C9235",
+      "action": "modify",
+      "date": "2013-01-07"
+    },
+    {
+      "code": "C9235",
+      "action": "modify",
+      "date": "2013-01-14"
+    },
+    {
+      "code": "C9235",
+      "action": "modify",
+      "date": "2013-01-23"
+    },
+    {
+      "code": "C9235",
+      "action": "modify",
+      "date": "2013-02-04"
+    },
+    {
+      "code": "C9235",
+      "action": "modify",
+      "date": "2013-02-11"
+    },
+    {
+      "code": "C9235",
+      "action": "modify",
+      "date": "2013-02-19"
+    },
+    {
+      "code": "C9235",
+      "action": "modify",
+      "date": "2013-02-25"
+    },
+    {
+      "code": "C9235",
+      "action": "modify",
+      "date": "2013-03-04"
+    },
+    {
+      "code": "C9235",
+      "action": "modify",
+      "date": "2013-03-11"
+    },
+    {
+      "code": "C9235",
+      "action": "modify",
+      "date": "2013-03-18"
+    },
+    {
+      "code": "C9235",
+      "action": "modify",
+      "date": "2013-03-25"
+    },
+    {
+      "code": "C9235",
+      "action": "modify",
+      "date": "2013-04-01"
+    },
+    {
+      "code": "C9235",
+      "action": "modify",
+      "date": "2013-04-08"
+    },
+    {
+      "code": "C9235",
+      "action": "modify",
+      "date": "2013-04-15"
+    },
+    {
+      "code": "C9235",
+      "action": "modify",
+      "date": "2013-04-22"
+    },
+    {
+      "code": "C9235",
+      "action": "modify",
+      "date": "2013-04-29"
+    },
+    {
+      "code": "C9235",
+      "action": "modify",
+      "date": "2013-05-06"
+    },
+    {
+      "code": "C9235",
+      "action": "modify",
+      "date": "2013-05-13"
+    },
+    {
+      "code": "C9235",
+      "action": "modify",
+      "date": "2013-05-20"
+    },
+    {
+      "code": "C9235",
+      "action": "modify",
+      "date": "2013-05-28"
+    },
+    {
+      "code": "C9235",
+      "action": "modify",
+      "date": "2013-06-03"
+    },
+    {
+      "code": "C9235",
+      "action": "modify",
+      "date": "2013-06-10"
+    },
+    {
+      "code": "C9235",
+      "action": "modify",
+      "date": "2013-06-17"
+    },
+    {
+      "code": "C9235",
+      "action": "modify",
+      "date": "2013-06-24"
+    },
+    {
+      "code": "C9235",
+      "action": "modify",
+      "date": "2013-07-01"
+    },
+    {
+      "code": "C9235",
+      "action": "modify",
+      "date": "2013-07-08"
+    },
+    {
+      "code": "C9235",
+      "action": "modify",
+      "date": "2014-02-03"
+    },
+    {
+      "code": "C9235",
+      "action": "modify",
+      "date": "2014-08-04"
+    },
+    {
+      "code": "C9235",
+      "action": "modify",
+      "date": "2014-08-18"
+    },
+    {
+      "code": "C9235",
+      "action": "modify",
+      "date": "2014-09-22"
+    },
+    {
+      "code": "C9235",
+      "action": "modify",
+      "date": "2016-04-25"
+    },
+    {
+      "code": "C9235",
+      "action": "modify",
+      "date": "2018-07-30"
+    },
+    {
+      "code": "C9235",
+      "action": "modify",
+      "date": "2018-08-27"
+    },
+    {
+      "code": "C9235",
+      "action": "modify",
+      "date": "2018-08-27"
+    },
+    {
+      "code": "C9235",
+      "action": "modify",
+      "date": "2018-09-24"
+    },
+    {
+      "code": "C9235",
+      "action": "modify",
+      "date": "2019-05-28"
+    },
+    {
+      "code": "C9235",
+      "action": "modify",
+      "date": "2019-09-30"
+    },
+    {
+      "code": "C9235",
+      "action": "modify",
+      "date": "2019-11-25"
+    },
+    {
+      "code": "C9235",
+      "action": "modify",
+      "date": "2020-02-24"
+    },
+    {
+      "code": "C9235",
+      "action": "modify",
+      "date": "2021-02-22"
+    },
+    {
+      "code": "C9235",
+      "action": "modify",
+      "date": "2021-03-29"
+    },
+    {
+      "code": "C9235",
+      "action": "modify",
+      "date": "2023-02-27"
+    },
+    {
+      "code": "C9235",
+      "action": "merge",
+      "date": "2023-03-27",
+      "replacementCode": "C9235",
+      "replacementName": "Systemic Mastocytosis"
+    },
+    {
+      "code": "C43284",
+      "action": "merge",
+      "date": "2023-03-27",
+      "replacementCode": "C9235",
+      "replacementName": "Systemic Mastocytosis"
+    },
+    {
+      "code": "C9235",
+      "action": "modify",
+      "date": "2023-03-27"
+    },
+    {
+      "code": "C9235",
+      "action": "modify",
+      "date": "2023-04-24"
+    },
+    {
+      "code": "C9235",
+      "action": "modify",
+      "date": "2023-05-30"
+    },
+    {
+      "code": "C9235",
+      "action": "modify",
+      "date": "2025-03-31"
+    }
+  ],
+  "maps": [
+    {
+      "type": "Related To",
+      "targetName": "9741/3",
+      "targetTermType": "PT",
+      "targetCode": "morphology",
+      "targetTerminology": "GDC"
+    },
+    {
+      "type": "Has Synonym",
+      "targetName": "Systemic tissue mast cell disease",
+      "targetTermType": "PT",
+      "targetCode": "primary_diagnosis",
+      "targetTerminology": "GDC"
+    }
+  ]
+}

@@ -1,0 +1,663 @@
+{
+  "code": "C9505",
+  "name": "Dysembryoplastic Neuroepithelial Tumor",
+  "terminology": "ncit",
+  "version": "25.11d",
+  "conceptStatus": "DEFAULT",
+  "leaf": false,
+  "active": true,
+  "synonyms": [
+    {
+      "name": "Dysembryoplastic Neuroepithelial Tumor",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "caDSR"
+    },
+    {
+      "name": "Dysembryoplastic Neuroepithelial Tumor",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "Cellosaurus"
+    },
+    {
+      "name": "Dysembryoplastic neuroepithelial tumor",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "GDC"
+    },
+    {
+      "name": "DNET",
+      "termType": "AQS",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "DNT",
+      "termType": "AB",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Dysembryoplastic Neuroepithelial Neoplasm",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Dysembryoplastic Neuroepithelial Tumor",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Dysembryoplastic Neuroepithelial Tumor",
+      "type": "Preferred_Name"
+    }
+  ],
+  "definitions": [
+    {
+      "definition": "A glial-neuronal neoplasm located in the cortex. It occurs in children and young adults with a long-standing history of partial seizures. A histologic hallmark of this tumor is the 'specific glioneuronal element', characterized by columns, made up of bundles of axons, oriented perpendicularly to the cortical surface. (Adapted from WHO)",
+      "type": "DEFINITION",
+      "source": "NCI"
+    }
+  ],
+  "properties": [
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "Cellosaurus"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "GDC"
+    },
+    {
+      "code": "P334",
+      "type": "ICD-O-3_Code",
+      "value": "9413/0"
+    },
+    {
+      "code": "P366",
+      "type": "Legacy Concept Name",
+      "value": "Dysembryoplastic_Neuroepithelial_Tumor"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "9413/0"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "Dysembryoplastic neuroepithelial tumor"
+    },
+    {
+      "code": "P363",
+      "type": "Neoplastic_Status",
+      "value": "Undetermined"
+    },
+    {
+      "code": "P106",
+      "type": "Semantic_Type",
+      "value": "Neoplastic Process"
+    },
+    {
+      "code": "P207",
+      "type": "UMLS_CUI",
+      "value": "C1266177"
+    }
+  ],
+  "children": [
+    {
+      "code": "C188932",
+      "name": "Adult Dysembryoplastic Neuroepithelial Tumor",
+      "leaf": true
+    },
+    {
+      "code": "C188931",
+      "name": "Childhood Dysembryoplastic Neuroepithelial Tumor",
+      "leaf": true
+    }
+  ],
+  "parents": [
+    {
+      "code": "C4747",
+      "name": "Glioneuronal and Neuronal Tumors"
+    },
+    {
+      "code": "C170814",
+      "name": "Primary Brain Neoplasm"
+    }
+  ],
+  "associations": [
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C165258",
+      "relatedName": "Cellosaurus Disease Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C157711",
+      "relatedName": "GDC Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C177537",
+      "relatedName": "GDC Value Terminology"
+    },
+    {
+      "type": "Is_Value_For_GDC_Property",
+      "relatedCode": "C176985",
+      "relatedName": "Histology ICD-O Morphology Code"
+    },
+    {
+      "type": "Is_Value_For_GDC_Property",
+      "relatedCode": "C177621",
+      "relatedName": "ICD-O-3 Morphology Term Diagnosis Question"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168658",
+      "relatedName": "Mapped ICDO3.1 Morphology PT Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168657",
+      "relatedName": "Mapped ICDO3.1 Morphology Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168655",
+      "relatedName": "Mapped ICDO3.1 Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168662",
+      "relatedName": "Mapped ICDO3.2 Morphology PT Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168661",
+      "relatedName": "Mapped ICDO3.2 Morphology Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168656",
+      "relatedName": "Mapped ICDO3.2 Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C126659",
+      "relatedName": "NCIt Neoplasm Core Terminology"
+    }
+  ],
+  "inverseAssociations": [
+    {
+      "type": "Has_GDC_Value",
+      "relatedCode": "C176985",
+      "relatedName": "Histology ICD-O Morphology Code"
+    },
+    {
+      "type": "Has_GDC_Value",
+      "relatedCode": "C177621",
+      "relatedName": "ICD-O-3 Morphology Term Diagnosis Question"
+    }
+  ],
+  "roles": [
+    {
+      "type": "Disease_May_Have_Associated_Disease",
+      "relatedCode": "C85237",
+      "relatedName": "47,XYY Syndrome"
+    },
+    {
+      "type": "Disease_May_Have_Molecular_Abnormality",
+      "relatedCode": "C40430",
+      "relatedName": "BRAF Gene Mutation"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12439",
+      "relatedName": "Brain"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12439",
+      "relatedName": "Brain"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12438",
+      "relatedName": "Central Nervous System"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12438",
+      "relatedName": "Central Nervous System"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12443",
+      "relatedName": "Cerebral Cortex"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C42088",
+      "relatedName": "Cortical Dysplasia"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C36156",
+      "relatedName": "Favorable Clinical Outcome"
+    },
+    {
+      "type": "Disease_May_Have_Molecular_Abnormality",
+      "relatedCode": "C129632",
+      "relatedName": "FGFR1 Gene Mutation"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C41471",
+      "relatedName": "Glial Differentiation"
+    },
+    {
+      "type": "Disease_Is_Grade",
+      "relatedCode": "C28077",
+      "relatedName": "Grade 1"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C37127",
+      "relatedName": "Neoplastic Astrocyte"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12922",
+      "relatedName": "Neoplastic Cell"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C37146",
+      "relatedName": "Neoplastic Ganglion Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C41408",
+      "relatedName": "Neoplastic Neuroepithelial Cell and Neoplastic Perineural Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C37125",
+      "relatedName": "Neoplastic Neuroepithelial Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C37147",
+      "relatedName": "Neoplastic Oligodendrocyte-Like Cell"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C41406",
+      "relatedName": "Nerve Tissue, Neuroepithelial Tissue, and Nerve Sheaths"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12755",
+      "relatedName": "Nervous System"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C41410",
+      "relatedName": "Neuroepithelial Cell"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C41409",
+      "relatedName": "Neuroepithelial Tissue"
+    },
+    {
+      "type": "Disease_May_Have_Associated_Disease",
+      "relatedCode": "C3273",
+      "relatedName": "Neurofibromatosis Type 1"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C41405",
+      "relatedName": "Neuron, Neuroepithelial Cell, and Supporting Cell of the Nervous System"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C42083",
+      "relatedName": "Neuronal Differentiation"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C35899",
+      "relatedName": "Nodular Pattern"
+    },
+    {
+      "type": "Disease_Excludes_Normal_Cell_Origin",
+      "relatedCode": "C12618",
+      "relatedName": "Oligodendrocyte"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C42089",
+      "relatedName": "Pale Eosinophilic Stroma Formation"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C41611",
+      "relatedName": "Precise Histogenesis Unknown"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C2962",
+      "relatedName": "Seizure"
+    },
+    {
+      "type": "Disease_Excludes_Primary_Anatomic_Site",
+      "relatedCode": "C33536",
+      "relatedName": "Septum Pellucidum"
+    },
+    {
+      "type": "Disease_Excludes_Primary_Anatomic_Site",
+      "relatedCode": "C12464",
+      "relatedName": "Spinal Cord"
+    }
+  ],
+  "history": [
+    {
+      "code": "C9505",
+      "action": "create",
+      "date": "2003-08-12"
+    },
+    {
+      "code": "C9505",
+      "action": "modify",
+      "date": "2003-10-31"
+    },
+    {
+      "code": "C9505",
+      "action": "modify",
+      "date": "2003-12-30"
+    },
+    {
+      "code": "C9505",
+      "action": "modify",
+      "date": "2004-03-30"
+    },
+    {
+      "code": "C9505",
+      "action": "modify",
+      "date": "2004-05-28"
+    },
+    {
+      "code": "C9505",
+      "action": "modify",
+      "date": "2004-11-17"
+    },
+    {
+      "code": "C9505",
+      "action": "modify",
+      "date": "2007-03-30"
+    },
+    {
+      "code": "C9505",
+      "action": "modify",
+      "date": "2007-04-30"
+    },
+    {
+      "code": "C9505",
+      "action": "modify",
+      "date": "2009-04-06"
+    },
+    {
+      "code": "C9505",
+      "action": "modify",
+      "date": "2009-11-23"
+    },
+    {
+      "code": "C9505",
+      "action": "modify",
+      "date": "2010-10-12"
+    },
+    {
+      "code": "C9505",
+      "action": "modify",
+      "date": "2012-01-17"
+    },
+    {
+      "code": "C9505",
+      "action": "modify",
+      "date": "2013-02-25"
+    },
+    {
+      "code": "C9505",
+      "action": "modify",
+      "date": "2013-03-04"
+    },
+    {
+      "code": "C9505",
+      "action": "modify",
+      "date": "2013-03-11"
+    },
+    {
+      "code": "C9505",
+      "action": "modify",
+      "date": "2013-03-18"
+    },
+    {
+      "code": "C9505",
+      "action": "modify",
+      "date": "2013-03-25"
+    },
+    {
+      "code": "C9505",
+      "action": "modify",
+      "date": "2013-04-01"
+    },
+    {
+      "code": "C9505",
+      "action": "modify",
+      "date": "2013-04-08"
+    },
+    {
+      "code": "C9505",
+      "action": "modify",
+      "date": "2013-04-15"
+    },
+    {
+      "code": "C9505",
+      "action": "modify",
+      "date": "2013-04-22"
+    },
+    {
+      "code": "C9505",
+      "action": "modify",
+      "date": "2013-04-29"
+    },
+    {
+      "code": "C9505",
+      "action": "modify",
+      "date": "2013-05-06"
+    },
+    {
+      "code": "C9505",
+      "action": "modify",
+      "date": "2013-05-13"
+    },
+    {
+      "code": "C9505",
+      "action": "modify",
+      "date": "2013-05-20"
+    },
+    {
+      "code": "C9505",
+      "action": "modify",
+      "date": "2013-05-28"
+    },
+    {
+      "code": "C9505",
+      "action": "modify",
+      "date": "2013-06-03"
+    },
+    {
+      "code": "C9505",
+      "action": "modify",
+      "date": "2013-06-10"
+    },
+    {
+      "code": "C9505",
+      "action": "modify",
+      "date": "2013-06-17"
+    },
+    {
+      "code": "C9505",
+      "action": "modify",
+      "date": "2013-06-24"
+    },
+    {
+      "code": "C9505",
+      "action": "modify",
+      "date": "2013-07-01"
+    },
+    {
+      "code": "C9505",
+      "action": "modify",
+      "date": "2013-07-08"
+    },
+    {
+      "code": "C9505",
+      "action": "modify",
+      "date": "2016-04-25"
+    },
+    {
+      "code": "C9505",
+      "action": "modify",
+      "date": "2018-09-24"
+    },
+    {
+      "code": "C9505",
+      "action": "modify",
+      "date": "2018-11-26"
+    },
+    {
+      "code": "C9505",
+      "action": "modify",
+      "date": "2019-05-28"
+    },
+    {
+      "code": "C9505",
+      "action": "modify",
+      "date": "2019-09-30"
+    },
+    {
+      "code": "C9505",
+      "action": "modify",
+      "date": "2019-11-25"
+    },
+    {
+      "code": "C9505",
+      "action": "modify",
+      "date": "2020-02-24"
+    },
+    {
+      "code": "C9505",
+      "action": "modify",
+      "date": "2020-03-30"
+    },
+    {
+      "code": "C9505",
+      "action": "modify",
+      "date": "2020-04-27"
+    },
+    {
+      "code": "C9505",
+      "action": "modify",
+      "date": "2020-06-29"
+    },
+    {
+      "code": "C9505",
+      "action": "modify",
+      "date": "2020-09-29"
+    },
+    {
+      "code": "C9505",
+      "action": "modify",
+      "date": "2021-02-22"
+    },
+    {
+      "code": "C9505",
+      "action": "modify",
+      "date": "2021-03-29"
+    },
+    {
+      "code": "C9505",
+      "action": "modify",
+      "date": "2021-05-24"
+    },
+    {
+      "code": "C9505",
+      "action": "modify",
+      "date": "2021-06-28"
+    },
+    {
+      "code": "C9505",
+      "action": "modify",
+      "date": "2022-03-28"
+    },
+    {
+      "code": "C9505",
+      "action": "modify",
+      "date": "2022-08-29"
+    },
+    {
+      "code": "C9505",
+      "action": "modify",
+      "date": "2023-12-26"
+    },
+    {
+      "code": "C9505",
+      "action": "modify",
+      "date": "2025-03-31"
+    },
+    {
+      "code": "C9505",
+      "action": "modify",
+      "date": "2025-04-28"
+    }
+  ],
+  "maps": [
+    {
+      "type": "Related To",
+      "targetName": "9413/0",
+      "targetTermType": "PT",
+      "targetCode": "morphology",
+      "targetTerminology": "GDC"
+    },
+    {
+      "type": "Related To",
+      "targetName": "Dysembryoplastic neuroepithelial tumor",
+      "targetTermType": "PT",
+      "targetCode": "9413/0",
+      "targetTerminology": "ICDO3",
+      "targetTerminologyVersion": "3.2"
+    },
+    {
+      "type": "Related To",
+      "targetName": "Dysembryoplastic neuroepithelial tumor",
+      "targetTermType": "PT",
+      "targetCode": "9413/0",
+      "targetTerminology": "ICDO3",
+      "targetTerminologyVersion": "3.1"
+    },
+    {
+      "type": "Has Synonym",
+      "targetName": "Dysembryoplastic neuroepithelial tumor",
+      "targetTermType": "PT",
+      "targetCode": "primary_diagnosis",
+      "targetTerminology": "GDC"
+    }
+  ]
+}

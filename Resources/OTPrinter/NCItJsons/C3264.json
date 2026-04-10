@@ -1,0 +1,307 @@
+{
+  "code": "C3264",
+  "name": "Embryonal Neoplasm",
+  "terminology": "ncit",
+  "version": "25.11d",
+  "conceptStatus": "DEFAULT",
+  "leaf": false,
+  "active": true,
+  "synonyms": [
+    {
+      "name": "Embryonal Neoplasm",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "CPTAC"
+    },
+    {
+      "name": "embryonal tumor",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NCI-GLOSS",
+      "code": "CDR0000367442"
+    },
+    {
+      "name": "Embryonal Neoplasm",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Embryonal Neoplasm",
+      "type": "Preferred_Name"
+    }
+  ],
+  "definitions": [
+    {
+      "definition": "A mass of rapidly growing cells that begins in embryonic (fetal) tissue. Embryonal tumors may be benign or malignant, and include neuroblastomas and Wilms tumors.",
+      "type": "ALT_DEFINITION",
+      "source": "NCI-GLOSS"
+    },
+    {
+      "definition": "A usually malignant neoplasm composed of primitive (immature) tissues that resemble fetal tissues.  Medulloblastoma, ependymoblastoma, pineoblastoma, and Wilms tumor are representative embryonal neoplasms.",
+      "type": "DEFINITION",
+      "source": "NCI"
+    }
+  ],
+  "properties": [
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "CPTAC"
+    },
+    {
+      "code": "P366",
+      "type": "Legacy Concept Name",
+      "value": "Embryonal_Neoplasm"
+    },
+    {
+      "code": "P363",
+      "type": "Neoplastic_Status",
+      "value": "Undetermined"
+    },
+    {
+      "code": "P106",
+      "type": "Semantic_Type",
+      "value": "Neoplastic Process"
+    },
+    {
+      "code": "P207",
+      "type": "UMLS_CUI",
+      "value": "C0027654"
+    }
+  ],
+  "children": [
+    {
+      "code": "C8997",
+      "name": "Blastoma",
+      "leaf": false
+    },
+    {
+      "code": "C6990",
+      "name": "Central Nervous System Embryonal Tumor",
+      "leaf": false
+    },
+    {
+      "code": "C66806",
+      "name": "Ciliary Body Medulloepithelioma",
+      "leaf": false
+    },
+    {
+      "code": "C6569",
+      "name": "Congenital Mesoblastic Nephroma",
+      "leaf": false
+    },
+    {
+      "code": "C27291",
+      "name": "Ewing Sarcoma/Peripheral Primitive Neuroectodermal Tumor",
+      "leaf": false
+    },
+    {
+      "code": "C3728",
+      "name": "Hepatoblastoma",
+      "leaf": false
+    },
+    {
+      "code": "C3717",
+      "name": "Melanotic Neuroectodermal Tumor",
+      "leaf": false
+    },
+    {
+      "code": "C7063",
+      "name": "Notochordal Tumor",
+      "leaf": false
+    },
+    {
+      "code": "C3716",
+      "name": "Primitive Neuroectodermal Tumor",
+      "leaf": false
+    },
+    {
+      "code": "C3808",
+      "name": "Rhabdoid Tumor",
+      "leaf": false
+    },
+    {
+      "code": "C187995",
+      "name": "Thyroblastoma",
+      "leaf": true
+    },
+    {
+      "code": "C175225",
+      "name": "Visual Pathway Medulloepithelioma",
+      "leaf": false
+    },
+    {
+      "code": "C3267",
+      "name": "Wilms Tumor",
+      "leaf": false
+    }
+  ],
+  "parents": [
+    {
+      "code": "C7062",
+      "name": "Neoplasm by Special Category"
+    }
+  ],
+  "associations": [
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C138188",
+      "relatedName": "Clinical Trials Search-Application Programming Interface Disease Category Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C158520",
+      "relatedName": "CPTAC Codelists Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C156966",
+      "relatedName": "CPTAC Neoplasms Codelist"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C156952",
+      "relatedName": "CPTAC Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C138190",
+      "relatedName": "CTS-API Disease Main Type Terminology"
+    },
+    {
+      "type": "Neoplasm_Has_Special_Category",
+      "relatedCode": "C9292",
+      "relatedName": "Solid Neoplasm"
+    }
+  ],
+  "roles": [
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C13054",
+      "relatedName": "Embryonic Cell"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C12950",
+      "relatedName": "Embryonic Tissue"
+    },
+    {
+      "type": "Disease_Excludes_Normal_Tissue_Origin",
+      "relatedCode": "C54105",
+      "relatedName": "Germinal Layer"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12922",
+      "relatedName": "Neoplastic Cell"
+    }
+  ],
+  "history": [
+    {
+      "code": "C3264",
+      "action": "create",
+      "date": "2003-08-12"
+    },
+    {
+      "code": "C3264",
+      "action": "modify",
+      "date": "2003-12-30"
+    },
+    {
+      "code": "C3264",
+      "action": "modify",
+      "date": "2004-03-30"
+    },
+    {
+      "code": "C3264",
+      "action": "modify",
+      "date": "2005-04-29"
+    },
+    {
+      "code": "C3264",
+      "action": "modify",
+      "date": "2006-05-26"
+    },
+    {
+      "code": "C3264",
+      "action": "modify",
+      "date": "2006-06-30"
+    },
+    {
+      "code": "C3264",
+      "action": "modify",
+      "date": "2006-09-29"
+    },
+    {
+      "code": "C3264",
+      "action": "modify",
+      "date": "2009-04-06"
+    },
+    {
+      "code": "C3264",
+      "action": "modify",
+      "date": "2009-11-23"
+    },
+    {
+      "code": "C3264",
+      "action": "modify",
+      "date": "2010-01-11"
+    },
+    {
+      "code": "C3264",
+      "action": "modify",
+      "date": "2012-12-10"
+    },
+    {
+      "code": "C3264",
+      "action": "modify",
+      "date": "2014-02-03"
+    },
+    {
+      "code": "C3264",
+      "action": "modify",
+      "date": "2017-09-26"
+    },
+    {
+      "code": "C3264",
+      "action": "modify",
+      "date": "2018-02-26"
+    },
+    {
+      "code": "C3264",
+      "action": "modify",
+      "date": "2018-10-29"
+    },
+    {
+      "code": "C3264",
+      "action": "modify",
+      "date": "2018-10-29"
+    },
+    {
+      "code": "C3264",
+      "action": "modify",
+      "date": "2019-02-25"
+    },
+    {
+      "code": "C3264",
+      "action": "modify",
+      "date": "2019-03-25"
+    },
+    {
+      "code": "C3264",
+      "action": "modify",
+      "date": "2019-05-28"
+    },
+    {
+      "code": "C3264",
+      "action": "modify",
+      "date": "2019-07-29"
+    },
+    {
+      "code": "C3264",
+      "action": "modify",
+      "date": "2023-12-26"
+    }
+  ]
+}

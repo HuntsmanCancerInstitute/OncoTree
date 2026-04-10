@@ -1,0 +1,1631 @@
+{
+  "code": "C60781",
+  "name": "Astrocytoma",
+  "terminology": "ncit",
+  "version": "25.11d",
+  "conceptStatus": "DEFAULT",
+  "leaf": false,
+  "active": true,
+  "synonyms": [
+    {
+      "name": "Astrocytoma",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "caDSR"
+    },
+    {
+      "name": "Astrocytoma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "Cellosaurus"
+    },
+    {
+      "name": "Astrocytoma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "CPTAC"
+    },
+    {
+      "name": "Astrocytoma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "CTRP"
+    },
+    {
+      "name": "Astrocytoma",
+      "termType": "DN",
+      "type": "FULL_SYN",
+      "source": "CTRP"
+    },
+    {
+      "name": "Astrocytoma, NOS",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "GDC"
+    },
+    {
+      "name": "astrocytoma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NCI-GLOSS",
+      "code": "CDR0000045602"
+    },
+    {
+      "name": "Astrocytoma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Astrocytoma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NICHD"
+    },
+    {
+      "name": "Astrocytoma",
+      "type": "Display_Name"
+    },
+    {
+      "name": "Astrocytoma",
+      "type": "Preferred_Name"
+    }
+  ],
+  "definitions": [
+    {
+      "definition": "A malignant neoplasm of the central nervous system that arises from astrocytes.",
+      "type": "ALT_DEFINITION",
+      "source": "NICHD"
+    },
+    {
+      "definition": "A tumor of the brain or spinal cord showing astrocytic differentiation. It includes the following clinicopathological entities: pilocytic astrocytoma, diffuse astrocytoma, anaplastic astrocytoma, pleomorphic xanthoastrocytoma, and subependymal giant cell astrocytoma.",
+      "type": "DEFINITION",
+      "source": "NCI"
+    },
+    {
+      "definition": "A tumor that begins in the brain or spinal cord in small, star-shaped cells called astrocytes.",
+      "type": "ALT_DEFINITION",
+      "source": "NCI-GLOSS"
+    }
+  ],
+  "properties": [
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "Cellosaurus"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "CPTAC"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "CTRP"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "GDC"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "MedDRA"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "NICHD"
+    },
+    {
+      "code": "P334",
+      "type": "ICD-O-3_Code",
+      "value": "9400/3"
+    },
+    {
+      "code": "P366",
+      "type": "Legacy Concept Name",
+      "value": "Astrocytoma"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "9400/3"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "Astrocytoma"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "Astrocytoma, NOS"
+    },
+    {
+      "code": "P363",
+      "type": "Neoplastic_Status",
+      "value": "Undetermined"
+    },
+    {
+      "code": "P106",
+      "type": "Semantic_Type",
+      "value": "Neoplastic Process"
+    },
+    {
+      "code": "P207",
+      "type": "UMLS_CUI",
+      "value": "C0004114"
+    }
+  ],
+  "children": [
+    {
+      "code": "C9477",
+      "name": "Anaplastic Astrocytoma",
+      "leaf": false
+    },
+    {
+      "code": "C129327",
+      "name": "Anaplastic Pleomorphic Xanthoastrocytoma",
+      "leaf": false
+    },
+    {
+      "code": "C185167",
+      "name": "Astrocytoma, IDH-Mutant",
+      "leaf": false
+    },
+    {
+      "code": "C185184",
+      "name": "Astrocytoma, IDH-Wildtype",
+      "leaf": false
+    },
+    {
+      "code": "C185185",
+      "name": "Astrocytoma, Not Otherwise Specified",
+      "leaf": false
+    },
+    {
+      "code": "C60780",
+      "name": "Brain Astrocytoma",
+      "leaf": false
+    },
+    {
+      "code": "C5408",
+      "name": "Cauda Equina Astrocytoma",
+      "leaf": true
+    },
+    {
+      "code": "C124275",
+      "name": "Childhood Astrocytoma",
+      "leaf": false
+    },
+    {
+      "code": "C92550",
+      "name": "Glioneuronal Tumor with Neuropil-Like Islands",
+      "leaf": true
+    },
+    {
+      "code": "C116342",
+      "name": "Low Grade Astrocytoma",
+      "leaf": false
+    },
+    {
+      "code": "C40315",
+      "name": "Pilomyxoid Astrocytoma",
+      "leaf": false
+    },
+    {
+      "code": "C212992",
+      "name": "Recurrent Astrocytoma",
+      "leaf": false
+    },
+    {
+      "code": "C216102",
+      "name": "Refractory Astrocytoma",
+      "leaf": false
+    },
+    {
+      "code": "C188469",
+      "name": "Resectable Astrocytoma",
+      "leaf": false
+    },
+    {
+      "code": "C4641",
+      "name": "Spinal Cord Astrocytoma",
+      "leaf": false
+    },
+    {
+      "code": "C7533",
+      "name": "Visual Pathway Astrocytoma",
+      "leaf": false
+    }
+  ],
+  "parents": [
+    {
+      "code": "C6958",
+      "name": "Astrocytic Tumor"
+    }
+  ],
+  "associations": [
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C165258",
+      "relatedName": "Cellosaurus Disease Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C138188",
+      "relatedName": "Clinical Trials Search-Application Programming Interface Disease Category Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C158520",
+      "relatedName": "CPTAC Codelists Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C156966",
+      "relatedName": "CPTAC Neoplasms Codelist"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C156952",
+      "relatedName": "CPTAC Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C118168",
+      "relatedName": "CTRP Disease Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C116977",
+      "relatedName": "CTRP Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C138190",
+      "relatedName": "CTS-API Disease Main Type Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C157711",
+      "relatedName": "GDC Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C177537",
+      "relatedName": "GDC Value Terminology"
+    },
+    {
+      "type": "Is_Value_For_GDC_Property",
+      "relatedCode": "C176985",
+      "relatedName": "Histology ICD-O Morphology Code"
+    },
+    {
+      "type": "Is_Value_For_GDC_Property",
+      "relatedCode": "C177621",
+      "relatedName": "ICD-O-3 Morphology Term Diagnosis Question"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168658",
+      "relatedName": "Mapped ICDO3.1 Morphology PT Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168657",
+      "relatedName": "Mapped ICDO3.1 Morphology Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168655",
+      "relatedName": "Mapped ICDO3.1 Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168662",
+      "relatedName": "Mapped ICDO3.2 Morphology PT Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168661",
+      "relatedName": "Mapped ICDO3.2 Morphology Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168656",
+      "relatedName": "Mapped ICDO3.2 Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C126659",
+      "relatedName": "NCIt Neoplasm Core Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C90259",
+      "relatedName": "NICHD Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C189762",
+      "relatedName": "Pediatric Adverse Events Terminology Mapped to MedDRA"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C118464",
+      "relatedName": "Pediatric Adverse Events Terminology"
+    },
+    {
+      "type": "Neoplasm_Has_Special_Category",
+      "relatedCode": "C9292",
+      "relatedName": "Solid Neoplasm"
+    }
+  ],
+  "inverseAssociations": [
+    {
+      "type": "Has_GDC_Value",
+      "relatedCode": "C176985",
+      "relatedName": "Histology ICD-O Morphology Code"
+    },
+    {
+      "type": "Has_GDC_Value",
+      "relatedCode": "C177621",
+      "relatedName": "ICD-O-3 Morphology Term Diagnosis Question"
+    }
+  ],
+  "roles": [
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C12477",
+      "relatedName": "Astrocyte"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12438",
+      "relatedName": "Central Nervous System"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12438",
+      "relatedName": "Central Nervous System"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C12615",
+      "relatedName": "Glial Cell"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C36140",
+      "relatedName": "Grade 4 Lesion"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C37127",
+      "relatedName": "Neoplastic Astrocyte"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12922",
+      "relatedName": "Neoplastic Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C37126",
+      "relatedName": "Neoplastic Glial Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C41408",
+      "relatedName": "Neoplastic Neuroepithelial Cell and Neoplastic Perineural Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C37125",
+      "relatedName": "Neoplastic Neuroepithelial Cell"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C41406",
+      "relatedName": "Nerve Tissue, Neuroepithelial Tissue, and Nerve Sheaths"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12755",
+      "relatedName": "Nervous System"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C41410",
+      "relatedName": "Neuroepithelial Cell"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C41409",
+      "relatedName": "Neuroepithelial Tissue"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C41405",
+      "relatedName": "Neuron, Neuroepithelial Cell, and Supporting Cell of the Nervous System"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C41611",
+      "relatedName": "Precise Histogenesis Unknown"
+    }
+  ],
+  "inverseRoles": [
+    {
+      "type": "Gene_Associated_With_Disease",
+      "relatedCode": "C84948",
+      "relatedName": "IDH2 Gene"
+    },
+    {
+      "type": "Gene_Associated_With_Disease",
+      "relatedCode": "C84949",
+      "relatedName": "IDH2 wt Allele"
+    },
+    {
+      "type": "Disease_May_Have_Associated_Disease",
+      "relatedCode": "C176905",
+      "relatedName": "Melanoma-Astrocytoma Syndrome"
+    }
+  ],
+  "history": [
+    {
+      "code": "C60781",
+      "action": "create",
+      "date": "2006-05-26"
+    },
+    {
+      "code": "C60781",
+      "action": "modify",
+      "date": "2007-03-30"
+    },
+    {
+      "code": "C60781",
+      "action": "modify",
+      "date": "2007-06-28"
+    },
+    {
+      "code": "C60781",
+      "action": "modify",
+      "date": "2009-04-06"
+    },
+    {
+      "code": "C60781",
+      "action": "modify",
+      "date": "2009-11-23"
+    },
+    {
+      "code": "C60781",
+      "action": "modify",
+      "date": "2010-05-17"
+    },
+    {
+      "code": "C60781",
+      "action": "modify",
+      "date": "2010-06-01"
+    },
+    {
+      "code": "C60781",
+      "action": "modify",
+      "date": "2011-02-28"
+    },
+    {
+      "code": "C60781",
+      "action": "modify",
+      "date": "2011-04-11"
+    },
+    {
+      "code": "C60781",
+      "action": "modify",
+      "date": "2011-11-14"
+    },
+    {
+      "code": "C60781",
+      "action": "modify",
+      "date": "2011-11-21"
+    },
+    {
+      "code": "C60781",
+      "action": "modify",
+      "date": "2011-11-28"
+    },
+    {
+      "code": "C60781",
+      "action": "modify",
+      "date": "2011-12-05"
+    },
+    {
+      "code": "C60781",
+      "action": "modify",
+      "date": "2011-12-12"
+    },
+    {
+      "code": "C60781",
+      "action": "modify",
+      "date": "2011-12-19"
+    },
+    {
+      "code": "C60781",
+      "action": "modify",
+      "date": "2011-12-27"
+    },
+    {
+      "code": "C60781",
+      "action": "modify",
+      "date": "2012-01-09"
+    },
+    {
+      "code": "C60781",
+      "action": "modify",
+      "date": "2012-01-17"
+    },
+    {
+      "code": "C60781",
+      "action": "modify",
+      "date": "2012-01-23"
+    },
+    {
+      "code": "C60781",
+      "action": "modify",
+      "date": "2012-01-30"
+    },
+    {
+      "code": "C60781",
+      "action": "modify",
+      "date": "2012-02-06"
+    },
+    {
+      "code": "C60781",
+      "action": "modify",
+      "date": "2012-02-13"
+    },
+    {
+      "code": "C60781",
+      "action": "modify",
+      "date": "2012-02-21"
+    },
+    {
+      "code": "C60781",
+      "action": "modify",
+      "date": "2012-02-27"
+    },
+    {
+      "code": "C60781",
+      "action": "modify",
+      "date": "2012-03-05"
+    },
+    {
+      "code": "C60781",
+      "action": "modify",
+      "date": "2012-03-12"
+    },
+    {
+      "code": "C60781",
+      "action": "modify",
+      "date": "2012-03-19"
+    },
+    {
+      "code": "C60781",
+      "action": "modify",
+      "date": "2012-03-26"
+    },
+    {
+      "code": "C60781",
+      "action": "modify",
+      "date": "2012-04-02"
+    },
+    {
+      "code": "C60781",
+      "action": "modify",
+      "date": "2012-04-09"
+    },
+    {
+      "code": "C60781",
+      "action": "modify",
+      "date": "2012-04-16"
+    },
+    {
+      "code": "C60781",
+      "action": "modify",
+      "date": "2012-04-23"
+    },
+    {
+      "code": "C60781",
+      "action": "modify",
+      "date": "2012-04-30"
+    },
+    {
+      "code": "C60781",
+      "action": "modify",
+      "date": "2012-05-07"
+    },
+    {
+      "code": "C60781",
+      "action": "modify",
+      "date": "2012-05-14"
+    },
+    {
+      "code": "C60781",
+      "action": "modify",
+      "date": "2012-05-21"
+    },
+    {
+      "code": "C60781",
+      "action": "modify",
+      "date": "2012-05-29"
+    },
+    {
+      "code": "C60781",
+      "action": "modify",
+      "date": "2012-06-04"
+    },
+    {
+      "code": "C60781",
+      "action": "modify",
+      "date": "2012-06-11"
+    },
+    {
+      "code": "C60781",
+      "action": "modify",
+      "date": "2012-06-18"
+    },
+    {
+      "code": "C60781",
+      "action": "modify",
+      "date": "2012-06-18"
+    },
+    {
+      "code": "C60781",
+      "action": "modify",
+      "date": "2012-06-25"
+    },
+    {
+      "code": "C60781",
+      "action": "modify",
+      "date": "2012-07-03"
+    },
+    {
+      "code": "C60781",
+      "action": "modify",
+      "date": "2012-07-16"
+    },
+    {
+      "code": "C60781",
+      "action": "modify",
+      "date": "2012-07-23"
+    },
+    {
+      "code": "C60781",
+      "action": "modify",
+      "date": "2012-07-30"
+    },
+    {
+      "code": "C60781",
+      "action": "modify",
+      "date": "2012-08-06"
+    },
+    {
+      "code": "C60781",
+      "action": "modify",
+      "date": "2012-08-13"
+    },
+    {
+      "code": "C60781",
+      "action": "modify",
+      "date": "2012-08-20"
+    },
+    {
+      "code": "C60781",
+      "action": "modify",
+      "date": "2012-08-27"
+    },
+    {
+      "code": "C60781",
+      "action": "modify",
+      "date": "2012-09-04"
+    },
+    {
+      "code": "C60781",
+      "action": "modify",
+      "date": "2012-09-10"
+    },
+    {
+      "code": "C60781",
+      "action": "modify",
+      "date": "2012-09-17"
+    },
+    {
+      "code": "C60781",
+      "action": "modify",
+      "date": "2012-09-24"
+    },
+    {
+      "code": "C60781",
+      "action": "modify",
+      "date": "2012-10-01"
+    },
+    {
+      "code": "C60781",
+      "action": "modify",
+      "date": "2012-10-09"
+    },
+    {
+      "code": "C60781",
+      "action": "modify",
+      "date": "2012-10-15"
+    },
+    {
+      "code": "C60781",
+      "action": "modify",
+      "date": "2012-10-22"
+    },
+    {
+      "code": "C60781",
+      "action": "modify",
+      "date": "2012-10-31"
+    },
+    {
+      "code": "C60781",
+      "action": "modify",
+      "date": "2012-11-05"
+    },
+    {
+      "code": "C60781",
+      "action": "modify",
+      "date": "2012-11-13"
+    },
+    {
+      "code": "C60781",
+      "action": "modify",
+      "date": "2012-11-19"
+    },
+    {
+      "code": "C60781",
+      "action": "modify",
+      "date": "2012-11-26"
+    },
+    {
+      "code": "C60781",
+      "action": "modify",
+      "date": "2012-12-03"
+    },
+    {
+      "code": "C60781",
+      "action": "modify",
+      "date": "2012-12-10"
+    },
+    {
+      "code": "C60781",
+      "action": "modify",
+      "date": "2012-12-17"
+    },
+    {
+      "code": "C60781",
+      "action": "modify",
+      "date": "2012-12-28"
+    },
+    {
+      "code": "C60781",
+      "action": "modify",
+      "date": "2013-01-07"
+    },
+    {
+      "code": "C60781",
+      "action": "modify",
+      "date": "2013-01-14"
+    },
+    {
+      "code": "C60781",
+      "action": "modify",
+      "date": "2013-01-23"
+    },
+    {
+      "code": "C60781",
+      "action": "modify",
+      "date": "2013-02-04"
+    },
+    {
+      "code": "C60781",
+      "action": "modify",
+      "date": "2013-02-11"
+    },
+    {
+      "code": "C60781",
+      "action": "modify",
+      "date": "2013-02-19"
+    },
+    {
+      "code": "C60781",
+      "action": "modify",
+      "date": "2013-02-25"
+    },
+    {
+      "code": "C60781",
+      "action": "modify",
+      "date": "2013-03-04"
+    },
+    {
+      "code": "C60781",
+      "action": "modify",
+      "date": "2013-03-11"
+    },
+    {
+      "code": "C60781",
+      "action": "modify",
+      "date": "2013-03-18"
+    },
+    {
+      "code": "C60781",
+      "action": "modify",
+      "date": "2013-03-25"
+    },
+    {
+      "code": "C60781",
+      "action": "modify",
+      "date": "2013-04-01"
+    },
+    {
+      "code": "C60781",
+      "action": "modify",
+      "date": "2013-04-08"
+    },
+    {
+      "code": "C60781",
+      "action": "modify",
+      "date": "2013-04-15"
+    },
+    {
+      "code": "C60781",
+      "action": "modify",
+      "date": "2013-04-22"
+    },
+    {
+      "code": "C60781",
+      "action": "modify",
+      "date": "2013-04-29"
+    },
+    {
+      "code": "C60781",
+      "action": "modify",
+      "date": "2013-05-06"
+    },
+    {
+      "code": "C60781",
+      "action": "modify",
+      "date": "2013-05-13"
+    },
+    {
+      "code": "C60781",
+      "action": "modify",
+      "date": "2013-05-20"
+    },
+    {
+      "code": "C60781",
+      "action": "modify",
+      "date": "2013-05-28"
+    },
+    {
+      "code": "C60781",
+      "action": "modify",
+      "date": "2013-06-03"
+    },
+    {
+      "code": "C60781",
+      "action": "modify",
+      "date": "2013-06-10"
+    },
+    {
+      "code": "C60781",
+      "action": "modify",
+      "date": "2013-06-17"
+    },
+    {
+      "code": "C60781",
+      "action": "modify",
+      "date": "2013-06-24"
+    },
+    {
+      "code": "C60781",
+      "action": "modify",
+      "date": "2013-07-01"
+    },
+    {
+      "code": "C60781",
+      "action": "modify",
+      "date": "2013-07-08"
+    },
+    {
+      "code": "C60781",
+      "action": "modify",
+      "date": "2014-03-05"
+    },
+    {
+      "code": "C60781",
+      "action": "modify",
+      "date": "2014-10-27"
+    },
+    {
+      "code": "C60781",
+      "action": "modify",
+      "date": "2014-11-03"
+    },
+    {
+      "code": "C60781",
+      "action": "modify",
+      "date": "2014-11-10"
+    },
+    {
+      "code": "C60781",
+      "action": "modify",
+      "date": "2014-11-17"
+    },
+    {
+      "code": "C60781",
+      "action": "modify",
+      "date": "2014-11-24"
+    },
+    {
+      "code": "C60781",
+      "action": "modify",
+      "date": "2014-12-01"
+    },
+    {
+      "code": "C60781",
+      "action": "modify",
+      "date": "2014-12-08"
+    },
+    {
+      "code": "C60781",
+      "action": "modify",
+      "date": "2014-12-15"
+    },
+    {
+      "code": "C60781",
+      "action": "modify",
+      "date": "2014-12-22"
+    },
+    {
+      "code": "C60781",
+      "action": "modify",
+      "date": "2014-12-29"
+    },
+    {
+      "code": "C60781",
+      "action": "modify",
+      "date": "2015-01-05"
+    },
+    {
+      "code": "C60781",
+      "action": "modify",
+      "date": "2015-01-12"
+    },
+    {
+      "code": "C60781",
+      "action": "modify",
+      "date": "2015-01-20"
+    },
+    {
+      "code": "C60781",
+      "action": "modify",
+      "date": "2015-01-26"
+    },
+    {
+      "code": "C60781",
+      "action": "modify",
+      "date": "2015-02-02"
+    },
+    {
+      "code": "C60781",
+      "action": "modify",
+      "date": "2015-02-09"
+    },
+    {
+      "code": "C60781",
+      "action": "modify",
+      "date": "2015-02-17"
+    },
+    {
+      "code": "C60781",
+      "action": "modify",
+      "date": "2015-02-23"
+    },
+    {
+      "code": "C60781",
+      "action": "modify",
+      "date": "2015-03-02"
+    },
+    {
+      "code": "C60781",
+      "action": "modify",
+      "date": "2015-03-09"
+    },
+    {
+      "code": "C60781",
+      "action": "modify",
+      "date": "2015-03-16"
+    },
+    {
+      "code": "C60781",
+      "action": "modify",
+      "date": "2015-03-23"
+    },
+    {
+      "code": "C60781",
+      "action": "modify",
+      "date": "2015-03-30"
+    },
+    {
+      "code": "C60781",
+      "action": "modify",
+      "date": "2015-04-06"
+    },
+    {
+      "code": "C60781",
+      "action": "modify",
+      "date": "2015-04-13"
+    },
+    {
+      "code": "C60781",
+      "action": "modify",
+      "date": "2015-04-20"
+    },
+    {
+      "code": "C60781",
+      "action": "modify",
+      "date": "2015-04-27"
+    },
+    {
+      "code": "C60781",
+      "action": "modify",
+      "date": "2015-05-04"
+    },
+    {
+      "code": "C60781",
+      "action": "modify",
+      "date": "2015-05-11"
+    },
+    {
+      "code": "C60781",
+      "action": "modify",
+      "date": "2015-05-18"
+    },
+    {
+      "code": "C60781",
+      "action": "modify",
+      "date": "2015-05-26"
+    },
+    {
+      "code": "C60781",
+      "action": "modify",
+      "date": "2015-06-01"
+    },
+    {
+      "code": "C60781",
+      "action": "modify",
+      "date": "2015-06-08"
+    },
+    {
+      "code": "C60781",
+      "action": "modify",
+      "date": "2015-06-15"
+    },
+    {
+      "code": "C60781",
+      "action": "modify",
+      "date": "2015-06-22"
+    },
+    {
+      "code": "C60781",
+      "action": "modify",
+      "date": "2015-06-29"
+    },
+    {
+      "code": "C60781",
+      "action": "modify",
+      "date": "2015-07-06"
+    },
+    {
+      "code": "C60781",
+      "action": "modify",
+      "date": "2015-07-13"
+    },
+    {
+      "code": "C60781",
+      "action": "modify",
+      "date": "2015-08-12"
+    },
+    {
+      "code": "C60781",
+      "action": "modify",
+      "date": "2015-08-24"
+    },
+    {
+      "code": "C60781",
+      "action": "modify",
+      "date": "2015-08-31"
+    },
+    {
+      "code": "C60781",
+      "action": "modify",
+      "date": "2015-09-08"
+    },
+    {
+      "code": "C60781",
+      "action": "modify",
+      "date": "2015-09-14"
+    },
+    {
+      "code": "C60781",
+      "action": "modify",
+      "date": "2015-09-21"
+    },
+    {
+      "code": "C60781",
+      "action": "modify",
+      "date": "2015-09-28"
+    },
+    {
+      "code": "C60781",
+      "action": "modify",
+      "date": "2015-10-05"
+    },
+    {
+      "code": "C60781",
+      "action": "modify",
+      "date": "2015-10-13"
+    },
+    {
+      "code": "C60781",
+      "action": "modify",
+      "date": "2015-10-19"
+    },
+    {
+      "code": "C60781",
+      "action": "modify",
+      "date": "2015-10-26"
+    },
+    {
+      "code": "C60781",
+      "action": "modify",
+      "date": "2015-11-02"
+    },
+    {
+      "code": "C60781",
+      "action": "modify",
+      "date": "2015-11-09"
+    },
+    {
+      "code": "C60781",
+      "action": "modify",
+      "date": "2015-11-16"
+    },
+    {
+      "code": "C60781",
+      "action": "modify",
+      "date": "2015-11-23"
+    },
+    {
+      "code": "C60781",
+      "action": "modify",
+      "date": "2015-11-30"
+    },
+    {
+      "code": "C60781",
+      "action": "modify",
+      "date": "2015-12-07"
+    },
+    {
+      "code": "C60781",
+      "action": "modify",
+      "date": "2015-12-14"
+    },
+    {
+      "code": "C60781",
+      "action": "modify",
+      "date": "2015-12-21"
+    },
+    {
+      "code": "C60781",
+      "action": "modify",
+      "date": "2015-12-28"
+    },
+    {
+      "code": "C60781",
+      "action": "modify",
+      "date": "2016-01-04"
+    },
+    {
+      "code": "C60781",
+      "action": "modify",
+      "date": "2016-01-11"
+    },
+    {
+      "code": "C60781",
+      "action": "modify",
+      "date": "2016-01-19"
+    },
+    {
+      "code": "C60781",
+      "action": "modify",
+      "date": "2016-01-29"
+    },
+    {
+      "code": "C60781",
+      "action": "modify",
+      "date": "2016-03-07"
+    },
+    {
+      "code": "C60781",
+      "action": "modify",
+      "date": "2016-04-18"
+    },
+    {
+      "code": "C60781",
+      "action": "modify",
+      "date": "2016-04-25"
+    },
+    {
+      "code": "C60781",
+      "action": "modify",
+      "date": "2016-05-09"
+    },
+    {
+      "code": "C60781",
+      "action": "modify",
+      "date": "2016-05-16"
+    },
+    {
+      "code": "C60781",
+      "action": "modify",
+      "date": "2016-05-23"
+    },
+    {
+      "code": "C60781",
+      "action": "modify",
+      "date": "2016-05-31"
+    },
+    {
+      "code": "C60781",
+      "action": "modify",
+      "date": "2016-06-06"
+    },
+    {
+      "code": "C60781",
+      "action": "modify",
+      "date": "2016-06-13"
+    },
+    {
+      "code": "C60781",
+      "action": "modify",
+      "date": "2016-06-17"
+    },
+    {
+      "code": "C60781",
+      "action": "modify",
+      "date": "2016-06-27"
+    },
+    {
+      "code": "C60781",
+      "action": "modify",
+      "date": "2016-07-05"
+    },
+    {
+      "code": "C60781",
+      "action": "modify",
+      "date": "2016-07-11"
+    },
+    {
+      "code": "C60781",
+      "action": "modify",
+      "date": "2016-07-18"
+    },
+    {
+      "code": "C60781",
+      "action": "modify",
+      "date": "2016-07-25"
+    },
+    {
+      "code": "C60781",
+      "action": "modify",
+      "date": "2016-08-01"
+    },
+    {
+      "code": "C60781",
+      "action": "modify",
+      "date": "2016-08-08"
+    },
+    {
+      "code": "C60781",
+      "action": "modify",
+      "date": "2016-08-15"
+    },
+    {
+      "code": "C60781",
+      "action": "modify",
+      "date": "2016-08-22"
+    },
+    {
+      "code": "C60781",
+      "action": "modify",
+      "date": "2016-08-29"
+    },
+    {
+      "code": "C60781",
+      "action": "modify",
+      "date": "2016-09-06"
+    },
+    {
+      "code": "C60781",
+      "action": "modify",
+      "date": "2016-09-12"
+    },
+    {
+      "code": "C60781",
+      "action": "modify",
+      "date": "2016-09-20"
+    },
+    {
+      "code": "C60781",
+      "action": "modify",
+      "date": "2016-09-26"
+    },
+    {
+      "code": "C60781",
+      "action": "modify",
+      "date": "2016-10-03"
+    },
+    {
+      "code": "C60781",
+      "action": "modify",
+      "date": "2016-10-11"
+    },
+    {
+      "code": "C60781",
+      "action": "modify",
+      "date": "2016-10-17"
+    },
+    {
+      "code": "C60781",
+      "action": "modify",
+      "date": "2016-10-24"
+    },
+    {
+      "code": "C60781",
+      "action": "modify",
+      "date": "2016-10-31"
+    },
+    {
+      "code": "C60781",
+      "action": "modify",
+      "date": "2016-11-07"
+    },
+    {
+      "code": "C60781",
+      "action": "modify",
+      "date": "2016-11-14"
+    },
+    {
+      "code": "C60781",
+      "action": "modify",
+      "date": "2016-11-21"
+    },
+    {
+      "code": "C60781",
+      "action": "modify",
+      "date": "2016-11-28"
+    },
+    {
+      "code": "C60781",
+      "action": "modify",
+      "date": "2016-12-05"
+    },
+    {
+      "code": "C60781",
+      "action": "modify",
+      "date": "2016-12-12"
+    },
+    {
+      "code": "C60781",
+      "action": "modify",
+      "date": "2016-12-19"
+    },
+    {
+      "code": "C60781",
+      "action": "modify",
+      "date": "2016-12-27"
+    },
+    {
+      "code": "C60781",
+      "action": "modify",
+      "date": "2017-01-03"
+    },
+    {
+      "code": "C60781",
+      "action": "modify",
+      "date": "2017-01-09"
+    },
+    {
+      "code": "C60781",
+      "action": "modify",
+      "date": "2017-01-17"
+    },
+    {
+      "code": "C60781",
+      "action": "modify",
+      "date": "2017-01-23"
+    },
+    {
+      "code": "C60781",
+      "action": "modify",
+      "date": "2017-02-21"
+    },
+    {
+      "code": "C60781",
+      "action": "modify",
+      "date": "2017-05-23"
+    },
+    {
+      "code": "C60781",
+      "action": "modify",
+      "date": "2018-02-26"
+    },
+    {
+      "code": "C60781",
+      "action": "modify",
+      "date": "2018-07-30"
+    },
+    {
+      "code": "C60781",
+      "action": "modify",
+      "date": "2018-08-27"
+    },
+    {
+      "code": "C60781",
+      "action": "modify",
+      "date": "2018-08-27"
+    },
+    {
+      "code": "C60781",
+      "action": "modify",
+      "date": "2018-09-24"
+    },
+    {
+      "code": "C60781",
+      "action": "modify",
+      "date": "2018-10-29"
+    },
+    {
+      "code": "C60781",
+      "action": "modify",
+      "date": "2018-10-29"
+    },
+    {
+      "code": "C60781",
+      "action": "modify",
+      "date": "2019-02-25"
+    },
+    {
+      "code": "C60781",
+      "action": "modify",
+      "date": "2019-03-25"
+    },
+    {
+      "code": "C60781",
+      "action": "modify",
+      "date": "2019-05-28"
+    },
+    {
+      "code": "C60781",
+      "action": "modify",
+      "date": "2019-09-30"
+    },
+    {
+      "code": "C60781",
+      "action": "modify",
+      "date": "2019-10-28"
+    },
+    {
+      "code": "C60781",
+      "action": "modify",
+      "date": "2019-11-25"
+    },
+    {
+      "code": "C60781",
+      "action": "modify",
+      "date": "2020-02-24"
+    },
+    {
+      "code": "C60781",
+      "action": "modify",
+      "date": "2020-03-30"
+    },
+    {
+      "code": "C60781",
+      "action": "modify",
+      "date": "2020-04-27"
+    },
+    {
+      "code": "C60781",
+      "action": "modify",
+      "date": "2020-08-31"
+    },
+    {
+      "code": "C60781",
+      "action": "modify",
+      "date": "2020-09-29"
+    },
+    {
+      "code": "C60781",
+      "action": "modify",
+      "date": "2021-02-22"
+    },
+    {
+      "code": "C60781",
+      "action": "modify",
+      "date": "2021-03-29"
+    },
+    {
+      "code": "C60781",
+      "action": "modify",
+      "date": "2022-09-26"
+    },
+    {
+      "code": "C60781",
+      "action": "modify",
+      "date": "2023-02-27"
+    },
+    {
+      "code": "C60781",
+      "action": "modify",
+      "date": "2025-03-31"
+    }
+  ],
+  "maps": [
+    {
+      "type": "Related To",
+      "targetName": "9400/3",
+      "targetTermType": "PT",
+      "targetCode": "morphology",
+      "targetTerminology": "GDC"
+    },
+    {
+      "type": "Related To",
+      "targetName": "Astrocytoma, NOS",
+      "targetTermType": "PT",
+      "targetCode": "9400/3",
+      "targetTerminology": "ICDO3",
+      "targetTerminologyVersion": "3.1"
+    },
+    {
+      "type": "Related To",
+      "targetName": "Astrocytoma, NOS",
+      "targetTermType": "PT",
+      "targetCode": "9400/3",
+      "targetTerminology": "ICDO3",
+      "targetTerminologyVersion": "3.2"
+    },
+    {
+      "type": "Has Synonym",
+      "targetName": "Astrocytoma, NOS",
+      "targetTermType": "PT",
+      "targetCode": "primary_diagnosis",
+      "targetTerminology": "GDC"
+    },
+    {
+      "type": "Has Synonym",
+      "targetName": "Astrocytoma",
+      "targetTermType": "LLT",
+      "targetCode": "10003571",
+      "targetTerminology": "MedDRA",
+      "targetTerminologyVersion": "18.1"
+    }
+  ]
+}

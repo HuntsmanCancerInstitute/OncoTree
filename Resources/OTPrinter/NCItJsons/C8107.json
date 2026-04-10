@@ -1,0 +1,471 @@
+{
+  "code": "C8107",
+  "name": "Ovarian Yolk Sac Tumor",
+  "terminology": "ncit",
+  "version": "25.11d",
+  "conceptStatus": "DEFAULT",
+  "leaf": false,
+  "active": true,
+  "synonyms": [
+    {
+      "name": "Ovarian Yolk Sac Tumor",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "Cellosaurus"
+    },
+    {
+      "name": "Ovarian Yolk Sac Tumor",
+      "termType": "DN",
+      "type": "FULL_SYN",
+      "source": "CTRP"
+    },
+    {
+      "name": "Endodermal Sinus Neoplasm of Ovary",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Endodermal Sinus Neoplasm of the Ovary",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Endodermal Sinus Tumor of Ovary",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Endodermal Sinus Tumor of the Ovary",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Germ Cell Endodermal Sinus Neoplasm of Ovary",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Germ Cell Endodermal Sinus Neoplasm of the Ovary",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Germ Cell Endodermal Sinus Tumor of Ovary",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Germ Cell Endodermal Sinus Tumor of the Ovary",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Ovarian Endodermal Sinus Neoplasm",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Ovarian Endodermal Sinus Tumor",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Ovarian Germ Cell Endodermal Sinus Neoplasm",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Ovarian Germ Cell Endodermal Sinus Tumor",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Ovarian Yolk Sac Neoplasm",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Ovarian Yolk Sac Tumor",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Yolk Sac Neoplasm of Ovary",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Yolk Sac Neoplasm of the Ovary",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Yolk Sac Tumor of Ovary",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Yolk Sac Tumor of the Ovary",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Ovarian Yolk Sac Tumor",
+      "type": "Display_Name"
+    },
+    {
+      "name": "Ovarian Yolk Sac Tumor",
+      "type": "Preferred_Name"
+    }
+  ],
+  "definitions": [
+    {
+      "definition": "A usually rapidly growing malignant germ cell tumor arising from the ovary.  It usually occurs in children and adolescents.  Signs and symptoms include abdominal pain and a large abdominal or pelvic mass.  The serum alpha-fetoprotein is almost always elevated preoperatively.  Morphologically, there is marked heterogeneity due to numerous patterns of differentiation coexisting in the same tumor.  The most common pattern is reticular.",
+      "type": "DEFINITION",
+      "source": "NCI"
+    }
+  ],
+  "properties": [
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "Cellosaurus"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "CTRP"
+    },
+    {
+      "code": "P366",
+      "type": "Legacy Concept Name",
+      "value": "Ovarian_Yolk_Sac_Tumor"
+    },
+    {
+      "code": "P363",
+      "type": "Neoplastic_Status",
+      "value": "Malignant"
+    },
+    {
+      "code": "P106",
+      "type": "Semantic_Type",
+      "value": "Neoplastic Process"
+    },
+    {
+      "code": "P207",
+      "type": "UMLS_CUI",
+      "value": "C0346188"
+    }
+  ],
+  "children": [
+    {
+      "code": "C6551",
+      "name": "Childhood Ovarian Yolk Sac Tumor",
+      "leaf": true
+    },
+    {
+      "code": "C39988",
+      "name": "Ovarian Yolk Sac Tumor, Glandular Pattern",
+      "leaf": true
+    },
+    {
+      "code": "C39989",
+      "name": "Ovarian Yolk Sac Tumor, Hepatoid Pattern",
+      "leaf": true
+    },
+    {
+      "code": "C39987",
+      "name": "Ovarian Yolk Sac Tumor, Polyvesicular Vitelline Pattern",
+      "leaf": true
+    },
+    {
+      "code": "C8735",
+      "name": "Stage I Ovarian Yolk Sac Tumor AJCC v6 and v7",
+      "leaf": true
+    },
+    {
+      "code": "C8736",
+      "name": "Stage II Ovarian Yolk Sac Tumor AJCC v6 and v7",
+      "leaf": true
+    },
+    {
+      "code": "C8737",
+      "name": "Stage III Ovarian Yolk Sac Tumor AJCC v6 and v7",
+      "leaf": true
+    },
+    {
+      "code": "C8738",
+      "name": "Stage IV Ovarian Yolk Sac Tumor AJCC v6 and v7",
+      "leaf": true
+    }
+  ],
+  "parents": [
+    {
+      "code": "C102870",
+      "name": "Ovarian Non-Dysgerminomatous Germ Cell Tumor"
+    },
+    {
+      "code": "C3011",
+      "name": "Yolk Sac Tumor"
+    }
+  ],
+  "associations": [
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C165258",
+      "relatedName": "Cellosaurus Disease Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C118168",
+      "relatedName": "CTRP Disease Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C116977",
+      "relatedName": "CTRP Terminology"
+    }
+  ],
+  "roles": [
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C34333",
+      "relatedName": "Abdominal Mass"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C26682",
+      "relatedName": "Abdominal Pain"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C137974",
+      "relatedName": "Adnexa"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C35282",
+      "relatedName": "Alpha Fetoprotein Increased"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C36122",
+      "relatedName": "Benign Cellular Infiltrate"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C54122",
+      "relatedName": "Cytoplasmic Hyaline Globules Present"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12402",
+      "relatedName": "Female Reproductive System"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12810",
+      "relatedName": "Genitourinary System"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C12597",
+      "relatedName": "Germ Cell"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C54105",
+      "relatedName": "Germinal Layer"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12725",
+      "relatedName": "Gonad"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12917",
+      "relatedName": "Malignant Cell"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C36115",
+      "relatedName": "Malignant Cellular Infiltrate"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C123865",
+      "relatedName": "Malignant Germinomatous Cells Present"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C156460",
+      "relatedName": "Malignant Primitive Cellular Infiltrate"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C35959",
+      "relatedName": "Mitotic Activity"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12922",
+      "relatedName": "Neoplastic Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36903",
+      "relatedName": "Neoplastic Germ Cell"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C36898",
+      "relatedName": "Neoplastic Sex Cord-Stromal Cell"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12404",
+      "relatedName": "Ovary"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12404",
+      "relatedName": "Ovary"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12841",
+      "relatedName": "Reproductive System"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C54124",
+      "relatedName": "Schiller-Duval Body"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12321",
+      "relatedName": "Uterine Adnexa"
+    }
+  ],
+  "history": [
+    {
+      "code": "C8107",
+      "action": "create",
+      "date": "2003-08-12"
+    },
+    {
+      "code": "C8107",
+      "action": "modify",
+      "date": "2003-10-31"
+    },
+    {
+      "code": "C8107",
+      "action": "modify",
+      "date": "2003-12-30"
+    },
+    {
+      "code": "C8107",
+      "action": "modify",
+      "date": "2004-03-30"
+    },
+    {
+      "code": "C8107",
+      "action": "modify",
+      "date": "2004-08-02"
+    },
+    {
+      "code": "C8107",
+      "action": "modify",
+      "date": "2006-07-28"
+    },
+    {
+      "code": "C8107",
+      "action": "modify",
+      "date": "2007-10-29"
+    },
+    {
+      "code": "C8107",
+      "action": "modify",
+      "date": "2009-11-23"
+    },
+    {
+      "code": "C8107",
+      "action": "modify",
+      "date": "2012-09-04"
+    },
+    {
+      "code": "C8107",
+      "action": "modify",
+      "date": "2014-02-03"
+    },
+    {
+      "code": "C8107",
+      "action": "modify",
+      "date": "2014-08-04"
+    },
+    {
+      "code": "C8107",
+      "action": "modify",
+      "date": "2014-08-18"
+    },
+    {
+      "code": "C8107",
+      "action": "modify",
+      "date": "2014-09-22"
+    },
+    {
+      "code": "C8107",
+      "action": "modify",
+      "date": "2017-07-31"
+    },
+    {
+      "code": "C8107",
+      "action": "modify",
+      "date": "2018-07-30"
+    },
+    {
+      "code": "C8107",
+      "action": "modify",
+      "date": "2018-08-27"
+    },
+    {
+      "code": "C8107",
+      "action": "modify",
+      "date": "2018-08-27"
+    },
+    {
+      "code": "C8107",
+      "action": "modify",
+      "date": "2019-10-28"
+    },
+    {
+      "code": "C8107",
+      "action": "modify",
+      "date": "2023-02-27"
+    },
+    {
+      "code": "C8107",
+      "action": "modify",
+      "date": "2025-03-31"
+    }
+  ]
+}

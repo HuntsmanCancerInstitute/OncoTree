@@ -1,0 +1,660 @@
+{
+  "code": "C6481",
+  "name": "Inflammatory Myofibroblastic Tumor",
+  "terminology": "ncit",
+  "version": "25.11d",
+  "conceptStatus": "DEFAULT",
+  "leaf": false,
+  "active": true,
+  "synonyms": [
+    {
+      "name": "Inflammatory myofibroblastic tumor",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "GDC"
+    },
+    {
+      "name": "IMT",
+      "termType": "AB",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Inflammatory Fibrosarcoma",
+      "termType": "AQS",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Inflammatory Myofibroblastic Neoplasm",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Inflammatory Myofibroblastic Tumor",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Inflammatory Pseudotumor",
+      "termType": "AQS",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Inflammatory Myofibroblastic Tumor",
+      "type": "Preferred_Name"
+    }
+  ],
+  "definitions": [
+    {
+      "definition": "A multinodular intermediate fibroblastic neoplasm that arises from soft tissue or viscera, in children and young adults.  It is characterized by the presence of spindle-shaped fibroblasts and myofibroblasts, and a chronic inflammatory infiltrate composed of eosinophils, lymphocytes, and plasma cells.",
+      "type": "DEFINITION",
+      "source": "NCI"
+    }
+  ],
+  "properties": [
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "GDC"
+    },
+    {
+      "code": "P334",
+      "type": "ICD-O-3_Code",
+      "value": "8825/1"
+    },
+    {
+      "code": "P366",
+      "type": "Legacy Concept Name",
+      "value": "Inflammatory_Myofibroblastic_Tumor"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "Inflammatory myofibroblastic tumor"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "Myofibroblastic tumor, NOS"
+    },
+    {
+      "code": "P363",
+      "type": "Neoplastic_Status",
+      "value": "Undetermined"
+    },
+    {
+      "code": "P106",
+      "type": "Semantic_Type",
+      "value": "Neoplastic Process"
+    },
+    {
+      "code": "P207",
+      "type": "UMLS_CUI",
+      "value": "C0334121"
+    }
+  ],
+  "children": [
+    {
+      "code": "C126359",
+      "name": "Abdominal Inflammatory Myofibroblastic Tumor",
+      "leaf": true
+    },
+    {
+      "code": "C6177",
+      "name": "Bladder Inflammatory Myofibroblastic Tumor",
+      "leaf": true
+    },
+    {
+      "code": "C40398",
+      "name": "Breast Inflammatory Myofibroblastic Tumor",
+      "leaf": true
+    },
+    {
+      "code": "C45753",
+      "name": "Cardiac Inflammatory Myofibroblastic Tumor",
+      "leaf": true
+    },
+    {
+      "code": "C7020",
+      "name": "Central Nervous System Inflammatory Myofibroblastic Tumor",
+      "leaf": true
+    },
+    {
+      "code": "C188972",
+      "name": "Childhood Inflammatory Myofibroblastic Tumor",
+      "leaf": true
+    },
+    {
+      "code": "C172851",
+      "name": "Digestive System Inflammatory Myofibroblastic Tumor",
+      "leaf": false
+    },
+    {
+      "code": "C202635",
+      "name": "Head and Neck Inflammatory Myofibroblastic Tumor",
+      "leaf": false
+    },
+    {
+      "code": "C39740",
+      "name": "Lung Inflammatory Myofibroblastic Tumor",
+      "leaf": true
+    },
+    {
+      "code": "C161042",
+      "name": "Prostate Inflammatory Myofibroblastic Tumor",
+      "leaf": true
+    },
+    {
+      "code": "C39741",
+      "name": "Retroperitoneal Inflammatory Myofibroblastic Tumor",
+      "leaf": true
+    },
+    {
+      "code": "C180545",
+      "name": "Uterine Corpus Inflammatory Myofibroblastic Tumor",
+      "leaf": true
+    }
+  ],
+  "parents": [
+    {
+      "code": "C7333",
+      "name": "Intermediate Fibroblastic Neoplasm"
+    }
+  ],
+  "associations": [
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C157711",
+      "relatedName": "GDC Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C177537",
+      "relatedName": "GDC Value Terminology"
+    },
+    {
+      "type": "Is_Value_For_GDC_Property",
+      "relatedCode": "C177621",
+      "relatedName": "ICD-O-3 Morphology Term Diagnosis Question"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168658",
+      "relatedName": "Mapped ICDO3.1 Morphology PT Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168657",
+      "relatedName": "Mapped ICDO3.1 Morphology Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168655",
+      "relatedName": "Mapped ICDO3.1 Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168662",
+      "relatedName": "Mapped ICDO3.2 Morphology PT Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168661",
+      "relatedName": "Mapped ICDO3.2 Morphology Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168656",
+      "relatedName": "Mapped ICDO3.2 Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C126659",
+      "relatedName": "NCIt Neoplasm Core Terminology"
+    }
+  ],
+  "inverseAssociations": [
+    {
+      "type": "Has_GDC_Value",
+      "relatedCode": "C177621",
+      "relatedName": "ICD-O-3 Morphology Term Diagnosis Question"
+    }
+  ],
+  "roles": [
+    {
+      "type": "Disease_May_Have_Molecular_Abnormality",
+      "relatedCode": "C129574",
+      "relatedName": "ALK Gene Rearrangement"
+    },
+    {
+      "type": "Disease_Mapped_To_Gene",
+      "relatedCode": "C38184",
+      "relatedName": "ALK Gene"
+    },
+    {
+      "type": "Disease_May_Have_Molecular_Abnormality",
+      "relatedCode": "C37216",
+      "relatedName": "CLTC-ALK Fusion Protein Expression"
+    },
+    {
+      "type": "Disease_Mapped_To_Gene",
+      "relatedCode": "C99873",
+      "relatedName": "CLTC/ALK Fusion Gene"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C12555",
+      "relatedName": "Connective and Soft Tissue Cell"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12964",
+      "relatedName": "Connective and Soft Tissue"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12964",
+      "relatedName": "Connective and Soft Tissue"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C35981",
+      "relatedName": "Eosinophilic Infiltrate"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C39743",
+      "relatedName": "Fascicular Pattern"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C3038",
+      "relatedName": "Fever"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C12482",
+      "relatedName": "Fibroblast"
+    },
+    {
+      "type": "Disease_May_Have_Abnormal_Cell",
+      "relatedCode": "C36981",
+      "relatedName": "Ganglion-Like Cell"
+    },
+    {
+      "type": "Disease_Mapped_To_Gene",
+      "relatedCode": "C20577",
+      "relatedName": "HMGA2 Gene"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C53415",
+      "relatedName": "Locally Aggressive Lesion"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C35983",
+      "relatedName": "Lymphocytic Infiltrate"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C41466",
+      "relatedName": "Multinodular Lesion"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C39744",
+      "relatedName": "Myxoid Changes Present"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12922",
+      "relatedName": "Neoplastic Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36887",
+      "relatedName": "Neoplastic Connective and Soft Tissue Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C48682",
+      "relatedName": "Neoplastic Fibroblast"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36955",
+      "relatedName": "Neoplastic Spindle-Shaped Fibroblast"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36957",
+      "relatedName": "Neoplastic Spindle-Shaped Myofibroblast"
+    },
+    {
+      "type": "Disease_May_Have_Abnormal_Cell",
+      "relatedCode": "C36899",
+      "relatedName": "Neoplastic Stellate Cell"
+    },
+    {
+      "type": "Disease_Excludes_Normal_Cell_Origin",
+      "relatedCode": "C41405",
+      "relatedName": "Neuron, Neuroepithelial Cell, and Supporting Cell of the Nervous System"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C3303",
+      "relatedName": "Pain"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C40990",
+      "relatedName": "Plasmacytic Infiltrate"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12471",
+      "relatedName": "Soft Tissue"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12471",
+      "relatedName": "Soft Tissue"
+    },
+    {
+      "type": "Disease_May_Have_Cytogenetic_Abnormality",
+      "relatedCode": "C36435",
+      "relatedName": "t(1;2)(q25;p23)"
+    },
+    {
+      "type": "Disease_May_Have_Cytogenetic_Abnormality",
+      "relatedCode": "C36590",
+      "relatedName": "t(2;17)(p23;q23)"
+    },
+    {
+      "type": "Disease_May_Have_Cytogenetic_Abnormality",
+      "relatedCode": "C45439",
+      "relatedName": "t(2;19)(p23;p13)"
+    },
+    {
+      "type": "Disease_May_Have_Molecular_Abnormality",
+      "relatedCode": "C36707",
+      "relatedName": "TPM3-ALK Fusion Protein Expression"
+    },
+    {
+      "type": "Disease_Mapped_To_Gene",
+      "relatedCode": "C101083",
+      "relatedName": "TPM3/ALK Fusion Gene"
+    },
+    {
+      "type": "Disease_May_Have_Molecular_Abnormality",
+      "relatedCode": "C45442",
+      "relatedName": "TPM4-ALK Fusion Protein Expression"
+    },
+    {
+      "type": "Disease_Mapped_To_Gene",
+      "relatedCode": "C101085",
+      "relatedName": "TPM4/ALK Fusion Gene"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C41457",
+      "relatedName": "Well-Circumscribed Lesion"
+    }
+  ],
+  "inverseRoles": [
+    {
+      "type": "Gene_Involved_In_Pathogenesis_Of_Disease",
+      "relatedCode": "C38184",
+      "relatedName": "ALK Gene"
+    },
+    {
+      "type": "Gene_Involved_In_Pathogenesis_Of_Disease",
+      "relatedCode": "C51738",
+      "relatedName": "ALK wt Allele"
+    },
+    {
+      "type": "Gene_Involved_In_Pathogenesis_Of_Disease",
+      "relatedCode": "C150443",
+      "relatedName": "ALKATI Allele"
+    },
+    {
+      "type": "Gene_Involved_In_Pathogenesis_Of_Disease",
+      "relatedCode": "C99873",
+      "relatedName": "CLTC/ALK Fusion Gene"
+    },
+    {
+      "type": "Gene_Involved_In_Pathogenesis_Of_Disease",
+      "relatedCode": "C20577",
+      "relatedName": "HMGA2 Gene"
+    },
+    {
+      "type": "Gene_Involved_In_Pathogenesis_Of_Disease",
+      "relatedCode": "C52075",
+      "relatedName": "HMGA2 wt Allele"
+    },
+    {
+      "type": "Gene_Involved_In_Pathogenesis_Of_Disease",
+      "relatedCode": "C101083",
+      "relatedName": "TPM3/ALK Fusion Gene"
+    },
+    {
+      "type": "Gene_Involved_In_Pathogenesis_Of_Disease",
+      "relatedCode": "C101085",
+      "relatedName": "TPM4/ALK Fusion Gene"
+    }
+  ],
+  "history": [
+    {
+      "code": "C6481",
+      "action": "create",
+      "date": "2003-08-12"
+    },
+    {
+      "code": "C6481",
+      "action": "modify",
+      "date": "2003-10-31"
+    },
+    {
+      "code": "C6481",
+      "action": "modify",
+      "date": "2003-12-05"
+    },
+    {
+      "code": "C6481",
+      "action": "modify",
+      "date": "2003-12-30"
+    },
+    {
+      "code": "C6481",
+      "action": "modify",
+      "date": "2004-03-30"
+    },
+    {
+      "code": "C6481",
+      "action": "modify",
+      "date": "2004-04-30"
+    },
+    {
+      "code": "C6481",
+      "action": "modify",
+      "date": "2004-06-25"
+    },
+    {
+      "code": "C6481",
+      "action": "modify",
+      "date": "2004-11-17"
+    },
+    {
+      "code": "C6481",
+      "action": "modify",
+      "date": "2005-03-30"
+    },
+    {
+      "code": "C6481",
+      "action": "modify",
+      "date": "2005-04-29"
+    },
+    {
+      "code": "C6481",
+      "action": "modify",
+      "date": "2005-10-31"
+    },
+    {
+      "code": "C6481",
+      "action": "modify",
+      "date": "2006-06-30"
+    },
+    {
+      "code": "C6481",
+      "action": "modify",
+      "date": "2007-03-30"
+    },
+    {
+      "code": "C6481",
+      "action": "modify",
+      "date": "2009-04-06"
+    },
+    {
+      "code": "C6481",
+      "action": "modify",
+      "date": "2009-10-27"
+    },
+    {
+      "code": "C6481",
+      "action": "modify",
+      "date": "2009-11-23"
+    },
+    {
+      "code": "C6481",
+      "action": "modify",
+      "date": "2011-12-12"
+    },
+    {
+      "code": "C6481",
+      "action": "modify",
+      "date": "2012-03-05"
+    },
+    {
+      "code": "C6481",
+      "action": "modify",
+      "date": "2012-03-26"
+    },
+    {
+      "code": "C6481",
+      "action": "modify",
+      "date": "2013-02-19"
+    },
+    {
+      "code": "C6481",
+      "action": "modify",
+      "date": "2014-02-03"
+    },
+    {
+      "code": "C6481",
+      "action": "modify",
+      "date": "2015-03-16"
+    },
+    {
+      "code": "C6481",
+      "action": "modify",
+      "date": "2015-03-30"
+    },
+    {
+      "code": "C6481",
+      "action": "modify",
+      "date": "2015-05-26"
+    },
+    {
+      "code": "C6481",
+      "action": "modify",
+      "date": "2016-04-25"
+    },
+    {
+      "code": "C6481",
+      "action": "modify",
+      "date": "2018-09-24"
+    },
+    {
+      "code": "C6481",
+      "action": "modify",
+      "date": "2019-05-28"
+    },
+    {
+      "code": "C6481",
+      "action": "modify",
+      "date": "2019-09-30"
+    },
+    {
+      "code": "C6481",
+      "action": "modify",
+      "date": "2019-11-25"
+    },
+    {
+      "code": "C6481",
+      "action": "modify",
+      "date": "2020-02-24"
+    },
+    {
+      "code": "C6481",
+      "action": "modify",
+      "date": "2020-04-27"
+    },
+    {
+      "code": "C6481",
+      "action": "modify",
+      "date": "2021-02-22"
+    },
+    {
+      "code": "C6481",
+      "action": "modify",
+      "date": "2021-03-29"
+    },
+    {
+      "code": "C6481",
+      "action": "modify",
+      "date": "2022-01-31"
+    },
+    {
+      "code": "C6481",
+      "action": "modify",
+      "date": "2025-05-27"
+    }
+  ],
+  "maps": [
+    {
+      "type": "Has Synonym",
+      "targetName": "Inflammatory myofibroblastic tumor",
+      "targetTermType": "PT",
+      "targetCode": "primary_diagnosis",
+      "targetTerminology": "GDC"
+    },
+    {
+      "type": "Related To",
+      "targetName": "Myofibroblastic tumor, NOS",
+      "targetTermType": "PT",
+      "targetCode": "8825/1",
+      "targetTerminology": "ICDO3",
+      "targetTerminologyVersion": "3.1"
+    },
+    {
+      "type": "Related To",
+      "targetName": "Myofibroblastic tumor, NOS",
+      "targetTermType": "PT",
+      "targetCode": "8825/1",
+      "targetTerminology": "ICDO3",
+      "targetTerminologyVersion": "3.2"
+    },
+    {
+      "type": "Related To",
+      "targetName": "Myofibroblastic tumor, NOS",
+      "targetTermType": "PT",
+      "targetCode": "primary_diagnosis",
+      "targetTerminology": "GDC"
+    }
+  ]
+}

@@ -1,0 +1,1679 @@
+{
+  "code": "C3158",
+  "name": "Leiomyosarcoma",
+  "terminology": "ncit",
+  "version": "25.11d",
+  "conceptStatus": "DEFAULT",
+  "leaf": false,
+  "active": true,
+  "synonyms": [
+    {
+      "name": "Leiomyosarcoma",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "caDSR"
+    },
+    {
+      "name": "LEIOMYOSARCOMA, MALIGNANT",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "CDISC"
+    },
+    {
+      "name": "Leiomyosarcomas",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "CDISC"
+    },
+    {
+      "name": "Leiomyosarcoma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "Cellosaurus"
+    },
+    {
+      "name": "Leiomyosarcoma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "CPTAC"
+    },
+    {
+      "name": "Leiomyosarcoma (excluding uterine leiomyosarcoma)",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "CTEP",
+      "code": "10024193",
+      "subSource": "SDC"
+    },
+    {
+      "name": "Leiomyosarcoma - not uterine",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "CTEP",
+      "code": "10024193",
+      "subSource": "SDC"
+    },
+    {
+      "name": "Leiomyosarcoma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "CTRP"
+    },
+    {
+      "name": "Leiomyosarcoma",
+      "termType": "DN",
+      "type": "FULL_SYN",
+      "source": "CTRP"
+    },
+    {
+      "name": "Leiomyosarcoma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "FDA",
+      "code": "4550",
+      "subSource": "CDRH"
+    },
+    {
+      "name": "Leiomyosarcoma, NOS",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "GDC"
+    },
+    {
+      "name": "leiomyosarcoma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NCI-GLOSS",
+      "code": "CDR0000046027"
+    },
+    {
+      "name": "Leiomyosarcoma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Malignant Smooth Muscle Neoplasm",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Malignant Smooth Muscle Tumor",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Leiomyosarcoma",
+      "type": "Display_Name"
+    },
+    {
+      "name": "Leiomyosarcoma",
+      "type": "Preferred_Name"
+    }
+  ],
+  "definitions": [
+    {
+      "definition": "A malignant (cancer) tumor of smooth muscle cells that can arise almost anywhere in the body, but is most common in the uterus, abdomen, or pelvis.",
+      "type": "ALT_DEFINITION",
+      "source": "NCI-GLOSS"
+    },
+    {
+      "definition": "A malignant neoplasm, originating from smooth muscle cells.",
+      "type": "ALT_DEFINITION",
+      "source": "CDISC"
+    },
+    {
+      "definition": "A malignant tumor of smooth muscle cells that can arise almost anywhere in the body but is most common in the uterus, abdomen, or pelvis.",
+      "type": "ALT_DEFINITION",
+      "source": "FDA",
+      "qualifiers": [
+        {
+          "type": "attribution",
+          "value": "CDRH"
+        }
+      ]
+    },
+    {
+      "definition": "An aggressive malignant mesenchymal neoplasm that arises from smooth muscle cells and is characterized by a proliferation of neoplastic spindle cells. Morphologic variants include epithelioid, granular cell, inflammatory, and myxoid leiomyosarcoma. It usually occurs in post-menopausal women.",
+      "type": "DEFINITION",
+      "source": "NCI"
+    }
+  ],
+  "properties": [
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "CDISC"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "Cellosaurus"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "CPTAC"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "CTEP"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "CTRP"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "FDA"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "GDC"
+    },
+    {
+      "code": "P334",
+      "type": "ICD-O-3_Code",
+      "value": "8890/3"
+    },
+    {
+      "code": "P366",
+      "type": "Legacy Concept Name",
+      "value": "Leiomyosarcoma"
+    },
+    {
+      "code": "P366",
+      "type": "Legacy Concept Name",
+      "value": "Malignant_Smooth_Muscle_Neoplasm"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "8890/3"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "Leiomyosarcoma, NOS"
+    },
+    {
+      "code": "P363",
+      "type": "Neoplastic_Status",
+      "value": "Malignant"
+    },
+    {
+      "code": "P106",
+      "type": "Semantic_Type",
+      "value": "Neoplastic Process"
+    },
+    {
+      "code": "P207",
+      "type": "UMLS_CUI",
+      "value": "C0023269"
+    },
+    {
+      "code": "oboInOwl:hasDbXref",
+      "type": "xRef",
+      "value": "IMDRF:E180103"
+    }
+  ],
+  "children": [
+    {
+      "code": "C188254",
+      "name": "Adrenal Gland Leiomyosarcoma",
+      "leaf": true
+    },
+    {
+      "code": "C7810",
+      "name": "Adult Leiomyosarcoma",
+      "leaf": true
+    },
+    {
+      "code": "C159670",
+      "name": "Bladder Leiomyosarcoma",
+      "leaf": true
+    },
+    {
+      "code": "C7154",
+      "name": "Bone Leiomyosarcoma",
+      "leaf": true
+    },
+    {
+      "code": "C5186",
+      "name": "Breast Leiomyosarcoma",
+      "leaf": true
+    },
+    {
+      "code": "C179926",
+      "name": "Broad Ligament Leiomyosarcoma",
+      "leaf": true
+    },
+    {
+      "code": "C5364",
+      "name": "Cardiac Leiomyosarcoma",
+      "leaf": true
+    },
+    {
+      "code": "C6999",
+      "name": "Central Nervous System Leiomyosarcoma",
+      "leaf": true
+    },
+    {
+      "code": "C128047",
+      "name": "Cervical Leiomyosarcoma",
+      "leaf": true
+    },
+    {
+      "code": "C8093",
+      "name": "Childhood Leiomyosarcoma",
+      "leaf": false
+    },
+    {
+      "code": "C9428",
+      "name": "Conventional Leiomyosarcoma",
+      "leaf": true
+    },
+    {
+      "code": "C172951",
+      "name": "Digestive System Leiomyosarcoma",
+      "leaf": false
+    },
+    {
+      "code": "C162306",
+      "name": "EBV-Related Leiomyosarcoma",
+      "leaf": true
+    },
+    {
+      "code": "C3700",
+      "name": "Epithelioid Leiomyosarcoma",
+      "leaf": false
+    },
+    {
+      "code": "C40128",
+      "name": "Fallopian Tube Leiomyosarcoma",
+      "leaf": true
+    },
+    {
+      "code": "C27494",
+      "name": "Granular Cell Leiomyosarcoma",
+      "leaf": true
+    },
+    {
+      "code": "C202853",
+      "name": "Head and Neck Leiomyosarcoma",
+      "leaf": false
+    },
+    {
+      "code": "C27495",
+      "name": "Inflammatory Leiomyosarcoma",
+      "leaf": true
+    },
+    {
+      "code": "C6183",
+      "name": "Kidney Leiomyosarcoma",
+      "leaf": true
+    },
+    {
+      "code": "C121571",
+      "name": "Leiomyosarcoma of Deep Soft Tissue",
+      "leaf": false
+    },
+    {
+      "code": "C5387",
+      "name": "Leiomyosarcoma of Vessels",
+      "leaf": false
+    },
+    {
+      "code": "C8814",
+      "name": "Localized Leiomyosarcoma",
+      "leaf": true
+    },
+    {
+      "code": "C5667",
+      "name": "Lung Leiomyosarcoma",
+      "leaf": true
+    },
+    {
+      "code": "C6619",
+      "name": "Mediastinal Leiomyosarcoma",
+      "leaf": true
+    },
+    {
+      "code": "C8813",
+      "name": "Metastatic Leiomyosarcoma",
+      "leaf": false
+    },
+    {
+      "code": "C3701",
+      "name": "Myxoid Leiomyosarcoma",
+      "leaf": false
+    },
+    {
+      "code": "C5234",
+      "name": "Ovarian Leiomyosarcoma",
+      "leaf": true
+    },
+    {
+      "code": "C162495",
+      "name": "Paratesticular Leiomyosarcoma",
+      "leaf": true
+    },
+    {
+      "code": "C162585",
+      "name": "Penile Leiomyosarcoma",
+      "leaf": true
+    },
+    {
+      "code": "C178220",
+      "name": "Pleomorphic Leiomyosarcoma",
+      "leaf": false
+    },
+    {
+      "code": "C188063",
+      "name": "Pleural Leiomyosarcoma",
+      "leaf": true
+    },
+    {
+      "code": "C5526",
+      "name": "Prostate Leiomyosarcoma",
+      "leaf": true
+    },
+    {
+      "code": "C8815",
+      "name": "Recurrent Leiomyosarcoma",
+      "leaf": false
+    },
+    {
+      "code": "C148294",
+      "name": "Refractory Leiomyosarcoma",
+      "leaf": true
+    },
+    {
+      "code": "C175505",
+      "name": "Resectable Leiomyosarcoma",
+      "leaf": true
+    },
+    {
+      "code": "C161641",
+      "name": "Seminal Vesicle Leiomyosarcoma",
+      "leaf": true
+    },
+    {
+      "code": "C132147",
+      "name": "Unresectable Leiomyosarcoma",
+      "leaf": false
+    },
+    {
+      "code": "C6340",
+      "name": "Uterine Corpus Leiomyosarcoma",
+      "leaf": false
+    },
+    {
+      "code": "C6326",
+      "name": "Vaginal Leiomyosarcoma",
+      "leaf": true
+    },
+    {
+      "code": "C40318",
+      "name": "Vulvar Leiomyosarcoma",
+      "leaf": true
+    },
+    {
+      "code": "C9389",
+      "name": "Well Differentiated Leiomyosarcoma",
+      "leaf": true
+    }
+  ],
+  "parents": [
+    {
+      "code": "C214801",
+      "name": "Myosarcoma"
+    },
+    {
+      "code": "C3751",
+      "name": "Smooth Muscle Neoplasm"
+    }
+  ],
+  "associations": [
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C77526",
+      "relatedName": "CDISC SEND Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C88025",
+      "relatedName": "CDISC SEND Tumor Findings Results Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C54450",
+      "relatedName": "CDRH Health Effects - Clinical Signs and Symptoms or Conditions Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C165258",
+      "relatedName": "Cellosaurus Disease Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C61410",
+      "relatedName": "Clinical Data Interchange Standards Consortium Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C138188",
+      "relatedName": "Clinical Trials Search-Application Programming Interface Disease Category Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C156953",
+      "relatedName": "CPTAC Baseline Medical Forms Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C158520",
+      "relatedName": "CPTAC Codelists Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C156966",
+      "relatedName": "CPTAC Neoplasms Codelist"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C159414",
+      "relatedName": "CPTAC Sarcoma Baseline Form"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C156952",
+      "relatedName": "CPTAC Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C118168",
+      "relatedName": "CTRP Disease Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C116977",
+      "relatedName": "CTRP Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C138190",
+      "relatedName": "CTS-API Disease Main Type Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C157711",
+      "relatedName": "GDC Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C177537",
+      "relatedName": "GDC Value Terminology"
+    },
+    {
+      "type": "Is_Value_For_GDC_Property",
+      "relatedCode": "C176985",
+      "relatedName": "Histology ICD-O Morphology Code"
+    },
+    {
+      "type": "Is_Value_For_GDC_Property",
+      "relatedCode": "C177621",
+      "relatedName": "ICD-O-3 Morphology Term Diagnosis Question"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168658",
+      "relatedName": "Mapped ICDO3.1 Morphology PT Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168657",
+      "relatedName": "Mapped ICDO3.1 Morphology Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168655",
+      "relatedName": "Mapped ICDO3.1 Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168662",
+      "relatedName": "Mapped ICDO3.2 Morphology PT Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168661",
+      "relatedName": "Mapped ICDO3.2 Morphology Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168656",
+      "relatedName": "Mapped ICDO3.2 Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C103117",
+      "relatedName": "NCI CTEP SDC Non-Rhabdomyosarcoma Soft Tissue Sarcoma Sub-Category Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C102905",
+      "relatedName": "NCI CTEP Simplified Disease Classification Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C126659",
+      "relatedName": "NCIt Neoplasm Core Terminology"
+    },
+    {
+      "type": "Neoplasm_Has_Special_Category",
+      "relatedCode": "C9292",
+      "relatedName": "Solid Neoplasm"
+    }
+  ],
+  "inverseAssociations": [
+    {
+      "type": "Has_GDC_Value",
+      "relatedCode": "C176985",
+      "relatedName": "Histology ICD-O Morphology Code"
+    },
+    {
+      "type": "Has_GDC_Value",
+      "relatedCode": "C177621",
+      "relatedName": "ICD-O-3 Morphology Term Diagnosis Question"
+    }
+  ],
+  "roles": [
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C36122",
+      "relatedName": "Benign Cellular Infiltrate"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C12555",
+      "relatedName": "Connective and Soft Tissue Cell"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12964",
+      "relatedName": "Connective and Soft Tissue"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12964",
+      "relatedName": "Connective and Soft Tissue"
+    },
+    {
+      "type": "Disease_May_Have_Cytogenetic_Abnormality",
+      "relatedCode": "C36556",
+      "relatedName": "del(13q12-q13)"
+    },
+    {
+      "type": "Disease_May_Have_Cytogenetic_Abnormality",
+      "relatedCode": "C36557",
+      "relatedName": "del(13q32-qter)"
+    },
+    {
+      "type": "Disease_May_Have_Cytogenetic_Abnormality",
+      "relatedCode": "C36554",
+      "relatedName": "del(3p21-23)"
+    },
+    {
+      "type": "Disease_May_Have_Cytogenetic_Abnormality",
+      "relatedCode": "C36555",
+      "relatedName": "del(8p21-pter)"
+    },
+    {
+      "type": "Disease_Excludes_Normal_Cell_Origin",
+      "relatedCode": "C12578",
+      "relatedName": "Epithelial Cell"
+    },
+    {
+      "type": "Disease_Excludes_Normal_Tissue_Origin",
+      "relatedCode": "C45714",
+      "relatedName": "Epithelial Tissue"
+    },
+    {
+      "type": "Disease_May_Have_Cytogenetic_Abnormality",
+      "relatedCode": "C36465",
+      "relatedName": "Gain of Chromosome 15"
+    },
+    {
+      "type": "Disease_May_Have_Cytogenetic_Abnormality",
+      "relatedCode": "C36466",
+      "relatedName": "Gain of Chromosome 17"
+    },
+    {
+      "type": "Disease_May_Have_Cytogenetic_Abnormality",
+      "relatedCode": "C36456",
+      "relatedName": "Gain of Chromosome 19"
+    },
+    {
+      "type": "Disease_May_Have_Cytogenetic_Abnormality",
+      "relatedCode": "C36558",
+      "relatedName": "Gain of Chromosome 1"
+    },
+    {
+      "type": "Disease_May_Have_Cytogenetic_Abnormality",
+      "relatedCode": "C36553",
+      "relatedName": "Gain of Chromosome 1q21-q31"
+    },
+    {
+      "type": "Disease_May_Have_Cytogenetic_Abnormality",
+      "relatedCode": "C36559",
+      "relatedName": "Gain of Chromosome 20"
+    },
+    {
+      "type": "Disease_May_Have_Cytogenetic_Abnormality",
+      "relatedCode": "C36457",
+      "relatedName": "Gain of Chromosome 22"
+    },
+    {
+      "type": "Disease_May_Have_Cytogenetic_Abnormality",
+      "relatedCode": "C36539",
+      "relatedName": "Gain of Chromosome X"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C36105",
+      "relatedName": "Indolent Clinical Course"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C53665",
+      "relatedName": "Intermediate Filaments Present"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C53667",
+      "relatedName": "Intracytoplasmic Eosinophilic Inclusion"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12917",
+      "relatedName": "Malignant Cell"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C36115",
+      "relatedName": "Malignant Cellular Infiltrate"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C36779",
+      "relatedName": "Malignant Epithelial Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C214806",
+      "relatedName": "Malignant Muscle Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C49126",
+      "relatedName": "Malignant Spindle-Shaped Smooth Muscle Cell"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C12612",
+      "relatedName": "Muscle Cell"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12435",
+      "relatedName": "Muscle Tissue"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C13056",
+      "relatedName": "Muscle"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12754",
+      "relatedName": "Musculoskeletal System"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12922",
+      "relatedName": "Neoplastic Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36887",
+      "relatedName": "Neoplastic Connective and Soft Tissue Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36936",
+      "relatedName": "Neoplastic Muscle Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36937",
+      "relatedName": "Neoplastic Smooth Muscle Cell"
+    },
+    {
+      "type": "Disease_Excludes_Normal_Cell_Origin",
+      "relatedCode": "C41405",
+      "relatedName": "Neuron, Neuroepithelial Cell, and Supporting Cell of the Nervous System"
+    },
+    {
+      "type": "Disease_Mapped_To_Gene",
+      "relatedCode": "C17360",
+      "relatedName": "RB1 Gene"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C13001",
+      "relatedName": "Smooth Muscle Cell"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12437",
+      "relatedName": "Smooth Muscle Tissue"
+    }
+  ],
+  "inverseRoles": [
+    {
+      "type": "EO_Disease_Maps_To_Human_Disease",
+      "relatedCode": "C22159",
+      "relatedName": "Leiomyosarcoma of the Mouse Intestinal Tract"
+    },
+    {
+      "type": "EO_Disease_Maps_To_Human_Disease",
+      "relatedCode": "C22038",
+      "relatedName": "Leiomyosarcoma of the Mouse Nervous System"
+    },
+    {
+      "type": "EO_Disease_Maps_To_Human_Disease",
+      "relatedCode": "C23106",
+      "relatedName": "Leiomyosarcoma of the Mouse Nose and Paranasal Sinuses"
+    },
+    {
+      "type": "EO_Disease_Maps_To_Human_Disease",
+      "relatedCode": "C23055",
+      "relatedName": "Leiomyosarcoma of the Mouse Oral Cavity"
+    },
+    {
+      "type": "EO_Disease_Maps_To_Human_Disease",
+      "relatedCode": "C21749",
+      "relatedName": "Leiomyosarcoma of the Mouse Prostate Gland"
+    },
+    {
+      "type": "EO_Disease_Maps_To_Human_Disease",
+      "relatedCode": "C21844",
+      "relatedName": "Leiomyosarcoma of the Mouse Skin"
+    },
+    {
+      "type": "EO_Disease_Maps_To_Human_Disease",
+      "relatedCode": "C24020",
+      "relatedName": "Mouse Leiomyosarcoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Disease",
+      "relatedCode": "C40010",
+      "relatedName": "Ovarian Dermoid Cyst with Leiomyosarcoma"
+    },
+    {
+      "type": "Gene_Involved_In_Pathogenesis_Of_Disease",
+      "relatedCode": "C17360",
+      "relatedName": "RB1 Gene"
+    },
+    {
+      "type": "Gene_Involved_In_Pathogenesis_Of_Disease",
+      "relatedCode": "C52102",
+      "relatedName": "RB1 wt Allele"
+    }
+  ],
+  "history": [
+    {
+      "code": "C3158",
+      "action": "create",
+      "date": "2003-08-12"
+    },
+    {
+      "code": "C3158",
+      "action": "modify",
+      "date": "2003-10-31"
+    },
+    {
+      "code": "C3158",
+      "action": "modify",
+      "date": "2003-12-30"
+    },
+    {
+      "code": "C3158",
+      "action": "modify",
+      "date": "2004-03-30"
+    },
+    {
+      "code": "C3158",
+      "action": "modify",
+      "date": "2005-10-31"
+    },
+    {
+      "code": "C3158",
+      "action": "modify",
+      "date": "2006-01-27"
+    },
+    {
+      "code": "C3158",
+      "action": "modify",
+      "date": "2007-03-30"
+    },
+    {
+      "code": "C3158",
+      "action": "modify",
+      "date": "2009-04-06"
+    },
+    {
+      "code": "C3158",
+      "action": "modify",
+      "date": "2009-10-27"
+    },
+    {
+      "code": "C3158",
+      "action": "modify",
+      "date": "2009-11-23"
+    },
+    {
+      "code": "C3158",
+      "action": "modify",
+      "date": "2010-05-17"
+    },
+    {
+      "code": "C3158",
+      "action": "modify",
+      "date": "2010-06-01"
+    },
+    {
+      "code": "C3158",
+      "action": "modify",
+      "date": "2011-02-22"
+    },
+    {
+      "code": "C3158",
+      "action": "modify",
+      "date": "2011-04-11"
+    },
+    {
+      "code": "C3158",
+      "action": "modify",
+      "date": "2011-11-14"
+    },
+    {
+      "code": "C3158",
+      "action": "modify",
+      "date": "2011-11-21"
+    },
+    {
+      "code": "C3158",
+      "action": "modify",
+      "date": "2011-11-28"
+    },
+    {
+      "code": "C3158",
+      "action": "modify",
+      "date": "2011-12-05"
+    },
+    {
+      "code": "C3158",
+      "action": "modify",
+      "date": "2011-12-12"
+    },
+    {
+      "code": "C3158",
+      "action": "modify",
+      "date": "2011-12-19"
+    },
+    {
+      "code": "C3158",
+      "action": "modify",
+      "date": "2011-12-27"
+    },
+    {
+      "code": "C3158",
+      "action": "modify",
+      "date": "2012-01-09"
+    },
+    {
+      "code": "C3158",
+      "action": "modify",
+      "date": "2012-01-17"
+    },
+    {
+      "code": "C3158",
+      "action": "modify",
+      "date": "2012-01-23"
+    },
+    {
+      "code": "C3158",
+      "action": "modify",
+      "date": "2012-01-30"
+    },
+    {
+      "code": "C3158",
+      "action": "modify",
+      "date": "2012-02-06"
+    },
+    {
+      "code": "C3158",
+      "action": "modify",
+      "date": "2012-02-13"
+    },
+    {
+      "code": "C3158",
+      "action": "modify",
+      "date": "2012-02-21"
+    },
+    {
+      "code": "C3158",
+      "action": "modify",
+      "date": "2012-02-27"
+    },
+    {
+      "code": "C3158",
+      "action": "modify",
+      "date": "2012-03-05"
+    },
+    {
+      "code": "C3158",
+      "action": "modify",
+      "date": "2012-03-12"
+    },
+    {
+      "code": "C3158",
+      "action": "modify",
+      "date": "2012-03-19"
+    },
+    {
+      "code": "C3158",
+      "action": "modify",
+      "date": "2012-03-26"
+    },
+    {
+      "code": "C3158",
+      "action": "modify",
+      "date": "2012-04-02"
+    },
+    {
+      "code": "C3158",
+      "action": "modify",
+      "date": "2012-04-09"
+    },
+    {
+      "code": "C3158",
+      "action": "modify",
+      "date": "2012-04-16"
+    },
+    {
+      "code": "C3158",
+      "action": "modify",
+      "date": "2012-04-23"
+    },
+    {
+      "code": "C3158",
+      "action": "modify",
+      "date": "2012-04-30"
+    },
+    {
+      "code": "C3158",
+      "action": "modify",
+      "date": "2012-05-07"
+    },
+    {
+      "code": "C3158",
+      "action": "modify",
+      "date": "2012-05-14"
+    },
+    {
+      "code": "C3158",
+      "action": "modify",
+      "date": "2012-05-21"
+    },
+    {
+      "code": "C3158",
+      "action": "modify",
+      "date": "2012-05-29"
+    },
+    {
+      "code": "C3158",
+      "action": "modify",
+      "date": "2012-06-04"
+    },
+    {
+      "code": "C3158",
+      "action": "modify",
+      "date": "2012-06-11"
+    },
+    {
+      "code": "C3158",
+      "action": "modify",
+      "date": "2012-06-18"
+    },
+    {
+      "code": "C3158",
+      "action": "modify",
+      "date": "2012-06-18"
+    },
+    {
+      "code": "C3158",
+      "action": "modify",
+      "date": "2012-06-25"
+    },
+    {
+      "code": "C3158",
+      "action": "modify",
+      "date": "2012-07-03"
+    },
+    {
+      "code": "C3158",
+      "action": "modify",
+      "date": "2012-07-16"
+    },
+    {
+      "code": "C3158",
+      "action": "modify",
+      "date": "2012-07-23"
+    },
+    {
+      "code": "C3158",
+      "action": "modify",
+      "date": "2012-07-30"
+    },
+    {
+      "code": "C3158",
+      "action": "modify",
+      "date": "2012-08-06"
+    },
+    {
+      "code": "C3158",
+      "action": "modify",
+      "date": "2012-08-13"
+    },
+    {
+      "code": "C3158",
+      "action": "modify",
+      "date": "2012-08-20"
+    },
+    {
+      "code": "C3158",
+      "action": "modify",
+      "date": "2012-08-27"
+    },
+    {
+      "code": "C3158",
+      "action": "modify",
+      "date": "2012-09-04"
+    },
+    {
+      "code": "C3158",
+      "action": "modify",
+      "date": "2012-09-10"
+    },
+    {
+      "code": "C3158",
+      "action": "modify",
+      "date": "2012-09-17"
+    },
+    {
+      "code": "C3158",
+      "action": "modify",
+      "date": "2012-09-24"
+    },
+    {
+      "code": "C3158",
+      "action": "modify",
+      "date": "2012-10-01"
+    },
+    {
+      "code": "C3158",
+      "action": "modify",
+      "date": "2012-10-09"
+    },
+    {
+      "code": "C3158",
+      "action": "modify",
+      "date": "2012-10-15"
+    },
+    {
+      "code": "C3158",
+      "action": "modify",
+      "date": "2012-10-22"
+    },
+    {
+      "code": "C3158",
+      "action": "modify",
+      "date": "2012-10-31"
+    },
+    {
+      "code": "C3158",
+      "action": "modify",
+      "date": "2012-11-05"
+    },
+    {
+      "code": "C3158",
+      "action": "modify",
+      "date": "2012-11-13"
+    },
+    {
+      "code": "C3158",
+      "action": "modify",
+      "date": "2012-11-19"
+    },
+    {
+      "code": "C3158",
+      "action": "modify",
+      "date": "2012-11-26"
+    },
+    {
+      "code": "C3158",
+      "action": "modify",
+      "date": "2012-12-03"
+    },
+    {
+      "code": "C3158",
+      "action": "modify",
+      "date": "2012-12-10"
+    },
+    {
+      "code": "C3158",
+      "action": "modify",
+      "date": "2012-12-17"
+    },
+    {
+      "code": "C3158",
+      "action": "modify",
+      "date": "2012-12-28"
+    },
+    {
+      "code": "C3158",
+      "action": "modify",
+      "date": "2013-01-07"
+    },
+    {
+      "code": "C3158",
+      "action": "modify",
+      "date": "2013-01-14"
+    },
+    {
+      "code": "C3158",
+      "action": "modify",
+      "date": "2013-01-23"
+    },
+    {
+      "code": "C3158",
+      "action": "modify",
+      "date": "2013-02-04"
+    },
+    {
+      "code": "C3158",
+      "action": "modify",
+      "date": "2013-02-11"
+    },
+    {
+      "code": "C3158",
+      "action": "modify",
+      "date": "2013-02-19"
+    },
+    {
+      "code": "C3158",
+      "action": "modify",
+      "date": "2013-02-25"
+    },
+    {
+      "code": "C3158",
+      "action": "modify",
+      "date": "2013-03-04"
+    },
+    {
+      "code": "C3158",
+      "action": "modify",
+      "date": "2013-03-11"
+    },
+    {
+      "code": "C3158",
+      "action": "modify",
+      "date": "2013-03-18"
+    },
+    {
+      "code": "C3158",
+      "action": "modify",
+      "date": "2013-03-25"
+    },
+    {
+      "code": "C3158",
+      "action": "modify",
+      "date": "2013-04-01"
+    },
+    {
+      "code": "C3158",
+      "action": "modify",
+      "date": "2013-04-08"
+    },
+    {
+      "code": "C3158",
+      "action": "modify",
+      "date": "2013-04-15"
+    },
+    {
+      "code": "C3158",
+      "action": "modify",
+      "date": "2013-04-22"
+    },
+    {
+      "code": "C3158",
+      "action": "modify",
+      "date": "2013-04-29"
+    },
+    {
+      "code": "C3158",
+      "action": "modify",
+      "date": "2013-05-06"
+    },
+    {
+      "code": "C3158",
+      "action": "modify",
+      "date": "2013-05-13"
+    },
+    {
+      "code": "C3158",
+      "action": "modify",
+      "date": "2013-05-20"
+    },
+    {
+      "code": "C3158",
+      "action": "modify",
+      "date": "2013-05-28"
+    },
+    {
+      "code": "C3158",
+      "action": "modify",
+      "date": "2013-06-03"
+    },
+    {
+      "code": "C3158",
+      "action": "modify",
+      "date": "2013-06-10"
+    },
+    {
+      "code": "C3158",
+      "action": "modify",
+      "date": "2013-06-17"
+    },
+    {
+      "code": "C3158",
+      "action": "modify",
+      "date": "2013-06-24"
+    },
+    {
+      "code": "C3158",
+      "action": "modify",
+      "date": "2013-07-01"
+    },
+    {
+      "code": "C3158",
+      "action": "modify",
+      "date": "2013-07-08"
+    },
+    {
+      "code": "C3158",
+      "action": "modify",
+      "date": "2014-02-03"
+    },
+    {
+      "code": "C3158",
+      "action": "modify",
+      "date": "2014-11-24"
+    },
+    {
+      "code": "C3158",
+      "action": "modify",
+      "date": "2014-12-01"
+    },
+    {
+      "code": "C3158",
+      "action": "modify",
+      "date": "2014-12-08"
+    },
+    {
+      "code": "C3158",
+      "action": "modify",
+      "date": "2014-12-15"
+    },
+    {
+      "code": "C3158",
+      "action": "modify",
+      "date": "2014-12-22"
+    },
+    {
+      "code": "C3158",
+      "action": "modify",
+      "date": "2014-12-29"
+    },
+    {
+      "code": "C3158",
+      "action": "modify",
+      "date": "2015-01-05"
+    },
+    {
+      "code": "C3158",
+      "action": "modify",
+      "date": "2015-01-12"
+    },
+    {
+      "code": "C3158",
+      "action": "modify",
+      "date": "2015-01-20"
+    },
+    {
+      "code": "C3158",
+      "action": "modify",
+      "date": "2015-01-26"
+    },
+    {
+      "code": "C3158",
+      "action": "modify",
+      "date": "2015-02-02"
+    },
+    {
+      "code": "C3158",
+      "action": "modify",
+      "date": "2015-02-09"
+    },
+    {
+      "code": "C3158",
+      "action": "modify",
+      "date": "2015-02-17"
+    },
+    {
+      "code": "C3158",
+      "action": "modify",
+      "date": "2015-02-23"
+    },
+    {
+      "code": "C3158",
+      "action": "modify",
+      "date": "2015-03-02"
+    },
+    {
+      "code": "C3158",
+      "action": "modify",
+      "date": "2015-03-09"
+    },
+    {
+      "code": "C3158",
+      "action": "modify",
+      "date": "2015-03-16"
+    },
+    {
+      "code": "C3158",
+      "action": "modify",
+      "date": "2015-03-23"
+    },
+    {
+      "code": "C3158",
+      "action": "modify",
+      "date": "2015-03-30"
+    },
+    {
+      "code": "C3158",
+      "action": "modify",
+      "date": "2015-04-06"
+    },
+    {
+      "code": "C3158",
+      "action": "modify",
+      "date": "2015-04-13"
+    },
+    {
+      "code": "C3158",
+      "action": "modify",
+      "date": "2015-04-20"
+    },
+    {
+      "code": "C3158",
+      "action": "modify",
+      "date": "2015-04-27"
+    },
+    {
+      "code": "C3158",
+      "action": "modify",
+      "date": "2015-05-04"
+    },
+    {
+      "code": "C3158",
+      "action": "modify",
+      "date": "2015-05-11"
+    },
+    {
+      "code": "C3158",
+      "action": "modify",
+      "date": "2015-05-18"
+    },
+    {
+      "code": "C3158",
+      "action": "modify",
+      "date": "2016-04-25"
+    },
+    {
+      "code": "C3158",
+      "action": "modify",
+      "date": "2016-08-22"
+    },
+    {
+      "code": "C3158",
+      "action": "modify",
+      "date": "2017-09-26"
+    },
+    {
+      "code": "C3158",
+      "action": "modify",
+      "date": "2018-02-26"
+    },
+    {
+      "code": "C3158",
+      "action": "modify",
+      "date": "2018-07-30"
+    },
+    {
+      "code": "C3158",
+      "action": "modify",
+      "date": "2018-08-27"
+    },
+    {
+      "code": "C3158",
+      "action": "modify",
+      "date": "2018-08-27"
+    },
+    {
+      "code": "C3158",
+      "action": "modify",
+      "date": "2018-09-24"
+    },
+    {
+      "code": "C3158",
+      "action": "modify",
+      "date": "2018-10-29"
+    },
+    {
+      "code": "C3158",
+      "action": "modify",
+      "date": "2018-10-29"
+    },
+    {
+      "code": "C3158",
+      "action": "modify",
+      "date": "2018-12-31"
+    },
+    {
+      "code": "C3158",
+      "action": "modify",
+      "date": "2019-03-25"
+    },
+    {
+      "code": "C3158",
+      "action": "modify",
+      "date": "2019-04-29"
+    },
+    {
+      "code": "C3158",
+      "action": "modify",
+      "date": "2019-05-28"
+    },
+    {
+      "code": "C3158",
+      "action": "modify",
+      "date": "2019-06-24"
+    },
+    {
+      "code": "C3158",
+      "action": "modify",
+      "date": "2019-07-29"
+    },
+    {
+      "code": "C3158",
+      "action": "modify",
+      "date": "2019-09-30"
+    },
+    {
+      "code": "C3158",
+      "action": "modify",
+      "date": "2019-10-28"
+    },
+    {
+      "code": "C3158",
+      "action": "modify",
+      "date": "2019-11-25"
+    },
+    {
+      "code": "C3158",
+      "action": "modify",
+      "date": "2020-02-24"
+    },
+    {
+      "code": "C3158",
+      "action": "modify",
+      "date": "2020-03-30"
+    },
+    {
+      "code": "C3158",
+      "action": "modify",
+      "date": "2020-04-27"
+    },
+    {
+      "code": "C3158",
+      "action": "modify",
+      "date": "2020-05-26"
+    },
+    {
+      "code": "C3158",
+      "action": "modify",
+      "date": "2020-09-29"
+    },
+    {
+      "code": "C3158",
+      "action": "modify",
+      "date": "2021-02-22"
+    },
+    {
+      "code": "C3158",
+      "action": "modify",
+      "date": "2021-03-29"
+    },
+    {
+      "code": "C3158",
+      "action": "modify",
+      "date": "2023-02-27"
+    },
+    {
+      "code": "C3158",
+      "action": "modify",
+      "date": "2024-08-26"
+    },
+    {
+      "code": "C3158",
+      "action": "modify",
+      "date": "2024-08-26"
+    },
+    {
+      "code": "C3158",
+      "action": "merge",
+      "date": "2025-03-31",
+      "replacementCode": "C3158",
+      "replacementName": "Leiomyosarcoma"
+    },
+    {
+      "code": "C6511",
+      "action": "merge",
+      "date": "2025-03-31",
+      "replacementCode": "C3158",
+      "replacementName": "Leiomyosarcoma"
+    },
+    {
+      "code": "C3158",
+      "action": "modify",
+      "date": "2025-03-31"
+    },
+    {
+      "code": "C3158",
+      "action": "modify",
+      "date": "2025-04-28"
+    },
+    {
+      "code": "C3158",
+      "action": "modify",
+      "date": "2025-05-27"
+    },
+    {
+      "code": "C3158",
+      "action": "modify",
+      "date": "2025-08-25"
+    }
+  ],
+  "maps": [
+    {
+      "type": "Related To",
+      "targetName": "8890/3",
+      "targetTermType": "PT",
+      "targetCode": "morphology",
+      "targetTerminology": "GDC"
+    },
+    {
+      "type": "Related To",
+      "targetName": "Leiomyosarcoma, NOS",
+      "targetTermType": "PT",
+      "targetCode": "8890/3",
+      "targetTerminology": "ICDO3",
+      "targetTerminologyVersion": "3.1"
+    },
+    {
+      "type": "Related To",
+      "targetName": "Leiomyosarcoma, NOS",
+      "targetTermType": "PT",
+      "targetCode": "8890/3",
+      "targetTerminology": "ICDO3",
+      "targetTerminologyVersion": "3.2"
+    },
+    {
+      "type": "Has Synonym",
+      "targetName": "Leiomyosarcoma, NOS",
+      "targetTermType": "PT",
+      "targetCode": "primary_diagnosis",
+      "targetTerminology": "GDC"
+    }
+  ]
+}

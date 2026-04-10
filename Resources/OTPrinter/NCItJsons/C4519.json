@@ -1,0 +1,561 @@
+{
+  "code": "C4519",
+  "name": "Cervical Adenosquamous Carcinoma",
+  "terminology": "ncit",
+  "version": "25.11d",
+  "conceptStatus": "DEFAULT",
+  "leaf": false,
+  "active": true,
+  "synonyms": [
+    {
+      "name": "Cervical Adenosquamous Carcinoma",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "caDSR"
+    },
+    {
+      "name": "Cervical Adenosquamous Carcinoma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "Cellosaurus"
+    },
+    {
+      "name": "Adenosquamous Carcinoma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "CPTAC"
+    },
+    {
+      "name": "Cervical Adenosquamous Cancer",
+      "termType": "DN",
+      "type": "FULL_SYN",
+      "source": "CTRP"
+    },
+    {
+      "name": "Adenosquamous Cell Carcinoma of Cervix",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Adenosquamous Cell Carcinoma of Cervix Uteri",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Adenosquamous Cell Carcinoma of the Cervix",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Adenosquamous Cell Carcinoma of the Cervix Uteri",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Adenosquamous Cell Carcinoma of the Uterine Cervix",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Adenosquamous Cell Carcinoma of Uterine Cervix",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Cervical Adenosquamous Carcinoma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Cervical Adenosquamous Cell Carcinoma",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Cervix Adenosquamous Cell Carcinoma",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Cervix Uteri Adenosquamous Cell Carcinoma",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Uterine Cervix Adenosquamous Cell Carcinoma",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Cervical Adenosquamous Carcinoma",
+      "type": "Display_Name"
+    },
+    {
+      "name": "Cervical Adenosquamous Carcinoma",
+      "type": "Preferred_Name"
+    }
+  ],
+  "definitions": [
+    {
+      "definition": "An uncommon carcinoma arising from the cervix.  It is composed of malignant glandular epithelial cells and malignant squamous epithelial cells.",
+      "type": "DEFINITION",
+      "source": "NCI"
+    }
+  ],
+  "properties": [
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "Cellosaurus"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "CPTAC"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "CTRP"
+    },
+    {
+      "code": "P366",
+      "type": "Legacy Concept Name",
+      "value": "Cervical_Adenosquamous_Carcinoma"
+    },
+    {
+      "code": "P363",
+      "type": "Neoplastic_Status",
+      "value": "Malignant"
+    },
+    {
+      "code": "P106",
+      "type": "Semantic_Type",
+      "value": "Neoplastic Process"
+    },
+    {
+      "code": "P207",
+      "type": "UMLS_CUI",
+      "value": "C0346202"
+    }
+  ],
+  "children": [
+    {
+      "code": "C40212",
+      "name": "Cervical Poorly Differentiated Adenosquamous Carcinoma",
+      "leaf": true
+    },
+    {
+      "code": "C153390",
+      "name": "Metastatic Cervical Adenosquamous Carcinoma",
+      "leaf": false
+    },
+    {
+      "code": "C136650",
+      "name": "Recurrent Cervical Adenosquamous Carcinoma",
+      "leaf": true
+    },
+    {
+      "code": "C206202",
+      "name": "Refractory Cervical Adenosquamous Carcinoma",
+      "leaf": true
+    },
+    {
+      "code": "C174027",
+      "name": "Unresectable Cervical Adenosquamous Carcinoma",
+      "leaf": true
+    }
+  ],
+  "parents": [
+    {
+      "code": "C9039",
+      "name": "Cervical Carcinoma"
+    },
+    {
+      "code": "C215423",
+      "name": "Female Reproductive System Adenosquamous Carcinoma"
+    }
+  ],
+  "associations": [
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C165258",
+      "relatedName": "Cellosaurus Disease Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C156953",
+      "relatedName": "CPTAC Baseline Medical Forms Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C157526",
+      "relatedName": "CPTAC Cervical Squamous Cell Carcinoma and Endocervical Adenocarcinoma Baseline Form"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C156952",
+      "relatedName": "CPTAC Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C118168",
+      "relatedName": "CTRP Disease Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C116977",
+      "relatedName": "CTRP Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C126659",
+      "relatedName": "NCIt Neoplasm Core Terminology"
+    }
+  ],
+  "roles": [
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C50795",
+      "relatedName": "Abnormal Vaginal Discharge"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36773",
+      "relatedName": "Adenocarcinoma Cell"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C36122",
+      "relatedName": "Benign Cellular Infiltrate"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C54172",
+      "relatedName": "Carcinomatous Component Present"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C12508",
+      "relatedName": "Cell"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C49218",
+      "relatedName": "Cervix Epithelium"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12311",
+      "relatedName": "Cervix Uteri"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12311",
+      "relatedName": "Cervix Uteri"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C12578",
+      "relatedName": "Epithelial Cell"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C53596",
+      "relatedName": "Epithelial Component Present"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C45714",
+      "relatedName": "Epithelial Tissue"
+    },
+    {
+      "type": "Disease_May_Have_Molecular_Abnormality",
+      "relatedCode": "C36638",
+      "relatedName": "ERBB2 Gene Amplification"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12402",
+      "relatedName": "Female Reproductive System"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12402",
+      "relatedName": "Female Reproductive System"
+    },
+    {
+      "type": "Disease_Mapped_To_Gene",
+      "relatedCode": "C18524",
+      "relatedName": "FHIT Gene"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12810",
+      "relatedName": "Genitourinary System"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12810",
+      "relatedName": "Genitourinary System"
+    },
+    {
+      "type": "Disease_Excludes_Normal_Cell_Origin",
+      "relatedCode": "C12615",
+      "relatedName": "Glial Cell"
+    },
+    {
+      "type": "Disease_May_Have_Molecular_Abnormality",
+      "relatedCode": "C36704",
+      "relatedName": "Inactivating FHIT Gene Mutation"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12917",
+      "relatedName": "Malignant Cell"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C36115",
+      "relatedName": "Malignant Cellular Infiltrate"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36779",
+      "relatedName": "Malignant Epithelial Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36771",
+      "relatedName": "Malignant Squamous Cell"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C37153",
+      "relatedName": "Malignant Stromal Cell"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C41610",
+      "relatedName": "Mixed Cellular Population"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C165731",
+      "relatedName": "Mixed Malignant Epithelial Cell Population"
+    },
+    {
+      "type": "Disease_May_Have_Molecular_Abnormality",
+      "relatedCode": "C36641",
+      "relatedName": "MYC Gene Amplification"
+    },
+    {
+      "type": "Disease_Mapped_To_Gene",
+      "relatedCode": "C16887",
+      "relatedName": "MYC Gene"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12922",
+      "relatedName": "Neoplastic Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36753",
+      "relatedName": "Neoplastic Epithelial Cell"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C37126",
+      "relatedName": "Neoplastic Glial Cell"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C36937",
+      "relatedName": "Neoplastic Smooth Muscle Cell"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12841",
+      "relatedName": "Reproductive System"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C54727",
+      "relatedName": "Sarcomatous Component Present"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C12801",
+      "relatedName": "Tissue"
+    },
+    {
+      "type": "Disease_May_Have_Molecular_Abnormality",
+      "relatedCode": "C36329",
+      "relatedName": "TP53 Gene Inactivation"
+    },
+    {
+      "type": "Disease_Mapped_To_Gene",
+      "relatedCode": "C17359",
+      "relatedName": "TP53 Gene"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12405",
+      "relatedName": "Uterus"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C26945",
+      "relatedName": "Vaginal Hemorrhage"
+    }
+  ],
+  "history": [
+    {
+      "code": "C4519",
+      "action": "create",
+      "date": "2003-08-12"
+    },
+    {
+      "code": "C4519",
+      "action": "modify",
+      "date": "2003-10-31"
+    },
+    {
+      "code": "C4519",
+      "action": "modify",
+      "date": "2003-12-30"
+    },
+    {
+      "code": "C4519",
+      "action": "modify",
+      "date": "2004-03-30"
+    },
+    {
+      "code": "C4519",
+      "action": "modify",
+      "date": "2006-03-31"
+    },
+    {
+      "code": "C4519",
+      "action": "modify",
+      "date": "2007-10-29"
+    },
+    {
+      "code": "C4519",
+      "action": "modify",
+      "date": "2009-10-27"
+    },
+    {
+      "code": "C4519",
+      "action": "modify",
+      "date": "2009-11-23"
+    },
+    {
+      "code": "C4519",
+      "action": "modify",
+      "date": "2014-08-04"
+    },
+    {
+      "code": "C4519",
+      "action": "modify",
+      "date": "2014-08-18"
+    },
+    {
+      "code": "C4519",
+      "action": "modify",
+      "date": "2014-09-22"
+    },
+    {
+      "code": "C4519",
+      "action": "modify",
+      "date": "2014-10-27"
+    },
+    {
+      "code": "C4519",
+      "action": "modify",
+      "date": "2016-04-25"
+    },
+    {
+      "code": "C4519",
+      "action": "modify",
+      "date": "2017-07-31"
+    },
+    {
+      "code": "C4519",
+      "action": "modify",
+      "date": "2018-07-30"
+    },
+    {
+      "code": "C4519",
+      "action": "modify",
+      "date": "2018-08-27"
+    },
+    {
+      "code": "C4519",
+      "action": "modify",
+      "date": "2018-08-27"
+    },
+    {
+      "code": "C4519",
+      "action": "modify",
+      "date": "2019-03-25"
+    },
+    {
+      "code": "C4519",
+      "action": "modify",
+      "date": "2019-05-28"
+    },
+    {
+      "code": "C4519",
+      "action": "modify",
+      "date": "2019-06-24"
+    },
+    {
+      "code": "C4519",
+      "action": "modify",
+      "date": "2019-07-29"
+    },
+    {
+      "code": "C4519",
+      "action": "modify",
+      "date": "2019-10-28"
+    },
+    {
+      "code": "C4519",
+      "action": "modify",
+      "date": "2020-03-30"
+    },
+    {
+      "code": "C4519",
+      "action": "modify",
+      "date": "2023-02-27"
+    },
+    {
+      "code": "C4519",
+      "action": "modify",
+      "date": "2025-03-31"
+    },
+    {
+      "code": "C4519",
+      "action": "modify",
+      "date": "2025-04-28"
+    },
+    {
+      "code": "C4519",
+      "action": "modify",
+      "date": "2025-07-28"
+    }
+  ]
+}

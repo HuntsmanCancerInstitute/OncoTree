@@ -1,0 +1,1053 @@
+{
+  "code": "C3366",
+  "name": "Sezary Syndrome",
+  "terminology": "ncit",
+  "version": "25.11d",
+  "conceptStatus": "DEFAULT",
+  "leaf": false,
+  "active": true,
+  "synonyms": [
+    {
+      "name": "Sezary Syndrome",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "caDSR"
+    },
+    {
+      "name": "Sezary Syndrome",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "Cellosaurus"
+    },
+    {
+      "name": "Sezary Syndrome",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "CPTAC"
+    },
+    {
+      "name": "CTCL / Sezary syndrome",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "CTEP",
+      "code": "10011677",
+      "subSource": "SDC"
+    },
+    {
+      "name": "Cutaneous T-cell lymphoma/Sezary syndrome",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "CTEP",
+      "code": "10011677",
+      "subSource": "SDC"
+    },
+    {
+      "name": "Sezary Syndrome",
+      "termType": "DN",
+      "type": "FULL_SYN",
+      "source": "CTRP"
+    },
+    {
+      "name": "Sezary disease",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "GDC"
+    },
+    {
+      "name": "Sezary syndrome",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "GDC"
+    },
+    {
+      "name": "Sezary disease, unspecified site",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "mCode",
+      "code": "C84.10",
+      "subSource": "ICD-10 CM"
+    },
+    {
+      "name": "Sezary syndrome",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NCI-GLOSS",
+      "code": "CDR0000045878"
+    },
+    {
+      "name": "Sezary Syndrome",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Sezary's Disease",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Sézary Syndrome",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Sezary Syndrome",
+      "type": "Display_Name"
+    },
+    {
+      "name": "Sezary Syndrome",
+      "type": "Preferred_Name"
+    }
+  ],
+  "definitions": [
+    {
+      "definition": "A form of cutaneous T-cell lymphoma, a cancerous disease that affects the skin.",
+      "type": "ALT_DEFINITION",
+      "source": "NCI-GLOSS"
+    },
+    {
+      "definition": "A generalized peripheral (mature) T-cell neoplasm characterized by the presence of erythroderma, lymphadenopathy, and neoplastic, cerebriform T-lymphocytes in the blood.  Sezary syndrome is an aggressive disease. (WHO, 2001)",
+      "type": "DEFINITION",
+      "source": "NCI"
+    }
+  ],
+  "properties": [
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "Cellosaurus"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "CPTAC"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "CTEP"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "CTRP"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "GDC"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "mCode"
+    },
+    {
+      "code": "P334",
+      "type": "ICD-O-3_Code",
+      "value": "9701/3"
+    },
+    {
+      "code": "P366",
+      "type": "Legacy Concept Name",
+      "value": "Sezary_Syndrome"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "9701/3"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "Sezary disease"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "Sezary disease, unspecified site"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "Sezary syndrome"
+    },
+    {
+      "code": "P363",
+      "type": "Neoplastic_Status",
+      "value": "Malignant"
+    },
+    {
+      "code": "P106",
+      "type": "Semantic_Type",
+      "value": "Neoplastic Process"
+    },
+    {
+      "code": "P207",
+      "type": "UMLS_CUI",
+      "value": "C0036920"
+    }
+  ],
+  "children": [
+    {
+      "code": "C176999",
+      "name": "Recurrent Sezary Syndrome",
+      "leaf": true
+    },
+    {
+      "code": "C177000",
+      "name": "Refractory Sezary Syndrome",
+      "leaf": true
+    }
+  ],
+  "parents": [
+    {
+      "code": "C8594",
+      "name": "Leukemic Phase of Non-Hodgkin Lymphoma"
+    },
+    {
+      "code": "C9265",
+      "name": "Mycosis Fungoides and Sezary Syndrome"
+    }
+  ],
+  "associations": [
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C165258",
+      "relatedName": "Cellosaurus Disease Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C158520",
+      "relatedName": "CPTAC Codelists Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C156966",
+      "relatedName": "CPTAC Neoplasms Codelist"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C156952",
+      "relatedName": "CPTAC Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C118168",
+      "relatedName": "CTRP Disease Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C116977",
+      "relatedName": "CTRP Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C157711",
+      "relatedName": "GDC Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C177537",
+      "relatedName": "GDC Value Terminology"
+    },
+    {
+      "type": "Is_Value_For_GDC_Property",
+      "relatedCode": "C176985",
+      "relatedName": "Histology ICD-O Morphology Code"
+    },
+    {
+      "type": "Is_Value_For_GDC_Property",
+      "relatedCode": "C177621",
+      "relatedName": "ICD-O-3 Morphology Term Diagnosis Question"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168658",
+      "relatedName": "Mapped ICDO3.1 Morphology PT Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168657",
+      "relatedName": "Mapped ICDO3.1 Morphology Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168655",
+      "relatedName": "Mapped ICDO3.1 Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168662",
+      "relatedName": "Mapped ICDO3.2 Morphology PT Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168661",
+      "relatedName": "Mapped ICDO3.2 Morphology Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168656",
+      "relatedName": "Mapped ICDO3.2 Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C193249",
+      "relatedName": "mCode Cancer Disorder Value Set"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C193175",
+      "relatedName": "mCode Elixhauser Lymphoma Value Set"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C193248",
+      "relatedName": "mCode Primary Cancer Disorder Value Set"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C193231",
+      "relatedName": "mCode Primary Malignant Neoplasm Disorder Value Set"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C193006",
+      "relatedName": "mCode Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C103133",
+      "relatedName": "NCI CTEP SDC Non-Hodgkin Lymphoma Sub-Category Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C102905",
+      "relatedName": "NCI CTEP Simplified Disease Classification Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C126659",
+      "relatedName": "NCIt Neoplasm Core Terminology"
+    }
+  ],
+  "inverseAssociations": [
+    {
+      "type": "Has_GDC_Value",
+      "relatedCode": "C176985",
+      "relatedName": "Histology ICD-O Morphology Code"
+    },
+    {
+      "type": "Has_GDC_Value",
+      "relatedCode": "C177621",
+      "relatedName": "ICD-O-3 Morphology Term Diagnosis Question"
+    }
+  ],
+  "roles": [
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36725",
+      "relatedName": "Abnormal Lymphocyte"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C50575",
+      "relatedName": "Alopecia"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C36122",
+      "relatedName": "Benign Cellular Infiltrate"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12431",
+      "relatedName": "Bone Marrow"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C39621",
+      "relatedName": "Cerebriform Lymphocyte"
+    },
+    {
+      "type": "Disease_May_Have_Molecular_Abnormality",
+      "relatedCode": "C36447",
+      "relatedName": "Clonal T-Cell Receptor Beta Chain Gene Rearrangement"
+    },
+    {
+      "type": "Disease_May_Have_Molecular_Abnormality",
+      "relatedCode": "C36448",
+      "relatedName": "Clonal T-Cell Receptor Gamma Chain Gene Rearrangement"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C39570",
+      "relatedName": "Cutaneous Involvement"
+    },
+    {
+      "type": "Disease_May_Have_Associated_Disease",
+      "relatedCode": "C39646",
+      "relatedName": "Erythroderma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C41165",
+      "relatedName": "Hematopoietic and Lymphatic System"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C41165",
+      "relatedName": "Hematopoietic and Lymphatic System"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C32725",
+      "relatedName": "Hematopoietic and Lymphoid Cell"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C41168",
+      "relatedName": "Hematopoietic and Lymphoid Tissue"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12909",
+      "relatedName": "Hematopoietic System"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C35541",
+      "relatedName": "Hyperkeratosis"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C25553",
+      "relatedName": "Leukemic Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C41073",
+      "relatedName": "Leukemic Lymphocyte"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C41071",
+      "relatedName": "Leukemic Plasma Cell"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C50764",
+      "relatedName": "Lymphadenopathy"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12746",
+      "relatedName": "Lymphatic System"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C37027",
+      "relatedName": "Lymphocyte Predominant Cell"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C12535",
+      "relatedName": "Lymphocyte"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C13049",
+      "relatedName": "Lymphoid Tissue"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12917",
+      "relatedName": "Malignant Cell"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C36115",
+      "relatedName": "Malignant Cellular Infiltrate"
+    },
+    {
+      "type": "Disease_Excludes_Normal_Cell_Origin",
+      "relatedCode": "C12549",
+      "relatedName": "Myeloid Cell"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C38640",
+      "relatedName": "Neoplastic B-Lymphocyte"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12922",
+      "relatedName": "Neoplastic Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C37060",
+      "relatedName": "Neoplastic Hematopoietic and Lymphoid Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36988",
+      "relatedName": "Neoplastic Lymphocyte"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C39566",
+      "relatedName": "Neoplastic T-Lymphocyte and Neoplastic Natural Killer Cell"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C39568",
+      "relatedName": "Peripheral (Post-Thymic) T-Lymphocyte and Natural Killer Cell"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C39593",
+      "relatedName": "Peripheral Blood Involvement"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C39593",
+      "relatedName": "Peripheral Blood Involvement"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C38323",
+      "relatedName": "Peripheral Epidermotropic T-Lymphocyte"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C38323",
+      "relatedName": "Peripheral Epidermotropic T-Lymphocyte"
+    },
+    {
+      "type": "Disease_Excludes_Normal_Cell_Origin",
+      "relatedCode": "C12486",
+      "relatedName": "Plasma Cell"
+    },
+    {
+      "type": "Disease_Excludes_Normal_Cell_Origin",
+      "relatedCode": "C39300",
+      "relatedName": "Precursor Natural Killer Cell"
+    },
+    {
+      "type": "Disease_Excludes_Normal_Cell_Origin",
+      "relatedCode": "C33930",
+      "relatedName": "Precursor T-Lymphoblast"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C3344",
+      "relatedName": "Pruritus"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C12660",
+      "relatedName": "Reed-Sternberg Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36722",
+      "relatedName": "Sezary Cell"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12470",
+      "relatedName": "Skin"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C36182",
+      "relatedName": "Solid Growth Pattern"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C39567",
+      "relatedName": "T-Lymphocyte and Natural Killer Cell"
+    }
+  ],
+  "inverseRoles": [
+    {
+      "type": "Gene_Associated_With_Disease",
+      "relatedCode": "C24259",
+      "relatedName": "BCL10 Gene"
+    },
+    {
+      "type": "Gene_Associated_With_Disease",
+      "relatedCode": "C49369",
+      "relatedName": "BCL10 wt Allele"
+    }
+  ],
+  "history": [
+    {
+      "code": "C3366",
+      "action": "create",
+      "date": "2003-08-12"
+    },
+    {
+      "code": "C3366",
+      "action": "modify",
+      "date": "2003-10-31"
+    },
+    {
+      "code": "C3366",
+      "action": "modify",
+      "date": "2003-12-30"
+    },
+    {
+      "code": "C3366",
+      "action": "modify",
+      "date": "2004-03-30"
+    },
+    {
+      "code": "C3366",
+      "action": "modify",
+      "date": "2004-06-25"
+    },
+    {
+      "code": "C3366",
+      "action": "modify",
+      "date": "2004-11-01"
+    },
+    {
+      "code": "C3366",
+      "action": "modify",
+      "date": "2005-03-30"
+    },
+    {
+      "code": "C3366",
+      "action": "modify",
+      "date": "2007-03-30"
+    },
+    {
+      "code": "C3366",
+      "action": "modify",
+      "date": "2007-05-25"
+    },
+    {
+      "code": "C3366",
+      "action": "modify",
+      "date": "2009-04-06"
+    },
+    {
+      "code": "C3366",
+      "action": "modify",
+      "date": "2009-11-23"
+    },
+    {
+      "code": "C3366",
+      "action": "modify",
+      "date": "2010-12-27"
+    },
+    {
+      "code": "C3366",
+      "action": "modify",
+      "date": "2011-03-07"
+    },
+    {
+      "code": "C3366",
+      "action": "modify",
+      "date": "2012-09-24"
+    },
+    {
+      "code": "C3366",
+      "action": "modify",
+      "date": "2012-10-01"
+    },
+    {
+      "code": "C3366",
+      "action": "modify",
+      "date": "2012-10-09"
+    },
+    {
+      "code": "C3366",
+      "action": "modify",
+      "date": "2012-10-15"
+    },
+    {
+      "code": "C3366",
+      "action": "modify",
+      "date": "2012-10-22"
+    },
+    {
+      "code": "C3366",
+      "action": "modify",
+      "date": "2012-10-31"
+    },
+    {
+      "code": "C3366",
+      "action": "modify",
+      "date": "2012-11-05"
+    },
+    {
+      "code": "C3366",
+      "action": "modify",
+      "date": "2012-11-13"
+    },
+    {
+      "code": "C3366",
+      "action": "modify",
+      "date": "2012-11-19"
+    },
+    {
+      "code": "C3366",
+      "action": "modify",
+      "date": "2012-11-26"
+    },
+    {
+      "code": "C3366",
+      "action": "modify",
+      "date": "2012-12-03"
+    },
+    {
+      "code": "C3366",
+      "action": "modify",
+      "date": "2012-12-10"
+    },
+    {
+      "code": "C3366",
+      "action": "modify",
+      "date": "2012-12-17"
+    },
+    {
+      "code": "C3366",
+      "action": "modify",
+      "date": "2012-12-28"
+    },
+    {
+      "code": "C3366",
+      "action": "modify",
+      "date": "2013-01-07"
+    },
+    {
+      "code": "C3366",
+      "action": "modify",
+      "date": "2013-01-14"
+    },
+    {
+      "code": "C3366",
+      "action": "modify",
+      "date": "2013-01-23"
+    },
+    {
+      "code": "C3366",
+      "action": "modify",
+      "date": "2013-02-04"
+    },
+    {
+      "code": "C3366",
+      "action": "modify",
+      "date": "2013-02-11"
+    },
+    {
+      "code": "C3366",
+      "action": "modify",
+      "date": "2013-02-19"
+    },
+    {
+      "code": "C3366",
+      "action": "modify",
+      "date": "2013-02-25"
+    },
+    {
+      "code": "C3366",
+      "action": "modify",
+      "date": "2013-03-04"
+    },
+    {
+      "code": "C3366",
+      "action": "modify",
+      "date": "2013-03-11"
+    },
+    {
+      "code": "C3366",
+      "action": "modify",
+      "date": "2013-03-18"
+    },
+    {
+      "code": "C3366",
+      "action": "modify",
+      "date": "2013-03-25"
+    },
+    {
+      "code": "C3366",
+      "action": "modify",
+      "date": "2013-04-01"
+    },
+    {
+      "code": "C3366",
+      "action": "modify",
+      "date": "2013-04-08"
+    },
+    {
+      "code": "C3366",
+      "action": "modify",
+      "date": "2013-04-15"
+    },
+    {
+      "code": "C3366",
+      "action": "modify",
+      "date": "2013-04-22"
+    },
+    {
+      "code": "C3366",
+      "action": "modify",
+      "date": "2013-04-29"
+    },
+    {
+      "code": "C3366",
+      "action": "modify",
+      "date": "2013-05-06"
+    },
+    {
+      "code": "C3366",
+      "action": "modify",
+      "date": "2013-05-13"
+    },
+    {
+      "code": "C3366",
+      "action": "modify",
+      "date": "2013-05-20"
+    },
+    {
+      "code": "C3366",
+      "action": "modify",
+      "date": "2013-05-28"
+    },
+    {
+      "code": "C3366",
+      "action": "modify",
+      "date": "2013-06-03"
+    },
+    {
+      "code": "C3366",
+      "action": "modify",
+      "date": "2013-06-10"
+    },
+    {
+      "code": "C3366",
+      "action": "modify",
+      "date": "2013-06-17"
+    },
+    {
+      "code": "C3366",
+      "action": "modify",
+      "date": "2013-06-24"
+    },
+    {
+      "code": "C3366",
+      "action": "modify",
+      "date": "2013-07-01"
+    },
+    {
+      "code": "C3366",
+      "action": "modify",
+      "date": "2013-07-08"
+    },
+    {
+      "code": "C3366",
+      "action": "modify",
+      "date": "2014-08-25"
+    },
+    {
+      "code": "C3366",
+      "action": "modify",
+      "date": "2014-09-22"
+    },
+    {
+      "code": "C3366",
+      "action": "modify",
+      "date": "2015-03-16"
+    },
+    {
+      "code": "C3366",
+      "action": "modify",
+      "date": "2016-04-25"
+    },
+    {
+      "code": "C3366",
+      "action": "modify",
+      "date": "2017-08-28"
+    },
+    {
+      "code": "C3366",
+      "action": "modify",
+      "date": "2018-07-30"
+    },
+    {
+      "code": "C3366",
+      "action": "modify",
+      "date": "2018-08-27"
+    },
+    {
+      "code": "C3366",
+      "action": "modify",
+      "date": "2018-08-27"
+    },
+    {
+      "code": "C3366",
+      "action": "modify",
+      "date": "2018-09-24"
+    },
+    {
+      "code": "C3366",
+      "action": "modify",
+      "date": "2018-10-29"
+    },
+    {
+      "code": "C3366",
+      "action": "modify",
+      "date": "2018-10-29"
+    },
+    {
+      "code": "C3366",
+      "action": "modify",
+      "date": "2018-12-31"
+    },
+    {
+      "code": "C3366",
+      "action": "modify",
+      "date": "2019-02-25"
+    },
+    {
+      "code": "C3366",
+      "action": "modify",
+      "date": "2019-03-25"
+    },
+    {
+      "code": "C3366",
+      "action": "modify",
+      "date": "2019-05-28"
+    },
+    {
+      "code": "C3366",
+      "action": "modify",
+      "date": "2019-09-30"
+    },
+    {
+      "code": "C3366",
+      "action": "modify",
+      "date": "2019-11-25"
+    },
+    {
+      "code": "C3366",
+      "action": "modify",
+      "date": "2020-02-24"
+    },
+    {
+      "code": "C3366",
+      "action": "modify",
+      "date": "2020-04-27"
+    },
+    {
+      "code": "C3366",
+      "action": "modify",
+      "date": "2020-09-29"
+    },
+    {
+      "code": "C3366",
+      "action": "modify",
+      "date": "2021-01-25"
+    },
+    {
+      "code": "C3366",
+      "action": "modify",
+      "date": "2021-02-22"
+    },
+    {
+      "code": "C3366",
+      "action": "modify",
+      "date": "2021-03-29"
+    },
+    {
+      "code": "C3366",
+      "action": "modify",
+      "date": "2021-12-27"
+    },
+    {
+      "code": "C3366",
+      "action": "modify",
+      "date": "2023-02-27"
+    },
+    {
+      "code": "C3366",
+      "action": "modify",
+      "date": "2023-03-27"
+    },
+    {
+      "code": "C3366",
+      "action": "modify",
+      "date": "2023-05-30"
+    },
+    {
+      "code": "C3366",
+      "action": "modify",
+      "date": "2023-12-26"
+    },
+    {
+      "code": "C3366",
+      "action": "modify",
+      "date": "2025-03-31"
+    }
+  ],
+  "maps": [
+    {
+      "type": "Related To",
+      "targetName": "9701/3",
+      "targetTermType": "PT",
+      "targetCode": "morphology",
+      "targetTerminology": "GDC"
+    },
+    {
+      "type": "Related To",
+      "targetName": "Sezary disease, unspecified site",
+      "targetTermType": "PT",
+      "targetCode": "C84.10",
+      "targetTerminology": "ICD10CM 2017"
+    },
+    {
+      "type": "Has Synonym",
+      "targetName": "Sezary disease",
+      "targetTermType": "PT",
+      "targetCode": "C84.1",
+      "targetTerminology": "ICD10CM 2017"
+    },
+    {
+      "type": "Has Synonym",
+      "targetName": "Sezary disease",
+      "targetTermType": "PT",
+      "targetCode": "primary_diagnosis",
+      "targetTerminology": "GDC"
+    },
+    {
+      "type": "Related To",
+      "targetName": "Sezary syndrome",
+      "targetTermType": "PT",
+      "targetCode": "9701/3",
+      "targetTerminology": "ICDO3",
+      "targetTerminologyVersion": "3.2"
+    },
+    {
+      "type": "Related To",
+      "targetName": "Sezary syndrome",
+      "targetTermType": "PT",
+      "targetCode": "9701/3",
+      "targetTerminology": "ICDO3",
+      "targetTerminologyVersion": "3.1"
+    },
+    {
+      "type": "Has Synonym",
+      "targetName": "Sezary syndrome",
+      "targetTermType": "PT",
+      "targetCode": "primary_diagnosis",
+      "targetTerminology": "GDC"
+    }
+  ]
+}

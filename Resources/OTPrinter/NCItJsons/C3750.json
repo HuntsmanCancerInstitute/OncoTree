@@ -1,0 +1,960 @@
+{
+  "code": "C3750",
+  "name": "Alveolar Soft Part Sarcoma",
+  "terminology": "ncit",
+  "version": "25.11d",
+  "conceptStatus": "DEFAULT",
+  "leaf": false,
+  "active": true,
+  "synonyms": [
+    {
+      "name": "Alveolar Soft Part Sarcoma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "Cellosaurus"
+    },
+    {
+      "name": "Alveolar soft-part sarcoma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "CPTAC"
+    },
+    {
+      "name": "Alveolar soft part sarcoma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "CTEP",
+      "code": "10001886",
+      "subSource": "SDC"
+    },
+    {
+      "name": "Alveolar Soft Part Sarcoma",
+      "termType": "DN",
+      "type": "FULL_SYN",
+      "source": "CTRP"
+    },
+    {
+      "name": "Alveolar soft part sarcoma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "GDC"
+    },
+    {
+      "name": "alveolar soft part sarcoma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NCI-GLOSS",
+      "code": "CDR0000641933"
+    },
+    {
+      "name": "ASPS",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NCI-GLOSS",
+      "code": "CDR0000641934"
+    },
+    {
+      "name": "Alveolar Soft Part Sarcoma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "ASPS",
+      "termType": "AB",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Alveolar Soft Part Sarcoma",
+      "type": "Display_Name"
+    },
+    {
+      "name": "Alveolar Soft Part Sarcoma",
+      "type": "Preferred_Name"
+    }
+  ],
+  "definitions": [
+    {
+      "definition": "A rare malignant neoplasm characterized by the presence of large epithelioid cells with abundant cytoplasm forming nests and pseudoalveolar structures. The groups of the epithelioid cells are separated by thin-walled sinusoidal spaces. It occurs most often in adolescents and young adults. In adults the most common sites of involvement are the extremities, and in infants and children, the head and neck. It usually presents as a slowly growing mass and it frequently metastasizes to other anatomic sites. The most common sites of metastasis are the lungs, bone, and brain.",
+      "type": "DEFINITION",
+      "source": "NCI"
+    },
+    {
+      "definition": "A soft tissue tumor that is most common in older children and teenagers. It begins in the soft supporting tissue that connects and surrounds the organs and other tissues. Alveolar soft part sarcoma usually occurs in the legs, but can also occur in the arms, hands, head, or neck. It can cause the growth of new blood vessels that help the tumor grow and spread.",
+      "type": "ALT_DEFINITION",
+      "source": "NCI-GLOSS"
+    }
+  ],
+  "properties": [
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "Cellosaurus"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "CPTAC"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "CTEP"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "CTRP"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "GDC"
+    },
+    {
+      "code": "P334",
+      "type": "ICD-O-3_Code",
+      "value": "9581/3"
+    },
+    {
+      "code": "P366",
+      "type": "Legacy Concept Name",
+      "value": "Alveolar_Soft_Part_Sarcoma"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "9581/3"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "Alveolar soft part sarcoma"
+    },
+    {
+      "code": "P363",
+      "type": "Neoplastic_Status",
+      "value": "Malignant"
+    },
+    {
+      "code": "P106",
+      "type": "Semantic_Type",
+      "value": "Neoplastic Process"
+    },
+    {
+      "code": "P207",
+      "type": "UMLS_CUI",
+      "value": "C0206657"
+    }
+  ],
+  "children": [
+    {
+      "code": "C7943",
+      "name": "Adult Alveolar Soft Part Sarcoma",
+      "leaf": true
+    },
+    {
+      "code": "C156277",
+      "name": "Bladder Alveolar Soft Part Sarcoma",
+      "leaf": true
+    },
+    {
+      "code": "C40225",
+      "name": "Cervical Alveolar Soft Part Sarcoma",
+      "leaf": true
+    },
+    {
+      "code": "C8092",
+      "name": "Childhood Alveolar Soft Part Sarcoma",
+      "leaf": true
+    },
+    {
+      "code": "C8797",
+      "name": "Localized Alveolar Soft Part Sarcoma",
+      "leaf": true
+    },
+    {
+      "code": "C173809",
+      "name": "Lung Alveolar Soft Part Sarcoma",
+      "leaf": true
+    },
+    {
+      "code": "C8796",
+      "name": "Metastatic Alveolar Soft Part Sarcoma",
+      "leaf": false
+    },
+    {
+      "code": "C156276",
+      "name": "Orbital Alveolar Soft Part Sarcoma",
+      "leaf": true
+    },
+    {
+      "code": "C8798",
+      "name": "Recurrent Alveolar Soft Part Sarcoma",
+      "leaf": true
+    },
+    {
+      "code": "C188034",
+      "name": "Refractory Alveolar Soft Part Sarcoma",
+      "leaf": true
+    },
+    {
+      "code": "C156273",
+      "name": "Tongue Alveolar Soft Part Sarcoma'",
+      "leaf": true
+    },
+    {
+      "code": "C164078",
+      "name": "Unresectable Alveolar Soft Part Sarcoma",
+      "leaf": true
+    },
+    {
+      "code": "C40320",
+      "name": "Vulvar Alveolar Soft Part Sarcoma",
+      "leaf": true
+    }
+  ],
+  "parents": [
+    {
+      "code": "C6588",
+      "name": "Malignant Soft Tissue Neoplasm of Uncertain Differentiation"
+    },
+    {
+      "code": "C9306",
+      "name": "Soft Tissue Sarcoma"
+    }
+  ],
+  "associations": [
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C165258",
+      "relatedName": "Cellosaurus Disease Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C156953",
+      "relatedName": "CPTAC Baseline Medical Forms Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C159414",
+      "relatedName": "CPTAC Sarcoma Baseline Form"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C156952",
+      "relatedName": "CPTAC Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C118168",
+      "relatedName": "CTRP Disease Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C116977",
+      "relatedName": "CTRP Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C157711",
+      "relatedName": "GDC Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C177537",
+      "relatedName": "GDC Value Terminology"
+    },
+    {
+      "type": "Is_Value_For_GDC_Property",
+      "relatedCode": "C176985",
+      "relatedName": "Histology ICD-O Morphology Code"
+    },
+    {
+      "type": "Is_Value_For_GDC_Property",
+      "relatedCode": "C177621",
+      "relatedName": "ICD-O-3 Morphology Term Diagnosis Question"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168658",
+      "relatedName": "Mapped ICDO3.1 Morphology PT Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168657",
+      "relatedName": "Mapped ICDO3.1 Morphology Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168655",
+      "relatedName": "Mapped ICDO3.1 Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168662",
+      "relatedName": "Mapped ICDO3.2 Morphology PT Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168661",
+      "relatedName": "Mapped ICDO3.2 Morphology Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168656",
+      "relatedName": "Mapped ICDO3.2 Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C103117",
+      "relatedName": "NCI CTEP SDC Non-Rhabdomyosarcoma Soft Tissue Sarcoma Sub-Category Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C102905",
+      "relatedName": "NCI CTEP Simplified Disease Classification Terminology"
+    }
+  ],
+  "inverseAssociations": [
+    {
+      "type": "Has_GDC_Value",
+      "relatedCode": "C176985",
+      "relatedName": "Histology ICD-O Morphology Code"
+    },
+    {
+      "type": "Has_GDC_Value",
+      "relatedCode": "C177621",
+      "relatedName": "ICD-O-3 Morphology Term Diagnosis Question"
+    }
+  ],
+  "roles": [
+    {
+      "type": "Disease_May_Have_Cytogenetic_Abnormality",
+      "relatedCode": "C37248",
+      "relatedName": "ASPSCR1-TFE3 Fusion Protein Expression"
+    },
+    {
+      "type": "Disease_Mapped_To_Gene",
+      "relatedCode": "C99705",
+      "relatedName": "ASPSCR1/TFE3 Fusion Gene"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C36122",
+      "relatedName": "Benign Cellular Infiltrate"
+    },
+    {
+      "type": "Disease_Excludes_Primary_Anatomic_Site",
+      "relatedCode": "C12366",
+      "relatedName": "Bone"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12964",
+      "relatedName": "Connective and Soft Tissue"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12964",
+      "relatedName": "Connective and Soft Tissue"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C35460",
+      "relatedName": "Crystal Formation"
+    },
+    {
+      "type": "Disease_Excludes_Normal_Cell_Origin",
+      "relatedCode": "C12578",
+      "relatedName": "Epithelial Cell"
+    },
+    {
+      "type": "Disease_Excludes_Normal_Tissue_Origin",
+      "relatedCode": "C45714",
+      "relatedName": "Epithelial Tissue"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C26791",
+      "relatedName": "Hemorrhage"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C36105",
+      "relatedName": "Indolent Clinical Course"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C53665",
+      "relatedName": "Intermediate Filaments Present"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C53667",
+      "relatedName": "Intracytoplasmic Eosinophilic Inclusion"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12917",
+      "relatedName": "Malignant Cell"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C36115",
+      "relatedName": "Malignant Cellular Infiltrate"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C36779",
+      "relatedName": "Malignant Epithelial Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C41435",
+      "relatedName": "Malignant Epithelioid Cell"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C36163",
+      "relatedName": "Metastatic/Recurrent Disease"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C36184",
+      "relatedName": "Necrotic Change"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12922",
+      "relatedName": "Neoplastic Cell"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C35918",
+      "relatedName": "Organoid Pattern"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C53627",
+      "relatedName": "Pseudoalveolar Pattern"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12471",
+      "relatedName": "Soft Tissue"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12471",
+      "relatedName": "Soft Tissue"
+    },
+    {
+      "type": "Disease_May_Have_Cytogenetic_Abnormality",
+      "relatedCode": "C36392",
+      "relatedName": "t(X;17)(p11.2;q25)"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C53583",
+      "relatedName": "Tissue Differentiation Uncertain"
+    },
+    {
+      "type": "Disease_May_Have_Cytogenetic_Abnormality",
+      "relatedCode": "C6823",
+      "relatedName": "Unbalanced Translocation"
+    }
+  ],
+  "inverseRoles": [
+    {
+      "type": "Gene_Involved_In_Pathogenesis_Of_Disease",
+      "relatedCode": "C99705",
+      "relatedName": "ASPSCR1/TFE3 Fusion Gene"
+    }
+  ],
+  "history": [
+    {
+      "code": "C3750",
+      "action": "create",
+      "date": "2003-08-12"
+    },
+    {
+      "code": "C3750",
+      "action": "modify",
+      "date": "2003-12-30"
+    },
+    {
+      "code": "C3750",
+      "action": "modify",
+      "date": "2004-03-30"
+    },
+    {
+      "code": "C3750",
+      "action": "modify",
+      "date": "2004-04-30"
+    },
+    {
+      "code": "C3750",
+      "action": "modify",
+      "date": "2004-08-02"
+    },
+    {
+      "code": "C3750",
+      "action": "modify",
+      "date": "2006-02-24"
+    },
+    {
+      "code": "C3750",
+      "action": "modify",
+      "date": "2006-05-26"
+    },
+    {
+      "code": "C3750",
+      "action": "modify",
+      "date": "2006-12-29"
+    },
+    {
+      "code": "C3750",
+      "action": "modify",
+      "date": "2007-03-30"
+    },
+    {
+      "code": "C3750",
+      "action": "modify",
+      "date": "2007-06-28"
+    },
+    {
+      "code": "C3750",
+      "action": "modify",
+      "date": "2009-11-23"
+    },
+    {
+      "code": "C3750",
+      "action": "modify",
+      "date": "2010-01-11"
+    },
+    {
+      "code": "C3750",
+      "action": "modify",
+      "date": "2010-11-01"
+    },
+    {
+      "code": "C3750",
+      "action": "modify",
+      "date": "2010-11-08"
+    },
+    {
+      "code": "C3750",
+      "action": "modify",
+      "date": "2010-11-15"
+    },
+    {
+      "code": "C3750",
+      "action": "modify",
+      "date": "2010-11-22"
+    },
+    {
+      "code": "C3750",
+      "action": "modify",
+      "date": "2010-11-29"
+    },
+    {
+      "code": "C3750",
+      "action": "modify",
+      "date": "2010-12-06"
+    },
+    {
+      "code": "C3750",
+      "action": "modify",
+      "date": "2010-12-13"
+    },
+    {
+      "code": "C3750",
+      "action": "modify",
+      "date": "2010-12-27"
+    },
+    {
+      "code": "C3750",
+      "action": "modify",
+      "date": "2011-01-03"
+    },
+    {
+      "code": "C3750",
+      "action": "modify",
+      "date": "2011-01-10"
+    },
+    {
+      "code": "C3750",
+      "action": "modify",
+      "date": "2011-01-17"
+    },
+    {
+      "code": "C3750",
+      "action": "modify",
+      "date": "2011-01-24"
+    },
+    {
+      "code": "C3750",
+      "action": "modify",
+      "date": "2011-01-31"
+    },
+    {
+      "code": "C3750",
+      "action": "modify",
+      "date": "2012-03-05"
+    },
+    {
+      "code": "C3750",
+      "action": "modify",
+      "date": "2012-09-24"
+    },
+    {
+      "code": "C3750",
+      "action": "modify",
+      "date": "2012-10-01"
+    },
+    {
+      "code": "C3750",
+      "action": "modify",
+      "date": "2012-10-09"
+    },
+    {
+      "code": "C3750",
+      "action": "modify",
+      "date": "2012-10-15"
+    },
+    {
+      "code": "C3750",
+      "action": "modify",
+      "date": "2012-10-22"
+    },
+    {
+      "code": "C3750",
+      "action": "modify",
+      "date": "2012-10-31"
+    },
+    {
+      "code": "C3750",
+      "action": "modify",
+      "date": "2012-11-05"
+    },
+    {
+      "code": "C3750",
+      "action": "modify",
+      "date": "2012-11-13"
+    },
+    {
+      "code": "C3750",
+      "action": "modify",
+      "date": "2012-11-19"
+    },
+    {
+      "code": "C3750",
+      "action": "modify",
+      "date": "2012-11-26"
+    },
+    {
+      "code": "C3750",
+      "action": "modify",
+      "date": "2012-12-03"
+    },
+    {
+      "code": "C3750",
+      "action": "modify",
+      "date": "2012-12-10"
+    },
+    {
+      "code": "C3750",
+      "action": "modify",
+      "date": "2012-12-17"
+    },
+    {
+      "code": "C3750",
+      "action": "modify",
+      "date": "2012-12-28"
+    },
+    {
+      "code": "C3750",
+      "action": "modify",
+      "date": "2013-01-07"
+    },
+    {
+      "code": "C3750",
+      "action": "modify",
+      "date": "2013-01-14"
+    },
+    {
+      "code": "C3750",
+      "action": "modify",
+      "date": "2013-01-23"
+    },
+    {
+      "code": "C3750",
+      "action": "modify",
+      "date": "2013-02-04"
+    },
+    {
+      "code": "C3750",
+      "action": "modify",
+      "date": "2013-02-11"
+    },
+    {
+      "code": "C3750",
+      "action": "modify",
+      "date": "2013-02-19"
+    },
+    {
+      "code": "C3750",
+      "action": "modify",
+      "date": "2013-02-25"
+    },
+    {
+      "code": "C3750",
+      "action": "modify",
+      "date": "2013-03-04"
+    },
+    {
+      "code": "C3750",
+      "action": "modify",
+      "date": "2013-03-11"
+    },
+    {
+      "code": "C3750",
+      "action": "modify",
+      "date": "2013-03-18"
+    },
+    {
+      "code": "C3750",
+      "action": "modify",
+      "date": "2013-03-25"
+    },
+    {
+      "code": "C3750",
+      "action": "modify",
+      "date": "2013-04-01"
+    },
+    {
+      "code": "C3750",
+      "action": "modify",
+      "date": "2013-04-08"
+    },
+    {
+      "code": "C3750",
+      "action": "modify",
+      "date": "2013-04-15"
+    },
+    {
+      "code": "C3750",
+      "action": "modify",
+      "date": "2013-04-22"
+    },
+    {
+      "code": "C3750",
+      "action": "modify",
+      "date": "2013-04-29"
+    },
+    {
+      "code": "C3750",
+      "action": "modify",
+      "date": "2013-05-06"
+    },
+    {
+      "code": "C3750",
+      "action": "modify",
+      "date": "2013-05-13"
+    },
+    {
+      "code": "C3750",
+      "action": "modify",
+      "date": "2013-05-20"
+    },
+    {
+      "code": "C3750",
+      "action": "modify",
+      "date": "2013-05-28"
+    },
+    {
+      "code": "C3750",
+      "action": "modify",
+      "date": "2013-06-03"
+    },
+    {
+      "code": "C3750",
+      "action": "modify",
+      "date": "2013-06-10"
+    },
+    {
+      "code": "C3750",
+      "action": "modify",
+      "date": "2013-06-17"
+    },
+    {
+      "code": "C3750",
+      "action": "modify",
+      "date": "2013-06-24"
+    },
+    {
+      "code": "C3750",
+      "action": "modify",
+      "date": "2013-07-01"
+    },
+    {
+      "code": "C3750",
+      "action": "modify",
+      "date": "2013-07-08"
+    },
+    {
+      "code": "C3750",
+      "action": "modify",
+      "date": "2014-02-03"
+    },
+    {
+      "code": "C3750",
+      "action": "modify",
+      "date": "2015-03-09"
+    },
+    {
+      "code": "C3750",
+      "action": "modify",
+      "date": "2015-05-26"
+    },
+    {
+      "code": "C3750",
+      "action": "modify",
+      "date": "2017-08-28"
+    },
+    {
+      "code": "C3750",
+      "action": "modify",
+      "date": "2018-07-30"
+    },
+    {
+      "code": "C3750",
+      "action": "modify",
+      "date": "2018-08-27"
+    },
+    {
+      "code": "C3750",
+      "action": "modify",
+      "date": "2018-08-27"
+    },
+    {
+      "code": "C3750",
+      "action": "modify",
+      "date": "2018-09-24"
+    },
+    {
+      "code": "C3750",
+      "action": "modify",
+      "date": "2019-04-29"
+    },
+    {
+      "code": "C3750",
+      "action": "modify",
+      "date": "2019-05-28"
+    },
+    {
+      "code": "C3750",
+      "action": "modify",
+      "date": "2019-06-24"
+    },
+    {
+      "code": "C3750",
+      "action": "modify",
+      "date": "2019-07-29"
+    },
+    {
+      "code": "C3750",
+      "action": "modify",
+      "date": "2019-09-30"
+    },
+    {
+      "code": "C3750",
+      "action": "modify",
+      "date": "2019-10-28"
+    },
+    {
+      "code": "C3750",
+      "action": "modify",
+      "date": "2019-11-25"
+    },
+    {
+      "code": "C3750",
+      "action": "modify",
+      "date": "2020-02-24"
+    },
+    {
+      "code": "C3750",
+      "action": "modify",
+      "date": "2020-03-30"
+    },
+    {
+      "code": "C3750",
+      "action": "modify",
+      "date": "2020-04-27"
+    },
+    {
+      "code": "C3750",
+      "action": "modify",
+      "date": "2021-02-22"
+    },
+    {
+      "code": "C3750",
+      "action": "modify",
+      "date": "2021-03-29"
+    },
+    {
+      "code": "C3750",
+      "action": "modify",
+      "date": "2023-02-27"
+    },
+    {
+      "code": "C3750",
+      "action": "modify",
+      "date": "2023-12-26"
+    },
+    {
+      "code": "C3750",
+      "action": "modify",
+      "date": "2024-01-29"
+    },
+    {
+      "code": "C3750",
+      "action": "modify",
+      "date": "2025-03-31"
+    }
+  ],
+  "maps": [
+    {
+      "type": "Related To",
+      "targetName": "9581/3",
+      "targetTermType": "PT",
+      "targetCode": "morphology",
+      "targetTerminology": "GDC"
+    },
+    {
+      "type": "Related To",
+      "targetName": "Alveolar soft part sarcoma",
+      "targetTermType": "PT",
+      "targetCode": "9581/3",
+      "targetTerminology": "ICDO3",
+      "targetTerminologyVersion": "3.2"
+    },
+    {
+      "type": "Related To",
+      "targetName": "Alveolar soft part sarcoma",
+      "targetTermType": "PT",
+      "targetCode": "9581/3",
+      "targetTerminology": "ICDO3",
+      "targetTerminologyVersion": "3.1"
+    },
+    {
+      "type": "Has Synonym",
+      "targetName": "Alveolar soft part sarcoma",
+      "targetTermType": "PT",
+      "targetCode": "primary_diagnosis",
+      "targetTerminology": "GDC"
+    }
+  ]
+}

@@ -1,0 +1,441 @@
+{
+  "code": "C9294",
+  "name": "Histiocytic and Dendritic Cell Neoplasm",
+  "terminology": "ncit",
+  "version": "25.11d",
+  "conceptStatus": "DEFAULT",
+  "leaf": false,
+  "active": true,
+  "synonyms": [
+    {
+      "name": "Histiocytic and Dendritic Cell Neoplasm",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "CPTAC"
+    },
+    {
+      "name": "Histiocytic and Dendritic Cell Neoplasm",
+      "termType": "DN",
+      "type": "FULL_SYN",
+      "source": "CTRP"
+    },
+    {
+      "name": "Histiocytic and Dendritic Cell Neoplasm",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Histiocytic and Dendritic Cell Neoplasms",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Histiocytic and Dendritic Cell Tumors",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Histiocytic Neoplasm",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Histiocytic and Dendritic Cell Neoplasm",
+      "type": "Display_Name"
+    },
+    {
+      "name": "Histiocytic and Dendritic Cell Neoplasm",
+      "type": "Preferred_Name"
+    }
+  ],
+  "definitions": [
+    {
+      "definition": "A group of rare tumors that affect the hematopoietic and lymphoid tissues. The cells of origin are the histiocytes and accessory cells. This category includes the following: Langerhans cell histiocytosis, Langerhans cell sarcoma, indeterminate dendritic cell histiocytosis, interdigitating dendritic cell sarcoma, histiocytic sarcoma, disseminated juvenile xanthogranuloma, Erdheim-Chester disease, Rosai-Dorfman-Destombes disease, ALK-positive histiocytosis, and follicular dendritic cell sarcoma.",
+      "type": "DEFINITION",
+      "source": "NCI"
+    }
+  ],
+  "properties": [
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "CPTAC"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "CTRP"
+    },
+    {
+      "code": "P366",
+      "type": "Legacy Concept Name",
+      "value": "Histiocytic_and_Dendritic_Cell_Neoplasms"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "Other and unspecified malignant neoplasms of lymphoid and histiocytic tissue"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "Other and unspecified malignant neoplasms of lymphoid and histiocytic tissue involving intra-abdominal lymph nodes"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "Other and unspecified malignant neoplasms of lymphoid and histiocytic tissue, unspecified site, extranodal and solid organ sites"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "Other malignant neoplasms of lymphoid and histiocytic tissue"
+    },
+    {
+      "code": "P363",
+      "type": "Neoplastic_Status",
+      "value": "Undetermined"
+    },
+    {
+      "code": "P106",
+      "type": "Semantic_Type",
+      "value": "Neoplastic Process"
+    },
+    {
+      "code": "P207",
+      "type": "UMLS_CUI",
+      "value": "C1334030"
+    }
+  ],
+  "children": [
+    {
+      "code": "C200105",
+      "name": "ALK-Positive Histiocytosis",
+      "leaf": false
+    },
+    {
+      "code": "C92944",
+      "name": "Central Nervous System Histiocytic and Dendritic Cell Neoplasm",
+      "leaf": false
+    },
+    {
+      "code": "C168980",
+      "name": "Cutaneous Histiocytic and Dendritic Cell Neoplasm",
+      "leaf": false
+    },
+    {
+      "code": "C213905",
+      "name": "Digestive System Histiocytic and Dendritic Cell Neoplasm",
+      "leaf": false
+    },
+    {
+      "code": "C53972",
+      "name": "Erdheim-Chester Disease",
+      "leaf": false
+    },
+    {
+      "code": "C173485",
+      "name": "Head and Neck Histiocytic and Dendritic Cell Neoplasm",
+      "leaf": false
+    },
+    {
+      "code": "C81767",
+      "name": "Indeterminate Dendritic Cell Tumor",
+      "leaf": false
+    },
+    {
+      "code": "C3451",
+      "name": "Juvenile Xanthogranuloma",
+      "leaf": false
+    },
+    {
+      "code": "C213906",
+      "name": "Lung Histiocytic and Dendritic Cell Neoplasm",
+      "leaf": false
+    },
+    {
+      "code": "C212210",
+      "name": "Malignant Histiocytic and Dendritic Cell Neoplasm",
+      "leaf": false
+    },
+    {
+      "code": "C134172",
+      "name": "Recurrent Histiocytic and Dendritic Cell Neoplasm",
+      "leaf": false
+    },
+    {
+      "code": "C134168",
+      "name": "Refractory Histiocytic and Dendritic Cell Neoplasm",
+      "leaf": false
+    },
+    {
+      "code": "C36075",
+      "name": "Rosai-Dorfman-Destombes Disease",
+      "leaf": false
+    },
+    {
+      "code": "C150692",
+      "name": "Tumors Derived from Langerhans Cells",
+      "leaf": false
+    }
+  ],
+  "parents": [
+    {
+      "code": "C27134",
+      "name": "Hematopoietic and Lymphoid Cell Neoplasm"
+    },
+    {
+      "code": "C203422",
+      "name": "Histiocytic Disorder"
+    },
+    {
+      "code": "C7201",
+      "name": "Rare Neoplasm"
+    }
+  ],
+  "associations": [
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C158520",
+      "relatedName": "CPTAC Codelists Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C156966",
+      "relatedName": "CPTAC Neoplasms Codelist"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C156952",
+      "relatedName": "CPTAC Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C118168",
+      "relatedName": "CTRP Disease Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C116977",
+      "relatedName": "CTRP Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C126659",
+      "relatedName": "NCIt Neoplasm Core Terminology"
+    }
+  ],
+  "roles": [
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C39715",
+      "relatedName": "CD30-Positive Neoplastic Cells Present"
+    },
+    {
+      "type": "Disease_Excludes_Molecular_Abnormality",
+      "relatedCode": "C36443",
+      "relatedName": "Clonal Immunoglobulin Gene Rearrangement"
+    },
+    {
+      "type": "Disease_Excludes_Molecular_Abnormality",
+      "relatedCode": "C36446",
+      "relatedName": "Clonal T-Cell Receptor Gene Rearrangement"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C41165",
+      "relatedName": "Hematopoietic and Lymphatic System"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C41165",
+      "relatedName": "Hematopoietic and Lymphatic System"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C32725",
+      "relatedName": "Hematopoietic and Lymphoid Cell"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C41168",
+      "relatedName": "Hematopoietic and Lymphoid Tissue"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C12563",
+      "relatedName": "Histiocyte"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C43251",
+      "relatedName": "Histiocytic and Dendritic Cell"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C3106",
+      "relatedName": "Histiocytosis"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C43268",
+      "relatedName": "HMB-45-Positive Neoplastic Cells Present"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12922",
+      "relatedName": "Neoplastic Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C37060",
+      "relatedName": "Neoplastic Hematopoietic and Lymphoid Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C43253",
+      "relatedName": "Neoplastic Histiocytic and Dendritic Cell"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C42094",
+      "relatedName": "Rare Lesion"
+    }
+  ],
+  "history": [
+    {
+      "code": "C9294",
+      "action": "create",
+      "date": "2003-08-12"
+    },
+    {
+      "code": "C9294",
+      "action": "modify",
+      "date": "2003-10-31"
+    },
+    {
+      "code": "C9294",
+      "action": "modify",
+      "date": "2003-12-30"
+    },
+    {
+      "code": "C9294",
+      "action": "modify",
+      "date": "2004-03-30"
+    },
+    {
+      "code": "C9294",
+      "action": "modify",
+      "date": "2005-01-28"
+    },
+    {
+      "code": "C9294",
+      "action": "modify",
+      "date": "2007-08-31"
+    },
+    {
+      "code": "C9294",
+      "action": "modify",
+      "date": "2007-10-29"
+    },
+    {
+      "code": "C9294",
+      "action": "modify",
+      "date": "2009-02-27"
+    },
+    {
+      "code": "C9294",
+      "action": "modify",
+      "date": "2009-10-27"
+    },
+    {
+      "code": "C9294",
+      "action": "modify",
+      "date": "2009-11-23"
+    },
+    {
+      "code": "C9294",
+      "action": "modify",
+      "date": "2011-01-17"
+    },
+    {
+      "code": "C9294",
+      "action": "modify",
+      "date": "2016-04-25"
+    },
+    {
+      "code": "C9294",
+      "action": "modify",
+      "date": "2018-12-31"
+    },
+    {
+      "code": "C9294",
+      "action": "modify",
+      "date": "2019-02-25"
+    },
+    {
+      "code": "C9294",
+      "action": "modify",
+      "date": "2019-03-25"
+    },
+    {
+      "code": "C9294",
+      "action": "modify",
+      "date": "2019-05-28"
+    },
+    {
+      "code": "C9294",
+      "action": "modify",
+      "date": "2023-06-26"
+    },
+    {
+      "code": "C9294",
+      "action": "modify",
+      "date": "2023-07-31"
+    },
+    {
+      "code": "C9294",
+      "action": "modify",
+      "date": "2024-01-29"
+    },
+    {
+      "code": "C9294",
+      "action": "modify",
+      "date": "2024-05-28"
+    }
+  ],
+  "maps": [
+    {
+      "type": "Related To",
+      "targetName": "Other and unspecified malignant neoplasms of lymphoid and histiocytic tissue involving intra-abdominal lymph nodes",
+      "targetTermType": "PT",
+      "targetCode": "202.93",
+      "targetTerminology": "ICD9CM 2014"
+    },
+    {
+      "type": "Related To",
+      "targetName": "Other and unspecified malignant neoplasms of lymphoid and histiocytic tissue, unspecified site, extranodal and solid organ sites",
+      "targetTermType": "PT",
+      "targetCode": "202.90",
+      "targetTerminology": "ICD9CM 2014"
+    },
+    {
+      "type": "Related To",
+      "targetName": "Other and unspecified malignant neoplasms of lymphoid and histiocytic tissue",
+      "targetTermType": "PT",
+      "targetCode": "202.9",
+      "targetTerminology": "ICD9CM 2014"
+    },
+    {
+      "type": "Related To",
+      "targetName": "Other malignant neoplasms of lymphoid and histiocytic tissue",
+      "targetTermType": "PT",
+      "targetCode": "202",
+      "targetTerminology": "ICD9CM 2014"
+    }
+  ]
+}

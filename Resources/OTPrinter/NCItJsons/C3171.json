@@ -1,0 +1,1840 @@
+{
+  "code": "C3171",
+  "name": "Acute Myeloid Leukemia",
+  "terminology": "ncit",
+  "version": "25.11d",
+  "conceptStatus": "DEFAULT",
+  "leaf": false,
+  "active": true,
+  "synonyms": [
+    {
+      "name": "Acute Myeloid Leukemia",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "caDSR"
+    },
+    {
+      "name": "Acute Myeloid Leukemia",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "Cellosaurus"
+    },
+    {
+      "name": "Acute Myeloid Leukemia",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "CPTAC"
+    },
+    {
+      "name": "Acute myeloid leukemia",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "CTEP",
+      "code": "10000884",
+      "subSource": "SDC"
+    },
+    {
+      "name": "Acute Myeloid Leukemia",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "CTRP"
+    },
+    {
+      "name": "Acute Myeloid Leukemia (AML)",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "CTRP"
+    },
+    {
+      "name": "Acute Myeloid Leukemia (AML)",
+      "termType": "DN",
+      "type": "FULL_SYN",
+      "source": "CTRP"
+    },
+    {
+      "name": "Acute granulocytic leukemia",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "GDC"
+    },
+    {
+      "name": "Acute myeloblastic leukemia",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "GDC"
+    },
+    {
+      "name": "Acute myelocytic leukemia",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "GDC"
+    },
+    {
+      "name": "Acute myelogenous leukemia",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "GDC"
+    },
+    {
+      "name": "Acute myeloid leukemia (AML)",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "GDC"
+    },
+    {
+      "name": "acute myeloblastic leukemia",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI-GLOSS",
+      "code": "CDR0000575435"
+    },
+    {
+      "name": "acute myelogenous leukemia",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NCI-GLOSS",
+      "code": "CDR0000046757"
+    },
+    {
+      "name": "acute myeloid leukemia",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NCI-GLOSS",
+      "code": "CDR0000046347"
+    },
+    {
+      "name": "acute nonlymphocytic leukemia",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NCI-GLOSS",
+      "code": "CDR0000046215"
+    },
+    {
+      "name": "AML",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NCI-GLOSS",
+      "code": "CDR0000044363"
+    },
+    {
+      "name": "ANLL",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI-GLOSS",
+      "code": "CDR0000575436"
+    },
+    {
+      "name": "Acute Myeloblastic Leukemia",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Acute Myelocytic Leukemia",
+      "termType": "AQS",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Acute Myelogenous Leukemia",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Acute Myelogenous Leukemias",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Acute Myeloid Leukemia",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Acute Nonlymphocytic Leukemia",
+      "termType": "AQS",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "AML",
+      "termType": "AB",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "AML - Acute Myeloid Leukemia",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "ANLL",
+      "termType": "AB",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Hematopoeitic - Acute Myleogenous Leukemia (AML)",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Acute Granulocytic Leukemia",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NICHD"
+    },
+    {
+      "name": "Acute Myelocytic Leukemia",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NICHD"
+    },
+    {
+      "name": "Acute Myelogenous Leukemia",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NICHD"
+    },
+    {
+      "name": "Acute Myeloid Leukemia",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NICHD"
+    },
+    {
+      "name": "AML",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NICHD"
+    },
+    {
+      "name": "Acute Myeloid Leukemia (AML)",
+      "type": "Display_Name"
+    },
+    {
+      "name": "Acute Myeloid Leukemia",
+      "type": "Preferred_Name"
+    }
+  ],
+  "definitions": [
+    {
+      "definition": "A clonal expansion of myeloid blasts in the bone marrow, blood or other tissues. The classification of acute myeloid leukemias (AMLs) encompasses four major categories: 1) AML with recurrent genetic abnormalities; 2) AML with multilineage dysplasia; 3) Therapy-related AML; 4) AML not otherwise specified. The required bone marrow or peripheral blood blast percentage for the diagnosis of AML is 20% (WHO classification).",
+      "type": "DEFINITION",
+      "source": "NCI"
+    },
+    {
+      "definition": "A rapidly progressive cancer of the blood and bone marrow consisting of the proliferation of abnormal myeloblasts, which are immature, dysfunctional white blood cells.",
+      "type": "ALT_DEFINITION",
+      "source": "NICHD"
+    },
+    {
+      "definition": "An aggressive (fast-growing) disease in which too many myeloblasts (immature white blood cells that are not lymphoblasts) are found in the bone marrow and blood.",
+      "type": "ALT_DEFINITION",
+      "source": "NCI-GLOSS"
+    }
+  ],
+  "properties": [
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "Cellosaurus"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "CPTAC"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "CTEP"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "CTRP"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "GDC"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "MedDRA"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "NICHD"
+    },
+    {
+      "code": "P334",
+      "type": "ICD-O-3_Code",
+      "value": "9861/3"
+    },
+    {
+      "code": "P366",
+      "type": "Legacy Concept Name",
+      "value": "Acute_Myeloid_Leukemia"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "9861/3"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "9872/3"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "Acute granulocytic leukemia"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "Acute myeloblastic leukaemia [AML]"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "Acute myeloblastic leukemia"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "Acute myeloblastic leukemia, not having achieved remission"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "Acute myelocytic leukemia"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "Acute myelogenous leukemia"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "Acute myeloid leukemia"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "Acute myeloid leukemia (AML)"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "Acute myeloid leukemia without mention of having achieved remission"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "Acute non-lymphocytic leukemia"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "Myeloid leukemia, acute"
+    },
+    {
+      "code": "P363",
+      "type": "Neoplastic_Status",
+      "value": "Malignant"
+    },
+    {
+      "code": "P106",
+      "type": "Semantic_Type",
+      "value": "Neoplastic Process"
+    },
+    {
+      "code": "P207",
+      "type": "UMLS_CUI",
+      "value": "C4015937"
+    }
+  ],
+  "children": [
+    {
+      "code": "C129785",
+      "name": "Acute Myeloid Leukemia with BCR-ABL1",
+      "leaf": true
+    },
+    {
+      "code": "C198596",
+      "name": "Acute Myeloid Leukemia with Mutated TP53",
+      "leaf": true
+    },
+    {
+      "code": "C7175",
+      "name": "Acute Myeloid Leukemia with Recurrent Genetic Abnormalities",
+      "leaf": false
+    },
+    {
+      "code": "C7600",
+      "name": "Acute Myeloid Leukemia, Myelodysplasia-Related",
+      "leaf": false
+    },
+    {
+      "code": "C27753",
+      "name": "Acute Myeloid Leukemia, Not Otherwise Specified",
+      "leaf": false
+    },
+    {
+      "code": "C9154",
+      "name": "Adult Acute Myeloid Leukemia",
+      "leaf": false
+    },
+    {
+      "code": "C9160",
+      "name": "Childhood Acute Myeloid Leukemia",
+      "leaf": false
+    },
+    {
+      "code": "C122687",
+      "name": "Cytogenetically Normal Acute Myeloid Leukemia",
+      "leaf": false
+    },
+    {
+      "code": "C148427",
+      "name": "Recurrent Acute Myeloid Leukemia",
+      "leaf": false
+    },
+    {
+      "code": "C134319",
+      "name": "Refractory Acute Myeloid Leukemia",
+      "leaf": false
+    },
+    {
+      "code": "C25765",
+      "name": "Secondary Acute Myeloid Leukemia",
+      "leaf": false
+    }
+  ],
+  "parents": [
+    {
+      "code": "C9300",
+      "name": "Acute Leukemia"
+    },
+    {
+      "code": "C3172",
+      "name": "Myeloid Leukemia"
+    }
+  ],
+  "associations": [
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C165258",
+      "relatedName": "Cellosaurus Disease Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C138188",
+      "relatedName": "Clinical Trials Search-Application Programming Interface Disease Category Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C159338",
+      "relatedName": "CPTAC Acute Myeloid Leukemia Follow-Up Form"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C158520",
+      "relatedName": "CPTAC Codelists Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C159328",
+      "relatedName": "CPTAC Follow-Up Forms Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C156966",
+      "relatedName": "CPTAC Neoplasms Codelist"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C156952",
+      "relatedName": "CPTAC Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C118168",
+      "relatedName": "CTRP Disease Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C175325",
+      "relatedName": "CTRP Portfolio Management Subtype Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C116977",
+      "relatedName": "CTRP Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C138190",
+      "relatedName": "CTS-API Disease Main Type Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C157711",
+      "relatedName": "GDC Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C177537",
+      "relatedName": "GDC Value Terminology"
+    },
+    {
+      "type": "Is_Value_For_GDC_Property",
+      "relatedCode": "C176985",
+      "relatedName": "Histology ICD-O Morphology Code"
+    },
+    {
+      "type": "Is_Value_For_GDC_Property",
+      "relatedCode": "C177621",
+      "relatedName": "ICD-O-3 Morphology Term Diagnosis Question"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C103124",
+      "relatedName": "NCI CTEP SDC Acute Myeloid Leukemia Sub-Category Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C102905",
+      "relatedName": "NCI CTEP Simplified Disease Classification Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C126659",
+      "relatedName": "NCIt Neoplasm Core Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C90259",
+      "relatedName": "NICHD Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C189762",
+      "relatedName": "Pediatric Adverse Events Terminology Mapped to MedDRA"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C118464",
+      "relatedName": "Pediatric Adverse Events Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C132009",
+      "relatedName": "Pediatric Hematology-Oncology Terminology"
+    },
+    {
+      "type": "Is_Value_For_GDC_Property",
+      "relatedCode": "C177615",
+      "relatedName": "TCGA BCR Tumor Code Name"
+    }
+  ],
+  "inverseAssociations": [
+    {
+      "type": "Has_GDC_Value",
+      "relatedCode": "C176985",
+      "relatedName": "Histology ICD-O Morphology Code"
+    },
+    {
+      "type": "Has_GDC_Value",
+      "relatedCode": "C177621",
+      "relatedName": "ICD-O-3 Morphology Term Diagnosis Question"
+    },
+    {
+      "type": "Has_GDC_Value",
+      "relatedCode": "C177615",
+      "relatedName": "TCGA BCR Tumor Code Name"
+    }
+  ],
+  "roles": [
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C36122",
+      "relatedName": "Benign Cellular Infiltrate"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C13456",
+      "relatedName": "Bone Marrow Stem Cell"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12431",
+      "relatedName": "Bone Marrow"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12431",
+      "relatedName": "Bone Marrow"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C36158",
+      "relatedName": "Chronic Clinical Course"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C41165",
+      "relatedName": "Hematopoietic and Lymphatic System"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C41165",
+      "relatedName": "Hematopoietic and Lymphatic System"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C32725",
+      "relatedName": "Hematopoietic and Lymphoid Cell"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C41168",
+      "relatedName": "Hematopoietic and Lymphoid Tissue"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C13051",
+      "relatedName": "Hematopoietic Tissue"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C25553",
+      "relatedName": "Leukemic Cell"
+    },
+    {
+      "type": "Disease_Excludes_Normal_Cell_Origin",
+      "relatedCode": "C12535",
+      "relatedName": "Lymphocyte"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12917",
+      "relatedName": "Malignant Cell"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C36115",
+      "relatedName": "Malignant Cellular Infiltrate"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12922",
+      "relatedName": "Neoplastic Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C37060",
+      "relatedName": "Neoplastic Hematopoietic and Lymphoid Cell"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C12914",
+      "relatedName": "Neoplastic Lymphoblast"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C37065",
+      "relatedName": "Neoplastic Myeloblast"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C41063",
+      "relatedName": "Neoplastic Myeloid Cell"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C36182",
+      "relatedName": "Solid Growth Pattern"
+    }
+  ],
+  "inverseRoles": [
+    {
+      "type": "Gene_Associated_With_Disease",
+      "relatedCode": "C24824",
+      "relatedName": "ABI1 Gene"
+    },
+    {
+      "type": "Gene_Associated_With_Disease",
+      "relatedCode": "C52438",
+      "relatedName": "ABI1 wt Allele"
+    },
+    {
+      "type": "Gene_Associated_With_Disease",
+      "relatedCode": "C18451",
+      "relatedName": "ABL2 Gene"
+    },
+    {
+      "type": "Gene_Associated_With_Disease",
+      "relatedCode": "C51062",
+      "relatedName": "ABL2 wt Allele"
+    },
+    {
+      "type": "Gene_Product_Malfunction_Associated_With_Disease",
+      "relatedCode": "C20941",
+      "relatedName": "Annexin A8"
+    },
+    {
+      "type": "Gene_Associated_With_Disease",
+      "relatedCode": "C26373",
+      "relatedName": "ARNT Gene"
+    },
+    {
+      "type": "Gene_Associated_With_Disease",
+      "relatedCode": "C52509",
+      "relatedName": "ARNT wt Allele"
+    },
+    {
+      "type": "Gene_Associated_With_Disease",
+      "relatedCode": "C21221",
+      "relatedName": "DCK Gene"
+    },
+    {
+      "type": "Gene_Associated_With_Disease",
+      "relatedCode": "C51053",
+      "relatedName": "DCK wt Allele"
+    },
+    {
+      "type": "Gene_Associated_With_Disease",
+      "relatedCode": "C24369",
+      "relatedName": "EPS15 Gene"
+    },
+    {
+      "type": "Gene_Associated_With_Disease",
+      "relatedCode": "C52516",
+      "relatedName": "EPS15 wt Allele"
+    },
+    {
+      "type": "Gene_Product_Malfunction_Associated_With_Disease",
+      "relatedCode": "C26310",
+      "relatedName": "Homeobox Protein Hox-A9"
+    },
+    {
+      "type": "Gene_Associated_With_Disease",
+      "relatedCode": "C24474",
+      "relatedName": "HOXA9 Gene"
+    },
+    {
+      "type": "Gene_Associated_With_Disease",
+      "relatedCode": "C52998",
+      "relatedName": "HOXA9 wt Allele"
+    },
+    {
+      "type": "Gene_Product_Malfunction_Associated_With_Disease",
+      "relatedCode": "C26627",
+      "relatedName": "Interferon Regulatory Factor 1"
+    },
+    {
+      "type": "Disease_May_Have_Associated_Disease",
+      "relatedCode": "C221744",
+      "relatedName": "MBD4-Associated Neoplasia Syndrome"
+    },
+    {
+      "type": "Gene_Associated_With_Disease",
+      "relatedCode": "C80720",
+      "relatedName": "MIR29B1 Gene"
+    },
+    {
+      "type": "Gene_Associated_With_Disease",
+      "relatedCode": "C81914",
+      "relatedName": "MIR29B1 wt Allele"
+    },
+    {
+      "type": "Gene_Associated_With_Disease",
+      "relatedCode": "C80721",
+      "relatedName": "MIR29B2 Gene"
+    },
+    {
+      "type": "Gene_Associated_With_Disease",
+      "relatedCode": "C81915",
+      "relatedName": "MIR29B2 wt Allele"
+    },
+    {
+      "type": "Gene_Associated_With_Disease",
+      "relatedCode": "C81798",
+      "relatedName": "MIR320A Gene"
+    },
+    {
+      "type": "Gene_Associated_With_Disease",
+      "relatedCode": "C82182",
+      "relatedName": "MIR320A wt Allele"
+    },
+    {
+      "type": "Disease_May_Have_Associated_Disease",
+      "relatedCode": "C176908",
+      "relatedName": "Monosomy 7 Myelodysplasia and Leukemia Syndrome 1"
+    },
+    {
+      "type": "Gene_Product_Malfunction_Associated_With_Disease",
+      "relatedCode": "C30084",
+      "relatedName": "Myosin-11"
+    },
+    {
+      "type": "Gene_Associated_With_Disease",
+      "relatedCode": "C21185",
+      "relatedName": "NPM1 Gene"
+    },
+    {
+      "type": "Gene_Associated_With_Disease",
+      "relatedCode": "C52487",
+      "relatedName": "NPM1 wt Allele"
+    },
+    {
+      "type": "Gene_Product_Malfunction_Associated_With_Disease",
+      "relatedCode": "C136697",
+      "relatedName": "Nuclear Pore Complex Protein Nup98-Nup96"
+    },
+    {
+      "type": "Gene_Product_Malfunction_Associated_With_Disease",
+      "relatedCode": "C21184",
+      "relatedName": "Nuclear Pore Complex Protein Nup98"
+    },
+    {
+      "type": "Gene_Associated_With_Disease",
+      "relatedCode": "C20820",
+      "relatedName": "NUP98 Gene"
+    },
+    {
+      "type": "Gene_Associated_With_Disease",
+      "relatedCode": "C52289",
+      "relatedName": "NUP98 wt Allele"
+    },
+    {
+      "type": "Gene_Associated_With_Disease",
+      "relatedCode": "C17397",
+      "relatedName": "Oncogene ABL1"
+    },
+    {
+      "type": "Gene_Associated_With_Disease",
+      "relatedCode": "C18348",
+      "relatedName": "Oncogene KIT"
+    },
+    {
+      "type": "Gene_Product_Malfunction_Associated_With_Disease",
+      "relatedCode": "C18320",
+      "relatedName": "Protein CBFA2T1"
+    },
+    {
+      "type": "Gene_Product_Malfunction_Associated_With_Disease",
+      "relatedCode": "C26217",
+      "relatedName": "Protein DEK"
+    },
+    {
+      "type": "Gene_Associated_With_Disease",
+      "relatedCode": "C28632",
+      "relatedName": "PURA Gene"
+    },
+    {
+      "type": "Gene_Associated_With_Disease",
+      "relatedCode": "C51297",
+      "relatedName": "PURA wt Allele"
+    },
+    {
+      "type": "Gene_Product_Malfunction_Associated_With_Disease",
+      "relatedCode": "C26202",
+      "relatedName": "Receptor-Type Tyrosine-Protein Kinase FLT3"
+    },
+    {
+      "type": "Regimen_Has_Accepted_Use_For_Disease",
+      "relatedCode": "C64770",
+      "relatedName": "TAD Regimen"
+    }
+  ],
+  "history": [
+    {
+      "code": "C3171",
+      "action": "create",
+      "date": "2003-08-12"
+    },
+    {
+      "code": "C3171",
+      "action": "modify",
+      "date": "2003-10-31"
+    },
+    {
+      "code": "C3171",
+      "action": "modify",
+      "date": "2003-12-30"
+    },
+    {
+      "code": "C3171",
+      "action": "modify",
+      "date": "2004-03-30"
+    },
+    {
+      "code": "C3171",
+      "action": "modify",
+      "date": "2004-04-30"
+    },
+    {
+      "code": "C3171",
+      "action": "modify",
+      "date": "2004-11-17"
+    },
+    {
+      "code": "C3171",
+      "action": "modify",
+      "date": "2004-11-01"
+    },
+    {
+      "code": "C3171",
+      "action": "modify",
+      "date": "2004-12-30"
+    },
+    {
+      "code": "C3171",
+      "action": "modify",
+      "date": "2007-03-30"
+    },
+    {
+      "code": "C3171",
+      "action": "modify",
+      "date": "2007-05-25"
+    },
+    {
+      "code": "C3171",
+      "action": "modify",
+      "date": "2009-04-06"
+    },
+    {
+      "code": "C3171",
+      "action": "modify",
+      "date": "2009-10-27"
+    },
+    {
+      "code": "C3171",
+      "action": "modify",
+      "date": "2009-11-23"
+    },
+    {
+      "code": "C3171",
+      "action": "modify",
+      "date": "2010-02-01"
+    },
+    {
+      "code": "C3171",
+      "action": "modify",
+      "date": "2010-03-08"
+    },
+    {
+      "code": "C3171",
+      "action": "modify",
+      "date": "2010-09-27"
+    },
+    {
+      "code": "C3171",
+      "action": "modify",
+      "date": "2011-01-17"
+    },
+    {
+      "code": "C3171",
+      "action": "modify",
+      "date": "2013-02-25"
+    },
+    {
+      "code": "C3171",
+      "action": "modify",
+      "date": "2013-03-04"
+    },
+    {
+      "code": "C3171",
+      "action": "modify",
+      "date": "2013-03-11"
+    },
+    {
+      "code": "C3171",
+      "action": "modify",
+      "date": "2013-03-18"
+    },
+    {
+      "code": "C3171",
+      "action": "modify",
+      "date": "2013-03-25"
+    },
+    {
+      "code": "C3171",
+      "action": "modify",
+      "date": "2013-04-01"
+    },
+    {
+      "code": "C3171",
+      "action": "modify",
+      "date": "2013-04-08"
+    },
+    {
+      "code": "C3171",
+      "action": "modify",
+      "date": "2013-04-15"
+    },
+    {
+      "code": "C3171",
+      "action": "modify",
+      "date": "2013-04-22"
+    },
+    {
+      "code": "C3171",
+      "action": "modify",
+      "date": "2013-04-29"
+    },
+    {
+      "code": "C3171",
+      "action": "modify",
+      "date": "2013-05-06"
+    },
+    {
+      "code": "C3171",
+      "action": "modify",
+      "date": "2013-05-13"
+    },
+    {
+      "code": "C3171",
+      "action": "modify",
+      "date": "2013-05-20"
+    },
+    {
+      "code": "C3171",
+      "action": "modify",
+      "date": "2013-05-28"
+    },
+    {
+      "code": "C3171",
+      "action": "modify",
+      "date": "2013-06-03"
+    },
+    {
+      "code": "C3171",
+      "action": "modify",
+      "date": "2013-06-10"
+    },
+    {
+      "code": "C3171",
+      "action": "modify",
+      "date": "2013-06-17"
+    },
+    {
+      "code": "C3171",
+      "action": "modify",
+      "date": "2013-06-24"
+    },
+    {
+      "code": "C3171",
+      "action": "modify",
+      "date": "2013-07-01"
+    },
+    {
+      "code": "C3171",
+      "action": "modify",
+      "date": "2013-07-08"
+    },
+    {
+      "code": "C3171",
+      "action": "modify",
+      "date": "2013-12-23"
+    },
+    {
+      "code": "C3171",
+      "action": "modify",
+      "date": "2014-02-03"
+    },
+    {
+      "code": "C3171",
+      "action": "modify",
+      "date": "2014-02-24"
+    },
+    {
+      "code": "C3171",
+      "action": "modify",
+      "date": "2014-08-04"
+    },
+    {
+      "code": "C3171",
+      "action": "modify",
+      "date": "2014-08-18"
+    },
+    {
+      "code": "C3171",
+      "action": "modify",
+      "date": "2014-09-22"
+    },
+    {
+      "code": "C3171",
+      "action": "modify",
+      "date": "2014-10-27"
+    },
+    {
+      "code": "C3171",
+      "action": "modify",
+      "date": "2014-11-03"
+    },
+    {
+      "code": "C3171",
+      "action": "modify",
+      "date": "2014-11-10"
+    },
+    {
+      "code": "C3171",
+      "action": "modify",
+      "date": "2014-11-17"
+    },
+    {
+      "code": "C3171",
+      "action": "modify",
+      "date": "2014-11-24"
+    },
+    {
+      "code": "C3171",
+      "action": "modify",
+      "date": "2014-12-01"
+    },
+    {
+      "code": "C3171",
+      "action": "modify",
+      "date": "2014-12-08"
+    },
+    {
+      "code": "C3171",
+      "action": "modify",
+      "date": "2014-12-15"
+    },
+    {
+      "code": "C3171",
+      "action": "modify",
+      "date": "2014-12-22"
+    },
+    {
+      "code": "C3171",
+      "action": "modify",
+      "date": "2014-12-29"
+    },
+    {
+      "code": "C3171",
+      "action": "modify",
+      "date": "2015-01-05"
+    },
+    {
+      "code": "C3171",
+      "action": "modify",
+      "date": "2015-01-12"
+    },
+    {
+      "code": "C3171",
+      "action": "modify",
+      "date": "2015-01-20"
+    },
+    {
+      "code": "C3171",
+      "action": "modify",
+      "date": "2015-01-26"
+    },
+    {
+      "code": "C3171",
+      "action": "modify",
+      "date": "2015-02-02"
+    },
+    {
+      "code": "C3171",
+      "action": "modify",
+      "date": "2015-02-09"
+    },
+    {
+      "code": "C3171",
+      "action": "modify",
+      "date": "2015-02-17"
+    },
+    {
+      "code": "C3171",
+      "action": "modify",
+      "date": "2015-02-23"
+    },
+    {
+      "code": "C3171",
+      "action": "modify",
+      "date": "2015-03-02"
+    },
+    {
+      "code": "C3171",
+      "action": "modify",
+      "date": "2015-03-09"
+    },
+    {
+      "code": "C3171",
+      "action": "modify",
+      "date": "2015-03-16"
+    },
+    {
+      "code": "C3171",
+      "action": "modify",
+      "date": "2015-03-23"
+    },
+    {
+      "code": "C3171",
+      "action": "modify",
+      "date": "2015-03-30"
+    },
+    {
+      "code": "C3171",
+      "action": "modify",
+      "date": "2015-04-06"
+    },
+    {
+      "code": "C3171",
+      "action": "modify",
+      "date": "2015-04-13"
+    },
+    {
+      "code": "C3171",
+      "action": "modify",
+      "date": "2015-04-20"
+    },
+    {
+      "code": "C3171",
+      "action": "modify",
+      "date": "2015-04-27"
+    },
+    {
+      "code": "C3171",
+      "action": "modify",
+      "date": "2015-05-04"
+    },
+    {
+      "code": "C3171",
+      "action": "modify",
+      "date": "2015-05-11"
+    },
+    {
+      "code": "C3171",
+      "action": "modify",
+      "date": "2015-05-18"
+    },
+    {
+      "code": "C3171",
+      "action": "modify",
+      "date": "2015-05-26"
+    },
+    {
+      "code": "C3171",
+      "action": "modify",
+      "date": "2015-06-01"
+    },
+    {
+      "code": "C3171",
+      "action": "modify",
+      "date": "2015-06-08"
+    },
+    {
+      "code": "C3171",
+      "action": "modify",
+      "date": "2015-06-15"
+    },
+    {
+      "code": "C3171",
+      "action": "modify",
+      "date": "2015-06-22"
+    },
+    {
+      "code": "C3171",
+      "action": "modify",
+      "date": "2015-06-29"
+    },
+    {
+      "code": "C3171",
+      "action": "modify",
+      "date": "2015-07-06"
+    },
+    {
+      "code": "C3171",
+      "action": "modify",
+      "date": "2015-07-13"
+    },
+    {
+      "code": "C3171",
+      "action": "modify",
+      "date": "2015-08-12"
+    },
+    {
+      "code": "C3171",
+      "action": "modify",
+      "date": "2015-08-24"
+    },
+    {
+      "code": "C3171",
+      "action": "modify",
+      "date": "2015-08-31"
+    },
+    {
+      "code": "C3171",
+      "action": "modify",
+      "date": "2015-09-08"
+    },
+    {
+      "code": "C3171",
+      "action": "modify",
+      "date": "2015-09-14"
+    },
+    {
+      "code": "C3171",
+      "action": "modify",
+      "date": "2015-09-21"
+    },
+    {
+      "code": "C3171",
+      "action": "modify",
+      "date": "2015-09-28"
+    },
+    {
+      "code": "C3171",
+      "action": "modify",
+      "date": "2015-10-05"
+    },
+    {
+      "code": "C3171",
+      "action": "modify",
+      "date": "2015-10-13"
+    },
+    {
+      "code": "C3171",
+      "action": "modify",
+      "date": "2015-10-19"
+    },
+    {
+      "code": "C3171",
+      "action": "modify",
+      "date": "2015-10-26"
+    },
+    {
+      "code": "C3171",
+      "action": "modify",
+      "date": "2015-11-02"
+    },
+    {
+      "code": "C3171",
+      "action": "modify",
+      "date": "2015-11-09"
+    },
+    {
+      "code": "C3171",
+      "action": "modify",
+      "date": "2015-11-16"
+    },
+    {
+      "code": "C3171",
+      "action": "modify",
+      "date": "2015-11-23"
+    },
+    {
+      "code": "C3171",
+      "action": "modify",
+      "date": "2015-11-30"
+    },
+    {
+      "code": "C3171",
+      "action": "modify",
+      "date": "2015-12-07"
+    },
+    {
+      "code": "C3171",
+      "action": "modify",
+      "date": "2015-12-14"
+    },
+    {
+      "code": "C3171",
+      "action": "modify",
+      "date": "2015-12-21"
+    },
+    {
+      "code": "C3171",
+      "action": "modify",
+      "date": "2015-12-28"
+    },
+    {
+      "code": "C3171",
+      "action": "modify",
+      "date": "2016-01-04"
+    },
+    {
+      "code": "C3171",
+      "action": "modify",
+      "date": "2016-01-11"
+    },
+    {
+      "code": "C3171",
+      "action": "modify",
+      "date": "2016-01-19"
+    },
+    {
+      "code": "C3171",
+      "action": "modify",
+      "date": "2016-01-29"
+    },
+    {
+      "code": "C3171",
+      "action": "modify",
+      "date": "2016-04-18"
+    },
+    {
+      "code": "C3171",
+      "action": "modify",
+      "date": "2016-04-25"
+    },
+    {
+      "code": "C3171",
+      "action": "modify",
+      "date": "2016-05-09"
+    },
+    {
+      "code": "C3171",
+      "action": "modify",
+      "date": "2016-05-16"
+    },
+    {
+      "code": "C3171",
+      "action": "modify",
+      "date": "2016-05-23"
+    },
+    {
+      "code": "C3171",
+      "action": "modify",
+      "date": "2016-05-31"
+    },
+    {
+      "code": "C3171",
+      "action": "modify",
+      "date": "2016-06-06"
+    },
+    {
+      "code": "C3171",
+      "action": "modify",
+      "date": "2016-06-13"
+    },
+    {
+      "code": "C3171",
+      "action": "modify",
+      "date": "2016-06-17"
+    },
+    {
+      "code": "C3171",
+      "action": "modify",
+      "date": "2016-06-27"
+    },
+    {
+      "code": "C3171",
+      "action": "modify",
+      "date": "2016-07-05"
+    },
+    {
+      "code": "C3171",
+      "action": "modify",
+      "date": "2016-07-11"
+    },
+    {
+      "code": "C3171",
+      "action": "modify",
+      "date": "2016-07-18"
+    },
+    {
+      "code": "C3171",
+      "action": "modify",
+      "date": "2016-07-25"
+    },
+    {
+      "code": "C3171",
+      "action": "modify",
+      "date": "2016-08-01"
+    },
+    {
+      "code": "C3171",
+      "action": "modify",
+      "date": "2016-08-08"
+    },
+    {
+      "code": "C3171",
+      "action": "modify",
+      "date": "2016-08-15"
+    },
+    {
+      "code": "C3171",
+      "action": "modify",
+      "date": "2016-08-22"
+    },
+    {
+      "code": "C3171",
+      "action": "modify",
+      "date": "2016-08-29"
+    },
+    {
+      "code": "C3171",
+      "action": "modify",
+      "date": "2016-09-06"
+    },
+    {
+      "code": "C3171",
+      "action": "modify",
+      "date": "2016-09-12"
+    },
+    {
+      "code": "C3171",
+      "action": "modify",
+      "date": "2016-09-20"
+    },
+    {
+      "code": "C3171",
+      "action": "modify",
+      "date": "2016-09-26"
+    },
+    {
+      "code": "C3171",
+      "action": "modify",
+      "date": "2016-10-03"
+    },
+    {
+      "code": "C3171",
+      "action": "modify",
+      "date": "2016-10-11"
+    },
+    {
+      "code": "C3171",
+      "action": "modify",
+      "date": "2016-10-17"
+    },
+    {
+      "code": "C3171",
+      "action": "modify",
+      "date": "2016-10-24"
+    },
+    {
+      "code": "C3171",
+      "action": "modify",
+      "date": "2016-10-31"
+    },
+    {
+      "code": "C3171",
+      "action": "modify",
+      "date": "2016-11-07"
+    },
+    {
+      "code": "C3171",
+      "action": "modify",
+      "date": "2016-11-14"
+    },
+    {
+      "code": "C3171",
+      "action": "modify",
+      "date": "2016-11-21"
+    },
+    {
+      "code": "C3171",
+      "action": "modify",
+      "date": "2016-11-28"
+    },
+    {
+      "code": "C3171",
+      "action": "modify",
+      "date": "2016-12-05"
+    },
+    {
+      "code": "C3171",
+      "action": "modify",
+      "date": "2016-12-12"
+    },
+    {
+      "code": "C3171",
+      "action": "modify",
+      "date": "2016-12-19"
+    },
+    {
+      "code": "C3171",
+      "action": "modify",
+      "date": "2016-12-27"
+    },
+    {
+      "code": "C3171",
+      "action": "modify",
+      "date": "2017-01-03"
+    },
+    {
+      "code": "C3171",
+      "action": "modify",
+      "date": "2017-01-09"
+    },
+    {
+      "code": "C3171",
+      "action": "modify",
+      "date": "2017-01-17"
+    },
+    {
+      "code": "C3171",
+      "action": "modify",
+      "date": "2017-01-23"
+    },
+    {
+      "code": "C3171",
+      "action": "modify",
+      "date": "2017-02-13"
+    },
+    {
+      "code": "C3171",
+      "action": "modify",
+      "date": "2017-07-31"
+    },
+    {
+      "code": "C3171",
+      "action": "modify",
+      "date": "2017-09-26"
+    },
+    {
+      "code": "C3171",
+      "action": "modify",
+      "date": "2018-07-30"
+    },
+    {
+      "code": "C3171",
+      "action": "modify",
+      "date": "2018-08-27"
+    },
+    {
+      "code": "C3171",
+      "action": "modify",
+      "date": "2018-08-27"
+    },
+    {
+      "code": "C3171",
+      "action": "modify",
+      "date": "2018-09-24"
+    },
+    {
+      "code": "C3171",
+      "action": "modify",
+      "date": "2018-10-29"
+    },
+    {
+      "code": "C3171",
+      "action": "modify",
+      "date": "2018-10-29"
+    },
+    {
+      "code": "C3171",
+      "action": "modify",
+      "date": "2018-11-26"
+    },
+    {
+      "code": "C3171",
+      "action": "modify",
+      "date": "2018-12-31"
+    },
+    {
+      "code": "C3171",
+      "action": "modify",
+      "date": "2019-02-25"
+    },
+    {
+      "code": "C3171",
+      "action": "modify",
+      "date": "2019-03-25"
+    },
+    {
+      "code": "C3171",
+      "action": "modify",
+      "date": "2019-05-28"
+    },
+    {
+      "code": "C3171",
+      "action": "modify",
+      "date": "2019-07-29"
+    },
+    {
+      "code": "C3171",
+      "action": "modify",
+      "date": "2019-09-30"
+    },
+    {
+      "code": "C3171",
+      "action": "modify",
+      "date": "2019-10-28"
+    },
+    {
+      "code": "C3171",
+      "action": "modify",
+      "date": "2019-11-25"
+    },
+    {
+      "code": "C3171",
+      "action": "modify",
+      "date": "2020-01-27"
+    },
+    {
+      "code": "C3171",
+      "action": "modify",
+      "date": "2020-03-30"
+    },
+    {
+      "code": "C3171",
+      "action": "modify",
+      "date": "2020-08-31"
+    },
+    {
+      "code": "C3171",
+      "action": "modify",
+      "date": "2020-09-29"
+    },
+    {
+      "code": "C3171",
+      "action": "modify",
+      "date": "2020-10-26"
+    },
+    {
+      "code": "C3171",
+      "action": "modify",
+      "date": "2021-02-22"
+    },
+    {
+      "code": "C3171",
+      "action": "modify",
+      "date": "2021-03-29"
+    },
+    {
+      "code": "C3171",
+      "action": "modify",
+      "date": "2021-04-26"
+    },
+    {
+      "code": "C3171",
+      "action": "modify",
+      "date": "2022-09-26"
+    },
+    {
+      "code": "C3171",
+      "action": "modify",
+      "date": "2023-02-27"
+    },
+    {
+      "code": "C3171",
+      "action": "modify",
+      "date": "2023-05-30"
+    },
+    {
+      "code": "C3171",
+      "action": "modify",
+      "date": "2024-04-29"
+    },
+    {
+      "code": "C3171",
+      "action": "modify",
+      "date": "2025-03-31"
+    }
+  ],
+  "maps": [
+    {
+      "type": "Related To",
+      "targetName": "9861/3",
+      "targetTermType": "PT",
+      "targetCode": "morphology",
+      "targetTerminology": "GDC"
+    },
+    {
+      "type": "Related To",
+      "targetName": "9872/3",
+      "targetTermType": "PT",
+      "targetCode": "morphology",
+      "targetTerminology": "GDC"
+    },
+    {
+      "type": "Has Synonym",
+      "targetName": "Acute granulocytic leukemia",
+      "targetTermType": "PT",
+      "targetCode": "primary_diagnosis",
+      "targetTerminology": "GDC"
+    },
+    {
+      "type": "Has Synonym",
+      "targetName": "Acute myeloblastic leukaemia [AML]",
+      "targetTermType": "PT",
+      "targetCode": "C92.0",
+      "targetTerminology": "ICD10CM 2017"
+    },
+    {
+      "type": "Related To",
+      "targetName": "Acute myeloblastic leukemia, not having achieved remission",
+      "targetTermType": "PT",
+      "targetCode": "C92.00",
+      "targetTerminology": "ICD10CM 2017"
+    },
+    {
+      "type": "Has Synonym",
+      "targetName": "Acute myeloblastic leukemia",
+      "targetTermType": "PT",
+      "targetCode": "primary_diagnosis",
+      "targetTerminology": "GDC"
+    },
+    {
+      "type": "Has Synonym",
+      "targetName": "Acute myelocytic leukemia",
+      "targetTermType": "PT",
+      "targetCode": "primary_diagnosis",
+      "targetTerminology": "GDC"
+    },
+    {
+      "type": "Has Synonym",
+      "targetName": "Acute myelogenous leukemia",
+      "targetTermType": "PT",
+      "targetCode": "primary_diagnosis",
+      "targetTerminology": "GDC"
+    },
+    {
+      "type": "Has Synonym",
+      "targetName": "Acute myeloid leukemia (AML)",
+      "targetTermType": "PT",
+      "targetCode": "tumor_code",
+      "targetTerminology": "GDC"
+    },
+    {
+      "type": "Related To",
+      "targetName": "Acute myeloid leukemia without mention of having achieved remission",
+      "targetTermType": "PT",
+      "targetCode": "205.00",
+      "targetTerminology": "ICD9CM 2014"
+    },
+    {
+      "type": "Has Synonym",
+      "targetName": "Acute myeloid leukemia",
+      "targetTermType": "LLT",
+      "targetCode": "10000886",
+      "targetTerminology": "MedDRA",
+      "targetTerminologyVersion": "18.1"
+    },
+    {
+      "type": "Related To",
+      "targetName": "Acute non-lymphocytic leukemia",
+      "targetTermType": "PT",
+      "targetCode": "primary_diagnosis",
+      "targetTerminology": "GDC"
+    },
+    {
+      "type": "Has Synonym",
+      "targetName": "Myeloid leukemia, acute",
+      "targetTermType": "PT",
+      "targetCode": "205.0",
+      "targetTerminology": "ICD9CM 2014"
+    }
+  ]
+}

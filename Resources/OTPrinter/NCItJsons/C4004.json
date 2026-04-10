@@ -1,0 +1,794 @@
+{
+  "code": "C4004",
+  "name": "Gastric Adenocarcinoma",
+  "terminology": "ncit",
+  "version": "25.11d",
+  "conceptStatus": "DEFAULT",
+  "leaf": false,
+  "active": true,
+  "synonyms": [
+    {
+      "name": "Gastric Adenocarcinoma",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "caDSR"
+    },
+    {
+      "name": "Gastric Adenocarcinoma, NOS",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "caDSR"
+    },
+    {
+      "name": "Gastric Adenocarcinoma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "Cellosaurus"
+    },
+    {
+      "name": "Adenocarcinoma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "CPTAC"
+    },
+    {
+      "name": "Adenocarcinoma - stomach",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "CTEP",
+      "code": "10001150",
+      "subSource": "SDC"
+    },
+    {
+      "name": "Adenocarcinoma of the stomach",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "CTEP",
+      "code": "10001150",
+      "subSource": "SDC"
+    },
+    {
+      "name": "Gastric (Stomach) Adenocarcinoma",
+      "termType": "DN",
+      "type": "FULL_SYN",
+      "source": "CTRP"
+    },
+    {
+      "name": "Adenocarcinoma of Stomach",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Adenocarcinoma of the Stomach",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Gastric Adenocarcinoma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "STAD",
+      "termType": "AB",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Stomach Adenocarcinoma",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Gastric Adenocarcinoma",
+      "type": "Display_Name"
+    },
+    {
+      "name": "Gastric Adenocarcinoma",
+      "type": "Preferred_Name"
+    }
+  ],
+  "definitions": [
+    {
+      "definition": "An adenocarcinoma arising from the stomach glandular epithelium. Gastric adenocarcinoma is primarily a disease of older individuals.  It most commonly develops after a long period of atrophic gastritis and is strongly associated with Helicobacter pylori infection. The lack of early symptoms often delays the diagnosis of gastric cancer. The majority of patients present with advanced tumors which have poor rates of curability. Microscopically, two important histologic types of gastric adenocarcinoma are recognized: the intestinal and diffuse type. The overall prognosis of gastric adenocarcinomas is poor, even in patients who receive a \"curative\" resection (adapted from Sternberg's Surgical Pathology, 3rd ed., 1999).",
+      "type": "DEFINITION",
+      "source": "NCI"
+    }
+  ],
+  "properties": [
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "Cellosaurus"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "CPTAC"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "CTEP"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "CTRP"
+    },
+    {
+      "code": "P366",
+      "type": "Legacy Concept Name",
+      "value": "Gastric_Adenocarcinoma"
+    },
+    {
+      "code": "P363",
+      "type": "Neoplastic_Status",
+      "value": "Malignant"
+    },
+    {
+      "code": "P106",
+      "type": "Semantic_Type",
+      "value": "Neoplastic Process"
+    },
+    {
+      "code": "P207",
+      "type": "UMLS_CUI",
+      "value": "C0278701"
+    }
+  ],
+  "children": [
+    {
+      "code": "C9159",
+      "name": "Gastric Diffuse Adenocarcinoma",
+      "leaf": false
+    },
+    {
+      "code": "C198918",
+      "name": "Localized Gastric Adenocarcinoma",
+      "leaf": true
+    },
+    {
+      "code": "C153319",
+      "name": "Metastatic Gastric Adenocarcinoma",
+      "leaf": false
+    },
+    {
+      "code": "C165628",
+      "name": "Proximal Gastric Adenocarcinoma",
+      "leaf": false
+    },
+    {
+      "code": "C154622",
+      "name": "Recurrent Gastric Adenocarcinoma",
+      "leaf": true
+    },
+    {
+      "code": "C167074",
+      "name": "Refractory Gastric Adenocarcinoma",
+      "leaf": true
+    },
+    {
+      "code": "C192203",
+      "name": "Resectable Gastric Adenocarcinoma",
+      "leaf": true
+    },
+    {
+      "code": "C43527",
+      "name": "Sporadic Gastric Adenocarcinoma",
+      "leaf": false
+    },
+    {
+      "code": "C154221",
+      "name": "Unresectable Gastric Adenocarcinoma",
+      "leaf": false
+    }
+  ],
+  "parents": [
+    {
+      "code": "C210140",
+      "name": "Digestive System Adenocarcinoma"
+    },
+    {
+      "code": "C4911",
+      "name": "Gastric Carcinoma"
+    }
+  ],
+  "associations": [
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C165258",
+      "relatedName": "Cellosaurus Disease Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C156953",
+      "relatedName": "CPTAC Baseline Medical Forms Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C157532",
+      "relatedName": "CPTAC Stomach Adenocarcinoma Baseline Form"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C156952",
+      "relatedName": "CPTAC Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C118168",
+      "relatedName": "CTRP Disease Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C116977",
+      "relatedName": "CTRP Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C103064",
+      "relatedName": "NCI CTEP SDC Gastroesophageal Cancer Sub-Category Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C102905",
+      "relatedName": "NCI CTEP Simplified Disease Classification Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C126659",
+      "relatedName": "NCIt Neoplasm Core Terminology"
+    }
+  ],
+  "roles": [
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36773",
+      "relatedName": "Adenocarcinoma Cell"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C36122",
+      "relatedName": "Benign Cellular Infiltrate"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C54172",
+      "relatedName": "Carcinomatous Component Present"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12378",
+      "relatedName": "Digestive System"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12378",
+      "relatedName": "Digestive System"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C26756",
+      "relatedName": "Dyspepsia"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C12578",
+      "relatedName": "Epithelial Cell"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C53596",
+      "relatedName": "Epithelial Component Present"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C45714",
+      "relatedName": "Epithelial Tissue"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C32656",
+      "relatedName": "Gastric Mucosa"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C33923",
+      "relatedName": "Glandular Cell"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C43370",
+      "relatedName": "Glandular Epithelium"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C155862",
+      "relatedName": "Intermediate Grade Neuroendocrine Lesion"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C155864",
+      "relatedName": "Low Grade Neuroendocrine Lesion"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12917",
+      "relatedName": "Malignant Cell"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C36115",
+      "relatedName": "Malignant Cellular Infiltrate"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36779",
+      "relatedName": "Malignant Epithelial Cell"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C36771",
+      "relatedName": "Malignant Squamous Cell"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C37153",
+      "relatedName": "Malignant Stromal Cell"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C62273",
+      "relatedName": "Mixed Neoplastic Glandular and Squamous Cell Population"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12922",
+      "relatedName": "Neoplastic Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36753",
+      "relatedName": "Neoplastic Epithelial Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36763",
+      "relatedName": "Neoplastic Glandular Cell"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C36937",
+      "relatedName": "Neoplastic Smooth Muscle Cell"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C36760",
+      "relatedName": "Neoplastic Squamous Cell"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12391",
+      "relatedName": "Stomach"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12391",
+      "relatedName": "Stomach"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C155861",
+      "relatedName": "Well Differentiated Neuroendocrine Lesion"
+    }
+  ],
+  "inverseRoles": [
+    {
+      "type": "Disease_Has_Associated_Disease",
+      "relatedCode": "C172989",
+      "relatedName": "Gastric Adenocarcinoma and Proximal Polyposis of the Stomach"
+    },
+    {
+      "type": "Disease_May_Have_Associated_Disease",
+      "relatedCode": "C3153",
+      "relatedName": "Krukenberg Tumor"
+    }
+  ],
+  "history": [
+    {
+      "code": "C4004",
+      "action": "create",
+      "date": "2003-08-12"
+    },
+    {
+      "code": "C4004",
+      "action": "modify",
+      "date": "2003-10-31"
+    },
+    {
+      "code": "C4004",
+      "action": "modify",
+      "date": "2003-12-30"
+    },
+    {
+      "code": "C4004",
+      "action": "modify",
+      "date": "2004-03-30"
+    },
+    {
+      "code": "C4004",
+      "action": "modify",
+      "date": "2006-05-26"
+    },
+    {
+      "code": "C4004",
+      "action": "modify",
+      "date": "2006-06-30"
+    },
+    {
+      "code": "C4004",
+      "action": "modify",
+      "date": "2007-05-25"
+    },
+    {
+      "code": "C4004",
+      "action": "modify",
+      "date": "2007-10-29"
+    },
+    {
+      "code": "C4004",
+      "action": "modify",
+      "date": "2009-04-06"
+    },
+    {
+      "code": "C4004",
+      "action": "modify",
+      "date": "2009-11-23"
+    },
+    {
+      "code": "C4004",
+      "action": "modify",
+      "date": "2011-02-28"
+    },
+    {
+      "code": "C4004",
+      "action": "modify",
+      "date": "2012-09-24"
+    },
+    {
+      "code": "C4004",
+      "action": "modify",
+      "date": "2012-10-01"
+    },
+    {
+      "code": "C4004",
+      "action": "modify",
+      "date": "2012-10-09"
+    },
+    {
+      "code": "C4004",
+      "action": "modify",
+      "date": "2012-10-15"
+    },
+    {
+      "code": "C4004",
+      "action": "modify",
+      "date": "2012-10-22"
+    },
+    {
+      "code": "C4004",
+      "action": "modify",
+      "date": "2012-10-31"
+    },
+    {
+      "code": "C4004",
+      "action": "modify",
+      "date": "2012-11-05"
+    },
+    {
+      "code": "C4004",
+      "action": "modify",
+      "date": "2012-11-13"
+    },
+    {
+      "code": "C4004",
+      "action": "modify",
+      "date": "2012-11-19"
+    },
+    {
+      "code": "C4004",
+      "action": "modify",
+      "date": "2012-11-26"
+    },
+    {
+      "code": "C4004",
+      "action": "modify",
+      "date": "2012-12-03"
+    },
+    {
+      "code": "C4004",
+      "action": "modify",
+      "date": "2012-12-10"
+    },
+    {
+      "code": "C4004",
+      "action": "modify",
+      "date": "2012-12-17"
+    },
+    {
+      "code": "C4004",
+      "action": "modify",
+      "date": "2012-12-28"
+    },
+    {
+      "code": "C4004",
+      "action": "modify",
+      "date": "2013-01-07"
+    },
+    {
+      "code": "C4004",
+      "action": "modify",
+      "date": "2013-01-14"
+    },
+    {
+      "code": "C4004",
+      "action": "modify",
+      "date": "2013-01-23"
+    },
+    {
+      "code": "C4004",
+      "action": "modify",
+      "date": "2013-02-04"
+    },
+    {
+      "code": "C4004",
+      "action": "modify",
+      "date": "2013-02-11"
+    },
+    {
+      "code": "C4004",
+      "action": "modify",
+      "date": "2013-02-19"
+    },
+    {
+      "code": "C4004",
+      "action": "modify",
+      "date": "2013-02-25"
+    },
+    {
+      "code": "C4004",
+      "action": "modify",
+      "date": "2013-03-04"
+    },
+    {
+      "code": "C4004",
+      "action": "modify",
+      "date": "2013-03-11"
+    },
+    {
+      "code": "C4004",
+      "action": "modify",
+      "date": "2013-03-18"
+    },
+    {
+      "code": "C4004",
+      "action": "modify",
+      "date": "2013-03-25"
+    },
+    {
+      "code": "C4004",
+      "action": "modify",
+      "date": "2013-04-01"
+    },
+    {
+      "code": "C4004",
+      "action": "modify",
+      "date": "2013-04-08"
+    },
+    {
+      "code": "C4004",
+      "action": "modify",
+      "date": "2013-04-15"
+    },
+    {
+      "code": "C4004",
+      "action": "modify",
+      "date": "2013-04-22"
+    },
+    {
+      "code": "C4004",
+      "action": "modify",
+      "date": "2013-04-29"
+    },
+    {
+      "code": "C4004",
+      "action": "modify",
+      "date": "2013-05-06"
+    },
+    {
+      "code": "C4004",
+      "action": "modify",
+      "date": "2013-05-13"
+    },
+    {
+      "code": "C4004",
+      "action": "modify",
+      "date": "2013-05-20"
+    },
+    {
+      "code": "C4004",
+      "action": "modify",
+      "date": "2013-05-28"
+    },
+    {
+      "code": "C4004",
+      "action": "modify",
+      "date": "2013-06-03"
+    },
+    {
+      "code": "C4004",
+      "action": "modify",
+      "date": "2013-06-10"
+    },
+    {
+      "code": "C4004",
+      "action": "modify",
+      "date": "2013-06-17"
+    },
+    {
+      "code": "C4004",
+      "action": "modify",
+      "date": "2013-06-24"
+    },
+    {
+      "code": "C4004",
+      "action": "modify",
+      "date": "2013-07-01"
+    },
+    {
+      "code": "C4004",
+      "action": "modify",
+      "date": "2013-07-08"
+    },
+    {
+      "code": "C4004",
+      "action": "modify",
+      "date": "2014-02-03"
+    },
+    {
+      "code": "C4004",
+      "action": "modify",
+      "date": "2014-08-04"
+    },
+    {
+      "code": "C4004",
+      "action": "modify",
+      "date": "2014-08-18"
+    },
+    {
+      "code": "C4004",
+      "action": "modify",
+      "date": "2014-09-22"
+    },
+    {
+      "code": "C4004",
+      "action": "modify",
+      "date": "2016-04-25"
+    },
+    {
+      "code": "C4004",
+      "action": "modify",
+      "date": "2016-09-20"
+    },
+    {
+      "code": "C4004",
+      "action": "modify",
+      "date": "2017-07-31"
+    },
+    {
+      "code": "C4004",
+      "action": "modify",
+      "date": "2018-07-30"
+    },
+    {
+      "code": "C4004",
+      "action": "modify",
+      "date": "2018-08-27"
+    },
+    {
+      "code": "C4004",
+      "action": "modify",
+      "date": "2018-08-27"
+    },
+    {
+      "code": "C4004",
+      "action": "modify",
+      "date": "2018-09-24"
+    },
+    {
+      "code": "C4004",
+      "action": "modify",
+      "date": "2018-10-29"
+    },
+    {
+      "code": "C4004",
+      "action": "modify",
+      "date": "2018-10-29"
+    },
+    {
+      "code": "C4004",
+      "action": "modify",
+      "date": "2019-04-29"
+    },
+    {
+      "code": "C4004",
+      "action": "modify",
+      "date": "2019-05-28"
+    },
+    {
+      "code": "C4004",
+      "action": "modify",
+      "date": "2019-06-24"
+    },
+    {
+      "code": "C4004",
+      "action": "modify",
+      "date": "2019-07-29"
+    },
+    {
+      "code": "C4004",
+      "action": "modify",
+      "date": "2019-09-30"
+    },
+    {
+      "code": "C4004",
+      "action": "modify",
+      "date": "2019-10-28"
+    },
+    {
+      "code": "C4004",
+      "action": "modify",
+      "date": "2019-12-30"
+    },
+    {
+      "code": "C4004",
+      "action": "modify",
+      "date": "2020-02-24"
+    },
+    {
+      "code": "C4004",
+      "action": "modify",
+      "date": "2020-03-30"
+    },
+    {
+      "code": "C4004",
+      "action": "modify",
+      "date": "2020-08-31"
+    },
+    {
+      "code": "C4004",
+      "action": "modify",
+      "date": "2020-09-29"
+    },
+    {
+      "code": "C4004",
+      "action": "modify",
+      "date": "2023-02-27"
+    },
+    {
+      "code": "C4004",
+      "action": "modify",
+      "date": "2024-09-30"
+    },
+    {
+      "code": "C4004",
+      "action": "modify",
+      "date": "2025-03-31"
+    }
+  ]
+}

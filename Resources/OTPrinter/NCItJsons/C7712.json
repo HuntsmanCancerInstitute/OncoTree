@@ -1,0 +1,1221 @@
+{
+  "code": "C7712",
+  "name": "Uveal Melanoma",
+  "terminology": "ncit",
+  "version": "25.11d",
+  "conceptStatus": "DEFAULT",
+  "leaf": false,
+  "active": true,
+  "synonyms": [
+    {
+      "name": "Intraocular Melanoma",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "CDISC"
+    },
+    {
+      "name": "Melanoma of the Uvea",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "CDISC"
+    },
+    {
+      "name": "Melanoma of Uvea",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "CDISC"
+    },
+    {
+      "name": "MELANOMA, UVEAL, MALIGNANT",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "CDISC"
+    },
+    {
+      "name": "Uveal Melanoma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "Cellosaurus"
+    },
+    {
+      "name": "Uveal Melanoma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "CPTAC"
+    },
+    {
+      "name": "Intraocular Melanoma",
+      "termType": "DN",
+      "type": "FULL_SYN",
+      "source": "CTRP"
+    },
+    {
+      "name": "intraocular melanoma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NCI-GLOSS",
+      "code": "CDR0000269460"
+    },
+    {
+      "name": "Intraocular Melanoma",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Melanoma of the Uvea",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Melanoma of Uvea",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Uveal Melanoma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Uveal Tract Melanoma",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "UVM",
+      "termType": "AB",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Intraocular Melanoma",
+      "type": "Display_Name"
+    },
+    {
+      "name": "Uveal Melanoma",
+      "type": "Preferred_Name"
+    }
+  ],
+  "definitions": [
+    {
+      "definition": "A malignant neoplasm of the uvea composed of melanocytes.",
+      "type": "ALT_DEFINITION",
+      "source": "CDISC"
+    },
+    {
+      "definition": "A melanoma derived from melanocytes of the uveal tract.  It is the most common primary intraocular tumor in the United States and Western Europe.  Similar to melanoma of the skin, it is rare in Africa and Asia.  Diagnostic procedures include ophthalmoscopic exam, fluorescein angiography and ultrasound.  Treatment includes: surgical excision of the eye, iridocyclectomy and tumor resection.  Recent treatments also include radiotherapy or photo coagulation.  Classification of uveal melanomas recognizes four cell types within these tumors: epithelioid, intermediate, mixed cell, and spindle cell types.  The spindle cell type uveal melanomas are further sub-classified as spindle cell type A and spindle cell type B.",
+      "type": "DEFINITION",
+      "source": "NCI"
+    },
+    {
+      "definition": "A rare cancer of melanocytes (cells that produce the pigment melanin) found in the eye.",
+      "type": "ALT_DEFINITION",
+      "source": "NCI-GLOSS"
+    }
+  ],
+  "properties": [
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "CDISC"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "Cellosaurus"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "CPTAC"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "CTRP"
+    },
+    {
+      "code": "P366",
+      "type": "Legacy Concept Name",
+      "value": "Uveal_Melanoma"
+    },
+    {
+      "code": "P363",
+      "type": "Neoplastic_Status",
+      "value": "Malignant"
+    },
+    {
+      "code": "P106",
+      "type": "Semantic_Type",
+      "value": "Neoplastic Process"
+    },
+    {
+      "code": "P207",
+      "type": "UMLS_CUI",
+      "value": "C0220633"
+    }
+  ],
+  "children": [
+    {
+      "code": "C4561",
+      "name": "Choroid Melanoma",
+      "leaf": false
+    },
+    {
+      "code": "C140659",
+      "name": "Choroidal and Ciliary Body Melanoma by AJCC v8 Stage",
+      "leaf": false
+    },
+    {
+      "code": "C4558",
+      "name": "Ciliary Body Melanoma",
+      "leaf": false
+    },
+    {
+      "code": "C190746",
+      "name": "Iridociliary Melanoma",
+      "leaf": true
+    },
+    {
+      "code": "C9088",
+      "name": "Iris Melanoma",
+      "leaf": false
+    },
+    {
+      "code": "C217197",
+      "name": "Localized Uveal Melanoma",
+      "leaf": true
+    },
+    {
+      "code": "C9090",
+      "name": "Medium/Large Size Posterior Uveal Melanoma",
+      "leaf": true
+    },
+    {
+      "code": "C148514",
+      "name": "Metastatic Uveal Melanoma",
+      "leaf": false
+    },
+    {
+      "code": "C7914",
+      "name": "Recurrent Uveal Melanoma",
+      "leaf": true
+    },
+    {
+      "code": "C173335",
+      "name": "Refractory Uveal Melanoma",
+      "leaf": true
+    },
+    {
+      "code": "C9089",
+      "name": "Small Size Posterior Uveal Melanoma",
+      "leaf": true
+    },
+    {
+      "code": "C172247",
+      "name": "Unresectable Uveal Melanoma",
+      "leaf": false
+    },
+    {
+      "code": "C35780",
+      "name": "Uveal Epithelioid Cell Melanoma",
+      "leaf": false
+    },
+    {
+      "code": "C7989",
+      "name": "Uveal Intermediate Cell Type Melanoma",
+      "leaf": false
+    },
+    {
+      "code": "C140672",
+      "name": "Uveal Melanoma by AJCC v7 Stage",
+      "leaf": false
+    },
+    {
+      "code": "C111030",
+      "name": "Uveal Melanoma by Gene Expression Profile",
+      "leaf": false
+    },
+    {
+      "code": "C35781",
+      "name": "Uveal Mixed Epithelioid and Spindle Cell Melanoma",
+      "leaf": false
+    },
+    {
+      "code": "C7990",
+      "name": "Uveal Necrotic Melanoma",
+      "leaf": false
+    },
+    {
+      "code": "C7986",
+      "name": "Uveal Spindle Cell Melanoma",
+      "leaf": false
+    }
+  ],
+  "parents": [
+    {
+      "code": "C6105",
+      "name": "Malignant Uveal Neoplasm"
+    },
+    {
+      "code": "C8711",
+      "name": "Non-Cutaneous Melanoma"
+    },
+    {
+      "code": "C8562",
+      "name": "Ocular Melanoma"
+    },
+    {
+      "code": "C205057",
+      "name": "Uveal Melanocytic Neoplasm"
+    }
+  ],
+  "associations": [
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C77526",
+      "relatedName": "CDISC SEND Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C88025",
+      "relatedName": "CDISC SEND Tumor Findings Results Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C165258",
+      "relatedName": "Cellosaurus Disease Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C61410",
+      "relatedName": "Clinical Data Interchange Standards Consortium Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C158520",
+      "relatedName": "CPTAC Codelists Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C156966",
+      "relatedName": "CPTAC Neoplasms Codelist"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C156952",
+      "relatedName": "CPTAC Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C118168",
+      "relatedName": "CTRP Disease Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C116977",
+      "relatedName": "CTRP Terminology"
+    }
+  ],
+  "roles": [
+    {
+      "type": "Disease_May_Have_Molecular_Abnormality",
+      "relatedCode": "C128813",
+      "relatedName": "BAP1 Gene Mutation"
+    },
+    {
+      "type": "Disease_Mapped_To_Gene",
+      "relatedCode": "C20766",
+      "relatedName": "BAP1 Gene"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C36122",
+      "relatedName": "Benign Cellular Infiltrate"
+    },
+    {
+      "type": "Disease_May_Have_Molecular_Abnormality",
+      "relatedCode": "C160412",
+      "relatedName": "CYSLTR2 Gene Mutation"
+    },
+    {
+      "type": "Disease_May_Have_Molecular_Abnormality",
+      "relatedCode": "C174497",
+      "relatedName": "EIF1AX Gene Mutation"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12401",
+      "relatedName": "Eye"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12401",
+      "relatedName": "Eye"
+    },
+    {
+      "type": "Disease_May_Have_Molecular_Abnormality",
+      "relatedCode": "C89714",
+      "relatedName": "GNA11 Gene Mutation"
+    },
+    {
+      "type": "Disease_Mapped_To_Gene",
+      "relatedCode": "C89717",
+      "relatedName": "GNA11 Gene"
+    },
+    {
+      "type": "Disease_May_Have_Molecular_Abnormality",
+      "relatedCode": "C89713",
+      "relatedName": "GNAQ Gene Mutation"
+    },
+    {
+      "type": "Disease_Mapped_To_Gene",
+      "relatedCode": "C38316",
+      "relatedName": "GNAQ Gene"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C43268",
+      "relatedName": "HMB-45-Positive Neoplastic Cells Present"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12917",
+      "relatedName": "Malignant Cell"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C36115",
+      "relatedName": "Malignant Cellular Infiltrate"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C12591",
+      "relatedName": "Melanocyte"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36873",
+      "relatedName": "Melanoma Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12922",
+      "relatedName": "Neoplastic Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36862",
+      "relatedName": "Neoplastic Melanocyte"
+    },
+    {
+      "type": "Disease_May_Have_Molecular_Abnormality",
+      "relatedCode": "C160887",
+      "relatedName": "PLCB4 Gene Mutation"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C40993",
+      "relatedName": "S-100-Positive Neoplastic Cells Present"
+    },
+    {
+      "type": "Disease_May_Have_Molecular_Abnormality",
+      "relatedCode": "C133702",
+      "relatedName": "SF3B1 Gene Mutation"
+    },
+    {
+      "type": "Disease_Excludes_Primary_Anatomic_Site",
+      "relatedCode": "C12470",
+      "relatedName": "Skin"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12811",
+      "relatedName": "Uvea"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12811",
+      "relatedName": "Uvea"
+    }
+  ],
+  "inverseRoles": [
+    {
+      "type": "Gene_Involved_In_Pathogenesis_Of_Disease",
+      "relatedCode": "C20766",
+      "relatedName": "BAP1 Gene"
+    },
+    {
+      "type": "Gene_Involved_In_Pathogenesis_Of_Disease",
+      "relatedCode": "C51102",
+      "relatedName": "BAP1 wt Allele"
+    },
+    {
+      "type": "Disease_May_Have_Associated_Disease",
+      "relatedCode": "C172639",
+      "relatedName": "BAP1-Related Tumor Predisposition Syndrome"
+    },
+    {
+      "type": "Gene_Involved_In_Pathogenesis_Of_Disease",
+      "relatedCode": "C89717",
+      "relatedName": "GNA11 Gene"
+    },
+    {
+      "type": "Gene_Involved_In_Pathogenesis_Of_Disease",
+      "relatedCode": "C89718",
+      "relatedName": "GNA11 wt Allele"
+    },
+    {
+      "type": "Gene_Involved_In_Pathogenesis_Of_Disease",
+      "relatedCode": "C38316",
+      "relatedName": "GNAQ Gene"
+    },
+    {
+      "type": "Gene_Involved_In_Pathogenesis_Of_Disease",
+      "relatedCode": "C52650",
+      "relatedName": "GNAQ wt Allele"
+    },
+    {
+      "type": "Disease_May_Have_Associated_Disease",
+      "relatedCode": "C221744",
+      "relatedName": "MBD4-Associated Neoplasia Syndrome"
+    }
+  ],
+  "history": [
+    {
+      "code": "C7712",
+      "action": "create",
+      "date": "2003-08-12"
+    },
+    {
+      "code": "C7712",
+      "action": "modify",
+      "date": "2003-10-31"
+    },
+    {
+      "code": "C7712",
+      "action": "modify",
+      "date": "2003-12-30"
+    },
+    {
+      "code": "C7712",
+      "action": "modify",
+      "date": "2004-02-23"
+    },
+    {
+      "code": "C7712",
+      "action": "modify",
+      "date": "2004-03-30"
+    },
+    {
+      "code": "C7712",
+      "action": "modify",
+      "date": "2005-01-28"
+    },
+    {
+      "code": "C7712",
+      "action": "modify",
+      "date": "2006-03-31"
+    },
+    {
+      "code": "C7712",
+      "action": "modify",
+      "date": "2007-06-28"
+    },
+    {
+      "code": "C7712",
+      "action": "modify",
+      "date": "2009-04-06"
+    },
+    {
+      "code": "C7712",
+      "action": "modify",
+      "date": "2009-11-23"
+    },
+    {
+      "code": "C7712",
+      "action": "modify",
+      "date": "2010-06-01"
+    },
+    {
+      "code": "C7712",
+      "action": "modify",
+      "date": "2011-02-22"
+    },
+    {
+      "code": "C7712",
+      "action": "modify",
+      "date": "2011-04-11"
+    },
+    {
+      "code": "C7712",
+      "action": "modify",
+      "date": "2011-11-14"
+    },
+    {
+      "code": "C7712",
+      "action": "modify",
+      "date": "2011-11-21"
+    },
+    {
+      "code": "C7712",
+      "action": "modify",
+      "date": "2011-11-28"
+    },
+    {
+      "code": "C7712",
+      "action": "modify",
+      "date": "2011-12-05"
+    },
+    {
+      "code": "C7712",
+      "action": "modify",
+      "date": "2011-12-12"
+    },
+    {
+      "code": "C7712",
+      "action": "modify",
+      "date": "2011-12-19"
+    },
+    {
+      "code": "C7712",
+      "action": "modify",
+      "date": "2011-12-27"
+    },
+    {
+      "code": "C7712",
+      "action": "modify",
+      "date": "2012-01-09"
+    },
+    {
+      "code": "C7712",
+      "action": "modify",
+      "date": "2012-01-17"
+    },
+    {
+      "code": "C7712",
+      "action": "modify",
+      "date": "2012-01-23"
+    },
+    {
+      "code": "C7712",
+      "action": "modify",
+      "date": "2012-01-30"
+    },
+    {
+      "code": "C7712",
+      "action": "modify",
+      "date": "2012-02-06"
+    },
+    {
+      "code": "C7712",
+      "action": "modify",
+      "date": "2012-02-13"
+    },
+    {
+      "code": "C7712",
+      "action": "modify",
+      "date": "2012-02-21"
+    },
+    {
+      "code": "C7712",
+      "action": "modify",
+      "date": "2012-02-27"
+    },
+    {
+      "code": "C7712",
+      "action": "modify",
+      "date": "2012-03-05"
+    },
+    {
+      "code": "C7712",
+      "action": "modify",
+      "date": "2012-03-12"
+    },
+    {
+      "code": "C7712",
+      "action": "modify",
+      "date": "2012-03-19"
+    },
+    {
+      "code": "C7712",
+      "action": "modify",
+      "date": "2012-03-26"
+    },
+    {
+      "code": "C7712",
+      "action": "modify",
+      "date": "2012-04-02"
+    },
+    {
+      "code": "C7712",
+      "action": "modify",
+      "date": "2012-04-09"
+    },
+    {
+      "code": "C7712",
+      "action": "modify",
+      "date": "2012-04-16"
+    },
+    {
+      "code": "C7712",
+      "action": "modify",
+      "date": "2012-04-23"
+    },
+    {
+      "code": "C7712",
+      "action": "modify",
+      "date": "2012-04-30"
+    },
+    {
+      "code": "C7712",
+      "action": "modify",
+      "date": "2012-05-07"
+    },
+    {
+      "code": "C7712",
+      "action": "modify",
+      "date": "2012-05-14"
+    },
+    {
+      "code": "C7712",
+      "action": "modify",
+      "date": "2012-05-21"
+    },
+    {
+      "code": "C7712",
+      "action": "modify",
+      "date": "2012-05-29"
+    },
+    {
+      "code": "C7712",
+      "action": "modify",
+      "date": "2012-06-04"
+    },
+    {
+      "code": "C7712",
+      "action": "modify",
+      "date": "2012-06-11"
+    },
+    {
+      "code": "C7712",
+      "action": "modify",
+      "date": "2012-06-18"
+    },
+    {
+      "code": "C7712",
+      "action": "modify",
+      "date": "2012-06-18"
+    },
+    {
+      "code": "C7712",
+      "action": "modify",
+      "date": "2012-06-25"
+    },
+    {
+      "code": "C7712",
+      "action": "modify",
+      "date": "2012-07-03"
+    },
+    {
+      "code": "C7712",
+      "action": "modify",
+      "date": "2012-07-16"
+    },
+    {
+      "code": "C7712",
+      "action": "modify",
+      "date": "2012-07-23"
+    },
+    {
+      "code": "C7712",
+      "action": "modify",
+      "date": "2012-07-30"
+    },
+    {
+      "code": "C7712",
+      "action": "modify",
+      "date": "2012-08-06"
+    },
+    {
+      "code": "C7712",
+      "action": "modify",
+      "date": "2012-08-13"
+    },
+    {
+      "code": "C7712",
+      "action": "modify",
+      "date": "2012-08-20"
+    },
+    {
+      "code": "C7712",
+      "action": "modify",
+      "date": "2012-08-27"
+    },
+    {
+      "code": "C7712",
+      "action": "modify",
+      "date": "2012-09-04"
+    },
+    {
+      "code": "C7712",
+      "action": "modify",
+      "date": "2012-09-10"
+    },
+    {
+      "code": "C7712",
+      "action": "modify",
+      "date": "2012-09-17"
+    },
+    {
+      "code": "C7712",
+      "action": "modify",
+      "date": "2012-09-24"
+    },
+    {
+      "code": "C7712",
+      "action": "modify",
+      "date": "2012-10-01"
+    },
+    {
+      "code": "C7712",
+      "action": "modify",
+      "date": "2012-10-09"
+    },
+    {
+      "code": "C7712",
+      "action": "modify",
+      "date": "2012-10-15"
+    },
+    {
+      "code": "C7712",
+      "action": "modify",
+      "date": "2012-10-22"
+    },
+    {
+      "code": "C7712",
+      "action": "modify",
+      "date": "2012-10-31"
+    },
+    {
+      "code": "C7712",
+      "action": "modify",
+      "date": "2012-11-05"
+    },
+    {
+      "code": "C7712",
+      "action": "modify",
+      "date": "2012-11-13"
+    },
+    {
+      "code": "C7712",
+      "action": "modify",
+      "date": "2012-11-19"
+    },
+    {
+      "code": "C7712",
+      "action": "modify",
+      "date": "2012-11-26"
+    },
+    {
+      "code": "C7712",
+      "action": "modify",
+      "date": "2012-12-03"
+    },
+    {
+      "code": "C7712",
+      "action": "modify",
+      "date": "2012-12-10"
+    },
+    {
+      "code": "C7712",
+      "action": "modify",
+      "date": "2012-12-17"
+    },
+    {
+      "code": "C7712",
+      "action": "modify",
+      "date": "2012-12-28"
+    },
+    {
+      "code": "C7712",
+      "action": "modify",
+      "date": "2013-01-07"
+    },
+    {
+      "code": "C7712",
+      "action": "modify",
+      "date": "2013-01-14"
+    },
+    {
+      "code": "C7712",
+      "action": "modify",
+      "date": "2013-01-23"
+    },
+    {
+      "code": "C7712",
+      "action": "modify",
+      "date": "2013-02-04"
+    },
+    {
+      "code": "C7712",
+      "action": "modify",
+      "date": "2013-02-11"
+    },
+    {
+      "code": "C7712",
+      "action": "modify",
+      "date": "2013-02-19"
+    },
+    {
+      "code": "C7712",
+      "action": "modify",
+      "date": "2013-02-25"
+    },
+    {
+      "code": "C7712",
+      "action": "modify",
+      "date": "2013-03-04"
+    },
+    {
+      "code": "C7712",
+      "action": "modify",
+      "date": "2013-03-11"
+    },
+    {
+      "code": "C7712",
+      "action": "modify",
+      "date": "2013-03-18"
+    },
+    {
+      "code": "C7712",
+      "action": "modify",
+      "date": "2013-03-25"
+    },
+    {
+      "code": "C7712",
+      "action": "modify",
+      "date": "2013-04-01"
+    },
+    {
+      "code": "C7712",
+      "action": "modify",
+      "date": "2013-04-08"
+    },
+    {
+      "code": "C7712",
+      "action": "modify",
+      "date": "2013-04-15"
+    },
+    {
+      "code": "C7712",
+      "action": "modify",
+      "date": "2013-04-22"
+    },
+    {
+      "code": "C7712",
+      "action": "modify",
+      "date": "2013-04-29"
+    },
+    {
+      "code": "C7712",
+      "action": "modify",
+      "date": "2013-05-06"
+    },
+    {
+      "code": "C7712",
+      "action": "modify",
+      "date": "2013-05-13"
+    },
+    {
+      "code": "C7712",
+      "action": "modify",
+      "date": "2013-05-20"
+    },
+    {
+      "code": "C7712",
+      "action": "modify",
+      "date": "2013-05-28"
+    },
+    {
+      "code": "C7712",
+      "action": "modify",
+      "date": "2013-06-03"
+    },
+    {
+      "code": "C7712",
+      "action": "modify",
+      "date": "2013-06-10"
+    },
+    {
+      "code": "C7712",
+      "action": "modify",
+      "date": "2013-06-17"
+    },
+    {
+      "code": "C7712",
+      "action": "modify",
+      "date": "2013-06-24"
+    },
+    {
+      "code": "C7712",
+      "action": "modify",
+      "date": "2013-07-01"
+    },
+    {
+      "code": "C7712",
+      "action": "modify",
+      "date": "2013-07-08"
+    },
+    {
+      "code": "C7712",
+      "action": "modify",
+      "date": "2013-09-09"
+    },
+    {
+      "code": "C7712",
+      "action": "modify",
+      "date": "2014-08-25"
+    },
+    {
+      "code": "C7712",
+      "action": "modify",
+      "date": "2014-09-22"
+    },
+    {
+      "code": "C7712",
+      "action": "modify",
+      "date": "2014-11-24"
+    },
+    {
+      "code": "C7712",
+      "action": "modify",
+      "date": "2014-12-01"
+    },
+    {
+      "code": "C7712",
+      "action": "modify",
+      "date": "2014-12-08"
+    },
+    {
+      "code": "C7712",
+      "action": "modify",
+      "date": "2014-12-15"
+    },
+    {
+      "code": "C7712",
+      "action": "modify",
+      "date": "2014-12-22"
+    },
+    {
+      "code": "C7712",
+      "action": "modify",
+      "date": "2014-12-29"
+    },
+    {
+      "code": "C7712",
+      "action": "modify",
+      "date": "2015-01-05"
+    },
+    {
+      "code": "C7712",
+      "action": "modify",
+      "date": "2015-01-12"
+    },
+    {
+      "code": "C7712",
+      "action": "modify",
+      "date": "2015-01-20"
+    },
+    {
+      "code": "C7712",
+      "action": "modify",
+      "date": "2015-01-26"
+    },
+    {
+      "code": "C7712",
+      "action": "modify",
+      "date": "2015-02-02"
+    },
+    {
+      "code": "C7712",
+      "action": "modify",
+      "date": "2015-02-09"
+    },
+    {
+      "code": "C7712",
+      "action": "modify",
+      "date": "2015-02-17"
+    },
+    {
+      "code": "C7712",
+      "action": "modify",
+      "date": "2015-02-23"
+    },
+    {
+      "code": "C7712",
+      "action": "modify",
+      "date": "2015-03-02"
+    },
+    {
+      "code": "C7712",
+      "action": "modify",
+      "date": "2015-03-09"
+    },
+    {
+      "code": "C7712",
+      "action": "modify",
+      "date": "2015-03-16"
+    },
+    {
+      "code": "C7712",
+      "action": "modify",
+      "date": "2015-03-23"
+    },
+    {
+      "code": "C7712",
+      "action": "modify",
+      "date": "2015-03-30"
+    },
+    {
+      "code": "C7712",
+      "action": "modify",
+      "date": "2015-04-06"
+    },
+    {
+      "code": "C7712",
+      "action": "modify",
+      "date": "2015-04-13"
+    },
+    {
+      "code": "C7712",
+      "action": "modify",
+      "date": "2015-04-20"
+    },
+    {
+      "code": "C7712",
+      "action": "modify",
+      "date": "2015-04-27"
+    },
+    {
+      "code": "C7712",
+      "action": "modify",
+      "date": "2015-05-04"
+    },
+    {
+      "code": "C7712",
+      "action": "modify",
+      "date": "2015-05-11"
+    },
+    {
+      "code": "C7712",
+      "action": "modify",
+      "date": "2015-05-18"
+    },
+    {
+      "code": "C7712",
+      "action": "modify",
+      "date": "2016-08-22"
+    },
+    {
+      "code": "C7712",
+      "action": "modify",
+      "date": "2016-08-29"
+    },
+    {
+      "code": "C7712",
+      "action": "modify",
+      "date": "2018-05-29"
+    },
+    {
+      "code": "C7712",
+      "action": "modify",
+      "date": "2018-07-30"
+    },
+    {
+      "code": "C7712",
+      "action": "modify",
+      "date": "2018-09-24"
+    },
+    {
+      "code": "C7712",
+      "action": "modify",
+      "date": "2018-10-29"
+    },
+    {
+      "code": "C7712",
+      "action": "modify",
+      "date": "2018-10-29"
+    },
+    {
+      "code": "C7712",
+      "action": "modify",
+      "date": "2018-12-31"
+    },
+    {
+      "code": "C7712",
+      "action": "modify",
+      "date": "2019-03-25"
+    },
+    {
+      "code": "C7712",
+      "action": "modify",
+      "date": "2019-05-28"
+    },
+    {
+      "code": "C7712",
+      "action": "modify",
+      "date": "2019-09-30"
+    },
+    {
+      "code": "C7712",
+      "action": "modify",
+      "date": "2019-10-28"
+    },
+    {
+      "code": "C7712",
+      "action": "modify",
+      "date": "2019-12-30"
+    },
+    {
+      "code": "C7712",
+      "action": "modify",
+      "date": "2020-02-24"
+    },
+    {
+      "code": "C7712",
+      "action": "modify",
+      "date": "2020-08-31"
+    },
+    {
+      "code": "C7712",
+      "action": "modify",
+      "date": "2020-09-29"
+    },
+    {
+      "code": "C7712",
+      "action": "modify",
+      "date": "2021-08-30"
+    },
+    {
+      "code": "C7712",
+      "action": "modify",
+      "date": "2023-02-27"
+    },
+    {
+      "code": "C7712",
+      "action": "modify",
+      "date": "2024-04-29"
+    },
+    {
+      "code": "C7712",
+      "action": "modify",
+      "date": "2025-03-31"
+    }
+  ]
+}

@@ -1,0 +1,291 @@
+{
+  "code": "C38150",
+  "name": "PEComa",
+  "terminology": "ncit",
+  "version": "25.11d",
+  "conceptStatus": "DEFAULT",
+  "leaf": false,
+  "active": true,
+  "synonyms": [
+    {
+      "name": "Neoplasm with Perivascular Epithelioid Cell Differentiation",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "PEComa",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Tumor with Perivascular Epithelioid Cell Differentiation",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "PEComa",
+      "type": "Preferred_Name"
+    }
+  ],
+  "definitions": [
+    {
+      "definition": "A soft tissue mesenchymal tumor with perivascular epithelioid cell differentiation. Representative examples include angiomyolipoma, clear cell-sugar-tumor of the lung, and lymphangioleiomyomatosis.",
+      "type": "DEFINITION",
+      "source": "NCI"
+    }
+  ],
+  "properties": [
+    {
+      "code": "P366",
+      "type": "Legacy Concept Name",
+      "value": "Neoplasm_with_Perivascular_Epithelioid_Cell_Differentiation"
+    },
+    {
+      "code": "P363",
+      "type": "Neoplastic_Status",
+      "value": "Undetermined"
+    },
+    {
+      "code": "P106",
+      "type": "Semantic_Type",
+      "value": "Neoplastic Process"
+    },
+    {
+      "code": "P207",
+      "type": "UMLS_CUI",
+      "value": "C1300127"
+    }
+  ],
+  "children": [
+    {
+      "code": "C3734",
+      "name": "Angiomyolipoma",
+      "leaf": false
+    },
+    {
+      "code": "C121791",
+      "name": "Benign PEComa",
+      "leaf": false
+    },
+    {
+      "code": "C159673",
+      "name": "Bladder PEComa",
+      "leaf": false
+    },
+    {
+      "code": "C189000",
+      "name": "Childhood PEComa",
+      "leaf": false
+    },
+    {
+      "code": "C38154",
+      "name": "Clear Cell Myomelanocytic Tumor of the Falciform Ligament/Ligamentum Teres",
+      "leaf": true
+    },
+    {
+      "code": "C142783",
+      "name": "Lung PEComa",
+      "leaf": false
+    },
+    {
+      "code": "C3204",
+      "name": "Lymphangioleiomyoma",
+      "leaf": true
+    },
+    {
+      "code": "C3725",
+      "name": "Lymphangioleiomyomatosis",
+      "leaf": false
+    },
+    {
+      "code": "C121792",
+      "name": "Malignant PEComa",
+      "leaf": false
+    },
+    {
+      "code": "C193458",
+      "name": "Refractory PEComa",
+      "leaf": true
+    },
+    {
+      "code": "C121790",
+      "name": "Sclerosing PEComa",
+      "leaf": true
+    },
+    {
+      "code": "C207262",
+      "name": "Skin PEComa",
+      "leaf": false
+    },
+    {
+      "code": "C40180",
+      "name": "Uterine Corpus PEComa",
+      "leaf": false
+    }
+  ],
+  "parents": [
+    {
+      "code": "C7148",
+      "name": "Soft Tissue Neoplasm of Uncertain Differentiation"
+    }
+  ],
+  "roles": [
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12964",
+      "relatedName": "Connective and Soft Tissue"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C43268",
+      "relatedName": "HMB-45-Positive Neoplastic Cells Present"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12922",
+      "relatedName": "Neoplastic Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C53681",
+      "relatedName": "Neoplastic Perivascular Epithelioid Cell"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C41839",
+      "relatedName": "Perivascular Arrangement of Tumor Cells"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C40993",
+      "relatedName": "S-100-Positive Neoplastic Cells Present"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12471",
+      "relatedName": "Soft Tissue"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12471",
+      "relatedName": "Soft Tissue"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C53583",
+      "relatedName": "Tissue Differentiation Uncertain"
+    },
+    {
+      "type": "Disease_May_Have_Molecular_Abnormality",
+      "relatedCode": "C118399",
+      "relatedName": "TSC2 Gene Mutation"
+    },
+    {
+      "type": "Disease_Mapped_To_Gene",
+      "relatedCode": "C18260",
+      "relatedName": "TSC2 Gene"
+    }
+  ],
+  "inverseRoles": [
+    {
+      "type": "Gene_Involved_In_Pathogenesis_Of_Disease",
+      "relatedCode": "C18260",
+      "relatedName": "TSC2 Gene"
+    },
+    {
+      "type": "Gene_Involved_In_Pathogenesis_Of_Disease",
+      "relatedCode": "C52952",
+      "relatedName": "TSC2 wt Allele"
+    },
+    {
+      "type": "Disease_May_Have_Associated_Disease",
+      "relatedCode": "C75122",
+      "relatedName": "Tuberous Sclerosis 1"
+    },
+    {
+      "type": "Disease_May_Have_Associated_Disease",
+      "relatedCode": "C75331",
+      "relatedName": "Tuberous Sclerosis 2"
+    },
+    {
+      "type": "Disease_May_Have_Associated_Disease",
+      "relatedCode": "C3424",
+      "relatedName": "Tuberous Sclerosis"
+    }
+  ],
+  "history": [
+    {
+      "code": "C38150",
+      "action": "create",
+      "date": "2004-03-30"
+    },
+    {
+      "code": "C38150",
+      "action": "modify",
+      "date": "2004-04-30"
+    },
+    {
+      "code": "C38150",
+      "action": "modify",
+      "date": "2005-01-28"
+    },
+    {
+      "code": "C38150",
+      "action": "modify",
+      "date": "2005-04-29"
+    },
+    {
+      "code": "C38150",
+      "action": "modify",
+      "date": "2005-12-01"
+    },
+    {
+      "code": "C38150",
+      "action": "modify",
+      "date": "2006-02-24"
+    },
+    {
+      "code": "C38150",
+      "action": "modify",
+      "date": "2006-12-29"
+    },
+    {
+      "code": "C38150",
+      "action": "modify",
+      "date": "2009-11-23"
+    },
+    {
+      "code": "C38150",
+      "action": "modify",
+      "date": "2010-01-11"
+    },
+    {
+      "code": "C38150",
+      "action": "modify",
+      "date": "2015-05-04"
+    },
+    {
+      "code": "C38150",
+      "action": "modify",
+      "date": "2015-05-11"
+    },
+    {
+      "code": "C38150",
+      "action": "modify",
+      "date": "2015-05-26"
+    },
+    {
+      "code": "C38150",
+      "action": "modify",
+      "date": "2021-04-26"
+    },
+    {
+      "code": "C38150",
+      "action": "modify",
+      "date": "2022-12-27"
+    }
+  ]
+}

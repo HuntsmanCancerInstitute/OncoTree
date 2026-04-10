@@ -1,0 +1,1111 @@
+{
+  "code": "C3411",
+  "name": "Thymoma",
+  "terminology": "ncit",
+  "version": "25.11d",
+  "conceptStatus": "DEFAULT",
+  "leaf": false,
+  "active": true,
+  "synonyms": [
+    {
+      "name": "Thymoma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "Cellosaurus"
+    },
+    {
+      "name": "Thymoma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "CPTAC"
+    },
+    {
+      "name": "Thymoma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "CTEP",
+      "code": "10043673",
+      "subSource": "SDC"
+    },
+    {
+      "name": "Thymoma",
+      "termType": "DN",
+      "type": "FULL_SYN",
+      "source": "CTRP"
+    },
+    {
+      "name": "Thymoma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "CTRP"
+    },
+    {
+      "name": "Thymoma, NOS",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "GDC"
+    },
+    {
+      "name": "thymoma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NCI-GLOSS",
+      "code": "CDR0000046002"
+    },
+    {
+      "name": "Thymoma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Thymoma",
+      "type": "Display_Name"
+    },
+    {
+      "name": "Thymoma",
+      "type": "Preferred_Name"
+    }
+  ],
+  "definitions": [
+    {
+      "definition": "A neoplasm arising from the epithelial cells of the thymus.  Although thymomas are usually encapsulated tumors, they may invade the capsule and infiltrate the surrounding tissues or even metastasize to distant anatomic sites.  The following morphologic subtypes are currently recognized: type A, type B, type AB, metaplastic, micronodular, microscopic, and sclerosing thymoma.  Thymomas type B are further subdivided into types B1, B2, and B3. Thymoma type B3 usually has the most aggressive clinical course.",
+      "type": "DEFINITION",
+      "source": "NCI"
+    },
+    {
+      "definition": "A tumor of the thymus, an organ that is part of the lymphatic system and is located in the chest, behind the breastbone.",
+      "type": "ALT_DEFINITION",
+      "source": "NCI-GLOSS"
+    }
+  ],
+  "properties": [
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "Cellosaurus"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "CPTAC"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "CTEP"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "CTRP"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "GDC"
+    },
+    {
+      "code": "P334",
+      "type": "ICD-O-3_Code",
+      "value": "8580/1"
+    },
+    {
+      "code": "P366",
+      "type": "Legacy Concept Name",
+      "value": "Thymoma"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "8580/1"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "Thymic Epithelial Neoplasms"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "Thymoma, NOS"
+    },
+    {
+      "code": "P363",
+      "type": "Neoplastic_Status",
+      "value": "Undetermined"
+    },
+    {
+      "code": "P106",
+      "type": "Semantic_Type",
+      "value": "Neoplastic Process"
+    },
+    {
+      "code": "P207",
+      "type": "UMLS_CUI",
+      "value": "C0040100"
+    }
+  ],
+  "children": [
+    {
+      "code": "C95048",
+      "name": "Ectopic Cervical Thymoma",
+      "leaf": true
+    },
+    {
+      "code": "C7386",
+      "name": "Encapsulated Thymoma",
+      "leaf": true
+    },
+    {
+      "code": "C45638",
+      "name": "Intrapulmonary Thymoma",
+      "leaf": true
+    },
+    {
+      "code": "C156268",
+      "name": "Intrathyroidal Thymoma",
+      "leaf": true
+    },
+    {
+      "code": "C6453",
+      "name": "Invasive Thymoma",
+      "leaf": false
+    },
+    {
+      "code": "C7612",
+      "name": "Malignant Thymoma",
+      "leaf": false
+    },
+    {
+      "code": "C45639",
+      "name": "Mediastinal Thymoma",
+      "leaf": true
+    },
+    {
+      "code": "C45707",
+      "name": "Metaplastic Thymoma",
+      "leaf": true
+    },
+    {
+      "code": "C45706",
+      "name": "Micronodular Thymoma with Lymphoid Stroma",
+      "leaf": true
+    },
+    {
+      "code": "C45708",
+      "name": "Microscopic Thymoma",
+      "leaf": true
+    },
+    {
+      "code": "C45709",
+      "name": "Sclerosing Thymoma",
+      "leaf": true
+    },
+    {
+      "code": "C136345",
+      "name": "Thymoma by AJCC v8 Stage",
+      "leaf": false
+    },
+    {
+      "code": "C222533",
+      "name": "Thymoma by AJCC v9 Stage",
+      "leaf": false
+    },
+    {
+      "code": "C112006",
+      "name": "Thymoma by Masaoka-Koga Stage",
+      "leaf": false
+    },
+    {
+      "code": "C6885",
+      "name": "Thymoma Type AB",
+      "leaf": false
+    },
+    {
+      "code": "C6454",
+      "name": "Thymoma Type A",
+      "leaf": false
+    },
+    {
+      "code": "C7114",
+      "name": "Thymoma Type B",
+      "leaf": false
+    }
+  ],
+  "parents": [
+    {
+      "code": "C6450",
+      "name": "Thymus Epithelial Neoplasm"
+    }
+  ],
+  "associations": [
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C165258",
+      "relatedName": "Cellosaurus Disease Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C138188",
+      "relatedName": "Clinical Trials Search-Application Programming Interface Disease Category Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C158520",
+      "relatedName": "CPTAC Codelists Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C156966",
+      "relatedName": "CPTAC Neoplasms Codelist"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C156952",
+      "relatedName": "CPTAC Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C118168",
+      "relatedName": "CTRP Disease Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C116977",
+      "relatedName": "CTRP Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C138190",
+      "relatedName": "CTS-API Disease Main Type Terminology"
+    },
+    {
+      "type": "Is_Value_For_GDC_Property",
+      "relatedCode": "C2991",
+      "relatedName": "Disease or Disorder"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C157711",
+      "relatedName": "GDC Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C177537",
+      "relatedName": "GDC Value Terminology"
+    },
+    {
+      "type": "Is_Value_For_GDC_Property",
+      "relatedCode": "C176985",
+      "relatedName": "Histology ICD-O Morphology Code"
+    },
+    {
+      "type": "Is_Value_For_GDC_Property",
+      "relatedCode": "C177621",
+      "relatedName": "ICD-O-3 Morphology Term Diagnosis Question"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168658",
+      "relatedName": "Mapped ICDO3.1 Morphology PT Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168657",
+      "relatedName": "Mapped ICDO3.1 Morphology Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168655",
+      "relatedName": "Mapped ICDO3.1 Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168662",
+      "relatedName": "Mapped ICDO3.2 Morphology PT Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168661",
+      "relatedName": "Mapped ICDO3.2 Morphology Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168656",
+      "relatedName": "Mapped ICDO3.2 Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C103088",
+      "relatedName": "NCI CTEP SDC Mediastinal Cancer Sub-Category Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C102905",
+      "relatedName": "NCI CTEP Simplified Disease Classification Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C126659",
+      "relatedName": "NCIt Neoplasm Core Terminology"
+    },
+    {
+      "type": "Neoplasm_Has_Special_Category",
+      "relatedCode": "C9292",
+      "relatedName": "Solid Neoplasm"
+    }
+  ],
+  "inverseAssociations": [
+    {
+      "type": "Has_GDC_Value",
+      "relatedCode": "C2991",
+      "relatedName": "Disease or Disorder"
+    },
+    {
+      "type": "Has_GDC_Value",
+      "relatedCode": "C176985",
+      "relatedName": "Histology ICD-O Morphology Code"
+    },
+    {
+      "type": "Has_GDC_Value",
+      "relatedCode": "C177621",
+      "relatedName": "ICD-O-3 Morphology Term Diagnosis Question"
+    }
+  ],
+  "roles": [
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C40555",
+      "relatedName": "Composite Lesion"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C12578",
+      "relatedName": "Epithelial Cell"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C53596",
+      "relatedName": "Epithelial Component Present"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C45714",
+      "relatedName": "Epithelial Tissue"
+    },
+    {
+      "type": "Disease_Excludes_Primary_Anatomic_Site",
+      "relatedCode": "C13063",
+      "relatedName": "Neck"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12922",
+      "relatedName": "Neoplastic Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36753",
+      "relatedName": "Neoplastic Epithelial Cell"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C36937",
+      "relatedName": "Neoplastic Smooth Muscle Cell"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12779",
+      "relatedName": "Respiratory System"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12905",
+      "relatedName": "Thoracic Cavity"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C33771",
+      "relatedName": "Thymic Epithelial Cell"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C45713",
+      "relatedName": "Thymic Epithelial Tissue"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12433",
+      "relatedName": "Thymus Gland"
+    }
+  ],
+  "history": [
+    {
+      "code": "C3411",
+      "action": "create",
+      "date": "2003-08-12"
+    },
+    {
+      "code": "C3411",
+      "action": "modify",
+      "date": "2003-10-31"
+    },
+    {
+      "code": "C3411",
+      "action": "modify",
+      "date": "2003-12-30"
+    },
+    {
+      "code": "C3411",
+      "action": "modify",
+      "date": "2004-03-30"
+    },
+    {
+      "code": "C3411",
+      "action": "modify",
+      "date": "2005-04-29"
+    },
+    {
+      "code": "C27938",
+      "action": "retire",
+      "date": "2005-04-29",
+      "replacementCode": "C3411",
+      "replacementName": "Thymoma"
+    },
+    {
+      "code": "C3411",
+      "action": "modify",
+      "date": "2006-05-26"
+    },
+    {
+      "code": "C3411",
+      "action": "modify",
+      "date": "2007-03-30"
+    },
+    {
+      "code": "C3411",
+      "action": "modify",
+      "date": "2007-04-30"
+    },
+    {
+      "code": "C3411",
+      "action": "modify",
+      "date": "2009-04-06"
+    },
+    {
+      "code": "C3411",
+      "action": "modify",
+      "date": "2009-11-23"
+    },
+    {
+      "code": "C3411",
+      "action": "modify",
+      "date": "2010-06-01"
+    },
+    {
+      "code": "C3411",
+      "action": "modify",
+      "date": "2011-01-31"
+    },
+    {
+      "code": "C3411",
+      "action": "modify",
+      "date": "2011-02-28"
+    },
+    {
+      "code": "C3411",
+      "action": "modify",
+      "date": "2011-03-07"
+    },
+    {
+      "code": "C3411",
+      "action": "modify",
+      "date": "2011-04-11"
+    },
+    {
+      "code": "C3411",
+      "action": "modify",
+      "date": "2011-11-14"
+    },
+    {
+      "code": "C3411",
+      "action": "modify",
+      "date": "2011-11-21"
+    },
+    {
+      "code": "C3411",
+      "action": "modify",
+      "date": "2011-11-28"
+    },
+    {
+      "code": "C3411",
+      "action": "modify",
+      "date": "2011-12-05"
+    },
+    {
+      "code": "C3411",
+      "action": "modify",
+      "date": "2011-12-12"
+    },
+    {
+      "code": "C3411",
+      "action": "modify",
+      "date": "2011-12-19"
+    },
+    {
+      "code": "C3411",
+      "action": "modify",
+      "date": "2011-12-27"
+    },
+    {
+      "code": "C3411",
+      "action": "modify",
+      "date": "2012-01-09"
+    },
+    {
+      "code": "C3411",
+      "action": "modify",
+      "date": "2012-01-17"
+    },
+    {
+      "code": "C3411",
+      "action": "modify",
+      "date": "2012-01-23"
+    },
+    {
+      "code": "C3411",
+      "action": "modify",
+      "date": "2012-01-30"
+    },
+    {
+      "code": "C3411",
+      "action": "modify",
+      "date": "2012-02-06"
+    },
+    {
+      "code": "C3411",
+      "action": "modify",
+      "date": "2012-02-13"
+    },
+    {
+      "code": "C3411",
+      "action": "modify",
+      "date": "2012-02-21"
+    },
+    {
+      "code": "C3411",
+      "action": "modify",
+      "date": "2012-02-27"
+    },
+    {
+      "code": "C3411",
+      "action": "modify",
+      "date": "2012-03-05"
+    },
+    {
+      "code": "C3411",
+      "action": "modify",
+      "date": "2012-03-12"
+    },
+    {
+      "code": "C3411",
+      "action": "modify",
+      "date": "2012-03-19"
+    },
+    {
+      "code": "C3411",
+      "action": "modify",
+      "date": "2012-03-26"
+    },
+    {
+      "code": "C3411",
+      "action": "modify",
+      "date": "2012-04-02"
+    },
+    {
+      "code": "C3411",
+      "action": "modify",
+      "date": "2012-04-09"
+    },
+    {
+      "code": "C3411",
+      "action": "modify",
+      "date": "2012-04-16"
+    },
+    {
+      "code": "C3411",
+      "action": "modify",
+      "date": "2012-04-23"
+    },
+    {
+      "code": "C3411",
+      "action": "modify",
+      "date": "2012-04-30"
+    },
+    {
+      "code": "C3411",
+      "action": "modify",
+      "date": "2012-05-07"
+    },
+    {
+      "code": "C3411",
+      "action": "modify",
+      "date": "2012-05-14"
+    },
+    {
+      "code": "C3411",
+      "action": "modify",
+      "date": "2012-05-21"
+    },
+    {
+      "code": "C3411",
+      "action": "modify",
+      "date": "2012-05-29"
+    },
+    {
+      "code": "C3411",
+      "action": "modify",
+      "date": "2012-06-04"
+    },
+    {
+      "code": "C3411",
+      "action": "modify",
+      "date": "2012-06-11"
+    },
+    {
+      "code": "C3411",
+      "action": "modify",
+      "date": "2012-06-18"
+    },
+    {
+      "code": "C3411",
+      "action": "modify",
+      "date": "2012-06-18"
+    },
+    {
+      "code": "C3411",
+      "action": "modify",
+      "date": "2012-06-25"
+    },
+    {
+      "code": "C3411",
+      "action": "modify",
+      "date": "2012-07-03"
+    },
+    {
+      "code": "C3411",
+      "action": "modify",
+      "date": "2012-07-16"
+    },
+    {
+      "code": "C3411",
+      "action": "modify",
+      "date": "2012-07-23"
+    },
+    {
+      "code": "C3411",
+      "action": "modify",
+      "date": "2012-07-30"
+    },
+    {
+      "code": "C3411",
+      "action": "modify",
+      "date": "2012-08-06"
+    },
+    {
+      "code": "C3411",
+      "action": "modify",
+      "date": "2012-08-13"
+    },
+    {
+      "code": "C3411",
+      "action": "modify",
+      "date": "2012-08-20"
+    },
+    {
+      "code": "C3411",
+      "action": "modify",
+      "date": "2012-08-27"
+    },
+    {
+      "code": "C3411",
+      "action": "modify",
+      "date": "2012-09-04"
+    },
+    {
+      "code": "C3411",
+      "action": "modify",
+      "date": "2012-09-10"
+    },
+    {
+      "code": "C3411",
+      "action": "modify",
+      "date": "2012-09-17"
+    },
+    {
+      "code": "C3411",
+      "action": "modify",
+      "date": "2012-09-24"
+    },
+    {
+      "code": "C3411",
+      "action": "modify",
+      "date": "2012-10-01"
+    },
+    {
+      "code": "C3411",
+      "action": "modify",
+      "date": "2012-10-09"
+    },
+    {
+      "code": "C3411",
+      "action": "modify",
+      "date": "2012-10-15"
+    },
+    {
+      "code": "C3411",
+      "action": "modify",
+      "date": "2012-10-22"
+    },
+    {
+      "code": "C3411",
+      "action": "modify",
+      "date": "2012-10-31"
+    },
+    {
+      "code": "C3411",
+      "action": "modify",
+      "date": "2012-11-05"
+    },
+    {
+      "code": "C3411",
+      "action": "modify",
+      "date": "2012-11-13"
+    },
+    {
+      "code": "C3411",
+      "action": "modify",
+      "date": "2012-11-19"
+    },
+    {
+      "code": "C3411",
+      "action": "modify",
+      "date": "2012-11-26"
+    },
+    {
+      "code": "C3411",
+      "action": "modify",
+      "date": "2012-12-03"
+    },
+    {
+      "code": "C3411",
+      "action": "modify",
+      "date": "2012-12-10"
+    },
+    {
+      "code": "C3411",
+      "action": "modify",
+      "date": "2012-12-17"
+    },
+    {
+      "code": "C3411",
+      "action": "modify",
+      "date": "2012-12-28"
+    },
+    {
+      "code": "C3411",
+      "action": "modify",
+      "date": "2013-01-07"
+    },
+    {
+      "code": "C3411",
+      "action": "modify",
+      "date": "2013-01-14"
+    },
+    {
+      "code": "C3411",
+      "action": "modify",
+      "date": "2013-01-23"
+    },
+    {
+      "code": "C3411",
+      "action": "modify",
+      "date": "2013-02-04"
+    },
+    {
+      "code": "C3411",
+      "action": "modify",
+      "date": "2013-02-11"
+    },
+    {
+      "code": "C3411",
+      "action": "modify",
+      "date": "2013-02-19"
+    },
+    {
+      "code": "C3411",
+      "action": "modify",
+      "date": "2013-02-25"
+    },
+    {
+      "code": "C3411",
+      "action": "modify",
+      "date": "2013-03-04"
+    },
+    {
+      "code": "C3411",
+      "action": "modify",
+      "date": "2013-03-11"
+    },
+    {
+      "code": "C3411",
+      "action": "modify",
+      "date": "2013-03-18"
+    },
+    {
+      "code": "C3411",
+      "action": "modify",
+      "date": "2013-03-25"
+    },
+    {
+      "code": "C3411",
+      "action": "modify",
+      "date": "2013-04-01"
+    },
+    {
+      "code": "C3411",
+      "action": "modify",
+      "date": "2013-04-08"
+    },
+    {
+      "code": "C3411",
+      "action": "modify",
+      "date": "2013-04-15"
+    },
+    {
+      "code": "C3411",
+      "action": "modify",
+      "date": "2013-04-22"
+    },
+    {
+      "code": "C3411",
+      "action": "modify",
+      "date": "2013-04-29"
+    },
+    {
+      "code": "C3411",
+      "action": "modify",
+      "date": "2013-05-06"
+    },
+    {
+      "code": "C3411",
+      "action": "modify",
+      "date": "2013-05-13"
+    },
+    {
+      "code": "C3411",
+      "action": "modify",
+      "date": "2013-05-20"
+    },
+    {
+      "code": "C3411",
+      "action": "modify",
+      "date": "2013-05-28"
+    },
+    {
+      "code": "C3411",
+      "action": "modify",
+      "date": "2013-06-03"
+    },
+    {
+      "code": "C3411",
+      "action": "modify",
+      "date": "2013-06-10"
+    },
+    {
+      "code": "C3411",
+      "action": "modify",
+      "date": "2013-06-17"
+    },
+    {
+      "code": "C3411",
+      "action": "modify",
+      "date": "2013-06-24"
+    },
+    {
+      "code": "C3411",
+      "action": "modify",
+      "date": "2013-07-01"
+    },
+    {
+      "code": "C3411",
+      "action": "modify",
+      "date": "2013-07-08"
+    },
+    {
+      "code": "C3411",
+      "action": "modify",
+      "date": "2014-02-03"
+    },
+    {
+      "code": "C3411",
+      "action": "modify",
+      "date": "2014-08-04"
+    },
+    {
+      "code": "C3411",
+      "action": "modify",
+      "date": "2016-03-07"
+    },
+    {
+      "code": "C3411",
+      "action": "modify",
+      "date": "2016-04-25"
+    },
+    {
+      "code": "C3411",
+      "action": "modify",
+      "date": "2017-07-31"
+    },
+    {
+      "code": "C3411",
+      "action": "modify",
+      "date": "2017-09-26"
+    },
+    {
+      "code": "C3411",
+      "action": "modify",
+      "date": "2018-02-26"
+    },
+    {
+      "code": "C3411",
+      "action": "modify",
+      "date": "2018-07-30"
+    },
+    {
+      "code": "C3411",
+      "action": "modify",
+      "date": "2018-08-27"
+    },
+    {
+      "code": "C3411",
+      "action": "modify",
+      "date": "2018-08-27"
+    },
+    {
+      "code": "C3411",
+      "action": "modify",
+      "date": "2018-09-24"
+    },
+    {
+      "code": "C3411",
+      "action": "modify",
+      "date": "2019-02-25"
+    },
+    {
+      "code": "C3411",
+      "action": "modify",
+      "date": "2019-03-25"
+    },
+    {
+      "code": "C3411",
+      "action": "modify",
+      "date": "2019-05-28"
+    },
+    {
+      "code": "C3411",
+      "action": "modify",
+      "date": "2019-09-30"
+    },
+    {
+      "code": "C3411",
+      "action": "modify",
+      "date": "2019-10-28"
+    },
+    {
+      "code": "C3411",
+      "action": "modify",
+      "date": "2019-11-25"
+    },
+    {
+      "code": "C3411",
+      "action": "modify",
+      "date": "2020-01-27"
+    },
+    {
+      "code": "C3411",
+      "action": "modify",
+      "date": "2020-02-24"
+    },
+    {
+      "code": "C3411",
+      "action": "modify",
+      "date": "2020-04-27"
+    },
+    {
+      "code": "C3411",
+      "action": "modify",
+      "date": "2021-02-22"
+    },
+    {
+      "code": "C3411",
+      "action": "modify",
+      "date": "2021-03-29"
+    },
+    {
+      "code": "C3411",
+      "action": "modify",
+      "date": "2021-11-29"
+    },
+    {
+      "code": "C3411",
+      "action": "modify",
+      "date": "2023-02-27"
+    },
+    {
+      "code": "C3411",
+      "action": "modify",
+      "date": "2025-03-31"
+    }
+  ],
+  "maps": [
+    {
+      "type": "Related To",
+      "targetName": "8580/1",
+      "targetTermType": "PT",
+      "targetCode": "morphology",
+      "targetTerminology": "GDC"
+    },
+    {
+      "type": "Related To",
+      "targetName": "Thymic Epithelial Neoplasms",
+      "targetTermType": "PT",
+      "targetCode": "disease_type",
+      "targetTerminology": "GDC"
+    },
+    {
+      "type": "Related To",
+      "targetName": "Thymoma, NOS",
+      "targetTermType": "PT",
+      "targetCode": "8580/1",
+      "targetTerminology": "ICDO3",
+      "targetTerminologyVersion": "3.1"
+    },
+    {
+      "type": "Related To",
+      "targetName": "Thymoma, NOS",
+      "targetTermType": "PT",
+      "targetCode": "8580/3",
+      "targetTerminology": "ICDO3",
+      "targetTerminologyVersion": "3.2"
+    },
+    {
+      "type": "Has Synonym",
+      "targetName": "Thymoma, NOS",
+      "targetTermType": "PT",
+      "targetCode": "primary_diagnosis",
+      "targetTerminology": "GDC"
+    }
+  ]
+}

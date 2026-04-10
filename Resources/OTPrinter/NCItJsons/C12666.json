@@ -1,0 +1,2494 @@
+{
+  "code": "C12666",
+  "name": "Adrenal Gland",
+  "terminology": "ncit",
+  "version": "25.11d",
+  "conceptStatus": "DEFAULT",
+  "leaf": false,
+  "active": true,
+  "synonyms": [
+    {
+      "name": "Adrenal Gland",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "caDSR"
+    },
+    {
+      "name": "ADRENAL GLAND",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "CDISC",
+      "code": "SDTM-LOC"
+    },
+    {
+      "name": "GLAND, ADRENAL",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "CDISC",
+      "code": "SEND-SPEC"
+    },
+    {
+      "name": "Adrenals",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "CTDC"
+    },
+    {
+      "name": "Adrenal",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "GDC"
+    },
+    {
+      "name": "Adrenal gland",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "GDC"
+    },
+    {
+      "name": "Adrenal Gland",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "GDC"
+    },
+    {
+      "name": "Adrenal gland, NOS",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "GDC"
+    },
+    {
+      "name": "Adrenal structure (body structure)",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "mCode",
+      "code": "23451007",
+      "subSource": "SNOMED CT"
+    },
+    {
+      "name": "adrenal gland",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NCI-GLOSS",
+      "code": "CDR0000046678"
+    },
+    {
+      "name": "suprarenal gland",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NCI-GLOSS",
+      "code": "CDR0000458086"
+    },
+    {
+      "name": "Adrenal Gland",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Adrenal Glands",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Adrenals",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Adrenal Gland",
+      "type": "Display_Name"
+    },
+    {
+      "name": "Adrenal Gland",
+      "type": "Preferred_Name"
+    },
+    {
+      "name": "Adrenal",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "PCDC",
+      "subSource": "OS"
+    },
+    {
+      "name": "adrenal gland",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "UBERON"
+    },
+    {
+      "name": "glandula adrenalis",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "UBERON"
+    },
+    {
+      "name": "glandula suprarenalis",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "UBERON"
+    }
+  ],
+  "definitions": [
+    {
+      "definition": "A flattened, roughly triangular body resting upon the upper end of each kidney; it is one of the ductless glands furnishing internal secretions (epinephrine and norepinephrine from the medulla and steroid hormones from the cortex).",
+      "type": "DEFINITION",
+      "source": "NCI"
+    },
+    {
+      "definition": "A small gland that makes steroid hormones, adrenaline, and noradrenaline. These hormones help control heart rate, blood pressure, and other important body functions. There are two adrenal glands, one on top of each kidney.",
+      "type": "ALT_DEFINITION",
+      "source": "NCI-GLOSS"
+    },
+    {
+      "definition": "Either of a pair of complex endocrine organs near the anterior medial border of the kidney consisting of a mesodermal cortex that produces glucocorticoid, mineralocorticoid, and androgenic hormones and an ectodermal medulla that produces epinephrine and norepinephrine.",
+      "type": "ALT_DEFINITION",
+      "source": "UBERON"
+    },
+    {
+      "definition": "The endocrine glands adjacent to the kidneys that consist of the outer adrenal cortex and the inner adrenal medulla in mammals.",
+      "type": "ALT_DEFINITION",
+      "source": "CDISC"
+    }
+  ],
+  "properties": [
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "CDISC"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "CTDC"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "GDC"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "mCode"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "PCDC"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "UBERON"
+    },
+    {
+      "code": "P366",
+      "type": "Legacy Concept Name",
+      "value": "Adrenal_Gland"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "Adrenal"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "ADRENAL GLAND"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "Adrenal gland"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "Adrenal gland, NOS"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "Suprarenal gland"
+    },
+    {
+      "code": "P106",
+      "type": "Semantic_Type",
+      "value": "Body Part, Organ, or Organ Component"
+    },
+    {
+      "code": "P207",
+      "type": "UMLS_CUI",
+      "value": "C0001625"
+    },
+    {
+      "code": "oboInOwl:hasDbXref",
+      "type": "xRef",
+      "value": "UBERON:0002369"
+    }
+  ],
+  "children": [
+    {
+      "code": "C49322",
+      "name": "Left Adrenal Gland",
+      "leaf": true
+    },
+    {
+      "code": "C49325",
+      "name": "Right Adrenal Gland",
+      "leaf": true
+    }
+  ],
+  "parents": [
+    {
+      "code": "C12704",
+      "name": "Endocrine Gland"
+    }
+  ],
+  "associations": [
+    {
+      "type": "Is_Value_For_GDC_Property",
+      "relatedCode": "C188396",
+      "relatedName": "Anatomic Site of Maximum Tumor Bulk"
+    },
+    {
+      "type": "Is_Value_For_GDC_Property",
+      "relatedCode": "C200442",
+      "relatedName": "Anatomic Site or Organ with Contiguous Invasion"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C74456",
+      "relatedName": "CDISC SDTM Anatomical Location Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C66830",
+      "relatedName": "CDISC SDTM Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C77529",
+      "relatedName": "CDISC SEND Biospecimens Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C77526",
+      "relatedName": "CDISC SEND Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C61410",
+      "relatedName": "Clinical Data Interchange Standards Consortium Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C173073",
+      "relatedName": "CTDC Value Terminology"
+    },
+    {
+      "type": "Is_Value_For_GDC_Property",
+      "relatedCode": "C173263",
+      "relatedName": "Disease Involvement Site"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C157711",
+      "relatedName": "GDC Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C177537",
+      "relatedName": "GDC Value Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168655",
+      "relatedName": "Mapped ICDO3.1 Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168660",
+      "relatedName": "Mapped ICDO3.1 Topography PT Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168659",
+      "relatedName": "Mapped ICDO3.1 Topography Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168656",
+      "relatedName": "Mapped ICDO3.2 Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168664",
+      "relatedName": "Mapped ICDO3.2 Topography PT Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168663",
+      "relatedName": "Mapped ICDO3.2 Topography Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C193234",
+      "relatedName": "mCode Radiotherapy Treatment Location Value Set"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C193006",
+      "relatedName": "mCode Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C179478",
+      "relatedName": "OS Authorized Value Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C179482",
+      "relatedName": "OS Biopsy/Surgical Procedures Table"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C179483",
+      "relatedName": "OS Radiation Therapy Table"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C179481",
+      "relatedName": "OS Tumor Assessment Table"
+    },
+    {
+      "type": "Is_Value_For_GDC_Property",
+      "relatedCode": "C158874",
+      "relatedName": "Primary Site of Disease"
+    },
+    {
+      "type": "Is_Value_For_GDC_Property",
+      "relatedCode": "C177570",
+      "relatedName": "Progressive or Recurrent Disease Anatomic Site"
+    },
+    {
+      "type": "Is_Value_For_GDC_Property",
+      "relatedCode": "C156421",
+      "relatedName": "Site of Resection or Biopsy"
+    },
+    {
+      "type": "Is_Value_For_GDC_Property",
+      "relatedCode": "C171435",
+      "relatedName": "Specimen Anatomic Site"
+    },
+    {
+      "type": "Is_Value_For_GDC_Property",
+      "relatedCode": "C70729",
+      "relatedName": "Targeted Anatomic Site"
+    },
+    {
+      "type": "Is_Value_For_GDC_Property",
+      "relatedCode": "C156422",
+      "relatedName": "Tissue or Organ of Origin"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C198975",
+      "relatedName": "UBERON Terminology"
+    }
+  ],
+  "inverseAssociations": [
+    {
+      "type": "Has_GDC_Value",
+      "relatedCode": "C188396",
+      "relatedName": "Anatomic Site of Maximum Tumor Bulk"
+    },
+    {
+      "type": "Has_GDC_Value",
+      "relatedCode": "C200442",
+      "relatedName": "Anatomic Site or Organ with Contiguous Invasion"
+    },
+    {
+      "type": "Has_GDC_Value",
+      "relatedCode": "C173263",
+      "relatedName": "Disease Involvement Site"
+    },
+    {
+      "type": "Has_GDC_Value",
+      "relatedCode": "C158874",
+      "relatedName": "Primary Site of Disease"
+    },
+    {
+      "type": "Has_GDC_Value",
+      "relatedCode": "C177570",
+      "relatedName": "Progressive or Recurrent Disease Anatomic Site"
+    },
+    {
+      "type": "Has_CTDC_Value",
+      "relatedCode": "C172273",
+      "relatedName": "Site of Metastasis at Trial Entry"
+    },
+    {
+      "type": "Has_PCDC_OS_Authorized_Value",
+      "relatedCode": "C173281",
+      "relatedName": "Site of Radiation Therapy"
+    },
+    {
+      "type": "Has_GDC_Value",
+      "relatedCode": "C156421",
+      "relatedName": "Site of Resection or Biopsy"
+    },
+    {
+      "type": "Has_PCDC_OS_Authorized_Value",
+      "relatedCode": "C157120",
+      "relatedName": "Site of Tumor"
+    },
+    {
+      "type": "Has_GDC_Value",
+      "relatedCode": "C171435",
+      "relatedName": "Specimen Anatomic Site"
+    },
+    {
+      "type": "Has_PCDC_OS_Authorized_Value",
+      "relatedCode": "C164323",
+      "relatedName": "Surgical Site"
+    },
+    {
+      "type": "Has_GDC_Value",
+      "relatedCode": "C70729",
+      "relatedName": "Targeted Anatomic Site"
+    },
+    {
+      "type": "Has_GDC_Value",
+      "relatedCode": "C156422",
+      "relatedName": "Tissue or Organ of Origin"
+    }
+  ],
+  "roles": [
+    {
+      "type": "Anatomic_Structure_Is_Physical_Part_Of",
+      "relatedCode": "C12705",
+      "relatedName": "Endocrine System"
+    },
+    {
+      "type": "Anatomic_Structure_Has_Location",
+      "relatedCode": "C12415",
+      "relatedName": "Kidney"
+    }
+  ],
+  "inverseRoles": [
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C26689",
+      "relatedName": "Addison's Disease"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C26689",
+      "relatedName": "Addison's Disease"
+    },
+    {
+      "type": "Anatomic_Structure_Is_Physical_Part_Of",
+      "relatedCode": "C12396",
+      "relatedName": "Adrenal Cortex"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C9003",
+      "relatedName": "Adrenal Cortical Adenoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C9003",
+      "relatedName": "Adrenal Cortical Adenoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C48319",
+      "relatedName": "Adrenal Cortical Adenomatoid Tumor"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C48319",
+      "relatedName": "Adrenal Cortical Adenomatoid Tumor"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C141098",
+      "relatedName": "Adrenal Cortical Carcinoma by AJCC v7 Stage"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C141098",
+      "relatedName": "Adrenal Cortical Carcinoma by AJCC v7 Stage"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C141100",
+      "relatedName": "Adrenal Cortical Carcinoma by AJCC v8 Stage"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C141100",
+      "relatedName": "Adrenal Cortical Carcinoma by AJCC v8 Stage"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C104030",
+      "relatedName": "Adrenal Cortical Carcinoma by ENSAT Stage"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C104030",
+      "relatedName": "Adrenal Cortical Carcinoma by ENSAT Stage"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C9325",
+      "relatedName": "Adrenal Cortical Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C9325",
+      "relatedName": "Adrenal Cortical Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C4165",
+      "relatedName": "Adrenal Cortical Clear Cell Adenoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C4165",
+      "relatedName": "Adrenal Cortical Clear Cell Adenoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C4163",
+      "relatedName": "Adrenal Cortical Compact Cell Adenoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C4163",
+      "relatedName": "Adrenal Cortical Compact Cell Adenoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C4166",
+      "relatedName": "Adrenal Cortical Glomerulosa Cell Adenoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C4166",
+      "relatedName": "Adrenal Cortical Glomerulosa Cell Adenoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C188183",
+      "relatedName": "Adrenal Cortical High Grade Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C188183",
+      "relatedName": "Adrenal Cortical High Grade Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C3506",
+      "relatedName": "Adrenal Cortical Hyperplasia"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C3506",
+      "relatedName": "Adrenal Cortical Hyperplasia"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C68635",
+      "relatedName": "Adrenal Cortical Low Grade Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C68635",
+      "relatedName": "Adrenal Cortical Low Grade Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C188185",
+      "relatedName": "Adrenal Cortical Melanoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C188185",
+      "relatedName": "Adrenal Cortical Melanoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C4167",
+      "relatedName": "Adrenal Cortical Mixed Cell Adenoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C4167",
+      "relatedName": "Adrenal Cortical Mixed Cell Adenoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C188182",
+      "relatedName": "Adrenal Cortical Myxoid Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C188182",
+      "relatedName": "Adrenal Cortical Myxoid Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C2858",
+      "relatedName": "Adrenal Cortical Neoplasm"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C48447",
+      "relatedName": "Adrenal Cortical Oncocytic Adenoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C48447",
+      "relatedName": "Adrenal Cortical Oncocytic Adenoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C188181",
+      "relatedName": "Adrenal Cortical Oncocytic Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C188181",
+      "relatedName": "Adrenal Cortical Oncocytic Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C68644",
+      "relatedName": "Adrenal Cortical Sarcomatoid Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C68644",
+      "relatedName": "Adrenal Cortical Sarcomatoid Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C156943",
+      "relatedName": "Adrenal Cortical Sex Cord-Stromal Tumor"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C112840",
+      "relatedName": "Adrenal Crisis"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C112840",
+      "relatedName": "Adrenal Crisis"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C27334",
+      "relatedName": "Adrenal Gland Abscess"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C27334",
+      "relatedName": "Adrenal Gland Abscess"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C213588",
+      "relatedName": "Adrenal Gland Alveolar Rhabdomyosarcoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C213588",
+      "relatedName": "Adrenal Gland Alveolar Rhabdomyosarcoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C48320",
+      "relatedName": "Adrenal Gland Angiosarcoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C48320",
+      "relatedName": "Adrenal Gland Angiosarcoma"
+    },
+    {
+      "type": "Anatomic_Structure_Is_Physical_Part_Of",
+      "relatedCode": "C32050",
+      "relatedName": "Adrenal Gland Capsule"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C48306",
+      "relatedName": "Adrenal Gland Composite Pheochromocytoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C48306",
+      "relatedName": "Adrenal Gland Composite Pheochromocytoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C26690",
+      "relatedName": "Adrenal Gland Disorder"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C157243",
+      "relatedName": "Adrenal Gland Ganglioneuroblastoma, Intermixed"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C157243",
+      "relatedName": "Adrenal Gland Ganglioneuroblastoma, Intermixed"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C157244",
+      "relatedName": "Adrenal Gland Ganglioneuroblastoma, Nodular"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C157244",
+      "relatedName": "Adrenal Gland Ganglioneuroblastoma, Nodular"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C7646",
+      "relatedName": "Adrenal Gland Ganglioneuroblastoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C7646",
+      "relatedName": "Adrenal Gland Ganglioneuroblastoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C157245",
+      "relatedName": "Adrenal Gland Ganglioneuroma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C157245",
+      "relatedName": "Adrenal Gland Ganglioneuroma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C188251",
+      "relatedName": "Adrenal Gland Hemangioma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C188251",
+      "relatedName": "Adrenal Gland Hemangioma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C129302",
+      "relatedName": "Adrenal Gland Hyperplasia III"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C129302",
+      "relatedName": "Adrenal Gland Hyperplasia III"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C129301",
+      "relatedName": "Adrenal Gland Hyperplasia II"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C129301",
+      "relatedName": "Adrenal Gland Hyperplasia II"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C188253",
+      "relatedName": "Adrenal Gland Leiomyoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C188253",
+      "relatedName": "Adrenal Gland Leiomyoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C188254",
+      "relatedName": "Adrenal Gland Leiomyosarcoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C188254",
+      "relatedName": "Adrenal Gland Leiomyosarcoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C188250",
+      "relatedName": "Adrenal Gland Lipoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C188250",
+      "relatedName": "Adrenal Gland Lipoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C188252",
+      "relatedName": "Adrenal Gland Lymphangioma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C188252",
+      "relatedName": "Adrenal Gland Lymphangioma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C156945",
+      "relatedName": "Adrenal Gland Lymphoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C156945",
+      "relatedName": "Adrenal Gland Lymphoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C3736",
+      "relatedName": "Adrenal Gland Myelolipoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C3736",
+      "relatedName": "Adrenal Gland Myelolipoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C2859",
+      "relatedName": "Adrenal Gland Neoplasm"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C4827",
+      "relatedName": "Adrenal Gland Neuroblastoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C4827",
+      "relatedName": "Adrenal Gland Neuroblastoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C3326",
+      "relatedName": "Adrenal Gland Pheochromocytoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C3326",
+      "relatedName": "Adrenal Gland Pheochromocytoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C213861",
+      "relatedName": "Adrenal Gland Polymorphic Post-Transplant Lymphoproliferative Disorder"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C213861",
+      "relatedName": "Adrenal Gland Polymorphic Post-Transplant Lymphoproliferative Disorder"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C213853",
+      "relatedName": "Adrenal Gland Post-Transplant Lymphoproliferative Disorder"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C213853",
+      "relatedName": "Adrenal Gland Post-Transplant Lymphoproliferative Disorder"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C213587",
+      "relatedName": "Adrenal Gland Rhabdomyosarcoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C213587",
+      "relatedName": "Adrenal Gland Rhabdomyosarcoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C156956",
+      "relatedName": "Adrenal Gland Sarcoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C156956",
+      "relatedName": "Adrenal Gland Sarcoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C156944",
+      "relatedName": "Adrenal Gland Schwannoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C156944",
+      "relatedName": "Adrenal Gland Schwannoma"
+    },
+    {
+      "type": "Anatomic_Structure_Is_Physical_Part_Of",
+      "relatedCode": "C32051",
+      "relatedName": "Adrenal Gland Tissue"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C26958",
+      "relatedName": "Adrenal Gland Tuberculosis"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C26958",
+      "relatedName": "Adrenal Gland Tuberculosis"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C35408",
+      "relatedName": "Adrenal Hyperplasia"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C35408",
+      "relatedName": "Adrenal Hyperplasia"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C4856",
+      "relatedName": "Adrenal Medulla Neoplasm"
+    },
+    {
+      "type": "Anatomic_Structure_Is_Physical_Part_Of",
+      "relatedCode": "C12397",
+      "relatedName": "Adrenal Medulla"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C35838",
+      "relatedName": "Adrenal Medullary Hyperplasia"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C35838",
+      "relatedName": "Adrenal Medullary Hyperplasia"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C188184",
+      "relatedName": "Adrenal Rests"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C188184",
+      "relatedName": "Adrenal Rests"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C200054",
+      "relatedName": "Adrenal Suppression"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C200054",
+      "relatedName": "Adrenal Suppression"
+    },
+    {
+      "type": "Procedure_Has_Excised_Anatomy",
+      "relatedCode": "C15177",
+      "relatedName": "Adrenalectomy"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C26691",
+      "relatedName": "Adrenocortical Insufficiency"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C26691",
+      "relatedName": "Adrenocortical Insufficiency"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C191863",
+      "relatedName": "Advanced Adrenal Cortical Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C191863",
+      "relatedName": "Advanced Adrenal Cortical Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C160853",
+      "relatedName": "Advanced Adrenal Gland Pheochromocytoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C160853",
+      "relatedName": "Advanced Adrenal Gland Pheochromocytoma"
+    },
+    {
+      "type": "Gene_Product_Expressed_In_Tissue",
+      "relatedCode": "C105428",
+      "relatedName": "Aldo-Keto Reductase Family 1 Member C2"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C48451",
+      "relatedName": "Aldosterone-Producing Adrenal Cortical Adenoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C48451",
+      "relatedName": "Aldosterone-Producing Adrenal Cortical Adenoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C48454",
+      "relatedName": "Androgen-Producing Adrenal Cortical Adenoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C48454",
+      "relatedName": "Androgen-Producing Adrenal Cortical Adenoma"
+    },
+    {
+      "type": "Disease_Excludes_Primary_Anatomic_Site",
+      "relatedCode": "C4218",
+      "relatedName": "Aorticopulmonary Paraganglioma"
+    },
+    {
+      "type": "Disease_Excludes_Primary_Anatomic_Site",
+      "relatedCode": "C5390",
+      "relatedName": "Atrial Paraganglioma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C113814",
+      "relatedName": "Autoimmune Primary Adrenal Insufficiency"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C113814",
+      "relatedName": "Autoimmune Primary Adrenal Insufficiency"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C9004",
+      "relatedName": "Benign Adrenal Cortical Neoplasm"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C9004",
+      "relatedName": "Benign Adrenal Cortical Neoplasm"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C3629",
+      "relatedName": "Benign Adrenal Gland Neoplasm"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C3629",
+      "relatedName": "Benign Adrenal Gland Neoplasm"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C4895",
+      "relatedName": "Benign Adrenal Medulla Neoplasm"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C4895",
+      "relatedName": "Benign Adrenal Medulla Neoplasm"
+    },
+    {
+      "type": "Disease_Excludes_Primary_Anatomic_Site",
+      "relatedCode": "C6414",
+      "relatedName": "Bladder Paraganglioma"
+    },
+    {
+      "type": "Disease_Excludes_Primary_Anatomic_Site",
+      "relatedCode": "C6410",
+      "relatedName": "Cardiac Paraganglioma"
+    },
+    {
+      "type": "Disease_Excludes_Primary_Anatomic_Site",
+      "relatedCode": "C2932",
+      "relatedName": "Carotid Body Paraganglioma"
+    },
+    {
+      "type": "Disease_Excludes_Primary_Anatomic_Site",
+      "relatedCode": "C5466",
+      "relatedName": "Central Nervous System Paraganglioma"
+    },
+    {
+      "type": "Disease_Excludes_Primary_Anatomic_Site",
+      "relatedCode": "C48318",
+      "relatedName": "Cerebellar Paraganglioma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C190068",
+      "relatedName": "Childhood Adrenal Cortical Adenoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C190068",
+      "relatedName": "Childhood Adrenal Cortical Adenoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C190069",
+      "relatedName": "Childhood Adrenal Cortical Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C190069",
+      "relatedName": "Childhood Adrenal Cortical Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C118822",
+      "relatedName": "Childhood Adrenal Gland Pheochromocytoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C118822",
+      "relatedName": "Childhood Adrenal Gland Pheochromocytoma"
+    },
+    {
+      "type": "Disease_Excludes_Primary_Anatomic_Site",
+      "relatedCode": "C190072",
+      "relatedName": "Childhood Parasympathetic Paraganglioma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C131423",
+      "relatedName": "Classic Congenital Adrenal Hyperplasia"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C131423",
+      "relatedName": "Classic Congenital Adrenal Hyperplasia"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C35599",
+      "relatedName": "Congenital Adrenal Gland Disorder"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C35599",
+      "relatedName": "Congenital Adrenal Gland Disorder"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C35261",
+      "relatedName": "Congenital Adrenal Gland Hypoplasia"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C35261",
+      "relatedName": "Congenital Adrenal Gland Hypoplasia"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C174439",
+      "relatedName": "Congenital Adrenal Hyperplasia due to Cytochrome P450 Oxidoreductase Deficiency"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C174439",
+      "relatedName": "Congenital Adrenal Hyperplasia due to Cytochrome P450 Oxidoreductase Deficiency"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C34360",
+      "relatedName": "Congenital Adrenal Hyperplasia"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C34360",
+      "relatedName": "Congenital Adrenal Hyperplasia"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C131426",
+      "relatedName": "Congenital Lipoid Adrenal Hyperplasia"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C131426",
+      "relatedName": "Congenital Lipoid Adrenal Hyperplasia"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C48449",
+      "relatedName": "Cortisol-Producing Adrenal Cortical Adenoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C48449",
+      "relatedName": "Cortisol-Producing Adrenal Cortical Adenoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C104031",
+      "relatedName": "ENSAT Stage I Adrenal Cortical Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C104031",
+      "relatedName": "ENSAT Stage I Adrenal Cortical Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C104032",
+      "relatedName": "ENSAT Stage II Adrenal Cortical Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C104032",
+      "relatedName": "ENSAT Stage II Adrenal Cortical Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C104033",
+      "relatedName": "ENSAT Stage III Adrenal Cortical Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C104033",
+      "relatedName": "ENSAT Stage III Adrenal Cortical Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C104034",
+      "relatedName": "ENSAT Stage IV Adrenal Cortical Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C104034",
+      "relatedName": "ENSAT Stage IV Adrenal Cortical Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C48456",
+      "relatedName": "Estrogen-Producing Adrenal Cortical Adenoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C48456",
+      "relatedName": "Estrogen-Producing Adrenal Cortical Adenoma"
+    },
+    {
+      "type": "Disease_Excludes_Primary_Anatomic_Site",
+      "relatedCode": "C3309",
+      "relatedName": "Extra-Adrenal Paraganglioma"
+    },
+    {
+      "type": "Disease_Excludes_Primary_Anatomic_Site",
+      "relatedCode": "C5328",
+      "relatedName": "Extra-Adrenal Retroperitoneal Paraganglioma"
+    },
+    {
+      "type": "Disease_Excludes_Primary_Anatomic_Site",
+      "relatedCode": "C48576",
+      "relatedName": "Extra-Adrenal Sympathetic Paraganglioma"
+    },
+    {
+      "type": "Gene_Product_Expressed_In_Tissue",
+      "relatedCode": "C18290",
+      "relatedName": "Glutathione S-Transferase Mu 1"
+    },
+    {
+      "type": "Procedure_May_Have_Excised_Anatomy",
+      "relatedCode": "C165179",
+      "relatedName": "Hand Assisted Laparoscopic Radical Nephrectomy"
+    },
+    {
+      "type": "Disease_Excludes_Primary_Anatomic_Site",
+      "relatedCode": "C5327",
+      "relatedName": "Head and Neck Paraganglioma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C157248",
+      "relatedName": "Hereditary Adrenal Gland Pheochromocytoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C157248",
+      "relatedName": "Hereditary Adrenal Gland Pheochromocytoma"
+    },
+    {
+      "type": "Disease_Excludes_Primary_Anatomic_Site",
+      "relatedCode": "C5326",
+      "relatedName": "Intra-Abdominal Paraganglioma"
+    },
+    {
+      "type": "Disease_Excludes_Primary_Anatomic_Site",
+      "relatedCode": "C6411",
+      "relatedName": "Intrathoracic Paravertebral Paraganglioma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C131866",
+      "relatedName": "Isolated Non-Pigmented Micronodular Adrenal Hyperplasia"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C131866",
+      "relatedName": "Isolated Non-Pigmented Micronodular Adrenal Hyperplasia"
+    },
+    {
+      "type": "Disease_Excludes_Primary_Anatomic_Site",
+      "relatedCode": "C3061",
+      "relatedName": "Jugulotympanic Paraganglioma"
+    },
+    {
+      "type": "Gene_Product_Expressed_In_Tissue",
+      "relatedCode": "C28485",
+      "relatedName": "Kallikrein-15"
+    },
+    {
+      "type": "Disease_Excludes_Primary_Anatomic_Site",
+      "relatedCode": "C159226",
+      "relatedName": "Kidney Paraganglioma"
+    },
+    {
+      "type": "Procedure_May_Have_Excised_Anatomy",
+      "relatedCode": "C165182",
+      "relatedName": "Laparoscopic Radical Nephrectomy"
+    },
+    {
+      "type": "Disease_Excludes_Primary_Anatomic_Site",
+      "relatedCode": "C6409",
+      "relatedName": "Laryngeal Paraganglioma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C174443",
+      "relatedName": "Locally Advanced Adrenal Cortical Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C174443",
+      "relatedName": "Locally Advanced Adrenal Cortical Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C157129",
+      "relatedName": "Locally Advanced Adrenal Gland Pheochromocytoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C157129",
+      "relatedName": "Locally Advanced Adrenal Gland Pheochromocytoma"
+    },
+    {
+      "type": "Disease_Excludes_Primary_Anatomic_Site",
+      "relatedCode": "C223235",
+      "relatedName": "Lung Paraganglioma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C127166",
+      "relatedName": "Macronodular Adrenal Hyperplasia"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C127166",
+      "relatedName": "Macronodular Adrenal Hyperplasia"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C9327",
+      "relatedName": "Malignant Adrenal Cortical Neoplasm"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C9338",
+      "relatedName": "Malignant Adrenal Gland Neoplasm"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C4396",
+      "relatedName": "Malignant Adrenal Medulla Neoplasm"
+    },
+    {
+      "type": "Disease_Excludes_Primary_Anatomic_Site",
+      "relatedCode": "C213493",
+      "relatedName": "Maxillary Bone Paraganglioma"
+    },
+    {
+      "type": "Disease_Excludes_Primary_Anatomic_Site",
+      "relatedCode": "C45743",
+      "relatedName": "Mediastinal Paraganglioma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C156070",
+      "relatedName": "Metastatic Adrenal Cortical Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C156070",
+      "relatedName": "Metastatic Adrenal Cortical Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C92184",
+      "relatedName": "Metastatic Adrenal Gland Composite Pheochromocytoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C92184",
+      "relatedName": "Metastatic Adrenal Gland Composite Pheochromocytoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C4220",
+      "relatedName": "Metastatic Adrenal Gland Pheochromocytoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C4220",
+      "relatedName": "Metastatic Adrenal Gland Pheochromocytoma"
+    },
+    {
+      "type": "Disease_Excludes_Primary_Anatomic_Site",
+      "relatedCode": "C6416",
+      "relatedName": "Metastatic Bladder Paraganglioma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C27381",
+      "relatedName": "Metastatic Carcinoma in the Adrenal Cortex"
+    },
+    {
+      "type": "Disease_Has_Metastatic_Anatomic_Site",
+      "relatedCode": "C27381",
+      "relatedName": "Metastatic Carcinoma in the Adrenal Cortex"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C9276",
+      "relatedName": "Metastatic Carcinoma in the Adrenal Medulla"
+    },
+    {
+      "type": "Disease_Has_Metastatic_Anatomic_Site",
+      "relatedCode": "C9276",
+      "relatedName": "Metastatic Carcinoma in the Adrenal Medulla"
+    },
+    {
+      "type": "Disease_Excludes_Primary_Anatomic_Site",
+      "relatedCode": "C5392",
+      "relatedName": "Metastatic Cardiac Paraganglioma"
+    },
+    {
+      "type": "Disease_Excludes_Primary_Anatomic_Site",
+      "relatedCode": "C3574",
+      "relatedName": "Metastatic Carotid Body Paraganglioma"
+    },
+    {
+      "type": "Disease_Excludes_Primary_Anatomic_Site",
+      "relatedCode": "C4219",
+      "relatedName": "Metastatic Extra-Adrenal Paraganglioma"
+    },
+    {
+      "type": "Disease_Excludes_Primary_Anatomic_Site",
+      "relatedCode": "C6413",
+      "relatedName": "Metastatic Intrathoracic Paravertebral Paraganglioma"
+    },
+    {
+      "type": "Disease_Excludes_Primary_Anatomic_Site",
+      "relatedCode": "C4623",
+      "relatedName": "Metastatic Jugulotympanic Paraganglioma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C8610",
+      "relatedName": "Metastatic Malignant Neoplasm in the Adrenal Gland"
+    },
+    {
+      "type": "Disease_Has_Metastatic_Anatomic_Site",
+      "relatedCode": "C8610",
+      "relatedName": "Metastatic Malignant Neoplasm in the Adrenal Gland"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C127165",
+      "relatedName": "Micronodular Adrenal Hyperplasia"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C127165",
+      "relatedName": "Micronodular Adrenal Hyperplasia"
+    },
+    {
+      "type": "Disease_Excludes_Primary_Anatomic_Site",
+      "relatedCode": "C6085",
+      "relatedName": "Middle Ear Paraganglioma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C131867",
+      "relatedName": "Miniature Adult Form of AHC"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C131867",
+      "relatedName": "Miniature Adult Form of AHC"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C127164",
+      "relatedName": "Multinodular Adrenal Hyperplasia"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C127164",
+      "relatedName": "Multinodular Adrenal Hyperplasia"
+    },
+    {
+      "type": "Disease_Excludes_Primary_Anatomic_Site",
+      "relatedCode": "C48316",
+      "relatedName": "Nasopharyngeal Paraganglioma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C131442",
+      "relatedName": "Non-Classic Congenital Adrenal Hyperplasia"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C131442",
+      "relatedName": "Non-Classic Congenital Adrenal Hyperplasia"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C48458",
+      "relatedName": "Non-Functioning Adrenal Cortical Adenoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C48458",
+      "relatedName": "Non-Functioning Adrenal Cortical Adenoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C92181",
+      "relatedName": "Non-Metastatic Adrenal Gland Composite Pheochromocytoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C92181",
+      "relatedName": "Non-Metastatic Adrenal Gland Composite Pheochromocytoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C48305",
+      "relatedName": "Non-Metastatic Adrenal Gland Pheochromocytoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C48305",
+      "relatedName": "Non-Metastatic Adrenal Gland Pheochromocytoma"
+    },
+    {
+      "type": "Disease_Excludes_Primary_Anatomic_Site",
+      "relatedCode": "C79950",
+      "relatedName": "Non-Metastatic Carotid Body Paraganglioma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C27569",
+      "relatedName": "Non-Neoplastic Adrenal Gland Disorder"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C27569",
+      "relatedName": "Non-Neoplastic Adrenal Gland Disorder"
+    },
+    {
+      "type": "Procedure_May_Have_Excised_Anatomy",
+      "relatedCode": "C165187",
+      "relatedName": "Open Radical Nephrectomy"
+    },
+    {
+      "type": "Disease_Excludes_Primary_Anatomic_Site",
+      "relatedCode": "C6408",
+      "relatedName": "Orbital Paraganglioma"
+    },
+    {
+      "type": "Disease_Excludes_Primary_Anatomic_Site",
+      "relatedCode": "C4217",
+      "relatedName": "Parasympathetic Paraganglioma"
+    },
+    {
+      "type": "Disease_Excludes_Primary_Anatomic_Site",
+      "relatedCode": "C4217",
+      "relatedName": "Parasympathetic Paraganglioma"
+    },
+    {
+      "type": "Disease_Excludes_Primary_Anatomic_Site",
+      "relatedCode": "C162490",
+      "relatedName": "Paratesticular Paraganglioma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C4164",
+      "relatedName": "Pigmented Adrenal Cortical Adenoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C4164",
+      "relatedName": "Pigmented Adrenal Cortical Adenoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C113172",
+      "relatedName": "Primary Adrenal Insufficiency"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C113172",
+      "relatedName": "Primary Adrenal Insufficiency"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C131196",
+      "relatedName": "Primary Pigmented Nodular Adrenal Dysplasia"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C131196",
+      "relatedName": "Primary Pigmented Nodular Adrenal Dysplasia"
+    },
+    {
+      "type": "Disease_Excludes_Primary_Anatomic_Site",
+      "relatedCode": "C161612",
+      "relatedName": "Prostate Paraganglioma"
+    },
+    {
+      "type": "Procedure_May_Have_Excised_Anatomy",
+      "relatedCode": "C51778",
+      "relatedName": "Radical Nephrectomy"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C6417",
+      "relatedName": "Recurrent Adrenal Cortical Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C6417",
+      "relatedName": "Recurrent Adrenal Cortical Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C8047",
+      "relatedName": "Recurrent Adrenal Gland Pheochromocytoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C8047",
+      "relatedName": "Recurrent Adrenal Gland Pheochromocytoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C188036",
+      "relatedName": "Refractory Adrenal Cortical Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C188036",
+      "relatedName": "Refractory Adrenal Cortical Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C158402",
+      "relatedName": "Refractory Adrenal Gland Pheochromocytoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C158402",
+      "relatedName": "Refractory Adrenal Gland Pheochromocytoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C8045",
+      "relatedName": "Regional Adrenal Gland Pheochromocytoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C8045",
+      "relatedName": "Regional Adrenal Gland Pheochromocytoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C210617",
+      "relatedName": "Resectable Adrenal Cortical Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C210617",
+      "relatedName": "Resectable Adrenal Cortical Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C62602",
+      "relatedName": "Secondary Adrenal Insufficiency"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C62602",
+      "relatedName": "Secondary Adrenal Insufficiency"
+    },
+    {
+      "type": "Disease_Excludes_Primary_Anatomic_Site",
+      "relatedCode": "C155769",
+      "relatedName": "Sellar Paraganglioma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C48452",
+      "relatedName": "Sex Hormone-Producing Adrenal Cortical Adenoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C48452",
+      "relatedName": "Sex Hormone-Producing Adrenal Cortical Adenoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C9214",
+      "relatedName": "Stage I Adrenal Cortical Carcinoma AJCC v7"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C9214",
+      "relatedName": "Stage I Adrenal Cortical Carcinoma AJCC v7"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C141101",
+      "relatedName": "Stage I Adrenal Cortical Carcinoma AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C141101",
+      "relatedName": "Stage I Adrenal Cortical Carcinoma AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C9215",
+      "relatedName": "Stage II Adrenal Cortical Carcinoma AJCC v7"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C9215",
+      "relatedName": "Stage II Adrenal Cortical Carcinoma AJCC v7"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C141102",
+      "relatedName": "Stage II Adrenal Cortical Carcinoma AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C141102",
+      "relatedName": "Stage II Adrenal Cortical Carcinoma AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C9216",
+      "relatedName": "Stage III Adrenal Cortical Carcinoma AJCC v7"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C9216",
+      "relatedName": "Stage III Adrenal Cortical Carcinoma AJCC v7"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C141103",
+      "relatedName": "Stage III Adrenal Cortical Carcinoma AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C141103",
+      "relatedName": "Stage III Adrenal Cortical Carcinoma AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C9217",
+      "relatedName": "Stage IV Adrenal Cortical Carcinoma AJCC v7"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C9217",
+      "relatedName": "Stage IV Adrenal Cortical Carcinoma AJCC v7"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C141104",
+      "relatedName": "Stage IV Adrenal Cortical Carcinoma AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C141104",
+      "relatedName": "Stage IV Adrenal Cortical Carcinoma AJCC v8"
+    },
+    {
+      "type": "Disease_Excludes_Primary_Anatomic_Site",
+      "relatedCode": "C48317",
+      "relatedName": "Superior and Inferior Paraaortic Paraganglioma"
+    },
+    {
+      "type": "Disease_Excludes_Primary_Anatomic_Site",
+      "relatedCode": "C213492",
+      "relatedName": "Temporal Bone Paraganglioma"
+    },
+    {
+      "type": "Disease_Excludes_Primary_Anatomic_Site",
+      "relatedCode": "C46125",
+      "relatedName": "Thyroid Gland Paraganglioma"
+    },
+    {
+      "type": "Disease_Excludes_Primary_Anatomic_Site",
+      "relatedCode": "C8428",
+      "relatedName": "Tympanic Paraganglioma"
+    },
+    {
+      "type": "Gene_Product_Expressed_In_Tissue",
+      "relatedCode": "C179874",
+      "relatedName": "Type-1 Angiotensin II Receptor"
+    },
+    {
+      "type": "Gene_Product_Expressed_In_Tissue",
+      "relatedCode": "C21388",
+      "relatedName": "Type-2 Angiotensin II Receptor"
+    },
+    {
+      "type": "Gene_Product_Expressed_In_Tissue",
+      "relatedCode": "C127896",
+      "relatedName": "Tyrosine 3-Monooxygenase"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C150580",
+      "relatedName": "Unresectable Adrenal Cortical Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C150580",
+      "relatedName": "Unresectable Adrenal Cortical Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C157128",
+      "relatedName": "Unresectable Adrenal Gland Pheochromocytoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C157128",
+      "relatedName": "Unresectable Adrenal Gland Pheochromocytoma"
+    },
+    {
+      "type": "Disease_Excludes_Primary_Anatomic_Site",
+      "relatedCode": "C7046",
+      "relatedName": "Urinary System Paraganglioma"
+    },
+    {
+      "type": "Disease_Excludes_Primary_Anatomic_Site",
+      "relatedCode": "C8427",
+      "relatedName": "Vagal Paraganglioma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C123725",
+      "relatedName": "X-Linked Adrenal Hypoplasia Congenita"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C123725",
+      "relatedName": "X-Linked Adrenal Hypoplasia Congenita"
+    }
+  ],
+  "history": [
+    {
+      "code": "C12666",
+      "action": "create",
+      "date": "2003-08-12"
+    },
+    {
+      "code": "C12666",
+      "action": "modify",
+      "date": "2003-10-31"
+    },
+    {
+      "code": "C12666",
+      "action": "modify",
+      "date": "2003-12-30"
+    },
+    {
+      "code": "C12666",
+      "action": "modify",
+      "date": "2004-02-23"
+    },
+    {
+      "code": "C12666",
+      "action": "modify",
+      "date": "2004-03-30"
+    },
+    {
+      "code": "C12666",
+      "action": "modify",
+      "date": "2005-03-16"
+    },
+    {
+      "code": "C12666",
+      "action": "modify",
+      "date": "2006-01-03"
+    },
+    {
+      "code": "C12666",
+      "action": "modify",
+      "date": "2007-08-31"
+    },
+    {
+      "code": "C12666",
+      "action": "modify",
+      "date": "2008-06-27"
+    },
+    {
+      "code": "C12666",
+      "action": "modify",
+      "date": "2008-09-12"
+    },
+    {
+      "code": "C12666",
+      "action": "modify",
+      "date": "2008-11-14"
+    },
+    {
+      "code": "C12666",
+      "action": "modify",
+      "date": "2008-11-26"
+    },
+    {
+      "code": "C12666",
+      "action": "modify",
+      "date": "2008-12-19"
+    },
+    {
+      "code": "C12666",
+      "action": "modify",
+      "date": "2008-11-07"
+    },
+    {
+      "code": "C12666",
+      "action": "modify",
+      "date": "2009-01-09"
+    },
+    {
+      "code": "C12666",
+      "action": "modify",
+      "date": "2009-11-23"
+    },
+    {
+      "code": "C12666",
+      "action": "modify",
+      "date": "2010-11-01"
+    },
+    {
+      "code": "C12666",
+      "action": "modify",
+      "date": "2010-11-08"
+    },
+    {
+      "code": "C12666",
+      "action": "modify",
+      "date": "2010-11-15"
+    },
+    {
+      "code": "C12666",
+      "action": "modify",
+      "date": "2010-11-22"
+    },
+    {
+      "code": "C12666",
+      "action": "modify",
+      "date": "2010-11-29"
+    },
+    {
+      "code": "C12666",
+      "action": "modify",
+      "date": "2010-12-06"
+    },
+    {
+      "code": "C12666",
+      "action": "modify",
+      "date": "2010-12-13"
+    },
+    {
+      "code": "C12666",
+      "action": "modify",
+      "date": "2010-12-27"
+    },
+    {
+      "code": "C12666",
+      "action": "modify",
+      "date": "2011-01-03"
+    },
+    {
+      "code": "C12666",
+      "action": "modify",
+      "date": "2011-01-10"
+    },
+    {
+      "code": "C12666",
+      "action": "modify",
+      "date": "2011-01-17"
+    },
+    {
+      "code": "C12666",
+      "action": "modify",
+      "date": "2011-01-24"
+    },
+    {
+      "code": "C12666",
+      "action": "modify",
+      "date": "2011-01-31"
+    },
+    {
+      "code": "C12666",
+      "action": "modify",
+      "date": "2013-02-25"
+    },
+    {
+      "code": "C12666",
+      "action": "modify",
+      "date": "2013-03-04"
+    },
+    {
+      "code": "C12666",
+      "action": "modify",
+      "date": "2013-03-11"
+    },
+    {
+      "code": "C12666",
+      "action": "modify",
+      "date": "2013-03-18"
+    },
+    {
+      "code": "C12666",
+      "action": "modify",
+      "date": "2013-03-25"
+    },
+    {
+      "code": "C12666",
+      "action": "modify",
+      "date": "2013-04-01"
+    },
+    {
+      "code": "C12666",
+      "action": "modify",
+      "date": "2013-04-08"
+    },
+    {
+      "code": "C12666",
+      "action": "modify",
+      "date": "2013-04-15"
+    },
+    {
+      "code": "C12666",
+      "action": "modify",
+      "date": "2013-04-22"
+    },
+    {
+      "code": "C12666",
+      "action": "modify",
+      "date": "2013-04-29"
+    },
+    {
+      "code": "C12666",
+      "action": "modify",
+      "date": "2013-05-06"
+    },
+    {
+      "code": "C12666",
+      "action": "modify",
+      "date": "2013-05-13"
+    },
+    {
+      "code": "C12666",
+      "action": "modify",
+      "date": "2013-05-20"
+    },
+    {
+      "code": "C12666",
+      "action": "modify",
+      "date": "2013-05-28"
+    },
+    {
+      "code": "C12666",
+      "action": "modify",
+      "date": "2013-06-03"
+    },
+    {
+      "code": "C12666",
+      "action": "modify",
+      "date": "2013-06-10"
+    },
+    {
+      "code": "C12666",
+      "action": "modify",
+      "date": "2013-06-17"
+    },
+    {
+      "code": "C12666",
+      "action": "modify",
+      "date": "2013-06-24"
+    },
+    {
+      "code": "C12666",
+      "action": "modify",
+      "date": "2013-07-01"
+    },
+    {
+      "code": "C12666",
+      "action": "modify",
+      "date": "2013-07-08"
+    },
+    {
+      "code": "C12666",
+      "action": "modify",
+      "date": "2015-05-26"
+    },
+    {
+      "code": "C12666",
+      "action": "modify",
+      "date": "2015-06-01"
+    },
+    {
+      "code": "C12666",
+      "action": "modify",
+      "date": "2015-06-08"
+    },
+    {
+      "code": "C12666",
+      "action": "modify",
+      "date": "2015-06-15"
+    },
+    {
+      "code": "C12666",
+      "action": "modify",
+      "date": "2015-06-22"
+    },
+    {
+      "code": "C12666",
+      "action": "modify",
+      "date": "2015-06-29"
+    },
+    {
+      "code": "C12666",
+      "action": "modify",
+      "date": "2015-07-06"
+    },
+    {
+      "code": "C12666",
+      "action": "modify",
+      "date": "2015-07-13"
+    },
+    {
+      "code": "C12666",
+      "action": "modify",
+      "date": "2015-08-12"
+    },
+    {
+      "code": "C12666",
+      "action": "modify",
+      "date": "2015-08-31"
+    },
+    {
+      "code": "C12666",
+      "action": "modify",
+      "date": "2015-10-19"
+    },
+    {
+      "code": "C12666",
+      "action": "modify",
+      "date": "2015-11-30"
+    },
+    {
+      "code": "C12666",
+      "action": "modify",
+      "date": "2016-10-17"
+    },
+    {
+      "code": "C12666",
+      "action": "modify",
+      "date": "2017-02-27"
+    },
+    {
+      "code": "C12666",
+      "action": "modify",
+      "date": "2017-03-06"
+    },
+    {
+      "code": "C12666",
+      "action": "modify",
+      "date": "2017-03-13"
+    },
+    {
+      "code": "C12666",
+      "action": "modify",
+      "date": "2018-09-24"
+    },
+    {
+      "code": "C12666",
+      "action": "modify",
+      "date": "2018-10-29"
+    },
+    {
+      "code": "C12666",
+      "action": "modify",
+      "date": "2018-10-29"
+    },
+    {
+      "code": "C12666",
+      "action": "modify",
+      "date": "2019-05-28"
+    },
+    {
+      "code": "C12666",
+      "action": "modify",
+      "date": "2019-09-30"
+    },
+    {
+      "code": "C12666",
+      "action": "modify",
+      "date": "2019-10-28"
+    },
+    {
+      "code": "C12666",
+      "action": "modify",
+      "date": "2020-02-24"
+    },
+    {
+      "code": "C12666",
+      "action": "modify",
+      "date": "2020-03-30"
+    },
+    {
+      "code": "C12666",
+      "action": "modify",
+      "date": "2020-08-31"
+    },
+    {
+      "code": "C12666",
+      "action": "modify",
+      "date": "2020-09-29"
+    },
+    {
+      "code": "C12666",
+      "action": "modify",
+      "date": "2021-02-22"
+    },
+    {
+      "code": "C12666",
+      "action": "modify",
+      "date": "2021-03-29"
+    },
+    {
+      "code": "C12666",
+      "action": "modify",
+      "date": "2021-11-29"
+    },
+    {
+      "code": "C12666",
+      "action": "modify",
+      "date": "2022-04-25"
+    },
+    {
+      "code": "C12666",
+      "action": "modify",
+      "date": "2022-08-29"
+    },
+    {
+      "code": "C12666",
+      "action": "modify",
+      "date": "2022-10-31"
+    },
+    {
+      "code": "C12666",
+      "action": "modify",
+      "date": "2023-02-27"
+    },
+    {
+      "code": "C12666",
+      "action": "modify",
+      "date": "2023-03-27"
+    },
+    {
+      "code": "C12666",
+      "action": "modify",
+      "date": "2023-05-30"
+    },
+    {
+      "code": "C12666",
+      "action": "modify",
+      "date": "2023-07-31"
+    },
+    {
+      "code": "C12666",
+      "action": "modify",
+      "date": "2023-09-25"
+    },
+    {
+      "code": "C12666",
+      "action": "modify",
+      "date": "2024-07-08"
+    }
+  ],
+  "maps": [
+    {
+      "type": "Related To",
+      "targetName": "Adrenal gland, NOS",
+      "targetTermType": "PT",
+      "targetCode": "C74.9",
+      "targetTerminology": "ICDO3",
+      "targetTerminologyVersion": "3.2"
+    },
+    {
+      "type": "Related To",
+      "targetName": "Adrenal gland, NOS",
+      "targetTermType": "PT",
+      "targetCode": "C74.9",
+      "targetTerminology": "ICDO3",
+      "targetTerminologyVersion": "3.1"
+    },
+    {
+      "type": "Has Synonym",
+      "targetName": "Adrenal gland, NOS",
+      "targetTermType": "PT",
+      "targetCode": "progression_or_recurrence_anatomic_site",
+      "targetTerminology": "GDC"
+    },
+    {
+      "type": "Has Synonym",
+      "targetName": "Adrenal gland, NOS",
+      "targetTermType": "PT",
+      "targetCode": "site_of_resection_or_biopsy",
+      "targetTerminology": "GDC"
+    },
+    {
+      "type": "Has Synonym",
+      "targetName": "Adrenal gland, NOS",
+      "targetTermType": "PT",
+      "targetCode": "sites_of_involvement",
+      "targetTerminology": "GDC"
+    },
+    {
+      "type": "Has Synonym",
+      "targetName": "Adrenal gland, NOS",
+      "targetTermType": "PT",
+      "targetCode": "tissue_or_organ_of_origin",
+      "targetTerminology": "GDC"
+    },
+    {
+      "type": "Related To",
+      "targetName": "ADRENAL GLAND",
+      "targetTermType": "HT",
+      "targetCode": "C74",
+      "targetTerminology": "ICDO3",
+      "targetTerminologyVersion": "3.2"
+    },
+    {
+      "type": "Related To",
+      "targetName": "ADRENAL GLAND",
+      "targetTermType": "HT",
+      "targetCode": "C74",
+      "targetTerminology": "ICDO3",
+      "targetTerminologyVersion": "3.1"
+    },
+    {
+      "type": "Has Synonym",
+      "targetName": "Adrenal gland",
+      "targetTermType": "PT",
+      "targetCode": "primary_site",
+      "targetTerminology": "GDC"
+    },
+    {
+      "type": "Has Synonym",
+      "targetName": "Adrenal",
+      "targetTermType": "PT",
+      "targetCode": "biospecimen_anatomic_site",
+      "targetTerminology": "GDC"
+    },
+    {
+      "type": "Has Synonym",
+      "targetName": "Adrenal",
+      "targetTermType": "PT",
+      "targetCode": "contiguous_organ_invaded",
+      "targetTerminology": "GDC"
+    },
+    {
+      "type": "Has Synonym",
+      "targetName": "Adrenal",
+      "targetTermType": "PT",
+      "targetCode": "max_tumor_bulk_site",
+      "targetTerminology": "GDC"
+    },
+    {
+      "type": "Has Synonym",
+      "targetName": "Adrenal",
+      "targetTermType": "PT",
+      "targetCode": "treatment_anatomic_sites",
+      "targetTerminology": "GDC"
+    },
+    {
+      "type": "Related To",
+      "targetName": "Suprarenal gland",
+      "targetTermType": "SY",
+      "targetCode": "C74.9",
+      "targetTerminology": "ICDO3",
+      "targetTerminologyVersion": "3.2"
+    },
+    {
+      "type": "Related To",
+      "targetName": "Suprarenal gland",
+      "targetTermType": "SY",
+      "targetCode": "C74.9",
+      "targetTerminology": "ICDO3",
+      "targetTerminologyVersion": "3.1"
+    }
+  ]
+}

@@ -1,0 +1,481 @@
+{
+  "code": "C4038",
+  "name": "Lung Neuroendocrine Tumor",
+  "terminology": "ncit",
+  "version": "25.11d",
+  "conceptStatus": "DEFAULT",
+  "leaf": false,
+  "active": true,
+  "synonyms": [
+    {
+      "name": "Lung Carcinoid Tumor",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "Cellosaurus"
+    },
+    {
+      "name": "Lung Carcinoid Tumor",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "CPTAC"
+    },
+    {
+      "name": "Lung Carcinoid Tumor",
+      "termType": "DN",
+      "type": "FULL_SYN",
+      "source": "CTRP"
+    },
+    {
+      "name": "Carcinoid Tumor of Lung",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Carcinoid Tumor of the Lung",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Lung Carcinoid Tumor",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Lung NET",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Lung Neuroendocrine Tumor",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Pulmonary Carcinoid Tumor",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Lung Carcinoid Tumor",
+      "type": "Display_Name"
+    },
+    {
+      "name": "Lung Neuroendocrine Tumor",
+      "type": "Preferred_Name"
+    }
+  ],
+  "definitions": [
+    {
+      "definition": "A well-differentiated neuroendocrine neoplasm that arises from the lung. It is characterized by the presence of uniform polygonal cells with small or moderate amount of cytoplasm and inconspicuous nucleoli. The cells are usually arranged in organoid and trabecular patterns. It is classified as grade 1 (G1-typical carcinoid tumor) or grade 2 (G2-atypical carcinoid tumor) based on the number of mitotic figures and the absence or presence of necrosis. Grade 2 neuroendocrine tumors have a worse prognosis.",
+      "type": "DEFINITION",
+      "source": "NCI"
+    }
+  ],
+  "properties": [
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "Cellosaurus"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "CPTAC"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "CTRP"
+    },
+    {
+      "code": "P366",
+      "type": "Legacy Concept Name",
+      "value": "Lung_Carcinoid_Tumor"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "Benign carcinoid tumor of the bronchus and lung"
+    },
+    {
+      "code": "P363",
+      "type": "Neoplastic_Status",
+      "value": "Undetermined"
+    },
+    {
+      "code": "P106",
+      "type": "Semantic_Type",
+      "value": "Neoplastic Process"
+    },
+    {
+      "code": "P207",
+      "type": "UMLS_CUI",
+      "value": "C0280089"
+    }
+  ],
+  "children": [
+    {
+      "code": "C176705",
+      "name": "Functioning Lung Neuroendocrine Tumor",
+      "leaf": true
+    },
+    {
+      "code": "C45550",
+      "name": "Lung Neuroendocrine Tumor G1",
+      "leaf": true
+    },
+    {
+      "code": "C45551",
+      "name": "Lung Neuroendocrine Tumor G2",
+      "leaf": true
+    },
+    {
+      "code": "C177243",
+      "name": "Metastatic Lung Neuroendocrine Tumor",
+      "leaf": false
+    },
+    {
+      "code": "C176706",
+      "name": "Non-Functioning Lung Neuroendocrine Tumor",
+      "leaf": true
+    },
+    {
+      "code": "C177246",
+      "name": "Unresectable Lung Neuroendocrine Tumor",
+      "leaf": true
+    }
+  ],
+  "parents": [
+    {
+      "code": "C5670",
+      "name": "Lung Neuroendocrine Neoplasm"
+    },
+    {
+      "code": "C188218",
+      "name": "Neuroendocrine Tumor"
+    }
+  ],
+  "associations": [
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C165258",
+      "relatedName": "Cellosaurus Disease Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C158520",
+      "relatedName": "CPTAC Codelists Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C156966",
+      "relatedName": "CPTAC Neoplasms Codelist"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C156952",
+      "relatedName": "CPTAC Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C118168",
+      "relatedName": "CTRP Disease Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C116977",
+      "relatedName": "CTRP Terminology"
+    }
+  ],
+  "roles": [
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C9478",
+      "relatedName": "Atypia"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12683",
+      "relatedName": "Bronchus"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C3672",
+      "relatedName": "Calcification"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C37935",
+      "relatedName": "Cough"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12704",
+      "relatedName": "Endocrine Gland"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12704",
+      "relatedName": "Endocrine Gland"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12705",
+      "relatedName": "Endocrine System"
+    },
+    {
+      "type": "Disease_Excludes_Normal_Cell_Origin",
+      "relatedCode": "C12865",
+      "relatedName": "Endothelial Cell"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C207031",
+      "relatedName": "Expression of Neuroendocrine Markers Present"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C3094",
+      "relatedName": "Hemoptysis"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C36818",
+      "relatedName": "Large Osteoclastic Giant Cell"
+    },
+    {
+      "type": "Disease_May_Have_Cytogenetic_Abnormality",
+      "relatedCode": "C37312",
+      "relatedName": "Loss of Chromosome 11q"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12468",
+      "relatedName": "Lung"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12468",
+      "relatedName": "Lung"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C60308",
+      "relatedName": "More than 10 Mitoses per 10HPF"
+    },
+    {
+      "type": "Disease_Excludes_Primary_Anatomic_Site",
+      "relatedCode": "C13063",
+      "relatedName": "Neck"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12922",
+      "relatedName": "Neoplastic Cell"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C37088",
+      "relatedName": "Neoplastic Endothelial Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36761",
+      "relatedName": "Neoplastic Neuroendocrine Cell"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C43574",
+      "relatedName": "Neuroendocrine Differentiation"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C41425",
+      "relatedName": "Nodular Lesion"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C38721",
+      "relatedName": "Nuclear Pleomorphism"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C155863",
+      "relatedName": "Poorly Differentiated Neuroendocrine Lesion"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12779",
+      "relatedName": "Respiratory System"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12905",
+      "relatedName": "Thoracic Cavity"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C155861",
+      "relatedName": "Well Differentiated Neuroendocrine Lesion"
+    }
+  ],
+  "history": [
+    {
+      "code": "C4038",
+      "action": "create",
+      "date": "2003-08-12"
+    },
+    {
+      "code": "C4038",
+      "action": "modify",
+      "date": "2003-10-31"
+    },
+    {
+      "code": "C4038",
+      "action": "modify",
+      "date": "2003-12-30"
+    },
+    {
+      "code": "C4038",
+      "action": "modify",
+      "date": "2004-03-30"
+    },
+    {
+      "code": "C4038",
+      "action": "modify",
+      "date": "2005-04-29"
+    },
+    {
+      "code": "C4038",
+      "action": "modify",
+      "date": "2006-04-28"
+    },
+    {
+      "code": "C4038",
+      "action": "modify",
+      "date": "2006-05-26"
+    },
+    {
+      "code": "C4038",
+      "action": "modify",
+      "date": "2009-04-06"
+    },
+    {
+      "code": "C4038",
+      "action": "modify",
+      "date": "2009-11-23"
+    },
+    {
+      "code": "C4038",
+      "action": "modify",
+      "date": "2011-04-11"
+    },
+    {
+      "code": "C4038",
+      "action": "modify",
+      "date": "2011-06-20"
+    },
+    {
+      "code": "C4038",
+      "action": "modify",
+      "date": "2013-04-01"
+    },
+    {
+      "code": "C4038",
+      "action": "modify",
+      "date": "2014-02-03"
+    },
+    {
+      "code": "C4038",
+      "action": "modify",
+      "date": "2014-08-25"
+    },
+    {
+      "code": "C4038",
+      "action": "modify",
+      "date": "2014-09-22"
+    },
+    {
+      "code": "C4038",
+      "action": "modify",
+      "date": "2018-07-30"
+    },
+    {
+      "code": "C4038",
+      "action": "modify",
+      "date": "2018-08-27"
+    },
+    {
+      "code": "C4038",
+      "action": "modify",
+      "date": "2018-08-27"
+    },
+    {
+      "code": "C4038",
+      "action": "modify",
+      "date": "2018-12-31"
+    },
+    {
+      "code": "C4038",
+      "action": "modify",
+      "date": "2019-02-25"
+    },
+    {
+      "code": "C4038",
+      "action": "modify",
+      "date": "2019-03-25"
+    },
+    {
+      "code": "C4038",
+      "action": "modify",
+      "date": "2019-05-28"
+    },
+    {
+      "code": "C4038",
+      "action": "modify",
+      "date": "2019-10-28"
+    },
+    {
+      "code": "C4038",
+      "action": "modify",
+      "date": "2021-10-25"
+    },
+    {
+      "code": "C4038",
+      "action": "modify",
+      "date": "2023-02-27"
+    },
+    {
+      "code": "C4038",
+      "action": "modify",
+      "date": "2023-12-26"
+    },
+    {
+      "code": "C4038",
+      "action": "modify",
+      "date": "2025-03-31"
+    }
+  ],
+  "maps": [
+    {
+      "type": "Related To",
+      "targetName": "Benign carcinoid tumor of the bronchus and lung",
+      "targetTermType": "PT",
+      "targetCode": "209.61",
+      "targetTerminology": "ICD9CM 2014"
+    },
+    {
+      "type": "Related To",
+      "targetName": "Benign carcinoid tumor of the bronchus and lung",
+      "targetTermType": "PT",
+      "targetCode": "D3A.090",
+      "targetTerminology": "ICD10CM 2017"
+    }
+  ]
+}

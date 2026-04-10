@@ -1,0 +1,287 @@
+{
+  "code": "C39985",
+  "name": "Ovarian Gonadoblastoma",
+  "terminology": "ncit",
+  "version": "25.11d",
+  "conceptStatus": "DEFAULT",
+  "leaf": true,
+  "active": true,
+  "synonyms": [
+    {
+      "name": "Ovarian Gonadoblastoma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Ovarian Gonadoblastoma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NICHD"
+    },
+    {
+      "name": "Ovarian Gonadoblastoma",
+      "type": "Preferred_Name"
+    }
+  ],
+  "definitions": [
+    {
+      "definition": "A gonadoblastoma that occurs in the ovary.",
+      "type": "ALT_DEFINITION",
+      "source": "NICHD"
+    },
+    {
+      "definition": "A neoplasm that arises from the ovary and is composed of tissues that resemble dysgerminoma or seminoma and are admixed with sex cord tissues.  It is found in children or young adults and usually is associated with secondary sex organs abnormalities.  The majority of patients present as phenotypic females with virilization.  The minority of patients present as phenotypic males with feminization.  It typically affects both gonads.  If a malignant germ cell component is present, it may metastasize to other anatomic sites.",
+      "type": "DEFINITION",
+      "source": "NCI"
+    }
+  ],
+  "properties": [
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "NICHD"
+    },
+    {
+      "code": "P366",
+      "type": "Legacy Concept Name",
+      "value": "Ovarian_Gonadoblastoma"
+    },
+    {
+      "code": "P363",
+      "type": "Neoplastic_Status",
+      "value": "Undetermined"
+    },
+    {
+      "code": "P106",
+      "type": "Semantic_Type",
+      "value": "Neoplastic Process"
+    },
+    {
+      "code": "P207",
+      "type": "UMLS_CUI",
+      "value": "C1518716"
+    }
+  ],
+  "parents": [
+    {
+      "code": "C3754",
+      "name": "Gonadoblastoma"
+    },
+    {
+      "code": "C7321",
+      "name": "Ovarian Mixed Germ Cell-Sex Cord-Stromal Tumor"
+    }
+  ],
+  "associations": [
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C90259",
+      "relatedName": "NICHD Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C132009",
+      "relatedName": "Pediatric Hematology-Oncology Terminology"
+    }
+  ],
+  "roles": [
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C137974",
+      "relatedName": "Adnexa"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C12508",
+      "relatedName": "Cell"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12402",
+      "relatedName": "Female Reproductive System"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12810",
+      "relatedName": "Genitourinary System"
+    },
+    {
+      "type": "Disease_May_Have_Associated_Disease",
+      "relatedCode": "C61420",
+      "relatedName": "Gonadal Dysgenesis"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C41610",
+      "relatedName": "Mixed Cellular Population"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12922",
+      "relatedName": "Neoplastic Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36903",
+      "relatedName": "Neoplastic Germ Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36904",
+      "relatedName": "Neoplastic Large Germ Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36898",
+      "relatedName": "Neoplastic Sex Cord-Stromal Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C61425",
+      "relatedName": "Neoplastic Small Sex Cord-Stromal Cell"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C35892",
+      "relatedName": "Nested Pattern"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C33246",
+      "relatedName": "Ovarian Tissue"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12404",
+      "relatedName": "Ovary"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12404",
+      "relatedName": "Ovary"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12841",
+      "relatedName": "Reproductive System"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C12801",
+      "relatedName": "Tissue"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12321",
+      "relatedName": "Uterine Adnexa"
+    }
+  ],
+  "history": [
+    {
+      "code": "C39985",
+      "action": "create",
+      "date": "2004-08-02"
+    },
+    {
+      "code": "C39985",
+      "action": "modify",
+      "date": "2006-07-28"
+    },
+    {
+      "code": "C39985",
+      "action": "modify",
+      "date": "2009-11-23"
+    },
+    {
+      "code": "C39985",
+      "action": "modify",
+      "date": "2011-10-03"
+    },
+    {
+      "code": "C39985",
+      "action": "modify",
+      "date": "2014-02-03"
+    },
+    {
+      "code": "C39985",
+      "action": "modify",
+      "date": "2017-02-13"
+    },
+    {
+      "code": "C39985",
+      "action": "modify",
+      "date": "2017-02-21"
+    },
+    {
+      "code": "C39985",
+      "action": "modify",
+      "date": "2017-02-27"
+    },
+    {
+      "code": "C39985",
+      "action": "modify",
+      "date": "2017-03-06"
+    },
+    {
+      "code": "C39985",
+      "action": "modify",
+      "date": "2017-03-13"
+    },
+    {
+      "code": "C39985",
+      "action": "modify",
+      "date": "2017-03-20"
+    },
+    {
+      "code": "C39985",
+      "action": "modify",
+      "date": "2017-03-27"
+    },
+    {
+      "code": "C39985",
+      "action": "modify",
+      "date": "2017-04-03"
+    },
+    {
+      "code": "C39985",
+      "action": "modify",
+      "date": "2017-04-10"
+    },
+    {
+      "code": "C39985",
+      "action": "modify",
+      "date": "2017-04-17"
+    },
+    {
+      "code": "C39985",
+      "action": "modify",
+      "date": "2017-04-24"
+    },
+    {
+      "code": "C39985",
+      "action": "modify",
+      "date": "2017-05-01"
+    },
+    {
+      "code": "C39985",
+      "action": "modify",
+      "date": "2017-05-04"
+    },
+    {
+      "code": "C39985",
+      "action": "modify",
+      "date": "2020-08-31"
+    },
+    {
+      "code": "C39985",
+      "action": "modify",
+      "date": "2020-09-29"
+    },
+    {
+      "code": "C39985",
+      "action": "modify",
+      "date": "2021-03-29"
+    }
+  ]
+}

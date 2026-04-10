@@ -1,0 +1,1083 @@
+{
+  "code": "C9231",
+  "name": "Merkel Cell Carcinoma",
+  "terminology": "ncit",
+  "version": "25.11d",
+  "conceptStatus": "DEFAULT",
+  "leaf": false,
+  "active": true,
+  "synonyms": [
+    {
+      "name": "Merkel Cell Carcinoma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "Cellosaurus"
+    },
+    {
+      "name": "Merkel Cell Carcinoma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "CPTAC"
+    },
+    {
+      "name": "Merkel cell tumor",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "CTEP",
+      "code": "10029266",
+      "subSource": "SDC"
+    },
+    {
+      "name": "Merkel Cell Cancer",
+      "termType": "DN",
+      "type": "FULL_SYN",
+      "source": "CTRP"
+    },
+    {
+      "name": "Merkel Cell Carcinoma",
+      "termType": "DN",
+      "type": "FULL_SYN",
+      "source": "CTRP"
+    },
+    {
+      "name": "Merkel cell carcinoma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "GDC"
+    },
+    {
+      "name": "Merkel cell tumor",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "GDC"
+    },
+    {
+      "name": "Merkel cell carcinoma, unspecified",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "mCode",
+      "code": "C4A.9",
+      "subSource": "ICD-10 CM"
+    },
+    {
+      "name": "Merkel cell cancer",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NCI-GLOSS",
+      "code": "CDR0000046106"
+    },
+    {
+      "name": "Merkel cell carcinoma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NCI-GLOSS",
+      "code": "CDR0000658511"
+    },
+    {
+      "name": "MCC",
+      "termType": "AB",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Merkel Cell Carcinoma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Merkel Cell Carcinoma",
+      "type": "Display_Name"
+    },
+    {
+      "name": "Merkel Cell Carcinoma",
+      "type": "Preferred_Name"
+    }
+  ],
+  "definitions": [
+    {
+      "definition": "A rare aggressive neuroendocrine carcinoma that usually arises from the skin. Rarely, it arises from extracutaneous sites, including the oral cavity, salivary glands, breast, vulva, and vaginal wall. The tumor is composed of small round cells with scanty cytoplasm. Merkel cell polyomavirus is implicated in the majority of cases.",
+      "type": "DEFINITION",
+      "source": "NCI"
+    }
+  ],
+  "properties": [
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "Cellosaurus"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "CPTAC"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "CTEP"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "CTRP"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "GDC"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "mCode"
+    },
+    {
+      "code": "P334",
+      "type": "ICD-O-3_Code",
+      "value": "8247/3"
+    },
+    {
+      "code": "P366",
+      "type": "Legacy Concept Name",
+      "value": "Neuroendocrine_Carcinoma_of_the_Skin"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "8247/3"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "Merkel cell carcinoma"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "Merkel cell carcinoma of other sites"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "Merkel cell tumor"
+    },
+    {
+      "code": "P363",
+      "type": "Neoplastic_Status",
+      "value": "Malignant"
+    },
+    {
+      "code": "P106",
+      "type": "Semantic_Type",
+      "value": "Neoplastic Process"
+    },
+    {
+      "code": "P207",
+      "type": "UMLS_CUI",
+      "value": "C0007129"
+    }
+  ],
+  "children": [
+    {
+      "code": "C173385",
+      "name": "Cutaneous Merkel Cell Carcinoma",
+      "leaf": false
+    },
+    {
+      "code": "C173586",
+      "name": "Extracutaneous Merkel Cell Carcinoma",
+      "leaf": false
+    },
+    {
+      "code": "C173587",
+      "name": "Head and Neck Merkel Cell Carcinoma",
+      "leaf": false
+    },
+    {
+      "code": "C204385",
+      "name": "Merkel Cell Polyoma Virus-Negative Merkel Cell Carcinoma",
+      "leaf": true
+    },
+    {
+      "code": "C204383",
+      "name": "Merkel Cell Polyoma Virus-Positive Merkel Cell Carcinoma",
+      "leaf": true
+    },
+    {
+      "code": "C162572",
+      "name": "Metastatic Merkel Cell Carcinoma",
+      "leaf": false
+    },
+    {
+      "code": "C115440",
+      "name": "Recurrent Merkel Cell Carcinoma",
+      "leaf": false
+    },
+    {
+      "code": "C165741",
+      "name": "Refractory Merkel Cell Carcinoma",
+      "leaf": true
+    },
+    {
+      "code": "C193450",
+      "name": "Resectable Merkel Cell Carcinoma",
+      "leaf": true
+    },
+    {
+      "code": "C162786",
+      "name": "Unresectable Merkel Cell Carcinoma",
+      "leaf": true
+    }
+  ],
+  "parents": [
+    {
+      "code": "C191977",
+      "name": "Extrapulmonary Neuroendocrine Carcinoma"
+    }
+  ],
+  "associations": [
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C165258",
+      "relatedName": "Cellosaurus Disease Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C158520",
+      "relatedName": "CPTAC Codelists Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C156966",
+      "relatedName": "CPTAC Neoplasms Codelist"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C156952",
+      "relatedName": "CPTAC Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C118168",
+      "relatedName": "CTRP Disease Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C116977",
+      "relatedName": "CTRP Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C157711",
+      "relatedName": "GDC Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C177537",
+      "relatedName": "GDC Value Terminology"
+    },
+    {
+      "type": "Is_Value_For_GDC_Property",
+      "relatedCode": "C176985",
+      "relatedName": "Histology ICD-O Morphology Code"
+    },
+    {
+      "type": "Is_Value_For_GDC_Property",
+      "relatedCode": "C177621",
+      "relatedName": "ICD-O-3 Morphology Term Diagnosis Question"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168658",
+      "relatedName": "Mapped ICDO3.1 Morphology PT Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168657",
+      "relatedName": "Mapped ICDO3.1 Morphology Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168655",
+      "relatedName": "Mapped ICDO3.1 Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168662",
+      "relatedName": "Mapped ICDO3.2 Morphology PT Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168661",
+      "relatedName": "Mapped ICDO3.2 Morphology Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168656",
+      "relatedName": "Mapped ICDO3.2 Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C193249",
+      "relatedName": "mCode Cancer Disorder Value Set"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C193178",
+      "relatedName": "mCode Elixhauser Malignant Solid Tumors without Metastases Value Set"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C193248",
+      "relatedName": "mCode Primary Cancer Disorder Value Set"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C193231",
+      "relatedName": "mCode Primary Malignant Neoplasm Disorder Value Set"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C193006",
+      "relatedName": "mCode Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C103114",
+      "relatedName": "NCI CTEP SDC Merkel Cell Tumor Sub-Category Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C102905",
+      "relatedName": "NCI CTEP Simplified Disease Classification Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C126659",
+      "relatedName": "NCIt Neoplasm Core Terminology"
+    }
+  ],
+  "inverseAssociations": [
+    {
+      "type": "Has_GDC_Value",
+      "relatedCode": "C176985",
+      "relatedName": "Histology ICD-O Morphology Code"
+    },
+    {
+      "type": "Has_GDC_Value",
+      "relatedCode": "C177621",
+      "relatedName": "ICD-O-3 Morphology Term Diagnosis Question"
+    }
+  ],
+  "roles": [
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C36122",
+      "relatedName": "Benign Cellular Infiltrate"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C54172",
+      "relatedName": "Carcinomatous Component Present"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C60881",
+      "relatedName": "Cytoplasmic Membrane-Bound Granules Present"
+    },
+    {
+      "type": "Disease_May_Have_Cytogenetic_Abnormality",
+      "relatedCode": "C36569",
+      "relatedName": "del(1p36)"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C32506",
+      "relatedName": "Endocrine Cell"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C188014",
+      "relatedName": "Endocrine Differentiation"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12704",
+      "relatedName": "Endocrine Gland"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12704",
+      "relatedName": "Endocrine Gland"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12705",
+      "relatedName": "Endocrine System"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12705",
+      "relatedName": "Endocrine System"
+    },
+    {
+      "type": "Disease_Excludes_Normal_Cell_Origin",
+      "relatedCode": "C12865",
+      "relatedName": "Endothelial Cell"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C12578",
+      "relatedName": "Epithelial Cell"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C53596",
+      "relatedName": "Epithelial Component Present"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C45714",
+      "relatedName": "Epithelial Tissue"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C207031",
+      "relatedName": "Expression of Neuroendocrine Markers Present"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C35960",
+      "relatedName": "High Mitotic Activity"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C36818",
+      "relatedName": "Large Osteoclastic Giant Cell"
+    },
+    {
+      "type": "Disease_Excludes_Primary_Anatomic_Site",
+      "relatedCode": "C12468",
+      "relatedName": "Lung"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12917",
+      "relatedName": "Malignant Cell"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C36115",
+      "relatedName": "Malignant Cellular Infiltrate"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36929",
+      "relatedName": "Malignant Endocrine Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36779",
+      "relatedName": "Malignant Epithelial Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36825",
+      "relatedName": "Malignant Neuroendocrine Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C47805",
+      "relatedName": "Malignant Neuroendocrine Small Round Cell"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C37153",
+      "relatedName": "Malignant Stromal Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12922",
+      "relatedName": "Neoplastic Cell"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C37088",
+      "relatedName": "Neoplastic Endothelial Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36753",
+      "relatedName": "Neoplastic Epithelial Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36761",
+      "relatedName": "Neoplastic Neuroendocrine Cell"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C36937",
+      "relatedName": "Neoplastic Smooth Muscle Cell"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C43574",
+      "relatedName": "Neuroendocrine Differentiation"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C155863",
+      "relatedName": "Poorly Differentiated Neuroendocrine Lesion"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C60880",
+      "relatedName": "Single Cell Necrosis"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C35913",
+      "relatedName": "Trabecular Pattern"
+    },
+    {
+      "type": "Disease_May_Have_Cytogenetic_Abnormality",
+      "relatedCode": "C36475",
+      "relatedName": "Trisomy 6"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C155861",
+      "relatedName": "Well Differentiated Neuroendocrine Lesion"
+    }
+  ],
+  "history": [
+    {
+      "code": "C9231",
+      "action": "create",
+      "date": "2003-08-12"
+    },
+    {
+      "code": "C9231",
+      "action": "modify",
+      "date": "2003-10-31"
+    },
+    {
+      "code": "C9231",
+      "action": "modify",
+      "date": "2003-12-30"
+    },
+    {
+      "code": "C9231",
+      "action": "modify",
+      "date": "2004-03-30"
+    },
+    {
+      "code": "C9231",
+      "action": "modify",
+      "date": "2005-01-28"
+    },
+    {
+      "code": "C9231",
+      "action": "modify",
+      "date": "2006-05-26"
+    },
+    {
+      "code": "C9231",
+      "action": "modify",
+      "date": "2006-09-29"
+    },
+    {
+      "code": "C9231",
+      "action": "modify",
+      "date": "2007-03-30"
+    },
+    {
+      "code": "C9231",
+      "action": "modify",
+      "date": "2007-04-30"
+    },
+    {
+      "code": "C9231",
+      "action": "modify",
+      "date": "2009-03-09"
+    },
+    {
+      "code": "C9231",
+      "action": "modify",
+      "date": "2009-04-06"
+    },
+    {
+      "code": "C9231",
+      "action": "modify",
+      "date": "2009-10-27"
+    },
+    {
+      "code": "C9231",
+      "action": "modify",
+      "date": "2009-11-23"
+    },
+    {
+      "code": "C9231",
+      "action": "modify",
+      "date": "2010-10-04"
+    },
+    {
+      "code": "C9231",
+      "action": "modify",
+      "date": "2010-11-08"
+    },
+    {
+      "code": "C9231",
+      "action": "modify",
+      "date": "2010-11-15"
+    },
+    {
+      "code": "C9231",
+      "action": "modify",
+      "date": "2010-11-22"
+    },
+    {
+      "code": "C9231",
+      "action": "modify",
+      "date": "2010-11-29"
+    },
+    {
+      "code": "C9231",
+      "action": "modify",
+      "date": "2010-12-06"
+    },
+    {
+      "code": "C9231",
+      "action": "modify",
+      "date": "2010-12-13"
+    },
+    {
+      "code": "C9231",
+      "action": "modify",
+      "date": "2010-12-27"
+    },
+    {
+      "code": "C9231",
+      "action": "modify",
+      "date": "2011-01-03"
+    },
+    {
+      "code": "C9231",
+      "action": "modify",
+      "date": "2011-01-10"
+    },
+    {
+      "code": "C9231",
+      "action": "modify",
+      "date": "2011-01-17"
+    },
+    {
+      "code": "C9231",
+      "action": "modify",
+      "date": "2011-01-24"
+    },
+    {
+      "code": "C9231",
+      "action": "modify",
+      "date": "2011-01-31"
+    },
+    {
+      "code": "C9231",
+      "action": "modify",
+      "date": "2011-02-14"
+    },
+    {
+      "code": "C9231",
+      "action": "modify",
+      "date": "2012-04-16"
+    },
+    {
+      "code": "C9231",
+      "action": "modify",
+      "date": "2012-09-24"
+    },
+    {
+      "code": "C9231",
+      "action": "modify",
+      "date": "2012-10-01"
+    },
+    {
+      "code": "C9231",
+      "action": "modify",
+      "date": "2012-10-09"
+    },
+    {
+      "code": "C9231",
+      "action": "modify",
+      "date": "2012-10-15"
+    },
+    {
+      "code": "C9231",
+      "action": "modify",
+      "date": "2012-10-22"
+    },
+    {
+      "code": "C9231",
+      "action": "modify",
+      "date": "2012-10-31"
+    },
+    {
+      "code": "C9231",
+      "action": "modify",
+      "date": "2012-11-05"
+    },
+    {
+      "code": "C9231",
+      "action": "modify",
+      "date": "2012-11-13"
+    },
+    {
+      "code": "C9231",
+      "action": "modify",
+      "date": "2012-11-19"
+    },
+    {
+      "code": "C9231",
+      "action": "modify",
+      "date": "2012-11-26"
+    },
+    {
+      "code": "C9231",
+      "action": "modify",
+      "date": "2012-12-03"
+    },
+    {
+      "code": "C9231",
+      "action": "modify",
+      "date": "2012-12-10"
+    },
+    {
+      "code": "C9231",
+      "action": "modify",
+      "date": "2012-12-17"
+    },
+    {
+      "code": "C9231",
+      "action": "modify",
+      "date": "2012-12-28"
+    },
+    {
+      "code": "C9231",
+      "action": "modify",
+      "date": "2013-01-07"
+    },
+    {
+      "code": "C9231",
+      "action": "modify",
+      "date": "2013-01-14"
+    },
+    {
+      "code": "C9231",
+      "action": "modify",
+      "date": "2013-01-23"
+    },
+    {
+      "code": "C9231",
+      "action": "modify",
+      "date": "2013-02-04"
+    },
+    {
+      "code": "C9231",
+      "action": "modify",
+      "date": "2013-02-11"
+    },
+    {
+      "code": "C9231",
+      "action": "modify",
+      "date": "2013-02-19"
+    },
+    {
+      "code": "C9231",
+      "action": "modify",
+      "date": "2013-02-25"
+    },
+    {
+      "code": "C9231",
+      "action": "modify",
+      "date": "2013-03-04"
+    },
+    {
+      "code": "C9231",
+      "action": "modify",
+      "date": "2013-03-11"
+    },
+    {
+      "code": "C9231",
+      "action": "modify",
+      "date": "2013-03-18"
+    },
+    {
+      "code": "C9231",
+      "action": "modify",
+      "date": "2013-03-25"
+    },
+    {
+      "code": "C9231",
+      "action": "modify",
+      "date": "2013-04-01"
+    },
+    {
+      "code": "C9231",
+      "action": "modify",
+      "date": "2013-04-08"
+    },
+    {
+      "code": "C9231",
+      "action": "modify",
+      "date": "2013-04-15"
+    },
+    {
+      "code": "C9231",
+      "action": "modify",
+      "date": "2013-04-22"
+    },
+    {
+      "code": "C9231",
+      "action": "modify",
+      "date": "2013-04-29"
+    },
+    {
+      "code": "C9231",
+      "action": "modify",
+      "date": "2013-05-06"
+    },
+    {
+      "code": "C9231",
+      "action": "modify",
+      "date": "2013-05-13"
+    },
+    {
+      "code": "C9231",
+      "action": "modify",
+      "date": "2013-05-20"
+    },
+    {
+      "code": "C9231",
+      "action": "modify",
+      "date": "2013-05-28"
+    },
+    {
+      "code": "C9231",
+      "action": "modify",
+      "date": "2013-06-03"
+    },
+    {
+      "code": "C9231",
+      "action": "modify",
+      "date": "2013-06-10"
+    },
+    {
+      "code": "C9231",
+      "action": "modify",
+      "date": "2013-06-17"
+    },
+    {
+      "code": "C9231",
+      "action": "modify",
+      "date": "2013-06-24"
+    },
+    {
+      "code": "C9231",
+      "action": "modify",
+      "date": "2013-07-01"
+    },
+    {
+      "code": "C9231",
+      "action": "modify",
+      "date": "2013-07-08"
+    },
+    {
+      "code": "C9231",
+      "action": "modify",
+      "date": "2014-08-25"
+    },
+    {
+      "code": "C9231",
+      "action": "modify",
+      "date": "2014-09-22"
+    },
+    {
+      "code": "C9231",
+      "action": "modify",
+      "date": "2014-10-27"
+    },
+    {
+      "code": "C9231",
+      "action": "modify",
+      "date": "2016-04-18"
+    },
+    {
+      "code": "C9231",
+      "action": "modify",
+      "date": "2016-04-25"
+    },
+    {
+      "code": "C9231",
+      "action": "modify",
+      "date": "2018-07-30"
+    },
+    {
+      "code": "C9231",
+      "action": "modify",
+      "date": "2018-08-27"
+    },
+    {
+      "code": "C9231",
+      "action": "modify",
+      "date": "2018-08-27"
+    },
+    {
+      "code": "C9231",
+      "action": "modify",
+      "date": "2018-09-24"
+    },
+    {
+      "code": "C9231",
+      "action": "modify",
+      "date": "2018-12-31"
+    },
+    {
+      "code": "C9231",
+      "action": "modify",
+      "date": "2019-02-25"
+    },
+    {
+      "code": "C9231",
+      "action": "modify",
+      "date": "2019-03-25"
+    },
+    {
+      "code": "C9231",
+      "action": "modify",
+      "date": "2019-05-28"
+    },
+    {
+      "code": "C9231",
+      "action": "modify",
+      "date": "2019-09-30"
+    },
+    {
+      "code": "C9231",
+      "action": "modify",
+      "date": "2019-10-28"
+    },
+    {
+      "code": "C9231",
+      "action": "modify",
+      "date": "2019-11-25"
+    },
+    {
+      "code": "C9231",
+      "action": "modify",
+      "date": "2020-02-24"
+    },
+    {
+      "code": "C9231",
+      "action": "modify",
+      "date": "2020-04-27"
+    },
+    {
+      "code": "C9231",
+      "action": "modify",
+      "date": "2020-07-27"
+    },
+    {
+      "code": "C9231",
+      "action": "modify",
+      "date": "2021-02-22"
+    },
+    {
+      "code": "C9231",
+      "action": "modify",
+      "date": "2021-03-29"
+    },
+    {
+      "code": "C9231",
+      "action": "modify",
+      "date": "2023-01-31"
+    },
+    {
+      "code": "C9231",
+      "action": "modify",
+      "date": "2023-02-27"
+    },
+    {
+      "code": "C9231",
+      "action": "modify",
+      "date": "2023-03-27"
+    },
+    {
+      "code": "C9231",
+      "action": "modify",
+      "date": "2023-05-30"
+    },
+    {
+      "code": "C9231",
+      "action": "modify",
+      "date": "2023-12-26"
+    },
+    {
+      "code": "C9231",
+      "action": "modify",
+      "date": "2024-03-25"
+    },
+    {
+      "code": "C9231",
+      "action": "modify",
+      "date": "2025-03-31"
+    }
+  ],
+  "maps": [
+    {
+      "type": "Related To",
+      "targetName": "8247/3",
+      "targetTermType": "PT",
+      "targetCode": "morphology",
+      "targetTerminology": "GDC"
+    },
+    {
+      "type": "Related To",
+      "targetName": "Merkel cell carcinoma of other sites",
+      "targetTermType": "PT",
+      "targetCode": "209.36",
+      "targetTerminology": "ICD9CM 2014"
+    },
+    {
+      "type": "Related To",
+      "targetName": "Merkel cell carcinoma",
+      "targetTermType": "PT",
+      "targetCode": "8247/3",
+      "targetTerminology": "ICDO3",
+      "targetTerminologyVersion": "3.1"
+    },
+    {
+      "type": "Related To",
+      "targetName": "Merkel cell carcinoma",
+      "targetTermType": "PT",
+      "targetCode": "8247/3",
+      "targetTerminology": "ICDO3",
+      "targetTerminologyVersion": "3.2"
+    },
+    {
+      "type": "Has Synonym",
+      "targetName": "Merkel cell carcinoma",
+      "targetTermType": "PT",
+      "targetCode": "primary_diagnosis",
+      "targetTerminology": "GDC"
+    },
+    {
+      "type": "Has Synonym",
+      "targetName": "Merkel cell tumor",
+      "targetTermType": "PT",
+      "targetCode": "primary_diagnosis",
+      "targetTerminology": "GDC"
+    }
+  ]
+}

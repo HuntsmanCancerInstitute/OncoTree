@@ -1,0 +1,566 @@
+{
+  "code": "C4871",
+  "name": "Complete Hydatidiform Mole",
+  "terminology": "ncit",
+  "version": "25.11d",
+  "conceptStatus": "DEFAULT",
+  "leaf": true,
+  "active": true,
+  "synonyms": [
+    {
+      "name": "Complete hydatidiform mole",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "GDC"
+    },
+    {
+      "name": "Complete Hydatid Mole",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Complete Hydatidiform Mole",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Complete Molar Pregnancy",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Complete Mole",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Classical Hydatidiform Mole",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NICHD"
+    },
+    {
+      "name": "Complete Hydatidiform Mole",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NICHD"
+    },
+    {
+      "name": "Complete Hydatidiform Mole",
+      "type": "Preferred_Name"
+    }
+  ],
+  "definitions": [
+    {
+      "definition": "A gestational trophoblastic disorder in which there is no embryo or normal placental tissue and the chorionic villi are hydropic.",
+      "type": "DEFINITION",
+      "source": "NCI",
+      "qualifiers": [
+        {
+          "type": "attribution",
+          "value": "NICHD"
+        }
+      ]
+    },
+    {
+      "definition": "A placental disorder where the majority of the chorionic villi are hydropic.",
+      "type": "ALT_DEFINITION",
+      "source": "NICHD"
+    }
+  ],
+  "properties": [
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "GDC"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "NICHD"
+    },
+    {
+      "code": "P366",
+      "type": "Legacy Concept Name",
+      "value": "Complete_Hydatidiform_Mole"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "9100/0"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "Complete hydatidiform mole"
+    },
+    {
+      "code": "P106",
+      "type": "Semantic_Type",
+      "value": "Disease or Syndrome"
+    },
+    {
+      "code": "P207",
+      "type": "UMLS_CUI",
+      "value": "C0678213"
+    }
+  ],
+  "parents": [
+    {
+      "code": "C3110",
+      "name": "Hydatidiform Mole"
+    },
+    {
+      "code": "C27619",
+      "name": "Placental Non-Neoplastic Disorder"
+    }
+  ],
+  "associations": [
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C157711",
+      "relatedName": "GDC Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C177537",
+      "relatedName": "GDC Value Terminology"
+    },
+    {
+      "type": "Is_Value_For_GDC_Property",
+      "relatedCode": "C176985",
+      "relatedName": "Histology ICD-O Morphology Code"
+    },
+    {
+      "type": "Is_Value_For_GDC_Property",
+      "relatedCode": "C177621",
+      "relatedName": "ICD-O-3 Morphology Term Diagnosis Question"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C90259",
+      "relatedName": "NICHD Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C118466",
+      "relatedName": "Perinatal Terminology"
+    }
+  ],
+  "inverseAssociations": [
+    {
+      "type": "Has_GDC_Value",
+      "relatedCode": "C176985",
+      "relatedName": "Histology ICD-O Morphology Code"
+    },
+    {
+      "type": "Has_GDC_Value",
+      "relatedCode": "C177621",
+      "relatedName": "ICD-O-3 Morphology Term Diagnosis Question"
+    }
+  ],
+  "roles": [
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12402",
+      "relatedName": "Female Reproductive System"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12402",
+      "relatedName": "Female Reproductive System"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C61476",
+      "relatedName": "Generalized Hydropic Villous Change"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12810",
+      "relatedName": "Genitourinary System"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12810",
+      "relatedName": "Genitourinary System"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C35953",
+      "relatedName": "Hydropic Villous Change"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C13272",
+      "relatedName": "Placenta"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C13272",
+      "relatedName": "Placenta"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C34941",
+      "relatedName": "Pregnancy Complication"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12841",
+      "relatedName": "Reproductive System"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12841",
+      "relatedName": "Reproductive System"
+    }
+  ],
+  "history": [
+    {
+      "code": "C4871",
+      "action": "create",
+      "date": "2003-08-12"
+    },
+    {
+      "code": "C4871",
+      "action": "modify",
+      "date": "2003-10-31"
+    },
+    {
+      "code": "C4871",
+      "action": "modify",
+      "date": "2003-12-30"
+    },
+    {
+      "code": "C4871",
+      "action": "modify",
+      "date": "2004-03-30"
+    },
+    {
+      "code": "C4871",
+      "action": "modify",
+      "date": "2006-07-28"
+    },
+    {
+      "code": "C4871",
+      "action": "modify",
+      "date": "2009-04-06"
+    },
+    {
+      "code": "C4871",
+      "action": "modify",
+      "date": "2009-11-23"
+    },
+    {
+      "code": "C4871",
+      "action": "modify",
+      "date": "2010-03-08"
+    },
+    {
+      "code": "C4871",
+      "action": "modify",
+      "date": "2012-08-06"
+    },
+    {
+      "code": "C4871",
+      "action": "modify",
+      "date": "2013-12-11"
+    },
+    {
+      "code": "C4871",
+      "action": "modify",
+      "date": "2013-12-16"
+    },
+    {
+      "code": "C4871",
+      "action": "modify",
+      "date": "2014-02-03"
+    },
+    {
+      "code": "C4871",
+      "action": "modify",
+      "date": "2014-11-03"
+    },
+    {
+      "code": "C4871",
+      "action": "modify",
+      "date": "2014-11-10"
+    },
+    {
+      "code": "C4871",
+      "action": "modify",
+      "date": "2014-11-17"
+    },
+    {
+      "code": "C4871",
+      "action": "modify",
+      "date": "2014-11-24"
+    },
+    {
+      "code": "C4871",
+      "action": "modify",
+      "date": "2014-12-01"
+    },
+    {
+      "code": "C4871",
+      "action": "modify",
+      "date": "2014-12-08"
+    },
+    {
+      "code": "C4871",
+      "action": "modify",
+      "date": "2014-12-15"
+    },
+    {
+      "code": "C4871",
+      "action": "modify",
+      "date": "2014-12-22"
+    },
+    {
+      "code": "C4871",
+      "action": "modify",
+      "date": "2014-12-29"
+    },
+    {
+      "code": "C4871",
+      "action": "modify",
+      "date": "2015-01-05"
+    },
+    {
+      "code": "C4871",
+      "action": "modify",
+      "date": "2015-01-12"
+    },
+    {
+      "code": "C4871",
+      "action": "modify",
+      "date": "2015-01-20"
+    },
+    {
+      "code": "C4871",
+      "action": "modify",
+      "date": "2015-01-26"
+    },
+    {
+      "code": "C4871",
+      "action": "modify",
+      "date": "2015-02-02"
+    },
+    {
+      "code": "C4871",
+      "action": "modify",
+      "date": "2015-02-09"
+    },
+    {
+      "code": "C4871",
+      "action": "modify",
+      "date": "2015-02-17"
+    },
+    {
+      "code": "C4871",
+      "action": "modify",
+      "date": "2015-02-23"
+    },
+    {
+      "code": "C4871",
+      "action": "modify",
+      "date": "2015-03-02"
+    },
+    {
+      "code": "C4871",
+      "action": "modify",
+      "date": "2015-03-09"
+    },
+    {
+      "code": "C4871",
+      "action": "modify",
+      "date": "2015-03-16"
+    },
+    {
+      "code": "C4871",
+      "action": "modify",
+      "date": "2015-03-23"
+    },
+    {
+      "code": "C4871",
+      "action": "modify",
+      "date": "2015-03-30"
+    },
+    {
+      "code": "C4871",
+      "action": "modify",
+      "date": "2015-04-06"
+    },
+    {
+      "code": "C4871",
+      "action": "modify",
+      "date": "2015-04-13"
+    },
+    {
+      "code": "C4871",
+      "action": "modify",
+      "date": "2015-04-20"
+    },
+    {
+      "code": "C4871",
+      "action": "modify",
+      "date": "2015-04-27"
+    },
+    {
+      "code": "C4871",
+      "action": "modify",
+      "date": "2015-05-04"
+    },
+    {
+      "code": "C4871",
+      "action": "modify",
+      "date": "2015-05-11"
+    },
+    {
+      "code": "C4871",
+      "action": "modify",
+      "date": "2015-05-18"
+    },
+    {
+      "code": "C4871",
+      "action": "modify",
+      "date": "2015-05-26"
+    },
+    {
+      "code": "C4871",
+      "action": "modify",
+      "date": "2015-06-01"
+    },
+    {
+      "code": "C4871",
+      "action": "modify",
+      "date": "2015-06-08"
+    },
+    {
+      "code": "C4871",
+      "action": "modify",
+      "date": "2015-06-15"
+    },
+    {
+      "code": "C4871",
+      "action": "modify",
+      "date": "2015-06-22"
+    },
+    {
+      "code": "C4871",
+      "action": "modify",
+      "date": "2015-06-29"
+    },
+    {
+      "code": "C4871",
+      "action": "modify",
+      "date": "2015-07-06"
+    },
+    {
+      "code": "C4871",
+      "action": "modify",
+      "date": "2015-07-13"
+    },
+    {
+      "code": "C4871",
+      "action": "modify",
+      "date": "2015-08-12"
+    },
+    {
+      "code": "C4871",
+      "action": "modify",
+      "date": "2016-04-04"
+    },
+    {
+      "code": "C4871",
+      "action": "modify",
+      "date": "2016-04-25"
+    },
+    {
+      "code": "C4871",
+      "action": "modify",
+      "date": "2016-05-31"
+    },
+    {
+      "code": "C4871",
+      "action": "modify",
+      "date": "2016-06-13"
+    },
+    {
+      "code": "C4871",
+      "action": "modify",
+      "date": "2016-10-17"
+    },
+    {
+      "code": "C4871",
+      "action": "modify",
+      "date": "2018-09-24"
+    },
+    {
+      "code": "C4871",
+      "action": "modify",
+      "date": "2019-05-28"
+    },
+    {
+      "code": "C4871",
+      "action": "modify",
+      "date": "2019-09-30"
+    },
+    {
+      "code": "C4871",
+      "action": "modify",
+      "date": "2019-11-25"
+    },
+    {
+      "code": "C4871",
+      "action": "modify",
+      "date": "2020-03-30"
+    },
+    {
+      "code": "C4871",
+      "action": "modify",
+      "date": "2020-08-31"
+    },
+    {
+      "code": "C4871",
+      "action": "modify",
+      "date": "2020-09-29"
+    },
+    {
+      "code": "C4871",
+      "action": "modify",
+      "date": "2021-02-22"
+    },
+    {
+      "code": "C4871",
+      "action": "modify",
+      "date": "2021-03-29"
+    },
+    {
+      "code": "C4871",
+      "action": "modify",
+      "date": "2021-07-26"
+    }
+  ],
+  "maps": [
+    {
+      "type": "Related To",
+      "targetName": "9100/0",
+      "targetTermType": "PT",
+      "targetCode": "morphology",
+      "targetTerminology": "GDC"
+    },
+    {
+      "type": "Has Synonym",
+      "targetName": "Complete hydatidiform mole",
+      "targetTermType": "PT",
+      "targetCode": "primary_diagnosis",
+      "targetTerminology": "GDC"
+    }
+  ]
+}

@@ -1,0 +1,269 @@
+{
+  "code": "C5932",
+  "name": "Salivary Gland Oncocytoma",
+  "terminology": "ncit",
+  "version": "25.11d",
+  "conceptStatus": "DEFAULT",
+  "leaf": true,
+  "active": true,
+  "synonyms": [
+    {
+      "name": "Oncocytoma of Salivary Gland",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Oncocytoma of the Salivary Gland",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Oxyphilic Adenoma of Salivary Gland",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Oxyphilic Adenoma of the Salivary Gland",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Salivary Gland Oncocytoma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Salivary Gland Oxyphilic Adenoma",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Salivary Gland Oncocytoma",
+      "type": "Preferred_Name"
+    }
+  ],
+  "definitions": [
+    {
+      "definition": "A rare benign epithelial neoplasm composed of oncocytes, which are large cells with a large amount of granular eosinophilic cytoplasm containing numerous tightly-packed mitochondria.  Approximately 85% to 90% occur in the parotid gland; most of the remainder occur in the submandibular gland. The peak incidence is in the seventh through ninth decades of life. In almost all cases, swelling is the only complaint of the patient.",
+      "type": "DEFINITION",
+      "source": "NCI"
+    }
+  ],
+  "properties": [
+    {
+      "code": "P366",
+      "type": "Legacy Concept Name",
+      "value": "Salivary_Gland_Oncocytoma"
+    },
+    {
+      "code": "P363",
+      "type": "Neoplastic_Status",
+      "value": "Benign"
+    },
+    {
+      "code": "P106",
+      "type": "Semantic_Type",
+      "value": "Neoplastic Process"
+    },
+    {
+      "code": "P207",
+      "type": "UMLS_CUI",
+      "value": "C1335906"
+    }
+  ],
+  "parents": [
+    {
+      "code": "C3759",
+      "name": "Oncocytic Adenoma"
+    },
+    {
+      "code": "C3686",
+      "name": "Salivary Gland Monomorphic Adenoma"
+    }
+  ],
+  "roles": [
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C36122",
+      "relatedName": "Benign Cellular Infiltrate"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C36116",
+      "relatedName": "Borderline Lesion"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C46128",
+      "relatedName": "Capsular Invasion"
+    },
+    {
+      "type": "Disease_Excludes_Normal_Cell_Origin",
+      "relatedCode": "C41608",
+      "relatedName": "Endocrine-Stromal Cell"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C12578",
+      "relatedName": "Epithelial Cell"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C53596",
+      "relatedName": "Epithelial Component Present"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C45714",
+      "relatedName": "Epithelial Tissue"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12418",
+      "relatedName": "Head and Neck"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12418",
+      "relatedName": "Head and Neck"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C35983",
+      "relatedName": "Lymphocytic Infiltrate"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C12917",
+      "relatedName": "Malignant Cell"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C36115",
+      "relatedName": "Malignant Cellular Infiltrate"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C36779",
+      "relatedName": "Malignant Epithelial Cell"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C41610",
+      "relatedName": "Mixed Cellular Population"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C62273",
+      "relatedName": "Mixed Neoplastic Glandular and Squamous Cell Population"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C38666",
+      "relatedName": "Monomorphic Cellular Infiltrate"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12922",
+      "relatedName": "Neoplastic Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36753",
+      "relatedName": "Neoplastic Epithelial Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36763",
+      "relatedName": "Neoplastic Glandular Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36941",
+      "relatedName": "Neoplastic Oncocyte"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C36937",
+      "relatedName": "Neoplastic Smooth Muscle Cell"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C36760",
+      "relatedName": "Neoplastic Squamous Cell"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C48898",
+      "relatedName": "Painless Mass"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12426",
+      "relatedName": "Salivary Gland"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12426",
+      "relatedName": "Salivary Gland"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C35939",
+      "relatedName": "Tumor Vascular Invasion"
+    }
+  ],
+  "history": [
+    {
+      "code": "C5932",
+      "action": "create",
+      "date": "2003-08-12"
+    },
+    {
+      "code": "C5932",
+      "action": "modify",
+      "date": "2003-10-31"
+    },
+    {
+      "code": "C5932",
+      "action": "modify",
+      "date": "2003-12-30"
+    },
+    {
+      "code": "C5932",
+      "action": "modify",
+      "date": "2004-03-30"
+    },
+    {
+      "code": "C5932",
+      "action": "modify",
+      "date": "2006-09-01"
+    },
+    {
+      "code": "C5932",
+      "action": "modify",
+      "date": "2009-11-23"
+    },
+    {
+      "code": "C5932",
+      "action": "modify",
+      "date": "2016-07-11"
+    },
+    {
+      "code": "C5932",
+      "action": "modify",
+      "date": "2019-06-24"
+    },
+    {
+      "code": "C5932",
+      "action": "modify",
+      "date": "2020-02-24"
+    }
+  ]
+}

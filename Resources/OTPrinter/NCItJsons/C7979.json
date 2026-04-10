@@ -1,0 +1,602 @@
+{
+  "code": "C7979",
+  "name": "Ovarian Endometrioid Adenocarcinoma",
+  "terminology": "ncit",
+  "version": "25.11d",
+  "conceptStatus": "DEFAULT",
+  "leaf": false,
+  "active": true,
+  "synonyms": [
+    {
+      "name": "Ovarian Endometrioid Adenocarcinoma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "Cellosaurus"
+    },
+    {
+      "name": "Ovarian Endometrioid Adenocarcinoma",
+      "termType": "DN",
+      "type": "FULL_SYN",
+      "source": "CTRP"
+    },
+    {
+      "name": "Endometrioid Adenocarcinoma of Ovary",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Endometrioid Adenocarcinoma of the Ovary",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Endometrioid Cancer of Ovary",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Endometrioid Cancer of the Ovary",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Endometrioid Carcinoma of Ovary",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Endometrioid Carcinoma of the Ovary",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Ovarian Endometrioid Adenocarcinoma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Ovarian Endometrioid Cancer",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Ovarian Endometrioid Carcinoma",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Ovarian Endometrioid Adenocarcinoma",
+      "type": "Display_Name"
+    },
+    {
+      "name": "Ovarian Endometrioid Adenocarcinoma",
+      "type": "Preferred_Name"
+    }
+  ],
+  "definitions": [
+    {
+      "definition": "An endometrioid adenocarcinoma arising from the ovary.  It comprises 10% to 25% of all primary ovarian carcinomas.  Grossly, endometrioid carcinoma may present as a cystic or solid mass.  Microscopically, the tumor greatly resembles the appearance of the ordinary type of endometrial adenocarcinoma.  As a group, endometrioid carcinoma has a prognosis twice as good as that of serous or mucinous carcinoma.",
+      "type": "DEFINITION",
+      "source": "NCI"
+    }
+  ],
+  "properties": [
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "Cellosaurus"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "CTRP"
+    },
+    {
+      "code": "P366",
+      "type": "Legacy Concept Name",
+      "value": "Ovarian_Endometrioid_Adenocarcinoma"
+    },
+    {
+      "code": "P363",
+      "type": "Neoplastic_Status",
+      "value": "Malignant"
+    },
+    {
+      "code": "P106",
+      "type": "Semantic_Type",
+      "value": "Neoplastic Process"
+    },
+    {
+      "code": "P207",
+      "type": "UMLS_CUI",
+      "value": "C0346163"
+    }
+  ],
+  "children": [
+    {
+      "code": "C170938",
+      "name": "Metastatic Ovarian Endometrioid Adenocarcinoma",
+      "leaf": false
+    },
+    {
+      "code": "C40061",
+      "name": "Ovarian Endometrioid Adenocarcinoma with Squamous Differentiation",
+      "leaf": true
+    },
+    {
+      "code": "C199166",
+      "name": "Ovarian High Grade Endometrioid Adenocarcinoma",
+      "leaf": false
+    },
+    {
+      "code": "C199159",
+      "name": "Ovarian Low Grade Endometrioid Adenocarcinoma",
+      "leaf": false
+    },
+    {
+      "code": "C211879",
+      "name": "Platinum-Resistant Ovarian Endometrioid Adenocarcinoma",
+      "leaf": false
+    },
+    {
+      "code": "C150095",
+      "name": "Recurrent Ovarian Endometrioid Adenocarcinoma",
+      "leaf": false
+    },
+    {
+      "code": "C150096",
+      "name": "Refractory Ovarian Endometrioid Adenocarcinoma",
+      "leaf": false
+    },
+    {
+      "code": "C186273",
+      "name": "Unresectable Ovarian Endometrioid Adenocarcinoma",
+      "leaf": false
+    }
+  ],
+  "parents": [
+    {
+      "code": "C215411",
+      "name": "Female Reproductive System Endometrioid Adenocarcinoma"
+    },
+    {
+      "code": "C40051",
+      "name": "Malignant Ovarian Endometrioid Tumor"
+    },
+    {
+      "code": "C7700",
+      "name": "Ovarian Adenocarcinoma"
+    }
+  ],
+  "associations": [
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C165258",
+      "relatedName": "Cellosaurus Disease Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C118168",
+      "relatedName": "CTRP Disease Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C116977",
+      "relatedName": "CTRP Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C126659",
+      "relatedName": "NCIt Neoplasm Core Terminology"
+    }
+  ],
+  "roles": [
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C34333",
+      "relatedName": "Abdominal Mass"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36773",
+      "relatedName": "Adenocarcinoma Cell"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C137974",
+      "relatedName": "Adnexa"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C36122",
+      "relatedName": "Benign Cellular Infiltrate"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C54172",
+      "relatedName": "Carcinomatous Component Present"
+    },
+    {
+      "type": "Disease_May_Have_Molecular_Abnormality",
+      "relatedCode": "C36659",
+      "relatedName": "CTNNB1 Gene Mutation"
+    },
+    {
+      "type": "Disease_Mapped_To_Gene",
+      "relatedCode": "C20987",
+      "relatedName": "CTNNB1 Gene"
+    },
+    {
+      "type": "Disease_May_Have_Associated_Disease",
+      "relatedCode": "C7558",
+      "relatedName": "Endometrial Carcinoma"
+    },
+    {
+      "type": "Disease_May_Have_Associated_Disease",
+      "relatedCode": "C6287",
+      "relatedName": "Endometrial Endometrioid Adenocarcinoma"
+    },
+    {
+      "type": "Disease_May_Have_Associated_Disease",
+      "relatedCode": "C3014",
+      "relatedName": "Endometriosis"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C12578",
+      "relatedName": "Epithelial Cell"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C53596",
+      "relatedName": "Epithelial Component Present"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C45714",
+      "relatedName": "Epithelial Tissue"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12402",
+      "relatedName": "Female Reproductive System"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12402",
+      "relatedName": "Female Reproductive System"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12810",
+      "relatedName": "Genitourinary System"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12810",
+      "relatedName": "Genitourinary System"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C36117",
+      "relatedName": "Invasive Lesion"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12917",
+      "relatedName": "Malignant Cell"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C36115",
+      "relatedName": "Malignant Cellular Infiltrate"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36779",
+      "relatedName": "Malignant Epithelial Cell"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C36771",
+      "relatedName": "Malignant Squamous Cell"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C37153",
+      "relatedName": "Malignant Stromal Cell"
+    },
+    {
+      "type": "Disease_May_Have_Molecular_Abnormality",
+      "relatedCode": "C36318",
+      "relatedName": "Microsatellite Instability"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C62273",
+      "relatedName": "Mixed Neoplastic Glandular and Squamous Cell Population"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12922",
+      "relatedName": "Neoplastic Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36753",
+      "relatedName": "Neoplastic Epithelial Cell"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C36756",
+      "relatedName": "Neoplastic Epithelial Clear Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36763",
+      "relatedName": "Neoplastic Glandular Cell"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C61542",
+      "relatedName": "Neoplastic Glandular Epithelium Resembling the Normal Endometrium Present"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C36937",
+      "relatedName": "Neoplastic Smooth Muscle Cell"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C36760",
+      "relatedName": "Neoplastic Squamous Cell"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C61518",
+      "relatedName": "Ovarian Surface Epithelium"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12404",
+      "relatedName": "Ovary"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12404",
+      "relatedName": "Ovary"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C2885",
+      "relatedName": "Peritoneal Effusion"
+    },
+    {
+      "type": "Disease_May_Have_Molecular_Abnormality",
+      "relatedCode": "C36692",
+      "relatedName": "PTEN Gene Inactivation"
+    },
+    {
+      "type": "Disease_Mapped_To_Gene",
+      "relatedCode": "C18256",
+      "relatedName": "PTEN Gene"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12841",
+      "relatedName": "Reproductive System"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C35954",
+      "relatedName": "Stromal Invasion"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C38328",
+      "relatedName": "Unfavorable Clinical Outcome"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12321",
+      "relatedName": "Uterine Adnexa"
+    }
+  ],
+  "inverseRoles": [
+    {
+      "type": "Gene_Associated_With_Disease",
+      "relatedCode": "C19969",
+      "relatedName": "AXIN1 Gene"
+    },
+    {
+      "type": "Gene_Associated_With_Disease",
+      "relatedCode": "C52463",
+      "relatedName": "AXIN1 wt Allele"
+    },
+    {
+      "type": "Gene_Product_Malfunction_Associated_With_Disease",
+      "relatedCode": "C17478",
+      "relatedName": "Catenin Beta-1"
+    },
+    {
+      "type": "Gene_Involved_In_Pathogenesis_Of_Disease",
+      "relatedCode": "C20987",
+      "relatedName": "CTNNB1 Gene"
+    },
+    {
+      "type": "Gene_Involved_In_Pathogenesis_Of_Disease",
+      "relatedCode": "C52512",
+      "relatedName": "CTNNB1 wt Allele"
+    },
+    {
+      "type": "Disease_May_Have_Associated_Disease",
+      "relatedCode": "C40440",
+      "relatedName": "Ovarian Small Cell Carcinoma, Pulmonary-Type"
+    },
+    {
+      "type": "Gene_Involved_In_Pathogenesis_Of_Disease",
+      "relatedCode": "C18256",
+      "relatedName": "PTEN Gene"
+    },
+    {
+      "type": "Gene_Involved_In_Pathogenesis_Of_Disease",
+      "relatedCode": "C52906",
+      "relatedName": "PTEN wt Allele"
+    }
+  ],
+  "history": [
+    {
+      "code": "C7979",
+      "action": "create",
+      "date": "2003-08-12"
+    },
+    {
+      "code": "C7979",
+      "action": "modify",
+      "date": "2003-10-31"
+    },
+    {
+      "code": "C7979",
+      "action": "modify",
+      "date": "2003-12-30"
+    },
+    {
+      "code": "C7979",
+      "action": "modify",
+      "date": "2004-03-30"
+    },
+    {
+      "code": "C7979",
+      "action": "modify",
+      "date": "2004-05-28"
+    },
+    {
+      "code": "C7979",
+      "action": "modify",
+      "date": "2004-08-02"
+    },
+    {
+      "code": "C7979",
+      "action": "modify",
+      "date": "2004-09-10"
+    },
+    {
+      "code": "C7979",
+      "action": "modify",
+      "date": "2006-07-28"
+    },
+    {
+      "code": "C7979",
+      "action": "modify",
+      "date": "2007-06-28"
+    },
+    {
+      "code": "C7979",
+      "action": "modify",
+      "date": "2007-10-29"
+    },
+    {
+      "code": "C7979",
+      "action": "modify",
+      "date": "2009-04-06"
+    },
+    {
+      "code": "C7979",
+      "action": "modify",
+      "date": "2009-11-23"
+    },
+    {
+      "code": "C7979",
+      "action": "modify",
+      "date": "2012-02-21"
+    },
+    {
+      "code": "C40091",
+      "action": "merge",
+      "date": "2006-07-14",
+      "replacementCode": "C7979",
+      "replacementName": "Ovarian Endometrioid Adenocarcinoma"
+    },
+    {
+      "code": "C7979",
+      "action": "merge",
+      "date": "2006-07-14",
+      "replacementCode": "C7979",
+      "replacementName": "Ovarian Endometrioid Adenocarcinoma"
+    },
+    {
+      "code": "C7979",
+      "action": "modify",
+      "date": "2014-04-14"
+    },
+    {
+      "code": "C7979",
+      "action": "modify",
+      "date": "2014-08-04"
+    },
+    {
+      "code": "C7979",
+      "action": "modify",
+      "date": "2014-08-18"
+    },
+    {
+      "code": "C7979",
+      "action": "modify",
+      "date": "2014-09-22"
+    },
+    {
+      "code": "C7979",
+      "action": "modify",
+      "date": "2016-04-25"
+    },
+    {
+      "code": "C7979",
+      "action": "modify",
+      "date": "2018-07-30"
+    },
+    {
+      "code": "C7979",
+      "action": "modify",
+      "date": "2018-08-27"
+    },
+    {
+      "code": "C7979",
+      "action": "modify",
+      "date": "2018-08-27"
+    },
+    {
+      "code": "C7979",
+      "action": "modify",
+      "date": "2019-10-28"
+    },
+    {
+      "code": "C7979",
+      "action": "modify",
+      "date": "2023-02-27"
+    },
+    {
+      "code": "C7979",
+      "action": "modify",
+      "date": "2023-04-24"
+    },
+    {
+      "code": "C7979",
+      "action": "modify",
+      "date": "2025-03-31"
+    },
+    {
+      "code": "C7979",
+      "action": "modify",
+      "date": "2025-04-28"
+    }
+  ]
+}

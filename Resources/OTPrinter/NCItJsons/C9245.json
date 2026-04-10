@@ -1,0 +1,930 @@
+{
+  "code": "C9245",
+  "name": "Invasive Breast Carcinoma",
+  "terminology": "ncit",
+  "version": "25.11d",
+  "conceptStatus": "DEFAULT",
+  "leaf": false,
+  "active": true,
+  "synonyms": [
+    {
+      "name": "Invasive breast carcinoma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "CTEP",
+      "code": "10006190",
+      "subSource": "SDC"
+    },
+    {
+      "name": "Invasive Breast Cancer",
+      "termType": "DN",
+      "type": "FULL_SYN",
+      "source": "CTRP"
+    },
+    {
+      "name": "Invasive mammary carcinoma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "GDC"
+    },
+    {
+      "name": "infiltrating breast cancer",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NCI-GLOSS",
+      "code": "CDR0000538415"
+    },
+    {
+      "name": "invasive breast cancer",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NCI-GLOSS",
+      "code": "CDR0000537695"
+    },
+    {
+      "name": "Infiltrating Breast Carcinoma",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Infiltrating Carcinoma of Breast",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Infiltrating Carcinoma of the Breast",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Invasive Breast Cancer",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Invasive Breast Carcinoma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Invasive Carcinoma of Breast",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Invasive Carcinoma of the Breast",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Invasive Mammary Carcinoma",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Invasive Breast Carcinoma",
+      "type": "Display_Name"
+    },
+    {
+      "name": "Invasive Breast Carcinoma",
+      "type": "Preferred_Name"
+    }
+  ],
+  "definitions": [
+    {
+      "definition": "A carcinoma that infiltrates the breast parenchyma.  The vast majority are adenocarcinomas arising from the terminal ductal lobular unit (TDLU).  Often, the invasive adenocarcinoma co-exists with ductal or lobular carcinoma in situ.  It is the most common carcinoma affecting women.",
+      "type": "DEFINITION",
+      "source": "NCI"
+    },
+    {
+      "definition": "Cancer that has spread from where it started in the breast into surrounding, healthy tissue. Most invasive breast cancers start in the ducts (tubes that carry milk from the lobules to the nipple). Invasive breast cancer can spread to other parts of the body through the blood and lymph systems.",
+      "type": "ALT_DEFINITION",
+      "source": "NCI-GLOSS"
+    }
+  ],
+  "properties": [
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "CTEP"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "CTRP"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "GDC"
+    },
+    {
+      "code": "P366",
+      "type": "Legacy Concept Name",
+      "value": "Invasive_Breast_Carcinoma"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "61"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "80"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "Invasive mammary carcinoma"
+    },
+    {
+      "code": "P363",
+      "type": "Neoplastic_Status",
+      "value": "Malignant"
+    },
+    {
+      "code": "P106",
+      "type": "Semantic_Type",
+      "value": "Neoplastic Process"
+    },
+    {
+      "code": "P207",
+      "type": "UMLS_CUI",
+      "value": "C0853879"
+    }
+  ],
+  "children": [
+    {
+      "code": "C40367",
+      "name": "Breast Acinic Cell Carcinoma",
+      "leaf": false
+    },
+    {
+      "code": "C5130",
+      "name": "Breast Adenoid Cystic Carcinoma",
+      "leaf": true
+    },
+    {
+      "code": "C4001",
+      "name": "Breast Inflammatory Carcinoma",
+      "leaf": false
+    },
+    {
+      "code": "C40395",
+      "name": "Breast Malignant Myoepithelioma",
+      "leaf": true
+    },
+    {
+      "code": "C5164",
+      "name": "Breast Metaplastic Carcinoma",
+      "leaf": false
+    },
+    {
+      "code": "C40347",
+      "name": "Breast Mixed Carcinoma",
+      "leaf": false
+    },
+    {
+      "code": "C9131",
+      "name": "Breast Mucinous Carcinoma",
+      "leaf": false
+    },
+    {
+      "code": "C40354",
+      "name": "Breast Mucinous Cystadenocarcinoma",
+      "leaf": true
+    },
+    {
+      "code": "C5166",
+      "name": "Breast Mucoepidermoid Carcinoma",
+      "leaf": false
+    },
+    {
+      "code": "C175581",
+      "name": "Breast Neuroendocrine Carcinoma",
+      "leaf": false
+    },
+    {
+      "code": "C7951",
+      "name": "Breast Paget Disease with Invasive Ductal Carcinoma",
+      "leaf": true
+    },
+    {
+      "code": "C175604",
+      "name": "Breast Polymorphous Adenocarcinoma",
+      "leaf": true
+    },
+    {
+      "code": "C4189",
+      "name": "Breast Secretory Carcinoma",
+      "leaf": true
+    },
+    {
+      "code": "C5175",
+      "name": "Breast Signet Ring Cell Adenocarcinoma",
+      "leaf": false
+    },
+    {
+      "code": "C5177",
+      "name": "Breast Squamous Cell Carcinoma",
+      "leaf": false
+    },
+    {
+      "code": "C175607",
+      "name": "Breast Tall Cell Carcinoma with Reversed Polarity",
+      "leaf": true
+    },
+    {
+      "code": "C9135",
+      "name": "Breast Tubular Carcinoma",
+      "leaf": false
+    },
+    {
+      "code": "C5457",
+      "name": "Invasive Breast Apocrine Carcinoma",
+      "leaf": true
+    },
+    {
+      "code": "C27829",
+      "name": "Invasive Breast Carcinoma by Histologic Grade",
+      "leaf": false
+    },
+    {
+      "code": "C4194",
+      "name": "Invasive Breast Carcinoma of No Special Type",
+      "leaf": false
+    },
+    {
+      "code": "C5142",
+      "name": "Invasive Breast Cribriform Carcinoma",
+      "leaf": true
+    },
+    {
+      "code": "C7950",
+      "name": "Invasive Breast Lobular Carcinoma",
+      "leaf": false
+    },
+    {
+      "code": "C36085",
+      "name": "Invasive Breast Papillary Carcinoma",
+      "leaf": false
+    },
+    {
+      "code": "C176579",
+      "name": "Invasive Female Breast Carcinoma",
+      "leaf": true
+    },
+    {
+      "code": "C176504",
+      "name": "Invasive Male Breast Carcinoma",
+      "leaf": true
+    },
+    {
+      "code": "C40374",
+      "name": "Microinvasive Breast Carcinoma",
+      "leaf": true
+    }
+  ],
+  "parents": [
+    {
+      "code": "C4872",
+      "name": "Breast Carcinoma"
+    },
+    {
+      "code": "C9480",
+      "name": "Invasive Carcinoma"
+    }
+  ],
+  "associations": [
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C118168",
+      "relatedName": "CTRP Disease Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C116977",
+      "relatedName": "CTRP Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C157711",
+      "relatedName": "GDC Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C177537",
+      "relatedName": "GDC Value Terminology"
+    },
+    {
+      "type": "Is_Value_For_GDC_Property",
+      "relatedCode": "C177621",
+      "relatedName": "ICD-O-3 Morphology Term Diagnosis Question"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C103041",
+      "relatedName": "NCI CTEP SDC Breast Cancer - Invasive Sub-Category Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C102905",
+      "relatedName": "NCI CTEP Simplified Disease Classification Terminology"
+    },
+    {
+      "type": "Is_Value_For_GDC_Property",
+      "relatedCode": "C177584",
+      "relatedName": "TCGA BCR Tumor Code Identifier"
+    }
+  ],
+  "inverseAssociations": [
+    {
+      "type": "Has_GDC_Value",
+      "relatedCode": "C177621",
+      "relatedName": "ICD-O-3 Morphology Term Diagnosis Question"
+    },
+    {
+      "type": "Has_GDC_Value",
+      "relatedCode": "C177584",
+      "relatedName": "TCGA BCR Tumor Code Identifier"
+    }
+  ],
+  "roles": [
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C36122",
+      "relatedName": "Benign Cellular Infiltrate"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C3197",
+      "relatedName": "Breast Lump"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12971",
+      "relatedName": "Breast"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12971",
+      "relatedName": "Breast"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C54172",
+      "relatedName": "Carcinomatous Component Present"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C12578",
+      "relatedName": "Epithelial Cell"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C53596",
+      "relatedName": "Epithelial Component Present"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C45714",
+      "relatedName": "Epithelial Tissue"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C36117",
+      "relatedName": "Invasive Lesion"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12917",
+      "relatedName": "Malignant Cell"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C36115",
+      "relatedName": "Malignant Cellular Infiltrate"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36779",
+      "relatedName": "Malignant Epithelial Cell"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C37153",
+      "relatedName": "Malignant Stromal Cell"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C12937",
+      "relatedName": "Mammary Epithelium"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12922",
+      "relatedName": "Neoplastic Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36753",
+      "relatedName": "Neoplastic Epithelial Cell"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C36937",
+      "relatedName": "Neoplastic Smooth Muscle Cell"
+    }
+  ],
+  "inverseRoles": [
+    {
+      "type": "Regimen_Has_Accepted_Use_For_Disease",
+      "relatedCode": "C64365",
+      "relatedName": "A-CMF Regimen"
+    },
+    {
+      "type": "Regimen_Has_Accepted_Use_For_Disease",
+      "relatedCode": "C64368",
+      "relatedName": "A-T-C Regimen"
+    },
+    {
+      "type": "Regimen_Has_Accepted_Use_For_Disease",
+      "relatedCode": "C63427",
+      "relatedName": "AC-T Regimen"
+    },
+    {
+      "type": "Regimen_Has_Accepted_Use_For_Disease",
+      "relatedCode": "C9533",
+      "relatedName": "CAF Regimen"
+    },
+    {
+      "type": "Regimen_Has_Accepted_Use_For_Disease",
+      "relatedCode": "C138100",
+      "relatedName": "CEF Regimen"
+    },
+    {
+      "type": "Regimen_Has_Accepted_Use_For_Disease",
+      "relatedCode": "C63416",
+      "relatedName": "Doxorubicin/Paclitaxel Regimen"
+    },
+    {
+      "type": "Regimen_Has_Accepted_Use_For_Disease",
+      "relatedCode": "C63434",
+      "relatedName": "Epirubicin/Vinorelbine Regimen"
+    },
+    {
+      "type": "Regimen_Has_Accepted_Use_For_Disease",
+      "relatedCode": "C138099",
+      "relatedName": "FAC Regimen"
+    },
+    {
+      "type": "Regimen_Has_Accepted_Use_For_Disease",
+      "relatedCode": "C9595",
+      "relatedName": "FEC Regimen"
+    },
+    {
+      "type": "Regimen_Has_Accepted_Use_For_Disease",
+      "relatedCode": "C63422",
+      "relatedName": "GT Regimen"
+    },
+    {
+      "type": "Regimen_Has_Accepted_Use_For_Disease",
+      "relatedCode": "C63435",
+      "relatedName": "TAC Regimen"
+    }
+  ],
+  "history": [
+    {
+      "code": "C9245",
+      "action": "create",
+      "date": "2003-08-12"
+    },
+    {
+      "code": "C9245",
+      "action": "modify",
+      "date": "2003-10-31"
+    },
+    {
+      "code": "C9245",
+      "action": "modify",
+      "date": "2003-12-30"
+    },
+    {
+      "code": "C9245",
+      "action": "modify",
+      "date": "2004-03-30"
+    },
+    {
+      "code": "C9245",
+      "action": "modify",
+      "date": "2004-09-10"
+    },
+    {
+      "code": "C9245",
+      "action": "modify",
+      "date": "2005-01-28"
+    },
+    {
+      "code": "C9245",
+      "action": "modify",
+      "date": "2005-07-29"
+    },
+    {
+      "code": "C9245",
+      "action": "modify",
+      "date": "2006-01-27"
+    },
+    {
+      "code": "C9245",
+      "action": "modify",
+      "date": "2006-03-31"
+    },
+    {
+      "code": "C9245",
+      "action": "modify",
+      "date": "2006-04-28"
+    },
+    {
+      "code": "C9245",
+      "action": "modify",
+      "date": "2009-10-27"
+    },
+    {
+      "code": "C9245",
+      "action": "modify",
+      "date": "2009-11-23"
+    },
+    {
+      "code": "C9245",
+      "action": "modify",
+      "date": "2010-11-08"
+    },
+    {
+      "code": "C9245",
+      "action": "modify",
+      "date": "2010-11-15"
+    },
+    {
+      "code": "C9245",
+      "action": "modify",
+      "date": "2010-11-22"
+    },
+    {
+      "code": "C9245",
+      "action": "modify",
+      "date": "2010-11-29"
+    },
+    {
+      "code": "C9245",
+      "action": "modify",
+      "date": "2010-12-06"
+    },
+    {
+      "code": "C9245",
+      "action": "modify",
+      "date": "2010-12-13"
+    },
+    {
+      "code": "C9245",
+      "action": "modify",
+      "date": "2010-12-27"
+    },
+    {
+      "code": "C9245",
+      "action": "modify",
+      "date": "2011-01-03"
+    },
+    {
+      "code": "C9245",
+      "action": "modify",
+      "date": "2011-01-10"
+    },
+    {
+      "code": "C9245",
+      "action": "modify",
+      "date": "2011-01-17"
+    },
+    {
+      "code": "C9245",
+      "action": "modify",
+      "date": "2011-01-24"
+    },
+    {
+      "code": "C9245",
+      "action": "modify",
+      "date": "2011-01-31"
+    },
+    {
+      "code": "C9245",
+      "action": "modify",
+      "date": "2011-09-19"
+    },
+    {
+      "code": "C9245",
+      "action": "modify",
+      "date": "2012-09-24"
+    },
+    {
+      "code": "C9245",
+      "action": "modify",
+      "date": "2012-10-01"
+    },
+    {
+      "code": "C9245",
+      "action": "modify",
+      "date": "2012-10-09"
+    },
+    {
+      "code": "C9245",
+      "action": "modify",
+      "date": "2012-10-15"
+    },
+    {
+      "code": "C9245",
+      "action": "modify",
+      "date": "2012-10-22"
+    },
+    {
+      "code": "C9245",
+      "action": "modify",
+      "date": "2012-10-31"
+    },
+    {
+      "code": "C9245",
+      "action": "modify",
+      "date": "2012-11-05"
+    },
+    {
+      "code": "C9245",
+      "action": "modify",
+      "date": "2012-11-13"
+    },
+    {
+      "code": "C9245",
+      "action": "modify",
+      "date": "2012-11-19"
+    },
+    {
+      "code": "C9245",
+      "action": "modify",
+      "date": "2012-11-26"
+    },
+    {
+      "code": "C9245",
+      "action": "modify",
+      "date": "2012-12-03"
+    },
+    {
+      "code": "C9245",
+      "action": "modify",
+      "date": "2012-12-10"
+    },
+    {
+      "code": "C9245",
+      "action": "modify",
+      "date": "2012-12-17"
+    },
+    {
+      "code": "C9245",
+      "action": "modify",
+      "date": "2012-12-28"
+    },
+    {
+      "code": "C9245",
+      "action": "modify",
+      "date": "2013-01-07"
+    },
+    {
+      "code": "C9245",
+      "action": "modify",
+      "date": "2013-01-14"
+    },
+    {
+      "code": "C9245",
+      "action": "modify",
+      "date": "2013-01-23"
+    },
+    {
+      "code": "C9245",
+      "action": "modify",
+      "date": "2013-02-04"
+    },
+    {
+      "code": "C9245",
+      "action": "modify",
+      "date": "2013-02-11"
+    },
+    {
+      "code": "C9245",
+      "action": "modify",
+      "date": "2013-02-19"
+    },
+    {
+      "code": "C9245",
+      "action": "modify",
+      "date": "2013-02-25"
+    },
+    {
+      "code": "C9245",
+      "action": "modify",
+      "date": "2013-03-04"
+    },
+    {
+      "code": "C9245",
+      "action": "modify",
+      "date": "2013-03-11"
+    },
+    {
+      "code": "C9245",
+      "action": "modify",
+      "date": "2013-03-18"
+    },
+    {
+      "code": "C9245",
+      "action": "modify",
+      "date": "2013-03-25"
+    },
+    {
+      "code": "C9245",
+      "action": "modify",
+      "date": "2013-04-01"
+    },
+    {
+      "code": "C9245",
+      "action": "modify",
+      "date": "2013-04-08"
+    },
+    {
+      "code": "C9245",
+      "action": "modify",
+      "date": "2013-04-15"
+    },
+    {
+      "code": "C9245",
+      "action": "modify",
+      "date": "2013-04-22"
+    },
+    {
+      "code": "C9245",
+      "action": "modify",
+      "date": "2013-04-29"
+    },
+    {
+      "code": "C9245",
+      "action": "modify",
+      "date": "2013-05-06"
+    },
+    {
+      "code": "C9245",
+      "action": "modify",
+      "date": "2013-05-13"
+    },
+    {
+      "code": "C9245",
+      "action": "modify",
+      "date": "2013-05-20"
+    },
+    {
+      "code": "C9245",
+      "action": "modify",
+      "date": "2013-05-28"
+    },
+    {
+      "code": "C9245",
+      "action": "modify",
+      "date": "2013-06-03"
+    },
+    {
+      "code": "C9245",
+      "action": "modify",
+      "date": "2013-06-10"
+    },
+    {
+      "code": "C9245",
+      "action": "modify",
+      "date": "2013-06-17"
+    },
+    {
+      "code": "C9245",
+      "action": "modify",
+      "date": "2013-06-24"
+    },
+    {
+      "code": "C9245",
+      "action": "modify",
+      "date": "2013-07-01"
+    },
+    {
+      "code": "C9245",
+      "action": "modify",
+      "date": "2013-07-08"
+    },
+    {
+      "code": "C9245",
+      "action": "modify",
+      "date": "2014-02-03"
+    },
+    {
+      "code": "C9245",
+      "action": "modify",
+      "date": "2015-12-28"
+    },
+    {
+      "code": "C9245",
+      "action": "modify",
+      "date": "2016-09-20"
+    },
+    {
+      "code": "C9245",
+      "action": "modify",
+      "date": "2017-07-31"
+    },
+    {
+      "code": "C9245",
+      "action": "modify",
+      "date": "2018-07-30"
+    },
+    {
+      "code": "C9245",
+      "action": "modify",
+      "date": "2018-08-27"
+    },
+    {
+      "code": "C9245",
+      "action": "modify",
+      "date": "2018-08-27"
+    },
+    {
+      "code": "C9245",
+      "action": "modify",
+      "date": "2019-05-28"
+    },
+    {
+      "code": "C9245",
+      "action": "modify",
+      "date": "2019-09-30"
+    },
+    {
+      "code": "C9245",
+      "action": "modify",
+      "date": "2019-11-25"
+    },
+    {
+      "code": "C9245",
+      "action": "modify",
+      "date": "2020-01-27"
+    },
+    {
+      "code": "C9245",
+      "action": "modify",
+      "date": "2021-02-22"
+    },
+    {
+      "code": "C9245",
+      "action": "modify",
+      "date": "2021-03-29"
+    },
+    {
+      "code": "C9245",
+      "action": "modify",
+      "date": "2023-12-26"
+    },
+    {
+      "code": "C9245",
+      "action": "modify",
+      "date": "2024-10-28"
+    }
+  ],
+  "maps": [
+    {
+      "type": "Related To",
+      "targetName": "61",
+      "targetTermType": "PT",
+      "targetCode": "tumor_code_id",
+      "targetTerminology": "GDC"
+    },
+    {
+      "type": "Related To",
+      "targetName": "80",
+      "targetTermType": "PT",
+      "targetCode": "tumor_code_id",
+      "targetTerminology": "GDC"
+    },
+    {
+      "type": "Has Synonym",
+      "targetName": "Invasive mammary carcinoma",
+      "targetTermType": "PT",
+      "targetCode": "primary_diagnosis",
+      "targetTerminology": "GDC"
+    }
+  ]
+}

@@ -1,0 +1,723 @@
+{
+  "code": "C4438",
+  "name": "Liver Angiosarcoma",
+  "terminology": "ncit",
+  "version": "25.11d",
+  "conceptStatus": "DEFAULT",
+  "leaf": false,
+  "active": true,
+  "synonyms": [
+    {
+      "name": "Liver Angiosarcoma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "Cellosaurus"
+    },
+    {
+      "name": "Liver Angiosarcoma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "CPTAC"
+    },
+    {
+      "name": "Kupffer cell sarcoma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "GDC"
+    },
+    {
+      "name": "Angiosarcoma of liver",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "mCode",
+      "code": "C22.3",
+      "subSource": "ICD-10 CM"
+    },
+    {
+      "name": "Angiosarcoma of Liver",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Angiosarcoma of the Liver",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Hemangiosarcoma of Liver",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Hemangiosarcoma of the Liver",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Hepatic Angiosarcoma",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Hepatic Hemangiosarcoma",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Liver Angiosarcoma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Liver Hemangiosarcoma",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Primary Angiosarcoma of Liver",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Primary Angiosarcoma of the Liver",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Liver Angiosarcoma",
+      "type": "Preferred_Name"
+    }
+  ],
+  "definitions": [
+    {
+      "definition": "A malignant vascular neoplasm arising from the liver.",
+      "type": "DEFINITION",
+      "source": "NCI"
+    }
+  ],
+  "properties": [
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "Cellosaurus"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "CPTAC"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "GDC"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "mCode"
+    },
+    {
+      "code": "P334",
+      "type": "ICD-O-3_Code",
+      "value": "9124/3"
+    },
+    {
+      "code": "P366",
+      "type": "Legacy Concept Name",
+      "value": "Hepatic_Angiosarcoma"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "9124/3"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "Kupffer cell sarcoma"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "Malignant neoplasm: Angiosarcoma of liver"
+    },
+    {
+      "code": "P363",
+      "type": "Neoplastic_Status",
+      "value": "Malignant"
+    },
+    {
+      "code": "P106",
+      "type": "Semantic_Type",
+      "value": "Neoplastic Process"
+    },
+    {
+      "code": "P207",
+      "type": "UMLS_CUI",
+      "value": "C0345907"
+    }
+  ],
+  "children": [
+    {
+      "code": "C190020",
+      "name": "Childhood Liver Angiosarcoma",
+      "leaf": true
+    }
+  ],
+  "parents": [
+    {
+      "code": "C4437",
+      "name": "Liver Sarcoma"
+    },
+    {
+      "code": "C35442",
+      "name": "Liver Vascular Disorder"
+    },
+    {
+      "code": "C171026",
+      "name": "Visceral Angiosarcoma"
+    }
+  ],
+  "associations": [
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C165258",
+      "relatedName": "Cellosaurus Disease Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C158520",
+      "relatedName": "CPTAC Codelists Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C156966",
+      "relatedName": "CPTAC Neoplasms Codelist"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C156952",
+      "relatedName": "CPTAC Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C157711",
+      "relatedName": "GDC Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C177537",
+      "relatedName": "GDC Value Terminology"
+    },
+    {
+      "type": "Is_Value_For_GDC_Property",
+      "relatedCode": "C176985",
+      "relatedName": "Histology ICD-O Morphology Code"
+    },
+    {
+      "type": "Is_Value_For_GDC_Property",
+      "relatedCode": "C177621",
+      "relatedName": "ICD-O-3 Morphology Term Diagnosis Question"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168658",
+      "relatedName": "Mapped ICDO3.1 Morphology PT Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168657",
+      "relatedName": "Mapped ICDO3.1 Morphology Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168655",
+      "relatedName": "Mapped ICDO3.1 Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168662",
+      "relatedName": "Mapped ICDO3.2 Morphology PT Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168661",
+      "relatedName": "Mapped ICDO3.2 Morphology Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168656",
+      "relatedName": "Mapped ICDO3.2 Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C193249",
+      "relatedName": "mCode Cancer Disorder Value Set"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C193178",
+      "relatedName": "mCode Elixhauser Malignant Solid Tumors without Metastases Value Set"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C193248",
+      "relatedName": "mCode Primary Cancer Disorder Value Set"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C193231",
+      "relatedName": "mCode Primary Malignant Neoplasm Disorder Value Set"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C193006",
+      "relatedName": "mCode Terminology"
+    }
+  ],
+  "inverseAssociations": [
+    {
+      "type": "Has_GDC_Value",
+      "relatedCode": "C176985",
+      "relatedName": "Histology ICD-O Morphology Code"
+    },
+    {
+      "type": "Has_GDC_Value",
+      "relatedCode": "C177621",
+      "relatedName": "ICD-O-3 Morphology Term Diagnosis Question"
+    }
+  ],
+  "roles": [
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C36122",
+      "relatedName": "Benign Cellular Infiltrate"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C53395",
+      "relatedName": "Blood Vessel Endothelium"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12679",
+      "relatedName": "Blood Vessel"
+    },
+    {
+      "type": "Disease_Excludes_Primary_Anatomic_Site",
+      "relatedCode": "C12366",
+      "relatedName": "Bone"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12686",
+      "relatedName": "Cardiovascular System"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12964",
+      "relatedName": "Connective and Soft Tissue"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12964",
+      "relatedName": "Connective and Soft Tissue"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12378",
+      "relatedName": "Digestive System"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12378",
+      "relatedName": "Digestive System"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C12865",
+      "relatedName": "Endothelial Cell"
+    },
+    {
+      "type": "Disease_Excludes_Normal_Cell_Origin",
+      "relatedCode": "C12578",
+      "relatedName": "Epithelial Cell"
+    },
+    {
+      "type": "Disease_Excludes_Normal_Tissue_Origin",
+      "relatedCode": "C45714",
+      "relatedName": "Epithelial Tissue"
+    },
+    {
+      "type": "Disease_Excludes_Normal_Tissue_Origin",
+      "relatedCode": "C12710",
+      "relatedName": "Epithelium"
+    },
+    {
+      "type": "Disease_Excludes_Primary_Anatomic_Site",
+      "relatedCode": "C32573",
+      "relatedName": "Extrahepatic Bile Duct"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C35380",
+      "relatedName": "Hemorrhagic Change"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C43612",
+      "relatedName": "Hepatobiliary System"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C43612",
+      "relatedName": "Hepatobiliary System"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C43614",
+      "relatedName": "Hepatobiliary Tissue"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C36105",
+      "relatedName": "Indolent Clinical Course"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C53665",
+      "relatedName": "Intermediate Filaments Present"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C53667",
+      "relatedName": "Intracytoplasmic Eosinophilic Inclusion"
+    },
+    {
+      "type": "Disease_May_Have_Molecular_Abnormality",
+      "relatedCode": "C41361",
+      "relatedName": "KRAS Gene Mutation"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12392",
+      "relatedName": "Liver"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12392",
+      "relatedName": "Liver"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C36130",
+      "relatedName": "Low Grade Lesion"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12917",
+      "relatedName": "Malignant Cell"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C36115",
+      "relatedName": "Malignant Cellular Infiltrate"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C47834",
+      "relatedName": "Malignant Endothelial Cell"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C36779",
+      "relatedName": "Malignant Epithelial Cell"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C36188",
+      "relatedName": "Multinodular Mass"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12922",
+      "relatedName": "Neoplastic Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C37088",
+      "relatedName": "Neoplastic Endothelial Cell"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C36753",
+      "relatedName": "Neoplastic Epithelial Cell"
+    },
+    {
+      "type": "Disease_Excludes_Primary_Anatomic_Site",
+      "relatedCode": "C12470",
+      "relatedName": "Skin"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12471",
+      "relatedName": "Soft Tissue"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C12471",
+      "relatedName": "Soft Tissue"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12471",
+      "relatedName": "Soft Tissue"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C35976",
+      "relatedName": "Vascular Channel Formation"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C13053",
+      "relatedName": "Vascular Endothelium"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C33854",
+      "relatedName": "Vascular System"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C33854",
+      "relatedName": "Vascular System"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C28287",
+      "relatedName": "Viscera"
+    }
+  ],
+  "history": [
+    {
+      "code": "C4438",
+      "action": "create",
+      "date": "2003-08-12"
+    },
+    {
+      "code": "C4438",
+      "action": "modify",
+      "date": "2003-10-31"
+    },
+    {
+      "code": "C4438",
+      "action": "modify",
+      "date": "2003-12-30"
+    },
+    {
+      "code": "C4438",
+      "action": "modify",
+      "date": "2004-02-23"
+    },
+    {
+      "code": "C4438",
+      "action": "modify",
+      "date": "2004-03-30"
+    },
+    {
+      "code": "C4438",
+      "action": "modify",
+      "date": "2005-03-16"
+    },
+    {
+      "code": "C4438",
+      "action": "modify",
+      "date": "2005-06-24"
+    },
+    {
+      "code": "C4438",
+      "action": "modify",
+      "date": "2006-02-24"
+    },
+    {
+      "code": "C4438",
+      "action": "modify",
+      "date": "2006-05-26"
+    },
+    {
+      "code": "C4438",
+      "action": "modify",
+      "date": "2006-12-01"
+    },
+    {
+      "code": "C4438",
+      "action": "modify",
+      "date": "2007-03-30"
+    },
+    {
+      "code": "C4438",
+      "action": "modify",
+      "date": "2007-06-28"
+    },
+    {
+      "code": "C4438",
+      "action": "modify",
+      "date": "2009-04-06"
+    },
+    {
+      "code": "C4438",
+      "action": "modify",
+      "date": "2009-11-23"
+    },
+    {
+      "code": "C4438",
+      "action": "modify",
+      "date": "2011-05-09"
+    },
+    {
+      "code": "C4438",
+      "action": "modify",
+      "date": "2011-05-23"
+    },
+    {
+      "code": "C4438",
+      "action": "modify",
+      "date": "2014-02-03"
+    },
+    {
+      "code": "C4438",
+      "action": "modify",
+      "date": "2015-04-27"
+    },
+    {
+      "code": "C4438",
+      "action": "modify",
+      "date": "2018-12-31"
+    },
+    {
+      "code": "C4438",
+      "action": "modify",
+      "date": "2019-02-25"
+    },
+    {
+      "code": "C4438",
+      "action": "modify",
+      "date": "2019-03-25"
+    },
+    {
+      "code": "C4438",
+      "action": "modify",
+      "date": "2019-05-28"
+    },
+    {
+      "code": "C4438",
+      "action": "modify",
+      "date": "2019-10-28"
+    },
+    {
+      "code": "C4438",
+      "action": "modify",
+      "date": "2020-02-24"
+    },
+    {
+      "code": "C4438",
+      "action": "modify",
+      "date": "2020-03-30"
+    },
+    {
+      "code": "C4438",
+      "action": "modify",
+      "date": "2020-04-27"
+    },
+    {
+      "code": "C4438",
+      "action": "modify",
+      "date": "2020-08-31"
+    },
+    {
+      "code": "C4438",
+      "action": "modify",
+      "date": "2021-02-22"
+    },
+    {
+      "code": "C4438",
+      "action": "modify",
+      "date": "2021-03-29"
+    },
+    {
+      "code": "C4438",
+      "action": "modify",
+      "date": "2023-02-27"
+    },
+    {
+      "code": "C4438",
+      "action": "modify",
+      "date": "2023-03-27"
+    },
+    {
+      "code": "C4438",
+      "action": "modify",
+      "date": "2023-05-30"
+    },
+    {
+      "code": "C4438",
+      "action": "modify",
+      "date": "2023-12-26"
+    },
+    {
+      "code": "C4438",
+      "action": "modify",
+      "date": "2025-03-31"
+    }
+  ],
+  "maps": [
+    {
+      "type": "Related To",
+      "targetName": "9124/3",
+      "targetTermType": "PT",
+      "targetCode": "morphology",
+      "targetTerminology": "GDC"
+    },
+    {
+      "type": "Related To",
+      "targetName": "Kupffer cell sarcoma",
+      "targetTermType": "PT",
+      "targetCode": "9124/3",
+      "targetTerminology": "ICDO3",
+      "targetTerminologyVersion": "3.2"
+    },
+    {
+      "type": "Related To",
+      "targetName": "Kupffer cell sarcoma",
+      "targetTermType": "PT",
+      "targetCode": "9124/3",
+      "targetTerminology": "ICDO3",
+      "targetTerminologyVersion": "3.1"
+    },
+    {
+      "type": "Has Synonym",
+      "targetName": "Kupffer cell sarcoma",
+      "targetTermType": "PT",
+      "targetCode": "primary_diagnosis",
+      "targetTerminology": "GDC"
+    },
+    {
+      "type": "Has Synonym",
+      "targetName": "Malignant neoplasm: Angiosarcoma of liver",
+      "targetTermType": "PT",
+      "targetCode": "C22.3",
+      "targetTerminology": "ICD10CM 2017"
+    }
+  ]
+}

@@ -1,0 +1,847 @@
+{
+  "code": "C4044",
+  "name": "Laryngeal Squamous Cell Carcinoma",
+  "terminology": "ncit",
+  "version": "25.11d",
+  "conceptStatus": "DEFAULT",
+  "leaf": false,
+  "active": true,
+  "synonyms": [
+    {
+      "name": "Laryngeal Squamous Cell Carcinoma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "Cellosaurus"
+    },
+    {
+      "name": "Laryngeal squamous cell carcinoma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "CTEP",
+      "code": "10023843",
+      "subSource": "SDC"
+    },
+    {
+      "name": "Laryngeal Throat Squamous Cell Cancer",
+      "termType": "DN",
+      "type": "FULL_SYN",
+      "source": "CTRP"
+    },
+    {
+      "name": "Epidermoid Carcinoma of Larynx",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Epidermoid Carcinoma of the Larynx",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Laryngeal Conventional Squamous Cell Carcinoma",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Laryngeal Epidermoid Carcinoma",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Laryngeal Squamous Cell Carcinoma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Larynx Epidermoid Carcinoma",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Larynx Squamous Cell Carcinoma",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Squamous Cell Carcinoma of Larynx",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Squamous Cell Carcinoma of the Larynx",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Laryngeal Squamous Cell Carcinoma",
+      "type": "Display_Name"
+    },
+    {
+      "name": "Laryngeal Squamous Cell Carcinoma",
+      "type": "Preferred_Name"
+    }
+  ],
+  "definitions": [
+    {
+      "definition": "A squamous cell carcinoma that arises from the larynx.  It is the most common histologic type of laryngeal carcinoma.  It can arise from the glottis, supraglottic area, or it can be transglottic.  Glottic squamous cell carcinoma is the most frequent laryngeal carcinoma in the United States.  The symptoms, clinical behavior and the prognosis depend on the site of origin within the larynx.",
+      "type": "DEFINITION",
+      "source": "NCI"
+    }
+  ],
+  "properties": [
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "Cellosaurus"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "CTEP"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "CTRP"
+    },
+    {
+      "code": "P366",
+      "type": "Legacy Concept Name",
+      "value": "Laryngeal_Squamous_Cell_Carcinoma"
+    },
+    {
+      "code": "P363",
+      "type": "Neoplastic_Status",
+      "value": "Malignant"
+    },
+    {
+      "code": "P106",
+      "type": "Semantic_Type",
+      "value": "Neoplastic Process"
+    },
+    {
+      "code": "P207",
+      "type": "UMLS_CUI",
+      "value": "C0280324"
+    }
+  ],
+  "children": [
+    {
+      "code": "C8186",
+      "name": "Glottic Squamous Cell Carcinoma",
+      "leaf": false
+    },
+    {
+      "code": "C54337",
+      "name": "Laryngeal Acantholytic Squamous Cell Carcinoma",
+      "leaf": true
+    },
+    {
+      "code": "C54334",
+      "name": "Laryngeal Basaloid Squamous Cell Carcinoma",
+      "leaf": true
+    },
+    {
+      "code": "C54335",
+      "name": "Laryngeal Papillary Squamous Cell Carcinoma",
+      "leaf": true
+    },
+    {
+      "code": "C54336",
+      "name": "Laryngeal Spindle Cell Squamous Carcinoma",
+      "leaf": true
+    },
+    {
+      "code": "C8188",
+      "name": "Laryngeal Verrucous Carcinoma",
+      "leaf": false
+    },
+    {
+      "code": "C205616",
+      "name": "Localized Laryngeal Squamous Cell Carcinoma",
+      "leaf": true
+    },
+    {
+      "code": "C150213",
+      "name": "Metastatic Laryngeal Squamous Cell Carcinoma",
+      "leaf": false
+    },
+    {
+      "code": "C8245",
+      "name": "Recurrent Laryngeal Squamous Cell Carcinoma",
+      "leaf": false
+    },
+    {
+      "code": "C148383",
+      "name": "Refractory Laryngeal Squamous Cell Carcinoma",
+      "leaf": true
+    },
+    {
+      "code": "C205615",
+      "name": "Resectable Laryngeal Squamous Cell Carcinoma",
+      "leaf": true
+    },
+    {
+      "code": "C6121",
+      "name": "Stage 0 Laryngeal Squamous Cell Carcinoma AJCC v6, v7, and v8",
+      "leaf": false
+    },
+    {
+      "code": "C8237",
+      "name": "Stage I Laryngeal Squamous Cell Carcinoma AJCC v6 and v7",
+      "leaf": false
+    },
+    {
+      "code": "C8239",
+      "name": "Stage II Laryngeal Squamous Cell Carcinoma AJCC v6 and v7",
+      "leaf": false
+    },
+    {
+      "code": "C8241",
+      "name": "Stage III Laryngeal Squamous Cell Carcinoma AJCC v6 and v7",
+      "leaf": false
+    },
+    {
+      "code": "C8243",
+      "name": "Stage IV Laryngeal Squamous Cell Carcinoma AJCC v7",
+      "leaf": false
+    },
+    {
+      "code": "C8187",
+      "name": "Subglottic Squamous Cell Carcinoma",
+      "leaf": false
+    },
+    {
+      "code": "C4945",
+      "name": "Supraglottic Squamous Cell Carcinoma",
+      "leaf": false
+    },
+    {
+      "code": "C172645",
+      "name": "Unresectable Laryngeal Squamous Cell Carcinoma",
+      "leaf": false
+    }
+  ],
+  "parents": [
+    {
+      "code": "C214954",
+      "name": "Head and Neck Mucosal Squamous Cell Carcinoma"
+    },
+    {
+      "code": "C4855",
+      "name": "Laryngeal Carcinoma"
+    }
+  ],
+  "associations": [
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C165258",
+      "relatedName": "Cellosaurus Disease Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C118168",
+      "relatedName": "CTRP Disease Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C116977",
+      "relatedName": "CTRP Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C103075",
+      "relatedName": "NCI CTEP SDC Head and Neck Squamous Cell Carcinoma Sub-Category Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C102905",
+      "relatedName": "NCI CTEP Simplified Disease Classification Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C126659",
+      "relatedName": "NCIt Neoplasm Core Terminology"
+    }
+  ],
+  "roles": [
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C36122",
+      "relatedName": "Benign Cellular Infiltrate"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C54172",
+      "relatedName": "Carcinomatous Component Present"
+    },
+    {
+      "type": "Disease_May_Have_Molecular_Abnormality",
+      "relatedCode": "C39716",
+      "relatedName": "EGFR Protein Overexpression"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C12578",
+      "relatedName": "Epithelial Cell"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C53596",
+      "relatedName": "Epithelial Component Present"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C45714",
+      "relatedName": "Epithelial Tissue"
+    },
+    {
+      "type": "Disease_May_Have_Cytogenetic_Abnormality",
+      "relatedCode": "C45809",
+      "relatedName": "Gain of Chromosome 11q13"
+    },
+    {
+      "type": "Disease_May_Have_Cytogenetic_Abnormality",
+      "relatedCode": "C37905",
+      "relatedName": "Gain of Chromosome 14"
+    },
+    {
+      "type": "Disease_May_Have_Cytogenetic_Abnormality",
+      "relatedCode": "C36484",
+      "relatedName": "Gain of Chromosome 17q"
+    },
+    {
+      "type": "Disease_May_Have_Cytogenetic_Abnormality",
+      "relatedCode": "C36482",
+      "relatedName": "Gain of Chromosome 1q"
+    },
+    {
+      "type": "Disease_May_Have_Cytogenetic_Abnormality",
+      "relatedCode": "C36487",
+      "relatedName": "Gain of Chromosome 3q"
+    },
+    {
+      "type": "Disease_May_Have_Cytogenetic_Abnormality",
+      "relatedCode": "C36489",
+      "relatedName": "Gain of Chromosome 5p"
+    },
+    {
+      "type": "Disease_May_Have_Cytogenetic_Abnormality",
+      "relatedCode": "C36550",
+      "relatedName": "Gain of Chromosome 7p"
+    },
+    {
+      "type": "Disease_May_Have_Cytogenetic_Abnormality",
+      "relatedCode": "C36453",
+      "relatedName": "Gain of Chromosome 7q"
+    },
+    {
+      "type": "Disease_May_Have_Cytogenetic_Abnormality",
+      "relatedCode": "C36488",
+      "relatedName": "Gain of Chromosome 8q"
+    },
+    {
+      "type": "Disease_May_Have_Cytogenetic_Abnormality",
+      "relatedCode": "C36483",
+      "relatedName": "Gain of Chromosome 9q"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12418",
+      "relatedName": "Head and Neck"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12418",
+      "relatedName": "Head and Neck"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C49247",
+      "relatedName": "Laryngeal Epithelium"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12420",
+      "relatedName": "Larynx"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12420",
+      "relatedName": "Larynx"
+    },
+    {
+      "type": "Disease_May_Have_Cytogenetic_Abnormality",
+      "relatedCode": "C36496",
+      "relatedName": "Loss of Chromosome 18q"
+    },
+    {
+      "type": "Disease_May_Have_Cytogenetic_Abnormality",
+      "relatedCode": "C36502",
+      "relatedName": "Loss of Chromosome 3p"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12917",
+      "relatedName": "Malignant Cell"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C36115",
+      "relatedName": "Malignant Cellular Infiltrate"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36779",
+      "relatedName": "Malignant Epithelial Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36771",
+      "relatedName": "Malignant Squamous Cell"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C37153",
+      "relatedName": "Malignant Stromal Cell"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C62273",
+      "relatedName": "Mixed Neoplastic Glandular and Squamous Cell Population"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C13166",
+      "relatedName": "Mucosa"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C13063",
+      "relatedName": "Neck"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C13063",
+      "relatedName": "Neck"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12922",
+      "relatedName": "Neoplastic Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36753",
+      "relatedName": "Neoplastic Epithelial Cell"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C36763",
+      "relatedName": "Neoplastic Glandular Cell"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C36937",
+      "relatedName": "Neoplastic Smooth Muscle Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36760",
+      "relatedName": "Neoplastic Squamous Cell"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C54272",
+      "relatedName": "Throat"
+    },
+    {
+      "type": "Disease_May_Have_Molecular_Abnormality",
+      "relatedCode": "C36329",
+      "relatedName": "TP53 Gene Inactivation"
+    },
+    {
+      "type": "Disease_Mapped_To_Gene",
+      "relatedCode": "C17359",
+      "relatedName": "TP53 Gene"
+    }
+  ],
+  "inverseRoles": [
+    {
+      "type": "Gene_Associated_With_Disease",
+      "relatedCode": "C26350",
+      "relatedName": "CCNB1 Gene"
+    },
+    {
+      "type": "Gene_Associated_With_Disease",
+      "relatedCode": "C49516",
+      "relatedName": "CCNB1 wt Allele"
+    },
+    {
+      "type": "Gene_Product_Malfunction_Associated_With_Disease",
+      "relatedCode": "C17981",
+      "relatedName": "G2/Mitotic-Specific Cyclin-B1"
+    },
+    {
+      "type": "Gene_Involved_In_Pathogenesis_Of_Disease",
+      "relatedCode": "C17359",
+      "relatedName": "TP53 Gene"
+    },
+    {
+      "type": "Gene_Involved_In_Pathogenesis_Of_Disease",
+      "relatedCode": "C52271",
+      "relatedName": "TP53 wt Allele"
+    },
+    {
+      "type": "Gene_Involved_In_Pathogenesis_Of_Disease",
+      "relatedCode": "C97240",
+      "relatedName": "TP53*1 Allele"
+    }
+  ],
+  "history": [
+    {
+      "code": "C4044",
+      "action": "create",
+      "date": "2003-08-12"
+    },
+    {
+      "code": "C4044",
+      "action": "modify",
+      "date": "2003-10-31"
+    },
+    {
+      "code": "C4044",
+      "action": "modify",
+      "date": "2003-12-30"
+    },
+    {
+      "code": "C4044",
+      "action": "modify",
+      "date": "2004-03-30"
+    },
+    {
+      "code": "C4044",
+      "action": "modify",
+      "date": "2004-12-30"
+    },
+    {
+      "code": "C4044",
+      "action": "modify",
+      "date": "2006-03-31"
+    },
+    {
+      "code": "C4044",
+      "action": "modify",
+      "date": "2007-05-25"
+    },
+    {
+      "code": "C4044",
+      "action": "modify",
+      "date": "2007-10-29"
+    },
+    {
+      "code": "C4044",
+      "action": "modify",
+      "date": "2009-04-06"
+    },
+    {
+      "code": "C4044",
+      "action": "modify",
+      "date": "2009-10-27"
+    },
+    {
+      "code": "C4044",
+      "action": "modify",
+      "date": "2009-11-23"
+    },
+    {
+      "code": "C4044",
+      "action": "modify",
+      "date": "2012-04-23"
+    },
+    {
+      "code": "C4044",
+      "action": "modify",
+      "date": "2012-09-24"
+    },
+    {
+      "code": "C4044",
+      "action": "modify",
+      "date": "2012-10-01"
+    },
+    {
+      "code": "C4044",
+      "action": "modify",
+      "date": "2012-10-09"
+    },
+    {
+      "code": "C4044",
+      "action": "modify",
+      "date": "2012-10-15"
+    },
+    {
+      "code": "C4044",
+      "action": "modify",
+      "date": "2012-10-22"
+    },
+    {
+      "code": "C4044",
+      "action": "modify",
+      "date": "2012-10-31"
+    },
+    {
+      "code": "C4044",
+      "action": "modify",
+      "date": "2012-11-05"
+    },
+    {
+      "code": "C4044",
+      "action": "modify",
+      "date": "2012-11-13"
+    },
+    {
+      "code": "C4044",
+      "action": "modify",
+      "date": "2012-11-19"
+    },
+    {
+      "code": "C4044",
+      "action": "modify",
+      "date": "2012-11-26"
+    },
+    {
+      "code": "C4044",
+      "action": "modify",
+      "date": "2012-12-03"
+    },
+    {
+      "code": "C4044",
+      "action": "modify",
+      "date": "2012-12-10"
+    },
+    {
+      "code": "C4044",
+      "action": "modify",
+      "date": "2012-12-17"
+    },
+    {
+      "code": "C4044",
+      "action": "modify",
+      "date": "2012-12-28"
+    },
+    {
+      "code": "C4044",
+      "action": "modify",
+      "date": "2013-01-07"
+    },
+    {
+      "code": "C4044",
+      "action": "modify",
+      "date": "2013-01-14"
+    },
+    {
+      "code": "C4044",
+      "action": "modify",
+      "date": "2013-01-23"
+    },
+    {
+      "code": "C4044",
+      "action": "modify",
+      "date": "2013-02-04"
+    },
+    {
+      "code": "C4044",
+      "action": "modify",
+      "date": "2013-02-11"
+    },
+    {
+      "code": "C4044",
+      "action": "modify",
+      "date": "2013-02-19"
+    },
+    {
+      "code": "C4044",
+      "action": "modify",
+      "date": "2013-02-25"
+    },
+    {
+      "code": "C4044",
+      "action": "modify",
+      "date": "2013-03-04"
+    },
+    {
+      "code": "C4044",
+      "action": "modify",
+      "date": "2013-03-11"
+    },
+    {
+      "code": "C4044",
+      "action": "modify",
+      "date": "2013-03-18"
+    },
+    {
+      "code": "C4044",
+      "action": "modify",
+      "date": "2013-03-25"
+    },
+    {
+      "code": "C4044",
+      "action": "modify",
+      "date": "2013-04-01"
+    },
+    {
+      "code": "C4044",
+      "action": "modify",
+      "date": "2013-04-08"
+    },
+    {
+      "code": "C4044",
+      "action": "modify",
+      "date": "2013-04-15"
+    },
+    {
+      "code": "C4044",
+      "action": "modify",
+      "date": "2013-04-22"
+    },
+    {
+      "code": "C4044",
+      "action": "modify",
+      "date": "2013-04-29"
+    },
+    {
+      "code": "C4044",
+      "action": "modify",
+      "date": "2013-05-06"
+    },
+    {
+      "code": "C4044",
+      "action": "modify",
+      "date": "2013-05-13"
+    },
+    {
+      "code": "C4044",
+      "action": "modify",
+      "date": "2013-05-20"
+    },
+    {
+      "code": "C4044",
+      "action": "modify",
+      "date": "2013-05-28"
+    },
+    {
+      "code": "C4044",
+      "action": "modify",
+      "date": "2013-06-03"
+    },
+    {
+      "code": "C4044",
+      "action": "modify",
+      "date": "2013-06-10"
+    },
+    {
+      "code": "C4044",
+      "action": "modify",
+      "date": "2013-06-17"
+    },
+    {
+      "code": "C4044",
+      "action": "modify",
+      "date": "2013-06-24"
+    },
+    {
+      "code": "C4044",
+      "action": "modify",
+      "date": "2013-07-01"
+    },
+    {
+      "code": "C4044",
+      "action": "modify",
+      "date": "2013-07-08"
+    },
+    {
+      "code": "C4044",
+      "action": "modify",
+      "date": "2014-02-03"
+    },
+    {
+      "code": "C4044",
+      "action": "modify",
+      "date": "2014-08-04"
+    },
+    {
+      "code": "C4044",
+      "action": "modify",
+      "date": "2014-08-18"
+    },
+    {
+      "code": "C4044",
+      "action": "modify",
+      "date": "2014-09-22"
+    },
+    {
+      "code": "C4044",
+      "action": "modify",
+      "date": "2014-10-27"
+    },
+    {
+      "code": "C4044",
+      "action": "modify",
+      "date": "2016-04-25"
+    },
+    {
+      "code": "C4044",
+      "action": "modify",
+      "date": "2017-07-31"
+    },
+    {
+      "code": "C4044",
+      "action": "modify",
+      "date": "2018-07-30"
+    },
+    {
+      "code": "C4044",
+      "action": "modify",
+      "date": "2018-08-27"
+    },
+    {
+      "code": "C4044",
+      "action": "modify",
+      "date": "2018-08-27"
+    },
+    {
+      "code": "C4044",
+      "action": "modify",
+      "date": "2019-10-28"
+    },
+    {
+      "code": "C4044",
+      "action": "modify",
+      "date": "2020-07-27"
+    },
+    {
+      "code": "C4044",
+      "action": "modify",
+      "date": "2023-02-27"
+    },
+    {
+      "code": "C4044",
+      "action": "modify",
+      "date": "2023-10-30"
+    },
+    {
+      "code": "C4044",
+      "action": "modify",
+      "date": "2025-03-31"
+    }
+  ]
+}

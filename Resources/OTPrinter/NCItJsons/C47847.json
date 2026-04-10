@@ -1,0 +1,274 @@
+{
+  "code": "C47847",
+  "name": "Breast Carcinoma with Chondroid Metaplasia",
+  "terminology": "ncit",
+  "version": "25.11d",
+  "conceptStatus": "DEFAULT",
+  "leaf": true,
+  "active": true,
+  "synonyms": [
+    {
+      "name": "Breast Carcinoma with Cartilaginous Metaplasia",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Breast Carcinoma with Chondroid Metaplasia",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Breast Carcinoma with Chondroid Metaplasia",
+      "type": "Preferred_Name"
+    }
+  ],
+  "definitions": [
+    {
+      "definition": "An invasive carcinoma of the breast showing differentiation towards cartilaginous structures.",
+      "type": "DEFINITION",
+      "source": "NCI"
+    }
+  ],
+  "properties": [
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "GDC"
+    },
+    {
+      "code": "P366",
+      "type": "Legacy Concept Name",
+      "value": "Breast_Carcinoma_with_Chondroid_Metaplasia"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "Carcinoma with chondroid differentiation"
+    },
+    {
+      "code": "P363",
+      "type": "Neoplastic_Status",
+      "value": "Malignant"
+    },
+    {
+      "code": "P106",
+      "type": "Semantic_Type",
+      "value": "Neoplastic Process"
+    },
+    {
+      "code": "P207",
+      "type": "UMLS_CUI",
+      "value": "C1707042"
+    }
+  ],
+  "parents": [
+    {
+      "code": "C40364",
+      "name": "Breast Mixed Epithelial/Mesenchymal Metaplastic Carcinoma"
+    }
+  ],
+  "associations": [
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C157711",
+      "relatedName": "GDC Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C177537",
+      "relatedName": "GDC Value Terminology"
+    },
+    {
+      "type": "Is_Value_For_GDC_Property",
+      "relatedCode": "C177621",
+      "relatedName": "ICD-O-3 Morphology Term Diagnosis Question"
+    }
+  ],
+  "inverseAssociations": [
+    {
+      "type": "Has_GDC_Value",
+      "relatedCode": "C177621",
+      "relatedName": "ICD-O-3 Morphology Term Diagnosis Question"
+    }
+  ],
+  "roles": [
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C36122",
+      "relatedName": "Benign Cellular Infiltrate"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C3197",
+      "relatedName": "Breast Lump"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12971",
+      "relatedName": "Breast"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12971",
+      "relatedName": "Breast"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C54172",
+      "relatedName": "Carcinomatous Component Present"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C60753",
+      "relatedName": "Cartilaginous Metaplasia of Malignant Cells Present"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C12578",
+      "relatedName": "Epithelial Cell"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C53596",
+      "relatedName": "Epithelial Component Present"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C45714",
+      "relatedName": "Epithelial Tissue"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C36117",
+      "relatedName": "Invasive Lesion"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12917",
+      "relatedName": "Malignant Cell"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C36115",
+      "relatedName": "Malignant Cellular Infiltrate"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36779",
+      "relatedName": "Malignant Epithelial Cell"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C37153",
+      "relatedName": "Malignant Stromal Cell"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C12937",
+      "relatedName": "Mammary Epithelium"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C60752",
+      "relatedName": "Mesenchymal Metaplasia of Malignant Cells Present"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C60749",
+      "relatedName": "Metaplasia of Malignant Cells Present"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C3236",
+      "relatedName": "Metaplasia"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12922",
+      "relatedName": "Neoplastic Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36753",
+      "relatedName": "Neoplastic Epithelial Cell"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C36937",
+      "relatedName": "Neoplastic Smooth Muscle Cell"
+    }
+  ],
+  "history": [
+    {
+      "code": "C47847",
+      "action": "create",
+      "date": "2005-07-29"
+    },
+    {
+      "code": "C47847",
+      "action": "modify",
+      "date": "2005-10-31"
+    },
+    {
+      "code": "C47847",
+      "action": "modify",
+      "date": "2006-04-28"
+    },
+    {
+      "code": "C47847",
+      "action": "modify",
+      "date": "2006-05-26"
+    },
+    {
+      "code": "C47847",
+      "action": "modify",
+      "date": "2009-04-06"
+    },
+    {
+      "code": "C47847",
+      "action": "modify",
+      "date": "2009-10-27"
+    },
+    {
+      "code": "C47847",
+      "action": "modify",
+      "date": "2009-11-23"
+    },
+    {
+      "code": "C47847",
+      "action": "modify",
+      "date": "2014-02-03"
+    },
+    {
+      "code": "C47847",
+      "action": "modify",
+      "date": "2019-05-28"
+    },
+    {
+      "code": "C47847",
+      "action": "modify",
+      "date": "2019-09-30"
+    },
+    {
+      "code": "C47847",
+      "action": "modify",
+      "date": "2021-02-22"
+    },
+    {
+      "code": "C47847",
+      "action": "modify",
+      "date": "2021-03-29"
+    }
+  ],
+  "maps": [
+    {
+      "type": "Related To",
+      "targetName": "Carcinoma with chondroid differentiation",
+      "targetTermType": "PT",
+      "targetCode": "primary_diagnosis",
+      "targetTerminology": "GDC"
+    }
+  ]
+}

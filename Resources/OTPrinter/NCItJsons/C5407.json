@@ -1,0 +1,384 @@
+{
+  "code": "C5407",
+  "name": "Medulloblastoma with Extensive Nodularity",
+  "terminology": "ncit",
+  "version": "25.11d",
+  "conceptStatus": "DEFAULT",
+  "leaf": true,
+  "active": true,
+  "synonyms": [
+    {
+      "name": "Medulloblastoma with extensive nodularity",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "GDC"
+    },
+    {
+      "name": "Cerebellar Neuroblastoma",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Medulloblastoma with Extensive Nodularity",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Medulloblastoma with Extensive Nodularity and Advanced Neuronal Differentiation",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Nodular Medulloblastoma",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Medulloblastoma with Extensive Nodularity",
+      "type": "Preferred_Name"
+    }
+  ],
+  "definitions": [
+    {
+      "definition": "A medulloblastoma characterized by nodularity and neuronal differentiation.",
+      "type": "DEFINITION",
+      "source": "NCI"
+    }
+  ],
+  "properties": [
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "GDC"
+    },
+    {
+      "code": "P334",
+      "type": "ICD-O-3_Code",
+      "value": "9471/3"
+    },
+    {
+      "code": "P366",
+      "type": "Legacy Concept Name",
+      "value": "Nodular_Medulloblastoma"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "9471/3"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "Medulloblastoma with extensive nodularity"
+    },
+    {
+      "code": "P363",
+      "type": "Neoplastic_Status",
+      "value": "Malignant"
+    },
+    {
+      "code": "P106",
+      "type": "Semantic_Type",
+      "value": "Neoplastic Process"
+    },
+    {
+      "code": "P207",
+      "type": "UMLS_CUI",
+      "value": "C1334970"
+    }
+  ],
+  "parents": [
+    {
+      "code": "C3222",
+      "name": "Medulloblastoma"
+    }
+  ],
+  "associations": [
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C157711",
+      "relatedName": "GDC Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C177537",
+      "relatedName": "GDC Value Terminology"
+    },
+    {
+      "type": "Is_Value_For_GDC_Property",
+      "relatedCode": "C176985",
+      "relatedName": "Histology ICD-O Morphology Code"
+    },
+    {
+      "type": "Is_Value_For_GDC_Property",
+      "relatedCode": "C177621",
+      "relatedName": "ICD-O-3 Morphology Term Diagnosis Question"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C126659",
+      "relatedName": "NCIt Neoplasm Core Terminology"
+    }
+  ],
+  "inverseAssociations": [
+    {
+      "type": "Has_GDC_Value",
+      "relatedCode": "C176985",
+      "relatedName": "Histology ICD-O Morphology Code"
+    },
+    {
+      "type": "Has_GDC_Value",
+      "relatedCode": "C177621",
+      "relatedName": "ICD-O-3 Morphology Term Diagnosis Question"
+    }
+  ],
+  "roles": [
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C3834",
+      "relatedName": "Ataxic Gait"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C36122",
+      "relatedName": "Benign Cellular Infiltrate"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12439",
+      "relatedName": "Brain"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12439",
+      "relatedName": "Brain"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12438",
+      "relatedName": "Central Nervous System"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12438",
+      "relatedName": "Central Nervous System"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12445",
+      "relatedName": "Cerebellum"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12445",
+      "relatedName": "Cerebellum"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C13054",
+      "relatedName": "Embryonic Cell"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C12950",
+      "relatedName": "Embryonic Tissue"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C42072",
+      "relatedName": "Ganglion Cells Present"
+    },
+    {
+      "type": "Disease_Excludes_Normal_Tissue_Origin",
+      "relatedCode": "C54105",
+      "relatedName": "Germinal Layer"
+    },
+    {
+      "type": "Disease_Is_Grade",
+      "relatedCode": "C28082",
+      "relatedName": "Grade 4"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C34661",
+      "relatedName": "Headache"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C36105",
+      "relatedName": "Indolent Clinical Course"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12509",
+      "relatedName": "Infratentorial Brain"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12917",
+      "relatedName": "Malignant Cell"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C36115",
+      "relatedName": "Malignant Cellular Infiltrate"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C53987",
+      "relatedName": "Malignant Neuroectodermal Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C54042",
+      "relatedName": "Malignant Neuroectodermal Round Cell"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C35946",
+      "relatedName": "Multilayered Rosette Formation"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12922",
+      "relatedName": "Neoplastic Cell"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12755",
+      "relatedName": "Nervous System"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C42083",
+      "relatedName": "Neuronal Differentiation"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C35899",
+      "relatedName": "Nodular Pattern"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C36132",
+      "relatedName": "Poorly Differentiated Lesion"
+    },
+    {
+      "type": "Disease_Excludes_Primary_Anatomic_Site",
+      "relatedCode": "C12464",
+      "relatedName": "Spinal Cord"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C3442",
+      "relatedName": "Vomiting"
+    }
+  ],
+  "history": [
+    {
+      "code": "C5407",
+      "action": "create",
+      "date": "2003-08-12"
+    },
+    {
+      "code": "C5407",
+      "action": "modify",
+      "date": "2003-12-30"
+    },
+    {
+      "code": "C5407",
+      "action": "modify",
+      "date": "2006-03-31"
+    },
+    {
+      "code": "C5407",
+      "action": "modify",
+      "date": "2007-01-26"
+    },
+    {
+      "code": "C5407",
+      "action": "modify",
+      "date": "2009-04-06"
+    },
+    {
+      "code": "C5407",
+      "action": "modify",
+      "date": "2009-10-27"
+    },
+    {
+      "code": "C5407",
+      "action": "modify",
+      "date": "2009-11-23"
+    },
+    {
+      "code": "C5407",
+      "action": "modify",
+      "date": "2010-10-18"
+    },
+    {
+      "code": "C5407",
+      "action": "modify",
+      "date": "2012-07-30"
+    },
+    {
+      "code": "C5407",
+      "action": "modify",
+      "date": "2014-02-03"
+    },
+    {
+      "code": "C5407",
+      "action": "modify",
+      "date": "2016-10-03"
+    },
+    {
+      "code": "C5407",
+      "action": "modify",
+      "date": "2018-09-24"
+    },
+    {
+      "code": "C5407",
+      "action": "modify",
+      "date": "2019-05-28"
+    },
+    {
+      "code": "C5407",
+      "action": "modify",
+      "date": "2019-09-30"
+    },
+    {
+      "code": "C5407",
+      "action": "modify",
+      "date": "2019-11-25"
+    },
+    {
+      "code": "C5407",
+      "action": "modify",
+      "date": "2021-02-22"
+    },
+    {
+      "code": "C5407",
+      "action": "modify",
+      "date": "2021-03-29"
+    }
+  ],
+  "maps": [
+    {
+      "type": "Related To",
+      "targetName": "9471/3",
+      "targetTermType": "PT",
+      "targetCode": "morphology",
+      "targetTerminology": "GDC"
+    },
+    {
+      "type": "Has Synonym",
+      "targetName": "Medulloblastoma with extensive nodularity",
+      "targetTermType": "PT",
+      "targetCode": "primary_diagnosis",
+      "targetTerminology": "GDC"
+    }
+  ]
+}

@@ -1,0 +1,1978 @@
+{
+  "code": "C3085",
+  "name": "Hemangioma",
+  "terminology": "ncit",
+  "version": "25.11d",
+  "conceptStatus": "DEFAULT",
+  "leaf": false,
+  "active": true,
+  "synonyms": [
+    {
+      "name": "Angioma",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "CDISC"
+    },
+    {
+      "name": "Benign Angioma",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "CDISC"
+    },
+    {
+      "name": "Benign Hemangioma",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "CDISC"
+    },
+    {
+      "name": "HEMANGIOMA, BENIGN",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "CDISC"
+    },
+    {
+      "name": "Hemangioma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "Cellosaurus"
+    },
+    {
+      "name": "Hemangioma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "CPTAC"
+    },
+    {
+      "name": "Hemangioma",
+      "termType": "DN",
+      "type": "FULL_SYN",
+      "source": "CTRP"
+    },
+    {
+      "name": "Hemangioma, NOS",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "GDC"
+    },
+    {
+      "name": "Angioma",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Benign Angioma",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Benign Hemangioma",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Hemangioma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Hemangioma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NICHD"
+    },
+    {
+      "name": "Hemangioma",
+      "type": "Display_Name"
+    },
+    {
+      "name": "Hemangioma",
+      "type": "Preferred_Name"
+    }
+  ],
+  "definitions": [
+    {
+      "definition": "A benign vascular lesion characterized by the formation of capillary-sized or cavernous vascular channels.",
+      "type": "DEFINITION",
+      "source": "NCI"
+    },
+    {
+      "definition": "A benign vascular neoplasm characterized by the formation of capillary-sized or cavernous vascular channels.",
+      "type": "ALT_DEFINITION",
+      "source": "CDISC"
+    },
+    {
+      "definition": "A benign, vascular neoplasm characterized by the formation of capillary-sized vascular channels.",
+      "type": "ALT_DEFINITION",
+      "source": "NICHD"
+    }
+  ],
+  "properties": [
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "CDISC"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "Cellosaurus"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "CPTAC"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "CTRP"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "GDC"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "MedDRA"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "NICHD"
+    },
+    {
+      "code": "P334",
+      "type": "ICD-O-3_Code",
+      "value": "9120/0"
+    },
+    {
+      "code": "P366",
+      "type": "Legacy Concept Name",
+      "value": "Hemangioma"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "9120/0"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "Angioma, NOS"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "Hemangioma"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "Hemangioma unspecified site"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "Hemangioma, NOS"
+    },
+    {
+      "code": "P363",
+      "type": "Neoplastic_Status",
+      "value": "Benign"
+    },
+    {
+      "code": "P106",
+      "type": "Semantic_Type",
+      "value": "Neoplastic Process"
+    },
+    {
+      "code": "P207",
+      "type": "UMLS_CUI",
+      "value": "C0018916"
+    }
+  ],
+  "children": [
+    {
+      "code": "C27018",
+      "name": "Acquired Hemangioma",
+      "leaf": false
+    },
+    {
+      "code": "C188251",
+      "name": "Adrenal Gland Hemangioma",
+      "leaf": true
+    },
+    {
+      "code": "C159680",
+      "name": "Bladder Hemangioma",
+      "leaf": true
+    },
+    {
+      "code": "C6477",
+      "name": "Bone Hemangioma",
+      "leaf": false
+    },
+    {
+      "code": "C5353",
+      "name": "Breast Hemangioma",
+      "leaf": false
+    },
+    {
+      "code": "C7457",
+      "name": "Capillary Hemangioma",
+      "leaf": false
+    },
+    {
+      "code": "C45749",
+      "name": "Cardiac Hemangioma",
+      "leaf": false
+    },
+    {
+      "code": "C3086",
+      "name": "Cavernous Hemangioma",
+      "leaf": false
+    },
+    {
+      "code": "C7004",
+      "name": "Central Nervous System Hemangioma",
+      "leaf": false
+    },
+    {
+      "code": "C4562",
+      "name": "Choroid Hemangioma",
+      "leaf": true
+    },
+    {
+      "code": "C3841",
+      "name": "Congenital Hemangioma",
+      "leaf": false
+    },
+    {
+      "code": "C175497",
+      "name": "Conjunctival Hemangioma",
+      "leaf": false
+    },
+    {
+      "code": "C6555",
+      "name": "Deep Hemangioma",
+      "leaf": false
+    },
+    {
+      "code": "C7741",
+      "name": "Digestive System Hemangioma",
+      "leaf": false
+    },
+    {
+      "code": "C4298",
+      "name": "Epithelioid Hemangioma",
+      "leaf": false
+    },
+    {
+      "code": "C202647",
+      "name": "Head and Neck Hemangioma",
+      "leaf": false
+    },
+    {
+      "code": "C27506",
+      "name": "Hobnail Hemangioma",
+      "leaf": true
+    },
+    {
+      "code": "C3635",
+      "name": "Intra-Abdominal Hemangioma",
+      "leaf": false
+    },
+    {
+      "code": "C3633",
+      "name": "Intracranial Hemangioma",
+      "leaf": false
+    },
+    {
+      "code": "C159211",
+      "name": "Kidney Hemangioma",
+      "leaf": true
+    },
+    {
+      "code": "C146987",
+      "name": "Mediastinal Hemangioma",
+      "leaf": true
+    },
+    {
+      "code": "C7744",
+      "name": "Mucous Membrane Hemangioma",
+      "leaf": true
+    },
+    {
+      "code": "C162503",
+      "name": "Paratesticular Hemangioma",
+      "leaf": true
+    },
+    {
+      "code": "C27507",
+      "name": "Peripheral Nerve Hemangioma",
+      "leaf": true
+    },
+    {
+      "code": "C4868",
+      "name": "Placental Hemangioma",
+      "leaf": true
+    },
+    {
+      "code": "C161581",
+      "name": "Prostate Hemangioma",
+      "leaf": true
+    },
+    {
+      "code": "C4905",
+      "name": "Skin Hemangioma",
+      "leaf": false
+    },
+    {
+      "code": "C8540",
+      "name": "Subcutaneous Hemangioma",
+      "leaf": true
+    },
+    {
+      "code": "C6525",
+      "name": "Synovial Hemangioma",
+      "leaf": true
+    },
+    {
+      "code": "C156343",
+      "name": "Thyroid Gland Hemangioma",
+      "leaf": false
+    },
+    {
+      "code": "C4296",
+      "name": "Venous Hemangioma",
+      "leaf": true
+    }
+  ],
+  "parents": [
+    {
+      "code": "C8537",
+      "name": "Benign Blood Vessel Neoplasm"
+    }
+  ],
+  "associations": [
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C77526",
+      "relatedName": "CDISC SEND Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C88025",
+      "relatedName": "CDISC SEND Tumor Findings Results Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C165258",
+      "relatedName": "Cellosaurus Disease Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C61410",
+      "relatedName": "Clinical Data Interchange Standards Consortium Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C158520",
+      "relatedName": "CPTAC Codelists Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C156966",
+      "relatedName": "CPTAC Neoplasms Codelist"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C156952",
+      "relatedName": "CPTAC Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C118168",
+      "relatedName": "CTRP Disease Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C116977",
+      "relatedName": "CTRP Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C157711",
+      "relatedName": "GDC Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C177537",
+      "relatedName": "GDC Value Terminology"
+    },
+    {
+      "type": "Is_Value_For_GDC_Property",
+      "relatedCode": "C176985",
+      "relatedName": "Histology ICD-O Morphology Code"
+    },
+    {
+      "type": "Is_Value_For_GDC_Property",
+      "relatedCode": "C177621",
+      "relatedName": "ICD-O-3 Morphology Term Diagnosis Question"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168658",
+      "relatedName": "Mapped ICDO3.1 Morphology PT Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168657",
+      "relatedName": "Mapped ICDO3.1 Morphology Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168655",
+      "relatedName": "Mapped ICDO3.1 Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168662",
+      "relatedName": "Mapped ICDO3.2 Morphology PT Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168661",
+      "relatedName": "Mapped ICDO3.2 Morphology Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168656",
+      "relatedName": "Mapped ICDO3.2 Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C126659",
+      "relatedName": "NCIt Neoplasm Core Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C99147",
+      "relatedName": "Neonatal Research Network Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C89506",
+      "relatedName": "Newborn Screening Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C90259",
+      "relatedName": "NICHD Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C189762",
+      "relatedName": "Pediatric Adverse Events Terminology Mapped to MedDRA"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C118464",
+      "relatedName": "Pediatric Adverse Events Terminology"
+    }
+  ],
+  "inverseAssociations": [
+    {
+      "type": "Has_GDC_Value",
+      "relatedCode": "C176985",
+      "relatedName": "Histology ICD-O Morphology Code"
+    },
+    {
+      "type": "Has_GDC_Value",
+      "relatedCode": "C177621",
+      "relatedName": "ICD-O-3 Morphology Term Diagnosis Question"
+    }
+  ],
+  "roles": [
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C36122",
+      "relatedName": "Benign Cellular Infiltrate"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C53395",
+      "relatedName": "Blood Vessel Endothelium"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12679",
+      "relatedName": "Blood Vessel"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12686",
+      "relatedName": "Cardiovascular System"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12964",
+      "relatedName": "Connective and Soft Tissue"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12964",
+      "relatedName": "Connective and Soft Tissue"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C47826",
+      "relatedName": "Diffuse Lesion"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C12865",
+      "relatedName": "Endothelial Cell"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C36105",
+      "relatedName": "Indolent Clinical Course"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C12917",
+      "relatedName": "Malignant Cell"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C36115",
+      "relatedName": "Malignant Cellular Infiltrate"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12922",
+      "relatedName": "Neoplastic Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C37088",
+      "relatedName": "Neoplastic Endothelial Cell"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C35976",
+      "relatedName": "Vascular Channel Formation"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C13053",
+      "relatedName": "Vascular Endothelium"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C33854",
+      "relatedName": "Vascular System"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C33854",
+      "relatedName": "Vascular System"
+    }
+  ],
+  "inverseRoles": [
+    {
+      "type": "EO_Disease_Maps_To_Human_Disease",
+      "relatedCode": "C22944",
+      "relatedName": "Acquired Tufted Hemangioma of the Mouse Blood Vessel"
+    },
+    {
+      "type": "EO_Disease_Maps_To_Human_Disease",
+      "relatedCode": "C22932",
+      "relatedName": "Capillary Hemangioma of the Mouse Blood Vessel"
+    },
+    {
+      "type": "EO_Disease_Maps_To_Human_Disease",
+      "relatedCode": "C22922",
+      "relatedName": "Cavernous Hemangioma of the Mouse Blood Vessel"
+    },
+    {
+      "type": "EO_Disease_Maps_To_Human_Disease",
+      "relatedCode": "C22926",
+      "relatedName": "Epithelioid Hemangioma of the Mouse Blood Vessel, Malignant"
+    },
+    {
+      "type": "EO_Disease_Maps_To_Human_Disease",
+      "relatedCode": "C22925",
+      "relatedName": "Epithelioid Hemangioma of the Mouse Blood Vessel, NOS"
+    },
+    {
+      "type": "EO_Disease_Maps_To_Human_Disease",
+      "relatedCode": "C22927",
+      "relatedName": "Epithelioid Hemangioma of the Mouse Blood Vessel"
+    },
+    {
+      "type": "EO_Disease_Maps_To_Human_Disease",
+      "relatedCode": "C22945",
+      "relatedName": "Hemangioblastoma of the Mouse Blood Vessel"
+    },
+    {
+      "type": "EO_Disease_Maps_To_Human_Disease",
+      "relatedCode": "C22929",
+      "relatedName": "Hemangioendothelioma of the Mouse Blood Vessel, Benign"
+    },
+    {
+      "type": "EO_Disease_Maps_To_Human_Disease",
+      "relatedCode": "C22931",
+      "relatedName": "Hemangioendothelioma of the Mouse Blood Vessel, Malignant"
+    },
+    {
+      "type": "EO_Disease_Maps_To_Human_Disease",
+      "relatedCode": "C22930",
+      "relatedName": "Hemangioendothelioma of the Mouse Blood Vessel, NOS"
+    },
+    {
+      "type": "EO_Disease_Maps_To_Human_Disease",
+      "relatedCode": "C22928",
+      "relatedName": "Hemangioma of the Mouse Blood Vessel, NOS"
+    },
+    {
+      "type": "EO_Disease_Maps_To_Human_Disease",
+      "relatedCode": "C22920",
+      "relatedName": "Hemangioma of the Mouse Blood Vessel"
+    },
+    {
+      "type": "EO_Disease_Maps_To_Human_Disease",
+      "relatedCode": "C22149",
+      "relatedName": "Hemangioma of the Mouse Intestinal Tract"
+    },
+    {
+      "type": "EO_Disease_Maps_To_Human_Disease",
+      "relatedCode": "C21833",
+      "relatedName": "Hemangioma of the Mouse Skin"
+    },
+    {
+      "type": "EO_Disease_Maps_To_Human_Disease",
+      "relatedCode": "C22940",
+      "relatedName": "Hemangiopericytoma of the Mouse Blood Vessel, Benign"
+    },
+    {
+      "type": "EO_Disease_Maps_To_Human_Disease",
+      "relatedCode": "C22942",
+      "relatedName": "Hemangiopericytoma of the Mouse Blood Vessel, Malignant"
+    },
+    {
+      "type": "EO_Disease_Maps_To_Human_Disease",
+      "relatedCode": "C22941",
+      "relatedName": "Hemangiopericytoma of the Mouse Blood Vessel, NOS"
+    },
+    {
+      "type": "EO_Disease_Maps_To_Human_Disease",
+      "relatedCode": "C22921",
+      "relatedName": "Hemangiosarcoma of the Mouse Blood Vessel"
+    },
+    {
+      "type": "EO_Disease_Maps_To_Human_Disease",
+      "relatedCode": "C22933",
+      "relatedName": "Intramuscular Hemangioma of the Mouse Blood Vessel"
+    },
+    {
+      "type": "Gene_Associated_With_Disease",
+      "relatedCode": "C24532",
+      "relatedName": "KDR Gene"
+    },
+    {
+      "type": "Gene_Associated_With_Disease",
+      "relatedCode": "C52172",
+      "relatedName": "KDR wt Allele"
+    },
+    {
+      "type": "Disease_Has_Associated_Disease",
+      "relatedCode": "C3213",
+      "relatedName": "Maffucci Syndrome"
+    },
+    {
+      "type": "EO_Disease_Maps_To_Human_Disease",
+      "relatedCode": "C21620",
+      "relatedName": "Mouse Angioma"
+    },
+    {
+      "type": "EO_Disease_Maps_To_Human_Disease",
+      "relatedCode": "C22924",
+      "relatedName": "Racemose Hemangioma of the Mouse Blood Vessel"
+    },
+    {
+      "type": "EO_Disease_Maps_To_Human_Disease",
+      "relatedCode": "C22936",
+      "relatedName": "Spindle Cell Hemangioendothelioma of the Mouse Blood Vessel"
+    },
+    {
+      "type": "Gene_Product_Malfunction_Associated_With_Disease",
+      "relatedCode": "C28496",
+      "relatedName": "Vascular Endothelial Growth Factor Receptor 2"
+    },
+    {
+      "type": "EO_Disease_Maps_To_Human_Disease",
+      "relatedCode": "C22923",
+      "relatedName": "Venous Hemangioma of the Mouse Blood Vessel"
+    },
+    {
+      "type": "EO_Disease_Maps_To_Human_Disease",
+      "relatedCode": "C22939",
+      "relatedName": "Verrucous Keratotic Hemangioma of the Mouse Blood Vessel"
+    },
+    {
+      "type": "Gene_Product_Is_Biomarker_Of",
+      "relatedCode": "C16572",
+      "relatedName": "von Willebrand Factor"
+    }
+  ],
+  "history": [
+    {
+      "code": "C3085",
+      "action": "create",
+      "date": "2003-08-12"
+    },
+    {
+      "code": "C3085",
+      "action": "modify",
+      "date": "2003-10-31"
+    },
+    {
+      "code": "C3085",
+      "action": "modify",
+      "date": "2003-12-30"
+    },
+    {
+      "code": "C3085",
+      "action": "modify",
+      "date": "2004-03-30"
+    },
+    {
+      "code": "C3085",
+      "action": "modify",
+      "date": "2006-01-27"
+    },
+    {
+      "code": "C3085",
+      "action": "modify",
+      "date": "2006-10-27"
+    },
+    {
+      "code": "C3085",
+      "action": "modify",
+      "date": "2007-03-30"
+    },
+    {
+      "code": "C3085",
+      "action": "modify",
+      "date": "2007-06-28"
+    },
+    {
+      "code": "C3085",
+      "action": "modify",
+      "date": "2009-04-06"
+    },
+    {
+      "code": "C3085",
+      "action": "modify",
+      "date": "2009-11-23"
+    },
+    {
+      "code": "C3085",
+      "action": "modify",
+      "date": "2010-02-09"
+    },
+    {
+      "code": "C3085",
+      "action": "modify",
+      "date": "2010-02-16"
+    },
+    {
+      "code": "C3085",
+      "action": "modify",
+      "date": "2010-05-17"
+    },
+    {
+      "code": "C3085",
+      "action": "modify",
+      "date": "2010-06-01"
+    },
+    {
+      "code": "C3085",
+      "action": "modify",
+      "date": "2010-08-09"
+    },
+    {
+      "code": "C3085",
+      "action": "modify",
+      "date": "2010-08-16"
+    },
+    {
+      "code": "C3085",
+      "action": "modify",
+      "date": "2010-08-23"
+    },
+    {
+      "code": "C3085",
+      "action": "modify",
+      "date": "2010-08-30"
+    },
+    {
+      "code": "C3085",
+      "action": "modify",
+      "date": "2010-09-07"
+    },
+    {
+      "code": "C3085",
+      "action": "modify",
+      "date": "2010-09-13"
+    },
+    {
+      "code": "C3085",
+      "action": "modify",
+      "date": "2010-09-20"
+    },
+    {
+      "code": "C3085",
+      "action": "modify",
+      "date": "2010-09-27"
+    },
+    {
+      "code": "C3085",
+      "action": "modify",
+      "date": "2010-11-01"
+    },
+    {
+      "code": "C3085",
+      "action": "modify",
+      "date": "2010-12-06"
+    },
+    {
+      "code": "C3085",
+      "action": "modify",
+      "date": "2011-04-11"
+    },
+    {
+      "code": "C3085",
+      "action": "modify",
+      "date": "2011-06-13"
+    },
+    {
+      "code": "C3085",
+      "action": "modify",
+      "date": "2011-11-14"
+    },
+    {
+      "code": "C3085",
+      "action": "modify",
+      "date": "2011-11-21"
+    },
+    {
+      "code": "C3085",
+      "action": "modify",
+      "date": "2011-11-28"
+    },
+    {
+      "code": "C3085",
+      "action": "modify",
+      "date": "2011-12-05"
+    },
+    {
+      "code": "C3085",
+      "action": "modify",
+      "date": "2011-12-12"
+    },
+    {
+      "code": "C3085",
+      "action": "modify",
+      "date": "2011-12-19"
+    },
+    {
+      "code": "C3085",
+      "action": "modify",
+      "date": "2011-12-27"
+    },
+    {
+      "code": "C3085",
+      "action": "modify",
+      "date": "2012-01-09"
+    },
+    {
+      "code": "C3085",
+      "action": "modify",
+      "date": "2012-01-17"
+    },
+    {
+      "code": "C3085",
+      "action": "modify",
+      "date": "2012-01-23"
+    },
+    {
+      "code": "C3085",
+      "action": "modify",
+      "date": "2012-01-30"
+    },
+    {
+      "code": "C3085",
+      "action": "modify",
+      "date": "2012-02-06"
+    },
+    {
+      "code": "C3085",
+      "action": "modify",
+      "date": "2012-02-13"
+    },
+    {
+      "code": "C3085",
+      "action": "modify",
+      "date": "2012-02-21"
+    },
+    {
+      "code": "C3085",
+      "action": "modify",
+      "date": "2012-02-27"
+    },
+    {
+      "code": "C3085",
+      "action": "modify",
+      "date": "2012-03-05"
+    },
+    {
+      "code": "C3085",
+      "action": "modify",
+      "date": "2012-03-12"
+    },
+    {
+      "code": "C3085",
+      "action": "modify",
+      "date": "2012-03-19"
+    },
+    {
+      "code": "C3085",
+      "action": "modify",
+      "date": "2012-03-26"
+    },
+    {
+      "code": "C3085",
+      "action": "modify",
+      "date": "2012-04-02"
+    },
+    {
+      "code": "C3085",
+      "action": "modify",
+      "date": "2012-04-09"
+    },
+    {
+      "code": "C3085",
+      "action": "modify",
+      "date": "2012-04-16"
+    },
+    {
+      "code": "C3085",
+      "action": "modify",
+      "date": "2012-04-23"
+    },
+    {
+      "code": "C3085",
+      "action": "modify",
+      "date": "2012-04-30"
+    },
+    {
+      "code": "C3085",
+      "action": "modify",
+      "date": "2012-05-07"
+    },
+    {
+      "code": "C3085",
+      "action": "modify",
+      "date": "2012-05-14"
+    },
+    {
+      "code": "C3085",
+      "action": "modify",
+      "date": "2012-05-21"
+    },
+    {
+      "code": "C3085",
+      "action": "modify",
+      "date": "2012-05-29"
+    },
+    {
+      "code": "C3085",
+      "action": "modify",
+      "date": "2012-06-04"
+    },
+    {
+      "code": "C3085",
+      "action": "modify",
+      "date": "2012-06-11"
+    },
+    {
+      "code": "C3085",
+      "action": "modify",
+      "date": "2012-06-18"
+    },
+    {
+      "code": "C3085",
+      "action": "modify",
+      "date": "2012-06-18"
+    },
+    {
+      "code": "C3085",
+      "action": "modify",
+      "date": "2012-06-25"
+    },
+    {
+      "code": "C3085",
+      "action": "modify",
+      "date": "2012-07-03"
+    },
+    {
+      "code": "C3085",
+      "action": "modify",
+      "date": "2012-07-16"
+    },
+    {
+      "code": "C3085",
+      "action": "modify",
+      "date": "2012-07-23"
+    },
+    {
+      "code": "C3085",
+      "action": "modify",
+      "date": "2012-07-30"
+    },
+    {
+      "code": "C3085",
+      "action": "modify",
+      "date": "2012-08-06"
+    },
+    {
+      "code": "C3085",
+      "action": "modify",
+      "date": "2012-08-13"
+    },
+    {
+      "code": "C3085",
+      "action": "modify",
+      "date": "2012-08-20"
+    },
+    {
+      "code": "C3085",
+      "action": "modify",
+      "date": "2012-08-27"
+    },
+    {
+      "code": "C3085",
+      "action": "modify",
+      "date": "2012-09-04"
+    },
+    {
+      "code": "C3085",
+      "action": "modify",
+      "date": "2012-09-10"
+    },
+    {
+      "code": "C3085",
+      "action": "modify",
+      "date": "2012-09-17"
+    },
+    {
+      "code": "C3085",
+      "action": "modify",
+      "date": "2012-09-24"
+    },
+    {
+      "code": "C3085",
+      "action": "modify",
+      "date": "2012-10-01"
+    },
+    {
+      "code": "C3085",
+      "action": "modify",
+      "date": "2012-10-09"
+    },
+    {
+      "code": "C3085",
+      "action": "modify",
+      "date": "2012-10-15"
+    },
+    {
+      "code": "C3085",
+      "action": "modify",
+      "date": "2012-10-22"
+    },
+    {
+      "code": "C3085",
+      "action": "modify",
+      "date": "2012-10-31"
+    },
+    {
+      "code": "C3085",
+      "action": "modify",
+      "date": "2012-11-05"
+    },
+    {
+      "code": "C3085",
+      "action": "modify",
+      "date": "2012-11-13"
+    },
+    {
+      "code": "C3085",
+      "action": "modify",
+      "date": "2012-11-19"
+    },
+    {
+      "code": "C3085",
+      "action": "modify",
+      "date": "2012-11-26"
+    },
+    {
+      "code": "C3085",
+      "action": "modify",
+      "date": "2012-12-03"
+    },
+    {
+      "code": "C3085",
+      "action": "modify",
+      "date": "2012-12-10"
+    },
+    {
+      "code": "C3085",
+      "action": "modify",
+      "date": "2012-12-17"
+    },
+    {
+      "code": "C3085",
+      "action": "modify",
+      "date": "2012-12-28"
+    },
+    {
+      "code": "C3085",
+      "action": "modify",
+      "date": "2013-01-07"
+    },
+    {
+      "code": "C3085",
+      "action": "modify",
+      "date": "2013-01-14"
+    },
+    {
+      "code": "C3085",
+      "action": "modify",
+      "date": "2013-01-23"
+    },
+    {
+      "code": "C3085",
+      "action": "modify",
+      "date": "2013-02-04"
+    },
+    {
+      "code": "C3085",
+      "action": "modify",
+      "date": "2013-02-11"
+    },
+    {
+      "code": "C3085",
+      "action": "modify",
+      "date": "2013-02-19"
+    },
+    {
+      "code": "C3085",
+      "action": "modify",
+      "date": "2013-02-25"
+    },
+    {
+      "code": "C3085",
+      "action": "modify",
+      "date": "2013-03-04"
+    },
+    {
+      "code": "C3085",
+      "action": "modify",
+      "date": "2013-03-11"
+    },
+    {
+      "code": "C3085",
+      "action": "modify",
+      "date": "2013-03-18"
+    },
+    {
+      "code": "C3085",
+      "action": "modify",
+      "date": "2013-03-25"
+    },
+    {
+      "code": "C3085",
+      "action": "modify",
+      "date": "2013-04-01"
+    },
+    {
+      "code": "C3085",
+      "action": "modify",
+      "date": "2013-04-08"
+    },
+    {
+      "code": "C3085",
+      "action": "modify",
+      "date": "2013-04-15"
+    },
+    {
+      "code": "C3085",
+      "action": "modify",
+      "date": "2013-04-22"
+    },
+    {
+      "code": "C3085",
+      "action": "modify",
+      "date": "2013-04-29"
+    },
+    {
+      "code": "C3085",
+      "action": "modify",
+      "date": "2013-05-06"
+    },
+    {
+      "code": "C3085",
+      "action": "modify",
+      "date": "2013-05-13"
+    },
+    {
+      "code": "C3085",
+      "action": "modify",
+      "date": "2013-05-20"
+    },
+    {
+      "code": "C3085",
+      "action": "modify",
+      "date": "2013-05-28"
+    },
+    {
+      "code": "C3085",
+      "action": "modify",
+      "date": "2013-06-03"
+    },
+    {
+      "code": "C3085",
+      "action": "modify",
+      "date": "2013-06-10"
+    },
+    {
+      "code": "C3085",
+      "action": "modify",
+      "date": "2013-06-17"
+    },
+    {
+      "code": "C3085",
+      "action": "modify",
+      "date": "2013-06-24"
+    },
+    {
+      "code": "C3085",
+      "action": "modify",
+      "date": "2013-07-01"
+    },
+    {
+      "code": "C3085",
+      "action": "modify",
+      "date": "2013-07-08"
+    },
+    {
+      "code": "C3085",
+      "action": "modify",
+      "date": "2013-11-25"
+    },
+    {
+      "code": "C3085",
+      "action": "modify",
+      "date": "2014-02-03"
+    },
+    {
+      "code": "C3085",
+      "action": "modify",
+      "date": "2014-08-25"
+    },
+    {
+      "code": "C3085",
+      "action": "modify",
+      "date": "2014-09-22"
+    },
+    {
+      "code": "C3085",
+      "action": "modify",
+      "date": "2014-10-27"
+    },
+    {
+      "code": "C3085",
+      "action": "modify",
+      "date": "2014-11-03"
+    },
+    {
+      "code": "C3085",
+      "action": "modify",
+      "date": "2014-11-10"
+    },
+    {
+      "code": "C3085",
+      "action": "modify",
+      "date": "2014-11-17"
+    },
+    {
+      "code": "C3085",
+      "action": "modify",
+      "date": "2014-11-24"
+    },
+    {
+      "code": "C3085",
+      "action": "modify",
+      "date": "2014-12-01"
+    },
+    {
+      "code": "C3085",
+      "action": "modify",
+      "date": "2014-12-08"
+    },
+    {
+      "code": "C3085",
+      "action": "modify",
+      "date": "2014-12-15"
+    },
+    {
+      "code": "C3085",
+      "action": "modify",
+      "date": "2014-12-22"
+    },
+    {
+      "code": "C3085",
+      "action": "modify",
+      "date": "2014-12-29"
+    },
+    {
+      "code": "C3085",
+      "action": "modify",
+      "date": "2015-01-05"
+    },
+    {
+      "code": "C3085",
+      "action": "modify",
+      "date": "2015-01-12"
+    },
+    {
+      "code": "C3085",
+      "action": "modify",
+      "date": "2015-01-20"
+    },
+    {
+      "code": "C3085",
+      "action": "modify",
+      "date": "2015-01-26"
+    },
+    {
+      "code": "C3085",
+      "action": "modify",
+      "date": "2015-02-02"
+    },
+    {
+      "code": "C3085",
+      "action": "modify",
+      "date": "2015-02-09"
+    },
+    {
+      "code": "C3085",
+      "action": "modify",
+      "date": "2015-02-17"
+    },
+    {
+      "code": "C3085",
+      "action": "modify",
+      "date": "2015-02-23"
+    },
+    {
+      "code": "C3085",
+      "action": "modify",
+      "date": "2015-03-02"
+    },
+    {
+      "code": "C3085",
+      "action": "modify",
+      "date": "2015-03-09"
+    },
+    {
+      "code": "C3085",
+      "action": "modify",
+      "date": "2015-03-16"
+    },
+    {
+      "code": "C3085",
+      "action": "modify",
+      "date": "2015-03-23"
+    },
+    {
+      "code": "C3085",
+      "action": "modify",
+      "date": "2015-03-30"
+    },
+    {
+      "code": "C3085",
+      "action": "modify",
+      "date": "2015-04-06"
+    },
+    {
+      "code": "C3085",
+      "action": "modify",
+      "date": "2015-04-13"
+    },
+    {
+      "code": "C3085",
+      "action": "modify",
+      "date": "2015-04-20"
+    },
+    {
+      "code": "C3085",
+      "action": "modify",
+      "date": "2015-04-27"
+    },
+    {
+      "code": "C3085",
+      "action": "modify",
+      "date": "2015-05-04"
+    },
+    {
+      "code": "C3085",
+      "action": "modify",
+      "date": "2015-05-11"
+    },
+    {
+      "code": "C3085",
+      "action": "modify",
+      "date": "2015-05-18"
+    },
+    {
+      "code": "C3085",
+      "action": "modify",
+      "date": "2015-05-26"
+    },
+    {
+      "code": "C3085",
+      "action": "modify",
+      "date": "2015-06-01"
+    },
+    {
+      "code": "C3085",
+      "action": "modify",
+      "date": "2015-06-08"
+    },
+    {
+      "code": "C3085",
+      "action": "modify",
+      "date": "2015-06-15"
+    },
+    {
+      "code": "C3085",
+      "action": "modify",
+      "date": "2015-06-22"
+    },
+    {
+      "code": "C3085",
+      "action": "modify",
+      "date": "2015-06-29"
+    },
+    {
+      "code": "C3085",
+      "action": "modify",
+      "date": "2015-07-06"
+    },
+    {
+      "code": "C3085",
+      "action": "modify",
+      "date": "2015-07-13"
+    },
+    {
+      "code": "C3085",
+      "action": "modify",
+      "date": "2015-08-12"
+    },
+    {
+      "code": "C3085",
+      "action": "modify",
+      "date": "2015-08-24"
+    },
+    {
+      "code": "C3085",
+      "action": "modify",
+      "date": "2015-08-31"
+    },
+    {
+      "code": "C3085",
+      "action": "modify",
+      "date": "2015-09-08"
+    },
+    {
+      "code": "C3085",
+      "action": "modify",
+      "date": "2015-09-14"
+    },
+    {
+      "code": "C3085",
+      "action": "modify",
+      "date": "2015-09-21"
+    },
+    {
+      "code": "C3085",
+      "action": "modify",
+      "date": "2015-09-28"
+    },
+    {
+      "code": "C3085",
+      "action": "modify",
+      "date": "2015-10-05"
+    },
+    {
+      "code": "C3085",
+      "action": "modify",
+      "date": "2015-10-13"
+    },
+    {
+      "code": "C3085",
+      "action": "modify",
+      "date": "2015-10-19"
+    },
+    {
+      "code": "C3085",
+      "action": "modify",
+      "date": "2015-10-26"
+    },
+    {
+      "code": "C3085",
+      "action": "modify",
+      "date": "2015-11-02"
+    },
+    {
+      "code": "C3085",
+      "action": "modify",
+      "date": "2015-11-09"
+    },
+    {
+      "code": "C3085",
+      "action": "modify",
+      "date": "2015-11-16"
+    },
+    {
+      "code": "C3085",
+      "action": "modify",
+      "date": "2015-11-23"
+    },
+    {
+      "code": "C3085",
+      "action": "modify",
+      "date": "2015-11-30"
+    },
+    {
+      "code": "C3085",
+      "action": "modify",
+      "date": "2015-12-07"
+    },
+    {
+      "code": "C3085",
+      "action": "modify",
+      "date": "2015-12-14"
+    },
+    {
+      "code": "C3085",
+      "action": "modify",
+      "date": "2015-12-21"
+    },
+    {
+      "code": "C3085",
+      "action": "modify",
+      "date": "2015-12-28"
+    },
+    {
+      "code": "C3085",
+      "action": "modify",
+      "date": "2016-01-04"
+    },
+    {
+      "code": "C3085",
+      "action": "modify",
+      "date": "2016-01-11"
+    },
+    {
+      "code": "C3085",
+      "action": "modify",
+      "date": "2016-01-19"
+    },
+    {
+      "code": "C3085",
+      "action": "modify",
+      "date": "2016-01-29"
+    },
+    {
+      "code": "C3085",
+      "action": "modify",
+      "date": "2016-04-18"
+    },
+    {
+      "code": "C3085",
+      "action": "modify",
+      "date": "2016-04-25"
+    },
+    {
+      "code": "C3085",
+      "action": "modify",
+      "date": "2016-05-09"
+    },
+    {
+      "code": "C3085",
+      "action": "modify",
+      "date": "2016-05-16"
+    },
+    {
+      "code": "C3085",
+      "action": "modify",
+      "date": "2016-05-23"
+    },
+    {
+      "code": "C3085",
+      "action": "modify",
+      "date": "2016-05-31"
+    },
+    {
+      "code": "C3085",
+      "action": "modify",
+      "date": "2016-06-06"
+    },
+    {
+      "code": "C3085",
+      "action": "modify",
+      "date": "2016-06-13"
+    },
+    {
+      "code": "C3085",
+      "action": "modify",
+      "date": "2016-06-17"
+    },
+    {
+      "code": "C3085",
+      "action": "modify",
+      "date": "2016-06-27"
+    },
+    {
+      "code": "C3085",
+      "action": "modify",
+      "date": "2016-07-05"
+    },
+    {
+      "code": "C3085",
+      "action": "modify",
+      "date": "2016-07-11"
+    },
+    {
+      "code": "C3085",
+      "action": "modify",
+      "date": "2016-07-18"
+    },
+    {
+      "code": "C3085",
+      "action": "modify",
+      "date": "2016-07-25"
+    },
+    {
+      "code": "C3085",
+      "action": "modify",
+      "date": "2016-08-01"
+    },
+    {
+      "code": "C3085",
+      "action": "modify",
+      "date": "2016-08-08"
+    },
+    {
+      "code": "C3085",
+      "action": "modify",
+      "date": "2016-08-15"
+    },
+    {
+      "code": "C3085",
+      "action": "modify",
+      "date": "2016-08-22"
+    },
+    {
+      "code": "C3085",
+      "action": "modify",
+      "date": "2016-08-29"
+    },
+    {
+      "code": "C3085",
+      "action": "modify",
+      "date": "2016-09-06"
+    },
+    {
+      "code": "C3085",
+      "action": "modify",
+      "date": "2016-09-12"
+    },
+    {
+      "code": "C3085",
+      "action": "modify",
+      "date": "2016-09-20"
+    },
+    {
+      "code": "C3085",
+      "action": "modify",
+      "date": "2016-09-26"
+    },
+    {
+      "code": "C3085",
+      "action": "modify",
+      "date": "2016-10-03"
+    },
+    {
+      "code": "C3085",
+      "action": "modify",
+      "date": "2016-10-11"
+    },
+    {
+      "code": "C3085",
+      "action": "modify",
+      "date": "2016-10-17"
+    },
+    {
+      "code": "C3085",
+      "action": "modify",
+      "date": "2016-10-24"
+    },
+    {
+      "code": "C3085",
+      "action": "modify",
+      "date": "2016-10-31"
+    },
+    {
+      "code": "C3085",
+      "action": "modify",
+      "date": "2016-11-07"
+    },
+    {
+      "code": "C3085",
+      "action": "modify",
+      "date": "2016-11-14"
+    },
+    {
+      "code": "C3085",
+      "action": "modify",
+      "date": "2016-11-21"
+    },
+    {
+      "code": "C3085",
+      "action": "modify",
+      "date": "2016-11-28"
+    },
+    {
+      "code": "C3085",
+      "action": "modify",
+      "date": "2016-12-05"
+    },
+    {
+      "code": "C3085",
+      "action": "modify",
+      "date": "2016-12-12"
+    },
+    {
+      "code": "C3085",
+      "action": "modify",
+      "date": "2016-12-19"
+    },
+    {
+      "code": "C3085",
+      "action": "modify",
+      "date": "2016-12-27"
+    },
+    {
+      "code": "C3085",
+      "action": "modify",
+      "date": "2017-01-03"
+    },
+    {
+      "code": "C3085",
+      "action": "modify",
+      "date": "2017-01-09"
+    },
+    {
+      "code": "C3085",
+      "action": "modify",
+      "date": "2017-01-17"
+    },
+    {
+      "code": "C3085",
+      "action": "modify",
+      "date": "2017-01-23"
+    },
+    {
+      "code": "C3085",
+      "action": "modify",
+      "date": "2018-07-30"
+    },
+    {
+      "code": "C3085",
+      "action": "modify",
+      "date": "2018-08-27"
+    },
+    {
+      "code": "C3085",
+      "action": "modify",
+      "date": "2018-08-27"
+    },
+    {
+      "code": "C3085",
+      "action": "modify",
+      "date": "2018-09-24"
+    },
+    {
+      "code": "C3085",
+      "action": "modify",
+      "date": "2018-12-31"
+    },
+    {
+      "code": "C3085",
+      "action": "modify",
+      "date": "2019-02-25"
+    },
+    {
+      "code": "C3085",
+      "action": "modify",
+      "date": "2019-03-25"
+    },
+    {
+      "code": "C3085",
+      "action": "modify",
+      "date": "2019-05-28"
+    },
+    {
+      "code": "C3085",
+      "action": "modify",
+      "date": "2019-09-30"
+    },
+    {
+      "code": "C3085",
+      "action": "modify",
+      "date": "2019-10-28"
+    },
+    {
+      "code": "C3085",
+      "action": "modify",
+      "date": "2019-11-25"
+    },
+    {
+      "code": "C3085",
+      "action": "modify",
+      "date": "2020-02-24"
+    },
+    {
+      "code": "C3085",
+      "action": "modify",
+      "date": "2020-03-30"
+    },
+    {
+      "code": "C3085",
+      "action": "modify",
+      "date": "2020-04-27"
+    },
+    {
+      "code": "C3085",
+      "action": "modify",
+      "date": "2020-08-31"
+    },
+    {
+      "code": "C3085",
+      "action": "modify",
+      "date": "2020-09-29"
+    },
+    {
+      "code": "C3085",
+      "action": "modify",
+      "date": "2021-02-22"
+    },
+    {
+      "code": "C3085",
+      "action": "modify",
+      "date": "2021-03-29"
+    },
+    {
+      "code": "C3085",
+      "action": "modify",
+      "date": "2022-09-26"
+    },
+    {
+      "code": "C3085",
+      "action": "modify",
+      "date": "2023-02-27"
+    },
+    {
+      "code": "C3085",
+      "action": "modify",
+      "date": "2025-03-31"
+    }
+  ],
+  "maps": [
+    {
+      "type": "Related To",
+      "targetName": "9120/0",
+      "targetTermType": "PT",
+      "targetCode": "morphology",
+      "targetTerminology": "GDC"
+    },
+    {
+      "type": "Related To",
+      "targetName": "Angioma, NOS",
+      "targetTermType": "PT",
+      "targetCode": "primary_diagnosis",
+      "targetTerminology": "GDC"
+    },
+    {
+      "type": "Related To",
+      "targetName": "Hemangioma unspecified site",
+      "targetTermType": "PT",
+      "targetCode": "D18.00",
+      "targetTerminology": "ICD10CM 2017"
+    },
+    {
+      "type": "Related To",
+      "targetName": "Hemangioma, NOS",
+      "targetTermType": "PT",
+      "targetCode": "9120/0",
+      "targetTerminology": "ICDO3",
+      "targetTerminologyVersion": "3.1"
+    },
+    {
+      "type": "Related To",
+      "targetName": "Hemangioma, NOS",
+      "targetTermType": "PT",
+      "targetCode": "9120/0",
+      "targetTerminology": "ICDO3",
+      "targetTerminologyVersion": "3.2"
+    },
+    {
+      "type": "Has Synonym",
+      "targetName": "Hemangioma, NOS",
+      "targetTermType": "PT",
+      "targetCode": "primary_diagnosis",
+      "targetTerminology": "GDC"
+    },
+    {
+      "type": "Has Synonym",
+      "targetName": "Hemangioma",
+      "targetTermType": "LLT",
+      "targetCode": "10019386",
+      "targetTerminology": "MedDRA",
+      "targetTerminologyVersion": "18.1"
+    }
+  ]
+}

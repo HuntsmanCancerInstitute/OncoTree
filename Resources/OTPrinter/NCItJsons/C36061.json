@@ -1,0 +1,348 @@
+{
+  "code": "C36061",
+  "name": "Chronic Myelomonocytic Leukemia-1",
+  "terminology": "ncit",
+  "version": "25.11d",
+  "conceptStatus": "DEFAULT",
+  "leaf": true,
+  "active": true,
+  "synonyms": [
+    {
+      "name": "Chronic Myelomonocytic Leukemia-1",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "CMML-1",
+      "termType": "AB",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Chronic Myelomonocytic Leukemia-1",
+      "type": "Preferred_Name"
+    }
+  ],
+  "definitions": [
+    {
+      "definition": "A chronic myelomonocytic leukemia characterized by the presence of less than 10 percent blasts in the bone marrow and less than 5 percent blasts in the peripheral blood.",
+      "type": "DEFINITION",
+      "source": "NCI"
+    }
+  ],
+  "properties": [
+    {
+      "code": "P366",
+      "type": "Legacy Concept Name",
+      "value": "Chronic_Myelomonocytic_Leukemia-1"
+    },
+    {
+      "code": "P363",
+      "type": "Neoplastic_Status",
+      "value": "Malignant"
+    },
+    {
+      "code": "P106",
+      "type": "Semantic_Type",
+      "value": "Neoplastic Process"
+    },
+    {
+      "code": "P207",
+      "type": "UMLS_CUI",
+      "value": "C1333043"
+    }
+  ],
+  "parents": [
+    {
+      "code": "C3178",
+      "name": "Chronic Myelomonocytic Leukemia"
+    }
+  ],
+  "associations": [
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C126659",
+      "relatedName": "NCIt Neoplasm Core Terminology"
+    }
+  ],
+  "roles": [
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C36157",
+      "relatedName": "Acute Clinical Course"
+    },
+    {
+      "type": "Disease_May_Have_Associated_Disease",
+      "relatedCode": "C2869",
+      "relatedName": "Anemia"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C34414",
+      "relatedName": "Basophilia"
+    },
+    {
+      "type": "Disease_Excludes_Molecular_Abnormality",
+      "relatedCode": "C36715",
+      "relatedName": "BCR-ABL1 Fusion Protein Expression"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C36122",
+      "relatedName": "Benign Cellular Infiltrate"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C41398",
+      "relatedName": "Blasts Under 10 Percent of Bone Marrow Nucleated Cells"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C215107",
+      "relatedName": "Blasts Under 2 Percent of Peripheral Blood White Cells"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C41397",
+      "relatedName": "Blasts Under 20 Percent of Bone Marrow Nucleated Cells"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C36220",
+      "relatedName": "Blasts Under 20 Percent of Peripheral Blood White Cells"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C137685",
+      "relatedName": "Blasts Under 5 Percent of Bone Marrow Nucleated Cells"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C41399",
+      "relatedName": "Blasts Under 5 Percent of Peripheral Blood White Cells"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C36235",
+      "relatedName": "Bone Marrow Dysplasia Present"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C36212",
+      "relatedName": "Bone Marrow Fibrosis"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C13456",
+      "relatedName": "Bone Marrow Stem Cell"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12431",
+      "relatedName": "Bone Marrow"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12431",
+      "relatedName": "Bone Marrow"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C41235",
+      "relatedName": "Extramedullary Hematopoiesis"
+    },
+    {
+      "type": "Disease_May_Have_Cytogenetic_Abnormality",
+      "relatedCode": "C36455",
+      "relatedName": "Gain of Chromosome 8"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C2863",
+      "relatedName": "Granulocytopenia"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C41165",
+      "relatedName": "Hematopoietic and Lymphatic System"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C41165",
+      "relatedName": "Hematopoietic and Lymphatic System"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C32725",
+      "relatedName": "Hematopoietic and Lymphoid Cell"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C41168",
+      "relatedName": "Hematopoietic and Lymphoid Tissue"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C13051",
+      "relatedName": "Hematopoietic Tissue"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C3100",
+      "relatedName": "Hepatomegaly"
+    },
+    {
+      "type": "Disease_May_Have_Abnormal_Cell",
+      "relatedCode": "C37172",
+      "relatedName": "Hypolobated Neutrophil"
+    },
+    {
+      "type": "Disease_May_Have_Cytogenetic_Abnormality",
+      "relatedCode": "C36477",
+      "relatedName": "i(17q)"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C41176",
+      "relatedName": "Immature Granulocytes in Peripheral Blood Under 10 Percent"
+    },
+    {
+      "type": "Disease_May_Have_Abnormal_Cell",
+      "relatedCode": "C37039",
+      "relatedName": "Large Atypical Platelet"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C25553",
+      "relatedName": "Leukemic Cell"
+    },
+    {
+      "type": "Disease_May_Have_Cytogenetic_Abnormality",
+      "relatedCode": "C36408",
+      "relatedName": "Loss of Chromosome 7q"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12917",
+      "relatedName": "Malignant Cell"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C36115",
+      "relatedName": "Malignant Cellular Infiltrate"
+    },
+    {
+      "type": "Disease_May_Have_Abnormal_Cell",
+      "relatedCode": "C12524",
+      "relatedName": "Megaloblast"
+    },
+    {
+      "type": "Disease_May_Have_Abnormal_Cell",
+      "relatedCode": "C12916",
+      "relatedName": "Micromegakaryocyte"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C35147",
+      "relatedName": "Monocytosis"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12922",
+      "relatedName": "Neoplastic Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C37060",
+      "relatedName": "Neoplastic Hematopoietic and Lymphoid Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C41063",
+      "relatedName": "Neoplastic Myeloid Cell"
+    },
+    {
+      "type": "Disease_May_Have_Abnormal_Cell",
+      "relatedCode": "C37173",
+      "relatedName": "Neutrophil with Abnormal Cytoplasmic Granulation"
+    },
+    {
+      "type": "Disease_May_Have_Molecular_Abnormality",
+      "relatedCode": "C41381",
+      "relatedName": "NRAS Gene Mutation"
+    },
+    {
+      "type": "Disease_Excludes_Cytogenetic_Abnormality",
+      "relatedCode": "C28452",
+      "relatedName": "Philadelphia Chromosome"
+    },
+    {
+      "type": "Disease_May_Have_Abnormal_Cell",
+      "relatedCode": "C37058",
+      "relatedName": "Ring Sideroblast"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C36182",
+      "relatedName": "Solid Growth Pattern"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C3384",
+      "relatedName": "Splenomegaly"
+    },
+    {
+      "type": "Disease_Excludes_Cytogenetic_Abnormality",
+      "relatedCode": "C13271",
+      "relatedName": "t(9;22)(q34.1;q11.2)"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C35530",
+      "relatedName": "Thrombocytosis"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C37030",
+      "relatedName": "Toxic Neutrophil"
+    }
+  ],
+  "history": [
+    {
+      "code": "C36061",
+      "action": "create",
+      "date": "2004-03-30"
+    },
+    {
+      "code": "C36061",
+      "action": "modify",
+      "date": "2004-11-01"
+    },
+    {
+      "code": "C36061",
+      "action": "modify",
+      "date": "2009-08-03"
+    },
+    {
+      "code": "C36061",
+      "action": "modify",
+      "date": "2009-11-02"
+    },
+    {
+      "code": "C36061",
+      "action": "modify",
+      "date": "2009-11-23"
+    },
+    {
+      "code": "C36061",
+      "action": "modify",
+      "date": "2016-04-25"
+    },
+    {
+      "code": "C36061",
+      "action": "modify",
+      "date": "2025-03-31"
+    }
+  ]
+}

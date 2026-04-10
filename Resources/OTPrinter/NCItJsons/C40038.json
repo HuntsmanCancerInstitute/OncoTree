@@ -1,0 +1,230 @@
+{
+  "code": "C40038",
+  "name": "Borderline Ovarian Mucinous Tumor, Endocervical-Like",
+  "terminology": "ncit",
+  "version": "25.11d",
+  "conceptStatus": "DEFAULT",
+  "leaf": true,
+  "active": true,
+  "synonyms": [
+    {
+      "name": "Borderline Ovarian Mucinous Tumor, Endocervical-Like",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Borderline Ovarian Mucinous Tumor, Endocervical-Like",
+      "type": "Preferred_Name"
+    }
+  ],
+  "definitions": [
+    {
+      "definition": "A neoplasm of low malignant potential arising from the ovary.  It is characterized by the proliferation of neoplastic epithelial cells that resemble endocervical epithelial cells.  There is no evidence of stromal invasion.",
+      "type": "DEFINITION",
+      "source": "NCI"
+    }
+  ],
+  "properties": [
+    {
+      "code": "P366",
+      "type": "Legacy Concept Name",
+      "value": "Borderline_Ovarian_Mucinous_Tumor_Endocervical-like"
+    },
+    {
+      "code": "P363",
+      "type": "Neoplastic_Status",
+      "value": "Uncertain Malignant Potential"
+    },
+    {
+      "code": "P106",
+      "type": "Semantic_Type",
+      "value": "Neoplastic Process"
+    },
+    {
+      "code": "P207",
+      "type": "UMLS_CUI",
+      "value": "C1511264"
+    }
+  ],
+  "parents": [
+    {
+      "code": "C40036",
+      "name": "Borderline Ovarian Mucinous Tumor"
+    }
+  ],
+  "roles": [
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C35955",
+      "relatedName": "Absence of Stromal Invasion"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C137974",
+      "relatedName": "Adnexa"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C9478",
+      "relatedName": "Atypia"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C61541",
+      "relatedName": "Atypical Glandular Epithelium Resembling the Normal Endometrium Present"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C36116",
+      "relatedName": "Borderline Lesion"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C54392",
+      "relatedName": "Cellular Stratification"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C61534",
+      "relatedName": "Endocervical Type Epithelium Present"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C12578",
+      "relatedName": "Epithelial Cell"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C53596",
+      "relatedName": "Epithelial Component Present"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C45714",
+      "relatedName": "Epithelial Tissue"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12402",
+      "relatedName": "Female Reproductive System"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12402",
+      "relatedName": "Female Reproductive System"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12810",
+      "relatedName": "Genitourinary System"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C62273",
+      "relatedName": "Mixed Neoplastic Glandular and Squamous Cell Population"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C38768",
+      "relatedName": "Mucinous Differentiation"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12922",
+      "relatedName": "Neoplastic Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C37116",
+      "relatedName": "Neoplastic Epithelial Cell with Intracytoplasmic Mucin"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36753",
+      "relatedName": "Neoplastic Epithelial Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36763",
+      "relatedName": "Neoplastic Glandular Cell"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C61542",
+      "relatedName": "Neoplastic Glandular Epithelium Resembling the Normal Endometrium Present"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C37114",
+      "relatedName": "Neoplastic Serous Epithelial Cell"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C36937",
+      "relatedName": "Neoplastic Smooth Muscle Cell"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C36760",
+      "relatedName": "Neoplastic Squamous Cell"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C61518",
+      "relatedName": "Ovarian Surface Epithelium"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12404",
+      "relatedName": "Ovary"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12404",
+      "relatedName": "Ovary"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12841",
+      "relatedName": "Reproductive System"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12321",
+      "relatedName": "Uterine Adnexa"
+    }
+  ],
+  "history": [
+    {
+      "code": "C40038",
+      "action": "create",
+      "date": "2004-08-02"
+    },
+    {
+      "code": "C40038",
+      "action": "modify",
+      "date": "2006-07-28"
+    },
+    {
+      "code": "C40038",
+      "action": "modify",
+      "date": "2009-10-27"
+    },
+    {
+      "code": "C40038",
+      "action": "modify",
+      "date": "2009-11-23"
+    },
+    {
+      "code": "C40038",
+      "action": "modify",
+      "date": "2011-10-03"
+    },
+    {
+      "code": "C40038",
+      "action": "modify",
+      "date": "2020-06-29"
+    }
+  ]
+}

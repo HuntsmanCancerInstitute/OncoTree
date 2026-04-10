@@ -1,0 +1,362 @@
+{
+  "code": "C94537",
+  "name": "Spindle Cell Oncocytoma",
+  "terminology": "ncit",
+  "version": "25.11d",
+  "conceptStatus": "DEFAULT",
+  "leaf": true,
+  "active": true,
+  "synonyms": [
+    {
+      "name": "Spindle cell oncocytoma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "GDC"
+    },
+    {
+      "name": "Folliculo-Stellate Cell Tumor of the Pituitary",
+      "termType": "AQS",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "SCO",
+      "termType": "AB",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Spindle Cell Oncocytoma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Spindle Cell Oncocytoma of the Adenohypophysis",
+      "termType": "AQS",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Spindle Cell Oncocytoma of the Adenohypophysis (WHO Grade 1)",
+      "termType": "AQS",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Spindle Cell Oncocytoma/Oncocytic Pituicytoma",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Spindle Cell Oncocytoma",
+      "type": "Preferred_Name"
+    }
+  ],
+  "definitions": [
+    {
+      "definition": "A very rare, WHO grade 1 neoplasm of the posterior pituitary. It is characterized by the presence of spindle cells with eosinophilic, granular cytoplasm forming fascicles.  Electron microscopic studies demonstrate the accumulation of intracytoplasmic mitochondria and lack of secretory granules.  Immunohistochemical studies are negative for pituitary hormones.  Patients may present with pituitary hypofunction, visual disturbances, headache, nausea and vomiting.  The clinical course is usually benign.",
+      "type": "DEFINITION",
+      "source": "NCI"
+    }
+  ],
+  "properties": [
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "GDC"
+    },
+    {
+      "code": "P334",
+      "type": "ICD-O-3_Code",
+      "value": "8290/0"
+    },
+    {
+      "code": "P366",
+      "type": "Legacy Concept Name",
+      "value": "Pituitary_Gland_Oncocytoma"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "Spindle cell oncocytoma"
+    },
+    {
+      "code": "P363",
+      "type": "Neoplastic_Status",
+      "value": "Undetermined"
+    },
+    {
+      "code": "P106",
+      "type": "Semantic_Type",
+      "value": "Neoplastic Process"
+    },
+    {
+      "code": "P207",
+      "type": "UMLS_CUI",
+      "value": "C2986561"
+    }
+  ],
+  "parents": [
+    {
+      "code": "C7072",
+      "name": "Oncocytic Neoplasm"
+    },
+    {
+      "code": "C7157",
+      "name": "Posterior Pituitary Gland Neoplasm"
+    }
+  ],
+  "associations": [
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C157711",
+      "relatedName": "GDC Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C177537",
+      "relatedName": "GDC Value Terminology"
+    },
+    {
+      "type": "Is_Value_For_GDC_Property",
+      "relatedCode": "C177621",
+      "relatedName": "ICD-O-3 Morphology Term Diagnosis Question"
+    }
+  ],
+  "inverseAssociations": [
+    {
+      "type": "Has_GDC_Value",
+      "relatedCode": "C177621",
+      "relatedName": "ICD-O-3 Morphology Term Diagnosis Question"
+    }
+  ],
+  "roles": [
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C36104",
+      "relatedName": "Aggressive Clinical Course"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12439",
+      "relatedName": "Brain"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12438",
+      "relatedName": "Central Nervous System"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12438",
+      "relatedName": "Central Nervous System"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C12578",
+      "relatedName": "Epithelial Cell"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C53596",
+      "relatedName": "Epithelial Component Present"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C45714",
+      "relatedName": "Epithelial Tissue"
+    },
+    {
+      "type": "Disease_Is_Grade",
+      "relatedCode": "C28077",
+      "relatedName": "Grade 1"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12418",
+      "relatedName": "Head and Neck"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C36130",
+      "relatedName": "Low Grade Lesion"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C35983",
+      "relatedName": "Lymphocytic Infiltrate"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C40557",
+      "relatedName": "Metastatic Disease"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C62273",
+      "relatedName": "Mixed Neoplastic Glandular and Squamous Cell Population"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12922",
+      "relatedName": "Neoplastic Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C94551",
+      "relatedName": "Neoplastic Eosinophilic Spindle Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36753",
+      "relatedName": "Neoplastic Epithelial Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36763",
+      "relatedName": "Neoplastic Glandular Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36941",
+      "relatedName": "Neoplastic Oncocyte"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C36937",
+      "relatedName": "Neoplastic Smooth Muscle Cell"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C36760",
+      "relatedName": "Neoplastic Squamous Cell"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12755",
+      "relatedName": "Nervous System"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C45919",
+      "relatedName": "Pituicyte"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12399",
+      "relatedName": "Pituitary Gland"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12773",
+      "relatedName": "Posterior Lobe of the Pituitary Gland"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C155777",
+      "relatedName": "Sellar Region"
+    },
+    {
+      "type": "Disease_Excludes_Primary_Anatomic_Site",
+      "relatedCode": "C12464",
+      "relatedName": "Spinal Cord"
+    }
+  ],
+  "history": [
+    {
+      "code": "C94537",
+      "action": "create",
+      "date": "2010-11-22"
+    },
+    {
+      "code": "C94537",
+      "action": "modify",
+      "date": "2010-12-27"
+    },
+    {
+      "code": "C94537",
+      "action": "modify",
+      "date": "2011-04-25"
+    },
+    {
+      "code": "C94537",
+      "action": "modify",
+      "date": "2012-07-30"
+    },
+    {
+      "code": "C94537",
+      "action": "modify",
+      "date": "2012-12-10"
+    },
+    {
+      "code": "C94537",
+      "action": "modify",
+      "date": "2018-09-24"
+    },
+    {
+      "code": "C94537",
+      "action": "modify",
+      "date": "2019-05-28"
+    },
+    {
+      "code": "C94537",
+      "action": "modify",
+      "date": "2019-09-30"
+    },
+    {
+      "code": "C94537",
+      "action": "modify",
+      "date": "2019-11-25"
+    },
+    {
+      "code": "C94537",
+      "action": "modify",
+      "date": "2021-02-22"
+    },
+    {
+      "code": "C94537",
+      "action": "modify",
+      "date": "2021-03-29"
+    },
+    {
+      "code": "C94537",
+      "action": "modify",
+      "date": "2022-04-25"
+    },
+    {
+      "code": "C94537",
+      "action": "merge",
+      "date": "2022-05-31",
+      "replacementCode": "C94537",
+      "replacementName": "Spindle Cell Oncocytoma"
+    },
+    {
+      "code": "C45935",
+      "action": "merge",
+      "date": "2022-05-31",
+      "replacementCode": "C94537",
+      "replacementName": "Spindle Cell Oncocytoma"
+    },
+    {
+      "code": "C94537",
+      "action": "modify",
+      "date": "2022-05-31"
+    },
+    {
+      "code": "C94537",
+      "action": "modify",
+      "date": "2022-09-26"
+    }
+  ],
+  "maps": [
+    {
+      "type": "Has Synonym",
+      "targetName": "Spindle cell oncocytoma",
+      "targetTermType": "PT",
+      "targetCode": "primary_diagnosis",
+      "targetTerminology": "GDC"
+    }
+  ]
+}

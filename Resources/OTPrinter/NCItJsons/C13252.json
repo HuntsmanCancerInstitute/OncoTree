@@ -1,0 +1,183 @@
+{
+  "code": "C13252",
+  "name": "Lymph",
+  "terminology": "ncit",
+  "version": "25.11d",
+  "conceptStatus": "DEFAULT",
+  "leaf": true,
+  "active": true,
+  "synonyms": [
+    {
+      "name": "LYMPH",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "CDISC"
+    },
+    {
+      "name": "lymph",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NCI-GLOSS",
+      "code": "CDR0000046305"
+    },
+    {
+      "name": "lymphatic fluid",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NCI-GLOSS",
+      "code": "CDR0000044434"
+    },
+    {
+      "name": "Lymph",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Reticuloendothelial System, Lymph",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Lymph",
+      "type": "Preferred_Name"
+    }
+  ],
+  "definitions": [
+    {
+      "definition": "A clear, transparent, sometimes faintly yellow and slightly opalescent fluid that is collected from the tissues throughout the body, flows in the lymphatic vessels (through the lymph nodes), and is eventually added to the venous blood circulation. Lymph consists of a clear liquid portion, varying numbers of white blood cells (chiefly lymphocytes), and a few red blood cells.",
+      "type": "DEFINITION",
+      "source": "NCI"
+    },
+    {
+      "definition": "A clear, transparent, sometimes faintly yellow and slightly opalescent fluid that is collected from the tissues throughout the body, flows in the lymphatic vessels (through the lymph nodes), and is eventually added to the venous blood circulation. Lymph consists of a clear liquid portion, varying numbers of white blood cells (chiefly lymphocytes), and a few red blood cells. (NCI)",
+      "type": "ALT_DEFINITION",
+      "source": "CDISC"
+    },
+    {
+      "definition": "The clear fluid that travels through the lymphatic system and carries cells that help fight infections and other diseases.",
+      "type": "ALT_DEFINITION",
+      "source": "NCI-GLOSS"
+    }
+  ],
+  "properties": [
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "CDISC"
+    },
+    {
+      "code": "P366",
+      "type": "Legacy Concept Name",
+      "value": "Lymph"
+    },
+    {
+      "code": "P106",
+      "type": "Semantic_Type",
+      "value": "Body Substance"
+    },
+    {
+      "code": "P207",
+      "type": "UMLS_CUI",
+      "value": "C0024202"
+    }
+  ],
+  "parents": [
+    {
+      "code": "C13236",
+      "name": "Body Fluid or Substance"
+    }
+  ],
+  "associations": [
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C78734",
+      "relatedName": "CDISC SDTM Specimen Type Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C66830",
+      "relatedName": "CDISC SDTM Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C61410",
+      "relatedName": "Clinical Data Interchange Standards Consortium Terminology"
+    }
+  ],
+  "roles": [
+    {
+      "type": "Anatomic_Structure_Has_Location",
+      "relatedCode": "C33038",
+      "relatedName": "Lymphatic Vessel"
+    }
+  ],
+  "history": [
+    {
+      "code": "C13252",
+      "action": "create",
+      "date": "2003-08-12"
+    },
+    {
+      "code": "C13252",
+      "action": "modify",
+      "date": "2003-10-31"
+    },
+    {
+      "code": "C13252",
+      "action": "modify",
+      "date": "2003-12-30"
+    },
+    {
+      "code": "C13252",
+      "action": "modify",
+      "date": "2004-02-23"
+    },
+    {
+      "code": "C13252",
+      "action": "modify",
+      "date": "2004-04-30"
+    },
+    {
+      "code": "C13252",
+      "action": "modify",
+      "date": "2004-11-17"
+    },
+    {
+      "code": "C13252",
+      "action": "modify",
+      "date": "2005-03-30"
+    },
+    {
+      "code": "C13252",
+      "action": "modify",
+      "date": "2008-12-12"
+    },
+    {
+      "code": "C13252",
+      "action": "modify",
+      "date": "2009-01-16"
+    },
+    {
+      "code": "C13252",
+      "action": "modify",
+      "date": "2009-04-06"
+    },
+    {
+      "code": "C13252",
+      "action": "modify",
+      "date": "2009-11-23"
+    },
+    {
+      "code": "C13252",
+      "action": "modify",
+      "date": "2011-01-24"
+    },
+    {
+      "code": "C13252",
+      "action": "modify",
+      "date": "2014-02-03"
+    }
+  ]
+}

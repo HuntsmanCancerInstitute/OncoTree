@@ -1,0 +1,856 @@
+{
+  "code": "C8300",
+  "name": "Desmoplastic Small Round Cell Tumor",
+  "terminology": "ncit",
+  "version": "25.11d",
+  "conceptStatus": "DEFAULT",
+  "leaf": false,
+  "active": true,
+  "synonyms": [
+    {
+      "name": "Desmoplas. small round cell tumor",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "CTEP",
+      "code": "10064587",
+      "subSource": "SDC"
+    },
+    {
+      "name": "Desmoplastic small round cell tumor",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "CTEP",
+      "code": "10064587",
+      "subSource": "SDC"
+    },
+    {
+      "name": "Desmoplastic Small Round Cell Tumor",
+      "termType": "DN",
+      "type": "FULL_SYN",
+      "source": "CTRP"
+    },
+    {
+      "name": "Desmoplastic small round cell tumor",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "GDC"
+    },
+    {
+      "name": "desmoplastic small round cell tumor",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NCI-GLOSS",
+      "code": "CDR0000044495"
+    },
+    {
+      "name": "Desmoplastic Small Round Cell Tumor",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Desmoplastic Small Round-Cell Neoplasm",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Desmoplastic Small Round-Cell Tumor",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "DSRCT",
+      "termType": "AB",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Polyphenotypic Small Round Cell Tumor",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Desmoplastic Small Round Cell Tumor",
+      "type": "Display_Name"
+    },
+    {
+      "name": "Desmoplastic Small Round Cell Tumor",
+      "type": "Preferred_Name"
+    }
+  ],
+  "definitions": [
+    {
+      "definition": "A rare, aggressive cancer that usually affects young males and usually is located in the abdomen.",
+      "type": "ALT_DEFINITION",
+      "source": "NCI-GLOSS"
+    },
+    {
+      "definition": "An aggressive malignant soft tissue neoplasm of uncertain differentiation.  It is characterized by a recurrent chromosomal translocation t(11;22)(p13;q12) and the presence of small round cells in a desmoplastic stroma.  It usually affects children and young adults.  The most common site of involvement is the abdomen.  Patients usually present with abdominal distention, pain, ascites, and a palpable abdominal mass.  The prognosis is usually poor.",
+      "type": "DEFINITION",
+      "source": "NCI"
+    }
+  ],
+  "properties": [
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "CTEP"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "CTRP"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "GDC"
+    },
+    {
+      "code": "P334",
+      "type": "ICD-O-3_Code",
+      "value": "8806/3"
+    },
+    {
+      "code": "P366",
+      "type": "Legacy Concept Name",
+      "value": "Desmoplastic_Small_Round_Cell_Tumor"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "8806/3"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "Desmoplastic small round cell tumor"
+    },
+    {
+      "code": "P363",
+      "type": "Neoplastic_Status",
+      "value": "Malignant"
+    },
+    {
+      "code": "P106",
+      "type": "Semantic_Type",
+      "value": "Neoplastic Process"
+    },
+    {
+      "code": "P207",
+      "type": "UMLS_CUI",
+      "value": "C0281508"
+    }
+  ],
+  "children": [
+    {
+      "code": "C27373",
+      "name": "Adult Desmoplastic Small Round Cell Tumor",
+      "leaf": true
+    },
+    {
+      "code": "C27372",
+      "name": "Childhood Desmoplastic Small Round Cell Tumor",
+      "leaf": true
+    },
+    {
+      "code": "C213527",
+      "name": "Lung Desmoplastic Small Round Cell Tumor",
+      "leaf": true
+    },
+    {
+      "code": "C170827",
+      "name": "Metastatic Desmoplastic Small Round Cell Tumor",
+      "leaf": false
+    },
+    {
+      "code": "C126356",
+      "name": "Peritoneal Desmoplastic Small Round Cell Tumor",
+      "leaf": true
+    },
+    {
+      "code": "C158426",
+      "name": "Recurrent Desmoplastic Small Round Cell Tumor",
+      "leaf": true
+    },
+    {
+      "code": "C158427",
+      "name": "Refractory Desmoplastic Small Round Cell Tumor",
+      "leaf": true
+    },
+    {
+      "code": "C170826",
+      "name": "Unresectable Desmoplastic Small Round Cell Tumor",
+      "leaf": true
+    }
+  ],
+  "parents": [
+    {
+      "code": "C6588",
+      "name": "Malignant Soft Tissue Neoplasm of Uncertain Differentiation"
+    },
+    {
+      "code": "C3746",
+      "name": "Small Cell Sarcoma"
+    },
+    {
+      "code": "C9306",
+      "name": "Soft Tissue Sarcoma"
+    }
+  ],
+  "associations": [
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C118168",
+      "relatedName": "CTRP Disease Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C116977",
+      "relatedName": "CTRP Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C157711",
+      "relatedName": "GDC Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C177537",
+      "relatedName": "GDC Value Terminology"
+    },
+    {
+      "type": "Is_Value_For_GDC_Property",
+      "relatedCode": "C176985",
+      "relatedName": "Histology ICD-O Morphology Code"
+    },
+    {
+      "type": "Is_Value_For_GDC_Property",
+      "relatedCode": "C177621",
+      "relatedName": "ICD-O-3 Morphology Term Diagnosis Question"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168658",
+      "relatedName": "Mapped ICDO3.1 Morphology PT Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168657",
+      "relatedName": "Mapped ICDO3.1 Morphology Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168655",
+      "relatedName": "Mapped ICDO3.1 Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168662",
+      "relatedName": "Mapped ICDO3.2 Morphology PT Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168661",
+      "relatedName": "Mapped ICDO3.2 Morphology Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168656",
+      "relatedName": "Mapped ICDO3.2 Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C103117",
+      "relatedName": "NCI CTEP SDC Non-Rhabdomyosarcoma Soft Tissue Sarcoma Sub-Category Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C102905",
+      "relatedName": "NCI CTEP Simplified Disease Classification Terminology"
+    }
+  ],
+  "inverseAssociations": [
+    {
+      "type": "Has_GDC_Value",
+      "relatedCode": "C176985",
+      "relatedName": "Histology ICD-O Morphology Code"
+    },
+    {
+      "type": "Has_GDC_Value",
+      "relatedCode": "C177621",
+      "relatedName": "ICD-O-3 Morphology Term Diagnosis Question"
+    }
+  ],
+  "roles": [
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C34333",
+      "relatedName": "Abdominal Mass"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C36122",
+      "relatedName": "Benign Cellular Infiltrate"
+    },
+    {
+      "type": "Disease_Excludes_Primary_Anatomic_Site",
+      "relatedCode": "C12366",
+      "relatedName": "Bone"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12964",
+      "relatedName": "Connective and Soft Tissue"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C12964",
+      "relatedName": "Connective and Soft Tissue"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12964",
+      "relatedName": "Connective and Soft Tissue"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C36003",
+      "relatedName": "Desmoplastic Stroma Formation"
+    },
+    {
+      "type": "Disease_Excludes_Normal_Cell_Origin",
+      "relatedCode": "C12578",
+      "relatedName": "Epithelial Cell"
+    },
+    {
+      "type": "Disease_Excludes_Normal_Tissue_Origin",
+      "relatedCode": "C45714",
+      "relatedName": "Epithelial Tissue"
+    },
+    {
+      "type": "Disease_May_Have_Molecular_Abnormality",
+      "relatedCode": "C37237",
+      "relatedName": "EWSR1-WT1 Fusion Protein Expression"
+    },
+    {
+      "type": "Disease_Mapped_To_Gene",
+      "relatedCode": "C99213",
+      "relatedName": "EWSR1/WT1 Fusion Gene"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C35960",
+      "relatedName": "High Mitotic Activity"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C36105",
+      "relatedName": "Indolent Clinical Course"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C53665",
+      "relatedName": "Intermediate Filaments Present"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C53667",
+      "relatedName": "Intracytoplasmic Eosinophilic Inclusion"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12917",
+      "relatedName": "Malignant Cell"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C36115",
+      "relatedName": "Malignant Cellular Infiltrate"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C36779",
+      "relatedName": "Malignant Epithelial Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36860",
+      "relatedName": "Malignant Small Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C53487",
+      "relatedName": "Malignant Small Round Cell"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C36163",
+      "relatedName": "Metastatic/Recurrent Disease"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12922",
+      "relatedName": "Neoplastic Cell"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C3303",
+      "relatedName": "Pain"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C2885",
+      "relatedName": "Peritoneal Effusion"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12471",
+      "relatedName": "Soft Tissue"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12471",
+      "relatedName": "Soft Tissue"
+    },
+    {
+      "type": "Disease_May_Have_Cytogenetic_Abnormality",
+      "relatedCode": "C36375",
+      "relatedName": "t(11;22)(p13;q12)"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C53583",
+      "relatedName": "Tissue Differentiation Uncertain"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C35957",
+      "relatedName": "Tumor Cell Necrosis"
+    }
+  ],
+  "inverseRoles": [
+    {
+      "type": "Gene_Involved_In_Pathogenesis_Of_Disease",
+      "relatedCode": "C99213",
+      "relatedName": "EWSR1/WT1 Fusion Gene"
+    }
+  ],
+  "history": [
+    {
+      "code": "C8300",
+      "action": "create",
+      "date": "2003-08-12"
+    },
+    {
+      "code": "C8300",
+      "action": "modify",
+      "date": "2003-10-31"
+    },
+    {
+      "code": "C8300",
+      "action": "modify",
+      "date": "2003-12-30"
+    },
+    {
+      "code": "C8300",
+      "action": "modify",
+      "date": "2004-03-30"
+    },
+    {
+      "code": "C8300",
+      "action": "modify",
+      "date": "2004-04-30"
+    },
+    {
+      "code": "C8300",
+      "action": "modify",
+      "date": "2006-02-24"
+    },
+    {
+      "code": "C8300",
+      "action": "modify",
+      "date": "2006-03-31"
+    },
+    {
+      "code": "C8300",
+      "action": "modify",
+      "date": "2006-12-29"
+    },
+    {
+      "code": "C8300",
+      "action": "modify",
+      "date": "2007-03-30"
+    },
+    {
+      "code": "C8300",
+      "action": "modify",
+      "date": "2009-11-23"
+    },
+    {
+      "code": "C8300",
+      "action": "modify",
+      "date": "2010-01-11"
+    },
+    {
+      "code": "C8300",
+      "action": "modify",
+      "date": "2010-11-08"
+    },
+    {
+      "code": "C8300",
+      "action": "modify",
+      "date": "2011-02-22"
+    },
+    {
+      "code": "C8300",
+      "action": "modify",
+      "date": "2011-03-07"
+    },
+    {
+      "code": "C8300",
+      "action": "modify",
+      "date": "2011-12-19"
+    },
+    {
+      "code": "C8300",
+      "action": "modify",
+      "date": "2012-03-05"
+    },
+    {
+      "code": "C8300",
+      "action": "modify",
+      "date": "2012-09-24"
+    },
+    {
+      "code": "C8300",
+      "action": "modify",
+      "date": "2012-10-01"
+    },
+    {
+      "code": "C8300",
+      "action": "modify",
+      "date": "2012-10-09"
+    },
+    {
+      "code": "C8300",
+      "action": "modify",
+      "date": "2012-10-15"
+    },
+    {
+      "code": "C8300",
+      "action": "modify",
+      "date": "2012-10-22"
+    },
+    {
+      "code": "C8300",
+      "action": "modify",
+      "date": "2012-10-31"
+    },
+    {
+      "code": "C8300",
+      "action": "modify",
+      "date": "2012-11-05"
+    },
+    {
+      "code": "C8300",
+      "action": "modify",
+      "date": "2012-11-13"
+    },
+    {
+      "code": "C8300",
+      "action": "modify",
+      "date": "2012-11-19"
+    },
+    {
+      "code": "C8300",
+      "action": "modify",
+      "date": "2012-11-26"
+    },
+    {
+      "code": "C8300",
+      "action": "modify",
+      "date": "2012-12-03"
+    },
+    {
+      "code": "C8300",
+      "action": "modify",
+      "date": "2012-12-10"
+    },
+    {
+      "code": "C8300",
+      "action": "modify",
+      "date": "2012-12-17"
+    },
+    {
+      "code": "C8300",
+      "action": "modify",
+      "date": "2012-12-28"
+    },
+    {
+      "code": "C8300",
+      "action": "modify",
+      "date": "2013-01-07"
+    },
+    {
+      "code": "C8300",
+      "action": "modify",
+      "date": "2013-01-14"
+    },
+    {
+      "code": "C8300",
+      "action": "modify",
+      "date": "2013-01-23"
+    },
+    {
+      "code": "C8300",
+      "action": "modify",
+      "date": "2013-02-04"
+    },
+    {
+      "code": "C8300",
+      "action": "modify",
+      "date": "2013-02-11"
+    },
+    {
+      "code": "C8300",
+      "action": "modify",
+      "date": "2013-02-19"
+    },
+    {
+      "code": "C8300",
+      "action": "modify",
+      "date": "2013-02-25"
+    },
+    {
+      "code": "C8300",
+      "action": "modify",
+      "date": "2013-03-04"
+    },
+    {
+      "code": "C8300",
+      "action": "modify",
+      "date": "2013-03-11"
+    },
+    {
+      "code": "C8300",
+      "action": "modify",
+      "date": "2013-03-18"
+    },
+    {
+      "code": "C8300",
+      "action": "modify",
+      "date": "2013-03-25"
+    },
+    {
+      "code": "C8300",
+      "action": "modify",
+      "date": "2013-04-01"
+    },
+    {
+      "code": "C8300",
+      "action": "modify",
+      "date": "2013-04-08"
+    },
+    {
+      "code": "C8300",
+      "action": "modify",
+      "date": "2013-04-15"
+    },
+    {
+      "code": "C8300",
+      "action": "modify",
+      "date": "2013-04-22"
+    },
+    {
+      "code": "C8300",
+      "action": "modify",
+      "date": "2013-04-29"
+    },
+    {
+      "code": "C8300",
+      "action": "modify",
+      "date": "2013-05-06"
+    },
+    {
+      "code": "C8300",
+      "action": "modify",
+      "date": "2013-05-13"
+    },
+    {
+      "code": "C8300",
+      "action": "modify",
+      "date": "2013-05-20"
+    },
+    {
+      "code": "C8300",
+      "action": "modify",
+      "date": "2013-05-28"
+    },
+    {
+      "code": "C8300",
+      "action": "modify",
+      "date": "2013-06-03"
+    },
+    {
+      "code": "C8300",
+      "action": "modify",
+      "date": "2013-06-10"
+    },
+    {
+      "code": "C8300",
+      "action": "modify",
+      "date": "2013-06-17"
+    },
+    {
+      "code": "C8300",
+      "action": "modify",
+      "date": "2013-06-24"
+    },
+    {
+      "code": "C8300",
+      "action": "modify",
+      "date": "2013-07-01"
+    },
+    {
+      "code": "C8300",
+      "action": "modify",
+      "date": "2013-07-08"
+    },
+    {
+      "code": "C8300",
+      "action": "modify",
+      "date": "2014-08-25"
+    },
+    {
+      "code": "C8300",
+      "action": "modify",
+      "date": "2014-09-22"
+    },
+    {
+      "code": "C8300",
+      "action": "modify",
+      "date": "2015-03-09"
+    },
+    {
+      "code": "C8300",
+      "action": "modify",
+      "date": "2015-05-04"
+    },
+    {
+      "code": "C8300",
+      "action": "modify",
+      "date": "2015-05-11"
+    },
+    {
+      "code": "C8300",
+      "action": "modify",
+      "date": "2015-05-26"
+    },
+    {
+      "code": "C8300",
+      "action": "modify",
+      "date": "2015-09-08"
+    },
+    {
+      "code": "C8300",
+      "action": "modify",
+      "date": "2018-01-29"
+    },
+    {
+      "code": "C8300",
+      "action": "modify",
+      "date": "2018-07-30"
+    },
+    {
+      "code": "C8300",
+      "action": "modify",
+      "date": "2018-08-27"
+    },
+    {
+      "code": "C8300",
+      "action": "modify",
+      "date": "2018-08-27"
+    },
+    {
+      "code": "C8300",
+      "action": "modify",
+      "date": "2018-09-24"
+    },
+    {
+      "code": "C8300",
+      "action": "modify",
+      "date": "2019-05-28"
+    },
+    {
+      "code": "C8300",
+      "action": "modify",
+      "date": "2019-09-30"
+    },
+    {
+      "code": "C8300",
+      "action": "modify",
+      "date": "2019-11-25"
+    },
+    {
+      "code": "C8300",
+      "action": "modify",
+      "date": "2020-02-24"
+    },
+    {
+      "code": "C8300",
+      "action": "modify",
+      "date": "2020-04-27"
+    },
+    {
+      "code": "C8300",
+      "action": "modify",
+      "date": "2021-02-22"
+    },
+    {
+      "code": "C8300",
+      "action": "modify",
+      "date": "2021-03-29"
+    },
+    {
+      "code": "C8300",
+      "action": "modify",
+      "date": "2023-12-26"
+    }
+  ],
+  "maps": [
+    {
+      "type": "Related To",
+      "targetName": "8806/3",
+      "targetTermType": "PT",
+      "targetCode": "morphology",
+      "targetTerminology": "GDC"
+    },
+    {
+      "type": "Related To",
+      "targetName": "Desmoplastic small round cell tumor",
+      "targetTermType": "PT",
+      "targetCode": "8806/3",
+      "targetTerminology": "ICDO3",
+      "targetTerminologyVersion": "3.1"
+    },
+    {
+      "type": "Related To",
+      "targetName": "Desmoplastic small round cell tumor",
+      "targetTermType": "PT",
+      "targetCode": "8806/3",
+      "targetTerminology": "ICDO3",
+      "targetTerminologyVersion": "3.2"
+    },
+    {
+      "type": "Has Synonym",
+      "targetName": "Desmoplastic small round cell tumor",
+      "targetTermType": "PT",
+      "targetCode": "primary_diagnosis",
+      "targetTerminology": "GDC"
+    }
+  ]
+}

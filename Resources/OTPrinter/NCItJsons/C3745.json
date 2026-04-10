@@ -1,0 +1,1028 @@
+{
+  "code": "C3745",
+  "name": "Clear Cell Sarcoma of Soft Tissue",
+  "terminology": "ncit",
+  "version": "25.11d",
+  "conceptStatus": "DEFAULT",
+  "leaf": false,
+  "active": true,
+  "synonyms": [
+    {
+      "name": "Clear Cell Sarcoma of Soft Tissue",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "Cellosaurus"
+    },
+    {
+      "name": "Clear cell sarcoma of soft tissue",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "CPTAC"
+    },
+    {
+      "name": "Clear cell sarcoma - not kidney",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "CTEP",
+      "code": "10065865",
+      "subSource": "SDC"
+    },
+    {
+      "name": "Clear cell sarcoma/Malignant melanoma of soft parts (excluding Clear cell sarcoma of the kidney)",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "CTEP",
+      "code": "10065865",
+      "subSource": "SDC"
+    },
+    {
+      "name": "Clear Cell Sarcoma of Soft Tissue",
+      "termType": "DN",
+      "type": "FULL_SYN",
+      "source": "CTRP"
+    },
+    {
+      "name": "Melanoma, malignant, of soft parts",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "GDC"
+    },
+    {
+      "name": "clear cell sarcoma of soft tissue",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NCI-GLOSS",
+      "code": "CDR0000641939"
+    },
+    {
+      "name": "malignant melanoma of soft parts",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NCI-GLOSS",
+      "code": "CDR0000656145"
+    },
+    {
+      "name": "Clear Cell Sarcoma of Soft Parts",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Clear Cell Sarcoma of Soft Tissue",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Clear Cell Sarcoma of Tendons and Aponeuroses",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Melanoma of Soft Parts",
+      "termType": "AQS",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Melanoma of the Soft Parts",
+      "termType": "AQS",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Clear Cell Sarcoma of Soft Tissue",
+      "type": "Display_Name"
+    },
+    {
+      "name": "Clear Cell Sarcoma of Soft Tissue",
+      "type": "Preferred_Name"
+    }
+  ],
+  "definitions": [
+    {
+      "definition": "A rare malignant neoplasm with melanocytic differentiation characterized by the presence of polygonal or spindle shaped clear cells. This sarcoma usually affects the tendons and aponeuroses and is associated with a poor prognosis due to recurrences and metastases.",
+      "type": "DEFINITION",
+      "source": "NCI"
+    },
+    {
+      "definition": "A soft tissue tumor that begins in a tendon (tough, fibrous, cord-like tissue that connects muscle to bone or to another structure). Clear cell sarcoma of soft tissue has certain markers that are also found on malignant melanoma (a type of skin cancer). It usually occurs in the leg or arm.",
+      "type": "ALT_DEFINITION",
+      "source": "NCI-GLOSS"
+    }
+  ],
+  "properties": [
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "Cellosaurus"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "CPTAC"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "CTEP"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "CTRP"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "GDC"
+    },
+    {
+      "code": "P334",
+      "type": "ICD-O-3_Code",
+      "value": "9044/3"
+    },
+    {
+      "code": "P366",
+      "type": "Legacy Concept Name",
+      "value": "Clear_Cell_Sarcoma_of_Soft_Parts"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "9044/3"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "Clear cell sarcoma, NOS"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "Melanoma, malignant, of soft parts"
+    },
+    {
+      "code": "P363",
+      "type": "Neoplastic_Status",
+      "value": "Malignant"
+    },
+    {
+      "code": "P106",
+      "type": "Semantic_Type",
+      "value": "Neoplastic Process"
+    },
+    {
+      "code": "P207",
+      "type": "UMLS_CUI",
+      "value": "C0206651"
+    }
+  ],
+  "children": [
+    {
+      "code": "C27370",
+      "name": "Adult Clear Cell Sarcoma of Soft Tissue",
+      "leaf": true
+    },
+    {
+      "code": "C27371",
+      "name": "Childhood Clear Cell Sarcoma of Soft Tissue",
+      "leaf": true
+    },
+    {
+      "code": "C207033",
+      "name": "Dermal Clear Cell Sarcoma",
+      "leaf": true
+    },
+    {
+      "code": "C161585",
+      "name": "Metastatic Clear Cell Sarcoma of Soft Tissue",
+      "leaf": false
+    },
+    {
+      "code": "C180980",
+      "name": "Recurrent Clear Cell Sarcoma of Soft Tissue",
+      "leaf": true
+    },
+    {
+      "code": "C180979",
+      "name": "Refractory Clear Cell Sarcoma of Soft Tissue",
+      "leaf": true
+    },
+    {
+      "code": "C223048",
+      "name": "Unresectable Clear Cell Sarcoma of Soft Tissue",
+      "leaf": true
+    }
+  ],
+  "parents": [
+    {
+      "code": "C6588",
+      "name": "Malignant Soft Tissue Neoplasm of Uncertain Differentiation"
+    },
+    {
+      "code": "C9306",
+      "name": "Soft Tissue Sarcoma"
+    }
+  ],
+  "associations": [
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C165258",
+      "relatedName": "Cellosaurus Disease Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C156953",
+      "relatedName": "CPTAC Baseline Medical Forms Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C159414",
+      "relatedName": "CPTAC Sarcoma Baseline Form"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C156952",
+      "relatedName": "CPTAC Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C118168",
+      "relatedName": "CTRP Disease Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C116977",
+      "relatedName": "CTRP Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C157711",
+      "relatedName": "GDC Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C177537",
+      "relatedName": "GDC Value Terminology"
+    },
+    {
+      "type": "Is_Value_For_GDC_Property",
+      "relatedCode": "C176985",
+      "relatedName": "Histology ICD-O Morphology Code"
+    },
+    {
+      "type": "Is_Value_For_GDC_Property",
+      "relatedCode": "C177621",
+      "relatedName": "ICD-O-3 Morphology Term Diagnosis Question"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168658",
+      "relatedName": "Mapped ICDO3.1 Morphology PT Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168657",
+      "relatedName": "Mapped ICDO3.1 Morphology Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168655",
+      "relatedName": "Mapped ICDO3.1 Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168662",
+      "relatedName": "Mapped ICDO3.2 Morphology PT Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168661",
+      "relatedName": "Mapped ICDO3.2 Morphology Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168656",
+      "relatedName": "Mapped ICDO3.2 Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C103117",
+      "relatedName": "NCI CTEP SDC Non-Rhabdomyosarcoma Soft Tissue Sarcoma Sub-Category Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C102905",
+      "relatedName": "NCI CTEP Simplified Disease Classification Terminology"
+    }
+  ],
+  "inverseAssociations": [
+    {
+      "type": "Has_GDC_Value",
+      "relatedCode": "C176985",
+      "relatedName": "Histology ICD-O Morphology Code"
+    },
+    {
+      "type": "Has_GDC_Value",
+      "relatedCode": "C177621",
+      "relatedName": "ICD-O-3 Morphology Term Diagnosis Question"
+    }
+  ],
+  "roles": [
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C36122",
+      "relatedName": "Benign Cellular Infiltrate"
+    },
+    {
+      "type": "Disease_Excludes_Primary_Anatomic_Site",
+      "relatedCode": "C12366",
+      "relatedName": "Bone"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12964",
+      "relatedName": "Connective and Soft Tissue"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12964",
+      "relatedName": "Connective and Soft Tissue"
+    },
+    {
+      "type": "Disease_Excludes_Normal_Cell_Origin",
+      "relatedCode": "C12578",
+      "relatedName": "Epithelial Cell"
+    },
+    {
+      "type": "Disease_Excludes_Normal_Tissue_Origin",
+      "relatedCode": "C45714",
+      "relatedName": "Epithelial Tissue"
+    },
+    {
+      "type": "Disease_Has_Molecular_Abnormality",
+      "relatedCode": "C165667",
+      "relatedName": "EWSR1 Gene Rearrangement"
+    },
+    {
+      "type": "Disease_May_Have_Molecular_Abnormality",
+      "relatedCode": "C37232",
+      "relatedName": "EWSR1-ATF1 Fusion Protein Expression"
+    },
+    {
+      "type": "Disease_May_Have_Molecular_Abnormality",
+      "relatedCode": "C121772",
+      "relatedName": "EWSR1-CREB1 Fusion Protein Expression"
+    },
+    {
+      "type": "Disease_Mapped_To_Gene",
+      "relatedCode": "C99216",
+      "relatedName": "EWSR1/ATF1 Fusion Gene"
+    },
+    {
+      "type": "Disease_Mapped_To_Gene",
+      "relatedCode": "C99249",
+      "relatedName": "EWSR1/CREB1 Fusion Gene"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C39743",
+      "relatedName": "Fascicular Pattern"
+    },
+    {
+      "type": "Disease_May_Have_Cytogenetic_Abnormality",
+      "relatedCode": "C36454",
+      "relatedName": "Gain of Chromosome 7"
+    },
+    {
+      "type": "Disease_May_Have_Cytogenetic_Abnormality",
+      "relatedCode": "C36455",
+      "relatedName": "Gain of Chromosome 8"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C36105",
+      "relatedName": "Indolent Clinical Course"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C53665",
+      "relatedName": "Intermediate Filaments Present"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C53667",
+      "relatedName": "Intracytoplasmic Eosinophilic Inclusion"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12917",
+      "relatedName": "Malignant Cell"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C36115",
+      "relatedName": "Malignant Cellular Infiltrate"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C36779",
+      "relatedName": "Malignant Epithelial Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C53641",
+      "relatedName": "Malignant Polygonal Cell with Eosinophilic Cytoplasm"
+    },
+    {
+      "type": "Disease_May_Have_Abnormal_Cell",
+      "relatedCode": "C53637",
+      "relatedName": "Malignant Spindle Cell"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C41415",
+      "relatedName": "Melanosomes Present"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C36163",
+      "relatedName": "Metastatic/Recurrent Disease"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12922",
+      "relatedName": "Neoplastic Cell"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C35892",
+      "relatedName": "Nested Pattern"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C41458",
+      "relatedName": "Slow Growing Mass"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12471",
+      "relatedName": "Soft Tissue"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12471",
+      "relatedName": "Soft Tissue"
+    },
+    {
+      "type": "Disease_May_Have_Cytogenetic_Abnormality",
+      "relatedCode": "C36374",
+      "relatedName": "t(12;22)(q13;q12)"
+    },
+    {
+      "type": "Disease_May_Have_Cytogenetic_Abnormality",
+      "relatedCode": "C174481",
+      "relatedName": "t(2;22)(q34;q12)"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C53583",
+      "relatedName": "Tissue Differentiation Uncertain"
+    },
+    {
+      "type": "Disease_May_Have_Abnormal_Cell",
+      "relatedCode": "C53640",
+      "relatedName": "Wreath-Like Multinucleated Giant Cell"
+    }
+  ],
+  "inverseRoles": [
+    {
+      "type": "Gene_Involved_In_Pathogenesis_Of_Disease",
+      "relatedCode": "C99219",
+      "relatedName": "EWSR1/ATF1 Fusion Gene Type 1"
+    },
+    {
+      "type": "Gene_Involved_In_Pathogenesis_Of_Disease",
+      "relatedCode": "C99220",
+      "relatedName": "EWSR1/ATF1 Fusion Gene Type 2"
+    },
+    {
+      "type": "Gene_Involved_In_Pathogenesis_Of_Disease",
+      "relatedCode": "C99216",
+      "relatedName": "EWSR1/ATF1 Fusion Gene"
+    },
+    {
+      "type": "Gene_Involved_In_Pathogenesis_Of_Disease",
+      "relatedCode": "C99249",
+      "relatedName": "EWSR1/CREB1 Fusion Gene"
+    }
+  ],
+  "history": [
+    {
+      "code": "C3745",
+      "action": "create",
+      "date": "2003-08-12"
+    },
+    {
+      "code": "C3745",
+      "action": "modify",
+      "date": "2003-10-31"
+    },
+    {
+      "code": "C3745",
+      "action": "modify",
+      "date": "2003-12-30"
+    },
+    {
+      "code": "C3745",
+      "action": "modify",
+      "date": "2004-03-30"
+    },
+    {
+      "code": "C3745",
+      "action": "modify",
+      "date": "2005-01-28"
+    },
+    {
+      "code": "C3745",
+      "action": "modify",
+      "date": "2005-03-16"
+    },
+    {
+      "code": "C3745",
+      "action": "modify",
+      "date": "2005-09-09"
+    },
+    {
+      "code": "C3745",
+      "action": "modify",
+      "date": "2006-02-24"
+    },
+    {
+      "code": "C3745",
+      "action": "modify",
+      "date": "2007-03-30"
+    },
+    {
+      "code": "C3745",
+      "action": "modify",
+      "date": "2007-06-28"
+    },
+    {
+      "code": "C3745",
+      "action": "modify",
+      "date": "2009-04-06"
+    },
+    {
+      "code": "C3745",
+      "action": "modify",
+      "date": "2009-11-02"
+    },
+    {
+      "code": "C3745",
+      "action": "modify",
+      "date": "2009-11-23"
+    },
+    {
+      "code": "C3745",
+      "action": "modify",
+      "date": "2010-11-01"
+    },
+    {
+      "code": "C3745",
+      "action": "modify",
+      "date": "2010-11-08"
+    },
+    {
+      "code": "C3745",
+      "action": "modify",
+      "date": "2010-11-15"
+    },
+    {
+      "code": "C3745",
+      "action": "modify",
+      "date": "2010-11-22"
+    },
+    {
+      "code": "C3745",
+      "action": "modify",
+      "date": "2010-11-29"
+    },
+    {
+      "code": "C3745",
+      "action": "modify",
+      "date": "2010-12-06"
+    },
+    {
+      "code": "C3745",
+      "action": "modify",
+      "date": "2010-12-13"
+    },
+    {
+      "code": "C3745",
+      "action": "modify",
+      "date": "2010-12-27"
+    },
+    {
+      "code": "C3745",
+      "action": "modify",
+      "date": "2011-01-03"
+    },
+    {
+      "code": "C3745",
+      "action": "modify",
+      "date": "2011-01-10"
+    },
+    {
+      "code": "C3745",
+      "action": "modify",
+      "date": "2011-01-17"
+    },
+    {
+      "code": "C3745",
+      "action": "modify",
+      "date": "2011-01-24"
+    },
+    {
+      "code": "C3745",
+      "action": "modify",
+      "date": "2011-01-31"
+    },
+    {
+      "code": "C3745",
+      "action": "modify",
+      "date": "2011-03-07"
+    },
+    {
+      "code": "C3745",
+      "action": "modify",
+      "date": "2012-03-05"
+    },
+    {
+      "code": "C3745",
+      "action": "modify",
+      "date": "2012-09-24"
+    },
+    {
+      "code": "C3745",
+      "action": "modify",
+      "date": "2012-10-01"
+    },
+    {
+      "code": "C3745",
+      "action": "modify",
+      "date": "2012-10-09"
+    },
+    {
+      "code": "C3745",
+      "action": "modify",
+      "date": "2012-10-15"
+    },
+    {
+      "code": "C3745",
+      "action": "modify",
+      "date": "2012-10-22"
+    },
+    {
+      "code": "C3745",
+      "action": "modify",
+      "date": "2012-10-31"
+    },
+    {
+      "code": "C3745",
+      "action": "modify",
+      "date": "2012-11-05"
+    },
+    {
+      "code": "C3745",
+      "action": "modify",
+      "date": "2012-11-13"
+    },
+    {
+      "code": "C3745",
+      "action": "modify",
+      "date": "2012-11-19"
+    },
+    {
+      "code": "C3745",
+      "action": "modify",
+      "date": "2012-11-26"
+    },
+    {
+      "code": "C3745",
+      "action": "modify",
+      "date": "2012-12-03"
+    },
+    {
+      "code": "C3745",
+      "action": "modify",
+      "date": "2012-12-10"
+    },
+    {
+      "code": "C3745",
+      "action": "modify",
+      "date": "2012-12-17"
+    },
+    {
+      "code": "C3745",
+      "action": "modify",
+      "date": "2012-12-28"
+    },
+    {
+      "code": "C3745",
+      "action": "modify",
+      "date": "2013-01-07"
+    },
+    {
+      "code": "C3745",
+      "action": "modify",
+      "date": "2013-01-14"
+    },
+    {
+      "code": "C3745",
+      "action": "modify",
+      "date": "2013-01-23"
+    },
+    {
+      "code": "C3745",
+      "action": "modify",
+      "date": "2013-02-04"
+    },
+    {
+      "code": "C3745",
+      "action": "modify",
+      "date": "2013-02-11"
+    },
+    {
+      "code": "C3745",
+      "action": "modify",
+      "date": "2013-02-19"
+    },
+    {
+      "code": "C3745",
+      "action": "modify",
+      "date": "2013-02-25"
+    },
+    {
+      "code": "C3745",
+      "action": "modify",
+      "date": "2013-03-04"
+    },
+    {
+      "code": "C3745",
+      "action": "modify",
+      "date": "2013-03-11"
+    },
+    {
+      "code": "C3745",
+      "action": "modify",
+      "date": "2013-03-18"
+    },
+    {
+      "code": "C3745",
+      "action": "modify",
+      "date": "2013-03-25"
+    },
+    {
+      "code": "C3745",
+      "action": "modify",
+      "date": "2013-04-01"
+    },
+    {
+      "code": "C3745",
+      "action": "modify",
+      "date": "2013-04-08"
+    },
+    {
+      "code": "C3745",
+      "action": "modify",
+      "date": "2013-04-15"
+    },
+    {
+      "code": "C3745",
+      "action": "modify",
+      "date": "2013-04-22"
+    },
+    {
+      "code": "C3745",
+      "action": "modify",
+      "date": "2013-04-29"
+    },
+    {
+      "code": "C3745",
+      "action": "modify",
+      "date": "2013-05-06"
+    },
+    {
+      "code": "C3745",
+      "action": "modify",
+      "date": "2013-05-13"
+    },
+    {
+      "code": "C3745",
+      "action": "modify",
+      "date": "2013-05-20"
+    },
+    {
+      "code": "C3745",
+      "action": "modify",
+      "date": "2013-05-28"
+    },
+    {
+      "code": "C3745",
+      "action": "modify",
+      "date": "2013-06-03"
+    },
+    {
+      "code": "C3745",
+      "action": "modify",
+      "date": "2013-06-10"
+    },
+    {
+      "code": "C3745",
+      "action": "modify",
+      "date": "2013-06-17"
+    },
+    {
+      "code": "C3745",
+      "action": "modify",
+      "date": "2013-06-24"
+    },
+    {
+      "code": "C3745",
+      "action": "modify",
+      "date": "2013-07-01"
+    },
+    {
+      "code": "C3745",
+      "action": "modify",
+      "date": "2013-07-08"
+    },
+    {
+      "code": "C3745",
+      "action": "modify",
+      "date": "2014-02-03"
+    },
+    {
+      "code": "C3745",
+      "action": "modify",
+      "date": "2015-03-09"
+    },
+    {
+      "code": "C3745",
+      "action": "modify",
+      "date": "2015-05-11"
+    },
+    {
+      "code": "C3745",
+      "action": "modify",
+      "date": "2015-05-26"
+    },
+    {
+      "code": "C3745",
+      "action": "modify",
+      "date": "2018-09-24"
+    },
+    {
+      "code": "C3745",
+      "action": "modify",
+      "date": "2019-04-29"
+    },
+    {
+      "code": "C3745",
+      "action": "modify",
+      "date": "2019-05-28"
+    },
+    {
+      "code": "C3745",
+      "action": "modify",
+      "date": "2019-06-24"
+    },
+    {
+      "code": "C3745",
+      "action": "modify",
+      "date": "2019-07-29"
+    },
+    {
+      "code": "C3745",
+      "action": "modify",
+      "date": "2019-09-30"
+    },
+    {
+      "code": "C3745",
+      "action": "modify",
+      "date": "2019-10-28"
+    },
+    {
+      "code": "C3745",
+      "action": "modify",
+      "date": "2019-11-25"
+    },
+    {
+      "code": "C3745",
+      "action": "modify",
+      "date": "2020-02-24"
+    },
+    {
+      "code": "C3745",
+      "action": "modify",
+      "date": "2020-03-30"
+    },
+    {
+      "code": "C3745",
+      "action": "modify",
+      "date": "2020-04-27"
+    },
+    {
+      "code": "C3745",
+      "action": "modify",
+      "date": "2020-06-29"
+    },
+    {
+      "code": "C3745",
+      "action": "modify",
+      "date": "2021-02-22"
+    },
+    {
+      "code": "C3745",
+      "action": "modify",
+      "date": "2021-03-29"
+    },
+    {
+      "code": "C3745",
+      "action": "modify",
+      "date": "2021-04-26"
+    },
+    {
+      "code": "C3745",
+      "action": "modify",
+      "date": "2022-08-29"
+    },
+    {
+      "code": "C3745",
+      "action": "modify",
+      "date": "2023-02-27"
+    },
+    {
+      "code": "C3745",
+      "action": "modify",
+      "date": "2023-09-25"
+    },
+    {
+      "code": "C3745",
+      "action": "modify",
+      "date": "2023-10-30"
+    },
+    {
+      "code": "C3745",
+      "action": "modify",
+      "date": "2024-06-24"
+    },
+    {
+      "code": "C3745",
+      "action": "modify",
+      "date": "2025-03-31"
+    }
+  ],
+  "maps": [
+    {
+      "type": "Related To",
+      "targetName": "9044/3",
+      "targetTermType": "PT",
+      "targetCode": "morphology",
+      "targetTerminology": "GDC"
+    },
+    {
+      "type": "Related To",
+      "targetName": "Clear cell sarcoma, NOS",
+      "targetTermType": "PT",
+      "targetCode": "9044/3",
+      "targetTerminology": "ICDO3",
+      "targetTerminologyVersion": "3.1"
+    },
+    {
+      "type": "Related To",
+      "targetName": "Clear cell sarcoma, NOS",
+      "targetTermType": "PT",
+      "targetCode": "9044/3",
+      "targetTerminology": "ICDO3",
+      "targetTerminologyVersion": "3.2"
+    },
+    {
+      "type": "Related To",
+      "targetName": "Clear cell sarcoma, NOS",
+      "targetTermType": "PT",
+      "targetCode": "primary_diagnosis",
+      "targetTerminology": "GDC"
+    },
+    {
+      "type": "Has Synonym",
+      "targetName": "Melanoma, malignant, of soft parts",
+      "targetTermType": "PT",
+      "targetCode": "primary_diagnosis",
+      "targetTerminology": "GDC"
+    }
+  ]
+}

@@ -1,0 +1,355 @@
+{
+  "code": "C8108",
+  "name": "Ovarian Embryonal Carcinoma",
+  "terminology": "ncit",
+  "version": "25.11d",
+  "conceptStatus": "DEFAULT",
+  "leaf": false,
+  "active": true,
+  "synonyms": [
+    {
+      "name": "Ovarian Embryonal Carcinoma",
+      "termType": "DN",
+      "type": "FULL_SYN",
+      "source": "CTRP"
+    },
+    {
+      "name": "Embryonal Carcinoma of Ovary",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Embryonal Carcinoma of the Ovary",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Ovarian Embryonal Carcinoma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Ovarian Embryonal Carcinoma",
+      "type": "Display_Name"
+    },
+    {
+      "name": "Ovarian Embryonal Carcinoma",
+      "type": "Preferred_Name"
+    }
+  ],
+  "definitions": [
+    {
+      "definition": "An embryonal carcinoma arising from the ovary.  Signs and symptoms include the presence of an abdominal mass and abdominal pain.",
+      "type": "DEFINITION",
+      "source": "NCI"
+    }
+  ],
+  "properties": [
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "CTRP"
+    },
+    {
+      "code": "P366",
+      "type": "Legacy Concept Name",
+      "value": "Ovarian_Embryonal_Carcinoma"
+    },
+    {
+      "code": "P363",
+      "type": "Neoplastic_Status",
+      "value": "Malignant"
+    },
+    {
+      "code": "P106",
+      "type": "Semantic_Type",
+      "value": "Neoplastic Process"
+    },
+    {
+      "code": "P207",
+      "type": "UMLS_CUI",
+      "value": "C0346183"
+    }
+  ],
+  "children": [
+    {
+      "code": "C6546",
+      "name": "Childhood Ovarian Embryonal Carcinoma",
+      "leaf": true
+    },
+    {
+      "code": "C8734",
+      "name": "Stage I Ovarian Embryonal Carcinoma AJCC v6 and v7",
+      "leaf": true
+    },
+    {
+      "code": "C8725",
+      "name": "Stage II Ovarian Embryonal Carcinoma AJCC v6 and v7",
+      "leaf": true
+    },
+    {
+      "code": "C8728",
+      "name": "Stage III Ovarian Embryonal Carcinoma AJCC v6 and v7",
+      "leaf": true
+    },
+    {
+      "code": "C8729",
+      "name": "Stage IV Ovarian Embryonal Carcinoma AJCC v6 and v7",
+      "leaf": true
+    }
+  ],
+  "parents": [
+    {
+      "code": "C3752",
+      "name": "Embryonal Carcinoma"
+    },
+    {
+      "code": "C102870",
+      "name": "Ovarian Non-Dysgerminomatous Germ Cell Tumor"
+    }
+  ],
+  "associations": [
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C118168",
+      "relatedName": "CTRP Disease Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C116977",
+      "relatedName": "CTRP Terminology"
+    }
+  ],
+  "roles": [
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C34333",
+      "relatedName": "Abdominal Mass"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C26682",
+      "relatedName": "Abdominal Pain"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C137974",
+      "relatedName": "Adnexa"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C36122",
+      "relatedName": "Benign Cellular Infiltrate"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12402",
+      "relatedName": "Female Reproductive System"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12810",
+      "relatedName": "Genitourinary System"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C41433",
+      "relatedName": "Geographic Necrosis"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C12597",
+      "relatedName": "Germ Cell"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C54105",
+      "relatedName": "Germinal Layer"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12725",
+      "relatedName": "Gonad"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C35960",
+      "relatedName": "High Mitotic Activity"
+    },
+    {
+      "type": "Disease_Has_Cytogenetic_Abnormality",
+      "relatedCode": "C39913",
+      "relatedName": "i(12p)"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12917",
+      "relatedName": "Malignant Cell"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C36115",
+      "relatedName": "Malignant Cellular Infiltrate"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C123865",
+      "relatedName": "Malignant Germinomatous Cells Present"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C54127",
+      "relatedName": "Malignant Large Germ Cell with Abundant Cytoplasm"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C156460",
+      "relatedName": "Malignant Primitive Cellular Infiltrate"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12922",
+      "relatedName": "Neoplastic Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36903",
+      "relatedName": "Neoplastic Germ Cell"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C36898",
+      "relatedName": "Neoplastic Sex Cord-Stromal Cell"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12404",
+      "relatedName": "Ovary"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12404",
+      "relatedName": "Ovary"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C35921",
+      "relatedName": "Pseudoglandular Pattern"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C35912",
+      "relatedName": "Pseudopapillary Pattern"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12841",
+      "relatedName": "Reproductive System"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12321",
+      "relatedName": "Uterine Adnexa"
+    }
+  ],
+  "history": [
+    {
+      "code": "C8108",
+      "action": "create",
+      "date": "2003-08-12"
+    },
+    {
+      "code": "C8108",
+      "action": "modify",
+      "date": "2003-10-31"
+    },
+    {
+      "code": "C8108",
+      "action": "modify",
+      "date": "2003-12-30"
+    },
+    {
+      "code": "C8108",
+      "action": "modify",
+      "date": "2004-03-30"
+    },
+    {
+      "code": "C8108",
+      "action": "modify",
+      "date": "2004-08-02"
+    },
+    {
+      "code": "C8108",
+      "action": "modify",
+      "date": "2004-09-10"
+    },
+    {
+      "code": "C8108",
+      "action": "modify",
+      "date": "2006-07-28"
+    },
+    {
+      "code": "C8108",
+      "action": "modify",
+      "date": "2007-10-29"
+    },
+    {
+      "code": "C8108",
+      "action": "modify",
+      "date": "2009-11-23"
+    },
+    {
+      "code": "C8108",
+      "action": "modify",
+      "date": "2012-09-04"
+    },
+    {
+      "code": "C8108",
+      "action": "modify",
+      "date": "2014-02-03"
+    },
+    {
+      "code": "C8108",
+      "action": "modify",
+      "date": "2014-08-04"
+    },
+    {
+      "code": "C8108",
+      "action": "modify",
+      "date": "2014-08-18"
+    },
+    {
+      "code": "C8108",
+      "action": "modify",
+      "date": "2014-09-22"
+    },
+    {
+      "code": "C8108",
+      "action": "modify",
+      "date": "2015-04-20"
+    },
+    {
+      "code": "C8108",
+      "action": "modify",
+      "date": "2017-07-31"
+    },
+    {
+      "code": "C8108",
+      "action": "modify",
+      "date": "2018-07-30"
+    },
+    {
+      "code": "C8108",
+      "action": "modify",
+      "date": "2018-08-27"
+    },
+    {
+      "code": "C8108",
+      "action": "modify",
+      "date": "2018-08-27"
+    }
+  ]
+}

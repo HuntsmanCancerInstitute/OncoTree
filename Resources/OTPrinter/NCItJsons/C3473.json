@@ -1,0 +1,292 @@
+{
+  "code": "C3473",
+  "name": "Choroid Plexus Neoplasm",
+  "terminology": "ncit",
+  "version": "25.11d",
+  "conceptStatus": "DEFAULT",
+  "leaf": false,
+  "active": true,
+  "synonyms": [
+    {
+      "name": "choroid plexus tumor",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NCI-GLOSS",
+      "code": "CDR0000046185"
+    },
+    {
+      "name": "Choroid Plexus Neoplasm",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Choroid Plexus Tumor",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Neoplasm of Choroid Plexus",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Neoplasm of the Choroid Plexus",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Tumor of Choroid Plexus",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Tumor of the Choroid Plexus",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Choroid Plexus Neoplasm",
+      "type": "Preferred_Name"
+    }
+  ],
+  "definitions": [
+    {
+      "definition": "A rare type of cancer that occurs in the ventricles of the brain. It usually occurs in children younger than 2 years.",
+      "type": "ALT_DEFINITION",
+      "source": "NCI-GLOSS"
+    },
+    {
+      "definition": "An intraventricular neoplasm that originates from the choroid plexus.  The vast majority of choroid plexus neoplasms originate from the epithelial layer and include the choroid plexus papilloma, atypical choroid plexus papilloma, and choroid plexus carcinoma.",
+      "type": "DEFINITION",
+      "source": "NCI"
+    }
+  ],
+  "properties": [
+    {
+      "code": "P366",
+      "type": "Legacy Concept Name",
+      "value": "Choroid_Plexus_Neoplasm"
+    },
+    {
+      "code": "P363",
+      "type": "Neoplastic_Status",
+      "value": "Undetermined"
+    },
+    {
+      "code": "P106",
+      "type": "Semantic_Type",
+      "value": "Neoplastic Process"
+    },
+    {
+      "code": "P207",
+      "type": "UMLS_CUI",
+      "value": "C0085138"
+    }
+  ],
+  "children": [
+    {
+      "code": "C8568",
+      "name": "Adult Choroid Plexus Neoplasm",
+      "leaf": true
+    },
+    {
+      "code": "C53686",
+      "name": "Atypical Choroid Plexus Papilloma",
+      "leaf": false
+    },
+    {
+      "code": "C8405",
+      "name": "Benign Choroid Plexus Neoplasm",
+      "leaf": false
+    },
+    {
+      "code": "C42080",
+      "name": "Childhood Choroid Plexus Neoplasm",
+      "leaf": false
+    },
+    {
+      "code": "C4533",
+      "name": "Malignant Choroid Plexus Neoplasm",
+      "leaf": false
+    }
+  ],
+  "parents": [
+    {
+      "code": "C3709",
+      "name": "Epithelial Neoplasm"
+    },
+    {
+      "code": "C2937",
+      "name": "Intraventricular Brain Neoplasm"
+    }
+  ],
+  "roles": [
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12356",
+      "relatedName": "Brain Ventricle"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12356",
+      "relatedName": "Brain Ventricle"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12439",
+      "relatedName": "Brain"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12438",
+      "relatedName": "Central Nervous System"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C42079",
+      "relatedName": "Choroid Plexus Epithelium"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C12578",
+      "relatedName": "Epithelial Cell"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C53596",
+      "relatedName": "Epithelial Component Present"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C45714",
+      "relatedName": "Epithelial Tissue"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C34661",
+      "relatedName": "Headache"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12922",
+      "relatedName": "Neoplastic Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36753",
+      "relatedName": "Neoplastic Epithelial Cell"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C36937",
+      "relatedName": "Neoplastic Smooth Muscle Cell"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12755",
+      "relatedName": "Nervous System"
+    },
+    {
+      "type": "Disease_Excludes_Primary_Anatomic_Site",
+      "relatedCode": "C12464",
+      "relatedName": "Spinal Cord"
+    },
+    {
+      "type": "Disease_May_Have_Associated_Disease",
+      "relatedCode": "C35040",
+      "relatedName": "Strabismus"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C3442",
+      "relatedName": "Vomiting"
+    }
+  ],
+  "history": [
+    {
+      "code": "C3473",
+      "action": "create",
+      "date": "2003-08-12"
+    },
+    {
+      "code": "C3473",
+      "action": "modify",
+      "date": "2003-10-31"
+    },
+    {
+      "code": "C3473",
+      "action": "modify",
+      "date": "2003-12-30"
+    },
+    {
+      "code": "C3473",
+      "action": "modify",
+      "date": "2004-03-30"
+    },
+    {
+      "code": "C3473",
+      "action": "modify",
+      "date": "2004-11-17"
+    },
+    {
+      "code": "C3473",
+      "action": "merge",
+      "date": "2006-02-24",
+      "replacementCode": "C3473",
+      "replacementName": "Choroid Plexus Neoplasm"
+    },
+    {
+      "code": "C8382",
+      "action": "merge",
+      "date": "2006-02-24",
+      "replacementCode": "C3473",
+      "replacementName": "Choroid Plexus Neoplasm"
+    },
+    {
+      "code": "C3473",
+      "action": "modify",
+      "date": "2009-11-23"
+    },
+    {
+      "code": "C3473",
+      "action": "modify",
+      "date": "2010-10-12"
+    },
+    {
+      "code": "C3473",
+      "action": "modify",
+      "date": "2011-02-28"
+    },
+    {
+      "code": "C3473",
+      "action": "modify",
+      "date": "2011-03-07"
+    },
+    {
+      "code": "C3473",
+      "action": "modify",
+      "date": "2012-12-10"
+    },
+    {
+      "code": "C3473",
+      "action": "modify",
+      "date": "2014-02-03"
+    },
+    {
+      "code": "C3473",
+      "action": "modify",
+      "date": "2017-12-26"
+    },
+    {
+      "code": "C3473",
+      "action": "modify",
+      "date": "2023-12-26"
+    }
+  ]
+}

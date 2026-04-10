@@ -1,0 +1,599 @@
+{
+  "code": "C7153",
+  "name": "Differentiated Thyroid Gland Carcinoma",
+  "terminology": "ncit",
+  "version": "25.11d",
+  "conceptStatus": "DEFAULT",
+  "leaf": false,
+  "active": true,
+  "synonyms": [
+    {
+      "name": "Differentiated Thyroid Gland Cancer",
+      "termType": "DN",
+      "type": "FULL_SYN",
+      "source": "CTRP"
+    },
+    {
+      "name": "Differentiated Thyroid Cancer",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Differentiated Thyroid Carcinoma",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Differentiated Thyroid Gland Carcinoma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Follicular/Papillary Thyroid Gland Carcinoma",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Thyroid Gland Differentiated Carcinoma",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Thyroid Gland Papillary and Follicular Carcinoma",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Thyroid Gland Well Differentiated Carcinoma",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Well Differentiated Thyroid Carcinoma",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Well Differentiated Thyroid Gland Carcinoma",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Well-Differentiated Thyroid Cancer",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Differentiated Thyroid Gland Carcinoma",
+      "type": "Display_Name"
+    },
+    {
+      "name": "Differentiated Thyroid Gland Carcinoma",
+      "type": "Preferred_Name"
+    }
+  ],
+  "definitions": [
+    {
+      "definition": "An adenocarcinoma that arises from the thyroid gland and shows extensive evidence of follicular cell differentiation.  According to the nuclear features of the malignant follicular cells, it is classified either as papillary or follicular carcinoma.",
+      "type": "DEFINITION",
+      "source": "NCI"
+    }
+  ],
+  "properties": [
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "CTRP"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "GDC"
+    },
+    {
+      "code": "P366",
+      "type": "Legacy Concept Name",
+      "value": "Well-differentiated_Thyroid_Carcinoma"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "8340/3"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "Papillary and follicular adenocarcinoma"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "Papillary and follicular carcinoma"
+    },
+    {
+      "code": "P363",
+      "type": "Neoplastic_Status",
+      "value": "Malignant"
+    },
+    {
+      "code": "P106",
+      "type": "Semantic_Type",
+      "value": "Neoplastic Process"
+    },
+    {
+      "code": "P207",
+      "type": "UMLS_CUI",
+      "value": "C1337013"
+    }
+  ],
+  "children": [
+    {
+      "code": "C140959",
+      "name": "Differentiated Thyroid Gland Carcinoma by AJCC v7 Stage",
+      "leaf": false
+    },
+    {
+      "code": "C140965",
+      "name": "Differentiated Thyroid Gland Carcinoma by AJCC v8 Stage",
+      "leaf": false
+    },
+    {
+      "code": "C118829",
+      "name": "Hereditary Nonmedullary Thyroid Gland Carcinoma",
+      "leaf": true
+    },
+    {
+      "code": "C173979",
+      "name": "Metastatic Differentiated Thyroid Gland Carcinoma",
+      "leaf": false
+    },
+    {
+      "code": "C165611",
+      "name": "Recurrent Differentiated Thyroid Gland Carcinoma",
+      "leaf": false
+    },
+    {
+      "code": "C165607",
+      "name": "Refractory Differentiated Thyroid Gland Carcinoma",
+      "leaf": false
+    },
+    {
+      "code": "C8054",
+      "name": "Thyroid Gland Follicular Carcinoma",
+      "leaf": false
+    },
+    {
+      "code": "C4035",
+      "name": "Thyroid Gland Papillary Carcinoma",
+      "leaf": false
+    },
+    {
+      "code": "C168572",
+      "name": "Unresectable Differentiated Thyroid Gland Carcinoma",
+      "leaf": false
+    }
+  ],
+  "parents": [
+    {
+      "code": "C27380",
+      "name": "Thyroid Gland Adenocarcinoma"
+    }
+  ],
+  "associations": [
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C118168",
+      "relatedName": "CTRP Disease Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C116977",
+      "relatedName": "CTRP Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C157711",
+      "relatedName": "GDC Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C177537",
+      "relatedName": "GDC Value Terminology"
+    },
+    {
+      "type": "Is_Value_For_GDC_Property",
+      "relatedCode": "C176985",
+      "relatedName": "Histology ICD-O Morphology Code"
+    },
+    {
+      "type": "Is_Value_For_GDC_Property",
+      "relatedCode": "C177621",
+      "relatedName": "ICD-O-3 Morphology Term Diagnosis Question"
+    }
+  ],
+  "inverseAssociations": [
+    {
+      "type": "Has_GDC_Value",
+      "relatedCode": "C176985",
+      "relatedName": "Histology ICD-O Morphology Code"
+    },
+    {
+      "type": "Has_GDC_Value",
+      "relatedCode": "C177621",
+      "relatedName": "ICD-O-3 Morphology Term Diagnosis Question"
+    }
+  ],
+  "roles": [
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36773",
+      "relatedName": "Adenocarcinoma Cell"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C36122",
+      "relatedName": "Benign Cellular Infiltrate"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C54172",
+      "relatedName": "Carcinomatous Component Present"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C28371",
+      "relatedName": "Cold Nodule"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C32506",
+      "relatedName": "Endocrine Cell"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C188014",
+      "relatedName": "Endocrine Differentiation"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12704",
+      "relatedName": "Endocrine Gland"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12704",
+      "relatedName": "Endocrine Gland"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12705",
+      "relatedName": "Endocrine System"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12705",
+      "relatedName": "Endocrine System"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C12578",
+      "relatedName": "Epithelial Cell"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C53596",
+      "relatedName": "Epithelial Component Present"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C45714",
+      "relatedName": "Epithelial Tissue"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C47817",
+      "relatedName": "Follicular Cell Differentiation"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12418",
+      "relatedName": "Head and Neck"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12418",
+      "relatedName": "Head and Neck"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C36129",
+      "relatedName": "High Grade Lesion"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12917",
+      "relatedName": "Malignant Cell"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C36115",
+      "relatedName": "Malignant Cellular Infiltrate"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36929",
+      "relatedName": "Malignant Endocrine Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36779",
+      "relatedName": "Malignant Epithelial Cell"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C36771",
+      "relatedName": "Malignant Squamous Cell"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C37153",
+      "relatedName": "Malignant Stromal Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36836",
+      "relatedName": "Malignant Thyroid Gland Follicular Cell"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C62273",
+      "relatedName": "Mixed Neoplastic Glandular and Squamous Cell Population"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C13063",
+      "relatedName": "Neck"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C13063",
+      "relatedName": "Neck"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12922",
+      "relatedName": "Neoplastic Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36753",
+      "relatedName": "Neoplastic Epithelial Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36763",
+      "relatedName": "Neoplastic Glandular Cell"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C36937",
+      "relatedName": "Neoplastic Smooth Muscle Cell"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C36760",
+      "relatedName": "Neoplastic Squamous Cell"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C47806",
+      "relatedName": "Thyroglobulin-Positive Neoplastic Cells Present"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C47809",
+      "relatedName": "Thyroid Gland Epithelial Tissue"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C33782",
+      "relatedName": "Thyroid Gland Follicle"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C33783",
+      "relatedName": "Thyroid Gland Follicular Cell"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12400",
+      "relatedName": "Thyroid Gland"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12400",
+      "relatedName": "Thyroid Gland"
+    }
+  ],
+  "inverseRoles": [
+    {
+      "type": "Disease_May_Have_Associated_Disease",
+      "relatedCode": "C3939",
+      "relatedName": "Bannayan-Riley-Ruvalcaba Syndrome"
+    },
+    {
+      "type": "Disease_May_Have_Associated_Disease",
+      "relatedCode": "C3076",
+      "relatedName": "Cowden Syndrome"
+    },
+    {
+      "type": "Disease_May_Have_Associated_Disease",
+      "relatedCode": "C179930",
+      "relatedName": "Proteus-Like Syndrome"
+    },
+    {
+      "type": "Disease_May_Have_Associated_Disease",
+      "relatedCode": "C179915",
+      "relatedName": "PTEN Hamartoma Tumor Syndrome"
+    }
+  ],
+  "history": [
+    {
+      "code": "C7153",
+      "action": "create",
+      "date": "2003-08-12"
+    },
+    {
+      "code": "C7153",
+      "action": "modify",
+      "date": "2003-10-31"
+    },
+    {
+      "code": "C7153",
+      "action": "modify",
+      "date": "2003-12-30"
+    },
+    {
+      "code": "C7153",
+      "action": "modify",
+      "date": "2004-03-30"
+    },
+    {
+      "code": "C7153",
+      "action": "modify",
+      "date": "2004-09-10"
+    },
+    {
+      "code": "C7153",
+      "action": "modify",
+      "date": "2005-05-27"
+    },
+    {
+      "code": "C7153",
+      "action": "modify",
+      "date": "2005-06-24"
+    },
+    {
+      "code": "C7153",
+      "action": "modify",
+      "date": "2005-07-29"
+    },
+    {
+      "code": "C7153",
+      "action": "modify",
+      "date": "2005-09-09"
+    },
+    {
+      "code": "C7153",
+      "action": "modify",
+      "date": "2009-04-06"
+    },
+    {
+      "code": "C7153",
+      "action": "modify",
+      "date": "2009-11-23"
+    },
+    {
+      "code": "C7153",
+      "action": "modify",
+      "date": "2012-05-14"
+    },
+    {
+      "code": "C7153",
+      "action": "modify",
+      "date": "2013-03-25"
+    },
+    {
+      "code": "C7153",
+      "action": "modify",
+      "date": "2014-02-03"
+    },
+    {
+      "code": "C7153",
+      "action": "modify",
+      "date": "2014-11-24"
+    },
+    {
+      "code": "C7153",
+      "action": "modify",
+      "date": "2017-07-31"
+    },
+    {
+      "code": "C7153",
+      "action": "modify",
+      "date": "2018-07-30"
+    },
+    {
+      "code": "C7153",
+      "action": "modify",
+      "date": "2018-08-27"
+    },
+    {
+      "code": "C7153",
+      "action": "modify",
+      "date": "2018-08-27"
+    },
+    {
+      "code": "C7153",
+      "action": "modify",
+      "date": "2019-11-25"
+    },
+    {
+      "code": "C7153",
+      "action": "modify",
+      "date": "2022-06-29"
+    },
+    {
+      "code": "C7153",
+      "action": "merge",
+      "date": "2025-07-28",
+      "replacementCode": "C7153",
+      "replacementName": "Differentiated Thyroid Gland Carcinoma"
+    },
+    {
+      "code": "C7380",
+      "action": "merge",
+      "date": "2025-07-28",
+      "replacementCode": "C7153",
+      "replacementName": "Differentiated Thyroid Gland Carcinoma"
+    },
+    {
+      "code": "C7153",
+      "action": "modify",
+      "date": "2025-08-25"
+    }
+  ],
+  "maps": [
+    {
+      "type": "Related To",
+      "targetName": "8340/3",
+      "targetTermType": "PT",
+      "targetCode": "morphology",
+      "targetTerminology": "GDC"
+    },
+    {
+      "type": "Related To",
+      "targetName": "Papillary and follicular adenocarcinoma",
+      "targetTermType": "PT",
+      "targetCode": "primary_diagnosis",
+      "targetTerminology": "GDC"
+    },
+    {
+      "type": "Related To",
+      "targetName": "Papillary and follicular carcinoma",
+      "targetTermType": "PT",
+      "targetCode": "primary_diagnosis",
+      "targetTerminology": "GDC"
+    }
+  ]
+}

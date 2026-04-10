@@ -1,0 +1,620 @@
+{
+  "code": "C7175",
+  "name": "Acute Myeloid Leukemia with Recurrent Genetic Abnormalities",
+  "terminology": "ncit",
+  "version": "25.11d",
+  "conceptStatus": "DEFAULT",
+  "leaf": false,
+  "active": true,
+  "synonyms": [
+    {
+      "name": "Acute Myeloid Leukemia with Recurrent Genetic Abnormalities",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "caDSR"
+    },
+    {
+      "name": "Acute Myeloid Leukemia with Balanced Translocations/Inversions",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Acute Myeloid Leukemia with Defining Genetic Abnormalities",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Acute Myeloid Leukemia with Recurrent Genetic Abnormalities",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "AML-RGA",
+      "termType": "AB",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Acute Myeloid Leukemia with Recurrent Genetic Abnormalities",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NICHD"
+    },
+    {
+      "name": "AML with Recurrent Genetic Abnormalities",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NICHD"
+    },
+    {
+      "name": "Acute Myeloid Leukemia with Recurrent Genetic Abnormalities",
+      "type": "Preferred_Name"
+    }
+  ],
+  "definitions": [
+    {
+      "definition": "A group of acute myeloid leukemias characterized by recurrent genetic abnormalities, mainly balanced translocations.  (WHO, 2001)",
+      "type": "DEFINITION",
+      "source": "NCI"
+    },
+    {
+      "definition": "A group of acute myeloid leukemias characterized by recurrent genetic abnormalities, mainly balanced translocations. (WHO, 2001)",
+      "type": "ALT_DEFINITION",
+      "source": "NICHD"
+    }
+  ],
+  "properties": [
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "NICHD"
+    },
+    {
+      "code": "P366",
+      "type": "Legacy Concept Name",
+      "value": "Acute_Myeloid_Leukemia_with_Recurrent_Genetic_Abnormalities"
+    },
+    {
+      "code": "P363",
+      "type": "Neoplastic_Status",
+      "value": "Malignant"
+    },
+    {
+      "code": "P106",
+      "type": "Semantic_Type",
+      "value": "Neoplastic Process"
+    },
+    {
+      "code": "P207",
+      "type": "UMLS_CUI",
+      "value": "C1275661"
+    }
+  ],
+  "children": [
+    {
+      "code": "C82427",
+      "name": "Acute Myeloid Leukemia (Megakaryoblastic) with t(1;22)(p13.3;q13.1); RBM15-MKL1",
+      "leaf": true
+    },
+    {
+      "code": "C82433",
+      "name": "Acute Myeloid Leukemia with CEBPA Mutation",
+      "leaf": false
+    },
+    {
+      "code": "C126748",
+      "name": "Acute Myeloid Leukemia with FLT3/ITD Mutation",
+      "leaf": true
+    },
+    {
+      "code": "C200419",
+      "name": "Acute Myeloid Leukemia with FUS-ERG",
+      "leaf": true
+    },
+    {
+      "code": "C9287",
+      "name": "Acute Myeloid Leukemia with inv(16)(p13.1q22) or t(16;16)(p13.1;q22); CBFB-MYH11",
+      "leaf": false
+    },
+    {
+      "code": "C200421",
+      "name": "Acute Myeloid Leukemia with KAT6A-CREBBP",
+      "leaf": true
+    },
+    {
+      "code": "C174129",
+      "name": "Acute Myeloid Leukemia with KMT2A Rearrangement",
+      "leaf": false
+    },
+    {
+      "code": "C200407",
+      "name": "Acute Myeloid Leukemia with MECOM Rearrangement",
+      "leaf": false
+    },
+    {
+      "code": "C82431",
+      "name": "Acute Myeloid Leukemia with NPM1 Mutation",
+      "leaf": true
+    },
+    {
+      "code": "C200420",
+      "name": "Acute Myeloid Leukemia with NPM1-MLF1",
+      "leaf": true
+    },
+    {
+      "code": "C200411",
+      "name": "Acute Myeloid Leukemia with NUP98 Rearrangement",
+      "leaf": false
+    },
+    {
+      "code": "C82423",
+      "name": "Acute Myeloid Leukemia with t(6;9)(p22.3;q34.1); DEK-NUP214",
+      "leaf": true
+    },
+    {
+      "code": "C9288",
+      "name": "Acute Myeloid Leukemia with t(8;21)(q22; q22.1); RUNX1-RUNX1T1",
+      "leaf": false
+    },
+    {
+      "code": "C208352",
+      "name": "Acute Promyelocytic Leukemia",
+      "leaf": false
+    },
+    {
+      "code": "C68700",
+      "name": "Adult Acute Myeloid Leukemia with Recurrent Genetic Abnormalities",
+      "leaf": false
+    },
+    {
+      "code": "C122688",
+      "name": "Core Binding Factor Acute Myeloid Leukemia",
+      "leaf": true
+    },
+    {
+      "code": "C156718",
+      "name": "Recurrent Acute Myeloid Leukemia with Recurrent Genetic Abnormalities",
+      "leaf": false
+    }
+  ],
+  "parents": [
+    {
+      "code": "C3171",
+      "name": "Acute Myeloid Leukemia"
+    }
+  ],
+  "associations": [
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C126659",
+      "relatedName": "NCIt Neoplasm Core Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C90259",
+      "relatedName": "NICHD Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C132009",
+      "relatedName": "Pediatric Hematology-Oncology Terminology"
+    }
+  ],
+  "roles": [
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C36122",
+      "relatedName": "Benign Cellular Infiltrate"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C136648",
+      "relatedName": "Blasts 10 Percent or More of Bone Marrow Nucleated Cells"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C138056",
+      "relatedName": "Blasts 10 Percent or More of Peripheral Blood White Cells"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C13456",
+      "relatedName": "Bone Marrow Stem Cell"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12431",
+      "relatedName": "Bone Marrow"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12431",
+      "relatedName": "Bone Marrow"
+    },
+    {
+      "type": "Disease_Has_Cytogenetic_Abnormality",
+      "relatedCode": "C36541",
+      "relatedName": "Chromosomal Rearrangement"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C36158",
+      "relatedName": "Chronic Clinical Course"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C158864",
+      "relatedName": "Cytogenetic Abnormalities Not Detected"
+    },
+    {
+      "type": "Disease_Has_Molecular_Abnormality",
+      "relatedCode": "C36346",
+      "relatedName": "Fusion Protein Expression"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C41165",
+      "relatedName": "Hematopoietic and Lymphatic System"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C41165",
+      "relatedName": "Hematopoietic and Lymphatic System"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C32725",
+      "relatedName": "Hematopoietic and Lymphoid Cell"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C41168",
+      "relatedName": "Hematopoietic and Lymphoid Tissue"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C13051",
+      "relatedName": "Hematopoietic Tissue"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C35788",
+      "relatedName": "Hypercellular Bone Marrow"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C25553",
+      "relatedName": "Leukemic Cell"
+    },
+    {
+      "type": "Disease_Excludes_Normal_Cell_Origin",
+      "relatedCode": "C12535",
+      "relatedName": "Lymphocyte"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12917",
+      "relatedName": "Malignant Cell"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C36115",
+      "relatedName": "Malignant Cellular Infiltrate"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12922",
+      "relatedName": "Neoplastic Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C37060",
+      "relatedName": "Neoplastic Hematopoietic and Lymphoid Cell"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C12914",
+      "relatedName": "Neoplastic Lymphoblast"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C37065",
+      "relatedName": "Neoplastic Myeloblast"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C41063",
+      "relatedName": "Neoplastic Myeloid Cell"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C80329",
+      "relatedName": "Recurrent Genetic Abnormalities Present"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C36182",
+      "relatedName": "Solid Growth Pattern"
+    }
+  ],
+  "history": [
+    {
+      "code": "C7175",
+      "action": "create",
+      "date": "2003-08-12"
+    },
+    {
+      "code": "C7175",
+      "action": "modify",
+      "date": "2003-12-30"
+    },
+    {
+      "code": "C7175",
+      "action": "modify",
+      "date": "2004-12-30"
+    },
+    {
+      "code": "C7175",
+      "action": "modify",
+      "date": "2009-04-06"
+    },
+    {
+      "code": "C7175",
+      "action": "modify",
+      "date": "2009-04-13"
+    },
+    {
+      "code": "C7175",
+      "action": "modify",
+      "date": "2009-10-27"
+    },
+    {
+      "code": "C7175",
+      "action": "modify",
+      "date": "2009-11-23"
+    },
+    {
+      "code": "C7175",
+      "action": "modify",
+      "date": "2013-02-25"
+    },
+    {
+      "code": "C7175",
+      "action": "modify",
+      "date": "2013-03-04"
+    },
+    {
+      "code": "C7175",
+      "action": "modify",
+      "date": "2013-03-11"
+    },
+    {
+      "code": "C7175",
+      "action": "modify",
+      "date": "2013-03-18"
+    },
+    {
+      "code": "C7175",
+      "action": "modify",
+      "date": "2013-03-25"
+    },
+    {
+      "code": "C7175",
+      "action": "modify",
+      "date": "2013-04-01"
+    },
+    {
+      "code": "C7175",
+      "action": "modify",
+      "date": "2013-04-08"
+    },
+    {
+      "code": "C7175",
+      "action": "modify",
+      "date": "2013-04-15"
+    },
+    {
+      "code": "C7175",
+      "action": "modify",
+      "date": "2013-04-22"
+    },
+    {
+      "code": "C7175",
+      "action": "modify",
+      "date": "2013-04-29"
+    },
+    {
+      "code": "C7175",
+      "action": "modify",
+      "date": "2013-05-06"
+    },
+    {
+      "code": "C7175",
+      "action": "modify",
+      "date": "2013-05-13"
+    },
+    {
+      "code": "C7175",
+      "action": "modify",
+      "date": "2013-05-20"
+    },
+    {
+      "code": "C7175",
+      "action": "modify",
+      "date": "2013-05-28"
+    },
+    {
+      "code": "C7175",
+      "action": "modify",
+      "date": "2013-06-03"
+    },
+    {
+      "code": "C7175",
+      "action": "modify",
+      "date": "2013-06-10"
+    },
+    {
+      "code": "C7175",
+      "action": "modify",
+      "date": "2013-06-17"
+    },
+    {
+      "code": "C7175",
+      "action": "modify",
+      "date": "2013-06-24"
+    },
+    {
+      "code": "C7175",
+      "action": "modify",
+      "date": "2013-07-01"
+    },
+    {
+      "code": "C7175",
+      "action": "modify",
+      "date": "2013-07-08"
+    },
+    {
+      "code": "C7175",
+      "action": "modify",
+      "date": "2016-04-25"
+    },
+    {
+      "code": "C7175",
+      "action": "modify",
+      "date": "2017-02-13"
+    },
+    {
+      "code": "C7175",
+      "action": "modify",
+      "date": "2017-02-21"
+    },
+    {
+      "code": "C7175",
+      "action": "modify",
+      "date": "2017-02-27"
+    },
+    {
+      "code": "C7175",
+      "action": "modify",
+      "date": "2017-03-06"
+    },
+    {
+      "code": "C7175",
+      "action": "modify",
+      "date": "2017-03-13"
+    },
+    {
+      "code": "C7175",
+      "action": "modify",
+      "date": "2017-03-20"
+    },
+    {
+      "code": "C7175",
+      "action": "modify",
+      "date": "2017-03-27"
+    },
+    {
+      "code": "C7175",
+      "action": "modify",
+      "date": "2017-04-03"
+    },
+    {
+      "code": "C7175",
+      "action": "modify",
+      "date": "2017-04-10"
+    },
+    {
+      "code": "C7175",
+      "action": "modify",
+      "date": "2017-04-17"
+    },
+    {
+      "code": "C7175",
+      "action": "modify",
+      "date": "2017-04-24"
+    },
+    {
+      "code": "C7175",
+      "action": "modify",
+      "date": "2017-05-01"
+    },
+    {
+      "code": "C7175",
+      "action": "modify",
+      "date": "2017-05-04"
+    },
+    {
+      "code": "C7175",
+      "action": "modify",
+      "date": "2018-06-25"
+    },
+    {
+      "code": "C7175",
+      "action": "modify",
+      "date": "2018-06-25"
+    },
+    {
+      "code": "C7175",
+      "action": "modify",
+      "date": "2018-10-29"
+    },
+    {
+      "code": "C7175",
+      "action": "modify",
+      "date": "2018-10-29"
+    },
+    {
+      "code": "C7175",
+      "action": "modify",
+      "date": "2020-02-24"
+    },
+    {
+      "code": "C7175",
+      "action": "modify",
+      "date": "2020-04-27"
+    },
+    {
+      "code": "C7175",
+      "action": "modify",
+      "date": "2020-06-29"
+    },
+    {
+      "code": "C7175",
+      "action": "modify",
+      "date": "2020-08-31"
+    },
+    {
+      "code": "C7175",
+      "action": "modify",
+      "date": "2020-09-29"
+    },
+    {
+      "code": "C7175",
+      "action": "modify",
+      "date": "2021-03-29"
+    },
+    {
+      "code": "C7175",
+      "action": "modify",
+      "date": "2022-04-25"
+    },
+    {
+      "code": "C7175",
+      "action": "modify",
+      "date": "2023-04-24"
+    },
+    {
+      "code": "C7175",
+      "action": "modify",
+      "date": "2023-05-30"
+    },
+    {
+      "code": "C7175",
+      "action": "modify",
+      "date": "2023-07-31"
+    }
+  ]
+}

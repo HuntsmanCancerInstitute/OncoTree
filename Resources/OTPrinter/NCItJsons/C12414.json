@@ -1,0 +1,3409 @@
+{
+  "code": "C12414",
+  "name": "Bladder",
+  "terminology": "ncit",
+  "version": "25.11d",
+  "conceptStatus": "DEFAULT",
+  "leaf": true,
+  "active": true,
+  "synonyms": [
+    {
+      "name": "Bladder",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "caDSR"
+    },
+    {
+      "name": "Bladder, NOS",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "caDSR"
+    },
+    {
+      "name": "BLADDER",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "CDISC",
+      "code": "SDTM-LOC"
+    },
+    {
+      "name": "Urinary Bladder",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "CDISC"
+    },
+    {
+      "name": "URINARY BLADDER",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "CDISC",
+      "code": "SEND-SPEC"
+    },
+    {
+      "name": "Bladder",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "CPTAC"
+    },
+    {
+      "name": "Bladder",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "GDC"
+    },
+    {
+      "name": "Bladder, NOS",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "GDC"
+    },
+    {
+      "name": "Urinary bladder structure (body structure)",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "mCode",
+      "code": "89837001",
+      "subSource": "SNOMED CT"
+    },
+    {
+      "name": "bladder",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NCI-GLOSS",
+      "code": "CDR0000046501"
+    },
+    {
+      "name": "Bladder",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Urinary Bladder",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Urinary System, Bladder",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Bladder",
+      "type": "Display_Name"
+    },
+    {
+      "name": "Bladder",
+      "type": "Preferred_Name"
+    },
+    {
+      "name": "Bladder",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "PCDC",
+      "subSource": "OS"
+    },
+    {
+      "name": "urinary bladder",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "UBERON"
+    },
+    {
+      "name": "vesica urinaria",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "UBERON"
+    }
+  ],
+  "definitions": [
+    {
+      "definition": "Distensible musculomembranous organ situated in the anterior part of the pelvic cavity in which urine collects before excretion.",
+      "type": "ALT_DEFINITION",
+      "source": "UBERON"
+    },
+    {
+      "definition": "The distensible sac-like organ that functions as a reservoir of urine, collecting from the kidneys and eliminating via the urethra.",
+      "type": "DEFINITION",
+      "source": "NCI"
+    },
+    {
+      "definition": "The distensible sac-like organ that functions as a reservoir of urine, collecting from the kidneys and eliminating via the urethra. (NCI)",
+      "type": "ALT_DEFINITION",
+      "source": "CDISC"
+    },
+    {
+      "definition": "The organ that stores urine.",
+      "type": "ALT_DEFINITION",
+      "source": "NCI-GLOSS"
+    }
+  ],
+  "properties": [
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "CDISC"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "CPTAC"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "GDC"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "mCode"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "PCDC"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "UBERON"
+    },
+    {
+      "code": "P366",
+      "type": "Legacy Concept Name",
+      "value": "Bladder"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "BLADDER"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "Bladder"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "Bladder, NOS"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "Urinary bladder, NOS"
+    },
+    {
+      "code": "P106",
+      "type": "Semantic_Type",
+      "value": "Body Part, Organ, or Organ Component"
+    },
+    {
+      "code": "P207",
+      "type": "UMLS_CUI",
+      "value": "C0005682"
+    },
+    {
+      "code": "oboInOwl:hasDbXref",
+      "type": "xRef",
+      "value": "UBERON:0001255"
+    }
+  ],
+  "parents": [
+    {
+      "code": "C13018",
+      "name": "Organ"
+    }
+  ],
+  "associations": [
+    {
+      "type": "Is_Value_For_GDC_Property",
+      "relatedCode": "C200442",
+      "relatedName": "Anatomic Site or Organ with Contiguous Invasion"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C74456",
+      "relatedName": "CDISC SDTM Anatomical Location Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C66830",
+      "relatedName": "CDISC SDTM Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C77529",
+      "relatedName": "CDISC SEND Biospecimens Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C77526",
+      "relatedName": "CDISC SEND Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C61410",
+      "relatedName": "Clinical Data Interchange Standards Consortium Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C159328",
+      "relatedName": "CPTAC Follow-Up Forms Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C159336",
+      "relatedName": "CPTAC Melanoma Follow-Up Form"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C156952",
+      "relatedName": "CPTAC Terminology"
+    },
+    {
+      "type": "Is_Value_For_GDC_Property",
+      "relatedCode": "C173263",
+      "relatedName": "Disease Involvement Site"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C157711",
+      "relatedName": "GDC Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C177537",
+      "relatedName": "GDC Value Terminology"
+    },
+    {
+      "type": "Is_Value_For_GDC_Property",
+      "relatedCode": "C177594",
+      "relatedName": "Hysterectomy Margins Involved Indicator"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168655",
+      "relatedName": "Mapped ICDO3.1 Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168660",
+      "relatedName": "Mapped ICDO3.1 Topography PT Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168659",
+      "relatedName": "Mapped ICDO3.1 Topography Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168656",
+      "relatedName": "Mapped ICDO3.2 Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168664",
+      "relatedName": "Mapped ICDO3.2 Topography PT Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168663",
+      "relatedName": "Mapped ICDO3.2 Topography Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C193234",
+      "relatedName": "mCode Radiotherapy Treatment Location Value Set"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C193006",
+      "relatedName": "mCode Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C179478",
+      "relatedName": "OS Authorized Value Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C179482",
+      "relatedName": "OS Biopsy/Surgical Procedures Table"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C179483",
+      "relatedName": "OS Radiation Therapy Table"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C179481",
+      "relatedName": "OS Tumor Assessment Table"
+    },
+    {
+      "type": "Is_Value_For_GDC_Property",
+      "relatedCode": "C158874",
+      "relatedName": "Primary Site of Disease"
+    },
+    {
+      "type": "Is_Value_For_GDC_Property",
+      "relatedCode": "C177570",
+      "relatedName": "Progressive or Recurrent Disease Anatomic Site"
+    },
+    {
+      "type": "Is_Value_For_GDC_Property",
+      "relatedCode": "C156421",
+      "relatedName": "Site of Resection or Biopsy"
+    },
+    {
+      "type": "Is_Value_For_GDC_Property",
+      "relatedCode": "C171435",
+      "relatedName": "Specimen Anatomic Site"
+    },
+    {
+      "type": "Is_Value_For_GDC_Property",
+      "relatedCode": "C70729",
+      "relatedName": "Targeted Anatomic Site"
+    },
+    {
+      "type": "Is_Value_For_GDC_Property",
+      "relatedCode": "C156422",
+      "relatedName": "Tissue or Organ of Origin"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C198975",
+      "relatedName": "UBERON Terminology"
+    }
+  ],
+  "inverseAssociations": [
+    {
+      "type": "Has_GDC_Value",
+      "relatedCode": "C200442",
+      "relatedName": "Anatomic Site or Organ with Contiguous Invasion"
+    },
+    {
+      "type": "Has_GDC_Value",
+      "relatedCode": "C173263",
+      "relatedName": "Disease Involvement Site"
+    },
+    {
+      "type": "Has_GDC_Value",
+      "relatedCode": "C177594",
+      "relatedName": "Hysterectomy Margins Involved Indicator"
+    },
+    {
+      "type": "Has_GDC_Value",
+      "relatedCode": "C158874",
+      "relatedName": "Primary Site of Disease"
+    },
+    {
+      "type": "Has_GDC_Value",
+      "relatedCode": "C177570",
+      "relatedName": "Progressive or Recurrent Disease Anatomic Site"
+    },
+    {
+      "type": "Has_PCDC_OS_Authorized_Value",
+      "relatedCode": "C173281",
+      "relatedName": "Site of Radiation Therapy"
+    },
+    {
+      "type": "Has_GDC_Value",
+      "relatedCode": "C156421",
+      "relatedName": "Site of Resection or Biopsy"
+    },
+    {
+      "type": "Has_PCDC_OS_Authorized_Value",
+      "relatedCode": "C157120",
+      "relatedName": "Site of Tumor"
+    },
+    {
+      "type": "Has_GDC_Value",
+      "relatedCode": "C171435",
+      "relatedName": "Specimen Anatomic Site"
+    },
+    {
+      "type": "Has_PCDC_OS_Authorized_Value",
+      "relatedCode": "C164323",
+      "relatedName": "Surgical Site"
+    },
+    {
+      "type": "Has_GDC_Value",
+      "relatedCode": "C70729",
+      "relatedName": "Targeted Anatomic Site"
+    },
+    {
+      "type": "Has_GDC_Value",
+      "relatedCode": "C156422",
+      "relatedName": "Tissue or Organ of Origin"
+    }
+  ],
+  "roles": [
+    {
+      "type": "Anatomic_Structure_Has_Location",
+      "relatedCode": "C12767",
+      "relatedName": "Pelvis"
+    },
+    {
+      "type": "Anatomic_Structure_Is_Physical_Part_Of",
+      "relatedCode": "C191741",
+      "relatedName": "Urinary Tract"
+    }
+  ],
+  "inverseRoles": [
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C26934",
+      "relatedName": "Acute Cystitis"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C26934",
+      "relatedName": "Acute Cystitis"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C167338",
+      "relatedName": "Advanced Bladder Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C167338",
+      "relatedName": "Advanced Bladder Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C163954",
+      "relatedName": "Advanced Bladder Urothelial Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C163954",
+      "relatedName": "Advanced Bladder Urothelial Carcinoma"
+    },
+    {
+      "type": "Disease_Excludes_Primary_Anatomic_Site",
+      "relatedCode": "C163963",
+      "relatedName": "Advanced Urethral Urothelial Carcinoma"
+    },
+    {
+      "type": "Anatomic_Structure_Is_Physical_Part_Of",
+      "relatedCode": "C12334",
+      "relatedName": "Anterior Wall of the Bladder"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C3618",
+      "relatedName": "Benign Bladder Neoplasm"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C3618",
+      "relatedName": "Benign Bladder Neoplasm"
+    },
+    {
+      "type": "Procedure_Has_Partially_Excised_Anatomy",
+      "relatedCode": "C51700",
+      "relatedName": "Biopsy of Bladder"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C39836",
+      "relatedName": "Bladder Adenocarcinoma, Not Otherwise Specified"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C39836",
+      "relatedName": "Bladder Adenocarcinoma, Not Otherwise Specified"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C4032",
+      "relatedName": "Bladder Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C4032",
+      "relatedName": "Bladder Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C159669",
+      "relatedName": "Bladder Alveolar Rhabdomyosarcoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C159669",
+      "relatedName": "Bladder Alveolar Rhabdomyosarcoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C156277",
+      "relatedName": "Bladder Alveolar Soft Part Sarcoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C156277",
+      "relatedName": "Bladder Alveolar Soft Part Sarcoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C159671",
+      "relatedName": "Bladder Angiosarcoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C159671",
+      "relatedName": "Bladder Angiosarcoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C159674",
+      "relatedName": "Bladder Benign PEComa"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C159674",
+      "relatedName": "Bladder Benign PEComa"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C90344",
+      "relatedName": "Bladder Cancer by AJCC v6 Stage"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C90344",
+      "relatedName": "Bladder Cancer by AJCC v6 Stage"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C91202",
+      "relatedName": "Bladder Cancer by AJCC v7 Stage"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C91202",
+      "relatedName": "Bladder Cancer by AJCC v7 Stage"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C140416",
+      "relatedName": "Bladder Cancer by AJCC v8 Stage"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C140416",
+      "relatedName": "Bladder Cancer by AJCC v8 Stage"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C4912",
+      "relatedName": "Bladder Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C4912",
+      "relatedName": "Bladder Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C6179",
+      "relatedName": "Bladder Clear Cell Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C6179",
+      "relatedName": "Bladder Clear Cell Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C39849",
+      "relatedName": "Bladder Diffuse Clear Cell Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C39849",
+      "relatedName": "Bladder Diffuse Clear Cell Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C2900",
+      "relatedName": "Bladder Disorder"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C160158",
+      "relatedName": "Bladder Diverticulum Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C160158",
+      "relatedName": "Bladder Diverticulum Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C206546",
+      "relatedName": "Bladder Dysfunction"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C206546",
+      "relatedName": "Bladder Dysfunction"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C159668",
+      "relatedName": "Bladder Embryonal Rhabdomyosarcoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C159668",
+      "relatedName": "Bladder Embryonal Rhabdomyosarcoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C159542",
+      "relatedName": "Bladder Endometrioid Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C159542",
+      "relatedName": "Bladder Endometrioid Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C39835",
+      "relatedName": "Bladder Enteric Type Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C39835",
+      "relatedName": "Bladder Enteric Type Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C123207",
+      "relatedName": "Bladder Exstrophy"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C123207",
+      "relatedName": "Bladder Exstrophy"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C37266",
+      "relatedName": "Bladder Flat Urothelial Carcinoma In Situ"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C37266",
+      "relatedName": "Bladder Flat Urothelial Carcinoma In Situ"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C177531",
+      "relatedName": "Bladder Flat Urothelial Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C177531",
+      "relatedName": "Bladder Flat Urothelial Carcinoma"
+    },
+    {
+      "type": "Anatomic_Structure_Is_Physical_Part_Of",
+      "relatedCode": "C48939",
+      "relatedName": "Bladder Fundus"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C159681",
+      "relatedName": "Bladder Granular Cell Tumor"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C159680",
+      "relatedName": "Bladder Hemangioma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C159680",
+      "relatedName": "Bladder Hemangioma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C39838",
+      "relatedName": "Bladder Hepatoid Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C39838",
+      "relatedName": "Bladder Hepatoid Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C39838",
+      "relatedName": "Bladder Hepatoid Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C6177",
+      "relatedName": "Bladder Inflammatory Myofibroblastic Tumor"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C6177",
+      "relatedName": "Bladder Inflammatory Myofibroblastic Tumor"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C39859",
+      "relatedName": "Bladder Inverted Papilloma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C39859",
+      "relatedName": "Bladder Inverted Papilloma"
+    },
+    {
+      "type": "Anatomic_Structure_Is_Physical_Part_Of",
+      "relatedCode": "C48940",
+      "relatedName": "Bladder Lamina Propria"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C157760",
+      "relatedName": "Bladder Large Cell Neuroendocrine Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C157760",
+      "relatedName": "Bladder Large Cell Neuroendocrine Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C6178",
+      "relatedName": "Bladder Leiomyoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C6178",
+      "relatedName": "Bladder Leiomyoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C159670",
+      "relatedName": "Bladder Leiomyosarcoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C159670",
+      "relatedName": "Bladder Leiomyosarcoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C6164",
+      "relatedName": "Bladder Lymphoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C6164",
+      "relatedName": "Bladder Lymphoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C159677",
+      "relatedName": "Bladder Malignant PEComa"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C159677",
+      "relatedName": "Bladder Malignant PEComa"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C159663",
+      "relatedName": "Bladder Melanoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C159663",
+      "relatedName": "Bladder Melanoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C39839",
+      "relatedName": "Bladder Mixed Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C39839",
+      "relatedName": "Bladder Mixed Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C39837",
+      "relatedName": "Bladder Mucinous Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C39837",
+      "relatedName": "Bladder Mucinous Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C39878",
+      "relatedName": "Bladder Mucosa-Associated Lymphoid Tissue Lymphoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C39878",
+      "relatedName": "Bladder Mucosa-Associated Lymphoid Tissue Lymphoma"
+    },
+    {
+      "type": "Anatomic_Structure_Is_Physical_Part_Of",
+      "relatedCode": "C32205",
+      "relatedName": "Bladder Mucosa"
+    },
+    {
+      "type": "Anatomic_Structure_Is_Physical_Part_Of",
+      "relatedCode": "C32206",
+      "relatedName": "Bladder Muscular Coat"
+    },
+    {
+      "type": "Anatomic_Structure_Is_Physical_Part_Of",
+      "relatedCode": "C12336",
+      "relatedName": "Bladder Neck"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C2901",
+      "relatedName": "Bladder Neoplasm"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C7415",
+      "relatedName": "Bladder Nephrogenic Adenoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C7415",
+      "relatedName": "Bladder Nephrogenic Adenoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C157759",
+      "relatedName": "Bladder Neuroendocrine Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C157759",
+      "relatedName": "Bladder Neuroendocrine Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C157758",
+      "relatedName": "Bladder Neuroendocrine Neoplasm"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C157758",
+      "relatedName": "Bladder Neuroendocrine Neoplasm"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C159582",
+      "relatedName": "Bladder Neuroendocrine Tumor"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C159582",
+      "relatedName": "Bladder Neuroendocrine Tumor"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C159682",
+      "relatedName": "Bladder Neurofibroma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C159682",
+      "relatedName": "Bladder Neurofibroma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C212820",
+      "relatedName": "Bladder Non-Urothelial Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C212820",
+      "relatedName": "Bladder Non-Urothelial Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C39848",
+      "relatedName": "Bladder Papillary Clear Cell Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C39848",
+      "relatedName": "Bladder Papillary Clear Cell Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C7383",
+      "relatedName": "Bladder Papillary Urothelial Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C7383",
+      "relatedName": "Bladder Papillary Urothelial Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C27884",
+      "relatedName": "Bladder Papillary Urothelial Neoplasm of Low Malignant Potential"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C27884",
+      "relatedName": "Bladder Papillary Urothelial Neoplasm of Low Malignant Potential"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C39857",
+      "relatedName": "Bladder Papillary Urothelial Neoplasm"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C39857",
+      "relatedName": "Bladder Papillary Urothelial Neoplasm"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C6414",
+      "relatedName": "Bladder Paraganglioma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C6414",
+      "relatedName": "Bladder Paraganglioma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C6414",
+      "relatedName": "Bladder Paraganglioma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C159673",
+      "relatedName": "Bladder PEComa"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C159673",
+      "relatedName": "Bladder PEComa"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C159667",
+      "relatedName": "Bladder Rhabdomyosarcoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C159667",
+      "relatedName": "Bladder Rhabdomyosarcoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C4669",
+      "relatedName": "Bladder Sarcoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C4669",
+      "relatedName": "Bladder Sarcoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C35362",
+      "relatedName": "Bladder Schistosomiasis"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C35362",
+      "relatedName": "Bladder Schistosomiasis"
+    },
+    {
+      "type": "Anatomic_Structure_Is_Physical_Part_Of",
+      "relatedCode": "C32208",
+      "relatedName": "Bladder Serosal Surface"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C6163",
+      "relatedName": "Bladder Signet Ring Cell Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C6163",
+      "relatedName": "Bladder Signet Ring Cell Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C9461",
+      "relatedName": "Bladder Small Cell Neuroendocrine Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C9461",
+      "relatedName": "Bladder Small Cell Neuroendocrine Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C158636",
+      "relatedName": "Bladder Soft Tissue Neoplasm"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C158636",
+      "relatedName": "Bladder Soft Tissue Neoplasm"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C159679",
+      "relatedName": "Bladder Solitary Fibrous Tumor"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C159679",
+      "relatedName": "Bladder Solitary Fibrous Tumor"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C123208",
+      "relatedName": "Bladder Sphincter Dysfunction"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C123208",
+      "relatedName": "Bladder Sphincter Dysfunction"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C4031",
+      "relatedName": "Bladder Squamous Cell Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C4031",
+      "relatedName": "Bladder Squamous Cell Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C39834",
+      "relatedName": "Bladder Squamous Papilloma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C39834",
+      "relatedName": "Bladder Squamous Papilloma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C39834",
+      "relatedName": "Bladder Squamous Papilloma"
+    },
+    {
+      "type": "Anatomic_Structure_Is_Physical_Part_Of",
+      "relatedCode": "C32209",
+      "relatedName": "Bladder Tissue"
+    },
+    {
+      "type": "Anatomic_Structure_Is_Physical_Part_Of",
+      "relatedCode": "C12331",
+      "relatedName": "Bladder Trigone"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C39847",
+      "relatedName": "Bladder Tubulo-Cystic Clear Cell Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C39847",
+      "relatedName": "Bladder Tubulo-Cystic Clear Cell Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C213363",
+      "relatedName": "Bladder Urothelial Carcinoma In Situ"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C213363",
+      "relatedName": "Bladder Urothelial Carcinoma In Situ"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C180609",
+      "relatedName": "Bladder Urothelial Carcinoma, High Grade"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C180609",
+      "relatedName": "Bladder Urothelial Carcinoma, High Grade"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C39851",
+      "relatedName": "Bladder Urothelial Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C39851",
+      "relatedName": "Bladder Urothelial Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C39858",
+      "relatedName": "Bladder Urothelial Papilloma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C39858",
+      "relatedName": "Bladder Urothelial Papilloma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C27880",
+      "relatedName": "Bladder Urothelial Proliferation of Uncertain Malignant Potential"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C27880",
+      "relatedName": "Bladder Urothelial Proliferation of Uncertain Malignant Potential"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C39832",
+      "relatedName": "Bladder Verrucous Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C39832",
+      "relatedName": "Bladder Verrucous Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C7414",
+      "relatedName": "Bladder Villous Adenoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C7414",
+      "relatedName": "Bladder Villous Adenoma"
+    },
+    {
+      "type": "Anatomic_Structure_Is_Physical_Part_Of",
+      "relatedCode": "C48941",
+      "relatedName": "Bladder Wall"
+    },
+    {
+      "type": "Gene_Product_Expressed_In_Tissue",
+      "relatedCode": "C21358",
+      "relatedName": "Bone Morphogenetic Protein 7"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C118816",
+      "relatedName": "Childhood Bladder Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C118816",
+      "relatedName": "Childhood Bladder Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C27008",
+      "relatedName": "Chronic Cystitis"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C27008",
+      "relatedName": "Chronic Cystitis"
+    },
+    {
+      "type": "Procedure_Has_Excised_Anatomy",
+      "relatedCode": "C15217",
+      "relatedName": "Cystectomy"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C96228",
+      "relatedName": "Cystitis Cystica and Glandularis"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C96228",
+      "relatedName": "Cystitis Cystica and Glandularis"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C96230",
+      "relatedName": "Cystitis Cystica"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C96230",
+      "relatedName": "Cystitis Cystica"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C39860",
+      "relatedName": "Cystitis Glandularis"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C39860",
+      "relatedName": "Cystitis Glandularis"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C26738",
+      "relatedName": "Cystitis"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C26738",
+      "relatedName": "Cystitis"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C219896",
+      "relatedName": "Cystocele Affecting Pregnancy"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C219896",
+      "relatedName": "Cystocele Affecting Pregnancy"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C219519",
+      "relatedName": "Cystocele"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C219519",
+      "relatedName": "Cystocele"
+    },
+    {
+      "type": "Procedure_Has_Target_Anatomy",
+      "relatedCode": "C16482",
+      "relatedName": "Cystoscopy"
+    },
+    {
+      "type": "Procedure_Has_Target_Anatomy",
+      "relatedCode": "C15218",
+      "relatedName": "Cystostomy"
+    },
+    {
+      "type": "Procedure_Has_Target_Anatomy",
+      "relatedCode": "C159882",
+      "relatedName": "Cystourethroscopy"
+    },
+    {
+      "type": "Procedure_Has_Target_Anatomy",
+      "relatedCode": "C64945",
+      "relatedName": "Diagnostic Cystoscopy"
+    },
+    {
+      "type": "Anatomic_Structure_Is_Physical_Part_Of",
+      "relatedCode": "C12332",
+      "relatedName": "Dome of the Bladder"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C205286",
+      "relatedName": "Early Stage Bladder Urothelial Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C205286",
+      "relatedName": "Early Stage Bladder Urothelial Carcinoma"
+    },
+    {
+      "type": "Disease_Excludes_Primary_Anatomic_Site",
+      "relatedCode": "C5849",
+      "relatedName": "Extrahepatic Bile Duct Papillary Adenoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C35042",
+      "relatedName": "Female Stress Incontinence"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C35042",
+      "relatedName": "Female Stress Incontinence"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C114666",
+      "relatedName": "Hemorrhagic Cystitis"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C114666",
+      "relatedName": "Hemorrhagic Cystitis"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C123209",
+      "relatedName": "Hutch Diverticulum"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C123209",
+      "relatedName": "Hutch Diverticulum"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C83816",
+      "relatedName": "Infectious Cystitis"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C83816",
+      "relatedName": "Infectious Cystitis"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C27189",
+      "relatedName": "Interstitial Cystitis"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C27189",
+      "relatedName": "Interstitial Cystitis"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C150570",
+      "relatedName": "Invasive Bladder Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C150570",
+      "relatedName": "Invasive Bladder Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C39827",
+      "relatedName": "Invasive Bladder Clear Cell (Glycogen-Rich) Urothelial Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C39827",
+      "relatedName": "Invasive Bladder Clear Cell (Glycogen-Rich) Urothelial Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C191735",
+      "relatedName": "Invasive Bladder Conventional Urothelial Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C191735",
+      "relatedName": "Invasive Bladder Conventional Urothelial Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C39829",
+      "relatedName": "Invasive Bladder Giant Cell Urothelial Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C39829",
+      "relatedName": "Invasive Bladder Giant Cell Urothelial Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C191726",
+      "relatedName": "Invasive Bladder Large Nested Urothelial Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C191726",
+      "relatedName": "Invasive Bladder Large Nested Urothelial Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C39828",
+      "relatedName": "Invasive Bladder Lipid-Rich Urothelial Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C39828",
+      "relatedName": "Invasive Bladder Lipid-Rich Urothelial Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C39821",
+      "relatedName": "Invasive Bladder Lymphoepithelioma-Like Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C39821",
+      "relatedName": "Invasive Bladder Lymphoepithelioma-Like Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C39820",
+      "relatedName": "Invasive Bladder Microcystic Urothelial Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C39820",
+      "relatedName": "Invasive Bladder Microcystic Urothelial Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C27202",
+      "relatedName": "Invasive Bladder Micropapillary Urothelial Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C27202",
+      "relatedName": "Invasive Bladder Micropapillary Urothelial Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C165716",
+      "relatedName": "Invasive Bladder Mixed Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C165716",
+      "relatedName": "Invasive Bladder Mixed Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C39819",
+      "relatedName": "Invasive Bladder Nested Urothelial Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C39819",
+      "relatedName": "Invasive Bladder Nested Urothelial Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C39823",
+      "relatedName": "Invasive Bladder Plasmacytoid Urothelial Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C39823",
+      "relatedName": "Invasive Bladder Plasmacytoid Urothelial Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C191731",
+      "relatedName": "Invasive Bladder Poorly Differentiated Urothelial Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C191731",
+      "relatedName": "Invasive Bladder Poorly Differentiated Urothelial Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C39825",
+      "relatedName": "Invasive Bladder Sarcomatoid Urothelial Carcinoma with Heterologous Elements"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C39825",
+      "relatedName": "Invasive Bladder Sarcomatoid Urothelial Carcinoma with Heterologous Elements"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C39826",
+      "relatedName": "Invasive Bladder Sarcomatoid Urothelial Carcinoma without Heterologous Elements"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C39826",
+      "relatedName": "Invasive Bladder Sarcomatoid Urothelial Carcinoma without Heterologous Elements"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C39824",
+      "relatedName": "Invasive Bladder Sarcomatoid Urothelial Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C39824",
+      "relatedName": "Invasive Bladder Sarcomatoid Urothelial Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C191729",
+      "relatedName": "Invasive Bladder Tubular Urothelial Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C191729",
+      "relatedName": "Invasive Bladder Tubular Urothelial Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C115966",
+      "relatedName": "Invasive Bladder Urothelial Carcinoma Associated with Urethral Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C115966",
+      "relatedName": "Invasive Bladder Urothelial Carcinoma Associated with Urethral Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C39817",
+      "relatedName": "Invasive Bladder Urothelial Carcinoma with Glandular Differentiation"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C39817",
+      "relatedName": "Invasive Bladder Urothelial Carcinoma with Glandular Differentiation"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C39816",
+      "relatedName": "Invasive Bladder Urothelial Carcinoma with Squamous Differentiation"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C39816",
+      "relatedName": "Invasive Bladder Urothelial Carcinoma with Squamous Differentiation"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C39818",
+      "relatedName": "Invasive Bladder Urothelial Carcinoma with Trophoblastic Differentiation"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C39818",
+      "relatedName": "Invasive Bladder Urothelial Carcinoma with Trophoblastic Differentiation"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C27885",
+      "relatedName": "Invasive Bladder Urothelial Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C27885",
+      "relatedName": "Invasive Bladder Urothelial Carcinoma"
+    },
+    {
+      "type": "Anatomic_Structure_Is_Physical_Part_Of",
+      "relatedCode": "C12333",
+      "relatedName": "Lateral Wall of the Bladder"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C218460",
+      "relatedName": "Localized Bladder Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C218460",
+      "relatedName": "Localized Bladder Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C180605",
+      "relatedName": "Localized Muscle Invasive Bladder Urothelial Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C180605",
+      "relatedName": "Localized Muscle Invasive Bladder Urothelial Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C192631",
+      "relatedName": "Localized Non-Muscle Invasive Bladder Urothelial Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C192631",
+      "relatedName": "Localized Non-Muscle Invasive Bladder Urothelial Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C203407",
+      "relatedName": "Locally Advanced Bladder Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C203407",
+      "relatedName": "Locally Advanced Bladder Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C167071",
+      "relatedName": "Locally Advanced Bladder Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C167071",
+      "relatedName": "Locally Advanced Bladder Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C203415",
+      "relatedName": "Locally Advanced Bladder Small Cell Neuroendocrine Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C203415",
+      "relatedName": "Locally Advanced Bladder Small Cell Neuroendocrine Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C203410",
+      "relatedName": "Locally Advanced Bladder Squamous Cell Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C203410",
+      "relatedName": "Locally Advanced Bladder Squamous Cell Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C162618",
+      "relatedName": "Locally Advanced Bladder Urothelial Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C162618",
+      "relatedName": "Locally Advanced Bladder Urothelial Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C190773",
+      "relatedName": "Locally Advanced Non-Muscle Invasive Bladder Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C190773",
+      "relatedName": "Locally Advanced Non-Muscle Invasive Bladder Carcinoma"
+    },
+    {
+      "type": "Disease_Excludes_Primary_Anatomic_Site",
+      "relatedCode": "C162619",
+      "relatedName": "Locally Advanced Urethral Urothelial Carcinoma"
+    },
+    {
+      "type": "Disease_Excludes_Primary_Anatomic_Site",
+      "relatedCode": "C3494",
+      "relatedName": "Lung Papillary Adenoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C9334",
+      "relatedName": "Malignant Bladder Neoplasm"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C203406",
+      "relatedName": "Metastatic Bladder Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C203406",
+      "relatedName": "Metastatic Bladder Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C156062",
+      "relatedName": "Metastatic Bladder Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C156062",
+      "relatedName": "Metastatic Bladder Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C157768",
+      "relatedName": "Metastatic Bladder Clear Cell (Glycogen-Rich) Urothelial Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C157768",
+      "relatedName": "Metastatic Bladder Clear Cell (Glycogen-Rich) Urothelial Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C157769",
+      "relatedName": "Metastatic Bladder Giant Cell Urothelial Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C157769",
+      "relatedName": "Metastatic Bladder Giant Cell Urothelial Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C157762",
+      "relatedName": "Metastatic Bladder Large Cell Neuroendocrine Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C157762",
+      "relatedName": "Metastatic Bladder Large Cell Neuroendocrine Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C157754",
+      "relatedName": "Metastatic Bladder Lipid-Rich Urothelial Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C157754",
+      "relatedName": "Metastatic Bladder Lipid-Rich Urothelial Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C157767",
+      "relatedName": "Metastatic Bladder Micropapillary Urothelial Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C157767",
+      "relatedName": "Metastatic Bladder Micropapillary Urothelial Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C157770",
+      "relatedName": "Metastatic Bladder Nested Urothelial Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C157770",
+      "relatedName": "Metastatic Bladder Nested Urothelial Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C6416",
+      "relatedName": "Metastatic Bladder Paraganglioma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C6416",
+      "relatedName": "Metastatic Bladder Paraganglioma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C157751",
+      "relatedName": "Metastatic Bladder Plasmacytoid Urothelial Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C157751",
+      "relatedName": "Metastatic Bladder Plasmacytoid Urothelial Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C157766",
+      "relatedName": "Metastatic Bladder Sarcomatoid Urothelial Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C157766",
+      "relatedName": "Metastatic Bladder Sarcomatoid Urothelial Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C157763",
+      "relatedName": "Metastatic Bladder Small Cell Neuroendocrine Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C157763",
+      "relatedName": "Metastatic Bladder Small Cell Neuroendocrine Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C157750",
+      "relatedName": "Metastatic Bladder Squamous Cell Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C157750",
+      "relatedName": "Metastatic Bladder Squamous Cell Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C39899",
+      "relatedName": "Metastatic Bladder Urothelial Carcinoma in the Prostate Gland"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C39899",
+      "relatedName": "Metastatic Bladder Urothelial Carcinoma in the Prostate Gland"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C150513",
+      "relatedName": "Metastatic Bladder Urothelial Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C150513",
+      "relatedName": "Metastatic Bladder Urothelial Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C213282",
+      "relatedName": "Metastatic Carcinoma in the Bladder"
+    },
+    {
+      "type": "Disease_Has_Metastatic_Anatomic_Site",
+      "relatedCode": "C213282",
+      "relatedName": "Metastatic Carcinoma in the Bladder"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C7650",
+      "relatedName": "Metastatic Malignant Neoplasm in the Bladder"
+    },
+    {
+      "type": "Disease_Has_Metastatic_Anatomic_Site",
+      "relatedCode": "C7650",
+      "relatedName": "Metastatic Malignant Neoplasm in the Bladder"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C190772",
+      "relatedName": "Metastatic Non-Muscle Invasive Bladder Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C190772",
+      "relatedName": "Metastatic Non-Muscle Invasive Bladder Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C169043",
+      "relatedName": "Metastatic Urachal Urothelial Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C169043",
+      "relatedName": "Metastatic Urachal Urothelial Carcinoma"
+    },
+    {
+      "type": "Disease_Excludes_Primary_Anatomic_Site",
+      "relatedCode": "C150512",
+      "relatedName": "Metastatic Urethral Urothelial Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C150572",
+      "relatedName": "Muscle Invasive Bladder Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C150572",
+      "relatedName": "Muscle Invasive Bladder Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C180604",
+      "relatedName": "Muscle Invasive Bladder Urothelial Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C180604",
+      "relatedName": "Muscle Invasive Bladder Urothelial Carcinoma"
+    },
+    {
+      "type": "Disease_Excludes_Primary_Anatomic_Site",
+      "relatedCode": "C217731",
+      "relatedName": "Muscle Invasive Urethral Urothelial Carcinoma"
+    },
+    {
+      "type": "Anatomic_Structure_Is_Physical_Part_Of",
+      "relatedCode": "C62404",
+      "relatedName": "Muscularis Propria"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C78250",
+      "relatedName": "Non-Infectious Cystitis"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C78250",
+      "relatedName": "Non-Infectious Cystitis"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C27876",
+      "relatedName": "Non-Invasive Bladder Papillary Urothelial Carcinoma, High Grade"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C27876",
+      "relatedName": "Non-Invasive Bladder Papillary Urothelial Carcinoma, High Grade"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C27875",
+      "relatedName": "Non-Invasive Bladder Papillary Urothelial Carcinoma, Low Grade"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C27875",
+      "relatedName": "Non-Invasive Bladder Papillary Urothelial Carcinoma, Low Grade"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C158382",
+      "relatedName": "Non-Invasive Bladder Papillary Urothelial Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C158382",
+      "relatedName": "Non-Invasive Bladder Papillary Urothelial Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C39831",
+      "relatedName": "Non-Invasive Bladder Papillary Urothelial Neoplasm"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C39831",
+      "relatedName": "Non-Invasive Bladder Papillary Urothelial Neoplasm"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C213362",
+      "relatedName": "Non-Invasive Bladder Urothelial Carcinoma with Glandular Differentiation"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C213362",
+      "relatedName": "Non-Invasive Bladder Urothelial Carcinoma with Glandular Differentiation"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C158374",
+      "relatedName": "Non-Invasive Bladder Urothelial Neoplasm"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C158374",
+      "relatedName": "Non-Invasive Bladder Urothelial Neoplasm"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C27474",
+      "relatedName": "Non-Muscle Invasive Bladder Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C27474",
+      "relatedName": "Non-Muscle Invasive Bladder Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C170772",
+      "relatedName": "Non-Muscle Invasive Bladder Urothelial Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C170772",
+      "relatedName": "Non-Muscle Invasive Bladder Urothelial Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C27601",
+      "relatedName": "Non-Neoplastic Bladder Disorder"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C27601",
+      "relatedName": "Non-Neoplastic Bladder Disorder"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C200787",
+      "relatedName": "Overactive Bladder"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C200787",
+      "relatedName": "Overactive Bladder"
+    },
+    {
+      "type": "Disease_Excludes_Primary_Anatomic_Site",
+      "relatedCode": "C79951",
+      "relatedName": "Papillary Adenoma"
+    },
+    {
+      "type": "Procedure_Has_Excised_Anatomy",
+      "relatedCode": "C51636",
+      "relatedName": "Partial Cystectomy"
+    },
+    {
+      "type": "Procedure_Has_Partially_Excised_Anatomy",
+      "relatedCode": "C51636",
+      "relatedName": "Partial Cystectomy"
+    },
+    {
+      "type": "Anatomic_Structure_Is_Physical_Part_Of",
+      "relatedCode": "C12335",
+      "relatedName": "Posterior Wall of the Bladder"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C6949",
+      "relatedName": "Postoperative Spindle Cell Nodule of the Bladder"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C6949",
+      "relatedName": "Postoperative Spindle Cell Nodule of the Bladder"
+    },
+    {
+      "type": "Disease_Excludes_Primary_Anatomic_Site",
+      "relatedCode": "C39900",
+      "relatedName": "Prostatic Urethra Urothelial Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C123174",
+      "relatedName": "Radiation Cystitis"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C123174",
+      "relatedName": "Radiation Cystitis"
+    },
+    {
+      "type": "Procedure_Has_Completely_Excised_Anatomy",
+      "relatedCode": "C15396",
+      "relatedName": "Radical Cystectomy"
+    },
+    {
+      "type": "Procedure_Has_Excised_Anatomy",
+      "relatedCode": "C15396",
+      "relatedName": "Radical Cystectomy"
+    },
+    {
+      "type": "Procedure_Has_Completely_Excised_Anatomy",
+      "relatedCode": "C51899",
+      "relatedName": "Radical Cystoprostatectomy"
+    },
+    {
+      "type": "Procedure_Has_Excised_Anatomy",
+      "relatedCode": "C51899",
+      "relatedName": "Radical Cystoprostatectomy"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C4995",
+      "relatedName": "Recurrent Bladder Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C4995",
+      "relatedName": "Recurrent Bladder Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C7899",
+      "relatedName": "Recurrent Bladder Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C7899",
+      "relatedName": "Recurrent Bladder Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C191860",
+      "relatedName": "Recurrent Bladder Small Cell Neuroendocrine Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C191860",
+      "relatedName": "Recurrent Bladder Small Cell Neuroendocrine Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C8902",
+      "relatedName": "Recurrent Bladder Squamous Cell Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C8902",
+      "relatedName": "Recurrent Bladder Squamous Cell Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C126307",
+      "relatedName": "Recurrent Bladder Urothelial Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C126307",
+      "relatedName": "Recurrent Bladder Urothelial Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C9266",
+      "relatedName": "Recurrent Malignant Bladder Neoplasm"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C192630",
+      "relatedName": "Recurrent Muscle Invasive Bladder Urothelial Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C192630",
+      "relatedName": "Recurrent Muscle Invasive Bladder Urothelial Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C203815",
+      "relatedName": "Recurrent Non-Invasive Bladder Papillary Urothelial Carcinoma, Low Grade"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C203815",
+      "relatedName": "Recurrent Non-Invasive Bladder Papillary Urothelial Carcinoma, Low Grade"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C190774",
+      "relatedName": "Recurrent Non-Muscle Invasive Bladder Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C190774",
+      "relatedName": "Recurrent Non-Muscle Invasive Bladder Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C170773",
+      "relatedName": "Recurrent Non-Muscle Invasive Bladder Urothelial Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C170773",
+      "relatedName": "Recurrent Non-Muscle Invasive Bladder Urothelial Carcinoma"
+    },
+    {
+      "type": "Disease_Excludes_Primary_Anatomic_Site",
+      "relatedCode": "C131218",
+      "relatedName": "Recurrent Urethral Urothelial Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C150316",
+      "relatedName": "Refractory Bladder Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C150316",
+      "relatedName": "Refractory Bladder Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C191861",
+      "relatedName": "Refractory Bladder Small Cell Neuroendocrine Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C191861",
+      "relatedName": "Refractory Bladder Small Cell Neuroendocrine Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C165702",
+      "relatedName": "Refractory Bladder Urothelial Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C165702",
+      "relatedName": "Refractory Bladder Urothelial Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C202899",
+      "relatedName": "Refractory Non-Muscle Invasive Bladder Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C202899",
+      "relatedName": "Refractory Non-Muscle Invasive Bladder Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C180530",
+      "relatedName": "Refractory Non-Muscle Invasive Bladder Urothelial Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C180530",
+      "relatedName": "Refractory Non-Muscle Invasive Bladder Urothelial Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C148286",
+      "relatedName": "Refractory Stage 0 Bladder Cancer AJCC v6 and v7"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C148286",
+      "relatedName": "Refractory Stage 0 Bladder Cancer AJCC v6 and v7"
+    },
+    {
+      "type": "Disease_Excludes_Primary_Anatomic_Site",
+      "relatedCode": "C176996",
+      "relatedName": "Refractory Urethral Urothelial Carcinoma"
+    },
+    {
+      "type": "Disease_Excludes_Primary_Anatomic_Site",
+      "relatedCode": "C3687",
+      "relatedName": "Renal Papillary Adenoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C188032",
+      "relatedName": "Resectable Bladder Urothelial Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C188032",
+      "relatedName": "Resectable Bladder Urothelial Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C27768",
+      "relatedName": "Schistosoma Hematobium-Related Bladder Squamous Cell Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C27768",
+      "relatedName": "Schistosoma Hematobium-Related Bladder Squamous Cell Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C39833",
+      "relatedName": "Schistosoma Hematobium-Related Bladder Verrucous Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C39833",
+      "relatedName": "Schistosoma Hematobium-Related Bladder Verrucous Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C8894",
+      "relatedName": "Stage 0 Bladder Adenocarcinoma AJCC v6 and v7"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C8894",
+      "relatedName": "Stage 0 Bladder Adenocarcinoma AJCC v6 and v7"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C7895",
+      "relatedName": "Stage 0 Bladder Cancer AJCC v6 and v7"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C7895",
+      "relatedName": "Stage 0 Bladder Cancer AJCC v6 and v7"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C8903",
+      "relatedName": "Stage 0 Bladder Squamous Cell Carcinoma AJCC v6 and v7"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C8903",
+      "relatedName": "Stage 0 Bladder Squamous Cell Carcinoma AJCC v6 and v7"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C6188",
+      "relatedName": "Stage 0 Bladder Urothelial Carcinoma AJCC v6 and v7"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C6188",
+      "relatedName": "Stage 0 Bladder Urothelial Carcinoma AJCC v6 and v7"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C140417",
+      "relatedName": "Stage 0a Bladder Cancer AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C140417",
+      "relatedName": "Stage 0a Bladder Cancer AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C9267",
+      "relatedName": "Stage 0a Bladder Urothelial Carcinoma AJCC v6 and v7"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C9267",
+      "relatedName": "Stage 0a Bladder Urothelial Carcinoma AJCC v6 and v7"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C140418",
+      "relatedName": "Stage 0is Bladder Cancer AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C140418",
+      "relatedName": "Stage 0is Bladder Cancer AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C3644",
+      "relatedName": "Stage 0is Bladder Urothelial Carcinoma AJCC v6 and v7"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C3644",
+      "relatedName": "Stage 0is Bladder Urothelial Carcinoma AJCC v6 and v7"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C8895",
+      "relatedName": "Stage I Bladder Adenocarcinoma AJCC v6 and v7"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C8895",
+      "relatedName": "Stage I Bladder Adenocarcinoma AJCC v6 and v7"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C7896",
+      "relatedName": "Stage I Bladder Cancer AJCC v6 and v7"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C7896",
+      "relatedName": "Stage I Bladder Cancer AJCC v6 and v7"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C140419",
+      "relatedName": "Stage I Bladder Cancer AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C140419",
+      "relatedName": "Stage I Bladder Cancer AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C8899",
+      "relatedName": "Stage I Bladder Cancer with Carcinoma In Situ"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C8899",
+      "relatedName": "Stage I Bladder Cancer with Carcinoma In Situ"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C8901",
+      "relatedName": "Stage I Bladder Cancer without Carcinoma In Situ"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C8901",
+      "relatedName": "Stage I Bladder Cancer without Carcinoma In Situ"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C6191",
+      "relatedName": "Stage I Bladder Urothelial Carcinoma AJCC v6 and v7"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C6191",
+      "relatedName": "Stage I Bladder Urothelial Carcinoma AJCC v6 and v7"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C8904",
+      "relatedName": "Stage I Squamous Cell Carcinoma of the Bladder AJCC v6 and v7"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C8904",
+      "relatedName": "Stage I Squamous Cell Carcinoma of the Bladder AJCC v6 and v7"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C8896",
+      "relatedName": "Stage II Bladder Adenocarcinoma AJCC v6 and v7"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C8896",
+      "relatedName": "Stage II Bladder Adenocarcinoma AJCC v6 and v7"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C7897",
+      "relatedName": "Stage II Bladder Cancer AJCC v6 and v7"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C7897",
+      "relatedName": "Stage II Bladder Cancer AJCC v6 and v7"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C140420",
+      "relatedName": "Stage II Bladder Cancer AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C140420",
+      "relatedName": "Stage II Bladder Cancer AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C4994",
+      "relatedName": "Stage II Bladder Squamous Cell Carcinoma AJCC v6 and v7"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C4994",
+      "relatedName": "Stage II Bladder Squamous Cell Carcinoma AJCC v6 and v7"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C8939",
+      "relatedName": "Stage II Bladder Urothelial Carcinoma AJCC v6 and v7"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C8939",
+      "relatedName": "Stage II Bladder Urothelial Carcinoma AJCC v6 and v7"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C8897",
+      "relatedName": "Stage III Bladder Adenocarcinoma AJCC v6 and v7"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C8897",
+      "relatedName": "Stage III Bladder Adenocarcinoma AJCC v6 and v7"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C7898",
+      "relatedName": "Stage III Bladder Cancer AJCC v6 and v7"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C7898",
+      "relatedName": "Stage III Bladder Cancer AJCC v6 and v7"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C140421",
+      "relatedName": "Stage III Bladder Cancer AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C140421",
+      "relatedName": "Stage III Bladder Cancer AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C8905",
+      "relatedName": "Stage III Bladder Squamous Cell Carcinoma AJCC v6 and v7"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C8905",
+      "relatedName": "Stage III Bladder Squamous Cell Carcinoma AJCC v6 and v7"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C8940",
+      "relatedName": "Stage III Bladder Urothelial Carcinoma AJCC v6 and v7"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C8940",
+      "relatedName": "Stage III Bladder Urothelial Carcinoma AJCC v6 and v7"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C140422",
+      "relatedName": "Stage IIIA Bladder Cancer AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C140422",
+      "relatedName": "Stage IIIA Bladder Cancer AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C140423",
+      "relatedName": "Stage IIIB Bladder Cancer AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C140423",
+      "relatedName": "Stage IIIB Bladder Cancer AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C8898",
+      "relatedName": "Stage IV Bladder Adenocarcinoma AJCC v7"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C8898",
+      "relatedName": "Stage IV Bladder Adenocarcinoma AJCC v7"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C7900",
+      "relatedName": "Stage IV Bladder Cancer AJCC v6"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C7900",
+      "relatedName": "Stage IV Bladder Cancer AJCC v6"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C89366",
+      "relatedName": "Stage IV Bladder Cancer AJCC v7"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C89366",
+      "relatedName": "Stage IV Bladder Cancer AJCC v7"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C140424",
+      "relatedName": "Stage IV Bladder Cancer AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C140424",
+      "relatedName": "Stage IV Bladder Cancer AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C8906",
+      "relatedName": "Stage IV Bladder Squamous Cell Carcinoma AJCC v7"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C8906",
+      "relatedName": "Stage IV Bladder Squamous Cell Carcinoma AJCC v7"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C8941",
+      "relatedName": "Stage IV Bladder Urothelial Carcinoma AJCC v7"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C8941",
+      "relatedName": "Stage IV Bladder Urothelial Carcinoma AJCC v7"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C140425",
+      "relatedName": "Stage IVA Bladder Cancer AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C140425",
+      "relatedName": "Stage IVA Bladder Cancer AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C140426",
+      "relatedName": "Stage IVB Bladder Cancer AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C140426",
+      "relatedName": "Stage IVB Bladder Cancer AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C171202",
+      "relatedName": "Supravesical Fissure of Urinary Bladder"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C171202",
+      "relatedName": "Supravesical Fissure of Urinary Bladder"
+    },
+    {
+      "type": "Procedure_Has_Target_Anatomy",
+      "relatedCode": "C64960",
+      "relatedName": "Therapeutic Cystoscopy"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C27634",
+      "relatedName": "Transplant-Related Bladder Urothelial Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C27634",
+      "relatedName": "Transplant-Related Bladder Urothelial Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C35405",
+      "relatedName": "Trichomonas Cystitis"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C35405",
+      "relatedName": "Trichomonas Cystitis"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C123175",
+      "relatedName": "Trigonitis"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C123175",
+      "relatedName": "Trigonitis"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C203409",
+      "relatedName": "Unresectable Bladder Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C203409",
+      "relatedName": "Unresectable Bladder Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C167075",
+      "relatedName": "Unresectable Bladder Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C167075",
+      "relatedName": "Unresectable Bladder Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C191857",
+      "relatedName": "Unresectable Bladder Small Cell Neuroendocrine Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C191857",
+      "relatedName": "Unresectable Bladder Small Cell Neuroendocrine Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C203411",
+      "relatedName": "Unresectable Bladder Squamous Cell Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C203411",
+      "relatedName": "Unresectable Bladder Squamous Cell Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C158586",
+      "relatedName": "Unresectable Bladder Urothelial Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C158586",
+      "relatedName": "Unresectable Bladder Urothelial Carcinoma"
+    },
+    {
+      "type": "Disease_Excludes_Primary_Anatomic_Site",
+      "relatedCode": "C158585",
+      "relatedName": "Unresectable Urethral Urothelial Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C39843",
+      "relatedName": "Urachal Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C39843",
+      "relatedName": "Urachal Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C39842",
+      "relatedName": "Urachal Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C39842",
+      "relatedName": "Urachal Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C39845",
+      "relatedName": "Urachal Squamous Cell Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C39845",
+      "relatedName": "Urachal Squamous Cell Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C39844",
+      "relatedName": "Urachal Urothelial Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C39844",
+      "relatedName": "Urachal Urothelial Carcinoma"
+    },
+    {
+      "type": "Anatomic_Structure_Is_Physical_Part_Of",
+      "relatedCode": "C12337",
+      "relatedName": "Ureteric Orifice"
+    },
+    {
+      "type": "Disease_Excludes_Primary_Anatomic_Site",
+      "relatedCode": "C6166",
+      "relatedName": "Urethral Urothelial Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C123176",
+      "relatedName": "Urethrotrigonitis"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C123176",
+      "relatedName": "Urethrotrigonitis"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C123246",
+      "relatedName": "Urinary Hesitancy"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C123246",
+      "relatedName": "Urinary Hesitancy"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C123247",
+      "relatedName": "Urinary Straining"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C123247",
+      "relatedName": "Urinary Straining"
+    },
+    {
+      "type": "Biological_Process_Has_Associated_Location",
+      "relatedCode": "C25744",
+      "relatedName": "Urination"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C123162",
+      "relatedName": "Voiding Disorders"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C123162",
+      "relatedName": "Voiding Disorders"
+    }
+  ],
+  "history": [
+    {
+      "code": "C12414",
+      "action": "create",
+      "date": "2003-08-12"
+    },
+    {
+      "code": "C12414",
+      "action": "modify",
+      "date": "2003-10-31"
+    },
+    {
+      "code": "C12414",
+      "action": "modify",
+      "date": "2003-12-05"
+    },
+    {
+      "code": "C12414",
+      "action": "modify",
+      "date": "2003-12-30"
+    },
+    {
+      "code": "C12414",
+      "action": "modify",
+      "date": "2004-02-23"
+    },
+    {
+      "code": "C12414",
+      "action": "modify",
+      "date": "2004-03-30"
+    },
+    {
+      "code": "C12414",
+      "action": "modify",
+      "date": "2005-03-16"
+    },
+    {
+      "code": "C12414",
+      "action": "modify",
+      "date": "2006-01-03"
+    },
+    {
+      "code": "C12414",
+      "action": "modify",
+      "date": "2006-03-31"
+    },
+    {
+      "code": "C12414",
+      "action": "modify",
+      "date": "2007-09-27"
+    },
+    {
+      "code": "C12414",
+      "action": "modify",
+      "date": "2008-06-27"
+    },
+    {
+      "code": "C12414",
+      "action": "modify",
+      "date": "2008-09-12"
+    },
+    {
+      "code": "C12414",
+      "action": "modify",
+      "date": "2008-11-14"
+    },
+    {
+      "code": "C12414",
+      "action": "modify",
+      "date": "2008-11-26"
+    },
+    {
+      "code": "C12414",
+      "action": "modify",
+      "date": "2008-12-19"
+    },
+    {
+      "code": "C12414",
+      "action": "modify",
+      "date": "2008-11-07"
+    },
+    {
+      "code": "C12414",
+      "action": "modify",
+      "date": "2009-04-06"
+    },
+    {
+      "code": "C12414",
+      "action": "modify",
+      "date": "2009-08-03"
+    },
+    {
+      "code": "C12414",
+      "action": "modify",
+      "date": "2009-11-23"
+    },
+    {
+      "code": "C12414",
+      "action": "modify",
+      "date": "2011-03-07"
+    },
+    {
+      "code": "C12414",
+      "action": "modify",
+      "date": "2013-02-25"
+    },
+    {
+      "code": "C12414",
+      "action": "modify",
+      "date": "2013-03-04"
+    },
+    {
+      "code": "C12414",
+      "action": "modify",
+      "date": "2013-03-11"
+    },
+    {
+      "code": "C12414",
+      "action": "modify",
+      "date": "2013-03-18"
+    },
+    {
+      "code": "C12414",
+      "action": "modify",
+      "date": "2013-03-25"
+    },
+    {
+      "code": "C12414",
+      "action": "modify",
+      "date": "2013-04-01"
+    },
+    {
+      "code": "C12414",
+      "action": "modify",
+      "date": "2013-04-08"
+    },
+    {
+      "code": "C12414",
+      "action": "modify",
+      "date": "2013-04-15"
+    },
+    {
+      "code": "C12414",
+      "action": "modify",
+      "date": "2013-04-22"
+    },
+    {
+      "code": "C12414",
+      "action": "modify",
+      "date": "2013-04-29"
+    },
+    {
+      "code": "C12414",
+      "action": "modify",
+      "date": "2013-05-06"
+    },
+    {
+      "code": "C12414",
+      "action": "modify",
+      "date": "2013-05-13"
+    },
+    {
+      "code": "C12414",
+      "action": "modify",
+      "date": "2013-05-20"
+    },
+    {
+      "code": "C12414",
+      "action": "modify",
+      "date": "2013-05-28"
+    },
+    {
+      "code": "C12414",
+      "action": "modify",
+      "date": "2013-06-03"
+    },
+    {
+      "code": "C12414",
+      "action": "modify",
+      "date": "2013-06-10"
+    },
+    {
+      "code": "C12414",
+      "action": "modify",
+      "date": "2013-06-17"
+    },
+    {
+      "code": "C12414",
+      "action": "modify",
+      "date": "2013-06-24"
+    },
+    {
+      "code": "C12414",
+      "action": "modify",
+      "date": "2013-07-01"
+    },
+    {
+      "code": "C12414",
+      "action": "modify",
+      "date": "2013-07-08"
+    },
+    {
+      "code": "C12414",
+      "action": "modify",
+      "date": "2014-02-03"
+    },
+    {
+      "code": "C12414",
+      "action": "modify",
+      "date": "2015-05-26"
+    },
+    {
+      "code": "C12414",
+      "action": "modify",
+      "date": "2015-06-01"
+    },
+    {
+      "code": "C12414",
+      "action": "modify",
+      "date": "2015-06-08"
+    },
+    {
+      "code": "C12414",
+      "action": "modify",
+      "date": "2015-06-15"
+    },
+    {
+      "code": "C12414",
+      "action": "modify",
+      "date": "2015-06-22"
+    },
+    {
+      "code": "C12414",
+      "action": "modify",
+      "date": "2015-06-29"
+    },
+    {
+      "code": "C12414",
+      "action": "modify",
+      "date": "2015-07-06"
+    },
+    {
+      "code": "C12414",
+      "action": "modify",
+      "date": "2015-07-13"
+    },
+    {
+      "code": "C12414",
+      "action": "modify",
+      "date": "2015-08-12"
+    },
+    {
+      "code": "C12414",
+      "action": "modify",
+      "date": "2015-08-31"
+    },
+    {
+      "code": "C12414",
+      "action": "modify",
+      "date": "2015-10-19"
+    },
+    {
+      "code": "C12414",
+      "action": "modify",
+      "date": "2015-11-30"
+    },
+    {
+      "code": "C12414",
+      "action": "modify",
+      "date": "2016-10-17"
+    },
+    {
+      "code": "C12414",
+      "action": "modify",
+      "date": "2017-02-27"
+    },
+    {
+      "code": "C12414",
+      "action": "modify",
+      "date": "2017-03-06"
+    },
+    {
+      "code": "C12414",
+      "action": "modify",
+      "date": "2017-03-13"
+    },
+    {
+      "code": "C12414",
+      "action": "modify",
+      "date": "2018-09-24"
+    },
+    {
+      "code": "C12414",
+      "action": "modify",
+      "date": "2018-10-29"
+    },
+    {
+      "code": "C12414",
+      "action": "modify",
+      "date": "2018-10-29"
+    },
+    {
+      "code": "C12414",
+      "action": "modify",
+      "date": "2019-03-25"
+    },
+    {
+      "code": "C12414",
+      "action": "modify",
+      "date": "2019-04-29"
+    },
+    {
+      "code": "C12414",
+      "action": "modify",
+      "date": "2019-05-28"
+    },
+    {
+      "code": "C12414",
+      "action": "modify",
+      "date": "2019-06-24"
+    },
+    {
+      "code": "C12414",
+      "action": "modify",
+      "date": "2019-07-29"
+    },
+    {
+      "code": "C12414",
+      "action": "create",
+      "date": "2019-08-26"
+    },
+    {
+      "code": "C12414",
+      "action": "modify",
+      "date": "2019-09-30"
+    },
+    {
+      "code": "C12414",
+      "action": "modify",
+      "date": "2019-10-28"
+    },
+    {
+      "code": "C12414",
+      "action": "modify",
+      "date": "2020-02-24"
+    },
+    {
+      "code": "C12414",
+      "action": "modify",
+      "date": "2020-03-30"
+    },
+    {
+      "code": "C12414",
+      "action": "modify",
+      "date": "2020-09-29"
+    },
+    {
+      "code": "C12414",
+      "action": "modify",
+      "date": "2021-02-22"
+    },
+    {
+      "code": "C12414",
+      "action": "modify",
+      "date": "2021-03-29"
+    },
+    {
+      "code": "C12414",
+      "action": "modify",
+      "date": "2021-10-25"
+    },
+    {
+      "code": "C12414",
+      "action": "modify",
+      "date": "2022-04-25"
+    },
+    {
+      "code": "C12414",
+      "action": "modify",
+      "date": "2022-08-29"
+    },
+    {
+      "code": "C12414",
+      "action": "modify",
+      "date": "2022-10-31"
+    },
+    {
+      "code": "C12414",
+      "action": "modify",
+      "date": "2022-12-27"
+    },
+    {
+      "code": "C12414",
+      "action": "modify",
+      "date": "2023-02-27"
+    },
+    {
+      "code": "C12414",
+      "action": "modify",
+      "date": "2023-03-27"
+    },
+    {
+      "code": "C12414",
+      "action": "modify",
+      "date": "2023-05-30"
+    },
+    {
+      "code": "C12414",
+      "action": "modify",
+      "date": "2023-07-31"
+    },
+    {
+      "code": "C12414",
+      "action": "modify",
+      "date": "2023-09-25"
+    },
+    {
+      "code": "C12414",
+      "action": "modify",
+      "date": "2024-07-08"
+    }
+  ],
+  "maps": [
+    {
+      "type": "Related To",
+      "targetName": "Bladder, NOS",
+      "targetTermType": "PT",
+      "targetCode": "C67.9",
+      "targetTerminology": "ICDO3",
+      "targetTerminologyVersion": "3.2"
+    },
+    {
+      "type": "Related To",
+      "targetName": "Bladder, NOS",
+      "targetTermType": "PT",
+      "targetCode": "C67.9",
+      "targetTerminology": "ICDO3",
+      "targetTerminologyVersion": "3.1"
+    },
+    {
+      "type": "Has Synonym",
+      "targetName": "Bladder, NOS",
+      "targetTermType": "PT",
+      "targetCode": "progression_or_recurrence_anatomic_site",
+      "targetTerminology": "GDC"
+    },
+    {
+      "type": "Has Synonym",
+      "targetName": "Bladder, NOS",
+      "targetTermType": "PT",
+      "targetCode": "site_of_resection_or_biopsy",
+      "targetTerminology": "GDC"
+    },
+    {
+      "type": "Has Synonym",
+      "targetName": "Bladder, NOS",
+      "targetTermType": "PT",
+      "targetCode": "sites_of_involvement",
+      "targetTerminology": "GDC"
+    },
+    {
+      "type": "Has Synonym",
+      "targetName": "Bladder, NOS",
+      "targetTermType": "PT",
+      "targetCode": "tissue_or_organ_of_origin",
+      "targetTerminology": "GDC"
+    },
+    {
+      "type": "Has Synonym",
+      "targetName": "Bladder",
+      "targetTermType": "PT",
+      "targetCode": "biospecimen_anatomic_site",
+      "targetTerminology": "GDC"
+    },
+    {
+      "type": "Related To",
+      "targetName": "BLADDER",
+      "targetTermType": "HT",
+      "targetCode": "C67",
+      "targetTerminology": "ICDO3",
+      "targetTerminologyVersion": "3.2"
+    },
+    {
+      "type": "Related To",
+      "targetName": "BLADDER",
+      "targetTermType": "HT",
+      "targetCode": "C67",
+      "targetTerminology": "ICDO3",
+      "targetTerminologyVersion": "3.1"
+    },
+    {
+      "type": "Has Synonym",
+      "targetName": "Bladder",
+      "targetTermType": "PT",
+      "targetCode": "contiguous_organ_invaded",
+      "targetTerminology": "GDC"
+    },
+    {
+      "type": "Has Synonym",
+      "targetName": "Bladder",
+      "targetTermType": "PT",
+      "targetCode": "hysterectomy_margins_involved",
+      "targetTerminology": "GDC"
+    },
+    {
+      "type": "Has Synonym",
+      "targetName": "Bladder",
+      "targetTermType": "PT",
+      "targetCode": "primary_site",
+      "targetTerminology": "GDC"
+    },
+    {
+      "type": "Has Synonym",
+      "targetName": "Bladder",
+      "targetTermType": "PT",
+      "targetCode": "treatment_anatomic_sites",
+      "targetTerminology": "GDC"
+    },
+    {
+      "type": "Related To",
+      "targetName": "Urinary bladder, NOS",
+      "targetTermType": "SY",
+      "targetCode": "C67.9",
+      "targetTerminology": "ICDO3",
+      "targetTerminologyVersion": "3.1"
+    },
+    {
+      "type": "Related To",
+      "targetName": "Urinary bladder, NOS",
+      "targetTermType": "SY",
+      "targetCode": "C67.9",
+      "targetTerminology": "ICDO3",
+      "targetTerminologyVersion": "3.2"
+    }
+  ]
+}

@@ -1,0 +1,518 @@
+{
+  "code": "C45339",
+  "name": "Primary Cutaneous CD8-Positive Aggressive Epidermotropic Cytotoxic T-Cell Lymphoma",
+  "terminology": "ncit",
+  "version": "25.11d",
+  "conceptStatus": "DEFAULT",
+  "leaf": false,
+  "active": true,
+  "synonyms": [
+    {
+      "name": "Primary cutaneous CD8-positive aggressive epidermotropic cytotoxic T-cell lymphoma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "GDC"
+    },
+    {
+      "name": "PCAETL",
+      "termType": "AB",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Primary Cutaneous Aggressive Epidermotropic CD8-Positive T-Cell Lymphoma",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Primary Cutaneous CD8-Positive Aggressive Epidermotropic Cytotoxic T-Cell Lymphoma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Primary Cutaneous CD8-Positive Aggressive Epidermotropic T-Cell Lymphoma",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Primary Cutaneous CD8-Positive Aggressive Epidermotropic Cytotoxic T-Cell Lymphoma",
+      "type": "Preferred_Name"
+    }
+  ],
+  "definitions": [
+    {
+      "definition": "An aggressive, epidermotropic primary cutaneous T-cell lymphoma composed of small to medium-sized, or medium-sized to large, CD8-positive T-lymphocytes with pleomorphic or blastic nuclei. Epidermotropism is often pronounced, and angiocentricity and angioinvasion may be present. It manifests with localized or disseminated eruptive papules and nodules or tumors.",
+      "type": "DEFINITION",
+      "source": "NCI"
+    }
+  ],
+  "properties": [
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "GDC"
+    },
+    {
+      "code": "P334",
+      "type": "ICD-O-3_Code",
+      "value": "9709/3"
+    },
+    {
+      "code": "P366",
+      "type": "Legacy Concept Name",
+      "value": "Primary_Cutaneous_Aggressive_Epidermotropic_CD8-Positive_T-Cell_Lymphoma"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "Primary cutaneous CD8-positive aggressive epidermotropic cytotoxic T-cell lymphoma"
+    },
+    {
+      "code": "P363",
+      "type": "Neoplastic_Status",
+      "value": "Malignant"
+    },
+    {
+      "code": "P106",
+      "type": "Semantic_Type",
+      "value": "Neoplastic Process"
+    },
+    {
+      "code": "P207",
+      "type": "UMLS_CUI",
+      "value": "C1709653"
+    }
+  ],
+  "children": [
+    {
+      "code": "C191823",
+      "name": "Recurrent Primary Cutaneous CD8-Positive Aggressive Epidermotropic Cytotoxic T-Cell Lymphoma",
+      "leaf": true
+    },
+    {
+      "code": "C191824",
+      "name": "Refractory Primary Cutaneous CD8-Positive Aggressive Epidermotropic Cytotoxic T-Cell Lymphoma",
+      "leaf": true
+    }
+  ],
+  "parents": [
+    {
+      "code": "C178547",
+      "name": "Aggressive T-Cell Non-Hodgkin Lymphoma"
+    },
+    {
+      "code": "C3467",
+      "name": "Primary Cutaneous T-Cell Non-Hodgkin Lymphoma"
+    }
+  ],
+  "associations": [
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C157711",
+      "relatedName": "GDC Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C177537",
+      "relatedName": "GDC Value Terminology"
+    },
+    {
+      "type": "Is_Value_For_GDC_Property",
+      "relatedCode": "C177621",
+      "relatedName": "ICD-O-3 Morphology Term Diagnosis Question"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C126659",
+      "relatedName": "NCIt Neoplasm Core Terminology"
+    }
+  ],
+  "inverseAssociations": [
+    {
+      "type": "Has_GDC_Value",
+      "relatedCode": "C177621",
+      "relatedName": "ICD-O-3 Morphology Term Diagnosis Question"
+    }
+  ],
+  "roles": [
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36725",
+      "relatedName": "Abnormal Lymphocyte"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C36104",
+      "relatedName": "Aggressive Clinical Course"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C35905",
+      "relatedName": "Angiocentric Pattern"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C39589",
+      "relatedName": "Angioinvasion"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C36122",
+      "relatedName": "Benign Cellular Infiltrate"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C45324",
+      "relatedName": "CD8-Positive Neoplastic Cells Present"
+    },
+    {
+      "type": "Disease_Has_Molecular_Abnormality",
+      "relatedCode": "C36447",
+      "relatedName": "Clonal T-Cell Receptor Beta Chain Gene Rearrangement"
+    },
+    {
+      "type": "Disease_Has_Molecular_Abnormality",
+      "relatedCode": "C36448",
+      "relatedName": "Clonal T-Cell Receptor Gamma Chain Gene Rearrangement"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C39570",
+      "relatedName": "Cutaneous Involvement"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C12543",
+      "relatedName": "Cytotoxic T-Lymphocyte"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C39626",
+      "relatedName": "Epidermotropic Lymphocytic Infiltrate"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C39625",
+      "relatedName": "Extracutaneous Dissemination of Disease"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C41165",
+      "relatedName": "Hematopoietic and Lymphatic System"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C41165",
+      "relatedName": "Hematopoietic and Lymphatic System"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C32725",
+      "relatedName": "Hematopoietic and Lymphoid Cell"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C41168",
+      "relatedName": "Hematopoietic and Lymphoid Tissue"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12907",
+      "relatedName": "Integumentary System"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C39688",
+      "relatedName": "Localized Skin Lesion"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12746",
+      "relatedName": "Lymphatic System"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C37027",
+      "relatedName": "Lymphocyte Predominant Cell"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C12535",
+      "relatedName": "Lymphocyte"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C13049",
+      "relatedName": "Lymphoid Tissue"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12917",
+      "relatedName": "Malignant Cell"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C36115",
+      "relatedName": "Malignant Cellular Infiltrate"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C39787",
+      "relatedName": "Multiple Tumor Masses"
+    },
+    {
+      "type": "Disease_Excludes_Normal_Cell_Origin",
+      "relatedCode": "C12549",
+      "relatedName": "Myeloid Cell"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C36123",
+      "relatedName": "Necrotic Lesion"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C38640",
+      "relatedName": "Neoplastic B-Lymphocyte"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12922",
+      "relatedName": "Neoplastic Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C37060",
+      "relatedName": "Neoplastic Hematopoietic and Lymphoid Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36988",
+      "relatedName": "Neoplastic Lymphocyte"
+    },
+    {
+      "type": "Disease_May_Have_Abnormal_Cell",
+      "relatedCode": "C39614",
+      "relatedName": "Neoplastic Medium-Sized to Large T-Lymphocyte"
+    },
+    {
+      "type": "Disease_May_Have_Abnormal_Cell",
+      "relatedCode": "C39606",
+      "relatedName": "Neoplastic Small to Medium-Sized T-Lymphocyte"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C39566",
+      "relatedName": "Neoplastic T-Lymphocyte and Neoplastic Natural Killer Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C38641",
+      "relatedName": "Neoplastic T-Lymphocyte"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C38641",
+      "relatedName": "Neoplastic T-Lymphocyte"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C38721",
+      "relatedName": "Nuclear Pleomorphism"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C39690",
+      "relatedName": "Papular Lesion"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C39568",
+      "relatedName": "Peripheral (Post-Thymic) T-Lymphocyte and Natural Killer Cell"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C38434",
+      "relatedName": "Peripheral (Post-Thymic) T-Lymphocyte"
+    },
+    {
+      "type": "Disease_Excludes_Normal_Cell_Origin",
+      "relatedCode": "C12486",
+      "relatedName": "Plasma Cell"
+    },
+    {
+      "type": "Disease_Excludes_Normal_Cell_Origin",
+      "relatedCode": "C39300",
+      "relatedName": "Precursor Natural Killer Cell"
+    },
+    {
+      "type": "Disease_Excludes_Normal_Cell_Origin",
+      "relatedCode": "C33930",
+      "relatedName": "Precursor T-Lymphoblast"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C12660",
+      "relatedName": "Reed-Sternberg Cell"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C3373",
+      "relatedName": "Skin Nodule"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C39623",
+      "relatedName": "Skin Patch"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C39624",
+      "relatedName": "Skin Plaque"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12470",
+      "relatedName": "Skin"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12470",
+      "relatedName": "Skin"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C39567",
+      "relatedName": "T-Lymphocyte and Natural Killer Cell"
+    }
+  ],
+  "history": [
+    {
+      "code": "C45339",
+      "action": "create",
+      "date": "2005-03-30"
+    },
+    {
+      "code": "C45339",
+      "action": "modify",
+      "date": "2005-04-29"
+    },
+    {
+      "code": "C45339",
+      "action": "modify",
+      "date": "2005-07-29"
+    },
+    {
+      "code": "C45339",
+      "action": "modify",
+      "date": "2005-09-29"
+    },
+    {
+      "code": "C45339",
+      "action": "modify",
+      "date": "2009-04-06"
+    },
+    {
+      "code": "C45339",
+      "action": "modify",
+      "date": "2009-04-27"
+    },
+    {
+      "code": "C45339",
+      "action": "modify",
+      "date": "2009-11-23"
+    },
+    {
+      "code": "C45339",
+      "action": "modify",
+      "date": "2011-01-17"
+    },
+    {
+      "code": "C45339",
+      "action": "modify",
+      "date": "2012-07-30"
+    },
+    {
+      "code": "C45339",
+      "action": "modify",
+      "date": "2013-06-24"
+    },
+    {
+      "code": "C45339",
+      "action": "modify",
+      "date": "2014-02-03"
+    },
+    {
+      "code": "C45339",
+      "action": "modify",
+      "date": "2016-04-25"
+    },
+    {
+      "code": "C45339",
+      "action": "modify",
+      "date": "2017-09-26"
+    },
+    {
+      "code": "C45339",
+      "action": "modify",
+      "date": "2018-09-24"
+    },
+    {
+      "code": "C45339",
+      "action": "modify",
+      "date": "2019-05-28"
+    },
+    {
+      "code": "C45339",
+      "action": "modify",
+      "date": "2019-09-30"
+    },
+    {
+      "code": "C45339",
+      "action": "modify",
+      "date": "2019-11-25"
+    },
+    {
+      "code": "C45339",
+      "action": "modify",
+      "date": "2021-02-22"
+    },
+    {
+      "code": "C45339",
+      "action": "modify",
+      "date": "2021-03-29"
+    },
+    {
+      "code": "C45339",
+      "action": "modify",
+      "date": "2021-04-26"
+    },
+    {
+      "code": "C45339",
+      "action": "modify",
+      "date": "2021-06-28"
+    },
+    {
+      "code": "C45339",
+      "action": "modify",
+      "date": "2023-08-28"
+    },
+    {
+      "code": "C45339",
+      "action": "modify",
+      "date": "2024-06-24"
+    }
+  ],
+  "maps": [
+    {
+      "type": "Has Synonym",
+      "targetName": "Primary cutaneous CD8-positive aggressive epidermotropic cytotoxic T-cell lymphoma",
+      "targetTermType": "PT",
+      "targetCode": "primary_diagnosis",
+      "targetTerminology": "GDC"
+    }
+  ]
+}

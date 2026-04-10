@@ -1,0 +1,429 @@
+{
+  "code": "C80297",
+  "name": "Pediatric-Type Follicular Lymphoma",
+  "terminology": "ncit",
+  "version": "25.11d",
+  "conceptStatus": "DEFAULT",
+  "leaf": false,
+  "active": true,
+  "synonyms": [
+    {
+      "name": "Childhood Follicular Lymphoma",
+      "termType": "AQS",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Pediatric Follicular Lymphoma",
+      "termType": "AQS",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Pediatric-Type Follicular Lymphoma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "PTFL",
+      "termType": "AB",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Childhood Follicular Lymphoma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NICHD"
+    },
+    {
+      "name": "Pediatric Follicular Lymphoma",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NICHD"
+    },
+    {
+      "name": "Pediatric-Type Follicular Lymphoma",
+      "type": "Preferred_Name"
+    }
+  ],
+  "definitions": [
+    {
+      "definition": "A nodal follicular lymphoma with favorable prognosis. It lacks BCL-2 rearrangement and 14;18 translocation. Nearly all cases are localized. It is usually seen in the pediatric population but similar lymphomas may occur in adults.",
+      "type": "DEFINITION",
+      "source": "NCI"
+    },
+    {
+      "definition": "A variant of follicular lymphoma seen in children and adolescents that lacks the translocation of t(14;18)(q32;q21) involving BCL2, which is generally found in adults.",
+      "type": "ALT_DEFINITION",
+      "source": "NICHD"
+    }
+  ],
+  "properties": [
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "NICHD"
+    },
+    {
+      "code": "P366",
+      "type": "Legacy Concept Name",
+      "value": "Pediatric_Follicular_Lymphoma"
+    },
+    {
+      "code": "P363",
+      "type": "Neoplastic_Status",
+      "value": "Malignant"
+    },
+    {
+      "code": "P106",
+      "type": "Semantic_Type",
+      "value": "Neoplastic Process"
+    },
+    {
+      "code": "P207",
+      "type": "UMLS_CUI",
+      "value": "C2698750"
+    }
+  ],
+  "children": [
+    {
+      "code": "C202927",
+      "name": "Head and Neck Pediatric-Type Follicular Lymphoma",
+      "leaf": true
+    }
+  ],
+  "parents": [
+    {
+      "code": "C3209",
+      "name": "Follicular Lymphoma"
+    }
+  ],
+  "associations": [
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C126659",
+      "relatedName": "NCIt Neoplasm Core Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C90259",
+      "relatedName": "NICHD Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C132009",
+      "relatedName": "Pediatric Hematology-Oncology Terminology"
+    }
+  ],
+  "roles": [
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36725",
+      "relatedName": "Abnormal Lymphocyte"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C12474",
+      "relatedName": "B-Lymphocyte"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C36122",
+      "relatedName": "Benign Cellular Infiltrate"
+    },
+    {
+      "type": "Disease_Has_Molecular_Abnormality",
+      "relatedCode": "C36443",
+      "relatedName": "Clonal Immunoglobulin Gene Rearrangement"
+    },
+    {
+      "type": "Disease_Has_Molecular_Abnormality",
+      "relatedCode": "C36444",
+      "relatedName": "Clonal Immunoglobulin Heavy Chain Gene Rearrangement"
+    },
+    {
+      "type": "Disease_Has_Molecular_Abnormality",
+      "relatedCode": "C36451",
+      "relatedName": "Clonal Immunoglobulin Kappa Light Chain Gene Rearrangement"
+    },
+    {
+      "type": "Disease_Has_Molecular_Abnormality",
+      "relatedCode": "C36452",
+      "relatedName": "Clonal Immunoglobulin Lambda Light Chain Gene Rearrangement"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C36156",
+      "relatedName": "Favorable Clinical Outcome"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C38335",
+      "relatedName": "Germinal Center B-Lymphocyte"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C13337",
+      "relatedName": "Germinal Center"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C41165",
+      "relatedName": "Hematopoietic and Lymphatic System"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C41165",
+      "relatedName": "Hematopoietic and Lymphatic System"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C32725",
+      "relatedName": "Hematopoietic and Lymphoid Cell"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C41168",
+      "relatedName": "Hematopoietic and Lymphoid Tissue"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C36162",
+      "relatedName": "Localized Disease"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12746",
+      "relatedName": "Lymphatic System"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C37027",
+      "relatedName": "Lymphocyte Predominant Cell"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C12535",
+      "relatedName": "Lymphocyte"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C13049",
+      "relatedName": "Lymphoid Tissue"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12917",
+      "relatedName": "Malignant Cell"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C36115",
+      "relatedName": "Malignant Cellular Infiltrate"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C33058",
+      "relatedName": "Mature B-Lymphocyte"
+    },
+    {
+      "type": "Disease_Excludes_Normal_Cell_Origin",
+      "relatedCode": "C12549",
+      "relatedName": "Myeloid Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C38640",
+      "relatedName": "Neoplastic B-Lymphocyte"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12922",
+      "relatedName": "Neoplastic Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C45317",
+      "relatedName": "Neoplastic Follicle Center B-Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C37060",
+      "relatedName": "Neoplastic Hematopoietic and Lymphoid Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36988",
+      "relatedName": "Neoplastic Lymphocyte"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C39566",
+      "relatedName": "Neoplastic T-Lymphocyte and Neoplastic Natural Killer Cell"
+    },
+    {
+      "type": "Disease_Excludes_Normal_Cell_Origin",
+      "relatedCode": "C12486",
+      "relatedName": "Plasma Cell"
+    },
+    {
+      "type": "Disease_Excludes_Normal_Cell_Origin",
+      "relatedCode": "C33931",
+      "relatedName": "Precursor B-Lymphoblast"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C12660",
+      "relatedName": "Reed-Sternberg Cell"
+    },
+    {
+      "type": "Disease_Excludes_Cytogenetic_Abnormality",
+      "relatedCode": "C27213",
+      "relatedName": "t(14;18)(q32;q21)"
+    }
+  ],
+  "history": [
+    {
+      "code": "C80297",
+      "action": "modify",
+      "date": "2009-04-06"
+    },
+    {
+      "code": "C80297",
+      "action": "modify",
+      "date": "2009-04-13"
+    },
+    {
+      "code": "C80297",
+      "action": "modify",
+      "date": "2009-04-20"
+    },
+    {
+      "code": "C80297",
+      "action": "modify",
+      "date": "2009-04-27"
+    },
+    {
+      "code": "C80297",
+      "action": "modify",
+      "date": "2009-05-04"
+    },
+    {
+      "code": "C80297",
+      "action": "modify",
+      "date": "2009-11-23"
+    },
+    {
+      "code": "C80297",
+      "action": "modify",
+      "date": "2011-01-17"
+    },
+    {
+      "code": "C80297",
+      "action": "create",
+      "date": "2009-04-01"
+    },
+    {
+      "code": "C80297",
+      "action": "modify",
+      "date": "2014-02-03"
+    },
+    {
+      "code": "C80297",
+      "action": "modify",
+      "date": "2016-04-25"
+    },
+    {
+      "code": "C80297",
+      "action": "modify",
+      "date": "2017-02-13"
+    },
+    {
+      "code": "C80297",
+      "action": "modify",
+      "date": "2017-02-21"
+    },
+    {
+      "code": "C80297",
+      "action": "modify",
+      "date": "2017-02-27"
+    },
+    {
+      "code": "C80297",
+      "action": "modify",
+      "date": "2017-03-06"
+    },
+    {
+      "code": "C80297",
+      "action": "modify",
+      "date": "2017-03-13"
+    },
+    {
+      "code": "C80297",
+      "action": "modify",
+      "date": "2017-03-20"
+    },
+    {
+      "code": "C80297",
+      "action": "modify",
+      "date": "2017-03-27"
+    },
+    {
+      "code": "C80297",
+      "action": "modify",
+      "date": "2017-04-03"
+    },
+    {
+      "code": "C80297",
+      "action": "modify",
+      "date": "2017-04-10"
+    },
+    {
+      "code": "C80297",
+      "action": "modify",
+      "date": "2017-04-17"
+    },
+    {
+      "code": "C80297",
+      "action": "modify",
+      "date": "2017-04-24"
+    },
+    {
+      "code": "C80297",
+      "action": "modify",
+      "date": "2017-05-01"
+    },
+    {
+      "code": "C80297",
+      "action": "modify",
+      "date": "2017-05-04"
+    },
+    {
+      "code": "C80297",
+      "action": "modify",
+      "date": "2017-09-26"
+    },
+    {
+      "code": "C80297",
+      "action": "modify",
+      "date": "2020-08-31"
+    },
+    {
+      "code": "C80297",
+      "action": "modify",
+      "date": "2020-09-29"
+    },
+    {
+      "code": "C80297",
+      "action": "modify",
+      "date": "2021-03-29"
+    },
+    {
+      "code": "C80297",
+      "action": "modify",
+      "date": "2023-12-26"
+    }
+  ]
+}

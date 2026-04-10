@@ -1,0 +1,525 @@
+{
+  "code": "C3908",
+  "name": "Ampulla of Vater Carcinoma",
+  "terminology": "ncit",
+  "version": "25.11d",
+  "conceptStatus": "DEFAULT",
+  "leaf": false,
+  "active": true,
+  "synonyms": [
+    {
+      "name": "Ampulla of Vater Carcinoma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "CPTAC"
+    },
+    {
+      "name": "Ampulla of Vater Cancer",
+      "termType": "DN",
+      "type": "FULL_SYN",
+      "source": "CTRP"
+    },
+    {
+      "name": "ampulla of Vater cancer",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NCI-GLOSS",
+      "code": "CDR0000562548"
+    },
+    {
+      "name": "ampullary cancer",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NCI-GLOSS",
+      "code": "CDR0000543929"
+    },
+    {
+      "name": "Ampulla of Vater Cancer",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Ampulla of Vater Carcinoma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Ampullary Carcinoma",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Ampulla of Vater Carcinoma",
+      "type": "Display_Name"
+    },
+    {
+      "name": "Ampulla of Vater Carcinoma",
+      "type": "Preferred_Name"
+    }
+  ],
+  "definitions": [
+    {
+      "definition": "A carcinoma arising from the ampulla of Vater.  The vast majority of cases are adenocarcinomas.  Signs and symptoms include jaundice, abdominal pain, anorexia, nausea, vomiting, and weight loss.",
+      "type": "DEFINITION",
+      "source": "NCI"
+    },
+    {
+      "definition": "Cancer that forms in the ampulla of Vater (an enlargement of the ducts from the liver and pancreas where they join and enter the small intestine). Symptoms include jaundice, abdominal pain, nausea, vomiting, and weight loss.",
+      "type": "ALT_DEFINITION",
+      "source": "NCI-GLOSS"
+    }
+  ],
+  "properties": [
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "CPTAC"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "CTRP"
+    },
+    {
+      "code": "P366",
+      "type": "Legacy Concept Name",
+      "value": "Ampulla_of_Vater_Carcinoma"
+    },
+    {
+      "code": "P363",
+      "type": "Neoplastic_Status",
+      "value": "Malignant"
+    },
+    {
+      "code": "P106",
+      "type": "Semantic_Type",
+      "value": "Neoplastic Process"
+    },
+    {
+      "code": "P207",
+      "type": "UMLS_CUI",
+      "value": "C0262401"
+    }
+  ],
+  "children": [
+    {
+      "code": "C6650",
+      "name": "Ampulla of Vater Adenocarcinoma",
+      "leaf": false
+    },
+    {
+      "code": "C27418",
+      "name": "Ampulla of Vater Adenosquamous Carcinoma",
+      "leaf": true
+    },
+    {
+      "code": "C134863",
+      "name": "Ampulla of Vater Cancer by AJCC v7 Stage",
+      "leaf": false
+    },
+    {
+      "code": "C134864",
+      "name": "Ampulla of Vater Cancer by AJCC v8 Stage",
+      "leaf": false
+    },
+    {
+      "code": "C95986",
+      "name": "Ampulla of Vater Mixed Adenoneuroendocrine Carcinoma",
+      "leaf": true
+    },
+    {
+      "code": "C95984",
+      "name": "Ampulla of Vater Neuroendocrine Carcinoma",
+      "leaf": false
+    },
+    {
+      "code": "C27417",
+      "name": "Ampulla of Vater Squamous Cell Carcinoma",
+      "leaf": true
+    },
+    {
+      "code": "C27419",
+      "name": "Ampulla of Vater Undifferentiated Carcinoma",
+      "leaf": false
+    },
+    {
+      "code": "C171326",
+      "name": "Metastatic Ampulla of Vater Carcinoma",
+      "leaf": false
+    },
+    {
+      "code": "C175436",
+      "name": "Refractory Ampulla of Vater Carcinoma",
+      "leaf": true
+    },
+    {
+      "code": "C165172",
+      "name": "Unresectable Ampulla of Vater Carcinoma",
+      "leaf": false
+    }
+  ],
+  "parents": [
+    {
+      "code": "C3536",
+      "name": "Malignant Ampulla of Vater Neoplasm"
+    },
+    {
+      "code": "C7724",
+      "name": "Small Intestinal Carcinoma"
+    }
+  ],
+  "associations": [
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C138188",
+      "relatedName": "Clinical Trials Search-Application Programming Interface Disease Category Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C158520",
+      "relatedName": "CPTAC Codelists Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C156966",
+      "relatedName": "CPTAC Neoplasms Codelist"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C156952",
+      "relatedName": "CPTAC Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C118168",
+      "relatedName": "CTRP Disease Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C116977",
+      "relatedName": "CTRP Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C138190",
+      "relatedName": "CTS-API Disease Main Type Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C126659",
+      "relatedName": "NCIt Neoplasm Core Terminology"
+    },
+    {
+      "type": "Neoplasm_Has_Special_Category",
+      "relatedCode": "C9292",
+      "relatedName": "Solid Neoplasm"
+    }
+  ],
+  "roles": [
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C13011",
+      "relatedName": "Ampulla of Vater"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C13011",
+      "relatedName": "Ampulla of Vater"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C36122",
+      "relatedName": "Benign Cellular Infiltrate"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C54172",
+      "relatedName": "Carcinomatous Component Present"
+    },
+    {
+      "type": "Disease_May_Have_Associated_Disease",
+      "relatedCode": "C2965",
+      "relatedName": "Crohn Disease"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12378",
+      "relatedName": "Digestive System"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12378",
+      "relatedName": "Digestive System"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C12578",
+      "relatedName": "Epithelial Cell"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C53596",
+      "relatedName": "Epithelial Component Present"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C45714",
+      "relatedName": "Epithelial Tissue"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C155862",
+      "relatedName": "Intermediate Grade Neuroendocrine Lesion"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12736",
+      "relatedName": "Intestine"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C155864",
+      "relatedName": "Low Grade Neuroendocrine Lesion"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12917",
+      "relatedName": "Malignant Cell"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C36115",
+      "relatedName": "Malignant Cellular Infiltrate"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36779",
+      "relatedName": "Malignant Epithelial Cell"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C37153",
+      "relatedName": "Malignant Stromal Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12922",
+      "relatedName": "Neoplastic Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36753",
+      "relatedName": "Neoplastic Epithelial Cell"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C36937",
+      "relatedName": "Neoplastic Smooth Muscle Cell"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C33566",
+      "relatedName": "Small Intestinal Glandular Cell"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C33568",
+      "relatedName": "Small Intestinal Mucosa"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12386",
+      "relatedName": "Small Intestine"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12386",
+      "relatedName": "Small Intestine"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C155861",
+      "relatedName": "Well Differentiated Neuroendocrine Lesion"
+    }
+  ],
+  "history": [
+    {
+      "code": "C3908",
+      "action": "create",
+      "date": "2003-08-12"
+    },
+    {
+      "code": "C3908",
+      "action": "modify",
+      "date": "2003-10-31"
+    },
+    {
+      "code": "C3908",
+      "action": "modify",
+      "date": "2003-12-30"
+    },
+    {
+      "code": "C3908",
+      "action": "modify",
+      "date": "2004-03-30"
+    },
+    {
+      "code": "C3908",
+      "action": "modify",
+      "date": "2006-03-31"
+    },
+    {
+      "code": "C3908",
+      "action": "modify",
+      "date": "2007-02-23"
+    },
+    {
+      "code": "C3908",
+      "action": "modify",
+      "date": "2009-11-02"
+    },
+    {
+      "code": "C3908",
+      "action": "modify",
+      "date": "2009-11-23"
+    },
+    {
+      "code": "C3908",
+      "action": "modify",
+      "date": "2010-11-01"
+    },
+    {
+      "code": "C3908",
+      "action": "modify",
+      "date": "2010-11-08"
+    },
+    {
+      "code": "C3908",
+      "action": "modify",
+      "date": "2010-11-15"
+    },
+    {
+      "code": "C3908",
+      "action": "modify",
+      "date": "2010-11-22"
+    },
+    {
+      "code": "C3908",
+      "action": "modify",
+      "date": "2010-11-29"
+    },
+    {
+      "code": "C3908",
+      "action": "modify",
+      "date": "2010-12-06"
+    },
+    {
+      "code": "C3908",
+      "action": "modify",
+      "date": "2010-12-13"
+    },
+    {
+      "code": "C3908",
+      "action": "modify",
+      "date": "2010-12-27"
+    },
+    {
+      "code": "C3908",
+      "action": "modify",
+      "date": "2011-01-03"
+    },
+    {
+      "code": "C3908",
+      "action": "modify",
+      "date": "2011-01-10"
+    },
+    {
+      "code": "C3908",
+      "action": "modify",
+      "date": "2011-01-17"
+    },
+    {
+      "code": "C3908",
+      "action": "modify",
+      "date": "2011-01-24"
+    },
+    {
+      "code": "C3908",
+      "action": "modify",
+      "date": "2011-01-31"
+    },
+    {
+      "code": "C3908",
+      "action": "modify",
+      "date": "2011-05-31"
+    },
+    {
+      "code": "C3908",
+      "action": "modify",
+      "date": "2014-02-03"
+    },
+    {
+      "code": "C3908",
+      "action": "modify",
+      "date": "2016-04-25"
+    },
+    {
+      "code": "C3908",
+      "action": "modify",
+      "date": "2017-07-31"
+    },
+    {
+      "code": "C3908",
+      "action": "modify",
+      "date": "2017-09-26"
+    },
+    {
+      "code": "C3908",
+      "action": "modify",
+      "date": "2018-02-26"
+    },
+    {
+      "code": "C3908",
+      "action": "modify",
+      "date": "2018-07-30"
+    },
+    {
+      "code": "C3908",
+      "action": "modify",
+      "date": "2018-08-27"
+    },
+    {
+      "code": "C3908",
+      "action": "modify",
+      "date": "2018-08-27"
+    },
+    {
+      "code": "C3908",
+      "action": "modify",
+      "date": "2019-02-25"
+    },
+    {
+      "code": "C3908",
+      "action": "modify",
+      "date": "2019-03-25"
+    },
+    {
+      "code": "C3908",
+      "action": "modify",
+      "date": "2019-05-28"
+    },
+    {
+      "code": "C3908",
+      "action": "modify",
+      "date": "2019-12-30"
+    },
+    {
+      "code": "C3908",
+      "action": "modify",
+      "date": "2024-07-29"
+    }
+  ]
+}

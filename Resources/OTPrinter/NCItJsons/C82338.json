@@ -1,0 +1,411 @@
+{
+  "code": "C82338",
+  "name": "Hematologic Neoplasm Associated with Down Syndrome",
+  "terminology": "ncit",
+  "version": "25.11d",
+  "conceptStatus": "DEFAULT",
+  "leaf": false,
+  "active": true,
+  "synonyms": [
+    {
+      "name": "Myeloid Proliferations Related to Down Syndrome",
+      "termType": "DN",
+      "type": "FULL_SYN",
+      "source": "CTRP"
+    },
+    {
+      "name": "Hematologic Neoplasm Associated with Down Syndrome",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Myeloid Proliferation Associated with Down Syndrome",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Myeloid Proliferations Associated with Down Syndrome",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Myeloid Proliferations Related to Down Syndrome",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Myeloid Proliferations Related to Down Syndrome",
+      "type": "Display_Name"
+    },
+    {
+      "name": "Hematologic Neoplasm Associated with Down Syndrome",
+      "type": "Preferred_Name"
+    },
+    {
+      "name": "Myeloid Proliferations Related to Down Syndrome",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "PCDC",
+      "subSource": "AML"
+    }
+  ],
+  "definitions": [
+    {
+      "definition": "Hematologic neoplasms occurring in individuals with Down syndrome.  There is an increased risk of acute leukemias in both children and adults with Down syndrome.  In particular, the incidence of acute myeloid leukemia in Down syndrome children of less than five years of age is particularly high, it is usually an acute megakaryoblastic leukemia, and is associated with GATA1 gene mutation.  This group of disorders also includes the entity transient abnormal myelopoiesis which occurs in neonates and is associated with GATA1 gene mutation.",
+      "type": "DEFINITION",
+      "source": "NCI"
+    }
+  ],
+  "properties": [
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "CTRP"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "PCDC"
+    },
+    {
+      "code": "P366",
+      "type": "Legacy Concept Name",
+      "value": "Myeloid_Proliferations_Related_to_Down_Syndrome"
+    },
+    {
+      "code": "P363",
+      "type": "Neoplastic_Status",
+      "value": "Malignant"
+    },
+    {
+      "code": "P106",
+      "type": "Semantic_Type",
+      "value": "Neoplastic Process"
+    },
+    {
+      "code": "P207",
+      "type": "UMLS_CUI",
+      "value": "C2826104"
+    }
+  ],
+  "children": [
+    {
+      "code": "C43223",
+      "name": "Myeloid Leukemia Associated with Down Syndrome",
+      "leaf": true
+    },
+    {
+      "code": "C82339",
+      "name": "Transient Abnormal Myelopoiesis Associated with Down Syndrome",
+      "leaf": true
+    }
+  ],
+  "parents": [
+    {
+      "code": "C151910",
+      "name": "Hematologic Neoplasm with Germline Predisposition Associated with a Constitutional Disorder Affecting Multiple Organ Systems"
+    }
+  ],
+  "associations": [
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C174019",
+      "relatedName": "AML Authorized Value Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C173232",
+      "relatedName": "AML Disease Characteristics Table"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C118168",
+      "relatedName": "CTRP Disease Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C116977",
+      "relatedName": "CTRP Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C126659",
+      "relatedName": "NCIt Neoplasm Core Terminology"
+    },
+    {
+      "type": "Is_PCDC_AML_Authorized_Value_For_Variable",
+      "relatedCode": "C159157",
+      "relatedName": "WHO AML Classification of Tumors"
+    }
+  ],
+  "inverseAssociations": [
+    {
+      "type": "Has_PCDC_AML_Authorized_Value",
+      "relatedCode": "C159157",
+      "relatedName": "WHO AML Classification of Tumors"
+    }
+  ],
+  "roles": [
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C36122",
+      "relatedName": "Benign Cellular Infiltrate"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C13456",
+      "relatedName": "Bone Marrow Stem Cell"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12431",
+      "relatedName": "Bone Marrow"
+    },
+    {
+      "type": "Disease_Has_Associated_Disease",
+      "relatedCode": "C2993",
+      "relatedName": "Down Syndrome"
+    },
+    {
+      "type": "Disease_Has_Molecular_Abnormality",
+      "relatedCode": "C17666",
+      "relatedName": "Germline Variation"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C41165",
+      "relatedName": "Hematopoietic and Lymphatic System"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C41165",
+      "relatedName": "Hematopoietic and Lymphatic System"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C32725",
+      "relatedName": "Hematopoietic and Lymphoid Cell"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C41168",
+      "relatedName": "Hematopoietic and Lymphoid Tissue"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C12551",
+      "relatedName": "Hematopoietic Stem Cell"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C13051",
+      "relatedName": "Hematopoietic Tissue"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C54062",
+      "relatedName": "Hereditary Lesion"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12917",
+      "relatedName": "Malignant Cell"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C36115",
+      "relatedName": "Malignant Cellular Infiltrate"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12922",
+      "relatedName": "Neoplastic Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C37060",
+      "relatedName": "Neoplastic Hematopoietic and Lymphoid Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C41063",
+      "relatedName": "Neoplastic Myeloid Cell"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C54056",
+      "relatedName": "Preexisting Condition"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C3408",
+      "relatedName": "Thrombocytopenia"
+    },
+    {
+      "type": "Disease_Has_Cytogenetic_Abnormality",
+      "relatedCode": "C43224",
+      "relatedName": "Trisomy 21"
+    }
+  ],
+  "history": [
+    {
+      "code": "C82338",
+      "action": "create",
+      "date": "2009-06-29"
+    },
+    {
+      "code": "C82338",
+      "action": "modify",
+      "date": "2009-07-06"
+    },
+    {
+      "code": "C82338",
+      "action": "modify",
+      "date": "2009-07-13"
+    },
+    {
+      "code": "C82338",
+      "action": "modify",
+      "date": "2009-10-27"
+    },
+    {
+      "code": "C82338",
+      "action": "modify",
+      "date": "2009-11-23"
+    },
+    {
+      "code": "C82338",
+      "action": "modify",
+      "date": "2011-07-25"
+    },
+    {
+      "code": "C82338",
+      "action": "modify",
+      "date": "2011-08-15"
+    },
+    {
+      "code": "C82338",
+      "action": "modify",
+      "date": "2011-12-27"
+    },
+    {
+      "code": "C82338",
+      "action": "modify",
+      "date": "2014-02-03"
+    },
+    {
+      "code": "C82338",
+      "action": "modify",
+      "date": "2014-08-04"
+    },
+    {
+      "code": "C82338",
+      "action": "modify",
+      "date": "2014-08-18"
+    },
+    {
+      "code": "C82338",
+      "action": "modify",
+      "date": "2014-09-22"
+    },
+    {
+      "code": "C82338",
+      "action": "modify",
+      "date": "2016-04-25"
+    },
+    {
+      "code": "C82338",
+      "action": "modify",
+      "date": "2016-06-13"
+    },
+    {
+      "code": "C82338",
+      "action": "modify",
+      "date": "2018-06-25"
+    },
+    {
+      "code": "C82338",
+      "action": "modify",
+      "date": "2018-06-25"
+    },
+    {
+      "code": "C82338",
+      "action": "modify",
+      "date": "2018-07-30"
+    },
+    {
+      "code": "C82338",
+      "action": "modify",
+      "date": "2018-08-27"
+    },
+    {
+      "code": "C82338",
+      "action": "modify",
+      "date": "2018-08-27"
+    },
+    {
+      "code": "C82338",
+      "action": "modify",
+      "date": "2020-02-24"
+    },
+    {
+      "code": "C82338",
+      "action": "modify",
+      "date": "2020-04-27"
+    },
+    {
+      "code": "C82338",
+      "action": "modify",
+      "date": "2020-06-29"
+    },
+    {
+      "code": "C82338",
+      "action": "modify",
+      "date": "2020-07-27"
+    },
+    {
+      "code": "C82338",
+      "action": "modify",
+      "date": "2020-08-31"
+    },
+    {
+      "code": "C82338",
+      "action": "modify",
+      "date": "2020-11-30"
+    },
+    {
+      "code": "C82338",
+      "action": "modify",
+      "date": "2020-12-28"
+    },
+    {
+      "code": "C82338",
+      "action": "modify",
+      "date": "2021-06-28"
+    },
+    {
+      "code": "C82338",
+      "action": "modify",
+      "date": "2022-10-31"
+    },
+    {
+      "code": "C82338",
+      "action": "modify",
+      "date": "2023-02-27"
+    },
+    {
+      "code": "C82338",
+      "action": "modify",
+      "date": "2023-04-24"
+    },
+    {
+      "code": "C82338",
+      "action": "modify",
+      "date": "2023-05-30"
+    }
+  ]
+}

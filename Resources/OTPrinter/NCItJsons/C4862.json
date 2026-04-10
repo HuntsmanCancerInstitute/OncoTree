@@ -1,0 +1,483 @@
+{
+  "code": "C4862",
+  "name": "Ovarian Sex Cord-Stromal Tumor",
+  "terminology": "ncit",
+  "version": "25.11d",
+  "conceptStatus": "DEFAULT",
+  "leaf": false,
+  "active": true,
+  "synonyms": [
+    {
+      "name": "Ovarian stromal tumor",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "GDC"
+    },
+    {
+      "name": "Ovarian Sex Cord-Stromal Neoplasm",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Ovarian Sex Cord-Stromal Tumor",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Sex Cord-Stromal Neoplasm of Ovary",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Sex Cord-Stromal Neoplasm of the Ovary",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Sex Cord-Stromal Tumor of Ovary",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Sex Cord-Stromal Tumor of the Ovary",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Ovarian Sex Cord-Stromal Tumor",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NICHD"
+    },
+    {
+      "name": "Ovarian Sex Cord-Stromal Tumor",
+      "type": "Preferred_Name"
+    }
+  ],
+  "definitions": [
+    {
+      "definition": "A benign or malignant neoplasm that arises from the ovary and is composed of granulosa cells, Sertoli cells, Leydig cells, theca cells, and fibroblasts.  Representative examples include thecoma, fibroma, Sertoli cell tumor, and granulosa cell tumor.",
+      "type": "DEFINITION",
+      "source": "NCI"
+    },
+    {
+      "definition": "A sex cord-stromal tumor that occurs in the ovary.",
+      "type": "ALT_DEFINITION",
+      "source": "NICHD"
+    }
+  ],
+  "properties": [
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "GDC"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "NICHD"
+    },
+    {
+      "code": "P366",
+      "type": "Legacy Concept Name",
+      "value": "Ovarian_Sex_Cord-Stromal_Tumor"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "8590/1"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "Ovarian stromal tumor"
+    },
+    {
+      "code": "P363",
+      "type": "Neoplastic_Status",
+      "value": "Undetermined"
+    },
+    {
+      "code": "P106",
+      "type": "Semantic_Type",
+      "value": "Neoplastic Process"
+    },
+    {
+      "code": "P207",
+      "type": "UMLS_CUI",
+      "value": "C0600113"
+    }
+  ],
+  "children": [
+    {
+      "code": "C6803",
+      "name": "Benign Ovarian Sex Cord-Stromal Tumor",
+      "leaf": false
+    },
+    {
+      "code": "C8053",
+      "name": "Malignant Ovarian Sex Cord-Stromal Tumor",
+      "leaf": false
+    },
+    {
+      "code": "C7287",
+      "name": "Ovarian Granulosa-Stromal Cell Tumor",
+      "leaf": false
+    },
+    {
+      "code": "C3072",
+      "name": "Ovarian Gynandroblastoma",
+      "leaf": false
+    },
+    {
+      "code": "C39966",
+      "name": "Ovarian Sertoli-Stromal Cell Tumor",
+      "leaf": false
+    },
+    {
+      "code": "C4208",
+      "name": "Ovarian Sex Cord Tumor with Annular Tubules",
+      "leaf": true
+    },
+    {
+      "code": "C40436",
+      "name": "Ovarian Sex Cord-Stromal Tumor Associated with Peutz-Jeghers Syndrome",
+      "leaf": true
+    },
+    {
+      "code": "C39978",
+      "name": "Ovarian Sex Cord-Stromal Tumor, Not Otherwise Specified",
+      "leaf": true
+    },
+    {
+      "code": "C4215",
+      "name": "Ovarian Steroid Cell Tumor",
+      "leaf": false
+    },
+    {
+      "code": "C66749",
+      "name": "Ovarian Stromal Tumor with Minor Sex Cord Elements",
+      "leaf": true
+    }
+  ],
+  "parents": [
+    {
+      "code": "C4984",
+      "name": "Ovarian Neoplasm"
+    },
+    {
+      "code": "C3794",
+      "name": "Sex Cord-Stromal Tumor"
+    }
+  ],
+  "associations": [
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C157711",
+      "relatedName": "GDC Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C177537",
+      "relatedName": "GDC Value Terminology"
+    },
+    {
+      "type": "Is_Value_For_GDC_Property",
+      "relatedCode": "C176985",
+      "relatedName": "Histology ICD-O Morphology Code"
+    },
+    {
+      "type": "Is_Value_For_GDC_Property",
+      "relatedCode": "C177621",
+      "relatedName": "ICD-O-3 Morphology Term Diagnosis Question"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C90259",
+      "relatedName": "NICHD Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C132009",
+      "relatedName": "Pediatric Hematology-Oncology Terminology"
+    }
+  ],
+  "inverseAssociations": [
+    {
+      "type": "Has_GDC_Value",
+      "relatedCode": "C176985",
+      "relatedName": "Histology ICD-O Morphology Code"
+    },
+    {
+      "type": "Has_GDC_Value",
+      "relatedCode": "C177621",
+      "relatedName": "ICD-O-3 Morphology Term Diagnosis Question"
+    }
+  ],
+  "roles": [
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C137974",
+      "relatedName": "Adnexa"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12402",
+      "relatedName": "Female Reproductive System"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12810",
+      "relatedName": "Genitourinary System"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12922",
+      "relatedName": "Neoplastic Cell"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C36903",
+      "relatedName": "Neoplastic Germ Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36898",
+      "relatedName": "Neoplastic Sex Cord-Stromal Cell"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12404",
+      "relatedName": "Ovary"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12404",
+      "relatedName": "Ovary"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12841",
+      "relatedName": "Reproductive System"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12321",
+      "relatedName": "Uterine Adnexa"
+    }
+  ],
+  "history": [
+    {
+      "code": "C4862",
+      "action": "create",
+      "date": "2003-08-12"
+    },
+    {
+      "code": "C4862",
+      "action": "modify",
+      "date": "2003-10-31"
+    },
+    {
+      "code": "C4862",
+      "action": "modify",
+      "date": "2003-12-30"
+    },
+    {
+      "code": "C4862",
+      "action": "modify",
+      "date": "2004-03-30"
+    },
+    {
+      "code": "C4862",
+      "action": "modify",
+      "date": "2004-04-30"
+    },
+    {
+      "code": "C4862",
+      "action": "modify",
+      "date": "2004-08-02"
+    },
+    {
+      "code": "C4862",
+      "action": "modify",
+      "date": "2005-10-31"
+    },
+    {
+      "code": "C4862",
+      "action": "modify",
+      "date": "2006-07-28"
+    },
+    {
+      "code": "C4862",
+      "action": "modify",
+      "date": "2007-03-30"
+    },
+    {
+      "code": "C4862",
+      "action": "modify",
+      "date": "2007-04-30"
+    },
+    {
+      "code": "C4862",
+      "action": "modify",
+      "date": "2009-04-06"
+    },
+    {
+      "code": "C4862",
+      "action": "modify",
+      "date": "2009-11-23"
+    },
+    {
+      "code": "C4862",
+      "action": "modify",
+      "date": "2010-01-11"
+    },
+    {
+      "code": "C4862",
+      "action": "modify",
+      "date": "2011-10-03"
+    },
+    {
+      "code": "C4862",
+      "action": "modify",
+      "date": "2017-02-13"
+    },
+    {
+      "code": "C4862",
+      "action": "modify",
+      "date": "2017-02-21"
+    },
+    {
+      "code": "C4862",
+      "action": "modify",
+      "date": "2017-02-27"
+    },
+    {
+      "code": "C4862",
+      "action": "modify",
+      "date": "2017-03-06"
+    },
+    {
+      "code": "C4862",
+      "action": "modify",
+      "date": "2017-03-13"
+    },
+    {
+      "code": "C4862",
+      "action": "modify",
+      "date": "2017-03-20"
+    },
+    {
+      "code": "C4862",
+      "action": "modify",
+      "date": "2017-03-27"
+    },
+    {
+      "code": "C4862",
+      "action": "modify",
+      "date": "2017-04-03"
+    },
+    {
+      "code": "C4862",
+      "action": "modify",
+      "date": "2017-04-10"
+    },
+    {
+      "code": "C4862",
+      "action": "modify",
+      "date": "2017-04-17"
+    },
+    {
+      "code": "C4862",
+      "action": "modify",
+      "date": "2017-04-24"
+    },
+    {
+      "code": "C4862",
+      "action": "modify",
+      "date": "2017-05-01"
+    },
+    {
+      "code": "C4862",
+      "action": "modify",
+      "date": "2017-05-04"
+    },
+    {
+      "code": "C4862",
+      "action": "modify",
+      "date": "2018-09-24"
+    },
+    {
+      "code": "C4862",
+      "action": "modify",
+      "date": "2019-05-28"
+    },
+    {
+      "code": "C4862",
+      "action": "modify",
+      "date": "2019-09-30"
+    },
+    {
+      "code": "C4862",
+      "action": "modify",
+      "date": "2019-11-25"
+    },
+    {
+      "code": "C4862",
+      "action": "modify",
+      "date": "2020-03-30"
+    },
+    {
+      "code": "C4862",
+      "action": "modify",
+      "date": "2020-08-31"
+    },
+    {
+      "code": "C4862",
+      "action": "modify",
+      "date": "2020-09-29"
+    },
+    {
+      "code": "C4862",
+      "action": "modify",
+      "date": "2021-02-22"
+    },
+    {
+      "code": "C4862",
+      "action": "modify",
+      "date": "2021-03-29"
+    },
+    {
+      "code": "C4862",
+      "action": "modify",
+      "date": "2024-01-29"
+    },
+    {
+      "code": "C4862",
+      "action": "modify",
+      "date": "2025-04-28"
+    }
+  ],
+  "maps": [
+    {
+      "type": "Related To",
+      "targetName": "8590/1",
+      "targetTermType": "PT",
+      "targetCode": "morphology",
+      "targetTerminology": "GDC"
+    },
+    {
+      "type": "Has Synonym",
+      "targetName": "Ovarian stromal tumor",
+      "targetTermType": "PT",
+      "targetCode": "primary_diagnosis",
+      "targetTerminology": "GDC"
+    }
+  ]
+}

@@ -1,0 +1,304 @@
+{
+  "code": "C82217",
+  "name": "Natural Killer Cell Lymphoblastic Leukemia/Lymphoma",
+  "terminology": "ncit",
+  "version": "25.11d",
+  "conceptStatus": "DEFAULT",
+  "leaf": true,
+  "active": true,
+  "synonyms": [
+    {
+      "name": "Natural Killer Cell Lymphoblastic Leukemia/Lymphoma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "Cellosaurus"
+    },
+    {
+      "name": "Natural Killer Cell Lymphoblastic Leukemia/Lymphoma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "NK Cell Lymphoblastic Leukemia/Lymphoma",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "NK Lymphoblastic Leukemia/Lymphoma",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "NK-ALL/LBL",
+      "termType": "AB",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "NK-Lymphoblastic Leukemia/Lymphoma",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Precursor Natural Killer Cell Lymphoblastic Leukemia/Lymphoma",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Precursor NK Cell Lymphoblastic Leukemia/Lymphoma",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Natural Killer Cell Lymphoblastic Leukemia/Lymphoma",
+      "type": "Preferred_Name"
+    }
+  ],
+  "definitions": [
+    {
+      "definition": "A precursor lymphoid neoplasm that expresses CD56 and immature T-cell markers, lacks B-lymphoid and myeloid markers, and has immunoglobulin and T-cell receptor genes in the germline configuration.",
+      "type": "DEFINITION",
+      "source": "NCI"
+    }
+  ],
+  "properties": [
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "Cellosaurus"
+    },
+    {
+      "code": "P366",
+      "type": "Legacy Concept Name",
+      "value": "Natural_Killer_Cell_Lymphoblastic_Leukemia_Lymphoma"
+    },
+    {
+      "code": "P363",
+      "type": "Neoplastic_Status",
+      "value": "Malignant"
+    },
+    {
+      "code": "P106",
+      "type": "Semantic_Type",
+      "value": "Neoplastic Process"
+    },
+    {
+      "code": "P207",
+      "type": "UMLS_CUI",
+      "value": "C2826059"
+    }
+  ],
+  "parents": [
+    {
+      "code": "C7055",
+      "name": "Precursor Lymphoid Neoplasm"
+    }
+  ],
+  "associations": [
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C165258",
+      "relatedName": "Cellosaurus Disease Terminology"
+    }
+  ],
+  "roles": [
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36725",
+      "relatedName": "Abnormal Lymphocyte"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C36122",
+      "relatedName": "Benign Cellular Infiltrate"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C82214",
+      "relatedName": "Blasts Expressing B-Lymphoid and Myeloid Markers Present"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C82216",
+      "relatedName": "Blasts Expressing CD56 and Immature T-Cell Markers Present"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C82180",
+      "relatedName": "Blasts of Mixed Phenotype Present"
+    },
+    {
+      "type": "Disease_Excludes_Molecular_Abnormality",
+      "relatedCode": "C36450",
+      "relatedName": "Clonal Antigen Receptor Gene Rearrangement"
+    },
+    {
+      "type": "Disease_May_Have_Molecular_Abnormality",
+      "relatedCode": "C36447",
+      "relatedName": "Clonal T-Cell Receptor Beta Chain Gene Rearrangement"
+    },
+    {
+      "type": "Disease_May_Have_Molecular_Abnormality",
+      "relatedCode": "C36448",
+      "relatedName": "Clonal T-Cell Receptor Gamma Chain Gene Rearrangement"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C41165",
+      "relatedName": "Hematopoietic and Lymphatic System"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C41165",
+      "relatedName": "Hematopoietic and Lymphatic System"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C32725",
+      "relatedName": "Hematopoietic and Lymphoid Cell"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C41168",
+      "relatedName": "Hematopoietic and Lymphoid Tissue"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C3100",
+      "relatedName": "Hepatomegaly"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C50764",
+      "relatedName": "Lymphadenopathy"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12746",
+      "relatedName": "Lymphatic System"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C13013",
+      "relatedName": "Lymphoblast"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C12535",
+      "relatedName": "Lymphocyte"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C13049",
+      "relatedName": "Lymphoid Tissue"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12917",
+      "relatedName": "Malignant Cell"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C36115",
+      "relatedName": "Malignant Cellular Infiltrate"
+    },
+    {
+      "type": "Disease_Excludes_Normal_Cell_Origin",
+      "relatedCode": "C12549",
+      "relatedName": "Myeloid Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12922",
+      "relatedName": "Neoplastic Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C37060",
+      "relatedName": "Neoplastic Hematopoietic and Lymphoid Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12914",
+      "relatedName": "Neoplastic Lymphoblast"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36988",
+      "relatedName": "Neoplastic Lymphocyte"
+    }
+  ],
+  "history": [
+    {
+      "code": "C82217",
+      "action": "create",
+      "date": "2009-06-22"
+    },
+    {
+      "code": "C82217",
+      "action": "modify",
+      "date": "2009-06-29"
+    },
+    {
+      "code": "C82217",
+      "action": "modify",
+      "date": "2009-07-06"
+    },
+    {
+      "code": "C82217",
+      "action": "modify",
+      "date": "2009-07-13"
+    },
+    {
+      "code": "C82217",
+      "action": "modify",
+      "date": "2009-10-27"
+    },
+    {
+      "code": "C82217",
+      "action": "modify",
+      "date": "2009-11-23"
+    },
+    {
+      "code": "C82217",
+      "action": "modify",
+      "date": "2011-08-15"
+    },
+    {
+      "code": "C82217",
+      "action": "modify",
+      "date": "2014-02-03"
+    },
+    {
+      "code": "C82217",
+      "action": "modify",
+      "date": "2018-05-29"
+    },
+    {
+      "code": "C82217",
+      "action": "modify",
+      "date": "2019-10-28"
+    },
+    {
+      "code": "C82217",
+      "action": "modify",
+      "date": "2022-03-28"
+    },
+    {
+      "code": "C82217",
+      "action": "modify",
+      "date": "2023-02-27"
+    },
+    {
+      "code": "C82217",
+      "action": "modify",
+      "date": "2025-03-31"
+    }
+  ]
+}

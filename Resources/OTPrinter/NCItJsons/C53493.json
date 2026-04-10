@@ -1,0 +1,318 @@
+{
+  "code": "C53493",
+  "name": "Bone Mesenchymal Chondrosarcoma",
+  "terminology": "ncit",
+  "version": "25.11d",
+  "conceptStatus": "DEFAULT",
+  "leaf": false,
+  "active": true,
+  "synonyms": [
+    {
+      "name": "Bone Mesenchymal Chondrosarcoma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Mesenchymal Chondrosarcoma of Bone",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Mesenchymal Chondrosarcoma of the Bone",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Bone Mesenchymal Chondrosarcoma",
+      "type": "Preferred_Name"
+    }
+  ],
+  "definitions": [
+    {
+      "definition": "A morphologic variant of chondrosarcoma arising from the bone.  It is characterized by the presence of malignant small round cells, biphasic growth pattern, and well differentiated hyaline cartilage. Clinical presentation includes pain and swelling.  The clinical course is aggressive, with local recurrences and distant metastases.",
+      "type": "DEFINITION",
+      "source": "NCI"
+    }
+  ],
+  "properties": [
+    {
+      "code": "P366",
+      "type": "Legacy Concept Name",
+      "value": "Mesenchymal_Chondrosarcoma_of_the_Bone"
+    },
+    {
+      "code": "P363",
+      "type": "Neoplastic_Status",
+      "value": "Malignant"
+    },
+    {
+      "code": "P106",
+      "type": "Semantic_Type",
+      "value": "Neoplastic Process"
+    },
+    {
+      "code": "P207",
+      "type": "UMLS_CUI",
+      "value": "C1708980"
+    }
+  ],
+  "children": [
+    {
+      "code": "C173843",
+      "name": "Maxillofacial Mesenchymal Chondrosarcoma",
+      "leaf": false
+    }
+  ],
+  "parents": [
+    {
+      "code": "C9312",
+      "name": "Bone Sarcoma"
+    },
+    {
+      "code": "C3737",
+      "name": "Mesenchymal Chondrosarcoma"
+    }
+  ],
+  "roles": [
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C36104",
+      "relatedName": "Aggressive Clinical Course"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C36122",
+      "relatedName": "Benign Cellular Infiltrate"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C35907",
+      "relatedName": "Biphasic Pattern"
+    },
+    {
+      "type": "Disease_Excludes_Normal_Cell_Origin",
+      "relatedCode": "C13456",
+      "relatedName": "Bone Marrow Stem Cell"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12366",
+      "relatedName": "Bone"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12366",
+      "relatedName": "Bone"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C48695",
+      "relatedName": "Cartilage Cell"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C53445",
+      "relatedName": "Cartilaginous Differentiation"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C12557",
+      "relatedName": "Chondrocyte"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C12555",
+      "relatedName": "Connective and Soft Tissue Cell"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12964",
+      "relatedName": "Connective and Soft Tissue"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C12964",
+      "relatedName": "Connective and Soft Tissue"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12964",
+      "relatedName": "Connective and Soft Tissue"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12374",
+      "relatedName": "Connective Tissue"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C12374",
+      "relatedName": "Connective Tissue"
+    },
+    {
+      "type": "Disease_Excludes_Normal_Cell_Origin",
+      "relatedCode": "C12578",
+      "relatedName": "Epithelial Cell"
+    },
+    {
+      "type": "Disease_Excludes_Normal_Tissue_Origin",
+      "relatedCode": "C45714",
+      "relatedName": "Epithelial Tissue"
+    },
+    {
+      "type": "Disease_Mapped_To_Gene",
+      "relatedCode": "C121919",
+      "relatedName": "HEY1/NCOA2 Fusion Gene"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C53474",
+      "relatedName": "Hyaline Cartilage Differentiation"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C36105",
+      "relatedName": "Indolent Clinical Course"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C53665",
+      "relatedName": "Intermediate Filaments Present"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C53667",
+      "relatedName": "Intracytoplasmic Eosinophilic Inclusion"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12917",
+      "relatedName": "Malignant Cell"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C36115",
+      "relatedName": "Malignant Cellular Infiltrate"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C53478",
+      "relatedName": "Malignant Chondrocyte"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C48787",
+      "relatedName": "Malignant Connective and Soft Tissue Cell"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C36779",
+      "relatedName": "Malignant Epithelial Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36860",
+      "relatedName": "Malignant Small Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C53487",
+      "relatedName": "Malignant Small Round Cell"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12754",
+      "relatedName": "Musculoskeletal System"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C48696",
+      "relatedName": "Neoplastic Cartilage Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12922",
+      "relatedName": "Neoplastic Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36887",
+      "relatedName": "Neoplastic Connective and Soft Tissue Cell"
+    },
+    {
+      "type": "Disease_Excludes_Normal_Cell_Origin",
+      "relatedCode": "C41405",
+      "relatedName": "Neuron, Neuroepithelial Cell, and Supporting Cell of the Nervous System"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C3303",
+      "relatedName": "Pain"
+    },
+    {
+      "type": "Disease_Excludes_Primary_Anatomic_Site",
+      "relatedCode": "C12471",
+      "relatedName": "Soft Tissue"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C3399",
+      "relatedName": "Swelling"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C53488",
+      "relatedName": "Well Differentiated Hyaline Cartilage Present"
+    }
+  ],
+  "history": [
+    {
+      "code": "C53493",
+      "action": "create",
+      "date": "2006-02-24"
+    },
+    {
+      "code": "C53493",
+      "action": "modify",
+      "date": "2006-09-01"
+    },
+    {
+      "code": "C53493",
+      "action": "modify",
+      "date": "2009-04-06"
+    },
+    {
+      "code": "C53493",
+      "action": "modify",
+      "date": "2009-10-27"
+    },
+    {
+      "code": "C53493",
+      "action": "modify",
+      "date": "2009-11-23"
+    },
+    {
+      "code": "C53493",
+      "action": "modify",
+      "date": "2014-02-03"
+    },
+    {
+      "code": "C53493",
+      "action": "modify",
+      "date": "2015-05-18"
+    },
+    {
+      "code": "C53493",
+      "action": "modify",
+      "date": "2015-05-26"
+    },
+    {
+      "code": "C53493",
+      "action": "modify",
+      "date": "2025-10-27"
+    }
+  ]
+}

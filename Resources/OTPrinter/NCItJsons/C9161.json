@@ -1,0 +1,691 @@
+{
+  "code": "C9161",
+  "name": "Anal Squamous Cell Carcinoma",
+  "terminology": "ncit",
+  "version": "25.11d",
+  "conceptStatus": "DEFAULT",
+  "leaf": false,
+  "active": true,
+  "synonyms": [
+    {
+      "name": "Anal Squamous Cell Carcinoma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "Cellosaurus"
+    },
+    {
+      "name": "Squamous cell carcinoma - anus",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "CTEP",
+      "code": "10041840",
+      "subSource": "SDC"
+    },
+    {
+      "name": "Squamous cell carcinoma of the anus",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "CTEP",
+      "code": "10041840",
+      "subSource": "SDC"
+    },
+    {
+      "name": "Anal Squamous Cell Cancer",
+      "termType": "DN",
+      "type": "FULL_SYN",
+      "source": "CTRP"
+    },
+    {
+      "name": "Anal Squamous Cell Carcinoma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Epidermoid Anal Carcinoma",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Epidermoid Carcinoma of Anus",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Epidermoid Carcinoma of the Anus",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Squamous Cell Anal Carcinoma",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Squamous Cell Carcinoma of Anus",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Squamous Cell Carcinoma of the Anus",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Anal Squamous Cell Carcinoma",
+      "type": "Display_Name"
+    },
+    {
+      "name": "Anal Squamous Cell Carcinoma",
+      "type": "Preferred_Name"
+    }
+  ],
+  "definitions": [
+    {
+      "definition": "A squamous cell carcinoma (SCC) arising from the anal canal or the anal margin (perianal skin). Human papillomavirus is detected in the majority of cases. Homosexual HIV-positive men have an increased risk of developing anal squamous cell carcinoma in comparison to the general male population. Symptoms include anal pruritus, discomfort when sitting, pain, change in bowel habit, and bleeding. The prognosis is generally better for anal margin SCC than for anal canal SCC.",
+      "type": "DEFINITION",
+      "source": "NCI"
+    }
+  ],
+  "properties": [
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "Cellosaurus"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "CTEP"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "CTRP"
+    },
+    {
+      "code": "P366",
+      "type": "Legacy Concept Name",
+      "value": "Anal_Squamous_Cell_Carcinoma"
+    },
+    {
+      "code": "P363",
+      "type": "Neoplastic_Status",
+      "value": "Malignant"
+    },
+    {
+      "code": "P106",
+      "type": "Semantic_Type",
+      "value": "Neoplastic Process"
+    },
+    {
+      "code": "P207",
+      "type": "UMLS_CUI",
+      "value": "C1412036"
+    }
+  ],
+  "children": [
+    {
+      "code": "C7469",
+      "name": "Anal Canal Squamous Cell Carcinoma",
+      "leaf": false
+    },
+    {
+      "code": "C157575",
+      "name": "Anal Intraepithelial Neoplasia 3",
+      "leaf": true
+    },
+    {
+      "code": "C6925",
+      "name": "Anal Margin Squamous Cell Carcinoma",
+      "leaf": true
+    },
+    {
+      "code": "C211565",
+      "name": "Anal Non-Keratinizing Squamous Cell Carcinoma",
+      "leaf": false
+    },
+    {
+      "code": "C7470",
+      "name": "Anal Verrucous Carcinoma",
+      "leaf": true
+    },
+    {
+      "code": "C27681",
+      "name": "Human Papillomavirus-Related Anal Squamous Cell Carcinoma",
+      "leaf": true
+    },
+    {
+      "code": "C169103",
+      "name": "Metastatic Anal Squamous Cell Carcinoma",
+      "leaf": false
+    },
+    {
+      "code": "C169102",
+      "name": "Recurrent Anal Squamous Cell Carcinoma",
+      "leaf": false
+    },
+    {
+      "code": "C208291",
+      "name": "Refractory Anal Squamous Cell Carcinoma",
+      "leaf": false
+    },
+    {
+      "code": "C173156",
+      "name": "Unresectable Anal Squamous Cell Carcinoma",
+      "leaf": false
+    }
+  ],
+  "parents": [
+    {
+      "code": "C9291",
+      "name": "Anal Carcinoma"
+    },
+    {
+      "code": "C2929",
+      "name": "Squamous Cell Carcinoma"
+    }
+  ],
+  "associations": [
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C165258",
+      "relatedName": "Cellosaurus Disease Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C118168",
+      "relatedName": "CTRP Disease Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C116977",
+      "relatedName": "CTRP Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C103062",
+      "relatedName": "NCI CTEP SDC Anal Cancer Sub-Category Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C102905",
+      "relatedName": "NCI CTEP Simplified Disease Classification Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C126659",
+      "relatedName": "NCIt Neoplasm Core Terminology"
+    }
+  ],
+  "roles": [
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C186102",
+      "relatedName": "Anorectal Area"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C43362",
+      "relatedName": "Anus"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C43362",
+      "relatedName": "Anus"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C36122",
+      "relatedName": "Benign Cellular Infiltrate"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C54172",
+      "relatedName": "Carcinomatous Component Present"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12378",
+      "relatedName": "Digestive System"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12378",
+      "relatedName": "Digestive System"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C12578",
+      "relatedName": "Epithelial Cell"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C53596",
+      "relatedName": "Epithelial Component Present"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C45714",
+      "relatedName": "Epithelial Tissue"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C155862",
+      "relatedName": "Intermediate Grade Neuroendocrine Lesion"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12736",
+      "relatedName": "Intestine"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12379",
+      "relatedName": "Large Intestine"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C155864",
+      "relatedName": "Low Grade Neuroendocrine Lesion"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12917",
+      "relatedName": "Malignant Cell"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C36115",
+      "relatedName": "Malignant Cellular Infiltrate"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36779",
+      "relatedName": "Malignant Epithelial Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36771",
+      "relatedName": "Malignant Squamous Cell"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C37153",
+      "relatedName": "Malignant Stromal Cell"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C62273",
+      "relatedName": "Mixed Neoplastic Glandular and Squamous Cell Population"
+    },
+    {
+      "type": "Disease_May_Have_Molecular_Abnormality",
+      "relatedCode": "C36641",
+      "relatedName": "MYC Gene Amplification"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12922",
+      "relatedName": "Neoplastic Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36753",
+      "relatedName": "Neoplastic Epithelial Cell"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C36763",
+      "relatedName": "Neoplastic Glandular Cell"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C36937",
+      "relatedName": "Neoplastic Smooth Muscle Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36760",
+      "relatedName": "Neoplastic Squamous Cell"
+    },
+    {
+      "type": "Disease_May_Have_Molecular_Abnormality",
+      "relatedCode": "C36329",
+      "relatedName": "TP53 Gene Inactivation"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C155861",
+      "relatedName": "Well Differentiated Neuroendocrine Lesion"
+    }
+  ],
+  "history": [
+    {
+      "code": "C9161",
+      "action": "create",
+      "date": "2003-08-12"
+    },
+    {
+      "code": "C9161",
+      "action": "modify",
+      "date": "2003-10-31"
+    },
+    {
+      "code": "C9161",
+      "action": "modify",
+      "date": "2003-12-30"
+    },
+    {
+      "code": "C9161",
+      "action": "modify",
+      "date": "2004-03-30"
+    },
+    {
+      "code": "C9161",
+      "action": "modify",
+      "date": "2005-03-16"
+    },
+    {
+      "code": "C9161",
+      "action": "modify",
+      "date": "2006-03-31"
+    },
+    {
+      "code": "C9161",
+      "action": "modify",
+      "date": "2007-02-23"
+    },
+    {
+      "code": "C9161",
+      "action": "modify",
+      "date": "2009-04-06"
+    },
+    {
+      "code": "C9161",
+      "action": "modify",
+      "date": "2009-11-02"
+    },
+    {
+      "code": "C9161",
+      "action": "modify",
+      "date": "2009-11-23"
+    },
+    {
+      "code": "C9161",
+      "action": "modify",
+      "date": "2011-02-22"
+    },
+    {
+      "code": "C9161",
+      "action": "modify",
+      "date": "2012-09-24"
+    },
+    {
+      "code": "C9161",
+      "action": "modify",
+      "date": "2012-10-01"
+    },
+    {
+      "code": "C9161",
+      "action": "modify",
+      "date": "2012-10-09"
+    },
+    {
+      "code": "C9161",
+      "action": "modify",
+      "date": "2012-10-15"
+    },
+    {
+      "code": "C9161",
+      "action": "modify",
+      "date": "2012-10-22"
+    },
+    {
+      "code": "C9161",
+      "action": "modify",
+      "date": "2012-10-31"
+    },
+    {
+      "code": "C9161",
+      "action": "modify",
+      "date": "2012-11-05"
+    },
+    {
+      "code": "C9161",
+      "action": "modify",
+      "date": "2012-11-13"
+    },
+    {
+      "code": "C9161",
+      "action": "modify",
+      "date": "2012-11-19"
+    },
+    {
+      "code": "C9161",
+      "action": "modify",
+      "date": "2012-11-26"
+    },
+    {
+      "code": "C9161",
+      "action": "modify",
+      "date": "2012-12-03"
+    },
+    {
+      "code": "C9161",
+      "action": "modify",
+      "date": "2012-12-10"
+    },
+    {
+      "code": "C9161",
+      "action": "modify",
+      "date": "2012-12-17"
+    },
+    {
+      "code": "C9161",
+      "action": "modify",
+      "date": "2012-12-28"
+    },
+    {
+      "code": "C9161",
+      "action": "modify",
+      "date": "2013-01-07"
+    },
+    {
+      "code": "C9161",
+      "action": "modify",
+      "date": "2013-01-14"
+    },
+    {
+      "code": "C9161",
+      "action": "modify",
+      "date": "2013-01-23"
+    },
+    {
+      "code": "C9161",
+      "action": "modify",
+      "date": "2013-02-04"
+    },
+    {
+      "code": "C9161",
+      "action": "modify",
+      "date": "2013-02-11"
+    },
+    {
+      "code": "C9161",
+      "action": "modify",
+      "date": "2013-02-19"
+    },
+    {
+      "code": "C9161",
+      "action": "modify",
+      "date": "2013-02-25"
+    },
+    {
+      "code": "C9161",
+      "action": "modify",
+      "date": "2013-03-04"
+    },
+    {
+      "code": "C9161",
+      "action": "modify",
+      "date": "2013-03-11"
+    },
+    {
+      "code": "C9161",
+      "action": "modify",
+      "date": "2013-03-18"
+    },
+    {
+      "code": "C9161",
+      "action": "modify",
+      "date": "2013-03-25"
+    },
+    {
+      "code": "C9161",
+      "action": "modify",
+      "date": "2013-04-01"
+    },
+    {
+      "code": "C9161",
+      "action": "modify",
+      "date": "2013-04-08"
+    },
+    {
+      "code": "C9161",
+      "action": "modify",
+      "date": "2013-04-15"
+    },
+    {
+      "code": "C9161",
+      "action": "modify",
+      "date": "2013-04-22"
+    },
+    {
+      "code": "C9161",
+      "action": "modify",
+      "date": "2013-04-29"
+    },
+    {
+      "code": "C9161",
+      "action": "modify",
+      "date": "2013-05-06"
+    },
+    {
+      "code": "C9161",
+      "action": "modify",
+      "date": "2013-05-13"
+    },
+    {
+      "code": "C9161",
+      "action": "modify",
+      "date": "2013-05-20"
+    },
+    {
+      "code": "C9161",
+      "action": "modify",
+      "date": "2013-05-28"
+    },
+    {
+      "code": "C9161",
+      "action": "modify",
+      "date": "2013-06-03"
+    },
+    {
+      "code": "C9161",
+      "action": "modify",
+      "date": "2013-06-10"
+    },
+    {
+      "code": "C9161",
+      "action": "modify",
+      "date": "2013-06-17"
+    },
+    {
+      "code": "C9161",
+      "action": "modify",
+      "date": "2013-06-24"
+    },
+    {
+      "code": "C9161",
+      "action": "modify",
+      "date": "2013-07-01"
+    },
+    {
+      "code": "C9161",
+      "action": "modify",
+      "date": "2013-07-08"
+    },
+    {
+      "code": "C9161",
+      "action": "modify",
+      "date": "2014-02-03"
+    },
+    {
+      "code": "C9161",
+      "action": "modify",
+      "date": "2014-08-04"
+    },
+    {
+      "code": "C9161",
+      "action": "modify",
+      "date": "2014-08-18"
+    },
+    {
+      "code": "C9161",
+      "action": "modify",
+      "date": "2014-09-22"
+    },
+    {
+      "code": "C9161",
+      "action": "modify",
+      "date": "2014-10-27"
+    },
+    {
+      "code": "C9161",
+      "action": "modify",
+      "date": "2016-04-25"
+    },
+    {
+      "code": "C9161",
+      "action": "modify",
+      "date": "2017-07-31"
+    },
+    {
+      "code": "C9161",
+      "action": "modify",
+      "date": "2018-07-30"
+    },
+    {
+      "code": "C9161",
+      "action": "modify",
+      "date": "2018-08-27"
+    },
+    {
+      "code": "C9161",
+      "action": "modify",
+      "date": "2018-08-27"
+    },
+    {
+      "code": "C9161",
+      "action": "modify",
+      "date": "2019-10-28"
+    },
+    {
+      "code": "C9161",
+      "action": "modify",
+      "date": "2023-02-27"
+    },
+    {
+      "code": "C9161",
+      "action": "modify",
+      "date": "2025-03-31"
+    }
+  ]
+}

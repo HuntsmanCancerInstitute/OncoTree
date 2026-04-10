@@ -1,0 +1,1160 @@
+{
+  "code": "C3336",
+  "name": "Polycythemia Vera",
+  "terminology": "ncit",
+  "version": "25.11d",
+  "conceptStatus": "DEFAULT",
+  "leaf": false,
+  "active": true,
+  "synonyms": [
+    {
+      "name": "Polycythemia Vera",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "caDSR"
+    },
+    {
+      "name": "Polycythemia Vera",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "Cellosaurus"
+    },
+    {
+      "name": "Polycythemia Vera",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "CPTAC"
+    },
+    {
+      "name": "Polycythemia vera",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "CTEP",
+      "code": "10036061",
+      "subSource": "SDC"
+    },
+    {
+      "name": "Polycythemia Vera",
+      "termType": "DN",
+      "type": "FULL_SYN",
+      "source": "CTRP"
+    },
+    {
+      "name": "Polycythemia rubra vera",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "GDC"
+    },
+    {
+      "name": "Polycythemia vera",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "GDC"
+    },
+    {
+      "name": "Polycythemmia vera",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "mCode",
+      "code": "D45",
+      "subSource": "ICD-10 CM"
+    },
+    {
+      "name": "polycythemia vera",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NCI-GLOSS",
+      "code": "CDR0000426418"
+    },
+    {
+      "name": "Chronic Erythremia",
+      "termType": "AQS",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Polycythemia Rubra Vera",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Polycythemia Vera",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Polycythemia Vera",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NICHD"
+    },
+    {
+      "name": "Polycythemia Vera",
+      "type": "Display_Name"
+    },
+    {
+      "name": "Polycythemia Vera",
+      "type": "Preferred_Name"
+    }
+  ],
+  "definitions": [
+    {
+      "definition": "A chronic myeloproliferative neoplasm characterized by an increased red blood cell production. The bone marrow is hypercellular due to a panmyelotic proliferation typically characterized by pleomorphic megakaryocytes. The major symptoms are related to hypertension, splenomegaly or to episodes of thrombosis and/or hemorrhage.",
+      "type": "DEFINITION",
+      "source": "NCI"
+    },
+    {
+      "definition": "A disease in which there are too many red blood cells in the bone marrow and blood, causing the blood to thicken. The number of white blood cells and platelets may also increase. The extra blood cells may collect in the spleen and cause it to become enlarged. They may also cause bleeding problems and make clots form in blood vessels.",
+      "type": "ALT_DEFINITION",
+      "source": "NCI-GLOSS"
+    }
+  ],
+  "properties": [
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "Cellosaurus"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "CPTAC"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "CTEP"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "CTRP"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "GDC"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "mCode"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "NICHD"
+    },
+    {
+      "code": "P334",
+      "type": "ICD-O-3_Code",
+      "value": "9950/3"
+    },
+    {
+      "code": "P366",
+      "type": "Legacy Concept Name",
+      "value": "Polycythemia_Vera"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "9950/3"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "Polycythemia rubra vera"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "Polycythemia vera"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "Proliferative polycythemia"
+    },
+    {
+      "code": "P363",
+      "type": "Neoplastic_Status",
+      "value": "Malignant"
+    },
+    {
+      "code": "P106",
+      "type": "Semantic_Type",
+      "value": "Neoplastic Process"
+    },
+    {
+      "code": "P207",
+      "type": "UMLS_CUI",
+      "value": "C0032463"
+    }
+  ],
+  "children": [
+    {
+      "code": "C41232",
+      "name": "Polycythemia Vera, Polycythemic Phase",
+      "leaf": true
+    },
+    {
+      "code": "C41233",
+      "name": "Polycythemia Vera, Post-Polycythemic Myelofibrosis Phase",
+      "leaf": false
+    },
+    {
+      "code": "C216938",
+      "name": "Recurrent Polycythemia Vera",
+      "leaf": false
+    },
+    {
+      "code": "C216939",
+      "name": "Refractory Polycythemia Vera",
+      "leaf": false
+    }
+  ],
+  "parents": [
+    {
+      "code": "C7064",
+      "name": "Erythroid Neoplasm"
+    },
+    {
+      "code": "C198555",
+      "name": "Myeloproliferative Neoplasm, BCR-ABL1 Negative"
+    },
+    {
+      "code": "C26863",
+      "name": "Polycythemia"
+    }
+  ],
+  "associations": [
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C165258",
+      "relatedName": "Cellosaurus Disease Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C158520",
+      "relatedName": "CPTAC Codelists Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C156966",
+      "relatedName": "CPTAC Neoplasms Codelist"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C156952",
+      "relatedName": "CPTAC Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C118168",
+      "relatedName": "CTRP Disease Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C116977",
+      "relatedName": "CTRP Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C157711",
+      "relatedName": "GDC Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C177537",
+      "relatedName": "GDC Value Terminology"
+    },
+    {
+      "type": "Is_Value_For_GDC_Property",
+      "relatedCode": "C176985",
+      "relatedName": "Histology ICD-O Morphology Code"
+    },
+    {
+      "type": "Is_Value_For_GDC_Property",
+      "relatedCode": "C177621",
+      "relatedName": "ICD-O-3 Morphology Term Diagnosis Question"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168658",
+      "relatedName": "Mapped ICDO3.1 Morphology PT Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168657",
+      "relatedName": "Mapped ICDO3.1 Morphology Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168655",
+      "relatedName": "Mapped ICDO3.1 Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168662",
+      "relatedName": "Mapped ICDO3.2 Morphology PT Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168661",
+      "relatedName": "Mapped ICDO3.2 Morphology Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168656",
+      "relatedName": "Mapped ICDO3.2 Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C193249",
+      "relatedName": "mCode Cancer Disorder Value Set"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C193248",
+      "relatedName": "mCode Primary Cancer Disorder Value Set"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C193231",
+      "relatedName": "mCode Primary Malignant Neoplasm Disorder Value Set"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C193006",
+      "relatedName": "mCode Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C103126",
+      "relatedName": "NCI CTEP SDC Chronic Myeloproliferative Disease Sub-Category Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C102905",
+      "relatedName": "NCI CTEP Simplified Disease Classification Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C126659",
+      "relatedName": "NCIt Neoplasm Core Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C99147",
+      "relatedName": "Neonatal Research Network Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C90259",
+      "relatedName": "NICHD Terminology"
+    }
+  ],
+  "inverseAssociations": [
+    {
+      "type": "Has_GDC_Value",
+      "relatedCode": "C176985",
+      "relatedName": "Histology ICD-O Morphology Code"
+    },
+    {
+      "type": "Has_GDC_Value",
+      "relatedCode": "C177621",
+      "relatedName": "ICD-O-3 Morphology Term Diagnosis Question"
+    }
+  ],
+  "roles": [
+    {
+      "type": "Disease_Excludes_Molecular_Abnormality",
+      "relatedCode": "C36715",
+      "relatedName": "BCR-ABL1 Fusion Protein Expression"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C36122",
+      "relatedName": "Benign Cellular Infiltrate"
+    },
+    {
+      "type": "Disease_Excludes_Normal_Cell_Origin",
+      "relatedCode": "C43221",
+      "relatedName": "Bone Marrow Stem Cell Committed to the Megakaryocytic Lineage"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C13456",
+      "relatedName": "Bone Marrow Stem Cell"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12431",
+      "relatedName": "Bone Marrow"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12431",
+      "relatedName": "Bone Marrow"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C36158",
+      "relatedName": "Chronic Clinical Course"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C3015",
+      "relatedName": "Eosinophilia"
+    },
+    {
+      "type": "Disease_May_Have_Cytogenetic_Abnormality",
+      "relatedCode": "C36455",
+      "relatedName": "Gain of Chromosome 8"
+    },
+    {
+      "type": "Disease_May_Have_Cytogenetic_Abnormality",
+      "relatedCode": "C36463",
+      "relatedName": "Gain of Chromosome 9"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C41165",
+      "relatedName": "Hematopoietic and Lymphatic System"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C41165",
+      "relatedName": "Hematopoietic and Lymphatic System"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C32725",
+      "relatedName": "Hematopoietic and Lymphoid Cell"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C41168",
+      "relatedName": "Hematopoietic and Lymphoid Tissue"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C13051",
+      "relatedName": "Hematopoietic Tissue"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C26791",
+      "relatedName": "Hemorrhage"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C36252",
+      "relatedName": "Ineffective Hematopoiesis"
+    },
+    {
+      "type": "Disease_May_Have_Molecular_Abnormality",
+      "relatedCode": "C158677",
+      "relatedName": "JAK2 Exon 12 Mutation"
+    },
+    {
+      "type": "Disease_May_Have_Molecular_Abnormality",
+      "relatedCode": "C105908",
+      "relatedName": "JAK2 NP_004963.1:p.V617F"
+    },
+    {
+      "type": "Disease_May_Have_Cytogenetic_Abnormality",
+      "relatedCode": "C36497",
+      "relatedName": "Loss of Chromosome 13q"
+    },
+    {
+      "type": "Disease_May_Have_Cytogenetic_Abnormality",
+      "relatedCode": "C36501",
+      "relatedName": "Loss of Chromosome 1p"
+    },
+    {
+      "type": "Disease_May_Have_Cytogenetic_Abnormality",
+      "relatedCode": "C36403",
+      "relatedName": "Loss of Chromosome 20q"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12917",
+      "relatedName": "Malignant Cell"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C36115",
+      "relatedName": "Malignant Cellular Infiltrate"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C41058",
+      "relatedName": "Multipotent Bone Marrow Stem Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12922",
+      "relatedName": "Neoplastic Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C37060",
+      "relatedName": "Neoplastic Hematopoietic and Lymphoid Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C41063",
+      "relatedName": "Neoplastic Myeloid Cell"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C35164",
+      "relatedName": "Neutrophilia"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C128698",
+      "relatedName": "Not Otherwise Specified Lesion"
+    },
+    {
+      "type": "Disease_Excludes_Cytogenetic_Abnormality",
+      "relatedCode": "C28452",
+      "relatedName": "Philadelphia Chromosome"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C36719",
+      "relatedName": "Segmented Neutrophil"
+    },
+    {
+      "type": "Disease_Excludes_Cytogenetic_Abnormality",
+      "relatedCode": "C13271",
+      "relatedName": "t(9;22)(q34.1;q11.2)"
+    }
+  ],
+  "inverseRoles": [
+    {
+      "type": "Disease_May_Have_Associated_Disease",
+      "relatedCode": "C27253",
+      "relatedName": "Metanephric Adenoma"
+    },
+    {
+      "type": "Gene_Product_Malfunction_Associated_With_Disease",
+      "relatedCode": "C95254",
+      "relatedName": "Methylcytosine Dioxygenase TET2"
+    },
+    {
+      "type": "Gene_Associated_With_Disease",
+      "relatedCode": "C95252",
+      "relatedName": "TET2 Gene"
+    },
+    {
+      "type": "Gene_Associated_With_Disease",
+      "relatedCode": "C95253",
+      "relatedName": "TET2 wt Allele"
+    },
+    {
+      "type": "Gene_Product_Malfunction_Associated_With_Disease",
+      "relatedCode": "C28494",
+      "relatedName": "Tyrosine-Protein Kinase JAK2"
+    }
+  ],
+  "history": [
+    {
+      "code": "C3336",
+      "action": "create",
+      "date": "2003-08-12"
+    },
+    {
+      "code": "C3336",
+      "action": "modify",
+      "date": "2003-10-31"
+    },
+    {
+      "code": "C3336",
+      "action": "modify",
+      "date": "2003-12-30"
+    },
+    {
+      "code": "C3336",
+      "action": "modify",
+      "date": "2004-03-30"
+    },
+    {
+      "code": "C3336",
+      "action": "modify",
+      "date": "2004-11-01"
+    },
+    {
+      "code": "C3336",
+      "action": "modify",
+      "date": "2007-03-30"
+    },
+    {
+      "code": "C3336",
+      "action": "modify",
+      "date": "2007-05-25"
+    },
+    {
+      "code": "C3336",
+      "action": "modify",
+      "date": "2009-04-06"
+    },
+    {
+      "code": "C3336",
+      "action": "modify",
+      "date": "2009-10-13"
+    },
+    {
+      "code": "C3336",
+      "action": "modify",
+      "date": "2009-11-23"
+    },
+    {
+      "code": "C3336",
+      "action": "modify",
+      "date": "2010-11-01"
+    },
+    {
+      "code": "C3336",
+      "action": "modify",
+      "date": "2010-11-08"
+    },
+    {
+      "code": "C3336",
+      "action": "modify",
+      "date": "2010-11-15"
+    },
+    {
+      "code": "C3336",
+      "action": "modify",
+      "date": "2010-11-22"
+    },
+    {
+      "code": "C3336",
+      "action": "modify",
+      "date": "2010-11-29"
+    },
+    {
+      "code": "C3336",
+      "action": "modify",
+      "date": "2010-12-06"
+    },
+    {
+      "code": "C3336",
+      "action": "modify",
+      "date": "2010-12-13"
+    },
+    {
+      "code": "C3336",
+      "action": "modify",
+      "date": "2010-12-27"
+    },
+    {
+      "code": "C3336",
+      "action": "modify",
+      "date": "2011-01-03"
+    },
+    {
+      "code": "C3336",
+      "action": "modify",
+      "date": "2011-01-10"
+    },
+    {
+      "code": "C3336",
+      "action": "modify",
+      "date": "2011-01-17"
+    },
+    {
+      "code": "C3336",
+      "action": "modify",
+      "date": "2011-01-24"
+    },
+    {
+      "code": "C3336",
+      "action": "modify",
+      "date": "2011-01-31"
+    },
+    {
+      "code": "C3336",
+      "action": "modify",
+      "date": "2011-07-25"
+    },
+    {
+      "code": "C3336",
+      "action": "modify",
+      "date": "2011-09-06"
+    },
+    {
+      "code": "C3336",
+      "action": "modify",
+      "date": "2011-12-27"
+    },
+    {
+      "code": "C3336",
+      "action": "modify",
+      "date": "2012-03-12"
+    },
+    {
+      "code": "C3336",
+      "action": "modify",
+      "date": "2012-09-24"
+    },
+    {
+      "code": "C3336",
+      "action": "modify",
+      "date": "2012-10-01"
+    },
+    {
+      "code": "C3336",
+      "action": "modify",
+      "date": "2012-10-09"
+    },
+    {
+      "code": "C3336",
+      "action": "modify",
+      "date": "2012-10-15"
+    },
+    {
+      "code": "C3336",
+      "action": "modify",
+      "date": "2012-10-22"
+    },
+    {
+      "code": "C3336",
+      "action": "modify",
+      "date": "2012-10-31"
+    },
+    {
+      "code": "C3336",
+      "action": "modify",
+      "date": "2012-11-05"
+    },
+    {
+      "code": "C3336",
+      "action": "modify",
+      "date": "2012-11-13"
+    },
+    {
+      "code": "C3336",
+      "action": "modify",
+      "date": "2012-11-19"
+    },
+    {
+      "code": "C3336",
+      "action": "modify",
+      "date": "2012-11-26"
+    },
+    {
+      "code": "C3336",
+      "action": "modify",
+      "date": "2012-12-03"
+    },
+    {
+      "code": "C3336",
+      "action": "modify",
+      "date": "2012-12-10"
+    },
+    {
+      "code": "C3336",
+      "action": "modify",
+      "date": "2012-12-17"
+    },
+    {
+      "code": "C3336",
+      "action": "modify",
+      "date": "2012-12-28"
+    },
+    {
+      "code": "C3336",
+      "action": "modify",
+      "date": "2013-01-07"
+    },
+    {
+      "code": "C3336",
+      "action": "modify",
+      "date": "2013-01-14"
+    },
+    {
+      "code": "C3336",
+      "action": "modify",
+      "date": "2013-01-23"
+    },
+    {
+      "code": "C3336",
+      "action": "modify",
+      "date": "2013-02-04"
+    },
+    {
+      "code": "C3336",
+      "action": "modify",
+      "date": "2013-02-11"
+    },
+    {
+      "code": "C3336",
+      "action": "modify",
+      "date": "2013-02-19"
+    },
+    {
+      "code": "C3336",
+      "action": "modify",
+      "date": "2013-02-25"
+    },
+    {
+      "code": "C3336",
+      "action": "modify",
+      "date": "2013-03-04"
+    },
+    {
+      "code": "C3336",
+      "action": "modify",
+      "date": "2013-03-11"
+    },
+    {
+      "code": "C3336",
+      "action": "modify",
+      "date": "2013-03-18"
+    },
+    {
+      "code": "C3336",
+      "action": "modify",
+      "date": "2013-03-25"
+    },
+    {
+      "code": "C3336",
+      "action": "modify",
+      "date": "2013-04-01"
+    },
+    {
+      "code": "C3336",
+      "action": "modify",
+      "date": "2013-04-08"
+    },
+    {
+      "code": "C3336",
+      "action": "modify",
+      "date": "2013-04-15"
+    },
+    {
+      "code": "C3336",
+      "action": "modify",
+      "date": "2013-04-22"
+    },
+    {
+      "code": "C3336",
+      "action": "modify",
+      "date": "2013-04-29"
+    },
+    {
+      "code": "C3336",
+      "action": "modify",
+      "date": "2013-05-06"
+    },
+    {
+      "code": "C3336",
+      "action": "modify",
+      "date": "2013-05-13"
+    },
+    {
+      "code": "C3336",
+      "action": "modify",
+      "date": "2013-05-20"
+    },
+    {
+      "code": "C3336",
+      "action": "modify",
+      "date": "2013-05-28"
+    },
+    {
+      "code": "C3336",
+      "action": "modify",
+      "date": "2013-06-03"
+    },
+    {
+      "code": "C3336",
+      "action": "modify",
+      "date": "2013-06-10"
+    },
+    {
+      "code": "C3336",
+      "action": "modify",
+      "date": "2013-06-17"
+    },
+    {
+      "code": "C3336",
+      "action": "modify",
+      "date": "2013-06-24"
+    },
+    {
+      "code": "C3336",
+      "action": "modify",
+      "date": "2013-07-01"
+    },
+    {
+      "code": "C3336",
+      "action": "modify",
+      "date": "2013-07-08"
+    },
+    {
+      "code": "C3336",
+      "action": "modify",
+      "date": "2014-02-03"
+    },
+    {
+      "code": "C3336",
+      "action": "modify",
+      "date": "2014-08-25"
+    },
+    {
+      "code": "C3336",
+      "action": "modify",
+      "date": "2014-09-22"
+    },
+    {
+      "code": "C3336",
+      "action": "modify",
+      "date": "2014-11-17"
+    },
+    {
+      "code": "C3336",
+      "action": "modify",
+      "date": "2015-02-09"
+    },
+    {
+      "code": "C3336",
+      "action": "modify",
+      "date": "2015-02-17"
+    },
+    {
+      "code": "C3336",
+      "action": "modify",
+      "date": "2015-05-18"
+    },
+    {
+      "code": "C3336",
+      "action": "modify",
+      "date": "2015-05-26"
+    },
+    {
+      "code": "C3336",
+      "action": "modify",
+      "date": "2015-07-13"
+    },
+    {
+      "code": "C3336",
+      "action": "modify",
+      "date": "2015-08-12"
+    },
+    {
+      "code": "C3336",
+      "action": "modify",
+      "date": "2016-04-25"
+    },
+    {
+      "code": "C3336",
+      "action": "modify",
+      "date": "2016-10-17"
+    },
+    {
+      "code": "C3336",
+      "action": "modify",
+      "date": "2016-11-14"
+    },
+    {
+      "code": "C3336",
+      "action": "modify",
+      "date": "2018-07-30"
+    },
+    {
+      "code": "C3336",
+      "action": "modify",
+      "date": "2018-08-27"
+    },
+    {
+      "code": "C3336",
+      "action": "modify",
+      "date": "2018-08-27"
+    },
+    {
+      "code": "C3336",
+      "action": "modify",
+      "date": "2018-09-24"
+    },
+    {
+      "code": "C3336",
+      "action": "modify",
+      "date": "2018-10-29"
+    },
+    {
+      "code": "C3336",
+      "action": "modify",
+      "date": "2018-10-29"
+    },
+    {
+      "code": "C3336",
+      "action": "modify",
+      "date": "2018-12-31"
+    },
+    {
+      "code": "C3336",
+      "action": "modify",
+      "date": "2019-02-25"
+    },
+    {
+      "code": "C3336",
+      "action": "modify",
+      "date": "2019-03-25"
+    },
+    {
+      "code": "C3336",
+      "action": "modify",
+      "date": "2019-05-28"
+    },
+    {
+      "code": "C3336",
+      "action": "modify",
+      "date": "2019-09-30"
+    },
+    {
+      "code": "C3336",
+      "action": "modify",
+      "date": "2019-11-25"
+    },
+    {
+      "code": "C3336",
+      "action": "modify",
+      "date": "2020-02-24"
+    },
+    {
+      "code": "C3336",
+      "action": "modify",
+      "date": "2020-03-30"
+    },
+    {
+      "code": "C3336",
+      "action": "modify",
+      "date": "2020-04-27"
+    },
+    {
+      "code": "C3336",
+      "action": "modify",
+      "date": "2020-08-31"
+    },
+    {
+      "code": "C3336",
+      "action": "modify",
+      "date": "2020-09-29"
+    },
+    {
+      "code": "C3336",
+      "action": "modify",
+      "date": "2021-02-22"
+    },
+    {
+      "code": "C3336",
+      "action": "modify",
+      "date": "2021-03-29"
+    },
+    {
+      "code": "C3336",
+      "action": "modify",
+      "date": "2021-07-26"
+    },
+    {
+      "code": "C3336",
+      "action": "modify",
+      "date": "2023-02-27"
+    },
+    {
+      "code": "C3336",
+      "action": "modify",
+      "date": "2023-03-27"
+    },
+    {
+      "code": "C3336",
+      "action": "modify",
+      "date": "2023-04-24"
+    },
+    {
+      "code": "C3336",
+      "action": "modify",
+      "date": "2023-05-30"
+    },
+    {
+      "code": "C3336",
+      "action": "modify",
+      "date": "2023-09-25"
+    },
+    {
+      "code": "C3336",
+      "action": "modify",
+      "date": "2023-10-30"
+    },
+    {
+      "code": "C3336",
+      "action": "modify",
+      "date": "2023-12-26"
+    },
+    {
+      "code": "C3336",
+      "action": "modify",
+      "date": "2025-03-31"
+    }
+  ],
+  "maps": [
+    {
+      "type": "Related To",
+      "targetName": "9950/3",
+      "targetTermType": "PT",
+      "targetCode": "morphology",
+      "targetTerminology": "GDC"
+    },
+    {
+      "type": "Has Synonym",
+      "targetName": "Polycythemia rubra vera",
+      "targetTermType": "PT",
+      "targetCode": "primary_diagnosis",
+      "targetTerminology": "GDC"
+    },
+    {
+      "type": "Has Synonym",
+      "targetName": "Polycythemia vera",
+      "targetTermType": "PT",
+      "targetCode": "238.4",
+      "targetTerminology": "ICD9CM 2014"
+    },
+    {
+      "type": "Related To",
+      "targetName": "Polycythemia vera",
+      "targetTermType": "PT",
+      "targetCode": "9950/3",
+      "targetTerminology": "ICDO3",
+      "targetTerminologyVersion": "3.1"
+    },
+    {
+      "type": "Related To",
+      "targetName": "Polycythemia vera",
+      "targetTermType": "PT",
+      "targetCode": "9950/3",
+      "targetTerminology": "ICDO3",
+      "targetTerminologyVersion": "3.2"
+    },
+    {
+      "type": "Has Synonym",
+      "targetName": "Polycythemia vera",
+      "targetTermType": "PT",
+      "targetCode": "primary_diagnosis",
+      "targetTerminology": "GDC"
+    },
+    {
+      "type": "Related To",
+      "targetName": "Proliferative polycythemia",
+      "targetTermType": "PT",
+      "targetCode": "primary_diagnosis",
+      "targetTerminology": "GDC"
+    }
+  ]
+}

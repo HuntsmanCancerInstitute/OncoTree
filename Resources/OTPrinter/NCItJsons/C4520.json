@@ -1,0 +1,555 @@
+{
+  "code": "C4520",
+  "name": "Cervical Adenocarcinoma In Situ",
+  "terminology": "ncit",
+  "version": "25.11d",
+  "conceptStatus": "DEFAULT",
+  "leaf": false,
+  "active": true,
+  "synonyms": [
+    {
+      "name": "Adenocarcinoma in situ of Cervix",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Adenocarcinoma in situ of Cervix Uteri",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Adenocarcinoma in situ of the Cervix",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Adenocarcinoma in situ of the Cervix Uteri",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Adenocarcinoma in situ of the Uterine Cervix",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Adenocarcinoma in situ of Uterine Cervix",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Cervical Adenocarcinoma In Situ",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Cervix Adenocarcinoma in situ",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Cervix Uteri Adenocarcinoma in situ",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Uterine Cervix Adenocarcinoma in situ",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Cervical Adenocarcinoma In Situ",
+      "type": "Preferred_Name"
+    }
+  ],
+  "definitions": [
+    {
+      "definition": "Stage 0 includes: (Tis, N0, M0). Tis: Carcinoma in situ. N0: No regional lymph node metastasis.  M0: No distant metastasis. FIGO no longer includes stage 0. (AJCC 7th ed.)",
+      "type": "DEFINITION",
+      "source": "NCI"
+    }
+  ],
+  "properties": [
+    {
+      "code": "P366",
+      "type": "Legacy Concept Name",
+      "value": "Cervical_Adenocarcinoma_in_situ"
+    },
+    {
+      "code": "P363",
+      "type": "Neoplastic_Status",
+      "value": "Malignant"
+    },
+    {
+      "code": "P106",
+      "type": "Semantic_Type",
+      "value": "Neoplastic Process"
+    },
+    {
+      "code": "P207",
+      "type": "UMLS_CUI",
+      "value": "C0346203"
+    }
+  ],
+  "children": [
+    {
+      "code": "C180846",
+      "name": "Human Papillomavirus-Independent Cervical Adenocarcinoma In Situ",
+      "leaf": true
+    },
+    {
+      "code": "C180845",
+      "name": "Human Papillomavirus-Related Cervical Adenocarcinoma In Situ",
+      "leaf": true
+    }
+  ],
+  "parents": [
+    {
+      "code": "C4029",
+      "name": "Cervical Adenocarcinoma"
+    },
+    {
+      "code": "C6877",
+      "name": "Grade III Glandular Intraepithelial Neoplasia"
+    },
+    {
+      "code": "C7675",
+      "name": "High Grade Cervical Glandular Intraepithelial Neoplasia"
+    },
+    {
+      "code": "C89550",
+      "name": "Stage 0 Cervical Cancer AJCC v7"
+    }
+  ],
+  "associations": [
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C126659",
+      "relatedName": "NCIt Neoplasm Core Terminology"
+    }
+  ],
+  "roles": [
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C45659",
+      "relatedName": "Absence of Invasion"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36773",
+      "relatedName": "Adenocarcinoma Cell"
+    },
+    {
+      "type": "Disease_Is_Stage",
+      "relatedCode": "C90530",
+      "relatedName": "AJCC v7 Stage"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C36122",
+      "relatedName": "Benign Cellular Infiltrate"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C54172",
+      "relatedName": "Carcinomatous Component Present"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C40209",
+      "relatedName": "Cervical Glandular Dysplasia"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C49218",
+      "relatedName": "Cervix Epithelium"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12311",
+      "relatedName": "Cervix Uteri"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12311",
+      "relatedName": "Cervix Uteri"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C4086",
+      "relatedName": "Dysplasia"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36794",
+      "relatedName": "Dysplastic Glandular Cell"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C36789",
+      "relatedName": "Dysplastic Squamous Cell"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12309",
+      "relatedName": "Endocervix"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C12578",
+      "relatedName": "Epithelial Cell"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C53596",
+      "relatedName": "Epithelial Component Present"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C45714",
+      "relatedName": "Epithelial Tissue"
+    },
+    {
+      "type": "Disease_May_Have_Molecular_Abnormality",
+      "relatedCode": "C36638",
+      "relatedName": "ERBB2 Gene Amplification"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12402",
+      "relatedName": "Female Reproductive System"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12402",
+      "relatedName": "Female Reproductive System"
+    },
+    {
+      "type": "Disease_Mapped_To_Gene",
+      "relatedCode": "C18524",
+      "relatedName": "FHIT Gene"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12810",
+      "relatedName": "Genitourinary System"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12810",
+      "relatedName": "Genitourinary System"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C33923",
+      "relatedName": "Glandular Cell"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C43370",
+      "relatedName": "Glandular Epithelium"
+    },
+    {
+      "type": "Disease_Is_Grade",
+      "relatedCode": "C28079",
+      "relatedName": "Grade 3"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C36129",
+      "relatedName": "High Grade Lesion"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C36118",
+      "relatedName": "In Situ Lesion"
+    },
+    {
+      "type": "Disease_May_Have_Molecular_Abnormality",
+      "relatedCode": "C36704",
+      "relatedName": "Inactivating FHIT Gene Mutation"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C36117",
+      "relatedName": "Invasive Lesion"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12917",
+      "relatedName": "Malignant Cell"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C36115",
+      "relatedName": "Malignant Cellular Infiltrate"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36779",
+      "relatedName": "Malignant Epithelial Cell"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C36771",
+      "relatedName": "Malignant Squamous Cell"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C37153",
+      "relatedName": "Malignant Stromal Cell"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C62273",
+      "relatedName": "Mixed Neoplastic Glandular and Squamous Cell Population"
+    },
+    {
+      "type": "Disease_May_Have_Molecular_Abnormality",
+      "relatedCode": "C36641",
+      "relatedName": "MYC Gene Amplification"
+    },
+    {
+      "type": "Disease_Mapped_To_Gene",
+      "relatedCode": "C16887",
+      "relatedName": "MYC Gene"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12922",
+      "relatedName": "Neoplastic Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36753",
+      "relatedName": "Neoplastic Epithelial Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36763",
+      "relatedName": "Neoplastic Glandular Cell"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C36937",
+      "relatedName": "Neoplastic Smooth Muscle Cell"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C36760",
+      "relatedName": "Neoplastic Squamous Cell"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C36792",
+      "relatedName": "Non-Keratinizing Malignant Squamous Cell"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12841",
+      "relatedName": "Reproductive System"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C8364",
+      "relatedName": "Severe Dysplasia"
+    },
+    {
+      "type": "Disease_Is_Stage",
+      "relatedCode": "C28051",
+      "relatedName": "Stage 0"
+    },
+    {
+      "type": "Disease_Is_Stage",
+      "relatedCode": "C28051",
+      "relatedName": "Stage 0"
+    },
+    {
+      "type": "Disease_May_Have_Molecular_Abnormality",
+      "relatedCode": "C36329",
+      "relatedName": "TP53 Gene Inactivation"
+    },
+    {
+      "type": "Disease_Mapped_To_Gene",
+      "relatedCode": "C17359",
+      "relatedName": "TP53 Gene"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12405",
+      "relatedName": "Uterus"
+    }
+  ],
+  "history": [
+    {
+      "code": "C4520",
+      "action": "create",
+      "date": "2003-08-12"
+    },
+    {
+      "code": "C4520",
+      "action": "modify",
+      "date": "2003-10-31"
+    },
+    {
+      "code": "C4520",
+      "action": "modify",
+      "date": "2003-12-30"
+    },
+    {
+      "code": "C4520",
+      "action": "modify",
+      "date": "2004-03-30"
+    },
+    {
+      "code": "C4520",
+      "action": "modify",
+      "date": "2004-09-10"
+    },
+    {
+      "code": "C4520",
+      "action": "modify",
+      "date": "2006-03-31"
+    },
+    {
+      "code": "C4520",
+      "action": "modify",
+      "date": "2006-07-28"
+    },
+    {
+      "code": "C4520",
+      "action": "modify",
+      "date": "2007-02-23"
+    },
+    {
+      "code": "C4520",
+      "action": "modify",
+      "date": "2009-04-06"
+    },
+    {
+      "code": "C4520",
+      "action": "modify",
+      "date": "2009-10-27"
+    },
+    {
+      "code": "C4520",
+      "action": "modify",
+      "date": "2009-11-23"
+    },
+    {
+      "code": "C4520",
+      "action": "modify",
+      "date": "2010-06-07"
+    },
+    {
+      "code": "C4520",
+      "action": "modify",
+      "date": "2010-06-14"
+    },
+    {
+      "code": "C4520",
+      "action": "modify",
+      "date": "2010-06-21"
+    },
+    {
+      "code": "C4520",
+      "action": "modify",
+      "date": "2010-06-28"
+    },
+    {
+      "code": "C4520",
+      "action": "modify",
+      "date": "2010-07-06"
+    },
+    {
+      "code": "C4520",
+      "action": "modify",
+      "date": "2010-07-12"
+    },
+    {
+      "code": "C4520",
+      "action": "modify",
+      "date": "2010-07-19"
+    },
+    {
+      "code": "C4520",
+      "action": "modify",
+      "date": "2010-07-26"
+    },
+    {
+      "code": "C4520",
+      "action": "modify",
+      "date": "2010-08-02"
+    },
+    {
+      "code": "C4520",
+      "action": "modify",
+      "date": "2010-08-09"
+    },
+    {
+      "code": "C4520",
+      "action": "modify",
+      "date": "2010-08-16"
+    },
+    {
+      "code": "C4520",
+      "action": "modify",
+      "date": "2010-08-23"
+    },
+    {
+      "code": "C4520",
+      "action": "modify",
+      "date": "2010-08-30"
+    },
+    {
+      "code": "C4520",
+      "action": "modify",
+      "date": "2010-09-07"
+    },
+    {
+      "code": "C4520",
+      "action": "modify",
+      "date": "2010-09-13"
+    },
+    {
+      "code": "C4520",
+      "action": "modify",
+      "date": "2010-09-20"
+    },
+    {
+      "code": "C4520",
+      "action": "modify",
+      "date": "2010-09-27"
+    },
+    {
+      "code": "C4520",
+      "action": "modify",
+      "date": "2014-02-03"
+    },
+    {
+      "code": "C4520",
+      "action": "modify",
+      "date": "2016-04-25"
+    },
+    {
+      "code": "C4520",
+      "action": "modify",
+      "date": "2017-10-30"
+    },
+    {
+      "code": "C4520",
+      "action": "modify",
+      "date": "2021-07-26"
+    }
+  ]
+}

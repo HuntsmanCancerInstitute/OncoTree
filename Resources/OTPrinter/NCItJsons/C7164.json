@@ -1,0 +1,791 @@
+{
+  "code": "C7164",
+  "name": "Classic Hodgkin Lymphoma",
+  "terminology": "ncit",
+  "version": "25.11d",
+  "conceptStatus": "DEFAULT",
+  "leaf": false,
+  "active": true,
+  "synonyms": [
+    {
+      "name": "Classical Hodgkin Lymphoma",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "caDSR"
+    },
+    {
+      "name": "Classic Hodgkin Lymphoma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "CPTAC"
+    },
+    {
+      "name": "Classical Hodgkin Lymphoma",
+      "termType": "DN",
+      "type": "FULL_SYN",
+      "source": "CTRP"
+    },
+    {
+      "name": "classical Hodgkin lymphoma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NCI-GLOSS",
+      "code": "CDR0000574284"
+    },
+    {
+      "name": "cHL",
+      "termType": "AB",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "CHL",
+      "termType": "AB",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Classic Hodgkin Lymphoma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Classical Hodgkin Lymphoma",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Classic Hodgkin Lymphoma",
+      "type": "Display_Name"
+    },
+    {
+      "name": "Classic Hodgkin Lymphoma",
+      "type": "Preferred_Name"
+    }
+  ],
+  "definitions": [
+    {
+      "definition": "A category of Hodgkin lymphomas that includes the following four histologic subtypes: lymphocyte-rich, nodular sclerosis, mixed cellularity, and lymphocyte-depleted classic Hodgkin lymphoma. The vast majority of Hodgkin lymphomas belong to this category.",
+      "type": "DEFINITION",
+      "source": "NCI"
+    },
+    {
+      "definition": "The most common type of Hodgkin lymphoma, which is a cancer of the immune system. Classical Hodgkin lymphoma is marked by the presence of a type of cell called the Reed-Sternberg cell.",
+      "type": "ALT_DEFINITION",
+      "source": "NCI-GLOSS"
+    }
+  ],
+  "properties": [
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "CPTAC"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "CTRP"
+    },
+    {
+      "code": "P366",
+      "type": "Legacy Concept Name",
+      "value": "Classical_Hodgkin_s_Lymphoma"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "Other classical Hodgkin lymphoma, lymph nodes of head, face, and neck"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "Other classical Hodgkin lymphoma, lymph nodes of multiple sites"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "Other classical Hodgkin lymphoma, unspecified site"
+    },
+    {
+      "code": "P363",
+      "type": "Neoplastic_Status",
+      "value": "Malignant"
+    },
+    {
+      "code": "P106",
+      "type": "Semantic_Type",
+      "value": "Neoplastic Process"
+    },
+    {
+      "code": "P207",
+      "type": "UMLS_CUI",
+      "value": "C1333064"
+    }
+  ],
+  "children": [
+    {
+      "code": "C69138",
+      "name": "Adult Classic Hodgkin Lymphoma",
+      "leaf": false
+    },
+    {
+      "code": "C69142",
+      "name": "Childhood Classic Hodgkin Lymphoma",
+      "leaf": false
+    },
+    {
+      "code": "C7243",
+      "name": "Classic Hodgkin Lymphoma Post-Transplant Lymphoproliferative Disorder",
+      "leaf": true
+    },
+    {
+      "code": "C9283",
+      "name": "Lymphocyte-Depleted Classic Hodgkin Lymphoma",
+      "leaf": false
+    },
+    {
+      "code": "C6913",
+      "name": "Lymphocyte-Rich Classic Hodgkin Lymphoma",
+      "leaf": false
+    },
+    {
+      "code": "C3517",
+      "name": "Mixed Cellularity Classic Hodgkin Lymphoma",
+      "leaf": false
+    },
+    {
+      "code": "C3518",
+      "name": "Nodular Sclerosis Classic Hodgkin Lymphoma",
+      "leaf": false
+    },
+    {
+      "code": "C133592",
+      "name": "Recurrent Classic Hodgkin Lymphoma",
+      "leaf": false
+    },
+    {
+      "code": "C133736",
+      "name": "Refractory Classic Hodgkin Lymphoma",
+      "leaf": false
+    }
+  ],
+  "parents": [
+    {
+      "code": "C9357",
+      "name": "Hodgkin Lymphoma"
+    }
+  ],
+  "associations": [
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C158520",
+      "relatedName": "CPTAC Codelists Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C156966",
+      "relatedName": "CPTAC Neoplasms Codelist"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C156952",
+      "relatedName": "CPTAC Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C118168",
+      "relatedName": "CTRP Disease Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C116977",
+      "relatedName": "CTRP Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C126659",
+      "relatedName": "NCIt Neoplasm Core Terminology"
+    }
+  ],
+  "roles": [
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36725",
+      "relatedName": "Abnormal Lymphocyte"
+    },
+    {
+      "type": "Disease_May_Have_Molecular_Abnormality",
+      "relatedCode": "C36431",
+      "relatedName": "Apoptotic Pathway Deregulation"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C36122",
+      "relatedName": "Benign Cellular Infiltrate"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C45381",
+      "relatedName": "CD15-Positive Neoplastic Cells Present"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C39715",
+      "relatedName": "CD30-Positive Neoplastic Cells Present"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C39720",
+      "relatedName": "Classic Reed-Sternberg Cell"
+    },
+    {
+      "type": "Disease_May_Have_Molecular_Abnormality",
+      "relatedCode": "C36444",
+      "relatedName": "Clonal Immunoglobulin Heavy Chain Gene Rearrangement"
+    },
+    {
+      "type": "Disease_May_Have_Molecular_Abnormality",
+      "relatedCode": "C36451",
+      "relatedName": "Clonal Immunoglobulin Kappa Light Chain Gene Rearrangement"
+    },
+    {
+      "type": "Disease_May_Have_Molecular_Abnormality",
+      "relatedCode": "C36452",
+      "relatedName": "Clonal Immunoglobulin Lambda Light Chain Gene Rearrangement"
+    },
+    {
+      "type": "Disease_May_Have_Molecular_Abnormality",
+      "relatedCode": "C36446",
+      "relatedName": "Clonal T-Cell Receptor Gene Rearrangement"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C38450",
+      "relatedName": "Colony-Stimulating Factor Overexpression"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C3038",
+      "relatedName": "Fever"
+    },
+    {
+      "type": "Disease_May_Have_Cytogenetic_Abnormality",
+      "relatedCode": "C36441",
+      "relatedName": "Gain of Chromosome 12q"
+    },
+    {
+      "type": "Disease_May_Have_Cytogenetic_Abnormality",
+      "relatedCode": "C36439",
+      "relatedName": "Gain of Chromosome 2p"
+    },
+    {
+      "type": "Disease_May_Have_Cytogenetic_Abnormality",
+      "relatedCode": "C36440",
+      "relatedName": "Gain of Chromosome 9p"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C41165",
+      "relatedName": "Hematopoietic and Lymphatic System"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C41165",
+      "relatedName": "Hematopoietic and Lymphatic System"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C32725",
+      "relatedName": "Hematopoietic and Lymphoid Cell"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C41168",
+      "relatedName": "Hematopoietic and Lymphoid Tissue"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C37021",
+      "relatedName": "Hodgkin Cell"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C38446",
+      "relatedName": "Interleukin-10 Overexpression"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C38447",
+      "relatedName": "Interleukin-13 Overexpression"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C38441",
+      "relatedName": "Interleukin-2 Overexpression"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C38442",
+      "relatedName": "Interleukin-5 Overexpression"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C38443",
+      "relatedName": "Interleukin-6 Overexpression"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C38444",
+      "relatedName": "Interleukin-7 Overexpression"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C38445",
+      "relatedName": "Interleukin-9 Overexpression"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C50764",
+      "relatedName": "Lymphadenopathy"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12746",
+      "relatedName": "Lymphatic System"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C12535",
+      "relatedName": "Lymphocyte"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C13049",
+      "relatedName": "Lymphoid Tissue"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C38448",
+      "relatedName": "Lymphotoxin-Alpha Overexpression"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12917",
+      "relatedName": "Malignant Cell"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C36115",
+      "relatedName": "Malignant Cellular Infiltrate"
+    },
+    {
+      "type": "Disease_May_Have_Normal_Cell_Origin",
+      "relatedCode": "C38436",
+      "relatedName": "Mature B-Lymphocyte at the Germinal Center Stage of Differentiation"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C38439",
+      "relatedName": "Mature Lymphocyte"
+    },
+    {
+      "type": "Disease_May_Have_Abnormal_Cell",
+      "relatedCode": "C37025",
+      "relatedName": "Mummified Cell"
+    },
+    {
+      "type": "Disease_Excludes_Normal_Cell_Origin",
+      "relatedCode": "C12549",
+      "relatedName": "Myeloid Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12922",
+      "relatedName": "Neoplastic Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C37060",
+      "relatedName": "Neoplastic Hematopoietic and Lymphoid Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36988",
+      "relatedName": "Neoplastic Lymphocyte"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C3279",
+      "relatedName": "Night Sweats"
+    },
+    {
+      "type": "Disease_May_Have_Normal_Cell_Origin",
+      "relatedCode": "C38434",
+      "relatedName": "Peripheral (Post-Thymic) T-Lymphocyte"
+    },
+    {
+      "type": "Disease_Excludes_Normal_Cell_Origin",
+      "relatedCode": "C12486",
+      "relatedName": "Plasma Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12660",
+      "relatedName": "Reed-Sternberg Cell"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C36662",
+      "relatedName": "Transforming Growth Factor-Beta Overexpression"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C3445",
+      "relatedName": "Weight Loss"
+    }
+  ],
+  "inverseRoles": [
+    {
+      "type": "Disease_May_Have_Associated_Disease",
+      "relatedCode": "C179721",
+      "relatedName": "Transformed B-Cell Lymphoma, Unclassifiable, with Features Intermediate between Diffuse Large B-Cell Lymphoma and Classic Hodgkin Lymphoma to Diffuse Large B-Cell Lymphoma"
+    }
+  ],
+  "history": [
+    {
+      "code": "C7164",
+      "action": "create",
+      "date": "2003-08-12"
+    },
+    {
+      "code": "C7164",
+      "action": "modify",
+      "date": "2003-10-31"
+    },
+    {
+      "code": "C7164",
+      "action": "modify",
+      "date": "2003-12-30"
+    },
+    {
+      "code": "C7164",
+      "action": "modify",
+      "date": "2004-03-30"
+    },
+    {
+      "code": "C7164",
+      "action": "modify",
+      "date": "2004-04-30"
+    },
+    {
+      "code": "C7164",
+      "action": "modify",
+      "date": "2004-06-25"
+    },
+    {
+      "code": "C7164",
+      "action": "modify",
+      "date": "2004-09-10"
+    },
+    {
+      "code": "C7164",
+      "action": "modify",
+      "date": "2005-03-30"
+    },
+    {
+      "code": "C7164",
+      "action": "modify",
+      "date": "2006-12-01"
+    },
+    {
+      "code": "C7164",
+      "action": "modify",
+      "date": "2009-02-13"
+    },
+    {
+      "code": "C7164",
+      "action": "modify",
+      "date": "2009-04-06"
+    },
+    {
+      "code": "C7164",
+      "action": "modify",
+      "date": "2009-11-02"
+    },
+    {
+      "code": "C7164",
+      "action": "modify",
+      "date": "2009-11-23"
+    },
+    {
+      "code": "C7164",
+      "action": "modify",
+      "date": "2010-11-08"
+    },
+    {
+      "code": "C7164",
+      "action": "modify",
+      "date": "2010-11-15"
+    },
+    {
+      "code": "C7164",
+      "action": "modify",
+      "date": "2010-11-22"
+    },
+    {
+      "code": "C7164",
+      "action": "modify",
+      "date": "2010-11-29"
+    },
+    {
+      "code": "C7164",
+      "action": "modify",
+      "date": "2010-12-06"
+    },
+    {
+      "code": "C7164",
+      "action": "modify",
+      "date": "2010-12-13"
+    },
+    {
+      "code": "C7164",
+      "action": "modify",
+      "date": "2010-12-27"
+    },
+    {
+      "code": "C7164",
+      "action": "modify",
+      "date": "2011-01-03"
+    },
+    {
+      "code": "C7164",
+      "action": "modify",
+      "date": "2011-01-10"
+    },
+    {
+      "code": "C7164",
+      "action": "modify",
+      "date": "2011-01-17"
+    },
+    {
+      "code": "C7164",
+      "action": "modify",
+      "date": "2011-01-24"
+    },
+    {
+      "code": "C7164",
+      "action": "modify",
+      "date": "2011-01-31"
+    },
+    {
+      "code": "C7164",
+      "action": "modify",
+      "date": "2011-08-29"
+    },
+    {
+      "code": "C7164",
+      "action": "modify",
+      "date": "2011-12-27"
+    },
+    {
+      "code": "C7164",
+      "action": "modify",
+      "date": "2013-02-25"
+    },
+    {
+      "code": "C7164",
+      "action": "modify",
+      "date": "2013-03-04"
+    },
+    {
+      "code": "C7164",
+      "action": "modify",
+      "date": "2013-03-11"
+    },
+    {
+      "code": "C7164",
+      "action": "modify",
+      "date": "2013-03-18"
+    },
+    {
+      "code": "C7164",
+      "action": "modify",
+      "date": "2013-03-25"
+    },
+    {
+      "code": "C7164",
+      "action": "modify",
+      "date": "2013-04-01"
+    },
+    {
+      "code": "C7164",
+      "action": "modify",
+      "date": "2013-04-08"
+    },
+    {
+      "code": "C7164",
+      "action": "modify",
+      "date": "2013-04-15"
+    },
+    {
+      "code": "C7164",
+      "action": "modify",
+      "date": "2013-04-22"
+    },
+    {
+      "code": "C7164",
+      "action": "modify",
+      "date": "2013-04-29"
+    },
+    {
+      "code": "C7164",
+      "action": "modify",
+      "date": "2013-05-06"
+    },
+    {
+      "code": "C7164",
+      "action": "modify",
+      "date": "2013-05-13"
+    },
+    {
+      "code": "C7164",
+      "action": "modify",
+      "date": "2013-05-20"
+    },
+    {
+      "code": "C7164",
+      "action": "modify",
+      "date": "2013-05-28"
+    },
+    {
+      "code": "C7164",
+      "action": "modify",
+      "date": "2013-06-03"
+    },
+    {
+      "code": "C7164",
+      "action": "modify",
+      "date": "2013-06-10"
+    },
+    {
+      "code": "C7164",
+      "action": "modify",
+      "date": "2013-06-17"
+    },
+    {
+      "code": "C7164",
+      "action": "modify",
+      "date": "2013-06-24"
+    },
+    {
+      "code": "C7164",
+      "action": "modify",
+      "date": "2013-07-01"
+    },
+    {
+      "code": "C7164",
+      "action": "modify",
+      "date": "2013-07-08"
+    },
+    {
+      "code": "C7164",
+      "action": "modify",
+      "date": "2015-02-17"
+    },
+    {
+      "code": "C7164",
+      "action": "modify",
+      "date": "2016-04-25"
+    },
+    {
+      "code": "C7164",
+      "action": "modify",
+      "date": "2017-07-31"
+    },
+    {
+      "code": "C7164",
+      "action": "modify",
+      "date": "2018-05-29"
+    },
+    {
+      "code": "C7164",
+      "action": "modify",
+      "date": "2018-07-30"
+    },
+    {
+      "code": "C7164",
+      "action": "modify",
+      "date": "2018-08-27"
+    },
+    {
+      "code": "C7164",
+      "action": "modify",
+      "date": "2018-08-27"
+    },
+    {
+      "code": "C7164",
+      "action": "modify",
+      "date": "2018-10-29"
+    },
+    {
+      "code": "C7164",
+      "action": "modify",
+      "date": "2018-10-29"
+    },
+    {
+      "code": "C7164",
+      "action": "modify",
+      "date": "2018-12-31"
+    },
+    {
+      "code": "C7164",
+      "action": "modify",
+      "date": "2019-02-25"
+    },
+    {
+      "code": "C7164",
+      "action": "modify",
+      "date": "2019-03-25"
+    },
+    {
+      "code": "C7164",
+      "action": "modify",
+      "date": "2019-05-28"
+    },
+    {
+      "code": "C7164",
+      "action": "modify",
+      "date": "2020-09-29"
+    },
+    {
+      "code": "C7164",
+      "action": "modify",
+      "date": "2023-06-26"
+    }
+  ],
+  "maps": [
+    {
+      "type": "Related To",
+      "targetName": "Other classical Hodgkin lymphoma, lymph nodes of head, face, and neck",
+      "targetTermType": "PT",
+      "targetCode": "C81.71",
+      "targetTerminology": "ICD10CM 2017"
+    },
+    {
+      "type": "Related To",
+      "targetName": "Other classical Hodgkin lymphoma, lymph nodes of multiple sites",
+      "targetTermType": "PT",
+      "targetCode": "C81.78",
+      "targetTerminology": "ICD10CM 2017"
+    },
+    {
+      "type": "Related To",
+      "targetName": "Other classical Hodgkin lymphoma, unspecified site",
+      "targetTermType": "PT",
+      "targetCode": "C81.70",
+      "targetTerminology": "ICD10CM 2017"
+    }
+  ]
+}

@@ -1,0 +1,373 @@
+{
+  "code": "C5476",
+  "name": "Gastric Undifferentiated Carcinoma",
+  "terminology": "ncit",
+  "version": "25.11d",
+  "conceptStatus": "DEFAULT",
+  "leaf": true,
+  "active": true,
+  "synonyms": [
+    {
+      "name": "Gastric Undifferentiated Carcinoma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "Cellosaurus"
+    },
+    {
+      "name": "Undifferentiated Gastric (Stomach) Cancer",
+      "termType": "DN",
+      "type": "FULL_SYN",
+      "source": "CTRP"
+    },
+    {
+      "name": "Anaplastic Carcinoma of Stomach",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Anaplastic Carcinoma of the Stomach",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Anaplastic Gastric Carcinoma",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Gastric Undifferentiated Carcinoma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Undifferentiated Carcinoma of Stomach",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Undifferentiated Carcinoma of the Stomach",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Undifferentiated Gastric Carcinoma",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Undifferentiated Gastric Carcinoma",
+      "type": "Display_Name"
+    },
+    {
+      "name": "Gastric Undifferentiated Carcinoma",
+      "type": "Preferred_Name"
+    }
+  ],
+  "definitions": [
+    {
+      "definition": "A carcinoma that arises from the stomach and is characterized by the absence of microscopic features of glandular or squamous differentiation.",
+      "type": "DEFINITION",
+      "source": "NCI"
+    }
+  ],
+  "properties": [
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "Cellosaurus"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "CTRP"
+    },
+    {
+      "code": "P366",
+      "type": "Legacy Concept Name",
+      "value": "Undifferentiated_Gastric_Carcinoma"
+    },
+    {
+      "code": "P363",
+      "type": "Neoplastic_Status",
+      "value": "Malignant"
+    },
+    {
+      "code": "P106",
+      "type": "Semantic_Type",
+      "value": "Neoplastic Process"
+    },
+    {
+      "code": "P207",
+      "type": "UMLS_CUI",
+      "value": "C1336858"
+    }
+  ],
+  "parents": [
+    {
+      "code": "C4911",
+      "name": "Gastric Carcinoma"
+    },
+    {
+      "code": "C3692",
+      "name": "Undifferentiated Carcinoma"
+    }
+  ],
+  "associations": [
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C165258",
+      "relatedName": "Cellosaurus Disease Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C118168",
+      "relatedName": "CTRP Disease Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C116977",
+      "relatedName": "CTRP Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C126659",
+      "relatedName": "NCIt Neoplasm Core Terminology"
+    }
+  ],
+  "roles": [
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C26682",
+      "relatedName": "Abdominal Pain"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C36122",
+      "relatedName": "Benign Cellular Infiltrate"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C54172",
+      "relatedName": "Carcinomatous Component Present"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12378",
+      "relatedName": "Digestive System"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12378",
+      "relatedName": "Digestive System"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C26756",
+      "relatedName": "Dyspepsia"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C12578",
+      "relatedName": "Epithelial Cell"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C53596",
+      "relatedName": "Epithelial Component Present"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C45714",
+      "relatedName": "Epithelial Tissue"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C54582",
+      "relatedName": "Gastric Hemorrhage"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C32656",
+      "relatedName": "Gastric Mucosa"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C43573",
+      "relatedName": "Glandular Differentiation"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C155862",
+      "relatedName": "Intermediate Grade Neuroendocrine Lesion"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C155864",
+      "relatedName": "Low Grade Neuroendocrine Lesion"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12917",
+      "relatedName": "Malignant Cell"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C36115",
+      "relatedName": "Malignant Cellular Infiltrate"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36779",
+      "relatedName": "Malignant Epithelial Cell"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C37153",
+      "relatedName": "Malignant Stromal Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12922",
+      "relatedName": "Neoplastic Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36753",
+      "relatedName": "Neoplastic Epithelial Cell"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C36937",
+      "relatedName": "Neoplastic Smooth Muscle Cell"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C38770",
+      "relatedName": "Squamous Differentiation"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12391",
+      "relatedName": "Stomach"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12391",
+      "relatedName": "Stomach"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C37085",
+      "relatedName": "Undifferentiated Carcinoma Cell"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C36134",
+      "relatedName": "Undifferentiated Lesion"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C155861",
+      "relatedName": "Well Differentiated Neuroendocrine Lesion"
+    }
+  ],
+  "history": [
+    {
+      "code": "C5476",
+      "action": "create",
+      "date": "2003-08-12"
+    },
+    {
+      "code": "C5476",
+      "action": "modify",
+      "date": "2003-10-31"
+    },
+    {
+      "code": "C5476",
+      "action": "modify",
+      "date": "2003-12-30"
+    },
+    {
+      "code": "C5476",
+      "action": "modify",
+      "date": "2004-03-30"
+    },
+    {
+      "code": "C5476",
+      "action": "modify",
+      "date": "2006-03-31"
+    },
+    {
+      "code": "C5476",
+      "action": "modify",
+      "date": "2006-05-26"
+    },
+    {
+      "code": "C5476",
+      "action": "modify",
+      "date": "2009-04-06"
+    },
+    {
+      "code": "C5476",
+      "action": "modify",
+      "date": "2009-11-23"
+    },
+    {
+      "code": "C5476",
+      "action": "modify",
+      "date": "2011-02-28"
+    },
+    {
+      "code": "C5476",
+      "action": "modify",
+      "date": "2014-02-03"
+    },
+    {
+      "code": "C5476",
+      "action": "modify",
+      "date": "2016-04-25"
+    },
+    {
+      "code": "C5476",
+      "action": "modify",
+      "date": "2017-07-31"
+    },
+    {
+      "code": "C5476",
+      "action": "modify",
+      "date": "2018-07-30"
+    },
+    {
+      "code": "C5476",
+      "action": "modify",
+      "date": "2018-08-27"
+    },
+    {
+      "code": "C5476",
+      "action": "modify",
+      "date": "2018-08-27"
+    },
+    {
+      "code": "C5476",
+      "action": "modify",
+      "date": "2019-10-28"
+    },
+    {
+      "code": "C5476",
+      "action": "modify",
+      "date": "2023-02-27"
+    },
+    {
+      "code": "C5476",
+      "action": "modify",
+      "date": "2025-03-31"
+    }
+  ]
+}

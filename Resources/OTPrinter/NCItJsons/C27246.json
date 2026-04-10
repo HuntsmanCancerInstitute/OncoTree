@@ -1,0 +1,347 @@
+{
+  "code": "C27246",
+  "name": "Uterine Corpus Choriocarcinoma",
+  "terminology": "ncit",
+  "version": "25.11d",
+  "conceptStatus": "DEFAULT",
+  "leaf": true,
+  "active": true,
+  "synonyms": [
+    {
+      "name": "Uterine Corpus Choriocarcinoma",
+      "termType": "DN",
+      "type": "FULL_SYN",
+      "source": "CTRP"
+    },
+    {
+      "name": "Gestational Uterine Corpus Choriocarcinoma",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Uterine Corpus Choriocarcinoma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Uterine Corpus Gestational Choriocarcinoma",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Uterine Corpus Choriocarcinoma",
+      "type": "Display_Name"
+    },
+    {
+      "name": "Uterine Corpus Choriocarcinoma",
+      "type": "Preferred_Name"
+    }
+  ],
+  "definitions": [
+    {
+      "definition": "An aggressive malignant tumor arising from trophoblastic cells in the uterus during pregnancy.  Approximately half of the cases develop from a complete hydatidiform mole.  There is often marked elevation of human chorionic gonadotropin (hCG) in the blood.  Choriocarcinomas disseminate rapidly through the hematogenous route; the lungs are most frequently affected.",
+      "type": "DEFINITION",
+      "source": "NCI"
+    }
+  ],
+  "properties": [
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "CTRP"
+    },
+    {
+      "code": "P366",
+      "type": "Legacy Concept Name",
+      "value": "Uterine_Corpus_Choriocarcinoma"
+    },
+    {
+      "code": "P363",
+      "type": "Neoplastic_Status",
+      "value": "Malignant"
+    },
+    {
+      "code": "P106",
+      "type": "Semantic_Type",
+      "value": "Neoplastic Process"
+    },
+    {
+      "code": "P207",
+      "type": "UMLS_CUI",
+      "value": "C0279677"
+    }
+  ],
+  "parents": [
+    {
+      "code": "C4646",
+      "name": "Gestational Choriocarcinoma"
+    },
+    {
+      "code": "C61574",
+      "name": "Malignant Uterine Corpus Neoplasm"
+    }
+  ],
+  "associations": [
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C118168",
+      "relatedName": "CTRP Disease Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C116977",
+      "relatedName": "CTRP Terminology"
+    }
+  ],
+  "roles": [
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C36122",
+      "relatedName": "Benign Cellular Infiltrate"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C54172",
+      "relatedName": "Carcinomatous Component Present"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12316",
+      "relatedName": "Corpus Uteri"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12316",
+      "relatedName": "Corpus Uteri"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C12578",
+      "relatedName": "Epithelial Cell"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C53596",
+      "relatedName": "Epithelial Component Present"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C45714",
+      "relatedName": "Epithelial Tissue"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12402",
+      "relatedName": "Female Reproductive System"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12402",
+      "relatedName": "Female Reproductive System"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12402",
+      "relatedName": "Female Reproductive System"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C61474",
+      "relatedName": "First Trimester Bleeding"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12810",
+      "relatedName": "Genitourinary System"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12810",
+      "relatedName": "Genitourinary System"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C26791",
+      "relatedName": "Hemorrhage"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C54560",
+      "relatedName": "Human Chorionic Gonadotropin-Positive Neoplastic Cells Present"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12917",
+      "relatedName": "Malignant Cell"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C36115",
+      "relatedName": "Malignant Cellular Infiltrate"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C54118",
+      "relatedName": "Malignant Cytotrophoblastic Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36779",
+      "relatedName": "Malignant Epithelial Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C61405",
+      "relatedName": "Malignant Intermediate Type Trophoblastic Cell"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C61064",
+      "relatedName": "Malignant Round Germ Cell with Glycogen-Rich Cytoplasm and Round Nucleus"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C37153",
+      "relatedName": "Malignant Stromal Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C54119",
+      "relatedName": "Malignant Syncytiotrophoblastic Giant Cell"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C36184",
+      "relatedName": "Necrotic Change"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12922",
+      "relatedName": "Neoplastic Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36753",
+      "relatedName": "Neoplastic Epithelial Cell"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C36937",
+      "relatedName": "Neoplastic Smooth Muscle Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36803",
+      "relatedName": "Neoplastic Trophoblastic Cell"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C34941",
+      "relatedName": "Pregnancy Complication"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12841",
+      "relatedName": "Reproductive System"
+    },
+    {
+      "type": "Disease_May_Have_Associated_Disease",
+      "relatedCode": "C34943",
+      "relatedName": "Toxemia of Pregnancy"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12405",
+      "relatedName": "Uterus"
+    }
+  ],
+  "history": [
+    {
+      "code": "C27246",
+      "action": "create",
+      "date": "2003-08-12"
+    },
+    {
+      "code": "C27246",
+      "action": "modify",
+      "date": "2003-12-30"
+    },
+    {
+      "code": "C27246",
+      "action": "modify",
+      "date": "2006-07-28"
+    },
+    {
+      "code": "C27246",
+      "action": "merge",
+      "date": "2007-05-25",
+      "replacementCode": "C27246",
+      "replacementName": "Uterine Corpus Choriocarcinoma"
+    },
+    {
+      "code": "C7374",
+      "action": "merge",
+      "date": "2007-05-25",
+      "replacementCode": "C27246",
+      "replacementName": "Uterine Corpus Choriocarcinoma"
+    },
+    {
+      "code": "C27246",
+      "action": "modify",
+      "date": "2009-04-06"
+    },
+    {
+      "code": "C27246",
+      "action": "modify",
+      "date": "2009-11-23"
+    },
+    {
+      "code": "C27246",
+      "action": "modify",
+      "date": "2010-03-08"
+    },
+    {
+      "code": "C27246",
+      "action": "modify",
+      "date": "2014-02-03"
+    },
+    {
+      "code": "C27246",
+      "action": "modify",
+      "date": "2014-08-04"
+    },
+    {
+      "code": "C27246",
+      "action": "modify",
+      "date": "2014-08-18"
+    },
+    {
+      "code": "C27246",
+      "action": "modify",
+      "date": "2014-09-22"
+    },
+    {
+      "code": "C27246",
+      "action": "modify",
+      "date": "2018-07-30"
+    },
+    {
+      "code": "C27246",
+      "action": "modify",
+      "date": "2018-08-27"
+    },
+    {
+      "code": "C27246",
+      "action": "modify",
+      "date": "2018-08-27"
+    },
+    {
+      "code": "C27246",
+      "action": "modify",
+      "date": "2025-01-27"
+    }
+  ]
+}

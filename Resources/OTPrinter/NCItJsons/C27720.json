@@ -1,0 +1,945 @@
+{
+  "code": "C27720",
+  "name": "Pancreatic Neuroendocrine Tumor",
+  "terminology": "ncit",
+  "version": "25.11d",
+  "conceptStatus": "DEFAULT",
+  "leaf": false,
+  "active": true,
+  "synonyms": [
+    {
+      "name": "Pancreatic Neuroendocrine Tumor",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "Cellosaurus"
+    },
+    {
+      "name": "Pancreatic Neuroendocrine Tumor",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "CPTAC"
+    },
+    {
+      "name": "Islet cell tumors - pancreas",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "CTEP",
+      "code": "10033630",
+      "subSource": "SDC"
+    },
+    {
+      "name": "Islet cell tumors of the pancreas",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "CTEP",
+      "code": "10033630",
+      "subSource": "SDC"
+    },
+    {
+      "name": "Pancreatic Neuroendocrine Tumor",
+      "termType": "DN",
+      "type": "FULL_SYN",
+      "source": "CTRP"
+    },
+    {
+      "name": "islet cell tumor",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NCI-GLOSS",
+      "code": "CDR0000573196"
+    },
+    {
+      "name": "Islet Cell Tumor",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Pancreatic NET",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Pancreatic Neuroendocrine Tumor",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Pancreatic Well Differentiated Neuroendocrine Neoplasm",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Pancreatic Well-Differentiated Neuroendocrine Neoplasm",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "PanNET",
+      "termType": "AB",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Well Differentiated Pancreatic Endocrine Neoplasm",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Well Differentiated Pancreatic Neuroendocrine Neoplasm",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Well-Differentiated Pancreatic Endocrine Neoplasm",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Well-Differentiated Pancreatic Neuroendocrine Neoplasm",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Pancreatic Neuroendocrine Tumor",
+      "type": "Display_Name"
+    },
+    {
+      "name": "Pancreatic Neuroendocrine Tumor",
+      "type": "Preferred_Name"
+    }
+  ],
+  "definitions": [
+    {
+      "definition": "A mass of abnormal cells that forms in the endocrine (hormone-producing) tissues of the pancreas. Islet cell tumors may be benign (not cancer) or malignant (cancer).",
+      "type": "ALT_DEFINITION",
+      "source": "NCI-GLOSS"
+    },
+    {
+      "definition": "A well-differentiated, low-, intermediate-, or high-grade neoplasm with neuroendocrine differentiation that arises from the islet cells of the pancreas. According to the presence or absence of clinical syndromes that result from hormone hypersecretion, pancreatic neuroendocrine tumors are classified either as functional or nonfunctional.",
+      "type": "DEFINITION",
+      "source": "NCI"
+    }
+  ],
+  "properties": [
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "Cellosaurus"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "CPTAC"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "CTEP"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "CTRP"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "GDC"
+    },
+    {
+      "code": "P334",
+      "type": "ICD-O-3_Code",
+      "value": "8150/1"
+    },
+    {
+      "code": "P366",
+      "type": "Legacy Concept Name",
+      "value": "Well-Differentiated_Pancreatic_Endocrine_Neoplasm"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "8150/0"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "Benign neoplasm: Endocrine pancreas"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "Pancreatic endocrine tumor, benign"
+    },
+    {
+      "code": "P208",
+      "type": "NCI_META_CUI",
+      "value": "CL480914"
+    },
+    {
+      "code": "P363",
+      "type": "Neoplastic_Status",
+      "value": "Undetermined"
+    },
+    {
+      "code": "P106",
+      "type": "Semantic_Type",
+      "value": "Neoplastic Process"
+    }
+  ],
+  "children": [
+    {
+      "code": "C45840",
+      "name": "Functioning Pancreatic Neuroendocrine Tumor",
+      "leaf": false
+    },
+    {
+      "code": "C213055",
+      "name": "MEN1-Associated Pancreatic Neuroendocrine Tumor",
+      "leaf": true
+    },
+    {
+      "code": "C156488",
+      "name": "Metastatic Pancreatic Neuroendocrine Tumor",
+      "leaf": false
+    },
+    {
+      "code": "C45837",
+      "name": "Non-Functioning Pancreatic Neuroendocrine Tumor",
+      "leaf": false
+    },
+    {
+      "code": "C27466",
+      "name": "Pancreatic ACTH-Producing Neuroendocrine Tumor",
+      "leaf": true
+    },
+    {
+      "code": "C28396",
+      "name": "Pancreatic Delta Cell Neuroendocrine Tumor",
+      "leaf": false
+    },
+    {
+      "code": "C9069",
+      "name": "Pancreatic Gastrin-Producing Neuroendocrine Tumor",
+      "leaf": false
+    },
+    {
+      "code": "C3062",
+      "name": "Pancreatic Glucagon-Producing Neuroendocrine Tumor",
+      "leaf": false
+    },
+    {
+      "code": "C3140",
+      "name": "Pancreatic Insulin-Producing Neuroendocrine Tumor",
+      "leaf": false
+    },
+    {
+      "code": "C135560",
+      "name": "Pancreatic Neuroendocrine Tumor by AJCC v8 Stage",
+      "leaf": false
+    },
+    {
+      "code": "C208221",
+      "name": "Pancreatic Neuroendocrine Tumor by AJCC v9 Stage",
+      "leaf": false
+    },
+    {
+      "code": "C95584",
+      "name": "Pancreatic Neuroendocrine Tumor G1",
+      "leaf": false
+    },
+    {
+      "code": "C45835",
+      "name": "Pancreatic Neuroendocrine Tumor G2",
+      "leaf": false
+    },
+    {
+      "code": "C172814",
+      "name": "Pancreatic Neuroendocrine Tumor G3",
+      "leaf": false
+    },
+    {
+      "code": "C4446",
+      "name": "Pancreatic Serotonin-Producing Neuroendocrine Tumor",
+      "leaf": true
+    },
+    {
+      "code": "C27454",
+      "name": "Pancreatic VIP-Producing Neuroendocrine Tumor",
+      "leaf": false
+    },
+    {
+      "code": "C190782",
+      "name": "Unresectable Pancreatic Neuroendocrine Tumor",
+      "leaf": false
+    },
+    {
+      "code": "C213039",
+      "name": "Von Hippel Lindau Syndrome-Associated Pancreatic Neuroendocrine Tumor",
+      "leaf": true
+    }
+  ],
+  "parents": [
+    {
+      "code": "C95404",
+      "name": "Digestive System Neuroendocrine Tumor"
+    },
+    {
+      "code": "C27031",
+      "name": "Pancreatic Neuroendocrine Neoplasm"
+    }
+  ],
+  "associations": [
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C165258",
+      "relatedName": "Cellosaurus Disease Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C158520",
+      "relatedName": "CPTAC Codelists Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C156966",
+      "relatedName": "CPTAC Neoplasms Codelist"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C156952",
+      "relatedName": "CPTAC Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C118168",
+      "relatedName": "CTRP Disease Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C116977",
+      "relatedName": "CTRP Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C157711",
+      "relatedName": "GDC Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C177537",
+      "relatedName": "GDC Value Terminology"
+    },
+    {
+      "type": "Is_Value_For_GDC_Property",
+      "relatedCode": "C176985",
+      "relatedName": "Histology ICD-O Morphology Code"
+    },
+    {
+      "type": "Is_Value_For_GDC_Property",
+      "relatedCode": "C177621",
+      "relatedName": "ICD-O-3 Morphology Term Diagnosis Question"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168658",
+      "relatedName": "Mapped ICDO3.1 Morphology PT Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168657",
+      "relatedName": "Mapped ICDO3.1 Morphology Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168655",
+      "relatedName": "Mapped ICDO3.1 Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C103057",
+      "relatedName": "NCI CTEP SDC Neuroendocrine Cancer Sub-Category Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C102905",
+      "relatedName": "NCI CTEP Simplified Disease Classification Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C126659",
+      "relatedName": "NCIt Neoplasm Core Terminology"
+    }
+  ],
+  "inverseAssociations": [
+    {
+      "type": "Has_GDC_Value",
+      "relatedCode": "C176985",
+      "relatedName": "Histology ICD-O Morphology Code"
+    },
+    {
+      "type": "Has_GDC_Value",
+      "relatedCode": "C177621",
+      "relatedName": "ICD-O-3 Morphology Term Diagnosis Question"
+    }
+  ],
+  "roles": [
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12378",
+      "relatedName": "Digestive System"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12378",
+      "relatedName": "Digestive System"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C12573",
+      "relatedName": "Endocrine Cell of the Digestive System"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12704",
+      "relatedName": "Endocrine Gland"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12704",
+      "relatedName": "Endocrine Gland"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12705",
+      "relatedName": "Endocrine System"
+    },
+    {
+      "type": "Disease_Excludes_Normal_Cell_Origin",
+      "relatedCode": "C12865",
+      "relatedName": "Endothelial Cell"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C207031",
+      "relatedName": "Expression of Neuroendocrine Markers Present"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C32885",
+      "relatedName": "Islet Cell"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C12608",
+      "relatedName": "Islet of Langerhans"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C36818",
+      "relatedName": "Large Osteoclastic Giant Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12922",
+      "relatedName": "Neoplastic Cell"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C37088",
+      "relatedName": "Neoplastic Endothelial Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36761",
+      "relatedName": "Neoplastic Neuroendocrine Cell"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C43574",
+      "relatedName": "Neuroendocrine Differentiation"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12393",
+      "relatedName": "Pancreas"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12393",
+      "relatedName": "Pancreas"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C155863",
+      "relatedName": "Poorly Differentiated Neuroendocrine Lesion"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C8329",
+      "relatedName": "Severe Cytologic Atypia"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C155861",
+      "relatedName": "Well Differentiated Neuroendocrine Lesion"
+    }
+  ],
+  "history": [
+    {
+      "code": "C27720",
+      "action": "create",
+      "date": "2003-08-12"
+    },
+    {
+      "code": "C27720",
+      "action": "modify",
+      "date": "2003-10-31"
+    },
+    {
+      "code": "C27720",
+      "action": "modify",
+      "date": "2003-12-30"
+    },
+    {
+      "code": "C27720",
+      "action": "modify",
+      "date": "2004-09-10"
+    },
+    {
+      "code": "C27720",
+      "action": "modify",
+      "date": "2005-05-27"
+    },
+    {
+      "code": "C27720",
+      "action": "modify",
+      "date": "2005-06-24"
+    },
+    {
+      "code": "C27720",
+      "action": "modify",
+      "date": "2005-09-09"
+    },
+    {
+      "code": "C27720",
+      "action": "modify",
+      "date": "2006-05-26"
+    },
+    {
+      "code": "C27720",
+      "action": "modify",
+      "date": "2009-04-06"
+    },
+    {
+      "code": "C27720",
+      "action": "modify",
+      "date": "2009-11-16"
+    },
+    {
+      "code": "C27720",
+      "action": "modify",
+      "date": "2009-11-23"
+    },
+    {
+      "code": "C27720",
+      "action": "modify",
+      "date": "2011-01-24"
+    },
+    {
+      "code": "C27720",
+      "action": "modify",
+      "date": "2011-02-14"
+    },
+    {
+      "code": "C27720",
+      "action": "modify",
+      "date": "2012-02-21"
+    },
+    {
+      "code": "C27720",
+      "action": "modify",
+      "date": "2012-07-30"
+    },
+    {
+      "code": "C27720",
+      "action": "modify",
+      "date": "2012-09-24"
+    },
+    {
+      "code": "C27720",
+      "action": "modify",
+      "date": "2012-10-01"
+    },
+    {
+      "code": "C27720",
+      "action": "modify",
+      "date": "2012-10-09"
+    },
+    {
+      "code": "C27720",
+      "action": "modify",
+      "date": "2012-10-15"
+    },
+    {
+      "code": "C27720",
+      "action": "modify",
+      "date": "2012-10-22"
+    },
+    {
+      "code": "C27720",
+      "action": "modify",
+      "date": "2012-10-31"
+    },
+    {
+      "code": "C27720",
+      "action": "modify",
+      "date": "2012-11-05"
+    },
+    {
+      "code": "C27720",
+      "action": "modify",
+      "date": "2012-11-13"
+    },
+    {
+      "code": "C27720",
+      "action": "modify",
+      "date": "2012-11-19"
+    },
+    {
+      "code": "C27720",
+      "action": "modify",
+      "date": "2012-11-26"
+    },
+    {
+      "code": "C27720",
+      "action": "modify",
+      "date": "2012-12-03"
+    },
+    {
+      "code": "C27720",
+      "action": "modify",
+      "date": "2012-12-10"
+    },
+    {
+      "code": "C27720",
+      "action": "modify",
+      "date": "2012-12-17"
+    },
+    {
+      "code": "C27720",
+      "action": "modify",
+      "date": "2012-12-28"
+    },
+    {
+      "code": "C27720",
+      "action": "modify",
+      "date": "2013-01-07"
+    },
+    {
+      "code": "C27720",
+      "action": "modify",
+      "date": "2013-01-14"
+    },
+    {
+      "code": "C27720",
+      "action": "modify",
+      "date": "2013-01-23"
+    },
+    {
+      "code": "C27720",
+      "action": "modify",
+      "date": "2013-02-04"
+    },
+    {
+      "code": "C27720",
+      "action": "modify",
+      "date": "2013-02-11"
+    },
+    {
+      "code": "C27720",
+      "action": "modify",
+      "date": "2013-02-19"
+    },
+    {
+      "code": "C27720",
+      "action": "modify",
+      "date": "2013-02-25"
+    },
+    {
+      "code": "C27720",
+      "action": "modify",
+      "date": "2013-03-04"
+    },
+    {
+      "code": "C27720",
+      "action": "modify",
+      "date": "2013-03-11"
+    },
+    {
+      "code": "C27720",
+      "action": "modify",
+      "date": "2013-03-18"
+    },
+    {
+      "code": "C27720",
+      "action": "modify",
+      "date": "2013-03-25"
+    },
+    {
+      "code": "C27720",
+      "action": "modify",
+      "date": "2013-04-01"
+    },
+    {
+      "code": "C27720",
+      "action": "modify",
+      "date": "2013-04-08"
+    },
+    {
+      "code": "C27720",
+      "action": "modify",
+      "date": "2013-04-15"
+    },
+    {
+      "code": "C27720",
+      "action": "modify",
+      "date": "2013-04-22"
+    },
+    {
+      "code": "C27720",
+      "action": "modify",
+      "date": "2013-04-29"
+    },
+    {
+      "code": "C27720",
+      "action": "modify",
+      "date": "2013-05-06"
+    },
+    {
+      "code": "C27720",
+      "action": "modify",
+      "date": "2013-05-13"
+    },
+    {
+      "code": "C27720",
+      "action": "modify",
+      "date": "2013-05-20"
+    },
+    {
+      "code": "C27720",
+      "action": "modify",
+      "date": "2013-05-28"
+    },
+    {
+      "code": "C27720",
+      "action": "modify",
+      "date": "2013-06-03"
+    },
+    {
+      "code": "C27720",
+      "action": "modify",
+      "date": "2013-06-10"
+    },
+    {
+      "code": "C27720",
+      "action": "modify",
+      "date": "2013-06-17"
+    },
+    {
+      "code": "C27720",
+      "action": "modify",
+      "date": "2013-06-24"
+    },
+    {
+      "code": "C27720",
+      "action": "modify",
+      "date": "2013-07-01"
+    },
+    {
+      "code": "C27720",
+      "action": "modify",
+      "date": "2013-07-08"
+    },
+    {
+      "code": "C27720",
+      "action": "modify",
+      "date": "2014-02-03"
+    },
+    {
+      "code": "C27720",
+      "action": "modify",
+      "date": "2014-08-04"
+    },
+    {
+      "code": "C27720",
+      "action": "modify",
+      "date": "2014-08-18"
+    },
+    {
+      "code": "C27720",
+      "action": "modify",
+      "date": "2014-09-22"
+    },
+    {
+      "code": "C27720",
+      "action": "modify",
+      "date": "2016-04-25"
+    },
+    {
+      "code": "C27720",
+      "action": "modify",
+      "date": "2018-07-30"
+    },
+    {
+      "code": "C27720",
+      "action": "modify",
+      "date": "2018-08-27"
+    },
+    {
+      "code": "C27720",
+      "action": "modify",
+      "date": "2018-08-27"
+    },
+    {
+      "code": "C27720",
+      "action": "modify",
+      "date": "2018-10-29"
+    },
+    {
+      "code": "C27720",
+      "action": "modify",
+      "date": "2018-10-29"
+    },
+    {
+      "code": "C27720",
+      "action": "modify",
+      "date": "2018-12-31"
+    },
+    {
+      "code": "C27720",
+      "action": "modify",
+      "date": "2019-01-28"
+    },
+    {
+      "code": "C27720",
+      "action": "modify",
+      "date": "2019-02-25"
+    },
+    {
+      "code": "C27720",
+      "action": "modify",
+      "date": "2019-03-25"
+    },
+    {
+      "code": "C27720",
+      "action": "modify",
+      "date": "2019-05-28"
+    },
+    {
+      "code": "C27720",
+      "action": "modify",
+      "date": "2019-10-28"
+    },
+    {
+      "code": "C27720",
+      "action": "modify",
+      "date": "2020-02-24"
+    },
+    {
+      "code": "C27720",
+      "action": "modify",
+      "date": "2020-03-30"
+    },
+    {
+      "code": "C27720",
+      "action": "modify",
+      "date": "2020-04-27"
+    },
+    {
+      "code": "C27720",
+      "action": "modify",
+      "date": "2021-02-22"
+    },
+    {
+      "code": "C27720",
+      "action": "modify",
+      "date": "2021-03-29"
+    },
+    {
+      "code": "C27720",
+      "action": "modify",
+      "date": "2022-07-25"
+    },
+    {
+      "code": "C27720",
+      "action": "modify",
+      "date": "2023-02-27"
+    },
+    {
+      "code": "C27720",
+      "action": "modify",
+      "date": "2024-01-29"
+    },
+    {
+      "code": "C27720",
+      "action": "modify",
+      "date": "2024-07-08"
+    },
+    {
+      "code": "C27720",
+      "action": "modify",
+      "date": "2024-07-29"
+    },
+    {
+      "code": "C27720",
+      "action": "modify",
+      "date": "2025-01-27"
+    },
+    {
+      "code": "C27720",
+      "action": "modify",
+      "date": "2025-03-31"
+    }
+  ],
+  "maps": [
+    {
+      "type": "Related To",
+      "targetName": "8150/0",
+      "targetTermType": "PT",
+      "targetCode": "morphology",
+      "targetTerminology": "GDC"
+    },
+    {
+      "type": "Related To",
+      "targetName": "Benign neoplasm: Endocrine pancreas",
+      "targetTermType": "PT",
+      "targetCode": "D13.7",
+      "targetTerminology": "ICD10CM 2017"
+    },
+    {
+      "type": "Related To",
+      "targetName": "Pancreatic endocrine tumor, benign",
+      "targetTermType": "PT",
+      "targetCode": "8150/0",
+      "targetTerminology": "ICDO3",
+      "targetTerminologyVersion": "3.1"
+    },
+    {
+      "type": "Related To",
+      "targetName": "Pancreatic endocrine tumor, benign",
+      "targetTermType": "PT",
+      "targetCode": "primary_diagnosis",
+      "targetTerminology": "GDC"
+    }
+  ]
+}

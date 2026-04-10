@@ -1,0 +1,813 @@
+{
+  "code": "C5669",
+  "name": "Pleuropulmonary Blastoma",
+  "terminology": "ncit",
+  "version": "25.11d",
+  "conceptStatus": "DEFAULT",
+  "leaf": false,
+  "active": true,
+  "synonyms": [
+    {
+      "name": "Pleuropulmonary Blastoma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "CPTAC"
+    },
+    {
+      "name": "Pleuropulmonary Blastoma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "CTRP"
+    },
+    {
+      "name": "Pleuropulmonary Blastoma",
+      "termType": "DN",
+      "type": "FULL_SYN",
+      "source": "CTRP"
+    },
+    {
+      "name": "Pleuropulmonary blastoma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "GDC"
+    },
+    {
+      "name": "pleuropulmonary blastoma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NCI-GLOSS",
+      "code": "CDR0000446557"
+    },
+    {
+      "name": "Pleuropulmonary Blastoma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "PPB",
+      "termType": "AB",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Pulmonary Blastoma of Childhood",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Pleuropulmonary Blastoma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NICHD"
+    },
+    {
+      "name": "Pleuropulmonary Blastoma",
+      "type": "Display_Name"
+    },
+    {
+      "name": "Pleuropulmonary Blastoma",
+      "type": "Preferred_Name"
+    }
+  ],
+  "definitions": [
+    {
+      "definition": "A malignant neoplasm affecting the lungs and/or the pleura. Pleuropulmonary blastoma is seen in children. Microscopically, the tumor may show features of chondrosarcoma, leiomyosarcoma, rhabdomyosarcoma, liposarcoma, or undifferentiated sarcoma. In approximately 25% of patients there is a predisposition for other tumors. Heterozygous germline mutations in DICER1 gene have been identified in families harboring pleuropulmonary blastomas.",
+      "type": "ALT_DEFINITION",
+      "source": "NICHD"
+    },
+    {
+      "definition": "A malignant neoplasm affecting the lungs and/or the pleura. Pleuropulmonary blastoma is seen in children. Microscopically, the tumor may show features of chondrosarcoma, leiomyosarcoma, rhabdomyosarcoma, liposarcoma, or undifferentiated sarcoma. In approximately 25% of patients with pleuropulmonary blastoma, there are other lesions or neoplasms that may affect patients or their families, including lung or kidney cysts, and ovarian or testicular neoplasms. Heterozygous germline mutations in DICER1 gene have been identified in families harboring pleuropulmonary blastomas.",
+      "type": "DEFINITION",
+      "source": "NCI"
+    },
+    {
+      "definition": "A rare and very aggressive (fast-growing) cancer that forms in tissues of the lung and pleura (a thin layer of tissue that covers the lungs and lines the interior wall of the chest cavity). Pleuropulmonary blastoma is most common in children.",
+      "type": "ALT_DEFINITION",
+      "source": "NCI-GLOSS"
+    }
+  ],
+  "properties": [
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "CPTAC"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "CTRP"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "GDC"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "NICHD"
+    },
+    {
+      "code": "P334",
+      "type": "ICD-O-3_Code",
+      "value": "8973/3"
+    },
+    {
+      "code": "P366",
+      "type": "Legacy Concept Name",
+      "value": "Pleuropulmonary_Blastoma"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "8973/3"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "Pleuropulmonary blastoma"
+    },
+    {
+      "code": "P363",
+      "type": "Neoplastic_Status",
+      "value": "Malignant"
+    },
+    {
+      "code": "P106",
+      "type": "Semantic_Type",
+      "value": "Neoplastic Process"
+    },
+    {
+      "code": "P207",
+      "type": "UMLS_CUI",
+      "value": "C1266144"
+    }
+  ],
+  "children": [
+    {
+      "code": "C45626",
+      "name": "Type I Pleuropulmonary Blastoma",
+      "leaf": false
+    },
+    {
+      "code": "C45627",
+      "name": "Type II Pleuropulmonary Blastoma",
+      "leaf": true
+    },
+    {
+      "code": "C45628",
+      "name": "Type III Pleuropulmonary Blastoma",
+      "leaf": true
+    }
+  ],
+  "parents": [
+    {
+      "code": "C8997",
+      "name": "Blastoma"
+    },
+    {
+      "code": "C190098",
+      "name": "Childhood Malignant Thoracic Neoplasm"
+    },
+    {
+      "code": "C45625",
+      "name": "Malignant Lung and Pleural Neoplasm"
+    }
+  ],
+  "associations": [
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C138188",
+      "relatedName": "Clinical Trials Search-Application Programming Interface Disease Category Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C158520",
+      "relatedName": "CPTAC Codelists Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C156966",
+      "relatedName": "CPTAC Neoplasms Codelist"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C156952",
+      "relatedName": "CPTAC Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C118168",
+      "relatedName": "CTRP Disease Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C116977",
+      "relatedName": "CTRP Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C138190",
+      "relatedName": "CTS-API Disease Main Type Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C157711",
+      "relatedName": "GDC Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C177537",
+      "relatedName": "GDC Value Terminology"
+    },
+    {
+      "type": "Is_Value_For_GDC_Property",
+      "relatedCode": "C176985",
+      "relatedName": "Histology ICD-O Morphology Code"
+    },
+    {
+      "type": "Is_Value_For_GDC_Property",
+      "relatedCode": "C177621",
+      "relatedName": "ICD-O-3 Morphology Term Diagnosis Question"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168658",
+      "relatedName": "Mapped ICDO3.1 Morphology PT Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168657",
+      "relatedName": "Mapped ICDO3.1 Morphology Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168655",
+      "relatedName": "Mapped ICDO3.1 Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168662",
+      "relatedName": "Mapped ICDO3.2 Morphology PT Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168661",
+      "relatedName": "Mapped ICDO3.2 Morphology Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168656",
+      "relatedName": "Mapped ICDO3.2 Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C126659",
+      "relatedName": "NCIt Neoplasm Core Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C90259",
+      "relatedName": "NICHD Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C132009",
+      "relatedName": "Pediatric Hematology-Oncology Terminology"
+    },
+    {
+      "type": "Neoplasm_Has_Special_Category",
+      "relatedCode": "C9292",
+      "relatedName": "Solid Neoplasm"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C6283",
+      "relatedName": "Childhood Neoplasm",
+      "qualifiers": [
+        {
+          "type": "computed",
+          "value": "This is computed by the existing subset relationship"
+        }
+      ]
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C4005",
+      "relatedName": "Childhood Malignant Neoplasm",
+      "qualifiers": [
+        {
+          "type": "computed",
+          "value": "This is computed by the existing subset relationship"
+        }
+      ]
+    }
+  ],
+  "inverseAssociations": [
+    {
+      "type": "Has_GDC_Value",
+      "relatedCode": "C176985",
+      "relatedName": "Histology ICD-O Morphology Code"
+    },
+    {
+      "type": "Has_GDC_Value",
+      "relatedCode": "C177621",
+      "relatedName": "ICD-O-3 Morphology Term Diagnosis Question"
+    }
+  ],
+  "roles": [
+    {
+      "type": "Disease_May_Have_Associated_Disease",
+      "relatedCode": "C7504",
+      "relatedName": "Adult Cystic Nephroma"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C36122",
+      "relatedName": "Benign Cellular Infiltrate"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C38665",
+      "relatedName": "Chest Pain"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C60644",
+      "relatedName": "Childhood Lesion"
+    },
+    {
+      "type": "Disease_May_Have_Associated_Disease",
+      "relatedCode": "C2954",
+      "relatedName": "Colon Polyp"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C37935",
+      "relatedName": "Cough"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C186698",
+      "relatedName": "DICER1 Gene Alteration Positive"
+    },
+    {
+      "type": "Disease_Has_Molecular_Abnormality",
+      "relatedCode": "C137691",
+      "relatedName": "DICER1 Gene Mutation"
+    },
+    {
+      "type": "Disease_Mapped_To_Gene",
+      "relatedCode": "C25956",
+      "relatedName": "DICER1 Gene"
+    },
+    {
+      "type": "Disease_Has_Associated_Disease",
+      "relatedCode": "C123317",
+      "relatedName": "DICER1-Related Tumor Predisposition Syndrome"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C13054",
+      "relatedName": "Embryonic Cell"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C12950",
+      "relatedName": "Embryonic Tissue"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C3038",
+      "relatedName": "Fever"
+    },
+    {
+      "type": "Disease_May_Have_Cytogenetic_Abnormality",
+      "relatedCode": "C36455",
+      "relatedName": "Gain of Chromosome 8"
+    },
+    {
+      "type": "Disease_Excludes_Normal_Tissue_Origin",
+      "relatedCode": "C54105",
+      "relatedName": "Germinal Layer"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12468",
+      "relatedName": "Lung"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C61293",
+      "relatedName": "Malignant Blastemal Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12917",
+      "relatedName": "Malignant Cell"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C36115",
+      "relatedName": "Malignant Cellular Infiltrate"
+    },
+    {
+      "type": "Disease_Excludes_Primary_Anatomic_Site",
+      "relatedCode": "C13063",
+      "relatedName": "Neck"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12922",
+      "relatedName": "Neoplastic Cell"
+    },
+    {
+      "type": "Disease_May_Have_Associated_Disease",
+      "relatedCode": "C8110",
+      "relatedName": "Ovarian Teratoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12840",
+      "relatedName": "Pleural Cavity"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C38006",
+      "relatedName": "Pneumothorax"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C27165",
+      "relatedName": "Respiratory Distress"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12779",
+      "relatedName": "Respiratory System"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12905",
+      "relatedName": "Thoracic Cavity"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12905",
+      "relatedName": "Thoracic Cavity"
+    },
+    {
+      "type": "Disease_May_Have_Molecular_Abnormality",
+      "relatedCode": "C36329",
+      "relatedName": "TP53 Gene Inactivation"
+    }
+  ],
+  "inverseRoles": [
+    {
+      "type": "Disease_May_Have_Associated_Disease",
+      "relatedCode": "C123317",
+      "relatedName": "DICER1-Related Tumor Predisposition Syndrome"
+    }
+  ],
+  "history": [
+    {
+      "code": "C5669",
+      "action": "create",
+      "date": "2003-08-12"
+    },
+    {
+      "code": "C5669",
+      "action": "modify",
+      "date": "2003-12-30"
+    },
+    {
+      "code": "C5669",
+      "action": "modify",
+      "date": "2004-03-30"
+    },
+    {
+      "code": "C5669",
+      "action": "modify",
+      "date": "2005-04-29"
+    },
+    {
+      "code": "C5669",
+      "action": "modify",
+      "date": "2006-04-28"
+    },
+    {
+      "code": "C5669",
+      "action": "modify",
+      "date": "2007-03-30"
+    },
+    {
+      "code": "C5669",
+      "action": "modify",
+      "date": "2009-11-23"
+    },
+    {
+      "code": "C5669",
+      "action": "modify",
+      "date": "2010-01-11"
+    },
+    {
+      "code": "C5669",
+      "action": "modify",
+      "date": "2010-11-08"
+    },
+    {
+      "code": "C5669",
+      "action": "modify",
+      "date": "2010-11-15"
+    },
+    {
+      "code": "C5669",
+      "action": "modify",
+      "date": "2010-11-22"
+    },
+    {
+      "code": "C5669",
+      "action": "modify",
+      "date": "2010-11-29"
+    },
+    {
+      "code": "C5669",
+      "action": "modify",
+      "date": "2010-12-06"
+    },
+    {
+      "code": "C5669",
+      "action": "modify",
+      "date": "2010-12-13"
+    },
+    {
+      "code": "C5669",
+      "action": "modify",
+      "date": "2010-12-27"
+    },
+    {
+      "code": "C5669",
+      "action": "modify",
+      "date": "2011-01-03"
+    },
+    {
+      "code": "C5669",
+      "action": "modify",
+      "date": "2011-01-10"
+    },
+    {
+      "code": "C5669",
+      "action": "modify",
+      "date": "2011-01-17"
+    },
+    {
+      "code": "C5669",
+      "action": "modify",
+      "date": "2011-01-24"
+    },
+    {
+      "code": "C5669",
+      "action": "modify",
+      "date": "2011-01-31"
+    },
+    {
+      "code": "C5669",
+      "action": "modify",
+      "date": "2014-02-03"
+    },
+    {
+      "code": "C5669",
+      "action": "modify",
+      "date": "2014-04-21"
+    },
+    {
+      "code": "C5669",
+      "action": "modify",
+      "date": "2014-08-04"
+    },
+    {
+      "code": "C5669",
+      "action": "modify",
+      "date": "2014-08-18"
+    },
+    {
+      "code": "C5669",
+      "action": "modify",
+      "date": "2014-09-22"
+    },
+    {
+      "code": "C5669",
+      "action": "modify",
+      "date": "2015-10-19"
+    },
+    {
+      "code": "C5669",
+      "action": "modify",
+      "date": "2015-10-26"
+    },
+    {
+      "code": "C5669",
+      "action": "modify",
+      "date": "2016-04-25"
+    },
+    {
+      "code": "C5669",
+      "action": "modify",
+      "date": "2017-02-13"
+    },
+    {
+      "code": "C5669",
+      "action": "modify",
+      "date": "2017-02-21"
+    },
+    {
+      "code": "C5669",
+      "action": "modify",
+      "date": "2017-02-27"
+    },
+    {
+      "code": "C5669",
+      "action": "modify",
+      "date": "2017-03-06"
+    },
+    {
+      "code": "C5669",
+      "action": "modify",
+      "date": "2017-03-13"
+    },
+    {
+      "code": "C5669",
+      "action": "modify",
+      "date": "2017-03-20"
+    },
+    {
+      "code": "C5669",
+      "action": "modify",
+      "date": "2017-03-27"
+    },
+    {
+      "code": "C5669",
+      "action": "modify",
+      "date": "2017-04-03"
+    },
+    {
+      "code": "C5669",
+      "action": "modify",
+      "date": "2017-04-10"
+    },
+    {
+      "code": "C5669",
+      "action": "modify",
+      "date": "2017-04-17"
+    },
+    {
+      "code": "C5669",
+      "action": "modify",
+      "date": "2017-04-24"
+    },
+    {
+      "code": "C5669",
+      "action": "modify",
+      "date": "2017-05-01"
+    },
+    {
+      "code": "C5669",
+      "action": "modify",
+      "date": "2017-05-04"
+    },
+    {
+      "code": "C5669",
+      "action": "modify",
+      "date": "2017-09-26"
+    },
+    {
+      "code": "C5669",
+      "action": "modify",
+      "date": "2018-02-26"
+    },
+    {
+      "code": "C5669",
+      "action": "modify",
+      "date": "2018-07-30"
+    },
+    {
+      "code": "C5669",
+      "action": "modify",
+      "date": "2018-08-27"
+    },
+    {
+      "code": "C5669",
+      "action": "modify",
+      "date": "2018-08-27"
+    },
+    {
+      "code": "C5669",
+      "action": "modify",
+      "date": "2018-09-24"
+    },
+    {
+      "code": "C5669",
+      "action": "modify",
+      "date": "2019-02-25"
+    },
+    {
+      "code": "C5669",
+      "action": "modify",
+      "date": "2019-03-25"
+    },
+    {
+      "code": "C5669",
+      "action": "modify",
+      "date": "2019-05-28"
+    },
+    {
+      "code": "C5669",
+      "action": "modify",
+      "date": "2019-09-30"
+    },
+    {
+      "code": "C5669",
+      "action": "modify",
+      "date": "2019-11-25"
+    },
+    {
+      "code": "C5669",
+      "action": "modify",
+      "date": "2020-02-24"
+    },
+    {
+      "code": "C5669",
+      "action": "modify",
+      "date": "2020-04-27"
+    },
+    {
+      "code": "C5669",
+      "action": "modify",
+      "date": "2020-08-31"
+    },
+    {
+      "code": "C5669",
+      "action": "modify",
+      "date": "2020-09-29"
+    },
+    {
+      "code": "C5669",
+      "action": "modify",
+      "date": "2021-02-22"
+    },
+    {
+      "code": "C5669",
+      "action": "modify",
+      "date": "2021-03-29"
+    },
+    {
+      "code": "C5669",
+      "action": "modify",
+      "date": "2021-10-25"
+    },
+    {
+      "code": "C5669",
+      "action": "modify",
+      "date": "2022-10-31"
+    },
+    {
+      "code": "C5669",
+      "action": "modify",
+      "date": "2023-12-26"
+    }
+  ],
+  "maps": [
+    {
+      "type": "Related To",
+      "targetName": "8973/3",
+      "targetTermType": "PT",
+      "targetCode": "morphology",
+      "targetTerminology": "GDC"
+    },
+    {
+      "type": "Related To",
+      "targetName": "Pleuropulmonary blastoma",
+      "targetTermType": "PT",
+      "targetCode": "8973/3",
+      "targetTerminology": "ICDO3",
+      "targetTerminologyVersion": "3.1"
+    },
+    {
+      "type": "Related To",
+      "targetName": "Pleuropulmonary blastoma",
+      "targetTermType": "PT",
+      "targetCode": "8973/3",
+      "targetTerminology": "ICDO3",
+      "targetTerminologyVersion": "3.2"
+    },
+    {
+      "type": "Has Synonym",
+      "targetName": "Pleuropulmonary blastoma",
+      "targetTermType": "PT",
+      "targetCode": "primary_diagnosis",
+      "targetTerminology": "GDC"
+    }
+  ]
+}

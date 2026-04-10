@@ -1,0 +1,692 @@
+{
+  "code": "C4022",
+  "name": "Acral Lentiginous Melanoma",
+  "terminology": "ncit",
+  "version": "25.11d",
+  "conceptStatus": "DEFAULT",
+  "leaf": false,
+  "active": true,
+  "synonyms": [
+    {
+      "name": "Acral Lentiginous Melanoma",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "caDSR"
+    },
+    {
+      "name": "Acral Lentiginous Melanoma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "Cellosaurus"
+    },
+    {
+      "name": "Acral Lentiginous Melanoma",
+      "termType": "DN",
+      "type": "FULL_SYN",
+      "source": "CTRP"
+    },
+    {
+      "name": "Acral lentiginous melanoma, malignant",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "GDC"
+    },
+    {
+      "name": "Acral Lentiginous Malignant Melanoma",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Acral Lentiginous Melanoma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Acral Lentiginous Melanoma",
+      "type": "Display_Name"
+    },
+    {
+      "name": "Acral Lentiginous Melanoma",
+      "type": "Preferred_Name"
+    }
+  ],
+  "definitions": [
+    {
+      "definition": "A form of melanoma occurring most often on the plantar, palmar, subungual, and periungual skin.  It presents as a pigmented macular lesion with irregular borders.  Morphologically, it consists of atypical spindled and dendritic melanocytes.  The epidermis is often hyperplastic and there is pagetoid infiltration of the epidermis by anaplastic cells.",
+      "type": "DEFINITION",
+      "source": "NCI"
+    }
+  ],
+  "properties": [
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "Cellosaurus"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "CTRP"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "GDC"
+    },
+    {
+      "code": "P334",
+      "type": "ICD-O-3_Code",
+      "value": "8744/3"
+    },
+    {
+      "code": "P366",
+      "type": "Legacy Concept Name",
+      "value": "Acral_Lentiginous_Malignant_Melanoma"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "8744/3"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "Acral lentiginous melanoma, malignant"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "Acral melanoma"
+    },
+    {
+      "code": "P363",
+      "type": "Neoplastic_Status",
+      "value": "Malignant"
+    },
+    {
+      "code": "P106",
+      "type": "Semantic_Type",
+      "value": "Neoplastic Process"
+    },
+    {
+      "code": "P207",
+      "type": "UMLS_CUI",
+      "value": "C0346037"
+    }
+  ],
+  "children": [
+    {
+      "code": "C179427",
+      "name": "Metastatic Acral Lentiginous Melanoma",
+      "leaf": true
+    },
+    {
+      "code": "C175435",
+      "name": "Recurrent Acral Lentiginous Melanoma",
+      "leaf": true
+    },
+    {
+      "code": "C8781",
+      "name": "Stage I Acral Lentiginous Melanoma AJCC v7",
+      "leaf": true
+    },
+    {
+      "code": "C8782",
+      "name": "Stage II Acral Lentiginous Melanoma AJCC v6 and v7",
+      "leaf": true
+    },
+    {
+      "code": "C8783",
+      "name": "Stage III Acral Lentiginous Melanoma AJCC v7",
+      "leaf": true
+    },
+    {
+      "code": "C8784",
+      "name": "Stage IV Acral Lentiginous Melanoma AJCC v6 and v7",
+      "leaf": true
+    },
+    {
+      "code": "C165535",
+      "name": "Unresectable Acral Lentiginous Melanoma",
+      "leaf": true
+    }
+  ],
+  "parents": [
+    {
+      "code": "C204883",
+      "name": "Acral Melanoma"
+    }
+  ],
+  "associations": [
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C165258",
+      "relatedName": "Cellosaurus Disease Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C118168",
+      "relatedName": "CTRP Disease Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C116977",
+      "relatedName": "CTRP Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C157711",
+      "relatedName": "GDC Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C177537",
+      "relatedName": "GDC Value Terminology"
+    },
+    {
+      "type": "Is_Value_For_GDC_Property",
+      "relatedCode": "C176985",
+      "relatedName": "Histology ICD-O Morphology Code"
+    },
+    {
+      "type": "Is_Value_For_GDC_Property",
+      "relatedCode": "C177621",
+      "relatedName": "ICD-O-3 Morphology Term Diagnosis Question"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168658",
+      "relatedName": "Mapped ICDO3.1 Morphology PT Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168657",
+      "relatedName": "Mapped ICDO3.1 Morphology Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168655",
+      "relatedName": "Mapped ICDO3.1 Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168662",
+      "relatedName": "Mapped ICDO3.2 Morphology PT Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168661",
+      "relatedName": "Mapped ICDO3.2 Morphology Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168656",
+      "relatedName": "Mapped ICDO3.2 Terminology"
+    }
+  ],
+  "inverseAssociations": [
+    {
+      "type": "Has_GDC_Value",
+      "relatedCode": "C176985",
+      "relatedName": "Histology ICD-O Morphology Code"
+    },
+    {
+      "type": "Has_GDC_Value",
+      "relatedCode": "C177621",
+      "relatedName": "ICD-O-3 Morphology Term Diagnosis Question"
+    }
+  ],
+  "roles": [
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C36122",
+      "relatedName": "Benign Cellular Infiltrate"
+    },
+    {
+      "type": "Disease_May_Have_Molecular_Abnormality",
+      "relatedCode": "C40430",
+      "relatedName": "BRAF Gene Mutation"
+    },
+    {
+      "type": "Disease_May_Have_Molecular_Abnormality",
+      "relatedCode": "C41615",
+      "relatedName": "CDKN2A Gene Deletion"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C39570",
+      "relatedName": "Cutaneous Involvement"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C53275",
+      "relatedName": "Dendritic Melanoma Cell"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C43268",
+      "relatedName": "HMB-45-Positive Neoplastic Cells Present"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12907",
+      "relatedName": "Integumentary System"
+    },
+    {
+      "type": "Disease_May_Have_Molecular_Abnormality",
+      "relatedCode": "C39712",
+      "relatedName": "KIT Gene Mutation"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C43278",
+      "relatedName": "Macular Lesion"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12917",
+      "relatedName": "Malignant Cell"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C36115",
+      "relatedName": "Malignant Cellular Infiltrate"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C12591",
+      "relatedName": "Melanocyte"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36873",
+      "relatedName": "Melanoma Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12922",
+      "relatedName": "Neoplastic Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36862",
+      "relatedName": "Neoplastic Melanocyte"
+    },
+    {
+      "type": "Disease_May_Have_Molecular_Abnormality",
+      "relatedCode": "C118388",
+      "relatedName": "NF1 Gene Mutation"
+    },
+    {
+      "type": "Disease_May_Have_Molecular_Abnormality",
+      "relatedCode": "C41381",
+      "relatedName": "NRAS Gene Mutation"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C204885",
+      "relatedName": "Palms of Hands, Soles of Feet, and Nails"
+    },
+    {
+      "type": "Disease_May_Have_Molecular_Abnormality",
+      "relatedCode": "C96270",
+      "relatedName": "PTEN Gene Deletion"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C40993",
+      "relatedName": "S-100-Positive Neoplastic Cells Present"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C53276",
+      "relatedName": "Skin of the Extremity"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C33563",
+      "relatedName": "Skin Tissue"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12470",
+      "relatedName": "Skin"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12470",
+      "relatedName": "Skin"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36874",
+      "relatedName": "Spindle Melanoma Cell"
+    }
+  ],
+  "history": [
+    {
+      "code": "C4022",
+      "action": "create",
+      "date": "2003-08-12"
+    },
+    {
+      "code": "C4022",
+      "action": "modify",
+      "date": "2003-10-31"
+    },
+    {
+      "code": "C4022",
+      "action": "modify",
+      "date": "2003-12-30"
+    },
+    {
+      "code": "C4022",
+      "action": "modify",
+      "date": "2004-03-30"
+    },
+    {
+      "code": "C4022",
+      "action": "modify",
+      "date": "2005-09-09"
+    },
+    {
+      "code": "C4022",
+      "action": "modify",
+      "date": "2005-10-31"
+    },
+    {
+      "code": "C4022",
+      "action": "modify",
+      "date": "2006-01-27"
+    },
+    {
+      "code": "C4022",
+      "action": "modify",
+      "date": "2006-09-01"
+    },
+    {
+      "code": "C4022",
+      "action": "modify",
+      "date": "2007-03-30"
+    },
+    {
+      "code": "C4022",
+      "action": "modify",
+      "date": "2009-04-06"
+    },
+    {
+      "code": "C4022",
+      "action": "modify",
+      "date": "2009-10-27"
+    },
+    {
+      "code": "C4022",
+      "action": "modify",
+      "date": "2009-11-23"
+    },
+    {
+      "code": "C4022",
+      "action": "modify",
+      "date": "2010-03-08"
+    },
+    {
+      "code": "C4022",
+      "action": "modify",
+      "date": "2013-02-25"
+    },
+    {
+      "code": "C4022",
+      "action": "modify",
+      "date": "2013-03-04"
+    },
+    {
+      "code": "C4022",
+      "action": "modify",
+      "date": "2013-03-11"
+    },
+    {
+      "code": "C4022",
+      "action": "modify",
+      "date": "2013-03-18"
+    },
+    {
+      "code": "C4022",
+      "action": "modify",
+      "date": "2013-03-25"
+    },
+    {
+      "code": "C4022",
+      "action": "modify",
+      "date": "2013-04-01"
+    },
+    {
+      "code": "C4022",
+      "action": "modify",
+      "date": "2013-04-08"
+    },
+    {
+      "code": "C4022",
+      "action": "modify",
+      "date": "2013-04-15"
+    },
+    {
+      "code": "C4022",
+      "action": "modify",
+      "date": "2013-04-22"
+    },
+    {
+      "code": "C4022",
+      "action": "modify",
+      "date": "2013-04-29"
+    },
+    {
+      "code": "C4022",
+      "action": "modify",
+      "date": "2013-05-06"
+    },
+    {
+      "code": "C4022",
+      "action": "modify",
+      "date": "2013-05-13"
+    },
+    {
+      "code": "C4022",
+      "action": "modify",
+      "date": "2013-05-20"
+    },
+    {
+      "code": "C4022",
+      "action": "modify",
+      "date": "2013-05-28"
+    },
+    {
+      "code": "C4022",
+      "action": "modify",
+      "date": "2013-06-03"
+    },
+    {
+      "code": "C4022",
+      "action": "modify",
+      "date": "2013-06-10"
+    },
+    {
+      "code": "C4022",
+      "action": "modify",
+      "date": "2013-06-17"
+    },
+    {
+      "code": "C4022",
+      "action": "modify",
+      "date": "2013-06-24"
+    },
+    {
+      "code": "C4022",
+      "action": "modify",
+      "date": "2013-07-01"
+    },
+    {
+      "code": "C4022",
+      "action": "modify",
+      "date": "2013-07-08"
+    },
+    {
+      "code": "C4022",
+      "action": "modify",
+      "date": "2014-02-03"
+    },
+    {
+      "code": "C4022",
+      "action": "modify",
+      "date": "2014-08-04"
+    },
+    {
+      "code": "C4022",
+      "action": "modify",
+      "date": "2014-08-18"
+    },
+    {
+      "code": "C4022",
+      "action": "modify",
+      "date": "2014-09-22"
+    },
+    {
+      "code": "C4022",
+      "action": "modify",
+      "date": "2017-07-31"
+    },
+    {
+      "code": "C4022",
+      "action": "modify",
+      "date": "2018-07-30"
+    },
+    {
+      "code": "C4022",
+      "action": "modify",
+      "date": "2018-08-27"
+    },
+    {
+      "code": "C4022",
+      "action": "modify",
+      "date": "2018-08-27"
+    },
+    {
+      "code": "C4022",
+      "action": "modify",
+      "date": "2018-09-24"
+    },
+    {
+      "code": "C4022",
+      "action": "modify",
+      "date": "2018-10-29"
+    },
+    {
+      "code": "C4022",
+      "action": "modify",
+      "date": "2018-10-29"
+    },
+    {
+      "code": "C4022",
+      "action": "modify",
+      "date": "2019-05-28"
+    },
+    {
+      "code": "C4022",
+      "action": "modify",
+      "date": "2019-09-30"
+    },
+    {
+      "code": "C4022",
+      "action": "modify",
+      "date": "2019-10-28"
+    },
+    {
+      "code": "C4022",
+      "action": "modify",
+      "date": "2019-11-25"
+    },
+    {
+      "code": "C4022",
+      "action": "modify",
+      "date": "2020-02-24"
+    },
+    {
+      "code": "C4022",
+      "action": "modify",
+      "date": "2020-04-27"
+    },
+    {
+      "code": "C4022",
+      "action": "modify",
+      "date": "2020-09-29"
+    },
+    {
+      "code": "C4022",
+      "action": "modify",
+      "date": "2021-02-22"
+    },
+    {
+      "code": "C4022",
+      "action": "modify",
+      "date": "2021-03-29"
+    },
+    {
+      "code": "C4022",
+      "action": "modify",
+      "date": "2023-02-27"
+    },
+    {
+      "code": "C4022",
+      "action": "modify",
+      "date": "2023-12-26"
+    },
+    {
+      "code": "C4022",
+      "action": "modify",
+      "date": "2024-04-29"
+    },
+    {
+      "code": "C4022",
+      "action": "modify",
+      "date": "2024-12-30"
+    },
+    {
+      "code": "C4022",
+      "action": "modify",
+      "date": "2025-03-31"
+    }
+  ],
+  "maps": [
+    {
+      "type": "Related To",
+      "targetName": "8744/3",
+      "targetTermType": "PT",
+      "targetCode": "morphology",
+      "targetTerminology": "GDC"
+    },
+    {
+      "type": "Related To",
+      "targetName": "Acral lentiginous melanoma, malignant",
+      "targetTermType": "PT",
+      "targetCode": "8744/3",
+      "targetTerminology": "ICDO3",
+      "targetTerminologyVersion": "3.1"
+    },
+    {
+      "type": "Has Synonym",
+      "targetName": "Acral lentiginous melanoma, malignant",
+      "targetTermType": "PT",
+      "targetCode": "primary_diagnosis",
+      "targetTerminology": "GDC"
+    },
+    {
+      "type": "Related To",
+      "targetName": "Acral melanoma",
+      "targetTermType": "PT",
+      "targetCode": "8744/3",
+      "targetTerminology": "ICDO3",
+      "targetTerminologyVersion": "3.2"
+    }
+  ]
+}

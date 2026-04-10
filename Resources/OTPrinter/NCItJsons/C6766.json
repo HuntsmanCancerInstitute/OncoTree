@@ -1,0 +1,535 @@
+{
+  "code": "C6766",
+  "name": "Prostate Small Cell Neuroendocrine Carcinoma",
+  "terminology": "ncit",
+  "version": "25.11d",
+  "conceptStatus": "DEFAULT",
+  "leaf": false,
+  "active": true,
+  "synonyms": [
+    {
+      "name": "Prostate Small Cell Carcinoma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "Cellosaurus"
+    },
+    {
+      "name": "Oat Cell Carcinoma of Prostate",
+      "termType": "AQS",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Oat Cell Carcinoma of the Prostate",
+      "termType": "AQS",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Prostate Oat Cell Carcinoma",
+      "termType": "AQS",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Prostate Small Cell Carcinoma",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Prostate Small Cell NEC",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Prostate Small Cell Neuroendocrine Carcinoma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Small Cell Carcinoma of Prostate",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Small Cell Carcinoma of the Prostate",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Prostate Small Cell Neuroendocrine Carcinoma",
+      "type": "Preferred_Name"
+    },
+    {
+      "name": "Prostate Small Cell Carcinoma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "OORO",
+      "subSource": "PC"
+    }
+  ],
+  "definitions": [
+    {
+      "definition": "A rare small cell neuroendocrine carcinoma that arises from the prostate gland.",
+      "type": "DEFINITION",
+      "source": "NCI"
+    }
+  ],
+  "properties": [
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "Cellosaurus"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "OORO"
+    },
+    {
+      "code": "P366",
+      "type": "Legacy Concept Name",
+      "value": "Prostate_Small_Cell_Carcinoma"
+    },
+    {
+      "code": "P363",
+      "type": "Neoplastic_Status",
+      "value": "Malignant"
+    },
+    {
+      "code": "P106",
+      "type": "Semantic_Type",
+      "value": "Neoplastic Process"
+    },
+    {
+      "code": "P207",
+      "type": "UMLS_CUI",
+      "value": "C1300585"
+    }
+  ],
+  "children": [
+    {
+      "code": "C157764",
+      "name": "Metastatic Prostate Small Cell Neuroendocrine Carcinoma",
+      "leaf": false
+    },
+    {
+      "code": "C191859",
+      "name": "Recurrent Prostate Small Cell Neuroendocrine Carcinoma",
+      "leaf": true
+    },
+    {
+      "code": "C191862",
+      "name": "Refractory Prostate Small Cell Neuroendocrine Carcinoma",
+      "leaf": true
+    },
+    {
+      "code": "C191856",
+      "name": "Unresectable Prostate Small Cell Neuroendocrine Carcinoma",
+      "leaf": true
+    }
+  ],
+  "parents": [
+    {
+      "code": "C156457",
+      "name": "Extrapulmonary Small Cell Neuroendocrine Carcinoma"
+    },
+    {
+      "code": "C158912",
+      "name": "Prostate Neuroendocrine Carcinoma"
+    }
+  ],
+  "associations": [
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C165258",
+      "relatedName": "Cellosaurus Disease Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C126659",
+      "relatedName": "NCIt Neoplasm Core Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C192234",
+      "relatedName": "Operational Ontology for Radiation Oncology Prostate Cancer Terminology"
+    }
+  ],
+  "inverseAssociations": [
+    {
+      "type": "Has_OORO_PC_Value",
+      "relatedCode": "C19790",
+      "relatedName": "Histologic Subtype"
+    }
+  ],
+  "roles": [
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C36104",
+      "relatedName": "Aggressive Clinical Course"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C36122",
+      "relatedName": "Benign Cellular Infiltrate"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C54172",
+      "relatedName": "Carcinomatous Component Present"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C32506",
+      "relatedName": "Endocrine Cell"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C188014",
+      "relatedName": "Endocrine Differentiation"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12704",
+      "relatedName": "Endocrine Gland"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12704",
+      "relatedName": "Endocrine Gland"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12705",
+      "relatedName": "Endocrine System"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12705",
+      "relatedName": "Endocrine System"
+    },
+    {
+      "type": "Disease_Excludes_Normal_Cell_Origin",
+      "relatedCode": "C12865",
+      "relatedName": "Endothelial Cell"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C12578",
+      "relatedName": "Epithelial Cell"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C53596",
+      "relatedName": "Epithelial Component Present"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C45714",
+      "relatedName": "Epithelial Tissue"
+    },
+    {
+      "type": "Disease_May_Have_Molecular_Abnormality",
+      "relatedCode": "C121534",
+      "relatedName": "ERG Deregulation"
+    },
+    {
+      "type": "Disease_May_Have_Molecular_Abnormality",
+      "relatedCode": "C82366",
+      "relatedName": "ERG Gene Rearrangement"
+    },
+    {
+      "type": "Disease_Mapped_To_Gene",
+      "relatedCode": "C18139",
+      "relatedName": "ERG Gene"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C207031",
+      "relatedName": "Expression of Neuroendocrine Markers Present"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12810",
+      "relatedName": "Genitourinary System"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12810",
+      "relatedName": "Genitourinary System"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C35960",
+      "relatedName": "High Mitotic Activity"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C36117",
+      "relatedName": "Invasive Lesion"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C36818",
+      "relatedName": "Large Osteoclastic Giant Cell"
+    },
+    {
+      "type": "Disease_Excludes_Primary_Anatomic_Site",
+      "relatedCode": "C12468",
+      "relatedName": "Lung"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12722",
+      "relatedName": "Male Reproductive System"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12722",
+      "relatedName": "Male Reproductive System"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12917",
+      "relatedName": "Malignant Cell"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C36115",
+      "relatedName": "Malignant Cellular Infiltrate"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36929",
+      "relatedName": "Malignant Endocrine Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36779",
+      "relatedName": "Malignant Epithelial Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36825",
+      "relatedName": "Malignant Neuroendocrine Cell"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C36821",
+      "relatedName": "Malignant Neuroendocrine Large Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36820",
+      "relatedName": "Malignant Neuroendocrine Small Cell"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C37153",
+      "relatedName": "Malignant Stromal Cell"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C60308",
+      "relatedName": "More than 10 Mitoses per 10HPF"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C36184",
+      "relatedName": "Necrotic Change"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12922",
+      "relatedName": "Neoplastic Cell"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C37088",
+      "relatedName": "Neoplastic Endothelial Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36753",
+      "relatedName": "Neoplastic Epithelial Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36761",
+      "relatedName": "Neoplastic Neuroendocrine Cell"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C36937",
+      "relatedName": "Neoplastic Smooth Muscle Cell"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C43574",
+      "relatedName": "Neuroendocrine Differentiation"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C60707",
+      "relatedName": "Neuron-Specific Enolase Positive Neoplastic Cells Present"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C155863",
+      "relatedName": "Poorly Differentiated Neuroendocrine Lesion"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12410",
+      "relatedName": "Prostate Gland"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12410",
+      "relatedName": "Prostate Gland"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C13103",
+      "relatedName": "Prostatic Epithelium"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C33414",
+      "relatedName": "Prostatic Tissue"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12841",
+      "relatedName": "Reproductive System"
+    },
+    {
+      "type": "Disease_Mapped_To_Gene",
+      "relatedCode": "C79904",
+      "relatedName": "TMPRSS2/ERG Fusion Gene"
+    },
+    {
+      "type": "Disease_May_Have_Molecular_Abnormality",
+      "relatedCode": "C36329",
+      "relatedName": "TP53 Gene Inactivation"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C155861",
+      "relatedName": "Well Differentiated Neuroendocrine Lesion"
+    }
+  ],
+  "history": [
+    {
+      "code": "C6766",
+      "action": "create",
+      "date": "2003-08-12"
+    },
+    {
+      "code": "C6766",
+      "action": "modify",
+      "date": "2003-10-31"
+    },
+    {
+      "code": "C6766",
+      "action": "modify",
+      "date": "2003-12-30"
+    },
+    {
+      "code": "C6766",
+      "action": "modify",
+      "date": "2004-03-30"
+    },
+    {
+      "code": "C6766",
+      "action": "modify",
+      "date": "2005-10-31"
+    },
+    {
+      "code": "C6766",
+      "action": "modify",
+      "date": "2006-03-31"
+    },
+    {
+      "code": "C6766",
+      "action": "modify",
+      "date": "2006-05-26"
+    },
+    {
+      "code": "C6766",
+      "action": "modify",
+      "date": "2009-04-06"
+    },
+    {
+      "code": "C6766",
+      "action": "modify",
+      "date": "2009-11-23"
+    },
+    {
+      "code": "C6766",
+      "action": "modify",
+      "date": "2011-06-20"
+    },
+    {
+      "code": "C6766",
+      "action": "modify",
+      "date": "2013-04-01"
+    },
+    {
+      "code": "C6766",
+      "action": "modify",
+      "date": "2014-02-03"
+    },
+    {
+      "code": "C6766",
+      "action": "modify",
+      "date": "2016-04-25"
+    },
+    {
+      "code": "C6766",
+      "action": "modify",
+      "date": "2018-11-26"
+    },
+    {
+      "code": "C6766",
+      "action": "modify",
+      "date": "2019-04-29"
+    },
+    {
+      "code": "C6766",
+      "action": "modify",
+      "date": "2019-06-24"
+    },
+    {
+      "code": "C6766",
+      "action": "modify",
+      "date": "2019-10-28"
+    },
+    {
+      "code": "C6766",
+      "action": "modify",
+      "date": "2020-11-30"
+    },
+    {
+      "code": "C6766",
+      "action": "modify",
+      "date": "2022-11-28"
+    },
+    {
+      "code": "C6766",
+      "action": "modify",
+      "date": "2023-02-27"
+    },
+    {
+      "code": "C6766",
+      "action": "modify",
+      "date": "2025-03-31"
+    }
+  ]
+}

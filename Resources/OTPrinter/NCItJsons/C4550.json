@@ -1,0 +1,456 @@
+{
+  "code": "C4550",
+  "name": "Conjunctival Melanoma",
+  "terminology": "ncit",
+  "version": "25.11d",
+  "conceptStatus": "DEFAULT",
+  "leaf": false,
+  "active": true,
+  "synonyms": [
+    {
+      "name": "Conjunctival Melanoma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "Cellosaurus"
+    },
+    {
+      "name": "Conjunctival Melanoma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "CPTAC"
+    },
+    {
+      "name": "Conjunctival Melanoma",
+      "termType": "DN",
+      "type": "FULL_SYN",
+      "source": "CTRP"
+    },
+    {
+      "name": "Conjunctiva Melanoma",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Conjunctival Melanoma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Malignant Conjunctiva Melanoma",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Malignant Conjunctival Melanoma",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Malignant Melanoma of Conjunctiva",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Malignant Melanoma of the Conjunctiva",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Melanoma of Conjunctiva",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Melanoma of the Conjunctiva",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Conjunctival Melanoma",
+      "type": "Display_Name"
+    },
+    {
+      "name": "Conjunctival Melanoma",
+      "type": "Preferred_Name"
+    }
+  ],
+  "definitions": [
+    {
+      "definition": "A melanoma that arises from the conjunctiva.",
+      "type": "DEFINITION",
+      "source": "NCI"
+    }
+  ],
+  "properties": [
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "Cellosaurus"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "CPTAC"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "CTRP"
+    },
+    {
+      "code": "P366",
+      "type": "Legacy Concept Name",
+      "value": "Conjunctival_Melanoma"
+    },
+    {
+      "code": "P363",
+      "type": "Neoplastic_Status",
+      "value": "Malignant"
+    },
+    {
+      "code": "P106",
+      "type": "Semantic_Type",
+      "value": "Neoplastic Process"
+    },
+    {
+      "code": "P207",
+      "type": "UMLS_CUI",
+      "value": "C0346360"
+    }
+  ],
+  "children": [
+    {
+      "code": "C213201",
+      "name": "Conjunctival Amelanotic Melanoma",
+      "leaf": true
+    },
+    {
+      "code": "C204981",
+      "name": "Conjunctival Melanoma In Situ",
+      "leaf": true
+    },
+    {
+      "code": "C213202",
+      "name": "Conjunctival Mixed Epithelioid and Spindle Cell Melanoma",
+      "leaf": true
+    },
+    {
+      "code": "C213200",
+      "name": "Conjunctival Nodular Melanoma",
+      "leaf": true
+    },
+    {
+      "code": "C182127",
+      "name": "Metastatic Conjunctival Melanoma",
+      "leaf": false
+    },
+    {
+      "code": "C214944",
+      "name": "Recurrent Conjunctival Melanoma",
+      "leaf": true
+    },
+    {
+      "code": "C214942",
+      "name": "Unresectable Conjunctival Melanoma",
+      "leaf": false
+    }
+  ],
+  "parents": [
+    {
+      "code": "C204977",
+      "name": "Conjunctival Melanocytic Neoplasm"
+    },
+    {
+      "code": "C3564",
+      "name": "Malignant Conjunctival Neoplasm"
+    },
+    {
+      "code": "C8562",
+      "name": "Ocular Melanoma"
+    }
+  ],
+  "associations": [
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C165258",
+      "relatedName": "Cellosaurus Disease Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C158520",
+      "relatedName": "CPTAC Codelists Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C156966",
+      "relatedName": "CPTAC Neoplasms Codelist"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C156952",
+      "relatedName": "CPTAC Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C118168",
+      "relatedName": "CTRP Disease Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C116977",
+      "relatedName": "CTRP Terminology"
+    }
+  ],
+  "roles": [
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C137974",
+      "relatedName": "Adnexa"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C36122",
+      "relatedName": "Benign Cellular Infiltrate"
+    },
+    {
+      "type": "Disease_May_Have_Molecular_Abnormality",
+      "relatedCode": "C105823",
+      "relatedName": "BRAF NP_004324.2:p.V600X"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12341",
+      "relatedName": "Conjunctiva"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12341",
+      "relatedName": "Conjunctiva"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12401",
+      "relatedName": "Eye"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12401",
+      "relatedName": "Eye"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12418",
+      "relatedName": "Head and Neck"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C43268",
+      "relatedName": "HMB-45-Positive Neoplastic Cells Present"
+    },
+    {
+      "type": "Disease_May_Have_Molecular_Abnormality",
+      "relatedCode": "C39712",
+      "relatedName": "KIT Gene Mutation"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12917",
+      "relatedName": "Malignant Cell"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C36115",
+      "relatedName": "Malignant Cellular Infiltrate"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C12591",
+      "relatedName": "Melanocyte"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36873",
+      "relatedName": "Melanoma Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12922",
+      "relatedName": "Neoplastic Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36862",
+      "relatedName": "Neoplastic Melanocyte"
+    },
+    {
+      "type": "Disease_May_Have_Molecular_Abnormality",
+      "relatedCode": "C118388",
+      "relatedName": "NF1 Gene Mutation"
+    },
+    {
+      "type": "Disease_May_Have_Molecular_Abnormality",
+      "relatedCode": "C41381",
+      "relatedName": "NRAS Gene Mutation"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C32574",
+      "relatedName": "Ocular Adnexa"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C40993",
+      "relatedName": "S-100-Positive Neoplastic Cells Present"
+    },
+    {
+      "type": "Disease_Excludes_Primary_Anatomic_Site",
+      "relatedCode": "C12470",
+      "relatedName": "Skin"
+    },
+    {
+      "type": "Disease_May_Have_Molecular_Abnormality",
+      "relatedCode": "C131104",
+      "relatedName": "TERT Gene Mutation"
+    }
+  ],
+  "history": [
+    {
+      "code": "C4550",
+      "action": "create",
+      "date": "2003-08-12"
+    },
+    {
+      "code": "C4550",
+      "action": "modify",
+      "date": "2003-10-31"
+    },
+    {
+      "code": "C4550",
+      "action": "modify",
+      "date": "2003-12-30"
+    },
+    {
+      "code": "C4550",
+      "action": "modify",
+      "date": "2004-02-23"
+    },
+    {
+      "code": "C4550",
+      "action": "modify",
+      "date": "2004-03-30"
+    },
+    {
+      "code": "C4550",
+      "action": "modify",
+      "date": "2006-03-31"
+    },
+    {
+      "code": "C4550",
+      "action": "modify",
+      "date": "2009-04-06"
+    },
+    {
+      "code": "C4550",
+      "action": "modify",
+      "date": "2009-11-02"
+    },
+    {
+      "code": "C4550",
+      "action": "modify",
+      "date": "2009-11-23"
+    },
+    {
+      "code": "C4550",
+      "action": "modify",
+      "date": "2014-02-03"
+    },
+    {
+      "code": "C4550",
+      "action": "modify",
+      "date": "2014-08-04"
+    },
+    {
+      "code": "C4550",
+      "action": "modify",
+      "date": "2014-08-18"
+    },
+    {
+      "code": "C4550",
+      "action": "modify",
+      "date": "2014-09-22"
+    },
+    {
+      "code": "C4550",
+      "action": "modify",
+      "date": "2018-07-30"
+    },
+    {
+      "code": "C4550",
+      "action": "modify",
+      "date": "2018-08-27"
+    },
+    {
+      "code": "C4550",
+      "action": "modify",
+      "date": "2018-08-27"
+    },
+    {
+      "code": "C4550",
+      "action": "modify",
+      "date": "2018-12-31"
+    },
+    {
+      "code": "C4550",
+      "action": "modify",
+      "date": "2019-03-25"
+    },
+    {
+      "code": "C4550",
+      "action": "modify",
+      "date": "2019-05-28"
+    },
+    {
+      "code": "C4550",
+      "action": "modify",
+      "date": "2019-10-28"
+    },
+    {
+      "code": "C4550",
+      "action": "modify",
+      "date": "2019-12-30"
+    },
+    {
+      "code": "C4550",
+      "action": "modify",
+      "date": "2020-09-29"
+    },
+    {
+      "code": "C4550",
+      "action": "modify",
+      "date": "2021-08-30"
+    },
+    {
+      "code": "C4550",
+      "action": "modify",
+      "date": "2023-02-27"
+    },
+    {
+      "code": "C4550",
+      "action": "modify",
+      "date": "2024-04-29"
+    },
+    {
+      "code": "C4550",
+      "action": "modify",
+      "date": "2025-03-31"
+    }
+  ]
+}

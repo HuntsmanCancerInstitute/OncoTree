@@ -1,0 +1,3036 @@
+{
+  "code": "C12801",
+  "name": "Tissue",
+  "terminology": "ncit",
+  "version": "25.11d",
+  "conceptStatus": "DEFAULT",
+  "leaf": false,
+  "active": true,
+  "synonyms": [
+    {
+      "name": "Tissue",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "caDSR"
+    },
+    {
+      "name": "TISSUE",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "CDISC"
+    },
+    {
+      "name": "Normal",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "CTDC"
+    },
+    {
+      "name": "Tissue, NOS",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "GDC"
+    },
+    {
+      "name": "Normal",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "ICDC",
+      "subSource": "ICDC"
+    },
+    {
+      "name": "Tissue",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "mCode",
+      "code": "TISS",
+      "subSource": "HL7"
+    },
+    {
+      "name": "tissue",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NCI-GLOSS",
+      "code": "CDR0000046683"
+    },
+    {
+      "name": "Normal Tissue",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Tissue",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Tissues",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Tissue",
+      "type": "Display_Name"
+    },
+    {
+      "name": "Tissue",
+      "type": "Preferred_Name"
+    }
+  ],
+  "definitions": [
+    {
+      "definition": "A group or layer of cells that work together to perform a specific function.",
+      "type": "ALT_DEFINITION",
+      "source": "NCI-GLOSS"
+    },
+    {
+      "definition": "An anatomical structure consisting of similarly specialized cells and intercellular matrix, aggregated according to genetically determined spatial relationships, performing a specific function.",
+      "type": "DEFINITION",
+      "source": "NCI"
+    },
+    {
+      "definition": "An anatomical structure consisting of similarly specialized cells and intercellular matrix, aggregated according to genetically determined spatial relationships, performing a specific function. (NCI)",
+      "type": "ALT_DEFINITION",
+      "source": "CDISC"
+    }
+  ],
+  "properties": [
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "CDISC"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "CTDC"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "GDC"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "ICDC"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "mCode"
+    },
+    {
+      "code": "P366",
+      "type": "Legacy Concept Name",
+      "value": "Tissue"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "Tissue, NOS"
+    },
+    {
+      "code": "P106",
+      "type": "Semantic_Type",
+      "value": "Tissue"
+    },
+    {
+      "code": "P207",
+      "type": "UMLS_CUI",
+      "value": "C0040300"
+    }
+  ],
+  "children": [
+    {
+      "code": "C120859",
+      "name": "Accessory Tissue",
+      "leaf": true
+    },
+    {
+      "code": "C32051",
+      "name": "Adrenal Gland Tissue",
+      "leaf": false
+    },
+    {
+      "code": "C32209",
+      "name": "Bladder Tissue",
+      "leaf": false
+    },
+    {
+      "code": "C133337",
+      "name": "Cardiac Tissue",
+      "leaf": false
+    },
+    {
+      "code": "C12964",
+      "name": "Connective and Soft Tissue",
+      "leaf": false
+    },
+    {
+      "code": "C12950",
+      "name": "Embryonic Tissue",
+      "leaf": false
+    },
+    {
+      "code": "C41609",
+      "name": "Endocrine Reproductive Tissue",
+      "leaf": false
+    },
+    {
+      "code": "C45714",
+      "name": "Epithelial Tissue",
+      "leaf": false
+    },
+    {
+      "code": "C32543",
+      "name": "Esophageal Tissue",
+      "leaf": false
+    },
+    {
+      "code": "C186231",
+      "name": "Extracapsular Tissue",
+      "leaf": true
+    },
+    {
+      "code": "C32664",
+      "name": "Gastric Tissue",
+      "leaf": false
+    },
+    {
+      "code": "C32677",
+      "name": "Gingiva",
+      "leaf": false
+    },
+    {
+      "code": "C41168",
+      "name": "Hematopoietic and Lymphoid Tissue",
+      "leaf": false
+    },
+    {
+      "code": "C43614",
+      "name": "Hepatobiliary Tissue",
+      "leaf": false
+    },
+    {
+      "code": "C49478",
+      "name": "Intestinal Wall Tissue",
+      "leaf": false
+    },
+    {
+      "code": "C33024",
+      "name": "Lung Tissue",
+      "leaf": false
+    },
+    {
+      "code": "C33034",
+      "name": "Lymph Node Tissue",
+      "leaf": false
+    },
+    {
+      "code": "C12370",
+      "name": "Mammary Gland Tissue",
+      "leaf": false
+    },
+    {
+      "code": "C12749",
+      "name": "Membrane",
+      "leaf": false
+    },
+    {
+      "code": "C33105",
+      "name": "Mesothelium",
+      "leaf": true
+    },
+    {
+      "code": "C33149",
+      "name": "Muscularis Mucosa",
+      "leaf": false
+    },
+    {
+      "code": "C41406",
+      "name": "Nerve Tissue, Neuroepithelial Tissue, and Nerve Sheaths",
+      "leaf": false
+    },
+    {
+      "code": "C125905",
+      "name": "Non-Cellular Component",
+      "leaf": true
+    },
+    {
+      "code": "C133339",
+      "name": "Non-Valve Cardiac Conduit Tissue",
+      "leaf": true
+    },
+    {
+      "code": "C133340",
+      "name": "Ocular Tissue",
+      "leaf": false
+    },
+    {
+      "code": "C92600",
+      "name": "Oropharyngeal Tissue",
+      "leaf": true
+    },
+    {
+      "code": "C12320",
+      "name": "Parametrium",
+      "leaf": true
+    },
+    {
+      "code": "C33270",
+      "name": "Parathyroid Gland Tissue",
+      "leaf": false
+    },
+    {
+      "code": "C74601",
+      "name": "Parenchyma",
+      "leaf": false
+    },
+    {
+      "code": "C49269",
+      "name": "Penis Erectile Tissue",
+      "leaf": true
+    },
+    {
+      "code": "C133341",
+      "name": "Placenta Tissue without Amniotic Elements",
+      "leaf": true
+    },
+    {
+      "code": "C33414",
+      "name": "Prostatic Tissue",
+      "leaf": false
+    },
+    {
+      "code": "C33461",
+      "name": "Renal Tissue",
+      "leaf": false
+    },
+    {
+      "code": "C176412",
+      "name": "Reproductive Tissue",
+      "leaf": true
+    },
+    {
+      "code": "C33509",
+      "name": "Salivary Gland Tissue",
+      "leaf": false
+    },
+    {
+      "code": "C34086",
+      "name": "Splenic Tissue",
+      "leaf": false
+    },
+    {
+      "code": "C13167",
+      "name": "Submucosa",
+      "leaf": false
+    },
+    {
+      "code": "C94494",
+      "name": "Subserosa",
+      "leaf": true
+    },
+    {
+      "code": "C33952",
+      "name": "Thymic Tissue",
+      "leaf": false
+    },
+    {
+      "code": "C33785",
+      "name": "Thyroid Gland Tissue",
+      "leaf": false
+    },
+    {
+      "code": "C38516",
+      "name": "Tonsillar Tissue",
+      "leaf": false
+    }
+  ],
+  "parents": [
+    {
+      "code": "C12219",
+      "name": "Anatomic Structure, System, or Substance"
+    }
+  ],
+  "associations": [
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C78734",
+      "relatedName": "CDISC SDTM Specimen Type Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C66830",
+      "relatedName": "CDISC SDTM Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C61410",
+      "relatedName": "Clinical Data Interchange Standards Consortium Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C173073",
+      "relatedName": "CTDC Value Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C157711",
+      "relatedName": "GDC Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C177537",
+      "relatedName": "GDC Value Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C165451",
+      "relatedName": "ICDC Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C175517",
+      "relatedName": "ICDC Value Terminology"
+    },
+    {
+      "type": "Is_Value_For_GDC_Property",
+      "relatedCode": "C83315",
+      "relatedName": "Laboratory Specimen Type"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C193221",
+      "relatedName": "mCode Genomic Specimen Type Value Set"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C193006",
+      "relatedName": "mCode Terminology"
+    }
+  ],
+  "inverseAssociations": [
+    {
+      "type": "Has_GDC_Value",
+      "relatedCode": "C83315",
+      "relatedName": "Laboratory Specimen Type"
+    },
+    {
+      "type": "Has_CTDC_Value",
+      "relatedCode": "C166229",
+      "relatedName": "Normal or Tumor Sample Pathology Indicator"
+    },
+    {
+      "type": "Has_ICDC_Value",
+      "relatedCode": "C166229",
+      "relatedName": "Normal or Tumor Sample Pathology Indicator"
+    }
+  ],
+  "inverseRoles": [
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C40035",
+      "relatedName": "Adenocarcinofibroma"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C7683",
+      "relatedName": "Adenocarcinoma with Cartilaginous and Osseous Metaplasia"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C7685",
+      "relatedName": "Adenocarcinoma with Cartilaginous Metaplasia"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C7684",
+      "relatedName": "Adenocarcinoma with Osseous Metaplasia"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C3764",
+      "relatedName": "Adenomatous Polyp"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C3726",
+      "relatedName": "Adenomyoma"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C9474",
+      "relatedName": "Adenosarcoma"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C3727",
+      "relatedName": "Adenosquamous Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C4167",
+      "relatedName": "Adrenal Cortical Mixed Cell Adenoma"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C9371",
+      "relatedName": "Adult Brain Stem Mixed Glioma"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C27402",
+      "relatedName": "Adult Central Nervous System Mixed Germ Cell Tumor"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C68702",
+      "relatedName": "Adult Giant Cell Glioblastoma"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C6180",
+      "relatedName": "Adult Kidney Wilms Tumor"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C115250",
+      "relatedName": "Adult Mixed Glioma"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C170928",
+      "relatedName": "Advanced Carcinosarcoma"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C174032",
+      "relatedName": "Advanced Cervical Adenosquamous Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C211527",
+      "relatedName": "Advanced Fallopian Tube Carcinosarcoma"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C170930",
+      "relatedName": "Advanced Female Reproductive System Carcinosarcoma"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C181967",
+      "relatedName": "Advanced Lung Adenosquamous Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C215400",
+      "relatedName": "Advanced Mixed Neuroendocrine Non-Neuroendocrine Neoplasm"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C170934",
+      "relatedName": "Advanced Ovarian Carcinosarcoma"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C204035",
+      "relatedName": "Advanced Pancreatic Adenosquamous Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C211528",
+      "relatedName": "Advanced Primary Peritoneal Carcinosarcoma"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C158383",
+      "relatedName": "Advanced Uterine Corpus Carcinosarcoma"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C181029",
+      "relatedName": "Advanced Vaginal Adenosquamous Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C27418",
+      "relatedName": "Ampulla of Vater Adenosquamous Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C95986",
+      "relatedName": "Ampulla of Vater Mixed Adenoneuroendocrine Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C96553",
+      "relatedName": "Anal Canal Mixed Adenoneuroendocrine Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C139546",
+      "relatedName": "Anal Fibroadenoma"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C6952",
+      "relatedName": "Anaplastic Kidney Wilms Tumor"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C129324",
+      "relatedName": "Anaplastic Oligoastrocytoma, Not Otherwise Specified"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C6959",
+      "relatedName": "Anaplastic Oligoastrocytoma"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C43564",
+      "relatedName": "Appendix Mixed Adenoneuroendocrine Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C6895",
+      "relatedName": "Atypical Polypoid Adenomyoma"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C40296",
+      "relatedName": "Bartholin Gland Adenosquamous Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C5196",
+      "relatedName": "Benign Breast Phyllodes Tumor"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C40227",
+      "relatedName": "Benign Cervical Mixed Epithelial and Mesenchymal Neoplasm"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C37264",
+      "relatedName": "Benign Kidney Mixed Epithelial and Stromal Tumor"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C27477",
+      "relatedName": "Benign Osteoclastic Giant Cell-Rich Tumor of Bone"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C4274",
+      "relatedName": "Benign Phyllodes Tumor"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C5532",
+      "relatedName": "Benign Prostate Phyllodes Tumor"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C6335",
+      "relatedName": "Benign Uterine Corpus Mixed Epithelial and Mesenchymal Neoplasm"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C40275",
+      "relatedName": "Benign Vaginal Mixed Epithelial and Mesenchymal Neoplasm"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C40280",
+      "relatedName": "Benign Vaginal Mixed Tumor"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C181906",
+      "relatedName": "Benign Vulvar Phyllodes Tumor"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C9147",
+      "relatedName": "Blastema Predominant Kidney Wilms Tumor"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C5316",
+      "relatedName": "Borderline Breast Phyllodes Tumor"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C40081",
+      "relatedName": "Borderline Ovarian Clear Cell Adenofibroma"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C40083",
+      "relatedName": "Borderline Ovarian Clear Cell Cystadenofibroma"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C40082",
+      "relatedName": "Borderline Ovarian Clear Cell Tumor/Atypical Proliferative Ovarian Clear Cell Tumor with Intraepithelial Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C126308",
+      "relatedName": "Borderline Ovarian Clear Cell Tumor/Atypical Proliferative Ovarian Clear Cell Tumor"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C40069",
+      "relatedName": "Borderline Ovarian Endometrioid Adenofibroma"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C27289",
+      "relatedName": "Borderline Ovarian Endometrioid Cystadenofibroma"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C158616",
+      "relatedName": "Borderline Ovarian Mixed Epithelial Tumor/Atypical Proliferative Ovarian Mixed Epithelial Tumor"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C66775",
+      "relatedName": "Borderline Ovarian Mucinous Adenofibroma"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C7281",
+      "relatedName": "Borderline Ovarian Seromucinous Tumor/Atypical Proliferative Ovarian Seromucinous Tumor"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C40028",
+      "relatedName": "Borderline Ovarian Serous Adenofibroma"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C40029",
+      "relatedName": "Borderline Ovarian Serous Cystadenofibroma"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C7503",
+      "relatedName": "Borderline Phyllodes Tumor"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C158622",
+      "relatedName": "Borderline Serous Cystadenofibroma"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C181907",
+      "relatedName": "Borderline Vulvar Phyllodes Tumor"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C40361",
+      "relatedName": "Breast Adenosquamous Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C176045",
+      "relatedName": "Breast Cellular Fibroadenoma"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C5194",
+      "relatedName": "Breast Complex Fibroadenoma"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C3744",
+      "relatedName": "Breast Fibroadenoma"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C40405",
+      "relatedName": "Breast Fibroepithelial Neoplasm"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C4273",
+      "relatedName": "Breast Giant Fibroadenoma"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C4271",
+      "relatedName": "Breast Intracanalicular Fibroadenoma"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C40347",
+      "relatedName": "Breast Mixed Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C4272",
+      "relatedName": "Breast Pericanalicular Fibroadenoma"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C7575",
+      "relatedName": "Breast Phyllodes Tumor"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C40408",
+      "relatedName": "Breast Pleomorphic Adenoma"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C102570",
+      "relatedName": "Broad Ligament Adenosarcoma"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C45602",
+      "relatedName": "Bronchial Mixed Squamous and Glandular Papilloma"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C4397",
+      "relatedName": "Carcinoma ex Pleomorphic Adenoma"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C34448",
+      "relatedName": "Carcinosarcoma"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C83174",
+      "relatedName": "Cellular Pleomorphic Adenoma"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C7016",
+      "relatedName": "Central Nervous System Mixed Germ Cell Tumor"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C40230",
+      "relatedName": "Cervical Adenofibroma"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C40232",
+      "relatedName": "Cervical Adenomyoma, Endocervical-Type"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C40233",
+      "relatedName": "Cervical Adenomyoma, Mesonephric-Type"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C40231",
+      "relatedName": "Cervical Adenomyoma"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C40229",
+      "relatedName": "Cervical Adenosarcoma"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C4519",
+      "relatedName": "Cervical Adenosquamous Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C40234",
+      "relatedName": "Cervical Atypical Polypoid Adenomyoma"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C36097",
+      "relatedName": "Cervical Carcinosarcoma"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C6856",
+      "relatedName": "Cervical Microglandular Polyp"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C40226",
+      "relatedName": "Cervical Mixed Epithelial and Mesenchymal Neoplasm"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C40212",
+      "relatedName": "Cervical Poorly Differentiated Adenosquamous Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C40236",
+      "relatedName": "Cervical Wilms Tumor"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C114973",
+      "relatedName": "Childhood Anaplastic Oligoastrocytoma"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C114760",
+      "relatedName": "Childhood Brain Stem Mixed Glioma"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C189339",
+      "relatedName": "Childhood Breast Fibroadenoma"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C189340",
+      "relatedName": "Childhood Breast Phyllodes Tumor"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C27403",
+      "relatedName": "Childhood Central Nervous System Mixed Germ Cell Tumor"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C114966",
+      "relatedName": "Childhood Giant Cell Glioblastoma"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C189030",
+      "relatedName": "Childhood Giant Cell Tumor of Bone"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C27730",
+      "relatedName": "Childhood Kidney Wilms Tumor"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C219662",
+      "relatedName": "Childhood Mediastinal Mixed Germ Cell Tumor"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C123848",
+      "relatedName": "Childhood Mixed Germ Cell Tumor"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C115195",
+      "relatedName": "Childhood Mixed Glioma"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C114974",
+      "relatedName": "Childhood Oligoastrocytoma"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C123849",
+      "relatedName": "Childhood Ovarian Mixed Germ Cell Tumor"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C190161",
+      "relatedName": "Childhood Salivary Gland Pleomorphic Adenoma"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C188976",
+      "relatedName": "Childhood Tenosynovial Giant Cell Tumor"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C6539",
+      "relatedName": "Childhood Testicular Mixed Embryonal Carcinoma and Teratoma"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C6542",
+      "relatedName": "Childhood Testicular Mixed Germ Cell Tumor"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C66777",
+      "relatedName": "Choriocarcinoma Combined with Other Germ Cell Elements"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C8987",
+      "relatedName": "Clear Cell Adenofibroma"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C8988",
+      "relatedName": "Clear Cell Cystadenofibroma"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C96479",
+      "relatedName": "Colon Adenomatous Polyp"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C5491",
+      "relatedName": "Colon Adenosquamous Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C96478",
+      "relatedName": "Colorectal Adenomatous Polyp"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C43589",
+      "relatedName": "Colorectal Adenosquamous Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C96158",
+      "relatedName": "Colorectal Mixed Adenoneuroendocrine Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C7591",
+      "relatedName": "Combined Lung Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C7267",
+      "relatedName": "Combined Lung Large Cell Neuroendocrine Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C9423",
+      "relatedName": "Combined Lung Small Cell and Squamous Cell Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C9379",
+      "relatedName": "Combined Lung Small Cell Carcinoma and Lung Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C9137",
+      "relatedName": "Combined Lung Small Cell Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C174402",
+      "relatedName": "Conjunctival Adenosquamous Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C8985",
+      "relatedName": "Cystadenofibroma"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C6897",
+      "relatedName": "Cystic Partially Differentiated Kidney Nephroblastoma"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C95406",
+      "relatedName": "Digestive System Mixed Adenoneuroendocrine Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C34584",
+      "relatedName": "Endocervical Polyp"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C114656",
+      "relatedName": "Endometrial Adenosquamous Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C9146",
+      "relatedName": "Epithelial Predominant Kidney Wilms Tumor"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C27421",
+      "relatedName": "Esophageal Adenosquamous Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C95621",
+      "relatedName": "Esophageal Mixed Adenoneuroendocrine Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C5778",
+      "relatedName": "Extrahepatic Bile Duct Adenosquamous Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C96939",
+      "relatedName": "Extrahepatic Bile Duct Carcinosarcoma"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C96959",
+      "relatedName": "Extrahepatic Bile Duct Mixed Adenoneuroendocrine Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C215002",
+      "relatedName": "Eyelid Mixed Tumor"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C40125",
+      "relatedName": "Fallopian Tube Adenosarcoma"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C40124",
+      "relatedName": "Fallopian Tube Carcinosarcoma"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C40115",
+      "relatedName": "Fallopian Tube Endometrioid Polyp"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C40113",
+      "relatedName": "Fallopian Tube Serous Adenofibroma"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C40114",
+      "relatedName": "Fallopian Tube Serous Cystadenofibroma"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C8984",
+      "relatedName": "Female Reproductive System Adenofibroma"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C215423",
+      "relatedName": "Female Reproductive System Adenosquamous Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C8975",
+      "relatedName": "Female Reproductive System Carcinosarcoma"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C139547",
+      "relatedName": "Fibroadenoma of Anogenital Mammary-Type Glands"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C3743",
+      "relatedName": "Fibroepithelial Neoplasm"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C7356",
+      "relatedName": "Gallbladder Adenosquamous Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C96888",
+      "relatedName": "Gallbladder Carcinosarcoma"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C96927",
+      "relatedName": "Gallbladder Mixed Adenoneuroendocrine Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C5474",
+      "relatedName": "Gastric Adenosquamous Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C95886",
+      "relatedName": "Gastric Mixed Adenoneuroendocrine Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C3779",
+      "relatedName": "Giant Cell Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C4325",
+      "relatedName": "Giant Cell Glioblastoma"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C121893",
+      "relatedName": "Giant Cell Lesion of Small Bones"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C7069",
+      "relatedName": "Giant Cell Neoplasm"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C121932",
+      "relatedName": "Giant Cell Tumor of Bone"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C49107",
+      "relatedName": "Giant Cell Tumor of Soft Tissue"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C3055",
+      "relatedName": "Giant Cell Tumor"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C3754",
+      "relatedName": "Gonadoblastoma"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C6212",
+      "relatedName": "Hard Palate Pleomorphic Adenoma"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C213477",
+      "relatedName": "Head and Neck Adenosquamous Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C8496",
+      "relatedName": "Hereditary Kidney Wilms Tumor"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C97046",
+      "relatedName": "Human Papillomavirus-Related Adenosquamous Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C121686",
+      "relatedName": "Hybrid Nerve Sheath Tumor"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C207082",
+      "relatedName": "Hybrid Perineurioma-Neurofibroma"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C207081",
+      "relatedName": "Hybrid Perineurioma-Schwannoma"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C181079",
+      "relatedName": "Hybrid Salivary Gland Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C181078",
+      "relatedName": "Hybrid Salivary Gland Tumor"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C207080",
+      "relatedName": "Hybrid Schwannoma-Neurofibroma"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C172941",
+      "relatedName": "Inflammatory Fibroid Polyp"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C121931",
+      "relatedName": "Intermediate Osteoclastic Giant Cell-Rich Tumor of Bone"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C39829",
+      "relatedName": "Invasive Bladder Giant Cell Urothelial Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C165716",
+      "relatedName": "Invasive Bladder Mixed Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C6393",
+      "relatedName": "Invasive Breast Ductal Carcinoma and Invasive Lobular Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C191679",
+      "relatedName": "Invasive Giant Cell Urothelial Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C4276",
+      "relatedName": "Juvenile Breast Fibroadenoma"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C37263",
+      "relatedName": "Kidney Mixed Epithelial and Stromal Tumor"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C40407",
+      "relatedName": "Kidney Wilms Tumor"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C6804",
+      "relatedName": "Lacrimal Gland Carcinoma ex Pleomorphic Adenoma"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C175279",
+      "relatedName": "Lacrimal Gland Carcinosarcoma"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C4542",
+      "relatedName": "Lacrimal Gland Pleomorphic Adenoma"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C54338",
+      "relatedName": "Laryngeal Adenosquamous Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C54342",
+      "relatedName": "Laryngeal Giant Cell Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C173412",
+      "relatedName": "Laryngeal Pleomorphic Adenoma"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C118630",
+      "relatedName": "Liver Adenosquamous Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C96848",
+      "relatedName": "Liver Carcinosarcoma"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C172718",
+      "relatedName": "Liver Mixed Adenoneuroendocrine Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C213597",
+      "relatedName": "Liver Mixed Germ Cell Tumor"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C206426",
+      "relatedName": "Locally Advanced Cervical Adenosquamous Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C175218",
+      "relatedName": "Locally Advanced Lung Adenosquamous Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C40362",
+      "relatedName": "Low Grade Breast Adenosquamous Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C133091",
+      "relatedName": "Lung Adenofibroma"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C136492",
+      "relatedName": "Lung Adenosquamous Carcinoma by AJCC v7 Stage"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C9133",
+      "relatedName": "Lung Adenosquamous Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C45543",
+      "relatedName": "Lung Carcinosarcoma"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C4452",
+      "relatedName": "Lung Giant Cell Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C45603",
+      "relatedName": "Lung Pleomorphic Adenoma"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C5975",
+      "relatedName": "Major Salivary Gland Carcinoma ex Pleomorphic Adenoma"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C4304",
+      "relatedName": "Malignancy in Giant Cell Tumor of Bone"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C4504",
+      "relatedName": "Malignant Breast Phyllodes Tumor"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C4090",
+      "relatedName": "Malignant Giant Cell Neoplasm"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C40228",
+      "relatedName": "Malignant Mixed Epithelial and Mesenchymal Neoplasm of the Cervix"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C37265",
+      "relatedName": "Malignant Mixed Epithelial and Stromal Tumor of the Kidney"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C3729",
+      "relatedName": "Malignant Mixed Neoplasm"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C5902",
+      "relatedName": "Malignant Mixed Tumor of the Major Salivary Gland"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C5955",
+      "relatedName": "Malignant Mixed Tumor of the Minor Salivary Gland"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C8025",
+      "relatedName": "Malignant Mixed Tumor of the Salivary Gland"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C167346",
+      "relatedName": "Malignant Mixed Tumor of the Skin"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C121787",
+      "relatedName": "Malignant Mixed Tumor, Not Otherwise Specified"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C121933",
+      "relatedName": "Malignant Osteoclastic Giant Cell-Rich Tumor of Bone"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C5945",
+      "relatedName": "Malignant Parotid Gland Mixed Tumor"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C4275",
+      "relatedName": "Malignant Phyllodes Tumor"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C5531",
+      "relatedName": "Malignant Prostate Phyllodes Tumor"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C5944",
+      "relatedName": "Malignant Submandibular Gland Mixed Tumor"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C6535",
+      "relatedName": "Malignant Tenosynovial Giant Cell Tumor"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C6311",
+      "relatedName": "Malignant Uterine Corpus Mixed Epithelial and Mesenchymal Neoplasm"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C40276",
+      "relatedName": "Malignant Vaginal Mixed Epithelial and Mesenchymal Neoplasm"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C40279",
+      "relatedName": "Malignant Vaginal Mixed Tumor Resembling Synovial Sarcoma"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C128165",
+      "relatedName": "Malignant Vulvar Phyllodes Tumor"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C6442",
+      "relatedName": "Mediastinal Mixed Embryonal Carcinoma and Teratoma"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C146861",
+      "relatedName": "Mediastinal Mixed Germ Cell Tumor"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C6444",
+      "relatedName": "Mediastinal Mixed Nongerminomatous Germ Cell Tumor"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C38158",
+      "relatedName": "Metachronous Kidney Wilms Tumor"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C39812",
+      "relatedName": "Metanephric Adenofibroma"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C35759",
+      "relatedName": "Metastasizing Pleomorphic Adenoma of the Salivary Gland"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C157769",
+      "relatedName": "Metastatic Bladder Giant Cell Urothelial Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C170924",
+      "relatedName": "Metastatic Carcinosarcoma"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C153390",
+      "relatedName": "Metastatic Cervical Adenosquamous Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C163967",
+      "relatedName": "Metastatic Digestive System Mixed Adenoneuroendocrine Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C175597",
+      "relatedName": "Metastatic Endometrial Adenosquamous Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C211521",
+      "relatedName": "Metastatic Fallopian Tube Carcinosarcoma"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C170929",
+      "relatedName": "Metastatic Female Reproductive System Carcinosarcoma"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C191693",
+      "relatedName": "Metastatic Giant Cell Urothelial Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C219660",
+      "relatedName": "Metastatic Kidney Wilms Tumor"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C156093",
+      "relatedName": "Metastatic Lung Adenosquamous Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C215398",
+      "relatedName": "Metastatic Mixed Neuroendocrine Non-Neuroendocrine Neoplasm"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C170933",
+      "relatedName": "Metastatic Ovarian Carcinosarcoma"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C190770",
+      "relatedName": "Metastatic Pancreatic Adenosquamous Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C211522",
+      "relatedName": "Metastatic Primary Peritoneal Carcinosarcoma"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C170931",
+      "relatedName": "Metastatic Uterine Corpus Carcinosarcoma"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C181028",
+      "relatedName": "Metastatic Vaginal Adenosquamous Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C5976",
+      "relatedName": "Minor Salivary Gland Carcinoma ex Pleomorphic Adenoma"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C8272",
+      "relatedName": "Mixed Astrocytoma-Ependymoma-Oligodendroglioma"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C8271",
+      "relatedName": "Mixed Astrocytoma-Ependymoma"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C165723",
+      "relatedName": "Mixed Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C4157",
+      "relatedName": "Mixed Cell Adenoma"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C9149",
+      "relatedName": "Mixed Cell Type Kidney Wilms Tumor"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C97058",
+      "relatedName": "Mixed Congenital Mesoblastic Nephroma"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C3756",
+      "relatedName": "Mixed Embryonal Carcinoma and Teratoma"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C155767",
+      "relatedName": "Mixed Gangliocytoma-Pituitary Neuroendocrine Tumor"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C4290",
+      "relatedName": "Mixed Germ Cell Tumor"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C5241",
+      "relatedName": "Mixed Germ Cell-Sex Cord-Stromal Tumor"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C3903",
+      "relatedName": "Mixed Glioma"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C3730",
+      "relatedName": "Mixed Mesodermal (Mullerian) Tumor"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C6930",
+      "relatedName": "Mixed Neoplasm"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C164255",
+      "relatedName": "Mixed Neuroendocrine Non-Neuroendocrine Neoplasm"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C9010",
+      "relatedName": "Mixed Teratoma and Seminoma"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C35416",
+      "relatedName": "Mixed Tumor of the Parotid Gland"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C35691",
+      "relatedName": "Mixed Tumor of the Salivary Gland"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C121786",
+      "relatedName": "Mixed Tumor, Not Otherwise Specified"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C8978",
+      "relatedName": "Mucinous Adenofibroma"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C8979",
+      "relatedName": "Mucinous Cystadenofibroma"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C4135",
+      "relatedName": "Multiple Adenomatous Polyps"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C6974",
+      "relatedName": "Neoplasm of Uncertain Histogenesis"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C7068",
+      "relatedName": "Neoplastic Polyp"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C6951",
+      "relatedName": "Nonanaplastic Kidney Wilms Tumor"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C6684",
+      "relatedName": "Occult Lung Adenosquamous Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C173735",
+      "relatedName": "Odontogenic Carcinosarcoma"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C129323",
+      "relatedName": "Oligoastrocytoma, Not Otherwise Specified"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C4050",
+      "relatedName": "Oligoastrocytoma"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C6242",
+      "relatedName": "Oral Cavity Pleomorphic Adenoma"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C213478",
+      "relatedName": "Oropharyngeal Adenosquamous Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C173575",
+      "relatedName": "Oropharyngeal Pleomorphic Adenoma"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C3738",
+      "relatedName": "Osteoclastic Giant Cell-Rich Tumor of Bone"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C7317",
+      "relatedName": "Ovarian Adenosarcoma"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C9192",
+      "relatedName": "Ovarian Carcinosarcoma"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C40079",
+      "relatedName": "Ovarian Clear Cell Adenocarcinofibroma"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C40085",
+      "relatedName": "Ovarian Clear Cell Adenofibroma"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C40086",
+      "relatedName": "Ovarian Clear Cell Cystadenofibroma"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C27287",
+      "relatedName": "Ovarian Endometrioid Adenofibroma"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C27288",
+      "relatedName": "Ovarian Endometrioid Cystadenofibroma"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C39985",
+      "relatedName": "Ovarian Gonadoblastoma"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C8114",
+      "relatedName": "Ovarian Mixed Germ Cell Tumor"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C179475",
+      "relatedName": "Ovarian Mixed Germ Cell-Sex Cord-Stromal Tumor, Unclassified"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C7321",
+      "relatedName": "Ovarian Mixed Germ Cell-Sex Cord-Stromal Tumor"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C40034",
+      "relatedName": "Ovarian Mucinous Adenocarcinofibroma"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C40040",
+      "relatedName": "Ovarian Mucinous Adenofibroma"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C40041",
+      "relatedName": "Ovarian Mucinous Cystadenofibroma"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C126311",
+      "relatedName": "Ovarian Seromucinous Adenofibroma"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C40090",
+      "relatedName": "Ovarian Seromucinous Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C67092",
+      "relatedName": "Ovarian Serous Adenocarcinofibroma"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C40031",
+      "relatedName": "Ovarian Serous Adenofibroma"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C40032",
+      "relatedName": "Ovarian Serous Cystadenofibroma"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C40443",
+      "relatedName": "Ovarian Wilms Tumor"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C5721",
+      "relatedName": "Pancreatic Adenosquamous Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C6878",
+      "relatedName": "Pancreatic Mixed Acinar Carcinoma-Neuroendocrine Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C45843",
+      "relatedName": "Pancreatic Mixed Adenoneuroendocrine Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C95460",
+      "relatedName": "Pancreatic Mixed Ductal Adenocarcinoma-Acinar Carcinoma-Neuroendocrine Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C6879",
+      "relatedName": "Pancreatic Mixed Ductal Adenocarcinoma-Neuroendocrine Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C188217",
+      "relatedName": "Pancreatic Mixed Ductal Adenocarcinoma-Neuroendocrine Neoplasm"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C203795",
+      "relatedName": "Pancreatic Mixed Ductal Adenocarcinoma-Neuroendocrine Tumor"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C8986",
+      "relatedName": "Papillary Adenofibroma"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C162489",
+      "relatedName": "Paratesticular Wilms Tumor"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C7994",
+      "relatedName": "Parathyroid Gland Mixed Cell Type Adenoma"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C5974",
+      "relatedName": "Parotid Gland Carcinoma ex Pleomorphic Adenoma"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C35832",
+      "relatedName": "Parotid Gland Carcinosarcoma"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C4650",
+      "relatedName": "Parotid Gland Pleomorphic Adenoma"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C159248",
+      "relatedName": "Penile Adenosquamous Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C217655",
+      "relatedName": "Peritoneal Adenosarcoma"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C168602",
+      "relatedName": "Phyllodes Tumor of Anogenital Mammary-Type Glands"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C2977",
+      "relatedName": "Phyllodes Tumor"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C213148",
+      "relatedName": "Platinum-Refractory Ovarian Seromucinous Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C213145",
+      "relatedName": "Platinum-Resistant Ovarian Seromucinous Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C8602",
+      "relatedName": "Pleomorphic Adenoma"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C4089",
+      "relatedName": "Polyposis"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C8587",
+      "relatedName": "Precancerous Polyp"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C159507",
+      "relatedName": "Primary Peritoneal Carcinosarcoma"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C160818",
+      "relatedName": "Prostate Acinar Pleomorphic Giant Cell Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C5538",
+      "relatedName": "Prostate Adenosquamous Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C7574",
+      "relatedName": "Prostate Phyllodes Tumor"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C161607",
+      "relatedName": "Prostate Wilms Tumor"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C96480",
+      "relatedName": "Rectal Adenomatous Polyp"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C43594",
+      "relatedName": "Rectal Adenosquamous Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C142861",
+      "relatedName": "Recurrent Anaplastic Oligoastrocytoma"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C212899",
+      "relatedName": "Recurrent Breast Mixed Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C136650",
+      "relatedName": "Recurrent Cervical Adenosquamous Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C115358",
+      "relatedName": "Recurrent Childhood Anaplastic Oligoastrocytoma"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C115363",
+      "relatedName": "Recurrent Childhood Giant Cell Glioblastoma"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C115370",
+      "relatedName": "Recurrent Childhood Oligoastrocytoma"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C175598",
+      "relatedName": "Recurrent Endometrial Adenosquamous Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C199462",
+      "relatedName": "Recurrent Fallopian Tube Carcinosarcoma"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C207060",
+      "relatedName": "Recurrent Female Reproductive System Carcinosarcoma"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C157600",
+      "relatedName": "Recurrent Giant Cell Glioblastoma"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C7845",
+      "relatedName": "Recurrent Kidney Wilms Tumor"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C8747",
+      "relatedName": "Recurrent Lung Adenosquamous Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C219666",
+      "relatedName": "Recurrent Mediastinal Mixed Germ Cell Tumor"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C167082",
+      "relatedName": "Recurrent Oligoastrocytoma"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C153347",
+      "relatedName": "Recurrent Ovarian Carcinosarcoma"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C178669",
+      "relatedName": "Recurrent Ovarian Seromucinous Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C153805",
+      "relatedName": "Recurrent Parotid Gland Carcinoma ex Pleomorphic Adenoma"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C199463",
+      "relatedName": "Recurrent Primary Peritoneal Carcinosarcoma"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C222819",
+      "relatedName": "Recurrent Skin Squamous Cell Carcinoma with Sarcomatoid Differentiation"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C153808",
+      "relatedName": "Recurrent Submandibular Gland Carcinoma ex Pleomorphic Adenoma"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C155818",
+      "relatedName": "Recurrent Uterine Corpus Carcinosarcoma"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C211958",
+      "relatedName": "Refractory Anaplastic Oligoastrocytoma"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C206202",
+      "relatedName": "Refractory Cervical Adenosquamous Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C211968",
+      "relatedName": "Refractory Childhood Anaplastic Oligoastrocytoma"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C222246",
+      "relatedName": "Refractory Childhood Oligoastrocytoma"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C207057",
+      "relatedName": "Refractory Fallopian Tube Carcinosarcoma"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C207061",
+      "relatedName": "Refractory Female Reproductive System Carcinosarcoma"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C176998",
+      "relatedName": "Refractory Giant Cell Glioblastoma"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C193453",
+      "relatedName": "Refractory Malignant Phyllodes Tumor"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C219667",
+      "relatedName": "Refractory Mediastinal Mixed Germ Cell Tumor"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C207056",
+      "relatedName": "Refractory Ovarian Carcinosarcoma"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C178671",
+      "relatedName": "Refractory Ovarian Seromucinous Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C207058",
+      "relatedName": "Refractory Primary Peritoneal Carcinosarcoma"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C158381",
+      "relatedName": "Refractory Uterine Corpus Carcinosarcoma"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C188038",
+      "relatedName": "Refractory Wilms Tumor"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C174566",
+      "relatedName": "Resectable Pancreatic Adenosquamous Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C222820",
+      "relatedName": "Resectable Skin Squamous Cell Carcinoma with Sarcomatoid Differentiation"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C40020",
+      "relatedName": "Rete Ovarii Cystadenofibroma"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C35737",
+      "relatedName": "Salivary Gland Adenosquamous Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C40410",
+      "relatedName": "Salivary Gland Carcinoma ex Pleomorphic Adenoma"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C35831",
+      "relatedName": "Salivary Gland Carcinosarcoma"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C40409",
+      "relatedName": "Salivary Gland Pleomorphic Adenoma"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C155811",
+      "relatedName": "Sellar Mixed Germ Cell Tumor"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C161636",
+      "relatedName": "Seminal Vesicle Mixed Epithelial and Stromal Tumor"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C67090",
+      "relatedName": "Serous Adenofibroma"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C173114",
+      "relatedName": "Sinonasal Pleomorphic Adenoma"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C173094",
+      "relatedName": "Sinonasal Teratocarcinosarcoma"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C54250",
+      "relatedName": "Skin Adenosquamous Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C207083",
+      "relatedName": "Skin Hybrid Nerve Sheath Tumor"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C4474",
+      "relatedName": "Skin Mixed Tumor"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C165468",
+      "relatedName": "Skin Squamous Cell Carcinoma with Sarcomatoid Differentiation"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C43535",
+      "relatedName": "Small Intestinal Adenosquamous Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C96066",
+      "relatedName": "Small Intestinal Mixed Adenoneuroendocrine Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C6211",
+      "relatedName": "Soft Palate Pleomorphic Adenoma"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C8748",
+      "relatedName": "Stage 0 Lung Adenosquamous Carcinoma AJCC v6 and v7"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C7840",
+      "relatedName": "Stage I Kidney Wilms Tumor"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C8749",
+      "relatedName": "Stage I Lung Adenosquamous Carcinoma AJCC v7"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C219039",
+      "relatedName": "Stage I Mixed Cell Type Kidney Wilms Tumor"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C8912",
+      "relatedName": "Stage I Testicular Mixed Germ Cell Tumor AJCC v6 and v7"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C139895",
+      "relatedName": "Stage I Uterine Corpus Adenosarcoma AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C6668",
+      "relatedName": "Stage IA Lung Adenosquamous Carcinoma AJCC v7"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C139896",
+      "relatedName": "Stage IA Uterine Corpus Adenosarcoma AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C6669",
+      "relatedName": "Stage IB Lung Adenosquamous Carcinoma AJCC v7"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C139897",
+      "relatedName": "Stage IB Uterine Corpus Adenosarcoma AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C139898",
+      "relatedName": "Stage IC Uterine Corpus Adenosarcoma AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C7841",
+      "relatedName": "Stage II Kidney Wilms Tumor"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C8750",
+      "relatedName": "Stage II Lung Adenosquamous Carcinoma AJCC v7"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C219040",
+      "relatedName": "Stage II Mixed Cell Type Kidney Wilms Tumor"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C8911",
+      "relatedName": "Stage II Testicular Mixed Germ Cell Tumor AJCC v6 and v7"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C139899",
+      "relatedName": "Stage II Uterine Corpus Adenosarcoma AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C6667",
+      "relatedName": "Stage IIA Lung Adenosquamous Carcinoma AJCC v7"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C6670",
+      "relatedName": "Stage IIB Lung Adenosquamous Carcinoma AJCC v7"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C7842",
+      "relatedName": "Stage III Kidney Wilms Tumor"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C8751",
+      "relatedName": "Stage III Lung Adenosquamous Carcinoma AJCC v7"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C219041",
+      "relatedName": "Stage III Mixed Cell Type Kidney Wilms Tumor"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C8913",
+      "relatedName": "Stage III Testicular Mixed Germ Cell Tumor AJCC v6 and v7"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C139900",
+      "relatedName": "Stage III Uterine Corpus Adenosarcoma AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C8951",
+      "relatedName": "Stage IIIA Lung Adenosquamous Carcinoma AJCC v7"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C139901",
+      "relatedName": "Stage IIIA Uterine Corpus Adenosarcoma AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C8952",
+      "relatedName": "Stage IIIB Lung Adenosquamous Carcinoma AJCC v7"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C139902",
+      "relatedName": "Stage IIIB Uterine Corpus Adenosarcoma AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C139903",
+      "relatedName": "Stage IIIC Uterine Corpus Adenosarcoma AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C7843",
+      "relatedName": "Stage IV Kidney Wilms Tumor"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C8752",
+      "relatedName": "Stage IV Lung Adenosquamous Carcinoma AJCC v7"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C219042",
+      "relatedName": "Stage IV Mixed Cell Type Kidney Wilms Tumor"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C139904",
+      "relatedName": "Stage IV Uterine Corpus Adenosarcoma AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C139905",
+      "relatedName": "Stage IVA Uterine Corpus Adenosarcoma AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C139906",
+      "relatedName": "Stage IVB Uterine Corpus Adenosarcoma AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C7844",
+      "relatedName": "Stage V Kidney Wilms Tumor"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C219043",
+      "relatedName": "Stage V Mixed Cell Type Kidney Wilms Tumor"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C9148",
+      "relatedName": "Stromal Predominant Kidney Wilms Tumor"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C5977",
+      "relatedName": "Submandibular Gland Carcinoma ex Pleomorphic Adenoma"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C3401",
+      "relatedName": "Tenosynovial Giant Cell Tumor, Diffuse Type"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C6532",
+      "relatedName": "Tenosynovial Giant Cell Tumor, Localized Type"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C3402",
+      "relatedName": "Tenosynovial Giant Cell Tumor"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C39911",
+      "relatedName": "Testicular Gonadoblastoma"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C6348",
+      "relatedName": "Testicular Mixed Choriocarcinoma and Embryonal Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C9173",
+      "relatedName": "Testicular Mixed Choriocarcinoma and Seminoma"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C6349",
+      "relatedName": "Testicular Mixed Choriocarcinoma and Teratoma"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C67548",
+      "relatedName": "Testicular Mixed Choriocarcinoma and Yolk Sac Tumor"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C6350",
+      "relatedName": "Testicular Mixed Embryonal Carcinoma and Seminoma"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C6352",
+      "relatedName": "Testicular Mixed Embryonal Carcinoma and Teratoma with Seminoma"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C6351",
+      "relatedName": "Testicular Mixed Embryonal Carcinoma and Teratoma"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C9172",
+      "relatedName": "Testicular Mixed Embryonal Carcinoma and Yolk Sac Tumor with Seminoma"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C8001",
+      "relatedName": "Testicular Mixed Embryonal Carcinoma and Yolk Sac Tumor"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C6347",
+      "relatedName": "Testicular Mixed Germ Cell Tumor"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C39912",
+      "relatedName": "Testicular Mixed Germ Cell-Sex Cord-Stromal Tumor, Unclassified"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C7322",
+      "relatedName": "Testicular Mixed Germ Cell-Sex Cord-Stromal Tumor"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C192115",
+      "relatedName": "Testicular Mixed Teratoma and Yolk Sac Tumor, Prepubertal-Type"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C8003",
+      "relatedName": "Testicular Mixed Yolk Sac Tumor and Teratoma with Seminoma"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C8002",
+      "relatedName": "Testicular Mixed Yolk Sac Tumor and Teratoma"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C6458",
+      "relatedName": "Thymus Adenosquamous Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C173807",
+      "relatedName": "Tongue Adenosquamous Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C167382",
+      "relatedName": "Trichoblastic Carcinosarcoma"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C8380",
+      "relatedName": "Undifferentiated Pleomorphic Sarcoma with Osteoclast-Like Giant Cells"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C174027",
+      "relatedName": "Unresectable Cervical Adenosquamous Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C172808",
+      "relatedName": "Unresectable Digestive System Mixed Adenoneuroendocrine Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C113239",
+      "relatedName": "Uterine Carcinosarcoma, Heterologous Type"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C113238",
+      "relatedName": "Uterine Carcinosarcoma, Homologous Type"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C42700",
+      "relatedName": "Uterine Carcinosarcoma"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C6337",
+      "relatedName": "Uterine Corpus Adenofibroma"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C6338",
+      "relatedName": "Uterine Corpus Adenomyoma"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C139894",
+      "relatedName": "Uterine Corpus Adenosarcoma by AJCC v8 Stage"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C6336",
+      "relatedName": "Uterine Corpus Adenosarcoma"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C40235",
+      "relatedName": "Uterine Corpus Atypical Polypoid Adenomyoma"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C40182",
+      "relatedName": "Uterine Corpus Carcinofibroma"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C9180",
+      "relatedName": "Uterine Corpus Carcinosarcoma"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C40181",
+      "relatedName": "Uterine Corpus Mixed Epithelial and Mesenchymal Neoplasm"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C179925",
+      "relatedName": "Uterine Ligament Adenomyoma"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C40277",
+      "relatedName": "Vaginal Adenosarcoma"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C40260",
+      "relatedName": "Vaginal Adenosquamous Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C40278",
+      "relatedName": "Vaginal Carcinosarcoma"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C40274",
+      "relatedName": "Vaginal Mixed Epithelial and Mesenchymal Neoplasm"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C139548",
+      "relatedName": "Vulvar Composite Hidradenoma Papilliferum and Fibroadenoma"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C128242",
+      "relatedName": "Vulvar Fibroadenoma"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C181905",
+      "relatedName": "Vulvar Phyllodes Tumor"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C40289",
+      "relatedName": "Vulvar Squamous Cell Carcinoma with Tumor Giant Cells"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C3267",
+      "relatedName": "Wilms Tumor"
+    }
+  ],
+  "history": [
+    {
+      "code": "C12801",
+      "action": "create",
+      "date": "2003-08-12"
+    },
+    {
+      "code": "C12801",
+      "action": "modify",
+      "date": "2003-09-29"
+    },
+    {
+      "code": "C12801",
+      "action": "modify",
+      "date": "2003-10-31"
+    },
+    {
+      "code": "C12801",
+      "action": "modify",
+      "date": "2003-12-30"
+    },
+    {
+      "code": "C12801",
+      "action": "modify",
+      "date": "2004-05-28"
+    },
+    {
+      "code": "C12801",
+      "action": "modify",
+      "date": "2004-08-02"
+    },
+    {
+      "code": "C12801",
+      "action": "modify",
+      "date": "2004-11-01"
+    },
+    {
+      "code": "C12801",
+      "action": "modify",
+      "date": "2004-12-30"
+    },
+    {
+      "code": "C12801",
+      "action": "modify",
+      "date": "2005-04-29"
+    },
+    {
+      "code": "C12801",
+      "action": "modify",
+      "date": "2005-06-24"
+    },
+    {
+      "code": "C12801",
+      "action": "merge",
+      "date": "2005-09-09",
+      "replacementCode": "C12801",
+      "replacementName": "Tissue"
+    },
+    {
+      "code": "C33177",
+      "action": "merge",
+      "date": "2005-09-09",
+      "replacementCode": "C12801",
+      "replacementName": "Tissue"
+    },
+    {
+      "code": "C12801",
+      "action": "modify",
+      "date": "2006-01-03"
+    },
+    {
+      "code": "C12801",
+      "action": "modify",
+      "date": "2006-12-01"
+    },
+    {
+      "code": "C12801",
+      "action": "modify",
+      "date": "2008-07-28"
+    },
+    {
+      "code": "C12801",
+      "action": "modify",
+      "date": "2008-11-14"
+    },
+    {
+      "code": "C12801",
+      "action": "modify",
+      "date": "2008-11-26"
+    },
+    {
+      "code": "C12801",
+      "action": "modify",
+      "date": "2008-12-19"
+    },
+    {
+      "code": "C12801",
+      "action": "modify",
+      "date": "2008-11-07"
+    },
+    {
+      "code": "C12801",
+      "action": "modify",
+      "date": "2009-01-16"
+    },
+    {
+      "code": "C12801",
+      "action": "modify",
+      "date": "2009-01-26"
+    },
+    {
+      "code": "C12801",
+      "action": "modify",
+      "date": "2009-11-23"
+    },
+    {
+      "code": "C12801",
+      "action": "modify",
+      "date": "2011-01-17"
+    },
+    {
+      "code": "C12801",
+      "action": "modify",
+      "date": "2013-02-25"
+    },
+    {
+      "code": "C12801",
+      "action": "modify",
+      "date": "2013-03-04"
+    },
+    {
+      "code": "C12801",
+      "action": "modify",
+      "date": "2013-03-11"
+    },
+    {
+      "code": "C12801",
+      "action": "modify",
+      "date": "2013-03-18"
+    },
+    {
+      "code": "C12801",
+      "action": "modify",
+      "date": "2013-03-25"
+    },
+    {
+      "code": "C12801",
+      "action": "modify",
+      "date": "2013-04-01"
+    },
+    {
+      "code": "C12801",
+      "action": "modify",
+      "date": "2013-04-08"
+    },
+    {
+      "code": "C12801",
+      "action": "modify",
+      "date": "2013-04-15"
+    },
+    {
+      "code": "C12801",
+      "action": "modify",
+      "date": "2013-04-22"
+    },
+    {
+      "code": "C12801",
+      "action": "modify",
+      "date": "2013-04-29"
+    },
+    {
+      "code": "C12801",
+      "action": "modify",
+      "date": "2013-05-06"
+    },
+    {
+      "code": "C12801",
+      "action": "modify",
+      "date": "2013-05-13"
+    },
+    {
+      "code": "C12801",
+      "action": "modify",
+      "date": "2013-05-20"
+    },
+    {
+      "code": "C12801",
+      "action": "modify",
+      "date": "2013-05-28"
+    },
+    {
+      "code": "C12801",
+      "action": "modify",
+      "date": "2013-06-03"
+    },
+    {
+      "code": "C12801",
+      "action": "modify",
+      "date": "2013-06-10"
+    },
+    {
+      "code": "C12801",
+      "action": "modify",
+      "date": "2013-06-17"
+    },
+    {
+      "code": "C12801",
+      "action": "modify",
+      "date": "2013-06-24"
+    },
+    {
+      "code": "C12801",
+      "action": "modify",
+      "date": "2013-07-01"
+    },
+    {
+      "code": "C12801",
+      "action": "modify",
+      "date": "2013-07-08"
+    },
+    {
+      "code": "C12801",
+      "action": "modify",
+      "date": "2015-08-24"
+    },
+    {
+      "code": "C12801",
+      "action": "modify",
+      "date": "2015-10-19"
+    },
+    {
+      "code": "C12801",
+      "action": "modify",
+      "date": "2017-03-06"
+    },
+    {
+      "code": "C12801",
+      "action": "modify",
+      "date": "2018-09-24"
+    },
+    {
+      "code": "C12801",
+      "action": "modify",
+      "date": "2018-10-29"
+    },
+    {
+      "code": "C12801",
+      "action": "modify",
+      "date": "2018-10-29"
+    },
+    {
+      "code": "C12801",
+      "action": "modify",
+      "date": "2019-05-28"
+    },
+    {
+      "code": "C12801",
+      "action": "modify",
+      "date": "2019-09-30"
+    },
+    {
+      "code": "C12801",
+      "action": "modify",
+      "date": "2019-10-28"
+    },
+    {
+      "code": "C12801",
+      "action": "modify",
+      "date": "2020-01-27"
+    },
+    {
+      "code": "C12801",
+      "action": "modify",
+      "date": "2020-08-31"
+    },
+    {
+      "code": "C12801",
+      "action": "modify",
+      "date": "2020-09-29"
+    },
+    {
+      "code": "C12801",
+      "action": "modify",
+      "date": "2020-10-26"
+    },
+    {
+      "code": "C12801",
+      "action": "modify",
+      "date": "2021-02-22"
+    },
+    {
+      "code": "C12801",
+      "action": "modify",
+      "date": "2021-03-29"
+    },
+    {
+      "code": "C12801",
+      "action": "modify",
+      "date": "2023-03-27"
+    }
+  ],
+  "maps": [
+    {
+      "type": "Has Synonym",
+      "targetName": "Tissue, NOS",
+      "targetTermType": "PT",
+      "targetCode": "biospecimen_type",
+      "targetTerminology": "GDC"
+    }
+  ]
+}

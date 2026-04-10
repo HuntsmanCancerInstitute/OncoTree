@@ -1,0 +1,1524 @@
+{
+  "code": "C4436",
+  "name": "Cholangiocarcinoma",
+  "terminology": "ncit",
+  "version": "25.11d",
+  "conceptStatus": "DEFAULT",
+  "leaf": false,
+  "active": true,
+  "synonyms": [
+    {
+      "name": "Cholangiocarcinoma",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "caDSR"
+    },
+    {
+      "name": "CHOLANGIOCARCINOMA, MALIGNANT",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "CDISC"
+    },
+    {
+      "name": "Cholangiocellular Carcinoma",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "CDISC"
+    },
+    {
+      "name": "Cholangiocarcinoma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "Cellosaurus"
+    },
+    {
+      "name": "Cholangiocarcinoma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "CPTAC"
+    },
+    {
+      "name": "Cholangiocar.- intra/extrahepatic",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "CTEP",
+      "code": "10004669",
+      "subSource": "SDC"
+    },
+    {
+      "name": "Cholangiocarcinoma, intrahepatic and extrahepatic bile ducts (adenocarcinoma)",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "CTEP",
+      "code": "10004669",
+      "subSource": "SDC"
+    },
+    {
+      "name": "Cholangiocarcinoma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "CTRP"
+    },
+    {
+      "name": "Intrahepatic Bile Duct Cancer (Cholangiocarcinoma)",
+      "termType": "DN",
+      "type": "FULL_SYN",
+      "source": "CTRP"
+    },
+    {
+      "name": "Cholangiocarcinoma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "GDC"
+    },
+    {
+      "name": "cholangiocarcinoma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NCI-GLOSS",
+      "code": "CDR0000335064"
+    },
+    {
+      "name": "cholangiosarcoma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NCI-GLOSS",
+      "code": "CDR0000046473"
+    },
+    {
+      "name": "CC",
+      "termType": "AB",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Cholangiocarcinoma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Cholangiocellular Carcinoma",
+      "termType": "AQS",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Cholangiocarcinoma",
+      "type": "Display_Name"
+    },
+    {
+      "name": "Cholangiocarcinoma",
+      "type": "Preferred_Name"
+    }
+  ],
+  "definitions": [
+    {
+      "definition": "A carcinoma that arises from the intrahepatic bile ducts, the hepatic ducts, or the common bile duct distal to the insertion of the cystic duct. The vast majority of tumors are adenocarcinomas.",
+      "type": "DEFINITION",
+      "source": "NCI"
+    },
+    {
+      "definition": "A malignant neoplasm arising from/comprising cells resembling those of bile ducts.",
+      "type": "ALT_DEFINITION",
+      "source": "CDISC"
+    },
+    {
+      "definition": "A rare type of cancer that develops in cells that line the bile ducts in the liver. Cancer that forms where the right and left ducts meet is called Klatskin tumor.",
+      "type": "ALT_DEFINITION",
+      "source": "NCI-GLOSS"
+    }
+  ],
+  "properties": [
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "CDISC"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "Cellosaurus"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "CPTAC"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "CTEP"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "CTRP"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "GDC"
+    },
+    {
+      "code": "P334",
+      "type": "ICD-O-3_Code",
+      "value": "8160/3"
+    },
+    {
+      "code": "P366",
+      "type": "Legacy Concept Name",
+      "value": "Cholangiocarcinoma"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "8160/3"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "Cholangiocarcinoma"
+    },
+    {
+      "code": "P363",
+      "type": "Neoplastic_Status",
+      "value": "Malignant"
+    },
+    {
+      "code": "P106",
+      "type": "Semantic_Type",
+      "value": "Neoplastic Process"
+    },
+    {
+      "code": "P207",
+      "type": "UMLS_CUI",
+      "value": "C0206698"
+    }
+  ],
+  "children": [
+    {
+      "code": "C8265",
+      "name": "Adult Cholangiocarcinoma",
+      "leaf": true
+    },
+    {
+      "code": "C208025",
+      "name": "Extrahepatic Cholangiocarcinoma",
+      "leaf": false
+    },
+    {
+      "code": "C35417",
+      "name": "Intrahepatic Cholangiocarcinoma",
+      "leaf": false
+    },
+    {
+      "code": "C157623",
+      "name": "Metastatic Cholangiocarcinoma",
+      "leaf": false
+    },
+    {
+      "code": "C27769",
+      "name": "Opisthorchis Viverrini-Related Cholangiocarcinoma",
+      "leaf": true
+    },
+    {
+      "code": "C27325",
+      "name": "Recurrent Cholangiocarcinoma",
+      "leaf": false
+    },
+    {
+      "code": "C158101",
+      "name": "Refractory Cholangiocarcinoma",
+      "leaf": false
+    },
+    {
+      "code": "C27326",
+      "name": "Resectable Cholangiocarcinoma",
+      "leaf": false
+    },
+    {
+      "code": "C27324",
+      "name": "Unresectable Cholangiocarcinoma",
+      "leaf": false
+    }
+  ],
+  "parents": [
+    {
+      "code": "C27813",
+      "name": "Bile Duct Adenocarcinoma"
+    }
+  ],
+  "associations": [
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C77526",
+      "relatedName": "CDISC SEND Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C88025",
+      "relatedName": "CDISC SEND Tumor Findings Results Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C165258",
+      "relatedName": "Cellosaurus Disease Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C61410",
+      "relatedName": "Clinical Data Interchange Standards Consortium Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C138188",
+      "relatedName": "Clinical Trials Search-Application Programming Interface Disease Category Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C156953",
+      "relatedName": "CPTAC Baseline Medical Forms Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C157528",
+      "relatedName": "CPTAC Cholangiocarcinoma Baseline Form"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C158520",
+      "relatedName": "CPTAC Codelists Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C156966",
+      "relatedName": "CPTAC Neoplasms Codelist"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C156952",
+      "relatedName": "CPTAC Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C118168",
+      "relatedName": "CTRP Disease Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C116977",
+      "relatedName": "CTRP Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C138190",
+      "relatedName": "CTS-API Disease Main Type Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C157711",
+      "relatedName": "GDC Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C177537",
+      "relatedName": "GDC Value Terminology"
+    },
+    {
+      "type": "Is_Value_For_GDC_Property",
+      "relatedCode": "C176985",
+      "relatedName": "Histology ICD-O Morphology Code"
+    },
+    {
+      "type": "Is_Value_For_GDC_Property",
+      "relatedCode": "C177621",
+      "relatedName": "ICD-O-3 Morphology Term Diagnosis Question"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168658",
+      "relatedName": "Mapped ICDO3.1 Morphology PT Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168657",
+      "relatedName": "Mapped ICDO3.1 Morphology Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168655",
+      "relatedName": "Mapped ICDO3.1 Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168662",
+      "relatedName": "Mapped ICDO3.2 Morphology PT Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168661",
+      "relatedName": "Mapped ICDO3.2 Morphology Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168656",
+      "relatedName": "Mapped ICDO3.2 Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C103066",
+      "relatedName": "NCI CTEP SDC Liver and Hepatobiliary Cancer Sub-Category Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C102905",
+      "relatedName": "NCI CTEP Simplified Disease Classification Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C126659",
+      "relatedName": "NCIt Neoplasm Core Terminology"
+    },
+    {
+      "type": "Neoplasm_Has_Special_Category",
+      "relatedCode": "C9292",
+      "relatedName": "Solid Neoplasm"
+    }
+  ],
+  "inverseAssociations": [
+    {
+      "type": "Has_GDC_Value",
+      "relatedCode": "C176985",
+      "relatedName": "Histology ICD-O Morphology Code"
+    },
+    {
+      "type": "Has_GDC_Value",
+      "relatedCode": "C177621",
+      "relatedName": "ICD-O-3 Morphology Term Diagnosis Question"
+    }
+  ],
+  "roles": [
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C26682",
+      "relatedName": "Abdominal Pain"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36773",
+      "relatedName": "Adenocarcinoma Cell"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C36122",
+      "relatedName": "Benign Cellular Infiltrate"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C43616",
+      "relatedName": "Bile Duct Epithelium"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12376",
+      "relatedName": "Bile Duct"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12376",
+      "relatedName": "Bile Duct"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12678",
+      "relatedName": "Biliary Tract"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12678",
+      "relatedName": "Biliary Tract"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C54172",
+      "relatedName": "Carcinomatous Component Present"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12378",
+      "relatedName": "Digestive System"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12378",
+      "relatedName": "Digestive System"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C12578",
+      "relatedName": "Epithelial Cell"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C53596",
+      "relatedName": "Epithelial Component Present"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C45714",
+      "relatedName": "Epithelial Tissue"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C43612",
+      "relatedName": "Hepatobiliary System"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C214985",
+      "relatedName": "Hepatopancreatobiliary System"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C155862",
+      "relatedName": "Intermediate Grade Neuroendocrine Lesion"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C155864",
+      "relatedName": "Low Grade Neuroendocrine Lesion"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C3832",
+      "relatedName": "Malaise"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12917",
+      "relatedName": "Malignant Cell"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C36115",
+      "relatedName": "Malignant Cellular Infiltrate"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36779",
+      "relatedName": "Malignant Epithelial Cell"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C36771",
+      "relatedName": "Malignant Squamous Cell"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C37153",
+      "relatedName": "Malignant Stromal Cell"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C62273",
+      "relatedName": "Mixed Neoplastic Glandular and Squamous Cell Population"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12922",
+      "relatedName": "Neoplastic Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36753",
+      "relatedName": "Neoplastic Epithelial Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36763",
+      "relatedName": "Neoplastic Glandular Cell"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C36937",
+      "relatedName": "Neoplastic Smooth Muscle Cell"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C36760",
+      "relatedName": "Neoplastic Squamous Cell"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C166416",
+      "relatedName": "Pancreatobiliary System"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C38328",
+      "relatedName": "Unfavorable Clinical Outcome"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C3445",
+      "relatedName": "Weight Loss"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C155861",
+      "relatedName": "Well Differentiated Neuroendocrine Lesion"
+    }
+  ],
+  "inverseRoles": [
+    {
+      "type": "Gene_Associated_With_Disease",
+      "relatedCode": "C81738",
+      "relatedName": "MIR141 Gene"
+    },
+    {
+      "type": "Gene_Associated_With_Disease",
+      "relatedCode": "C82094",
+      "relatedName": "MIR141 wt Allele"
+    },
+    {
+      "type": "Gene_Associated_With_Disease",
+      "relatedCode": "C81753",
+      "relatedName": "MIR200B Gene"
+    },
+    {
+      "type": "Gene_Associated_With_Disease",
+      "relatedCode": "C82156",
+      "relatedName": "MIR200B wt Allele"
+    },
+    {
+      "type": "Gene_Associated_With_Disease",
+      "relatedCode": "C81789",
+      "relatedName": "MIR204 Gene"
+    },
+    {
+      "type": "Gene_Associated_With_Disease",
+      "relatedCode": "C82160",
+      "relatedName": "MIR204 wt Allele"
+    },
+    {
+      "type": "Gene_Associated_With_Disease",
+      "relatedCode": "C80720",
+      "relatedName": "MIR29B1 Gene"
+    },
+    {
+      "type": "Gene_Associated_With_Disease",
+      "relatedCode": "C81914",
+      "relatedName": "MIR29B1 wt Allele"
+    },
+    {
+      "type": "Gene_Associated_With_Disease",
+      "relatedCode": "C80721",
+      "relatedName": "MIR29B2 Gene"
+    },
+    {
+      "type": "Gene_Associated_With_Disease",
+      "relatedCode": "C81915",
+      "relatedName": "MIR29B2 wt Allele"
+    },
+    {
+      "type": "Gene_Associated_With_Disease",
+      "relatedCode": "C81798",
+      "relatedName": "MIR320A Gene"
+    },
+    {
+      "type": "Gene_Associated_With_Disease",
+      "relatedCode": "C82182",
+      "relatedName": "MIR320A wt Allele"
+    },
+    {
+      "type": "Gene_Associated_With_Disease",
+      "relatedCode": "C80700",
+      "relatedName": "MIRLET7A1 Gene"
+    },
+    {
+      "type": "Gene_Associated_With_Disease",
+      "relatedCode": "C81825",
+      "relatedName": "MIRLET7A1 wt Allele"
+    },
+    {
+      "type": "Gene_Associated_With_Disease",
+      "relatedCode": "C80701",
+      "relatedName": "MIRLET7A3 Gene"
+    },
+    {
+      "type": "Gene_Associated_With_Disease",
+      "relatedCode": "C81826",
+      "relatedName": "MIRLET7A3 wt Allele"
+    }
+  ],
+  "history": [
+    {
+      "code": "C4436",
+      "action": "create",
+      "date": "2003-08-12"
+    },
+    {
+      "code": "C4436",
+      "action": "modify",
+      "date": "2003-10-31"
+    },
+    {
+      "code": "C4436",
+      "action": "modify",
+      "date": "2003-12-30"
+    },
+    {
+      "code": "C4436",
+      "action": "modify",
+      "date": "2004-02-23"
+    },
+    {
+      "code": "C4436",
+      "action": "modify",
+      "date": "2004-03-30"
+    },
+    {
+      "code": "C4436",
+      "action": "modify",
+      "date": "2004-11-17"
+    },
+    {
+      "code": "C4436",
+      "action": "modify",
+      "date": "2005-03-16"
+    },
+    {
+      "code": "C4436",
+      "action": "modify",
+      "date": "2007-03-30"
+    },
+    {
+      "code": "C4436",
+      "action": "modify",
+      "date": "2009-11-02"
+    },
+    {
+      "code": "C4436",
+      "action": "modify",
+      "date": "2009-11-23"
+    },
+    {
+      "code": "C4436",
+      "action": "modify",
+      "date": "2009-12-07"
+    },
+    {
+      "code": "C4436",
+      "action": "modify",
+      "date": "2010-05-17"
+    },
+    {
+      "code": "C4436",
+      "action": "modify",
+      "date": "2010-06-01"
+    },
+    {
+      "code": "C4436",
+      "action": "modify",
+      "date": "2010-11-08"
+    },
+    {
+      "code": "C4436",
+      "action": "modify",
+      "date": "2010-11-15"
+    },
+    {
+      "code": "C4436",
+      "action": "modify",
+      "date": "2010-11-22"
+    },
+    {
+      "code": "C4436",
+      "action": "modify",
+      "date": "2010-11-29"
+    },
+    {
+      "code": "C4436",
+      "action": "modify",
+      "date": "2010-12-06"
+    },
+    {
+      "code": "C4436",
+      "action": "modify",
+      "date": "2010-12-13"
+    },
+    {
+      "code": "C4436",
+      "action": "modify",
+      "date": "2010-12-27"
+    },
+    {
+      "code": "C4436",
+      "action": "modify",
+      "date": "2011-01-03"
+    },
+    {
+      "code": "C4436",
+      "action": "modify",
+      "date": "2011-01-10"
+    },
+    {
+      "code": "C4436",
+      "action": "modify",
+      "date": "2011-01-17"
+    },
+    {
+      "code": "C4436",
+      "action": "modify",
+      "date": "2011-01-24"
+    },
+    {
+      "code": "C4436",
+      "action": "modify",
+      "date": "2011-01-31"
+    },
+    {
+      "code": "C4436",
+      "action": "modify",
+      "date": "2011-04-11"
+    },
+    {
+      "code": "C4436",
+      "action": "modify",
+      "date": "2011-05-16"
+    },
+    {
+      "code": "C4436",
+      "action": "modify",
+      "date": "2011-05-23"
+    },
+    {
+      "code": "C4436",
+      "action": "modify",
+      "date": "2011-11-14"
+    },
+    {
+      "code": "C4436",
+      "action": "modify",
+      "date": "2011-11-21"
+    },
+    {
+      "code": "C4436",
+      "action": "modify",
+      "date": "2011-11-28"
+    },
+    {
+      "code": "C4436",
+      "action": "modify",
+      "date": "2011-12-05"
+    },
+    {
+      "code": "C4436",
+      "action": "modify",
+      "date": "2011-12-12"
+    },
+    {
+      "code": "C4436",
+      "action": "modify",
+      "date": "2011-12-19"
+    },
+    {
+      "code": "C4436",
+      "action": "modify",
+      "date": "2011-12-27"
+    },
+    {
+      "code": "C4436",
+      "action": "modify",
+      "date": "2012-01-09"
+    },
+    {
+      "code": "C4436",
+      "action": "modify",
+      "date": "2012-01-17"
+    },
+    {
+      "code": "C4436",
+      "action": "modify",
+      "date": "2012-01-23"
+    },
+    {
+      "code": "C4436",
+      "action": "modify",
+      "date": "2012-01-30"
+    },
+    {
+      "code": "C4436",
+      "action": "modify",
+      "date": "2012-02-06"
+    },
+    {
+      "code": "C4436",
+      "action": "modify",
+      "date": "2012-02-13"
+    },
+    {
+      "code": "C4436",
+      "action": "modify",
+      "date": "2012-02-21"
+    },
+    {
+      "code": "C4436",
+      "action": "modify",
+      "date": "2012-02-27"
+    },
+    {
+      "code": "C4436",
+      "action": "modify",
+      "date": "2012-03-05"
+    },
+    {
+      "code": "C4436",
+      "action": "modify",
+      "date": "2012-03-12"
+    },
+    {
+      "code": "C4436",
+      "action": "modify",
+      "date": "2012-03-19"
+    },
+    {
+      "code": "C4436",
+      "action": "modify",
+      "date": "2012-03-26"
+    },
+    {
+      "code": "C4436",
+      "action": "modify",
+      "date": "2012-04-02"
+    },
+    {
+      "code": "C4436",
+      "action": "modify",
+      "date": "2012-04-09"
+    },
+    {
+      "code": "C4436",
+      "action": "modify",
+      "date": "2012-04-16"
+    },
+    {
+      "code": "C4436",
+      "action": "modify",
+      "date": "2012-04-23"
+    },
+    {
+      "code": "C4436",
+      "action": "modify",
+      "date": "2012-04-30"
+    },
+    {
+      "code": "C4436",
+      "action": "modify",
+      "date": "2012-05-07"
+    },
+    {
+      "code": "C4436",
+      "action": "modify",
+      "date": "2012-05-14"
+    },
+    {
+      "code": "C4436",
+      "action": "modify",
+      "date": "2012-05-21"
+    },
+    {
+      "code": "C4436",
+      "action": "modify",
+      "date": "2012-05-29"
+    },
+    {
+      "code": "C4436",
+      "action": "modify",
+      "date": "2012-06-04"
+    },
+    {
+      "code": "C4436",
+      "action": "modify",
+      "date": "2012-06-11"
+    },
+    {
+      "code": "C4436",
+      "action": "modify",
+      "date": "2012-06-18"
+    },
+    {
+      "code": "C4436",
+      "action": "modify",
+      "date": "2012-06-18"
+    },
+    {
+      "code": "C4436",
+      "action": "modify",
+      "date": "2012-06-25"
+    },
+    {
+      "code": "C4436",
+      "action": "modify",
+      "date": "2012-07-03"
+    },
+    {
+      "code": "C4436",
+      "action": "modify",
+      "date": "2012-07-16"
+    },
+    {
+      "code": "C4436",
+      "action": "modify",
+      "date": "2012-07-23"
+    },
+    {
+      "code": "C4436",
+      "action": "modify",
+      "date": "2012-07-30"
+    },
+    {
+      "code": "C4436",
+      "action": "modify",
+      "date": "2012-08-06"
+    },
+    {
+      "code": "C4436",
+      "action": "modify",
+      "date": "2012-08-13"
+    },
+    {
+      "code": "C4436",
+      "action": "modify",
+      "date": "2012-08-20"
+    },
+    {
+      "code": "C4436",
+      "action": "modify",
+      "date": "2012-08-27"
+    },
+    {
+      "code": "C4436",
+      "action": "modify",
+      "date": "2012-09-04"
+    },
+    {
+      "code": "C4436",
+      "action": "modify",
+      "date": "2012-09-10"
+    },
+    {
+      "code": "C4436",
+      "action": "modify",
+      "date": "2012-09-17"
+    },
+    {
+      "code": "C4436",
+      "action": "modify",
+      "date": "2012-09-24"
+    },
+    {
+      "code": "C4436",
+      "action": "modify",
+      "date": "2012-10-01"
+    },
+    {
+      "code": "C4436",
+      "action": "modify",
+      "date": "2012-10-09"
+    },
+    {
+      "code": "C4436",
+      "action": "modify",
+      "date": "2012-10-15"
+    },
+    {
+      "code": "C4436",
+      "action": "modify",
+      "date": "2012-10-22"
+    },
+    {
+      "code": "C4436",
+      "action": "modify",
+      "date": "2012-10-31"
+    },
+    {
+      "code": "C4436",
+      "action": "modify",
+      "date": "2012-11-05"
+    },
+    {
+      "code": "C4436",
+      "action": "modify",
+      "date": "2012-11-13"
+    },
+    {
+      "code": "C4436",
+      "action": "modify",
+      "date": "2012-11-19"
+    },
+    {
+      "code": "C4436",
+      "action": "modify",
+      "date": "2012-11-26"
+    },
+    {
+      "code": "C4436",
+      "action": "modify",
+      "date": "2012-12-03"
+    },
+    {
+      "code": "C4436",
+      "action": "modify",
+      "date": "2012-12-10"
+    },
+    {
+      "code": "C4436",
+      "action": "modify",
+      "date": "2012-12-17"
+    },
+    {
+      "code": "C4436",
+      "action": "modify",
+      "date": "2012-12-28"
+    },
+    {
+      "code": "C4436",
+      "action": "modify",
+      "date": "2013-01-07"
+    },
+    {
+      "code": "C4436",
+      "action": "modify",
+      "date": "2013-01-14"
+    },
+    {
+      "code": "C4436",
+      "action": "modify",
+      "date": "2013-01-23"
+    },
+    {
+      "code": "C4436",
+      "action": "modify",
+      "date": "2013-02-04"
+    },
+    {
+      "code": "C4436",
+      "action": "modify",
+      "date": "2013-02-11"
+    },
+    {
+      "code": "C4436",
+      "action": "modify",
+      "date": "2013-02-19"
+    },
+    {
+      "code": "C4436",
+      "action": "modify",
+      "date": "2013-02-25"
+    },
+    {
+      "code": "C4436",
+      "action": "modify",
+      "date": "2013-03-04"
+    },
+    {
+      "code": "C4436",
+      "action": "modify",
+      "date": "2013-03-11"
+    },
+    {
+      "code": "C4436",
+      "action": "modify",
+      "date": "2013-03-18"
+    },
+    {
+      "code": "C4436",
+      "action": "modify",
+      "date": "2013-03-25"
+    },
+    {
+      "code": "C4436",
+      "action": "modify",
+      "date": "2013-04-01"
+    },
+    {
+      "code": "C4436",
+      "action": "modify",
+      "date": "2013-04-08"
+    },
+    {
+      "code": "C4436",
+      "action": "modify",
+      "date": "2013-04-15"
+    },
+    {
+      "code": "C4436",
+      "action": "modify",
+      "date": "2013-04-22"
+    },
+    {
+      "code": "C4436",
+      "action": "modify",
+      "date": "2013-04-29"
+    },
+    {
+      "code": "C4436",
+      "action": "modify",
+      "date": "2013-05-06"
+    },
+    {
+      "code": "C4436",
+      "action": "modify",
+      "date": "2013-05-13"
+    },
+    {
+      "code": "C4436",
+      "action": "modify",
+      "date": "2013-05-20"
+    },
+    {
+      "code": "C4436",
+      "action": "modify",
+      "date": "2013-05-28"
+    },
+    {
+      "code": "C4436",
+      "action": "modify",
+      "date": "2013-06-03"
+    },
+    {
+      "code": "C4436",
+      "action": "modify",
+      "date": "2013-06-10"
+    },
+    {
+      "code": "C4436",
+      "action": "modify",
+      "date": "2013-06-17"
+    },
+    {
+      "code": "C4436",
+      "action": "modify",
+      "date": "2013-06-24"
+    },
+    {
+      "code": "C4436",
+      "action": "modify",
+      "date": "2013-07-01"
+    },
+    {
+      "code": "C4436",
+      "action": "modify",
+      "date": "2013-07-08"
+    },
+    {
+      "code": "C4436",
+      "action": "modify",
+      "date": "2014-02-03"
+    },
+    {
+      "code": "C4436",
+      "action": "modify",
+      "date": "2014-11-24"
+    },
+    {
+      "code": "C4436",
+      "action": "modify",
+      "date": "2014-12-01"
+    },
+    {
+      "code": "C4436",
+      "action": "modify",
+      "date": "2014-12-08"
+    },
+    {
+      "code": "C4436",
+      "action": "modify",
+      "date": "2014-12-15"
+    },
+    {
+      "code": "C4436",
+      "action": "modify",
+      "date": "2014-12-22"
+    },
+    {
+      "code": "C4436",
+      "action": "modify",
+      "date": "2014-12-29"
+    },
+    {
+      "code": "C4436",
+      "action": "modify",
+      "date": "2015-01-05"
+    },
+    {
+      "code": "C4436",
+      "action": "modify",
+      "date": "2015-01-12"
+    },
+    {
+      "code": "C4436",
+      "action": "modify",
+      "date": "2015-01-20"
+    },
+    {
+      "code": "C4436",
+      "action": "modify",
+      "date": "2015-01-26"
+    },
+    {
+      "code": "C4436",
+      "action": "modify",
+      "date": "2015-02-02"
+    },
+    {
+      "code": "C4436",
+      "action": "modify",
+      "date": "2015-02-09"
+    },
+    {
+      "code": "C4436",
+      "action": "modify",
+      "date": "2015-02-17"
+    },
+    {
+      "code": "C4436",
+      "action": "modify",
+      "date": "2015-02-23"
+    },
+    {
+      "code": "C4436",
+      "action": "modify",
+      "date": "2015-03-02"
+    },
+    {
+      "code": "C4436",
+      "action": "modify",
+      "date": "2015-03-09"
+    },
+    {
+      "code": "C4436",
+      "action": "modify",
+      "date": "2015-03-16"
+    },
+    {
+      "code": "C4436",
+      "action": "modify",
+      "date": "2015-03-23"
+    },
+    {
+      "code": "C4436",
+      "action": "modify",
+      "date": "2015-03-30"
+    },
+    {
+      "code": "C4436",
+      "action": "modify",
+      "date": "2015-04-06"
+    },
+    {
+      "code": "C4436",
+      "action": "modify",
+      "date": "2015-04-13"
+    },
+    {
+      "code": "C4436",
+      "action": "modify",
+      "date": "2015-04-20"
+    },
+    {
+      "code": "C4436",
+      "action": "modify",
+      "date": "2015-04-27"
+    },
+    {
+      "code": "C4436",
+      "action": "modify",
+      "date": "2015-05-04"
+    },
+    {
+      "code": "C4436",
+      "action": "modify",
+      "date": "2015-05-11"
+    },
+    {
+      "code": "C4436",
+      "action": "modify",
+      "date": "2015-05-18"
+    },
+    {
+      "code": "C4436",
+      "action": "modify",
+      "date": "2015-12-28"
+    },
+    {
+      "code": "C4436",
+      "action": "modify",
+      "date": "2016-04-25"
+    },
+    {
+      "code": "C4436",
+      "action": "modify",
+      "date": "2016-08-22"
+    },
+    {
+      "code": "C4436",
+      "action": "modify",
+      "date": "2017-09-26"
+    },
+    {
+      "code": "C4436",
+      "action": "modify",
+      "date": "2018-02-26"
+    },
+    {
+      "code": "C4436",
+      "action": "modify",
+      "date": "2018-07-30"
+    },
+    {
+      "code": "C4436",
+      "action": "modify",
+      "date": "2018-08-27"
+    },
+    {
+      "code": "C4436",
+      "action": "modify",
+      "date": "2018-08-27"
+    },
+    {
+      "code": "C4436",
+      "action": "modify",
+      "date": "2018-09-24"
+    },
+    {
+      "code": "C4436",
+      "action": "modify",
+      "date": "2018-10-29"
+    },
+    {
+      "code": "C4436",
+      "action": "modify",
+      "date": "2018-10-29"
+    },
+    {
+      "code": "C4436",
+      "action": "modify",
+      "date": "2019-02-25"
+    },
+    {
+      "code": "C4436",
+      "action": "modify",
+      "date": "2019-03-25"
+    },
+    {
+      "code": "C4436",
+      "action": "modify",
+      "date": "2019-05-28"
+    },
+    {
+      "code": "C4436",
+      "action": "modify",
+      "date": "2019-06-24"
+    },
+    {
+      "code": "C4436",
+      "action": "modify",
+      "date": "2019-07-29"
+    },
+    {
+      "code": "C4436",
+      "action": "modify",
+      "date": "2019-09-30"
+    },
+    {
+      "code": "C4436",
+      "action": "modify",
+      "date": "2019-10-28"
+    },
+    {
+      "code": "C4436",
+      "action": "modify",
+      "date": "2019-11-25"
+    },
+    {
+      "code": "C4436",
+      "action": "modify",
+      "date": "2020-02-24"
+    },
+    {
+      "code": "C4436",
+      "action": "modify",
+      "date": "2020-03-30"
+    },
+    {
+      "code": "C4436",
+      "action": "modify",
+      "date": "2020-04-27"
+    },
+    {
+      "code": "C4436",
+      "action": "modify",
+      "date": "2020-09-29"
+    },
+    {
+      "code": "C4436",
+      "action": "modify",
+      "date": "2021-02-22"
+    },
+    {
+      "code": "C4436",
+      "action": "modify",
+      "date": "2021-03-29"
+    },
+    {
+      "code": "C4436",
+      "action": "modify",
+      "date": "2023-02-27"
+    },
+    {
+      "code": "C4436",
+      "action": "modify",
+      "date": "2023-12-26"
+    },
+    {
+      "code": "C4436",
+      "action": "modify",
+      "date": "2025-03-31"
+    }
+  ],
+  "maps": [
+    {
+      "type": "Related To",
+      "targetName": "8160/3",
+      "targetTermType": "PT",
+      "targetCode": "morphology",
+      "targetTerminology": "GDC"
+    },
+    {
+      "type": "Related To",
+      "targetName": "Cholangiocarcinoma",
+      "targetTermType": "PT",
+      "targetCode": "8160/3",
+      "targetTerminology": "ICDO3",
+      "targetTerminologyVersion": "3.2"
+    },
+    {
+      "type": "Related To",
+      "targetName": "Cholangiocarcinoma",
+      "targetTermType": "PT",
+      "targetCode": "8160/3",
+      "targetTerminology": "ICDO3",
+      "targetTerminologyVersion": "3.1"
+    },
+    {
+      "type": "Has Synonym",
+      "targetName": "Cholangiocarcinoma",
+      "targetTermType": "PT",
+      "targetCode": "primary_diagnosis",
+      "targetTerminology": "GDC"
+    }
+  ]
+}

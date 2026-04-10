@@ -1,0 +1,576 @@
+{
+  "code": "C5105",
+  "name": "Colorectal Adenocarcinoma",
+  "terminology": "ncit",
+  "version": "25.11d",
+  "conceptStatus": "DEFAULT",
+  "leaf": false,
+  "active": true,
+  "synonyms": [
+    {
+      "name": "Colorectal Adenocarcinoma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "Cellosaurus"
+    },
+    {
+      "name": "Colorectal (Colon or Rectal) Adenocarcinoma",
+      "termType": "DN",
+      "type": "FULL_SYN",
+      "source": "CTRP"
+    },
+    {
+      "name": "Colorectal Adenocarcinoma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Colorectal Adenocarcinoma",
+      "type": "Display_Name"
+    },
+    {
+      "name": "Colorectal Adenocarcinoma",
+      "type": "Preferred_Name"
+    }
+  ],
+  "definitions": [
+    {
+      "definition": "The most common type of colorectal carcinoma.  It is characterized by the presence of malignant glandular epithelial cells invading through the muscularis mucosa into the submucosa.  Histologic variants include mucinous adenocarcinoma, signet ring cell carcinoma, medullary carcinoma, serrated adenocarcinoma, cribriform comedo-type adenocarcinoma, and micropapillary adenocarcinoma.",
+      "type": "DEFINITION",
+      "source": "NCI"
+    }
+  ],
+  "properties": [
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "Cellosaurus"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "CTRP"
+    },
+    {
+      "code": "P366",
+      "type": "Legacy Concept Name",
+      "value": "Colorectal_Adenocarcinoma"
+    },
+    {
+      "code": "P363",
+      "type": "Neoplastic_Status",
+      "value": "Malignant"
+    },
+    {
+      "code": "P106",
+      "type": "Semantic_Type",
+      "value": "Neoplastic Process"
+    },
+    {
+      "code": "P207",
+      "type": "UMLS_CUI",
+      "value": "C1319315"
+    }
+  ],
+  "children": [
+    {
+      "code": "C4349",
+      "name": "Colon Adenocarcinoma",
+      "leaf": false
+    },
+    {
+      "code": "C172699",
+      "name": "Colorectal Adenoma-Like Adenocarcinoma",
+      "leaf": true
+    },
+    {
+      "code": "C96488",
+      "name": "Colorectal Cribriform Comedo-Type Adenocarcinoma",
+      "leaf": false
+    },
+    {
+      "code": "C213111",
+      "name": "Colorectal Goblet Cell Adenocarcinoma",
+      "leaf": true
+    },
+    {
+      "code": "C213479",
+      "name": "Colorectal Hepatoid Adenocarcinoma",
+      "leaf": false
+    },
+    {
+      "code": "C43590",
+      "name": "Colorectal Medullary Carcinoma",
+      "leaf": false
+    },
+    {
+      "code": "C96491",
+      "name": "Colorectal Micropapillary Adenocarcinoma",
+      "leaf": false
+    },
+    {
+      "code": "C9447",
+      "name": "Colorectal Moderately Differentiated Adenocarcinoma",
+      "leaf": false
+    },
+    {
+      "code": "C43585",
+      "name": "Colorectal Mucinous Adenocarcinoma",
+      "leaf": false
+    },
+    {
+      "code": "C172694",
+      "name": "Colorectal Poorly Cohesive Adenocarcinoma",
+      "leaf": false
+    },
+    {
+      "code": "C9448",
+      "name": "Colorectal Poorly Differentiated Adenocarcinoma",
+      "leaf": false
+    },
+    {
+      "code": "C96485",
+      "name": "Colorectal Serrated Adenocarcinoma",
+      "leaf": false
+    },
+    {
+      "code": "C9446",
+      "name": "Colorectal Well Differentiated Adenocarcinoma",
+      "leaf": false
+    },
+    {
+      "code": "C172700",
+      "name": "Inflammatory Bowel Disease-Associated Colorectal Adenocarcinoma",
+      "leaf": false
+    },
+    {
+      "code": "C161048",
+      "name": "Metastatic Colorectal Adenocarcinoma",
+      "leaf": false
+    },
+    {
+      "code": "C9383",
+      "name": "Rectal Adenocarcinoma",
+      "leaf": false
+    },
+    {
+      "code": "C43584",
+      "name": "Rectosigmoid Adenocarcinoma",
+      "leaf": false
+    },
+    {
+      "code": "C162441",
+      "name": "Recurrent Colorectal Adenocarcinoma",
+      "leaf": false
+    },
+    {
+      "code": "C162154",
+      "name": "Refractory Colorectal Adenocarcinoma",
+      "leaf": false
+    },
+    {
+      "code": "C212100",
+      "name": "Resectable Colorectal Adenocarcinoma",
+      "leaf": false
+    },
+    {
+      "code": "C171585",
+      "name": "Unresectable Colorectal Adenocarcinoma",
+      "leaf": false
+    }
+  ],
+  "parents": [
+    {
+      "code": "C2955",
+      "name": "Colorectal Carcinoma"
+    },
+    {
+      "code": "C210140",
+      "name": "Digestive System Adenocarcinoma"
+    }
+  ],
+  "associations": [
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C165258",
+      "relatedName": "Cellosaurus Disease Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C118168",
+      "relatedName": "CTRP Disease Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C116977",
+      "relatedName": "CTRP Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C126659",
+      "relatedName": "NCIt Neoplasm Core Terminology"
+    }
+  ],
+  "roles": [
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36773",
+      "relatedName": "Adenocarcinoma Cell"
+    },
+    {
+      "type": "Disease_Mapped_To_Gene",
+      "relatedCode": "C17567",
+      "relatedName": "APC Gene"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C36122",
+      "relatedName": "Benign Cellular Infiltrate"
+    },
+    {
+      "type": "Disease_May_Have_Molecular_Abnormality",
+      "relatedCode": "C40430",
+      "relatedName": "BRAF Gene Mutation"
+    },
+    {
+      "type": "Disease_Mapped_To_Gene",
+      "relatedCode": "C18363",
+      "relatedName": "BRAF Gene"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C54172",
+      "relatedName": "Carcinomatous Component Present"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C54189",
+      "relatedName": "Colorectal Region"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C54189",
+      "relatedName": "Colorectal Region"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12378",
+      "relatedName": "Digestive System"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12378",
+      "relatedName": "Digestive System"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C12578",
+      "relatedName": "Epithelial Cell"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C53596",
+      "relatedName": "Epithelial Component Present"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C45714",
+      "relatedName": "Epithelial Tissue"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C33923",
+      "relatedName": "Glandular Cell"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C43370",
+      "relatedName": "Glandular Epithelium"
+    },
+    {
+      "type": "Disease_May_Have_Molecular_Abnormality",
+      "relatedCode": "C36683",
+      "relatedName": "Inactivating APC Gene Mutation"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C155862",
+      "relatedName": "Intermediate Grade Neuroendocrine Lesion"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12736",
+      "relatedName": "Intestine"
+    },
+    {
+      "type": "Disease_May_Have_Molecular_Abnormality",
+      "relatedCode": "C36665",
+      "relatedName": "KRAS Gene Amplification"
+    },
+    {
+      "type": "Disease_Mapped_To_Gene",
+      "relatedCode": "C25785",
+      "relatedName": "KRAS Gene"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C32926",
+      "relatedName": "Large Intestinal Mucosa"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12379",
+      "relatedName": "Large Intestine"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C155864",
+      "relatedName": "Low Grade Neuroendocrine Lesion"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C78438",
+      "relatedName": "Lower Gastrointestinal Hemorrhage"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12917",
+      "relatedName": "Malignant Cell"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C36115",
+      "relatedName": "Malignant Cellular Infiltrate"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36779",
+      "relatedName": "Malignant Epithelial Cell"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C36771",
+      "relatedName": "Malignant Squamous Cell"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C37153",
+      "relatedName": "Malignant Stromal Cell"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C62273",
+      "relatedName": "Mixed Neoplastic Glandular and Squamous Cell Population"
+    },
+    {
+      "type": "Disease_May_Have_Molecular_Abnormality",
+      "relatedCode": "C43597",
+      "relatedName": "MYC Gene Mutation"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12922",
+      "relatedName": "Neoplastic Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36753",
+      "relatedName": "Neoplastic Epithelial Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36763",
+      "relatedName": "Neoplastic Glandular Cell"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C36937",
+      "relatedName": "Neoplastic Smooth Muscle Cell"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C36760",
+      "relatedName": "Neoplastic Squamous Cell"
+    },
+    {
+      "type": "Disease_May_Have_Molecular_Abnormality",
+      "relatedCode": "C36329",
+      "relatedName": "TP53 Gene Inactivation"
+    },
+    {
+      "type": "Disease_Mapped_To_Gene",
+      "relatedCode": "C17359",
+      "relatedName": "TP53 Gene"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C155861",
+      "relatedName": "Well Differentiated Neuroendocrine Lesion"
+    }
+  ],
+  "inverseRoles": [
+    {
+      "type": "Disease_May_Have_Associated_Disease",
+      "relatedCode": "C7477",
+      "relatedName": "Anal Canal Paget Disease"
+    },
+    {
+      "type": "Disease_May_Have_Associated_Disease",
+      "relatedCode": "C7476",
+      "relatedName": "Anal Margin Paget Disease"
+    },
+    {
+      "type": "Disease_May_Have_Associated_Disease",
+      "relatedCode": "C5598",
+      "relatedName": "Anal Paget Disease"
+    },
+    {
+      "type": "Gene_Associated_With_Disease",
+      "relatedCode": "C88931",
+      "relatedName": "CSMD1 Gene"
+    },
+    {
+      "type": "Gene_Associated_With_Disease",
+      "relatedCode": "C88932",
+      "relatedName": "CSMD1 wt Allele"
+    },
+    {
+      "type": "Gene_Product_Malfunction_Associated_With_Disease",
+      "relatedCode": "C88933",
+      "relatedName": "CUB and Sushi Domain-Containing Protein 1"
+    },
+    {
+      "type": "Disease_May_Have_Associated_Disease",
+      "relatedCode": "C220637",
+      "relatedName": "Hereditary Mixed Polyposis Syndrome"
+    },
+    {
+      "type": "Gene_Product_Malfunction_Associated_With_Disease",
+      "relatedCode": "C18034",
+      "relatedName": "Mothers Against Decapentaplegic Homolog 3"
+    },
+    {
+      "type": "Disease_May_Have_Associated_Disease",
+      "relatedCode": "C153577",
+      "relatedName": "Recurrent Paget Disease of the Anal Canal"
+    }
+  ],
+  "history": [
+    {
+      "code": "C5105",
+      "action": "create",
+      "date": "2003-08-12"
+    },
+    {
+      "code": "C5105",
+      "action": "modify",
+      "date": "2003-10-31"
+    },
+    {
+      "code": "C5105",
+      "action": "modify",
+      "date": "2003-12-30"
+    },
+    {
+      "code": "C5105",
+      "action": "modify",
+      "date": "2004-02-23"
+    },
+    {
+      "code": "C5105",
+      "action": "modify",
+      "date": "2004-03-30"
+    },
+    {
+      "code": "C5105",
+      "action": "modify",
+      "date": "2005-03-16"
+    },
+    {
+      "code": "C5105",
+      "action": "modify",
+      "date": "2006-03-31"
+    },
+    {
+      "code": "C5105",
+      "action": "modify",
+      "date": "2006-05-26"
+    },
+    {
+      "code": "C5105",
+      "action": "modify",
+      "date": "2006-06-30"
+    },
+    {
+      "code": "C5105",
+      "action": "modify",
+      "date": "2009-11-02"
+    },
+    {
+      "code": "C5105",
+      "action": "modify",
+      "date": "2009-11-23"
+    },
+    {
+      "code": "C5105",
+      "action": "modify",
+      "date": "2011-05-02"
+    },
+    {
+      "code": "C5105",
+      "action": "modify",
+      "date": "2016-04-25"
+    },
+    {
+      "code": "C5105",
+      "action": "modify",
+      "date": "2017-07-31"
+    },
+    {
+      "code": "C5105",
+      "action": "modify",
+      "date": "2018-03-26"
+    },
+    {
+      "code": "C5105",
+      "action": "modify",
+      "date": "2018-07-30"
+    },
+    {
+      "code": "C5105",
+      "action": "modify",
+      "date": "2018-08-27"
+    },
+    {
+      "code": "C5105",
+      "action": "modify",
+      "date": "2018-08-27"
+    },
+    {
+      "code": "C5105",
+      "action": "modify",
+      "date": "2019-10-28"
+    },
+    {
+      "code": "C5105",
+      "action": "modify",
+      "date": "2023-02-27"
+    },
+    {
+      "code": "C5105",
+      "action": "modify",
+      "date": "2024-09-30"
+    },
+    {
+      "code": "C5105",
+      "action": "modify",
+      "date": "2025-03-31"
+    },
+    {
+      "code": "C5105",
+      "action": "modify",
+      "date": "2025-04-28"
+    }
+  ]
+}

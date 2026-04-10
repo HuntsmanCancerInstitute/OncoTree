@@ -1,0 +1,358 @@
+{
+  "code": "C5712",
+  "name": "Pancreatic Serous Cystadenoma",
+  "terminology": "ncit",
+  "version": "25.11d",
+  "conceptStatus": "DEFAULT",
+  "leaf": false,
+  "active": true,
+  "synonyms": [
+    {
+      "name": "Pancreatic Serous Cystadenoma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Serous Cystadenoma of Pancreas",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Serous Cystadenoma of the Pancreas",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Pancreatic Serous Cystadenoma",
+      "type": "Preferred_Name"
+    }
+  ],
+  "definitions": [
+    {
+      "definition": "A benign, non-metastasizing cystic epithelial neoplasm arising from the exocrine pancreas. It is composed of glycogen-rich epithelial cells that produce a watery fluid. Signs and symptoms include abdominal mass, abdominal pain, nausea, vomiting, and weight loss.",
+      "type": "DEFINITION",
+      "source": "NCI"
+    }
+  ],
+  "properties": [
+    {
+      "code": "P366",
+      "type": "Legacy Concept Name",
+      "value": "Pancreatic_Serous_Cystadenoma"
+    },
+    {
+      "code": "P363",
+      "type": "Neoplastic_Status",
+      "value": "Benign"
+    },
+    {
+      "code": "P106",
+      "type": "Semantic_Type",
+      "value": "Neoplastic Process"
+    },
+    {
+      "code": "P207",
+      "type": "UMLS_CUI",
+      "value": "C1335316"
+    }
+  ],
+  "children": [
+    {
+      "code": "C95471",
+      "name": "Pancreatic Serous Macrocystic Cystadenoma",
+      "leaf": true
+    },
+    {
+      "code": "C213041",
+      "name": "Von Hippel Lindau Syndrome-Associated Pancreatic Serous Cystadenoma",
+      "leaf": true
+    }
+  ],
+  "parents": [
+    {
+      "code": "C95470",
+      "name": "Benign Pancreatic Serous Neoplasm"
+    },
+    {
+      "code": "C200227",
+      "name": "Pancreatic Cystic Neoplasm"
+    },
+    {
+      "code": "C3783",
+      "name": "Serous Cystadenoma"
+    }
+  ],
+  "associations": [
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C126659",
+      "relatedName": "NCIt Neoplasm Core Terminology"
+    }
+  ],
+  "roles": [
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C34333",
+      "relatedName": "Abdominal Mass"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C26682",
+      "relatedName": "Abdominal Pain"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C36122",
+      "relatedName": "Benign Cellular Infiltrate"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C36116",
+      "relatedName": "Borderline Lesion"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C41421",
+      "relatedName": "Cystic Lesion"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C60791",
+      "relatedName": "Cysts Containing Proteinaceous Fluid Present"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C60791",
+      "relatedName": "Cysts Containing Proteinaceous Fluid Present"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12378",
+      "relatedName": "Digestive System"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12378",
+      "relatedName": "Digestive System"
+    },
+    {
+      "type": "Disease_Excludes_Normal_Cell_Origin",
+      "relatedCode": "C41608",
+      "relatedName": "Endocrine-Stromal Cell"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C12578",
+      "relatedName": "Epithelial Cell"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C53596",
+      "relatedName": "Epithelial Component Present"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C45714",
+      "relatedName": "Epithelial Tissue"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C32546",
+      "relatedName": "Exocrine Pancreas"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C33923",
+      "relatedName": "Glandular Cell"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C43370",
+      "relatedName": "Glandular Epithelium"
+    },
+    {
+      "type": "Disease_Excludes_Normal_Tissue_Origin",
+      "relatedCode": "C13049",
+      "relatedName": "Lymphoid Tissue"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C12917",
+      "relatedName": "Malignant Cell"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C36115",
+      "relatedName": "Malignant Cellular Infiltrate"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C36779",
+      "relatedName": "Malignant Epithelial Cell"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C62273",
+      "relatedName": "Mixed Neoplastic Glandular and Squamous Cell Population"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C3258",
+      "relatedName": "Nausea"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12922",
+      "relatedName": "Neoplastic Cell"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C37116",
+      "relatedName": "Neoplastic Epithelial Cell with Intracytoplasmic Mucin"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36753",
+      "relatedName": "Neoplastic Epithelial Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36763",
+      "relatedName": "Neoplastic Glandular Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C37114",
+      "relatedName": "Neoplastic Serous Epithelial Cell"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C36937",
+      "relatedName": "Neoplastic Smooth Muscle Cell"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C36760",
+      "relatedName": "Neoplastic Squamous Cell"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12393",
+      "relatedName": "Pancreas"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12393",
+      "relatedName": "Pancreas"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C3442",
+      "relatedName": "Vomiting"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C3445",
+      "relatedName": "Weight Loss"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C41457",
+      "relatedName": "Well-Circumscribed Lesion"
+    }
+  ],
+  "history": [
+    {
+      "code": "C5712",
+      "action": "create",
+      "date": "2003-08-12"
+    },
+    {
+      "code": "C5712",
+      "action": "modify",
+      "date": "2003-10-31"
+    },
+    {
+      "code": "C5712",
+      "action": "modify",
+      "date": "2003-12-30"
+    },
+    {
+      "code": "C5712",
+      "action": "modify",
+      "date": "2004-03-30"
+    },
+    {
+      "code": "C5712",
+      "action": "modify",
+      "date": "2004-11-01"
+    },
+    {
+      "code": "C5712",
+      "action": "modify",
+      "date": "2006-05-26"
+    },
+    {
+      "code": "C5712",
+      "action": "modify",
+      "date": "2007-02-23"
+    },
+    {
+      "code": "C5712",
+      "action": "modify",
+      "date": "2009-11-02"
+    },
+    {
+      "code": "C5712",
+      "action": "modify",
+      "date": "2009-11-23"
+    },
+    {
+      "code": "C5712",
+      "action": "modify",
+      "date": "2011-01-31"
+    },
+    {
+      "code": "C5712",
+      "action": "modify",
+      "date": "2012-02-21"
+    },
+    {
+      "code": "C5712",
+      "action": "modify",
+      "date": "2014-02-03"
+    },
+    {
+      "code": "C5712",
+      "action": "modify",
+      "date": "2016-04-25"
+    },
+    {
+      "code": "C5712",
+      "action": "merge",
+      "date": "2025-01-27",
+      "replacementCode": "C5712",
+      "replacementName": "Pancreatic Serous Cystadenoma"
+    },
+    {
+      "code": "C4374",
+      "action": "merge",
+      "date": "2025-01-27",
+      "replacementCode": "C5712",
+      "replacementName": "Pancreatic Serous Cystadenoma"
+    },
+    {
+      "code": "C5712",
+      "action": "modify",
+      "date": "2025-01-27"
+    },
+    {
+      "code": "C5712",
+      "action": "modify",
+      "date": "2025-08-25"
+    }
+  ]
+}

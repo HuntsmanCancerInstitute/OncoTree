@@ -1,0 +1,4262 @@
+{
+  "code": "C12311",
+  "name": "Cervix Uteri",
+  "terminology": "ncit",
+  "version": "25.11d",
+  "conceptStatus": "DEFAULT",
+  "leaf": true,
+  "active": true,
+  "synonyms": [
+    {
+      "name": "Cervix Uteri",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "caDSR"
+    },
+    {
+      "name": "CERVIX",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "CDISC",
+      "code": "SEND-SPEC"
+    },
+    {
+      "name": "CERVIX UTERI",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "CDISC",
+      "code": "SDTM-LOC"
+    },
+    {
+      "name": "Cervix Uteri",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "CDISC"
+    },
+    {
+      "name": "Uterine Cervix",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "CDISC"
+    },
+    {
+      "name": "Cervix",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "CPTAC"
+    },
+    {
+      "name": "Cervix",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "GDC"
+    },
+    {
+      "name": "Cervix uteri",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "GDC"
+    },
+    {
+      "name": "Cervix uteri structure (body structure)",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "mCode",
+      "code": "71252005",
+      "subSource": "SNOMED CT"
+    },
+    {
+      "name": "cervix",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NCI-GLOSS",
+      "code": "CDR0000046133"
+    },
+    {
+      "name": "Cervix",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Cervix Uteri",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Genital System, Female, Cervix",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Uterine Cervix",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Uterus, Cervix",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Cervix Uteri",
+      "type": "Display_Name"
+    },
+    {
+      "name": "Cervix Uteri",
+      "type": "Preferred_Name"
+    },
+    {
+      "name": "Cervix",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "PCDC",
+      "subSource": "GCT"
+    },
+    {
+      "name": "canalis cervicis uteri",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "UBERON"
+    },
+    {
+      "name": "caudal segment of uterus",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "UBERON"
+    },
+    {
+      "name": "cervical canal of uterus",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "UBERON"
+    },
+    {
+      "name": "cervix uteri",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "UBERON"
+    },
+    {
+      "name": "neck of uterus",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "UBERON"
+    },
+    {
+      "name": "uterine cervix",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "UBERON"
+    },
+    {
+      "name": "uterine cervix",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "UBERON"
+    }
+  ],
+  "definitions": [
+    {
+      "definition": "Lower, narrow portion of the uterus where it joins with the top end of the vagina.",
+      "type": "ALT_DEFINITION",
+      "source": "UBERON"
+    },
+    {
+      "definition": "The lower part of the uterus occupying the region between the isthmus of the uterus and the vagina. It is divided into supravaginal and vaginal portions.",
+      "type": "DEFINITION",
+      "source": "NCI"
+    },
+    {
+      "definition": "The lower, narrow end of the uterus that forms a canal between the uterus and vagina.",
+      "type": "ALT_DEFINITION",
+      "source": "NCI-GLOSS"
+    },
+    {
+      "definition": "The portion of the uterus (or uterine horns) that empties into the vagina.",
+      "type": "ALT_DEFINITION",
+      "source": "CDISC"
+    }
+  ],
+  "properties": [
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "CDISC"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "CPTAC"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "GDC"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "mCode"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "PCDC"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "UBERON"
+    },
+    {
+      "code": "P366",
+      "type": "Legacy Concept Name",
+      "value": "Cervix"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "Cervix"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "CERVIX UTERI"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "Cervix Uteri"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "Cervix uteri"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "Cervix, NOS"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "Uterine cervix"
+    },
+    {
+      "code": "P106",
+      "type": "Semantic_Type",
+      "value": "Body Part, Organ, or Organ Component"
+    },
+    {
+      "code": "P207",
+      "type": "UMLS_CUI",
+      "value": "C0007874"
+    },
+    {
+      "code": "oboInOwl:hasDbXref",
+      "type": "xRef",
+      "value": "UBERON:0000002"
+    }
+  ],
+  "parents": [
+    {
+      "code": "C13039",
+      "name": "Female Reproductive System Part"
+    }
+  ],
+  "associations": [
+    {
+      "type": "Is_Value_For_GDC_Property",
+      "relatedCode": "C177569",
+      "relatedName": "Anatomic Site for Involved Surgical Margin"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C74456",
+      "relatedName": "CDISC SDTM Anatomical Location Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C66830",
+      "relatedName": "CDISC SDTM Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C77529",
+      "relatedName": "CDISC SEND Biospecimens Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C77526",
+      "relatedName": "CDISC SEND Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C61410",
+      "relatedName": "Clinical Data Interchange Standards Consortium Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C159328",
+      "relatedName": "CPTAC Follow-Up Forms Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C159336",
+      "relatedName": "CPTAC Melanoma Follow-Up Form"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C156952",
+      "relatedName": "CPTAC Terminology"
+    },
+    {
+      "type": "Is_Value_For_GDC_Property",
+      "relatedCode": "C173263",
+      "relatedName": "Disease Involvement Site"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C177383",
+      "relatedName": "GCT Authorized Value Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C177394",
+      "relatedName": "GCT Tumor Assessment Table"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C157711",
+      "relatedName": "GDC Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C177537",
+      "relatedName": "GDC Value Terminology"
+    },
+    {
+      "type": "Is_Value_For_GDC_Property",
+      "relatedCode": "C182312",
+      "relatedName": "Image Anatomic Location"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168655",
+      "relatedName": "Mapped ICDO3.1 Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168660",
+      "relatedName": "Mapped ICDO3.1 Topography PT Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168659",
+      "relatedName": "Mapped ICDO3.1 Topography Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168656",
+      "relatedName": "Mapped ICDO3.2 Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168664",
+      "relatedName": "Mapped ICDO3.2 Topography PT Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168663",
+      "relatedName": "Mapped ICDO3.2 Topography Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C193234",
+      "relatedName": "mCode Radiotherapy Treatment Location Value Set"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C193006",
+      "relatedName": "mCode Terminology"
+    },
+    {
+      "type": "Is_PCDC_GCT_Authorized_Value_For_Variable",
+      "relatedCode": "C177358",
+      "relatedName": "Nodal Site"
+    },
+    {
+      "type": "Is_Value_For_GDC_Property",
+      "relatedCode": "C158874",
+      "relatedName": "Primary Site of Disease"
+    },
+    {
+      "type": "Is_Value_For_GDC_Property",
+      "relatedCode": "C177570",
+      "relatedName": "Progressive or Recurrent Disease Anatomic Site"
+    },
+    {
+      "type": "Is_Value_For_GDC_Property",
+      "relatedCode": "C156421",
+      "relatedName": "Site of Resection or Biopsy"
+    },
+    {
+      "type": "Is_Value_For_GDC_Property",
+      "relatedCode": "C171435",
+      "relatedName": "Specimen Anatomic Site"
+    },
+    {
+      "type": "Is_Value_For_GDC_Property",
+      "relatedCode": "C70729",
+      "relatedName": "Targeted Anatomic Site"
+    },
+    {
+      "type": "Is_Value_For_GDC_Property",
+      "relatedCode": "C156422",
+      "relatedName": "Tissue or Organ of Origin"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C198975",
+      "relatedName": "UBERON Terminology"
+    }
+  ],
+  "inverseAssociations": [
+    {
+      "type": "Has_GDC_Value",
+      "relatedCode": "C177569",
+      "relatedName": "Anatomic Site for Involved Surgical Margin"
+    },
+    {
+      "type": "Has_GDC_Value",
+      "relatedCode": "C173263",
+      "relatedName": "Disease Involvement Site"
+    },
+    {
+      "type": "Has_GDC_Value",
+      "relatedCode": "C182312",
+      "relatedName": "Image Anatomic Location"
+    },
+    {
+      "type": "Has_PCDC_GCT_Authorized_Value",
+      "relatedCode": "C177358",
+      "relatedName": "Nodal Site"
+    },
+    {
+      "type": "Has_GDC_Value",
+      "relatedCode": "C158874",
+      "relatedName": "Primary Site of Disease"
+    },
+    {
+      "type": "Has_GDC_Value",
+      "relatedCode": "C177570",
+      "relatedName": "Progressive or Recurrent Disease Anatomic Site"
+    },
+    {
+      "type": "Has_GDC_Value",
+      "relatedCode": "C156421",
+      "relatedName": "Site of Resection or Biopsy"
+    },
+    {
+      "type": "Has_GDC_Value",
+      "relatedCode": "C171435",
+      "relatedName": "Specimen Anatomic Site"
+    },
+    {
+      "type": "Has_GDC_Value",
+      "relatedCode": "C70729",
+      "relatedName": "Targeted Anatomic Site"
+    },
+    {
+      "type": "Has_GDC_Value",
+      "relatedCode": "C156422",
+      "relatedName": "Tissue or Organ of Origin"
+    }
+  ],
+  "roles": [
+    {
+      "type": "Anatomic_Structure_Is_Physical_Part_Of",
+      "relatedCode": "C12405",
+      "relatedName": "Uterus"
+    }
+  ],
+  "inverseRoles": [
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C27056",
+      "relatedName": "Acute Cervicitis"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C27056",
+      "relatedName": "Acute Cervicitis"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C156304",
+      "relatedName": "Advanced Cervical Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C156304",
+      "relatedName": "Advanced Cervical Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C174032",
+      "relatedName": "Advanced Cervical Adenosquamous Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C174032",
+      "relatedName": "Advanced Cervical Adenosquamous Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C156294",
+      "relatedName": "Advanced Cervical Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C156294",
+      "relatedName": "Advanced Cervical Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C206199",
+      "relatedName": "Advanced Cervical Non-Squamous Cell Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C206199",
+      "relatedName": "Advanced Cervical Non-Squamous Cell Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C174030",
+      "relatedName": "Advanced Cervical Squamous Cell Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C174030",
+      "relatedName": "Advanced Cervical Squamous Cell Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C7432",
+      "relatedName": "AIDS-Related Cervical Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C7432",
+      "relatedName": "AIDS-Related Cervical Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C7433",
+      "relatedName": "AIDS-Related Cervical Kaposi Sarcoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C7433",
+      "relatedName": "AIDS-Related Cervical Kaposi Sarcoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C7434",
+      "relatedName": "AIDS-Related Cervical Non-Hodgkin Lymphoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C7434",
+      "relatedName": "AIDS-Related Cervical Non-Hodgkin Lymphoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C5052",
+      "relatedName": "AIDS-Related Malignant Cervical Neoplasm"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C5052",
+      "relatedName": "AIDS-Related Malignant Cervical Neoplasm"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C40227",
+      "relatedName": "Benign Cervical Mixed Epithelial and Mesenchymal Neoplasm"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C40227",
+      "relatedName": "Benign Cervical Mixed Epithelial and Mesenchymal Neoplasm"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C3607",
+      "relatedName": "Benign Cervical Neoplasm"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C3607",
+      "relatedName": "Benign Cervical Neoplasm"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C128053",
+      "relatedName": "Benign Cervical Soft Tissue Neoplasm"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C128053",
+      "relatedName": "Benign Cervical Soft Tissue Neoplasm"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C127915",
+      "relatedName": "Cervical Adenocarcinoma Admixed with Neuroendocrine Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C127915",
+      "relatedName": "Cervical Adenocarcinoma Admixed with Neuroendocrine Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C4520",
+      "relatedName": "Cervical Adenocarcinoma In Situ"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C4520",
+      "relatedName": "Cervical Adenocarcinoma In Situ"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C180870",
+      "relatedName": "Cervical Adenocarcinoma, Not Otherwise Specified"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C180870",
+      "relatedName": "Cervical Adenocarcinoma, Not Otherwise Specified"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C4029",
+      "relatedName": "Cervical Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C4029",
+      "relatedName": "Cervical Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C40230",
+      "relatedName": "Cervical Adenofibroma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C40230",
+      "relatedName": "Cervical Adenofibroma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C40213",
+      "relatedName": "Cervical Adenoid Basal Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C40213",
+      "relatedName": "Cervical Adenoid Basal Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C6346",
+      "relatedName": "Cervical Adenoid Cystic Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C6346",
+      "relatedName": "Cervical Adenoid Cystic Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C40232",
+      "relatedName": "Cervical Adenomyoma, Endocervical-Type"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C40232",
+      "relatedName": "Cervical Adenomyoma, Endocervical-Type"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C40233",
+      "relatedName": "Cervical Adenomyoma, Mesonephric-Type"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C40233",
+      "relatedName": "Cervical Adenomyoma, Mesonephric-Type"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C40231",
+      "relatedName": "Cervical Adenomyoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C40231",
+      "relatedName": "Cervical Adenomyoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C40229",
+      "relatedName": "Cervical Adenosarcoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C40229",
+      "relatedName": "Cervical Adenosarcoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C4519",
+      "relatedName": "Cervical Adenosquamous Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C4519",
+      "relatedName": "Cervical Adenosquamous Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C40225",
+      "relatedName": "Cervical Alveolar Soft Part Sarcoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C40225",
+      "relatedName": "Cervical Alveolar Soft Part Sarcoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C128049",
+      "relatedName": "Cervical Angiosarcoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C128049",
+      "relatedName": "Cervical Angiosarcoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C180837",
+      "relatedName": "Cervical Atrophy"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C180837",
+      "relatedName": "Cervical Atrophy"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C40234",
+      "relatedName": "Cervical Atypical Polypoid Adenomyoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C40234",
+      "relatedName": "Cervical Atypical Polypoid Adenomyoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C40189",
+      "relatedName": "Cervical Basaloid Squamous Cell Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C40189",
+      "relatedName": "Cervical Basaloid Squamous Cell Carcinoma"
+    },
+    {
+      "type": "Procedure_Has_Partially_Excised_Anatomy",
+      "relatedCode": "C51628",
+      "relatedName": "Cervical Biopsy"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C40240",
+      "relatedName": "Cervical Blue Nevus"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C40240",
+      "relatedName": "Cervical Blue Nevus"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C90493",
+      "relatedName": "Cervical Cancer by AJCC v6 Stage"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C90493",
+      "relatedName": "Cervical Cancer by AJCC v6 Stage"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C91208",
+      "relatedName": "Cervical Cancer by AJCC v7 Stage"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C91208",
+      "relatedName": "Cervical Cancer by AJCC v7 Stage"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C139733",
+      "relatedName": "Cervical Cancer by AJCC v8 Stage"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C139733",
+      "relatedName": "Cervical Cancer by AJCC v8 Stage"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C181562",
+      "relatedName": "Cervical Cancer by AJCC v9 Stage"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C181562",
+      "relatedName": "Cervical Cancer by AJCC v9 Stage"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C186619",
+      "relatedName": "Cervical Cancer by FIGO Stage 2009"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C186619",
+      "relatedName": "Cervical Cancer by FIGO Stage 2009"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C162225",
+      "relatedName": "Cervical Cancer by FIGO Stage 2018"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C162225",
+      "relatedName": "Cervical Cancer by FIGO Stage 2018"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C9039",
+      "relatedName": "Cervical Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C9039",
+      "relatedName": "Cervical Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C36097",
+      "relatedName": "Cervical Carcinosarcoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C36097",
+      "relatedName": "Cervical Carcinosarcoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C8421",
+      "relatedName": "Cervical Condyloma Acuminatum"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C8421",
+      "relatedName": "Cervical Condyloma Acuminatum"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C40241",
+      "relatedName": "Cervical Disorder"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C6343",
+      "relatedName": "Cervical Endometrioid Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C6343",
+      "relatedName": "Cervical Endometrioid Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C40218",
+      "relatedName": "Cervical Endometrioid Stromal and Related Neoplasms"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C40218",
+      "relatedName": "Cervical Endometrioid Stromal and Related Neoplasms"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C27623",
+      "relatedName": "Cervical Endometriosis"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C27623",
+      "relatedName": "Cervical Endometriosis"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C40200",
+      "relatedName": "Cervical Fibroepithelial Polyp"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C40200",
+      "relatedName": "Cervical Fibroepithelial Polyp"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C180879",
+      "relatedName": "Cervical Germ Cell Tumor"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C180879",
+      "relatedName": "Cervical Germ Cell Tumor"
+    },
+    {
+      "type": "Anatomic_Structure_Is_Physical_Part_Of",
+      "relatedCode": "C32296",
+      "relatedName": "Cervical Gland"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C7673",
+      "relatedName": "Cervical Glandular Intraepithelial Neoplasia"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C7673",
+      "relatedName": "Cervical Glandular Intraepithelial Neoplasia"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C40210",
+      "relatedName": "Cervical Glandular Neoplasm"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C40210",
+      "relatedName": "Cervical Glandular Neoplasm"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C94676",
+      "relatedName": "Cervical Intraepithelial Neoplasia Grade 2/3"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C94676",
+      "relatedName": "Cervical Intraepithelial Neoplasia Grade 2/3"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C3782",
+      "relatedName": "Cervical Intraepithelial Neoplasia"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C3782",
+      "relatedName": "Cervical Intraepithelial Neoplasia"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C180861",
+      "relatedName": "Cervical Invasive Stratified Mucinous Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C180861",
+      "relatedName": "Cervical Invasive Stratified Mucinous Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C40187",
+      "relatedName": "Cervical Keratinizing Squamous Cell Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C40187",
+      "relatedName": "Cervical Keratinizing Squamous Cell Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C40214",
+      "relatedName": "Cervical Large Cell Neuroendocrine Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C40214",
+      "relatedName": "Cervical Large Cell Neuroendocrine Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C128046",
+      "relatedName": "Cervical Leiomyoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C128046",
+      "relatedName": "Cervical Leiomyoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C128047",
+      "relatedName": "Cervical Leiomyosarcoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C128047",
+      "relatedName": "Cervical Leiomyosarcoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C40222",
+      "relatedName": "Cervical Low Grade Endometrioid Stromal Sarcoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C40222",
+      "relatedName": "Cervical Low Grade Endometrioid Stromal Sarcoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C40193",
+      "relatedName": "Cervical Lymphoepithelioma-Like Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C40193",
+      "relatedName": "Cervical Lymphoepithelioma-Like Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C213739",
+      "relatedName": "Cervical Lymphoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C213739",
+      "relatedName": "Cervical Lymphoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C128050",
+      "relatedName": "Cervical Malignant Peripheral Nerve Sheath Tumor"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C128050",
+      "relatedName": "Cervical Malignant Peripheral Nerve Sheath Tumor"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C40239",
+      "relatedName": "Cervical Melanoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C40239",
+      "relatedName": "Cervical Melanoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C40254",
+      "relatedName": "Cervical Mesonephric Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C40254",
+      "relatedName": "Cervical Mesonephric Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C127931",
+      "relatedName": "Cervical Microglandular Hyperplasia"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C6856",
+      "relatedName": "Cervical Microglandular Polyp"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C6856",
+      "relatedName": "Cervical Microglandular Polyp"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C180864",
+      "relatedName": "Cervical Micropapillary Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C180864",
+      "relatedName": "Cervical Micropapillary Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C40226",
+      "relatedName": "Cervical Mixed Epithelial and Mesenchymal Neoplasm"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C40226",
+      "relatedName": "Cervical Mixed Epithelial and Mesenchymal Neoplasm"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C40203",
+      "relatedName": "Cervical Mucinous Adenocarcinoma, Intestinal-Type"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C40203",
+      "relatedName": "Cervical Mucinous Adenocarcinoma, Intestinal-Type"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C180869",
+      "relatedName": "Cervical Mucinous Adenocarcinoma, Not Otherwise Specified"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C180869",
+      "relatedName": "Cervical Mucinous Adenocarcinoma, Not Otherwise Specified"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C40205",
+      "relatedName": "Cervical Mucinous Adenocarcinoma, Signet Ring Cell-Type"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C40205",
+      "relatedName": "Cervical Mucinous Adenocarcinoma, Signet Ring Cell-Type"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C36095",
+      "relatedName": "Cervical Mucinous Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C36095",
+      "relatedName": "Cervical Mucinous Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C180878",
+      "relatedName": "Cervical Mucoepidermoid Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C180878",
+      "relatedName": "Cervical Mucoepidermoid Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C40215",
+      "relatedName": "Cervical Mullerian Papilloma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C40215",
+      "relatedName": "Cervical Mullerian Papilloma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C2940",
+      "relatedName": "Cervical Neoplasm"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C213638",
+      "relatedName": "Cervical Neuroblastoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C213638",
+      "relatedName": "Cervical Neuroblastoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C128045",
+      "relatedName": "Cervical Neuroendocrine Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C128045",
+      "relatedName": "Cervical Neuroendocrine Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C128041",
+      "relatedName": "Cervical Neuroendocrine Neoplasm"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C128041",
+      "relatedName": "Cervical Neuroendocrine Neoplasm"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C128043",
+      "relatedName": "Cervical Neuroendocrine Tumor G1"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C128043",
+      "relatedName": "Cervical Neuroendocrine Tumor G1"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C128044",
+      "relatedName": "Cervical Neuroendocrine Tumor G2"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C128044",
+      "relatedName": "Cervical Neuroendocrine Tumor G2"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C188221",
+      "relatedName": "Cervical Neuroendocrine Tumor"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C188221",
+      "relatedName": "Cervical Neuroendocrine Tumor"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C40188",
+      "relatedName": "Cervical Non-Keratinizing Squamous Cell Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C40188",
+      "relatedName": "Cervical Non-Keratinizing Squamous Cell Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C27622",
+      "relatedName": "Cervical Non-Neoplastic Disorder"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C27622",
+      "relatedName": "Cervical Non-Neoplastic Disorder"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C206192",
+      "relatedName": "Cervical Non-Squamous Cell Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C206192",
+      "relatedName": "Cervical Non-Squamous Cell Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C40192",
+      "relatedName": "Cervical Papillary Squamous Cell Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C40192",
+      "relatedName": "Cervical Papillary Squamous Cell Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C2939",
+      "relatedName": "Cervical Polyp"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C2939",
+      "relatedName": "Cervical Polyp"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C40212",
+      "relatedName": "Cervical Poorly Differentiated Adenosquamous Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C40212",
+      "relatedName": "Cervical Poorly Differentiated Adenosquamous Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C40266",
+      "relatedName": "Cervical Rhabdomyoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C40266",
+      "relatedName": "Cervical Rhabdomyoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C128048",
+      "relatedName": "Cervical Rhabdomyosarcoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C128048",
+      "relatedName": "Cervical Rhabdomyosarcoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C128054",
+      "relatedName": "Cervical Sarcoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C128054",
+      "relatedName": "Cervical Sarcoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C40201",
+      "relatedName": "Cervical Serous Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C40201",
+      "relatedName": "Cervical Serous Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C7982",
+      "relatedName": "Cervical Small Cell Neuroendocrine Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C7982",
+      "relatedName": "Cervical Small Cell Neuroendocrine Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C40216",
+      "relatedName": "Cervical Soft Tissue Neoplasm"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C40216",
+      "relatedName": "Cervical Soft Tissue Neoplasm"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C40194",
+      "relatedName": "Cervical Squamotransitional Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C40194",
+      "relatedName": "Cervical Squamotransitional Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C7347",
+      "relatedName": "Cervical Squamous Cell Carcinoma In Situ"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C7347",
+      "relatedName": "Cervical Squamous Cell Carcinoma In Situ"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C180839",
+      "relatedName": "Cervical Squamous Cell Carcinoma, Not Otherwise Specified"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C180839",
+      "relatedName": "Cervical Squamous Cell Carcinoma, Not Otherwise Specified"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C4028",
+      "relatedName": "Cervical Squamous Cell Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C4028",
+      "relatedName": "Cervical Squamous Cell Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C40199",
+      "relatedName": "Cervical Squamous Intraepithelial Neoplasia 1"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C40199",
+      "relatedName": "Cervical Squamous Intraepithelial Neoplasia 1"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C40198",
+      "relatedName": "Cervical Squamous Intraepithelial Neoplasia 2"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C40198",
+      "relatedName": "Cervical Squamous Intraepithelial Neoplasia 2"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C7346",
+      "relatedName": "Cervical Squamous Intraepithelial Neoplasia"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C7346",
+      "relatedName": "Cervical Squamous Intraepithelial Neoplasia"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C40195",
+      "relatedName": "Cervical Squamous Neoplasm"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C40195",
+      "relatedName": "Cervical Squamous Neoplasm"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C6342",
+      "relatedName": "Cervical Squamous Papilloma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C6342",
+      "relatedName": "Cervical Squamous Papilloma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C180860",
+      "relatedName": "Cervical Stratified Mucin-Producing Intraepithelial Lesion"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C180860",
+      "relatedName": "Cervical Stratified Mucin-Producing Intraepithelial Lesion"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C6345",
+      "relatedName": "Cervical Undifferentiated Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C6345",
+      "relatedName": "Cervical Undifferentiated Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C40190",
+      "relatedName": "Cervical Verrucous Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C40190",
+      "relatedName": "Cervical Verrucous Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C40208",
+      "relatedName": "Cervical Villoglandular Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C40208",
+      "relatedName": "Cervical Villoglandular Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C40191",
+      "relatedName": "Cervical Warty Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C40191",
+      "relatedName": "Cervical Warty Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C40236",
+      "relatedName": "Cervical Wilms Tumor"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C40236",
+      "relatedName": "Cervical Wilms Tumor"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C128055",
+      "relatedName": "Cervical Yolk Sac Tumor"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C128055",
+      "relatedName": "Cervical Yolk Sac Tumor"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C26716",
+      "relatedName": "Cervicitis"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C26716",
+      "relatedName": "Cervicitis"
+    },
+    {
+      "type": "Anatomic_Structure_Is_Physical_Part_Of",
+      "relatedCode": "C49218",
+      "relatedName": "Cervix Epithelium"
+    },
+    {
+      "type": "Anatomic_Structure_Is_Physical_Part_Of",
+      "relatedCode": "C54414",
+      "relatedName": "Cervix Glandular Epithelium"
+    },
+    {
+      "type": "Anatomic_Structure_Is_Physical_Part_Of",
+      "relatedCode": "C49219",
+      "relatedName": "Cervix Squamous Epithelium"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C27057",
+      "relatedName": "Chronic Cervicitis"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C27057",
+      "relatedName": "Chronic Cervicitis"
+    },
+    {
+      "type": "Procedure_Has_Partially_Excised_Anatomy",
+      "relatedCode": "C173180",
+      "relatedName": "Cold Knife Cone Biopsy"
+    },
+    {
+      "type": "Procedure_Has_Partially_Excised_Anatomy",
+      "relatedCode": "C15703",
+      "relatedName": "Colposcopic Biopsy"
+    },
+    {
+      "type": "Procedure_Has_Target_Anatomy",
+      "relatedCode": "C16451",
+      "relatedName": "Colposcopy"
+    },
+    {
+      "type": "Procedure_Has_Partially_Excised_Anatomy",
+      "relatedCode": "C15402",
+      "relatedName": "Conization"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C36096",
+      "relatedName": "Early Invasive Cervical Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C36096",
+      "relatedName": "Early Invasive Cervical Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C205287",
+      "relatedName": "Early Stage Cervical Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C205287",
+      "relatedName": "Early Stage Cervical Carcinoma"
+    },
+    {
+      "type": "Procedure_Has_Partially_Excised_Anatomy",
+      "relatedCode": "C51630",
+      "relatedName": "Ectocervical Biopsy"
+    },
+    {
+      "type": "Anatomic_Structure_Is_Physical_Part_Of",
+      "relatedCode": "C12310",
+      "relatedName": "Ectocervix"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C127907",
+      "relatedName": "Endocervical Adenocarcinoma, Usual-Type"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C127907",
+      "relatedName": "Endocervical Adenocarcinoma, Usual-Type"
+    },
+    {
+      "type": "Procedure_Has_Partially_Excised_Anatomy",
+      "relatedCode": "C51629",
+      "relatedName": "Endocervical Biopsy"
+    },
+    {
+      "type": "Anatomic_Structure_Is_Physical_Part_Of",
+      "relatedCode": "C96180",
+      "relatedName": "Endocervical Glandular Epithelium"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C34584",
+      "relatedName": "Endocervical Polyp"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C34584",
+      "relatedName": "Endocervical Polyp"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C40224",
+      "relatedName": "Endocervical Undifferentiated Sarcoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C40224",
+      "relatedName": "Endocervical Undifferentiated Sarcoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C26762",
+      "relatedName": "Endocervicitis"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C26762",
+      "relatedName": "Endocervicitis"
+    },
+    {
+      "type": "Anatomic_Structure_Is_Physical_Part_Of",
+      "relatedCode": "C12309",
+      "relatedName": "Endocervix"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C7453",
+      "relatedName": "Exocervical Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C7453",
+      "relatedName": "Exocervical Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C7675",
+      "relatedName": "High Grade Cervical Glandular Intraepithelial Neoplasia"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C7675",
+      "relatedName": "High Grade Cervical Glandular Intraepithelial Neoplasia"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C7670",
+      "relatedName": "High Grade Cervical Intraepithelial Neoplasia"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C7670",
+      "relatedName": "High Grade Cervical Intraepithelial Neoplasia"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C40197",
+      "relatedName": "High Grade Cervical Squamous Intraepithelial Neoplasia"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C40197",
+      "relatedName": "High Grade Cervical Squamous Intraepithelial Neoplasia"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C180846",
+      "relatedName": "Human Papillomavirus-Independent Cervical Adenocarcinoma In Situ"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C180846",
+      "relatedName": "Human Papillomavirus-Independent Cervical Adenocarcinoma In Situ"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C6344",
+      "relatedName": "Human Papillomavirus-Independent Cervical Adenocarcinoma, Clear Cell-Type"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C6344",
+      "relatedName": "Human Papillomavirus-Independent Cervical Adenocarcinoma, Clear Cell-Type"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C40206",
+      "relatedName": "Human Papillomavirus-Independent Cervical Adenocarcinoma, Gastric-Type"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C40206",
+      "relatedName": "Human Papillomavirus-Independent Cervical Adenocarcinoma, Gastric-Type"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C180848",
+      "relatedName": "Human Papillomavirus-Independent Cervical Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C180848",
+      "relatedName": "Human Papillomavirus-Independent Cervical Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C180841",
+      "relatedName": "Human Papillomavirus-Independent Cervical Squamous Cell Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C180841",
+      "relatedName": "Human Papillomavirus-Independent Cervical Squamous Cell Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C180845",
+      "relatedName": "Human Papillomavirus-Related Cervical Adenocarcinoma In Situ"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C180845",
+      "relatedName": "Human Papillomavirus-Related Cervical Adenocarcinoma In Situ"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C27677",
+      "relatedName": "Human Papillomavirus-Related Cervical Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C27677",
+      "relatedName": "Human Papillomavirus-Related Cervical Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C27675",
+      "relatedName": "Human Papillomavirus-Related Cervical Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C27675",
+      "relatedName": "Human Papillomavirus-Related Cervical Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C27676",
+      "relatedName": "Human Papillomavirus-Related Cervical Squamous Cell Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C27676",
+      "relatedName": "Human Papillomavirus-Related Cervical Squamous Cell Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C78360",
+      "relatedName": "Infectious Cervicitis"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C78360",
+      "relatedName": "Infectious Cervicitis"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C8577",
+      "relatedName": "Invasive Cervical Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C8577",
+      "relatedName": "Invasive Cervical Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C156297",
+      "relatedName": "Locally Advanced Cervical Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C156297",
+      "relatedName": "Locally Advanced Cervical Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C206426",
+      "relatedName": "Locally Advanced Cervical Adenosquamous Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C206426",
+      "relatedName": "Locally Advanced Cervical Adenosquamous Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C156295",
+      "relatedName": "Locally Advanced Cervical Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C156295",
+      "relatedName": "Locally Advanced Cervical Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C206200",
+      "relatedName": "Locally Advanced Cervical Non-Squamous Cell Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C206200",
+      "relatedName": "Locally Advanced Cervical Non-Squamous Cell Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C174505",
+      "relatedName": "Locally Advanced Cervical Squamous Cell Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C174505",
+      "relatedName": "Locally Advanced Cervical Squamous Cell Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C156299",
+      "relatedName": "Locally Advanced Unresectable Cervical Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C156299",
+      "relatedName": "Locally Advanced Unresectable Cervical Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C156300",
+      "relatedName": "Locally Advanced Unresectable Cervical Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C156300",
+      "relatedName": "Locally Advanced Unresectable Cervical Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C217316",
+      "relatedName": "Locally Recurrent Cervical Squamous Cell Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C217316",
+      "relatedName": "Locally Recurrent Cervical Squamous Cell Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C7674",
+      "relatedName": "Low Grade Cervical Glandular Intraepithelial Neoplasia"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C7674",
+      "relatedName": "Low Grade Cervical Glandular Intraepithelial Neoplasia"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C4630",
+      "relatedName": "Low Grade Cervical Intraepithelial Neoplasia"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C4630",
+      "relatedName": "Low Grade Cervical Intraepithelial Neoplasia"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C40196",
+      "relatedName": "Low Grade Cervical Squamous Intraepithelial Neoplasia"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C40196",
+      "relatedName": "Low Grade Cervical Squamous Intraepithelial Neoplasia"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C9311",
+      "relatedName": "Malignant Cervical Neoplasm"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C3553",
+      "relatedName": "Malignant Endocervical Neoplasm"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C3554",
+      "relatedName": "Malignant Exocervical Neoplasm"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C40228",
+      "relatedName": "Malignant Mixed Epithelial and Mesenchymal Neoplasm of the Cervix"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C40228",
+      "relatedName": "Malignant Mixed Epithelial and Mesenchymal Neoplasm of the Cervix"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C6334",
+      "relatedName": "Metastatic Carcinoma in the Uterine Cervix"
+    },
+    {
+      "type": "Disease_Has_Metastatic_Anatomic_Site",
+      "relatedCode": "C6334",
+      "relatedName": "Metastatic Carcinoma in the Uterine Cervix"
+    },
+    {
+      "type": "Disease_Has_Metastatic_Anatomic_Site",
+      "relatedCode": "C6334",
+      "relatedName": "Metastatic Carcinoma in the Uterine Cervix"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C153389",
+      "relatedName": "Metastatic Cervical Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C153389",
+      "relatedName": "Metastatic Cervical Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C153390",
+      "relatedName": "Metastatic Cervical Adenosquamous Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C153390",
+      "relatedName": "Metastatic Cervical Adenosquamous Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C153387",
+      "relatedName": "Metastatic Cervical Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C153387",
+      "relatedName": "Metastatic Cervical Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C206195",
+      "relatedName": "Metastatic Cervical Non-Squamous Cell Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C206195",
+      "relatedName": "Metastatic Cervical Non-Squamous Cell Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C153388",
+      "relatedName": "Metastatic Cervical Squamous Cell Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C153388",
+      "relatedName": "Metastatic Cervical Squamous Cell Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C6385",
+      "relatedName": "Metastatic Malignant Neoplasm in the Uterine Cervix"
+    },
+    {
+      "type": "Disease_Has_Metastatic_Anatomic_Site",
+      "relatedCode": "C6385",
+      "relatedName": "Metastatic Malignant Neoplasm in the Uterine Cervix"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C36094",
+      "relatedName": "Microinvasive Cervical Squamous Cell Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C36094",
+      "relatedName": "Microinvasive Cervical Squamous Cell Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C34826",
+      "relatedName": "Mucous Polyp of Cervix"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C34826",
+      "relatedName": "Mucous Polyp of Cervix"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C214997",
+      "relatedName": "Platinum-Resistant Cervical Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C214997",
+      "relatedName": "Platinum-Resistant Cervical Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C136651",
+      "relatedName": "Recurrent Cervical Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C136651",
+      "relatedName": "Recurrent Cervical Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C136650",
+      "relatedName": "Recurrent Cervical Adenosquamous Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C136650",
+      "relatedName": "Recurrent Cervical Adenosquamous Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C7804",
+      "relatedName": "Recurrent Cervical Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C7804",
+      "relatedName": "Recurrent Cervical Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C206197",
+      "relatedName": "Recurrent Cervical Non-Squamous Cell Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C206197",
+      "relatedName": "Recurrent Cervical Non-Squamous Cell Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C136649",
+      "relatedName": "Recurrent Cervical Squamous Cell Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C136649",
+      "relatedName": "Recurrent Cervical Squamous Cell Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C153573",
+      "relatedName": "Recurrent Endocervical Adenocarcinoma, Usual-Type"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C153573",
+      "relatedName": "Recurrent Endocervical Adenocarcinoma, Usual-Type"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C9269",
+      "relatedName": "Recurrent Malignant Endocervical Neoplasm"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C214999",
+      "relatedName": "Recurrent Platinum-Resistant Cervical Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C214999",
+      "relatedName": "Recurrent Platinum-Resistant Cervical Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C181036",
+      "relatedName": "Refractory Cervical Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C181036",
+      "relatedName": "Refractory Cervical Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C206202",
+      "relatedName": "Refractory Cervical Adenosquamous Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C206202",
+      "relatedName": "Refractory Cervical Adenosquamous Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C170513",
+      "relatedName": "Refractory Cervical Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C170513",
+      "relatedName": "Refractory Cervical Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C206198",
+      "relatedName": "Refractory Cervical Non-Squamous Cell Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C206198",
+      "relatedName": "Refractory Cervical Non-Squamous Cell Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C181035",
+      "relatedName": "Refractory Cervical Squamous Cell Carcinoma, Not Otherwise Specified"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C181035",
+      "relatedName": "Refractory Cervical Squamous Cell Carcinoma, Not Otherwise Specified"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C181034",
+      "relatedName": "Refractory Cervical Squamous Cell Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C181034",
+      "relatedName": "Refractory Cervical Squamous Cell Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C205308",
+      "relatedName": "Resectable Cervical Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C205308",
+      "relatedName": "Resectable Cervical Carcinoma"
+    },
+    {
+      "type": "Anatomic_Structure_Has_Location",
+      "relatedCode": "C97148",
+      "relatedName": "Squamocolumnar Junction"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C4000",
+      "relatedName": "Stage 0 Cervical Cancer AJCC v6"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C4000",
+      "relatedName": "Stage 0 Cervical Cancer AJCC v6"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C89550",
+      "relatedName": "Stage 0 Cervical Cancer AJCC v7"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C89550",
+      "relatedName": "Stage 0 Cervical Cancer AJCC v7"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C9204",
+      "relatedName": "Stage I Cervical Cancer AJCC v6 and v7"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C9204",
+      "relatedName": "Stage I Cervical Cancer AJCC v6 and v7"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C139734",
+      "relatedName": "Stage I Cervical Cancer AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C139734",
+      "relatedName": "Stage I Cervical Cancer AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C181564",
+      "relatedName": "Stage I Cervical Cancer AJCC v9"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C181564",
+      "relatedName": "Stage I Cervical Cancer AJCC v9"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C186620",
+      "relatedName": "Stage I Cervical Cancer FIGO 2009"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C186620",
+      "relatedName": "Stage I Cervical Cancer FIGO 2009"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C162226",
+      "relatedName": "Stage I Cervical Cancer FIGO 2018"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C162226",
+      "relatedName": "Stage I Cervical Cancer FIGO 2018"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C6313",
+      "relatedName": "Stage IA Cervical Cancer AJCC v6 and v7"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C6313",
+      "relatedName": "Stage IA Cervical Cancer AJCC v6 and v7"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C139735",
+      "relatedName": "Stage IA Cervical Cancer AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C139735",
+      "relatedName": "Stage IA Cervical Cancer AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C181565",
+      "relatedName": "Stage IA Cervical Cancer AJCC v9"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C181565",
+      "relatedName": "Stage IA Cervical Cancer AJCC v9"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C186621",
+      "relatedName": "Stage IA Cervical Cancer FIGO 2009"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C186621",
+      "relatedName": "Stage IA Cervical Cancer FIGO 2009"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C162227",
+      "relatedName": "Stage IA Cervical Cancer FIGO 2018"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C162227",
+      "relatedName": "Stage IA Cervical Cancer FIGO 2018"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C6314",
+      "relatedName": "Stage IA1 Cervical Cancer AJCC v6 and v7"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C6314",
+      "relatedName": "Stage IA1 Cervical Cancer AJCC v6 and v7"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C139736",
+      "relatedName": "Stage IA1 Cervical Cancer AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C139736",
+      "relatedName": "Stage IA1 Cervical Cancer AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C181567",
+      "relatedName": "Stage IA1 Cervical Cancer AJCC v9"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C181567",
+      "relatedName": "Stage IA1 Cervical Cancer AJCC v9"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C186622",
+      "relatedName": "Stage IA1 Cervical Cancer FIGO 2009"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C186622",
+      "relatedName": "Stage IA1 Cervical Cancer FIGO 2009"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C162228",
+      "relatedName": "Stage IA1 Cervical Cancer FIGO 2018"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C162228",
+      "relatedName": "Stage IA1 Cervical Cancer FIGO 2018"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C6315",
+      "relatedName": "Stage IA2 Cervical Cancer AJCC v6 and v7"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C6315",
+      "relatedName": "Stage IA2 Cervical Cancer AJCC v6 and v7"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C139737",
+      "relatedName": "Stage IA2 Cervical Cancer AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C139737",
+      "relatedName": "Stage IA2 Cervical Cancer AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C181568",
+      "relatedName": "Stage IA2 Cervical Cancer AJCC v9"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C181568",
+      "relatedName": "Stage IA2 Cervical Cancer AJCC v9"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C186623",
+      "relatedName": "Stage IA2 Cervical Cancer FIGO 2009"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C186623",
+      "relatedName": "Stage IA2 Cervical Cancer FIGO 2009"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C162229",
+      "relatedName": "Stage IA2 Cervical Cancer FIGO 2018"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C162229",
+      "relatedName": "Stage IA2 Cervical Cancer FIGO 2018"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C6316",
+      "relatedName": "Stage IB Cervical Cancer AJCC v6 and v7"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C6316",
+      "relatedName": "Stage IB Cervical Cancer AJCC v6 and v7"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C139738",
+      "relatedName": "Stage IB Cervical Cancer AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C139738",
+      "relatedName": "Stage IB Cervical Cancer AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C181570",
+      "relatedName": "Stage IB Cervical Cancer AJCC v9"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C181570",
+      "relatedName": "Stage IB Cervical Cancer AJCC v9"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C186624",
+      "relatedName": "Stage IB Cervical Cancer FIGO 2009"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C186624",
+      "relatedName": "Stage IB Cervical Cancer FIGO 2009"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C162230",
+      "relatedName": "Stage IB Cervical Cancer FIGO 2018"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C162230",
+      "relatedName": "Stage IB Cervical Cancer FIGO 2018"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C6317",
+      "relatedName": "Stage IB1 Cervical Cancer AJCC v6 and v7"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C6317",
+      "relatedName": "Stage IB1 Cervical Cancer AJCC v6 and v7"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C139739",
+      "relatedName": "Stage IB1 Cervical Cancer AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C139739",
+      "relatedName": "Stage IB1 Cervical Cancer AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C181571",
+      "relatedName": "Stage IB1 Cervical Cancer AJCC v9"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C181571",
+      "relatedName": "Stage IB1 Cervical Cancer AJCC v9"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C186625",
+      "relatedName": "Stage IB1 Cervical Cancer FIGO 2009"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C186625",
+      "relatedName": "Stage IB1 Cervical Cancer FIGO 2009"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C162231",
+      "relatedName": "Stage IB1 Cervical Cancer FIGO 2018"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C162231",
+      "relatedName": "Stage IB1 Cervical Cancer FIGO 2018"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C6318",
+      "relatedName": "Stage IB2 Cervical Cancer AJCC v6 and v7"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C6318",
+      "relatedName": "Stage IB2 Cervical Cancer AJCC v6 and v7"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C139740",
+      "relatedName": "Stage IB2 Cervical Cancer AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C139740",
+      "relatedName": "Stage IB2 Cervical Cancer AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C181576",
+      "relatedName": "Stage IB2 Cervical Cancer AJCC v9"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C181576",
+      "relatedName": "Stage IB2 Cervical Cancer AJCC v9"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C186626",
+      "relatedName": "Stage IB2 Cervical Cancer FIGO 2009"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C186626",
+      "relatedName": "Stage IB2 Cervical Cancer FIGO 2009"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C162232",
+      "relatedName": "Stage IB2 Cervical Cancer FIGO 2018"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C162232",
+      "relatedName": "Stage IB2 Cervical Cancer FIGO 2018"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C181579",
+      "relatedName": "Stage IB3 Cervical Cancer AJCC v9"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C181579",
+      "relatedName": "Stage IB3 Cervical Cancer AJCC v9"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C162233",
+      "relatedName": "Stage IB3 Cervical Cancer FIGO 2018"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C162233",
+      "relatedName": "Stage IB3 Cervical Cancer FIGO 2018"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C7803",
+      "relatedName": "Stage II Cervical Cancer AJCC v6"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C7803",
+      "relatedName": "Stage II Cervical Cancer AJCC v6"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C89551",
+      "relatedName": "Stage II Cervical Cancer AJCC v7"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C89551",
+      "relatedName": "Stage II Cervical Cancer AJCC v7"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C139743",
+      "relatedName": "Stage II Cervical Cancer AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C139743",
+      "relatedName": "Stage II Cervical Cancer AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C181583",
+      "relatedName": "Stage II Cervical Cancer AJCC v9"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C181583",
+      "relatedName": "Stage II Cervical Cancer AJCC v9"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C186627",
+      "relatedName": "Stage II Cervical Cancer FIGO 2009"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C186627",
+      "relatedName": "Stage II Cervical Cancer FIGO 2009"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C162234",
+      "relatedName": "Stage II Cervical Cancer FIGO 2018"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C162234",
+      "relatedName": "Stage II Cervical Cancer FIGO 2018"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C6319",
+      "relatedName": "Stage IIA Cervical Cancer AJCC v6"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C6319",
+      "relatedName": "Stage IIA Cervical Cancer AJCC v6"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C89552",
+      "relatedName": "Stage IIA Cervical Cancer AJCC v7"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C89552",
+      "relatedName": "Stage IIA Cervical Cancer AJCC v7"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C139744",
+      "relatedName": "Stage IIA Cervical Cancer AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C139744",
+      "relatedName": "Stage IIA Cervical Cancer AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C181584",
+      "relatedName": "Stage IIA Cervical Cancer AJCC v9"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C181584",
+      "relatedName": "Stage IIA Cervical Cancer AJCC v9"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C186628",
+      "relatedName": "Stage IIA Cervical Cancer FIGO 2009"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C186628",
+      "relatedName": "Stage IIA Cervical Cancer FIGO 2009"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C162235",
+      "relatedName": "Stage IIA Cervical Cancer FIGO 2018"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C162235",
+      "relatedName": "Stage IIA Cervical Cancer FIGO 2018"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C95172",
+      "relatedName": "Stage IIA1 Cervical Cancer AJCC v7"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C95172",
+      "relatedName": "Stage IIA1 Cervical Cancer AJCC v7"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C139745",
+      "relatedName": "Stage IIA1 Cervical Cancer AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C139745",
+      "relatedName": "Stage IIA1 Cervical Cancer AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C181586",
+      "relatedName": "Stage IIA1 Cervical Cancer AJCC v9"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C181586",
+      "relatedName": "Stage IIA1 Cervical Cancer AJCC v9"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C186629",
+      "relatedName": "Stage IIA1 Cervical Cancer FIGO 2009"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C186629",
+      "relatedName": "Stage IIA1 Cervical Cancer FIGO 2009"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C162236",
+      "relatedName": "Stage IIA1 Cervical Cancer FIGO 2018"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C162236",
+      "relatedName": "Stage IIA1 Cervical Cancer FIGO 2018"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C95173",
+      "relatedName": "Stage IIA2 Cervical Cancer AJCC v7"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C95173",
+      "relatedName": "Stage IIA2 Cervical Cancer AJCC v7"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C139746",
+      "relatedName": "Stage IIA2 Cervical Cancer AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C139746",
+      "relatedName": "Stage IIA2 Cervical Cancer AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C181588",
+      "relatedName": "Stage IIA2 Cervical Cancer AJCC v9"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C181588",
+      "relatedName": "Stage IIA2 Cervical Cancer AJCC v9"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C186630",
+      "relatedName": "Stage IIA2 Cervical Cancer FIGO 2009"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C186630",
+      "relatedName": "Stage IIA2 Cervical Cancer FIGO 2009"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C162237",
+      "relatedName": "Stage IIA2 Cervical Cancer FIGO 2018"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C162237",
+      "relatedName": "Stage IIA2 Cervical Cancer FIGO 2018"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C6320",
+      "relatedName": "Stage IIB Cervical Cancer AJCC v6 and v7"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C6320",
+      "relatedName": "Stage IIB Cervical Cancer AJCC v6 and v7"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C139748",
+      "relatedName": "Stage IIB Cervical Cancer AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C139748",
+      "relatedName": "Stage IIB Cervical Cancer AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C181591",
+      "relatedName": "Stage IIB Cervical Cancer AJCC v9"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C181591",
+      "relatedName": "Stage IIB Cervical Cancer AJCC v9"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C186631",
+      "relatedName": "Stage IIB Cervical Cancer FIGO 2009"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C186631",
+      "relatedName": "Stage IIB Cervical Cancer FIGO 2009"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C162238",
+      "relatedName": "Stage IIB Cervical Cancer FIGO 2018"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C162238",
+      "relatedName": "Stage IIB Cervical Cancer FIGO 2018"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C9205",
+      "relatedName": "Stage III Cervical Cancer AJCC v6 and v7"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C9205",
+      "relatedName": "Stage III Cervical Cancer AJCC v6 and v7"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C139749",
+      "relatedName": "Stage III Cervical Cancer AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C139749",
+      "relatedName": "Stage III Cervical Cancer AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C181592",
+      "relatedName": "Stage III Cervical Cancer AJCC v9"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C181592",
+      "relatedName": "Stage III Cervical Cancer AJCC v9"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C186632",
+      "relatedName": "Stage III Cervical Cancer FIGO 2009"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C186632",
+      "relatedName": "Stage III Cervical Cancer FIGO 2009"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C162239",
+      "relatedName": "Stage III Cervical Cancer FIGO 2018"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C162239",
+      "relatedName": "Stage III Cervical Cancer FIGO 2018"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C6322",
+      "relatedName": "Stage IIIA Cervical Cancer AJCC v6 and v7"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C6322",
+      "relatedName": "Stage IIIA Cervical Cancer AJCC v6 and v7"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C139750",
+      "relatedName": "Stage IIIA Cervical Cancer AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C139750",
+      "relatedName": "Stage IIIA Cervical Cancer AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C181594",
+      "relatedName": "Stage IIIA Cervical Cancer AJCC v9"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C181594",
+      "relatedName": "Stage IIIA Cervical Cancer AJCC v9"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C186633",
+      "relatedName": "Stage IIIA Cervical Cancer FIGO 2009"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C186633",
+      "relatedName": "Stage IIIA Cervical Cancer FIGO 2009"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C162240",
+      "relatedName": "Stage IIIA Cervical Cancer FIGO 2018"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C162240",
+      "relatedName": "Stage IIIA Cervical Cancer FIGO 2018"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C6321",
+      "relatedName": "Stage IIIB Cervical Cancer AJCC v6 and v7"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C6321",
+      "relatedName": "Stage IIIB Cervical Cancer AJCC v6 and v7"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C139752",
+      "relatedName": "Stage IIIB Cervical Cancer AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C139752",
+      "relatedName": "Stage IIIB Cervical Cancer AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C181595",
+      "relatedName": "Stage IIIB Cervical Cancer AJCC v9"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C181595",
+      "relatedName": "Stage IIIB Cervical Cancer AJCC v9"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C186634",
+      "relatedName": "Stage IIIB Cervical Cancer FIGO 2009"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C186634",
+      "relatedName": "Stage IIIB Cervical Cancer FIGO 2009"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C162241",
+      "relatedName": "Stage IIIB Cervical Cancer FIGO 2018"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C162241",
+      "relatedName": "Stage IIIB Cervical Cancer FIGO 2018"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C181596",
+      "relatedName": "Stage IIIC Cervical Cancer AJCC v9"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C181596",
+      "relatedName": "Stage IIIC Cervical Cancer AJCC v9"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C162242",
+      "relatedName": "Stage IIIC Cervical Cancer FIGO 2018"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C162242",
+      "relatedName": "Stage IIIC Cervical Cancer FIGO 2018"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C181597",
+      "relatedName": "Stage IIIC1 Cervical Cancer AJCC v9"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C181597",
+      "relatedName": "Stage IIIC1 Cervical Cancer AJCC v9"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C162243",
+      "relatedName": "Stage IIIC1 Cervical Cancer FIGO 2018"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C162243",
+      "relatedName": "Stage IIIC1 Cervical Cancer FIGO 2018"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C181598",
+      "relatedName": "Stage IIIC2 Cervical Cancer AJCC v9"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C181598",
+      "relatedName": "Stage IIIC2 Cervical Cancer AJCC v9"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C162244",
+      "relatedName": "Stage IIIC2 Cervical Cancer FIGO 2018"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C162244",
+      "relatedName": "Stage IIIC2 Cervical Cancer FIGO 2018"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C9206",
+      "relatedName": "Stage IV Cervical Cancer AJCC v6 and v7"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C9206",
+      "relatedName": "Stage IV Cervical Cancer AJCC v6 and v7"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C139753",
+      "relatedName": "Stage IV Cervical Cancer AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C139753",
+      "relatedName": "Stage IV Cervical Cancer AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C181599",
+      "relatedName": "Stage IV Cervical Cancer AJCC v9"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C181599",
+      "relatedName": "Stage IV Cervical Cancer AJCC v9"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C186635",
+      "relatedName": "Stage IV Cervical Cancer FIGO 2009"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C186635",
+      "relatedName": "Stage IV Cervical Cancer FIGO 2009"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C162245",
+      "relatedName": "Stage IV Cervical Cancer FIGO 2018"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C162245",
+      "relatedName": "Stage IV Cervical Cancer FIGO 2018"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C6323",
+      "relatedName": "Stage IVA Cervical Cancer AJCC v6 and v7"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C6323",
+      "relatedName": "Stage IVA Cervical Cancer AJCC v6 and v7"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C139754",
+      "relatedName": "Stage IVA Cervical Cancer AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C139754",
+      "relatedName": "Stage IVA Cervical Cancer AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C181601",
+      "relatedName": "Stage IVA Cervical Cancer AJCC v9"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C181601",
+      "relatedName": "Stage IVA Cervical Cancer AJCC v9"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C186636",
+      "relatedName": "Stage IVA Cervical Cancer FIGO 2009"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C186636",
+      "relatedName": "Stage IVA Cervical Cancer FIGO 2009"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C162246",
+      "relatedName": "Stage IVA Cervical Cancer FIGO 2018"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C162246",
+      "relatedName": "Stage IVA Cervical Cancer FIGO 2018"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C6324",
+      "relatedName": "Stage IVB Cervical Cancer AJCC v6 and v7"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C6324",
+      "relatedName": "Stage IVB Cervical Cancer AJCC v6 and v7"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C139755",
+      "relatedName": "Stage IVB Cervical Cancer AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C139755",
+      "relatedName": "Stage IVB Cervical Cancer AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C181603",
+      "relatedName": "Stage IVB Cervical Cancer AJCC v9"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C181603",
+      "relatedName": "Stage IVB Cervical Cancer AJCC v9"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C186637",
+      "relatedName": "Stage IVB Cervical Cancer FIGO 2009"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C186637",
+      "relatedName": "Stage IVB Cervical Cancer FIGO 2009"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C162247",
+      "relatedName": "Stage IVB Cervical Cancer FIGO 2018"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C162247",
+      "relatedName": "Stage IVB Cervical Cancer FIGO 2018"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C174029",
+      "relatedName": "Unresectable Cervical Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C174029",
+      "relatedName": "Unresectable Cervical Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C174027",
+      "relatedName": "Unresectable Cervical Adenosquamous Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C174027",
+      "relatedName": "Unresectable Cervical Adenosquamous Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C174024",
+      "relatedName": "Unresectable Cervical Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C174024",
+      "relatedName": "Unresectable Cervical Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C206203",
+      "relatedName": "Unresectable Cervical Non-Squamous Cell Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C206203",
+      "relatedName": "Unresectable Cervical Non-Squamous Cell Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C174025",
+      "relatedName": "Unresectable Cervical Squamous Cell Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C174025",
+      "relatedName": "Unresectable Cervical Squamous Cell Carcinoma"
+    }
+  ],
+  "history": [
+    {
+      "code": "C12311",
+      "action": "create",
+      "date": "2003-08-12"
+    },
+    {
+      "code": "C12311",
+      "action": "modify",
+      "date": "2003-10-31"
+    },
+    {
+      "code": "C12311",
+      "action": "modify",
+      "date": "2003-12-30"
+    },
+    {
+      "code": "C12311",
+      "action": "modify",
+      "date": "2004-02-23"
+    },
+    {
+      "code": "C12311",
+      "action": "modify",
+      "date": "2004-03-30"
+    },
+    {
+      "code": "C12311",
+      "action": "modify",
+      "date": "2004-04-30"
+    },
+    {
+      "code": "C12311",
+      "action": "modify",
+      "date": "2005-03-16"
+    },
+    {
+      "code": "C12311",
+      "action": "modify",
+      "date": "2005-03-30"
+    },
+    {
+      "code": "C12311",
+      "action": "modify",
+      "date": "2008-06-27"
+    },
+    {
+      "code": "C12311",
+      "action": "modify",
+      "date": "2008-09-12"
+    },
+    {
+      "code": "C12311",
+      "action": "modify",
+      "date": "2008-11-14"
+    },
+    {
+      "code": "C12311",
+      "action": "modify",
+      "date": "2008-11-26"
+    },
+    {
+      "code": "C12311",
+      "action": "modify",
+      "date": "2008-12-19"
+    },
+    {
+      "code": "C12311",
+      "action": "modify",
+      "date": "2008-11-07"
+    },
+    {
+      "code": "C12311",
+      "action": "modify",
+      "date": "2009-01-26"
+    },
+    {
+      "code": "C12311",
+      "action": "modify",
+      "date": "2009-11-23"
+    },
+    {
+      "code": "C12311",
+      "action": "modify",
+      "date": "2011-02-28"
+    },
+    {
+      "code": "C12311",
+      "action": "modify",
+      "date": "2011-04-25"
+    },
+    {
+      "code": "C12311",
+      "action": "modify",
+      "date": "2011-05-02"
+    },
+    {
+      "code": "C12311",
+      "action": "modify",
+      "date": "2011-05-09"
+    },
+    {
+      "code": "C12311",
+      "action": "modify",
+      "date": "2011-05-16"
+    },
+    {
+      "code": "C12311",
+      "action": "modify",
+      "date": "2011-05-23"
+    },
+    {
+      "code": "C12311",
+      "action": "modify",
+      "date": "2011-05-31"
+    },
+    {
+      "code": "C12311",
+      "action": "modify",
+      "date": "2011-06-06"
+    },
+    {
+      "code": "C12311",
+      "action": "modify",
+      "date": "2011-06-13"
+    },
+    {
+      "code": "C12311",
+      "action": "modify",
+      "date": "2011-06-20"
+    },
+    {
+      "code": "C12311",
+      "action": "modify",
+      "date": "2011-06-27"
+    },
+    {
+      "code": "C12311",
+      "action": "modify",
+      "date": "2011-07-18"
+    },
+    {
+      "code": "C12311",
+      "action": "modify",
+      "date": "2011-07-25"
+    },
+    {
+      "code": "C12311",
+      "action": "modify",
+      "date": "2011-08-01"
+    },
+    {
+      "code": "C12311",
+      "action": "modify",
+      "date": "2011-08-08"
+    },
+    {
+      "code": "C12311",
+      "action": "modify",
+      "date": "2011-08-15"
+    },
+    {
+      "code": "C12311",
+      "action": "modify",
+      "date": "2011-08-22"
+    },
+    {
+      "code": "C12311",
+      "action": "modify",
+      "date": "2011-08-29"
+    },
+    {
+      "code": "C12311",
+      "action": "modify",
+      "date": "2011-09-06"
+    },
+    {
+      "code": "C12311",
+      "action": "modify",
+      "date": "2011-09-12"
+    },
+    {
+      "code": "C12311",
+      "action": "modify",
+      "date": "2011-09-19"
+    },
+    {
+      "code": "C12311",
+      "action": "modify",
+      "date": "2011-09-26"
+    },
+    {
+      "code": "C12311",
+      "action": "modify",
+      "date": "2011-10-03"
+    },
+    {
+      "code": "C12311",
+      "action": "modify",
+      "date": "2011-10-11"
+    },
+    {
+      "code": "C12311",
+      "action": "modify",
+      "date": "2011-10-17"
+    },
+    {
+      "code": "C12311",
+      "action": "modify",
+      "date": "2011-10-24"
+    },
+    {
+      "code": "C12311",
+      "action": "modify",
+      "date": "2011-10-31"
+    },
+    {
+      "code": "C12311",
+      "action": "modify",
+      "date": "2011-11-07"
+    },
+    {
+      "code": "C12311",
+      "action": "modify",
+      "date": "2011-11-14"
+    },
+    {
+      "code": "C12311",
+      "action": "modify",
+      "date": "2011-11-21"
+    },
+    {
+      "code": "C12311",
+      "action": "modify",
+      "date": "2011-11-28"
+    },
+    {
+      "code": "C12311",
+      "action": "modify",
+      "date": "2011-12-05"
+    },
+    {
+      "code": "C12311",
+      "action": "modify",
+      "date": "2011-12-12"
+    },
+    {
+      "code": "C12311",
+      "action": "modify",
+      "date": "2011-12-19"
+    },
+    {
+      "code": "C12311",
+      "action": "modify",
+      "date": "2011-12-27"
+    },
+    {
+      "code": "C12311",
+      "action": "modify",
+      "date": "2012-01-09"
+    },
+    {
+      "code": "C12311",
+      "action": "modify",
+      "date": "2012-01-17"
+    },
+    {
+      "code": "C12311",
+      "action": "modify",
+      "date": "2012-01-23"
+    },
+    {
+      "code": "C12311",
+      "action": "modify",
+      "date": "2012-01-30"
+    },
+    {
+      "code": "C12311",
+      "action": "modify",
+      "date": "2012-02-06"
+    },
+    {
+      "code": "C12311",
+      "action": "modify",
+      "date": "2012-02-13"
+    },
+    {
+      "code": "C12311",
+      "action": "modify",
+      "date": "2012-02-21"
+    },
+    {
+      "code": "C12311",
+      "action": "modify",
+      "date": "2012-02-27"
+    },
+    {
+      "code": "C12311",
+      "action": "modify",
+      "date": "2012-03-05"
+    },
+    {
+      "code": "C12311",
+      "action": "modify",
+      "date": "2012-03-12"
+    },
+    {
+      "code": "C12311",
+      "action": "modify",
+      "date": "2012-03-19"
+    },
+    {
+      "code": "C12311",
+      "action": "modify",
+      "date": "2012-03-26"
+    },
+    {
+      "code": "C12311",
+      "action": "modify",
+      "date": "2012-04-02"
+    },
+    {
+      "code": "C12311",
+      "action": "modify",
+      "date": "2012-04-09"
+    },
+    {
+      "code": "C12311",
+      "action": "modify",
+      "date": "2012-04-16"
+    },
+    {
+      "code": "C12311",
+      "action": "modify",
+      "date": "2012-04-23"
+    },
+    {
+      "code": "C12311",
+      "action": "modify",
+      "date": "2012-04-30"
+    },
+    {
+      "code": "C12311",
+      "action": "modify",
+      "date": "2012-05-07"
+    },
+    {
+      "code": "C12311",
+      "action": "modify",
+      "date": "2012-05-14"
+    },
+    {
+      "code": "C12311",
+      "action": "modify",
+      "date": "2012-05-21"
+    },
+    {
+      "code": "C12311",
+      "action": "modify",
+      "date": "2012-05-29"
+    },
+    {
+      "code": "C12311",
+      "action": "modify",
+      "date": "2012-06-04"
+    },
+    {
+      "code": "C12311",
+      "action": "modify",
+      "date": "2012-06-11"
+    },
+    {
+      "code": "C12311",
+      "action": "modify",
+      "date": "2012-06-18"
+    },
+    {
+      "code": "C12311",
+      "action": "modify",
+      "date": "2012-06-18"
+    },
+    {
+      "code": "C12311",
+      "action": "modify",
+      "date": "2012-06-25"
+    },
+    {
+      "code": "C12311",
+      "action": "modify",
+      "date": "2012-07-03"
+    },
+    {
+      "code": "C12311",
+      "action": "modify",
+      "date": "2012-07-16"
+    },
+    {
+      "code": "C12311",
+      "action": "modify",
+      "date": "2012-07-23"
+    },
+    {
+      "code": "C12311",
+      "action": "modify",
+      "date": "2012-07-30"
+    },
+    {
+      "code": "C12311",
+      "action": "modify",
+      "date": "2012-08-06"
+    },
+    {
+      "code": "C12311",
+      "action": "modify",
+      "date": "2012-08-13"
+    },
+    {
+      "code": "C12311",
+      "action": "modify",
+      "date": "2012-08-20"
+    },
+    {
+      "code": "C12311",
+      "action": "modify",
+      "date": "2012-08-27"
+    },
+    {
+      "code": "C12311",
+      "action": "modify",
+      "date": "2012-09-04"
+    },
+    {
+      "code": "C12311",
+      "action": "modify",
+      "date": "2012-09-10"
+    },
+    {
+      "code": "C12311",
+      "action": "modify",
+      "date": "2012-09-17"
+    },
+    {
+      "code": "C12311",
+      "action": "modify",
+      "date": "2012-09-24"
+    },
+    {
+      "code": "C12311",
+      "action": "modify",
+      "date": "2012-10-01"
+    },
+    {
+      "code": "C12311",
+      "action": "modify",
+      "date": "2012-10-09"
+    },
+    {
+      "code": "C12311",
+      "action": "modify",
+      "date": "2012-10-15"
+    },
+    {
+      "code": "C12311",
+      "action": "modify",
+      "date": "2012-10-22"
+    },
+    {
+      "code": "C12311",
+      "action": "modify",
+      "date": "2012-10-31"
+    },
+    {
+      "code": "C12311",
+      "action": "modify",
+      "date": "2012-11-05"
+    },
+    {
+      "code": "C12311",
+      "action": "modify",
+      "date": "2012-11-13"
+    },
+    {
+      "code": "C12311",
+      "action": "modify",
+      "date": "2012-11-19"
+    },
+    {
+      "code": "C12311",
+      "action": "modify",
+      "date": "2012-11-26"
+    },
+    {
+      "code": "C12311",
+      "action": "modify",
+      "date": "2012-12-03"
+    },
+    {
+      "code": "C12311",
+      "action": "modify",
+      "date": "2012-12-10"
+    },
+    {
+      "code": "C12311",
+      "action": "modify",
+      "date": "2012-12-17"
+    },
+    {
+      "code": "C12311",
+      "action": "modify",
+      "date": "2012-12-28"
+    },
+    {
+      "code": "C12311",
+      "action": "modify",
+      "date": "2013-01-07"
+    },
+    {
+      "code": "C12311",
+      "action": "modify",
+      "date": "2013-01-14"
+    },
+    {
+      "code": "C12311",
+      "action": "modify",
+      "date": "2013-01-23"
+    },
+    {
+      "code": "C12311",
+      "action": "modify",
+      "date": "2013-02-04"
+    },
+    {
+      "code": "C12311",
+      "action": "modify",
+      "date": "2013-02-11"
+    },
+    {
+      "code": "C12311",
+      "action": "modify",
+      "date": "2013-02-19"
+    },
+    {
+      "code": "C12311",
+      "action": "modify",
+      "date": "2013-02-25"
+    },
+    {
+      "code": "C12311",
+      "action": "modify",
+      "date": "2013-03-04"
+    },
+    {
+      "code": "C12311",
+      "action": "modify",
+      "date": "2013-03-11"
+    },
+    {
+      "code": "C12311",
+      "action": "modify",
+      "date": "2013-03-18"
+    },
+    {
+      "code": "C12311",
+      "action": "modify",
+      "date": "2013-03-25"
+    },
+    {
+      "code": "C12311",
+      "action": "modify",
+      "date": "2013-04-01"
+    },
+    {
+      "code": "C12311",
+      "action": "modify",
+      "date": "2013-04-08"
+    },
+    {
+      "code": "C12311",
+      "action": "modify",
+      "date": "2013-04-15"
+    },
+    {
+      "code": "C12311",
+      "action": "modify",
+      "date": "2013-04-22"
+    },
+    {
+      "code": "C12311",
+      "action": "modify",
+      "date": "2013-04-29"
+    },
+    {
+      "code": "C12311",
+      "action": "modify",
+      "date": "2013-05-06"
+    },
+    {
+      "code": "C12311",
+      "action": "modify",
+      "date": "2013-05-13"
+    },
+    {
+      "code": "C12311",
+      "action": "modify",
+      "date": "2013-05-20"
+    },
+    {
+      "code": "C12311",
+      "action": "modify",
+      "date": "2013-05-28"
+    },
+    {
+      "code": "C12311",
+      "action": "modify",
+      "date": "2013-06-03"
+    },
+    {
+      "code": "C12311",
+      "action": "modify",
+      "date": "2013-06-10"
+    },
+    {
+      "code": "C12311",
+      "action": "modify",
+      "date": "2013-06-17"
+    },
+    {
+      "code": "C12311",
+      "action": "modify",
+      "date": "2013-06-24"
+    },
+    {
+      "code": "C12311",
+      "action": "modify",
+      "date": "2013-07-01"
+    },
+    {
+      "code": "C12311",
+      "action": "modify",
+      "date": "2013-07-08"
+    },
+    {
+      "code": "C12311",
+      "action": "modify",
+      "date": "2015-05-26"
+    },
+    {
+      "code": "C12311",
+      "action": "modify",
+      "date": "2015-06-01"
+    },
+    {
+      "code": "C12311",
+      "action": "modify",
+      "date": "2015-06-08"
+    },
+    {
+      "code": "C12311",
+      "action": "modify",
+      "date": "2015-06-15"
+    },
+    {
+      "code": "C12311",
+      "action": "modify",
+      "date": "2015-06-22"
+    },
+    {
+      "code": "C12311",
+      "action": "modify",
+      "date": "2015-06-29"
+    },
+    {
+      "code": "C12311",
+      "action": "modify",
+      "date": "2015-07-06"
+    },
+    {
+      "code": "C12311",
+      "action": "modify",
+      "date": "2015-07-13"
+    },
+    {
+      "code": "C12311",
+      "action": "modify",
+      "date": "2015-08-12"
+    },
+    {
+      "code": "C12311",
+      "action": "modify",
+      "date": "2015-08-24"
+    },
+    {
+      "code": "C12311",
+      "action": "modify",
+      "date": "2015-08-31"
+    },
+    {
+      "code": "C12311",
+      "action": "modify",
+      "date": "2015-10-19"
+    },
+    {
+      "code": "C12311",
+      "action": "modify",
+      "date": "2016-10-17"
+    },
+    {
+      "code": "C12311",
+      "action": "modify",
+      "date": "2017-02-27"
+    },
+    {
+      "code": "C12311",
+      "action": "modify",
+      "date": "2017-03-13"
+    },
+    {
+      "code": "C12311",
+      "action": "modify",
+      "date": "2018-09-24"
+    },
+    {
+      "code": "C12311",
+      "action": "modify",
+      "date": "2018-10-29"
+    },
+    {
+      "code": "C12311",
+      "action": "modify",
+      "date": "2018-10-29"
+    },
+    {
+      "code": "C12311",
+      "action": "modify",
+      "date": "2019-04-29"
+    },
+    {
+      "code": "C12311",
+      "action": "modify",
+      "date": "2019-05-28"
+    },
+    {
+      "code": "C12311",
+      "action": "modify",
+      "date": "2019-06-24"
+    },
+    {
+      "code": "C12311",
+      "action": "modify",
+      "date": "2019-07-29"
+    },
+    {
+      "code": "C12311",
+      "action": "modify",
+      "date": "2019-09-30"
+    },
+    {
+      "code": "C12311",
+      "action": "modify",
+      "date": "2019-10-28"
+    },
+    {
+      "code": "C12311",
+      "action": "modify",
+      "date": "2020-02-24"
+    },
+    {
+      "code": "C12311",
+      "action": "modify",
+      "date": "2020-03-30"
+    },
+    {
+      "code": "C12311",
+      "action": "modify",
+      "date": "2020-09-29"
+    },
+    {
+      "code": "C12311",
+      "action": "modify",
+      "date": "2021-02-22"
+    },
+    {
+      "code": "C12311",
+      "action": "modify",
+      "date": "2021-03-29"
+    },
+    {
+      "code": "C12311",
+      "action": "modify",
+      "date": "2021-06-28"
+    },
+    {
+      "code": "C12311",
+      "action": "modify",
+      "date": "2021-11-29"
+    },
+    {
+      "code": "C12311",
+      "action": "modify",
+      "date": "2022-08-29"
+    },
+    {
+      "code": "C12311",
+      "action": "modify",
+      "date": "2022-10-31"
+    },
+    {
+      "code": "C12311",
+      "action": "modify",
+      "date": "2023-02-27"
+    },
+    {
+      "code": "C12311",
+      "action": "modify",
+      "date": "2023-03-27"
+    },
+    {
+      "code": "C12311",
+      "action": "modify",
+      "date": "2023-05-30"
+    },
+    {
+      "code": "C12311",
+      "action": "modify",
+      "date": "2023-09-25"
+    },
+    {
+      "code": "C12311",
+      "action": "modify",
+      "date": "2024-07-08"
+    },
+    {
+      "code": "C12311",
+      "action": "modify",
+      "date": "2024-11-25"
+    }
+  ],
+  "maps": [
+    {
+      "type": "Related To",
+      "targetName": "CERVIX UTERI",
+      "targetTermType": "HT",
+      "targetCode": "C53",
+      "targetTerminology": "ICDO3",
+      "targetTerminologyVersion": "3.2"
+    },
+    {
+      "type": "Related To",
+      "targetName": "CERVIX UTERI",
+      "targetTermType": "HT",
+      "targetCode": "C53",
+      "targetTerminology": "ICDO3",
+      "targetTerminologyVersion": "3.1"
+    },
+    {
+      "type": "Related To",
+      "targetName": "Cervix uteri",
+      "targetTermType": "PT",
+      "targetCode": "C53.9",
+      "targetTerminology": "ICDO3",
+      "targetTerminologyVersion": "3.1"
+    },
+    {
+      "type": "Related To",
+      "targetName": "Cervix uteri",
+      "targetTermType": "PT",
+      "targetCode": "C53.9",
+      "targetTerminology": "ICDO3",
+      "targetTerminologyVersion": "3.2"
+    },
+    {
+      "type": "Has Synonym",
+      "targetName": "Cervix Uteri",
+      "targetTermType": "PT",
+      "targetCode": "imaging_anatomic_site",
+      "targetTerminology": "GDC"
+    },
+    {
+      "type": "Has Synonym",
+      "targetName": "Cervix Uteri",
+      "targetTermType": "PT",
+      "targetCode": "margins_involved_site",
+      "targetTerminology": "GDC"
+    },
+    {
+      "type": "Has Synonym",
+      "targetName": "Cervix uteri",
+      "targetTermType": "PT",
+      "targetCode": "primary_site",
+      "targetTerminology": "GDC"
+    },
+    {
+      "type": "Has Synonym",
+      "targetName": "Cervix uteri",
+      "targetTermType": "PT",
+      "targetCode": "progression_or_recurrence_anatomic_site",
+      "targetTerminology": "GDC"
+    },
+    {
+      "type": "Has Synonym",
+      "targetName": "Cervix uteri",
+      "targetTermType": "PT",
+      "targetCode": "site_of_resection_or_biopsy",
+      "targetTerminology": "GDC"
+    },
+    {
+      "type": "Has Synonym",
+      "targetName": "Cervix uteri",
+      "targetTermType": "PT",
+      "targetCode": "tissue_or_organ_of_origin",
+      "targetTerminology": "GDC"
+    },
+    {
+      "type": "Related To",
+      "targetName": "Cervix, NOS",
+      "targetTermType": "SY",
+      "targetCode": "C53.9",
+      "targetTerminology": "ICDO3",
+      "targetTerminologyVersion": "3.2"
+    },
+    {
+      "type": "Related To",
+      "targetName": "Cervix, NOS",
+      "targetTermType": "SY",
+      "targetCode": "C53.9",
+      "targetTerminology": "ICDO3",
+      "targetTerminologyVersion": "3.1"
+    },
+    {
+      "type": "Has Synonym",
+      "targetName": "Cervix",
+      "targetTermType": "PT",
+      "targetCode": "biospecimen_anatomic_site",
+      "targetTerminology": "GDC"
+    },
+    {
+      "type": "Has Synonym",
+      "targetName": "Cervix",
+      "targetTermType": "PT",
+      "targetCode": "sites_of_involvement",
+      "targetTerminology": "GDC"
+    },
+    {
+      "type": "Has Synonym",
+      "targetName": "Cervix",
+      "targetTermType": "PT",
+      "targetCode": "treatment_anatomic_sites",
+      "targetTerminology": "GDC"
+    },
+    {
+      "type": "Related To",
+      "targetName": "Uterine cervix",
+      "targetTermType": "SY",
+      "targetCode": "C53.9",
+      "targetTerminology": "ICDO3",
+      "targetTerminologyVersion": "3.1"
+    },
+    {
+      "type": "Related To",
+      "targetName": "Uterine cervix",
+      "targetTermType": "SY",
+      "targetCode": "C53.9",
+      "targetTerminology": "ICDO3",
+      "targetTerminologyVersion": "3.2"
+    }
+  ]
+}

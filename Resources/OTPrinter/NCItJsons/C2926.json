@@ -1,0 +1,1046 @@
+{
+  "code": "C2926",
+  "name": "Lung Non-Small Cell Carcinoma",
+  "terminology": "ncit",
+  "version": "25.11d",
+  "conceptStatus": "DEFAULT",
+  "leaf": false,
+  "active": true,
+  "synonyms": [
+    {
+      "name": "Lung Non-Small Cell Carcinoma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "Cellosaurus"
+    },
+    {
+      "name": "Lung Non-Small Cell Carcinoma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "CPTAC"
+    },
+    {
+      "name": "Non-small cell lung cancer, NOS",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "CTEP",
+      "code": "10029514",
+      "subSource": "SDC"
+    },
+    {
+      "name": "Non-Small Cell Lung Cancer",
+      "termType": "DN",
+      "type": "FULL_SYN",
+      "source": "CTRP"
+    },
+    {
+      "name": "non-small cell lung cancer",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NCI-GLOSS",
+      "code": "CDR0000045323"
+    },
+    {
+      "name": "Lung Non-Small Cell Carcinoma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Non Small Cell Lung Cancer NOS",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Non-Small Cell Cancer of Lung",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Non-Small Cell Cancer of the Lung",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Non-Small Cell Carcinoma of Lung",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Non-Small Cell Carcinoma of the Lung",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Non-Small Cell Lung Cancer",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Non-Small Cell Lung Carcinoma",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "NSCLC",
+      "termType": "AB",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "NSCLC - Non-Small Cell Lung Cancer",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Non-Small Cell Lung Carcinoma",
+      "type": "Display_Name"
+    },
+    {
+      "name": "Lung Non-Small Cell Carcinoma",
+      "type": "Preferred_Name"
+    }
+  ],
+  "definitions": [
+    {
+      "definition": "A group of at least three distinct histological types of lung cancer, including non-small cell squamous cell carcinoma, adenocarcinoma, and large cell carcinoma. Non-small cell lung carcinomas have a poor response to conventional chemotherapy.",
+      "type": "DEFINITION",
+      "source": "NCI"
+    },
+    {
+      "definition": "A group of lung cancers that are named for the kinds of cells found in the cancer and how the cells look under a microscope. The three main types of non-small cell lung cancer are squamous cell carcinoma, large cell carcinoma, and adenocarcinoma. Non-small cell lung cancer is the most common kind of lung cancer.",
+      "type": "ALT_DEFINITION",
+      "source": "NCI-GLOSS"
+    }
+  ],
+  "properties": [
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "Cellosaurus"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "CPTAC"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "CTEP"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "CTRP"
+    },
+    {
+      "code": "P366",
+      "type": "Legacy Concept Name",
+      "value": "Non-Small_Cell_Lung_Carcinoma"
+    },
+    {
+      "code": "P363",
+      "type": "Neoplastic_Status",
+      "value": "Malignant"
+    },
+    {
+      "code": "P106",
+      "type": "Semantic_Type",
+      "value": "Neoplastic Process"
+    },
+    {
+      "code": "P207",
+      "type": "UMLS_CUI",
+      "value": "C0007131"
+    }
+  ],
+  "children": [
+    {
+      "code": "C215346",
+      "name": "ALK-Positive Lung Non-Small Cell Carcinoma",
+      "leaf": true
+    },
+    {
+      "code": "C118814",
+      "name": "Childhood Lung Non-Small Cell Carcinoma",
+      "leaf": true
+    },
+    {
+      "code": "C205303",
+      "name": "Early Stage Lung Non-Small Cell Carcinoma",
+      "leaf": true
+    },
+    {
+      "code": "C202131",
+      "name": "EGFR-Positive Lung Non-Small Cell Carcinoma",
+      "leaf": false
+    },
+    {
+      "code": "C215011",
+      "name": "HER2-Positive Lung Non-Small Cell Carcinoma",
+      "leaf": true
+    },
+    {
+      "code": "C9133",
+      "name": "Lung Adenosquamous Carcinoma",
+      "leaf": false
+    },
+    {
+      "code": "C4450",
+      "name": "Lung Large Cell Carcinoma",
+      "leaf": false
+    },
+    {
+      "code": "C45519",
+      "name": "Lung Lymphoepithelial Carcinoma",
+      "leaf": true
+    },
+    {
+      "code": "C136491",
+      "name": "Lung Non-Small Cell Cancer by AJCC v7 Stage",
+      "leaf": false
+    },
+    {
+      "code": "C223188",
+      "name": "Lung Non-Small Cell Carcinoma, Not Otherwise Specified",
+      "leaf": true
+    },
+    {
+      "code": "C133254",
+      "name": "Lung Non-Small Cell Squamous Carcinoma",
+      "leaf": false
+    },
+    {
+      "code": "C135017",
+      "name": "Lung Non-Squamous Non-Small Cell Carcinoma",
+      "leaf": false
+    },
+    {
+      "code": "C45540",
+      "name": "Lung Sarcomatoid Carcinoma",
+      "leaf": false
+    },
+    {
+      "code": "C156094",
+      "name": "Metastatic Lung Non-Small Cell Carcinoma",
+      "leaf": false
+    },
+    {
+      "code": "C9038",
+      "name": "Occult Lung Non-Small Cell Carcinoma",
+      "leaf": false
+    },
+    {
+      "code": "C7783",
+      "name": "Recurrent Lung Non-Small Cell Carcinoma",
+      "leaf": false
+    },
+    {
+      "code": "C153081",
+      "name": "Refractory Lung Non-Small Cell Carcinoma",
+      "leaf": false
+    },
+    {
+      "code": "C165767",
+      "name": "Resectable Lung Non-Small Cell Carcinoma",
+      "leaf": false
+    },
+    {
+      "code": "C155901",
+      "name": "Unresectable Lung Non-Small Cell Carcinoma",
+      "leaf": false
+    }
+  ],
+  "parents": [
+    {
+      "code": "C4878",
+      "name": "Lung Carcinoma"
+    },
+    {
+      "code": "C65151",
+      "name": "Non-Small Cell Carcinoma"
+    }
+  ],
+  "associations": [
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C165258",
+      "relatedName": "Cellosaurus Disease Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C138188",
+      "relatedName": "Clinical Trials Search-Application Programming Interface Disease Category Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C158520",
+      "relatedName": "CPTAC Codelists Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C156966",
+      "relatedName": "CPTAC Neoplasms Codelist"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C156952",
+      "relatedName": "CPTAC Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C118168",
+      "relatedName": "CTRP Disease Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C175325",
+      "relatedName": "CTRP Portfolio Management Subtype Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C116977",
+      "relatedName": "CTRP Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C138190",
+      "relatedName": "CTS-API Disease Main Type Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C103090",
+      "relatedName": "NCI CTEP SDC Non-Small Cell Lung Cancer Sub-Category Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C102905",
+      "relatedName": "NCI CTEP Simplified Disease Classification Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C126659",
+      "relatedName": "NCIt Neoplasm Core Terminology"
+    },
+    {
+      "type": "Neoplasm_Has_Special_Category",
+      "relatedCode": "C9292",
+      "relatedName": "Solid Neoplasm"
+    }
+  ],
+  "roles": [
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C36122",
+      "relatedName": "Benign Cellular Infiltrate"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C54172",
+      "relatedName": "Carcinomatous Component Present"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C12578",
+      "relatedName": "Epithelial Cell"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C53596",
+      "relatedName": "Epithelial Component Present"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C45714",
+      "relatedName": "Epithelial Tissue"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12468",
+      "relatedName": "Lung"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12468",
+      "relatedName": "Lung"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12917",
+      "relatedName": "Malignant Cell"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C36115",
+      "relatedName": "Malignant Cellular Infiltrate"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36779",
+      "relatedName": "Malignant Epithelial Cell"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C36795",
+      "relatedName": "Malignant Epithelial Small Cell"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C36795",
+      "relatedName": "Malignant Epithelial Small Cell"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C37153",
+      "relatedName": "Malignant Stromal Cell"
+    },
+    {
+      "type": "Disease_Excludes_Primary_Anatomic_Site",
+      "relatedCode": "C13063",
+      "relatedName": "Neck"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12922",
+      "relatedName": "Neoplastic Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36753",
+      "relatedName": "Neoplastic Epithelial Cell"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C36937",
+      "relatedName": "Neoplastic Smooth Muscle Cell"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C42624",
+      "relatedName": "Premalignant Lesion"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12779",
+      "relatedName": "Respiratory System"
+    },
+    {
+      "type": "Disease_Excludes_Primary_Anatomic_Site",
+      "relatedCode": "C12470",
+      "relatedName": "Skin"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12905",
+      "relatedName": "Thoracic Cavity"
+    },
+    {
+      "type": "Disease_May_Have_Molecular_Abnormality",
+      "relatedCode": "C36329",
+      "relatedName": "TP53 Gene Inactivation"
+    },
+    {
+      "type": "Disease_Mapped_To_Gene",
+      "relatedCode": "C17359",
+      "relatedName": "TP53 Gene"
+    }
+  ],
+  "inverseRoles": [
+    {
+      "type": "Regimen_Has_Accepted_Use_For_Disease",
+      "relatedCode": "C166389",
+      "relatedName": "Atezolizumab/Carboplatin/Nab-paclitaxel Regimen"
+    },
+    {
+      "type": "Regimen_Has_Accepted_Use_For_Disease",
+      "relatedCode": "C192895",
+      "relatedName": "Bevacizumab/Carboplatin/Docetaxel Regimen"
+    },
+    {
+      "type": "Regimen_Has_Accepted_Use_For_Disease",
+      "relatedCode": "C63413",
+      "relatedName": "Bevacizumab/Carboplatin/Paclitaxel Regimen"
+    },
+    {
+      "type": "Regimen_Has_Accepted_Use_For_Disease",
+      "relatedCode": "C136281",
+      "relatedName": "Bevacizumab/Carboplatin/Pemetrexed Regimen"
+    },
+    {
+      "type": "Regimen_Has_Accepted_Use_For_Disease",
+      "relatedCode": "C136282",
+      "relatedName": "Bevacizumab/Cisplatin/Pemetrexed Regimen"
+    },
+    {
+      "type": "Regimen_Has_Accepted_Use_For_Disease",
+      "relatedCode": "C203537",
+      "relatedName": "Carboplatin/Cemiplimab/Paclitaxel Regimen"
+    },
+    {
+      "type": "Regimen_Has_Accepted_Use_For_Disease",
+      "relatedCode": "C203539",
+      "relatedName": "Carboplatin/Cemiplimab/Pemetrexed Regimen"
+    },
+    {
+      "type": "Regimen_Has_Accepted_Use_For_Disease",
+      "relatedCode": "C63631",
+      "relatedName": "Carboplatin/Docetaxel Regimen"
+    },
+    {
+      "type": "Regimen_Has_Accepted_Use_For_Disease",
+      "relatedCode": "C63410",
+      "relatedName": "Carboplatin/Gemcitabine Regimen"
+    },
+    {
+      "type": "Regimen_Has_Accepted_Use_For_Disease",
+      "relatedCode": "C136283",
+      "relatedName": "Carboplatin/Nab-paclitaxel Regimen"
+    },
+    {
+      "type": "Regimen_Has_Accepted_Use_For_Disease",
+      "relatedCode": "C157619",
+      "relatedName": "Carboplatin/Nab-Paclitaxel/Pembrolizumab Regimen"
+    },
+    {
+      "type": "Regimen_Has_Accepted_Use_For_Disease",
+      "relatedCode": "C204763",
+      "relatedName": "Carboplatin/Osimertinib/Pemetrexed Regimen"
+    },
+    {
+      "type": "Regimen_Has_Accepted_Use_For_Disease",
+      "relatedCode": "C63402",
+      "relatedName": "Carboplatin/Paclitaxel Regimen"
+    },
+    {
+      "type": "Regimen_Has_Accepted_Use_For_Disease",
+      "relatedCode": "C136284",
+      "relatedName": "Carboplatin/Pemetrexed Regimen"
+    },
+    {
+      "type": "Regimen_Has_Accepted_Use_For_Disease",
+      "relatedCode": "C63761",
+      "relatedName": "Carboplatin/Vinorelbine Regimen"
+    },
+    {
+      "type": "Regimen_Has_Accepted_Use_For_Disease",
+      "relatedCode": "C203538",
+      "relatedName": "Cisplatin/Cemiplimab/Paclitaxel Regimen"
+    },
+    {
+      "type": "Regimen_Has_Accepted_Use_For_Disease",
+      "relatedCode": "C203540",
+      "relatedName": "Cisplatin/Cemiplimab/Pemetrexed Regimen"
+    },
+    {
+      "type": "Regimen_Has_Accepted_Use_For_Disease",
+      "relatedCode": "C63405",
+      "relatedName": "Cisplatin/Docetaxel Regimen"
+    },
+    {
+      "type": "Regimen_Has_Accepted_Use_For_Disease",
+      "relatedCode": "C63406",
+      "relatedName": "Cisplatin/Gemcitabine Regimen"
+    },
+    {
+      "type": "Regimen_Has_Accepted_Use_For_Disease",
+      "relatedCode": "C157618",
+      "relatedName": "Cisplatin/Nab-Paclitaxel/Pembrolizumab Regimen"
+    },
+    {
+      "type": "Regimen_Has_Accepted_Use_For_Disease",
+      "relatedCode": "C204764",
+      "relatedName": "Cisplatin/Osimertinib/Pemetrexed Regimen"
+    },
+    {
+      "type": "Regimen_Has_Accepted_Use_For_Disease",
+      "relatedCode": "C63404",
+      "relatedName": "Cisplatin/Paclitaxel Regimen"
+    },
+    {
+      "type": "Regimen_Has_Accepted_Use_For_Disease",
+      "relatedCode": "C158033",
+      "relatedName": "Cisplatin/Paclitaxel/Pembrolizumab Regimen"
+    },
+    {
+      "type": "Regimen_Has_Accepted_Use_For_Disease",
+      "relatedCode": "C157397",
+      "relatedName": "Cisplatin/Pembrolizumab/Pemetrexed Regimen"
+    },
+    {
+      "type": "Regimen_Has_Accepted_Use_For_Disease",
+      "relatedCode": "C63632",
+      "relatedName": "Cisplatin/Vinblastine Regimen"
+    },
+    {
+      "type": "Gene_Associated_With_Disease",
+      "relatedCode": "C28567",
+      "relatedName": "CTLA4 Gene"
+    },
+    {
+      "type": "Gene_Associated_With_Disease",
+      "relatedCode": "C51345",
+      "relatedName": "CTLA4 wt Allele"
+    },
+    {
+      "type": "Gene_Product_Malfunction_Associated_With_Disease",
+      "relatedCode": "C17489",
+      "relatedName": "Cytotoxic T-Lymphocyte Protein 4"
+    },
+    {
+      "type": "Regimen_Has_Accepted_Use_For_Disease",
+      "relatedCode": "C63687",
+      "relatedName": "Docetaxel/Gemcitabine Regimen"
+    },
+    {
+      "type": "Regimen_Has_Accepted_Use_For_Disease",
+      "relatedCode": "C136285",
+      "relatedName": "Docetaxel/Ramucirumab Regimen"
+    },
+    {
+      "type": "Regimen_Has_Accepted_Use_For_Disease",
+      "relatedCode": "C156355",
+      "relatedName": "Docetaxel/Vandetanib Regimen"
+    },
+    {
+      "type": "Regimen_Has_Accepted_Use_For_Disease",
+      "relatedCode": "C63382",
+      "relatedName": "EP Regimen"
+    },
+    {
+      "type": "Regimen_Has_Accepted_Use_For_Disease",
+      "relatedCode": "C63412",
+      "relatedName": "Gemcitabine/Vinorelbine Regimen"
+    },
+    {
+      "type": "Regimen_Has_Accepted_Use_For_Disease",
+      "relatedCode": "C158079",
+      "relatedName": "GTP Regimen"
+    },
+    {
+      "type": "Gene_Associated_With_Disease",
+      "relatedCode": "C81747",
+      "relatedName": "MIR182 Gene"
+    },
+    {
+      "type": "Gene_Associated_With_Disease",
+      "relatedCode": "C82124",
+      "relatedName": "MIR182 wt Allele"
+    },
+    {
+      "type": "Regimen_Has_Accepted_Use_For_Disease",
+      "relatedCode": "C63408",
+      "relatedName": "MVP Regimen"
+    },
+    {
+      "type": "Gene_Associated_With_Disease",
+      "relatedCode": "C24668",
+      "relatedName": "PDGFRL Gene"
+    },
+    {
+      "type": "Gene_Associated_With_Disease",
+      "relatedCode": "C54395",
+      "relatedName": "PDGFRL wt Allele"
+    },
+    {
+      "type": "Regimen_Has_Accepted_Use_For_Disease",
+      "relatedCode": "C157398",
+      "relatedName": "Pembrolizumab/Pemetrexed Regimen"
+    },
+    {
+      "type": "Gene_Product_Malfunction_Associated_With_Disease",
+      "relatedCode": "C30165",
+      "relatedName": "Platelet-Derived Growth Factor Receptor-Like Protein"
+    }
+  ],
+  "history": [
+    {
+      "code": "C2926",
+      "action": "create",
+      "date": "2003-08-12"
+    },
+    {
+      "code": "C2926",
+      "action": "modify",
+      "date": "2003-10-31"
+    },
+    {
+      "code": "C2926",
+      "action": "modify",
+      "date": "2003-12-30"
+    },
+    {
+      "code": "C2926",
+      "action": "modify",
+      "date": "2004-03-30"
+    },
+    {
+      "code": "C2926",
+      "action": "modify",
+      "date": "2005-04-29"
+    },
+    {
+      "code": "C2926",
+      "action": "modify",
+      "date": "2005-06-24"
+    },
+    {
+      "code": "C2926",
+      "action": "modify",
+      "date": "2006-01-03"
+    },
+    {
+      "code": "C2926",
+      "action": "modify",
+      "date": "2006-03-31"
+    },
+    {
+      "code": "C2926",
+      "action": "modify",
+      "date": "2006-04-28"
+    },
+    {
+      "code": "C2926",
+      "action": "modify",
+      "date": "2007-03-30"
+    },
+    {
+      "code": "C2926",
+      "action": "modify",
+      "date": "2009-11-23"
+    },
+    {
+      "code": "C2926",
+      "action": "modify",
+      "date": "2011-02-07"
+    },
+    {
+      "code": "C2926",
+      "action": "modify",
+      "date": "2011-10-31"
+    },
+    {
+      "code": "C2926",
+      "action": "modify",
+      "date": "2012-09-24"
+    },
+    {
+      "code": "C2926",
+      "action": "modify",
+      "date": "2012-10-01"
+    },
+    {
+      "code": "C2926",
+      "action": "modify",
+      "date": "2012-10-09"
+    },
+    {
+      "code": "C2926",
+      "action": "modify",
+      "date": "2012-10-15"
+    },
+    {
+      "code": "C2926",
+      "action": "modify",
+      "date": "2012-10-22"
+    },
+    {
+      "code": "C2926",
+      "action": "modify",
+      "date": "2012-10-31"
+    },
+    {
+      "code": "C2926",
+      "action": "modify",
+      "date": "2012-11-05"
+    },
+    {
+      "code": "C2926",
+      "action": "modify",
+      "date": "2012-11-13"
+    },
+    {
+      "code": "C2926",
+      "action": "modify",
+      "date": "2012-11-19"
+    },
+    {
+      "code": "C2926",
+      "action": "modify",
+      "date": "2012-11-26"
+    },
+    {
+      "code": "C2926",
+      "action": "modify",
+      "date": "2012-12-03"
+    },
+    {
+      "code": "C2926",
+      "action": "modify",
+      "date": "2012-12-10"
+    },
+    {
+      "code": "C2926",
+      "action": "modify",
+      "date": "2012-12-17"
+    },
+    {
+      "code": "C2926",
+      "action": "modify",
+      "date": "2012-12-28"
+    },
+    {
+      "code": "C2926",
+      "action": "modify",
+      "date": "2013-01-07"
+    },
+    {
+      "code": "C2926",
+      "action": "modify",
+      "date": "2013-01-14"
+    },
+    {
+      "code": "C2926",
+      "action": "modify",
+      "date": "2013-01-23"
+    },
+    {
+      "code": "C2926",
+      "action": "modify",
+      "date": "2013-02-04"
+    },
+    {
+      "code": "C2926",
+      "action": "modify",
+      "date": "2013-02-11"
+    },
+    {
+      "code": "C2926",
+      "action": "modify",
+      "date": "2013-02-19"
+    },
+    {
+      "code": "C2926",
+      "action": "modify",
+      "date": "2013-02-25"
+    },
+    {
+      "code": "C2926",
+      "action": "modify",
+      "date": "2013-03-04"
+    },
+    {
+      "code": "C2926",
+      "action": "modify",
+      "date": "2013-03-11"
+    },
+    {
+      "code": "C2926",
+      "action": "modify",
+      "date": "2013-03-18"
+    },
+    {
+      "code": "C2926",
+      "action": "modify",
+      "date": "2013-03-25"
+    },
+    {
+      "code": "C2926",
+      "action": "modify",
+      "date": "2013-04-01"
+    },
+    {
+      "code": "C2926",
+      "action": "modify",
+      "date": "2013-04-08"
+    },
+    {
+      "code": "C2926",
+      "action": "modify",
+      "date": "2013-04-15"
+    },
+    {
+      "code": "C2926",
+      "action": "modify",
+      "date": "2013-04-22"
+    },
+    {
+      "code": "C2926",
+      "action": "modify",
+      "date": "2013-04-29"
+    },
+    {
+      "code": "C2926",
+      "action": "modify",
+      "date": "2013-05-06"
+    },
+    {
+      "code": "C2926",
+      "action": "modify",
+      "date": "2013-05-13"
+    },
+    {
+      "code": "C2926",
+      "action": "modify",
+      "date": "2013-05-20"
+    },
+    {
+      "code": "C2926",
+      "action": "modify",
+      "date": "2013-05-28"
+    },
+    {
+      "code": "C2926",
+      "action": "modify",
+      "date": "2013-06-03"
+    },
+    {
+      "code": "C2926",
+      "action": "modify",
+      "date": "2013-06-10"
+    },
+    {
+      "code": "C2926",
+      "action": "modify",
+      "date": "2013-06-17"
+    },
+    {
+      "code": "C2926",
+      "action": "modify",
+      "date": "2013-06-24"
+    },
+    {
+      "code": "C2926",
+      "action": "modify",
+      "date": "2013-07-01"
+    },
+    {
+      "code": "C2926",
+      "action": "modify",
+      "date": "2013-07-08"
+    },
+    {
+      "code": "C2926",
+      "action": "modify",
+      "date": "2014-02-03"
+    },
+    {
+      "code": "C2926",
+      "action": "modify",
+      "date": "2014-03-10"
+    },
+    {
+      "code": "C2926",
+      "action": "modify",
+      "date": "2014-08-25"
+    },
+    {
+      "code": "C2926",
+      "action": "modify",
+      "date": "2014-09-22"
+    },
+    {
+      "code": "C2926",
+      "action": "modify",
+      "date": "2014-10-27"
+    },
+    {
+      "code": "C2926",
+      "action": "modify",
+      "date": "2016-04-25"
+    },
+    {
+      "code": "C2926",
+      "action": "modify",
+      "date": "2016-09-20"
+    },
+    {
+      "code": "C2926",
+      "action": "modify",
+      "date": "2017-04-10"
+    },
+    {
+      "code": "C2926",
+      "action": "modify",
+      "date": "2017-07-31"
+    },
+    {
+      "code": "C2926",
+      "action": "modify",
+      "date": "2017-09-26"
+    },
+    {
+      "code": "C2926",
+      "action": "modify",
+      "date": "2018-02-26"
+    },
+    {
+      "code": "C2926",
+      "action": "modify",
+      "date": "2018-07-30"
+    },
+    {
+      "code": "C2926",
+      "action": "modify",
+      "date": "2018-08-27"
+    },
+    {
+      "code": "C2926",
+      "action": "modify",
+      "date": "2018-08-27"
+    },
+    {
+      "code": "C2926",
+      "action": "modify",
+      "date": "2018-09-24"
+    },
+    {
+      "code": "C2926",
+      "action": "modify",
+      "date": "2019-02-25"
+    },
+    {
+      "code": "C2926",
+      "action": "modify",
+      "date": "2019-03-25"
+    },
+    {
+      "code": "C2926",
+      "action": "modify",
+      "date": "2019-05-28"
+    },
+    {
+      "code": "C2926",
+      "action": "modify",
+      "date": "2019-10-28"
+    },
+    {
+      "code": "C2926",
+      "action": "modify",
+      "date": "2020-10-26"
+    },
+    {
+      "code": "C2926",
+      "action": "modify",
+      "date": "2023-02-27"
+    },
+    {
+      "code": "C2926",
+      "action": "modify",
+      "date": "2023-11-27"
+    },
+    {
+      "code": "C2926",
+      "action": "modify",
+      "date": "2025-03-31"
+    }
+  ]
+}

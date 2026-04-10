@@ -1,0 +1,612 @@
+{
+  "code": "C38342",
+  "name": "Pancreatic Intraductal Papillary-Mucinous Neoplasm",
+  "terminology": "ncit",
+  "version": "25.11d",
+  "conceptStatus": "DEFAULT",
+  "leaf": false,
+  "active": true,
+  "synonyms": [
+    {
+      "name": "Pancreatic Intraductal Papillary-Mucinous Neoplasm",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "Cellosaurus"
+    },
+    {
+      "name": "Pancreatic Intraductal Papillary-Mucinous Tumor",
+      "termType": "DN",
+      "type": "FULL_SYN",
+      "source": "CTRP"
+    },
+    {
+      "name": "Pancreatic Intraductal Papillary-Mucinous Neoplasm",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Pancreatic Intraductal Papillary-Mucinous Tumor",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Pancreatic IPMN",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Pancreatic Intraductal Papillary-Mucinous Neoplasm",
+      "type": "Display_Name"
+    },
+    {
+      "name": "Pancreatic Intraductal Papillary-Mucinous Neoplasm",
+      "type": "Preferred_Name"
+    }
+  ],
+  "definitions": [
+    {
+      "definition": "A usually slow-growing epithelial neoplasm with ductal differentiation that arises from the exocrine pancreas and grows mostly within the pancreatic ducts. Grossly, it is characterized by the presence of intraductal masses. Morphologically, there is proliferation of mucin-producing cells within the pancreatic ducts, intraductal accumulation of mucin, and a papillary growth pattern. It may be associated with the presence of an invasive carcinoma. It usually occurs in older patients. Signs and symptoms include epigastric pain, weight loss, jaundice, chronic pancreatitis, and diabetes mellitus.",
+      "type": "DEFINITION",
+      "source": "NCI"
+    }
+  ],
+  "properties": [
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "Cellosaurus"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "CTRP"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "GDC"
+    },
+    {
+      "code": "P366",
+      "type": "Legacy Concept Name",
+      "value": "Pancreatic_Intraductal_Papillary-Mucinous_Neoplasm"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "Intraductal Papillary Mucinous Neoplasm"
+    },
+    {
+      "code": "P363",
+      "type": "Neoplastic_Status",
+      "value": "Undetermined"
+    },
+    {
+      "code": "P106",
+      "type": "Semantic_Type",
+      "value": "Neoplastic Process"
+    },
+    {
+      "code": "P207",
+      "type": "UMLS_CUI",
+      "value": "C1266071"
+    }
+  ],
+  "children": [
+    {
+      "code": "C113665",
+      "name": "Branch Duct Pancreatic Intraductal Papillary-Mucinous Neoplasm",
+      "leaf": true
+    },
+    {
+      "code": "C113664",
+      "name": "Main Duct Pancreatic Intraductal Papillary-Mucinous Neoplasm",
+      "leaf": true
+    },
+    {
+      "code": "C113667",
+      "name": "Mixed Type Pancreatic Intraductal Papillary-Mucinous Neoplasm",
+      "leaf": true
+    },
+    {
+      "code": "C95508",
+      "name": "Pancreatic Intraductal Papillary Mucinous Neoplasm, Gastric-Type",
+      "leaf": true
+    },
+    {
+      "code": "C95510",
+      "name": "Pancreatic Intraductal Papillary Mucinous Neoplasm, Intestinal-Type",
+      "leaf": true
+    },
+    {
+      "code": "C95514",
+      "name": "Pancreatic Intraductal Papillary Mucinous Neoplasm, Oncocytic-Type",
+      "leaf": true
+    },
+    {
+      "code": "C95512",
+      "name": "Pancreatic Intraductal Papillary Mucinous Neoplasm, Pancreatobiliary-Type",
+      "leaf": true
+    },
+    {
+      "code": "C5726",
+      "name": "Pancreatic Intraductal Papillary-Mucinous Neoplasm with an Associated Invasive Carcinoma",
+      "leaf": true
+    },
+    {
+      "code": "C41251",
+      "name": "Pancreatic Intraductal Papillary-Mucinous Neoplasm, High Grade",
+      "leaf": true
+    },
+    {
+      "code": "C41249",
+      "name": "Pancreatic Intraductal Papillary-Mucinous Neoplasm, Low Grade",
+      "leaf": true
+    }
+  ],
+  "parents": [
+    {
+      "code": "C95505",
+      "name": "Pancreatic Intraductal Neoplasm"
+    }
+  ],
+  "associations": [
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C165258",
+      "relatedName": "Cellosaurus Disease Terminology"
+    },
+    {
+      "type": "Is_Value_For_GDC_Property",
+      "relatedCode": "C16457",
+      "relatedName": "Comorbidity"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C118168",
+      "relatedName": "CTRP Disease Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C116977",
+      "relatedName": "CTRP Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C157711",
+      "relatedName": "GDC Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C177537",
+      "relatedName": "GDC Value Terminology"
+    },
+    {
+      "type": "Is_Value_For_GDC_Property",
+      "relatedCode": "C17103",
+      "relatedName": "Risk Factor"
+    }
+  ],
+  "inverseAssociations": [
+    {
+      "type": "Has_GDC_Value",
+      "relatedCode": "C16457",
+      "relatedName": "Comorbidity"
+    },
+    {
+      "type": "Has_GDC_Value",
+      "relatedCode": "C17103",
+      "relatedName": "Risk Factor"
+    }
+  ],
+  "roles": [
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C26682",
+      "relatedName": "Abdominal Pain"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C26682",
+      "relatedName": "Abdominal Pain"
+    },
+    {
+      "type": "Disease_May_Have_Molecular_Abnormality",
+      "relatedCode": "C40430",
+      "relatedName": "BRAF Gene Mutation"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C41454",
+      "relatedName": "Cystic Change"
+    },
+    {
+      "type": "Disease_May_Have_Associated_Disease",
+      "relatedCode": "C2985",
+      "relatedName": "Diabetes Mellitus"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C2985",
+      "relatedName": "Diabetes Mellitus"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12378",
+      "relatedName": "Digestive System"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C12578",
+      "relatedName": "Epithelial Cell"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C53596",
+      "relatedName": "Epithelial Component Present"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C45714",
+      "relatedName": "Epithelial Tissue"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C32546",
+      "relatedName": "Exocrine Pancreas"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C32546",
+      "relatedName": "Exocrine Pancreas"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C62214",
+      "relatedName": "Intraductal Lesion"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C3143",
+      "relatedName": "Jaundice"
+    },
+    {
+      "type": "Disease_May_Have_Molecular_Abnormality",
+      "relatedCode": "C41361",
+      "relatedName": "KRAS Gene Mutation"
+    },
+    {
+      "type": "Disease_Mapped_To_Gene",
+      "relatedCode": "C25785",
+      "relatedName": "KRAS Gene"
+    },
+    {
+      "type": "Disease_May_Have_Cytogenetic_Abnormality",
+      "relatedCode": "C36499",
+      "relatedName": "Loss of Chromosome 17p"
+    },
+    {
+      "type": "Disease_May_Have_Cytogenetic_Abnormality",
+      "relatedCode": "C36496",
+      "relatedName": "Loss of Chromosome 18q"
+    },
+    {
+      "type": "Disease_May_Have_Cytogenetic_Abnormality",
+      "relatedCode": "C36636",
+      "relatedName": "Loss of Chromosome 9p"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C62273",
+      "relatedName": "Mixed Neoplastic Glandular and Squamous Cell Population"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C35999",
+      "relatedName": "Mucoid Stroma Formation"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12922",
+      "relatedName": "Neoplastic Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36753",
+      "relatedName": "Neoplastic Epithelial Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36763",
+      "relatedName": "Neoplastic Glandular Cell"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C36937",
+      "relatedName": "Neoplastic Smooth Muscle Cell"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C36760",
+      "relatedName": "Neoplastic Squamous Cell"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12393",
+      "relatedName": "Pancreas"
+    },
+    {
+      "type": "Disease_May_Have_Associated_Disease",
+      "relatedCode": "C3306",
+      "relatedName": "Pancreatitis"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C35911",
+      "relatedName": "Papillary Growth Pattern"
+    },
+    {
+      "type": "Disease_May_Have_Molecular_Abnormality",
+      "relatedCode": "C36329",
+      "relatedName": "TP53 Gene Inactivation"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C35925",
+      "relatedName": "Tubular Pattern"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C3445",
+      "relatedName": "Weight Loss"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C3445",
+      "relatedName": "Weight Loss"
+    }
+  ],
+  "inverseRoles": [
+    {
+      "type": "Gene_Involved_In_Pathogenesis_Of_Disease",
+      "relatedCode": "C25785",
+      "relatedName": "KRAS Gene"
+    },
+    {
+      "type": "Gene_Involved_In_Pathogenesis_Of_Disease",
+      "relatedCode": "C52546",
+      "relatedName": "KRAS wt Allele"
+    }
+  ],
+  "history": [
+    {
+      "code": "C38342",
+      "action": "create",
+      "date": "2004-04-30"
+    },
+    {
+      "code": "C38342",
+      "action": "modify",
+      "date": "2004-11-01"
+    },
+    {
+      "code": "C38342",
+      "action": "modify",
+      "date": "2006-05-26"
+    },
+    {
+      "code": "C38342",
+      "action": "modify",
+      "date": "2006-09-29"
+    },
+    {
+      "code": "C38342",
+      "action": "modify",
+      "date": "2007-06-28"
+    },
+    {
+      "code": "C38342",
+      "action": "modify",
+      "date": "2009-04-06"
+    },
+    {
+      "code": "C38342",
+      "action": "modify",
+      "date": "2009-11-23"
+    },
+    {
+      "code": "C38342",
+      "action": "modify",
+      "date": "2010-06-28"
+    },
+    {
+      "code": "C38342",
+      "action": "modify",
+      "date": "2010-07-06"
+    },
+    {
+      "code": "C38342",
+      "action": "modify",
+      "date": "2010-07-12"
+    },
+    {
+      "code": "C38342",
+      "action": "modify",
+      "date": "2010-07-19"
+    },
+    {
+      "code": "C38342",
+      "action": "modify",
+      "date": "2010-07-26"
+    },
+    {
+      "code": "C38342",
+      "action": "modify",
+      "date": "2010-08-02"
+    },
+    {
+      "code": "C38342",
+      "action": "modify",
+      "date": "2010-08-09"
+    },
+    {
+      "code": "C38342",
+      "action": "modify",
+      "date": "2010-08-16"
+    },
+    {
+      "code": "C38342",
+      "action": "modify",
+      "date": "2010-08-23"
+    },
+    {
+      "code": "C38342",
+      "action": "modify",
+      "date": "2010-08-30"
+    },
+    {
+      "code": "C38342",
+      "action": "modify",
+      "date": "2010-09-07"
+    },
+    {
+      "code": "C38342",
+      "action": "modify",
+      "date": "2010-09-13"
+    },
+    {
+      "code": "C38342",
+      "action": "modify",
+      "date": "2010-09-20"
+    },
+    {
+      "code": "C38342",
+      "action": "modify",
+      "date": "2010-09-27"
+    },
+    {
+      "code": "C38342",
+      "action": "modify",
+      "date": "2011-02-07"
+    },
+    {
+      "code": "C38342",
+      "action": "modify",
+      "date": "2012-02-21"
+    },
+    {
+      "code": "C38342",
+      "action": "modify",
+      "date": "2014-08-25"
+    },
+    {
+      "code": "C38342",
+      "action": "modify",
+      "date": "2014-09-22"
+    },
+    {
+      "code": "C38342",
+      "action": "modify",
+      "date": "2018-07-30"
+    },
+    {
+      "code": "C38342",
+      "action": "modify",
+      "date": "2018-08-27"
+    },
+    {
+      "code": "C38342",
+      "action": "modify",
+      "date": "2018-08-27"
+    },
+    {
+      "code": "C38342",
+      "action": "modify",
+      "date": "2018-09-24"
+    },
+    {
+      "code": "C38342",
+      "action": "modify",
+      "date": "2019-05-28"
+    },
+    {
+      "code": "C38342",
+      "action": "modify",
+      "date": "2019-09-30"
+    },
+    {
+      "code": "C38342",
+      "action": "modify",
+      "date": "2019-10-28"
+    },
+    {
+      "code": "C38342",
+      "action": "modify",
+      "date": "2020-01-27"
+    },
+    {
+      "code": "C38342",
+      "action": "modify",
+      "date": "2020-04-27"
+    },
+    {
+      "code": "C38342",
+      "action": "modify",
+      "date": "2021-02-22"
+    },
+    {
+      "code": "C38342",
+      "action": "modify",
+      "date": "2021-03-29"
+    },
+    {
+      "code": "C38342",
+      "action": "modify",
+      "date": "2021-07-26"
+    },
+    {
+      "code": "C38342",
+      "action": "modify",
+      "date": "2021-09-27"
+    },
+    {
+      "code": "C38342",
+      "action": "modify",
+      "date": "2023-02-27"
+    },
+    {
+      "code": "C38342",
+      "action": "modify",
+      "date": "2023-06-26"
+    },
+    {
+      "code": "C38342",
+      "action": "modify",
+      "date": "2024-11-25"
+    },
+    {
+      "code": "C38342",
+      "action": "modify",
+      "date": "2025-03-31"
+    }
+  ],
+  "maps": [
+    {
+      "type": "Related To",
+      "targetName": "Intraductal Papillary Mucinous Neoplasm",
+      "targetTermType": "PT",
+      "targetCode": "comorbidities",
+      "targetTerminology": "GDC"
+    },
+    {
+      "type": "Has Synonym",
+      "targetName": "Intraductal Papillary Mucinous Neoplasm",
+      "targetTermType": "PT",
+      "targetCode": "risk_factors",
+      "targetTerminology": "GDC"
+    }
+  ]
+}

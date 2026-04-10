@@ -1,0 +1,1934 @@
+{
+  "code": "C12409",
+  "name": "Penis",
+  "terminology": "ncit",
+  "version": "25.11d",
+  "conceptStatus": "DEFAULT",
+  "leaf": true,
+  "active": true,
+  "synonyms": [
+    {
+      "name": "Penis",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "caDSR"
+    },
+    {
+      "name": "PENIS",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "CDISC"
+    },
+    {
+      "name": "Penis",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "GDC"
+    },
+    {
+      "name": "Penis, NOS",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "GDC"
+    },
+    {
+      "name": "Penile structure (body structure)",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "mCode",
+      "code": "18911002",
+      "subSource": "SNOMED CT"
+    },
+    {
+      "name": "penis",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NCI-GLOSS",
+      "code": "CDR0000257215"
+    },
+    {
+      "name": "Genital System, Male, Penis",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Penis",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Penis",
+      "type": "Display_Name"
+    },
+    {
+      "name": "Penis",
+      "type": "Preferred_Name"
+    },
+    {
+      "name": "Penis",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "PCDC",
+      "subSource": "OS"
+    },
+    {
+      "name": "penis",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "UBERON"
+    }
+  ],
+  "definitions": [
+    {
+      "definition": "An external male reproductive organ. It contains a tube called the urethra, which carries semen and urine to the outside of the body.",
+      "type": "ALT_DEFINITION",
+      "source": "NCI-GLOSS"
+    },
+    {
+      "definition": "An intromittent organ in certain biologically male organisms. In placental mammals, this also serves as the organ of urination.",
+      "type": "ALT_DEFINITION",
+      "source": "UBERON"
+    },
+    {
+      "definition": "The male organ of urination and copulation.",
+      "type": "DEFINITION",
+      "source": "NCI"
+    },
+    {
+      "definition": "The male organ of urination and copulation. (NCI)",
+      "type": "ALT_DEFINITION",
+      "source": "CDISC"
+    }
+  ],
+  "properties": [
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "CDISC"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "GDC"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "mCode"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "PCDC"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "UBERON"
+    },
+    {
+      "code": "P366",
+      "type": "Legacy Concept Name",
+      "value": "Penis"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "PENIS"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "Penis"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "Penis, NOS"
+    },
+    {
+      "code": "P106",
+      "type": "Semantic_Type",
+      "value": "Body Part, Organ, or Organ Component"
+    },
+    {
+      "code": "P207",
+      "type": "UMLS_CUI",
+      "value": "C0030851"
+    },
+    {
+      "code": "oboInOwl:hasDbXref",
+      "type": "xRef",
+      "value": "UBERON:0000989"
+    }
+  ],
+  "parents": [
+    {
+      "code": "C13018",
+      "name": "Organ"
+    }
+  ],
+  "associations": [
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C74456",
+      "relatedName": "CDISC SDTM Anatomical Location Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C66830",
+      "relatedName": "CDISC SDTM Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C77529",
+      "relatedName": "CDISC SEND Biospecimens Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C77526",
+      "relatedName": "CDISC SEND Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C61410",
+      "relatedName": "Clinical Data Interchange Standards Consortium Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C157711",
+      "relatedName": "GDC Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C177537",
+      "relatedName": "GDC Value Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168655",
+      "relatedName": "Mapped ICDO3.1 Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168660",
+      "relatedName": "Mapped ICDO3.1 Topography PT Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168659",
+      "relatedName": "Mapped ICDO3.1 Topography Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168656",
+      "relatedName": "Mapped ICDO3.2 Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168664",
+      "relatedName": "Mapped ICDO3.2 Topography PT Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168663",
+      "relatedName": "Mapped ICDO3.2 Topography Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C193234",
+      "relatedName": "mCode Radiotherapy Treatment Location Value Set"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C193006",
+      "relatedName": "mCode Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C179478",
+      "relatedName": "OS Authorized Value Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C179482",
+      "relatedName": "OS Biopsy/Surgical Procedures Table"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C179483",
+      "relatedName": "OS Radiation Therapy Table"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C179481",
+      "relatedName": "OS Tumor Assessment Table"
+    },
+    {
+      "type": "Is_Value_For_GDC_Property",
+      "relatedCode": "C158874",
+      "relatedName": "Primary Site of Disease"
+    },
+    {
+      "type": "Is_Value_For_GDC_Property",
+      "relatedCode": "C177570",
+      "relatedName": "Progressive or Recurrent Disease Anatomic Site"
+    },
+    {
+      "type": "Is_Value_For_GDC_Property",
+      "relatedCode": "C156421",
+      "relatedName": "Site of Resection or Biopsy"
+    },
+    {
+      "type": "Is_Value_For_GDC_Property",
+      "relatedCode": "C171435",
+      "relatedName": "Specimen Anatomic Site"
+    },
+    {
+      "type": "Is_Value_For_GDC_Property",
+      "relatedCode": "C70729",
+      "relatedName": "Targeted Anatomic Site"
+    },
+    {
+      "type": "Is_Value_For_GDC_Property",
+      "relatedCode": "C156422",
+      "relatedName": "Tissue or Organ of Origin"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C198975",
+      "relatedName": "UBERON Terminology"
+    }
+  ],
+  "inverseAssociations": [
+    {
+      "type": "Has_GDC_Value",
+      "relatedCode": "C158874",
+      "relatedName": "Primary Site of Disease"
+    },
+    {
+      "type": "Has_GDC_Value",
+      "relatedCode": "C177570",
+      "relatedName": "Progressive or Recurrent Disease Anatomic Site"
+    },
+    {
+      "type": "Has_PCDC_OS_Authorized_Value",
+      "relatedCode": "C173281",
+      "relatedName": "Site of Radiation Therapy"
+    },
+    {
+      "type": "Has_GDC_Value",
+      "relatedCode": "C156421",
+      "relatedName": "Site of Resection or Biopsy"
+    },
+    {
+      "type": "Has_PCDC_OS_Authorized_Value",
+      "relatedCode": "C157120",
+      "relatedName": "Site of Tumor"
+    },
+    {
+      "type": "Has_GDC_Value",
+      "relatedCode": "C171435",
+      "relatedName": "Specimen Anatomic Site"
+    },
+    {
+      "type": "Has_PCDC_OS_Authorized_Value",
+      "relatedCode": "C164323",
+      "relatedName": "Surgical Site"
+    },
+    {
+      "type": "Has_GDC_Value",
+      "relatedCode": "C70729",
+      "relatedName": "Targeted Anatomic Site"
+    },
+    {
+      "type": "Has_GDC_Value",
+      "relatedCode": "C156422",
+      "relatedName": "Tissue or Organ of Origin"
+    }
+  ],
+  "roles": [
+    {
+      "type": "Anatomic_Structure_Has_Location",
+      "relatedCode": "C32674",
+      "relatedName": "Genito-Urinary Region"
+    },
+    {
+      "type": "Anatomic_Structure_Is_Physical_Part_Of",
+      "relatedCode": "C12722",
+      "relatedName": "Male Reproductive System"
+    }
+  ],
+  "inverseRoles": [
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C27149",
+      "relatedName": "Acquired Phimosis"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C27149",
+      "relatedName": "Acquired Phimosis"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C118820",
+      "relatedName": "Adult Penile Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C118820",
+      "relatedName": "Adult Penile Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C170790",
+      "relatedName": "Advanced Penile Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C170790",
+      "relatedName": "Advanced Penile Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C217095",
+      "relatedName": "Advanced Penile Squamous Cell Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C217095",
+      "relatedName": "Advanced Penile Squamous Cell Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C3523",
+      "relatedName": "Balanitis Xerotica Obliterans"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C3523",
+      "relatedName": "Balanitis Xerotica Obliterans"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C26705",
+      "relatedName": "Balanitis"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C26705",
+      "relatedName": "Balanitis"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C162542",
+      "relatedName": "Basaloid (Undifferentiated) Penile Intraepithelial Neoplasia"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C162542",
+      "relatedName": "Basaloid (Undifferentiated) Penile Intraepithelial Neoplasia"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C3489",
+      "relatedName": "Benign Penile Neoplasm"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C3489",
+      "relatedName": "Benign Penile Neoplasm"
+    },
+    {
+      "type": "Gene_Product_Expressed_In_Tissue",
+      "relatedCode": "C21161",
+      "relatedName": "Beta-Microseminoprotein"
+    },
+    {
+      "type": "Anatomic_Structure_Is_Physical_Part_Of",
+      "relatedCode": "C12325",
+      "relatedName": "Body of the Penis"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C118821",
+      "relatedName": "Childhood Malignant Penile Neoplasm"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C27124",
+      "relatedName": "Congenital Phimosis"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C27124",
+      "relatedName": "Congenital Phimosis"
+    },
+    {
+      "type": "Anatomic_Structure_Is_Physical_Part_Of",
+      "relatedCode": "C32382",
+      "relatedName": "Corpora Cavernosa"
+    },
+    {
+      "type": "Anatomic_Structure_Is_Physical_Part_Of",
+      "relatedCode": "C32384",
+      "relatedName": "Corpus Spongiosum"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C162539",
+      "relatedName": "Differentiated Penile Intraepithelial Neoplasia, Human Papillomavirus-Independent"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C162539",
+      "relatedName": "Differentiated Penile Intraepithelial Neoplasia, Human Papillomavirus-Independent"
+    },
+    {
+      "type": "Anatomic_Structure_Is_Physical_Part_Of",
+      "relatedCode": "C12324",
+      "relatedName": "Glans Penis"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C7665",
+      "relatedName": "Grade II Penile Intraepithelial Neoplasia"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C7665",
+      "relatedName": "Grade II Penile Intraepithelial Neoplasia"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C7667",
+      "relatedName": "High Grade Penile Intraepithelial Neoplasia"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C7667",
+      "relatedName": "High Grade Penile Intraepithelial Neoplasia"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C159244",
+      "relatedName": "Human Papillomavirus-Independent Penile Squamous Cell Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C159244",
+      "relatedName": "Human Papillomavirus-Independent Penile Squamous Cell Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C162541",
+      "relatedName": "Human Papillomavirus-Related Penile Intraepithelial Neoplasia"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C162541",
+      "relatedName": "Human Papillomavirus-Related Penile Intraepithelial Neoplasia"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C27682",
+      "relatedName": "Human Papillomavirus-Related Penile Squamous Cell Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C27682",
+      "relatedName": "Human Papillomavirus-Related Penile Squamous Cell Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C40341",
+      "relatedName": "Hypospadias"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C40341",
+      "relatedName": "Hypospadias"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C170789",
+      "relatedName": "Locally Advanced Penile Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C170789",
+      "relatedName": "Locally Advanced Penile Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C203413",
+      "relatedName": "Locally Advanced Penile Squamous Cell Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C203413",
+      "relatedName": "Locally Advanced Penile Squamous Cell Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C7666",
+      "relatedName": "Low Grade Penile Intraepithelial Neoplasia"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C7666",
+      "relatedName": "Low Grade Penile Intraepithelial Neoplasia"
+    },
+    {
+      "type": "Anatomic_Structure_Is_Physical_Part_Of",
+      "relatedCode": "C33049",
+      "relatedName": "Male Prepuce"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C7547",
+      "relatedName": "Malignant Penile Neoplasm"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C162549",
+      "relatedName": "Metastatic Malignant Neoplasm in the Penis"
+    },
+    {
+      "type": "Disease_Has_Metastatic_Anatomic_Site",
+      "relatedCode": "C162549",
+      "relatedName": "Metastatic Malignant Neoplasm in the Penis"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C27784",
+      "relatedName": "Metastatic Penile Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C27784",
+      "relatedName": "Metastatic Penile Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C182111",
+      "relatedName": "Metastatic Penile Squamous Cell Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C182111",
+      "relatedName": "Metastatic Penile Squamous Cell Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C34893",
+      "relatedName": "Paraphimosis"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C34893",
+      "relatedName": "Paraphimosis"
+    },
+    {
+      "type": "Procedure_Has_Excised_Anatomy",
+      "relatedCode": "C159450",
+      "relatedName": "Partial Penectomy"
+    },
+    {
+      "type": "Procedure_Has_Excised_Anatomy",
+      "relatedCode": "C51621",
+      "relatedName": "Penectomy"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C159246",
+      "relatedName": "Penile Acantholytic Squamous Cell Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C159246",
+      "relatedName": "Penile Acantholytic Squamous Cell Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C159248",
+      "relatedName": "Penile Adenosquamous Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C159248",
+      "relatedName": "Penile Adenosquamous Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C162578",
+      "relatedName": "Penile Angiosarcoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C162578",
+      "relatedName": "Penile Angiosarcoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C39961",
+      "relatedName": "Penile Basal Cell Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C39961",
+      "relatedName": "Penile Basal Cell Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C6980",
+      "relatedName": "Penile Basaloid Squamous Cell Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C6980",
+      "relatedName": "Penile Basaloid Squamous Cell Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C39963",
+      "relatedName": "Penile Bowenoid Papulosis"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C39963",
+      "relatedName": "Penile Bowenoid Papulosis"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C90520",
+      "relatedName": "Penile Cancer by AJCC v6 Stage"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C90520",
+      "relatedName": "Penile Cancer by AJCC v6 Stage"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C91234",
+      "relatedName": "Penile Cancer by AJCC v7 Stage"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C91234",
+      "relatedName": "Penile Cancer by AJCC v7 Stage"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C140075",
+      "relatedName": "Penile Cancer by AJCC v8 Stage"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C140075",
+      "relatedName": "Penile Cancer by AJCC v8 Stage"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C159247",
+      "relatedName": "Penile Carcinoma Cuniculatum"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C159247",
+      "relatedName": "Penile Carcinoma Cuniculatum"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C27790",
+      "relatedName": "Penile Carcinoma In Situ"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C27790",
+      "relatedName": "Penile Carcinoma In Situ"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C9061",
+      "relatedName": "Penile Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C9061",
+      "relatedName": "Penile Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C159251",
+      "relatedName": "Penile Clear Cell Squamous Cell Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C159251",
+      "relatedName": "Penile Clear Cell Squamous Cell Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C192221",
+      "relatedName": "Penile Condyloma Acuminatum"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C192221",
+      "relatedName": "Penile Condyloma Acuminatum"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C178518",
+      "relatedName": "Penile Cutaneous Melanoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C178518",
+      "relatedName": "Penile Cutaneous Melanoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C26846",
+      "relatedName": "Penile Disorder"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C162581",
+      "relatedName": "Penile Epithelioid Hemangioendothelioma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C162581",
+      "relatedName": "Penile Epithelioid Hemangioendothelioma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C162580",
+      "relatedName": "Penile Epithelioid Hemangioma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C162580",
+      "relatedName": "Penile Epithelioid Hemangioma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C3316",
+      "relatedName": "Penile Fibromatosis"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C162582",
+      "relatedName": "Penile Glomus Tumor"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C162582",
+      "relatedName": "Penile Glomus Tumor"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C162579",
+      "relatedName": "Penile Hemangioma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C162579",
+      "relatedName": "Penile Hemangioma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C4596",
+      "relatedName": "Penile Intraepithelial Neoplasia"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C4596",
+      "relatedName": "Penile Intraepithelial Neoplasia"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C6377",
+      "relatedName": "Penile Kaposi Sarcoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C6377",
+      "relatedName": "Penile Kaposi Sarcoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C162583",
+      "relatedName": "Penile Leiomyoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C162583",
+      "relatedName": "Penile Leiomyoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C162585",
+      "relatedName": "Penile Leiomyosarcoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C162585",
+      "relatedName": "Penile Leiomyosarcoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C162592",
+      "relatedName": "Penile Lymphangioma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C162592",
+      "relatedName": "Penile Lymphangioma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C159252",
+      "relatedName": "Penile Lymphoepithelioma-Like Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C159252",
+      "relatedName": "Penile Lymphoepithelioma-Like Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C162548",
+      "relatedName": "Penile Lymphoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C162584",
+      "relatedName": "Penile Malignant Peripheral Nerve Sheath Tumor"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C162584",
+      "relatedName": "Penile Malignant Peripheral Nerve Sheath Tumor"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C162547",
+      "relatedName": "Penile Melanoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C162547",
+      "relatedName": "Penile Melanoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C39959",
+      "relatedName": "Penile Mixed Squamous Cell Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C39959",
+      "relatedName": "Penile Mixed Squamous Cell Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C192223",
+      "relatedName": "Penile Mucoepidermoid Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C192223",
+      "relatedName": "Penile Mucoepidermoid Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C178517",
+      "relatedName": "Penile Mucosal Melanoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C178517",
+      "relatedName": "Penile Mucosal Melanoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C162590",
+      "relatedName": "Penile Myointimoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C162590",
+      "relatedName": "Penile Myointimoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C3317",
+      "relatedName": "Penile Neoplasm"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C162587",
+      "relatedName": "Penile Neurofibroma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C162587",
+      "relatedName": "Penile Neurofibroma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C27618",
+      "relatedName": "Penile Non-Neoplastic Disorder"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C27618",
+      "relatedName": "Penile Non-Neoplastic Disorder"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C27817",
+      "relatedName": "Penile Paget Disease"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C27817",
+      "relatedName": "Penile Paget Disease"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C6983",
+      "relatedName": "Penile Papillary Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C6983",
+      "relatedName": "Penile Papillary Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C159249",
+      "relatedName": "Penile Papillary-Basaloid Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C159249",
+      "relatedName": "Penile Papillary-Basaloid Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C159245",
+      "relatedName": "Penile Pseudohyperplastic Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C159245",
+      "relatedName": "Penile Pseudohyperplastic Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C162588",
+      "relatedName": "Penile Rhabdomyosarcoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C162588",
+      "relatedName": "Penile Rhabdomyosarcoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C7730",
+      "relatedName": "Penile Sarcoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C7730",
+      "relatedName": "Penile Sarcoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C7730",
+      "relatedName": "Penile Sarcoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C6984",
+      "relatedName": "Penile Sarcomatoid Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C6984",
+      "relatedName": "Penile Sarcomatoid Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C162586",
+      "relatedName": "Penile Schwannoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C162586",
+      "relatedName": "Penile Schwannoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C162574",
+      "relatedName": "Penile Soft Tissue Neoplasm"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C162574",
+      "relatedName": "Penile Soft Tissue Neoplasm"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C192222",
+      "relatedName": "Penile Squamous Cell Carcinoma, Not Otherwise Specified"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C192222",
+      "relatedName": "Penile Squamous Cell Carcinoma, Not Otherwise Specified"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C6979",
+      "relatedName": "Penile Squamous Cell Carcinoma, Usual Type"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C6979",
+      "relatedName": "Penile Squamous Cell Carcinoma, Usual Type"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C7729",
+      "relatedName": "Penile Squamous Cell Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C7729",
+      "relatedName": "Penile Squamous Cell Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C162589",
+      "relatedName": "Penile Undifferentiated Pleomorphic Sarcoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C162589",
+      "relatedName": "Penile Undifferentiated Pleomorphic Sarcoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C35218",
+      "relatedName": "Penile Vascular Disorder"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C6982",
+      "relatedName": "Penile Verrucous Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C6982",
+      "relatedName": "Penile Verrucous Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C6981",
+      "relatedName": "Penile Warty Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C6981",
+      "relatedName": "Penile Warty Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C159250",
+      "relatedName": "Penile Warty-Basaloid Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C159250",
+      "relatedName": "Penile Warty-Basaloid Carcinoma"
+    },
+    {
+      "type": "Anatomic_Structure_Is_Physical_Part_Of",
+      "relatedCode": "C49269",
+      "relatedName": "Penis Erectile Tissue"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C26852",
+      "relatedName": "Phimosis"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C26852",
+      "relatedName": "Phimosis"
+    },
+    {
+      "type": "Procedure_Has_Excised_Anatomy",
+      "relatedCode": "C220116",
+      "relatedName": "Radical Penectomy with Bilateral Lymphadenectomy"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C7870",
+      "relatedName": "Recurrent Penile Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C7870",
+      "relatedName": "Recurrent Penile Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C177150",
+      "relatedName": "Refractory Penile Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C177150",
+      "relatedName": "Refractory Penile Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C3643",
+      "relatedName": "Stage 0 Penile Cancer AJCC v6"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C3643",
+      "relatedName": "Stage 0 Penile Cancer AJCC v6"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C89194",
+      "relatedName": "Stage 0 Penile Cancer AJCC v7"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C89194",
+      "relatedName": "Stage 0 Penile Cancer AJCC v7"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C140076",
+      "relatedName": "Stage 0 Penile Cancer AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C140076",
+      "relatedName": "Stage 0 Penile Cancer AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C140078",
+      "relatedName": "Stage 0a Penile Cancer AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C140078",
+      "relatedName": "Stage 0a Penile Cancer AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C140077",
+      "relatedName": "Stage 0is Penile Cancer AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C140077",
+      "relatedName": "Stage 0is Penile Cancer AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C7867",
+      "relatedName": "Stage I Penile Cancer AJCC v6"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C7867",
+      "relatedName": "Stage I Penile Cancer AJCC v6"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C89195",
+      "relatedName": "Stage I Penile Cancer AJCC v7"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C89195",
+      "relatedName": "Stage I Penile Cancer AJCC v7"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C140079",
+      "relatedName": "Stage I Penile Cancer AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C140079",
+      "relatedName": "Stage I Penile Cancer AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C7868",
+      "relatedName": "Stage II Penile Cancer AJCC v6"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C7868",
+      "relatedName": "Stage II Penile Cancer AJCC v6"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C89196",
+      "relatedName": "Stage II Penile Cancer AJCC v7"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C89196",
+      "relatedName": "Stage II Penile Cancer AJCC v7"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C140080",
+      "relatedName": "Stage II Penile Cancer AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C140080",
+      "relatedName": "Stage II Penile Cancer AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C140081",
+      "relatedName": "Stage IIA Penile Cancer AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C140081",
+      "relatedName": "Stage IIA Penile Cancer AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C140083",
+      "relatedName": "Stage IIB Penile Cancer AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C140083",
+      "relatedName": "Stage IIB Penile Cancer AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C7869",
+      "relatedName": "Stage III Penile Cancer AJCC v6"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C7869",
+      "relatedName": "Stage III Penile Cancer AJCC v6"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C89197",
+      "relatedName": "Stage III Penile Cancer AJCC v7"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C89197",
+      "relatedName": "Stage III Penile Cancer AJCC v7"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C140084",
+      "relatedName": "Stage III Penile Cancer AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C140084",
+      "relatedName": "Stage III Penile Cancer AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C88104",
+      "relatedName": "Stage IIIa Penile Cancer AJCC v7"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C88104",
+      "relatedName": "Stage IIIa Penile Cancer AJCC v7"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C140085",
+      "relatedName": "Stage IIIA Penile Cancer AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C140085",
+      "relatedName": "Stage IIIA Penile Cancer AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C88105",
+      "relatedName": "Stage IIIb Penile Cancer AJCC v7"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C88105",
+      "relatedName": "Stage IIIb Penile Cancer AJCC v7"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C140086",
+      "relatedName": "Stage IIIB Penile Cancer AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C140086",
+      "relatedName": "Stage IIIB Penile Cancer AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C8959",
+      "relatedName": "Stage IV Penile Cancer AJCC v6"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C8959",
+      "relatedName": "Stage IV Penile Cancer AJCC v6"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C89198",
+      "relatedName": "Stage IV Penile Cancer AJCC v7"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C89198",
+      "relatedName": "Stage IV Penile Cancer AJCC v7"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C140087",
+      "relatedName": "Stage IV Penile Cancer AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C140087",
+      "relatedName": "Stage IV Penile Cancer AJCC v8"
+    },
+    {
+      "type": "Procedure_Has_Excised_Anatomy",
+      "relatedCode": "C159451",
+      "relatedName": "Total Penectomy"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C201837",
+      "relatedName": "Unresectable Penile Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C201837",
+      "relatedName": "Unresectable Penile Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C201838",
+      "relatedName": "Unresectable Penile Squamous Cell Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C201838",
+      "relatedName": "Unresectable Penile Squamous Cell Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C162543",
+      "relatedName": "Warty (Bowenoid) Penile Intraepithelial Neoplasia"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C162543",
+      "relatedName": "Warty (Bowenoid) Penile Intraepithelial Neoplasia"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C162546",
+      "relatedName": "Warty-Basaloid Penile Intraepithelial Neoplasia"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C162546",
+      "relatedName": "Warty-Basaloid Penile Intraepithelial Neoplasia"
+    }
+  ],
+  "history": [
+    {
+      "code": "C12409",
+      "action": "create",
+      "date": "2003-08-12"
+    },
+    {
+      "code": "C12409",
+      "action": "modify",
+      "date": "2003-10-31"
+    },
+    {
+      "code": "C12409",
+      "action": "modify",
+      "date": "2003-12-30"
+    },
+    {
+      "code": "C12409",
+      "action": "modify",
+      "date": "2004-02-23"
+    },
+    {
+      "code": "C12409",
+      "action": "modify",
+      "date": "2004-04-30"
+    },
+    {
+      "code": "C12409",
+      "action": "modify",
+      "date": "2004-05-28"
+    },
+    {
+      "code": "C12409",
+      "action": "modify",
+      "date": "2005-03-16"
+    },
+    {
+      "code": "C12409",
+      "action": "modify",
+      "date": "2005-03-30"
+    },
+    {
+      "code": "C12409",
+      "action": "modify",
+      "date": "2007-10-29"
+    },
+    {
+      "code": "C12409",
+      "action": "modify",
+      "date": "2008-06-27"
+    },
+    {
+      "code": "C12409",
+      "action": "modify",
+      "date": "2008-09-12"
+    },
+    {
+      "code": "C12409",
+      "action": "modify",
+      "date": "2008-11-14"
+    },
+    {
+      "code": "C12409",
+      "action": "modify",
+      "date": "2008-11-26"
+    },
+    {
+      "code": "C12409",
+      "action": "modify",
+      "date": "2008-12-19"
+    },
+    {
+      "code": "C12409",
+      "action": "modify",
+      "date": "2008-11-07"
+    },
+    {
+      "code": "C12409",
+      "action": "modify",
+      "date": "2009-04-06"
+    },
+    {
+      "code": "C12409",
+      "action": "modify",
+      "date": "2009-08-03"
+    },
+    {
+      "code": "C12409",
+      "action": "modify",
+      "date": "2009-11-23"
+    },
+    {
+      "code": "C12409",
+      "action": "modify",
+      "date": "2011-03-07"
+    },
+    {
+      "code": "C12409",
+      "action": "modify",
+      "date": "2013-02-25"
+    },
+    {
+      "code": "C12409",
+      "action": "modify",
+      "date": "2013-03-04"
+    },
+    {
+      "code": "C12409",
+      "action": "modify",
+      "date": "2013-03-11"
+    },
+    {
+      "code": "C12409",
+      "action": "modify",
+      "date": "2013-03-18"
+    },
+    {
+      "code": "C12409",
+      "action": "modify",
+      "date": "2013-03-25"
+    },
+    {
+      "code": "C12409",
+      "action": "modify",
+      "date": "2013-04-01"
+    },
+    {
+      "code": "C12409",
+      "action": "modify",
+      "date": "2013-04-08"
+    },
+    {
+      "code": "C12409",
+      "action": "modify",
+      "date": "2013-04-15"
+    },
+    {
+      "code": "C12409",
+      "action": "modify",
+      "date": "2013-04-22"
+    },
+    {
+      "code": "C12409",
+      "action": "modify",
+      "date": "2013-04-29"
+    },
+    {
+      "code": "C12409",
+      "action": "modify",
+      "date": "2013-05-06"
+    },
+    {
+      "code": "C12409",
+      "action": "modify",
+      "date": "2013-05-13"
+    },
+    {
+      "code": "C12409",
+      "action": "modify",
+      "date": "2013-05-20"
+    },
+    {
+      "code": "C12409",
+      "action": "modify",
+      "date": "2013-05-28"
+    },
+    {
+      "code": "C12409",
+      "action": "modify",
+      "date": "2013-06-03"
+    },
+    {
+      "code": "C12409",
+      "action": "modify",
+      "date": "2013-06-10"
+    },
+    {
+      "code": "C12409",
+      "action": "modify",
+      "date": "2013-06-17"
+    },
+    {
+      "code": "C12409",
+      "action": "modify",
+      "date": "2013-06-24"
+    },
+    {
+      "code": "C12409",
+      "action": "modify",
+      "date": "2013-07-01"
+    },
+    {
+      "code": "C12409",
+      "action": "modify",
+      "date": "2013-07-08"
+    },
+    {
+      "code": "C12409",
+      "action": "modify",
+      "date": "2014-02-03"
+    },
+    {
+      "code": "C12409",
+      "action": "modify",
+      "date": "2015-05-26"
+    },
+    {
+      "code": "C12409",
+      "action": "modify",
+      "date": "2015-06-01"
+    },
+    {
+      "code": "C12409",
+      "action": "modify",
+      "date": "2015-06-08"
+    },
+    {
+      "code": "C12409",
+      "action": "modify",
+      "date": "2015-06-15"
+    },
+    {
+      "code": "C12409",
+      "action": "modify",
+      "date": "2015-06-22"
+    },
+    {
+      "code": "C12409",
+      "action": "modify",
+      "date": "2015-06-29"
+    },
+    {
+      "code": "C12409",
+      "action": "modify",
+      "date": "2015-07-06"
+    },
+    {
+      "code": "C12409",
+      "action": "modify",
+      "date": "2015-07-13"
+    },
+    {
+      "code": "C12409",
+      "action": "modify",
+      "date": "2015-08-12"
+    },
+    {
+      "code": "C12409",
+      "action": "modify",
+      "date": "2015-08-31"
+    },
+    {
+      "code": "C12409",
+      "action": "modify",
+      "date": "2015-10-19"
+    },
+    {
+      "code": "C12409",
+      "action": "modify",
+      "date": "2015-11-30"
+    },
+    {
+      "code": "C12409",
+      "action": "modify",
+      "date": "2016-10-17"
+    },
+    {
+      "code": "C12409",
+      "action": "modify",
+      "date": "2017-02-27"
+    },
+    {
+      "code": "C12409",
+      "action": "modify",
+      "date": "2017-03-06"
+    },
+    {
+      "code": "C12409",
+      "action": "modify",
+      "date": "2017-03-13"
+    },
+    {
+      "code": "C12409",
+      "action": "modify",
+      "date": "2018-09-24"
+    },
+    {
+      "code": "C12409",
+      "action": "modify",
+      "date": "2018-10-29"
+    },
+    {
+      "code": "C12409",
+      "action": "modify",
+      "date": "2018-10-29"
+    },
+    {
+      "code": "C12409",
+      "action": "modify",
+      "date": "2019-05-28"
+    },
+    {
+      "code": "C12409",
+      "action": "modify",
+      "date": "2019-09-30"
+    },
+    {
+      "code": "C12409",
+      "action": "modify",
+      "date": "2019-10-28"
+    },
+    {
+      "code": "C12409",
+      "action": "modify",
+      "date": "2020-02-24"
+    },
+    {
+      "code": "C12409",
+      "action": "modify",
+      "date": "2020-03-30"
+    },
+    {
+      "code": "C12409",
+      "action": "modify",
+      "date": "2020-09-29"
+    },
+    {
+      "code": "C12409",
+      "action": "modify",
+      "date": "2021-02-22"
+    },
+    {
+      "code": "C12409",
+      "action": "modify",
+      "date": "2021-03-29"
+    },
+    {
+      "code": "C12409",
+      "action": "modify",
+      "date": "2021-11-29"
+    },
+    {
+      "code": "C12409",
+      "action": "modify",
+      "date": "2022-04-25"
+    },
+    {
+      "code": "C12409",
+      "action": "modify",
+      "date": "2022-10-31"
+    },
+    {
+      "code": "C12409",
+      "action": "modify",
+      "date": "2023-02-27"
+    },
+    {
+      "code": "C12409",
+      "action": "modify",
+      "date": "2023-03-27"
+    },
+    {
+      "code": "C12409",
+      "action": "modify",
+      "date": "2023-05-30"
+    },
+    {
+      "code": "C12409",
+      "action": "modify",
+      "date": "2023-09-25"
+    },
+    {
+      "code": "C12409",
+      "action": "modify",
+      "date": "2024-07-08"
+    }
+  ],
+  "maps": [
+    {
+      "type": "Related To",
+      "targetName": "Penis, NOS",
+      "targetTermType": "PT",
+      "targetCode": "C60.9",
+      "targetTerminology": "ICDO3",
+      "targetTerminologyVersion": "3.2"
+    },
+    {
+      "type": "Related To",
+      "targetName": "Penis, NOS",
+      "targetTermType": "PT",
+      "targetCode": "C60.9",
+      "targetTerminology": "ICDO3",
+      "targetTerminologyVersion": "3.1"
+    },
+    {
+      "type": "Has Synonym",
+      "targetName": "Penis, NOS",
+      "targetTermType": "PT",
+      "targetCode": "progression_or_recurrence_anatomic_site",
+      "targetTerminology": "GDC"
+    },
+    {
+      "type": "Has Synonym",
+      "targetName": "Penis, NOS",
+      "targetTermType": "PT",
+      "targetCode": "site_of_resection_or_biopsy",
+      "targetTerminology": "GDC"
+    },
+    {
+      "type": "Has Synonym",
+      "targetName": "Penis, NOS",
+      "targetTermType": "PT",
+      "targetCode": "tissue_or_organ_of_origin",
+      "targetTerminology": "GDC"
+    },
+    {
+      "type": "Has Synonym",
+      "targetName": "Penis",
+      "targetTermType": "PT",
+      "targetCode": "biospecimen_anatomic_site",
+      "targetTerminology": "GDC"
+    },
+    {
+      "type": "Related To",
+      "targetName": "PENIS",
+      "targetTermType": "HT",
+      "targetCode": "C60",
+      "targetTerminology": "ICDO3",
+      "targetTerminologyVersion": "3.2"
+    },
+    {
+      "type": "Related To",
+      "targetName": "PENIS",
+      "targetTermType": "HT",
+      "targetCode": "C60",
+      "targetTerminology": "ICDO3",
+      "targetTerminologyVersion": "3.1"
+    },
+    {
+      "type": "Has Synonym",
+      "targetName": "Penis",
+      "targetTermType": "PT",
+      "targetCode": "primary_site",
+      "targetTerminology": "GDC"
+    },
+    {
+      "type": "Has Synonym",
+      "targetName": "Penis",
+      "targetTermType": "PT",
+      "targetCode": "treatment_anatomic_sites",
+      "targetTerminology": "GDC"
+    }
+  ]
+}

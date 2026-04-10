@@ -1,0 +1,303 @@
+{
+  "code": "C129853",
+  "name": "Myeloid/Lymphoid Neoplasms with JAK2 Rearrangement",
+  "terminology": "ncit",
+  "version": "25.11d",
+  "conceptStatus": "DEFAULT",
+  "leaf": true,
+  "active": true,
+  "synonyms": [
+    {
+      "name": "Myeloid/Lymphoid Neoplasms with PCM1-JAK2",
+      "termType": "DN",
+      "type": "FULL_SYN",
+      "source": "CTRP"
+    },
+    {
+      "name": "M/LN-eo with t(8;9)(p22;p24.1)/PCM1/JAK2",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "M/LN-eo with t(8;9)(p22;p24.1)/PCM1::JAK2",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Myeloid and Lymphoid Neoplasms with t(8;9)(p22;p24.1);PCM1-JAK2",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Myeloid and Lymphoid Neoplasms with t(8;9)(p22;p24.1);PCM1::JAK2",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Myeloid/Lymphoid Neoplasm with JAK2 Rearrangement",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Myeloid/Lymphoid Neoplasm with JAK2-PCM1 Fusion",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Myeloid/Lymphoid Neoplasm with PCM1- JAK2 Fusion",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Myeloid/Lymphoid Neoplasms with JAK2 Rearrangement",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Myeloid/Lymphoid Neoplasms with PCM1-JAK2",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Myeloid/Lymphoid Neoplasms with PCM1::JAK2",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Myeloid/Lymphoid Neoplasms with PCM1-JAK2",
+      "type": "Display_Name"
+    },
+    {
+      "name": "Myeloid/Lymphoid Neoplasms with JAK2 Rearrangement",
+      "type": "Preferred_Name"
+    }
+  ],
+  "definitions": [
+    {
+      "definition": "Hematologic neoplasms characterized by the presence of t(8;9)(p22;p24.1) that results in PCM1-JAK2 fusion gene expression. It is associated with eosinophilia, bone marrow findings of left-shifted erythroid predominance, lymphoid aggregates, and often myelofibrosis. Rare cases present as T- or B-acute lymphoblastic leukemia.",
+      "type": "DEFINITION",
+      "source": "NCI"
+    }
+  ],
+  "properties": [
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "CTRP"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "Myeloid or lymphoid neoplasm with PCM1-JAK2"
+    },
+    {
+      "code": "P208",
+      "type": "NCI_META_CUI",
+      "value": "CL512939"
+    },
+    {
+      "code": "P363",
+      "type": "Neoplastic_Status",
+      "value": "Malignant"
+    },
+    {
+      "code": "P106",
+      "type": "Semantic_Type",
+      "value": "Neoplastic Process"
+    }
+  ],
+  "parents": [
+    {
+      "code": "C84270",
+      "name": "Myeloid/Lymphoid Neoplasms with Eosinophilia and Tyrosine Kinase Gene Fusions"
+    }
+  ],
+  "associations": [
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C118168",
+      "relatedName": "CTRP Disease Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C116977",
+      "relatedName": "CTRP Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168662",
+      "relatedName": "Mapped ICDO3.2 Morphology PT Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168661",
+      "relatedName": "Mapped ICDO3.2 Morphology Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168656",
+      "relatedName": "Mapped ICDO3.2 Terminology"
+    }
+  ],
+  "roles": [
+    {
+      "type": "Disease_Excludes_Molecular_Abnormality",
+      "relatedCode": "C36715",
+      "relatedName": "BCR-ABL1 Fusion Protein Expression"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C36122",
+      "relatedName": "Benign Cellular Infiltrate"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C3015",
+      "relatedName": "Eosinophilia"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C41165",
+      "relatedName": "Hematopoietic and Lymphatic System"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C41165",
+      "relatedName": "Hematopoietic and Lymphatic System"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C32725",
+      "relatedName": "Hematopoietic and Lymphoid Cell"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C41168",
+      "relatedName": "Hematopoietic and Lymphoid Tissue"
+    },
+    {
+      "type": "Disease_Has_Molecular_Abnormality",
+      "relatedCode": "C157572",
+      "relatedName": "JAK2 Gene Rearrangement"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12917",
+      "relatedName": "Malignant Cell"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C36115",
+      "relatedName": "Malignant Cellular Infiltrate"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12922",
+      "relatedName": "Neoplastic Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C37060",
+      "relatedName": "Neoplastic Hematopoietic and Lymphoid Cell"
+    },
+    {
+      "type": "Disease_Mapped_To_Gene",
+      "relatedCode": "C129855",
+      "relatedName": "PCM1/JAK2 Fusion Gene"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C12977",
+      "relatedName": "Pluripotent Stem Cell"
+    },
+    {
+      "type": "Disease_Has_Cytogenetic_Abnormality",
+      "relatedCode": "C129854",
+      "relatedName": "t(8;9)(p22;p24.1)"
+    },
+    {
+      "type": "Disease_Has_Molecular_Abnormality",
+      "relatedCode": "C198558",
+      "relatedName": "Tyrosine Kinase Gene Fusion"
+    }
+  ],
+  "inverseRoles": [
+    {
+      "type": "Gene_Involved_In_Pathogenesis_Of_Disease",
+      "relatedCode": "C129855",
+      "relatedName": "PCM1/JAK2 Fusion Gene"
+    }
+  ],
+  "history": [
+    {
+      "code": "C129853",
+      "action": "create",
+      "date": "2016-11-14"
+    },
+    {
+      "code": "C129853",
+      "action": "modify",
+      "date": "2017-08-28"
+    },
+    {
+      "code": "C129853",
+      "action": "modify",
+      "date": "2018-06-25"
+    },
+    {
+      "code": "C129853",
+      "action": "modify",
+      "date": "2018-06-25"
+    },
+    {
+      "code": "C129853",
+      "action": "modify",
+      "date": "2019-01-28"
+    },
+    {
+      "code": "C129853",
+      "action": "modify",
+      "date": "2020-04-27"
+    },
+    {
+      "code": "C129853",
+      "action": "modify",
+      "date": "2021-06-28"
+    },
+    {
+      "code": "C129853",
+      "action": "modify",
+      "date": "2022-10-31"
+    },
+    {
+      "code": "C129853",
+      "action": "modify",
+      "date": "2023-04-24"
+    },
+    {
+      "code": "C129853",
+      "action": "modify",
+      "date": "2023-07-31"
+    }
+  ],
+  "maps": [
+    {
+      "type": "Related To",
+      "targetName": "Myeloid or lymphoid neoplasm with PCM1-JAK2",
+      "targetTermType": "PT",
+      "targetCode": "9968/3",
+      "targetTerminology": "ICDO3",
+      "targetTerminologyVersion": "3.2"
+    }
+  ]
+}

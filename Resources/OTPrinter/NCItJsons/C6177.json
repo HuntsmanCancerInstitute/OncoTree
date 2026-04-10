@@ -1,0 +1,410 @@
+{
+  "code": "C6177",
+  "name": "Bladder Inflammatory Myofibroblastic Tumor",
+  "terminology": "ncit",
+  "version": "25.11d",
+  "conceptStatus": "DEFAULT",
+  "leaf": true,
+  "active": true,
+  "synonyms": [
+    {
+      "name": "Bladder Inflammatory Myofibroblastic Neoplasm",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Bladder Inflammatory Myofibroblastic Tumor",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Inflammatory Myofibroblastic Neoplasm of Bladder",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Inflammatory Myofibroblastic Neoplasm of the Bladder",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Inflammatory Myofibroblastic Neoplasm of the Urinary Bladder",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Inflammatory Myofibroblastic Neoplasm of Urinary Bladder",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Inflammatory Myofibroblastic Tumor of Bladder",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Inflammatory Myofibroblastic Tumor of the Bladder",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Inflammatory Myofibroblastic Tumor of the Urinary Bladder",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Inflammatory Myofibroblastic Tumor of Urinary Bladder",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Urinary Bladder Inflammatory Myofibroblastic Neoplasm",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Urinary Bladder Inflammatory Myofibroblastic Tumor",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Bladder Inflammatory Myofibroblastic Tumor",
+      "type": "Preferred_Name"
+    }
+  ],
+  "definitions": [
+    {
+      "definition": "An intermediate fibroblastic neoplasm that arises from the bladder and is characterized by the presence of spindle-shaped fibroblasts and myofibroblasts, and a chronic inflammatory infiltrate composed of eosinophils, lymphocytes, and plasma cells.",
+      "type": "DEFINITION",
+      "source": "NCI"
+    }
+  ],
+  "properties": [
+    {
+      "code": "P366",
+      "type": "Legacy Concept Name",
+      "value": "Urinary_Bladder_Inflammatory_Myofibroblastic_Tumor"
+    },
+    {
+      "code": "P363",
+      "type": "Neoplastic_Status",
+      "value": "Undetermined"
+    },
+    {
+      "code": "P106",
+      "type": "Semantic_Type",
+      "value": "Neoplastic Process"
+    },
+    {
+      "code": "P207",
+      "type": "UMLS_CUI",
+      "value": "C1336891"
+    }
+  ],
+  "parents": [
+    {
+      "code": "C158636",
+      "name": "Bladder Soft Tissue Neoplasm"
+    },
+    {
+      "code": "C6481",
+      "name": "Inflammatory Myofibroblastic Tumor"
+    }
+  ],
+  "roles": [
+    {
+      "type": "Disease_May_Have_Molecular_Abnormality",
+      "relatedCode": "C129574",
+      "relatedName": "ALK Gene Rearrangement"
+    },
+    {
+      "type": "Disease_Mapped_To_Gene",
+      "relatedCode": "C38184",
+      "relatedName": "ALK Gene"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12414",
+      "relatedName": "Bladder"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12414",
+      "relatedName": "Bladder"
+    },
+    {
+      "type": "Disease_May_Have_Molecular_Abnormality",
+      "relatedCode": "C37216",
+      "relatedName": "CLTC-ALK Fusion Protein Expression"
+    },
+    {
+      "type": "Disease_Mapped_To_Gene",
+      "relatedCode": "C99873",
+      "relatedName": "CLTC/ALK Fusion Gene"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C12555",
+      "relatedName": "Connective and Soft Tissue Cell"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12964",
+      "relatedName": "Connective and Soft Tissue"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12964",
+      "relatedName": "Connective and Soft Tissue"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C35981",
+      "relatedName": "Eosinophilic Infiltrate"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C39743",
+      "relatedName": "Fascicular Pattern"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C3038",
+      "relatedName": "Fever"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C12482",
+      "relatedName": "Fibroblast"
+    },
+    {
+      "type": "Disease_May_Have_Abnormal_Cell",
+      "relatedCode": "C36981",
+      "relatedName": "Ganglion-Like Cell"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12810",
+      "relatedName": "Genitourinary System"
+    },
+    {
+      "type": "Disease_Mapped_To_Gene",
+      "relatedCode": "C20577",
+      "relatedName": "HMGA2 Gene"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C53415",
+      "relatedName": "Locally Aggressive Lesion"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C35983",
+      "relatedName": "Lymphocytic Infiltrate"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C41466",
+      "relatedName": "Multinodular Lesion"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C39744",
+      "relatedName": "Myxoid Changes Present"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12922",
+      "relatedName": "Neoplastic Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36887",
+      "relatedName": "Neoplastic Connective and Soft Tissue Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C48682",
+      "relatedName": "Neoplastic Fibroblast"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36955",
+      "relatedName": "Neoplastic Spindle-Shaped Fibroblast"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36957",
+      "relatedName": "Neoplastic Spindle-Shaped Myofibroblast"
+    },
+    {
+      "type": "Disease_May_Have_Abnormal_Cell",
+      "relatedCode": "C36899",
+      "relatedName": "Neoplastic Stellate Cell"
+    },
+    {
+      "type": "Disease_Excludes_Normal_Cell_Origin",
+      "relatedCode": "C41405",
+      "relatedName": "Neuron, Neuroepithelial Cell, and Supporting Cell of the Nervous System"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C3303",
+      "relatedName": "Pain"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C40990",
+      "relatedName": "Plasmacytic Infiltrate"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12471",
+      "relatedName": "Soft Tissue"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12471",
+      "relatedName": "Soft Tissue"
+    },
+    {
+      "type": "Disease_May_Have_Cytogenetic_Abnormality",
+      "relatedCode": "C36435",
+      "relatedName": "t(1;2)(q25;p23)"
+    },
+    {
+      "type": "Disease_May_Have_Cytogenetic_Abnormality",
+      "relatedCode": "C36590",
+      "relatedName": "t(2;17)(p23;q23)"
+    },
+    {
+      "type": "Disease_May_Have_Cytogenetic_Abnormality",
+      "relatedCode": "C45439",
+      "relatedName": "t(2;19)(p23;p13)"
+    },
+    {
+      "type": "Disease_May_Have_Molecular_Abnormality",
+      "relatedCode": "C36707",
+      "relatedName": "TPM3-ALK Fusion Protein Expression"
+    },
+    {
+      "type": "Disease_Mapped_To_Gene",
+      "relatedCode": "C101083",
+      "relatedName": "TPM3/ALK Fusion Gene"
+    },
+    {
+      "type": "Disease_May_Have_Molecular_Abnormality",
+      "relatedCode": "C45442",
+      "relatedName": "TPM4-ALK Fusion Protein Expression"
+    },
+    {
+      "type": "Disease_Mapped_To_Gene",
+      "relatedCode": "C101085",
+      "relatedName": "TPM4/ALK Fusion Gene"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12413",
+      "relatedName": "Urinary System"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C191741",
+      "relatedName": "Urinary Tract"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C41457",
+      "relatedName": "Well-Circumscribed Lesion"
+    }
+  ],
+  "history": [
+    {
+      "code": "C6177",
+      "action": "create",
+      "date": "2003-08-12"
+    },
+    {
+      "code": "C6177",
+      "action": "modify",
+      "date": "2003-10-31"
+    },
+    {
+      "code": "C6177",
+      "action": "modify",
+      "date": "2003-12-05"
+    },
+    {
+      "code": "C6177",
+      "action": "modify",
+      "date": "2003-12-30"
+    },
+    {
+      "code": "C6177",
+      "action": "modify",
+      "date": "2004-03-30"
+    },
+    {
+      "code": "C6177",
+      "action": "modify",
+      "date": "2004-06-25"
+    },
+    {
+      "code": "C6177",
+      "action": "modify",
+      "date": "2005-09-29"
+    },
+    {
+      "code": "C6177",
+      "action": "modify",
+      "date": "2005-10-31"
+    },
+    {
+      "code": "C6177",
+      "action": "modify",
+      "date": "2006-06-30"
+    },
+    {
+      "code": "C6177",
+      "action": "modify",
+      "date": "2009-04-06"
+    },
+    {
+      "code": "C6177",
+      "action": "modify",
+      "date": "2009-10-27"
+    },
+    {
+      "code": "C6177",
+      "action": "modify",
+      "date": "2009-11-23"
+    },
+    {
+      "code": "C6177",
+      "action": "modify",
+      "date": "2015-03-30"
+    },
+    {
+      "code": "C6177",
+      "action": "modify",
+      "date": "2019-04-29"
+    },
+    {
+      "code": "C6177",
+      "action": "modify",
+      "date": "2025-05-27"
+    }
+  ]
+}

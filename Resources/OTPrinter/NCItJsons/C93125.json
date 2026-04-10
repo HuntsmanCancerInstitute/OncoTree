@@ -1,0 +1,218 @@
+{
+  "code": "C93125",
+  "name": "Radiation-Related Sarcoma",
+  "terminology": "ncit",
+  "version": "25.11d",
+  "conceptStatus": "DEFAULT",
+  "leaf": false,
+  "active": true,
+  "synonyms": [
+    {
+      "name": "Radiation-Related Sarcoma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "CPTAC"
+    },
+    {
+      "name": "Radiation-Related Sarcoma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Radiation-Related Sarcoma",
+      "type": "Preferred_Name"
+    }
+  ],
+  "definitions": [
+    {
+      "definition": "A sarcoma that arises in the bones or soft tissues following exposure to ionizing or non-ionizing radiation.",
+      "type": "DEFINITION",
+      "source": "NCI"
+    }
+  ],
+  "properties": [
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "CPTAC"
+    },
+    {
+      "code": "P363",
+      "type": "Neoplastic_Status",
+      "value": "Malignant"
+    },
+    {
+      "code": "P106",
+      "type": "Semantic_Type",
+      "value": "Neoplastic Process"
+    },
+    {
+      "code": "P207",
+      "type": "UMLS_CUI",
+      "value": "C2985448"
+    }
+  ],
+  "children": [
+    {
+      "code": "C27513",
+      "name": "Radiation-Related Angiosarcoma",
+      "leaf": false
+    },
+    {
+      "code": "C53706",
+      "name": "Radiation-Related Osteosarcoma",
+      "leaf": true
+    }
+  ],
+  "parents": [
+    {
+      "code": "C27209",
+      "name": "Radiation-Related Malignant Neoplasm"
+    },
+    {
+      "code": "C9118",
+      "name": "Sarcoma"
+    },
+    {
+      "code": "C4969",
+      "name": "Therapy-Related Malignant Neoplasm"
+    }
+  ],
+  "associations": [
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C158520",
+      "relatedName": "CPTAC Codelists Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C156966",
+      "relatedName": "CPTAC Neoplasms Codelist"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C156952",
+      "relatedName": "CPTAC Terminology"
+    }
+  ],
+  "roles": [
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C36122",
+      "relatedName": "Benign Cellular Infiltrate"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12964",
+      "relatedName": "Connective and Soft Tissue"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12964",
+      "relatedName": "Connective and Soft Tissue"
+    },
+    {
+      "type": "Disease_Excludes_Normal_Cell_Origin",
+      "relatedCode": "C12578",
+      "relatedName": "Epithelial Cell"
+    },
+    {
+      "type": "Disease_Excludes_Normal_Tissue_Origin",
+      "relatedCode": "C45714",
+      "relatedName": "Epithelial Tissue"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C36105",
+      "relatedName": "Indolent Clinical Course"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C53665",
+      "relatedName": "Intermediate Filaments Present"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C53667",
+      "relatedName": "Intracytoplasmic Eosinophilic Inclusion"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12917",
+      "relatedName": "Malignant Cell"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C36115",
+      "relatedName": "Malignant Cellular Infiltrate"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C36779",
+      "relatedName": "Malignant Epithelial Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12922",
+      "relatedName": "Neoplastic Cell"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C27962",
+      "relatedName": "Radiation Toxicity"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C42607",
+      "relatedName": "Therapy-Related Toxicity"
+    }
+  ],
+  "history": [
+    {
+      "code": "C93125",
+      "action": "create",
+      "date": "2010-11-08"
+    },
+    {
+      "code": "C93125",
+      "action": "modify",
+      "date": "2010-12-27"
+    },
+    {
+      "code": "C93125",
+      "action": "modify",
+      "date": "2011-04-25"
+    },
+    {
+      "code": "C93125",
+      "action": "modify",
+      "date": "2012-12-10"
+    },
+    {
+      "code": "C93125",
+      "action": "modify",
+      "date": "2014-02-03"
+    },
+    {
+      "code": "C93125",
+      "action": "modify",
+      "date": "2015-03-09"
+    },
+    {
+      "code": "C93125",
+      "action": "modify",
+      "date": "2018-12-31"
+    },
+    {
+      "code": "C93125",
+      "action": "modify",
+      "date": "2019-03-25"
+    },
+    {
+      "code": "C93125",
+      "action": "modify",
+      "date": "2019-05-28"
+    }
+  ]
+}

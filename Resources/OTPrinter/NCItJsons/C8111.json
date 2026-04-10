@@ -1,0 +1,404 @@
+{
+  "code": "C8111",
+  "name": "Immature Ovarian Teratoma",
+  "terminology": "ncit",
+  "version": "25.11d",
+  "conceptStatus": "DEFAULT",
+  "leaf": false,
+  "active": true,
+  "synonyms": [
+    {
+      "name": "Immature Ovarian Teratoma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "Cellosaurus"
+    },
+    {
+      "name": "Immature Ovarian Teratoma",
+      "termType": "DN",
+      "type": "FULL_SYN",
+      "source": "CTRP"
+    },
+    {
+      "name": "Grade 2 Ovarian Teratoma",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Immature Germ Cell Teratoma of Ovary",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Immature Germ Cell Teratoma of the Ovary",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Immature Ovarian Teratoma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Immature Teratoma of Ovary",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Immature Teratoma of the Ovary",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Ovarian Germ Cell Immature Teratoma",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Ovarian Immature Germ Cell Teratoma",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Ovarian Immature Teratoma",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Immature Ovarian Teratoma",
+      "type": "Display_Name"
+    },
+    {
+      "name": "Immature Ovarian Teratoma",
+      "type": "Preferred_Name"
+    }
+  ],
+  "definitions": [
+    {
+      "definition": "An immature teratoma arising from the ovary.  It usually affects females in their first two decades of life.",
+      "type": "DEFINITION",
+      "source": "NCI"
+    }
+  ],
+  "properties": [
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "Cellosaurus"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "CTRP"
+    },
+    {
+      "code": "P366",
+      "type": "Legacy Concept Name",
+      "value": "Immature_Ovarian_Teratoma"
+    },
+    {
+      "code": "P363",
+      "type": "Neoplastic_Status",
+      "value": "Undetermined"
+    },
+    {
+      "code": "P106",
+      "type": "Semantic_Type",
+      "value": "Neoplastic Process"
+    },
+    {
+      "code": "P207",
+      "type": "UMLS_CUI",
+      "value": "C0346182"
+    }
+  ],
+  "children": [
+    {
+      "code": "C6547",
+      "name": "Childhood Ovarian Immature Teratoma",
+      "leaf": true
+    }
+  ],
+  "parents": [
+    {
+      "code": "C4286",
+      "name": "Immature Teratoma"
+    },
+    {
+      "code": "C39992",
+      "name": "Ovarian Biphasic or Triphasic Teratoma"
+    }
+  ],
+  "associations": [
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C165258",
+      "relatedName": "Cellosaurus Disease Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C118168",
+      "relatedName": "CTRP Disease Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C116977",
+      "relatedName": "CTRP Terminology"
+    }
+  ],
+  "roles": [
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C34333",
+      "relatedName": "Abdominal Mass"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C137974",
+      "relatedName": "Adnexa"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C54111",
+      "relatedName": "Ectodermal Differentiation"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C54112",
+      "relatedName": "Endodermal Differentiation"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12402",
+      "relatedName": "Female Reproductive System"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C54107",
+      "relatedName": "Fully Differentiated \"Adult-Type\" Tissues Present"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12810",
+      "relatedName": "Genitourinary System"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C12597",
+      "relatedName": "Germ Cell"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C54105",
+      "relatedName": "Germinal Layer"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12725",
+      "relatedName": "Gonad"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12725",
+      "relatedName": "Gonad"
+    },
+    {
+      "type": "Disease_Is_Grade",
+      "relatedCode": "C28078",
+      "relatedName": "Grade 2"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C123865",
+      "relatedName": "Malignant Germinomatous Cells Present"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C54127",
+      "relatedName": "Malignant Large Germ Cell with Abundant Cytoplasm"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C54113",
+      "relatedName": "Mesodermal Differentiation"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12922",
+      "relatedName": "Neoplastic Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36903",
+      "relatedName": "Neoplastic Germ Cell"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C36898",
+      "relatedName": "Neoplastic Sex Cord-Stromal Cell"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12404",
+      "relatedName": "Ovary"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12404",
+      "relatedName": "Ovary"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12841",
+      "relatedName": "Reproductive System"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C61414",
+      "relatedName": "Seminomatous Component Present"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C61472",
+      "relatedName": "Single Type of Tissue Derived from One Embryonic Layer Present"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C61473",
+      "relatedName": "Tissues Derived from Two or Three Embryonic Layers Present"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C54109",
+      "relatedName": "Undifferentiated \"Fetal-Type\" Tissues Present"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12321",
+      "relatedName": "Uterine Adnexa"
+    }
+  ],
+  "history": [
+    {
+      "code": "C8111",
+      "action": "create",
+      "date": "2003-08-12"
+    },
+    {
+      "code": "C8111",
+      "action": "modify",
+      "date": "2003-10-31"
+    },
+    {
+      "code": "C8111",
+      "action": "modify",
+      "date": "2003-12-30"
+    },
+    {
+      "code": "C8111",
+      "action": "modify",
+      "date": "2004-03-30"
+    },
+    {
+      "code": "C8111",
+      "action": "modify",
+      "date": "2004-08-02"
+    },
+    {
+      "code": "C8111",
+      "action": "modify",
+      "date": "2006-07-28"
+    },
+    {
+      "code": "C8111",
+      "action": "modify",
+      "date": "2007-10-29"
+    },
+    {
+      "code": "C8111",
+      "action": "modify",
+      "date": "2009-04-06"
+    },
+    {
+      "code": "C8111",
+      "action": "modify",
+      "date": "2009-10-27"
+    },
+    {
+      "code": "C8111",
+      "action": "modify",
+      "date": "2009-11-23"
+    },
+    {
+      "code": "C8111",
+      "action": "modify",
+      "date": "2014-02-03"
+    },
+    {
+      "code": "C8111",
+      "action": "modify",
+      "date": "2014-08-04"
+    },
+    {
+      "code": "C8111",
+      "action": "modify",
+      "date": "2014-08-18"
+    },
+    {
+      "code": "C8111",
+      "action": "modify",
+      "date": "2014-09-22"
+    },
+    {
+      "code": "C8111",
+      "action": "modify",
+      "date": "2018-07-30"
+    },
+    {
+      "code": "C8111",
+      "action": "modify",
+      "date": "2018-08-27"
+    },
+    {
+      "code": "C8111",
+      "action": "modify",
+      "date": "2018-08-27"
+    },
+    {
+      "code": "C8111",
+      "action": "modify",
+      "date": "2018-11-26"
+    },
+    {
+      "code": "C39994",
+      "action": "retire",
+      "date": "2018-11-26",
+      "replacementCode": "C8111",
+      "replacementName": "Immature Ovarian Teratoma"
+    },
+    {
+      "code": "C8111",
+      "action": "modify",
+      "date": "2019-10-28"
+    },
+    {
+      "code": "C8111",
+      "action": "modify",
+      "date": "2023-02-27"
+    },
+    {
+      "code": "C8111",
+      "action": "modify",
+      "date": "2025-03-31"
+    }
+  ]
+}

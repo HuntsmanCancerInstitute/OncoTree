@@ -1,0 +1,639 @@
+{
+  "code": "C3457",
+  "name": "B-Cell Non-Hodgkin Lymphoma",
+  "terminology": "ncit",
+  "version": "25.11d",
+  "conceptStatus": "DEFAULT",
+  "leaf": false,
+  "active": true,
+  "synonyms": [
+    {
+      "name": "B-Cell Non-Hodgkin Lymphoma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "Cellosaurus"
+    },
+    {
+      "name": "B-Cell Non-Hodgkin Lymphoma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "CPTAC"
+    },
+    {
+      "name": "B-Cell Non-Hodgkin Lymphoma",
+      "termType": "DN",
+      "type": "FULL_SYN",
+      "source": "CTRP"
+    },
+    {
+      "name": "Unspecified B-cell lymphoma, unspecified site",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "mCode",
+      "code": "C85.10",
+      "subSource": "ICD-10 CM"
+    },
+    {
+      "name": "B-cell lymphoma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NCI-GLOSS",
+      "code": "CDR0000444967"
+    },
+    {
+      "name": "B-Cell Non Hodgkin's Lymphoma",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "B-Cell Non-Hodgkin Lymphoma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "B-Cell Non-Hodgkin's Lymphoma",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Lymphomas Non-Hodgkin's B-Cell",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Non-Hodgkin's B-Cell Lymphoma",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Non-Hodgkin's Lymphoma B-Cell",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "B-Cell Non-Hodgkin Lymphoma",
+      "type": "Display_Name"
+    },
+    {
+      "name": "B-Cell Non-Hodgkin Lymphoma",
+      "type": "Preferred_Name"
+    }
+  ],
+  "definitions": [
+    {
+      "definition": "A type of cancer that forms in B cells (a type of immune system cell). B-cell lymphomas usually occur in adults and may be either indolent (slow-growing) or aggressive (fast-growing). There are many different types of B-cell lymphomas, and prognosis and treatment depend on the type and stage of cancer.",
+      "type": "ALT_DEFINITION",
+      "source": "NCI-GLOSS"
+    },
+    {
+      "definition": "The most common type of non-Hodgkin lymphoma.  It includes the most frequently seen morphologic variants which are: diffuse large B-cell lymphoma, follicular lymphoma, small lymphocytic lymphoma and marginal zone B-cell lymphoma.",
+      "type": "DEFINITION",
+      "source": "NCI"
+    }
+  ],
+  "properties": [
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "Cellosaurus"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "CPTAC"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "CTRP"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "mCode"
+    },
+    {
+      "code": "P366",
+      "type": "Legacy Concept Name",
+      "value": "B-Cell_Non-Hodgkin_s_Lymphoma"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "Unspecified B-cell lymphoma, extranodal and solid organ sites"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "Unspecified B-cell lymphoma, intrapelvic lymph nodes"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "Unspecified B-cell lymphoma, lymph nodes of multiple sites"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "Unspecified B-cell lymphoma, spleen"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "Unspecified B-cell lymphoma, unspecified site"
+    },
+    {
+      "code": "P208",
+      "type": "NCI_META_CUI",
+      "value": "CL448793"
+    },
+    {
+      "code": "P363",
+      "type": "Neoplastic_Status",
+      "value": "Malignant"
+    },
+    {
+      "code": "P106",
+      "type": "Semantic_Type",
+      "value": "Neoplastic Process"
+    }
+  ],
+  "children": [
+    {
+      "code": "C217099",
+      "name": "Advanced B-Cell Non-Hodgkin Lymphoma",
+      "leaf": false
+    },
+    {
+      "code": "C178541",
+      "name": "Aggressive B-Cell Non-Hodgkin Lymphoma",
+      "leaf": false
+    },
+    {
+      "code": "C141243",
+      "name": "B-Cell Non-Hodgkin Lymphoma by Ann Arbor Stage",
+      "leaf": false
+    },
+    {
+      "code": "C210124",
+      "name": "Childhood B-Cell Non-Hodgkin Lymphoma",
+      "leaf": false
+    },
+    {
+      "code": "C7056",
+      "name": "Mature B-Cell Non-Hodgkin Lymphoma",
+      "leaf": false
+    },
+    {
+      "code": "C147948",
+      "name": "Primary Central Nervous System B-Cell Non-Hodgkin Lymphoma",
+      "leaf": false
+    },
+    {
+      "code": "C8841",
+      "name": "Recurrent B-Cell Non-Hodgkin Lymphoma",
+      "leaf": false
+    },
+    {
+      "code": "C8842",
+      "name": "Refractory B-Cell Non-Hodgkin Lymphoma",
+      "leaf": false
+    },
+    {
+      "code": "C96053",
+      "name": "Small Intestinal B-Cell Non-Hodgkin Lymphoma",
+      "leaf": false
+    },
+    {
+      "code": "C216069",
+      "name": "Transformed B-Cell Non-Hodgkin Lymphoma",
+      "leaf": false
+    }
+  ],
+  "parents": [
+    {
+      "code": "C188021",
+      "name": "B-Cell Malignant Neoplasm"
+    },
+    {
+      "code": "C3211",
+      "name": "Non-Hodgkin Lymphoma"
+    }
+  ],
+  "associations": [
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C165258",
+      "relatedName": "Cellosaurus Disease Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C158520",
+      "relatedName": "CPTAC Codelists Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C156966",
+      "relatedName": "CPTAC Neoplasms Codelist"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C156952",
+      "relatedName": "CPTAC Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C118168",
+      "relatedName": "CTRP Disease Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C116977",
+      "relatedName": "CTRP Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C193249",
+      "relatedName": "mCode Cancer Disorder Value Set"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C193175",
+      "relatedName": "mCode Elixhauser Lymphoma Value Set"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C193248",
+      "relatedName": "mCode Primary Cancer Disorder Value Set"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C193231",
+      "relatedName": "mCode Primary Malignant Neoplasm Disorder Value Set"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C193006",
+      "relatedName": "mCode Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C126659",
+      "relatedName": "NCIt Neoplasm Core Terminology"
+    }
+  ],
+  "roles": [
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36725",
+      "relatedName": "Abnormal Lymphocyte"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C12474",
+      "relatedName": "B-Lymphocyte"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C36122",
+      "relatedName": "Benign Cellular Infiltrate"
+    },
+    {
+      "type": "Disease_Has_Molecular_Abnormality",
+      "relatedCode": "C36443",
+      "relatedName": "Clonal Immunoglobulin Gene Rearrangement"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C41165",
+      "relatedName": "Hematopoietic and Lymphatic System"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C41165",
+      "relatedName": "Hematopoietic and Lymphatic System"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C32725",
+      "relatedName": "Hematopoietic and Lymphoid Cell"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C41168",
+      "relatedName": "Hematopoietic and Lymphoid Tissue"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12746",
+      "relatedName": "Lymphatic System"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C37027",
+      "relatedName": "Lymphocyte Predominant Cell"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C12535",
+      "relatedName": "Lymphocyte"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C13049",
+      "relatedName": "Lymphoid Tissue"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12917",
+      "relatedName": "Malignant Cell"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C36115",
+      "relatedName": "Malignant Cellular Infiltrate"
+    },
+    {
+      "type": "Disease_Excludes_Normal_Cell_Origin",
+      "relatedCode": "C12549",
+      "relatedName": "Myeloid Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C38640",
+      "relatedName": "Neoplastic B-Lymphocyte"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12922",
+      "relatedName": "Neoplastic Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C37060",
+      "relatedName": "Neoplastic Hematopoietic and Lymphoid Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36988",
+      "relatedName": "Neoplastic Lymphocyte"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C39566",
+      "relatedName": "Neoplastic T-Lymphocyte and Neoplastic Natural Killer Cell"
+    },
+    {
+      "type": "Disease_Excludes_Normal_Cell_Origin",
+      "relatedCode": "C12486",
+      "relatedName": "Plasma Cell"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C12660",
+      "relatedName": "Reed-Sternberg Cell"
+    }
+  ],
+  "inverseRoles": [
+    {
+      "type": "Gene_Associated_With_Disease",
+      "relatedCode": "C18362",
+      "relatedName": "BMI1 Gene"
+    },
+    {
+      "type": "Gene_Associated_With_Disease",
+      "relatedCode": "C52521",
+      "relatedName": "BMI1 wt Allele"
+    },
+    {
+      "type": "Gene_Associated_With_Disease",
+      "relatedCode": "C18364",
+      "relatedName": "CBL Gene"
+    },
+    {
+      "type": "Gene_Associated_With_Disease",
+      "relatedCode": "C52501",
+      "relatedName": "CBL wt Allele"
+    },
+    {
+      "type": "Gene_Associated_With_Disease",
+      "relatedCode": "C24408",
+      "relatedName": "FSTL3 Gene"
+    },
+    {
+      "type": "Gene_Associated_With_Disease",
+      "relatedCode": "C51247",
+      "relatedName": "FSTL3 wt Allele"
+    },
+    {
+      "type": "Gene_Associated_With_Disease",
+      "relatedCode": "C21294",
+      "relatedName": "LCP1 Gene"
+    },
+    {
+      "type": "Gene_Associated_With_Disease",
+      "relatedCode": "C51262",
+      "relatedName": "LCP1 wt Allele"
+    },
+    {
+      "type": "Gene_Associated_With_Disease",
+      "relatedCode": "C18404",
+      "relatedName": "NFKB2 Gene"
+    },
+    {
+      "type": "Gene_Associated_With_Disease",
+      "relatedCode": "C53098",
+      "relatedName": "NFKB2 wt Allele"
+    },
+    {
+      "type": "Gene_Product_Malfunction_Associated_With_Disease",
+      "relatedCode": "C17511",
+      "relatedName": "Plastin-2"
+    }
+  ],
+  "history": [
+    {
+      "code": "C3457",
+      "action": "create",
+      "date": "2003-08-12"
+    },
+    {
+      "code": "C3457",
+      "action": "modify",
+      "date": "2003-10-31"
+    },
+    {
+      "code": "C3457",
+      "action": "modify",
+      "date": "2003-12-30"
+    },
+    {
+      "code": "C3457",
+      "action": "modify",
+      "date": "2004-03-30"
+    },
+    {
+      "code": "C3457",
+      "action": "modify",
+      "date": "2004-06-25"
+    },
+    {
+      "code": "C3457",
+      "action": "modify",
+      "date": "2006-12-01"
+    },
+    {
+      "code": "C3457",
+      "action": "modify",
+      "date": "2009-04-06"
+    },
+    {
+      "code": "C3457",
+      "action": "modify",
+      "date": "2009-10-27"
+    },
+    {
+      "code": "C3457",
+      "action": "modify",
+      "date": "2009-11-23"
+    },
+    {
+      "code": "C3457",
+      "action": "modify",
+      "date": "2011-03-07"
+    },
+    {
+      "code": "C3457",
+      "action": "modify",
+      "date": "2014-02-03"
+    },
+    {
+      "code": "C3457",
+      "action": "modify",
+      "date": "2014-10-20"
+    },
+    {
+      "code": "C3457",
+      "action": "modify",
+      "date": "2016-04-25"
+    },
+    {
+      "code": "C3457",
+      "action": "modify",
+      "date": "2017-07-31"
+    },
+    {
+      "code": "C3457",
+      "action": "modify",
+      "date": "2018-07-30"
+    },
+    {
+      "code": "C3457",
+      "action": "modify",
+      "date": "2018-08-27"
+    },
+    {
+      "code": "C3457",
+      "action": "modify",
+      "date": "2018-08-27"
+    },
+    {
+      "code": "C3457",
+      "action": "modify",
+      "date": "2018-12-31"
+    },
+    {
+      "code": "C3457",
+      "action": "modify",
+      "date": "2019-02-25"
+    },
+    {
+      "code": "C3457",
+      "action": "modify",
+      "date": "2019-03-25"
+    },
+    {
+      "code": "C3457",
+      "action": "modify",
+      "date": "2019-05-28"
+    },
+    {
+      "code": "C3457",
+      "action": "modify",
+      "date": "2019-10-28"
+    },
+    {
+      "code": "C3457",
+      "action": "modify",
+      "date": "2020-02-24"
+    },
+    {
+      "code": "C3457",
+      "action": "modify",
+      "date": "2022-06-29"
+    },
+    {
+      "code": "C3457",
+      "action": "modify",
+      "date": "2023-02-27"
+    },
+    {
+      "code": "C3457",
+      "action": "modify",
+      "date": "2023-03-27"
+    },
+    {
+      "code": "C3457",
+      "action": "modify",
+      "date": "2023-05-30"
+    },
+    {
+      "code": "C3457",
+      "action": "modify",
+      "date": "2025-03-31"
+    }
+  ],
+  "maps": [
+    {
+      "type": "Related To",
+      "targetName": "Unspecified B-cell lymphoma, extranodal and solid organ sites",
+      "targetTermType": "PT",
+      "targetCode": "C85.19",
+      "targetTerminology": "ICD10CM 2017"
+    },
+    {
+      "type": "Related To",
+      "targetName": "Unspecified B-cell lymphoma, intrapelvic lymph nodes",
+      "targetTermType": "PT",
+      "targetCode": "C85.16",
+      "targetTerminology": "ICD10CM 2017"
+    },
+    {
+      "type": "Related To",
+      "targetName": "Unspecified B-cell lymphoma, lymph nodes of multiple sites",
+      "targetTermType": "PT",
+      "targetCode": "C85.18",
+      "targetTerminology": "ICD10CM 2017"
+    },
+    {
+      "type": "Related To",
+      "targetName": "Unspecified B-cell lymphoma, spleen",
+      "targetTermType": "PT",
+      "targetCode": "C85.17",
+      "targetTerminology": "ICD10CM 2017"
+    },
+    {
+      "type": "Related To",
+      "targetName": "Unspecified B-cell lymphoma, unspecified site",
+      "targetTermType": "PT",
+      "targetCode": "C85.10",
+      "targetTerminology": "ICD10CM 2017"
+    }
+  ]
+}

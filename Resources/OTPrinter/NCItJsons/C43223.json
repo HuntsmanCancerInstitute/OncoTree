@@ -1,0 +1,829 @@
+{
+  "code": "C43223",
+  "name": "Myeloid Leukemia Associated with Down Syndrome",
+  "terminology": "ncit",
+  "version": "25.11d",
+  "conceptStatus": "DEFAULT",
+  "leaf": true,
+  "active": true,
+  "synonyms": [
+    {
+      "name": "Myeloid Leukemia Associated with Down Syndrome",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "Cellosaurus"
+    },
+    {
+      "name": "Myeloid Leukemia Associated with Down Syndrome",
+      "termType": "DN",
+      "type": "FULL_SYN",
+      "source": "CTRP"
+    },
+    {
+      "name": "Myeloid leukemia associated with Down Syndrome",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "GDC"
+    },
+    {
+      "name": "Myeloid Leukemia Associated with Down Syndrome",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Acute Myeloid Leukemia Occurring in Children with Down syndrome",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NICHD"
+    },
+    {
+      "name": "Acute Myeloid Leukemia with GATA1 Mutations",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NICHD"
+    },
+    {
+      "name": "AML Occurring in Children with Down Syndrome",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NICHD"
+    },
+    {
+      "name": "Myeloid Leukemia Associated with Down Syndrome",
+      "type": "Display_Name"
+    },
+    {
+      "name": "Myeloid Leukemia Associated with Down Syndrome",
+      "type": "Preferred_Name"
+    },
+    {
+      "name": "MLDS",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "PCDC",
+      "code": "VAR-DC",
+      "subSource": "AML"
+    },
+    {
+      "name": "Myeloid Leukemia Associated with Down Syndrome",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "PCDC",
+      "code": "AV-DC",
+      "subSource": "AML"
+    }
+  ],
+  "definitions": [
+    {
+      "definition": "Acute myeloid leukemia occurring in children with Down syndrome. During the first 3 years of life, it is usually the megakaryoblastic subtype, and is associated with GATA1 gene mutation. After age 4 this is no longer the case.",
+      "type": "ALT_DEFINITION",
+      "source": "NICHD"
+    },
+    {
+      "definition": "Acute myeloid leukemia or myelodysplastic syndrome occurring in children with Down syndrome.  The acute myeloid leukemia is usually an acute megakaryoblastic leukemia, and is associated with GATA1 gene mutation.",
+      "type": "DEFINITION",
+      "source": "NCI"
+    }
+  ],
+  "properties": [
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "Cellosaurus"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "CTRP"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "GDC"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "NICHD"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "PCDC"
+    },
+    {
+      "code": "P334",
+      "type": "ICD-O-3_Code",
+      "value": "9898/3"
+    },
+    {
+      "code": "P366",
+      "type": "Legacy Concept Name",
+      "value": "Acute_Myeloid_Leukemia_Transient_Myeloproliferative_Disorder_in_Down_Syndrome"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "9898/3"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "Myeloid leukemia associated with Down Syndrome"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "Myeloid leukemia associated with Down syndrome"
+    },
+    {
+      "code": "P363",
+      "type": "Neoplastic_Status",
+      "value": "Malignant"
+    },
+    {
+      "code": "P106",
+      "type": "Semantic_Type",
+      "value": "Neoplastic Process"
+    },
+    {
+      "code": "P207",
+      "type": "UMLS_CUI",
+      "value": "C2825149"
+    }
+  ],
+  "parents": [
+    {
+      "code": "C9431",
+      "name": "Childhood Hematopoietic and Lymphoid Cell Neoplasm"
+    },
+    {
+      "code": "C4005",
+      "name": "Childhood Malignant Neoplasm"
+    },
+    {
+      "code": "C82338",
+      "name": "Hematologic Neoplasm Associated with Down Syndrome"
+    }
+  ],
+  "associations": [
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C174019",
+      "relatedName": "AML Authorized Value Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C173232",
+      "relatedName": "AML Disease Characteristics Table"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C174018",
+      "relatedName": "AML Variable Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C165258",
+      "relatedName": "Cellosaurus Disease Terminology"
+    },
+    {
+      "type": "Has_PCDC_Data_Type",
+      "relatedCode": "C25162",
+      "relatedName": "Code"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C118168",
+      "relatedName": "CTRP Disease Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C116977",
+      "relatedName": "CTRP Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C157711",
+      "relatedName": "GDC Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C177537",
+      "relatedName": "GDC Value Terminology"
+    },
+    {
+      "type": "Is_Value_For_GDC_Property",
+      "relatedCode": "C176985",
+      "relatedName": "Histology ICD-O Morphology Code"
+    },
+    {
+      "type": "Is_Value_For_GDC_Property",
+      "relatedCode": "C177621",
+      "relatedName": "ICD-O-3 Morphology Term Diagnosis Question"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168658",
+      "relatedName": "Mapped ICDO3.1 Morphology PT Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168657",
+      "relatedName": "Mapped ICDO3.1 Morphology Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168655",
+      "relatedName": "Mapped ICDO3.1 Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168662",
+      "relatedName": "Mapped ICDO3.2 Morphology PT Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168661",
+      "relatedName": "Mapped ICDO3.2 Morphology Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168656",
+      "relatedName": "Mapped ICDO3.2 Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C126659",
+      "relatedName": "NCIt Neoplasm Core Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C90259",
+      "relatedName": "NICHD Terminology"
+    },
+    {
+      "type": "Has_PCDC_AML_Authorized_Value",
+      "relatedCode": "C49487",
+      "relatedName": "No"
+    },
+    {
+      "type": "Has_PCDC_AML_Authorized_Value",
+      "relatedCode": "C43234",
+      "relatedName": "Not Reported"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C132009",
+      "relatedName": "Pediatric Hematology-Oncology Terminology"
+    },
+    {
+      "type": "Has_PCDC_AML_Authorized_Value",
+      "relatedCode": "C17998",
+      "relatedName": "Unknown"
+    },
+    {
+      "type": "Is_PCDC_AML_Authorized_Value_For_Variable",
+      "relatedCode": "C159157",
+      "relatedName": "WHO AML Classification of Tumors"
+    },
+    {
+      "type": "Has_PCDC_AML_Authorized_Value",
+      "relatedCode": "C49488",
+      "relatedName": "Yes"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C6283",
+      "relatedName": "Childhood Neoplasm",
+      "qualifiers": [
+        {
+          "type": "computed",
+          "value": "This is computed by the existing subset relationship"
+        }
+      ]
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C4005",
+      "relatedName": "Childhood Malignant Neoplasm",
+      "qualifiers": [
+        {
+          "type": "computed",
+          "value": "This is computed by the existing subset relationship"
+        }
+      ]
+    }
+  ],
+  "inverseAssociations": [
+    {
+      "type": "Has_GDC_Value",
+      "relatedCode": "C176985",
+      "relatedName": "Histology ICD-O Morphology Code"
+    },
+    {
+      "type": "Has_GDC_Value",
+      "relatedCode": "C177621",
+      "relatedName": "ICD-O-3 Morphology Term Diagnosis Question"
+    },
+    {
+      "type": "Is_PCDC_AML_Authorized_Value_For_Variable",
+      "relatedCode": "C49487",
+      "relatedName": "No"
+    },
+    {
+      "type": "Is_PCDC_AML_Authorized_Value_For_Variable",
+      "relatedCode": "C43234",
+      "relatedName": "Not Reported"
+    },
+    {
+      "type": "Is_PCDC_AML_Authorized_Value_For_Variable",
+      "relatedCode": "C17998",
+      "relatedName": "Unknown"
+    },
+    {
+      "type": "Has_PCDC_AML_Authorized_Value",
+      "relatedCode": "C159157",
+      "relatedName": "WHO AML Classification of Tumors"
+    },
+    {
+      "type": "Is_PCDC_AML_Authorized_Value_For_Variable",
+      "relatedCode": "C49488",
+      "relatedName": "Yes"
+    }
+  ],
+  "roles": [
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C36122",
+      "relatedName": "Benign Cellular Infiltrate"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C13456",
+      "relatedName": "Bone Marrow Stem Cell"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12431",
+      "relatedName": "Bone Marrow"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12431",
+      "relatedName": "Bone Marrow"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C60644",
+      "relatedName": "Childhood Lesion"
+    },
+    {
+      "type": "Disease_Has_Associated_Disease",
+      "relatedCode": "C2993",
+      "relatedName": "Down Syndrome"
+    },
+    {
+      "type": "Disease_Has_Associated_Disease",
+      "relatedCode": "C2993",
+      "relatedName": "Down Syndrome"
+    },
+    {
+      "type": "Disease_May_Have_Molecular_Abnormality",
+      "relatedCode": "C82340",
+      "relatedName": "GATA1 Gene Mutation"
+    },
+    {
+      "type": "Disease_Mapped_To_Gene",
+      "relatedCode": "C28575",
+      "relatedName": "GATA1 Gene"
+    },
+    {
+      "type": "Disease_Has_Molecular_Abnormality",
+      "relatedCode": "C17666",
+      "relatedName": "Germline Variation"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C41165",
+      "relatedName": "Hematopoietic and Lymphatic System"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C41165",
+      "relatedName": "Hematopoietic and Lymphatic System"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C32725",
+      "relatedName": "Hematopoietic and Lymphoid Cell"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C41168",
+      "relatedName": "Hematopoietic and Lymphoid Tissue"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C12551",
+      "relatedName": "Hematopoietic Stem Cell"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C12551",
+      "relatedName": "Hematopoietic Stem Cell"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C13051",
+      "relatedName": "Hematopoietic Tissue"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C54062",
+      "relatedName": "Hereditary Lesion"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C35788",
+      "relatedName": "Hypercellular Bone Marrow"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C35524",
+      "relatedName": "Leukocytosis"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12917",
+      "relatedName": "Malignant Cell"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C36115",
+      "relatedName": "Malignant Cellular Infiltrate"
+    },
+    {
+      "type": "Disease_May_Have_Abnormal_Cell",
+      "relatedCode": "C12916",
+      "relatedName": "Micromegakaryocyte"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12922",
+      "relatedName": "Neoplastic Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C37060",
+      "relatedName": "Neoplastic Hematopoietic and Lymphoid Cell"
+    },
+    {
+      "type": "Disease_May_Have_Abnormal_Cell",
+      "relatedCode": "C37068",
+      "relatedName": "Neoplastic Megakaryoblast"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C37067",
+      "relatedName": "Neoplastic Myeloid Blast"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C41063",
+      "relatedName": "Neoplastic Myeloid Cell"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C54056",
+      "relatedName": "Preexisting Condition"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C3408",
+      "relatedName": "Thrombocytopenia"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C3408",
+      "relatedName": "Thrombocytopenia"
+    },
+    {
+      "type": "Disease_Has_Cytogenetic_Abnormality",
+      "relatedCode": "C43224",
+      "relatedName": "Trisomy 21"
+    },
+    {
+      "type": "Disease_Has_Cytogenetic_Abnormality",
+      "relatedCode": "C43224",
+      "relatedName": "Trisomy 21"
+    },
+    {
+      "type": "Disease_May_Have_Cytogenetic_Abnormality",
+      "relatedCode": "C36396",
+      "relatedName": "Trisomy 8"
+    }
+  ],
+  "inverseRoles": [
+    {
+      "type": "Gene_Associated_With_Disease",
+      "relatedCode": "C28575",
+      "relatedName": "GATA1 Gene"
+    },
+    {
+      "type": "Gene_Associated_With_Disease",
+      "relatedCode": "C52908",
+      "relatedName": "GATA1 wt Allele"
+    }
+  ],
+  "history": [
+    {
+      "code": "C43223",
+      "action": "create",
+      "date": "2004-12-30"
+    },
+    {
+      "code": "C43223",
+      "action": "modify",
+      "date": "2005-07-29"
+    },
+    {
+      "code": "C43223",
+      "action": "modify",
+      "date": "2006-12-29"
+    },
+    {
+      "code": "C43223",
+      "action": "modify",
+      "date": "2007-09-27"
+    },
+    {
+      "code": "C43223",
+      "action": "modify",
+      "date": "2009-01-26"
+    },
+    {
+      "code": "C43223",
+      "action": "modify",
+      "date": "2009-06-29"
+    },
+    {
+      "code": "C43223",
+      "action": "modify",
+      "date": "2009-10-27"
+    },
+    {
+      "code": "C43223",
+      "action": "modify",
+      "date": "2009-11-23"
+    },
+    {
+      "code": "C43223",
+      "action": "modify",
+      "date": "2011-07-25"
+    },
+    {
+      "code": "C43223",
+      "action": "modify",
+      "date": "2011-08-15"
+    },
+    {
+      "code": "C43223",
+      "action": "modify",
+      "date": "2011-12-27"
+    },
+    {
+      "code": "C43223",
+      "action": "modify",
+      "date": "2012-07-30"
+    },
+    {
+      "code": "C43223",
+      "action": "modify",
+      "date": "2016-04-25"
+    },
+    {
+      "code": "C43223",
+      "action": "modify",
+      "date": "2017-02-13"
+    },
+    {
+      "code": "C43223",
+      "action": "modify",
+      "date": "2017-02-21"
+    },
+    {
+      "code": "C43223",
+      "action": "modify",
+      "date": "2017-02-27"
+    },
+    {
+      "code": "C43223",
+      "action": "modify",
+      "date": "2017-03-06"
+    },
+    {
+      "code": "C43223",
+      "action": "modify",
+      "date": "2017-03-13"
+    },
+    {
+      "code": "C43223",
+      "action": "modify",
+      "date": "2017-03-20"
+    },
+    {
+      "code": "C43223",
+      "action": "modify",
+      "date": "2017-03-27"
+    },
+    {
+      "code": "C43223",
+      "action": "modify",
+      "date": "2017-04-03"
+    },
+    {
+      "code": "C43223",
+      "action": "modify",
+      "date": "2017-04-10"
+    },
+    {
+      "code": "C43223",
+      "action": "modify",
+      "date": "2017-04-17"
+    },
+    {
+      "code": "C43223",
+      "action": "modify",
+      "date": "2017-04-24"
+    },
+    {
+      "code": "C43223",
+      "action": "modify",
+      "date": "2017-05-01"
+    },
+    {
+      "code": "C43223",
+      "action": "modify",
+      "date": "2017-05-04"
+    },
+    {
+      "code": "C43223",
+      "action": "modify",
+      "date": "2018-09-24"
+    },
+    {
+      "code": "C43223",
+      "action": "modify",
+      "date": "2018-10-29"
+    },
+    {
+      "code": "C43223",
+      "action": "modify",
+      "date": "2018-10-29"
+    },
+    {
+      "code": "C43223",
+      "action": "modify",
+      "date": "2019-05-28"
+    },
+    {
+      "code": "C43223",
+      "action": "modify",
+      "date": "2019-09-30"
+    },
+    {
+      "code": "C43223",
+      "action": "modify",
+      "date": "2019-10-28"
+    },
+    {
+      "code": "C43223",
+      "action": "modify",
+      "date": "2019-11-25"
+    },
+    {
+      "code": "C43223",
+      "action": "modify",
+      "date": "2020-02-24"
+    },
+    {
+      "code": "C43223",
+      "action": "modify",
+      "date": "2020-04-27"
+    },
+    {
+      "code": "C43223",
+      "action": "modify",
+      "date": "2020-06-29"
+    },
+    {
+      "code": "C43223",
+      "action": "modify",
+      "date": "2020-07-27"
+    },
+    {
+      "code": "C43223",
+      "action": "modify",
+      "date": "2020-08-31"
+    },
+    {
+      "code": "C43223",
+      "action": "modify",
+      "date": "2020-09-29"
+    },
+    {
+      "code": "C43223",
+      "action": "modify",
+      "date": "2020-11-30"
+    },
+    {
+      "code": "C43223",
+      "action": "modify",
+      "date": "2020-12-28"
+    },
+    {
+      "code": "C43223",
+      "action": "modify",
+      "date": "2021-02-22"
+    },
+    {
+      "code": "C43223",
+      "action": "modify",
+      "date": "2021-03-29"
+    },
+    {
+      "code": "C43223",
+      "action": "modify",
+      "date": "2021-06-28"
+    },
+    {
+      "code": "C43223",
+      "action": "modify",
+      "date": "2021-11-29"
+    },
+    {
+      "code": "C43223",
+      "action": "modify",
+      "date": "2022-10-31"
+    },
+    {
+      "code": "C43223",
+      "action": "modify",
+      "date": "2022-12-27"
+    },
+    {
+      "code": "C43223",
+      "action": "modify",
+      "date": "2023-02-27"
+    },
+    {
+      "code": "C43223",
+      "action": "modify",
+      "date": "2023-12-26"
+    },
+    {
+      "code": "C43223",
+      "action": "modify",
+      "date": "2025-03-31"
+    },
+    {
+      "code": "C43223",
+      "action": "modify",
+      "date": "2025-07-28"
+    }
+  ],
+  "maps": [
+    {
+      "type": "Related To",
+      "targetName": "9898/3",
+      "targetTermType": "PT",
+      "targetCode": "morphology",
+      "targetTerminology": "GDC"
+    },
+    {
+      "type": "Related To",
+      "targetName": "Myeloid leukemia associated with Down Syndrome",
+      "targetTermType": "PT",
+      "targetCode": "9898/3",
+      "targetTerminology": "ICDO3",
+      "targetTerminologyVersion": "3.1"
+    },
+    {
+      "type": "Related To",
+      "targetName": "Myeloid leukemia associated with Down syndrome",
+      "targetTermType": "PT",
+      "targetCode": "9898/3",
+      "targetTerminology": "ICDO3",
+      "targetTerminologyVersion": "3.2"
+    },
+    {
+      "type": "Has Synonym",
+      "targetName": "Myeloid leukemia associated with Down Syndrome",
+      "targetTermType": "PT",
+      "targetCode": "primary_diagnosis",
+      "targetTerminology": "GDC"
+    }
+  ]
+}

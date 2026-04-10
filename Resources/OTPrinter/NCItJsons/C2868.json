@@ -1,0 +1,619 @@
+{
+  "code": "C2868",
+  "name": "Amyloidosis",
+  "terminology": "ncit",
+  "version": "25.11d",
+  "conceptStatus": "DEFAULT",
+  "leaf": false,
+  "active": true,
+  "synonyms": [
+    {
+      "name": "AMYLOID",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "CDISC",
+      "code": "SEND-NONNEO"
+    },
+    {
+      "name": "Amyloidosis",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "CDISC"
+    },
+    {
+      "name": "Amyloidosis",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "CTEP",
+      "code": "10002024",
+      "subSource": "SDC"
+    },
+    {
+      "name": "Amyloidosis",
+      "termType": "DN",
+      "type": "FULL_SYN",
+      "source": "CTRP"
+    },
+    {
+      "name": "amyloidosis",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NCI-GLOSS",
+      "code": "CDR0000045507"
+    },
+    {
+      "name": "Amyloidosis",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Amyloidosis",
+      "type": "Display_Name"
+    },
+    {
+      "name": "Amyloidosis",
+      "type": "Preferred_Name"
+    }
+  ],
+  "definitions": [
+    {
+      "definition": "A disorder characterized by the localized or diffuse accumulation of amyloid protein in various anatomic sites. It may be primary, due to clonal plasma cell proliferations; secondary, due to long standing infections, chronic inflammatory disorders, or malignancies; or familial. It may affect the nerves, skin, tongue, joints, heart, liver, spleen, kidneys and adrenal glands.",
+      "type": "DEFINITION",
+      "source": "NCI"
+    },
+    {
+      "definition": "A group of diseases in which protein builds up in certain organs (localized amyloidosis) or throughout the body (systemic amyloidosis). Amyloidosis may be either primary (with no known cause), secondary (caused by another disease, including some types of cancer, such as multiple myeloma), or hereditary (passed down from parents to children). Many organs are affected by amyloidosis. The organs affected may depend on whether the amyloidosis is the primary, secondary, or hereditary form.",
+      "type": "ALT_DEFINITION",
+      "source": "NCI-GLOSS"
+    },
+    {
+      "definition": "An accumulation of amyloid protein.",
+      "type": "ALT_DEFINITION",
+      "source": "CDISC"
+    }
+  ],
+  "properties": [
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "CDISC"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "CTEP"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "CTRP"
+    },
+    {
+      "code": "P366",
+      "type": "Legacy Concept Name",
+      "value": "Amyloidosis"
+    },
+    {
+      "code": "P106",
+      "type": "Semantic_Type",
+      "value": "Disease or Syndrome"
+    },
+    {
+      "code": "P207",
+      "type": "UMLS_CUI",
+      "value": "C0002726"
+    }
+  ],
+  "children": [
+    {
+      "code": "C8323",
+      "name": "Amyloid Tumor",
+      "leaf": true
+    },
+    {
+      "code": "C205628",
+      "name": "ATTR Amyloidosis",
+      "leaf": false
+    },
+    {
+      "code": "C153217",
+      "name": "Cardiac Amyloidosis",
+      "leaf": false
+    },
+    {
+      "code": "C84555",
+      "name": "Hereditary Amyloidosis",
+      "leaf": false
+    },
+    {
+      "code": "C3819",
+      "name": "Primary Amyloidosis",
+      "leaf": false
+    },
+    {
+      "code": "C3818",
+      "name": "Secondary Amyloidosis",
+      "leaf": true
+    }
+  ],
+  "parents": [
+    {
+      "code": "C8278",
+      "name": "Cancer-Related Condition"
+    }
+  ],
+  "associations": [
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C120531",
+      "relatedName": "CDISC SEND Non-Neoplastic Finding Type Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C77526",
+      "relatedName": "CDISC SEND Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C61410",
+      "relatedName": "Clinical Data Interchange Standards Consortium Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C118168",
+      "relatedName": "CTRP Disease Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C116977",
+      "relatedName": "CTRP Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C103080",
+      "relatedName": "NCI CTEP SDC Immune Disorder (excluding AIDS and malignancy), Miscellaneous Sub-Category Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C102905",
+      "relatedName": "NCI CTEP Simplified Disease Classification Terminology"
+    }
+  ],
+  "roles": [
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C54018",
+      "relatedName": "Amyloid Deposition"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C54019",
+      "relatedName": "Apple Green Dichromism Present in Polarized Congo-Red Stained Sections"
+    }
+  ],
+  "inverseRoles": [
+    {
+      "type": "Gene_Associated_With_Disease",
+      "relatedCode": "C88356",
+      "relatedName": "CST3 Gene"
+    },
+    {
+      "type": "Gene_Associated_With_Disease",
+      "relatedCode": "C88357",
+      "relatedName": "CST3 wt Allele"
+    },
+    {
+      "type": "Gene_Product_Malfunction_Associated_With_Disease",
+      "relatedCode": "C88359",
+      "relatedName": "Cystatin-C"
+    },
+    {
+      "type": "Gene_Product_Malfunction_Associated_With_Disease",
+      "relatedCode": "C79964",
+      "relatedName": "Transthyretin"
+    }
+  ],
+  "history": [
+    {
+      "code": "C2868",
+      "action": "create",
+      "date": "2003-08-12"
+    },
+    {
+      "code": "C2868",
+      "action": "modify",
+      "date": "2003-10-31"
+    },
+    {
+      "code": "C2868",
+      "action": "modify",
+      "date": "2003-12-30"
+    },
+    {
+      "code": "C2868",
+      "action": "modify",
+      "date": "2004-03-30"
+    },
+    {
+      "code": "C2868",
+      "action": "modify",
+      "date": "2006-03-31"
+    },
+    {
+      "code": "C2868",
+      "action": "modify",
+      "date": "2006-05-26"
+    },
+    {
+      "code": "C2868",
+      "action": "modify",
+      "date": "2009-04-06"
+    },
+    {
+      "code": "C2868",
+      "action": "modify",
+      "date": "2009-11-23"
+    },
+    {
+      "code": "C2868",
+      "action": "modify",
+      "date": "2010-01-11"
+    },
+    {
+      "code": "C2868",
+      "action": "modify",
+      "date": "2011-01-24"
+    },
+    {
+      "code": "C2868",
+      "action": "modify",
+      "date": "2012-02-27"
+    },
+    {
+      "code": "C2868",
+      "action": "modify",
+      "date": "2012-06-04"
+    },
+    {
+      "code": "C2868",
+      "action": "modify",
+      "date": "2012-06-11"
+    },
+    {
+      "code": "C2868",
+      "action": "modify",
+      "date": "2012-06-18"
+    },
+    {
+      "code": "C2868",
+      "action": "modify",
+      "date": "2012-06-18"
+    },
+    {
+      "code": "C2868",
+      "action": "modify",
+      "date": "2012-06-25"
+    },
+    {
+      "code": "C2868",
+      "action": "modify",
+      "date": "2012-07-03"
+    },
+    {
+      "code": "C2868",
+      "action": "modify",
+      "date": "2012-07-16"
+    },
+    {
+      "code": "C2868",
+      "action": "modify",
+      "date": "2012-07-23"
+    },
+    {
+      "code": "C2868",
+      "action": "modify",
+      "date": "2012-07-30"
+    },
+    {
+      "code": "C2868",
+      "action": "modify",
+      "date": "2012-08-06"
+    },
+    {
+      "code": "C2868",
+      "action": "modify",
+      "date": "2012-08-13"
+    },
+    {
+      "code": "C2868",
+      "action": "modify",
+      "date": "2012-08-20"
+    },
+    {
+      "code": "C2868",
+      "action": "modify",
+      "date": "2012-08-27"
+    },
+    {
+      "code": "C2868",
+      "action": "modify",
+      "date": "2012-09-04"
+    },
+    {
+      "code": "C2868",
+      "action": "modify",
+      "date": "2012-09-10"
+    },
+    {
+      "code": "C2868",
+      "action": "modify",
+      "date": "2012-09-17"
+    },
+    {
+      "code": "C2868",
+      "action": "modify",
+      "date": "2012-09-24"
+    },
+    {
+      "code": "C2868",
+      "action": "modify",
+      "date": "2012-10-01"
+    },
+    {
+      "code": "C2868",
+      "action": "modify",
+      "date": "2012-10-09"
+    },
+    {
+      "code": "C2868",
+      "action": "modify",
+      "date": "2012-10-15"
+    },
+    {
+      "code": "C2868",
+      "action": "modify",
+      "date": "2012-10-22"
+    },
+    {
+      "code": "C2868",
+      "action": "modify",
+      "date": "2012-10-31"
+    },
+    {
+      "code": "C2868",
+      "action": "modify",
+      "date": "2012-11-05"
+    },
+    {
+      "code": "C2868",
+      "action": "modify",
+      "date": "2012-11-13"
+    },
+    {
+      "code": "C2868",
+      "action": "modify",
+      "date": "2012-11-19"
+    },
+    {
+      "code": "C2868",
+      "action": "modify",
+      "date": "2012-11-26"
+    },
+    {
+      "code": "C2868",
+      "action": "modify",
+      "date": "2012-12-03"
+    },
+    {
+      "code": "C2868",
+      "action": "modify",
+      "date": "2012-12-10"
+    },
+    {
+      "code": "C2868",
+      "action": "modify",
+      "date": "2012-12-17"
+    },
+    {
+      "code": "C2868",
+      "action": "modify",
+      "date": "2012-12-28"
+    },
+    {
+      "code": "C2868",
+      "action": "modify",
+      "date": "2013-01-07"
+    },
+    {
+      "code": "C2868",
+      "action": "modify",
+      "date": "2013-01-14"
+    },
+    {
+      "code": "C2868",
+      "action": "modify",
+      "date": "2013-01-23"
+    },
+    {
+      "code": "C2868",
+      "action": "modify",
+      "date": "2013-02-04"
+    },
+    {
+      "code": "C2868",
+      "action": "modify",
+      "date": "2013-02-11"
+    },
+    {
+      "code": "C2868",
+      "action": "modify",
+      "date": "2013-02-19"
+    },
+    {
+      "code": "C2868",
+      "action": "modify",
+      "date": "2013-02-25"
+    },
+    {
+      "code": "C2868",
+      "action": "modify",
+      "date": "2013-03-04"
+    },
+    {
+      "code": "C2868",
+      "action": "modify",
+      "date": "2013-03-11"
+    },
+    {
+      "code": "C2868",
+      "action": "modify",
+      "date": "2013-03-18"
+    },
+    {
+      "code": "C2868",
+      "action": "modify",
+      "date": "2013-03-25"
+    },
+    {
+      "code": "C2868",
+      "action": "modify",
+      "date": "2013-04-01"
+    },
+    {
+      "code": "C2868",
+      "action": "modify",
+      "date": "2013-04-08"
+    },
+    {
+      "code": "C2868",
+      "action": "modify",
+      "date": "2013-04-15"
+    },
+    {
+      "code": "C2868",
+      "action": "modify",
+      "date": "2013-04-22"
+    },
+    {
+      "code": "C2868",
+      "action": "modify",
+      "date": "2013-04-29"
+    },
+    {
+      "code": "C2868",
+      "action": "modify",
+      "date": "2013-05-06"
+    },
+    {
+      "code": "C2868",
+      "action": "modify",
+      "date": "2013-05-13"
+    },
+    {
+      "code": "C2868",
+      "action": "modify",
+      "date": "2013-05-20"
+    },
+    {
+      "code": "C2868",
+      "action": "modify",
+      "date": "2013-05-28"
+    },
+    {
+      "code": "C2868",
+      "action": "modify",
+      "date": "2013-06-03"
+    },
+    {
+      "code": "C2868",
+      "action": "modify",
+      "date": "2013-06-10"
+    },
+    {
+      "code": "C2868",
+      "action": "modify",
+      "date": "2013-06-17"
+    },
+    {
+      "code": "C2868",
+      "action": "modify",
+      "date": "2013-06-24"
+    },
+    {
+      "code": "C2868",
+      "action": "modify",
+      "date": "2013-07-01"
+    },
+    {
+      "code": "C2868",
+      "action": "modify",
+      "date": "2013-07-08"
+    },
+    {
+      "code": "C2868",
+      "action": "modify",
+      "date": "2014-02-03"
+    },
+    {
+      "code": "C2868",
+      "action": "modify",
+      "date": "2015-03-16"
+    },
+    {
+      "code": "C2868",
+      "action": "modify",
+      "date": "2015-03-23"
+    },
+    {
+      "code": "C2868",
+      "action": "modify",
+      "date": "2015-03-30"
+    },
+    {
+      "code": "C2868",
+      "action": "modify",
+      "date": "2015-04-06"
+    },
+    {
+      "code": "C2868",
+      "action": "modify",
+      "date": "2015-04-13"
+    },
+    {
+      "code": "C2868",
+      "action": "modify",
+      "date": "2015-04-20"
+    },
+    {
+      "code": "C2868",
+      "action": "modify",
+      "date": "2015-04-27"
+    },
+    {
+      "code": "C2868",
+      "action": "modify",
+      "date": "2015-05-04"
+    },
+    {
+      "code": "C2868",
+      "action": "modify",
+      "date": "2015-05-11"
+    },
+    {
+      "code": "C2868",
+      "action": "modify",
+      "date": "2015-05-18"
+    },
+    {
+      "code": "C2868",
+      "action": "modify",
+      "date": "2015-11-30"
+    },
+    {
+      "code": "C2868",
+      "action": "modify",
+      "date": "2022-08-29"
+    }
+  ]
+}

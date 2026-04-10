@@ -1,0 +1,601 @@
+{
+  "code": "C45340",
+  "name": "Primary Cutaneous Gamma-Delta T-Cell Lymphoma",
+  "terminology": "ncit",
+  "version": "25.11d",
+  "conceptStatus": "DEFAULT",
+  "leaf": false,
+  "active": true,
+  "synonyms": [
+    {
+      "name": "Primary Cutaneous Gamma-Delta T-Cell Lymphoma",
+      "termType": "DN",
+      "type": "FULL_SYN",
+      "source": "CTRP"
+    },
+    {
+      "name": "Primary cutaneous gamma-delta T-cell lymphoma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "GDC"
+    },
+    {
+      "name": "Cutaneous Gamma/Delta T-Cell Lymphoma",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "PCGD-TCL",
+      "termType": "AB",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Peripheral Gamma-Delta T-Cell Lymphoma",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Primary Cutaneous Gamma-Delta T-Cell Lymphoma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Primary Cutaneous Gamma-Delta T-Cell Lymphoma",
+      "type": "Display_Name"
+    },
+    {
+      "name": "Primary Cutaneous Gamma-Delta T-Cell Lymphoma",
+      "type": "Preferred_Name"
+    }
+  ],
+  "definitions": [
+    {
+      "definition": "An aggressive cutaneous lymphoma of mature, activated gamma/delta T-lymphocytes.  It usually presents with disseminated plaques and nodules.  Involvement of mucosal sites is frequent.  However, involvement of lymph nodes, spleen, or bone marrow is uncommon.  Morphologically, there are three patterns of cutaneous involvement: epidermotropic, dermal, and subcutaneous.  Often, more than one pattern may co-exist in a single biopsy specimen, or may be present in different biopsy specimens from the same patient.  The lymphocytic infiltrate is composed of medium- to large-sized lymphocytes expressing CD56.  Most cases lack both CD4 and CD8, although CD8 may be present in some cases.  This group of lymphomas includes cases previously known as subcutaneous panniculitis-like T-cell lymphoma with a gamma/delta phenotype.",
+      "type": "DEFINITION",
+      "source": "NCI"
+    }
+  ],
+  "properties": [
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "CTRP"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "GDC"
+    },
+    {
+      "code": "P334",
+      "type": "ICD-O-3_Code",
+      "value": "9726/3"
+    },
+    {
+      "code": "P366",
+      "type": "Legacy Concept Name",
+      "value": "Cutaneous_Gamma_Delta_T-Cell_Lymphoma"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "9726/3"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "Primary cutaneous gamma-delta T-cell lymphoma"
+    },
+    {
+      "code": "P363",
+      "type": "Neoplastic_Status",
+      "value": "Malignant"
+    },
+    {
+      "code": "P106",
+      "type": "Semantic_Type",
+      "value": "Neoplastic Process"
+    },
+    {
+      "code": "P207",
+      "type": "UMLS_CUI",
+      "value": "C1707547"
+    }
+  ],
+  "children": [
+    {
+      "code": "C191818",
+      "name": "Recurrent Primary Cutaneous Gamma-Delta T-Cell Lymphoma",
+      "leaf": true
+    },
+    {
+      "code": "C191820",
+      "name": "Refractory Primary Cutaneous Gamma-Delta T-Cell Lymphoma",
+      "leaf": true
+    }
+  ],
+  "parents": [
+    {
+      "code": "C178547",
+      "name": "Aggressive T-Cell Non-Hodgkin Lymphoma"
+    },
+    {
+      "code": "C3467",
+      "name": "Primary Cutaneous T-Cell Non-Hodgkin Lymphoma"
+    }
+  ],
+  "associations": [
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C118168",
+      "relatedName": "CTRP Disease Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C116977",
+      "relatedName": "CTRP Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C157711",
+      "relatedName": "GDC Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C177537",
+      "relatedName": "GDC Value Terminology"
+    },
+    {
+      "type": "Is_Value_For_GDC_Property",
+      "relatedCode": "C176985",
+      "relatedName": "Histology ICD-O Morphology Code"
+    },
+    {
+      "type": "Is_Value_For_GDC_Property",
+      "relatedCode": "C177621",
+      "relatedName": "ICD-O-3 Morphology Term Diagnosis Question"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168658",
+      "relatedName": "Mapped ICDO3.1 Morphology PT Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168657",
+      "relatedName": "Mapped ICDO3.1 Morphology Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168655",
+      "relatedName": "Mapped ICDO3.1 Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168662",
+      "relatedName": "Mapped ICDO3.2 Morphology PT Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168661",
+      "relatedName": "Mapped ICDO3.2 Morphology Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168656",
+      "relatedName": "Mapped ICDO3.2 Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C126659",
+      "relatedName": "NCIt Neoplasm Core Terminology"
+    }
+  ],
+  "inverseAssociations": [
+    {
+      "type": "Has_GDC_Value",
+      "relatedCode": "C176985",
+      "relatedName": "Histology ICD-O Morphology Code"
+    },
+    {
+      "type": "Has_GDC_Value",
+      "relatedCode": "C177621",
+      "relatedName": "ICD-O-3 Morphology Term Diagnosis Question"
+    }
+  ],
+  "roles": [
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36725",
+      "relatedName": "Abnormal Lymphocyte"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C45341",
+      "relatedName": "Activated Mature Gamma/Delta T-Lymphocyte with a Cytotoxic Phenotype"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C36104",
+      "relatedName": "Aggressive Clinical Course"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C39589",
+      "relatedName": "Angioinvasion"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C36122",
+      "relatedName": "Benign Cellular Infiltrate"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C45296",
+      "relatedName": "CD56-Positive Neoplastic Cells Present"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C45324",
+      "relatedName": "CD8-Positive Neoplastic Cells Present"
+    },
+    {
+      "type": "Disease_Has_Molecular_Abnormality",
+      "relatedCode": "C36448",
+      "relatedName": "Clonal T-Cell Receptor Gamma Chain Gene Rearrangement"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C39570",
+      "relatedName": "Cutaneous Involvement"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C45321",
+      "relatedName": "Dermal Involvement"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C39626",
+      "relatedName": "Epidermotropic Lymphocytic Infiltrate"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C41165",
+      "relatedName": "Hematopoietic and Lymphatic System"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C41165",
+      "relatedName": "Hematopoietic and Lymphatic System"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C32725",
+      "relatedName": "Hematopoietic and Lymphoid Cell"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C41168",
+      "relatedName": "Hematopoietic and Lymphoid Tissue"
+    },
+    {
+      "type": "Disease_May_Have_Associated_Disease",
+      "relatedCode": "C34792",
+      "relatedName": "Hemophagocytic Lymphohistiocytosis"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12907",
+      "relatedName": "Integumentary System"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12746",
+      "relatedName": "Lymphatic System"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C37027",
+      "relatedName": "Lymphocyte Predominant Cell"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C12535",
+      "relatedName": "Lymphocyte"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C13049",
+      "relatedName": "Lymphoid Tissue"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12917",
+      "relatedName": "Malignant Cell"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C36115",
+      "relatedName": "Malignant Cellular Infiltrate"
+    },
+    {
+      "type": "Disease_Excludes_Normal_Cell_Origin",
+      "relatedCode": "C12549",
+      "relatedName": "Myeloid Cell"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C36184",
+      "relatedName": "Necrotic Change"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C38640",
+      "relatedName": "Neoplastic B-Lymphocyte"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12922",
+      "relatedName": "Neoplastic Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C37060",
+      "relatedName": "Neoplastic Hematopoietic and Lymphoid Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36988",
+      "relatedName": "Neoplastic Lymphocyte"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C39614",
+      "relatedName": "Neoplastic Medium-Sized to Large T-Lymphocyte"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C39566",
+      "relatedName": "Neoplastic T-Lymphocyte and Neoplastic Natural Killer Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C38641",
+      "relatedName": "Neoplastic T-Lymphocyte"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C39568",
+      "relatedName": "Peripheral (Post-Thymic) T-Lymphocyte and Natural Killer Cell"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C38434",
+      "relatedName": "Peripheral (Post-Thymic) T-Lymphocyte"
+    },
+    {
+      "type": "Disease_Excludes_Normal_Cell_Origin",
+      "relatedCode": "C12486",
+      "relatedName": "Plasma Cell"
+    },
+    {
+      "type": "Disease_Excludes_Normal_Cell_Origin",
+      "relatedCode": "C39300",
+      "relatedName": "Precursor Natural Killer Cell"
+    },
+    {
+      "type": "Disease_Excludes_Normal_Cell_Origin",
+      "relatedCode": "C33930",
+      "relatedName": "Precursor T-Lymphoblast"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C12660",
+      "relatedName": "Reed-Sternberg Cell"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C45334",
+      "relatedName": "Rimming of Adipose Tissue Cells Present"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C3373",
+      "relatedName": "Skin Nodule"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C39624",
+      "relatedName": "Skin Plaque"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12470",
+      "relatedName": "Skin"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12470",
+      "relatedName": "Skin"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C39617",
+      "relatedName": "Subcutaneous Involvement"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C39567",
+      "relatedName": "T-Lymphocyte and Natural Killer Cell"
+    }
+  ],
+  "history": [
+    {
+      "code": "C45340",
+      "action": "create",
+      "date": "2005-03-30"
+    },
+    {
+      "code": "C45340",
+      "action": "modify",
+      "date": "2005-09-09"
+    },
+    {
+      "code": "C45340",
+      "action": "modify",
+      "date": "2005-09-29"
+    },
+    {
+      "code": "C45340",
+      "action": "modify",
+      "date": "2009-02-20"
+    },
+    {
+      "code": "C45340",
+      "action": "modify",
+      "date": "2009-04-27"
+    },
+    {
+      "code": "C45340",
+      "action": "modify",
+      "date": "2009-11-02"
+    },
+    {
+      "code": "C45340",
+      "action": "modify",
+      "date": "2009-11-23"
+    },
+    {
+      "code": "C45340",
+      "action": "modify",
+      "date": "2010-12-27"
+    },
+    {
+      "code": "C45340",
+      "action": "modify",
+      "date": "2011-01-17"
+    },
+    {
+      "code": "C45340",
+      "action": "modify",
+      "date": "2012-07-30"
+    },
+    {
+      "code": "C45340",
+      "action": "modify",
+      "date": "2014-02-03"
+    },
+    {
+      "code": "C45340",
+      "action": "modify",
+      "date": "2016-04-25"
+    },
+    {
+      "code": "C45340",
+      "action": "modify",
+      "date": "2016-08-22"
+    },
+    {
+      "code": "C45340",
+      "action": "modify",
+      "date": "2018-07-30"
+    },
+    {
+      "code": "C45340",
+      "action": "modify",
+      "date": "2018-09-24"
+    },
+    {
+      "code": "C45340",
+      "action": "modify",
+      "date": "2019-05-28"
+    },
+    {
+      "code": "C45340",
+      "action": "modify",
+      "date": "2019-09-30"
+    },
+    {
+      "code": "C45340",
+      "action": "modify",
+      "date": "2019-11-25"
+    },
+    {
+      "code": "C45340",
+      "action": "modify",
+      "date": "2020-02-24"
+    },
+    {
+      "code": "C45340",
+      "action": "modify",
+      "date": "2020-04-27"
+    },
+    {
+      "code": "C45340",
+      "action": "modify",
+      "date": "2021-02-22"
+    },
+    {
+      "code": "C45340",
+      "action": "modify",
+      "date": "2021-03-29"
+    },
+    {
+      "code": "C45340",
+      "action": "modify",
+      "date": "2021-04-26"
+    },
+    {
+      "code": "C45340",
+      "action": "modify",
+      "date": "2023-08-28"
+    },
+    {
+      "code": "C45340",
+      "action": "modify",
+      "date": "2024-01-29"
+    },
+    {
+      "code": "C45340",
+      "action": "modify",
+      "date": "2024-06-24"
+    }
+  ],
+  "maps": [
+    {
+      "type": "Related To",
+      "targetName": "9726/3",
+      "targetTermType": "PT",
+      "targetCode": "morphology",
+      "targetTerminology": "GDC"
+    },
+    {
+      "type": "Related To",
+      "targetName": "Primary cutaneous gamma-delta T-cell lymphoma",
+      "targetTermType": "PT",
+      "targetCode": "9726/3",
+      "targetTerminology": "ICDO3",
+      "targetTerminologyVersion": "3.2"
+    },
+    {
+      "type": "Related To",
+      "targetName": "Primary cutaneous gamma-delta T-cell lymphoma",
+      "targetTermType": "PT",
+      "targetCode": "9726/3",
+      "targetTerminology": "ICDO3",
+      "targetTerminologyVersion": "3.1"
+    },
+    {
+      "type": "Has Synonym",
+      "targetName": "Primary cutaneous gamma-delta T-cell lymphoma",
+      "targetTermType": "PT",
+      "targetCode": "primary_diagnosis",
+      "targetTerminology": "GDC"
+    }
+  ]
+}

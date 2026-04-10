@@ -1,0 +1,375 @@
+{
+  "code": "C8562",
+  "name": "Ocular Melanoma",
+  "terminology": "ncit",
+  "version": "25.11d",
+  "conceptStatus": "DEFAULT",
+  "leaf": false,
+  "active": true,
+  "synonyms": [
+    {
+      "name": "Ocular Melanoma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "Cellosaurus"
+    },
+    {
+      "name": "Ocular Melanoma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "CPTAC"
+    },
+    {
+      "name": "Ocular Melanoma",
+      "termType": "DN",
+      "type": "FULL_SYN",
+      "source": "CTRP"
+    },
+    {
+      "name": "ocular melanoma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NCI-GLOSS",
+      "code": "CDR0000269467"
+    },
+    {
+      "name": "Eye Melanoma",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Melanoma of Eye",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Melanoma of the Eye",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Ocular Melanoma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Ocular Melanoma",
+      "type": "Display_Name"
+    },
+    {
+      "name": "Ocular Melanoma",
+      "type": "Preferred_Name"
+    }
+  ],
+  "definitions": [
+    {
+      "definition": "A melanoma that arises from the structures of the eye.",
+      "type": "DEFINITION",
+      "source": "NCI"
+    },
+    {
+      "definition": "A rare cancer of melanocytes (cells that produce the pigment melanin) found in the eye.",
+      "type": "ALT_DEFINITION",
+      "source": "NCI-GLOSS"
+    }
+  ],
+  "properties": [
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "Cellosaurus"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "CPTAC"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "CTRP"
+    },
+    {
+      "code": "P366",
+      "type": "Legacy Concept Name",
+      "value": "Ocular_Melanoma"
+    },
+    {
+      "code": "P363",
+      "type": "Neoplastic_Status",
+      "value": "Malignant"
+    },
+    {
+      "code": "P106",
+      "type": "Semantic_Type",
+      "value": "Neoplastic Process"
+    },
+    {
+      "code": "P207",
+      "type": "UMLS_CUI",
+      "value": "C0558356"
+    }
+  ],
+  "children": [
+    {
+      "code": "C4550",
+      "name": "Conjunctival Melanoma",
+      "leaf": false
+    },
+    {
+      "code": "C4553",
+      "name": "Corneal Melanoma",
+      "leaf": true
+    },
+    {
+      "code": "C171295",
+      "name": "Metastatic Ocular Melanoma",
+      "leaf": false
+    },
+    {
+      "code": "C7913",
+      "name": "Ocular Melanoma with Extraocular Extension",
+      "leaf": true
+    },
+    {
+      "code": "C171294",
+      "name": "Recurrent Ocular Melanoma",
+      "leaf": false
+    },
+    {
+      "code": "C173329",
+      "name": "Refractory Ocular Melanoma",
+      "leaf": false
+    },
+    {
+      "code": "C8601",
+      "name": "Retinal Melanoma",
+      "leaf": true
+    },
+    {
+      "code": "C214947",
+      "name": "Unresectable Ocular Melanoma",
+      "leaf": false
+    },
+    {
+      "code": "C7712",
+      "name": "Uveal Melanoma",
+      "leaf": false
+    }
+  ],
+  "parents": [
+    {
+      "code": "C4767",
+      "name": "Malignant Eye Neoplasm"
+    },
+    {
+      "code": "C8711",
+      "name": "Non-Cutaneous Melanoma"
+    }
+  ],
+  "associations": [
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C165258",
+      "relatedName": "Cellosaurus Disease Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C158520",
+      "relatedName": "CPTAC Codelists Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C156966",
+      "relatedName": "CPTAC Neoplasms Codelist"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C156952",
+      "relatedName": "CPTAC Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C118168",
+      "relatedName": "CTRP Disease Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C116977",
+      "relatedName": "CTRP Terminology"
+    }
+  ],
+  "roles": [
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C36122",
+      "relatedName": "Benign Cellular Infiltrate"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12401",
+      "relatedName": "Eye"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12401",
+      "relatedName": "Eye"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C43268",
+      "relatedName": "HMB-45-Positive Neoplastic Cells Present"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12917",
+      "relatedName": "Malignant Cell"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C36115",
+      "relatedName": "Malignant Cellular Infiltrate"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C12591",
+      "relatedName": "Melanocyte"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36873",
+      "relatedName": "Melanoma Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12922",
+      "relatedName": "Neoplastic Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36862",
+      "relatedName": "Neoplastic Melanocyte"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C40993",
+      "relatedName": "S-100-Positive Neoplastic Cells Present"
+    },
+    {
+      "type": "Disease_Excludes_Primary_Anatomic_Site",
+      "relatedCode": "C12470",
+      "relatedName": "Skin"
+    }
+  ],
+  "history": [
+    {
+      "code": "C8562",
+      "action": "create",
+      "date": "2003-08-12"
+    },
+    {
+      "code": "C8562",
+      "action": "modify",
+      "date": "2003-10-31"
+    },
+    {
+      "code": "C8562",
+      "action": "modify",
+      "date": "2003-12-30"
+    },
+    {
+      "code": "C8562",
+      "action": "modify",
+      "date": "2004-03-30"
+    },
+    {
+      "code": "C8562",
+      "action": "modify",
+      "date": "2006-03-31"
+    },
+    {
+      "code": "C8562",
+      "action": "modify",
+      "date": "2006-09-01"
+    },
+    {
+      "code": "C8562",
+      "action": "modify",
+      "date": "2009-11-23"
+    },
+    {
+      "code": "C8562",
+      "action": "modify",
+      "date": "2011-02-14"
+    },
+    {
+      "code": "C8562",
+      "action": "modify",
+      "date": "2013-06-24"
+    },
+    {
+      "code": "C8562",
+      "action": "modify",
+      "date": "2014-08-25"
+    },
+    {
+      "code": "C8562",
+      "action": "modify",
+      "date": "2014-09-22"
+    },
+    {
+      "code": "C8562",
+      "action": "modify",
+      "date": "2018-01-29"
+    },
+    {
+      "code": "C8562",
+      "action": "modify",
+      "date": "2018-07-30"
+    },
+    {
+      "code": "C8562",
+      "action": "modify",
+      "date": "2018-08-27"
+    },
+    {
+      "code": "C8562",
+      "action": "modify",
+      "date": "2018-08-27"
+    },
+    {
+      "code": "C8562",
+      "action": "modify",
+      "date": "2018-12-31"
+    },
+    {
+      "code": "C8562",
+      "action": "modify",
+      "date": "2019-03-25"
+    },
+    {
+      "code": "C8562",
+      "action": "modify",
+      "date": "2019-05-28"
+    },
+    {
+      "code": "C8562",
+      "action": "modify",
+      "date": "2022-12-27"
+    },
+    {
+      "code": "C8562",
+      "action": "modify",
+      "date": "2023-02-27"
+    },
+    {
+      "code": "C8562",
+      "action": "modify",
+      "date": "2025-03-31"
+    }
+  ]
+}

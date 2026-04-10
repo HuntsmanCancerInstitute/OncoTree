@@ -1,0 +1,951 @@
+{
+  "code": "C6975",
+  "name": "Papillary Renal Cell Carcinoma",
+  "terminology": "ncit",
+  "version": "25.11d",
+  "conceptStatus": "DEFAULT",
+  "leaf": false,
+  "active": true,
+  "synonyms": [
+    {
+      "name": "Papillary Renal Cell Carcinoma",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "caDSR"
+    },
+    {
+      "name": "Papillary Renal Cell Carcinoma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "Cellosaurus"
+    },
+    {
+      "name": "Papillary renal cell carcinoma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "CTEP",
+      "code": "10033702",
+      "subSource": "SDC"
+    },
+    {
+      "name": "Papillary Renal Cell Cancer",
+      "termType": "DN",
+      "type": "FULL_SYN",
+      "source": "CTRP"
+    },
+    {
+      "name": "Papillary renal cell carcinoma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "GDC"
+    },
+    {
+      "name": "Chromophil Carcinoma of Kidney",
+      "termType": "AQS",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Chromophil Carcinoma of the Kidney",
+      "termType": "AQS",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Chromophil Renal Cell Carcinoma",
+      "termType": "AQS",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Papillary (Chromophil) Renal Cell Carcinoma",
+      "termType": "AQS",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Papillary RCC",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Papillary Renal Cell Carcinoma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "PRCC",
+      "termType": "AB",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Papillary Renal Cell Carcinoma",
+      "type": "Display_Name"
+    },
+    {
+      "name": "Papillary Renal Cell Carcinoma",
+      "type": "Preferred_Name"
+    }
+  ],
+  "definitions": [
+    {
+      "definition": "Also known as chromophil carcinoma, it represents a minority of renal cell carcinomas.  It can be hereditary or sporadic.  The sporadic papillary renal cell carcinoma is characterized by trisomy of chromosomes 7, 16, and 17, and loss of chromosome Y.  The peak incidence is in the sixth and seven decades.  It is classified as type 1 or 2, based on the cytoplasmic volume and the thickness of the lining neoplastic cells. The prognosis is more favorable than for conventional (clear cell) renal cell carcinoma.",
+      "type": "DEFINITION",
+      "source": "NCI"
+    }
+  ],
+  "properties": [
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "Cellosaurus"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "CTEP"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "CTRP"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "GDC"
+    },
+    {
+      "code": "P366",
+      "type": "Legacy Concept Name",
+      "value": "Papillary_Renal_Cell_Carcinoma"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "51"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "71"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "8260/3"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "Papillary Renal Cell"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "Papillary renal cell carcinoma"
+    },
+    {
+      "code": "P363",
+      "type": "Neoplastic_Status",
+      "value": "Malignant"
+    },
+    {
+      "code": "P106",
+      "type": "Semantic_Type",
+      "value": "Neoplastic Process"
+    },
+    {
+      "code": "P207",
+      "type": "UMLS_CUI",
+      "value": "C1306837"
+    }
+  ],
+  "children": [
+    {
+      "code": "C9222",
+      "name": "Hereditary Papillary Renal Cell Carcinoma",
+      "leaf": true
+    },
+    {
+      "code": "C162760",
+      "name": "Metastatic Papillary Renal Cell Carcinoma",
+      "leaf": false
+    },
+    {
+      "code": "C27890",
+      "name": "Sporadic Papillary Renal Cell Carcinoma",
+      "leaf": true
+    },
+    {
+      "code": "C27886",
+      "name": "Type 1 Papillary Renal Cell Carcinoma",
+      "leaf": true
+    },
+    {
+      "code": "C27887",
+      "name": "Type 2 Papillary Renal Cell Carcinoma",
+      "leaf": true
+    },
+    {
+      "code": "C190505",
+      "name": "Unresectable Papillary Renal Cell Carcinoma",
+      "leaf": true
+    }
+  ],
+  "parents": [
+    {
+      "code": "C202497",
+      "name": "Non-Clear Cell Renal Cell Carcinoma"
+    },
+    {
+      "code": "C2853",
+      "name": "Papillary Adenocarcinoma"
+    }
+  ],
+  "associations": [
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C165258",
+      "relatedName": "Cellosaurus Disease Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C118168",
+      "relatedName": "CTRP Disease Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C116977",
+      "relatedName": "CTRP Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C157711",
+      "relatedName": "GDC Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C177537",
+      "relatedName": "GDC Value Terminology"
+    },
+    {
+      "type": "Is_Value_For_GDC_Property",
+      "relatedCode": "C176985",
+      "relatedName": "Histology ICD-O Morphology Code"
+    },
+    {
+      "type": "Is_Value_For_GDC_Property",
+      "relatedCode": "C177621",
+      "relatedName": "ICD-O-3 Morphology Term Diagnosis Question"
+    },
+    {
+      "type": "Is_Value_For_GDC_Property",
+      "relatedCode": "C35886",
+      "relatedName": "Morphologic Architectural Pattern"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C103084",
+      "relatedName": "NCI CTEP SDC Renal Cell Carcinoma Sub-Category Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C102905",
+      "relatedName": "NCI CTEP Simplified Disease Classification Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C126659",
+      "relatedName": "NCIt Neoplasm Core Terminology"
+    },
+    {
+      "type": "Is_Value_For_GDC_Property",
+      "relatedCode": "C177584",
+      "relatedName": "TCGA BCR Tumor Code Identifier"
+    }
+  ],
+  "inverseAssociations": [
+    {
+      "type": "Has_GDC_Value",
+      "relatedCode": "C176985",
+      "relatedName": "Histology ICD-O Morphology Code"
+    },
+    {
+      "type": "Has_GDC_Value",
+      "relatedCode": "C177621",
+      "relatedName": "ICD-O-3 Morphology Term Diagnosis Question"
+    },
+    {
+      "type": "Has_GDC_Value",
+      "relatedCode": "C35886",
+      "relatedName": "Morphologic Architectural Pattern"
+    },
+    {
+      "type": "Has_GDC_Value",
+      "relatedCode": "C177584",
+      "relatedName": "TCGA BCR Tumor Code Identifier"
+    }
+  ],
+  "roles": [
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36773",
+      "relatedName": "Adenocarcinoma Cell"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C36815",
+      "relatedName": "Adenocarcinoma Clear Cell"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C36122",
+      "relatedName": "Benign Cellular Infiltrate"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C3672",
+      "relatedName": "Calcification"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C54172",
+      "relatedName": "Carcinomatous Component Present"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C41454",
+      "relatedName": "Cystic Change"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C12578",
+      "relatedName": "Epithelial Cell"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C53596",
+      "relatedName": "Epithelial Component Present"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C45714",
+      "relatedName": "Epithelial Tissue"
+    },
+    {
+      "type": "Disease_Excludes_Primary_Anatomic_Site",
+      "relatedCode": "C32573",
+      "relatedName": "Extrahepatic Bile Duct"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C34615",
+      "relatedName": "Flank Pain"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12810",
+      "relatedName": "Genitourinary System"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12810",
+      "relatedName": "Genitourinary System"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C3090",
+      "relatedName": "Hematuria"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C35380",
+      "relatedName": "Hemorrhagic Change"
+    },
+    {
+      "type": "Disease_Excludes_Primary_Anatomic_Site",
+      "relatedCode": "C12677",
+      "relatedName": "Intrahepatic Bile Duct"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C61107",
+      "relatedName": "Kidney and Ureter"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12415",
+      "relatedName": "Kidney"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12415",
+      "relatedName": "Kidney"
+    },
+    {
+      "type": "Disease_May_Have_Cytogenetic_Abnormality",
+      "relatedCode": "C36599",
+      "relatedName": "Loss of Chromosome Y"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12917",
+      "relatedName": "Malignant Cell"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C36115",
+      "relatedName": "Malignant Cellular Infiltrate"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36779",
+      "relatedName": "Malignant Epithelial Cell"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C36771",
+      "relatedName": "Malignant Squamous Cell"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C37153",
+      "relatedName": "Malignant Stromal Cell"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C62273",
+      "relatedName": "Mixed Neoplastic Glandular and Squamous Cell Population"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C35999",
+      "relatedName": "Mucoid Stroma Formation"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C36184",
+      "relatedName": "Necrotic Change"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12922",
+      "relatedName": "Neoplastic Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36753",
+      "relatedName": "Neoplastic Epithelial Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36763",
+      "relatedName": "Neoplastic Glandular Cell"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C36937",
+      "relatedName": "Neoplastic Smooth Muscle Cell"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C36760",
+      "relatedName": "Neoplastic Squamous Cell"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C35911",
+      "relatedName": "Papillary Growth Pattern"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C35912",
+      "relatedName": "Pseudopapillary Pattern"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C61147",
+      "relatedName": "Renal Tubular Epithelial Cell"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C49276",
+      "relatedName": "Renal Tubule Epithelium"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C49274",
+      "relatedName": "Renal Tubule"
+    },
+    {
+      "type": "Disease_May_Have_Cytogenetic_Abnormality",
+      "relatedCode": "C37865",
+      "relatedName": "Trisomy 17"
+    },
+    {
+      "type": "Disease_May_Have_Cytogenetic_Abnormality",
+      "relatedCode": "C36476",
+      "relatedName": "Trisomy 7"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C35925",
+      "relatedName": "Tubular Pattern"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12413",
+      "relatedName": "Urinary System"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12413",
+      "relatedName": "Urinary System"
+    }
+  ],
+  "inverseRoles": [
+    {
+      "type": "Disease_May_Have_Associated_Disease",
+      "relatedCode": "C48287",
+      "relatedName": "Hyperparathyroidism-Jaw Tumor Syndrome"
+    }
+  ],
+  "history": [
+    {
+      "code": "C6975",
+      "action": "create",
+      "date": "2003-08-12"
+    },
+    {
+      "code": "C6975",
+      "action": "modify",
+      "date": "2003-10-31"
+    },
+    {
+      "code": "C6975",
+      "action": "modify",
+      "date": "2003-12-30"
+    },
+    {
+      "code": "C6975",
+      "action": "modify",
+      "date": "2004-03-30"
+    },
+    {
+      "code": "C6975",
+      "action": "modify",
+      "date": "2004-08-02"
+    },
+    {
+      "code": "C6975",
+      "action": "modify",
+      "date": "2005-06-24"
+    },
+    {
+      "code": "C6975",
+      "action": "modify",
+      "date": "2006-06-30"
+    },
+    {
+      "code": "C6975",
+      "action": "modify",
+      "date": "2006-09-29"
+    },
+    {
+      "code": "C6975",
+      "action": "modify",
+      "date": "2009-11-23"
+    },
+    {
+      "code": "C6975",
+      "action": "modify",
+      "date": "2011-02-07"
+    },
+    {
+      "code": "C6975",
+      "action": "modify",
+      "date": "2012-09-24"
+    },
+    {
+      "code": "C6975",
+      "action": "modify",
+      "date": "2012-10-01"
+    },
+    {
+      "code": "C6975",
+      "action": "modify",
+      "date": "2012-10-09"
+    },
+    {
+      "code": "C6975",
+      "action": "modify",
+      "date": "2012-10-15"
+    },
+    {
+      "code": "C6975",
+      "action": "modify",
+      "date": "2012-10-22"
+    },
+    {
+      "code": "C6975",
+      "action": "modify",
+      "date": "2012-10-31"
+    },
+    {
+      "code": "C6975",
+      "action": "modify",
+      "date": "2012-11-05"
+    },
+    {
+      "code": "C6975",
+      "action": "modify",
+      "date": "2012-11-13"
+    },
+    {
+      "code": "C6975",
+      "action": "modify",
+      "date": "2012-11-19"
+    },
+    {
+      "code": "C6975",
+      "action": "modify",
+      "date": "2012-11-26"
+    },
+    {
+      "code": "C6975",
+      "action": "modify",
+      "date": "2012-12-03"
+    },
+    {
+      "code": "C6975",
+      "action": "modify",
+      "date": "2012-12-10"
+    },
+    {
+      "code": "C6975",
+      "action": "modify",
+      "date": "2012-12-17"
+    },
+    {
+      "code": "C6975",
+      "action": "modify",
+      "date": "2012-12-28"
+    },
+    {
+      "code": "C6975",
+      "action": "modify",
+      "date": "2013-01-07"
+    },
+    {
+      "code": "C6975",
+      "action": "modify",
+      "date": "2013-01-14"
+    },
+    {
+      "code": "C6975",
+      "action": "modify",
+      "date": "2013-01-23"
+    },
+    {
+      "code": "C6975",
+      "action": "modify",
+      "date": "2013-02-04"
+    },
+    {
+      "code": "C6975",
+      "action": "modify",
+      "date": "2013-02-11"
+    },
+    {
+      "code": "C6975",
+      "action": "modify",
+      "date": "2013-02-19"
+    },
+    {
+      "code": "C6975",
+      "action": "modify",
+      "date": "2013-02-25"
+    },
+    {
+      "code": "C6975",
+      "action": "modify",
+      "date": "2013-03-04"
+    },
+    {
+      "code": "C6975",
+      "action": "modify",
+      "date": "2013-03-11"
+    },
+    {
+      "code": "C6975",
+      "action": "modify",
+      "date": "2013-03-18"
+    },
+    {
+      "code": "C6975",
+      "action": "modify",
+      "date": "2013-03-25"
+    },
+    {
+      "code": "C6975",
+      "action": "modify",
+      "date": "2013-04-01"
+    },
+    {
+      "code": "C6975",
+      "action": "modify",
+      "date": "2013-04-08"
+    },
+    {
+      "code": "C6975",
+      "action": "modify",
+      "date": "2013-04-15"
+    },
+    {
+      "code": "C6975",
+      "action": "modify",
+      "date": "2013-04-22"
+    },
+    {
+      "code": "C6975",
+      "action": "modify",
+      "date": "2013-04-29"
+    },
+    {
+      "code": "C6975",
+      "action": "modify",
+      "date": "2013-05-06"
+    },
+    {
+      "code": "C6975",
+      "action": "modify",
+      "date": "2013-05-13"
+    },
+    {
+      "code": "C6975",
+      "action": "modify",
+      "date": "2013-05-20"
+    },
+    {
+      "code": "C6975",
+      "action": "modify",
+      "date": "2013-05-28"
+    },
+    {
+      "code": "C6975",
+      "action": "modify",
+      "date": "2013-06-03"
+    },
+    {
+      "code": "C6975",
+      "action": "modify",
+      "date": "2013-06-10"
+    },
+    {
+      "code": "C6975",
+      "action": "modify",
+      "date": "2013-06-17"
+    },
+    {
+      "code": "C6975",
+      "action": "modify",
+      "date": "2013-06-24"
+    },
+    {
+      "code": "C6975",
+      "action": "modify",
+      "date": "2013-07-01"
+    },
+    {
+      "code": "C6975",
+      "action": "modify",
+      "date": "2013-07-08"
+    },
+    {
+      "code": "C6975",
+      "action": "modify",
+      "date": "2014-02-03"
+    },
+    {
+      "code": "C6975",
+      "action": "modify",
+      "date": "2014-08-04"
+    },
+    {
+      "code": "C6975",
+      "action": "modify",
+      "date": "2014-08-18"
+    },
+    {
+      "code": "C6975",
+      "action": "modify",
+      "date": "2014-09-22"
+    },
+    {
+      "code": "C6975",
+      "action": "modify",
+      "date": "2014-10-27"
+    },
+    {
+      "code": "C6975",
+      "action": "modify",
+      "date": "2016-04-25"
+    },
+    {
+      "code": "C6975",
+      "action": "modify",
+      "date": "2017-07-31"
+    },
+    {
+      "code": "C6975",
+      "action": "modify",
+      "date": "2018-07-30"
+    },
+    {
+      "code": "C6975",
+      "action": "modify",
+      "date": "2018-08-27"
+    },
+    {
+      "code": "C6975",
+      "action": "modify",
+      "date": "2018-08-27"
+    },
+    {
+      "code": "C6975",
+      "action": "modify",
+      "date": "2018-09-24"
+    },
+    {
+      "code": "C6975",
+      "action": "modify",
+      "date": "2018-10-29"
+    },
+    {
+      "code": "C6975",
+      "action": "modify",
+      "date": "2018-10-29"
+    },
+    {
+      "code": "C6975",
+      "action": "modify",
+      "date": "2019-02-25"
+    },
+    {
+      "code": "C6975",
+      "action": "modify",
+      "date": "2019-05-28"
+    },
+    {
+      "code": "C6975",
+      "action": "modify",
+      "date": "2019-09-30"
+    },
+    {
+      "code": "C6975",
+      "action": "modify",
+      "date": "2019-10-28"
+    },
+    {
+      "code": "C6975",
+      "action": "modify",
+      "date": "2019-11-25"
+    },
+    {
+      "code": "C6975",
+      "action": "modify",
+      "date": "2020-01-27"
+    },
+    {
+      "code": "C6975",
+      "action": "modify",
+      "date": "2020-02-24"
+    },
+    {
+      "code": "C6975",
+      "action": "modify",
+      "date": "2020-04-27"
+    },
+    {
+      "code": "C6975",
+      "action": "modify",
+      "date": "2020-09-29"
+    },
+    {
+      "code": "C6975",
+      "action": "modify",
+      "date": "2021-02-22"
+    },
+    {
+      "code": "C6975",
+      "action": "modify",
+      "date": "2021-03-29"
+    },
+    {
+      "code": "C6975",
+      "action": "modify",
+      "date": "2021-10-25"
+    },
+    {
+      "code": "C6975",
+      "action": "modify",
+      "date": "2023-02-27"
+    },
+    {
+      "code": "C6975",
+      "action": "modify",
+      "date": "2023-11-27"
+    },
+    {
+      "code": "C6975",
+      "action": "modify",
+      "date": "2023-12-26"
+    },
+    {
+      "code": "C6975",
+      "action": "modify",
+      "date": "2025-03-31"
+    }
+  ],
+  "maps": [
+    {
+      "type": "Related To",
+      "targetName": "51",
+      "targetTermType": "PT",
+      "targetCode": "tumor_code_id",
+      "targetTerminology": "GDC"
+    },
+    {
+      "type": "Related To",
+      "targetName": "71",
+      "targetTermType": "PT",
+      "targetCode": "tumor_code_id",
+      "targetTerminology": "GDC"
+    },
+    {
+      "type": "Related To",
+      "targetName": "8260/3",
+      "targetTermType": "PT",
+      "targetCode": "morphology",
+      "targetTerminology": "GDC"
+    },
+    {
+      "type": "Has Synonym",
+      "targetName": "Papillary renal cell carcinoma",
+      "targetTermType": "PT",
+      "targetCode": "primary_diagnosis",
+      "targetTerminology": "GDC"
+    },
+    {
+      "type": "Related To",
+      "targetName": "Papillary Renal Cell",
+      "targetTermType": "PT",
+      "targetCode": "morphologic_architectural_pattern",
+      "targetTerminology": "GDC"
+    }
+  ]
+}

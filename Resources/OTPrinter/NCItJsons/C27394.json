@@ -1,0 +1,369 @@
+{
+  "code": "C27394",
+  "name": "Vaginal Melanoma",
+  "terminology": "ncit",
+  "version": "25.11d",
+  "conceptStatus": "DEFAULT",
+  "leaf": true,
+  "active": true,
+  "synonyms": [
+    {
+      "name": "Vaginal Melanoma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "Cellosaurus"
+    },
+    {
+      "name": "Melanoma of the Vagina",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Melanoma of Vagina",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Vaginal Melanoma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Vaginal Melanoma",
+      "type": "Preferred_Name"
+    }
+  ],
+  "definitions": [
+    {
+      "definition": "A primary malignant neoplasm of the vagina composed of malignant melanocytes.",
+      "type": "DEFINITION",
+      "source": "NCI"
+    }
+  ],
+  "properties": [
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "Cellosaurus"
+    },
+    {
+      "code": "P366",
+      "type": "Legacy Concept Name",
+      "value": "Vaginal_Melanoma"
+    },
+    {
+      "code": "P363",
+      "type": "Neoplastic_Status",
+      "value": "Malignant"
+    },
+    {
+      "code": "P106",
+      "type": "Semantic_Type",
+      "value": "Neoplastic Process"
+    },
+    {
+      "code": "P207",
+      "type": "UMLS_CUI",
+      "value": "C2004576"
+    }
+  ],
+  "parents": [
+    {
+      "code": "C178437",
+      "name": "Female Genital Tract Mucosal Melanoma"
+    },
+    {
+      "code": "C7410",
+      "name": "Malignant Vaginal Neoplasm"
+    }
+  ],
+  "associations": [
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C165258",
+      "relatedName": "Cellosaurus Disease Terminology"
+    }
+  ],
+  "roles": [
+    {
+      "type": "Disease_May_Have_Molecular_Abnormality",
+      "relatedCode": "C148041",
+      "relatedName": "ATRX Gene Mutation"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C36122",
+      "relatedName": "Benign Cellular Infiltrate"
+    },
+    {
+      "type": "Disease_May_Have_Molecular_Abnormality",
+      "relatedCode": "C40430",
+      "relatedName": "BRAF Gene Mutation"
+    },
+    {
+      "type": "Disease_May_Have_Molecular_Abnormality",
+      "relatedCode": "C36652",
+      "relatedName": "CCND1 Gene Amplification"
+    },
+    {
+      "type": "Disease_May_Have_Molecular_Abnormality",
+      "relatedCode": "C131786",
+      "relatedName": "CDK4 Gene Amplification"
+    },
+    {
+      "type": "Disease_May_Have_Molecular_Abnormality",
+      "relatedCode": "C41615",
+      "relatedName": "CDKN2A Gene Deletion"
+    },
+    {
+      "type": "Disease_May_Have_Molecular_Abnormality",
+      "relatedCode": "C128817",
+      "relatedName": "CDKN2A Gene Mutation"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12402",
+      "relatedName": "Female Reproductive System"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12402",
+      "relatedName": "Female Reproductive System"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12810",
+      "relatedName": "Genitourinary System"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12810",
+      "relatedName": "Genitourinary System"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C43268",
+      "relatedName": "HMB-45-Positive Neoplastic Cells Present"
+    },
+    {
+      "type": "Disease_May_Have_Molecular_Abnormality",
+      "relatedCode": "C39712",
+      "relatedName": "KIT Gene Mutation"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12917",
+      "relatedName": "Malignant Cell"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C36115",
+      "relatedName": "Malignant Cellular Infiltrate"
+    },
+    {
+      "type": "Disease_May_Have_Molecular_Abnormality",
+      "relatedCode": "C36681",
+      "relatedName": "MDM2 Gene Amplification"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C12591",
+      "relatedName": "Melanocyte"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36873",
+      "relatedName": "Melanoma Cell"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C13166",
+      "relatedName": "Mucosa"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12922",
+      "relatedName": "Neoplastic Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36862",
+      "relatedName": "Neoplastic Melanocyte"
+    },
+    {
+      "type": "Disease_May_Have_Molecular_Abnormality",
+      "relatedCode": "C153264",
+      "relatedName": "NF1 Gene Deletion"
+    },
+    {
+      "type": "Disease_May_Have_Molecular_Abnormality",
+      "relatedCode": "C118388",
+      "relatedName": "NF1 Gene Mutation"
+    },
+    {
+      "type": "Disease_May_Have_Molecular_Abnormality",
+      "relatedCode": "C36686",
+      "relatedName": "NF2 Gene Inactivation"
+    },
+    {
+      "type": "Disease_May_Have_Molecular_Abnormality",
+      "relatedCode": "C41381",
+      "relatedName": "NRAS Gene Mutation"
+    },
+    {
+      "type": "Disease_May_Have_Molecular_Abnormality",
+      "relatedCode": "C96270",
+      "relatedName": "PTEN Gene Deletion"
+    },
+    {
+      "type": "Disease_May_Have_Molecular_Abnormality",
+      "relatedCode": "C121369",
+      "relatedName": "PTEN Gene Mutation"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12841",
+      "relatedName": "Reproductive System"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C40993",
+      "relatedName": "S-100-Positive Neoplastic Cells Present"
+    },
+    {
+      "type": "Disease_May_Have_Molecular_Abnormality",
+      "relatedCode": "C133702",
+      "relatedName": "SF3B1 Gene Mutation"
+    },
+    {
+      "type": "Disease_Excludes_Primary_Anatomic_Site",
+      "relatedCode": "C12470",
+      "relatedName": "Skin"
+    },
+    {
+      "type": "Disease_May_Have_Molecular_Abnormality",
+      "relatedCode": "C180790",
+      "relatedName": "SPRED1 Gene Mutation"
+    },
+    {
+      "type": "Disease_May_Have_Molecular_Abnormality",
+      "relatedCode": "C118396",
+      "relatedName": "TP53 Gene Mutation"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C26945",
+      "relatedName": "Vaginal Hemorrhage"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12407",
+      "relatedName": "Vagina"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12407",
+      "relatedName": "Vagina"
+    }
+  ],
+  "history": [
+    {
+      "code": "C27394",
+      "action": "create",
+      "date": "2003-08-12"
+    },
+    {
+      "code": "C27394",
+      "action": "modify",
+      "date": "2003-10-31"
+    },
+    {
+      "code": "C27394",
+      "action": "modify",
+      "date": "2003-12-30"
+    },
+    {
+      "code": "C27394",
+      "action": "modify",
+      "date": "2004-03-30"
+    },
+    {
+      "code": "C27394",
+      "action": "modify",
+      "date": "2004-09-10"
+    },
+    {
+      "code": "C27394",
+      "action": "modify",
+      "date": "2005-03-16"
+    },
+    {
+      "code": "C27394",
+      "action": "modify",
+      "date": "2006-06-30"
+    },
+    {
+      "code": "C27394",
+      "action": "modify",
+      "date": "2006-07-28"
+    },
+    {
+      "code": "C27394",
+      "action": "modify",
+      "date": "2006-09-01"
+    },
+    {
+      "code": "C27394",
+      "action": "modify",
+      "date": "2009-04-06"
+    },
+    {
+      "code": "C27394",
+      "action": "modify",
+      "date": "2009-11-23"
+    },
+    {
+      "code": "C27394",
+      "action": "modify",
+      "date": "2010-03-08"
+    },
+    {
+      "code": "C27394",
+      "action": "modify",
+      "date": "2012-08-20"
+    },
+    {
+      "code": "C27394",
+      "action": "modify",
+      "date": "2014-02-03"
+    },
+    {
+      "code": "C27394",
+      "action": "modify",
+      "date": "2014-04-21"
+    },
+    {
+      "code": "C27394",
+      "action": "modify",
+      "date": "2019-10-28"
+    },
+    {
+      "code": "C27394",
+      "action": "modify",
+      "date": "2021-04-26"
+    },
+    {
+      "code": "C27394",
+      "action": "modify",
+      "date": "2023-02-27"
+    },
+    {
+      "code": "C27394",
+      "action": "modify",
+      "date": "2025-03-31"
+    }
+  ]
+}

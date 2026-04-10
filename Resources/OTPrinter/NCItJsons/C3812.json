@@ -1,0 +1,417 @@
+{
+  "code": "C3812",
+  "name": "Carcinoma of Unknown Primary",
+  "terminology": "ncit",
+  "version": "25.11d",
+  "conceptStatus": "DEFAULT",
+  "leaf": false,
+  "active": true,
+  "synonyms": [
+    {
+      "name": "Carcinoma of Unknown Primary",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "caDSR"
+    },
+    {
+      "name": "Advanced Carcinoma Of Unknown Primary",
+      "termType": "DN",
+      "type": "FULL_SYN",
+      "source": "CTRP"
+    },
+    {
+      "name": "Carcinoma of Unknown Primary Origin",
+      "termType": "DN",
+      "type": "FULL_SYN",
+      "source": "CTRP"
+    },
+    {
+      "name": "carcinoma of unknown primary",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NCI-GLOSS",
+      "code": "CDR0000527198"
+    },
+    {
+      "name": "Advanced Carcinoma Of Unknown Primary",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Carcinoma of Unknown Primary",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Carcinoma of Unknown Primary Origin",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Advanced Carcinoma Of Unknown Primary",
+      "type": "Display_Name"
+    },
+    {
+      "name": "Carcinoma of Unknown Primary Origin",
+      "type": "Display_Name"
+    },
+    {
+      "name": "Carcinoma of Unknown Primary",
+      "type": "Preferred_Name"
+    }
+  ],
+  "definitions": [
+    {
+      "definition": "A carcinoma that has spread to other regions from an unknown primary anatomic site.",
+      "type": "DEFINITION",
+      "source": "NCI"
+    }
+  ],
+  "properties": [
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "CTRP"
+    },
+    {
+      "code": "P366",
+      "type": "Legacy Concept Name",
+      "value": "Carcinoma_of_Unknown_Primary"
+    },
+    {
+      "code": "P363",
+      "type": "Neoplastic_Status",
+      "value": "Malignant"
+    },
+    {
+      "code": "P106",
+      "type": "Semantic_Type",
+      "value": "Neoplastic Process"
+    },
+    {
+      "code": "P207",
+      "type": "UMLS_CUI",
+      "value": "C0220647"
+    }
+  ],
+  "children": [
+    {
+      "code": "C4039",
+      "name": "Adenocarcinoma of Unknown Primary",
+      "leaf": false
+    },
+    {
+      "code": "C162595",
+      "name": "Head and Neck Carcinoma of Unknown Primary",
+      "leaf": false
+    },
+    {
+      "code": "C163975",
+      "name": "Neuroendocrine Carcinoma of Unknown Primary",
+      "leaf": true
+    },
+    {
+      "code": "C9181",
+      "name": "Recurrent Carcinoma of Unknown Primary",
+      "leaf": false
+    },
+    {
+      "code": "C170961",
+      "name": "Resectable Carcinoma of Unknown Primary",
+      "leaf": false
+    },
+    {
+      "code": "C8099",
+      "name": "Squamous Cell Carcinoma of Unknown Primary",
+      "leaf": false
+    },
+    {
+      "code": "C8100",
+      "name": "Undifferentiated Carcinoma of Unknown Primary",
+      "leaf": true
+    }
+  ],
+  "parents": [
+    {
+      "code": "C8566",
+      "name": "Malignant Neoplasm of Unknown Primary"
+    },
+    {
+      "code": "C3482",
+      "name": "Metastatic Carcinoma"
+    }
+  ],
+  "associations": [
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C118168",
+      "relatedName": "CTRP Disease Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C116977",
+      "relatedName": "CTRP Terminology"
+    }
+  ],
+  "roles": [
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C36122",
+      "relatedName": "Benign Cellular Infiltrate"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C54172",
+      "relatedName": "Carcinomatous Component Present"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C12578",
+      "relatedName": "Epithelial Cell"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C53596",
+      "relatedName": "Epithelial Component Present"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C45714",
+      "relatedName": "Epithelial Tissue"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12917",
+      "relatedName": "Malignant Cell"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C36115",
+      "relatedName": "Malignant Cellular Infiltrate"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36779",
+      "relatedName": "Malignant Epithelial Cell"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C37153",
+      "relatedName": "Malignant Stromal Cell"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C40557",
+      "relatedName": "Metastatic Disease"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12922",
+      "relatedName": "Neoplastic Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36753",
+      "relatedName": "Neoplastic Epithelial Cell"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C36937",
+      "relatedName": "Neoplastic Smooth Muscle Cell"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C48322",
+      "relatedName": "Primary Site Unknown"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C41444",
+      "relatedName": "Secondary Lesion"
+    }
+  ],
+  "history": [
+    {
+      "code": "C3812",
+      "action": "create",
+      "date": "2003-08-12"
+    },
+    {
+      "code": "C3812",
+      "action": "modify",
+      "date": "2003-12-30"
+    },
+    {
+      "code": "C3812",
+      "action": "modify",
+      "date": "2005-09-09"
+    },
+    {
+      "code": "C3812",
+      "action": "modify",
+      "date": "2007-06-28"
+    },
+    {
+      "code": "C3812",
+      "action": "modify",
+      "date": "2009-04-06"
+    },
+    {
+      "code": "C3812",
+      "action": "modify",
+      "date": "2009-10-27"
+    },
+    {
+      "code": "C3812",
+      "action": "modify",
+      "date": "2009-11-23"
+    },
+    {
+      "code": "C3812",
+      "action": "modify",
+      "date": "2010-11-01"
+    },
+    {
+      "code": "C3812",
+      "action": "modify",
+      "date": "2010-11-08"
+    },
+    {
+      "code": "C3812",
+      "action": "modify",
+      "date": "2010-11-15"
+    },
+    {
+      "code": "C3812",
+      "action": "modify",
+      "date": "2010-11-22"
+    },
+    {
+      "code": "C3812",
+      "action": "modify",
+      "date": "2010-11-29"
+    },
+    {
+      "code": "C3812",
+      "action": "modify",
+      "date": "2010-12-06"
+    },
+    {
+      "code": "C3812",
+      "action": "modify",
+      "date": "2010-12-13"
+    },
+    {
+      "code": "C3812",
+      "action": "modify",
+      "date": "2010-12-27"
+    },
+    {
+      "code": "C3812",
+      "action": "modify",
+      "date": "2011-01-03"
+    },
+    {
+      "code": "C3812",
+      "action": "modify",
+      "date": "2011-01-10"
+    },
+    {
+      "code": "C3812",
+      "action": "modify",
+      "date": "2011-01-17"
+    },
+    {
+      "code": "C3812",
+      "action": "modify",
+      "date": "2011-01-24"
+    },
+    {
+      "code": "C3812",
+      "action": "modify",
+      "date": "2011-01-31"
+    },
+    {
+      "code": "C3812",
+      "action": "modify",
+      "date": "2011-05-31"
+    },
+    {
+      "code": "C3812",
+      "action": "modify",
+      "date": "2014-02-03"
+    },
+    {
+      "code": "C3812",
+      "action": "modify",
+      "date": "2014-08-25"
+    },
+    {
+      "code": "C3812",
+      "action": "modify",
+      "date": "2014-09-22"
+    },
+    {
+      "code": "C3812",
+      "action": "modify",
+      "date": "2018-07-30"
+    },
+    {
+      "code": "C3812",
+      "action": "modify",
+      "date": "2018-08-27"
+    },
+    {
+      "code": "C3812",
+      "action": "modify",
+      "date": "2018-08-27"
+    },
+    {
+      "code": "C3812",
+      "action": "modify",
+      "date": "2018-09-24"
+    },
+    {
+      "code": "C3812",
+      "action": "modify",
+      "date": "2019-04-29"
+    },
+    {
+      "code": "C3812",
+      "action": "modify",
+      "date": "2020-07-27"
+    },
+    {
+      "code": "C3812",
+      "action": "modify",
+      "date": "2020-09-29"
+    },
+    {
+      "code": "C3812",
+      "action": "merge",
+      "date": "2025-01-27",
+      "replacementCode": "C3812",
+      "replacementName": "Carcinoma of Unknown Primary"
+    },
+    {
+      "code": "C170960",
+      "action": "merge",
+      "date": "2025-01-27",
+      "replacementCode": "C3812",
+      "replacementName": "Carcinoma of Unknown Primary"
+    },
+    {
+      "code": "C3812",
+      "action": "modify",
+      "date": "2025-01-27"
+    },
+    {
+      "code": "C3812",
+      "action": "modify",
+      "date": "2025-08-25"
+    }
+  ]
+}

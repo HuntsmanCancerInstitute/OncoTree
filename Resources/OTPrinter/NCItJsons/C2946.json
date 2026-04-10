@@ -1,0 +1,1289 @@
+{
+  "code": "C2946",
+  "name": "Chondrosarcoma",
+  "terminology": "ncit",
+  "version": "25.11d",
+  "conceptStatus": "DEFAULT",
+  "leaf": false,
+  "active": true,
+  "synonyms": [
+    {
+      "name": "CHONDROSARCOMA, MALIGNANT",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "CDISC"
+    },
+    {
+      "name": "Chondrosarcoma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "Cellosaurus"
+    },
+    {
+      "name": "Chondrosarcoma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "CPTAC"
+    },
+    {
+      "name": "Chondrosarcoma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "CTEP",
+      "code": "10008737",
+      "subSource": "SDC"
+    },
+    {
+      "name": "Chondrosarcoma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "CTRP"
+    },
+    {
+      "name": "Chondrosarcoma",
+      "termType": "DN",
+      "type": "FULL_SYN",
+      "source": "CTRP"
+    },
+    {
+      "name": "Chondrosarcoma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "GDC"
+    },
+    {
+      "name": "Chondrosarcoma, NOS",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "GDC"
+    },
+    {
+      "name": "chondrosarcoma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NCI-GLOSS",
+      "code": "CDR0000045221"
+    },
+    {
+      "name": "Chondrosarcoma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Chondrosarcoma",
+      "type": "Display_Name"
+    },
+    {
+      "name": "Chondrosarcoma",
+      "type": "Preferred_Name"
+    }
+  ],
+  "definitions": [
+    {
+      "definition": "A malignant cartilaginous matrix-producing mesenchymal neoplasm arising from the bone and soft tissue.  It usually affects middle-aged to elderly adults.  The pelvic bones, ribs, shoulder girdle, and long bones are the most common sites of involvement.  Most chondrosarcomas arise de novo, but some may develop in a preexisting benign cartilaginous lesion.",
+      "type": "DEFINITION",
+      "source": "NCI"
+    },
+    {
+      "definition": "A malignant mesenchymal neoplasm arising from cartilage-forming tissues.",
+      "type": "ALT_DEFINITION",
+      "source": "CDISC"
+    },
+    {
+      "definition": "A type of cancer that forms in bone cartilage. It usually starts in the pelvis (between the hip bones), the shoulder, the ribs, or at the ends of the long bones of the arms and legs. A rare type of chondrosarcoma called extraskeletal chondrosarcoma does not form in bone cartilage. Instead, it forms in the soft tissues of the upper part of the arms and legs. Chondrosarcoma can occur at any age but is more common in people older than 40 years. It is a type of bone cancer.",
+      "type": "ALT_DEFINITION",
+      "source": "NCI-GLOSS"
+    }
+  ],
+  "properties": [
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "CDISC"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "Cellosaurus"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "CPTAC"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "CTEP"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "CTRP"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "GDC"
+    },
+    {
+      "code": "P334",
+      "type": "ICD-O-3_Code",
+      "value": "9220/3"
+    },
+    {
+      "code": "P366",
+      "type": "Legacy Concept Name",
+      "value": "Chondrosarcoma"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "9220/3"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "Chondrosarcoma"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "Chondrosarcoma, NOS"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "Fibrochondrosarcoma"
+    },
+    {
+      "code": "P363",
+      "type": "Neoplastic_Status",
+      "value": "Malignant"
+    },
+    {
+      "code": "P106",
+      "type": "Semantic_Type",
+      "value": "Neoplastic Process"
+    },
+    {
+      "code": "P207",
+      "type": "UMLS_CUI",
+      "value": "C0008479"
+    }
+  ],
+  "children": [
+    {
+      "code": "C9027",
+      "name": "Atypical Cartilaginous Tumor/Chondrosarcoma, Grade 1",
+      "leaf": false
+    },
+    {
+      "code": "C189027",
+      "name": "Childhood Chondrosarcoma",
+      "leaf": false
+    },
+    {
+      "code": "C121870",
+      "name": "Chondrosarcoma, Grade 2",
+      "leaf": false
+    },
+    {
+      "code": "C121871",
+      "name": "Chondrosarcoma, Grade 3",
+      "leaf": false
+    },
+    {
+      "code": "C6475",
+      "name": "Clear Cell Chondrosarcoma",
+      "leaf": true
+    },
+    {
+      "code": "C6476",
+      "name": "Dedifferentiated Chondrosarcoma",
+      "leaf": true
+    },
+    {
+      "code": "C173407",
+      "name": "Laryngeal Chondrosarcoma",
+      "leaf": true
+    },
+    {
+      "code": "C8778",
+      "name": "Localized Chondrosarcoma",
+      "leaf": true
+    },
+    {
+      "code": "C173842",
+      "name": "Maxillofacial Chondrosarcoma",
+      "leaf": false
+    },
+    {
+      "code": "C3737",
+      "name": "Mesenchymal Chondrosarcoma",
+      "leaf": false
+    },
+    {
+      "code": "C8779",
+      "name": "Metastatic Chondrosarcoma",
+      "leaf": false
+    },
+    {
+      "code": "C7357",
+      "name": "Periosteal Chondrosarcoma",
+      "leaf": true
+    },
+    {
+      "code": "C7155",
+      "name": "Primary Central Chondrosarcoma",
+      "leaf": false
+    },
+    {
+      "code": "C8780",
+      "name": "Recurrent Chondrosarcoma",
+      "leaf": true
+    },
+    {
+      "code": "C27482",
+      "name": "Secondary Chondrosarcoma",
+      "leaf": false
+    },
+    {
+      "code": "C176467",
+      "name": "Synovial Chondrosarcoma",
+      "leaf": true
+    }
+  ],
+  "parents": [
+    {
+      "code": "C4755",
+      "name": "Chondrogenic Neoplasm"
+    },
+    {
+      "code": "C9118",
+      "name": "Sarcoma"
+    }
+  ],
+  "associations": [
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C77526",
+      "relatedName": "CDISC SEND Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C88025",
+      "relatedName": "CDISC SEND Tumor Findings Results Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C165258",
+      "relatedName": "Cellosaurus Disease Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C61410",
+      "relatedName": "Clinical Data Interchange Standards Consortium Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C138188",
+      "relatedName": "Clinical Trials Search-Application Programming Interface Disease Category Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C158520",
+      "relatedName": "CPTAC Codelists Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C156966",
+      "relatedName": "CPTAC Neoplasms Codelist"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C156952",
+      "relatedName": "CPTAC Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C118168",
+      "relatedName": "CTRP Disease Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C116977",
+      "relatedName": "CTRP Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C138190",
+      "relatedName": "CTS-API Disease Main Type Terminology"
+    },
+    {
+      "type": "Is_Value_For_GDC_Property",
+      "relatedCode": "C178243",
+      "relatedName": "Family Cancer History Relative Primary Diagnosis Question"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C157711",
+      "relatedName": "GDC Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C177537",
+      "relatedName": "GDC Value Terminology"
+    },
+    {
+      "type": "Is_Value_For_GDC_Property",
+      "relatedCode": "C176985",
+      "relatedName": "Histology ICD-O Morphology Code"
+    },
+    {
+      "type": "Is_Value_For_GDC_Property",
+      "relatedCode": "C177621",
+      "relatedName": "ICD-O-3 Morphology Term Diagnosis Question"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168658",
+      "relatedName": "Mapped ICDO3.1 Morphology PT Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168657",
+      "relatedName": "Mapped ICDO3.1 Morphology Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168655",
+      "relatedName": "Mapped ICDO3.1 Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168662",
+      "relatedName": "Mapped ICDO3.2 Morphology PT Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168661",
+      "relatedName": "Mapped ICDO3.2 Morphology Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168656",
+      "relatedName": "Mapped ICDO3.2 Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C103037",
+      "relatedName": "NCI CTEP SDC Chondrosarcoma Sub-Category Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C102905",
+      "relatedName": "NCI CTEP Simplified Disease Classification Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C126659",
+      "relatedName": "NCIt Neoplasm Core Terminology"
+    },
+    {
+      "type": "Neoplasm_Has_Special_Category",
+      "relatedCode": "C9292",
+      "relatedName": "Solid Neoplasm"
+    }
+  ],
+  "inverseAssociations": [
+    {
+      "type": "Has_GDC_Value",
+      "relatedCode": "C178243",
+      "relatedName": "Family Cancer History Relative Primary Diagnosis Question"
+    },
+    {
+      "type": "Has_GDC_Value",
+      "relatedCode": "C176985",
+      "relatedName": "Histology ICD-O Morphology Code"
+    },
+    {
+      "type": "Has_GDC_Value",
+      "relatedCode": "C177621",
+      "relatedName": "ICD-O-3 Morphology Term Diagnosis Question"
+    }
+  ],
+  "roles": [
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C36122",
+      "relatedName": "Benign Cellular Infiltrate"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C48695",
+      "relatedName": "Cartilage Cell"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C53445",
+      "relatedName": "Cartilaginous Differentiation"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C12557",
+      "relatedName": "Chondrocyte"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C12555",
+      "relatedName": "Connective and Soft Tissue Cell"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12964",
+      "relatedName": "Connective and Soft Tissue"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12964",
+      "relatedName": "Connective and Soft Tissue"
+    },
+    {
+      "type": "Disease_Excludes_Normal_Cell_Origin",
+      "relatedCode": "C12578",
+      "relatedName": "Epithelial Cell"
+    },
+    {
+      "type": "Disease_Excludes_Normal_Tissue_Origin",
+      "relatedCode": "C45714",
+      "relatedName": "Epithelial Tissue"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C53474",
+      "relatedName": "Hyaline Cartilage Differentiation"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C36105",
+      "relatedName": "Indolent Clinical Course"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C53665",
+      "relatedName": "Intermediate Filaments Present"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C53667",
+      "relatedName": "Intracytoplasmic Eosinophilic Inclusion"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12917",
+      "relatedName": "Malignant Cell"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C36115",
+      "relatedName": "Malignant Cellular Infiltrate"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C53478",
+      "relatedName": "Malignant Chondrocyte"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C36779",
+      "relatedName": "Malignant Epithelial Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C48696",
+      "relatedName": "Neoplastic Cartilage Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12922",
+      "relatedName": "Neoplastic Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36887",
+      "relatedName": "Neoplastic Connective and Soft Tissue Cell"
+    },
+    {
+      "type": "Disease_Excludes_Normal_Cell_Origin",
+      "relatedCode": "C41405",
+      "relatedName": "Neuron, Neuroepithelial Cell, and Supporting Cell of the Nervous System"
+    }
+  ],
+  "inverseRoles": [
+    {
+      "type": "EO_Disease_Maps_To_Human_Disease",
+      "relatedCode": "C23119",
+      "relatedName": "Chondrosarcoma of the Mouse Larynx"
+    },
+    {
+      "type": "EO_Disease_Maps_To_Human_Disease",
+      "relatedCode": "C22042",
+      "relatedName": "Chondrosarcoma of the Mouse Nervous System"
+    },
+    {
+      "type": "EO_Disease_Maps_To_Human_Disease",
+      "relatedCode": "C21751",
+      "relatedName": "Chondrosarcoma of the Mouse Prostate Gland"
+    },
+    {
+      "type": "EO_Disease_Maps_To_Human_Disease",
+      "relatedCode": "C22968",
+      "relatedName": "Chondrosarcoma of the Mouse Skeletal System, NOS"
+    },
+    {
+      "type": "EO_Disease_Maps_To_Human_Disease",
+      "relatedCode": "C22976",
+      "relatedName": "Clear Cell Chondrosarcoma of the Mouse Skeletal System"
+    },
+    {
+      "type": "EO_Disease_Maps_To_Human_Disease",
+      "relatedCode": "C22977",
+      "relatedName": "Dedifferentiated Chondrosarcoma of the Mouse Skeletal System"
+    },
+    {
+      "type": "Disease_May_Have_Associated_Disease",
+      "relatedCode": "C8495",
+      "relatedName": "Hereditary Retinoblastoma"
+    },
+    {
+      "type": "EO_Disease_Maps_To_Human_Disease",
+      "relatedCode": "C22970",
+      "relatedName": "Juxtacortical Chondrosarcoma of the Mouse Skeletal System"
+    },
+    {
+      "type": "EO_Disease_Maps_To_Human_Disease",
+      "relatedCode": "C22937",
+      "relatedName": "Kaposi Sarcoma of the Mouse Blood Vessel"
+    },
+    {
+      "type": "EO_Disease_Maps_To_Human_Disease",
+      "relatedCode": "C22974",
+      "relatedName": "Mesenchymal Chondrosarcoma of the Mouse Skeletal System"
+    },
+    {
+      "type": "EO_Disease_Maps_To_Human_Disease",
+      "relatedCode": "C22917",
+      "relatedName": "Mouse Cardiac Kaposi's Sarcoma"
+    },
+    {
+      "type": "EO_Disease_Maps_To_Human_Disease",
+      "relatedCode": "C24018",
+      "relatedName": "Mouse Chondrosarcoma"
+    },
+    {
+      "type": "EO_Disease_Maps_To_Human_Disease",
+      "relatedCode": "C24019",
+      "relatedName": "Mouse Kaposi's Sarcoma"
+    },
+    {
+      "type": "EO_Disease_Maps_To_Human_Disease",
+      "relatedCode": "C22973",
+      "relatedName": "Myxoid Chondrosarcoma of the Mouse Skeletal System"
+    },
+    {
+      "type": "Disease_May_Have_Associated_Disease",
+      "relatedCode": "C75118",
+      "relatedName": "Trichorhinophalangeal Syndrome Type II"
+    }
+  ],
+  "history": [
+    {
+      "code": "C2946",
+      "action": "create",
+      "date": "2003-08-12"
+    },
+    {
+      "code": "C2946",
+      "action": "modify",
+      "date": "2003-10-31"
+    },
+    {
+      "code": "C2946",
+      "action": "modify",
+      "date": "2003-12-05"
+    },
+    {
+      "code": "C2946",
+      "action": "modify",
+      "date": "2003-12-30"
+    },
+    {
+      "code": "C2946",
+      "action": "modify",
+      "date": "2004-03-30"
+    },
+    {
+      "code": "C2946",
+      "action": "modify",
+      "date": "2004-05-28"
+    },
+    {
+      "code": "C2946",
+      "action": "modify",
+      "date": "2005-09-29"
+    },
+    {
+      "code": "C2946",
+      "action": "modify",
+      "date": "2006-02-24"
+    },
+    {
+      "code": "C2946",
+      "action": "modify",
+      "date": "2006-03-31"
+    },
+    {
+      "code": "C2946",
+      "action": "modify",
+      "date": "2007-03-30"
+    },
+    {
+      "code": "C2946",
+      "action": "modify",
+      "date": "2007-05-25"
+    },
+    {
+      "code": "C2946",
+      "action": "modify",
+      "date": "2009-11-02"
+    },
+    {
+      "code": "C2946",
+      "action": "modify",
+      "date": "2009-11-23"
+    },
+    {
+      "code": "C2946",
+      "action": "modify",
+      "date": "2010-05-17"
+    },
+    {
+      "code": "C2946",
+      "action": "modify",
+      "date": "2010-06-01"
+    },
+    {
+      "code": "C2946",
+      "action": "modify",
+      "date": "2010-11-08"
+    },
+    {
+      "code": "C2946",
+      "action": "modify",
+      "date": "2011-01-31"
+    },
+    {
+      "code": "C2946",
+      "action": "modify",
+      "date": "2011-04-11"
+    },
+    {
+      "code": "C2946",
+      "action": "modify",
+      "date": "2011-11-14"
+    },
+    {
+      "code": "C2946",
+      "action": "modify",
+      "date": "2011-11-21"
+    },
+    {
+      "code": "C2946",
+      "action": "modify",
+      "date": "2011-11-28"
+    },
+    {
+      "code": "C2946",
+      "action": "modify",
+      "date": "2011-12-05"
+    },
+    {
+      "code": "C2946",
+      "action": "modify",
+      "date": "2011-12-12"
+    },
+    {
+      "code": "C2946",
+      "action": "modify",
+      "date": "2011-12-19"
+    },
+    {
+      "code": "C2946",
+      "action": "modify",
+      "date": "2011-12-27"
+    },
+    {
+      "code": "C2946",
+      "action": "modify",
+      "date": "2012-01-09"
+    },
+    {
+      "code": "C2946",
+      "action": "modify",
+      "date": "2012-01-17"
+    },
+    {
+      "code": "C2946",
+      "action": "modify",
+      "date": "2012-01-23"
+    },
+    {
+      "code": "C2946",
+      "action": "modify",
+      "date": "2012-01-30"
+    },
+    {
+      "code": "C2946",
+      "action": "modify",
+      "date": "2012-02-06"
+    },
+    {
+      "code": "C2946",
+      "action": "modify",
+      "date": "2012-02-13"
+    },
+    {
+      "code": "C2946",
+      "action": "modify",
+      "date": "2012-02-21"
+    },
+    {
+      "code": "C2946",
+      "action": "modify",
+      "date": "2012-02-27"
+    },
+    {
+      "code": "C2946",
+      "action": "modify",
+      "date": "2012-03-05"
+    },
+    {
+      "code": "C2946",
+      "action": "modify",
+      "date": "2012-03-12"
+    },
+    {
+      "code": "C2946",
+      "action": "modify",
+      "date": "2012-03-19"
+    },
+    {
+      "code": "C2946",
+      "action": "modify",
+      "date": "2012-03-26"
+    },
+    {
+      "code": "C2946",
+      "action": "modify",
+      "date": "2012-04-02"
+    },
+    {
+      "code": "C2946",
+      "action": "modify",
+      "date": "2012-04-09"
+    },
+    {
+      "code": "C2946",
+      "action": "modify",
+      "date": "2012-04-16"
+    },
+    {
+      "code": "C2946",
+      "action": "modify",
+      "date": "2012-04-23"
+    },
+    {
+      "code": "C2946",
+      "action": "modify",
+      "date": "2012-04-30"
+    },
+    {
+      "code": "C2946",
+      "action": "modify",
+      "date": "2012-05-07"
+    },
+    {
+      "code": "C2946",
+      "action": "modify",
+      "date": "2012-05-14"
+    },
+    {
+      "code": "C2946",
+      "action": "modify",
+      "date": "2012-05-21"
+    },
+    {
+      "code": "C2946",
+      "action": "modify",
+      "date": "2012-05-29"
+    },
+    {
+      "code": "C2946",
+      "action": "modify",
+      "date": "2012-06-04"
+    },
+    {
+      "code": "C2946",
+      "action": "modify",
+      "date": "2012-06-11"
+    },
+    {
+      "code": "C2946",
+      "action": "modify",
+      "date": "2012-06-18"
+    },
+    {
+      "code": "C2946",
+      "action": "modify",
+      "date": "2012-06-18"
+    },
+    {
+      "code": "C2946",
+      "action": "modify",
+      "date": "2012-06-25"
+    },
+    {
+      "code": "C2946",
+      "action": "modify",
+      "date": "2012-07-03"
+    },
+    {
+      "code": "C2946",
+      "action": "modify",
+      "date": "2012-07-16"
+    },
+    {
+      "code": "C2946",
+      "action": "modify",
+      "date": "2012-07-23"
+    },
+    {
+      "code": "C2946",
+      "action": "modify",
+      "date": "2012-07-30"
+    },
+    {
+      "code": "C2946",
+      "action": "modify",
+      "date": "2012-08-06"
+    },
+    {
+      "code": "C2946",
+      "action": "modify",
+      "date": "2012-08-13"
+    },
+    {
+      "code": "C2946",
+      "action": "modify",
+      "date": "2012-08-20"
+    },
+    {
+      "code": "C2946",
+      "action": "modify",
+      "date": "2012-08-27"
+    },
+    {
+      "code": "C2946",
+      "action": "modify",
+      "date": "2012-09-04"
+    },
+    {
+      "code": "C2946",
+      "action": "modify",
+      "date": "2012-09-10"
+    },
+    {
+      "code": "C2946",
+      "action": "modify",
+      "date": "2012-09-17"
+    },
+    {
+      "code": "C2946",
+      "action": "modify",
+      "date": "2012-09-24"
+    },
+    {
+      "code": "C2946",
+      "action": "modify",
+      "date": "2012-10-01"
+    },
+    {
+      "code": "C2946",
+      "action": "modify",
+      "date": "2012-10-09"
+    },
+    {
+      "code": "C2946",
+      "action": "modify",
+      "date": "2012-10-15"
+    },
+    {
+      "code": "C2946",
+      "action": "modify",
+      "date": "2012-10-22"
+    },
+    {
+      "code": "C2946",
+      "action": "modify",
+      "date": "2012-10-31"
+    },
+    {
+      "code": "C2946",
+      "action": "modify",
+      "date": "2012-11-05"
+    },
+    {
+      "code": "C2946",
+      "action": "modify",
+      "date": "2012-11-13"
+    },
+    {
+      "code": "C2946",
+      "action": "modify",
+      "date": "2012-11-19"
+    },
+    {
+      "code": "C2946",
+      "action": "modify",
+      "date": "2012-11-26"
+    },
+    {
+      "code": "C2946",
+      "action": "modify",
+      "date": "2012-12-03"
+    },
+    {
+      "code": "C2946",
+      "action": "modify",
+      "date": "2012-12-10"
+    },
+    {
+      "code": "C2946",
+      "action": "modify",
+      "date": "2012-12-17"
+    },
+    {
+      "code": "C2946",
+      "action": "modify",
+      "date": "2012-12-28"
+    },
+    {
+      "code": "C2946",
+      "action": "modify",
+      "date": "2013-01-07"
+    },
+    {
+      "code": "C2946",
+      "action": "modify",
+      "date": "2013-01-14"
+    },
+    {
+      "code": "C2946",
+      "action": "modify",
+      "date": "2013-01-23"
+    },
+    {
+      "code": "C2946",
+      "action": "modify",
+      "date": "2013-02-04"
+    },
+    {
+      "code": "C2946",
+      "action": "modify",
+      "date": "2013-02-11"
+    },
+    {
+      "code": "C2946",
+      "action": "modify",
+      "date": "2013-02-19"
+    },
+    {
+      "code": "C2946",
+      "action": "modify",
+      "date": "2013-02-25"
+    },
+    {
+      "code": "C2946",
+      "action": "modify",
+      "date": "2013-03-04"
+    },
+    {
+      "code": "C2946",
+      "action": "modify",
+      "date": "2013-03-11"
+    },
+    {
+      "code": "C2946",
+      "action": "modify",
+      "date": "2013-03-18"
+    },
+    {
+      "code": "C2946",
+      "action": "modify",
+      "date": "2013-03-25"
+    },
+    {
+      "code": "C2946",
+      "action": "modify",
+      "date": "2013-04-01"
+    },
+    {
+      "code": "C2946",
+      "action": "modify",
+      "date": "2013-04-08"
+    },
+    {
+      "code": "C2946",
+      "action": "modify",
+      "date": "2013-04-15"
+    },
+    {
+      "code": "C2946",
+      "action": "modify",
+      "date": "2013-04-22"
+    },
+    {
+      "code": "C2946",
+      "action": "modify",
+      "date": "2013-04-29"
+    },
+    {
+      "code": "C2946",
+      "action": "modify",
+      "date": "2013-05-06"
+    },
+    {
+      "code": "C2946",
+      "action": "modify",
+      "date": "2013-05-13"
+    },
+    {
+      "code": "C2946",
+      "action": "modify",
+      "date": "2013-05-20"
+    },
+    {
+      "code": "C2946",
+      "action": "modify",
+      "date": "2013-05-28"
+    },
+    {
+      "code": "C2946",
+      "action": "modify",
+      "date": "2013-06-03"
+    },
+    {
+      "code": "C2946",
+      "action": "modify",
+      "date": "2013-06-10"
+    },
+    {
+      "code": "C2946",
+      "action": "modify",
+      "date": "2013-06-17"
+    },
+    {
+      "code": "C2946",
+      "action": "modify",
+      "date": "2013-06-24"
+    },
+    {
+      "code": "C2946",
+      "action": "modify",
+      "date": "2013-07-01"
+    },
+    {
+      "code": "C2946",
+      "action": "modify",
+      "date": "2013-07-08"
+    },
+    {
+      "code": "C2946",
+      "action": "modify",
+      "date": "2014-08-25"
+    },
+    {
+      "code": "C2946",
+      "action": "modify",
+      "date": "2014-09-22"
+    },
+    {
+      "code": "C2946",
+      "action": "modify",
+      "date": "2015-05-18"
+    },
+    {
+      "code": "C2946",
+      "action": "modify",
+      "date": "2015-05-26"
+    },
+    {
+      "code": "C2946",
+      "action": "modify",
+      "date": "2016-02-16"
+    },
+    {
+      "code": "C2946",
+      "action": "modify",
+      "date": "2016-04-25"
+    },
+    {
+      "code": "C2946",
+      "action": "modify",
+      "date": "2016-08-22"
+    },
+    {
+      "code": "C2946",
+      "action": "modify",
+      "date": "2017-09-26"
+    },
+    {
+      "code": "C2946",
+      "action": "modify",
+      "date": "2018-02-26"
+    },
+    {
+      "code": "C2946",
+      "action": "modify",
+      "date": "2018-07-30"
+    },
+    {
+      "code": "C2946",
+      "action": "modify",
+      "date": "2018-08-27"
+    },
+    {
+      "code": "C2946",
+      "action": "modify",
+      "date": "2018-08-27"
+    },
+    {
+      "code": "C2946",
+      "action": "modify",
+      "date": "2018-09-24"
+    },
+    {
+      "code": "C2946",
+      "action": "modify",
+      "date": "2018-12-31"
+    },
+    {
+      "code": "C2946",
+      "action": "modify",
+      "date": "2019-03-25"
+    },
+    {
+      "code": "C2946",
+      "action": "modify",
+      "date": "2019-05-28"
+    },
+    {
+      "code": "C2946",
+      "action": "modify",
+      "date": "2019-09-30"
+    },
+    {
+      "code": "C2946",
+      "action": "modify",
+      "date": "2019-10-28"
+    },
+    {
+      "code": "C2946",
+      "action": "modify",
+      "date": "2019-11-25"
+    },
+    {
+      "code": "C2946",
+      "action": "modify",
+      "date": "2020-02-24"
+    },
+    {
+      "code": "C2946",
+      "action": "modify",
+      "date": "2020-04-27"
+    },
+    {
+      "code": "C2946",
+      "action": "modify",
+      "date": "2021-02-22"
+    },
+    {
+      "code": "C2946",
+      "action": "modify",
+      "date": "2021-03-29"
+    },
+    {
+      "code": "C2946",
+      "action": "modify",
+      "date": "2021-11-29"
+    },
+    {
+      "code": "C2946",
+      "action": "modify",
+      "date": "2023-02-27"
+    },
+    {
+      "code": "C2946",
+      "action": "modify",
+      "date": "2025-03-31"
+    }
+  ],
+  "maps": [
+    {
+      "type": "Related To",
+      "targetName": "9220/3",
+      "targetTermType": "PT",
+      "targetCode": "morphology",
+      "targetTerminology": "GDC"
+    },
+    {
+      "type": "Related To",
+      "targetName": "Chondrosarcoma, NOS",
+      "targetTermType": "PT",
+      "targetCode": "9220/3",
+      "targetTerminology": "ICDO3",
+      "targetTerminologyVersion": "3.2"
+    },
+    {
+      "type": "Related To",
+      "targetName": "Chondrosarcoma, NOS",
+      "targetTermType": "PT",
+      "targetCode": "9220/3",
+      "targetTerminology": "ICDO3",
+      "targetTerminologyVersion": "3.1"
+    },
+    {
+      "type": "Has Synonym",
+      "targetName": "Chondrosarcoma, NOS",
+      "targetTermType": "PT",
+      "targetCode": "primary_diagnosis",
+      "targetTerminology": "GDC"
+    },
+    {
+      "type": "Has Synonym",
+      "targetName": "Chondrosarcoma",
+      "targetTermType": "PT",
+      "targetCode": "relationship_primary_diagnosis",
+      "targetTerminology": "GDC"
+    },
+    {
+      "type": "Related To",
+      "targetName": "Fibrochondrosarcoma",
+      "targetTermType": "PT",
+      "targetCode": "primary_diagnosis",
+      "targetTerminology": "GDC"
+    }
+  ]
+}

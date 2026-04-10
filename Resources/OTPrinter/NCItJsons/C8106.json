@@ -1,0 +1,927 @@
+{
+  "code": "C8106",
+  "name": "Dysgerminoma",
+  "terminology": "ncit",
+  "version": "25.11d",
+  "conceptStatus": "DEFAULT",
+  "leaf": false,
+  "active": true,
+  "synonyms": [
+    {
+      "name": "DYSGERMINOMA, MALIGNANT",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "CDISC"
+    },
+    {
+      "name": "Ovarian Dysgerminoma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "Cellosaurus"
+    },
+    {
+      "name": "Dysgerminoma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "CPTAC"
+    },
+    {
+      "name": "Ovarian dysgerminoma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "CTEP",
+      "code": "10052759",
+      "subSource": "SDC"
+    },
+    {
+      "name": "Ovarian Dysgerminoma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "CTRP"
+    },
+    {
+      "name": "Ovarian Dysgerminoma",
+      "termType": "DN",
+      "type": "FULL_SYN",
+      "source": "CTRP"
+    },
+    {
+      "name": "Dysgerminoma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "GDC"
+    },
+    {
+      "name": "dysgerminoma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NCI-GLOSS",
+      "code": "CDR0000672835"
+    },
+    {
+      "name": "Dysgerminoma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Dysgerminoma of Ovary",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Dysgerminoma of the Ovary",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Ovarian Dysgerminoma",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Dysgerminoma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NICHD"
+    },
+    {
+      "name": "Ovarian Dysgerminoma",
+      "type": "Display_Name"
+    },
+    {
+      "name": "Dysgerminoma",
+      "type": "Preferred_Name"
+    },
+    {
+      "name": "Dysgerminoma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "PCDC",
+      "subSource": "GCT"
+    }
+  ],
+  "definitions": [
+    {
+      "definition": "A malignant germ cell neoplasm characterized by the presence of a monotonous primitive germ cell population, primarily in the ovary.",
+      "type": "ALT_DEFINITION",
+      "source": "CDISC"
+    },
+    {
+      "definition": "A malignant germ cell tumor arising from the ovary.  Morphologically, it is identical to seminoma and consists of a monotonous population of germ cells with abundant pale cytoplasm and uniform nuclei.  The stroma invariably contains chronic inflammatory cells, mostly T-lymphocytes. It responds to chemotherapy or radiotherapy and the prognosis relates to the tumor stage.",
+      "type": "DEFINITION",
+      "source": "NCI"
+    },
+    {
+      "definition": "A seminomatous germ cell tumor originating in the ovary.",
+      "type": "ALT_DEFINITION",
+      "source": "NICHD"
+    },
+    {
+      "definition": "A type of tumor that begins in the type of cells that give rise to egg cells and is most often found in the ovaries. Dysgerminomas may also occur in other places in the body, including the central nervous system. They are the most common type of ovarian germ cell tumor and can spread to other parts of the body. They are most common in females who are younger than 20 years old.",
+      "type": "ALT_DEFINITION",
+      "source": "NCI-GLOSS"
+    }
+  ],
+  "properties": [
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "CDISC"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "Cellosaurus"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "CPTAC"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "CTEP"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "CTRP"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "GDC"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "NICHD"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "PCDC"
+    },
+    {
+      "code": "P334",
+      "type": "ICD-O-3_Code",
+      "value": "9060/3"
+    },
+    {
+      "code": "P366",
+      "type": "Legacy Concept Name",
+      "value": "Ovarian_Dysgerminoma"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "9060/3"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "Dysgerminoma"
+    },
+    {
+      "code": "P363",
+      "type": "Neoplastic_Status",
+      "value": "Malignant"
+    },
+    {
+      "code": "P106",
+      "type": "Semantic_Type",
+      "value": "Neoplastic Process"
+    },
+    {
+      "code": "P207",
+      "type": "UMLS_CUI",
+      "value": "C0346185"
+    }
+  ],
+  "children": [
+    {
+      "code": "C6550",
+      "name": "Childhood Dysgerminoma",
+      "leaf": true
+    },
+    {
+      "code": "C8723",
+      "name": "Stage I Dysgerminoma AJCC v6 and v7",
+      "leaf": true
+    },
+    {
+      "code": "C8724",
+      "name": "Stage II Dysgerminoma AJCC v6 and v7",
+      "leaf": true
+    },
+    {
+      "code": "C8726",
+      "name": "Stage III Dysgerminoma AJCC v6 and v7",
+      "leaf": true
+    },
+    {
+      "code": "C8727",
+      "name": "Stage IV Dysgerminoma AJCC v6 and v7",
+      "leaf": true
+    }
+  ],
+  "parents": [
+    {
+      "code": "C121618",
+      "name": "Germinomatous Germ Cell Tumor"
+    },
+    {
+      "code": "C39986",
+      "name": "Ovarian Primitive Germ Cell Tumor"
+    }
+  ],
+  "associations": [
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C77526",
+      "relatedName": "CDISC SEND Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C88025",
+      "relatedName": "CDISC SEND Tumor Findings Results Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C165258",
+      "relatedName": "Cellosaurus Disease Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C61410",
+      "relatedName": "Clinical Data Interchange Standards Consortium Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C138188",
+      "relatedName": "Clinical Trials Search-Application Programming Interface Disease Category Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C158520",
+      "relatedName": "CPTAC Codelists Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C156966",
+      "relatedName": "CPTAC Neoplasms Codelist"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C156952",
+      "relatedName": "CPTAC Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C118168",
+      "relatedName": "CTRP Disease Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C116977",
+      "relatedName": "CTRP Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C138190",
+      "relatedName": "CTS-API Disease Main Type Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C177383",
+      "relatedName": "GCT Authorized Value Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C177396",
+      "relatedName": "GCT Histology Table"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C157711",
+      "relatedName": "GDC Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C177537",
+      "relatedName": "GDC Value Terminology"
+    },
+    {
+      "type": "Is_Value_For_GDC_Property",
+      "relatedCode": "C176985",
+      "relatedName": "Histology ICD-O Morphology Code"
+    },
+    {
+      "type": "Is_PCDC_GCT_Authorized_Value_For_Variable",
+      "relatedCode": "C16681",
+      "relatedName": "Histology"
+    },
+    {
+      "type": "Is_Value_For_GDC_Property",
+      "relatedCode": "C177621",
+      "relatedName": "ICD-O-3 Morphology Term Diagnosis Question"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168658",
+      "relatedName": "Mapped ICDO3.1 Morphology PT Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168657",
+      "relatedName": "Mapped ICDO3.1 Morphology Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168655",
+      "relatedName": "Mapped ICDO3.1 Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168662",
+      "relatedName": "Mapped ICDO3.2 Morphology PT Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168661",
+      "relatedName": "Mapped ICDO3.2 Morphology Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168656",
+      "relatedName": "Mapped ICDO3.2 Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C103071",
+      "relatedName": "NCI CTEP SDC Ovarian Germ Cell Cancer Sub-Category Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C102905",
+      "relatedName": "NCI CTEP Simplified Disease Classification Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C126659",
+      "relatedName": "NCIt Neoplasm Core Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C90259",
+      "relatedName": "NICHD Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C118467",
+      "relatedName": "Pediatric Endocrinology Terminology"
+    },
+    {
+      "type": "Neoplasm_Has_Special_Category",
+      "relatedCode": "C9292",
+      "relatedName": "Solid Neoplasm"
+    }
+  ],
+  "inverseAssociations": [
+    {
+      "type": "Has_GDC_Value",
+      "relatedCode": "C176985",
+      "relatedName": "Histology ICD-O Morphology Code"
+    },
+    {
+      "type": "Has_PCDC_GCT_Authorized_Value",
+      "relatedCode": "C16681",
+      "relatedName": "Histology"
+    },
+    {
+      "type": "Has_GDC_Value",
+      "relatedCode": "C177621",
+      "relatedName": "ICD-O-3 Morphology Term Diagnosis Question"
+    }
+  ],
+  "roles": [
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C137974",
+      "relatedName": "Adnexa"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C36122",
+      "relatedName": "Benign Cellular Infiltrate"
+    },
+    {
+      "type": "Disease_May_Have_Molecular_Abnormality",
+      "relatedCode": "C39711",
+      "relatedName": "C-KIT Tyrosine Kinase Protein Overexpression"
+    },
+    {
+      "type": "Disease_May_Have_Cytogenetic_Abnormality",
+      "relatedCode": "C171054",
+      "relatedName": "Chromosome 12 Abnormality"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C35980",
+      "relatedName": "Chronic Inflammatory Infiltrate"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12402",
+      "relatedName": "Female Reproductive System"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C53968",
+      "relatedName": "Fibrous Septa Present"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12810",
+      "relatedName": "Genitourinary System"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C12597",
+      "relatedName": "Germ Cell"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C54105",
+      "relatedName": "Germinal Layer"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12725",
+      "relatedName": "Gonad"
+    },
+    {
+      "type": "Disease_May_Have_Molecular_Abnormality",
+      "relatedCode": "C39712",
+      "relatedName": "KIT Gene Mutation"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12917",
+      "relatedName": "Malignant Cell"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C36115",
+      "relatedName": "Malignant Cellular Infiltrate"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C123865",
+      "relatedName": "Malignant Germinomatous Cells Present"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C156460",
+      "relatedName": "Malignant Primitive Cellular Infiltrate"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36897",
+      "relatedName": "Malignant Primitive Germ Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12922",
+      "relatedName": "Neoplastic Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36903",
+      "relatedName": "Neoplastic Germ Cell"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C36898",
+      "relatedName": "Neoplastic Sex Cord-Stromal Cell"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C36898",
+      "relatedName": "Neoplastic Sex Cord-Stromal Cell"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12404",
+      "relatedName": "Ovary"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12404",
+      "relatedName": "Ovary"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12841",
+      "relatedName": "Reproductive System"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12321",
+      "relatedName": "Uterine Adnexa"
+    }
+  ],
+  "history": [
+    {
+      "code": "C8106",
+      "action": "create",
+      "date": "2003-08-12"
+    },
+    {
+      "code": "C8106",
+      "action": "modify",
+      "date": "2003-10-31"
+    },
+    {
+      "code": "C8106",
+      "action": "modify",
+      "date": "2003-12-30"
+    },
+    {
+      "code": "C8106",
+      "action": "modify",
+      "date": "2004-03-30"
+    },
+    {
+      "code": "C8106",
+      "action": "modify",
+      "date": "2004-08-02"
+    },
+    {
+      "code": "C8106",
+      "action": "modify",
+      "date": "2004-09-10"
+    },
+    {
+      "code": "C8106",
+      "action": "modify",
+      "date": "2006-07-28"
+    },
+    {
+      "code": "C8106",
+      "action": "modify",
+      "date": "2007-10-29"
+    },
+    {
+      "code": "C8106",
+      "action": "modify",
+      "date": "2009-04-06"
+    },
+    {
+      "code": "C8106",
+      "action": "modify",
+      "date": "2009-11-23"
+    },
+    {
+      "code": "C8106",
+      "action": "modify",
+      "date": "2012-09-24"
+    },
+    {
+      "code": "C8106",
+      "action": "modify",
+      "date": "2012-10-01"
+    },
+    {
+      "code": "C8106",
+      "action": "modify",
+      "date": "2012-10-09"
+    },
+    {
+      "code": "C8106",
+      "action": "modify",
+      "date": "2012-10-15"
+    },
+    {
+      "code": "C8106",
+      "action": "modify",
+      "date": "2012-10-22"
+    },
+    {
+      "code": "C8106",
+      "action": "modify",
+      "date": "2012-10-31"
+    },
+    {
+      "code": "C8106",
+      "action": "modify",
+      "date": "2012-11-05"
+    },
+    {
+      "code": "C8106",
+      "action": "modify",
+      "date": "2012-11-13"
+    },
+    {
+      "code": "C8106",
+      "action": "modify",
+      "date": "2012-11-19"
+    },
+    {
+      "code": "C8106",
+      "action": "modify",
+      "date": "2012-11-26"
+    },
+    {
+      "code": "C8106",
+      "action": "modify",
+      "date": "2012-12-03"
+    },
+    {
+      "code": "C8106",
+      "action": "modify",
+      "date": "2012-12-10"
+    },
+    {
+      "code": "C8106",
+      "action": "modify",
+      "date": "2012-12-17"
+    },
+    {
+      "code": "C8106",
+      "action": "modify",
+      "date": "2012-12-28"
+    },
+    {
+      "code": "C8106",
+      "action": "modify",
+      "date": "2013-01-07"
+    },
+    {
+      "code": "C8106",
+      "action": "modify",
+      "date": "2013-01-14"
+    },
+    {
+      "code": "C8106",
+      "action": "modify",
+      "date": "2013-01-23"
+    },
+    {
+      "code": "C8106",
+      "action": "modify",
+      "date": "2013-02-04"
+    },
+    {
+      "code": "C8106",
+      "action": "modify",
+      "date": "2013-02-11"
+    },
+    {
+      "code": "C8106",
+      "action": "modify",
+      "date": "2013-02-19"
+    },
+    {
+      "code": "C8106",
+      "action": "modify",
+      "date": "2013-02-25"
+    },
+    {
+      "code": "C8106",
+      "action": "modify",
+      "date": "2013-03-04"
+    },
+    {
+      "code": "C8106",
+      "action": "modify",
+      "date": "2013-03-11"
+    },
+    {
+      "code": "C8106",
+      "action": "modify",
+      "date": "2013-03-18"
+    },
+    {
+      "code": "C8106",
+      "action": "modify",
+      "date": "2013-03-25"
+    },
+    {
+      "code": "C8106",
+      "action": "modify",
+      "date": "2013-04-01"
+    },
+    {
+      "code": "C8106",
+      "action": "modify",
+      "date": "2013-04-08"
+    },
+    {
+      "code": "C8106",
+      "action": "modify",
+      "date": "2013-04-15"
+    },
+    {
+      "code": "C8106",
+      "action": "modify",
+      "date": "2013-04-22"
+    },
+    {
+      "code": "C8106",
+      "action": "modify",
+      "date": "2013-04-29"
+    },
+    {
+      "code": "C8106",
+      "action": "modify",
+      "date": "2013-05-06"
+    },
+    {
+      "code": "C8106",
+      "action": "modify",
+      "date": "2013-05-13"
+    },
+    {
+      "code": "C8106",
+      "action": "modify",
+      "date": "2013-05-20"
+    },
+    {
+      "code": "C8106",
+      "action": "modify",
+      "date": "2013-05-28"
+    },
+    {
+      "code": "C8106",
+      "action": "modify",
+      "date": "2013-06-03"
+    },
+    {
+      "code": "C8106",
+      "action": "modify",
+      "date": "2013-06-10"
+    },
+    {
+      "code": "C8106",
+      "action": "modify",
+      "date": "2013-06-17"
+    },
+    {
+      "code": "C8106",
+      "action": "modify",
+      "date": "2013-06-24"
+    },
+    {
+      "code": "C8106",
+      "action": "modify",
+      "date": "2013-07-01"
+    },
+    {
+      "code": "C8106",
+      "action": "modify",
+      "date": "2013-07-08"
+    },
+    {
+      "code": "C8106",
+      "action": "modify",
+      "date": "2014-02-03"
+    },
+    {
+      "code": "C8106",
+      "action": "modify",
+      "date": "2014-08-04"
+    },
+    {
+      "code": "C8106",
+      "action": "modify",
+      "date": "2014-08-18"
+    },
+    {
+      "code": "C8106",
+      "action": "modify",
+      "date": "2014-09-22"
+    },
+    {
+      "code": "C8106",
+      "action": "modify",
+      "date": "2017-05-23"
+    },
+    {
+      "code": "C8106",
+      "action": "modify",
+      "date": "2017-07-31"
+    },
+    {
+      "code": "C8106",
+      "action": "modify",
+      "date": "2018-07-30"
+    },
+    {
+      "code": "C8106",
+      "action": "modify",
+      "date": "2018-08-27"
+    },
+    {
+      "code": "C8106",
+      "action": "modify",
+      "date": "2018-08-27"
+    },
+    {
+      "code": "C8106",
+      "action": "modify",
+      "date": "2019-10-28"
+    },
+    {
+      "code": "C8106",
+      "action": "merge",
+      "date": "2021-05-24",
+      "replacementCode": "C8106",
+      "replacementName": "Dysgerminoma"
+    },
+    {
+      "code": "C2996",
+      "action": "merge",
+      "date": "2021-05-24",
+      "replacementCode": "C8106",
+      "replacementName": "Dysgerminoma"
+    },
+    {
+      "code": "C8106",
+      "action": "modify",
+      "date": "2021-05-24"
+    },
+    {
+      "code": "C8106",
+      "action": "modify",
+      "date": "2021-06-28"
+    },
+    {
+      "code": "C8106",
+      "action": "modify",
+      "date": "2021-08-30"
+    },
+    {
+      "code": "C8106",
+      "action": "modify",
+      "date": "2022-10-31"
+    },
+    {
+      "code": "C8106",
+      "action": "modify",
+      "date": "2023-02-27"
+    },
+    {
+      "code": "C8106",
+      "action": "modify",
+      "date": "2023-12-26"
+    },
+    {
+      "code": "C8106",
+      "action": "modify",
+      "date": "2025-03-31"
+    },
+    {
+      "code": "C8106",
+      "action": "modify",
+      "date": "2025-08-25"
+    }
+  ],
+  "maps": [
+    {
+      "type": "Related To",
+      "targetName": "9060/3",
+      "targetTermType": "PT",
+      "targetCode": "morphology",
+      "targetTerminology": "GDC"
+    },
+    {
+      "type": "Related To",
+      "targetName": "Dysgerminoma",
+      "targetTermType": "PT",
+      "targetCode": "9060/3",
+      "targetTerminology": "ICDO3",
+      "targetTerminologyVersion": "3.2"
+    },
+    {
+      "type": "Related To",
+      "targetName": "Dysgerminoma",
+      "targetTermType": "PT",
+      "targetCode": "9060/3",
+      "targetTerminology": "ICDO3",
+      "targetTerminologyVersion": "3.1"
+    },
+    {
+      "type": "Has Synonym",
+      "targetName": "Dysgerminoma",
+      "targetTermType": "PT",
+      "targetCode": "primary_diagnosis",
+      "targetTerminology": "GDC"
+    }
+  ]
+}

@@ -1,0 +1,816 @@
+{
+  "code": "C3164",
+  "name": "Acute Basophilic Leukemia",
+  "terminology": "ncit",
+  "version": "25.11d",
+  "conceptStatus": "DEFAULT",
+  "leaf": false,
+  "active": true,
+  "synonyms": [
+    {
+      "name": "Acute Basophilic Leukemia",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "caDSR"
+    },
+    {
+      "name": "Acute basophilic leukemia",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "CPTAC"
+    },
+    {
+      "name": "Acute basophilic leukaemia",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "GDC"
+    },
+    {
+      "name": "Acute Basophilic Leukemia",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Basophilic Leukemia",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Leukemia Basophilic",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Acute Basophilic Leukemia",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NICHD"
+    },
+    {
+      "name": "Acute Basophilic Leukemia",
+      "type": "Preferred_Name"
+    },
+    {
+      "name": "Acute Basophilic Leukemia",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "PCDC",
+      "subSource": "AML"
+    }
+  ],
+  "definitions": [
+    {
+      "definition": "A rare acute myeloid leukemia in which the immature cells differentiate towards basophils.",
+      "type": "ALT_DEFINITION",
+      "source": "NICHD"
+    },
+    {
+      "definition": "A rare acute myeloid leukemia in which the immature cells differentiate towards basophils.",
+      "type": "DEFINITION",
+      "source": "NCI"
+    }
+  ],
+  "properties": [
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "CPTAC"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "GDC"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "NICHD"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "PCDC"
+    },
+    {
+      "code": "P334",
+      "type": "ICD-O-3_Code",
+      "value": "9870/3"
+    },
+    {
+      "code": "P366",
+      "type": "Legacy Concept Name",
+      "value": "Acute_Basophilic_Leukemia"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "9870/3"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "Acute basophilic leukaemia"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "Acute basophilic leukemia"
+    },
+    {
+      "code": "P363",
+      "type": "Neoplastic_Status",
+      "value": "Malignant"
+    },
+    {
+      "code": "P106",
+      "type": "Semantic_Type",
+      "value": "Neoplastic Process"
+    },
+    {
+      "code": "P207",
+      "type": "UMLS_CUI",
+      "value": "C0023437"
+    }
+  ],
+  "children": [
+    {
+      "code": "C7964",
+      "name": "Adult Acute Basophilic Leukemia",
+      "leaf": true
+    },
+    {
+      "code": "C7971",
+      "name": "Childhood Acute Basophilic Leukemia",
+      "leaf": true
+    }
+  ],
+  "parents": [
+    {
+      "code": "C27753",
+      "name": "Acute Myeloid Leukemia, Not Otherwise Specified"
+    }
+  ],
+  "associations": [
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C174019",
+      "relatedName": "AML Authorized Value Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C173232",
+      "relatedName": "AML Disease Characteristics Table"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C159339",
+      "relatedName": "CPTAC Acute Myeloid Leukemia Baseline Form"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C156953",
+      "relatedName": "CPTAC Baseline Medical Forms Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C156952",
+      "relatedName": "CPTAC Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C157711",
+      "relatedName": "GDC Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C177537",
+      "relatedName": "GDC Value Terminology"
+    },
+    {
+      "type": "Is_Value_For_GDC_Property",
+      "relatedCode": "C176985",
+      "relatedName": "Histology ICD-O Morphology Code"
+    },
+    {
+      "type": "Is_Value_For_GDC_Property",
+      "relatedCode": "C177621",
+      "relatedName": "ICD-O-3 Morphology Term Diagnosis Question"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168658",
+      "relatedName": "Mapped ICDO3.1 Morphology PT Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168657",
+      "relatedName": "Mapped ICDO3.1 Morphology Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168655",
+      "relatedName": "Mapped ICDO3.1 Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168662",
+      "relatedName": "Mapped ICDO3.2 Morphology PT Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168661",
+      "relatedName": "Mapped ICDO3.2 Morphology Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168656",
+      "relatedName": "Mapped ICDO3.2 Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C126659",
+      "relatedName": "NCIt Neoplasm Core Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C90259",
+      "relatedName": "NICHD Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C132009",
+      "relatedName": "Pediatric Hematology-Oncology Terminology"
+    },
+    {
+      "type": "Is_PCDC_AML_Authorized_Value_For_Variable",
+      "relatedCode": "C159157",
+      "relatedName": "WHO AML Classification of Tumors"
+    }
+  ],
+  "inverseAssociations": [
+    {
+      "type": "Has_GDC_Value",
+      "relatedCode": "C176985",
+      "relatedName": "Histology ICD-O Morphology Code"
+    },
+    {
+      "type": "Has_GDC_Value",
+      "relatedCode": "C177621",
+      "relatedName": "ICD-O-3 Morphology Term Diagnosis Question"
+    },
+    {
+      "type": "Has_PCDC_AML_Authorized_Value",
+      "relatedCode": "C159157",
+      "relatedName": "WHO AML Classification of Tumors"
+    }
+  ],
+  "roles": [
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C36122",
+      "relatedName": "Benign Cellular Infiltrate"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C36214",
+      "relatedName": "Blasts 20 Percent or More of Bone Marrow Nucleated Cells"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C36213",
+      "relatedName": "Blasts 20 Percent or More of Peripheral Blood White Cells"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C36236",
+      "relatedName": "Bone Marrow Dysplasia Present in 50 Percent or More of the Cells of Two Cell Lines"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C43227",
+      "relatedName": "Bone Marrow Stem Cell Committed to the Basophil Lineage"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C13456",
+      "relatedName": "Bone Marrow Stem Cell"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12431",
+      "relatedName": "Bone Marrow"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12431",
+      "relatedName": "Bone Marrow"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C36158",
+      "relatedName": "Chronic Clinical Course"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C39570",
+      "relatedName": "Cutaneous Involvement"
+    },
+    {
+      "type": "Disease_May_Have_Abnormal_Cell",
+      "relatedCode": "C37054",
+      "relatedName": "Dysplastic Erythroid Precursor"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C41165",
+      "relatedName": "Hematopoietic and Lymphatic System"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C41165",
+      "relatedName": "Hematopoietic and Lymphatic System"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C32725",
+      "relatedName": "Hematopoietic and Lymphoid Cell"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C41168",
+      "relatedName": "Hematopoietic and Lymphoid Tissue"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C13051",
+      "relatedName": "Hematopoietic Tissue"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C35788",
+      "relatedName": "Hypercellular Bone Marrow"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C25553",
+      "relatedName": "Leukemic Cell"
+    },
+    {
+      "type": "Disease_Excludes_Normal_Cell_Origin",
+      "relatedCode": "C12535",
+      "relatedName": "Lymphocyte"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C41040",
+      "relatedName": "Lytic Bone Lesion"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12917",
+      "relatedName": "Malignant Cell"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C36115",
+      "relatedName": "Malignant Cellular Infiltrate"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C37180",
+      "relatedName": "Medium-Sized Neoplastic Myeloblast with Coarse Cytoplasmic Basophilic Granules"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C36231",
+      "relatedName": "Myeloblasts 20 Percent or More of Bone Marrow Nucleated Cells"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12922",
+      "relatedName": "Neoplastic Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C37060",
+      "relatedName": "Neoplastic Hematopoietic and Lymphoid Cell"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C12914",
+      "relatedName": "Neoplastic Lymphoblast"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C37065",
+      "relatedName": "Neoplastic Myeloblast"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C41063",
+      "relatedName": "Neoplastic Myeloid Cell"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C128698",
+      "relatedName": "Not Otherwise Specified Lesion"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C36182",
+      "relatedName": "Solid Growth Pattern"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C38328",
+      "relatedName": "Unfavorable Clinical Outcome"
+    }
+  ],
+  "history": [
+    {
+      "code": "C3164",
+      "action": "create",
+      "date": "2003-08-12"
+    },
+    {
+      "code": "C3164",
+      "action": "modify",
+      "date": "2003-10-31"
+    },
+    {
+      "code": "C3164",
+      "action": "modify",
+      "date": "2003-12-30"
+    },
+    {
+      "code": "C3164",
+      "action": "modify",
+      "date": "2004-03-30"
+    },
+    {
+      "code": "C3164",
+      "action": "modify",
+      "date": "2004-12-30"
+    },
+    {
+      "code": "C3164",
+      "action": "modify",
+      "date": "2007-03-30"
+    },
+    {
+      "code": "C3164",
+      "action": "modify",
+      "date": "2007-05-25"
+    },
+    {
+      "code": "C3164",
+      "action": "modify",
+      "date": "2009-04-06"
+    },
+    {
+      "code": "C3164",
+      "action": "modify",
+      "date": "2009-10-27"
+    },
+    {
+      "code": "C3164",
+      "action": "modify",
+      "date": "2009-11-23"
+    },
+    {
+      "code": "C3164",
+      "action": "modify",
+      "date": "2010-03-08"
+    },
+    {
+      "code": "C3164",
+      "action": "modify",
+      "date": "2013-02-25"
+    },
+    {
+      "code": "C3164",
+      "action": "modify",
+      "date": "2013-03-04"
+    },
+    {
+      "code": "C3164",
+      "action": "modify",
+      "date": "2013-03-11"
+    },
+    {
+      "code": "C3164",
+      "action": "modify",
+      "date": "2013-03-18"
+    },
+    {
+      "code": "C3164",
+      "action": "modify",
+      "date": "2013-03-25"
+    },
+    {
+      "code": "C3164",
+      "action": "modify",
+      "date": "2013-04-01"
+    },
+    {
+      "code": "C3164",
+      "action": "modify",
+      "date": "2013-04-08"
+    },
+    {
+      "code": "C3164",
+      "action": "modify",
+      "date": "2013-04-15"
+    },
+    {
+      "code": "C3164",
+      "action": "modify",
+      "date": "2013-04-22"
+    },
+    {
+      "code": "C3164",
+      "action": "modify",
+      "date": "2013-04-29"
+    },
+    {
+      "code": "C3164",
+      "action": "modify",
+      "date": "2013-05-06"
+    },
+    {
+      "code": "C3164",
+      "action": "modify",
+      "date": "2013-05-13"
+    },
+    {
+      "code": "C3164",
+      "action": "modify",
+      "date": "2013-05-20"
+    },
+    {
+      "code": "C3164",
+      "action": "modify",
+      "date": "2013-05-28"
+    },
+    {
+      "code": "C3164",
+      "action": "modify",
+      "date": "2013-06-03"
+    },
+    {
+      "code": "C3164",
+      "action": "modify",
+      "date": "2013-06-10"
+    },
+    {
+      "code": "C3164",
+      "action": "modify",
+      "date": "2013-06-17"
+    },
+    {
+      "code": "C3164",
+      "action": "modify",
+      "date": "2013-06-24"
+    },
+    {
+      "code": "C3164",
+      "action": "modify",
+      "date": "2013-07-01"
+    },
+    {
+      "code": "C3164",
+      "action": "modify",
+      "date": "2013-07-08"
+    },
+    {
+      "code": "C3164",
+      "action": "modify",
+      "date": "2014-02-03"
+    },
+    {
+      "code": "C3164",
+      "action": "modify",
+      "date": "2015-02-09"
+    },
+    {
+      "code": "C3164",
+      "action": "modify",
+      "date": "2016-04-25"
+    },
+    {
+      "code": "C3164",
+      "action": "modify",
+      "date": "2017-02-13"
+    },
+    {
+      "code": "C3164",
+      "action": "modify",
+      "date": "2017-02-21"
+    },
+    {
+      "code": "C3164",
+      "action": "modify",
+      "date": "2017-02-27"
+    },
+    {
+      "code": "C3164",
+      "action": "modify",
+      "date": "2017-03-06"
+    },
+    {
+      "code": "C3164",
+      "action": "modify",
+      "date": "2017-03-13"
+    },
+    {
+      "code": "C3164",
+      "action": "modify",
+      "date": "2017-03-20"
+    },
+    {
+      "code": "C3164",
+      "action": "modify",
+      "date": "2017-03-27"
+    },
+    {
+      "code": "C3164",
+      "action": "modify",
+      "date": "2017-04-03"
+    },
+    {
+      "code": "C3164",
+      "action": "modify",
+      "date": "2017-04-10"
+    },
+    {
+      "code": "C3164",
+      "action": "modify",
+      "date": "2017-04-17"
+    },
+    {
+      "code": "C3164",
+      "action": "modify",
+      "date": "2017-04-24"
+    },
+    {
+      "code": "C3164",
+      "action": "modify",
+      "date": "2017-05-01"
+    },
+    {
+      "code": "C3164",
+      "action": "modify",
+      "date": "2017-05-04"
+    },
+    {
+      "code": "C3164",
+      "action": "modify",
+      "date": "2018-09-24"
+    },
+    {
+      "code": "C3164",
+      "action": "modify",
+      "date": "2018-10-29"
+    },
+    {
+      "code": "C3164",
+      "action": "modify",
+      "date": "2018-10-29"
+    },
+    {
+      "code": "C3164",
+      "action": "modify",
+      "date": "2019-04-29"
+    },
+    {
+      "code": "C3164",
+      "action": "modify",
+      "date": "2019-05-28"
+    },
+    {
+      "code": "C3164",
+      "action": "modify",
+      "date": "2019-06-24"
+    },
+    {
+      "code": "C3164",
+      "action": "modify",
+      "date": "2019-07-29"
+    },
+    {
+      "code": "C3164",
+      "action": "modify",
+      "date": "2019-09-30"
+    },
+    {
+      "code": "C3164",
+      "action": "modify",
+      "date": "2019-11-25"
+    },
+    {
+      "code": "C3164",
+      "action": "modify",
+      "date": "2020-02-24"
+    },
+    {
+      "code": "C3164",
+      "action": "modify",
+      "date": "2020-03-30"
+    },
+    {
+      "code": "C3164",
+      "action": "modify",
+      "date": "2020-04-27"
+    },
+    {
+      "code": "C3164",
+      "action": "modify",
+      "date": "2020-06-29"
+    },
+    {
+      "code": "C3164",
+      "action": "modify",
+      "date": "2020-07-27"
+    },
+    {
+      "code": "C3164",
+      "action": "modify",
+      "date": "2020-08-31"
+    },
+    {
+      "code": "C3164",
+      "action": "modify",
+      "date": "2020-09-29"
+    },
+    {
+      "code": "C3164",
+      "action": "modify",
+      "date": "2020-11-30"
+    },
+    {
+      "code": "C3164",
+      "action": "modify",
+      "date": "2020-12-28"
+    },
+    {
+      "code": "C3164",
+      "action": "modify",
+      "date": "2021-02-22"
+    },
+    {
+      "code": "C3164",
+      "action": "modify",
+      "date": "2021-03-29"
+    },
+    {
+      "code": "C3164",
+      "action": "modify",
+      "date": "2021-06-28"
+    },
+    {
+      "code": "C3164",
+      "action": "modify",
+      "date": "2022-10-31"
+    },
+    {
+      "code": "C3164",
+      "action": "modify",
+      "date": "2023-02-27"
+    }
+  ],
+  "maps": [
+    {
+      "type": "Related To",
+      "targetName": "9870/3",
+      "targetTermType": "PT",
+      "targetCode": "morphology",
+      "targetTerminology": "GDC"
+    },
+    {
+      "type": "Has Synonym",
+      "targetName": "Acute basophilic leukaemia",
+      "targetTermType": "PT",
+      "targetCode": "primary_diagnosis",
+      "targetTerminology": "GDC"
+    },
+    {
+      "type": "Related To",
+      "targetName": "Acute basophilic leukemia",
+      "targetTermType": "PT",
+      "targetCode": "9870/3",
+      "targetTerminology": "ICDO3",
+      "targetTerminologyVersion": "3.2"
+    },
+    {
+      "type": "Related To",
+      "targetName": "Acute basophilic leukemia",
+      "targetTermType": "PT",
+      "targetCode": "9870/3",
+      "targetTerminology": "ICDO3",
+      "targetTerminologyVersion": "3.1"
+    }
+  ]
+}

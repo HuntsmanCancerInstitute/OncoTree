@@ -1,0 +1,569 @@
+{
+  "code": "C37194",
+  "name": "Anaplastic Large Cell Lymphoma, ALK-Negative",
+  "terminology": "ncit",
+  "version": "25.11d",
+  "conceptStatus": "DEFAULT",
+  "leaf": false,
+  "active": true,
+  "synonyms": [
+    {
+      "name": "Anaplastic Large Cell Lymphoma, ALK-Negative",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "Cellosaurus"
+    },
+    {
+      "name": "Anaplastic Large Cell Lymphoma, ALK-Negative",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "CPTAC"
+    },
+    {
+      "name": "Anaplastic large cell lymphoma, ALK negative",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "GDC"
+    },
+    {
+      "name": "ALCL, ALK-",
+      "termType": "AB",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "ALK-Negative Anaplastic Large Cell Lymphoma",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Anaplastic Large Cell Lymphoma, ALK-Negative",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Anaplastic Large Cell Lymphoma, ALK-Negative",
+      "type": "Preferred_Name"
+    }
+  ],
+  "definitions": [
+    {
+      "definition": "A T-cell peripheral lymphoma morphologically indistinguishable from anaplastic large cell lymphoma, ALK-positive.  It is characterized by the absence of the translocation involving the ALK gene and lacks expression of ALK fusion protein.",
+      "type": "DEFINITION",
+      "source": "NCI"
+    }
+  ],
+  "properties": [
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "Cellosaurus"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "CPTAC"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "GDC"
+    },
+    {
+      "code": "P334",
+      "type": "ICD-O-3_Code",
+      "value": "9702/3"
+    },
+    {
+      "code": "P366",
+      "type": "Legacy Concept Name",
+      "value": "ALK-Negative_Anaplastic_Large_Cell_Lymphoma"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "9702/3"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "Anaplastic large cell lymphoma, ALK negative"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "Anaplastic large cell lymphoma, ALK-negative"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "Anaplastic large cell lymphoma, ALK-negative, intrathoracic lymph nodes"
+    },
+    {
+      "code": "P363",
+      "type": "Neoplastic_Status",
+      "value": "Malignant"
+    },
+    {
+      "code": "P106",
+      "type": "Semantic_Type",
+      "value": "Neoplastic Process"
+    },
+    {
+      "code": "P207",
+      "type": "UMLS_CUI",
+      "value": "C1332078"
+    }
+  ],
+  "children": [
+    {
+      "code": "C129599",
+      "name": "Primary Central Nervous System Anaplastic Large Cell Lymphoma, ALK-Negative",
+      "leaf": true
+    },
+    {
+      "code": "C37196",
+      "name": "Systemic Anaplastic Large Cell Lymphoma, ALK-Negative",
+      "leaf": false
+    }
+  ],
+  "parents": [
+    {
+      "code": "C3720",
+      "name": "Anaplastic Large Cell Lymphoma"
+    }
+  ],
+  "associations": [
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C165258",
+      "relatedName": "Cellosaurus Disease Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C158520",
+      "relatedName": "CPTAC Codelists Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C156966",
+      "relatedName": "CPTAC Neoplasms Codelist"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C156952",
+      "relatedName": "CPTAC Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C157711",
+      "relatedName": "GDC Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C177537",
+      "relatedName": "GDC Value Terminology"
+    },
+    {
+      "type": "Is_Value_For_GDC_Property",
+      "relatedCode": "C176985",
+      "relatedName": "Histology ICD-O Morphology Code"
+    },
+    {
+      "type": "Is_Value_For_GDC_Property",
+      "relatedCode": "C177621",
+      "relatedName": "ICD-O-3 Morphology Term Diagnosis Question"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168662",
+      "relatedName": "Mapped ICDO3.2 Morphology PT Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168661",
+      "relatedName": "Mapped ICDO3.2 Morphology Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168656",
+      "relatedName": "Mapped ICDO3.2 Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C126659",
+      "relatedName": "NCIt Neoplasm Core Terminology"
+    }
+  ],
+  "inverseAssociations": [
+    {
+      "type": "Has_GDC_Value",
+      "relatedCode": "C176985",
+      "relatedName": "Histology ICD-O Morphology Code"
+    },
+    {
+      "type": "Has_GDC_Value",
+      "relatedCode": "C177621",
+      "relatedName": "ICD-O-3 Morphology Term Diagnosis Question"
+    }
+  ],
+  "roles": [
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36725",
+      "relatedName": "Abnormal Lymphocyte"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C39687",
+      "relatedName": "Activated Mature Cytotoxic T-Lymphocyte"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C36104",
+      "relatedName": "Aggressive Clinical Course"
+    },
+    {
+      "type": "Disease_Excludes_Molecular_Abnormality",
+      "relatedCode": "C81946",
+      "relatedName": "ALK Fusion Protein Expression"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C37017",
+      "relatedName": "Anaplastic Large T-Lymphocyte"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C36113",
+      "relatedName": "Anaplastic Lesion"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C36122",
+      "relatedName": "Benign Cellular Infiltrate"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C39715",
+      "relatedName": "CD30-Positive Neoplastic Cells Present"
+    },
+    {
+      "type": "Disease_May_Have_Molecular_Abnormality",
+      "relatedCode": "C36447",
+      "relatedName": "Clonal T-Cell Receptor Beta Chain Gene Rearrangement"
+    },
+    {
+      "type": "Disease_May_Have_Molecular_Abnormality",
+      "relatedCode": "C36448",
+      "relatedName": "Clonal T-Cell Receptor Gamma Chain Gene Rearrangement"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C39695",
+      "relatedName": "Extranodal Disease"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C41165",
+      "relatedName": "Hematopoietic and Lymphatic System"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C41165",
+      "relatedName": "Hematopoietic and Lymphatic System"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C32725",
+      "relatedName": "Hematopoietic and Lymphoid Cell"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C41168",
+      "relatedName": "Hematopoietic and Lymphoid Tissue"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C50764",
+      "relatedName": "Lymphadenopathy"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12746",
+      "relatedName": "Lymphatic System"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C37027",
+      "relatedName": "Lymphocyte Predominant Cell"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C12535",
+      "relatedName": "Lymphocyte"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C13049",
+      "relatedName": "Lymphoid Tissue"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12917",
+      "relatedName": "Malignant Cell"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C36115",
+      "relatedName": "Malignant Cellular Infiltrate"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C33061",
+      "relatedName": "Mature T-Lymphocyte"
+    },
+    {
+      "type": "Disease_Excludes_Normal_Cell_Origin",
+      "relatedCode": "C12549",
+      "relatedName": "Myeloid Cell"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C38640",
+      "relatedName": "Neoplastic B-Lymphocyte"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12922",
+      "relatedName": "Neoplastic Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C37060",
+      "relatedName": "Neoplastic Hematopoietic and Lymphoid Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36988",
+      "relatedName": "Neoplastic Lymphocyte"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C39566",
+      "relatedName": "Neoplastic T-Lymphocyte and Neoplastic Natural Killer Cell"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C39568",
+      "relatedName": "Peripheral (Post-Thymic) T-Lymphocyte and Natural Killer Cell"
+    },
+    {
+      "type": "Disease_Excludes_Normal_Cell_Origin",
+      "relatedCode": "C12486",
+      "relatedName": "Plasma Cell"
+    },
+    {
+      "type": "Disease_Excludes_Normal_Cell_Origin",
+      "relatedCode": "C39300",
+      "relatedName": "Precursor Natural Killer Cell"
+    },
+    {
+      "type": "Disease_Excludes_Normal_Cell_Origin",
+      "relatedCode": "C33930",
+      "relatedName": "Precursor T-Lymphoblast"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C12660",
+      "relatedName": "Reed-Sternberg Cell"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C39567",
+      "relatedName": "T-Lymphocyte and Natural Killer Cell"
+    }
+  ],
+  "history": [
+    {
+      "code": "C37194",
+      "action": "create",
+      "date": "2004-03-30"
+    },
+    {
+      "code": "C37194",
+      "action": "modify",
+      "date": "2004-06-25"
+    },
+    {
+      "code": "C37194",
+      "action": "modify",
+      "date": "2004-09-10"
+    },
+    {
+      "code": "C37194",
+      "action": "modify",
+      "date": "2009-03-23"
+    },
+    {
+      "code": "C37194",
+      "action": "modify",
+      "date": "2009-04-06"
+    },
+    {
+      "code": "C37194",
+      "action": "modify",
+      "date": "2009-04-27"
+    },
+    {
+      "code": "C37194",
+      "action": "modify",
+      "date": "2009-06-15"
+    },
+    {
+      "code": "C37194",
+      "action": "modify",
+      "date": "2009-11-02"
+    },
+    {
+      "code": "C37194",
+      "action": "modify",
+      "date": "2009-11-23"
+    },
+    {
+      "code": "C37194",
+      "action": "modify",
+      "date": "2011-01-17"
+    },
+    {
+      "code": "C37194",
+      "action": "modify",
+      "date": "2012-07-30"
+    },
+    {
+      "code": "C37194",
+      "action": "modify",
+      "date": "2016-04-25"
+    },
+    {
+      "code": "C37194",
+      "action": "modify",
+      "date": "2017-09-26"
+    },
+    {
+      "code": "C37194",
+      "action": "modify",
+      "date": "2018-09-24"
+    },
+    {
+      "code": "C37194",
+      "action": "modify",
+      "date": "2018-12-31"
+    },
+    {
+      "code": "C37194",
+      "action": "modify",
+      "date": "2019-02-25"
+    },
+    {
+      "code": "C37194",
+      "action": "modify",
+      "date": "2019-03-25"
+    },
+    {
+      "code": "C37194",
+      "action": "modify",
+      "date": "2019-05-28"
+    },
+    {
+      "code": "C37194",
+      "action": "modify",
+      "date": "2019-09-30"
+    },
+    {
+      "code": "C37194",
+      "action": "modify",
+      "date": "2019-10-28"
+    },
+    {
+      "code": "C37194",
+      "action": "modify",
+      "date": "2019-11-25"
+    },
+    {
+      "code": "C37194",
+      "action": "modify",
+      "date": "2020-04-27"
+    },
+    {
+      "code": "C37194",
+      "action": "modify",
+      "date": "2021-02-22"
+    },
+    {
+      "code": "C37194",
+      "action": "modify",
+      "date": "2021-03-29"
+    },
+    {
+      "code": "C37194",
+      "action": "modify",
+      "date": "2021-04-26"
+    },
+    {
+      "code": "C37194",
+      "action": "modify",
+      "date": "2023-02-27"
+    },
+    {
+      "code": "C37194",
+      "action": "modify",
+      "date": "2023-06-26"
+    },
+    {
+      "code": "C37194",
+      "action": "modify",
+      "date": "2025-03-31"
+    }
+  ],
+  "maps": [
+    {
+      "type": "Related To",
+      "targetName": "9702/3",
+      "targetTermType": "PT",
+      "targetCode": "morphology",
+      "targetTerminology": "GDC"
+    },
+    {
+      "type": "Related To",
+      "targetName": "Anaplastic large cell lymphoma, ALK negative",
+      "targetTermType": "PT",
+      "targetCode": "9715/3",
+      "targetTerminology": "ICDO3",
+      "targetTerminologyVersion": "3.2"
+    },
+    {
+      "type": "Has Synonym",
+      "targetName": "Anaplastic large cell lymphoma, ALK negative",
+      "targetTermType": "PT",
+      "targetCode": "primary_diagnosis",
+      "targetTerminology": "GDC"
+    },
+    {
+      "type": "Related To",
+      "targetName": "Anaplastic large cell lymphoma, ALK-negative, intrathoracic lymph nodes",
+      "targetTermType": "PT",
+      "targetCode": "C84.72",
+      "targetTerminology": "ICD10CM 2017"
+    },
+    {
+      "type": "Has Synonym",
+      "targetName": "Anaplastic large cell lymphoma, ALK-negative",
+      "targetTermType": "PT",
+      "targetCode": "C84.7",
+      "targetTerminology": "ICD10CM 2017"
+    }
+  ]
+}

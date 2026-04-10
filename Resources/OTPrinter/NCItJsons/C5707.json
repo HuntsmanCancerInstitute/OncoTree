@@ -1,0 +1,297 @@
+{
+  "code": "C5707",
+  "name": "Esophageal Melanoma",
+  "terminology": "ncit",
+  "version": "25.11d",
+  "conceptStatus": "DEFAULT",
+  "leaf": true,
+  "active": true,
+  "synonyms": [
+    {
+      "name": "Esophageal Melanoma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Esophagus Melanoma",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Melanoma of Esophagus",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Melanoma of the Esophagus",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Esophageal Melanoma",
+      "type": "Preferred_Name"
+    }
+  ],
+  "definitions": [
+    {
+      "definition": "A melanoma affecting the esophageal wall.  Melanoma in the esophagus is more commonly metastatic than primary.  Primary melanomas of the esophagus are polypoid and clinically aggressive.  (WHO, 2000)",
+      "type": "DEFINITION",
+      "source": "NCI"
+    }
+  ],
+  "properties": [
+    {
+      "code": "P366",
+      "type": "Legacy Concept Name",
+      "value": "Esophageal_Melanoma"
+    },
+    {
+      "code": "P363",
+      "type": "Neoplastic_Status",
+      "value": "Malignant"
+    },
+    {
+      "code": "P106",
+      "type": "Semantic_Type",
+      "value": "Neoplastic Process"
+    },
+    {
+      "code": "P207",
+      "type": "UMLS_CUI",
+      "value": "C1333460"
+    }
+  ],
+  "parents": [
+    {
+      "code": "C7091",
+      "name": "Digestive System Mucosal Melanoma"
+    },
+    {
+      "code": "C7478",
+      "name": "Malignant Esophageal Neoplasm"
+    }
+  ],
+  "roles": [
+    {
+      "type": "Disease_May_Have_Molecular_Abnormality",
+      "relatedCode": "C148041",
+      "relatedName": "ATRX Gene Mutation"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C36122",
+      "relatedName": "Benign Cellular Infiltrate"
+    },
+    {
+      "type": "Disease_May_Have_Molecular_Abnormality",
+      "relatedCode": "C40430",
+      "relatedName": "BRAF Gene Mutation"
+    },
+    {
+      "type": "Disease_May_Have_Molecular_Abnormality",
+      "relatedCode": "C36652",
+      "relatedName": "CCND1 Gene Amplification"
+    },
+    {
+      "type": "Disease_May_Have_Molecular_Abnormality",
+      "relatedCode": "C131786",
+      "relatedName": "CDK4 Gene Amplification"
+    },
+    {
+      "type": "Disease_May_Have_Molecular_Abnormality",
+      "relatedCode": "C41615",
+      "relatedName": "CDKN2A Gene Deletion"
+    },
+    {
+      "type": "Disease_May_Have_Molecular_Abnormality",
+      "relatedCode": "C128817",
+      "relatedName": "CDKN2A Gene Mutation"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12378",
+      "relatedName": "Digestive System"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12378",
+      "relatedName": "Digestive System"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12389",
+      "relatedName": "Esophagus"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12389",
+      "relatedName": "Esophagus"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C43268",
+      "relatedName": "HMB-45-Positive Neoplastic Cells Present"
+    },
+    {
+      "type": "Disease_May_Have_Molecular_Abnormality",
+      "relatedCode": "C39712",
+      "relatedName": "KIT Gene Mutation"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12917",
+      "relatedName": "Malignant Cell"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C36115",
+      "relatedName": "Malignant Cellular Infiltrate"
+    },
+    {
+      "type": "Disease_May_Have_Molecular_Abnormality",
+      "relatedCode": "C36681",
+      "relatedName": "MDM2 Gene Amplification"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C12591",
+      "relatedName": "Melanocyte"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36873",
+      "relatedName": "Melanoma Cell"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C13166",
+      "relatedName": "Mucosa"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12922",
+      "relatedName": "Neoplastic Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36862",
+      "relatedName": "Neoplastic Melanocyte"
+    },
+    {
+      "type": "Disease_May_Have_Molecular_Abnormality",
+      "relatedCode": "C153264",
+      "relatedName": "NF1 Gene Deletion"
+    },
+    {
+      "type": "Disease_May_Have_Molecular_Abnormality",
+      "relatedCode": "C118388",
+      "relatedName": "NF1 Gene Mutation"
+    },
+    {
+      "type": "Disease_May_Have_Molecular_Abnormality",
+      "relatedCode": "C41381",
+      "relatedName": "NRAS Gene Mutation"
+    },
+    {
+      "type": "Disease_May_Have_Molecular_Abnormality",
+      "relatedCode": "C96270",
+      "relatedName": "PTEN Gene Deletion"
+    },
+    {
+      "type": "Disease_May_Have_Molecular_Abnormality",
+      "relatedCode": "C121369",
+      "relatedName": "PTEN Gene Mutation"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C40993",
+      "relatedName": "S-100-Positive Neoplastic Cells Present"
+    },
+    {
+      "type": "Disease_May_Have_Molecular_Abnormality",
+      "relatedCode": "C133702",
+      "relatedName": "SF3B1 Gene Mutation"
+    },
+    {
+      "type": "Disease_Excludes_Primary_Anatomic_Site",
+      "relatedCode": "C12470",
+      "relatedName": "Skin"
+    },
+    {
+      "type": "Disease_May_Have_Molecular_Abnormality",
+      "relatedCode": "C180790",
+      "relatedName": "SPRED1 Gene Mutation"
+    },
+    {
+      "type": "Disease_May_Have_Molecular_Abnormality",
+      "relatedCode": "C118396",
+      "relatedName": "TP53 Gene Mutation"
+    }
+  ],
+  "history": [
+    {
+      "code": "C5707",
+      "action": "create",
+      "date": "2003-08-12"
+    },
+    {
+      "code": "C5707",
+      "action": "modify",
+      "date": "2003-10-31"
+    },
+    {
+      "code": "C5707",
+      "action": "modify",
+      "date": "2003-12-30"
+    },
+    {
+      "code": "C5707",
+      "action": "modify",
+      "date": "2004-03-30"
+    },
+    {
+      "code": "C5707",
+      "action": "modify",
+      "date": "2006-05-26"
+    },
+    {
+      "code": "C5707",
+      "action": "modify",
+      "date": "2006-09-01"
+    },
+    {
+      "code": "C5707",
+      "action": "modify",
+      "date": "2009-04-06"
+    },
+    {
+      "code": "C5707",
+      "action": "modify",
+      "date": "2009-10-27"
+    },
+    {
+      "code": "C5707",
+      "action": "modify",
+      "date": "2009-11-23"
+    },
+    {
+      "code": "C5707",
+      "action": "modify",
+      "date": "2011-02-22"
+    },
+    {
+      "code": "C5707",
+      "action": "modify",
+      "date": "2014-02-03"
+    },
+    {
+      "code": "C5707",
+      "action": "modify",
+      "date": "2014-12-22"
+    }
+  ]
+}

@@ -1,0 +1,891 @@
+{
+  "code": "C82426",
+  "name": "Acute Myeloid Leukemia with inv(3)(q21.3;q26.2) or t(3;3)(q21.3;q26.2); GATA2, MECOM",
+  "terminology": "ncit",
+  "version": "25.11d",
+  "conceptStatus": "DEFAULT",
+  "leaf": false,
+  "active": true,
+  "synonyms": [
+    {
+      "name": "Acute Myeloid Leukemia with inv(3)(q21q26.2) or t(3;3)(q21;q26.2); RPN1-EVI1",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "caDSR"
+    },
+    {
+      "name": "Acute Myeloid Leukemia with inv(3) (q21.3;q26.2) or t(3;3) (q21.3;q26.2); GATA2, MECOM",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "Cellosaurus"
+    },
+    {
+      "name": "Acute myeloid leukemia with inv(3)(q21q26.2) or t(3;3)(q21;q26.2); RPN1-EVI1",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "GDC"
+    },
+    {
+      "name": "Acute Myeloid Leukemia with inv(3)(q21.3;q26.2) or t(3;3)(q21.3;q26.2); GATA2, EVI1",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Acute Myeloid Leukemia with inv(3)(q21.3;q26.2) or t(3;3)(q21.3;q26.2); GATA2, MECOM",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Acute Myeloid Leukemia with inv(3)(q21.3;q26.2) or t(3;3)(q21.3;q26.2); GATA2, MECOM(EVI1)",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Acute Myeloid Leukemia with inv(3)(q21.3;q26.2) or t(3;3)(q21.3;q26.2); GATA2::MECOM",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Acute Myeloid Leukemia with inv(3)(q21q26.2) or t(3;3)(q21;q26.2); RPN1-EVI1",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Acute Myeloid Leukemia with MECOM Rearrangements",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "AML with MECOM Rearrangements",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Acute Myeloid Leukemia with inv(3)(q21q26.2) or t(3;3)(q21;q26.2); RPN1-EVI1",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NICHD"
+    },
+    {
+      "name": "AML with inv(3)(q21q26.2) or t(3;3)(q21;q26.2); RPN1-EVI1",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NICHD"
+    },
+    {
+      "name": "Acute Myeloid Leukemia with inv(3)(q21.3;q26.2) or t(3;3)(q21.3;q26.2); GATA2, MECOM",
+      "type": "Preferred_Name"
+    },
+    {
+      "name": "AML with inv(3)(q21.3q26.2) or t(3;3)(q21.3;q26.2); GATA2, MECOM",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "PCDC",
+      "subSource": "AML"
+    }
+  ],
+  "definitions": [
+    {
+      "definition": "An acute myeloid leukemia associated with inv(3)(q21.3q26.2) or t(3;3)(q21.3;q26.2) resulting in the reposition of a distal GATA2 enhancer to activate MECOM expression. It may present de novo or follow a myelodysplastic syndrome. The clinical course is aggressive.",
+      "type": "DEFINITION",
+      "source": "NCI"
+    },
+    {
+      "definition": "An acute myeloid leukemia associated with inv(3)(q21q26.2) or t(3;3)(q21;q26.2), resulting in the expression of RPN1-EVI1 fusion protein. There have been rare cases in children that have been reported in the literature.",
+      "type": "ALT_DEFINITION",
+      "source": "NICHD"
+    }
+  ],
+  "properties": [
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "Cellosaurus"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "GDC"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "NICHD"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "PCDC"
+    },
+    {
+      "code": "P334",
+      "type": "ICD-O-3_Code",
+      "value": "9869/3"
+    },
+    {
+      "code": "P366",
+      "type": "Legacy Concept Name",
+      "value": "Acute_Myeloid_Leukemia_with_inv_3_q2_q26_2_or_t_3_3_q21_q26_2_RPN1-EVI1"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "9869/3"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "Acute myeloid leukemia with inv(3)(q21;q26.2) or t(3.3)(q21;q26.2); RPN1-EVI1"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "Acute myeloid leukemia with inv(3)(q21;q26.2) or t(3;3)(q21;q26.2); RPN1-EVI1"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "Acute myeloid leukemia with inv(3)(q21q26.2) or t(3;3)(q21;q26.2); RPN1-EVI1"
+    },
+    {
+      "code": "P363",
+      "type": "Neoplastic_Status",
+      "value": "Malignant"
+    },
+    {
+      "code": "P106",
+      "type": "Semantic_Type",
+      "value": "Neoplastic Process"
+    },
+    {
+      "code": "P207",
+      "type": "UMLS_CUI",
+      "value": "C2826172"
+    }
+  ],
+  "children": [
+    {
+      "code": "C122716",
+      "name": "Acute Myeloid Leukemia with inv(3) (q21.3;q26.2); GATA2, MECOM",
+      "leaf": true
+    },
+    {
+      "code": "C122717",
+      "name": "Acute Myeloid Leukemia with t(3;3) (q21.3;q26.2); GATA2, MECOM",
+      "leaf": true
+    }
+  ],
+  "parents": [
+    {
+      "code": "C200407",
+      "name": "Acute Myeloid Leukemia with MECOM Rearrangement"
+    }
+  ],
+  "associations": [
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C174019",
+      "relatedName": "AML Authorized Value Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C173232",
+      "relatedName": "AML Disease Characteristics Table"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C165258",
+      "relatedName": "Cellosaurus Disease Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C157711",
+      "relatedName": "GDC Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C177537",
+      "relatedName": "GDC Value Terminology"
+    },
+    {
+      "type": "Is_Value_For_GDC_Property",
+      "relatedCode": "C176985",
+      "relatedName": "Histology ICD-O Morphology Code"
+    },
+    {
+      "type": "Is_Value_For_GDC_Property",
+      "relatedCode": "C177621",
+      "relatedName": "ICD-O-3 Morphology Term Diagnosis Question"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168658",
+      "relatedName": "Mapped ICDO3.1 Morphology PT Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168657",
+      "relatedName": "Mapped ICDO3.1 Morphology Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168655",
+      "relatedName": "Mapped ICDO3.1 Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168662",
+      "relatedName": "Mapped ICDO3.2 Morphology PT Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168661",
+      "relatedName": "Mapped ICDO3.2 Morphology Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168656",
+      "relatedName": "Mapped ICDO3.2 Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C126659",
+      "relatedName": "NCIt Neoplasm Core Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C90259",
+      "relatedName": "NICHD Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C132009",
+      "relatedName": "Pediatric Hematology-Oncology Terminology"
+    },
+    {
+      "type": "Is_PCDC_AML_Authorized_Value_For_Variable",
+      "relatedCode": "C159157",
+      "relatedName": "WHO AML Classification of Tumors"
+    }
+  ],
+  "inverseAssociations": [
+    {
+      "type": "Has_GDC_Value",
+      "relatedCode": "C176985",
+      "relatedName": "Histology ICD-O Morphology Code"
+    },
+    {
+      "type": "Has_GDC_Value",
+      "relatedCode": "C177621",
+      "relatedName": "ICD-O-3 Morphology Term Diagnosis Question"
+    },
+    {
+      "type": "Has_PCDC_AML_Authorized_Value",
+      "relatedCode": "C159157",
+      "relatedName": "WHO AML Classification of Tumors"
+    }
+  ],
+  "roles": [
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C36104",
+      "relatedName": "Aggressive Clinical Course"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C36122",
+      "relatedName": "Benign Cellular Infiltrate"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C136648",
+      "relatedName": "Blasts 10 Percent or More of Bone Marrow Nucleated Cells"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C138056",
+      "relatedName": "Blasts 10 Percent or More of Peripheral Blood White Cells"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C36235",
+      "relatedName": "Bone Marrow Dysplasia Present"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C13456",
+      "relatedName": "Bone Marrow Stem Cell"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12431",
+      "relatedName": "Bone Marrow"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12431",
+      "relatedName": "Bone Marrow"
+    },
+    {
+      "type": "Disease_Has_Cytogenetic_Abnormality",
+      "relatedCode": "C36541",
+      "relatedName": "Chromosomal Rearrangement"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C36158",
+      "relatedName": "Chronic Clinical Course"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C158864",
+      "relatedName": "Cytogenetic Abnormalities Not Detected"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C198845",
+      "relatedName": "Distal GATA2 Enhancer Repositioning"
+    },
+    {
+      "type": "Disease_Has_Molecular_Abnormality",
+      "relatedCode": "C36346",
+      "relatedName": "Fusion Protein Expression"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C41165",
+      "relatedName": "Hematopoietic and Lymphatic System"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C41165",
+      "relatedName": "Hematopoietic and Lymphatic System"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C32725",
+      "relatedName": "Hematopoietic and Lymphoid Cell"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C41168",
+      "relatedName": "Hematopoietic and Lymphoid Tissue"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C13051",
+      "relatedName": "Hematopoietic Tissue"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C35788",
+      "relatedName": "Hypercellular Bone Marrow"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C25553",
+      "relatedName": "Leukemic Cell"
+    },
+    {
+      "type": "Disease_Excludes_Normal_Cell_Origin",
+      "relatedCode": "C12535",
+      "relatedName": "Lymphocyte"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12917",
+      "relatedName": "Malignant Cell"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C36115",
+      "relatedName": "Malignant Cellular Infiltrate"
+    },
+    {
+      "type": "Disease_Has_Cytogenetic_Abnormality",
+      "relatedCode": "C186908",
+      "relatedName": "MECOM Gene Rearrangement"
+    },
+    {
+      "type": "Disease_Mapped_To_Gene",
+      "relatedCode": "C18392",
+      "relatedName": "MECOM Gene"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12922",
+      "relatedName": "Neoplastic Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C37060",
+      "relatedName": "Neoplastic Hematopoietic and Lymphoid Cell"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C12914",
+      "relatedName": "Neoplastic Lymphoblast"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C37065",
+      "relatedName": "Neoplastic Myeloblast"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C41063",
+      "relatedName": "Neoplastic Myeloid Cell"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C80329",
+      "relatedName": "Recurrent Genetic Abnormalities Present"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C36182",
+      "relatedName": "Solid Growth Pattern"
+    }
+  ],
+  "history": [
+    {
+      "code": "C82426",
+      "action": "modify",
+      "date": "2009-07-27"
+    },
+    {
+      "code": "C82426",
+      "action": "modify",
+      "date": "2009-08-03"
+    },
+    {
+      "code": "C82426",
+      "action": "modify",
+      "date": "2009-08-10"
+    },
+    {
+      "code": "C82426",
+      "action": "modify",
+      "date": "2009-08-17"
+    },
+    {
+      "code": "C82426",
+      "action": "modify",
+      "date": "2009-08-24"
+    },
+    {
+      "code": "C82426",
+      "action": "modify",
+      "date": "2009-08-31"
+    },
+    {
+      "code": "C82426",
+      "action": "modify",
+      "date": "2009-09-08"
+    },
+    {
+      "code": "C82426",
+      "action": "modify",
+      "date": "2009-09-10"
+    },
+    {
+      "code": "C82426",
+      "action": "modify",
+      "date": "2009-10-27"
+    },
+    {
+      "code": "C82426",
+      "action": "modify",
+      "date": "2009-11-23"
+    },
+    {
+      "code": "C82426",
+      "action": "modify",
+      "date": "2011-03-07"
+    },
+    {
+      "code": "C82426",
+      "action": "modify",
+      "date": "2011-07-05"
+    },
+    {
+      "code": "C82426",
+      "action": "modify",
+      "date": "2011-07-25"
+    },
+    {
+      "code": "C82426",
+      "action": "modify",
+      "date": "2011-08-15"
+    },
+    {
+      "code": "C82426",
+      "action": "modify",
+      "date": "2012-03-26"
+    },
+    {
+      "code": "C82426",
+      "action": "modify",
+      "date": "2012-07-30"
+    },
+    {
+      "code": "C82426",
+      "action": "modify",
+      "date": "2013-02-25"
+    },
+    {
+      "code": "C82426",
+      "action": "modify",
+      "date": "2013-03-04"
+    },
+    {
+      "code": "C82426",
+      "action": "modify",
+      "date": "2013-03-11"
+    },
+    {
+      "code": "C82426",
+      "action": "modify",
+      "date": "2013-03-18"
+    },
+    {
+      "code": "C82426",
+      "action": "modify",
+      "date": "2013-03-25"
+    },
+    {
+      "code": "C82426",
+      "action": "modify",
+      "date": "2013-04-01"
+    },
+    {
+      "code": "C82426",
+      "action": "modify",
+      "date": "2013-04-08"
+    },
+    {
+      "code": "C82426",
+      "action": "modify",
+      "date": "2013-04-15"
+    },
+    {
+      "code": "C82426",
+      "action": "modify",
+      "date": "2013-04-22"
+    },
+    {
+      "code": "C82426",
+      "action": "modify",
+      "date": "2013-04-29"
+    },
+    {
+      "code": "C82426",
+      "action": "modify",
+      "date": "2013-05-06"
+    },
+    {
+      "code": "C82426",
+      "action": "modify",
+      "date": "2013-05-13"
+    },
+    {
+      "code": "C82426",
+      "action": "modify",
+      "date": "2013-05-20"
+    },
+    {
+      "code": "C82426",
+      "action": "modify",
+      "date": "2013-05-28"
+    },
+    {
+      "code": "C82426",
+      "action": "modify",
+      "date": "2013-06-03"
+    },
+    {
+      "code": "C82426",
+      "action": "modify",
+      "date": "2013-06-10"
+    },
+    {
+      "code": "C82426",
+      "action": "modify",
+      "date": "2013-06-17"
+    },
+    {
+      "code": "C82426",
+      "action": "modify",
+      "date": "2013-06-24"
+    },
+    {
+      "code": "C82426",
+      "action": "modify",
+      "date": "2013-07-01"
+    },
+    {
+      "code": "C82426",
+      "action": "modify",
+      "date": "2013-07-08"
+    },
+    {
+      "code": "C82426",
+      "action": "create",
+      "date": "2009-07-16"
+    },
+    {
+      "code": "C82426",
+      "action": "modify",
+      "date": "2014-02-03"
+    },
+    {
+      "code": "C82426",
+      "action": "modify",
+      "date": "2015-07-06"
+    },
+    {
+      "code": "C82426",
+      "action": "modify",
+      "date": "2016-04-25"
+    },
+    {
+      "code": "C82426",
+      "action": "modify",
+      "date": "2016-11-07"
+    },
+    {
+      "code": "C82426",
+      "action": "modify",
+      "date": "2017-02-13"
+    },
+    {
+      "code": "C82426",
+      "action": "modify",
+      "date": "2017-02-21"
+    },
+    {
+      "code": "C82426",
+      "action": "modify",
+      "date": "2017-02-27"
+    },
+    {
+      "code": "C82426",
+      "action": "modify",
+      "date": "2017-03-06"
+    },
+    {
+      "code": "C82426",
+      "action": "modify",
+      "date": "2017-03-13"
+    },
+    {
+      "code": "C82426",
+      "action": "modify",
+      "date": "2017-03-20"
+    },
+    {
+      "code": "C82426",
+      "action": "modify",
+      "date": "2017-03-27"
+    },
+    {
+      "code": "C82426",
+      "action": "modify",
+      "date": "2017-04-03"
+    },
+    {
+      "code": "C82426",
+      "action": "modify",
+      "date": "2017-04-10"
+    },
+    {
+      "code": "C82426",
+      "action": "modify",
+      "date": "2017-04-17"
+    },
+    {
+      "code": "C82426",
+      "action": "modify",
+      "date": "2017-04-24"
+    },
+    {
+      "code": "C82426",
+      "action": "modify",
+      "date": "2017-05-01"
+    },
+    {
+      "code": "C82426",
+      "action": "modify",
+      "date": "2017-05-04"
+    },
+    {
+      "code": "C82426",
+      "action": "modify",
+      "date": "2018-09-24"
+    },
+    {
+      "code": "C82426",
+      "action": "modify",
+      "date": "2018-11-26"
+    },
+    {
+      "code": "C82426",
+      "action": "modify",
+      "date": "2019-05-28"
+    },
+    {
+      "code": "C82426",
+      "action": "modify",
+      "date": "2019-08-26"
+    },
+    {
+      "code": "C82426",
+      "action": "modify",
+      "date": "2019-09-30"
+    },
+    {
+      "code": "C82426",
+      "action": "modify",
+      "date": "2019-10-28"
+    },
+    {
+      "code": "C82426",
+      "action": "modify",
+      "date": "2019-11-25"
+    },
+    {
+      "code": "C82426",
+      "action": "modify",
+      "date": "2020-02-24"
+    },
+    {
+      "code": "C82426",
+      "action": "modify",
+      "date": "2020-04-27"
+    },
+    {
+      "code": "C82426",
+      "action": "modify",
+      "date": "2020-06-29"
+    },
+    {
+      "code": "C82426",
+      "action": "modify",
+      "date": "2020-07-27"
+    },
+    {
+      "code": "C82426",
+      "action": "modify",
+      "date": "2020-08-31"
+    },
+    {
+      "code": "C82426",
+      "action": "modify",
+      "date": "2020-09-29"
+    },
+    {
+      "code": "C82426",
+      "action": "modify",
+      "date": "2020-11-30"
+    },
+    {
+      "code": "C82426",
+      "action": "modify",
+      "date": "2020-12-28"
+    },
+    {
+      "code": "C82426",
+      "action": "modify",
+      "date": "2021-02-22"
+    },
+    {
+      "code": "C82426",
+      "action": "modify",
+      "date": "2021-03-29"
+    },
+    {
+      "code": "C82426",
+      "action": "modify",
+      "date": "2021-06-28"
+    },
+    {
+      "code": "C82426",
+      "action": "modify",
+      "date": "2022-10-31"
+    },
+    {
+      "code": "C82426",
+      "action": "modify",
+      "date": "2023-02-27"
+    },
+    {
+      "code": "C82426",
+      "action": "modify",
+      "date": "2023-04-24"
+    },
+    {
+      "code": "C82426",
+      "action": "modify",
+      "date": "2023-05-30"
+    },
+    {
+      "code": "C82426",
+      "action": "modify",
+      "date": "2023-07-31"
+    },
+    {
+      "code": "C82426",
+      "action": "modify",
+      "date": "2023-09-25"
+    },
+    {
+      "code": "C82426",
+      "action": "modify",
+      "date": "2023-11-27"
+    },
+    {
+      "code": "C82426",
+      "action": "modify",
+      "date": "2025-03-31"
+    }
+  ],
+  "maps": [
+    {
+      "type": "Has Synonym",
+      "targetName": "9869/3",
+      "targetTermType": "PT",
+      "targetCode": "morphology",
+      "targetTerminology": "GDC"
+    },
+    {
+      "type": "Related To",
+      "targetName": "Acute myeloid leukemia with inv(3)(q21;q26.2) or t(3.3)(q21;q26.2); RPN1-EVI1",
+      "targetTermType": "PT",
+      "targetCode": "9869/3",
+      "targetTerminology": "ICDO3",
+      "targetTerminologyVersion": "3.1"
+    },
+    {
+      "type": "Related To",
+      "targetName": "Acute myeloid leukemia with inv(3)(q21;q26.2) or t(3;3)(q21;q26.2); RPN1-EVI1",
+      "targetTermType": "PT",
+      "targetCode": "9869/3",
+      "targetTerminology": "ICDO3",
+      "targetTerminologyVersion": "3.2"
+    },
+    {
+      "type": "Has Synonym",
+      "targetName": "Acute myeloid leukemia with inv(3)(q21q26.2) or t(3;3)(q21;q26.2); RPN1-EVI1",
+      "targetTermType": "PT",
+      "targetCode": "primary_diagnosis",
+      "targetTerminology": "GDC"
+    }
+  ]
+}

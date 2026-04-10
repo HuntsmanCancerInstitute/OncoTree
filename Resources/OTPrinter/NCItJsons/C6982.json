@@ -1,0 +1,382 @@
+{
+  "code": "C6982",
+  "name": "Penile Verrucous Carcinoma",
+  "terminology": "ncit",
+  "version": "25.11d",
+  "conceptStatus": "DEFAULT",
+  "leaf": false,
+  "active": true,
+  "synonyms": [
+    {
+      "name": "Penile Verrucous Carcinoma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Squamous Carcinoma of Penis, Verrucous Type",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Verrucous Carcinoma of Penis",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Verrucous Carcinoma of the Penis",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Verrucous Penile Carcinoma",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Verrucous Penile Squamous Carcinoma",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Verrucous Squamous Carcinoma of Penis",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Verrucous Squamous Carcinoma of the Penis",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Penile Verrucous Carcinoma",
+      "type": "Preferred_Name"
+    }
+  ],
+  "definitions": [
+    {
+      "definition": "A slow growing, locally recurring, very well differentiated papillary squamous cell carcinoma that arises from the penis. It is characterized by the presence of acanthosis and hyperkeratosis. The neoplastic infiltrate extends into the underlying stroma with a pushing border. Koilocytotic atypia is not present.",
+      "type": "DEFINITION",
+      "source": "NCI"
+    }
+  ],
+  "properties": [
+    {
+      "code": "P366",
+      "type": "Legacy Concept Name",
+      "value": "Verrucous_Carcinoma_of_the_Penis"
+    },
+    {
+      "code": "P363",
+      "type": "Neoplastic_Status",
+      "value": "Malignant"
+    },
+    {
+      "code": "P106",
+      "type": "Semantic_Type",
+      "value": "Neoplastic Process"
+    },
+    {
+      "code": "P207",
+      "type": "UMLS_CUI",
+      "value": "C1336955"
+    }
+  ],
+  "children": [
+    {
+      "code": "C159247",
+      "name": "Penile Carcinoma Cuniculatum",
+      "leaf": true
+    }
+  ],
+  "parents": [
+    {
+      "code": "C6983",
+      "name": "Penile Papillary Carcinoma"
+    },
+    {
+      "code": "C3781",
+      "name": "Verrucous Carcinoma"
+    }
+  ],
+  "roles": [
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C35265",
+      "relatedName": "Acanthosis"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C36122",
+      "relatedName": "Benign Cellular Infiltrate"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C54172",
+      "relatedName": "Carcinomatous Component Present"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C54206",
+      "relatedName": "Endophytic Tumor Growth"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C12578",
+      "relatedName": "Epithelial Cell"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C53596",
+      "relatedName": "Epithelial Component Present"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C45714",
+      "relatedName": "Epithelial Tissue"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C54201",
+      "relatedName": "Exophytic Papillary Lesion"
+    },
+    {
+      "type": "Disease_Excludes_Primary_Anatomic_Site",
+      "relatedCode": "C32573",
+      "relatedName": "Extrahepatic Bile Duct"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12810",
+      "relatedName": "Genitourinary System"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12810",
+      "relatedName": "Genitourinary System"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C131488",
+      "relatedName": "Human Papillomavirus Negative"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C35541",
+      "relatedName": "Hyperkeratosis"
+    },
+    {
+      "type": "Disease_Excludes_Primary_Anatomic_Site",
+      "relatedCode": "C12677",
+      "relatedName": "Intrahepatic Bile Duct"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12722",
+      "relatedName": "Male Reproductive System"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12722",
+      "relatedName": "Male Reproductive System"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12917",
+      "relatedName": "Malignant Cell"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C36115",
+      "relatedName": "Malignant Cellular Infiltrate"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36779",
+      "relatedName": "Malignant Epithelial Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36771",
+      "relatedName": "Malignant Squamous Cell"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C37153",
+      "relatedName": "Malignant Stromal Cell"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C8327",
+      "relatedName": "Mild Cytologic Atypia"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C62273",
+      "relatedName": "Mixed Neoplastic Glandular and Squamous Cell Population"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C35999",
+      "relatedName": "Mucoid Stroma Formation"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12922",
+      "relatedName": "Neoplastic Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36753",
+      "relatedName": "Neoplastic Epithelial Cell"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C36763",
+      "relatedName": "Neoplastic Glandular Cell"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C36937",
+      "relatedName": "Neoplastic Smooth Muscle Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36760",
+      "relatedName": "Neoplastic Squamous Cell"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C35911",
+      "relatedName": "Papillary Growth Pattern"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12409",
+      "relatedName": "Penis"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12409",
+      "relatedName": "Penis"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C35912",
+      "relatedName": "Pseudopapillary Pattern"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C53991",
+      "relatedName": "Pushing Tumor Margin"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12841",
+      "relatedName": "Reproductive System"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C12849",
+      "relatedName": "Squamous Cell"
+    },
+    {
+      "type": "Disease_May_Have_Molecular_Abnormality",
+      "relatedCode": "C118396",
+      "relatedName": "TP53 Gene Mutation"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C36133",
+      "relatedName": "Well Differentiated Lesion"
+    }
+  ],
+  "history": [
+    {
+      "code": "C6982",
+      "action": "create",
+      "date": "2003-08-12"
+    },
+    {
+      "code": "C6982",
+      "action": "modify",
+      "date": "2003-10-31"
+    },
+    {
+      "code": "C6982",
+      "action": "modify",
+      "date": "2003-12-30"
+    },
+    {
+      "code": "C6982",
+      "action": "modify",
+      "date": "2004-03-30"
+    },
+    {
+      "code": "C6982",
+      "action": "modify",
+      "date": "2006-03-31"
+    },
+    {
+      "code": "C6982",
+      "action": "modify",
+      "date": "2006-09-29"
+    },
+    {
+      "code": "C6982",
+      "action": "modify",
+      "date": "2009-04-06"
+    },
+    {
+      "code": "C6982",
+      "action": "modify",
+      "date": "2009-11-23"
+    },
+    {
+      "code": "C6982",
+      "action": "modify",
+      "date": "2012-11-19"
+    },
+    {
+      "code": "C6982",
+      "action": "modify",
+      "date": "2014-02-03"
+    },
+    {
+      "code": "C6982",
+      "action": "modify",
+      "date": "2023-01-31"
+    },
+    {
+      "code": "C6982",
+      "action": "merge",
+      "date": "2025-05-27",
+      "replacementCode": "C6982",
+      "replacementName": "Penile Verrucous Carcinoma"
+    },
+    {
+      "code": "C27791",
+      "action": "merge",
+      "date": "2025-05-27",
+      "replacementCode": "C6982",
+      "replacementName": "Penile Verrucous Carcinoma"
+    },
+    {
+      "code": "C6982",
+      "action": "modify",
+      "date": "2025-05-27"
+    },
+    {
+      "code": "C6982",
+      "action": "modify",
+      "date": "2025-08-25"
+    }
+  ]
+}

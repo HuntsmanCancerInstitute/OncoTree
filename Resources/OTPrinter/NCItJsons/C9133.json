@@ -1,0 +1,451 @@
+{
+  "code": "C9133",
+  "name": "Lung Adenosquamous Carcinoma",
+  "terminology": "ncit",
+  "version": "25.11d",
+  "conceptStatus": "DEFAULT",
+  "leaf": false,
+  "active": true,
+  "synonyms": [
+    {
+      "name": "Lung Adenosquamous Carcinoma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "Cellosaurus"
+    },
+    {
+      "name": "Adenosquamous Lung Cancer",
+      "termType": "DN",
+      "type": "FULL_SYN",
+      "source": "CTRP"
+    },
+    {
+      "name": "Adenosquamous Cell Lung Carcinoma",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Adenosquamous Lung Carcinoma",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Lung Adenosquamous Carcinoma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Adenosquamous Lung Carcinoma",
+      "type": "Display_Name"
+    },
+    {
+      "name": "Lung Adenosquamous Carcinoma",
+      "type": "Preferred_Name"
+    }
+  ],
+  "definitions": [
+    {
+      "definition": "An aggressive carcinoma with a poor prognosis characterized by a presence of both malignant squamous cells and glandular cells.",
+      "type": "DEFINITION",
+      "source": "NCI"
+    }
+  ],
+  "properties": [
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "Cellosaurus"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "CTRP"
+    },
+    {
+      "code": "P366",
+      "type": "Legacy Concept Name",
+      "value": "Adenosquamous_Lung_Carcinoma"
+    },
+    {
+      "code": "P363",
+      "type": "Neoplastic_Status",
+      "value": "Malignant"
+    },
+    {
+      "code": "P106",
+      "type": "Semantic_Type",
+      "value": "Neoplastic Process"
+    },
+    {
+      "code": "P207",
+      "type": "UMLS_CUI",
+      "value": "C0279557"
+    }
+  ],
+  "children": [
+    {
+      "code": "C136492",
+      "name": "Lung Adenosquamous Carcinoma by AJCC v7 Stage",
+      "leaf": false
+    },
+    {
+      "code": "C156093",
+      "name": "Metastatic Lung Adenosquamous Carcinoma",
+      "leaf": false
+    },
+    {
+      "code": "C6684",
+      "name": "Occult Lung Adenosquamous Carcinoma",
+      "leaf": true
+    },
+    {
+      "code": "C8747",
+      "name": "Recurrent Lung Adenosquamous Carcinoma",
+      "leaf": true
+    }
+  ],
+  "parents": [
+    {
+      "code": "C3727",
+      "name": "Adenosquamous Carcinoma"
+    },
+    {
+      "code": "C2926",
+      "name": "Lung Non-Small Cell Carcinoma"
+    }
+  ],
+  "associations": [
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C165258",
+      "relatedName": "Cellosaurus Disease Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C118168",
+      "relatedName": "CTRP Disease Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C116977",
+      "relatedName": "CTRP Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C126659",
+      "relatedName": "NCIt Neoplasm Core Terminology"
+    }
+  ],
+  "roles": [
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36773",
+      "relatedName": "Adenocarcinoma Cell"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C36122",
+      "relatedName": "Benign Cellular Infiltrate"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C54242",
+      "relatedName": "Bronchial Epithelial Cell"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C32231",
+      "relatedName": "Bronchial Epithelium"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C54172",
+      "relatedName": "Carcinomatous Component Present"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C12508",
+      "relatedName": "Cell"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C12578",
+      "relatedName": "Epithelial Cell"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C53596",
+      "relatedName": "Epithelial Component Present"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C45714",
+      "relatedName": "Epithelial Tissue"
+    },
+    {
+      "type": "Disease_Excludes_Normal_Cell_Origin",
+      "relatedCode": "C12615",
+      "relatedName": "Glial Cell"
+    },
+    {
+      "type": "Disease_May_Have_Molecular_Abnormality",
+      "relatedCode": "C36683",
+      "relatedName": "Inactivating APC Gene Mutation"
+    },
+    {
+      "type": "Disease_May_Have_Molecular_Abnormality",
+      "relatedCode": "C36704",
+      "relatedName": "Inactivating FHIT Gene Mutation"
+    },
+    {
+      "type": "Disease_May_Have_Molecular_Abnormality",
+      "relatedCode": "C36695",
+      "relatedName": "Inactivating STK11 Gene Mutation"
+    },
+    {
+      "type": "Disease_May_Have_Molecular_Abnormality",
+      "relatedCode": "C36665",
+      "relatedName": "KRAS Gene Amplification"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12468",
+      "relatedName": "Lung"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12468",
+      "relatedName": "Lung"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12917",
+      "relatedName": "Malignant Cell"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C36115",
+      "relatedName": "Malignant Cellular Infiltrate"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36779",
+      "relatedName": "Malignant Epithelial Cell"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C36795",
+      "relatedName": "Malignant Epithelial Small Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36771",
+      "relatedName": "Malignant Squamous Cell"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C37153",
+      "relatedName": "Malignant Stromal Cell"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C41610",
+      "relatedName": "Mixed Cellular Population"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C165731",
+      "relatedName": "Mixed Malignant Epithelial Cell Population"
+    },
+    {
+      "type": "Disease_Excludes_Primary_Anatomic_Site",
+      "relatedCode": "C13063",
+      "relatedName": "Neck"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12922",
+      "relatedName": "Neoplastic Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36753",
+      "relatedName": "Neoplastic Epithelial Cell"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C37126",
+      "relatedName": "Neoplastic Glial Cell"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C36937",
+      "relatedName": "Neoplastic Smooth Muscle Cell"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C42624",
+      "relatedName": "Premalignant Lesion"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12779",
+      "relatedName": "Respiratory System"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C54727",
+      "relatedName": "Sarcomatous Component Present"
+    },
+    {
+      "type": "Disease_Excludes_Primary_Anatomic_Site",
+      "relatedCode": "C12470",
+      "relatedName": "Skin"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12905",
+      "relatedName": "Thoracic Cavity"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C12801",
+      "relatedName": "Tissue"
+    },
+    {
+      "type": "Disease_May_Have_Molecular_Abnormality",
+      "relatedCode": "C36329",
+      "relatedName": "TP53 Gene Inactivation"
+    },
+    {
+      "type": "Disease_Mapped_To_Gene",
+      "relatedCode": "C17359",
+      "relatedName": "TP53 Gene"
+    }
+  ],
+  "history": [
+    {
+      "code": "C9133",
+      "action": "create",
+      "date": "2003-08-12"
+    },
+    {
+      "code": "C9133",
+      "action": "modify",
+      "date": "2003-10-31"
+    },
+    {
+      "code": "C9133",
+      "action": "modify",
+      "date": "2003-12-30"
+    },
+    {
+      "code": "C9133",
+      "action": "modify",
+      "date": "2004-03-30"
+    },
+    {
+      "code": "C9133",
+      "action": "modify",
+      "date": "2005-04-29"
+    },
+    {
+      "code": "C9133",
+      "action": "modify",
+      "date": "2005-06-24"
+    },
+    {
+      "code": "C9133",
+      "action": "modify",
+      "date": "2006-03-31"
+    },
+    {
+      "code": "C9133",
+      "action": "modify",
+      "date": "2006-04-28"
+    },
+    {
+      "code": "C9133",
+      "action": "modify",
+      "date": "2007-10-29"
+    },
+    {
+      "code": "C9133",
+      "action": "modify",
+      "date": "2009-10-27"
+    },
+    {
+      "code": "C9133",
+      "action": "modify",
+      "date": "2009-11-23"
+    },
+    {
+      "code": "C9133",
+      "action": "modify",
+      "date": "2014-08-04"
+    },
+    {
+      "code": "C9133",
+      "action": "modify",
+      "date": "2014-08-18"
+    },
+    {
+      "code": "C9133",
+      "action": "modify",
+      "date": "2014-09-22"
+    },
+    {
+      "code": "C9133",
+      "action": "modify",
+      "date": "2014-10-27"
+    },
+    {
+      "code": "C9133",
+      "action": "modify",
+      "date": "2016-04-25"
+    },
+    {
+      "code": "C9133",
+      "action": "modify",
+      "date": "2017-07-31"
+    },
+    {
+      "code": "C9133",
+      "action": "modify",
+      "date": "2018-07-30"
+    },
+    {
+      "code": "C9133",
+      "action": "modify",
+      "date": "2018-08-27"
+    },
+    {
+      "code": "C9133",
+      "action": "modify",
+      "date": "2018-08-27"
+    },
+    {
+      "code": "C9133",
+      "action": "modify",
+      "date": "2018-09-24"
+    },
+    {
+      "code": "C9133",
+      "action": "modify",
+      "date": "2019-10-28"
+    },
+    {
+      "code": "C9133",
+      "action": "modify",
+      "date": "2023-02-27"
+    },
+    {
+      "code": "C9133",
+      "action": "modify",
+      "date": "2025-03-31"
+    }
+  ]
+}

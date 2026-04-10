@@ -1,0 +1,432 @@
+{
+  "code": "C4717",
+  "name": "Anaplastic Ganglioglioma",
+  "terminology": "ncit",
+  "version": "25.11d",
+  "conceptStatus": "DEFAULT",
+  "leaf": false,
+  "active": true,
+  "synonyms": [
+    {
+      "name": "Ganglioglioma, anaplastic",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "GDC"
+    },
+    {
+      "name": "Anaplastic Ganglioglioma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Anaplastic Ganglioglioma",
+      "type": "Preferred_Name"
+    }
+  ],
+  "definitions": [
+    {
+      "definition": "A WHO grade III neuroepithelial neoplasm composed of neoplastic, mature ganglion cells and anaplastic glial cells. The anaplastic changes in the glial component and high MIB-1 and TP53 labeling indices may indicate aggressive behavior. However, the correlation of histological anaplasia with clinical outcome is inconsistent. (Adapted from WHO)",
+      "type": "DEFINITION",
+      "source": "NCI"
+    }
+  ],
+  "properties": [
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "GDC"
+    },
+    {
+      "code": "P334",
+      "type": "ICD-O-3_Code",
+      "value": "9505/3"
+    },
+    {
+      "code": "P366",
+      "type": "Legacy Concept Name",
+      "value": "Anaplastic_Ganglioglioma"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "9505/3"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "Ganglioglioma, anaplastic"
+    },
+    {
+      "code": "P363",
+      "type": "Neoplastic_Status",
+      "value": "Malignant"
+    },
+    {
+      "code": "P106",
+      "type": "Semantic_Type",
+      "value": "Neoplastic Process"
+    },
+    {
+      "code": "P207",
+      "type": "UMLS_CUI",
+      "value": "C0431112"
+    }
+  ],
+  "children": [
+    {
+      "code": "C160914",
+      "name": "Recurrent Anaplastic Ganglioglioma",
+      "leaf": true
+    },
+    {
+      "code": "C160915",
+      "name": "Refractory Anaplastic Ganglioglioma",
+      "leaf": true
+    }
+  ],
+  "parents": [
+    {
+      "code": "C36025",
+      "name": "Anaplastic Malignant Neoplasm"
+    },
+    {
+      "code": "C4747",
+      "name": "Glioneuronal and Neuronal Tumors"
+    },
+    {
+      "code": "C4627",
+      "name": "Malignant Central Nervous System Neoplasm"
+    }
+  ],
+  "associations": [
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C157711",
+      "relatedName": "GDC Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C177537",
+      "relatedName": "GDC Value Terminology"
+    },
+    {
+      "type": "Is_Value_For_GDC_Property",
+      "relatedCode": "C176985",
+      "relatedName": "Histology ICD-O Morphology Code"
+    },
+    {
+      "type": "Is_Value_For_GDC_Property",
+      "relatedCode": "C177621",
+      "relatedName": "ICD-O-3 Morphology Term Diagnosis Question"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168658",
+      "relatedName": "Mapped ICDO3.1 Morphology PT Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168657",
+      "relatedName": "Mapped ICDO3.1 Morphology Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168655",
+      "relatedName": "Mapped ICDO3.1 Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168662",
+      "relatedName": "Mapped ICDO3.2 Morphology PT Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168661",
+      "relatedName": "Mapped ICDO3.2 Morphology Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168656",
+      "relatedName": "Mapped ICDO3.2 Terminology"
+    }
+  ],
+  "inverseAssociations": [
+    {
+      "type": "Has_GDC_Value",
+      "relatedCode": "C176985",
+      "relatedName": "Histology ICD-O Morphology Code"
+    },
+    {
+      "type": "Has_GDC_Value",
+      "relatedCode": "C177621",
+      "relatedName": "ICD-O-3 Morphology Term Diagnosis Question"
+    }
+  ],
+  "roles": [
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C36104",
+      "relatedName": "Aggressive Clinical Course"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C36113",
+      "relatedName": "Anaplastic Lesion"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C36122",
+      "relatedName": "Benign Cellular Infiltrate"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12438",
+      "relatedName": "Central Nervous System"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12438",
+      "relatedName": "Central Nervous System"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C41471",
+      "relatedName": "Glial Differentiation"
+    },
+    {
+      "type": "Disease_Is_Grade",
+      "relatedCode": "C28079",
+      "relatedName": "Grade 3"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C36105",
+      "relatedName": "Indolent Clinical Course"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12917",
+      "relatedName": "Malignant Cell"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C36115",
+      "relatedName": "Malignant Cellular Infiltrate"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12922",
+      "relatedName": "Neoplastic Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C37126",
+      "relatedName": "Neoplastic Glial Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C42084",
+      "relatedName": "Neoplastic Mature Ganglion Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C41408",
+      "relatedName": "Neoplastic Neuroepithelial Cell and Neoplastic Perineural Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C37125",
+      "relatedName": "Neoplastic Neuroepithelial Cell"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C41406",
+      "relatedName": "Nerve Tissue, Neuroepithelial Tissue, and Nerve Sheaths"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12755",
+      "relatedName": "Nervous System"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C41410",
+      "relatedName": "Neuroepithelial Cell"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C41409",
+      "relatedName": "Neuroepithelial Tissue"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C41405",
+      "relatedName": "Neuron, Neuroepithelial Cell, and Supporting Cell of the Nervous System"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C42083",
+      "relatedName": "Neuronal Differentiation"
+    },
+    {
+      "type": "Disease_Excludes_Normal_Cell_Origin",
+      "relatedCode": "C12618",
+      "relatedName": "Oligodendrocyte"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C41611",
+      "relatedName": "Precise Histogenesis Unknown"
+    }
+  ],
+  "history": [
+    {
+      "code": "C4717",
+      "action": "create",
+      "date": "2003-08-12"
+    },
+    {
+      "code": "C4717",
+      "action": "modify",
+      "date": "2003-12-30"
+    },
+    {
+      "code": "C4717",
+      "action": "modify",
+      "date": "2004-05-28"
+    },
+    {
+      "code": "C4717",
+      "action": "modify",
+      "date": "2004-11-17"
+    },
+    {
+      "code": "C4717",
+      "action": "modify",
+      "date": "2007-03-30"
+    },
+    {
+      "code": "C4717",
+      "action": "modify",
+      "date": "2007-04-30"
+    },
+    {
+      "code": "C4717",
+      "action": "modify",
+      "date": "2009-04-06"
+    },
+    {
+      "code": "C4717",
+      "action": "modify",
+      "date": "2009-11-02"
+    },
+    {
+      "code": "C4717",
+      "action": "modify",
+      "date": "2009-11-23"
+    },
+    {
+      "code": "C4717",
+      "action": "modify",
+      "date": "2010-10-12"
+    },
+    {
+      "code": "C4717",
+      "action": "modify",
+      "date": "2014-02-03"
+    },
+    {
+      "code": "C4717",
+      "action": "modify",
+      "date": "2018-09-24"
+    },
+    {
+      "code": "C4717",
+      "action": "modify",
+      "date": "2018-10-29"
+    },
+    {
+      "code": "C4717",
+      "action": "modify",
+      "date": "2018-10-29"
+    },
+    {
+      "code": "C4717",
+      "action": "modify",
+      "date": "2019-05-28"
+    },
+    {
+      "code": "C4717",
+      "action": "modify",
+      "date": "2019-06-24"
+    },
+    {
+      "code": "C4717",
+      "action": "modify",
+      "date": "2019-09-30"
+    },
+    {
+      "code": "C4717",
+      "action": "modify",
+      "date": "2019-11-25"
+    },
+    {
+      "code": "C4717",
+      "action": "modify",
+      "date": "2020-02-24"
+    },
+    {
+      "code": "C4717",
+      "action": "modify",
+      "date": "2020-04-27"
+    },
+    {
+      "code": "C4717",
+      "action": "modify",
+      "date": "2021-02-22"
+    },
+    {
+      "code": "C4717",
+      "action": "modify",
+      "date": "2021-03-29"
+    },
+    {
+      "code": "C4717",
+      "action": "modify",
+      "date": "2023-12-26"
+    }
+  ],
+  "maps": [
+    {
+      "type": "Related To",
+      "targetName": "9505/3",
+      "targetTermType": "PT",
+      "targetCode": "morphology",
+      "targetTerminology": "GDC"
+    },
+    {
+      "type": "Related To",
+      "targetName": "Ganglioglioma, anaplastic",
+      "targetTermType": "PT",
+      "targetCode": "9505/3",
+      "targetTerminology": "ICDO3",
+      "targetTerminologyVersion": "3.1"
+    },
+    {
+      "type": "Related To",
+      "targetName": "Ganglioglioma, anaplastic",
+      "targetTermType": "PT",
+      "targetCode": "9505/3",
+      "targetTerminology": "ICDO3",
+      "targetTerminologyVersion": "3.2"
+    },
+    {
+      "type": "Has Synonym",
+      "targetName": "Ganglioglioma, anaplastic",
+      "targetTermType": "PT",
+      "targetCode": "primary_diagnosis",
+      "targetTerminology": "GDC"
+    }
+  ]
+}

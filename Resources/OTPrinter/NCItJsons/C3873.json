@@ -1,0 +1,980 @@
+{
+  "code": "C3873",
+  "name": "Ovarian Germ Cell Tumor",
+  "terminology": "ncit",
+  "version": "25.11d",
+  "conceptStatus": "DEFAULT",
+  "leaf": false,
+  "active": true,
+  "synonyms": [
+    {
+      "name": "Ovarian Germ Cell Tumor",
+      "termType": "DN",
+      "type": "FULL_SYN",
+      "source": "CTRP"
+    },
+    {
+      "name": "ovarian germ cell tumor",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NCI-GLOSS",
+      "code": "CDR0000446560"
+    },
+    {
+      "name": "Germ Cell Neoplasm of Ovary",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Germ Cell Neoplasm of the Ovary",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Germ Cell Tumor of Ovary",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Germ Cell Tumor of the Ovary",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Ovarian Germ Cell Neoplasm",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Ovarian Germ Cell Tumor",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Ovarian Germ Cell Tumor",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NICHD"
+    },
+    {
+      "name": "Ovarian Germ Cell Tumor",
+      "type": "Display_Name"
+    },
+    {
+      "name": "Ovarian Germ Cell Tumor",
+      "type": "Preferred_Name"
+    }
+  ],
+  "definitions": [
+    {
+      "definition": "A neoplasm arising from gonadal tissue within the ovary.",
+      "type": "ALT_DEFINITION",
+      "source": "NICHD"
+    },
+    {
+      "definition": "A neoplasm that arises from the ovary and originates from germ cells. Representative examples include teratoma, embryonal carcinoma, yolk sac tumor, and dysgerminoma.",
+      "type": "DEFINITION",
+      "source": "NCI"
+    },
+    {
+      "definition": "An abnormal mass of tissue that forms in germ (egg) cells in the ovary (female reproductive gland in which the eggs are formed). These tumors usually occur in teenage girls or young women, usually affect just one ovary, and can be benign (not cancer) or malignant (cancer). The most common ovarian germ cell tumor is called dysgerminoma.",
+      "type": "ALT_DEFINITION",
+      "source": "NCI-GLOSS"
+    }
+  ],
+  "properties": [
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "CTRP"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "MedDRA"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "NICHD"
+    },
+    {
+      "code": "P366",
+      "type": "Legacy Concept Name",
+      "value": "Ovarian_Germ_Cell_Tumor"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "Ovarian germ cell tumor"
+    },
+    {
+      "code": "P363",
+      "type": "Neoplastic_Status",
+      "value": "Undetermined"
+    },
+    {
+      "code": "P106",
+      "type": "Semantic_Type",
+      "value": "Neoplastic Process"
+    },
+    {
+      "code": "P207",
+      "type": "UMLS_CUI",
+      "value": "C0238324"
+    }
+  ],
+  "children": [
+    {
+      "code": "C4516",
+      "name": "Benign Ovarian Germ Cell Tumor",
+      "leaf": false
+    },
+    {
+      "code": "C8588",
+      "name": "Childhood Ovarian Germ Cell Tumor",
+      "leaf": false
+    },
+    {
+      "code": "C4514",
+      "name": "Malignant Ovarian Germ Cell Tumor",
+      "leaf": false
+    },
+    {
+      "code": "C8110",
+      "name": "Ovarian Teratoma",
+      "leaf": false
+    }
+  ],
+  "parents": [
+    {
+      "code": "C3708",
+      "name": "Germ Cell Tumor"
+    },
+    {
+      "code": "C26786",
+      "name": "Gonadal Disorder"
+    },
+    {
+      "code": "C4984",
+      "name": "Ovarian Neoplasm"
+    }
+  ],
+  "associations": [
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C118168",
+      "relatedName": "CTRP Disease Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C116977",
+      "relatedName": "CTRP Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C126659",
+      "relatedName": "NCIt Neoplasm Core Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C90259",
+      "relatedName": "NICHD Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C189762",
+      "relatedName": "Pediatric Adverse Events Terminology Mapped to MedDRA"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C118464",
+      "relatedName": "Pediatric Adverse Events Terminology"
+    }
+  ],
+  "roles": [
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C137974",
+      "relatedName": "Adnexa"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12402",
+      "relatedName": "Female Reproductive System"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12810",
+      "relatedName": "Genitourinary System"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C12597",
+      "relatedName": "Germ Cell"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C54105",
+      "relatedName": "Germinal Layer"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12725",
+      "relatedName": "Gonad"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12922",
+      "relatedName": "Neoplastic Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36903",
+      "relatedName": "Neoplastic Germ Cell"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C36898",
+      "relatedName": "Neoplastic Sex Cord-Stromal Cell"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12404",
+      "relatedName": "Ovary"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12404",
+      "relatedName": "Ovary"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12841",
+      "relatedName": "Reproductive System"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12321",
+      "relatedName": "Uterine Adnexa"
+    }
+  ],
+  "history": [
+    {
+      "code": "C3873",
+      "action": "create",
+      "date": "2003-08-12"
+    },
+    {
+      "code": "C3873",
+      "action": "modify",
+      "date": "2003-10-31"
+    },
+    {
+      "code": "C3873",
+      "action": "modify",
+      "date": "2003-12-05"
+    },
+    {
+      "code": "C3873",
+      "action": "modify",
+      "date": "2003-12-30"
+    },
+    {
+      "code": "C3873",
+      "action": "modify",
+      "date": "2004-03-30"
+    },
+    {
+      "code": "C3873",
+      "action": "modify",
+      "date": "2004-08-02"
+    },
+    {
+      "code": "C3873",
+      "action": "modify",
+      "date": "2006-06-30"
+    },
+    {
+      "code": "C3873",
+      "action": "modify",
+      "date": "2006-07-28"
+    },
+    {
+      "code": "C3873",
+      "action": "modify",
+      "date": "2009-11-23"
+    },
+    {
+      "code": "C3873",
+      "action": "modify",
+      "date": "2010-11-01"
+    },
+    {
+      "code": "C3873",
+      "action": "modify",
+      "date": "2010-11-08"
+    },
+    {
+      "code": "C3873",
+      "action": "modify",
+      "date": "2010-11-15"
+    },
+    {
+      "code": "C3873",
+      "action": "modify",
+      "date": "2010-11-22"
+    },
+    {
+      "code": "C3873",
+      "action": "modify",
+      "date": "2010-11-29"
+    },
+    {
+      "code": "C3873",
+      "action": "modify",
+      "date": "2010-12-06"
+    },
+    {
+      "code": "C3873",
+      "action": "modify",
+      "date": "2010-12-13"
+    },
+    {
+      "code": "C3873",
+      "action": "modify",
+      "date": "2010-12-27"
+    },
+    {
+      "code": "C3873",
+      "action": "modify",
+      "date": "2011-01-03"
+    },
+    {
+      "code": "C3873",
+      "action": "modify",
+      "date": "2011-01-10"
+    },
+    {
+      "code": "C3873",
+      "action": "modify",
+      "date": "2011-01-17"
+    },
+    {
+      "code": "C3873",
+      "action": "modify",
+      "date": "2011-01-24"
+    },
+    {
+      "code": "C3873",
+      "action": "modify",
+      "date": "2011-01-31"
+    },
+    {
+      "code": "C3873",
+      "action": "modify",
+      "date": "2011-09-26"
+    },
+    {
+      "code": "C3873",
+      "action": "modify",
+      "date": "2014-02-03"
+    },
+    {
+      "code": "C3873",
+      "action": "modify",
+      "date": "2014-03-05"
+    },
+    {
+      "code": "C3873",
+      "action": "modify",
+      "date": "2014-08-25"
+    },
+    {
+      "code": "C3873",
+      "action": "modify",
+      "date": "2014-09-22"
+    },
+    {
+      "code": "C3873",
+      "action": "modify",
+      "date": "2014-10-27"
+    },
+    {
+      "code": "C3873",
+      "action": "modify",
+      "date": "2014-11-03"
+    },
+    {
+      "code": "C3873",
+      "action": "modify",
+      "date": "2014-11-10"
+    },
+    {
+      "code": "C3873",
+      "action": "modify",
+      "date": "2014-11-17"
+    },
+    {
+      "code": "C3873",
+      "action": "modify",
+      "date": "2014-11-24"
+    },
+    {
+      "code": "C3873",
+      "action": "modify",
+      "date": "2014-12-01"
+    },
+    {
+      "code": "C3873",
+      "action": "modify",
+      "date": "2014-12-08"
+    },
+    {
+      "code": "C3873",
+      "action": "modify",
+      "date": "2014-12-15"
+    },
+    {
+      "code": "C3873",
+      "action": "modify",
+      "date": "2014-12-22"
+    },
+    {
+      "code": "C3873",
+      "action": "modify",
+      "date": "2014-12-29"
+    },
+    {
+      "code": "C3873",
+      "action": "modify",
+      "date": "2015-01-05"
+    },
+    {
+      "code": "C3873",
+      "action": "modify",
+      "date": "2015-01-12"
+    },
+    {
+      "code": "C3873",
+      "action": "modify",
+      "date": "2015-01-20"
+    },
+    {
+      "code": "C3873",
+      "action": "modify",
+      "date": "2015-01-26"
+    },
+    {
+      "code": "C3873",
+      "action": "modify",
+      "date": "2015-02-02"
+    },
+    {
+      "code": "C3873",
+      "action": "modify",
+      "date": "2015-02-09"
+    },
+    {
+      "code": "C3873",
+      "action": "modify",
+      "date": "2015-02-17"
+    },
+    {
+      "code": "C3873",
+      "action": "modify",
+      "date": "2015-02-23"
+    },
+    {
+      "code": "C3873",
+      "action": "modify",
+      "date": "2015-03-02"
+    },
+    {
+      "code": "C3873",
+      "action": "modify",
+      "date": "2015-03-09"
+    },
+    {
+      "code": "C3873",
+      "action": "modify",
+      "date": "2015-03-16"
+    },
+    {
+      "code": "C3873",
+      "action": "modify",
+      "date": "2015-03-23"
+    },
+    {
+      "code": "C3873",
+      "action": "modify",
+      "date": "2015-03-30"
+    },
+    {
+      "code": "C3873",
+      "action": "modify",
+      "date": "2015-04-06"
+    },
+    {
+      "code": "C3873",
+      "action": "modify",
+      "date": "2015-04-13"
+    },
+    {
+      "code": "C3873",
+      "action": "modify",
+      "date": "2015-04-20"
+    },
+    {
+      "code": "C3873",
+      "action": "modify",
+      "date": "2015-04-27"
+    },
+    {
+      "code": "C3873",
+      "action": "modify",
+      "date": "2015-05-04"
+    },
+    {
+      "code": "C3873",
+      "action": "modify",
+      "date": "2015-05-11"
+    },
+    {
+      "code": "C3873",
+      "action": "modify",
+      "date": "2015-05-18"
+    },
+    {
+      "code": "C3873",
+      "action": "modify",
+      "date": "2015-05-26"
+    },
+    {
+      "code": "C3873",
+      "action": "modify",
+      "date": "2015-06-01"
+    },
+    {
+      "code": "C3873",
+      "action": "modify",
+      "date": "2015-06-08"
+    },
+    {
+      "code": "C3873",
+      "action": "modify",
+      "date": "2015-06-15"
+    },
+    {
+      "code": "C3873",
+      "action": "modify",
+      "date": "2015-06-22"
+    },
+    {
+      "code": "C3873",
+      "action": "modify",
+      "date": "2015-06-29"
+    },
+    {
+      "code": "C3873",
+      "action": "modify",
+      "date": "2015-07-06"
+    },
+    {
+      "code": "C3873",
+      "action": "modify",
+      "date": "2015-07-13"
+    },
+    {
+      "code": "C3873",
+      "action": "modify",
+      "date": "2015-08-12"
+    },
+    {
+      "code": "C3873",
+      "action": "modify",
+      "date": "2015-08-24"
+    },
+    {
+      "code": "C3873",
+      "action": "modify",
+      "date": "2015-08-31"
+    },
+    {
+      "code": "C3873",
+      "action": "modify",
+      "date": "2015-09-08"
+    },
+    {
+      "code": "C3873",
+      "action": "modify",
+      "date": "2015-09-14"
+    },
+    {
+      "code": "C3873",
+      "action": "modify",
+      "date": "2015-09-21"
+    },
+    {
+      "code": "C3873",
+      "action": "modify",
+      "date": "2015-09-28"
+    },
+    {
+      "code": "C3873",
+      "action": "modify",
+      "date": "2015-10-05"
+    },
+    {
+      "code": "C3873",
+      "action": "modify",
+      "date": "2015-10-13"
+    },
+    {
+      "code": "C3873",
+      "action": "modify",
+      "date": "2015-10-19"
+    },
+    {
+      "code": "C3873",
+      "action": "modify",
+      "date": "2015-10-26"
+    },
+    {
+      "code": "C3873",
+      "action": "modify",
+      "date": "2015-11-02"
+    },
+    {
+      "code": "C3873",
+      "action": "modify",
+      "date": "2015-11-09"
+    },
+    {
+      "code": "C3873",
+      "action": "modify",
+      "date": "2015-11-16"
+    },
+    {
+      "code": "C3873",
+      "action": "modify",
+      "date": "2015-11-23"
+    },
+    {
+      "code": "C3873",
+      "action": "modify",
+      "date": "2015-11-30"
+    },
+    {
+      "code": "C3873",
+      "action": "modify",
+      "date": "2015-12-07"
+    },
+    {
+      "code": "C3873",
+      "action": "modify",
+      "date": "2015-12-14"
+    },
+    {
+      "code": "C3873",
+      "action": "modify",
+      "date": "2015-12-21"
+    },
+    {
+      "code": "C3873",
+      "action": "modify",
+      "date": "2015-12-28"
+    },
+    {
+      "code": "C3873",
+      "action": "modify",
+      "date": "2016-01-04"
+    },
+    {
+      "code": "C3873",
+      "action": "modify",
+      "date": "2016-01-11"
+    },
+    {
+      "code": "C3873",
+      "action": "modify",
+      "date": "2016-01-19"
+    },
+    {
+      "code": "C3873",
+      "action": "modify",
+      "date": "2016-01-29"
+    },
+    {
+      "code": "C3873",
+      "action": "modify",
+      "date": "2016-04-18"
+    },
+    {
+      "code": "C3873",
+      "action": "modify",
+      "date": "2016-04-25"
+    },
+    {
+      "code": "C3873",
+      "action": "modify",
+      "date": "2016-05-09"
+    },
+    {
+      "code": "C3873",
+      "action": "modify",
+      "date": "2016-05-16"
+    },
+    {
+      "code": "C3873",
+      "action": "modify",
+      "date": "2016-05-23"
+    },
+    {
+      "code": "C3873",
+      "action": "modify",
+      "date": "2016-05-31"
+    },
+    {
+      "code": "C3873",
+      "action": "modify",
+      "date": "2016-06-06"
+    },
+    {
+      "code": "C3873",
+      "action": "modify",
+      "date": "2016-06-13"
+    },
+    {
+      "code": "C3873",
+      "action": "modify",
+      "date": "2016-06-17"
+    },
+    {
+      "code": "C3873",
+      "action": "modify",
+      "date": "2016-06-27"
+    },
+    {
+      "code": "C3873",
+      "action": "modify",
+      "date": "2016-07-05"
+    },
+    {
+      "code": "C3873",
+      "action": "modify",
+      "date": "2016-07-11"
+    },
+    {
+      "code": "C3873",
+      "action": "modify",
+      "date": "2016-07-18"
+    },
+    {
+      "code": "C3873",
+      "action": "modify",
+      "date": "2016-07-25"
+    },
+    {
+      "code": "C3873",
+      "action": "modify",
+      "date": "2016-08-01"
+    },
+    {
+      "code": "C3873",
+      "action": "modify",
+      "date": "2016-08-08"
+    },
+    {
+      "code": "C3873",
+      "action": "modify",
+      "date": "2016-08-15"
+    },
+    {
+      "code": "C3873",
+      "action": "modify",
+      "date": "2016-08-22"
+    },
+    {
+      "code": "C3873",
+      "action": "modify",
+      "date": "2016-08-29"
+    },
+    {
+      "code": "C3873",
+      "action": "modify",
+      "date": "2016-09-06"
+    },
+    {
+      "code": "C3873",
+      "action": "modify",
+      "date": "2016-09-12"
+    },
+    {
+      "code": "C3873",
+      "action": "modify",
+      "date": "2016-09-20"
+    },
+    {
+      "code": "C3873",
+      "action": "modify",
+      "date": "2016-09-26"
+    },
+    {
+      "code": "C3873",
+      "action": "modify",
+      "date": "2016-10-03"
+    },
+    {
+      "code": "C3873",
+      "action": "modify",
+      "date": "2016-10-11"
+    },
+    {
+      "code": "C3873",
+      "action": "modify",
+      "date": "2016-10-17"
+    },
+    {
+      "code": "C3873",
+      "action": "modify",
+      "date": "2016-10-24"
+    },
+    {
+      "code": "C3873",
+      "action": "modify",
+      "date": "2016-10-31"
+    },
+    {
+      "code": "C3873",
+      "action": "modify",
+      "date": "2016-11-07"
+    },
+    {
+      "code": "C3873",
+      "action": "modify",
+      "date": "2016-11-14"
+    },
+    {
+      "code": "C3873",
+      "action": "modify",
+      "date": "2016-11-21"
+    },
+    {
+      "code": "C3873",
+      "action": "modify",
+      "date": "2016-11-28"
+    },
+    {
+      "code": "C3873",
+      "action": "modify",
+      "date": "2016-12-05"
+    },
+    {
+      "code": "C3873",
+      "action": "modify",
+      "date": "2016-12-12"
+    },
+    {
+      "code": "C3873",
+      "action": "modify",
+      "date": "2016-12-19"
+    },
+    {
+      "code": "C3873",
+      "action": "modify",
+      "date": "2016-12-27"
+    },
+    {
+      "code": "C3873",
+      "action": "modify",
+      "date": "2017-01-03"
+    },
+    {
+      "code": "C3873",
+      "action": "modify",
+      "date": "2017-01-09"
+    },
+    {
+      "code": "C3873",
+      "action": "modify",
+      "date": "2017-01-17"
+    },
+    {
+      "code": "C3873",
+      "action": "modify",
+      "date": "2017-01-23"
+    },
+    {
+      "code": "C3873",
+      "action": "modify",
+      "date": "2017-02-21"
+    },
+    {
+      "code": "C3873",
+      "action": "modify",
+      "date": "2017-07-31"
+    },
+    {
+      "code": "C3873",
+      "action": "modify",
+      "date": "2018-07-30"
+    },
+    {
+      "code": "C3873",
+      "action": "modify",
+      "date": "2018-08-27"
+    },
+    {
+      "code": "C3873",
+      "action": "modify",
+      "date": "2018-08-27"
+    },
+    {
+      "code": "C3873",
+      "action": "modify",
+      "date": "2020-03-30"
+    },
+    {
+      "code": "C3873",
+      "action": "modify",
+      "date": "2020-08-31"
+    },
+    {
+      "code": "C3873",
+      "action": "modify",
+      "date": "2020-09-29"
+    },
+    {
+      "code": "C3873",
+      "action": "modify",
+      "date": "2021-03-29"
+    },
+    {
+      "code": "C3873",
+      "action": "modify",
+      "date": "2022-09-26"
+    },
+    {
+      "code": "C3873",
+      "action": "modify",
+      "date": "2025-04-28"
+    }
+  ],
+  "maps": [
+    {
+      "type": "Has Synonym",
+      "targetName": "Ovarian germ cell tumor",
+      "targetTermType": "LLT",
+      "targetCode": "10075820",
+      "targetTerminology": "MedDRA",
+      "targetTerminologyVersion": "18.1"
+    }
+  ]
+}

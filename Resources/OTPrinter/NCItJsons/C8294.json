@@ -1,0 +1,761 @@
+{
+  "code": "C8294",
+  "name": "Pancreatic Adenocarcinoma",
+  "terminology": "ncit",
+  "version": "25.11d",
+  "conceptStatus": "DEFAULT",
+  "leaf": false,
+  "active": true,
+  "synonyms": [
+    {
+      "name": "Pancreatic Adenocarcinoma",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "caDSR"
+    },
+    {
+      "name": "Pancreatic Adenocarcinoma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "Cellosaurus"
+    },
+    {
+      "name": "Adenocarcinoma - pancreas",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "CTEP",
+      "code": "10052747",
+      "subSource": "SDC"
+    },
+    {
+      "name": "Adenocarcinoma of the pancreas",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "CTEP",
+      "code": "10052747",
+      "subSource": "SDC"
+    },
+    {
+      "name": "Pancreatic Adenocarcinoma",
+      "termType": "DN",
+      "type": "FULL_SYN",
+      "source": "CTRP"
+    },
+    {
+      "name": "Adenocarcinoma of Pancreas",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Adenocarcinoma of the Pancreas",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Pancreas Adenocarcinoma",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Pancreatic Adenocarcinoma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Pancreatic Adenocarcinoma",
+      "type": "Display_Name"
+    },
+    {
+      "name": "Pancreatic Adenocarcinoma",
+      "type": "Preferred_Name"
+    }
+  ],
+  "definitions": [
+    {
+      "definition": "An adenocarcinoma which arises from the exocrine pancreas.  Ductal adenocarcinoma and its variants are the most common types of pancreatic adenocarcinoma.",
+      "type": "DEFINITION",
+      "source": "NCI"
+    }
+  ],
+  "properties": [
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "Cellosaurus"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "CTEP"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "CTRP"
+    },
+    {
+      "code": "P366",
+      "type": "Legacy Concept Name",
+      "value": "Pancreatic_Adenocarcinoma"
+    },
+    {
+      "code": "P363",
+      "type": "Neoplastic_Status",
+      "value": "Malignant"
+    },
+    {
+      "code": "P106",
+      "type": "Semantic_Type",
+      "value": "Neoplastic Process"
+    },
+    {
+      "code": "P207",
+      "type": "UMLS_CUI",
+      "value": "C0281361"
+    }
+  ],
+  "children": [
+    {
+      "code": "C172813",
+      "name": "Invasive Pancreatic Micropapillary Adenocarcinoma",
+      "leaf": true
+    },
+    {
+      "code": "C169041",
+      "name": "Localized Pancreatic Adenocarcinoma",
+      "leaf": false
+    },
+    {
+      "code": "C8933",
+      "name": "Metastatic Pancreatic Adenocarcinoma",
+      "leaf": false
+    },
+    {
+      "code": "C7977",
+      "name": "Pancreatic Acinar Cell Carcinoma",
+      "leaf": false
+    },
+    {
+      "code": "C3874",
+      "name": "Pancreatic Cystadenocarcinoma",
+      "leaf": false
+    },
+    {
+      "code": "C9120",
+      "name": "Pancreatic Ductal Adenocarcinoma",
+      "leaf": false
+    },
+    {
+      "code": "C5726",
+      "name": "Pancreatic Intraductal Papillary-Mucinous Neoplasm with an Associated Invasive Carcinoma",
+      "leaf": true
+    },
+    {
+      "code": "C95507",
+      "name": "Pancreatic Intraductal Tubulopapillary Neoplasm with an Associated Invasive Carcinoma",
+      "leaf": true
+    },
+    {
+      "code": "C95458",
+      "name": "Pancreatic Mixed Acinar-Ductal Carcinoma",
+      "leaf": true
+    },
+    {
+      "code": "C155742",
+      "name": "Recurrent Pancreatic Adenocarcinoma",
+      "leaf": false
+    },
+    {
+      "code": "C162015",
+      "name": "Refractory Pancreatic Adenocarcinoma",
+      "leaf": false
+    },
+    {
+      "code": "C156906",
+      "name": "Resectable Pancreatic Adenocarcinoma",
+      "leaf": false
+    },
+    {
+      "code": "C5729",
+      "name": "Stage 0 Pancreatic Cancer AJCC v6 and v7",
+      "leaf": true
+    },
+    {
+      "code": "C134914",
+      "name": "Stage 0 Pancreatic Cancer AJCC v8",
+      "leaf": true
+    },
+    {
+      "code": "C162016",
+      "name": "Unresectable Pancreatic Adenocarcinoma",
+      "leaf": false
+    }
+  ],
+  "parents": [
+    {
+      "code": "C210140",
+      "name": "Digestive System Adenocarcinoma"
+    },
+    {
+      "code": "C3850",
+      "name": "Exocrine Pancreas Carcinoma"
+    }
+  ],
+  "associations": [
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C165258",
+      "relatedName": "Cellosaurus Disease Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C118168",
+      "relatedName": "CTRP Disease Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C116977",
+      "relatedName": "CTRP Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C103067",
+      "relatedName": "NCI CTEP SDC Pancreatic Cancer (excluding Islets) Sub-Category Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C102905",
+      "relatedName": "NCI CTEP Simplified Disease Classification Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C126659",
+      "relatedName": "NCIt Neoplasm Core Terminology"
+    }
+  ],
+  "roles": [
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C26682",
+      "relatedName": "Abdominal Pain"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36773",
+      "relatedName": "Adenocarcinoma Cell"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C36122",
+      "relatedName": "Benign Cellular Infiltrate"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C54172",
+      "relatedName": "Carcinomatous Component Present"
+    },
+    {
+      "type": "Disease_May_Have_Associated_Disease",
+      "relatedCode": "C2985",
+      "relatedName": "Diabetes Mellitus"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12378",
+      "relatedName": "Digestive System"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12378",
+      "relatedName": "Digestive System"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C12578",
+      "relatedName": "Epithelial Cell"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C53596",
+      "relatedName": "Epithelial Component Present"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C45714",
+      "relatedName": "Epithelial Tissue"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C32546",
+      "relatedName": "Exocrine Pancreas"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C33923",
+      "relatedName": "Glandular Cell"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C43370",
+      "relatedName": "Glandular Epithelium"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C214985",
+      "relatedName": "Hepatopancreatobiliary System"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C155862",
+      "relatedName": "Intermediate Grade Neuroendocrine Lesion"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C3143",
+      "relatedName": "Jaundice"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C155864",
+      "relatedName": "Low Grade Neuroendocrine Lesion"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12917",
+      "relatedName": "Malignant Cell"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C36115",
+      "relatedName": "Malignant Cellular Infiltrate"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36779",
+      "relatedName": "Malignant Epithelial Cell"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C36771",
+      "relatedName": "Malignant Squamous Cell"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C37153",
+      "relatedName": "Malignant Stromal Cell"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C62273",
+      "relatedName": "Mixed Neoplastic Glandular and Squamous Cell Population"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12922",
+      "relatedName": "Neoplastic Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36753",
+      "relatedName": "Neoplastic Epithelial Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36763",
+      "relatedName": "Neoplastic Glandular Cell"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C36937",
+      "relatedName": "Neoplastic Smooth Muscle Cell"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C36760",
+      "relatedName": "Neoplastic Squamous Cell"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12393",
+      "relatedName": "Pancreas"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12393",
+      "relatedName": "Pancreas"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C166416",
+      "relatedName": "Pancreatobiliary System"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C3344",
+      "relatedName": "Pruritus"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C3445",
+      "relatedName": "Weight Loss"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C155861",
+      "relatedName": "Well Differentiated Neuroendocrine Lesion"
+    }
+  ],
+  "inverseRoles": [
+    {
+      "type": "Gene_Product_Malfunction_Associated_With_Disease",
+      "relatedCode": "C18179",
+      "relatedName": "Baculoviral IAP Repeat-Containing Protein 5"
+    },
+    {
+      "type": "Gene_Associated_With_Disease",
+      "relatedCode": "C20350",
+      "relatedName": "BIRC5 Gene"
+    },
+    {
+      "type": "Gene_Associated_With_Disease",
+      "relatedCode": "C49359",
+      "relatedName": "BIRC5 wt Allele"
+    }
+  ],
+  "history": [
+    {
+      "code": "C8294",
+      "action": "create",
+      "date": "2003-08-12"
+    },
+    {
+      "code": "C8294",
+      "action": "modify",
+      "date": "2003-10-31"
+    },
+    {
+      "code": "C8294",
+      "action": "modify",
+      "date": "2003-12-30"
+    },
+    {
+      "code": "C8294",
+      "action": "modify",
+      "date": "2004-03-30"
+    },
+    {
+      "code": "C8294",
+      "action": "modify",
+      "date": "2004-11-01"
+    },
+    {
+      "code": "C8294",
+      "action": "modify",
+      "date": "2005-06-24"
+    },
+    {
+      "code": "C8294",
+      "action": "modify",
+      "date": "2006-03-31"
+    },
+    {
+      "code": "C8294",
+      "action": "modify",
+      "date": "2006-05-26"
+    },
+    {
+      "code": "C8294",
+      "action": "modify",
+      "date": "2006-06-30"
+    },
+    {
+      "code": "C8294",
+      "action": "modify",
+      "date": "2007-10-29"
+    },
+    {
+      "code": "C8294",
+      "action": "modify",
+      "date": "2009-04-06"
+    },
+    {
+      "code": "C8294",
+      "action": "modify",
+      "date": "2009-11-23"
+    },
+    {
+      "code": "C8294",
+      "action": "modify",
+      "date": "2012-09-24"
+    },
+    {
+      "code": "C8294",
+      "action": "modify",
+      "date": "2012-10-01"
+    },
+    {
+      "code": "C8294",
+      "action": "modify",
+      "date": "2012-10-09"
+    },
+    {
+      "code": "C8294",
+      "action": "modify",
+      "date": "2012-10-15"
+    },
+    {
+      "code": "C8294",
+      "action": "modify",
+      "date": "2012-10-22"
+    },
+    {
+      "code": "C8294",
+      "action": "modify",
+      "date": "2012-10-31"
+    },
+    {
+      "code": "C8294",
+      "action": "modify",
+      "date": "2012-11-05"
+    },
+    {
+      "code": "C8294",
+      "action": "modify",
+      "date": "2012-11-13"
+    },
+    {
+      "code": "C8294",
+      "action": "modify",
+      "date": "2012-11-19"
+    },
+    {
+      "code": "C8294",
+      "action": "modify",
+      "date": "2012-11-26"
+    },
+    {
+      "code": "C8294",
+      "action": "modify",
+      "date": "2012-12-03"
+    },
+    {
+      "code": "C8294",
+      "action": "modify",
+      "date": "2012-12-10"
+    },
+    {
+      "code": "C8294",
+      "action": "modify",
+      "date": "2012-12-17"
+    },
+    {
+      "code": "C8294",
+      "action": "modify",
+      "date": "2012-12-28"
+    },
+    {
+      "code": "C8294",
+      "action": "modify",
+      "date": "2013-01-07"
+    },
+    {
+      "code": "C8294",
+      "action": "modify",
+      "date": "2013-01-14"
+    },
+    {
+      "code": "C8294",
+      "action": "modify",
+      "date": "2013-01-23"
+    },
+    {
+      "code": "C8294",
+      "action": "modify",
+      "date": "2013-02-04"
+    },
+    {
+      "code": "C8294",
+      "action": "modify",
+      "date": "2013-02-11"
+    },
+    {
+      "code": "C8294",
+      "action": "modify",
+      "date": "2013-02-19"
+    },
+    {
+      "code": "C8294",
+      "action": "modify",
+      "date": "2013-02-25"
+    },
+    {
+      "code": "C8294",
+      "action": "modify",
+      "date": "2013-03-04"
+    },
+    {
+      "code": "C8294",
+      "action": "modify",
+      "date": "2013-03-11"
+    },
+    {
+      "code": "C8294",
+      "action": "modify",
+      "date": "2013-03-18"
+    },
+    {
+      "code": "C8294",
+      "action": "modify",
+      "date": "2013-03-25"
+    },
+    {
+      "code": "C8294",
+      "action": "modify",
+      "date": "2013-04-01"
+    },
+    {
+      "code": "C8294",
+      "action": "modify",
+      "date": "2013-04-08"
+    },
+    {
+      "code": "C8294",
+      "action": "modify",
+      "date": "2013-04-15"
+    },
+    {
+      "code": "C8294",
+      "action": "modify",
+      "date": "2013-04-22"
+    },
+    {
+      "code": "C8294",
+      "action": "modify",
+      "date": "2013-04-29"
+    },
+    {
+      "code": "C8294",
+      "action": "modify",
+      "date": "2013-05-06"
+    },
+    {
+      "code": "C8294",
+      "action": "modify",
+      "date": "2013-05-13"
+    },
+    {
+      "code": "C8294",
+      "action": "modify",
+      "date": "2013-05-20"
+    },
+    {
+      "code": "C8294",
+      "action": "modify",
+      "date": "2013-05-28"
+    },
+    {
+      "code": "C8294",
+      "action": "modify",
+      "date": "2013-06-03"
+    },
+    {
+      "code": "C8294",
+      "action": "modify",
+      "date": "2013-06-10"
+    },
+    {
+      "code": "C8294",
+      "action": "modify",
+      "date": "2013-06-17"
+    },
+    {
+      "code": "C8294",
+      "action": "modify",
+      "date": "2013-06-24"
+    },
+    {
+      "code": "C8294",
+      "action": "modify",
+      "date": "2013-07-01"
+    },
+    {
+      "code": "C8294",
+      "action": "modify",
+      "date": "2013-07-08"
+    },
+    {
+      "code": "C8294",
+      "action": "modify",
+      "date": "2014-08-04"
+    },
+    {
+      "code": "C8294",
+      "action": "modify",
+      "date": "2014-08-18"
+    },
+    {
+      "code": "C8294",
+      "action": "modify",
+      "date": "2014-09-22"
+    },
+    {
+      "code": "C8294",
+      "action": "modify",
+      "date": "2016-04-25"
+    },
+    {
+      "code": "C8294",
+      "action": "modify",
+      "date": "2017-07-31"
+    },
+    {
+      "code": "C8294",
+      "action": "modify",
+      "date": "2018-07-30"
+    },
+    {
+      "code": "C8294",
+      "action": "modify",
+      "date": "2018-08-27"
+    },
+    {
+      "code": "C8294",
+      "action": "modify",
+      "date": "2018-08-27"
+    },
+    {
+      "code": "C8294",
+      "action": "modify",
+      "date": "2018-11-26"
+    },
+    {
+      "code": "C8294",
+      "action": "modify",
+      "date": "2019-10-28"
+    },
+    {
+      "code": "C8294",
+      "action": "modify",
+      "date": "2020-09-29"
+    },
+    {
+      "code": "C8294",
+      "action": "modify",
+      "date": "2023-02-27"
+    },
+    {
+      "code": "C8294",
+      "action": "modify",
+      "date": "2024-09-30"
+    },
+    {
+      "code": "C8294",
+      "action": "modify",
+      "date": "2025-03-31"
+    }
+  ]
+}

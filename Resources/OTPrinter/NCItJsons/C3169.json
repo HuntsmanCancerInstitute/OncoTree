@@ -1,0 +1,749 @@
+{
+  "code": "C3169",
+  "name": "Mast Cell Leukemia",
+  "terminology": "ncit",
+  "version": "25.11d",
+  "conceptStatus": "DEFAULT",
+  "leaf": false,
+  "active": true,
+  "synonyms": [
+    {
+      "name": "Mast Cell Leukemia",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "caDSR"
+    },
+    {
+      "name": "LEUKEMIA, MAST CELL, MALIGNANT",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "CDISC"
+    },
+    {
+      "name": "Mast Cell Leukemia",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "Cellosaurus"
+    },
+    {
+      "name": "Mast Cell Leukemia",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "CPTAC"
+    },
+    {
+      "name": "Mast Cell Leukemia",
+      "termType": "DN",
+      "type": "FULL_SYN",
+      "source": "CTRP"
+    },
+    {
+      "name": "Mast cell leukaemia",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "GDC"
+    },
+    {
+      "name": "Mast Cell Leukemia",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Mast Cell Leukemia",
+      "type": "Display_Name"
+    },
+    {
+      "name": "Mast Cell Leukemia",
+      "type": "Preferred_Name"
+    }
+  ],
+  "definitions": [
+    {
+      "definition": "A progressive, proliferative disease of blood cells, originating from mast cells.",
+      "type": "ALT_DEFINITION",
+      "source": "CDISC"
+    },
+    {
+      "definition": "A variant of systemic mastocytosis with involvement of the bone marrow (20% or more mast cells) and the peripheral blood (mast cells account for 10% or more of peripheral blood white cells). (WHO, 2001)",
+      "type": "DEFINITION",
+      "source": "NCI"
+    }
+  ],
+  "properties": [
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "CDISC"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "Cellosaurus"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "CPTAC"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "CTRP"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "GDC"
+    },
+    {
+      "code": "P334",
+      "type": "ICD-O-3_Code",
+      "value": "9742/3"
+    },
+    {
+      "code": "P366",
+      "type": "Legacy Concept Name",
+      "value": "Mast_Cell_Leukemia"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "9742/3"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "Mast cell leukaemia"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "Mast cell leukemia"
+    },
+    {
+      "code": "P363",
+      "type": "Neoplastic_Status",
+      "value": "Malignant"
+    },
+    {
+      "code": "P106",
+      "type": "Semantic_Type",
+      "value": "Neoplastic Process"
+    },
+    {
+      "code": "P207",
+      "type": "UMLS_CUI",
+      "value": "C0023461"
+    }
+  ],
+  "children": [
+    {
+      "code": "C188031",
+      "name": "Mast Cell Leukemia with an Associated Myeloid Neoplasm",
+      "leaf": true
+    },
+    {
+      "code": "C193426",
+      "name": "Recurrent Mast Cell Leukemia",
+      "leaf": true
+    }
+  ],
+  "parents": [
+    {
+      "code": "C8991",
+      "name": "Malignant Mastocytosis"
+    },
+    {
+      "code": "C3172",
+      "name": "Myeloid Leukemia"
+    }
+  ],
+  "associations": [
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C77526",
+      "relatedName": "CDISC SEND Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C88025",
+      "relatedName": "CDISC SEND Tumor Findings Results Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C165258",
+      "relatedName": "Cellosaurus Disease Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C61410",
+      "relatedName": "Clinical Data Interchange Standards Consortium Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C158520",
+      "relatedName": "CPTAC Codelists Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C156966",
+      "relatedName": "CPTAC Neoplasms Codelist"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C156952",
+      "relatedName": "CPTAC Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C118168",
+      "relatedName": "CTRP Disease Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C116977",
+      "relatedName": "CTRP Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C157711",
+      "relatedName": "GDC Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C177537",
+      "relatedName": "GDC Value Terminology"
+    },
+    {
+      "type": "Is_Value_For_GDC_Property",
+      "relatedCode": "C176985",
+      "relatedName": "Histology ICD-O Morphology Code"
+    },
+    {
+      "type": "Is_Value_For_GDC_Property",
+      "relatedCode": "C177621",
+      "relatedName": "ICD-O-3 Morphology Term Diagnosis Question"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168658",
+      "relatedName": "Mapped ICDO3.1 Morphology PT Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168657",
+      "relatedName": "Mapped ICDO3.1 Morphology Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168655",
+      "relatedName": "Mapped ICDO3.1 Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168662",
+      "relatedName": "Mapped ICDO3.2 Morphology PT Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168661",
+      "relatedName": "Mapped ICDO3.2 Morphology Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168656",
+      "relatedName": "Mapped ICDO3.2 Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C126659",
+      "relatedName": "NCIt Neoplasm Core Terminology"
+    }
+  ],
+  "inverseAssociations": [
+    {
+      "type": "Has_GDC_Value",
+      "relatedCode": "C176985",
+      "relatedName": "Histology ICD-O Morphology Code"
+    },
+    {
+      "type": "Has_GDC_Value",
+      "relatedCode": "C177621",
+      "relatedName": "ICD-O-3 Morphology Term Diagnosis Question"
+    }
+  ],
+  "roles": [
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C36104",
+      "relatedName": "Aggressive Clinical Course"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C36122",
+      "relatedName": "Benign Cellular Infiltrate"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C36212",
+      "relatedName": "Bone Marrow Fibrosis"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C13456",
+      "relatedName": "Bone Marrow Stem Cell"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12431",
+      "relatedName": "Bone Marrow"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12431",
+      "relatedName": "Bone Marrow"
+    },
+    {
+      "type": "Disease_May_Have_Molecular_Abnormality",
+      "relatedCode": "C38407",
+      "relatedName": "C-KIT Somatic Point Mutation"
+    },
+    {
+      "type": "Disease_May_Have_Molecular_Abnormality",
+      "relatedCode": "C39711",
+      "relatedName": "C-KIT Tyrosine Kinase Protein Overexpression"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C41165",
+      "relatedName": "Hematopoietic and Lymphatic System"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C41165",
+      "relatedName": "Hematopoietic and Lymphatic System"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C32725",
+      "relatedName": "Hematopoietic and Lymphoid Cell"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C41168",
+      "relatedName": "Hematopoietic and Lymphoid Tissue"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C13051",
+      "relatedName": "Hematopoietic Tissue"
+    },
+    {
+      "type": "Disease_Mapped_To_Gene",
+      "relatedCode": "C18609",
+      "relatedName": "KIT Gene"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C25553",
+      "relatedName": "Leukemic Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C43274",
+      "relatedName": "Leukemic Mast Cell"
+    },
+    {
+      "type": "Disease_Excludes_Normal_Cell_Origin",
+      "relatedCode": "C12535",
+      "relatedName": "Lymphocyte"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12917",
+      "relatedName": "Malignant Cell"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C36115",
+      "relatedName": "Malignant Cellular Infiltrate"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C12747",
+      "relatedName": "Mast Cell"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C43282",
+      "relatedName": "Mast Cells 10 Percent or More of Peripheral Blood White Cells"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C43281",
+      "relatedName": "Mast Cells 20 Percent or More of Bone Marrow Nucleated Cells"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C41179",
+      "relatedName": "Monoclonal Cellular Population Present"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12922",
+      "relatedName": "Neoplastic Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C37060",
+      "relatedName": "Neoplastic Hematopoietic and Lymphoid Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C37062",
+      "relatedName": "Neoplastic Mast Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C41063",
+      "relatedName": "Neoplastic Myeloid Cell"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C42094",
+      "relatedName": "Rare Lesion"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C43276",
+      "relatedName": "Serum Total Tryptase Levels Increased"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C36182",
+      "relatedName": "Solid Growth Pattern"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C9229",
+      "relatedName": "Systemic Disease"
+    }
+  ],
+  "inverseRoles": [
+    {
+      "type": "Gene_Associated_With_Disease",
+      "relatedCode": "C18348",
+      "relatedName": "Oncogene KIT"
+    }
+  ],
+  "history": [
+    {
+      "code": "C3169",
+      "action": "create",
+      "date": "2003-08-12"
+    },
+    {
+      "code": "C3169",
+      "action": "modify",
+      "date": "2003-12-30"
+    },
+    {
+      "code": "C3169",
+      "action": "modify",
+      "date": "2004-03-30"
+    },
+    {
+      "code": "C3169",
+      "action": "modify",
+      "date": "2005-01-28"
+    },
+    {
+      "code": "C3169",
+      "action": "modify",
+      "date": "2007-03-30"
+    },
+    {
+      "code": "C3169",
+      "action": "modify",
+      "date": "2007-05-25"
+    },
+    {
+      "code": "C3169",
+      "action": "modify",
+      "date": "2007-08-31"
+    },
+    {
+      "code": "C3169",
+      "action": "modify",
+      "date": "2009-10-27"
+    },
+    {
+      "code": "C3169",
+      "action": "modify",
+      "date": "2009-11-23"
+    },
+    {
+      "code": "C3169",
+      "action": "modify",
+      "date": "2013-02-25"
+    },
+    {
+      "code": "C3169",
+      "action": "modify",
+      "date": "2013-03-04"
+    },
+    {
+      "code": "C3169",
+      "action": "modify",
+      "date": "2013-03-11"
+    },
+    {
+      "code": "C3169",
+      "action": "modify",
+      "date": "2013-03-18"
+    },
+    {
+      "code": "C3169",
+      "action": "modify",
+      "date": "2013-03-25"
+    },
+    {
+      "code": "C3169",
+      "action": "modify",
+      "date": "2013-04-01"
+    },
+    {
+      "code": "C3169",
+      "action": "modify",
+      "date": "2013-04-08"
+    },
+    {
+      "code": "C3169",
+      "action": "modify",
+      "date": "2013-04-15"
+    },
+    {
+      "code": "C3169",
+      "action": "modify",
+      "date": "2013-04-22"
+    },
+    {
+      "code": "C3169",
+      "action": "modify",
+      "date": "2013-04-29"
+    },
+    {
+      "code": "C3169",
+      "action": "modify",
+      "date": "2013-05-06"
+    },
+    {
+      "code": "C3169",
+      "action": "modify",
+      "date": "2013-05-13"
+    },
+    {
+      "code": "C3169",
+      "action": "modify",
+      "date": "2013-05-20"
+    },
+    {
+      "code": "C3169",
+      "action": "modify",
+      "date": "2013-05-28"
+    },
+    {
+      "code": "C3169",
+      "action": "modify",
+      "date": "2013-06-03"
+    },
+    {
+      "code": "C3169",
+      "action": "modify",
+      "date": "2013-06-10"
+    },
+    {
+      "code": "C3169",
+      "action": "modify",
+      "date": "2013-06-17"
+    },
+    {
+      "code": "C3169",
+      "action": "modify",
+      "date": "2013-06-24"
+    },
+    {
+      "code": "C3169",
+      "action": "modify",
+      "date": "2013-07-01"
+    },
+    {
+      "code": "C3169",
+      "action": "modify",
+      "date": "2013-07-08"
+    },
+    {
+      "code": "C3169",
+      "action": "modify",
+      "date": "2014-02-03"
+    },
+    {
+      "code": "C3169",
+      "action": "modify",
+      "date": "2014-08-04"
+    },
+    {
+      "code": "C3169",
+      "action": "modify",
+      "date": "2014-08-18"
+    },
+    {
+      "code": "C3169",
+      "action": "modify",
+      "date": "2014-09-22"
+    },
+    {
+      "code": "C3169",
+      "action": "modify",
+      "date": "2016-04-25"
+    },
+    {
+      "code": "C3169",
+      "action": "modify",
+      "date": "2018-07-30"
+    },
+    {
+      "code": "C3169",
+      "action": "modify",
+      "date": "2018-08-27"
+    },
+    {
+      "code": "C3169",
+      "action": "modify",
+      "date": "2018-08-27"
+    },
+    {
+      "code": "C3169",
+      "action": "modify",
+      "date": "2018-09-24"
+    },
+    {
+      "code": "C3169",
+      "action": "modify",
+      "date": "2018-10-29"
+    },
+    {
+      "code": "C3169",
+      "action": "modify",
+      "date": "2018-10-29"
+    },
+    {
+      "code": "C3169",
+      "action": "modify",
+      "date": "2018-12-31"
+    },
+    {
+      "code": "C3169",
+      "action": "modify",
+      "date": "2019-03-25"
+    },
+    {
+      "code": "C3169",
+      "action": "modify",
+      "date": "2019-05-28"
+    },
+    {
+      "code": "C3169",
+      "action": "modify",
+      "date": "2019-09-30"
+    },
+    {
+      "code": "C3169",
+      "action": "modify",
+      "date": "2019-10-28"
+    },
+    {
+      "code": "C3169",
+      "action": "modify",
+      "date": "2019-11-25"
+    },
+    {
+      "code": "C3169",
+      "action": "modify",
+      "date": "2020-02-24"
+    },
+    {
+      "code": "C3169",
+      "action": "modify",
+      "date": "2020-04-27"
+    },
+    {
+      "code": "C3169",
+      "action": "modify",
+      "date": "2020-09-29"
+    },
+    {
+      "code": "C3169",
+      "action": "modify",
+      "date": "2021-02-22"
+    },
+    {
+      "code": "C3169",
+      "action": "modify",
+      "date": "2021-03-29"
+    },
+    {
+      "code": "C3169",
+      "action": "modify",
+      "date": "2021-12-27"
+    },
+    {
+      "code": "C3169",
+      "action": "modify",
+      "date": "2023-02-27"
+    },
+    {
+      "code": "C3169",
+      "action": "modify",
+      "date": "2023-03-27"
+    },
+    {
+      "code": "C3169",
+      "action": "modify",
+      "date": "2025-03-31"
+    }
+  ],
+  "maps": [
+    {
+      "type": "Related To",
+      "targetName": "9742/3",
+      "targetTermType": "PT",
+      "targetCode": "morphology",
+      "targetTerminology": "GDC"
+    },
+    {
+      "type": "Has Synonym",
+      "targetName": "Mast cell leukaemia",
+      "targetTermType": "PT",
+      "targetCode": "primary_diagnosis",
+      "targetTerminology": "GDC"
+    },
+    {
+      "type": "Related To",
+      "targetName": "Mast cell leukemia",
+      "targetTermType": "PT",
+      "targetCode": "9742/3",
+      "targetTerminology": "ICDO3",
+      "targetTerminologyVersion": "3.2"
+    },
+    {
+      "type": "Related To",
+      "targetName": "Mast cell leukemia",
+      "targetTermType": "PT",
+      "targetCode": "9742/3",
+      "targetTerminology": "ICDO3",
+      "targetTerminologyVersion": "3.1"
+    }
+  ]
+}

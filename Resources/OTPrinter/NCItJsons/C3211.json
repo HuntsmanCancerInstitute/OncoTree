@@ -1,0 +1,2353 @@
+{
+  "code": "C3211",
+  "name": "Non-Hodgkin Lymphoma",
+  "terminology": "ncit",
+  "version": "25.11d",
+  "conceptStatus": "DEFAULT",
+  "leaf": false,
+  "active": true,
+  "synonyms": [
+    {
+      "name": "Non-Hodgkin Lymphoma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "Cellosaurus"
+    },
+    {
+      "name": "Non-Hodgkin Lymphoma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "CPTAC"
+    },
+    {
+      "name": "NHL, NOS",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "CTEP",
+      "code": "10029593",
+      "subSource": "SDC"
+    },
+    {
+      "name": "Non-Hodgkin lymphoma, NOS",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "CTEP",
+      "code": "10029593",
+      "subSource": "SDC"
+    },
+    {
+      "name": "Non-Hodgkin Lymphoma",
+      "termType": "DN",
+      "type": "FULL_SYN",
+      "source": "CTRP"
+    },
+    {
+      "name": "Non-Hodgkin Lymphoma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "CTRP"
+    },
+    {
+      "name": "Non-Hodgkin lymphoma, NOS",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "GDC"
+    },
+    {
+      "name": "Non-Hodgkin lymphoma, unspecified site",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "mCode",
+      "code": "C85.90",
+      "subSource": "ICD-10 CM"
+    },
+    {
+      "name": "NHL",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NCI-GLOSS",
+      "code": "CDR0000430869"
+    },
+    {
+      "name": "non-Hodgkin lymphoma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NCI-GLOSS",
+      "code": "CDR0000045148"
+    },
+    {
+      "name": "NHL",
+      "termType": "AB",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Non-Hodgkin Lymphoma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Non-Hodgkin's Lymphoma",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Non-Hodgkin's Lymphoma (NHL)",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Non-Hodgkin Lymphoma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NICHD"
+    },
+    {
+      "name": "Non-Hodgkin's Lymphoma",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NICHD"
+    },
+    {
+      "name": "Non-Hodgkin Lymphoma",
+      "type": "Display_Name"
+    },
+    {
+      "name": "Non-Hodgkin Lymphoma",
+      "type": "Preferred_Name"
+    }
+  ],
+  "definitions": [
+    {
+      "definition": "A malignant neoplasm of the lymphatic system that is comprised of abnormal lymphocytes in the absence of Reed-Sternberg cells.",
+      "type": "ALT_DEFINITION",
+      "source": "NICHD"
+    },
+    {
+      "definition": "Any of a large group of cancers of lymphocytes (white blood cells). NHLs can occur at any age and are often marked by lymph nodes that are larger than normal, fever, and weight loss. There are many different types of NHL. These types can be divided into aggressive (fast-growing) and indolent (slow-growing) types, and they can be formed from either B-cells or T-cells. B-cell NHLs include Burkitt lymphoma, chronic lymphocytic leukemia/small lymphocytic lymphoma (CLL/SLL), diffuse large B-cell lymphoma, follicular lymphoma, immunoblastic large cell lymphoma, precursor B-lymphoblastic lymphoma, and mantle cell lymphoma. T-cell NHLs include mycosis fungoides, anaplastic large cell lymphoma, and precursor T-lymphoblastic lymphoma. Lymphomas that occur after bone marrow or stem cell transplantation are usually B-cell NHLs. Prognosis and treatment depend on the stage and type of disease.",
+      "type": "ALT_DEFINITION",
+      "source": "NCI-GLOSS"
+    },
+    {
+      "definition": "Distinct from Hodgkin lymphoma both morphologically and biologically, non-Hodgkin lymphoma (NHL) is characterized by the absence of Reed-Sternberg cells, can occur at any age, and usually presents as a localized or generalized lymphadenopathy associated with fever and weight loss. The clinical course varies according to the morphologic type. NHL is clinically classified as indolent, aggressive, or having a variable clinical course. NHL can be of B-or T-/NK-cell lineage.",
+      "type": "DEFINITION",
+      "source": "NCI"
+    }
+  ],
+  "properties": [
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "Cellosaurus"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "CPTAC"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "CTEP"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "CTRP"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "GDC"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "mCode"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "MedDRA"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "NICHD"
+    },
+    {
+      "code": "P334",
+      "type": "ICD-O-3_Code",
+      "value": "9591/3"
+    },
+    {
+      "code": "P366",
+      "type": "Legacy Concept Name",
+      "value": "Non-Hodgkin_s_Lymphoma"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "9591/3"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "Large cell lymphoma"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "Large cell lymphoma involving intra-abdominal lymph nodes"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "Large cell lymphoma involving intrathoracic lymph nodes"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "Large cell lymphoma involving lymph nodes of inguinal region and lower limb"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "Large cell lymphoma involving lymph nodes of multiple sites"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "Large cell lymphoma, unspecified site, extranodal and solid organ sites"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "Lymphosarcoma"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "Lymphosarcoma and reticulosarcoma and other specified malignant tumors of lymphatic tissue"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "Lymphosarcoma involving intrathoracic lymph nodes"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "Lymphosarcoma involving lymph nodes of multiple sites"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "Lymphosarcoma, unspecified site, extranodal and solid organ sites"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "Malignant lymphoma, non-Hodgkin, NOS"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "Non-Hodgkin lymphoma, NOS"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "Non-Hodgkin lymphoma, unspecified"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "Non-Hodgkin lymphoma, unspecified, lymph nodes of head, face, and neck"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "Non-Hodgkin lymphoma, unspecified, unspecified site"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "Non-Hodgkin's lymphoma"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "Other and unspecified types of non-Hodgkin lymphoma"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "Other named variants of lymphosarcoma and reticulosarcoma"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "Other named variants of lymphosarcoma and reticulosarcoma, unspecified site"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "Other specified types of non-Hodgkin lymphoma"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "Other specified types of non-Hodgkin lymphoma, extranodal and solid organ sites"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "Other specified types of non-Hodgkin lymphoma, intra-abdominal lymph nodes"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "Other specified types of non-Hodgkin lymphoma, intrathoracic lymph nodes"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "Other specified types of non-Hodgkin lymphoma, lymph nodes of head, face, and neck"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "Other specified types of non-Hodgkin lymphoma, lymph nodes of inguinal region and lower limb"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "Other specified types of non-Hodgkin lymphoma, lymph nodes of multiple sites"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "Other specified types of non-Hodgkin lymphoma, unspecified site"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "Reticulosarcoma"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "Reticulosarcoma involving intra-abdominal lymph nodes"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "Reticulosarcoma involving intrathoracic lymph nodes"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "Reticulosarcoma involving lymph nodes of axilla and upper limb"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "Reticulosarcoma involving lymph nodes of head, face, and neck"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "Reticulosarcoma involving lymph nodes of inguinal region and lower limb"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "Reticulosarcoma involving lymph nodes of multiple sites"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "Reticulosarcoma, unspecified site, extranodal and solid organ sites"
+    },
+    {
+      "code": "P363",
+      "type": "Neoplastic_Status",
+      "value": "Malignant"
+    },
+    {
+      "code": "P106",
+      "type": "Semantic_Type",
+      "value": "Neoplastic Process"
+    },
+    {
+      "code": "P207",
+      "type": "UMLS_CUI",
+      "value": "C0024305"
+    }
+  ],
+  "children": [
+    {
+      "code": "C7704",
+      "name": "Adult Non-Hodgkin Lymphoma",
+      "leaf": false
+    },
+    {
+      "code": "C172371",
+      "name": "Advanced Non-Hodgkin Lymphoma",
+      "leaf": false
+    },
+    {
+      "code": "C5051",
+      "name": "AIDS-Related Non-Hodgkin Lymphoma",
+      "leaf": false
+    },
+    {
+      "code": "C3457",
+      "name": "B-Cell Non-Hodgkin Lymphoma",
+      "leaf": false
+    },
+    {
+      "code": "C5181",
+      "name": "Breast Non-Hodgkin Lymphoma",
+      "leaf": false
+    },
+    {
+      "code": "C212064",
+      "name": "Central Nervous System Non-Hodgkin Lymphoma",
+      "leaf": false
+    },
+    {
+      "code": "C7706",
+      "name": "Childhood Non-Hodgkin Lymphoma",
+      "leaf": false
+    },
+    {
+      "code": "C38161",
+      "name": "Digestive System Non-Hodgkin Lymphoma",
+      "leaf": false
+    },
+    {
+      "code": "C27693",
+      "name": "EBV-Related Non-Hodgkin Lymphoma",
+      "leaf": false
+    },
+    {
+      "code": "C185753",
+      "name": "Extranodal Non-Hodgkin Lymphoma",
+      "leaf": false
+    },
+    {
+      "code": "C202923",
+      "name": "Head and Neck Non-Hodgkin Lymphoma",
+      "leaf": false
+    },
+    {
+      "code": "C27762",
+      "name": "Helicobacter Pylori-Related Non-Hodgkin Lymphoma",
+      "leaf": false
+    },
+    {
+      "code": "C63532",
+      "name": "Kidney Non-Hodgkin Lymphoma",
+      "leaf": false
+    },
+    {
+      "code": "C8594",
+      "name": "Leukemic Phase of Non-Hodgkin Lymphoma",
+      "leaf": false
+    },
+    {
+      "code": "C5684",
+      "name": "Lung Non-Hodgkin Lymphoma",
+      "leaf": false
+    },
+    {
+      "code": "C9360",
+      "name": "Lymphoblastic Lymphoma",
+      "leaf": false
+    },
+    {
+      "code": "C171037",
+      "name": "Mediastinal Non-Hodgkin Lymphoma",
+      "leaf": false
+    },
+    {
+      "code": "C141140",
+      "name": "Non-Hodgkin Lymphoma by Ann Arbor Stage",
+      "leaf": false
+    },
+    {
+      "code": "C7215",
+      "name": "Non-Hodgkin Lymphoma by Clinical Course",
+      "leaf": false
+    },
+    {
+      "code": "C45687",
+      "name": "Pleural Non-Hodgkin Lymphoma",
+      "leaf": false
+    },
+    {
+      "code": "C121930",
+      "name": "Primary Bone Non-Hodgkin Lymphoma",
+      "leaf": false
+    },
+    {
+      "code": "C188114",
+      "name": "Primary Cutaneous Non-Hodgkin Lymphoma",
+      "leaf": false
+    },
+    {
+      "code": "C9184",
+      "name": "Primary Intraocular Non-Hodgkin Lymphoma",
+      "leaf": false
+    },
+    {
+      "code": "C5534",
+      "name": "Prostate Non-Hodgkin Lymphoma",
+      "leaf": false
+    },
+    {
+      "code": "C9251",
+      "name": "Recurrent Non-Hodgkin Lymphoma",
+      "leaf": false
+    },
+    {
+      "code": "C8701",
+      "name": "Refractory Non-Hodgkin Lymphoma",
+      "leaf": false
+    },
+    {
+      "code": "C213753",
+      "name": "Retroperitoneal Non-Hodgkin Lymphoma",
+      "leaf": false
+    },
+    {
+      "code": "C175470",
+      "name": "Secondary Choroidal Non-Hodgkin Lymphoma",
+      "leaf": true
+    },
+    {
+      "code": "C7294",
+      "name": "Splenic Non-Hodgkin Lymphoma",
+      "leaf": false
+    },
+    {
+      "code": "C3466",
+      "name": "T-Cell Non-Hodgkin Lymphoma",
+      "leaf": false
+    },
+    {
+      "code": "C151957",
+      "name": "Transformed Non-Hodgkin Lymphoma",
+      "leaf": false
+    }
+  ],
+  "parents": [
+    {
+      "code": "C3208",
+      "name": "Lymphoma"
+    }
+  ],
+  "associations": [
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C165258",
+      "relatedName": "Cellosaurus Disease Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C138188",
+      "relatedName": "Clinical Trials Search-Application Programming Interface Disease Category Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C158034",
+      "relatedName": "CPTAC Causes of Death Codelist"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C158520",
+      "relatedName": "CPTAC Codelists Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C158035",
+      "relatedName": "CPTAC Medical Conditions Codelist"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C156966",
+      "relatedName": "CPTAC Neoplasms Codelist"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C156952",
+      "relatedName": "CPTAC Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C118168",
+      "relatedName": "CTRP Disease Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C175325",
+      "relatedName": "CTRP Portfolio Management Subtype Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C116977",
+      "relatedName": "CTRP Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C138190",
+      "relatedName": "CTS-API Disease Main Type Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C157711",
+      "relatedName": "GDC Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C177537",
+      "relatedName": "GDC Value Terminology"
+    },
+    {
+      "type": "Is_Value_For_GDC_Property",
+      "relatedCode": "C176985",
+      "relatedName": "Histology ICD-O Morphology Code"
+    },
+    {
+      "type": "Is_Value_For_GDC_Property",
+      "relatedCode": "C177621",
+      "relatedName": "ICD-O-3 Morphology Term Diagnosis Question"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168658",
+      "relatedName": "Mapped ICDO3.1 Morphology PT Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168657",
+      "relatedName": "Mapped ICDO3.1 Morphology Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168655",
+      "relatedName": "Mapped ICDO3.1 Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168662",
+      "relatedName": "Mapped ICDO3.2 Morphology PT Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168661",
+      "relatedName": "Mapped ICDO3.2 Morphology Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168656",
+      "relatedName": "Mapped ICDO3.2 Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C193249",
+      "relatedName": "mCode Cancer Disorder Value Set"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C193175",
+      "relatedName": "mCode Elixhauser Lymphoma Value Set"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C193248",
+      "relatedName": "mCode Primary Cancer Disorder Value Set"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C193231",
+      "relatedName": "mCode Primary Malignant Neoplasm Disorder Value Set"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C193006",
+      "relatedName": "mCode Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C103133",
+      "relatedName": "NCI CTEP SDC Non-Hodgkin Lymphoma Sub-Category Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C102905",
+      "relatedName": "NCI CTEP Simplified Disease Classification Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C126659",
+      "relatedName": "NCIt Neoplasm Core Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C90259",
+      "relatedName": "NICHD Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C189762",
+      "relatedName": "Pediatric Adverse Events Terminology Mapped to MedDRA"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C118464",
+      "relatedName": "Pediatric Adverse Events Terminology"
+    },
+    {
+      "type": "Neoplasm_Has_Special_Category",
+      "relatedCode": "C9292",
+      "relatedName": "Solid Neoplasm"
+    }
+  ],
+  "inverseAssociations": [
+    {
+      "type": "Has_GDC_Value",
+      "relatedCode": "C176985",
+      "relatedName": "Histology ICD-O Morphology Code"
+    },
+    {
+      "type": "Has_GDC_Value",
+      "relatedCode": "C177621",
+      "relatedName": "ICD-O-3 Morphology Term Diagnosis Question"
+    }
+  ],
+  "roles": [
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36725",
+      "relatedName": "Abnormal Lymphocyte"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C36122",
+      "relatedName": "Benign Cellular Infiltrate"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C41165",
+      "relatedName": "Hematopoietic and Lymphatic System"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C41165",
+      "relatedName": "Hematopoietic and Lymphatic System"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C32725",
+      "relatedName": "Hematopoietic and Lymphoid Cell"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C41168",
+      "relatedName": "Hematopoietic and Lymphoid Tissue"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12746",
+      "relatedName": "Lymphatic System"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C37027",
+      "relatedName": "Lymphocyte Predominant Cell"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C12535",
+      "relatedName": "Lymphocyte"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C13049",
+      "relatedName": "Lymphoid Tissue"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12917",
+      "relatedName": "Malignant Cell"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C36115",
+      "relatedName": "Malignant Cellular Infiltrate"
+    },
+    {
+      "type": "Disease_Excludes_Normal_Cell_Origin",
+      "relatedCode": "C12549",
+      "relatedName": "Myeloid Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12922",
+      "relatedName": "Neoplastic Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C37060",
+      "relatedName": "Neoplastic Hematopoietic and Lymphoid Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36988",
+      "relatedName": "Neoplastic Lymphocyte"
+    },
+    {
+      "type": "Disease_Excludes_Normal_Cell_Origin",
+      "relatedCode": "C12486",
+      "relatedName": "Plasma Cell"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C12660",
+      "relatedName": "Reed-Sternberg Cell"
+    }
+  ],
+  "inverseRoles": [
+    {
+      "type": "Regimen_Has_Accepted_Use_For_Disease",
+      "relatedCode": "C63446",
+      "relatedName": "ACVBP Regimen"
+    },
+    {
+      "type": "Disease_May_Have_Associated_Disease",
+      "relatedCode": "C2887",
+      "relatedName": "Ataxia Telangiectasia Syndrome"
+    },
+    {
+      "type": "Gene_Associated_With_Disease",
+      "relatedCode": "C24261",
+      "relatedName": "BCL7A Gene"
+    },
+    {
+      "type": "Gene_Associated_With_Disease",
+      "relatedCode": "C54373",
+      "relatedName": "BCL7A wt Allele"
+    },
+    {
+      "type": "Gene_Associated_With_Disease",
+      "relatedCode": "C28400",
+      "relatedName": "CASP10 Gene"
+    },
+    {
+      "type": "Gene_Associated_With_Disease",
+      "relatedCode": "C49547",
+      "relatedName": "CASP10 wt Allele"
+    },
+    {
+      "type": "Gene_Product_Malfunction_Associated_With_Disease",
+      "relatedCode": "C18287",
+      "relatedName": "Caspase-10"
+    },
+    {
+      "type": "Regimen_Has_Accepted_Use_For_Disease",
+      "relatedCode": "C63379",
+      "relatedName": "CDE Regimen"
+    },
+    {
+      "type": "Disease_May_Have_Associated_Disease",
+      "relatedCode": "C176588",
+      "relatedName": "CHEK2-Related Hereditary Cancer Predisposition Syndrome"
+    },
+    {
+      "type": "Regimen_Has_Accepted_Use_For_Disease",
+      "relatedCode": "C9549",
+      "relatedName": "CHOP Regimen"
+    },
+    {
+      "type": "Regimen_Has_Accepted_Use_For_Disease",
+      "relatedCode": "C9702",
+      "relatedName": "CHOPE Regimen"
+    },
+    {
+      "type": "Regimen_Has_Accepted_Use_For_Disease",
+      "relatedCode": "C63453",
+      "relatedName": "CNOP Regimen"
+    },
+    {
+      "type": "Regimen_Has_Accepted_Use_For_Disease",
+      "relatedCode": "C63448",
+      "relatedName": "CODOX-M Alternating with IVAC Regimen"
+    },
+    {
+      "type": "Regimen_Has_Accepted_Use_For_Disease",
+      "relatedCode": "C63447",
+      "relatedName": "CODOX-M Regimen"
+    },
+    {
+      "type": "Gene_Product_Malfunction_Associated_With_Disease",
+      "relatedCode": "C21543",
+      "relatedName": "DNA Repair and Recombination Protein RAD54-Like"
+    },
+    {
+      "type": "Regimen_Has_Accepted_Use_For_Disease",
+      "relatedCode": "C63779",
+      "relatedName": "EPOCH Regimen"
+    },
+    {
+      "type": "Regimen_Has_Accepted_Use_For_Disease",
+      "relatedCode": "C63461",
+      "relatedName": "EPOCH-R Regimen"
+    },
+    {
+      "type": "Regimen_Has_Accepted_Use_For_Disease",
+      "relatedCode": "C99697",
+      "relatedName": "F-MACHOP Regimen"
+    },
+    {
+      "type": "Regimen_Has_Accepted_Use_For_Disease",
+      "relatedCode": "C154213",
+      "relatedName": "G-CHOP Regimen"
+    },
+    {
+      "type": "Regimen_Has_Accepted_Use_For_Disease",
+      "relatedCode": "C63458",
+      "relatedName": "m-BACOD Regimen"
+    },
+    {
+      "type": "Regimen_Has_Accepted_Use_For_Disease",
+      "relatedCode": "C99696",
+      "relatedName": "M-BACOP Regimen"
+    },
+    {
+      "type": "Regimen_Has_Accepted_Use_For_Disease",
+      "relatedCode": "C63457",
+      "relatedName": "MACOP-B Regimen"
+    },
+    {
+      "type": "Regimen_Has_Accepted_Use_For_Disease",
+      "relatedCode": "C204798",
+      "relatedName": "mini-CHOP Regimen"
+    },
+    {
+      "type": "Regimen_Has_Accepted_Use_For_Disease",
+      "relatedCode": "C204781",
+      "relatedName": "Modified CODOX-M Regimen"
+    },
+    {
+      "type": "Regimen_Has_Accepted_Use_For_Disease",
+      "relatedCode": "C198672",
+      "relatedName": "Modified CODOX-M-R Regimen"
+    },
+    {
+      "type": "Gene_Associated_With_Disease",
+      "relatedCode": "C21185",
+      "relatedName": "NPM1 Gene"
+    },
+    {
+      "type": "Gene_Associated_With_Disease",
+      "relatedCode": "C52487",
+      "relatedName": "NPM1 wt Allele"
+    },
+    {
+      "type": "Regimen_Has_Accepted_Use_For_Disease",
+      "relatedCode": "C202587",
+      "relatedName": "Pola-R-CHP Regimen"
+    },
+    {
+      "type": "Regimen_Has_Accepted_Use_For_Disease",
+      "relatedCode": "C63460",
+      "relatedName": "ProMACE Alternating with CytaBOM Regimen"
+    },
+    {
+      "type": "Gene_Associated_With_Disease",
+      "relatedCode": "C24709",
+      "relatedName": "PTPN7 Gene"
+    },
+    {
+      "type": "Gene_Associated_With_Disease",
+      "relatedCode": "C49528",
+      "relatedName": "PTPN7 wt Allele"
+    },
+    {
+      "type": "Regimen_Has_Accepted_Use_For_Disease",
+      "relatedCode": "C154215",
+      "relatedName": "R-CDOP Regimen"
+    },
+    {
+      "type": "Regimen_Has_Accepted_Use_For_Disease",
+      "relatedCode": "C9760",
+      "relatedName": "R-CHOP Regimen"
+    },
+    {
+      "type": "Regimen_Has_Accepted_Use_For_Disease",
+      "relatedCode": "C156246",
+      "relatedName": "R-CHOP-Methotrexate Regimen"
+    },
+    {
+      "type": "Regimen_Has_Accepted_Use_For_Disease",
+      "relatedCode": "C201147",
+      "relatedName": "R-maxi-CHOP Regimen"
+    },
+    {
+      "type": "Regimen_Has_Accepted_Use_For_Disease",
+      "relatedCode": "C202586",
+      "relatedName": "R-mini-CHOP Regimen"
+    },
+    {
+      "type": "Gene_Associated_With_Disease",
+      "relatedCode": "C24717",
+      "relatedName": "RAD54B Gene"
+    },
+    {
+      "type": "Gene_Associated_With_Disease",
+      "relatedCode": "C49408",
+      "relatedName": "RAD54B wt Allele"
+    },
+    {
+      "type": "Gene_Associated_With_Disease",
+      "relatedCode": "C20809",
+      "relatedName": "RAD54L Gene"
+    },
+    {
+      "type": "Gene_Associated_With_Disease",
+      "relatedCode": "C51006",
+      "relatedName": "RAD54L wt Allele"
+    },
+    {
+      "type": "Gene_Associated_With_Disease",
+      "relatedCode": "C21320",
+      "relatedName": "RHOH Gene"
+    },
+    {
+      "type": "Gene_Associated_With_Disease",
+      "relatedCode": "C52532",
+      "relatedName": "RHOH wt Allele"
+    },
+    {
+      "type": "Gene_Product_Malfunction_Associated_With_Disease",
+      "relatedCode": "C17329",
+      "relatedName": "Transcriptional Activator Myb"
+    },
+    {
+      "type": "Gene_Product_Malfunction_Associated_With_Disease",
+      "relatedCode": "C26345",
+      "relatedName": "Tyrosine-Protein Phosphatase Non-Receptor Type 7"
+    }
+  ],
+  "history": [
+    {
+      "code": "C3211",
+      "action": "create",
+      "date": "2003-08-12"
+    },
+    {
+      "code": "C3211",
+      "action": "modify",
+      "date": "2003-10-31"
+    },
+    {
+      "code": "C3211",
+      "action": "modify",
+      "date": "2003-12-30"
+    },
+    {
+      "code": "C3211",
+      "action": "modify",
+      "date": "2004-03-30"
+    },
+    {
+      "code": "C3211",
+      "action": "modify",
+      "date": "2004-04-30"
+    },
+    {
+      "code": "C3211",
+      "action": "modify",
+      "date": "2004-06-25"
+    },
+    {
+      "code": "C3211",
+      "action": "modify",
+      "date": "2004-09-10"
+    },
+    {
+      "code": "C3211",
+      "action": "modify",
+      "date": "2005-03-30"
+    },
+    {
+      "code": "C3211",
+      "action": "modify",
+      "date": "2006-12-01"
+    },
+    {
+      "code": "C3211",
+      "action": "modify",
+      "date": "2007-03-30"
+    },
+    {
+      "code": "C3211",
+      "action": "modify",
+      "date": "2007-05-25"
+    },
+    {
+      "code": "C3211",
+      "action": "modify",
+      "date": "2009-04-06"
+    },
+    {
+      "code": "C3211",
+      "action": "modify",
+      "date": "2009-10-27"
+    },
+    {
+      "code": "C3211",
+      "action": "modify",
+      "date": "2009-11-23"
+    },
+    {
+      "code": "C3211",
+      "action": "modify",
+      "date": "2010-02-09"
+    },
+    {
+      "code": "C3211",
+      "action": "modify",
+      "date": "2010-03-08"
+    },
+    {
+      "code": "C3211",
+      "action": "modify",
+      "date": "2010-11-01"
+    },
+    {
+      "code": "C3211",
+      "action": "modify",
+      "date": "2010-11-08"
+    },
+    {
+      "code": "C3211",
+      "action": "modify",
+      "date": "2010-11-15"
+    },
+    {
+      "code": "C3211",
+      "action": "modify",
+      "date": "2010-11-22"
+    },
+    {
+      "code": "C3211",
+      "action": "modify",
+      "date": "2010-11-29"
+    },
+    {
+      "code": "C3211",
+      "action": "modify",
+      "date": "2010-12-06"
+    },
+    {
+      "code": "C3211",
+      "action": "modify",
+      "date": "2010-12-13"
+    },
+    {
+      "code": "C3211",
+      "action": "modify",
+      "date": "2010-12-27"
+    },
+    {
+      "code": "C3211",
+      "action": "modify",
+      "date": "2011-01-03"
+    },
+    {
+      "code": "C3211",
+      "action": "modify",
+      "date": "2011-01-10"
+    },
+    {
+      "code": "C3211",
+      "action": "modify",
+      "date": "2011-01-17"
+    },
+    {
+      "code": "C3211",
+      "action": "modify",
+      "date": "2011-01-24"
+    },
+    {
+      "code": "C3211",
+      "action": "modify",
+      "date": "2011-01-31"
+    },
+    {
+      "code": "C3211",
+      "action": "modify",
+      "date": "2011-02-07"
+    },
+    {
+      "code": "C3211",
+      "action": "modify",
+      "date": "2011-02-28"
+    },
+    {
+      "code": "C3211",
+      "action": "modify",
+      "date": "2012-03-19"
+    },
+    {
+      "code": "C3211",
+      "action": "modify",
+      "date": "2012-09-24"
+    },
+    {
+      "code": "C3211",
+      "action": "modify",
+      "date": "2012-10-01"
+    },
+    {
+      "code": "C3211",
+      "action": "modify",
+      "date": "2012-10-09"
+    },
+    {
+      "code": "C3211",
+      "action": "modify",
+      "date": "2012-10-15"
+    },
+    {
+      "code": "C3211",
+      "action": "modify",
+      "date": "2012-10-22"
+    },
+    {
+      "code": "C3211",
+      "action": "modify",
+      "date": "2012-10-31"
+    },
+    {
+      "code": "C3211",
+      "action": "modify",
+      "date": "2012-11-05"
+    },
+    {
+      "code": "C3211",
+      "action": "modify",
+      "date": "2012-11-13"
+    },
+    {
+      "code": "C3211",
+      "action": "modify",
+      "date": "2012-11-19"
+    },
+    {
+      "code": "C3211",
+      "action": "modify",
+      "date": "2012-11-26"
+    },
+    {
+      "code": "C3211",
+      "action": "modify",
+      "date": "2012-12-03"
+    },
+    {
+      "code": "C3211",
+      "action": "modify",
+      "date": "2012-12-10"
+    },
+    {
+      "code": "C3211",
+      "action": "modify",
+      "date": "2012-12-17"
+    },
+    {
+      "code": "C3211",
+      "action": "modify",
+      "date": "2012-12-28"
+    },
+    {
+      "code": "C3211",
+      "action": "modify",
+      "date": "2013-01-07"
+    },
+    {
+      "code": "C3211",
+      "action": "modify",
+      "date": "2013-01-14"
+    },
+    {
+      "code": "C3211",
+      "action": "modify",
+      "date": "2013-01-23"
+    },
+    {
+      "code": "C3211",
+      "action": "modify",
+      "date": "2013-02-04"
+    },
+    {
+      "code": "C3211",
+      "action": "modify",
+      "date": "2013-02-11"
+    },
+    {
+      "code": "C3211",
+      "action": "modify",
+      "date": "2013-02-19"
+    },
+    {
+      "code": "C3211",
+      "action": "modify",
+      "date": "2013-02-25"
+    },
+    {
+      "code": "C3211",
+      "action": "modify",
+      "date": "2013-03-04"
+    },
+    {
+      "code": "C3211",
+      "action": "modify",
+      "date": "2013-03-11"
+    },
+    {
+      "code": "C3211",
+      "action": "modify",
+      "date": "2013-03-18"
+    },
+    {
+      "code": "C3211",
+      "action": "modify",
+      "date": "2013-03-25"
+    },
+    {
+      "code": "C3211",
+      "action": "modify",
+      "date": "2013-04-01"
+    },
+    {
+      "code": "C3211",
+      "action": "modify",
+      "date": "2013-04-08"
+    },
+    {
+      "code": "C3211",
+      "action": "modify",
+      "date": "2013-04-15"
+    },
+    {
+      "code": "C3211",
+      "action": "modify",
+      "date": "2013-04-22"
+    },
+    {
+      "code": "C3211",
+      "action": "modify",
+      "date": "2013-04-29"
+    },
+    {
+      "code": "C3211",
+      "action": "modify",
+      "date": "2013-05-06"
+    },
+    {
+      "code": "C3211",
+      "action": "modify",
+      "date": "2013-05-13"
+    },
+    {
+      "code": "C3211",
+      "action": "modify",
+      "date": "2013-05-20"
+    },
+    {
+      "code": "C3211",
+      "action": "modify",
+      "date": "2013-05-28"
+    },
+    {
+      "code": "C3211",
+      "action": "modify",
+      "date": "2013-06-03"
+    },
+    {
+      "code": "C3211",
+      "action": "modify",
+      "date": "2013-06-10"
+    },
+    {
+      "code": "C3211",
+      "action": "modify",
+      "date": "2013-06-17"
+    },
+    {
+      "code": "C3211",
+      "action": "modify",
+      "date": "2013-06-24"
+    },
+    {
+      "code": "C3211",
+      "action": "modify",
+      "date": "2013-07-01"
+    },
+    {
+      "code": "C3211",
+      "action": "modify",
+      "date": "2013-07-08"
+    },
+    {
+      "code": "C3211",
+      "action": "modify",
+      "date": "2014-03-05"
+    },
+    {
+      "code": "C3211",
+      "action": "modify",
+      "date": "2014-08-04"
+    },
+    {
+      "code": "C3211",
+      "action": "modify",
+      "date": "2014-08-18"
+    },
+    {
+      "code": "C3211",
+      "action": "modify",
+      "date": "2014-09-22"
+    },
+    {
+      "code": "C3211",
+      "action": "modify",
+      "date": "2014-10-27"
+    },
+    {
+      "code": "C3211",
+      "action": "modify",
+      "date": "2014-11-03"
+    },
+    {
+      "code": "C3211",
+      "action": "modify",
+      "date": "2014-11-10"
+    },
+    {
+      "code": "C3211",
+      "action": "modify",
+      "date": "2014-11-17"
+    },
+    {
+      "code": "C3211",
+      "action": "modify",
+      "date": "2014-11-24"
+    },
+    {
+      "code": "C3211",
+      "action": "modify",
+      "date": "2014-12-01"
+    },
+    {
+      "code": "C3211",
+      "action": "modify",
+      "date": "2014-12-08"
+    },
+    {
+      "code": "C3211",
+      "action": "modify",
+      "date": "2014-12-15"
+    },
+    {
+      "code": "C3211",
+      "action": "modify",
+      "date": "2014-12-22"
+    },
+    {
+      "code": "C3211",
+      "action": "modify",
+      "date": "2014-12-29"
+    },
+    {
+      "code": "C3211",
+      "action": "modify",
+      "date": "2015-01-05"
+    },
+    {
+      "code": "C3211",
+      "action": "modify",
+      "date": "2015-01-12"
+    },
+    {
+      "code": "C3211",
+      "action": "modify",
+      "date": "2015-01-20"
+    },
+    {
+      "code": "C3211",
+      "action": "modify",
+      "date": "2015-01-26"
+    },
+    {
+      "code": "C3211",
+      "action": "modify",
+      "date": "2015-02-02"
+    },
+    {
+      "code": "C3211",
+      "action": "modify",
+      "date": "2015-02-09"
+    },
+    {
+      "code": "C3211",
+      "action": "modify",
+      "date": "2015-02-17"
+    },
+    {
+      "code": "C3211",
+      "action": "modify",
+      "date": "2015-02-23"
+    },
+    {
+      "code": "C3211",
+      "action": "modify",
+      "date": "2015-03-02"
+    },
+    {
+      "code": "C3211",
+      "action": "modify",
+      "date": "2015-03-09"
+    },
+    {
+      "code": "C3211",
+      "action": "modify",
+      "date": "2015-03-16"
+    },
+    {
+      "code": "C3211",
+      "action": "modify",
+      "date": "2015-03-23"
+    },
+    {
+      "code": "C3211",
+      "action": "modify",
+      "date": "2015-03-30"
+    },
+    {
+      "code": "C3211",
+      "action": "modify",
+      "date": "2015-04-06"
+    },
+    {
+      "code": "C3211",
+      "action": "modify",
+      "date": "2015-04-13"
+    },
+    {
+      "code": "C3211",
+      "action": "modify",
+      "date": "2015-04-20"
+    },
+    {
+      "code": "C3211",
+      "action": "modify",
+      "date": "2015-04-27"
+    },
+    {
+      "code": "C3211",
+      "action": "modify",
+      "date": "2015-05-04"
+    },
+    {
+      "code": "C3211",
+      "action": "modify",
+      "date": "2015-05-11"
+    },
+    {
+      "code": "C3211",
+      "action": "modify",
+      "date": "2015-05-18"
+    },
+    {
+      "code": "C3211",
+      "action": "modify",
+      "date": "2015-05-26"
+    },
+    {
+      "code": "C3211",
+      "action": "modify",
+      "date": "2015-06-01"
+    },
+    {
+      "code": "C3211",
+      "action": "modify",
+      "date": "2015-06-08"
+    },
+    {
+      "code": "C3211",
+      "action": "modify",
+      "date": "2015-06-15"
+    },
+    {
+      "code": "C3211",
+      "action": "modify",
+      "date": "2015-06-22"
+    },
+    {
+      "code": "C3211",
+      "action": "modify",
+      "date": "2015-06-29"
+    },
+    {
+      "code": "C3211",
+      "action": "modify",
+      "date": "2015-07-06"
+    },
+    {
+      "code": "C3211",
+      "action": "modify",
+      "date": "2015-07-13"
+    },
+    {
+      "code": "C3211",
+      "action": "modify",
+      "date": "2015-08-12"
+    },
+    {
+      "code": "C3211",
+      "action": "modify",
+      "date": "2015-08-24"
+    },
+    {
+      "code": "C3211",
+      "action": "modify",
+      "date": "2015-08-31"
+    },
+    {
+      "code": "C3211",
+      "action": "modify",
+      "date": "2015-09-08"
+    },
+    {
+      "code": "C3211",
+      "action": "modify",
+      "date": "2015-09-14"
+    },
+    {
+      "code": "C3211",
+      "action": "modify",
+      "date": "2015-09-21"
+    },
+    {
+      "code": "C3211",
+      "action": "modify",
+      "date": "2015-09-28"
+    },
+    {
+      "code": "C3211",
+      "action": "modify",
+      "date": "2015-10-05"
+    },
+    {
+      "code": "C3211",
+      "action": "modify",
+      "date": "2015-10-13"
+    },
+    {
+      "code": "C3211",
+      "action": "modify",
+      "date": "2015-10-19"
+    },
+    {
+      "code": "C3211",
+      "action": "modify",
+      "date": "2015-10-26"
+    },
+    {
+      "code": "C3211",
+      "action": "modify",
+      "date": "2015-11-02"
+    },
+    {
+      "code": "C3211",
+      "action": "modify",
+      "date": "2015-11-09"
+    },
+    {
+      "code": "C3211",
+      "action": "modify",
+      "date": "2015-11-16"
+    },
+    {
+      "code": "C3211",
+      "action": "modify",
+      "date": "2015-11-23"
+    },
+    {
+      "code": "C3211",
+      "action": "modify",
+      "date": "2015-11-30"
+    },
+    {
+      "code": "C3211",
+      "action": "modify",
+      "date": "2015-12-07"
+    },
+    {
+      "code": "C3211",
+      "action": "modify",
+      "date": "2015-12-14"
+    },
+    {
+      "code": "C3211",
+      "action": "modify",
+      "date": "2015-12-21"
+    },
+    {
+      "code": "C3211",
+      "action": "modify",
+      "date": "2015-12-28"
+    },
+    {
+      "code": "C3211",
+      "action": "modify",
+      "date": "2016-01-04"
+    },
+    {
+      "code": "C3211",
+      "action": "modify",
+      "date": "2016-01-11"
+    },
+    {
+      "code": "C3211",
+      "action": "modify",
+      "date": "2016-01-19"
+    },
+    {
+      "code": "C3211",
+      "action": "modify",
+      "date": "2016-01-29"
+    },
+    {
+      "code": "C3211",
+      "action": "modify",
+      "date": "2016-04-18"
+    },
+    {
+      "code": "C3211",
+      "action": "modify",
+      "date": "2016-04-25"
+    },
+    {
+      "code": "C3211",
+      "action": "modify",
+      "date": "2016-05-09"
+    },
+    {
+      "code": "C3211",
+      "action": "modify",
+      "date": "2016-05-16"
+    },
+    {
+      "code": "C3211",
+      "action": "modify",
+      "date": "2016-05-23"
+    },
+    {
+      "code": "C3211",
+      "action": "modify",
+      "date": "2016-05-31"
+    },
+    {
+      "code": "C3211",
+      "action": "modify",
+      "date": "2016-06-06"
+    },
+    {
+      "code": "C3211",
+      "action": "modify",
+      "date": "2016-06-13"
+    },
+    {
+      "code": "C3211",
+      "action": "modify",
+      "date": "2016-06-17"
+    },
+    {
+      "code": "C3211",
+      "action": "modify",
+      "date": "2016-06-27"
+    },
+    {
+      "code": "C3211",
+      "action": "modify",
+      "date": "2016-07-05"
+    },
+    {
+      "code": "C3211",
+      "action": "modify",
+      "date": "2016-07-11"
+    },
+    {
+      "code": "C3211",
+      "action": "modify",
+      "date": "2016-07-18"
+    },
+    {
+      "code": "C3211",
+      "action": "modify",
+      "date": "2016-07-25"
+    },
+    {
+      "code": "C3211",
+      "action": "modify",
+      "date": "2016-08-01"
+    },
+    {
+      "code": "C3211",
+      "action": "modify",
+      "date": "2016-08-08"
+    },
+    {
+      "code": "C3211",
+      "action": "modify",
+      "date": "2016-08-15"
+    },
+    {
+      "code": "C3211",
+      "action": "modify",
+      "date": "2016-08-22"
+    },
+    {
+      "code": "C3211",
+      "action": "modify",
+      "date": "2016-08-29"
+    },
+    {
+      "code": "C3211",
+      "action": "modify",
+      "date": "2016-09-06"
+    },
+    {
+      "code": "C3211",
+      "action": "modify",
+      "date": "2016-09-12"
+    },
+    {
+      "code": "C3211",
+      "action": "modify",
+      "date": "2016-09-20"
+    },
+    {
+      "code": "C3211",
+      "action": "modify",
+      "date": "2016-09-26"
+    },
+    {
+      "code": "C3211",
+      "action": "modify",
+      "date": "2016-10-03"
+    },
+    {
+      "code": "C3211",
+      "action": "modify",
+      "date": "2016-10-11"
+    },
+    {
+      "code": "C3211",
+      "action": "modify",
+      "date": "2016-10-17"
+    },
+    {
+      "code": "C3211",
+      "action": "modify",
+      "date": "2016-10-24"
+    },
+    {
+      "code": "C3211",
+      "action": "modify",
+      "date": "2016-10-31"
+    },
+    {
+      "code": "C3211",
+      "action": "modify",
+      "date": "2016-11-07"
+    },
+    {
+      "code": "C3211",
+      "action": "modify",
+      "date": "2016-11-14"
+    },
+    {
+      "code": "C3211",
+      "action": "modify",
+      "date": "2016-11-21"
+    },
+    {
+      "code": "C3211",
+      "action": "modify",
+      "date": "2016-11-28"
+    },
+    {
+      "code": "C3211",
+      "action": "modify",
+      "date": "2016-12-05"
+    },
+    {
+      "code": "C3211",
+      "action": "modify",
+      "date": "2016-12-12"
+    },
+    {
+      "code": "C3211",
+      "action": "modify",
+      "date": "2016-12-19"
+    },
+    {
+      "code": "C3211",
+      "action": "modify",
+      "date": "2016-12-27"
+    },
+    {
+      "code": "C3211",
+      "action": "modify",
+      "date": "2017-01-03"
+    },
+    {
+      "code": "C3211",
+      "action": "modify",
+      "date": "2017-01-09"
+    },
+    {
+      "code": "C3211",
+      "action": "modify",
+      "date": "2017-01-17"
+    },
+    {
+      "code": "C3211",
+      "action": "modify",
+      "date": "2017-01-23"
+    },
+    {
+      "code": "C3211",
+      "action": "modify",
+      "date": "2017-07-31"
+    },
+    {
+      "code": "C3211",
+      "action": "modify",
+      "date": "2017-09-26"
+    },
+    {
+      "code": "C3211",
+      "action": "modify",
+      "date": "2018-04-30"
+    },
+    {
+      "code": "C3211",
+      "action": "modify",
+      "date": "2018-07-30"
+    },
+    {
+      "code": "C3211",
+      "action": "modify",
+      "date": "2018-08-27"
+    },
+    {
+      "code": "C3211",
+      "action": "modify",
+      "date": "2018-08-27"
+    },
+    {
+      "code": "C3211",
+      "action": "modify",
+      "date": "2018-09-24"
+    },
+    {
+      "code": "C3211",
+      "action": "modify",
+      "date": "2018-12-31"
+    },
+    {
+      "code": "C3211",
+      "action": "modify",
+      "date": "2019-03-25"
+    },
+    {
+      "code": "C3211",
+      "action": "modify",
+      "date": "2019-05-28"
+    },
+    {
+      "code": "C3211",
+      "action": "modify",
+      "date": "2019-09-30"
+    },
+    {
+      "code": "C3211",
+      "action": "modify",
+      "date": "2019-10-28"
+    },
+    {
+      "code": "C3211",
+      "action": "modify",
+      "date": "2019-11-25"
+    },
+    {
+      "code": "C3211",
+      "action": "modify",
+      "date": "2020-02-24"
+    },
+    {
+      "code": "C3211",
+      "action": "modify",
+      "date": "2020-03-30"
+    },
+    {
+      "code": "C3211",
+      "action": "modify",
+      "date": "2020-04-27"
+    },
+    {
+      "code": "C3211",
+      "action": "modify",
+      "date": "2020-08-31"
+    },
+    {
+      "code": "C3211",
+      "action": "modify",
+      "date": "2020-09-29"
+    },
+    {
+      "code": "C3211",
+      "action": "modify",
+      "date": "2020-10-26"
+    },
+    {
+      "code": "C3211",
+      "action": "modify",
+      "date": "2021-02-22"
+    },
+    {
+      "code": "C3211",
+      "action": "modify",
+      "date": "2021-03-29"
+    },
+    {
+      "code": "C3211",
+      "action": "modify",
+      "date": "2022-09-26"
+    },
+    {
+      "code": "C3211",
+      "action": "modify",
+      "date": "2023-02-27"
+    },
+    {
+      "code": "C3211",
+      "action": "modify",
+      "date": "2023-03-27"
+    },
+    {
+      "code": "C3211",
+      "action": "modify",
+      "date": "2023-05-30"
+    },
+    {
+      "code": "C3211",
+      "action": "modify",
+      "date": "2024-07-29"
+    },
+    {
+      "code": "C3211",
+      "action": "modify",
+      "date": "2025-03-31"
+    }
+  ],
+  "maps": [
+    {
+      "type": "Related To",
+      "targetName": "9591/3",
+      "targetTermType": "PT",
+      "targetCode": "morphology",
+      "targetTerminology": "GDC"
+    },
+    {
+      "type": "Related To",
+      "targetName": "Large cell lymphoma involving intra-abdominal lymph nodes",
+      "targetTermType": "PT",
+      "targetCode": "200.73",
+      "targetTerminology": "ICD9CM 2014"
+    },
+    {
+      "type": "Related To",
+      "targetName": "Large cell lymphoma involving intrathoracic lymph nodes",
+      "targetTermType": "PT",
+      "targetCode": "200.72",
+      "targetTerminology": "ICD9CM 2014"
+    },
+    {
+      "type": "Related To",
+      "targetName": "Large cell lymphoma involving lymph nodes of inguinal region and lower limb",
+      "targetTermType": "PT",
+      "targetCode": "200.75",
+      "targetTerminology": "ICD9CM 2014"
+    },
+    {
+      "type": "Related To",
+      "targetName": "Large cell lymphoma involving lymph nodes of multiple sites",
+      "targetTermType": "PT",
+      "targetCode": "200.78",
+      "targetTerminology": "ICD9CM 2014"
+    },
+    {
+      "type": "Related To",
+      "targetName": "Large cell lymphoma, unspecified site, extranodal and solid organ sites",
+      "targetTermType": "PT",
+      "targetCode": "200.70",
+      "targetTerminology": "ICD9CM 2014"
+    },
+    {
+      "type": "Related To",
+      "targetName": "Large cell lymphoma",
+      "targetTermType": "PT",
+      "targetCode": "200.7",
+      "targetTerminology": "ICD9CM 2014"
+    },
+    {
+      "type": "Related To",
+      "targetName": "Lymphosarcoma and reticulosarcoma and other specified malignant tumors of lymphatic tissue",
+      "targetTermType": "PT",
+      "targetCode": "200",
+      "targetTerminology": "ICD9CM 2014"
+    },
+    {
+      "type": "Related To",
+      "targetName": "Lymphosarcoma involving intrathoracic lymph nodes",
+      "targetTermType": "PT",
+      "targetCode": "200.12",
+      "targetTerminology": "ICD9CM 2014"
+    },
+    {
+      "type": "Related To",
+      "targetName": "Lymphosarcoma involving lymph nodes of multiple sites",
+      "targetTermType": "PT",
+      "targetCode": "200.18",
+      "targetTerminology": "ICD9CM 2014"
+    },
+    {
+      "type": "Related To",
+      "targetName": "Lymphosarcoma, unspecified site, extranodal and solid organ sites",
+      "targetTermType": "PT",
+      "targetCode": "200.10",
+      "targetTerminology": "ICD9CM 2014"
+    },
+    {
+      "type": "Related To",
+      "targetName": "Lymphosarcoma",
+      "targetTermType": "PT",
+      "targetCode": "200.1",
+      "targetTerminology": "ICD9CM 2014"
+    },
+    {
+      "type": "Related To",
+      "targetName": "Malignant lymphoma, non-Hodgkin, NOS",
+      "targetTermType": "PT",
+      "targetCode": "9591/3",
+      "targetTerminology": "ICDO3",
+      "targetTerminologyVersion": "3.1"
+    },
+    {
+      "type": "Related To",
+      "targetName": "Malignant lymphoma, non-Hodgkin, NOS",
+      "targetTermType": "PT",
+      "targetCode": "9591/3",
+      "targetTerminology": "ICDO3",
+      "targetTerminologyVersion": "3.2"
+    },
+    {
+      "type": "Related To",
+      "targetName": "Malignant lymphoma, non-Hodgkin, NOS",
+      "targetTermType": "PT",
+      "targetCode": "primary_diagnosis",
+      "targetTerminology": "GDC"
+    },
+    {
+      "type": "Has Synonym",
+      "targetName": "Non-Hodgkin lymphoma, NOS",
+      "targetTermType": "PT",
+      "targetCode": "primary_diagnosis",
+      "targetTerminology": "GDC"
+    },
+    {
+      "type": "Related To",
+      "targetName": "Non-Hodgkin lymphoma, unspecified, lymph nodes of head, face, and neck",
+      "targetTermType": "PT",
+      "targetCode": "C85.91",
+      "targetTerminology": "ICD10CM 2017"
+    },
+    {
+      "type": "Related To",
+      "targetName": "Non-Hodgkin lymphoma, unspecified, unspecified site",
+      "targetTermType": "PT",
+      "targetCode": "C85.90",
+      "targetTerminology": "ICD10CM 2017"
+    },
+    {
+      "type": "Related To",
+      "targetName": "Non-Hodgkin lymphoma, unspecified",
+      "targetTermType": "PT",
+      "targetCode": "C85.9",
+      "targetTerminology": "ICD10CM 2017"
+    },
+    {
+      "type": "Has Synonym",
+      "targetName": "Non-Hodgkin's lymphoma",
+      "targetTermType": "LLT",
+      "targetCode": "10029547",
+      "targetTerminology": "MedDRA",
+      "targetTerminologyVersion": "18.1"
+    },
+    {
+      "type": "Related To",
+      "targetName": "Other and unspecified types of non-Hodgkin lymphoma",
+      "targetTermType": "PT",
+      "targetCode": "C85",
+      "targetTerminology": "ICD10CM 2017"
+    },
+    {
+      "type": "Related To",
+      "targetName": "Other named variants of lymphosarcoma and reticulosarcoma, unspecified site",
+      "targetTermType": "PT",
+      "targetCode": "200.80",
+      "targetTerminology": "ICD9CM 2014"
+    },
+    {
+      "type": "Related To",
+      "targetName": "Other named variants of lymphosarcoma and reticulosarcoma",
+      "targetTermType": "PT",
+      "targetCode": "200.8",
+      "targetTerminology": "ICD9CM 2014"
+    },
+    {
+      "type": "Related To",
+      "targetName": "Other specified types of non-Hodgkin lymphoma, extranodal and solid organ sites",
+      "targetTermType": "PT",
+      "targetCode": "C85.89",
+      "targetTerminology": "ICD10CM 2017"
+    },
+    {
+      "type": "Related To",
+      "targetName": "Other specified types of non-Hodgkin lymphoma, intra-abdominal lymph nodes",
+      "targetTermType": "PT",
+      "targetCode": "C85.83",
+      "targetTerminology": "ICD10CM 2017"
+    },
+    {
+      "type": "Related To",
+      "targetName": "Other specified types of non-Hodgkin lymphoma, intrathoracic lymph nodes",
+      "targetTermType": "PT",
+      "targetCode": "C85.82",
+      "targetTerminology": "ICD10CM 2017"
+    },
+    {
+      "type": "Related To",
+      "targetName": "Other specified types of non-Hodgkin lymphoma, lymph nodes of head, face, and neck",
+      "targetTermType": "PT",
+      "targetCode": "C85.81",
+      "targetTerminology": "ICD10CM 2017"
+    },
+    {
+      "type": "Related To",
+      "targetName": "Other specified types of non-Hodgkin lymphoma, lymph nodes of inguinal region and lower limb",
+      "targetTermType": "PT",
+      "targetCode": "C85.85",
+      "targetTerminology": "ICD10CM 2017"
+    },
+    {
+      "type": "Related To",
+      "targetName": "Other specified types of non-Hodgkin lymphoma, lymph nodes of multiple sites",
+      "targetTermType": "PT",
+      "targetCode": "C85.88",
+      "targetTerminology": "ICD10CM 2017"
+    },
+    {
+      "type": "Related To",
+      "targetName": "Other specified types of non-Hodgkin lymphoma, unspecified site",
+      "targetTermType": "PT",
+      "targetCode": "C85.80",
+      "targetTerminology": "ICD10CM 2017"
+    },
+    {
+      "type": "Related To",
+      "targetName": "Other specified types of non-Hodgkin lymphoma",
+      "targetTermType": "PT",
+      "targetCode": "C85.8",
+      "targetTerminology": "ICD10CM 2017"
+    },
+    {
+      "type": "Related To",
+      "targetName": "Reticulosarcoma involving intra-abdominal lymph nodes",
+      "targetTermType": "PT",
+      "targetCode": "200.03",
+      "targetTerminology": "ICD9CM 2014"
+    },
+    {
+      "type": "Related To",
+      "targetName": "Reticulosarcoma involving intrathoracic lymph nodes",
+      "targetTermType": "PT",
+      "targetCode": "200.02",
+      "targetTerminology": "ICD9CM 2014"
+    },
+    {
+      "type": "Related To",
+      "targetName": "Reticulosarcoma involving lymph nodes of axilla and upper limb",
+      "targetTermType": "PT",
+      "targetCode": "200.04",
+      "targetTerminology": "ICD9CM 2014"
+    },
+    {
+      "type": "Related To",
+      "targetName": "Reticulosarcoma involving lymph nodes of head, face, and neck",
+      "targetTermType": "PT",
+      "targetCode": "200.01",
+      "targetTerminology": "ICD9CM 2014"
+    },
+    {
+      "type": "Related To",
+      "targetName": "Reticulosarcoma involving lymph nodes of inguinal region and lower limb",
+      "targetTermType": "PT",
+      "targetCode": "200.05",
+      "targetTerminology": "ICD9CM 2014"
+    },
+    {
+      "type": "Related To",
+      "targetName": "Reticulosarcoma involving lymph nodes of multiple sites",
+      "targetTermType": "PT",
+      "targetCode": "200.08",
+      "targetTerminology": "ICD9CM 2014"
+    },
+    {
+      "type": "Related To",
+      "targetName": "Reticulosarcoma, unspecified site, extranodal and solid organ sites",
+      "targetTermType": "PT",
+      "targetCode": "200.00",
+      "targetTerminology": "ICD9CM 2014"
+    },
+    {
+      "type": "Related To",
+      "targetName": "Reticulosarcoma",
+      "targetTermType": "PT",
+      "targetCode": "200.0",
+      "targetTerminology": "ICD9CM 2014"
+    }
+  ]
+}

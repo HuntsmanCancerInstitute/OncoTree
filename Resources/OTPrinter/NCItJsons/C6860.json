@@ -1,0 +1,903 @@
+{
+  "code": "C6860",
+  "name": "Primary Cutaneous Anaplastic Large Cell Lymphoma",
+  "terminology": "ncit",
+  "version": "25.11d",
+  "conceptStatus": "DEFAULT",
+  "leaf": false,
+  "active": true,
+  "synonyms": [
+    {
+      "name": "Primary Cutaneous Anaplastic Large Cell Lymphoma",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "caDSR"
+    },
+    {
+      "name": "ALCL, cutaneous",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "CTEP",
+      "code": "10065863",
+      "subSource": "SDC"
+    },
+    {
+      "name": "Anaplastic large-cell lymphoma, primary cutaneous type",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "CTEP",
+      "code": "10065863",
+      "subSource": "SDC"
+    },
+    {
+      "name": "Primary Cutaneous Anaplastic Large Cell Lymphoma",
+      "termType": "DN",
+      "type": "FULL_SYN",
+      "source": "CTRP"
+    },
+    {
+      "name": "Primary cutaneous anaplastic large cell lymphoma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "GDC"
+    },
+    {
+      "name": "C-ALCL",
+      "termType": "AB",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Primary Anaplastic Large Cell Lymphoma of Skin",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Primary Anaplastic Large Cell Lymphoma of the Skin",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Primary Cutaneous Anaplastic Large Cell Lymphoma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Primary Cutaneous CD30 Positive Anaplastic Large Cell Lymphoma",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Primary Cutaneous CD30+ ALCL",
+      "termType": "AB",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Primary Cutaneous CD30+ Anaplastic Large Cell Lymphoma",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Primary Cutaneous Anaplastic Large Cell Lymphoma",
+      "type": "Display_Name"
+    },
+    {
+      "name": "Primary Cutaneous Anaplastic Large Cell Lymphoma",
+      "type": "Preferred_Name"
+    }
+  ],
+  "definitions": [
+    {
+      "definition": "An anaplastic large cell lymphoma limited to the skin at the time of diagnosis.  Most patients present with solitary or localized skin lesions, which may be tumors, nodules or papules.  The t(2;5) translocation that is present in many cases of systemic anaplastic large cell lymphoma, is not found in this disease. (WHO, 2001)",
+      "type": "DEFINITION",
+      "source": "NCI"
+    }
+  ],
+  "properties": [
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "CTEP"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "CTRP"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "GDC"
+    },
+    {
+      "code": "P366",
+      "type": "Legacy Concept Name",
+      "value": "Primary_Cutaneous_Anaplastic_Large_Cell_Lymphoma"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "9718/3"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "Primary cutaneous anaplastic large cell lymphoma"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "Primary cutaneous CD30+ large T-cell lymphoma"
+    },
+    {
+      "code": "P363",
+      "type": "Neoplastic_Status",
+      "value": "Malignant"
+    },
+    {
+      "code": "P106",
+      "type": "Semantic_Type",
+      "value": "Neoplastic Process"
+    },
+    {
+      "code": "P207",
+      "type": "UMLS_CUI",
+      "value": "C1301362"
+    }
+  ],
+  "children": [
+    {
+      "code": "C27365",
+      "name": "Adult Primary Cutaneous Anaplastic Large Cell Lymphoma",
+      "leaf": true
+    },
+    {
+      "code": "C7211",
+      "name": "Childhood Primary Cutaneous Anaplastic Large Cell Lymphoma",
+      "leaf": true
+    },
+    {
+      "code": "C181044",
+      "name": "Recurrent Primary Cutaneous Anaplastic Large Cell Lymphoma",
+      "leaf": true
+    },
+    {
+      "code": "C181045",
+      "name": "Refractory Primary Cutaneous Anaplastic Large Cell Lymphoma",
+      "leaf": true
+    }
+  ],
+  "parents": [
+    {
+      "code": "C3720",
+      "name": "Anaplastic Large Cell Lymphoma"
+    },
+    {
+      "code": "C171300",
+      "name": "Indolent T-Cell Non-Hodgkin Lymphoma"
+    },
+    {
+      "code": "C7195",
+      "name": "Primary Cutaneous CD30-Positive T-Cell Lymphoproliferative Disorder"
+    },
+    {
+      "code": "C3467",
+      "name": "Primary Cutaneous T-Cell Non-Hodgkin Lymphoma"
+    }
+  ],
+  "associations": [
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C118168",
+      "relatedName": "CTRP Disease Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C116977",
+      "relatedName": "CTRP Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C157711",
+      "relatedName": "GDC Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C177537",
+      "relatedName": "GDC Value Terminology"
+    },
+    {
+      "type": "Is_Value_For_GDC_Property",
+      "relatedCode": "C176985",
+      "relatedName": "Histology ICD-O Morphology Code"
+    },
+    {
+      "type": "Is_Value_For_GDC_Property",
+      "relatedCode": "C177621",
+      "relatedName": "ICD-O-3 Morphology Term Diagnosis Question"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168662",
+      "relatedName": "Mapped ICDO3.2 Morphology PT Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168661",
+      "relatedName": "Mapped ICDO3.2 Morphology Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168656",
+      "relatedName": "Mapped ICDO3.2 Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C103133",
+      "relatedName": "NCI CTEP SDC Non-Hodgkin Lymphoma Sub-Category Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C102905",
+      "relatedName": "NCI CTEP Simplified Disease Classification Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C126659",
+      "relatedName": "NCIt Neoplasm Core Terminology"
+    }
+  ],
+  "inverseAssociations": [
+    {
+      "type": "Has_GDC_Value",
+      "relatedCode": "C176985",
+      "relatedName": "Histology ICD-O Morphology Code"
+    },
+    {
+      "type": "Has_GDC_Value",
+      "relatedCode": "C177621",
+      "relatedName": "ICD-O-3 Morphology Term Diagnosis Question"
+    }
+  ],
+  "roles": [
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36725",
+      "relatedName": "Abnormal Lymphocyte"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C39686",
+      "relatedName": "Activated Skin-Homing T-Lymphocyte"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C36104",
+      "relatedName": "Aggressive Clinical Course"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C37017",
+      "relatedName": "Anaplastic Large T-Lymphocyte"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C37017",
+      "relatedName": "Anaplastic Large T-Lymphocyte"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C36113",
+      "relatedName": "Anaplastic Lesion"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C36122",
+      "relatedName": "Benign Cellular Infiltrate"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C39715",
+      "relatedName": "CD30-Positive Neoplastic Cells Present"
+    },
+    {
+      "type": "Disease_May_Have_Cytogenetic_Abnormality",
+      "relatedCode": "C36447",
+      "relatedName": "Clonal T-Cell Receptor Beta Chain Gene Rearrangement"
+    },
+    {
+      "type": "Disease_May_Have_Molecular_Abnormality",
+      "relatedCode": "C36447",
+      "relatedName": "Clonal T-Cell Receptor Beta Chain Gene Rearrangement"
+    },
+    {
+      "type": "Disease_May_Have_Cytogenetic_Abnormality",
+      "relatedCode": "C36448",
+      "relatedName": "Clonal T-Cell Receptor Gamma Chain Gene Rearrangement"
+    },
+    {
+      "type": "Disease_May_Have_Molecular_Abnormality",
+      "relatedCode": "C36448",
+      "relatedName": "Clonal T-Cell Receptor Gamma Chain Gene Rearrangement"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C39709",
+      "relatedName": "Confluent Sheets of Anaplastic T-Lymphocytes Present"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C39570",
+      "relatedName": "Cutaneous Involvement"
+    },
+    {
+      "type": "Disease_May_Have_Abnormal_Cell",
+      "relatedCode": "C39680",
+      "relatedName": "Doughnut Cell"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C39625",
+      "relatedName": "Extracutaneous Dissemination of Disease"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C39679",
+      "relatedName": "Hallmark Cell"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C41165",
+      "relatedName": "Hematopoietic and Lymphatic System"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C41165",
+      "relatedName": "Hematopoietic and Lymphatic System"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C32725",
+      "relatedName": "Hematopoietic and Lymphoid Cell"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C41168",
+      "relatedName": "Hematopoietic and Lymphoid Tissue"
+    },
+    {
+      "type": "Disease_May_Have_Abnormal_Cell",
+      "relatedCode": "C37026",
+      "relatedName": "Hodgkin-Like Cell"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12907",
+      "relatedName": "Integumentary System"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C39688",
+      "relatedName": "Localized Skin Lesion"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12746",
+      "relatedName": "Lymphatic System"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C37027",
+      "relatedName": "Lymphocyte Predominant Cell"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C12535",
+      "relatedName": "Lymphocyte"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C13049",
+      "relatedName": "Lymphoid Tissue"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12917",
+      "relatedName": "Malignant Cell"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C36115",
+      "relatedName": "Malignant Cellular Infiltrate"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C33061",
+      "relatedName": "Mature T-Lymphocyte"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C39689",
+      "relatedName": "Multicentric Cutaneous Involvement"
+    },
+    {
+      "type": "Disease_Excludes_Normal_Cell_Origin",
+      "relatedCode": "C12549",
+      "relatedName": "Myeloid Cell"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C38640",
+      "relatedName": "Neoplastic B-Lymphocyte"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12922",
+      "relatedName": "Neoplastic Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C37060",
+      "relatedName": "Neoplastic Hematopoietic and Lymphoid Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36988",
+      "relatedName": "Neoplastic Lymphocyte"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C39566",
+      "relatedName": "Neoplastic T-Lymphocyte and Neoplastic Natural Killer Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C38641",
+      "relatedName": "Neoplastic T-Lymphocyte"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C39690",
+      "relatedName": "Papular Lesion"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C39568",
+      "relatedName": "Peripheral (Post-Thymic) T-Lymphocyte and Natural Killer Cell"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C38434",
+      "relatedName": "Peripheral (Post-Thymic) T-Lymphocyte"
+    },
+    {
+      "type": "Disease_Excludes_Normal_Cell_Origin",
+      "relatedCode": "C12486",
+      "relatedName": "Plasma Cell"
+    },
+    {
+      "type": "Disease_Excludes_Normal_Cell_Origin",
+      "relatedCode": "C39300",
+      "relatedName": "Precursor Natural Killer Cell"
+    },
+    {
+      "type": "Disease_Excludes_Normal_Cell_Origin",
+      "relatedCode": "C33930",
+      "relatedName": "Precursor T-Lymphoblast"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C40558",
+      "relatedName": "Primary Lesion"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C12660",
+      "relatedName": "Reed-Sternberg Cell"
+    },
+    {
+      "type": "Disease_May_Have_Abnormal_Cell",
+      "relatedCode": "C37024",
+      "relatedName": "Reed-Sternberg-Like Cell"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C3373",
+      "relatedName": "Skin Nodule"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12470",
+      "relatedName": "Skin"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12470",
+      "relatedName": "Skin"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C39567",
+      "relatedName": "T-Lymphocyte and Natural Killer Cell"
+    }
+  ],
+  "history": [
+    {
+      "code": "C6860",
+      "action": "create",
+      "date": "2003-08-12"
+    },
+    {
+      "code": "C6860",
+      "action": "modify",
+      "date": "2003-10-31"
+    },
+    {
+      "code": "C6860",
+      "action": "modify",
+      "date": "2003-12-30"
+    },
+    {
+      "code": "C6860",
+      "action": "modify",
+      "date": "2004-03-30"
+    },
+    {
+      "code": "C6860",
+      "action": "modify",
+      "date": "2004-04-30"
+    },
+    {
+      "code": "C6860",
+      "action": "modify",
+      "date": "2004-06-25"
+    },
+    {
+      "code": "C6860",
+      "action": "modify",
+      "date": "2004-09-10"
+    },
+    {
+      "code": "C6860",
+      "action": "modify",
+      "date": "2005-03-16"
+    },
+    {
+      "code": "C6860",
+      "action": "modify",
+      "date": "2005-03-30"
+    },
+    {
+      "code": "C6860",
+      "action": "modify",
+      "date": "2005-09-29"
+    },
+    {
+      "code": "C6860",
+      "action": "modify",
+      "date": "2009-04-27"
+    },
+    {
+      "code": "C6860",
+      "action": "modify",
+      "date": "2009-11-23"
+    },
+    {
+      "code": "C6860",
+      "action": "modify",
+      "date": "2012-09-24"
+    },
+    {
+      "code": "C6860",
+      "action": "modify",
+      "date": "2012-10-01"
+    },
+    {
+      "code": "C6860",
+      "action": "modify",
+      "date": "2012-10-09"
+    },
+    {
+      "code": "C6860",
+      "action": "modify",
+      "date": "2012-10-15"
+    },
+    {
+      "code": "C6860",
+      "action": "modify",
+      "date": "2012-10-22"
+    },
+    {
+      "code": "C6860",
+      "action": "modify",
+      "date": "2012-10-31"
+    },
+    {
+      "code": "C6860",
+      "action": "modify",
+      "date": "2012-11-05"
+    },
+    {
+      "code": "C6860",
+      "action": "modify",
+      "date": "2012-11-13"
+    },
+    {
+      "code": "C6860",
+      "action": "modify",
+      "date": "2012-11-19"
+    },
+    {
+      "code": "C6860",
+      "action": "modify",
+      "date": "2012-11-26"
+    },
+    {
+      "code": "C6860",
+      "action": "modify",
+      "date": "2012-12-03"
+    },
+    {
+      "code": "C6860",
+      "action": "modify",
+      "date": "2012-12-10"
+    },
+    {
+      "code": "C6860",
+      "action": "modify",
+      "date": "2012-12-17"
+    },
+    {
+      "code": "C6860",
+      "action": "modify",
+      "date": "2012-12-28"
+    },
+    {
+      "code": "C6860",
+      "action": "modify",
+      "date": "2013-01-07"
+    },
+    {
+      "code": "C6860",
+      "action": "modify",
+      "date": "2013-01-14"
+    },
+    {
+      "code": "C6860",
+      "action": "modify",
+      "date": "2013-01-23"
+    },
+    {
+      "code": "C6860",
+      "action": "modify",
+      "date": "2013-02-04"
+    },
+    {
+      "code": "C6860",
+      "action": "modify",
+      "date": "2013-02-11"
+    },
+    {
+      "code": "C6860",
+      "action": "modify",
+      "date": "2013-02-19"
+    },
+    {
+      "code": "C6860",
+      "action": "modify",
+      "date": "2013-02-25"
+    },
+    {
+      "code": "C6860",
+      "action": "modify",
+      "date": "2013-03-04"
+    },
+    {
+      "code": "C6860",
+      "action": "modify",
+      "date": "2013-03-11"
+    },
+    {
+      "code": "C6860",
+      "action": "modify",
+      "date": "2013-03-18"
+    },
+    {
+      "code": "C6860",
+      "action": "modify",
+      "date": "2013-03-25"
+    },
+    {
+      "code": "C6860",
+      "action": "modify",
+      "date": "2013-04-01"
+    },
+    {
+      "code": "C6860",
+      "action": "modify",
+      "date": "2013-04-08"
+    },
+    {
+      "code": "C6860",
+      "action": "modify",
+      "date": "2013-04-15"
+    },
+    {
+      "code": "C6860",
+      "action": "modify",
+      "date": "2013-04-22"
+    },
+    {
+      "code": "C6860",
+      "action": "modify",
+      "date": "2013-04-29"
+    },
+    {
+      "code": "C6860",
+      "action": "modify",
+      "date": "2013-05-06"
+    },
+    {
+      "code": "C6860",
+      "action": "modify",
+      "date": "2013-05-13"
+    },
+    {
+      "code": "C6860",
+      "action": "modify",
+      "date": "2013-05-20"
+    },
+    {
+      "code": "C6860",
+      "action": "modify",
+      "date": "2013-05-28"
+    },
+    {
+      "code": "C6860",
+      "action": "modify",
+      "date": "2013-06-03"
+    },
+    {
+      "code": "C6860",
+      "action": "modify",
+      "date": "2013-06-10"
+    },
+    {
+      "code": "C6860",
+      "action": "modify",
+      "date": "2013-06-17"
+    },
+    {
+      "code": "C6860",
+      "action": "modify",
+      "date": "2013-06-24"
+    },
+    {
+      "code": "C6860",
+      "action": "modify",
+      "date": "2013-07-01"
+    },
+    {
+      "code": "C6860",
+      "action": "modify",
+      "date": "2013-07-08"
+    },
+    {
+      "code": "C6860",
+      "action": "modify",
+      "date": "2014-02-03"
+    },
+    {
+      "code": "C6860",
+      "action": "modify",
+      "date": "2014-06-23"
+    },
+    {
+      "code": "C6860",
+      "action": "modify",
+      "date": "2015-07-20"
+    },
+    {
+      "code": "C6860",
+      "action": "modify",
+      "date": "2016-04-25"
+    },
+    {
+      "code": "C6860",
+      "action": "modify",
+      "date": "2018-09-24"
+    },
+    {
+      "code": "C6860",
+      "action": "modify",
+      "date": "2018-10-29"
+    },
+    {
+      "code": "C6860",
+      "action": "modify",
+      "date": "2018-10-29"
+    },
+    {
+      "code": "C6860",
+      "action": "modify",
+      "date": "2019-05-28"
+    },
+    {
+      "code": "C6860",
+      "action": "modify",
+      "date": "2019-09-30"
+    },
+    {
+      "code": "C6860",
+      "action": "modify",
+      "date": "2019-11-25"
+    },
+    {
+      "code": "C6860",
+      "action": "modify",
+      "date": "2020-04-27"
+    },
+    {
+      "code": "C6860",
+      "action": "modify",
+      "date": "2020-09-29"
+    },
+    {
+      "code": "C6860",
+      "action": "modify",
+      "date": "2021-02-22"
+    },
+    {
+      "code": "C6860",
+      "action": "modify",
+      "date": "2021-03-29"
+    },
+    {
+      "code": "C6860",
+      "action": "modify",
+      "date": "2022-08-29"
+    },
+    {
+      "code": "C6860",
+      "action": "modify",
+      "date": "2023-06-26"
+    }
+  ],
+  "maps": [
+    {
+      "type": "Related To",
+      "targetName": "9718/3",
+      "targetTermType": "PT",
+      "targetCode": "morphology",
+      "targetTerminology": "GDC"
+    },
+    {
+      "type": "Related To",
+      "targetName": "Primary cutaneous anaplastic large cell lymphoma",
+      "targetTermType": "PT",
+      "targetCode": "9718/3",
+      "targetTerminology": "ICDO3",
+      "targetTerminologyVersion": "3.2"
+    },
+    {
+      "type": "Has Synonym",
+      "targetName": "Primary cutaneous anaplastic large cell lymphoma",
+      "targetTermType": "PT",
+      "targetCode": "primary_diagnosis",
+      "targetTerminology": "GDC"
+    },
+    {
+      "type": "Related To",
+      "targetName": "Primary cutaneous CD30+ large T-cell lymphoma",
+      "targetTermType": "PT",
+      "targetCode": "primary_diagnosis",
+      "targetTerminology": "GDC"
+    }
+  ]
+}

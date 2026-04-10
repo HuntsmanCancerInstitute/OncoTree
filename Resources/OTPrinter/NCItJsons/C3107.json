@@ -1,0 +1,1125 @@
+{
+  "code": "C3107",
+  "name": "Langerhans Cell Histiocytosis",
+  "terminology": "ncit",
+  "version": "25.11d",
+  "conceptStatus": "DEFAULT",
+  "leaf": false,
+  "active": true,
+  "synonyms": [
+    {
+      "name": "Langerhans Cell Histiocytosis",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "caDSR"
+    },
+    {
+      "name": "Langerhans Cell Histiocytosis",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "Cellosaurus"
+    },
+    {
+      "name": "Langerhans cell histiocytosis",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "CTEP",
+      "code": "10025581",
+      "subSource": "SDC"
+    },
+    {
+      "name": "Langerhans Cell Histiocytosis",
+      "termType": "DN",
+      "type": "FULL_SYN",
+      "source": "CTRP"
+    },
+    {
+      "name": "Langerhans cell granulomatosis",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "GDC"
+    },
+    {
+      "name": "Langerhans cell histiocytosis, NOS",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "GDC"
+    },
+    {
+      "name": "Langerhans cell histiocytosis",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NCI-GLOSS",
+      "code": "CDR0000471787"
+    },
+    {
+      "name": "LCH",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NCI-GLOSS",
+      "code": "CDR0000513054"
+    },
+    {
+      "name": "Histiocytosis X",
+      "termType": "AQS",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Langerhans Cell Granulomatosis",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Langerhans Cell Histiocytosis",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "LCH",
+      "termType": "AB",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Histiocytosis X",
+      "termType": "AQS",
+      "type": "FULL_SYN",
+      "source": "NICHD"
+    },
+    {
+      "name": "Langerhans Cell Histiocytosis",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NICHD"
+    },
+    {
+      "name": "Langerhans Cell Histiocytosis",
+      "type": "Display_Name"
+    },
+    {
+      "name": "Langerhans Cell Histiocytosis",
+      "type": "Preferred_Name"
+    }
+  ],
+  "definitions": [
+    {
+      "definition": "A group of rare disorders in which too many Langerhans cells (a type of white blood cell) grow in certain tissues and organs including the bones, skin, and lungs, and damage them. Langerhans cell histiocytosis may also affect the pituitary gland (which makes hormones that control other glands and many body functions, especially growth). Langerhans cell histiocytosis is most common in children and young adults.",
+      "type": "ALT_DEFINITION",
+      "source": "NCI-GLOSS"
+    },
+    {
+      "definition": "A neoplastic proliferation of Langerhans cells which contain Birbeck granules by ultrastructural examination. Three major overlapping syndromes are recognized: eosinophilic granuloma, Letterer-Siwe disease, and Hand-Schuller-Christian disease. The clinical course is generally related to the number of organs affected at presentation. (WHO, 2001)",
+      "type": "DEFINITION",
+      "source": "NCI"
+    },
+    {
+      "definition": "Tissue infiltration by Langerhans cells (histiocytes). When infiltration involves the pituitary stalk or gland, presentation includes diabetes insipidus, which is sometimes accompanied by other pituitary dysfunction.",
+      "type": "ALT_DEFINITION",
+      "source": "NICHD"
+    }
+  ],
+  "properties": [
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "Cellosaurus"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "CTEP"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "CTRP"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "GDC"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "NICHD"
+    },
+    {
+      "code": "P334",
+      "type": "ICD-O-3_Code",
+      "value": "9751/1"
+    },
+    {
+      "code": "P334",
+      "type": "ICD-O-3_Code",
+      "value": "9751/3"
+    },
+    {
+      "code": "P334",
+      "type": "ICD-O-3_Code",
+      "value": "9752/1"
+    },
+    {
+      "code": "P334",
+      "type": "ICD-O-3_Code",
+      "value": "9753/1"
+    },
+    {
+      "code": "P334",
+      "type": "ICD-O-3_Code",
+      "value": "9754/3"
+    },
+    {
+      "code": "P366",
+      "type": "Legacy Concept Name",
+      "value": "Langerhans_Cell_Histiocytosis"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "9751/1"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "9751/3"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "Histiocytosis X, NOS"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "Langerhans cell granulomatosis"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "Langerhans cell histiocytosis, NOS"
+    },
+    {
+      "code": "P363",
+      "type": "Neoplastic_Status",
+      "value": "Undetermined"
+    },
+    {
+      "code": "P106",
+      "type": "Semantic_Type",
+      "value": "Neoplastic Process"
+    },
+    {
+      "code": "P207",
+      "type": "UMLS_CUI",
+      "value": "C0019621"
+    }
+  ],
+  "children": [
+    {
+      "code": "C114929",
+      "name": "Adult Langerhans Cell Histiocytosis",
+      "leaf": true
+    },
+    {
+      "code": "C178607",
+      "name": "Bone Langerhans Cell Histiocytosis",
+      "leaf": true
+    },
+    {
+      "code": "C129806",
+      "name": "Central Nervous System Langerhans Cell Histiocytosis",
+      "leaf": true
+    },
+    {
+      "code": "C114483",
+      "name": "Childhood Langerhans Cell Histiocytosis",
+      "leaf": false
+    },
+    {
+      "code": "C168983",
+      "name": "Cutaneous Langerhans Cell Histiocytosis",
+      "leaf": true
+    },
+    {
+      "code": "C173486",
+      "name": "Head and Neck Langerhans Cell Histiocytosis",
+      "leaf": false
+    },
+    {
+      "code": "C150703",
+      "name": "Langerhans Cell Histiocytosis, Disseminated",
+      "leaf": false
+    },
+    {
+      "code": "C150701",
+      "name": "Langerhans Cell Histiocytosis, Monostotic",
+      "leaf": false
+    },
+    {
+      "code": "C150702",
+      "name": "Langerhans Cell Histiocytosis, Polyostotic",
+      "leaf": false
+    },
+    {
+      "code": "C134175",
+      "name": "Recurrent Langerhans Cell Histiocytosis",
+      "leaf": true
+    },
+    {
+      "code": "C134177",
+      "name": "Refractory Langerhans Cell Histiocytosis",
+      "leaf": true
+    }
+  ],
+  "parents": [
+    {
+      "code": "C150692",
+      "name": "Tumors Derived from Langerhans Cells"
+    }
+  ],
+  "associations": [
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C165258",
+      "relatedName": "Cellosaurus Disease Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C118168",
+      "relatedName": "CTRP Disease Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C116977",
+      "relatedName": "CTRP Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C157711",
+      "relatedName": "GDC Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C177537",
+      "relatedName": "GDC Value Terminology"
+    },
+    {
+      "type": "Is_Value_For_GDC_Property",
+      "relatedCode": "C176985",
+      "relatedName": "Histology ICD-O Morphology Code"
+    },
+    {
+      "type": "Is_Value_For_GDC_Property",
+      "relatedCode": "C177621",
+      "relatedName": "ICD-O-3 Morphology Term Diagnosis Question"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168658",
+      "relatedName": "Mapped ICDO3.1 Morphology PT Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168657",
+      "relatedName": "Mapped ICDO3.1 Morphology Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168655",
+      "relatedName": "Mapped ICDO3.1 Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168662",
+      "relatedName": "Mapped ICDO3.2 Morphology PT Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168661",
+      "relatedName": "Mapped ICDO3.2 Morphology Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168656",
+      "relatedName": "Mapped ICDO3.2 Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C103078",
+      "relatedName": "NCI CTEP SDC Hematopoietic Neoplasm, Miscellaneous Sub-Category Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C102905",
+      "relatedName": "NCI CTEP Simplified Disease Classification Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C126659",
+      "relatedName": "NCIt Neoplasm Core Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C90259",
+      "relatedName": "NICHD Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C118467",
+      "relatedName": "Pediatric Endocrinology Terminology"
+    }
+  ],
+  "inverseAssociations": [
+    {
+      "type": "Has_GDC_Value",
+      "relatedCode": "C176985",
+      "relatedName": "Histology ICD-O Morphology Code"
+    },
+    {
+      "type": "Has_GDC_Value",
+      "relatedCode": "C177621",
+      "relatedName": "ICD-O-3 Morphology Term Diagnosis Question"
+    }
+  ],
+  "roles": [
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C43266",
+      "relatedName": "Birbeck Granules Present"
+    },
+    {
+      "type": "Disease_May_Have_Molecular_Abnormality",
+      "relatedCode": "C40430",
+      "relatedName": "BRAF Gene Mutation"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C43267",
+      "relatedName": "CD1a-Positive Neoplastic Cells Present"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C43269",
+      "relatedName": "CD21-Positive Neoplastic Cells Present"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C39715",
+      "relatedName": "CD30-Positive Neoplastic Cells Present"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C43270",
+      "relatedName": "CD35-Positive Neoplastic Cells Present"
+    },
+    {
+      "type": "Disease_Excludes_Molecular_Abnormality",
+      "relatedCode": "C36443",
+      "relatedName": "Clonal Immunoglobulin Gene Rearrangement"
+    },
+    {
+      "type": "Disease_Excludes_Molecular_Abnormality",
+      "relatedCode": "C36446",
+      "relatedName": "Clonal T-Cell Receptor Gene Rearrangement"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C41165",
+      "relatedName": "Hematopoietic and Lymphatic System"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C41165",
+      "relatedName": "Hematopoietic and Lymphatic System"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C32725",
+      "relatedName": "Hematopoietic and Lymphoid Cell"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C41168",
+      "relatedName": "Hematopoietic and Lymphoid Tissue"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C36129",
+      "relatedName": "High Grade Lesion"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C12563",
+      "relatedName": "Histiocyte"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C43251",
+      "relatedName": "Histiocytic and Dendritic Cell"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C3106",
+      "relatedName": "Histiocytosis"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C43268",
+      "relatedName": "HMB-45-Positive Neoplastic Cells Present"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C12584",
+      "relatedName": "Langerhans Cell"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C43264",
+      "relatedName": "Monoclonal Langerhans Cells Present"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12922",
+      "relatedName": "Neoplastic Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C37060",
+      "relatedName": "Neoplastic Hematopoietic and Lymphoid Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C43253",
+      "relatedName": "Neoplastic Histiocytic and Dendritic Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36889",
+      "relatedName": "Neoplastic Langerhans Cell"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C38667",
+      "relatedName": "Polymorphic Cellular Infiltrate"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C42094",
+      "relatedName": "Rare Lesion"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C40993",
+      "relatedName": "S-100-Positive Neoplastic Cells Present"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C39615",
+      "relatedName": "Sinusoidal Infiltration"
+    }
+  ],
+  "history": [
+    {
+      "code": "C3107",
+      "action": "create",
+      "date": "2003-08-12"
+    },
+    {
+      "code": "C3107",
+      "action": "modify",
+      "date": "2003-10-31"
+    },
+    {
+      "code": "C3107",
+      "action": "modify",
+      "date": "2003-12-30"
+    },
+    {
+      "code": "C3107",
+      "action": "modify",
+      "date": "2004-03-30"
+    },
+    {
+      "code": "C3107",
+      "action": "modify",
+      "date": "2005-01-28"
+    },
+    {
+      "code": "C3107",
+      "action": "modify",
+      "date": "2007-06-28"
+    },
+    {
+      "code": "C3107",
+      "action": "modify",
+      "date": "2009-04-06"
+    },
+    {
+      "code": "C3107",
+      "action": "modify",
+      "date": "2009-10-27"
+    },
+    {
+      "code": "C3107",
+      "action": "modify",
+      "date": "2009-11-23"
+    },
+    {
+      "code": "C3107",
+      "action": "modify",
+      "date": "2010-11-01"
+    },
+    {
+      "code": "C3107",
+      "action": "modify",
+      "date": "2010-11-08"
+    },
+    {
+      "code": "C3107",
+      "action": "modify",
+      "date": "2010-11-15"
+    },
+    {
+      "code": "C3107",
+      "action": "modify",
+      "date": "2010-11-22"
+    },
+    {
+      "code": "C3107",
+      "action": "modify",
+      "date": "2010-11-29"
+    },
+    {
+      "code": "C3107",
+      "action": "modify",
+      "date": "2010-12-06"
+    },
+    {
+      "code": "C3107",
+      "action": "modify",
+      "date": "2010-12-13"
+    },
+    {
+      "code": "C3107",
+      "action": "modify",
+      "date": "2010-12-27"
+    },
+    {
+      "code": "C3107",
+      "action": "modify",
+      "date": "2011-01-03"
+    },
+    {
+      "code": "C3107",
+      "action": "modify",
+      "date": "2011-01-10"
+    },
+    {
+      "code": "C3107",
+      "action": "modify",
+      "date": "2011-01-17"
+    },
+    {
+      "code": "C3107",
+      "action": "modify",
+      "date": "2011-01-24"
+    },
+    {
+      "code": "C3107",
+      "action": "modify",
+      "date": "2011-01-31"
+    },
+    {
+      "code": "C3107",
+      "action": "modify",
+      "date": "2012-03-12"
+    },
+    {
+      "code": "C3107",
+      "action": "modify",
+      "date": "2012-07-30"
+    },
+    {
+      "code": "C3107",
+      "action": "modify",
+      "date": "2012-09-24"
+    },
+    {
+      "code": "C3107",
+      "action": "modify",
+      "date": "2012-10-01"
+    },
+    {
+      "code": "C3107",
+      "action": "modify",
+      "date": "2012-10-09"
+    },
+    {
+      "code": "C3107",
+      "action": "modify",
+      "date": "2012-10-15"
+    },
+    {
+      "code": "C3107",
+      "action": "modify",
+      "date": "2012-10-22"
+    },
+    {
+      "code": "C3107",
+      "action": "modify",
+      "date": "2012-10-31"
+    },
+    {
+      "code": "C3107",
+      "action": "modify",
+      "date": "2012-11-05"
+    },
+    {
+      "code": "C3107",
+      "action": "modify",
+      "date": "2012-11-13"
+    },
+    {
+      "code": "C3107",
+      "action": "modify",
+      "date": "2012-11-19"
+    },
+    {
+      "code": "C3107",
+      "action": "modify",
+      "date": "2012-11-26"
+    },
+    {
+      "code": "C3107",
+      "action": "modify",
+      "date": "2012-12-03"
+    },
+    {
+      "code": "C3107",
+      "action": "modify",
+      "date": "2012-12-10"
+    },
+    {
+      "code": "C3107",
+      "action": "modify",
+      "date": "2012-12-17"
+    },
+    {
+      "code": "C3107",
+      "action": "modify",
+      "date": "2012-12-28"
+    },
+    {
+      "code": "C3107",
+      "action": "modify",
+      "date": "2013-01-07"
+    },
+    {
+      "code": "C3107",
+      "action": "modify",
+      "date": "2013-01-14"
+    },
+    {
+      "code": "C3107",
+      "action": "modify",
+      "date": "2013-01-23"
+    },
+    {
+      "code": "C3107",
+      "action": "modify",
+      "date": "2013-02-04"
+    },
+    {
+      "code": "C3107",
+      "action": "modify",
+      "date": "2013-02-11"
+    },
+    {
+      "code": "C3107",
+      "action": "modify",
+      "date": "2013-02-19"
+    },
+    {
+      "code": "C3107",
+      "action": "modify",
+      "date": "2013-02-25"
+    },
+    {
+      "code": "C3107",
+      "action": "modify",
+      "date": "2013-03-04"
+    },
+    {
+      "code": "C3107",
+      "action": "modify",
+      "date": "2013-03-11"
+    },
+    {
+      "code": "C3107",
+      "action": "modify",
+      "date": "2013-03-18"
+    },
+    {
+      "code": "C3107",
+      "action": "modify",
+      "date": "2013-03-25"
+    },
+    {
+      "code": "C3107",
+      "action": "modify",
+      "date": "2013-04-01"
+    },
+    {
+      "code": "C3107",
+      "action": "modify",
+      "date": "2013-04-08"
+    },
+    {
+      "code": "C3107",
+      "action": "modify",
+      "date": "2013-04-15"
+    },
+    {
+      "code": "C3107",
+      "action": "modify",
+      "date": "2013-04-22"
+    },
+    {
+      "code": "C3107",
+      "action": "modify",
+      "date": "2013-04-29"
+    },
+    {
+      "code": "C3107",
+      "action": "modify",
+      "date": "2013-05-06"
+    },
+    {
+      "code": "C3107",
+      "action": "modify",
+      "date": "2013-05-13"
+    },
+    {
+      "code": "C3107",
+      "action": "modify",
+      "date": "2013-05-20"
+    },
+    {
+      "code": "C3107",
+      "action": "modify",
+      "date": "2013-05-28"
+    },
+    {
+      "code": "C3107",
+      "action": "modify",
+      "date": "2013-06-03"
+    },
+    {
+      "code": "C3107",
+      "action": "modify",
+      "date": "2013-06-10"
+    },
+    {
+      "code": "C3107",
+      "action": "modify",
+      "date": "2013-06-17"
+    },
+    {
+      "code": "C3107",
+      "action": "modify",
+      "date": "2013-06-24"
+    },
+    {
+      "code": "C3107",
+      "action": "modify",
+      "date": "2013-07-01"
+    },
+    {
+      "code": "C3107",
+      "action": "modify",
+      "date": "2013-07-08"
+    },
+    {
+      "code": "C3107",
+      "action": "modify",
+      "date": "2013-08-26"
+    },
+    {
+      "code": "C3107",
+      "action": "modify",
+      "date": "2014-02-03"
+    },
+    {
+      "code": "C3107",
+      "action": "modify",
+      "date": "2014-08-04"
+    },
+    {
+      "code": "C3107",
+      "action": "modify",
+      "date": "2014-08-18"
+    },
+    {
+      "code": "C3107",
+      "action": "modify",
+      "date": "2014-09-22"
+    },
+    {
+      "code": "C3107",
+      "action": "modify",
+      "date": "2015-05-04"
+    },
+    {
+      "code": "C3107",
+      "action": "modify",
+      "date": "2016-04-25"
+    },
+    {
+      "code": "C3107",
+      "action": "modify",
+      "date": "2016-10-17"
+    },
+    {
+      "code": "C3107",
+      "action": "modify",
+      "date": "2017-02-21"
+    },
+    {
+      "code": "C3107",
+      "action": "modify",
+      "date": "2017-02-27"
+    },
+    {
+      "code": "C3107",
+      "action": "modify",
+      "date": "2017-03-06"
+    },
+    {
+      "code": "C3107",
+      "action": "modify",
+      "date": "2017-03-13"
+    },
+    {
+      "code": "C3107",
+      "action": "modify",
+      "date": "2017-03-20"
+    },
+    {
+      "code": "C3107",
+      "action": "modify",
+      "date": "2017-03-27"
+    },
+    {
+      "code": "C3107",
+      "action": "modify",
+      "date": "2017-04-03"
+    },
+    {
+      "code": "C3107",
+      "action": "modify",
+      "date": "2017-04-10"
+    },
+    {
+      "code": "C3107",
+      "action": "modify",
+      "date": "2017-04-17"
+    },
+    {
+      "code": "C3107",
+      "action": "modify",
+      "date": "2017-04-24"
+    },
+    {
+      "code": "C3107",
+      "action": "modify",
+      "date": "2017-05-01"
+    },
+    {
+      "code": "C3107",
+      "action": "modify",
+      "date": "2017-05-04"
+    },
+    {
+      "code": "C3107",
+      "action": "modify",
+      "date": "2017-06-07"
+    },
+    {
+      "code": "C3107",
+      "action": "modify",
+      "date": "2017-09-26"
+    },
+    {
+      "code": "C3107",
+      "action": "modify",
+      "date": "2017-12-26"
+    },
+    {
+      "code": "C3107",
+      "action": "modify",
+      "date": "2018-06-25"
+    },
+    {
+      "code": "C3107",
+      "action": "modify",
+      "date": "2018-06-25"
+    },
+    {
+      "code": "C3107",
+      "action": "modify",
+      "date": "2018-07-30"
+    },
+    {
+      "code": "C3107",
+      "action": "modify",
+      "date": "2018-08-27"
+    },
+    {
+      "code": "C3107",
+      "action": "modify",
+      "date": "2018-08-27"
+    },
+    {
+      "code": "C3107",
+      "action": "modify",
+      "date": "2018-09-24"
+    },
+    {
+      "code": "C3107",
+      "action": "modify",
+      "date": "2018-10-29"
+    },
+    {
+      "code": "C3107",
+      "action": "modify",
+      "date": "2018-10-29"
+    },
+    {
+      "code": "C3107",
+      "action": "modify",
+      "date": "2019-05-28"
+    },
+    {
+      "code": "C3107",
+      "action": "modify",
+      "date": "2019-09-30"
+    },
+    {
+      "code": "C3107",
+      "action": "modify",
+      "date": "2019-10-28"
+    },
+    {
+      "code": "C3107",
+      "action": "modify",
+      "date": "2019-11-25"
+    },
+    {
+      "code": "C3107",
+      "action": "modify",
+      "date": "2020-02-24"
+    },
+    {
+      "code": "C3107",
+      "action": "modify",
+      "date": "2020-03-30"
+    },
+    {
+      "code": "C3107",
+      "action": "modify",
+      "date": "2020-04-27"
+    },
+    {
+      "code": "C3107",
+      "action": "modify",
+      "date": "2020-08-31"
+    },
+    {
+      "code": "C3107",
+      "action": "modify",
+      "date": "2020-09-29"
+    },
+    {
+      "code": "C3107",
+      "action": "modify",
+      "date": "2021-02-22"
+    },
+    {
+      "code": "C3107",
+      "action": "modify",
+      "date": "2021-03-29"
+    },
+    {
+      "code": "C3107",
+      "action": "modify",
+      "date": "2023-02-27"
+    },
+    {
+      "code": "C3107",
+      "action": "modify",
+      "date": "2023-04-24"
+    },
+    {
+      "code": "C3107",
+      "action": "modify",
+      "date": "2025-03-31"
+    }
+  ],
+  "maps": [
+    {
+      "type": "Related To",
+      "targetName": "9751/1",
+      "targetTermType": "PT",
+      "targetCode": "morphology",
+      "targetTerminology": "GDC"
+    },
+    {
+      "type": "Related To",
+      "targetName": "9751/3",
+      "targetTermType": "PT",
+      "targetCode": "morphology",
+      "targetTerminology": "GDC"
+    },
+    {
+      "type": "Related To",
+      "targetName": "Histiocytosis X, NOS",
+      "targetTermType": "PT",
+      "targetCode": "primary_diagnosis",
+      "targetTerminology": "GDC"
+    },
+    {
+      "type": "Has Synonym",
+      "targetName": "Langerhans cell granulomatosis",
+      "targetTermType": "PT",
+      "targetCode": "primary_diagnosis",
+      "targetTerminology": "GDC"
+    },
+    {
+      "type": "Related To",
+      "targetName": "Langerhans cell histiocytosis, NOS",
+      "targetTermType": "PT",
+      "targetCode": "9751/1",
+      "targetTerminology": "ICDO3",
+      "targetTerminologyVersion": "3.2"
+    },
+    {
+      "type": "Related To",
+      "targetName": "Langerhans cell histiocytosis, NOS",
+      "targetTermType": "PT",
+      "targetCode": "9751/3",
+      "targetTerminology": "ICDO3",
+      "targetTerminologyVersion": "3.1"
+    },
+    {
+      "type": "Has Synonym",
+      "targetName": "Langerhans cell histiocytosis, NOS",
+      "targetTermType": "PT",
+      "targetCode": "primary_diagnosis",
+      "targetTerminology": "GDC"
+    }
+  ]
+}

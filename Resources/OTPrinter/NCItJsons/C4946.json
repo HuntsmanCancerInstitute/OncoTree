@@ -1,0 +1,569 @@
+{
+  "code": "C4946",
+  "name": "Thyroid Gland Oncocytic Carcinoma",
+  "terminology": "ncit",
+  "version": "25.11d",
+  "conceptStatus": "DEFAULT",
+  "leaf": false,
+  "active": true,
+  "synonyms": [
+    {
+      "name": "Thyroid Gland Hurthle Cell Carcinoma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "Cellosaurus"
+    },
+    {
+      "name": "Hurthle Cell Carcinoma of the Thyroid",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Hurthle Cell Carcinoma of the Thyroid Gland",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Hurthle Cell Carcinoma of Thyroid",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Hurthle Cell Carcinoma of Thyroid Gland",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Hurthle Cell Thyroid Gland Carcinoma",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Oncocytic Carcinoma of the Thyroid",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Oncocytic Carcinoma of Thyroid",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Thyroid Gland Hurthle Cell Carcinoma",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Thyroid Gland Oncocytic Carcinoma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Thyroid Gland Oncocytic Follicular Carcinoma",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Thyroid Hurthle Cell Carcinoma",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Thyroid Oncocytic Carcinoma",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Thyroid Gland Oncocytic Carcinoma",
+      "type": "Preferred_Name"
+    }
+  ],
+  "definitions": [
+    {
+      "definition": "A follicular carcinoma of the thyroid gland, characterized by the presence of large cells with eosinophilic granular cytoplasm and pleomorphic nuclei with prominent, eosinophilic nucleoli.  The nuclear features that characterize the papillary carcinomas of the thyroid gland are absent.",
+      "type": "DEFINITION",
+      "source": "NCI"
+    }
+  ],
+  "properties": [
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "Cellosaurus"
+    },
+    {
+      "code": "P366",
+      "type": "Legacy Concept Name",
+      "value": "Thyroid_Hurthle_Cell_Carcinoma"
+    },
+    {
+      "code": "P363",
+      "type": "Neoplastic_Status",
+      "value": "Malignant"
+    },
+    {
+      "code": "P106",
+      "type": "Semantic_Type",
+      "value": "Neoplastic Process"
+    },
+    {
+      "code": "P207",
+      "type": "UMLS_CUI",
+      "value": "C0749424"
+    }
+  ],
+  "children": [
+    {
+      "code": "C174574",
+      "name": "Metastatic Thyroid Gland Oncocytic Carcinoma",
+      "leaf": false
+    },
+    {
+      "code": "C174573",
+      "name": "Recurrent Thyroid Gland Oncocytic Carcinoma",
+      "leaf": true
+    },
+    {
+      "code": "C165610",
+      "name": "Refractory Thyroid Gland Oncocytic Carcinoma",
+      "leaf": true
+    },
+    {
+      "code": "C174572",
+      "name": "Unresectable Thyroid Gland Oncocytic Carcinoma",
+      "leaf": true
+    }
+  ],
+  "parents": [
+    {
+      "code": "C3679",
+      "name": "Oncocytic Adenocarcinoma"
+    },
+    {
+      "code": "C8054",
+      "name": "Thyroid Gland Follicular Carcinoma"
+    },
+    {
+      "code": "C46068",
+      "name": "Thyroid Gland Oncocytic Neoplasm"
+    }
+  ],
+  "associations": [
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C165258",
+      "relatedName": "Cellosaurus Disease Terminology"
+    }
+  ],
+  "roles": [
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36773",
+      "relatedName": "Adenocarcinoma Cell"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C36122",
+      "relatedName": "Benign Cellular Infiltrate"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C46128",
+      "relatedName": "Capsular Invasion"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C54172",
+      "relatedName": "Carcinomatous Component Present"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C28371",
+      "relatedName": "Cold Nodule"
+    },
+    {
+      "type": "Disease_Mapped_To_Gene",
+      "relatedCode": "C156142",
+      "relatedName": "CREB3L2/PPARG Fusion Gene"
+    },
+    {
+      "type": "Disease_May_Have_Molecular_Abnormality",
+      "relatedCode": "C137691",
+      "relatedName": "DICER1 Gene Mutation"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C36108",
+      "relatedName": "Encapsulated Mass"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C32506",
+      "relatedName": "Endocrine Cell"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C188014",
+      "relatedName": "Endocrine Differentiation"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12704",
+      "relatedName": "Endocrine Gland"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12704",
+      "relatedName": "Endocrine Gland"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12705",
+      "relatedName": "Endocrine System"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12705",
+      "relatedName": "Endocrine System"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C12578",
+      "relatedName": "Epithelial Cell"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C53596",
+      "relatedName": "Epithelial Component Present"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C45714",
+      "relatedName": "Epithelial Tissue"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C47817",
+      "relatedName": "Follicular Cell Differentiation"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C47818",
+      "relatedName": "Follicular Structures Present"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C36018",
+      "relatedName": "Ground Glass Nuclear Inclusion"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12418",
+      "relatedName": "Head and Neck"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12418",
+      "relatedName": "Head and Neck"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C36129",
+      "relatedName": "High Grade Lesion"
+    },
+    {
+      "type": "Disease_May_Have_Molecular_Abnormality",
+      "relatedCode": "C45934",
+      "relatedName": "HRAS Gene Mutation"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C35983",
+      "relatedName": "Lymphocytic Infiltrate"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12917",
+      "relatedName": "Malignant Cell"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C36115",
+      "relatedName": "Malignant Cellular Infiltrate"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36929",
+      "relatedName": "Malignant Endocrine Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36779",
+      "relatedName": "Malignant Epithelial Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36942",
+      "relatedName": "Malignant Oncocyte"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C36771",
+      "relatedName": "Malignant Squamous Cell"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C37153",
+      "relatedName": "Malignant Stromal Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36836",
+      "relatedName": "Malignant Thyroid Gland Follicular Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C37097",
+      "relatedName": "Malignant Thyroid Gland Oncocyte"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C62273",
+      "relatedName": "Mixed Neoplastic Glandular and Squamous Cell Population"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C13063",
+      "relatedName": "Neck"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C13063",
+      "relatedName": "Neck"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12922",
+      "relatedName": "Neoplastic Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36753",
+      "relatedName": "Neoplastic Epithelial Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36763",
+      "relatedName": "Neoplastic Glandular Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36941",
+      "relatedName": "Neoplastic Oncocyte"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C36937",
+      "relatedName": "Neoplastic Smooth Muscle Cell"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C36760",
+      "relatedName": "Neoplastic Squamous Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C37095",
+      "relatedName": "Neoplastic Thyroid Gland Oncocyte"
+    },
+    {
+      "type": "Disease_May_Have_Molecular_Abnormality",
+      "relatedCode": "C41381",
+      "relatedName": "NRAS Gene Mutation"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C47828",
+      "relatedName": "Nuclear Clearing"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C47829",
+      "relatedName": "Nuclear Grooves"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C47827",
+      "relatedName": "Nuclear Pseudoinclusion"
+    },
+    {
+      "type": "Disease_Mapped_To_Gene",
+      "relatedCode": "C99365",
+      "relatedName": "PAX8/PPARG Fusion Gene"
+    },
+    {
+      "type": "Disease_May_Have_Molecular_Abnormality",
+      "relatedCode": "C96271",
+      "relatedName": "PIK3CA Gene Mutation"
+    },
+    {
+      "type": "Disease_May_Have_Molecular_Abnormality",
+      "relatedCode": "C46007",
+      "relatedName": "PPARG Gene Rearrangement"
+    },
+    {
+      "type": "Disease_May_Have_Molecular_Abnormality",
+      "relatedCode": "C36692",
+      "relatedName": "PTEN Gene Inactivation"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C36182",
+      "relatedName": "Solid Growth Pattern"
+    },
+    {
+      "type": "Disease_May_Have_Molecular_Abnormality",
+      "relatedCode": "C160585",
+      "relatedName": "TERT Promoter Mutation"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C47806",
+      "relatedName": "Thyroglobulin-Positive Neoplastic Cells Present"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C47809",
+      "relatedName": "Thyroid Gland Epithelial Tissue"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C33782",
+      "relatedName": "Thyroid Gland Follicle"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C33783",
+      "relatedName": "Thyroid Gland Follicular Cell"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12400",
+      "relatedName": "Thyroid Gland"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12400",
+      "relatedName": "Thyroid Gland"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C35913",
+      "relatedName": "Trabecular Pattern"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C35939",
+      "relatedName": "Tumor Vascular Invasion"
+    }
+  ],
+  "history": [
+    {
+      "code": "C4946",
+      "action": "create",
+      "date": "2003-08-12"
+    },
+    {
+      "code": "C4946",
+      "action": "modify",
+      "date": "2003-10-31"
+    },
+    {
+      "code": "C4946",
+      "action": "modify",
+      "date": "2003-12-30"
+    },
+    {
+      "code": "C4946",
+      "action": "modify",
+      "date": "2004-03-30"
+    },
+    {
+      "code": "C4946",
+      "action": "modify",
+      "date": "2004-12-30"
+    },
+    {
+      "code": "C4946",
+      "action": "modify",
+      "date": "2005-05-27"
+    },
+    {
+      "code": "C4946",
+      "action": "modify",
+      "date": "2005-06-24"
+    },
+    {
+      "code": "C4946",
+      "action": "modify",
+      "date": "2005-09-09"
+    },
+    {
+      "code": "C4946",
+      "action": "modify",
+      "date": "2006-04-28"
+    },
+    {
+      "code": "C4946",
+      "action": "modify",
+      "date": "2009-11-23"
+    },
+    {
+      "code": "C4946",
+      "action": "modify",
+      "date": "2013-03-25"
+    },
+    {
+      "code": "C4946",
+      "action": "modify",
+      "date": "2018-10-29"
+    },
+    {
+      "code": "C4946",
+      "action": "modify",
+      "date": "2018-10-29"
+    },
+    {
+      "code": "C4946",
+      "action": "modify",
+      "date": "2019-10-28"
+    },
+    {
+      "code": "C4946",
+      "action": "modify",
+      "date": "2022-06-29"
+    },
+    {
+      "code": "C4946",
+      "action": "modify",
+      "date": "2023-02-27"
+    },
+    {
+      "code": "C4946",
+      "action": "modify",
+      "date": "2025-03-31"
+    }
+  ]
+}

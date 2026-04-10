@@ -1,0 +1,1185 @@
+{
+  "code": "C6938",
+  "name": "Sweat Gland Carcinoma",
+  "terminology": "ncit",
+  "version": "25.11d",
+  "conceptStatus": "DEFAULT",
+  "leaf": false,
+  "active": true,
+  "synonyms": [
+    {
+      "name": "Carcinoma of Sweat Gland",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "CDISC"
+    },
+    {
+      "name": "Carcinoma of the Sweat Gland",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "CDISC"
+    },
+    {
+      "name": "CARCINOMA, SWEAT GLAND, MALIGNANT",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "CDISC"
+    },
+    {
+      "name": "Sweat gland carcinoma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "GDC"
+    },
+    {
+      "name": "Carcinoma of Sweat Gland",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Carcinoma of the Sweat Gland",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Sweat Gland Adenocarcinoma",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Sweat Gland Carcinoma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Sweat Gland Carcinoma",
+      "type": "Preferred_Name"
+    }
+  ],
+  "definitions": [
+    {
+      "definition": "A carcinoma that arises from the sweat glands. Representative examples include porocarcinoma, hidradenocarcinoma, microcystic adnexal carcinoma, skin adenoid cystic carcinoma, apocrine carcinoma, and digital papillary adenocarcinoma.",
+      "type": "DEFINITION",
+      "source": "NCI"
+    },
+    {
+      "definition": "A malignant neoplasm arising from sweat glands.",
+      "type": "ALT_DEFINITION",
+      "source": "CDISC"
+    }
+  ],
+  "properties": [
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "CDISC"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "GDC"
+    },
+    {
+      "code": "P334",
+      "type": "ICD-O-3_Code",
+      "value": "8400/3"
+    },
+    {
+      "code": "P366",
+      "type": "Legacy Concept Name",
+      "value": "Sweat_Gland_Carcinoma"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "8400/3"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "Sweat gland adenocarcinoma"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "Sweat gland carcinoma"
+    },
+    {
+      "code": "P363",
+      "type": "Neoplastic_Status",
+      "value": "Malignant"
+    },
+    {
+      "code": "P106",
+      "type": "Semantic_Type",
+      "value": "Neoplastic Process"
+    },
+    {
+      "code": "P207",
+      "type": "UMLS_CUI",
+      "value": "C1412016"
+    }
+  ],
+  "children": [
+    {
+      "code": "C167341",
+      "name": "Adnexal Adenocarcinoma, Not Otherwise Specified",
+      "leaf": true
+    },
+    {
+      "code": "C167368",
+      "name": "Adnexal Secretory Carcinoma",
+      "leaf": true
+    },
+    {
+      "code": "C4169",
+      "name": "Apocrine Carcinoma",
+      "leaf": false
+    },
+    {
+      "code": "C43344",
+      "name": "Carcinoma Arising from Cylindroma",
+      "leaf": true
+    },
+    {
+      "code": "C167344",
+      "name": "Carcinoma Arising from Spiradenocylindroma",
+      "leaf": true
+    },
+    {
+      "code": "C5117",
+      "name": "Carcinoma Arising from Spiradenoma",
+      "leaf": false
+    },
+    {
+      "code": "C27255",
+      "name": "Eccrine Carcinoma",
+      "leaf": false
+    },
+    {
+      "code": "C167364",
+      "name": "Endocrine Mucin-Producing Sweat Gland Carcinoma",
+      "leaf": false
+    },
+    {
+      "code": "C54664",
+      "name": "Hidradenocarcinoma",
+      "leaf": false
+    },
+    {
+      "code": "C7581",
+      "name": "Microcystic Adnexal Carcinoma",
+      "leaf": false
+    },
+    {
+      "code": "C27533",
+      "name": "Primary Cutaneous Mucinous Carcinoma",
+      "leaf": true
+    },
+    {
+      "code": "C205357",
+      "name": "Primary Cutaneous NUT Adnexal Carcinoma",
+      "leaf": true
+    },
+    {
+      "code": "C167369",
+      "name": "Signet Ring Cell/Histiocytoid Carcinoma",
+      "leaf": false
+    },
+    {
+      "code": "C4471",
+      "name": "Skin Adenoid Cystic Carcinoma",
+      "leaf": true
+    },
+    {
+      "code": "C4472",
+      "name": "Skin Mucoepidermoid Carcinoma",
+      "leaf": true
+    },
+    {
+      "code": "C167365",
+      "name": "Syringocystadenocarcinoma Papilliferum",
+      "leaf": true
+    },
+    {
+      "code": "C128164",
+      "name": "Vulvar Adenocarcinoma of Sweat Gland Origin",
+      "leaf": false
+    }
+  ],
+  "parents": [
+    {
+      "code": "C2852",
+      "name": "Adenocarcinoma"
+    },
+    {
+      "code": "C4810",
+      "name": "Malignant Sweat Gland Neoplasm"
+    },
+    {
+      "code": "C3775",
+      "name": "Skin Adnexal Carcinoma"
+    }
+  ],
+  "associations": [
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C77526",
+      "relatedName": "CDISC SEND Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C88025",
+      "relatedName": "CDISC SEND Tumor Findings Results Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C61410",
+      "relatedName": "Clinical Data Interchange Standards Consortium Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C157711",
+      "relatedName": "GDC Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C177537",
+      "relatedName": "GDC Value Terminology"
+    },
+    {
+      "type": "Is_Value_For_GDC_Property",
+      "relatedCode": "C176985",
+      "relatedName": "Histology ICD-O Morphology Code"
+    },
+    {
+      "type": "Is_Value_For_GDC_Property",
+      "relatedCode": "C177621",
+      "relatedName": "ICD-O-3 Morphology Term Diagnosis Question"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168658",
+      "relatedName": "Mapped ICDO3.1 Morphology PT Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168657",
+      "relatedName": "Mapped ICDO3.1 Morphology Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168655",
+      "relatedName": "Mapped ICDO3.1 Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168662",
+      "relatedName": "Mapped ICDO3.2 Morphology PT Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168661",
+      "relatedName": "Mapped ICDO3.2 Morphology Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168656",
+      "relatedName": "Mapped ICDO3.2 Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C126659",
+      "relatedName": "NCIt Neoplasm Core Terminology"
+    }
+  ],
+  "inverseAssociations": [
+    {
+      "type": "Has_GDC_Value",
+      "relatedCode": "C176985",
+      "relatedName": "Histology ICD-O Morphology Code"
+    },
+    {
+      "type": "Has_GDC_Value",
+      "relatedCode": "C177621",
+      "relatedName": "ICD-O-3 Morphology Term Diagnosis Question"
+    }
+  ],
+  "roles": [
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36773",
+      "relatedName": "Adenocarcinoma Cell"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C62285",
+      "relatedName": "Adnexal Differentiation"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C137974",
+      "relatedName": "Adnexa"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C36122",
+      "relatedName": "Benign Cellular Infiltrate"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C54172",
+      "relatedName": "Carcinomatous Component Present"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C39570",
+      "relatedName": "Cutaneous Involvement"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C12578",
+      "relatedName": "Epithelial Cell"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C53596",
+      "relatedName": "Epithelial Component Present"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C45714",
+      "relatedName": "Epithelial Tissue"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12957",
+      "relatedName": "Exocrine System"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12907",
+      "relatedName": "Integumentary System"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12917",
+      "relatedName": "Malignant Cell"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C36115",
+      "relatedName": "Malignant Cellular Infiltrate"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36779",
+      "relatedName": "Malignant Epithelial Cell"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C36771",
+      "relatedName": "Malignant Squamous Cell"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C37153",
+      "relatedName": "Malignant Stromal Cell"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C62273",
+      "relatedName": "Mixed Neoplastic Glandular and Squamous Cell Population"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12922",
+      "relatedName": "Neoplastic Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36753",
+      "relatedName": "Neoplastic Epithelial Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36763",
+      "relatedName": "Neoplastic Glandular Cell"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C36937",
+      "relatedName": "Neoplastic Smooth Muscle Cell"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C36760",
+      "relatedName": "Neoplastic Squamous Cell"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C212121",
+      "relatedName": "Skin Adnexa"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12470",
+      "relatedName": "Skin"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12470",
+      "relatedName": "Skin"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C33712",
+      "relatedName": "Sweat Gland"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C33712",
+      "relatedName": "Sweat Gland"
+    }
+  ],
+  "history": [
+    {
+      "code": "C6938",
+      "action": "create",
+      "date": "2003-08-12"
+    },
+    {
+      "code": "C6938",
+      "action": "modify",
+      "date": "2003-10-31"
+    },
+    {
+      "code": "C6938",
+      "action": "modify",
+      "date": "2003-12-30"
+    },
+    {
+      "code": "C6938",
+      "action": "modify",
+      "date": "2004-03-30"
+    },
+    {
+      "code": "C6938",
+      "action": "modify",
+      "date": "2005-01-28"
+    },
+    {
+      "code": "C6938",
+      "action": "modify",
+      "date": "2006-07-28"
+    },
+    {
+      "code": "C6938",
+      "action": "modify",
+      "date": "2006-09-01"
+    },
+    {
+      "code": "C6938",
+      "action": "modify",
+      "date": "2007-03-30"
+    },
+    {
+      "code": "C6938",
+      "action": "modify",
+      "date": "2007-04-30"
+    },
+    {
+      "code": "C6938",
+      "action": "modify",
+      "date": "2009-04-06"
+    },
+    {
+      "code": "C6938",
+      "action": "modify",
+      "date": "2009-11-23"
+    },
+    {
+      "code": "C6938",
+      "action": "modify",
+      "date": "2010-03-08"
+    },
+    {
+      "code": "C6938",
+      "action": "modify",
+      "date": "2010-05-17"
+    },
+    {
+      "code": "C6938",
+      "action": "modify",
+      "date": "2010-06-01"
+    },
+    {
+      "code": "C6938",
+      "action": "modify",
+      "date": "2011-04-11"
+    },
+    {
+      "code": "C6938",
+      "action": "modify",
+      "date": "2011-11-14"
+    },
+    {
+      "code": "C6938",
+      "action": "modify",
+      "date": "2011-11-21"
+    },
+    {
+      "code": "C6938",
+      "action": "modify",
+      "date": "2011-11-28"
+    },
+    {
+      "code": "C6938",
+      "action": "modify",
+      "date": "2011-12-05"
+    },
+    {
+      "code": "C6938",
+      "action": "modify",
+      "date": "2011-12-12"
+    },
+    {
+      "code": "C6938",
+      "action": "modify",
+      "date": "2011-12-19"
+    },
+    {
+      "code": "C6938",
+      "action": "modify",
+      "date": "2011-12-27"
+    },
+    {
+      "code": "C6938",
+      "action": "modify",
+      "date": "2012-01-09"
+    },
+    {
+      "code": "C6938",
+      "action": "modify",
+      "date": "2012-01-17"
+    },
+    {
+      "code": "C6938",
+      "action": "modify",
+      "date": "2012-01-23"
+    },
+    {
+      "code": "C6938",
+      "action": "modify",
+      "date": "2012-01-30"
+    },
+    {
+      "code": "C6938",
+      "action": "modify",
+      "date": "2012-02-06"
+    },
+    {
+      "code": "C6938",
+      "action": "modify",
+      "date": "2012-02-13"
+    },
+    {
+      "code": "C6938",
+      "action": "modify",
+      "date": "2012-02-21"
+    },
+    {
+      "code": "C6938",
+      "action": "modify",
+      "date": "2012-02-27"
+    },
+    {
+      "code": "C6938",
+      "action": "modify",
+      "date": "2012-03-05"
+    },
+    {
+      "code": "C6938",
+      "action": "modify",
+      "date": "2012-03-12"
+    },
+    {
+      "code": "C6938",
+      "action": "modify",
+      "date": "2012-03-19"
+    },
+    {
+      "code": "C6938",
+      "action": "modify",
+      "date": "2012-03-26"
+    },
+    {
+      "code": "C6938",
+      "action": "modify",
+      "date": "2012-04-02"
+    },
+    {
+      "code": "C6938",
+      "action": "modify",
+      "date": "2012-04-09"
+    },
+    {
+      "code": "C6938",
+      "action": "modify",
+      "date": "2012-04-16"
+    },
+    {
+      "code": "C6938",
+      "action": "modify",
+      "date": "2012-04-23"
+    },
+    {
+      "code": "C6938",
+      "action": "modify",
+      "date": "2012-04-30"
+    },
+    {
+      "code": "C6938",
+      "action": "modify",
+      "date": "2012-05-07"
+    },
+    {
+      "code": "C6938",
+      "action": "modify",
+      "date": "2012-05-14"
+    },
+    {
+      "code": "C6938",
+      "action": "modify",
+      "date": "2012-05-21"
+    },
+    {
+      "code": "C6938",
+      "action": "modify",
+      "date": "2012-05-29"
+    },
+    {
+      "code": "C6938",
+      "action": "modify",
+      "date": "2012-06-04"
+    },
+    {
+      "code": "C6938",
+      "action": "modify",
+      "date": "2012-06-11"
+    },
+    {
+      "code": "C6938",
+      "action": "modify",
+      "date": "2012-06-18"
+    },
+    {
+      "code": "C6938",
+      "action": "modify",
+      "date": "2012-06-18"
+    },
+    {
+      "code": "C6938",
+      "action": "modify",
+      "date": "2012-06-25"
+    },
+    {
+      "code": "C6938",
+      "action": "modify",
+      "date": "2012-07-03"
+    },
+    {
+      "code": "C6938",
+      "action": "modify",
+      "date": "2012-07-16"
+    },
+    {
+      "code": "C6938",
+      "action": "modify",
+      "date": "2012-07-23"
+    },
+    {
+      "code": "C6938",
+      "action": "modify",
+      "date": "2012-07-30"
+    },
+    {
+      "code": "C6938",
+      "action": "modify",
+      "date": "2012-08-06"
+    },
+    {
+      "code": "C6938",
+      "action": "modify",
+      "date": "2012-08-13"
+    },
+    {
+      "code": "C6938",
+      "action": "modify",
+      "date": "2012-08-20"
+    },
+    {
+      "code": "C6938",
+      "action": "modify",
+      "date": "2012-08-27"
+    },
+    {
+      "code": "C6938",
+      "action": "modify",
+      "date": "2012-09-04"
+    },
+    {
+      "code": "C6938",
+      "action": "modify",
+      "date": "2012-09-10"
+    },
+    {
+      "code": "C6938",
+      "action": "modify",
+      "date": "2012-09-17"
+    },
+    {
+      "code": "C6938",
+      "action": "modify",
+      "date": "2012-09-24"
+    },
+    {
+      "code": "C6938",
+      "action": "modify",
+      "date": "2012-10-01"
+    },
+    {
+      "code": "C6938",
+      "action": "modify",
+      "date": "2012-10-09"
+    },
+    {
+      "code": "C6938",
+      "action": "modify",
+      "date": "2012-10-15"
+    },
+    {
+      "code": "C6938",
+      "action": "modify",
+      "date": "2012-10-22"
+    },
+    {
+      "code": "C6938",
+      "action": "modify",
+      "date": "2012-10-31"
+    },
+    {
+      "code": "C6938",
+      "action": "modify",
+      "date": "2012-11-05"
+    },
+    {
+      "code": "C6938",
+      "action": "modify",
+      "date": "2012-11-13"
+    },
+    {
+      "code": "C6938",
+      "action": "modify",
+      "date": "2012-11-19"
+    },
+    {
+      "code": "C6938",
+      "action": "modify",
+      "date": "2012-11-26"
+    },
+    {
+      "code": "C6938",
+      "action": "modify",
+      "date": "2012-12-03"
+    },
+    {
+      "code": "C6938",
+      "action": "modify",
+      "date": "2012-12-10"
+    },
+    {
+      "code": "C6938",
+      "action": "modify",
+      "date": "2012-12-17"
+    },
+    {
+      "code": "C6938",
+      "action": "modify",
+      "date": "2012-12-28"
+    },
+    {
+      "code": "C6938",
+      "action": "modify",
+      "date": "2013-01-07"
+    },
+    {
+      "code": "C6938",
+      "action": "modify",
+      "date": "2013-01-14"
+    },
+    {
+      "code": "C6938",
+      "action": "modify",
+      "date": "2013-01-23"
+    },
+    {
+      "code": "C6938",
+      "action": "modify",
+      "date": "2013-02-04"
+    },
+    {
+      "code": "C6938",
+      "action": "modify",
+      "date": "2013-02-11"
+    },
+    {
+      "code": "C6938",
+      "action": "modify",
+      "date": "2013-02-19"
+    },
+    {
+      "code": "C6938",
+      "action": "modify",
+      "date": "2013-02-25"
+    },
+    {
+      "code": "C6938",
+      "action": "modify",
+      "date": "2013-03-04"
+    },
+    {
+      "code": "C6938",
+      "action": "modify",
+      "date": "2013-03-11"
+    },
+    {
+      "code": "C6938",
+      "action": "modify",
+      "date": "2013-03-18"
+    },
+    {
+      "code": "C6938",
+      "action": "modify",
+      "date": "2013-03-25"
+    },
+    {
+      "code": "C6938",
+      "action": "modify",
+      "date": "2013-04-01"
+    },
+    {
+      "code": "C6938",
+      "action": "modify",
+      "date": "2013-04-08"
+    },
+    {
+      "code": "C6938",
+      "action": "modify",
+      "date": "2013-04-15"
+    },
+    {
+      "code": "C6938",
+      "action": "modify",
+      "date": "2013-04-22"
+    },
+    {
+      "code": "C6938",
+      "action": "modify",
+      "date": "2013-04-29"
+    },
+    {
+      "code": "C6938",
+      "action": "modify",
+      "date": "2013-05-06"
+    },
+    {
+      "code": "C6938",
+      "action": "modify",
+      "date": "2013-05-13"
+    },
+    {
+      "code": "C6938",
+      "action": "modify",
+      "date": "2013-05-20"
+    },
+    {
+      "code": "C6938",
+      "action": "modify",
+      "date": "2013-05-28"
+    },
+    {
+      "code": "C6938",
+      "action": "modify",
+      "date": "2013-06-03"
+    },
+    {
+      "code": "C6938",
+      "action": "modify",
+      "date": "2013-06-10"
+    },
+    {
+      "code": "C6938",
+      "action": "modify",
+      "date": "2013-06-17"
+    },
+    {
+      "code": "C6938",
+      "action": "modify",
+      "date": "2013-06-24"
+    },
+    {
+      "code": "C6938",
+      "action": "modify",
+      "date": "2013-07-01"
+    },
+    {
+      "code": "C6938",
+      "action": "modify",
+      "date": "2013-07-08"
+    },
+    {
+      "code": "C6938",
+      "action": "modify",
+      "date": "2014-02-03"
+    },
+    {
+      "code": "C6938",
+      "action": "modify",
+      "date": "2014-11-24"
+    },
+    {
+      "code": "C6938",
+      "action": "modify",
+      "date": "2014-12-01"
+    },
+    {
+      "code": "C6938",
+      "action": "modify",
+      "date": "2014-12-08"
+    },
+    {
+      "code": "C6938",
+      "action": "modify",
+      "date": "2014-12-15"
+    },
+    {
+      "code": "C6938",
+      "action": "modify",
+      "date": "2014-12-22"
+    },
+    {
+      "code": "C6938",
+      "action": "modify",
+      "date": "2014-12-29"
+    },
+    {
+      "code": "C6938",
+      "action": "modify",
+      "date": "2015-01-05"
+    },
+    {
+      "code": "C6938",
+      "action": "modify",
+      "date": "2015-01-12"
+    },
+    {
+      "code": "C6938",
+      "action": "modify",
+      "date": "2015-01-20"
+    },
+    {
+      "code": "C6938",
+      "action": "modify",
+      "date": "2015-01-26"
+    },
+    {
+      "code": "C6938",
+      "action": "modify",
+      "date": "2015-02-02"
+    },
+    {
+      "code": "C6938",
+      "action": "modify",
+      "date": "2015-02-09"
+    },
+    {
+      "code": "C6938",
+      "action": "modify",
+      "date": "2015-02-17"
+    },
+    {
+      "code": "C6938",
+      "action": "modify",
+      "date": "2015-02-23"
+    },
+    {
+      "code": "C6938",
+      "action": "modify",
+      "date": "2015-03-02"
+    },
+    {
+      "code": "C6938",
+      "action": "modify",
+      "date": "2015-03-09"
+    },
+    {
+      "code": "C6938",
+      "action": "modify",
+      "date": "2015-03-16"
+    },
+    {
+      "code": "C6938",
+      "action": "modify",
+      "date": "2015-03-23"
+    },
+    {
+      "code": "C6938",
+      "action": "modify",
+      "date": "2015-03-30"
+    },
+    {
+      "code": "C6938",
+      "action": "modify",
+      "date": "2015-04-06"
+    },
+    {
+      "code": "C6938",
+      "action": "modify",
+      "date": "2015-04-13"
+    },
+    {
+      "code": "C6938",
+      "action": "modify",
+      "date": "2015-04-20"
+    },
+    {
+      "code": "C6938",
+      "action": "modify",
+      "date": "2015-04-27"
+    },
+    {
+      "code": "C6938",
+      "action": "modify",
+      "date": "2015-05-04"
+    },
+    {
+      "code": "C6938",
+      "action": "modify",
+      "date": "2015-05-11"
+    },
+    {
+      "code": "C6938",
+      "action": "modify",
+      "date": "2015-05-18"
+    },
+    {
+      "code": "C6938",
+      "action": "modify",
+      "date": "2016-04-25"
+    },
+    {
+      "code": "C6938",
+      "action": "modify",
+      "date": "2016-08-22"
+    },
+    {
+      "code": "C6938",
+      "action": "modify",
+      "date": "2018-09-24"
+    },
+    {
+      "code": "C6938",
+      "action": "modify",
+      "date": "2019-05-28"
+    },
+    {
+      "code": "C6938",
+      "action": "modify",
+      "date": "2019-09-30"
+    },
+    {
+      "code": "C6938",
+      "action": "modify",
+      "date": "2019-11-25"
+    },
+    {
+      "code": "C6938",
+      "action": "create",
+      "date": "2020-01-27"
+    },
+    {
+      "code": "C6938",
+      "action": "modify",
+      "date": "2020-02-24"
+    },
+    {
+      "code": "C6938",
+      "action": "modify",
+      "date": "2020-04-27"
+    },
+    {
+      "code": "C6938",
+      "action": "modify",
+      "date": "2021-02-22"
+    },
+    {
+      "code": "C6938",
+      "action": "modify",
+      "date": "2021-03-29"
+    },
+    {
+      "code": "C6938",
+      "action": "modify",
+      "date": "2023-11-27"
+    },
+    {
+      "code": "C6938",
+      "action": "modify",
+      "date": "2024-05-28"
+    }
+  ],
+  "maps": [
+    {
+      "type": "Related To",
+      "targetName": "8400/3",
+      "targetTermType": "PT",
+      "targetCode": "morphology",
+      "targetTerminology": "GDC"
+    },
+    {
+      "type": "Related To",
+      "targetName": "Sweat gland adenocarcinoma",
+      "targetTermType": "PT",
+      "targetCode": "8400/3",
+      "targetTerminology": "ICDO3",
+      "targetTerminologyVersion": "3.1"
+    },
+    {
+      "type": "Related To",
+      "targetName": "Sweat gland adenocarcinoma",
+      "targetTermType": "PT",
+      "targetCode": "8400/3",
+      "targetTerminology": "ICDO3",
+      "targetTerminologyVersion": "3.2"
+    },
+    {
+      "type": "Related To",
+      "targetName": "Sweat gland adenocarcinoma",
+      "targetTermType": "PT",
+      "targetCode": "primary_diagnosis",
+      "targetTerminology": "GDC"
+    },
+    {
+      "type": "Has Synonym",
+      "targetName": "Sweat gland carcinoma",
+      "targetTermType": "PT",
+      "targetCode": "primary_diagnosis",
+      "targetTerminology": "GDC"
+    }
+  ]
+}

@@ -1,0 +1,749 @@
+{
+  "code": "C4341",
+  "name": "Marginal Zone Lymphoma",
+  "terminology": "ncit",
+  "version": "25.11d",
+  "conceptStatus": "DEFAULT",
+  "leaf": false,
+  "active": true,
+  "synonyms": [
+    {
+      "name": "Marginal Zone Lymphoma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "CPTAC"
+    },
+    {
+      "name": "Marginal Zone Lymphoma",
+      "termType": "DN",
+      "type": "FULL_SYN",
+      "source": "CTRP"
+    },
+    {
+      "name": "Marginal zone lymphoma, NOS",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "GDC"
+    },
+    {
+      "name": "marginal zone B-cell lymphoma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NCI-GLOSS",
+      "code": "CDR0000562554"
+    },
+    {
+      "name": "marginal zone lymphoma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NCI-GLOSS",
+      "code": "CDR0000543124"
+    },
+    {
+      "name": "MZL",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NCI-GLOSS",
+      "code": "CDR0000562555"
+    },
+    {
+      "name": "Marginal Zone B-Cell Lymphoma",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Marginal Zone Lymphoma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "MZBCL",
+      "termType": "AB",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "MZL",
+      "termType": "AB",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Marginal Zone Lymphoma",
+      "type": "Display_Name"
+    },
+    {
+      "name": "Marginal Zone Lymphoma",
+      "type": "Preferred_Name"
+    }
+  ],
+  "definitions": [
+    {
+      "definition": "A usually indolent mature B-cell lymphoma, arising from the marginal zone of lymphoid tissues.  It is characterized by the presence of small to medium sized atypical lymphocytes.  It comprises three entities, according to the anatomic sites involved: extranodal marginal zone B-cell lymphoma of mucosa-associated lymphoid tissue, which affects extranodal sites (most often stomach, lung, skin, and ocular adnexa); nodal marginal zone B-cell lymphoma, which affects lymph nodes without evidence of extranodal disease; and splenic marginal zone B-cell lymphoma, which affects the spleen and splenic hilar lymph nodes, bone marrow, and often the peripheral blood.",
+      "type": "DEFINITION",
+      "source": "NCI"
+    },
+    {
+      "definition": "An indolent (slow-growing) type of B-cell non-Hodgkin lymphoma that begins forming in certain areas (the marginal zones) of lymph tissue. There are three types based on whether it forms in the spleen, lymph nodes, or other lymphoid tissue that contains a lot of B cells (a type of white blood cell).",
+      "type": "ALT_DEFINITION",
+      "source": "NCI-GLOSS"
+    }
+  ],
+  "properties": [
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "CPTAC"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "CTRP"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "GDC"
+    },
+    {
+      "code": "P334",
+      "type": "ICD-O-3_Code",
+      "value": "9699/3"
+    },
+    {
+      "code": "P366",
+      "type": "Legacy Concept Name",
+      "value": "Marginal_Zone_B-Cell_Lymphoma"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "9699/3"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "Marginal zone B-cell lymphoma, NOS"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "Marginal zone lymphoma"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "Marginal zone lymphoma involving lymph nodes of inguinal region and lower limb"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "Marginal zone lymphoma, NOS"
+    },
+    {
+      "code": "P363",
+      "type": "Neoplastic_Status",
+      "value": "Malignant"
+    },
+    {
+      "code": "P106",
+      "type": "Semantic_Type",
+      "value": "Neoplastic Process"
+    },
+    {
+      "code": "P207",
+      "type": "UMLS_CUI",
+      "value": "C1367654"
+    }
+  ],
+  "children": [
+    {
+      "code": "C172360",
+      "name": "Advanced Marginal Zone Lymphoma",
+      "leaf": true
+    },
+    {
+      "code": "C3898",
+      "name": "Extranodal Marginal Zone Lymphoma of Mucosa-Associated Lymphoid Tissue",
+      "leaf": false
+    },
+    {
+      "code": "C141258",
+      "name": "Marginal Zone Lymphoma by Ann Arbor Stage",
+      "leaf": false
+    },
+    {
+      "code": "C8863",
+      "name": "Nodal Marginal Zone Lymphoma",
+      "leaf": false
+    },
+    {
+      "code": "C68684",
+      "name": "Recurrent Marginal Zone Lymphoma",
+      "leaf": false
+    },
+    {
+      "code": "C143085",
+      "name": "Refractory Marginal Zone Lymphoma",
+      "leaf": false
+    },
+    {
+      "code": "C4663",
+      "name": "Splenic Marginal Zone Lymphoma",
+      "leaf": false
+    }
+  ],
+  "parents": [
+    {
+      "code": "C171299",
+      "name": "Indolent B-Cell Non-Hodgkin Lymphoma"
+    }
+  ],
+  "associations": [
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C158520",
+      "relatedName": "CPTAC Codelists Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C156966",
+      "relatedName": "CPTAC Neoplasms Codelist"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C156952",
+      "relatedName": "CPTAC Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C118168",
+      "relatedName": "CTRP Disease Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C116977",
+      "relatedName": "CTRP Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C157711",
+      "relatedName": "GDC Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C177537",
+      "relatedName": "GDC Value Terminology"
+    },
+    {
+      "type": "Is_Value_For_GDC_Property",
+      "relatedCode": "C176985",
+      "relatedName": "Histology ICD-O Morphology Code"
+    },
+    {
+      "type": "Is_Value_For_GDC_Property",
+      "relatedCode": "C177621",
+      "relatedName": "ICD-O-3 Morphology Term Diagnosis Question"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168658",
+      "relatedName": "Mapped ICDO3.1 Morphology PT Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168657",
+      "relatedName": "Mapped ICDO3.1 Morphology Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168655",
+      "relatedName": "Mapped ICDO3.1 Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168662",
+      "relatedName": "Mapped ICDO3.2 Morphology PT Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168661",
+      "relatedName": "Mapped ICDO3.2 Morphology Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168656",
+      "relatedName": "Mapped ICDO3.2 Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C126659",
+      "relatedName": "NCIt Neoplasm Core Terminology"
+    }
+  ],
+  "inverseAssociations": [
+    {
+      "type": "Has_GDC_Value",
+      "relatedCode": "C176985",
+      "relatedName": "Histology ICD-O Morphology Code"
+    },
+    {
+      "type": "Has_GDC_Value",
+      "relatedCode": "C177621",
+      "relatedName": "ICD-O-3 Morphology Term Diagnosis Question"
+    }
+  ],
+  "roles": [
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36725",
+      "relatedName": "Abnormal Lymphocyte"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C36104",
+      "relatedName": "Aggressive Clinical Course"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C12474",
+      "relatedName": "B-Lymphocyte"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C36122",
+      "relatedName": "Benign Cellular Infiltrate"
+    },
+    {
+      "type": "Disease_Has_Molecular_Abnormality",
+      "relatedCode": "C36443",
+      "relatedName": "Clonal Immunoglobulin Gene Rearrangement"
+    },
+    {
+      "type": "Disease_Has_Molecular_Abnormality",
+      "relatedCode": "C36444",
+      "relatedName": "Clonal Immunoglobulin Heavy Chain Gene Rearrangement"
+    },
+    {
+      "type": "Disease_Has_Molecular_Abnormality",
+      "relatedCode": "C36451",
+      "relatedName": "Clonal Immunoglobulin Kappa Light Chain Gene Rearrangement"
+    },
+    {
+      "type": "Disease_Has_Molecular_Abnormality",
+      "relatedCode": "C36452",
+      "relatedName": "Clonal Immunoglobulin Lambda Light Chain Gene Rearrangement"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C41165",
+      "relatedName": "Hematopoietic and Lymphatic System"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C41165",
+      "relatedName": "Hematopoietic and Lymphatic System"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C32725",
+      "relatedName": "Hematopoietic and Lymphoid Cell"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C41168",
+      "relatedName": "Hematopoietic and Lymphoid Tissue"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12746",
+      "relatedName": "Lymphatic System"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C37027",
+      "relatedName": "Lymphocyte Predominant Cell"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C12535",
+      "relatedName": "Lymphocyte"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C13049",
+      "relatedName": "Lymphoid Tissue"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12917",
+      "relatedName": "Malignant Cell"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C36115",
+      "relatedName": "Malignant Cellular Infiltrate"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C38729",
+      "relatedName": "Marginal Zone B-Lymphocyte"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C49767",
+      "relatedName": "Marginal Zone"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C33058",
+      "relatedName": "Mature B-Lymphocyte"
+    },
+    {
+      "type": "Disease_Excludes_Normal_Cell_Origin",
+      "relatedCode": "C12549",
+      "relatedName": "Myeloid Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C38640",
+      "relatedName": "Neoplastic B-Lymphocyte"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12922",
+      "relatedName": "Neoplastic Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C37060",
+      "relatedName": "Neoplastic Hematopoietic and Lymphoid Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36988",
+      "relatedName": "Neoplastic Lymphocyte"
+    },
+    {
+      "type": "Disease_May_Have_Abnormal_Cell",
+      "relatedCode": "C37077",
+      "relatedName": "Neoplastic Plasma Cell"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C39566",
+      "relatedName": "Neoplastic T-Lymphocyte and Neoplastic Natural Killer Cell"
+    },
+    {
+      "type": "Disease_Excludes_Normal_Cell_Origin",
+      "relatedCode": "C12486",
+      "relatedName": "Plasma Cell"
+    },
+    {
+      "type": "Disease_Excludes_Normal_Cell_Origin",
+      "relatedCode": "C33931",
+      "relatedName": "Precursor B-Lymphoblast"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C12660",
+      "relatedName": "Reed-Sternberg Cell"
+    }
+  ],
+  "history": [
+    {
+      "code": "C4341",
+      "action": "create",
+      "date": "2003-08-12"
+    },
+    {
+      "code": "C4341",
+      "action": "modify",
+      "date": "2003-12-30"
+    },
+    {
+      "code": "C4341",
+      "action": "modify",
+      "date": "2004-03-30"
+    },
+    {
+      "code": "C4341",
+      "action": "modify",
+      "date": "2004-04-30"
+    },
+    {
+      "code": "C4341",
+      "action": "modify",
+      "date": "2004-05-28"
+    },
+    {
+      "code": "C4341",
+      "action": "modify",
+      "date": "2004-06-25"
+    },
+    {
+      "code": "C4341",
+      "action": "modify",
+      "date": "2005-03-16"
+    },
+    {
+      "code": "C4341",
+      "action": "modify",
+      "date": "2005-12-01"
+    },
+    {
+      "code": "C4341",
+      "action": "modify",
+      "date": "2007-03-30"
+    },
+    {
+      "code": "C4341",
+      "action": "modify",
+      "date": "2009-04-06"
+    },
+    {
+      "code": "C36275",
+      "action": "retire",
+      "date": "2009-04-20",
+      "replacementCode": "C4341",
+      "replacementName": "Marginal Zone Lymphoma"
+    },
+    {
+      "code": "C35425",
+      "action": "retire",
+      "date": "2009-04-20",
+      "replacementCode": "C4341",
+      "replacementName": "Marginal Zone Lymphoma"
+    },
+    {
+      "code": "C4341",
+      "action": "modify",
+      "date": "2009-10-27"
+    },
+    {
+      "code": "C4341",
+      "action": "modify",
+      "date": "2009-11-23"
+    },
+    {
+      "code": "C4341",
+      "action": "modify",
+      "date": "2010-11-08"
+    },
+    {
+      "code": "C4341",
+      "action": "modify",
+      "date": "2010-11-15"
+    },
+    {
+      "code": "C4341",
+      "action": "modify",
+      "date": "2010-11-22"
+    },
+    {
+      "code": "C4341",
+      "action": "modify",
+      "date": "2010-11-29"
+    },
+    {
+      "code": "C4341",
+      "action": "modify",
+      "date": "2010-12-06"
+    },
+    {
+      "code": "C4341",
+      "action": "modify",
+      "date": "2010-12-13"
+    },
+    {
+      "code": "C4341",
+      "action": "modify",
+      "date": "2010-12-27"
+    },
+    {
+      "code": "C4341",
+      "action": "modify",
+      "date": "2011-01-03"
+    },
+    {
+      "code": "C4341",
+      "action": "modify",
+      "date": "2011-01-10"
+    },
+    {
+      "code": "C4341",
+      "action": "modify",
+      "date": "2011-01-17"
+    },
+    {
+      "code": "C4341",
+      "action": "modify",
+      "date": "2011-01-24"
+    },
+    {
+      "code": "C4341",
+      "action": "modify",
+      "date": "2011-01-31"
+    },
+    {
+      "code": "C4341",
+      "action": "modify",
+      "date": "2014-08-04"
+    },
+    {
+      "code": "C4341",
+      "action": "modify",
+      "date": "2014-08-18"
+    },
+    {
+      "code": "C4341",
+      "action": "modify",
+      "date": "2014-09-22"
+    },
+    {
+      "code": "C4341",
+      "action": "modify",
+      "date": "2016-04-25"
+    },
+    {
+      "code": "C4341",
+      "action": "modify",
+      "date": "2017-07-31"
+    },
+    {
+      "code": "C4341",
+      "action": "modify",
+      "date": "2018-07-30"
+    },
+    {
+      "code": "C4341",
+      "action": "modify",
+      "date": "2018-08-27"
+    },
+    {
+      "code": "C4341",
+      "action": "modify",
+      "date": "2018-08-27"
+    },
+    {
+      "code": "C4341",
+      "action": "modify",
+      "date": "2018-09-24"
+    },
+    {
+      "code": "C4341",
+      "action": "modify",
+      "date": "2018-12-31"
+    },
+    {
+      "code": "C4341",
+      "action": "modify",
+      "date": "2019-02-25"
+    },
+    {
+      "code": "C4341",
+      "action": "modify",
+      "date": "2019-03-25"
+    },
+    {
+      "code": "C4341",
+      "action": "modify",
+      "date": "2019-05-28"
+    },
+    {
+      "code": "C4341",
+      "action": "modify",
+      "date": "2019-09-30"
+    },
+    {
+      "code": "C4341",
+      "action": "modify",
+      "date": "2019-10-28"
+    },
+    {
+      "code": "C4341",
+      "action": "modify",
+      "date": "2019-11-25"
+    },
+    {
+      "code": "C4341",
+      "action": "modify",
+      "date": "2020-02-24"
+    },
+    {
+      "code": "C4341",
+      "action": "modify",
+      "date": "2020-03-30"
+    },
+    {
+      "code": "C4341",
+      "action": "modify",
+      "date": "2020-04-27"
+    },
+    {
+      "code": "C4341",
+      "action": "modify",
+      "date": "2021-02-22"
+    },
+    {
+      "code": "C4341",
+      "action": "modify",
+      "date": "2021-03-29"
+    }
+  ],
+  "maps": [
+    {
+      "type": "Related To",
+      "targetName": "9699/3",
+      "targetTermType": "PT",
+      "targetCode": "morphology",
+      "targetTerminology": "GDC"
+    },
+    {
+      "type": "Related To",
+      "targetName": "Marginal zone B-cell lymphoma, NOS",
+      "targetTermType": "PT",
+      "targetCode": "9699/3",
+      "targetTerminology": "ICDO3",
+      "targetTerminologyVersion": "3.1"
+    },
+    {
+      "type": "Related To",
+      "targetName": "Marginal zone B-cell lymphoma, NOS",
+      "targetTermType": "PT",
+      "targetCode": "9699/3",
+      "targetTerminology": "ICDO3",
+      "targetTerminologyVersion": "3.2"
+    },
+    {
+      "type": "Related To",
+      "targetName": "Marginal zone B-cell lymphoma, NOS",
+      "targetTermType": "PT",
+      "targetCode": "primary_diagnosis",
+      "targetTerminology": "GDC"
+    },
+    {
+      "type": "Related To",
+      "targetName": "Marginal zone lymphoma involving lymph nodes of inguinal region and lower limb",
+      "targetTermType": "PT",
+      "targetCode": "200.35",
+      "targetTerminology": "ICD9CM 2014"
+    },
+    {
+      "type": "Has Synonym",
+      "targetName": "Marginal zone lymphoma, NOS",
+      "targetTermType": "PT",
+      "targetCode": "primary_diagnosis",
+      "targetTerminology": "GDC"
+    },
+    {
+      "type": "Has Synonym",
+      "targetName": "Marginal zone lymphoma",
+      "targetTermType": "PT",
+      "targetCode": "200.3",
+      "targetTerminology": "ICD9CM 2014"
+    }
+  ]
+}

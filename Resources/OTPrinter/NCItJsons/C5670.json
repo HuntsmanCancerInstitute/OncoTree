@@ -1,0 +1,249 @@
+{
+  "code": "C5670",
+  "name": "Lung Neuroendocrine Neoplasm",
+  "terminology": "ncit",
+  "version": "25.11d",
+  "conceptStatus": "DEFAULT",
+  "leaf": false,
+  "active": true,
+  "synonyms": [
+    {
+      "name": "Lung Neuroendocrine Neoplasm",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Neuroendocrine Neoplasm of Lung",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Neuroendocrine Neoplasm of the Lung",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Pulmonary Neuroendocrine Neoplasm",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Lung Neuroendocrine Neoplasm",
+      "type": "Preferred_Name"
+    }
+  ],
+  "definitions": [
+    {
+      "definition": "A neoplasm with neuroendocrine differentiation that arises from the lung.  This category includes typical carcinoid tumor, atypical carcinoid tumor, small cell carcinoma, large cell neuroendocrine carcinoma, and combined carcinoma.",
+      "type": "DEFINITION",
+      "source": "NCI"
+    }
+  ],
+  "properties": [
+    {
+      "code": "P366",
+      "type": "Legacy Concept Name",
+      "value": "Lung_Neuroendocrine_Neoplasm"
+    },
+    {
+      "code": "P363",
+      "type": "Neoplastic_Status",
+      "value": "Undetermined"
+    },
+    {
+      "code": "P106",
+      "type": "Semantic_Type",
+      "value": "Neoplastic Process"
+    },
+    {
+      "code": "P207",
+      "type": "UMLS_CUI",
+      "value": "C1334452"
+    }
+  ],
+  "children": [
+    {
+      "code": "C45569",
+      "name": "Lung Neuroendocrine Carcinoma",
+      "leaf": false
+    },
+    {
+      "code": "C4038",
+      "name": "Lung Neuroendocrine Tumor",
+      "leaf": false
+    },
+    {
+      "code": "C223235",
+      "name": "Lung Paraganglioma",
+      "leaf": true
+    },
+    {
+      "code": "C157602",
+      "name": "Metastatic Lung Neuroendocrine Neoplasm",
+      "leaf": false
+    },
+    {
+      "code": "C176711",
+      "name": "Recurrent Lung Neuroendocrine Neoplasm",
+      "leaf": false
+    },
+    {
+      "code": "C165454",
+      "name": "Unresectable Lung Neuroendocrine Neoplasm",
+      "leaf": false
+    }
+  ],
+  "parents": [
+    {
+      "code": "C3200",
+      "name": "Lung Neoplasm"
+    },
+    {
+      "code": "C3809",
+      "name": "Neuroendocrine Neoplasm"
+    }
+  ],
+  "roles": [
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12704",
+      "relatedName": "Endocrine Gland"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12704",
+      "relatedName": "Endocrine Gland"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12705",
+      "relatedName": "Endocrine System"
+    },
+    {
+      "type": "Disease_Excludes_Normal_Cell_Origin",
+      "relatedCode": "C12865",
+      "relatedName": "Endothelial Cell"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C207031",
+      "relatedName": "Expression of Neuroendocrine Markers Present"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C36818",
+      "relatedName": "Large Osteoclastic Giant Cell"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12468",
+      "relatedName": "Lung"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12468",
+      "relatedName": "Lung"
+    },
+    {
+      "type": "Disease_Excludes_Primary_Anatomic_Site",
+      "relatedCode": "C13063",
+      "relatedName": "Neck"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12922",
+      "relatedName": "Neoplastic Cell"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C37088",
+      "relatedName": "Neoplastic Endothelial Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36761",
+      "relatedName": "Neoplastic Neuroendocrine Cell"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C43574",
+      "relatedName": "Neuroendocrine Differentiation"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12779",
+      "relatedName": "Respiratory System"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12905",
+      "relatedName": "Thoracic Cavity"
+    }
+  ],
+  "history": [
+    {
+      "code": "C5670",
+      "action": "create",
+      "date": "2003-08-12"
+    },
+    {
+      "code": "C5670",
+      "action": "modify",
+      "date": "2003-10-31"
+    },
+    {
+      "code": "C5670",
+      "action": "modify",
+      "date": "2003-12-30"
+    },
+    {
+      "code": "C5670",
+      "action": "modify",
+      "date": "2004-03-30"
+    },
+    {
+      "code": "C5670",
+      "action": "modify",
+      "date": "2005-04-29"
+    },
+    {
+      "code": "C5670",
+      "action": "modify",
+      "date": "2006-04-28"
+    },
+    {
+      "code": "C5670",
+      "action": "modify",
+      "date": "2006-05-26"
+    },
+    {
+      "code": "C5670",
+      "action": "modify",
+      "date": "2009-11-23"
+    },
+    {
+      "code": "C5670",
+      "action": "modify",
+      "date": "2011-06-20"
+    },
+    {
+      "code": "C5670",
+      "action": "modify",
+      "date": "2013-04-01"
+    },
+    {
+      "code": "C5670",
+      "action": "modify",
+      "date": "2014-02-03"
+    },
+    {
+      "code": "C5670",
+      "action": "modify",
+      "date": "2020-12-28"
+    }
+  ]
+}

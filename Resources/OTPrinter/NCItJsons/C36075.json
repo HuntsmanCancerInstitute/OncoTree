@@ -1,0 +1,419 @@
+{
+  "code": "C36075",
+  "name": "Rosai-Dorfman-Destombes Disease",
+  "terminology": "ncit",
+  "version": "25.11d",
+  "conceptStatus": "DEFAULT",
+  "leaf": false,
+  "active": true,
+  "synonyms": [
+    {
+      "name": "Destombes-Rosai-Dorfman Disease",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "RDD",
+      "termType": "AB",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Rosai-Dorfman Disease",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Rosai-Dorfman-Destombes Disease",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "SHML",
+      "termType": "AB",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Sinus Histiocytosis with Massive Lymphadenopathy",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Rosai-Dorfman-Destombes Disease",
+      "type": "Preferred_Name"
+    }
+  ],
+  "definitions": [
+    {
+      "definition": "A rare histiocytic disorder of unknown etiology, characterized by distention of the lymph node sinuses and sinusoidal histiocytic infiltration. The histiocytes characteristically contain ingested lymphocytes and are S100 and CD68 positive, and CD1a negative. Patients present with cervical lymphadenopathy, fever, leukocytosis, and hypergammaglobulinemia. It can affect extranodal sites, including skin, bones, and the respiratory tract. It occurs in isolation or may be associated with autoimmune disorders or malignancies. Mutations in NRAS, KRAS, MAP2K1, and ARAF genes have been identified in affected tissues, suggesting a clonal origin in some cases. It is a self-limited disorder, although some patients may have a poor prognosis.",
+      "type": "DEFINITION",
+      "source": "NCI"
+    }
+  ],
+  "properties": [
+    {
+      "code": "P366",
+      "type": "Legacy Concept Name",
+      "value": "Rosai-Dorfman_Disease"
+    },
+    {
+      "code": "P363",
+      "type": "Neoplastic_Status",
+      "value": "Undetermined"
+    },
+    {
+      "code": "P106",
+      "type": "Semantic_Type",
+      "value": "Neoplastic Process"
+    },
+    {
+      "code": "P207",
+      "type": "UMLS_CUI",
+      "value": "C0019625"
+    }
+  ],
+  "children": [
+    {
+      "code": "C178613",
+      "name": "Bone Rosai-Dorfman-Destombes Disease",
+      "leaf": true
+    },
+    {
+      "code": "C186663",
+      "name": "Central Nervous System Rosai-Dorfman-Destombes Disease",
+      "leaf": true
+    },
+    {
+      "code": "C168986",
+      "name": "Cutaneous Rosai-Dorfman-Destombes Disease",
+      "leaf": true
+    },
+    {
+      "code": "C202971",
+      "name": "Head and Neck Rosai-Dorfman-Destombes Disease",
+      "leaf": false
+    },
+    {
+      "code": "C212192",
+      "name": "Recurrent Rosai-Dorfman-Destombes Disease",
+      "leaf": true
+    },
+    {
+      "code": "C212193",
+      "name": "Refractory Rosai-Dorfman-Destombes Disease",
+      "leaf": true
+    }
+  ],
+  "parents": [
+    {
+      "code": "C9294",
+      "name": "Histiocytic and Dendritic Cell Neoplasm"
+    }
+  ],
+  "roles": [
+    {
+      "type": "Disease_May_Have_Molecular_Abnormality",
+      "relatedCode": "C147061",
+      "relatedName": "ARAF Gene Mutation"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C40999",
+      "relatedName": "Atypical Histiocyte"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C43267",
+      "relatedName": "CD1a-Positive Neoplastic Cells Present"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C39715",
+      "relatedName": "CD30-Positive Neoplastic Cells Present"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C40995",
+      "relatedName": "CD68-Positive Neoplastic Cells Present"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C40989",
+      "relatedName": "Cervical Lymphadenopathy"
+    },
+    {
+      "type": "Disease_Excludes_Molecular_Abnormality",
+      "relatedCode": "C36443",
+      "relatedName": "Clonal Immunoglobulin Gene Rearrangement"
+    },
+    {
+      "type": "Disease_Excludes_Molecular_Abnormality",
+      "relatedCode": "C36446",
+      "relatedName": "Clonal T-Cell Receptor Gene Rearrangement"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C35987",
+      "relatedName": "Emperipolesis"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C39695",
+      "relatedName": "Extranodal Disease"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C3038",
+      "relatedName": "Fever"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C41165",
+      "relatedName": "Hematopoietic and Lymphatic System"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C41165",
+      "relatedName": "Hematopoietic and Lymphatic System"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C32725",
+      "relatedName": "Hematopoietic and Lymphoid Cell"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C41168",
+      "relatedName": "Hematopoietic and Lymphoid Tissue"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12909",
+      "relatedName": "Hematopoietic System"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C13051",
+      "relatedName": "Hematopoietic Tissue"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C12563",
+      "relatedName": "Histiocyte"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C12563",
+      "relatedName": "Histiocyte"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C43251",
+      "relatedName": "Histiocytic and Dendritic Cell"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C3106",
+      "relatedName": "Histiocytosis"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C43268",
+      "relatedName": "HMB-45-Positive Neoplastic Cells Present"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C36105",
+      "relatedName": "Indolent Clinical Course"
+    },
+    {
+      "type": "Disease_May_Have_Molecular_Abnormality",
+      "relatedCode": "C41361",
+      "relatedName": "KRAS Gene Mutation"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12746",
+      "relatedName": "Lymphatic System"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C13049",
+      "relatedName": "Lymphoid Tissue"
+    },
+    {
+      "type": "Disease_May_Have_Molecular_Abnormality",
+      "relatedCode": "C147062",
+      "relatedName": "MAP2K1 Gene Mutation"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C40991",
+      "relatedName": "Massive Sinusoidal Histiocytic Infiltrate"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12922",
+      "relatedName": "Neoplastic Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C37060",
+      "relatedName": "Neoplastic Hematopoietic and Lymphoid Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C43253",
+      "relatedName": "Neoplastic Histiocytic and Dendritic Cell"
+    },
+    {
+      "type": "Disease_May_Have_Molecular_Abnormality",
+      "relatedCode": "C41381",
+      "relatedName": "NRAS Gene Mutation"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C40990",
+      "relatedName": "Plasmacytic Infiltrate"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C35885",
+      "relatedName": "Polyclonal Hypergammaglobulinemia"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C42094",
+      "relatedName": "Rare Lesion"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C40993",
+      "relatedName": "S-100-Positive Neoplastic Cells Present"
+    }
+  ],
+  "inverseRoles": [
+    {
+      "type": "Disease_May_Have_Associated_Disease",
+      "relatedCode": "C39574",
+      "relatedName": "Autoimmune Lymphoproliferative Syndrome with FAS Mutation"
+    },
+    {
+      "type": "Disease_May_Have_Associated_Disease",
+      "relatedCode": "C39576",
+      "relatedName": "Autoimmune Lymphoproliferative Syndrome with Germline CASP10 Mutation"
+    },
+    {
+      "type": "Disease_May_Have_Associated_Disease",
+      "relatedCode": "C201055",
+      "relatedName": "Autoimmune Lymphoproliferative Syndrome with Germline CASP8 Mutation"
+    },
+    {
+      "type": "Disease_May_Have_Associated_Disease",
+      "relatedCode": "C201057",
+      "relatedName": "Autoimmune Lymphoproliferative Syndrome with Germline FADD Mutation"
+    },
+    {
+      "type": "Disease_May_Have_Associated_Disease",
+      "relatedCode": "C201052",
+      "relatedName": "Autoimmune Lymphoproliferative Syndrome with Germline FAS Mutation"
+    },
+    {
+      "type": "Disease_May_Have_Associated_Disease",
+      "relatedCode": "C39575",
+      "relatedName": "Autoimmune Lymphoproliferative Syndrome with Germline FASLG Mutation"
+    },
+    {
+      "type": "Disease_May_Have_Associated_Disease",
+      "relatedCode": "C201054",
+      "relatedName": "Autoimmune Lymphoproliferative Syndrome with Other Specified FAS Pathway Germline Mutation"
+    },
+    {
+      "type": "Disease_May_Have_Associated_Disease",
+      "relatedCode": "C201053",
+      "relatedName": "Autoimmune Lymphoproliferative Syndrome with Somatic FAS Mutation"
+    },
+    {
+      "type": "Disease_May_Have_Associated_Disease",
+      "relatedCode": "C39577",
+      "relatedName": "Autoimmune Lymphoproliferative Syndrome-Unknown Underlying Mutation"
+    },
+    {
+      "type": "Disease_May_Have_Associated_Disease",
+      "relatedCode": "C37864",
+      "relatedName": "Autoimmune Lymphoproliferative Syndrome"
+    }
+  ],
+  "history": [
+    {
+      "code": "C36075",
+      "action": "create",
+      "date": "2004-03-30"
+    },
+    {
+      "code": "C36075",
+      "action": "modify",
+      "date": "2004-09-24"
+    },
+    {
+      "code": "C36075",
+      "action": "modify",
+      "date": "2005-01-28"
+    },
+    {
+      "code": "C36075",
+      "action": "modify",
+      "date": "2005-03-16"
+    },
+    {
+      "code": "C36075",
+      "action": "modify",
+      "date": "2009-04-06"
+    },
+    {
+      "code": "C36075",
+      "action": "modify",
+      "date": "2009-11-23"
+    },
+    {
+      "code": "C36075",
+      "action": "modify",
+      "date": "2010-01-11"
+    },
+    {
+      "code": "C36075",
+      "action": "modify",
+      "date": "2014-02-03"
+    },
+    {
+      "code": "C36075",
+      "action": "modify",
+      "date": "2014-05-19"
+    },
+    {
+      "code": "C36075",
+      "action": "modify",
+      "date": "2015-05-18"
+    },
+    {
+      "code": "C36075",
+      "action": "modify",
+      "date": "2021-04-26"
+    },
+    {
+      "code": "C36075",
+      "action": "modify",
+      "date": "2022-12-27"
+    },
+    {
+      "code": "C36075",
+      "action": "modify",
+      "date": "2023-06-26"
+    }
+  ]
+}

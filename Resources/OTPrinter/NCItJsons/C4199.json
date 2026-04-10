@@ -1,0 +1,424 @@
+{
+  "code": "C4199",
+  "name": "Epithelial-Myoepithelial Carcinoma",
+  "terminology": "ncit",
+  "version": "25.11d",
+  "conceptStatus": "DEFAULT",
+  "leaf": false,
+  "active": true,
+  "synonyms": [
+    {
+      "name": "Epithelial-Myoepithelial Carcinoma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "CPTAC"
+    },
+    {
+      "name": "Epithelial-myoepithelial carcinoma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "GDC"
+    },
+    {
+      "name": "Epithelial-Myoepithelial Carcinoma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Epithelial-Myoepithelial Carcinoma",
+      "type": "Preferred_Name"
+    }
+  ],
+  "definitions": [
+    {
+      "definition": "A malignant neoplasm which occurs mostly in the major salivary glands (most frequently in the parotid gland), but also in the minor salivary glands of the oral mucosa and the tracheobronchial tree. It is characterized by the presence of ductal structures which are lined by an inner layer of cuboidal epithelial-type cells and an outer layer of myoepithelial cells with clear or eosinophilic cytoplasm.",
+      "type": "DEFINITION",
+      "source": "NCI"
+    }
+  ],
+  "properties": [
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "CPTAC"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "GDC"
+    },
+    {
+      "code": "P334",
+      "type": "ICD-O-3_Code",
+      "value": "8562/3"
+    },
+    {
+      "code": "P366",
+      "type": "Legacy Concept Name",
+      "value": "Epithelial-Myoepithelial_Carcinoma"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "8562/3"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "Epithelial-myoepithelial carcinoma"
+    },
+    {
+      "code": "P363",
+      "type": "Neoplastic_Status",
+      "value": "Malignant"
+    },
+    {
+      "code": "P106",
+      "type": "Semantic_Type",
+      "value": "Neoplastic Process"
+    },
+    {
+      "code": "P207",
+      "type": "UMLS_CUI",
+      "value": "C0334392"
+    }
+  ],
+  "children": [
+    {
+      "code": "C175288",
+      "name": "Lacrimal Gland Epithelial-Myoepithelial Carcinoma",
+      "leaf": true
+    },
+    {
+      "code": "C45545",
+      "name": "Lung Epithelial-Myoepithelial Carcinoma",
+      "leaf": true
+    },
+    {
+      "code": "C35701",
+      "name": "Salivary Gland Epithelial-Myoepithelial Carcinoma",
+      "leaf": true
+    }
+  ],
+  "parents": [
+    {
+      "code": "C2916",
+      "name": "Carcinoma"
+    },
+    {
+      "code": "C7201",
+      "name": "Rare Neoplasm"
+    }
+  ],
+  "associations": [
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C158520",
+      "relatedName": "CPTAC Codelists Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C156966",
+      "relatedName": "CPTAC Neoplasms Codelist"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C156952",
+      "relatedName": "CPTAC Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C157711",
+      "relatedName": "GDC Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C177537",
+      "relatedName": "GDC Value Terminology"
+    },
+    {
+      "type": "Is_Value_For_GDC_Property",
+      "relatedCode": "C176985",
+      "relatedName": "Histology ICD-O Morphology Code"
+    },
+    {
+      "type": "Is_Value_For_GDC_Property",
+      "relatedCode": "C177621",
+      "relatedName": "ICD-O-3 Morphology Term Diagnosis Question"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168658",
+      "relatedName": "Mapped ICDO3.1 Morphology PT Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168657",
+      "relatedName": "Mapped ICDO3.1 Morphology Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168655",
+      "relatedName": "Mapped ICDO3.1 Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168662",
+      "relatedName": "Mapped ICDO3.2 Morphology PT Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168661",
+      "relatedName": "Mapped ICDO3.2 Morphology Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168656",
+      "relatedName": "Mapped ICDO3.2 Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C126659",
+      "relatedName": "NCIt Neoplasm Core Terminology"
+    }
+  ],
+  "inverseAssociations": [
+    {
+      "type": "Has_GDC_Value",
+      "relatedCode": "C176985",
+      "relatedName": "Histology ICD-O Morphology Code"
+    },
+    {
+      "type": "Has_GDC_Value",
+      "relatedCode": "C177621",
+      "relatedName": "ICD-O-3 Morphology Term Diagnosis Question"
+    }
+  ],
+  "roles": [
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C36122",
+      "relatedName": "Benign Cellular Infiltrate"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C54172",
+      "relatedName": "Carcinomatous Component Present"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C62127",
+      "relatedName": "Duct-Like Structures Present"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C12578",
+      "relatedName": "Epithelial Cell"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C53596",
+      "relatedName": "Epithelial Component Present"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C45714",
+      "relatedName": "Epithelial Tissue"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12917",
+      "relatedName": "Malignant Cell"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C36115",
+      "relatedName": "Malignant Cellular Infiltrate"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C62177",
+      "relatedName": "Malignant Cuboidal Epithelial Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36779",
+      "relatedName": "Malignant Epithelial Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36780",
+      "relatedName": "Malignant Myoepithelial Cell"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C37153",
+      "relatedName": "Malignant Stromal Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12922",
+      "relatedName": "Neoplastic Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36753",
+      "relatedName": "Neoplastic Epithelial Cell"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C36937",
+      "relatedName": "Neoplastic Smooth Muscle Cell"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C42094",
+      "relatedName": "Rare Lesion"
+    }
+  ],
+  "history": [
+    {
+      "code": "C4199",
+      "action": "create",
+      "date": "2003-08-12"
+    },
+    {
+      "code": "C4199",
+      "action": "modify",
+      "date": "2003-12-30"
+    },
+    {
+      "code": "C4199",
+      "action": "modify",
+      "date": "2004-03-30"
+    },
+    {
+      "code": "C4199",
+      "action": "modify",
+      "date": "2006-04-28"
+    },
+    {
+      "code": "C4199",
+      "action": "modify",
+      "date": "2006-09-01"
+    },
+    {
+      "code": "C4199",
+      "action": "modify",
+      "date": "2007-03-30"
+    },
+    {
+      "code": "C4199",
+      "action": "modify",
+      "date": "2007-04-30"
+    },
+    {
+      "code": "C4199",
+      "action": "modify",
+      "date": "2009-04-06"
+    },
+    {
+      "code": "C4199",
+      "action": "modify",
+      "date": "2009-10-27"
+    },
+    {
+      "code": "C4199",
+      "action": "modify",
+      "date": "2009-11-23"
+    },
+    {
+      "code": "C4199",
+      "action": "modify",
+      "date": "2016-04-25"
+    },
+    {
+      "code": "C4199",
+      "action": "modify",
+      "date": "2018-09-24"
+    },
+    {
+      "code": "C4199",
+      "action": "modify",
+      "date": "2018-12-31"
+    },
+    {
+      "code": "C4199",
+      "action": "modify",
+      "date": "2019-03-25"
+    },
+    {
+      "code": "C4199",
+      "action": "modify",
+      "date": "2019-05-28"
+    },
+    {
+      "code": "C4199",
+      "action": "modify",
+      "date": "2019-09-30"
+    },
+    {
+      "code": "C4199",
+      "action": "modify",
+      "date": "2019-11-25"
+    },
+    {
+      "code": "C4199",
+      "action": "modify",
+      "date": "2020-02-24"
+    },
+    {
+      "code": "C4199",
+      "action": "modify",
+      "date": "2020-04-27"
+    },
+    {
+      "code": "C4199",
+      "action": "modify",
+      "date": "2021-02-22"
+    },
+    {
+      "code": "C4199",
+      "action": "modify",
+      "date": "2021-03-29"
+    },
+    {
+      "code": "C4199",
+      "action": "modify",
+      "date": "2023-12-26"
+    }
+  ],
+  "maps": [
+    {
+      "type": "Related To",
+      "targetName": "8562/3",
+      "targetTermType": "PT",
+      "targetCode": "morphology",
+      "targetTerminology": "GDC"
+    },
+    {
+      "type": "Related To",
+      "targetName": "Epithelial-myoepithelial carcinoma",
+      "targetTermType": "PT",
+      "targetCode": "8562/3",
+      "targetTerminology": "ICDO3",
+      "targetTerminologyVersion": "3.2"
+    },
+    {
+      "type": "Related To",
+      "targetName": "Epithelial-myoepithelial carcinoma",
+      "targetTermType": "PT",
+      "targetCode": "8562/3",
+      "targetTerminology": "ICDO3",
+      "targetTerminologyVersion": "3.1"
+    },
+    {
+      "type": "Has Synonym",
+      "targetName": "Epithelial-myoepithelial carcinoma",
+      "targetTermType": "PT",
+      "targetCode": "primary_diagnosis",
+      "targetTerminology": "GDC"
+    }
+  ]
+}

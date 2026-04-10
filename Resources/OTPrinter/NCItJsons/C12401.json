@@ -1,0 +1,6182 @@
+{
+  "code": "C12401",
+  "name": "Eye",
+  "terminology": "ncit",
+  "version": "25.11d",
+  "conceptStatus": "DEFAULT",
+  "leaf": false,
+  "active": true,
+  "synonyms": [
+    {
+      "name": "Eye",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "caDSR"
+    },
+    {
+      "name": "EYE",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "CDISC"
+    },
+    {
+      "name": "Eyeball",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "CDISC"
+    },
+    {
+      "name": "Eye",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "GDC"
+    },
+    {
+      "name": "Eye, NOS",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "GDC"
+    },
+    {
+      "name": "Structure of eye proper (body structure)",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "mCode",
+      "code": "81745001",
+      "subSource": "SNOMED CT"
+    },
+    {
+      "name": "ophthalmic",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NCI-GLOSS",
+      "code": "CDR0000350235"
+    },
+    {
+      "name": "Eye",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Eyeball",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Ocular",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Ophthalmic",
+      "termType": "AD",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Optic",
+      "termType": "AD",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Eye",
+      "type": "Display_Name"
+    },
+    {
+      "name": "Eye",
+      "type": "Preferred_Name"
+    },
+    {
+      "name": "eye",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "UBERON"
+    }
+  ],
+  "definitions": [
+    {
+      "definition": "An organ that detects light.",
+      "type": "ALT_DEFINITION",
+      "source": "UBERON"
+    },
+    {
+      "definition": "Having to do with the eye.",
+      "type": "ALT_DEFINITION",
+      "source": "NCI-GLOSS"
+    },
+    {
+      "definition": "The organ of sight or vision.",
+      "type": "DEFINITION",
+      "source": "NCI"
+    },
+    {
+      "definition": "The sensory organ of vision.",
+      "type": "ALT_DEFINITION",
+      "source": "CDISC"
+    }
+  ],
+  "properties": [
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "CDISC"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "GDC"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "mCode"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "UBERON"
+    },
+    {
+      "code": "P366",
+      "type": "Legacy Concept Name",
+      "value": "Eye"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "Eye"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "Eye, NOS"
+    },
+    {
+      "code": "P106",
+      "type": "Semantic_Type",
+      "value": "Body Part, Organ, or Organ Component"
+    },
+    {
+      "code": "P207",
+      "type": "UMLS_CUI",
+      "value": "C0015392"
+    },
+    {
+      "code": "oboInOwl:hasDbXref",
+      "type": "xRef",
+      "value": "IMDRF:E08"
+    },
+    {
+      "code": "oboInOwl:hasDbXref",
+      "type": "xRef",
+      "value": "UBERON:0000970"
+    }
+  ],
+  "children": [
+    {
+      "code": "C119335",
+      "name": "Both Eyes",
+      "leaf": true
+    },
+    {
+      "code": "C119334",
+      "name": "Left Eye",
+      "leaf": true
+    },
+    {
+      "code": "C119333",
+      "name": "Right Eye",
+      "leaf": true
+    }
+  ],
+  "parents": [
+    {
+      "code": "C33224",
+      "name": "Organ of Special Sense"
+    }
+  ],
+  "associations": [
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C74456",
+      "relatedName": "CDISC SDTM Anatomical Location Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C66830",
+      "relatedName": "CDISC SDTM Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C77529",
+      "relatedName": "CDISC SEND Biospecimens Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C77526",
+      "relatedName": "CDISC SEND Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C61410",
+      "relatedName": "Clinical Data Interchange Standards Consortium Terminology"
+    },
+    {
+      "type": "Is_Value_For_GDC_Property",
+      "relatedCode": "C173263",
+      "relatedName": "Disease Involvement Site"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C157711",
+      "relatedName": "GDC Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C177537",
+      "relatedName": "GDC Value Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168655",
+      "relatedName": "Mapped ICDO3.1 Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168660",
+      "relatedName": "Mapped ICDO3.1 Topography PT Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168659",
+      "relatedName": "Mapped ICDO3.1 Topography Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168656",
+      "relatedName": "Mapped ICDO3.2 Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168664",
+      "relatedName": "Mapped ICDO3.2 Topography PT Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168663",
+      "relatedName": "Mapped ICDO3.2 Topography Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C193234",
+      "relatedName": "mCode Radiotherapy Treatment Location Value Set"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C193006",
+      "relatedName": "mCode Terminology"
+    },
+    {
+      "type": "Is_Value_For_GDC_Property",
+      "relatedCode": "C177570",
+      "relatedName": "Progressive or Recurrent Disease Anatomic Site"
+    },
+    {
+      "type": "Is_Value_For_GDC_Property",
+      "relatedCode": "C156421",
+      "relatedName": "Site of Resection or Biopsy"
+    },
+    {
+      "type": "Is_Value_For_GDC_Property",
+      "relatedCode": "C171435",
+      "relatedName": "Specimen Anatomic Site"
+    },
+    {
+      "type": "Is_Value_For_GDC_Property",
+      "relatedCode": "C70729",
+      "relatedName": "Targeted Anatomic Site"
+    },
+    {
+      "type": "Is_Value_For_GDC_Property",
+      "relatedCode": "C156422",
+      "relatedName": "Tissue or Organ of Origin"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C198975",
+      "relatedName": "UBERON Terminology"
+    }
+  ],
+  "inverseAssociations": [
+    {
+      "type": "Has_GDC_Value",
+      "relatedCode": "C173263",
+      "relatedName": "Disease Involvement Site"
+    },
+    {
+      "type": "Has_GDC_Value",
+      "relatedCode": "C177570",
+      "relatedName": "Progressive or Recurrent Disease Anatomic Site"
+    },
+    {
+      "type": "Has_GDC_Value",
+      "relatedCode": "C156421",
+      "relatedName": "Site of Resection or Biopsy"
+    },
+    {
+      "type": "Has_GDC_Value",
+      "relatedCode": "C171435",
+      "relatedName": "Specimen Anatomic Site"
+    },
+    {
+      "type": "Has_GDC_Value",
+      "relatedCode": "C70729",
+      "relatedName": "Targeted Anatomic Site"
+    },
+    {
+      "type": "Has_GDC_Value",
+      "relatedCode": "C156422",
+      "relatedName": "Tissue or Organ of Origin"
+    }
+  ],
+  "roles": [
+    {
+      "type": "Anatomic_Structure_Is_Physical_Part_Of",
+      "relatedCode": "C12419",
+      "relatedName": "Head"
+    },
+    {
+      "type": "Anatomic_Structure_Has_Location",
+      "relatedCode": "C12347",
+      "relatedName": "Orbit"
+    }
+  ],
+  "inverseRoles": [
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C50450",
+      "relatedName": "Acanthamoeba Keratitis"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C50450",
+      "relatedName": "Acanthamoeba Keratitis"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C213099",
+      "relatedName": "Acquired Benign Epithelial Melanosis of the Conjunctiva"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C213099",
+      "relatedName": "Acquired Benign Epithelial Melanosis of the Conjunctiva"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C101191",
+      "relatedName": "Acquired Bilateral Cataracts"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C101191",
+      "relatedName": "Acquired Bilateral Cataracts"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C98802",
+      "relatedName": "Acquired Cataract"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C98802",
+      "relatedName": "Acquired Cataract"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C101192",
+      "relatedName": "Acquired Unilateral Cataract"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C101192",
+      "relatedName": "Acquired Unilateral Cataract"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C219783",
+      "relatedName": "Acute Adenoviral Follicular Conjunctivitis"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C219783",
+      "relatedName": "Acute Adenoviral Follicular Conjunctivitis"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C119989",
+      "relatedName": "Acute Anterior Uveitis"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C119989",
+      "relatedName": "Acute Anterior Uveitis"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C34353",
+      "relatedName": "Acute Atopic Conjunctivitis"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C34353",
+      "relatedName": "Acute Atopic Conjunctivitis"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C35195",
+      "relatedName": "Acute Conjunctivitis"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C35195",
+      "relatedName": "Acute Conjunctivitis"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C35704",
+      "relatedName": "Acute Contagious Conjunctivitis"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C35704",
+      "relatedName": "Acute Contagious Conjunctivitis"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C211943",
+      "relatedName": "Acute Follicular Conjunctivitis"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C211943",
+      "relatedName": "Acute Follicular Conjunctivitis"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C34505",
+      "relatedName": "Acute Hemorrhagic Conjunctivitis"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C34505",
+      "relatedName": "Acute Hemorrhagic Conjunctivitis"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C211945",
+      "relatedName": "Acute Papillary Conjunctivitis"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C211945",
+      "relatedName": "Acute Papillary Conjunctivitis"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C174550",
+      "relatedName": "Adenoma of the Retinal Pigment Epithelium"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C174550",
+      "relatedName": "Adenoma of the Retinal Pigment Epithelium"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C190137",
+      "relatedName": "Advanced Ocular Melanoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C190137",
+      "relatedName": "Advanced Ocular Melanoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C148515",
+      "relatedName": "Advanced Uveal Melanoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C148515",
+      "relatedName": "Advanced Uveal Melanoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C187704",
+      "relatedName": "Age-Related Macular Degeneration-13"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C187704",
+      "relatedName": "Age-Related Macular Degeneration-13"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C174215",
+      "relatedName": "Age-Related Macular Degeneration-4"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C174215",
+      "relatedName": "Age-Related Macular Degeneration-4"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C84391",
+      "relatedName": "Age-Related Macular Degeneration"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C84391",
+      "relatedName": "Age-Related Macular Degeneration"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C215117",
+      "relatedName": "Aggressive Retinal Astrocytoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C34639",
+      "relatedName": "Angle Closure Glaucoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C34639",
+      "relatedName": "Angle Closure Glaucoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C98814",
+      "relatedName": "Anophthalmos"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C98814",
+      "relatedName": "Anophthalmos"
+    },
+    {
+      "type": "Anatomic_Structure_Is_Physical_Part_Of",
+      "relatedCode": "C12667",
+      "relatedName": "Anterior Chamber of the Eye"
+    },
+    {
+      "type": "Anatomic_Structure_Is_Physical_Part_Of",
+      "relatedCode": "C12668",
+      "relatedName": "Anterior Eye Segment"
+    },
+    {
+      "type": "Procedure_Has_Target_Anatomy",
+      "relatedCode": "C219802",
+      "relatedName": "Anterior Sclerotomy"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C222344",
+      "relatedName": "Anterior Segment Dysgenesis 2"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C219804",
+      "relatedName": "Anterior Subcapsular Polar Cataract"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C219804",
+      "relatedName": "Anterior Subcapsular Polar Cataract"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C35109",
+      "relatedName": "Anterior Uveitis"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C35109",
+      "relatedName": "Anterior Uveitis"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C34392",
+      "relatedName": "Aphakia"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C219816",
+      "relatedName": "Atopic Cataract"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C219816",
+      "relatedName": "Atopic Cataract"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C34506",
+      "relatedName": "Atopic Conjunctivitis"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C34506",
+      "relatedName": "Atopic Conjunctivitis"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C84577",
+      "relatedName": "Autosomal Dominant Optic Atrophy"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C84577",
+      "relatedName": "Autosomal Dominant Optic Atrophy"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C53656",
+      "relatedName": "Bacterial Conjunctivitis"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C53656",
+      "relatedName": "Bacterial Conjunctivitis"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C53657",
+      "relatedName": "Bacterial Endophthalmitis"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C53657",
+      "relatedName": "Bacterial Endophthalmitis"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C118765",
+      "relatedName": "Band Keratopathy"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C118765",
+      "relatedName": "Band Keratopathy"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C3625",
+      "relatedName": "Benign Choroid Neoplasm"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C3625",
+      "relatedName": "Benign Choroid Neoplasm"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C66807",
+      "relatedName": "Benign Ciliary Body Medulloepithelioma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C66807",
+      "relatedName": "Benign Ciliary Body Medulloepithelioma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C4779",
+      "relatedName": "Benign Ciliary Body Neoplasm"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C4779",
+      "relatedName": "Benign Ciliary Body Neoplasm"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C66809",
+      "relatedName": "Benign Ciliary Body Teratoid Medulloepithelioma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C66809",
+      "relatedName": "Benign Ciliary Body Teratoid Medulloepithelioma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C213097",
+      "relatedName": "Benign Conjunctival Melanocytic Neoplasm"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C213097",
+      "relatedName": "Benign Conjunctival Melanocytic Neoplasm"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C3622",
+      "relatedName": "Benign Conjunctival Neoplasm"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C3622",
+      "relatedName": "Benign Conjunctival Neoplasm"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C3623",
+      "relatedName": "Benign Corneal Neoplasm"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C3623",
+      "relatedName": "Benign Corneal Neoplasm"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C174415",
+      "relatedName": "Benign Epithelial Melanoses of the Conjunctiva"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C174415",
+      "relatedName": "Benign Epithelial Melanoses of the Conjunctiva"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C213094",
+      "relatedName": "Benign Epithelial Melanosis of the Conjunctiva"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C213094",
+      "relatedName": "Benign Epithelial Melanosis of the Conjunctiva"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C4780",
+      "relatedName": "Benign Eye Neoplasm"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C4780",
+      "relatedName": "Benign Eye Neoplasm"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C4555",
+      "relatedName": "Benign Iris Neoplasm"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C4555",
+      "relatedName": "Benign Iris Neoplasm"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C3624",
+      "relatedName": "Benign Retinal Neoplasm"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C3624",
+      "relatedName": "Benign Retinal Neoplasm"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C6104",
+      "relatedName": "Benign Uveal Neoplasm"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C6104",
+      "relatedName": "Benign Uveal Neoplasm"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C179299",
+      "relatedName": "Bietti Crystalline Corneoretinal Dystrophy"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C179299",
+      "relatedName": "Bietti Crystalline Corneoretinal Dystrophy"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C101187",
+      "relatedName": "Bilateral Anophthalmos"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C101187",
+      "relatedName": "Bilateral Anophthalmos"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C101193",
+      "relatedName": "Bilateral Cataracts"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C101193",
+      "relatedName": "Bilateral Cataracts"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C101228",
+      "relatedName": "Bilateral Glaucoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C101228",
+      "relatedName": "Bilateral Glaucoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C101189",
+      "relatedName": "Bilateral Microphthalmos"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C101189",
+      "relatedName": "Bilateral Microphthalmos"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C155316",
+      "relatedName": "Bilateral Proliferative Retinopathy"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C155316",
+      "relatedName": "Bilateral Proliferative Retinopathy"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C8713",
+      "relatedName": "Bilateral Retinoblastoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C112183",
+      "relatedName": "Blepharitis"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C112183",
+      "relatedName": "Blepharitis"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C34430",
+      "relatedName": "Blepharoconjunctivitis"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C34430",
+      "relatedName": "Blepharoconjunctivitis"
+    },
+    {
+      "type": "Procedure_Has_Target_Anatomy",
+      "relatedCode": "C219831",
+      "relatedName": "Blepharorrhaphy"
+    },
+    {
+      "type": "Procedure_Has_Target_Anatomy",
+      "relatedCode": "C219832",
+      "relatedName": "Blepharotomy"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C112189",
+      "relatedName": "Bulbar Conjunctivitis"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C112189",
+      "relatedName": "Bulbar Conjunctivitis"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C26970",
+      "relatedName": "Bullous Keratopathy"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C26970",
+      "relatedName": "Bullous Keratopathy"
+    },
+    {
+      "type": "Procedure_Has_Target_Anatomy",
+      "relatedCode": "C219841",
+      "relatedName": "Canalicular Intubation"
+    },
+    {
+      "type": "Procedure_Has_Target_Anatomy",
+      "relatedCode": "C219847",
+      "relatedName": "Cataract Needling"
+    },
+    {
+      "type": "Procedure_Has_Target_Anatomy",
+      "relatedCode": "C157809",
+      "relatedName": "Cataract Surgery"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C26713",
+      "relatedName": "Cataract"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C26713",
+      "relatedName": "Cataract"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C34456",
+      "relatedName": "Central Retinal Artery Occlusion"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C34456",
+      "relatedName": "Central Retinal Artery Occlusion"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C118859",
+      "relatedName": "Central Retinal Vein Occlusion"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C118859",
+      "relatedName": "Central Retinal Vein Occlusion"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C115124",
+      "relatedName": "Central Serous Chorioretinopathy"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C115124",
+      "relatedName": "Central Serous Chorioretinopathy"
+    },
+    {
+      "type": "Anatomic_Structure_Is_Physical_Part_Of",
+      "relatedCode": "C32301",
+      "relatedName": "Chamber of the Eye"
+    },
+    {
+      "type": "Procedure_Has_Target_Anatomy",
+      "relatedCode": "C219853",
+      "relatedName": "Chemopallidectomy"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C9048",
+      "relatedName": "Childhood Extraocular Retinoblastoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C9047",
+      "relatedName": "Childhood Intraocular Retinoblastoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C198175",
+      "relatedName": "Childhood Retinoblastoma by Toronto Guidelines v2 Stage, Tier 1"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C198179",
+      "relatedName": "Childhood Retinoblastoma by Toronto Guidelines v2 Stage, Tier 2"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C198174",
+      "relatedName": "Childhood Retinoblastoma by Toronto Guidelines v2 Stage"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C219856",
+      "relatedName": "Chorioretinal Infarction"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C219856",
+      "relatedName": "Chorioretinal Infarction"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C110923",
+      "relatedName": "Chorioretinitis"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C110923",
+      "relatedName": "Chorioretinitis"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C34468",
+      "relatedName": "Choroid Disorder"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C6102",
+      "relatedName": "Choroid Epithelioid Cell Melanoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C6102",
+      "relatedName": "Choroid Epithelioid Cell Melanoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C4562",
+      "relatedName": "Choroid Hemangioma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C4562",
+      "relatedName": "Choroid Hemangioma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C6100",
+      "relatedName": "Choroid Intermediate Cell Type Melanoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C6100",
+      "relatedName": "Choroid Intermediate Cell Type Melanoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C4561",
+      "relatedName": "Choroid Melanoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C4561",
+      "relatedName": "Choroid Melanoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C35782",
+      "relatedName": "Choroid Mixed Epithelioid and Spindle Cell Melanoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C35782",
+      "relatedName": "Choroid Mixed Epithelioid and Spindle Cell Melanoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C6865",
+      "relatedName": "Choroid Necrotic Melanoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C6865",
+      "relatedName": "Choroid Necrotic Melanoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C2949",
+      "relatedName": "Choroid Neoplasm"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C174501",
+      "relatedName": "Choroid Nevus"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C174501",
+      "relatedName": "Choroid Nevus"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C6099",
+      "relatedName": "Choroid Spindle Cell Melanoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C6099",
+      "relatedName": "Choroid Spindle Cell Melanoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C6861",
+      "relatedName": "Choroid Spindle Cell Type A Melanoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C6861",
+      "relatedName": "Choroid Spindle Cell Type A Melanoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C6862",
+      "relatedName": "Choroid Spindle Cell Type B Melanoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C6862",
+      "relatedName": "Choroid Spindle Cell Type B Melanoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C140659",
+      "relatedName": "Choroidal and Ciliary Body Melanoma by AJCC v8 Stage"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C140659",
+      "relatedName": "Choroidal and Ciliary Body Melanoma by AJCC v8 Stage"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C206549",
+      "relatedName": "Choroidal Detachment"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C206550",
+      "relatedName": "Choroidal Effusion"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C188956",
+      "relatedName": "Choroidal Ganglioneuroma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C188956",
+      "relatedName": "Choroidal Ganglioneuroma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C187280",
+      "relatedName": "Choroidal Hemorrhage"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C34469",
+      "relatedName": "Choroideremia"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C34469",
+      "relatedName": "Choroideremia"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C35197",
+      "relatedName": "Chronic Conjunctivitis"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C35197",
+      "relatedName": "Chronic Conjunctivitis"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C211944",
+      "relatedName": "Chronic Follicular Conjunctivitis"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C211944",
+      "relatedName": "Chronic Follicular Conjunctivitis"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C34476",
+      "relatedName": "Chronic Iridocyclitis"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C34476",
+      "relatedName": "Chronic Iridocyclitis"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C211946",
+      "relatedName": "Chronic Papillary Conjunctivitis"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C211946",
+      "relatedName": "Chronic Papillary Conjunctivitis"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C174561",
+      "relatedName": "Ciliary Body Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C174561",
+      "relatedName": "Ciliary Body Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C174560",
+      "relatedName": "Ciliary Body Adenoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C174560",
+      "relatedName": "Ciliary Body Adenoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C219859",
+      "relatedName": "Ciliary Body Detachment"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C35775",
+      "relatedName": "Ciliary Body Disorder"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C6119",
+      "relatedName": "Ciliary Body Epithelioid Cell Melanoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C6119",
+      "relatedName": "Ciliary Body Epithelioid Cell Melanoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C174562",
+      "relatedName": "Ciliary Body Glioneuronal Hamartoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C174562",
+      "relatedName": "Ciliary Body Glioneuronal Hamartoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C6118",
+      "relatedName": "Ciliary Body Intermediate Cell Type Melanoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C6118",
+      "relatedName": "Ciliary Body Intermediate Cell Type Melanoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C4560",
+      "relatedName": "Ciliary Body Leiomyoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C4560",
+      "relatedName": "Ciliary Body Leiomyoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C66806",
+      "relatedName": "Ciliary Body Medulloepithelioma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C4558",
+      "relatedName": "Ciliary Body Melanoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C4558",
+      "relatedName": "Ciliary Body Melanoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C35783",
+      "relatedName": "Ciliary Body Mixed Epithelioid and Spindle Cell Melanoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C35783",
+      "relatedName": "Ciliary Body Mixed Epithelioid and Spindle Cell Melanoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C4364",
+      "relatedName": "Ciliary Body Neoplasm"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C174500",
+      "relatedName": "Ciliary Body Nevus"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C174500",
+      "relatedName": "Ciliary Body Nevus"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C6117",
+      "relatedName": "Ciliary Body Spindle Cell Melanoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C6117",
+      "relatedName": "Ciliary Body Spindle Cell Melanoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C6864",
+      "relatedName": "Ciliary Body Spindle Cell Type A Melanoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C6864",
+      "relatedName": "Ciliary Body Spindle Cell Type A Melanoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C6863",
+      "relatedName": "Ciliary Body Spindle Cell Type B Melanoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C6863",
+      "relatedName": "Ciliary Body Spindle Cell Type B Melanoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C66810",
+      "relatedName": "Ciliary Body Teratoid Medulloepithelioma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C140752",
+      "relatedName": "Clinical Stage I Retinoblastoma AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C140753",
+      "relatedName": "Clinical Stage II Retinoblastoma AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C140754",
+      "relatedName": "Clinical Stage III Retinoblastoma AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C140755",
+      "relatedName": "Clinical Stage IV Retinoblastoma AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C98877",
+      "relatedName": "Coloboma of the Eye"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C98877",
+      "relatedName": "Coloboma of the Eye"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C98879",
+      "relatedName": "Coloboma of the Iris"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C98879",
+      "relatedName": "Coloboma of the Iris"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C103956",
+      "relatedName": "Coloboma of the Retina"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C103956",
+      "relatedName": "Coloboma of the Retina"
+    },
+    {
+      "type": "Biological_Process_Has_Associated_Location",
+      "relatedCode": "C87177",
+      "relatedName": "Color Vision"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C174548",
+      "relatedName": "Combined Hamartoma of the Retina and Retinal Pigment Epithelium"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C174548",
+      "relatedName": "Combined Hamartoma of the Retina and Retinal Pigment Epithelium"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C212886",
+      "relatedName": "Cone-Rod Dystrophy 12"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C212886",
+      "relatedName": "Cone-Rod Dystrophy 12"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C162399",
+      "relatedName": "Cone-Rod Dystrophy 2"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C162399",
+      "relatedName": "Cone-Rod Dystrophy 2"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C35172",
+      "relatedName": "Congenital Aphakia"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C213098",
+      "relatedName": "Congenital Benign Epithelial Melanosis of the Conjunctiva"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C213098",
+      "relatedName": "Congenital Benign Epithelial Melanosis of the Conjunctiva"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C101194",
+      "relatedName": "Congenital Bilateral Cataracts"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C101194",
+      "relatedName": "Congenital Bilateral Cataracts"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C98888",
+      "relatedName": "Congenital Cataract"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C98888",
+      "relatedName": "Congenital Cataract"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C34566",
+      "relatedName": "Congenital Ectopic Lens"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C98887",
+      "relatedName": "Congenital Eye Disorder"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C98887",
+      "relatedName": "Congenital Eye Disorder"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C50648",
+      "relatedName": "Congenital Glaucoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C50648",
+      "relatedName": "Congenital Glaucoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C174545",
+      "relatedName": "Congenital Hypertrophy of the Retinal Pigment Epithelium"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C174545",
+      "relatedName": "Congenital Hypertrophy of the Retinal Pigment Epithelium"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C35393",
+      "relatedName": "Congenital Lens Disorder"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C35478",
+      "relatedName": "Congenital Macular Corneal Dystrophy"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C35478",
+      "relatedName": "Congenital Macular Corneal Dystrophy"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C219880",
+      "relatedName": "Congenital Ocular Vascular Malformation"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C219880",
+      "relatedName": "Congenital Ocular Vascular Malformation"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C101195",
+      "relatedName": "Congenital Unilateral Cataract"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C101195",
+      "relatedName": "Congenital Unilateral Cataract"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C212113",
+      "relatedName": "Conjunctival Acantholytic Squamous Cell Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C212113",
+      "relatedName": "Conjunctival Acantholytic Squamous Cell Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C174402",
+      "relatedName": "Conjunctival Adenosquamous Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C174402",
+      "relatedName": "Conjunctival Adenosquamous Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C213201",
+      "relatedName": "Conjunctival Amelanotic Melanoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C213201",
+      "relatedName": "Conjunctival Amelanotic Melanoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C175499",
+      "relatedName": "Conjunctival Angiosarcoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C204978",
+      "relatedName": "Conjunctival Balloon Cell Nevus"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C204978",
+      "relatedName": "Conjunctival Balloon Cell Nevus"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C212111",
+      "relatedName": "Conjunctival Basaloid Squamous Cell Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C212111",
+      "relatedName": "Conjunctival Basaloid Squamous Cell Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C174452",
+      "relatedName": "Conjunctival Blue Nevus"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C174452",
+      "relatedName": "Conjunctival Blue Nevus"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C174403",
+      "relatedName": "Conjunctival Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C174403",
+      "relatedName": "Conjunctival Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C213112",
+      "relatedName": "Conjunctival Combined Nevus"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C213112",
+      "relatedName": "Conjunctival Combined Nevus"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C174418",
+      "relatedName": "Conjunctival Compound Nevus"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C174418",
+      "relatedName": "Conjunctival Compound Nevus"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C212110",
+      "relatedName": "Conjunctival Conventional Squamous Cell Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C212110",
+      "relatedName": "Conjunctival Conventional Squamous Cell Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C175433",
+      "relatedName": "Conjunctival Diffuse Large B-Cell Lymphoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C175433",
+      "relatedName": "Conjunctival Diffuse Large B-Cell Lymphoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C27605",
+      "relatedName": "Conjunctival Disorder"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C212085",
+      "relatedName": "Conjunctival Exophytic Squamous Papilloma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C212085",
+      "relatedName": "Conjunctival Exophytic Squamous Papilloma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C217740",
+      "relatedName": "Conjunctival Fibrous Histiocytoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C217740",
+      "relatedName": "Conjunctival Fibrous Histiocytoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C175430",
+      "relatedName": "Conjunctival Follicular Lymphoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C175430",
+      "relatedName": "Conjunctival Follicular Lymphoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C175497",
+      "relatedName": "Conjunctival Hemangioma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C175497",
+      "relatedName": "Conjunctival Hemangioma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C212097",
+      "relatedName": "Conjunctival Hereditary Benign Intraepithelial Dyskeratosis"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C212097",
+      "relatedName": "Conjunctival Hereditary Benign Intraepithelial Dyskeratosis"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C212087",
+      "relatedName": "Conjunctival Inverted Squamous Papilloma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C212087",
+      "relatedName": "Conjunctival Inverted Squamous Papilloma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C174416",
+      "relatedName": "Conjunctival Junctional Nevus"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C174416",
+      "relatedName": "Conjunctival Junctional Nevus"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C4578",
+      "relatedName": "Conjunctival Kaposi Sarcoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C174390",
+      "relatedName": "Conjunctival Keratoacanthoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C174390",
+      "relatedName": "Conjunctival Keratoacanthoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C175500",
+      "relatedName": "Conjunctival Leiomyosarcoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C219749",
+      "relatedName": "Conjunctival Lobular Capillary Hemangioma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C219749",
+      "relatedName": "Conjunctival Lobular Capillary Hemangioma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C175498",
+      "relatedName": "Conjunctival Lymphangioma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C175498",
+      "relatedName": "Conjunctival Lymphangioma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C100054",
+      "relatedName": "Conjunctival Melanocytic Intraepithelial Lesion"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C204977",
+      "relatedName": "Conjunctival Melanocytic Neoplasm"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C204981",
+      "relatedName": "Conjunctival Melanoma In Situ"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C204981",
+      "relatedName": "Conjunctival Melanoma In Situ"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C4550",
+      "relatedName": "Conjunctival Melanoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C4550",
+      "relatedName": "Conjunctival Melanoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C213202",
+      "relatedName": "Conjunctival Mixed Epithelioid and Spindle Cell Melanoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C213202",
+      "relatedName": "Conjunctival Mixed Epithelioid and Spindle Cell Melanoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C212089",
+      "relatedName": "Conjunctival Mixed Squamous Papilloma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C212089",
+      "relatedName": "Conjunctival Mixed Squamous Papilloma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C175431",
+      "relatedName": "Conjunctival Mucosa-Associated Lymphoid Tissue Lymphoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C175431",
+      "relatedName": "Conjunctival Mucosa-Associated Lymphoid Tissue Lymphoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C175495",
+      "relatedName": "Conjunctival Myxoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C175495",
+      "relatedName": "Conjunctival Myxoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C2961",
+      "relatedName": "Conjunctival Neoplasm"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C4551",
+      "relatedName": "Conjunctival Nevus"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C4551",
+      "relatedName": "Conjunctival Nevus"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C213200",
+      "relatedName": "Conjunctival Nodular Melanoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C213200",
+      "relatedName": "Conjunctival Nodular Melanoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C175432",
+      "relatedName": "Conjunctival Non-Hodgkin Lymphoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C175432",
+      "relatedName": "Conjunctival Non-Hodgkin Lymphoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C174388",
+      "relatedName": "Conjunctival Oncocytoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C174388",
+      "relatedName": "Conjunctival Oncocytoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C212114",
+      "relatedName": "Conjunctival Pigmented Squamous Cell Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C212114",
+      "relatedName": "Conjunctival Pigmented Squamous Cell Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C174409",
+      "relatedName": "Conjunctival Pseudoepitheliomatous Hyperplasia"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C174409",
+      "relatedName": "Conjunctival Pseudoepitheliomatous Hyperplasia"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C174408",
+      "relatedName": "Conjunctival Pseudoglandular Hyperplasia"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C174408",
+      "relatedName": "Conjunctival Pseudoglandular Hyperplasia"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C174407",
+      "relatedName": "Conjunctival Reactive Epithelial Hyperplasia"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C174407",
+      "relatedName": "Conjunctival Reactive Epithelial Hyperplasia"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C175429",
+      "relatedName": "Conjunctival Reactive Lymphoid Hyperplasia"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C175429",
+      "relatedName": "Conjunctival Reactive Lymphoid Hyperplasia"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C175501",
+      "relatedName": "Conjunctival Rhabdomyosarcoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C175502",
+      "relatedName": "Conjunctival Sarcoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C174404",
+      "relatedName": "Conjunctival Sebaceous Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C174404",
+      "relatedName": "Conjunctival Sebaceous Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C174398",
+      "relatedName": "Conjunctival Spindle Cell Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C174398",
+      "relatedName": "Conjunctival Spindle Cell Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C174493",
+      "relatedName": "Conjunctival Spitz Nevus"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C174493",
+      "relatedName": "Conjunctival Spitz Nevus"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C212849",
+      "relatedName": "Conjunctival Squamous Cell Carcinoma In Situ"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C212849",
+      "relatedName": "Conjunctival Squamous Cell Carcinoma In Situ"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C212112",
+      "relatedName": "Conjunctival Squamous Cell Carcinoma with Mucinous Differentiation"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C212112",
+      "relatedName": "Conjunctival Squamous Cell Carcinoma with Mucinous Differentiation"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C4549",
+      "relatedName": "Conjunctival Squamous Cell Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C4549",
+      "relatedName": "Conjunctival Squamous Cell Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C6097",
+      "relatedName": "Conjunctival Squamous Intraepithelial Neoplasia 1"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C212845",
+      "relatedName": "Conjunctival Squamous Intraepithelial Neoplasia 2"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C7668",
+      "relatedName": "Conjunctival Squamous Intraepithelial Neoplasia 3"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C212841",
+      "relatedName": "Conjunctival Squamous Intraepithelial Neoplasia with Mucinous Differentiation"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C6120",
+      "relatedName": "Conjunctival Squamous Intraepithelial Neoplasia"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C6224",
+      "relatedName": "Conjunctival Squamous Papilloma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C6224",
+      "relatedName": "Conjunctival Squamous Papilloma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C175494",
+      "relatedName": "Conjunctival Stromal Tumor"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C175494",
+      "relatedName": "Conjunctival Stromal Tumor"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C174426",
+      "relatedName": "Conjunctival Subepithelial (Stromal) Nevus"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C174426",
+      "relatedName": "Conjunctival Subepithelial (Stromal) Nevus"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C35116",
+      "relatedName": "Conjunctival Vascular Disorder"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C35116",
+      "relatedName": "Conjunctival Vascular Disorder"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C213091",
+      "relatedName": "Conjunctival WNT-Activated Deep Penetrating/Plexiform Melanocytoma (Nevus)"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C213091",
+      "relatedName": "Conjunctival WNT-Activated Deep Penetrating/Plexiform Melanocytoma (Nevus)"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C34504",
+      "relatedName": "Conjunctivitis"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C34504",
+      "relatedName": "Conjunctivitis"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C50504",
+      "relatedName": "Contact Lens Overwear Syndrome"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C50504",
+      "relatedName": "Contact Lens Overwear Syndrome"
+    },
+    {
+      "type": "Procedure_Has_Target_Anatomy",
+      "relatedCode": "C219890",
+      "relatedName": "Coreoplasty"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C26969",
+      "relatedName": "Corneal Abscess"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C26969",
+      "relatedName": "Corneal Abscess"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C50507",
+      "relatedName": "Corneal Decompensation"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C50507",
+      "relatedName": "Corneal Decompensation"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C118862",
+      "relatedName": "Corneal Delle"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C118862",
+      "relatedName": "Corneal Delle"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C26731",
+      "relatedName": "Corneal Disorder"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C34513",
+      "relatedName": "Corneal Dystrophy"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C34513",
+      "relatedName": "Corneal Dystrophy"
+    },
+    {
+      "type": "Procedure_Has_Target_Anatomy",
+      "relatedCode": "C219891",
+      "relatedName": "Corneal Gluing"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C83813",
+      "relatedName": "Corneal Infection"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C83813",
+      "relatedName": "Corneal Infection"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C4579",
+      "relatedName": "Corneal Kaposi Sarcoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C4553",
+      "relatedName": "Corneal Melanoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C4553",
+      "relatedName": "Corneal Melanoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C4361",
+      "relatedName": "Corneal Neoplasm"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C4552",
+      "relatedName": "Corneal Squamous Cell Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C4552",
+      "relatedName": "Corneal Squamous Cell Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C6093",
+      "relatedName": "Corneal Squamous Intraepithelial Neoplasia"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C50515",
+      "relatedName": "Corneal Ulcer"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C50515",
+      "relatedName": "Corneal Ulcer"
+    },
+    {
+      "type": "Anatomic_Structure_Is_Physical_Part_Of",
+      "relatedCode": "C32371",
+      "relatedName": "Corneoscleral Coat"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C135197",
+      "relatedName": "Cortical Cataract Grade 1"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C135197",
+      "relatedName": "Cortical Cataract Grade 1"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C135198",
+      "relatedName": "Cortical Cataract Grade 2"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C135198",
+      "relatedName": "Cortical Cataract Grade 2"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C135199",
+      "relatedName": "Cortical Cataract Grade 3"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C135199",
+      "relatedName": "Cortical Cataract Grade 3"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C135200",
+      "relatedName": "Cortical Cataract Grade 4"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C135200",
+      "relatedName": "Cortical Cataract Grade 4"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C135177",
+      "relatedName": "Cortical Cataract"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C135177",
+      "relatedName": "Cortical Cataract"
+    },
+    {
+      "type": "Procedure_Has_Target_Anatomy",
+      "relatedCode": "C219893",
+      "relatedName": "Cryopexy"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C118864",
+      "relatedName": "Crystalline Lens Dislocation"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C118864",
+      "relatedName": "Crystalline Lens Dislocation"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C50519",
+      "relatedName": "Cyclitis"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C50519",
+      "relatedName": "Cyclitis"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C34794",
+      "relatedName": "Cystoid Macular Edema"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C34794",
+      "relatedName": "Cystoid Macular Edema"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C50521",
+      "relatedName": "Cytomegaloviral Retinitis"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C50521",
+      "relatedName": "Cytomegaloviral Retinitis"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C34743",
+      "relatedName": "Dendritic Keratitis"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C34743",
+      "relatedName": "Dendritic Keratitis"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C84420",
+      "relatedName": "Diabetic Eye Disease"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C84420",
+      "relatedName": "Diabetic Eye Disease"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C34538",
+      "relatedName": "Diabetic Retinopathy"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C34538",
+      "relatedName": "Diabetic Retinopathy"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C66813",
+      "relatedName": "Differentiated Retinoblastoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C66815",
+      "relatedName": "Diffuse Retinoblastoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C34553",
+      "relatedName": "Dry Eye Syndrome"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C34553",
+      "relatedName": "Dry Eye Syndrome"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C125484",
+      "relatedName": "Ectopia Lentis"
+    },
+    {
+      "type": "Gene_Product_Expressed_In_Tissue",
+      "relatedCode": "C106348",
+      "relatedName": "EGF-Containing Fibulin-Like Extracellular Matrix Protein 1"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C34586",
+      "relatedName": "Endophthalmitis"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C34586",
+      "relatedName": "Endophthalmitis"
+    },
+    {
+      "type": "Procedure_Has_Target_Anatomy",
+      "relatedCode": "C118359",
+      "relatedName": "Endoresection"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C34590",
+      "relatedName": "Epidemic Keratoconjunctivitis"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C34590",
+      "relatedName": "Epidemic Keratoconjunctivitis"
+    },
+    {
+      "type": "Procedure_Has_Target_Anatomy",
+      "relatedCode": "C118358",
+      "relatedName": "Exoresection"
+    },
+    {
+      "type": "Procedure_Has_Target_Anatomy",
+      "relatedCode": "C219933",
+      "relatedName": "Exploration of Ciliary Body"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C7848",
+      "relatedName": "Extraocular Retinoblastoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C175048",
+      "relatedName": "Exudative Vitreoretinopathy 1"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C175048",
+      "relatedName": "Exudative Vitreoretinopathy 1"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C6079",
+      "relatedName": "Eye Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C6079",
+      "relatedName": "Eye Carcinoma"
+    },
+    {
+      "type": "Biological_Process_Has_Result_Anatomy",
+      "relatedCode": "C19413",
+      "relatedName": "Eye Development"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C26767",
+      "relatedName": "Eye Disorder"
+    },
+    {
+      "type": "Procedure_Has_Target_Anatomy",
+      "relatedCode": "C198837",
+      "relatedName": "Eye Enucleation"
+    },
+    {
+      "type": "Procedure_Has_Target_Anatomy",
+      "relatedCode": "C157848",
+      "relatedName": "Eye Evisceration and Enucleation"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C45372",
+      "relatedName": "Eye Infection"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C45372",
+      "relatedName": "Eye Infection"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C35690",
+      "relatedName": "Eye Lymphoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C35690",
+      "relatedName": "Eye Lymphoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C175223",
+      "relatedName": "Eye Melanocytoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C175223",
+      "relatedName": "Eye Melanocytoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C3030",
+      "relatedName": "Eye Neoplasm"
+    },
+    {
+      "type": "Procedure_Has_Target_Anatomy",
+      "relatedCode": "C219939",
+      "relatedName": "Eye Resection-Recession"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C43340",
+      "relatedName": "Eye Sebaceous Carcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C43340",
+      "relatedName": "Eye Sebaceous Carcinoma"
+    },
+    {
+      "type": "Anatomic_Structure_Is_Physical_Part_Of",
+      "relatedCode": "C33525",
+      "relatedName": "Eye Segment"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C118860",
+      "relatedName": "Fat Adherence Syndrome"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C118860",
+      "relatedName": "Fat Adherence Syndrome"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C211942",
+      "relatedName": "Follicular Conjunctivitis"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C211942",
+      "relatedName": "Follicular Conjunctivitis"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C84721",
+      "relatedName": "Fuchs Endothelial Dystrophy"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C84721",
+      "relatedName": "Fuchs Endothelial Dystrophy"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C53658",
+      "relatedName": "Fungal Endophthalmitis"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C53658",
+      "relatedName": "Fungal Endophthalmitis"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C128370",
+      "relatedName": "Fungal Keratitis"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C128370",
+      "relatedName": "Fungal Keratitis"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C142805",
+      "relatedName": "Gelatinous Drop-Like Corneal Dystrophy"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C142805",
+      "relatedName": "Gelatinous Drop-Like Corneal Dystrophy"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C140264",
+      "relatedName": "Genetic Macular Dystrophy"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C140264",
+      "relatedName": "Genetic Macular Dystrophy"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C34507",
+      "relatedName": "Giant Papillary Conjunctivitis"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C34507",
+      "relatedName": "Giant Papillary Conjunctivitis"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C26782",
+      "relatedName": "Glaucoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C26782",
+      "relatedName": "Glaucoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C116816",
+      "relatedName": "Gonococcal Ophthalmia Neonatorum"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C116816",
+      "relatedName": "Gonococcal Ophthalmia Neonatorum"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C34651",
+      "relatedName": "Granular Corneal Dystrophy"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C34651",
+      "relatedName": "Granular Corneal Dystrophy"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C84744",
+      "relatedName": "Gyrate Atrophy"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C84744",
+      "relatedName": "Gyrate Atrophy"
+    },
+    {
+      "type": "Disease_Excludes_Metastatic_Anatomic_Site",
+      "relatedCode": "C162595",
+      "relatedName": "Head and Neck Carcinoma of Unknown Primary"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C34512",
+      "relatedName": "Hereditary Corneal Dystrophy"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C34512",
+      "relatedName": "Hereditary Corneal Dystrophy"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C34864",
+      "relatedName": "Hereditary Optic Atrophy"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C34864",
+      "relatedName": "Hereditary Optic Atrophy"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C35194",
+      "relatedName": "Hereditary Retinal Dystrophy"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C35194",
+      "relatedName": "Hereditary Retinal Dystrophy"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C8495",
+      "relatedName": "Hereditary Retinoblastoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C204980",
+      "relatedName": "High Grade Conjunctival Melanocytic Intraepithelial Lesion"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C7669",
+      "relatedName": "High Grade Corneal Squamous Intraepithelial Neoplasia"
+    },
+    {
+      "type": "Disease_Excludes_Metastatic_Anatomic_Site",
+      "relatedCode": "C190149",
+      "relatedName": "Human Papillomavirus-Negative Neck Squamous Cell Carcinoma of Unknown Primary"
+    },
+    {
+      "type": "Disease_Excludes_Metastatic_Anatomic_Site",
+      "relatedCode": "C187051",
+      "relatedName": "Human Papillomavirus-Related Neck Squamous Cell Carcinoma of Unknown Primary"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C50587",
+      "relatedName": "Hyalitis"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C3514",
+      "relatedName": "Hypertensive Retinopathy"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C3514",
+      "relatedName": "Hypertensive Retinopathy"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C50592",
+      "relatedName": "Hyphema"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C50592",
+      "relatedName": "Hyphema"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C50593",
+      "relatedName": "Hypopyon"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C50593",
+      "relatedName": "Hypopyon"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C50614",
+      "relatedName": "Induced Cataract"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C50614",
+      "relatedName": "Induced Cataract"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C83508",
+      "relatedName": "Infectious Conjunctivitis"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C83508",
+      "relatedName": "Infectious Conjunctivitis"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C118749",
+      "relatedName": "Infectious Keratitis"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C118749",
+      "relatedName": "Infectious Keratitis"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C174448",
+      "relatedName": "Inflamed Juvenile Conjunctival Nevus"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C174448",
+      "relatedName": "Inflamed Juvenile Conjunctival Nevus"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C35110",
+      "relatedName": "Intermediate Uveitis"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C35110",
+      "relatedName": "Intermediate Uveitis"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C50617",
+      "relatedName": "Intraocular Infection"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C50617",
+      "relatedName": "Intraocular Infection"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C118865",
+      "relatedName": "Intraocular Lens Dislocation"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C118865",
+      "relatedName": "Intraocular Lens Dislocation"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C92186",
+      "relatedName": "Intraocular Malignant Peripheral Nerve Sheath Tumor"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C7846",
+      "relatedName": "Intraocular Retinoblastoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C92182",
+      "relatedName": "Intraocular Schwannoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C92182",
+      "relatedName": "Intraocular Schwannoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C92182",
+      "relatedName": "Intraocular Schwannoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C190746",
+      "relatedName": "Iridociliary Melanoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C190746",
+      "relatedName": "Iridociliary Melanoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C34736",
+      "relatedName": "Iridocyclitis"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C34736",
+      "relatedName": "Iridocyclitis"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C34737",
+      "relatedName": "Iris Disorder"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C174498",
+      "relatedName": "Iris Epithelioid Cell Melanoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C174498",
+      "relatedName": "Iris Epithelioid Cell Melanoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C6101",
+      "relatedName": "Iris Intermediate Cell Type Melanoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C6101",
+      "relatedName": "Iris Intermediate Cell Type Melanoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C9088",
+      "relatedName": "Iris Melanoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C9088",
+      "relatedName": "Iris Melanoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C174506",
+      "relatedName": "Iris Mixed Epithelioid and Spindle Cell Melanoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C174506",
+      "relatedName": "Iris Mixed Epithelioid and Spindle Cell Melanoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C3142",
+      "relatedName": "Iris Neoplasm"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C4556",
+      "relatedName": "Iris Nevus"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C4556",
+      "relatedName": "Iris Nevus"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C6098",
+      "relatedName": "Iris Spindle Cell Melanoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C6098",
+      "relatedName": "Iris Spindle Cell Melanoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C35618",
+      "relatedName": "Iris Vascular Disorder"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C35618",
+      "relatedName": "Iris Vascular Disorder"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C50621",
+      "relatedName": "Iritis"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C50621",
+      "relatedName": "Iritis"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C53976",
+      "relatedName": "Juvenile Cataract"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C53976",
+      "relatedName": "Juvenile Cataract"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C26805",
+      "relatedName": "Keratitis"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C26805",
+      "relatedName": "Keratitis"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C34744",
+      "relatedName": "Keratoconjunctivitis"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C34744",
+      "relatedName": "Keratoconjunctivitis"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C26806",
+      "relatedName": "Keratoconus"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C26806",
+      "relatedName": "Keratoconus"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C27012",
+      "relatedName": "Keratopathy"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C27012",
+      "relatedName": "Keratopathy"
+    },
+    {
+      "type": "Procedure_Has_Target_Anatomy",
+      "relatedCode": "C220007",
+      "relatedName": "Keratophakia"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C202070",
+      "relatedName": "Late-Onset Retinal Degeneration"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C202070",
+      "relatedName": "Late-Onset Retinal Degeneration"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C220015",
+      "relatedName": "Lattice Retinal Degeneration"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C220015",
+      "relatedName": "Lattice Retinal Degeneration"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C84808",
+      "relatedName": "Leber Hereditary Optic Atrophy"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C84808",
+      "relatedName": "Leber Hereditary Optic Atrophy"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C26812",
+      "relatedName": "Lens Disorder"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C34772",
+      "relatedName": "Lens Subluxation"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C198176",
+      "relatedName": "Localized Childhood Retinoblastoma by Toronto Guidelines v2"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C217197",
+      "relatedName": "Localized Uveal Melanoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C217197",
+      "relatedName": "Localized Uveal Melanoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C214941",
+      "relatedName": "Locally Advanced Conjunctival Melanoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C214941",
+      "relatedName": "Locally Advanced Conjunctival Melanoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C171296",
+      "relatedName": "Locally Advanced Ocular Melanoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C171296",
+      "relatedName": "Locally Advanced Ocular Melanoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C214943",
+      "relatedName": "Locally Advanced Unresectable Conjunctival Melanoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C214943",
+      "relatedName": "Locally Advanced Unresectable Conjunctival Melanoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C214949",
+      "relatedName": "Locally Advanced Unresectable Ocular Melanoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C214949",
+      "relatedName": "Locally Advanced Unresectable Ocular Melanoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C190138",
+      "relatedName": "Locally Advanced Unresectable Uveal Melanoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C190138",
+      "relatedName": "Locally Advanced Unresectable Uveal Melanoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C213952",
+      "relatedName": "Locally Advanced Uveal Melanoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C213952",
+      "relatedName": "Locally Advanced Uveal Melanoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C204979",
+      "relatedName": "Low Grade Conjunctival Melanocytic Intraepithelial Lesion"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C6094",
+      "relatedName": "Low Grade Corneal Squamous Intraepithelial Neoplasia"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C220026",
+      "relatedName": "Macula Star"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C220026",
+      "relatedName": "Macula Star"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C34793",
+      "relatedName": "Macular Corneal Dystrophy"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C34793",
+      "relatedName": "Macular Corneal Dystrophy"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C123330",
+      "relatedName": "Macular Degeneration"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C123330",
+      "relatedName": "Macular Degeneration"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C168999",
+      "relatedName": "Macular Dystrophy, Retinal, 1"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C168999",
+      "relatedName": "Macular Dystrophy, Retinal, 1"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C35468",
+      "relatedName": "Macular Edema"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C35468",
+      "relatedName": "Macular Edema"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C34795",
+      "relatedName": "Macular Hole"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C34795",
+      "relatedName": "Macular Hole"
+    },
+    {
+      "type": "Procedure_Has_Target_Anatomy",
+      "relatedCode": "C220027",
+      "relatedName": "Magnetic Foreign Body Extraction from the Ciliary Body"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C3566",
+      "relatedName": "Malignant Choroid Neoplasm"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C4557",
+      "relatedName": "Malignant Ciliary Body Medulloepithelioma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C4766",
+      "relatedName": "Malignant Ciliary Body Neoplasm"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C215120",
+      "relatedName": "Malignant Ciliary Body Teratoid Medulloepithelioma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C3564",
+      "relatedName": "Malignant Conjunctival Neoplasm"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C3565",
+      "relatedName": "Malignant Corneal Neoplasm"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C4767",
+      "relatedName": "Malignant Eye Neoplasm"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C4554",
+      "relatedName": "Malignant Iris Neoplasm"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C3216",
+      "relatedName": "Malignant Retinal Neoplasm"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C6105",
+      "relatedName": "Malignant Uveal Neoplasm"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C9090",
+      "relatedName": "Medium/Large Size Posterior Uveal Melanoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C9090",
+      "relatedName": "Medium/Large Size Posterior Uveal Melanoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C84795",
+      "relatedName": "Meesmann Corneal Dystrophy"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C84795",
+      "relatedName": "Meesmann Corneal Dystrophy"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C198178",
+      "relatedName": "Metastatic Childhood Retinoblastoma by Toronto Guidelines v2"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C169085",
+      "relatedName": "Metastatic Choroid Melanoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C169085",
+      "relatedName": "Metastatic Choroid Melanoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C182127",
+      "relatedName": "Metastatic Conjunctival Melanoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C182127",
+      "relatedName": "Metastatic Conjunctival Melanoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C8554",
+      "relatedName": "Metastatic Malignant Neoplasm in the Choroid"
+    },
+    {
+      "type": "Disease_Has_Metastatic_Anatomic_Site",
+      "relatedCode": "C8554",
+      "relatedName": "Metastatic Malignant Neoplasm in the Choroid"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C8553",
+      "relatedName": "Metastatic Malignant Neoplasm in the Ciliary Body"
+    },
+    {
+      "type": "Disease_Has_Metastatic_Anatomic_Site",
+      "relatedCode": "C8553",
+      "relatedName": "Metastatic Malignant Neoplasm in the Ciliary Body"
+    },
+    {
+      "type": "Disease_Excludes_Metastatic_Anatomic_Site",
+      "relatedCode": "C174496",
+      "relatedName": "Metastatic Malignant Neoplasm in the Conjunctiva"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C174496",
+      "relatedName": "Metastatic Malignant Neoplasm in the Conjunctiva"
+    },
+    {
+      "type": "Disease_Has_Metastatic_Anatomic_Site",
+      "relatedCode": "C174496",
+      "relatedName": "Metastatic Malignant Neoplasm in the Conjunctiva"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C4586",
+      "relatedName": "Metastatic Malignant Neoplasm in the Eye"
+    },
+    {
+      "type": "Disease_Has_Metastatic_Anatomic_Site",
+      "relatedCode": "C4586",
+      "relatedName": "Metastatic Malignant Neoplasm in the Eye"
+    },
+    {
+      "type": "Disease_Excludes_Metastatic_Anatomic_Site",
+      "relatedCode": "C162594",
+      "relatedName": "Metastatic Malignant Neoplasm in the Head and Neck"
+    },
+    {
+      "type": "Disease_Excludes_Metastatic_Anatomic_Site",
+      "relatedCode": "C6028",
+      "relatedName": "Metastatic Malignant Neoplasm in the Hypopharynx"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C6103",
+      "relatedName": "Metastatic Malignant Neoplasm in the Iris"
+    },
+    {
+      "type": "Disease_Has_Metastatic_Anatomic_Site",
+      "relatedCode": "C6103",
+      "relatedName": "Metastatic Malignant Neoplasm in the Iris"
+    },
+    {
+      "type": "Disease_Excludes_Metastatic_Anatomic_Site",
+      "relatedCode": "C175330",
+      "relatedName": "Metastatic Malignant Neoplasm in the Lacrimal Drainage System"
+    },
+    {
+      "type": "Disease_Excludes_Metastatic_Anatomic_Site",
+      "relatedCode": "C175329",
+      "relatedName": "Metastatic Malignant Neoplasm in the Lacrimal Gland"
+    },
+    {
+      "type": "Disease_Excludes_Metastatic_Anatomic_Site",
+      "relatedCode": "C175327",
+      "relatedName": "Metastatic Malignant Neoplasm in the Lacrimal System"
+    },
+    {
+      "type": "Disease_Excludes_Metastatic_Anatomic_Site",
+      "relatedCode": "C6031",
+      "relatedName": "Metastatic Malignant Neoplasm in the Larynx"
+    },
+    {
+      "type": "Disease_Excludes_Metastatic_Anatomic_Site",
+      "relatedCode": "C8542",
+      "relatedName": "Metastatic Malignant Neoplasm in the Lip"
+    },
+    {
+      "type": "Disease_Excludes_Metastatic_Anatomic_Site",
+      "relatedCode": "C6030",
+      "relatedName": "Metastatic Malignant Neoplasm in the Nasopharynx"
+    },
+    {
+      "type": "Disease_Excludes_Metastatic_Anatomic_Site",
+      "relatedCode": "C8528",
+      "relatedName": "Metastatic Malignant Neoplasm in the Neck"
+    },
+    {
+      "type": "Disease_Excludes_Metastatic_Anatomic_Site",
+      "relatedCode": "C220565",
+      "relatedName": "Metastatic Malignant Neoplasm in the Ocular Adnexa"
+    },
+    {
+      "type": "Disease_Excludes_Metastatic_Anatomic_Site",
+      "relatedCode": "C8556",
+      "relatedName": "Metastatic Malignant Neoplasm in the Orbit"
+    },
+    {
+      "type": "Disease_Excludes_Metastatic_Anatomic_Site",
+      "relatedCode": "C6029",
+      "relatedName": "Metastatic Malignant Neoplasm in the Oropharynx"
+    },
+    {
+      "type": "Disease_Excludes_Metastatic_Anatomic_Site",
+      "relatedCode": "C8557",
+      "relatedName": "Metastatic Malignant Neoplasm in the Parathyroid Glands"
+    },
+    {
+      "type": "Disease_Excludes_Metastatic_Anatomic_Site",
+      "relatedCode": "C7546",
+      "relatedName": "Metastatic Malignant Neoplasm in the Pharynx"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C8555",
+      "relatedName": "Metastatic Malignant Neoplasm in the Retina"
+    },
+    {
+      "type": "Disease_Has_Metastatic_Anatomic_Site",
+      "relatedCode": "C8555",
+      "relatedName": "Metastatic Malignant Neoplasm in the Retina"
+    },
+    {
+      "type": "Disease_Excludes_Metastatic_Anatomic_Site",
+      "relatedCode": "C7509",
+      "relatedName": "Metastatic Malignant Neoplasm in the Thyroid Gland"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C174507",
+      "relatedName": "Metastatic Malignant Neoplasm in the Uvea"
+    },
+    {
+      "type": "Disease_Has_Metastatic_Anatomic_Site",
+      "relatedCode": "C174507",
+      "relatedName": "Metastatic Malignant Neoplasm in the Uvea"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C171295",
+      "relatedName": "Metastatic Ocular Melanoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C171295",
+      "relatedName": "Metastatic Ocular Melanoma"
+    },
+    {
+      "type": "Disease_Excludes_Metastatic_Anatomic_Site",
+      "relatedCode": "C213315",
+      "relatedName": "Metastatic Squamous Cell Carcinoma in the Oropharynx"
+    },
+    {
+      "type": "Disease_Excludes_Metastatic_Anatomic_Site",
+      "relatedCode": "C213316",
+      "relatedName": "Metastatic Squamous Cell Carcinoma in the Posterior Wall of Oropharynx"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C148514",
+      "relatedName": "Metastatic Uveal Melanoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C148514",
+      "relatedName": "Metastatic Uveal Melanoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C125485",
+      "relatedName": "Microcornea"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C125485",
+      "relatedName": "Microcornea"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C98989",
+      "relatedName": "Microphthalmos"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C98989",
+      "relatedName": "Microphthalmos"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C34833",
+      "relatedName": "Myotonic Cataract"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C34833",
+      "relatedName": "Myotonic Cataract"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C206113",
+      "relatedName": "Nanophthalmos 2"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C206113",
+      "relatedName": "Nanophthalmos 2"
+    },
+    {
+      "type": "Disease_Excludes_Metastatic_Anatomic_Site",
+      "relatedCode": "C7713",
+      "relatedName": "Neck Squamous Cell Carcinoma of Unknown Primary"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C116818",
+      "relatedName": "Neonatal Chemical Conjunctivitis"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C116818",
+      "relatedName": "Neonatal Chemical Conjunctivitis"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C116817",
+      "relatedName": "Neonatal Chlamydia Conjunctivitis"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C116817",
+      "relatedName": "Neonatal Chlamydia Conjunctivitis"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C174543",
+      "relatedName": "Nodular and Massive Retinal Gliosis"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C174543",
+      "relatedName": "Nodular and Massive Retinal Gliosis"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C4559",
+      "relatedName": "Nodular Hyperplasia of the Ciliary Epithelium"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C27607",
+      "relatedName": "Non-Neoplastic Conjunctival Disorder"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C27607",
+      "relatedName": "Non-Neoplastic Conjunctival Disorder"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C27608",
+      "relatedName": "Non-Neoplastic Corneal Disorder"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C27608",
+      "relatedName": "Non-Neoplastic Corneal Disorder"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C27604",
+      "relatedName": "Non-Neoplastic Eye Disorder"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C27604",
+      "relatedName": "Non-Neoplastic Eye Disorder"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C27610",
+      "relatedName": "Non-Neoplastic Retinal Disorder"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C27610",
+      "relatedName": "Non-Neoplastic Retinal Disorder"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C35776",
+      "relatedName": "Non-Neoplastic Uveal Disorder"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C35776",
+      "relatedName": "Non-Neoplastic Uveal Disorder"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C35668",
+      "relatedName": "Non-Proliferative Diabetic Retinopathy"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C35668",
+      "relatedName": "Non-Proliferative Diabetic Retinopathy"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C135193",
+      "relatedName": "Nuclear Cataract Grade 1"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C135193",
+      "relatedName": "Nuclear Cataract Grade 1"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C135194",
+      "relatedName": "Nuclear Cataract Grade 2"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C135194",
+      "relatedName": "Nuclear Cataract Grade 2"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C135195",
+      "relatedName": "Nuclear Cataract Grade 3"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C135195",
+      "relatedName": "Nuclear Cataract Grade 3"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C135196",
+      "relatedName": "Nuclear Cataract Grade 4"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C135196",
+      "relatedName": "Nuclear Cataract Grade 4"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C135176",
+      "relatedName": "Nuclear Cataract"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C135176",
+      "relatedName": "Nuclear Cataract"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C174414",
+      "relatedName": "Ocular Melanocytosis"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C174414",
+      "relatedName": "Ocular Melanocytosis"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C7913",
+      "relatedName": "Ocular Melanoma with Extraocular Extension"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C7913",
+      "relatedName": "Ocular Melanoma with Extraocular Extension"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C8562",
+      "relatedName": "Ocular Melanoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C8562",
+      "relatedName": "Ocular Melanoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C34862",
+      "relatedName": "Ocular Onchocerciasis"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C34862",
+      "relatedName": "Ocular Onchocerciasis"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C217092",
+      "relatedName": "Ocular Surface Fibroma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C217092",
+      "relatedName": "Ocular Surface Fibroma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C176043",
+      "relatedName": "Ocular Surface Squamous Neoplasia"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C35664",
+      "relatedName": "Ocular Vascular Disorder"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C35664",
+      "relatedName": "Ocular Vascular Disorder"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C34641",
+      "relatedName": "Open Angle Glaucoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C34641",
+      "relatedName": "Open Angle Glaucoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C116815",
+      "relatedName": "Ophthalmia Neonatorum"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C116815",
+      "relatedName": "Ophthalmia Neonatorum"
+    },
+    {
+      "type": "Procedure_Has_Target_Anatomy",
+      "relatedCode": "C15331",
+      "relatedName": "Ophthalmologic Surgical Procedure"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C169000",
+      "relatedName": "Optic Atrophy 1"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C169000",
+      "relatedName": "Optic Atrophy 1"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C34863",
+      "relatedName": "Optic Atrophy"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C34863",
+      "relatedName": "Optic Atrophy"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C4230",
+      "relatedName": "Optic Disc Melanocytoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C4230",
+      "relatedName": "Optic Disc Melanocytoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C215164",
+      "relatedName": "Optic Nerve Melanocytoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C215164",
+      "relatedName": "Optic Nerve Melanocytoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C84989",
+      "relatedName": "Panuveitis"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C84989",
+      "relatedName": "Panuveitis"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C35616",
+      "relatedName": "Papillary Conjunctivitis"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C35616",
+      "relatedName": "Papillary Conjunctivitis"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C34587",
+      "relatedName": "Parasitic Endophthalmitis"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C34587",
+      "relatedName": "Parasitic Endophthalmitis"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C34903",
+      "relatedName": "Pars Planitis"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C34903",
+      "relatedName": "Pars Planitis"
+    },
+    {
+      "type": "Procedure_Has_Target_Anatomy",
+      "relatedCode": "C220079",
+      "relatedName": "Partial Dacryocystectomy"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C35192",
+      "relatedName": "Partial Retinal Arterial Occlusion"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C35192",
+      "relatedName": "Partial Retinal Arterial Occlusion"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C35341",
+      "relatedName": "Partial Retinal Vein Occlusion"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C35341",
+      "relatedName": "Partial Retinal Vein Occlusion"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C140757",
+      "relatedName": "Pathologic Stage I Retinoblastoma AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C140758",
+      "relatedName": "Pathologic Stage II Retinoblastoma AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C140759",
+      "relatedName": "Pathologic Stage III Retinoblastoma AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C140760",
+      "relatedName": "Pathologic Stage IV Retinoblastoma AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C34919",
+      "relatedName": "Peripheral Retinal Degeneration"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C34919",
+      "relatedName": "Peripheral Retinal Degeneration"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C161553",
+      "relatedName": "Persistent Hyaloid Vessels"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C161553",
+      "relatedName": "Persistent Hyaloid Vessels"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C161554",
+      "relatedName": "Persistent Hyperplastic Primary Vitreous"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C161554",
+      "relatedName": "Persistent Hyperplastic Primary Vitreous"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C161555",
+      "relatedName": "Persistent Pupillary Membrane"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C161555",
+      "relatedName": "Persistent Pupillary Membrane"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C220094",
+      "relatedName": "Phacoanaphylactic Endophthalmitis"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C220094",
+      "relatedName": "Phacoanaphylactic Endophthalmitis"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C118750",
+      "relatedName": "Photokeratitis"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C118750",
+      "relatedName": "Photokeratitis"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C220096",
+      "relatedName": "Phthisical Eye"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C220096",
+      "relatedName": "Phthisical Eye"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C187288",
+      "relatedName": "Pigment Dispersion Syndrome"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C187288",
+      "relatedName": "Pigment Dispersion Syndrome"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C212836",
+      "relatedName": "Pigmented Conjunctival Squamous Intraepithelial Neoplasia"
+    },
+    {
+      "type": "Anatomic_Structure_Is_Physical_Part_Of",
+      "relatedCode": "C12900",
+      "relatedName": "Posterior Chamber of the Eye"
+    },
+    {
+      "type": "Anatomic_Structure_Is_Physical_Part_Of",
+      "relatedCode": "C12906",
+      "relatedName": "Posterior Eye Segment"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C135201",
+      "relatedName": "Posterior Subcapsular Cataract Grade 1"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C135201",
+      "relatedName": "Posterior Subcapsular Cataract Grade 1"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C135202",
+      "relatedName": "Posterior Subcapsular Cataract Grade 2"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C135202",
+      "relatedName": "Posterior Subcapsular Cataract Grade 2"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C135203",
+      "relatedName": "Posterior Subcapsular Cataract Grade 3"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C135203",
+      "relatedName": "Posterior Subcapsular Cataract Grade 3"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C135204",
+      "relatedName": "Posterior Subcapsular Cataract Grade 4"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C135204",
+      "relatedName": "Posterior Subcapsular Cataract Grade 4"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C135180",
+      "relatedName": "Posterior Subcapsular Cataract"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C135180",
+      "relatedName": "Posterior Subcapsular Cataract"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C35111",
+      "relatedName": "Posterior Uveitis"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C35111",
+      "relatedName": "Posterior Uveitis"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C175464",
+      "relatedName": "Primary Choroid Non-Hodgkin Lymphoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C175464",
+      "relatedName": "Primary Choroid Non-Hodgkin Lymphoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C175466",
+      "relatedName": "Primary Ciliary Body Non-Hodgkin Lymphoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C175466",
+      "relatedName": "Primary Ciliary Body Non-Hodgkin Lymphoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C148260",
+      "relatedName": "Primary Congenital Glaucoma 3A"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C148260",
+      "relatedName": "Primary Congenital Glaucoma 3A"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C150251",
+      "relatedName": "Primary Congenital Glaucoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C150251",
+      "relatedName": "Primary Congenital Glaucoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C9184",
+      "relatedName": "Primary Intraocular Non-Hodgkin Lymphoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C9184",
+      "relatedName": "Primary Intraocular Non-Hodgkin Lymphoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C175467",
+      "relatedName": "Primary Iris Non-Hodgkin Lymphoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C175467",
+      "relatedName": "Primary Iris Non-Hodgkin Lymphoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C35394",
+      "relatedName": "Primary Open Angle Glaucoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C35394",
+      "relatedName": "Primary Open Angle Glaucoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C4365",
+      "relatedName": "Primary Retinal Non-Hodgkin Lymphoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C4365",
+      "relatedName": "Primary Retinal Non-Hodgkin Lymphoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C175451",
+      "relatedName": "Primary Uveal Non-Hodgkin Lymphoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C175451",
+      "relatedName": "Primary Uveal Non-Hodgkin Lymphoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C157067",
+      "relatedName": "Primary Vitreoretinal Diffuse Large B-Cell Lymphoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C157067",
+      "relatedName": "Primary Vitreoretinal Diffuse Large B-Cell Lymphoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C157065",
+      "relatedName": "Primary Vitreoretinal Non-Hodgkin Lymphoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C157065",
+      "relatedName": "Primary Vitreoretinal Non-Hodgkin Lymphoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C84457",
+      "relatedName": "Proliferative Diabetic Retinopathy"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C84457",
+      "relatedName": "Proliferative Diabetic Retinopathy"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C155313",
+      "relatedName": "Proliferative Retinopathy"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C155313",
+      "relatedName": "Proliferative Retinopathy"
+    },
+    {
+      "type": "Gene_Product_Expressed_In_Tissue",
+      "relatedCode": "C118553",
+      "relatedName": "Protein Shroom2"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C35196",
+      "relatedName": "Pseudomembranous Conjunctivitis"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C35196",
+      "relatedName": "Pseudomembranous Conjunctivitis"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C34543",
+      "relatedName": "Pseudomembranous Diphtheritic Conjunctivitis"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C34543",
+      "relatedName": "Pseudomembranous Diphtheritic Conjunctivitis"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C133744",
+      "relatedName": "Pterygium"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C133744",
+      "relatedName": "Pterygium"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C193440",
+      "relatedName": "Pupillary Disorder"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C181945",
+      "relatedName": "Racial Melanosis"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C181945",
+      "relatedName": "Racial Melanosis"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C115339",
+      "relatedName": "Radiation Retinopathy"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C115339",
+      "relatedName": "Radiation Retinopathy"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C27064",
+      "relatedName": "Radiation-Induced Cataract"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C27064",
+      "relatedName": "Radiation-Induced Cataract"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C174556",
+      "relatedName": "Reactive Epithelial Hyperplasia of the Ciliary Body"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C174549",
+      "relatedName": "Reactive Hyperplasia of the Retinal Pigment Epithelium"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C174549",
+      "relatedName": "Reactive Hyperplasia of the Retinal Pigment Epithelium"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C214944",
+      "relatedName": "Recurrent Conjunctival Melanoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C214944",
+      "relatedName": "Recurrent Conjunctival Melanoma"
+    },
+    {
+      "type": "Disease_Excludes_Metastatic_Anatomic_Site",
+      "relatedCode": "C9117",
+      "relatedName": "Recurrent Neck Squamous Cell Carcinoma of Unknown Primary"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C171294",
+      "relatedName": "Recurrent Ocular Melanoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C171294",
+      "relatedName": "Recurrent Ocular Melanoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C157070",
+      "relatedName": "Recurrent Primary Vitreoretinal Diffuse Large B-Cell Lymphoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C157070",
+      "relatedName": "Recurrent Primary Vitreoretinal Diffuse Large B-Cell Lymphoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C157068",
+      "relatedName": "Recurrent Primary Vitreoretinal Non-Hodgkin Lymphoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C157068",
+      "relatedName": "Recurrent Primary Vitreoretinal Non-Hodgkin Lymphoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C7849",
+      "relatedName": "Recurrent Retinoblastoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C7914",
+      "relatedName": "Recurrent Uveal Melanoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C7914",
+      "relatedName": "Recurrent Uveal Melanoma"
+    },
+    {
+      "type": "Anatomic_Structure_Is_Physical_Part_Of",
+      "relatedCode": "C33452",
+      "relatedName": "Refractile Media"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C173329",
+      "relatedName": "Refractory Ocular Melanoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C173329",
+      "relatedName": "Refractory Ocular Melanoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C157071",
+      "relatedName": "Refractory Primary Vitreoretinal Diffuse Large B-Cell Lymphoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C157071",
+      "relatedName": "Refractory Primary Vitreoretinal Diffuse Large B-Cell Lymphoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C157069",
+      "relatedName": "Refractory Primary Vitreoretinal Non-Hodgkin Lymphoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C157069",
+      "relatedName": "Refractory Primary Vitreoretinal Non-Hodgkin Lymphoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C173335",
+      "relatedName": "Refractory Uveal Melanoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C173335",
+      "relatedName": "Refractory Uveal Melanoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C198177",
+      "relatedName": "Regional Childhood Retinoblastoma by Toronto Guidelines v2"
+    },
+    {
+      "type": "Procedure_Has_Target_Anatomy",
+      "relatedCode": "C50836",
+      "relatedName": "Replacement of Lens"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C34436",
+      "relatedName": "Retinal Arterial Branch Occlusion"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C34436",
+      "relatedName": "Retinal Arterial Branch Occlusion"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C35479",
+      "relatedName": "Retinal Arteriovenous Malformation"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C35479",
+      "relatedName": "Retinal Arteriovenous Malformation"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C34978",
+      "relatedName": "Retinal Artery Occlusion"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C34978",
+      "relatedName": "Retinal Artery Occlusion"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C174539",
+      "relatedName": "Retinal Astrocytoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C4921",
+      "relatedName": "Retinal Cavernous Hemangioma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C4921",
+      "relatedName": "Retinal Cavernous Hemangioma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C7061",
+      "relatedName": "Retinal Cell Neoplasm"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C192089",
+      "relatedName": "Retinal Cone Dystrophy 3B"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C192089",
+      "relatedName": "Retinal Cone Dystrophy 3B"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C26968",
+      "relatedName": "Retinal Defect"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C26968",
+      "relatedName": "Retinal Defect"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C34979",
+      "relatedName": "Retinal Degeneration"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C34979",
+      "relatedName": "Retinal Degeneration"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C26967",
+      "relatedName": "Retinal Detachment and Defect"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C26967",
+      "relatedName": "Retinal Detachment and Defect"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C26874",
+      "relatedName": "Retinal Detachment"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C26874",
+      "relatedName": "Retinal Detachment"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C26875",
+      "relatedName": "Retinal Disorder"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C168587",
+      "relatedName": "Retinal Dystrophy with Inner Retinal Dysfunction and Ganglion Cell Abnormalities"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C168587",
+      "relatedName": "Retinal Dystrophy with Inner Retinal Dysfunction and Ganglion Cell Abnormalities"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C164155",
+      "relatedName": "Retinal Dystrophy with or without Extraocular Anomalies"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C164155",
+      "relatedName": "Retinal Dystrophy with or without Extraocular Anomalies"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C35625",
+      "relatedName": "Retinal Dystrophy"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C35625",
+      "relatedName": "Retinal Dystrophy"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C124578",
+      "relatedName": "Retinal Fold"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C124578",
+      "relatedName": "Retinal Fold"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C215115",
+      "relatedName": "Retinal Giant Cell Astrocytoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C174546",
+      "relatedName": "Retinal Hamartoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C174546",
+      "relatedName": "Retinal Hamartoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C39783",
+      "relatedName": "Retinal Hemangioblastoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C219532",
+      "relatedName": "Retinal Hemangioblastomatosis"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C187279",
+      "relatedName": "Retinal Hemorrhage"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C187279",
+      "relatedName": "Retinal Hemorrhage"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C8601",
+      "relatedName": "Retinal Melanoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C8601",
+      "relatedName": "Retinal Melanoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C4800",
+      "relatedName": "Retinal Neoplasm"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C174551",
+      "relatedName": "Retinal Pigment Epithelium Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C174551",
+      "relatedName": "Retinal Pigment Epithelium Adenocarcinoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C35170",
+      "relatedName": "Retinal Vascular Disorder"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C35170",
+      "relatedName": "Retinal Vascular Disorder"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C34980",
+      "relatedName": "Retinal Vascular Occlusion"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C34980",
+      "relatedName": "Retinal Vascular Occlusion"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C34981",
+      "relatedName": "Retinal Vein Occlusion"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C34981",
+      "relatedName": "Retinal Vein Occlusion"
+    },
+    {
+      "type": "Anatomic_Structure_Is_Physical_Part_Of",
+      "relatedCode": "C12343",
+      "relatedName": "Retina"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C85045",
+      "relatedName": "Retinitis Pigmentosa"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C85045",
+      "relatedName": "Retinitis Pigmentosa"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C115993",
+      "relatedName": "Retinitis"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C115993",
+      "relatedName": "Retinitis"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C140751",
+      "relatedName": "Retinoblastoma by AJCC v8 Clinical Stage"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C140756",
+      "relatedName": "Retinoblastoma by AJCC v8 Pathologic Stage"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C140750",
+      "relatedName": "Retinoblastoma by AJCC v8 Stage"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C7541",
+      "relatedName": "Retinoblastoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C66812",
+      "relatedName": "Retinocytoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C66812",
+      "relatedName": "Retinocytoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C101036",
+      "relatedName": "Retinopathy of Prematurity with Plus Disease"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C101036",
+      "relatedName": "Retinopathy of Prematurity with Plus Disease"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C34982",
+      "relatedName": "Retinopathy of Prematurity"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C34982",
+      "relatedName": "Retinopathy of Prematurity"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C62601",
+      "relatedName": "Retinopathy"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C62601",
+      "relatedName": "Retinopathy"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C85046",
+      "relatedName": "Retinoschisis"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C85046",
+      "relatedName": "Retinoschisis"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C118755",
+      "relatedName": "Rhegmatogenous Retinal Detachment"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C118755",
+      "relatedName": "Rhegmatogenous Retinal Detachment"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C79717",
+      "relatedName": "Sclera Disorder"
+    },
+    {
+      "type": "Procedure_Has_Target_Anatomy",
+      "relatedCode": "C220139",
+      "relatedName": "Scleral Buckling"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C119046",
+      "relatedName": "Scleritis"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C175470",
+      "relatedName": "Secondary Choroidal Non-Hodgkin Lymphoma"
+    },
+    {
+      "type": "Disease_Has_Metastatic_Anatomic_Site",
+      "relatedCode": "C175470",
+      "relatedName": "Secondary Choroidal Non-Hodgkin Lymphoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C35012",
+      "relatedName": "Senile Cataract"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C35012",
+      "relatedName": "Senile Cataract"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C118756",
+      "relatedName": "Serous Retinal Detachment"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C118756",
+      "relatedName": "Serous Retinal Detachment"
+    },
+    {
+      "type": "Biological_Process_Has_Associated_Location",
+      "relatedCode": "C38533",
+      "relatedName": "Sight"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C174547",
+      "relatedName": "Simple Hamartoma of the Retinal Pigment Epithelium"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C174547",
+      "relatedName": "Simple Hamartoma of the Retinal Pigment Epithelium"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C9089",
+      "relatedName": "Small Size Posterior Uveal Melanoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C9089",
+      "relatedName": "Small Size Posterior Uveal Melanoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C220152",
+      "relatedName": "Solar Retinopathy"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C220152",
+      "relatedName": "Solar Retinopathy"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C206110",
+      "relatedName": "Sorsby Fundus Dystrophy"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C206110",
+      "relatedName": "Sorsby Fundus Dystrophy"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C220153",
+      "relatedName": "Spherophakia"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C42596",
+      "relatedName": "Sporadic Retinoblastoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C198180",
+      "relatedName": "Stage 0 Childhood Retinoblastoma by Toronto Guidelines v2"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C198181",
+      "relatedName": "Stage I Childhood Retinoblastoma by Toronto Guidelines v2"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C140660",
+      "relatedName": "Stage I Choroidal and Ciliary Body Melanoma AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C140660",
+      "relatedName": "Stage I Choroidal and Ciliary Body Melanoma AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C5577",
+      "relatedName": "Stage I Uveal Melanoma AJCC v7"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C5577",
+      "relatedName": "Stage I Uveal Melanoma AJCC v7"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C198182",
+      "relatedName": "Stage II Childhood Retinoblastoma by Toronto Guidelines v2"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C140661",
+      "relatedName": "Stage II Choroidal and Ciliary Body Melanoma AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C140661",
+      "relatedName": "Stage II Choroidal and Ciliary Body Melanoma AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C5578",
+      "relatedName": "Stage II Uveal Melanoma AJCC v7"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C5578",
+      "relatedName": "Stage II Uveal Melanoma AJCC v7"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C140662",
+      "relatedName": "Stage IIA Choroidal and Ciliary Body Melanoma AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C140662",
+      "relatedName": "Stage IIA Choroidal and Ciliary Body Melanoma AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C88135",
+      "relatedName": "Stage IIA Uveal Melanoma AJCC v7"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C88135",
+      "relatedName": "Stage IIA Uveal Melanoma AJCC v7"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C140663",
+      "relatedName": "Stage IIB Choroidal and Ciliary Body Melanoma AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C140663",
+      "relatedName": "Stage IIB Choroidal and Ciliary Body Melanoma AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C88136",
+      "relatedName": "Stage IIB Uveal Melanoma AJCC v7"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C88136",
+      "relatedName": "Stage IIB Uveal Melanoma AJCC v7"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C198183",
+      "relatedName": "Stage III Childhood Retinoblastoma by Toronto Guidelines v2"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C140664",
+      "relatedName": "Stage III Choroidal and Ciliary Body Melanoma AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C140664",
+      "relatedName": "Stage III Choroidal and Ciliary Body Melanoma AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C5579",
+      "relatedName": "Stage III Uveal Melanoma AJCC v7"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C5579",
+      "relatedName": "Stage III Uveal Melanoma AJCC v7"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C140665",
+      "relatedName": "Stage IIIA Choroidal and Ciliary Body Melanoma AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C140665",
+      "relatedName": "Stage IIIA Choroidal and Ciliary Body Melanoma AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C88137",
+      "relatedName": "Stage IIIA Uveal Melanoma AJCC v7"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C88137",
+      "relatedName": "Stage IIIA Uveal Melanoma AJCC v7"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C140666",
+      "relatedName": "Stage IIIB Choroidal and Ciliary Body Melanoma AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C140666",
+      "relatedName": "Stage IIIB Choroidal and Ciliary Body Melanoma AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C88138",
+      "relatedName": "Stage IIIB Uveal Melanoma AJCC v7"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C88138",
+      "relatedName": "Stage IIIB Uveal Melanoma AJCC v7"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C140667",
+      "relatedName": "Stage IIIC Choroidal and Ciliary Body Melanoma AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C140667",
+      "relatedName": "Stage IIIC Choroidal and Ciliary Body Melanoma AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C88139",
+      "relatedName": "Stage IIIC Uveal Melanoma AJCC v7"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C88139",
+      "relatedName": "Stage IIIC Uveal Melanoma AJCC v7"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C198185",
+      "relatedName": "Stage IV Childhood Retinoblastoma by Toronto Guidelines v2"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C140668",
+      "relatedName": "Stage IV Choroidal and Ciliary Body Melanoma AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C140668",
+      "relatedName": "Stage IV Choroidal and Ciliary Body Melanoma AJCC v8"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C5580",
+      "relatedName": "Stage IV Uveal Melanoma AJCC v7"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C5580",
+      "relatedName": "Stage IV Uveal Melanoma AJCC v7"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C85078",
+      "relatedName": "Stargardt Disease"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C85078",
+      "relatedName": "Stargardt Disease"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C220167",
+      "relatedName": "Stromal Keratitis"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C220167",
+      "relatedName": "Stromal Keratitis"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C50763",
+      "relatedName": "Sunset Syndrome"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C50763",
+      "relatedName": "Sunset Syndrome"
+    },
+    {
+      "type": "Procedure_Has_Target_Anatomy",
+      "relatedCode": "C220170",
+      "relatedName": "Surgical Construction of Filtration Bleb"
+    },
+    {
+      "type": "Procedure_Has_Target_Anatomy",
+      "relatedCode": "C157999",
+      "relatedName": "Tear Duct Surgery"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C35068",
+      "relatedName": "Tetanic Cataract"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C35068",
+      "relatedName": "Tetanic Cataract"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C220196",
+      "relatedName": "Trachoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C220196",
+      "relatedName": "Trachoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C118759",
+      "relatedName": "Tractional Retinal Detachment"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C118759",
+      "relatedName": "Tractional Retinal Detachment"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C35193",
+      "relatedName": "Transient Retinal Arterial Occlusion"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C35193",
+      "relatedName": "Transient Retinal Arterial Occlusion"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C7019",
+      "relatedName": "Trilateral Retinoblastoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C66814",
+      "relatedName": "Undifferentiated Retinoblastoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C101188",
+      "relatedName": "Unilateral Anophthalmos"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C101188",
+      "relatedName": "Unilateral Anophthalmos"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C101190",
+      "relatedName": "Unilateral Microphthalmos"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C101190",
+      "relatedName": "Unilateral Microphthalmos"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C8714",
+      "relatedName": "Unilateral Retinoblastoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C214942",
+      "relatedName": "Unresectable Conjunctival Melanoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C214942",
+      "relatedName": "Unresectable Conjunctival Melanoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C214947",
+      "relatedName": "Unresectable Ocular Melanoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C214947",
+      "relatedName": "Unresectable Ocular Melanoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C172247",
+      "relatedName": "Unresectable Uveal Melanoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C172247",
+      "relatedName": "Unresectable Uveal Melanoma"
+    },
+    {
+      "type": "Gene_Product_Expressed_In_Tissue",
+      "relatedCode": "C114408",
+      "relatedName": "Usher Syndrome Type-1G Protein"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C111020",
+      "relatedName": "Uveal Class 1 Melanoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C111020",
+      "relatedName": "Uveal Class 1 Melanoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C111022",
+      "relatedName": "Uveal Class 1a Melanoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C111022",
+      "relatedName": "Uveal Class 1a Melanoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C111023",
+      "relatedName": "Uveal Class 1b Melanoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C111023",
+      "relatedName": "Uveal Class 1b Melanoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C111021",
+      "relatedName": "Uveal Class 2 Melanoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C111021",
+      "relatedName": "Uveal Class 2 Melanoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C26908",
+      "relatedName": "Uveal Disorder"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C35780",
+      "relatedName": "Uveal Epithelioid Cell Melanoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C35780",
+      "relatedName": "Uveal Epithelioid Cell Melanoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C7989",
+      "relatedName": "Uveal Intermediate Cell Type Melanoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C7989",
+      "relatedName": "Uveal Intermediate Cell Type Melanoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C205057",
+      "relatedName": "Uveal Melanocytic Neoplasm"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C174503",
+      "relatedName": "Uveal Melanocytoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C174503",
+      "relatedName": "Uveal Melanocytoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C140672",
+      "relatedName": "Uveal Melanoma by AJCC v7 Stage"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C140672",
+      "relatedName": "Uveal Melanoma by AJCC v7 Stage"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C111030",
+      "relatedName": "Uveal Melanoma by Gene Expression Profile"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C111030",
+      "relatedName": "Uveal Melanoma by Gene Expression Profile"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C150130",
+      "relatedName": "Uveal Melanoma Metastatic in the Liver"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C150130",
+      "relatedName": "Uveal Melanoma Metastatic in the Liver"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C7712",
+      "relatedName": "Uveal Melanoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C7712",
+      "relatedName": "Uveal Melanoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C35781",
+      "relatedName": "Uveal Mixed Epithelioid and Spindle Cell Melanoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C35781",
+      "relatedName": "Uveal Mixed Epithelioid and Spindle Cell Melanoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C7990",
+      "relatedName": "Uveal Necrotic Melanoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C7990",
+      "relatedName": "Uveal Necrotic Melanoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C3436",
+      "relatedName": "Uveal Neoplasm"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C174502",
+      "relatedName": "Uveal Nevus"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C174502",
+      "relatedName": "Uveal Nevus"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C7986",
+      "relatedName": "Uveal Spindle Cell Melanoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C7986",
+      "relatedName": "Uveal Spindle Cell Melanoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C7987",
+      "relatedName": "Uveal Spindle Cell Type A Melanoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C7987",
+      "relatedName": "Uveal Spindle Cell Type A Melanoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C7988",
+      "relatedName": "Uveal Spindle Cell Type B Melanoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C7988",
+      "relatedName": "Uveal Spindle Cell Type B Melanoma"
+    },
+    {
+      "type": "Anatomic_Structure_Is_Physical_Part_Of",
+      "relatedCode": "C12811",
+      "relatedName": "Uvea"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C50794",
+      "relatedName": "Uveitis Glaucoma and Hyphema Syndrome"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C50794",
+      "relatedName": "Uveitis Glaucoma and Hyphema Syndrome"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C26909",
+      "relatedName": "Uveitis"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C26909",
+      "relatedName": "Uveitis"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C34508",
+      "relatedName": "Vernal Conjunctivitis"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C34508",
+      "relatedName": "Vernal Conjunctivitis"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C34509",
+      "relatedName": "Viral Conjunctivitis"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C34509",
+      "relatedName": "Viral Conjunctivitis"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C175224",
+      "relatedName": "Visual Pathway Melanocytoma"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C175224",
+      "relatedName": "Visual Pathway Melanocytoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C118788",
+      "relatedName": "Vitelliform Macular Dystrophy"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C118788",
+      "relatedName": "Vitelliform Macular Dystrophy"
+    },
+    {
+      "type": "Procedure_Has_Target_Anatomy",
+      "relatedCode": "C50837",
+      "relatedName": "Vitrectomy"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C175883",
+      "relatedName": "Vitreoretinal Disorder"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C45256",
+      "relatedName": "Vitreous Body Disorder"
+    },
+    {
+      "type": "Anatomic_Structure_Is_Physical_Part_Of",
+      "relatedCode": "C33885",
+      "relatedName": "Vitreous Chamber"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C50807",
+      "relatedName": "Vitreous Detachment"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C50807",
+      "relatedName": "Vitreous Detachment"
+    },
+    {
+      "type": "Procedure_Has_Target_Anatomy",
+      "relatedCode": "C217435",
+      "relatedName": "Vitreous Humor Aspiration with Vitreous Replacement"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C220229",
+      "relatedName": "Vitreous Touch Syndrome"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C213038",
+      "relatedName": "Von Hippel Lindau Syndrome-Associated Retinal Hemangioblastoma"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C34503",
+      "relatedName": "Xerophthalmia"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C34503",
+      "relatedName": "Xerophthalmia"
+    },
+    {
+      "type": "Procedure_Has_Target_Anatomy",
+      "relatedCode": "C204076",
+      "relatedName": "YAG Laser Posterior Capsulotomy"
+    }
+  ],
+  "history": [
+    {
+      "code": "C12401",
+      "action": "create",
+      "date": "2003-08-12"
+    },
+    {
+      "code": "C12401",
+      "action": "modify",
+      "date": "2003-10-31"
+    },
+    {
+      "code": "C12401",
+      "action": "modify",
+      "date": "2003-12-30"
+    },
+    {
+      "code": "C12401",
+      "action": "modify",
+      "date": "2004-02-23"
+    },
+    {
+      "code": "C12401",
+      "action": "modify",
+      "date": "2004-03-30"
+    },
+    {
+      "code": "C12401",
+      "action": "modify",
+      "date": "2004-04-30"
+    },
+    {
+      "code": "C12401",
+      "action": "modify",
+      "date": "2004-11-01"
+    },
+    {
+      "code": "C12401",
+      "action": "modify",
+      "date": "2005-03-16"
+    },
+    {
+      "code": "C12401",
+      "action": "modify",
+      "date": "2005-03-30"
+    },
+    {
+      "code": "C12401",
+      "action": "modify",
+      "date": "2006-01-03"
+    },
+    {
+      "code": "C12401",
+      "action": "modify",
+      "date": "2006-04-28"
+    },
+    {
+      "code": "C12401",
+      "action": "modify",
+      "date": "2006-06-30"
+    },
+    {
+      "code": "C12401",
+      "action": "modify",
+      "date": "2008-06-27"
+    },
+    {
+      "code": "C12401",
+      "action": "modify",
+      "date": "2008-09-12"
+    },
+    {
+      "code": "C12401",
+      "action": "modify",
+      "date": "2008-11-14"
+    },
+    {
+      "code": "C12401",
+      "action": "modify",
+      "date": "2008-11-26"
+    },
+    {
+      "code": "C12401",
+      "action": "modify",
+      "date": "2008-12-19"
+    },
+    {
+      "code": "C12401",
+      "action": "modify",
+      "date": "2008-11-07"
+    },
+    {
+      "code": "C12401",
+      "action": "modify",
+      "date": "2009-01-26"
+    },
+    {
+      "code": "C12401",
+      "action": "modify",
+      "date": "2009-06-01"
+    },
+    {
+      "code": "C12401",
+      "action": "modify",
+      "date": "2009-11-23"
+    },
+    {
+      "code": "C12401",
+      "action": "modify",
+      "date": "2010-02-01"
+    },
+    {
+      "code": "C12401",
+      "action": "modify",
+      "date": "2010-02-09"
+    },
+    {
+      "code": "C12401",
+      "action": "modify",
+      "date": "2010-03-08"
+    },
+    {
+      "code": "C12401",
+      "action": "modify",
+      "date": "2010-06-01"
+    },
+    {
+      "code": "C12401",
+      "action": "modify",
+      "date": "2010-08-09"
+    },
+    {
+      "code": "C12401",
+      "action": "modify",
+      "date": "2010-08-16"
+    },
+    {
+      "code": "C12401",
+      "action": "modify",
+      "date": "2010-08-23"
+    },
+    {
+      "code": "C12401",
+      "action": "modify",
+      "date": "2010-08-30"
+    },
+    {
+      "code": "C12401",
+      "action": "modify",
+      "date": "2010-09-07"
+    },
+    {
+      "code": "C12401",
+      "action": "modify",
+      "date": "2010-09-13"
+    },
+    {
+      "code": "C12401",
+      "action": "modify",
+      "date": "2010-09-20"
+    },
+    {
+      "code": "C12401",
+      "action": "modify",
+      "date": "2010-09-27"
+    },
+    {
+      "code": "C12401",
+      "action": "modify",
+      "date": "2010-11-01"
+    },
+    {
+      "code": "C12401",
+      "action": "modify",
+      "date": "2010-11-08"
+    },
+    {
+      "code": "C12401",
+      "action": "modify",
+      "date": "2010-11-15"
+    },
+    {
+      "code": "C12401",
+      "action": "modify",
+      "date": "2010-11-22"
+    },
+    {
+      "code": "C12401",
+      "action": "modify",
+      "date": "2010-11-29"
+    },
+    {
+      "code": "C12401",
+      "action": "modify",
+      "date": "2010-12-06"
+    },
+    {
+      "code": "C12401",
+      "action": "modify",
+      "date": "2010-12-13"
+    },
+    {
+      "code": "C12401",
+      "action": "modify",
+      "date": "2010-12-27"
+    },
+    {
+      "code": "C12401",
+      "action": "modify",
+      "date": "2011-01-03"
+    },
+    {
+      "code": "C12401",
+      "action": "modify",
+      "date": "2011-01-10"
+    },
+    {
+      "code": "C12401",
+      "action": "modify",
+      "date": "2011-01-17"
+    },
+    {
+      "code": "C12401",
+      "action": "modify",
+      "date": "2011-01-24"
+    },
+    {
+      "code": "C12401",
+      "action": "modify",
+      "date": "2011-01-31"
+    },
+    {
+      "code": "C12401",
+      "action": "modify",
+      "date": "2011-04-25"
+    },
+    {
+      "code": "C12401",
+      "action": "modify",
+      "date": "2011-05-02"
+    },
+    {
+      "code": "C12401",
+      "action": "modify",
+      "date": "2011-05-09"
+    },
+    {
+      "code": "C12401",
+      "action": "modify",
+      "date": "2011-05-16"
+    },
+    {
+      "code": "C12401",
+      "action": "modify",
+      "date": "2011-05-23"
+    },
+    {
+      "code": "C12401",
+      "action": "modify",
+      "date": "2011-05-31"
+    },
+    {
+      "code": "C12401",
+      "action": "modify",
+      "date": "2011-06-06"
+    },
+    {
+      "code": "C12401",
+      "action": "modify",
+      "date": "2011-06-13"
+    },
+    {
+      "code": "C12401",
+      "action": "modify",
+      "date": "2011-06-20"
+    },
+    {
+      "code": "C12401",
+      "action": "modify",
+      "date": "2011-06-27"
+    },
+    {
+      "code": "C12401",
+      "action": "modify",
+      "date": "2012-03-12"
+    },
+    {
+      "code": "C12401",
+      "action": "modify",
+      "date": "2012-09-17"
+    },
+    {
+      "code": "C12401",
+      "action": "modify",
+      "date": "2012-10-01"
+    },
+    {
+      "code": "C12401",
+      "action": "modify",
+      "date": "2012-10-09"
+    },
+    {
+      "code": "C12401",
+      "action": "modify",
+      "date": "2012-10-15"
+    },
+    {
+      "code": "C12401",
+      "action": "modify",
+      "date": "2012-10-22"
+    },
+    {
+      "code": "C12401",
+      "action": "modify",
+      "date": "2012-10-31"
+    },
+    {
+      "code": "C12401",
+      "action": "modify",
+      "date": "2012-11-05"
+    },
+    {
+      "code": "C12401",
+      "action": "modify",
+      "date": "2012-11-13"
+    },
+    {
+      "code": "C12401",
+      "action": "modify",
+      "date": "2012-11-19"
+    },
+    {
+      "code": "C12401",
+      "action": "modify",
+      "date": "2012-11-26"
+    },
+    {
+      "code": "C12401",
+      "action": "modify",
+      "date": "2012-12-03"
+    },
+    {
+      "code": "C12401",
+      "action": "modify",
+      "date": "2012-12-10"
+    },
+    {
+      "code": "C12401",
+      "action": "modify",
+      "date": "2012-12-17"
+    },
+    {
+      "code": "C12401",
+      "action": "modify",
+      "date": "2012-12-28"
+    },
+    {
+      "code": "C12401",
+      "action": "modify",
+      "date": "2013-01-07"
+    },
+    {
+      "code": "C12401",
+      "action": "modify",
+      "date": "2013-01-14"
+    },
+    {
+      "code": "C12401",
+      "action": "modify",
+      "date": "2013-01-23"
+    },
+    {
+      "code": "C12401",
+      "action": "modify",
+      "date": "2013-02-04"
+    },
+    {
+      "code": "C12401",
+      "action": "modify",
+      "date": "2013-02-11"
+    },
+    {
+      "code": "C12401",
+      "action": "modify",
+      "date": "2013-02-19"
+    },
+    {
+      "code": "C12401",
+      "action": "modify",
+      "date": "2013-02-25"
+    },
+    {
+      "code": "C12401",
+      "action": "modify",
+      "date": "2013-03-04"
+    },
+    {
+      "code": "C12401",
+      "action": "modify",
+      "date": "2013-03-11"
+    },
+    {
+      "code": "C12401",
+      "action": "modify",
+      "date": "2013-03-18"
+    },
+    {
+      "code": "C12401",
+      "action": "modify",
+      "date": "2013-03-25"
+    },
+    {
+      "code": "C12401",
+      "action": "modify",
+      "date": "2013-04-01"
+    },
+    {
+      "code": "C12401",
+      "action": "modify",
+      "date": "2013-04-08"
+    },
+    {
+      "code": "C12401",
+      "action": "modify",
+      "date": "2013-04-15"
+    },
+    {
+      "code": "C12401",
+      "action": "modify",
+      "date": "2013-04-22"
+    },
+    {
+      "code": "C12401",
+      "action": "modify",
+      "date": "2013-04-29"
+    },
+    {
+      "code": "C12401",
+      "action": "modify",
+      "date": "2013-05-06"
+    },
+    {
+      "code": "C12401",
+      "action": "modify",
+      "date": "2013-05-13"
+    },
+    {
+      "code": "C12401",
+      "action": "modify",
+      "date": "2013-05-20"
+    },
+    {
+      "code": "C12401",
+      "action": "modify",
+      "date": "2013-05-28"
+    },
+    {
+      "code": "C12401",
+      "action": "modify",
+      "date": "2013-06-03"
+    },
+    {
+      "code": "C12401",
+      "action": "modify",
+      "date": "2013-06-10"
+    },
+    {
+      "code": "C12401",
+      "action": "modify",
+      "date": "2013-06-17"
+    },
+    {
+      "code": "C12401",
+      "action": "modify",
+      "date": "2013-06-24"
+    },
+    {
+      "code": "C12401",
+      "action": "modify",
+      "date": "2013-07-01"
+    },
+    {
+      "code": "C12401",
+      "action": "modify",
+      "date": "2013-07-08"
+    },
+    {
+      "code": "C12401",
+      "action": "modify",
+      "date": "2014-11-17"
+    },
+    {
+      "code": "C12401",
+      "action": "modify",
+      "date": "2015-05-18"
+    },
+    {
+      "code": "C12401",
+      "action": "modify",
+      "date": "2015-05-26"
+    },
+    {
+      "code": "C12401",
+      "action": "modify",
+      "date": "2015-06-01"
+    },
+    {
+      "code": "C12401",
+      "action": "modify",
+      "date": "2015-06-08"
+    },
+    {
+      "code": "C12401",
+      "action": "modify",
+      "date": "2015-06-15"
+    },
+    {
+      "code": "C12401",
+      "action": "modify",
+      "date": "2015-06-22"
+    },
+    {
+      "code": "C12401",
+      "action": "modify",
+      "date": "2015-06-29"
+    },
+    {
+      "code": "C12401",
+      "action": "modify",
+      "date": "2015-07-06"
+    },
+    {
+      "code": "C12401",
+      "action": "modify",
+      "date": "2015-07-13"
+    },
+    {
+      "code": "C12401",
+      "action": "modify",
+      "date": "2015-08-12"
+    },
+    {
+      "code": "C12401",
+      "action": "modify",
+      "date": "2015-08-31"
+    },
+    {
+      "code": "C12401",
+      "action": "modify",
+      "date": "2015-10-19"
+    },
+    {
+      "code": "C12401",
+      "action": "modify",
+      "date": "2016-10-17"
+    },
+    {
+      "code": "C12401",
+      "action": "modify",
+      "date": "2017-02-27"
+    },
+    {
+      "code": "C12401",
+      "action": "modify",
+      "date": "2017-03-13"
+    },
+    {
+      "code": "C12401",
+      "action": "modify",
+      "date": "2018-09-24"
+    },
+    {
+      "code": "C12401",
+      "action": "modify",
+      "date": "2018-10-29"
+    },
+    {
+      "code": "C12401",
+      "action": "modify",
+      "date": "2018-10-29"
+    },
+    {
+      "code": "C12401",
+      "action": "modify",
+      "date": "2019-05-28"
+    },
+    {
+      "code": "C12401",
+      "action": "modify",
+      "date": "2019-09-30"
+    },
+    {
+      "code": "C12401",
+      "action": "modify",
+      "date": "2019-10-28"
+    },
+    {
+      "code": "C12401",
+      "action": "modify",
+      "date": "2020-02-24"
+    },
+    {
+      "code": "C12401",
+      "action": "modify",
+      "date": "2020-03-30"
+    },
+    {
+      "code": "C12401",
+      "action": "modify",
+      "date": "2020-05-26"
+    },
+    {
+      "code": "C12401",
+      "action": "modify",
+      "date": "2020-09-29"
+    },
+    {
+      "code": "C12401",
+      "action": "modify",
+      "date": "2021-02-22"
+    },
+    {
+      "code": "C12401",
+      "action": "modify",
+      "date": "2021-03-29"
+    },
+    {
+      "code": "C12401",
+      "action": "modify",
+      "date": "2021-11-29"
+    },
+    {
+      "code": "C12401",
+      "action": "modify",
+      "date": "2022-08-29"
+    },
+    {
+      "code": "C12401",
+      "action": "modify",
+      "date": "2023-03-27"
+    },
+    {
+      "code": "C12401",
+      "action": "modify",
+      "date": "2023-05-30"
+    },
+    {
+      "code": "C12401",
+      "action": "modify",
+      "date": "2023-09-25"
+    },
+    {
+      "code": "C12401",
+      "action": "modify",
+      "date": "2024-07-08"
+    }
+  ],
+  "maps": [
+    {
+      "type": "Related To",
+      "targetName": "Eye, NOS",
+      "targetTermType": "PT",
+      "targetCode": "C69.9",
+      "targetTerminology": "ICDO3",
+      "targetTerminologyVersion": "3.1"
+    },
+    {
+      "type": "Related To",
+      "targetName": "Eye, NOS",
+      "targetTermType": "PT",
+      "targetCode": "C69.9",
+      "targetTerminology": "ICDO3",
+      "targetTerminologyVersion": "3.2"
+    },
+    {
+      "type": "Has Synonym",
+      "targetName": "Eye, NOS",
+      "targetTermType": "PT",
+      "targetCode": "progression_or_recurrence_anatomic_site",
+      "targetTerminology": "GDC"
+    },
+    {
+      "type": "Has Synonym",
+      "targetName": "Eye, NOS",
+      "targetTermType": "PT",
+      "targetCode": "site_of_resection_or_biopsy",
+      "targetTerminology": "GDC"
+    },
+    {
+      "type": "Has Synonym",
+      "targetName": "Eye, NOS",
+      "targetTermType": "PT",
+      "targetCode": "tissue_or_organ_of_origin",
+      "targetTerminology": "GDC"
+    },
+    {
+      "type": "Has Synonym",
+      "targetName": "Eye",
+      "targetTermType": "PT",
+      "targetCode": "biospecimen_anatomic_site",
+      "targetTerminology": "GDC"
+    },
+    {
+      "type": "Has Synonym",
+      "targetName": "Eye",
+      "targetTermType": "PT",
+      "targetCode": "sites_of_involvement",
+      "targetTerminology": "GDC"
+    },
+    {
+      "type": "Has Synonym",
+      "targetName": "Eye",
+      "targetTermType": "PT",
+      "targetCode": "treatment_anatomic_sites",
+      "targetTerminology": "GDC"
+    }
+  ]
+}

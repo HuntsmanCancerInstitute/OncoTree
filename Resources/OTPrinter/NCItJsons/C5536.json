@@ -1,0 +1,343 @@
+{
+  "code": "C5536",
+  "name": "Prostate Squamous Cell Carcinoma",
+  "terminology": "ncit",
+  "version": "25.11d",
+  "conceptStatus": "DEFAULT",
+  "leaf": true,
+  "active": true,
+  "synonyms": [
+    {
+      "name": "Prostate Squamous Cell Carcinoma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "Cellosaurus"
+    },
+    {
+      "name": "Prostate Squamous Cell Carcinoma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Squamous Cell Carcinoma of Prostate",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Squamous Cell Carcinoma of the Prostate",
+      "termType": "SY",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Prostate Squamous Cell Carcinoma",
+      "type": "Preferred_Name"
+    },
+    {
+      "name": "Prostate Squamous cell carcinoma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "OORO",
+      "subSource": "PC"
+    }
+  ],
+  "definitions": [
+    {
+      "definition": "An invasive prostate carcinoma characterized by the presence of malignant cells with squamous differentiation. There is no evidence of glandular differentiation.",
+      "type": "DEFINITION",
+      "source": "NCI"
+    }
+  ],
+  "properties": [
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "Cellosaurus"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "OORO"
+    },
+    {
+      "code": "P366",
+      "type": "Legacy Concept Name",
+      "value": "Prostate_Squamous_Cell_Carcinoma"
+    },
+    {
+      "code": "P363",
+      "type": "Neoplastic_Status",
+      "value": "Malignant"
+    },
+    {
+      "code": "P106",
+      "type": "Semantic_Type",
+      "value": "Neoplastic Process"
+    },
+    {
+      "code": "P207",
+      "type": "UMLS_CUI",
+      "value": "C1302530"
+    }
+  ],
+  "parents": [
+    {
+      "code": "C48596",
+      "name": "Invasive Prostate Carcinoma"
+    },
+    {
+      "code": "C2929",
+      "name": "Squamous Cell Carcinoma"
+    }
+  ],
+  "associations": [
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C165258",
+      "relatedName": "Cellosaurus Disease Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C126659",
+      "relatedName": "NCIt Neoplasm Core Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C192234",
+      "relatedName": "Operational Ontology for Radiation Oncology Prostate Cancer Terminology"
+    }
+  ],
+  "inverseAssociations": [
+    {
+      "type": "Has_OORO_PC_Value",
+      "relatedCode": "C19790",
+      "relatedName": "Histologic Subtype"
+    }
+  ],
+  "roles": [
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C36122",
+      "relatedName": "Benign Cellular Infiltrate"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C54172",
+      "relatedName": "Carcinomatous Component Present"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C12578",
+      "relatedName": "Epithelial Cell"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C53596",
+      "relatedName": "Epithelial Component Present"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C45714",
+      "relatedName": "Epithelial Tissue"
+    },
+    {
+      "type": "Disease_May_Have_Molecular_Abnormality",
+      "relatedCode": "C121534",
+      "relatedName": "ERG Deregulation"
+    },
+    {
+      "type": "Disease_May_Have_Molecular_Abnormality",
+      "relatedCode": "C82366",
+      "relatedName": "ERG Gene Rearrangement"
+    },
+    {
+      "type": "Disease_Mapped_To_Gene",
+      "relatedCode": "C18139",
+      "relatedName": "ERG Gene"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12810",
+      "relatedName": "Genitourinary System"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12810",
+      "relatedName": "Genitourinary System"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C36117",
+      "relatedName": "Invasive Lesion"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12722",
+      "relatedName": "Male Reproductive System"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12722",
+      "relatedName": "Male Reproductive System"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12917",
+      "relatedName": "Malignant Cell"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C36115",
+      "relatedName": "Malignant Cellular Infiltrate"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36779",
+      "relatedName": "Malignant Epithelial Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36771",
+      "relatedName": "Malignant Squamous Cell"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C37153",
+      "relatedName": "Malignant Stromal Cell"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C62273",
+      "relatedName": "Mixed Neoplastic Glandular and Squamous Cell Population"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12922",
+      "relatedName": "Neoplastic Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36753",
+      "relatedName": "Neoplastic Epithelial Cell"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C36763",
+      "relatedName": "Neoplastic Glandular Cell"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C36937",
+      "relatedName": "Neoplastic Smooth Muscle Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36760",
+      "relatedName": "Neoplastic Squamous Cell"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12410",
+      "relatedName": "Prostate Gland"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12410",
+      "relatedName": "Prostate Gland"
+    },
+    {
+      "type": "Disease_Has_Normal_Tissue_Origin",
+      "relatedCode": "C13103",
+      "relatedName": "Prostatic Epithelium"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12841",
+      "relatedName": "Reproductive System"
+    },
+    {
+      "type": "Disease_Mapped_To_Gene",
+      "relatedCode": "C79904",
+      "relatedName": "TMPRSS2/ERG Fusion Gene"
+    }
+  ],
+  "history": [
+    {
+      "code": "C5536",
+      "action": "create",
+      "date": "2003-08-12"
+    },
+    {
+      "code": "C5536",
+      "action": "modify",
+      "date": "2003-10-31"
+    },
+    {
+      "code": "C5536",
+      "action": "modify",
+      "date": "2003-12-30"
+    },
+    {
+      "code": "C5536",
+      "action": "modify",
+      "date": "2004-03-30"
+    },
+    {
+      "code": "C5536",
+      "action": "modify",
+      "date": "2006-03-31"
+    },
+    {
+      "code": "C5536",
+      "action": "modify",
+      "date": "2006-05-26"
+    },
+    {
+      "code": "C5536",
+      "action": "modify",
+      "date": "2009-11-23"
+    },
+    {
+      "code": "C5536",
+      "action": "modify",
+      "date": "2012-12-03"
+    },
+    {
+      "code": "C5536",
+      "action": "modify",
+      "date": "2016-04-25"
+    },
+    {
+      "code": "C5536",
+      "action": "modify",
+      "date": "2019-06-24"
+    },
+    {
+      "code": "C5536",
+      "action": "modify",
+      "date": "2019-10-28"
+    },
+    {
+      "code": "C5536",
+      "action": "modify",
+      "date": "2022-11-28"
+    },
+    {
+      "code": "C5536",
+      "action": "modify",
+      "date": "2023-01-31"
+    },
+    {
+      "code": "C5536",
+      "action": "modify",
+      "date": "2023-02-27"
+    },
+    {
+      "code": "C5536",
+      "action": "modify",
+      "date": "2025-03-31"
+    }
+  ]
+}

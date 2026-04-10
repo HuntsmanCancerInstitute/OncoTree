@@ -1,0 +1,585 @@
+{
+  "code": "C6519",
+  "name": "Spindle Cell Rhabdomyosarcoma",
+  "terminology": "ncit",
+  "version": "25.11d",
+  "conceptStatus": "DEFAULT",
+  "leaf": false,
+  "active": true,
+  "synonyms": [
+    {
+      "name": "Spindle Cell Rhabdomyosarcoma",
+      "termType": "DN",
+      "type": "FULL_SYN",
+      "source": "CTRP"
+    },
+    {
+      "name": "Spindle cell rhabdomyosarcoma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "GDC"
+    },
+    {
+      "name": "Spindle Cell Rhabdomyosarcoma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NCI"
+    },
+    {
+      "name": "Spindle Cell Rhabdomyosarcoma",
+      "termType": "PT",
+      "type": "FULL_SYN",
+      "source": "NICHD"
+    },
+    {
+      "name": "Spindle Cell Rhabdomyosarcoma",
+      "type": "Display_Name"
+    },
+    {
+      "name": "Spindle Cell Rhabdomyosarcoma",
+      "type": "Preferred_Name"
+    }
+  ],
+  "definitions": [
+    {
+      "definition": "An uncommon variant of rhabdomyosarcoma characterized by the presence of whorls of spindle cells forming a storiform pattern. In children it usually arises in the paratesticular region. In adults it usually arises from the deep soft tissues in the head and neck.",
+      "type": "DEFINITION",
+      "source": "NCI"
+    },
+    {
+      "definition": "An uncommon variant of rhabdomyosarcoma that is characterized by the presence of whorls of spindle cells forming a storiform pattern. In children, it usually arises in the paratesticular region; in adults it usually arises from the deep soft tissues in the head and neck.",
+      "type": "ALT_DEFINITION",
+      "source": "NICHD"
+    }
+  ],
+  "properties": [
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "CTRP"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "GDC"
+    },
+    {
+      "code": "P322",
+      "type": "Contributing_Source",
+      "value": "NICHD"
+    },
+    {
+      "code": "P334",
+      "type": "ICD-O-3_Code",
+      "value": "8912/3"
+    },
+    {
+      "code": "P366",
+      "type": "Legacy Concept Name",
+      "value": "Spindle_Cell_Rhabdomyosarcoma"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "8912/3"
+    },
+    {
+      "code": "P375",
+      "type": "Maps_To",
+      "value": "Spindle cell rhabdomyosarcoma"
+    },
+    {
+      "code": "P363",
+      "type": "Neoplastic_Status",
+      "value": "Malignant"
+    },
+    {
+      "code": "P106",
+      "type": "Semantic_Type",
+      "value": "Neoplastic Process"
+    },
+    {
+      "code": "P207",
+      "type": "UMLS_CUI",
+      "value": "C1266134"
+    }
+  ],
+  "children": [
+    {
+      "code": "C123397",
+      "name": "Childhood Spindle Cell Rhabdomyosarcoma",
+      "leaf": true
+    },
+    {
+      "code": "C178232",
+      "name": "Congenital/Infantile Spindle Cell Rhabdomyosarcoma with VGLL2/NCOA2/CITED2 Rearrangements",
+      "leaf": true
+    },
+    {
+      "code": "C178236",
+      "name": "Intraosseous Spindle Cell Rhabdomyosarcoma with TFCP2/NCOA2 Rearrangements",
+      "leaf": true
+    }
+  ],
+  "parents": [
+    {
+      "code": "C121654",
+      "name": "Spindle Cell/Sclerosing Rhabdomyosarcoma"
+    }
+  ],
+  "associations": [
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C118168",
+      "relatedName": "CTRP Disease Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C116977",
+      "relatedName": "CTRP Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C157711",
+      "relatedName": "GDC Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C177537",
+      "relatedName": "GDC Value Terminology"
+    },
+    {
+      "type": "Is_Value_For_GDC_Property",
+      "relatedCode": "C176985",
+      "relatedName": "Histology ICD-O Morphology Code"
+    },
+    {
+      "type": "Is_Value_For_GDC_Property",
+      "relatedCode": "C177621",
+      "relatedName": "ICD-O-3 Morphology Term Diagnosis Question"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168658",
+      "relatedName": "Mapped ICDO3.1 Morphology PT Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168657",
+      "relatedName": "Mapped ICDO3.1 Morphology Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168655",
+      "relatedName": "Mapped ICDO3.1 Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168662",
+      "relatedName": "Mapped ICDO3.2 Morphology PT Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168661",
+      "relatedName": "Mapped ICDO3.2 Morphology Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C168656",
+      "relatedName": "Mapped ICDO3.2 Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C126659",
+      "relatedName": "NCIt Neoplasm Core Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C90259",
+      "relatedName": "NICHD Terminology"
+    },
+    {
+      "type": "Concept_In_Subset",
+      "relatedCode": "C132009",
+      "relatedName": "Pediatric Hematology-Oncology Terminology"
+    }
+  ],
+  "inverseAssociations": [
+    {
+      "type": "Has_GDC_Value",
+      "relatedCode": "C176985",
+      "relatedName": "Histology ICD-O Morphology Code"
+    },
+    {
+      "type": "Has_GDC_Value",
+      "relatedCode": "C177621",
+      "relatedName": "ICD-O-3 Morphology Term Diagnosis Question"
+    }
+  ],
+  "roles": [
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C36122",
+      "relatedName": "Benign Cellular Infiltrate"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C12555",
+      "relatedName": "Connective and Soft Tissue Cell"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12964",
+      "relatedName": "Connective and Soft Tissue"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12964",
+      "relatedName": "Connective and Soft Tissue"
+    },
+    {
+      "type": "Disease_Excludes_Normal_Cell_Origin",
+      "relatedCode": "C12578",
+      "relatedName": "Epithelial Cell"
+    },
+    {
+      "type": "Disease_Excludes_Normal_Tissue_Origin",
+      "relatedCode": "C45714",
+      "relatedName": "Epithelial Tissue"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C36105",
+      "relatedName": "Indolent Clinical Course"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C53665",
+      "relatedName": "Intermediate Filaments Present"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C53667",
+      "relatedName": "Intracytoplasmic Eosinophilic Inclusion"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12917",
+      "relatedName": "Malignant Cell"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C36115",
+      "relatedName": "Malignant Cellular Infiltrate"
+    },
+    {
+      "type": "Disease_Excludes_Abnormal_Cell",
+      "relatedCode": "C36779",
+      "relatedName": "Malignant Epithelial Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C214806",
+      "relatedName": "Malignant Muscle Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C49198",
+      "relatedName": "Malignant Rhabdomyoblast"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C41610",
+      "relatedName": "Mixed Cellular Population"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C12612",
+      "relatedName": "Muscle Cell"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12435",
+      "relatedName": "Muscle Tissue"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C13056",
+      "relatedName": "Muscle"
+    },
+    {
+      "type": "Disease_Has_Associated_Anatomic_Site",
+      "relatedCode": "C12754",
+      "relatedName": "Musculoskeletal System"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C12922",
+      "relatedName": "Neoplastic Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36887",
+      "relatedName": "Neoplastic Connective and Soft Tissue Cell"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C36936",
+      "relatedName": "Neoplastic Muscle Cell"
+    },
+    {
+      "type": "Disease_Excludes_Normal_Cell_Origin",
+      "relatedCode": "C41405",
+      "relatedName": "Neuron, Neuroepithelial Cell, and Supporting Cell of the Nervous System"
+    },
+    {
+      "type": "Disease_Has_Abnormal_Cell",
+      "relatedCode": "C49201",
+      "relatedName": "Primitive Malignant Skeletal Spindle Cell"
+    },
+    {
+      "type": "Disease_Has_Finding",
+      "relatedCode": "C36103",
+      "relatedName": "Rapidly Enlarging Mass"
+    },
+    {
+      "type": "Disease_Excludes_Finding",
+      "relatedCode": "C61066",
+      "relatedName": "Sclerotic Pattern"
+    },
+    {
+      "type": "Disease_May_Have_Finding",
+      "relatedCode": "C35888",
+      "relatedName": "Storiform Growth Pattern"
+    },
+    {
+      "type": "Disease_Has_Normal_Cell_Origin",
+      "relatedCode": "C33637",
+      "relatedName": "Striated Muscle Cell"
+    },
+    {
+      "type": "Disease_Has_Primary_Anatomic_Site",
+      "relatedCode": "C12436",
+      "relatedName": "Striated Muscle Tissue"
+    }
+  ],
+  "history": [
+    {
+      "code": "C6519",
+      "action": "create",
+      "date": "2003-08-12"
+    },
+    {
+      "code": "C6519",
+      "action": "modify",
+      "date": "2003-12-30"
+    },
+    {
+      "code": "C6519",
+      "action": "modify",
+      "date": "2005-12-01"
+    },
+    {
+      "code": "C6519",
+      "action": "modify",
+      "date": "2006-01-27"
+    },
+    {
+      "code": "C6519",
+      "action": "modify",
+      "date": "2007-03-30"
+    },
+    {
+      "code": "C6519",
+      "action": "modify",
+      "date": "2007-06-28"
+    },
+    {
+      "code": "C6519",
+      "action": "modify",
+      "date": "2009-11-23"
+    },
+    {
+      "code": "C6519",
+      "action": "modify",
+      "date": "2010-11-08"
+    },
+    {
+      "code": "C6519",
+      "action": "modify",
+      "date": "2014-02-03"
+    },
+    {
+      "code": "C6519",
+      "action": "modify",
+      "date": "2015-03-09"
+    },
+    {
+      "code": "C6519",
+      "action": "modify",
+      "date": "2015-04-27"
+    },
+    {
+      "code": "C6519",
+      "action": "modify",
+      "date": "2016-04-25"
+    },
+    {
+      "code": "C6519",
+      "action": "modify",
+      "date": "2017-02-13"
+    },
+    {
+      "code": "C6519",
+      "action": "modify",
+      "date": "2017-02-21"
+    },
+    {
+      "code": "C6519",
+      "action": "modify",
+      "date": "2017-02-27"
+    },
+    {
+      "code": "C6519",
+      "action": "modify",
+      "date": "2017-03-06"
+    },
+    {
+      "code": "C6519",
+      "action": "modify",
+      "date": "2017-03-13"
+    },
+    {
+      "code": "C6519",
+      "action": "modify",
+      "date": "2017-03-20"
+    },
+    {
+      "code": "C6519",
+      "action": "modify",
+      "date": "2017-03-27"
+    },
+    {
+      "code": "C6519",
+      "action": "modify",
+      "date": "2017-04-03"
+    },
+    {
+      "code": "C6519",
+      "action": "modify",
+      "date": "2017-04-10"
+    },
+    {
+      "code": "C6519",
+      "action": "modify",
+      "date": "2017-04-17"
+    },
+    {
+      "code": "C6519",
+      "action": "modify",
+      "date": "2017-04-24"
+    },
+    {
+      "code": "C6519",
+      "action": "modify",
+      "date": "2017-05-01"
+    },
+    {
+      "code": "C6519",
+      "action": "modify",
+      "date": "2017-05-04"
+    },
+    {
+      "code": "C6519",
+      "action": "modify",
+      "date": "2018-09-24"
+    },
+    {
+      "code": "C6519",
+      "action": "modify",
+      "date": "2019-05-28"
+    },
+    {
+      "code": "C6519",
+      "action": "modify",
+      "date": "2019-09-30"
+    },
+    {
+      "code": "C6519",
+      "action": "modify",
+      "date": "2019-11-25"
+    },
+    {
+      "code": "C6519",
+      "action": "modify",
+      "date": "2020-02-24"
+    },
+    {
+      "code": "C6519",
+      "action": "modify",
+      "date": "2020-04-27"
+    },
+    {
+      "code": "C6519",
+      "action": "modify",
+      "date": "2020-08-31"
+    },
+    {
+      "code": "C6519",
+      "action": "modify",
+      "date": "2020-09-29"
+    },
+    {
+      "code": "C6519",
+      "action": "modify",
+      "date": "2021-02-22"
+    },
+    {
+      "code": "C6519",
+      "action": "modify",
+      "date": "2021-03-29"
+    },
+    {
+      "code": "C6519",
+      "action": "modify",
+      "date": "2021-11-29"
+    },
+    {
+      "code": "C6519",
+      "action": "modify",
+      "date": "2023-12-26"
+    }
+  ],
+  "maps": [
+    {
+      "type": "Related To",
+      "targetName": "8912/3",
+      "targetTermType": "PT",
+      "targetCode": "morphology",
+      "targetTerminology": "GDC"
+    },
+    {
+      "type": "Related To",
+      "targetName": "Spindle cell rhabdomyosarcoma",
+      "targetTermType": "PT",
+      "targetCode": "8912/3",
+      "targetTerminology": "ICDO3",
+      "targetTerminologyVersion": "3.1"
+    },
+    {
+      "type": "Related To",
+      "targetName": "Spindle cell rhabdomyosarcoma",
+      "targetTermType": "PT",
+      "targetCode": "8912/3",
+      "targetTerminology": "ICDO3",
+      "targetTerminologyVersion": "3.2"
+    },
+    {
+      "type": "Has Synonym",
+      "targetName": "Spindle cell rhabdomyosarcoma",
+      "targetTermType": "PT",
+      "targetCode": "primary_diagnosis",
+      "targetTerminology": "GDC"
+    }
+  ]
+}
