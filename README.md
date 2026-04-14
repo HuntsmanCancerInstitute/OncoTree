@@ -6,6 +6,6 @@ This repository contains tools for classifying tumors according to the MSK OncoT
 
 **OncoTreePrinter** - Parses the OT data structure, pulls the referenced NCI Thesaurus codes, filters, formats, and outputs text for LLM prompt construction
 
-TempusPathoPrinter - ([USeq Repo](https://github.com/HuntsmanCancerInstitute/USeq)) Parses Tempus v3.3+ json reports for information useful for the OncoTreeClassifier.
+**TempusPathoPrinter** - ([USeq Repo](https://github.com/HuntsmanCancerInstitute/USeq)) Parses Tempus v3.3+ json reports for information useful for the OncoTreeClassifier.
 
-Resources - Reference files for the various applications. See the oncoTree10MinPres2April2026.pptx for a project overview.
+**Resources** - Reference files for the various applications. See the oncoTree10MinPres2April2026.pptx for a project overview.
