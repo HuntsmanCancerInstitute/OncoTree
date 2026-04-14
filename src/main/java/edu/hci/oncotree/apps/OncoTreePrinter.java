@@ -77,11 +77,11 @@ public class OncoTreePrinter {
 			
 			//save each tissue and it's associated nodes as individual files
 			tissueNameNodes = otParser.getTissueNodes();
-			saveCondensedNodeInfoTxt();
-			//saveCondensedTissuesAndNodes();
 			
-			//save as one file
+			//saveCondensedTissuesAndNodes();
 			//saveTissueJsonl();
+			
+			saveCondensedNodeInfoTxt();
 			saveCondensedTissuesInfoTxt();
 			
 		} catch (Exception e) {
@@ -320,12 +320,13 @@ public class OncoTreePrinter {
 	public static void printDocs(){
 		System.out.println("\n" +
 				"**************************************************************************************\n" +
-				"**                             OncoTree Printer : Jan 2026                          **\n" +
+				"**                             OncoTree Printer : April 2026                        **\n" +
 				"**************************************************************************************\n" +
-				"\n\n" +
+				"OTP parses the OncoTree data structure and the associated NCI Thesaurus terms to\n" +
+				"generate flat files approriate for LLM prompts.\n"+
 
-				"Required Options:\n"+
-				"-o Path to a json file representing the OncoTree data structure, e.g. curl -o otl.json\n"+
+				"\nRequired Options:\n"+
+				"\n-o Path to a json file representing the OncoTree data structure, e.g. curl -o otl.json\n"+
 				"      'https://oncotree.info/api/tumorTypes?version=oncotree_latest_stable' \n"+
 				"-r Path to a directory containing json files for each NCI Thesaurs concept referenced\n"+
 				"      in the oncoTree.json, e.g. curl -o C5545.json\n"+
@@ -334,7 +335,8 @@ public class OncoTreePrinter {
 				"-x Don't add NCI Thesaurus synonyms to key_phrases\n"+
 				"-v Verbose output.\n"+
 				
-				"Example: java -Xmx1G -jar ~/OTApps/OncoTreePrinter.jar -o otl.json -r NCIt/ \n"+
+				"\nExample: java -Xmx1G -jar ~/OTApps/OncoTreePrinterXXX.jar -o otl.json -r NCIt/ -s\n"+
+				"              ParsedOTFiles\n"+
 
 				"**************************************************************************************\n");
 	}

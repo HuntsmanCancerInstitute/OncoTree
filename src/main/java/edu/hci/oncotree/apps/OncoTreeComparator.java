@@ -28,10 +28,11 @@ public class OncoTreeComparator {
 	//internal fields
 	private OncoTreeParser otParser = null;
 	private HashMap<String, OncoTreeNode> otParserCodeNode = null;
-	private HashMap<String, String> testIdOTCodeKey = null;
+	private HashMap<String, HashSet<String>> testIdOTCodeKey = null;
 	private TreeMap<String, String> tissueNameCode = null;
 	private HashSet<String> tissueCodes = new HashSet<String>();
 	private boolean verbose = false;
+	private boolean showJustMismatches = false;
 	
 	public OncoTreeComparator (String[] args) {
 		try {
@@ -57,10 +58,7 @@ public class OncoTreeComparator {
 			parseKey();
 			
 			//Process each call set
-			//parseCalls();
-			parseCallsTissue();
-			
-			
+			parseCallsJson();
 			
 		} catch (Exception e) {
 			e.printStackTrace();
@@ -68,21 +66,54 @@ public class OncoTreeComparator {
 		}
 
 	}
-	private void parseCalls() throws Exception {
+	
+	/*
+	private void parseCallsJsonl() throws Exception {
 		Util.pl("\nComparing calls...");
-		Util.pl("\nDataset\tTumorsClassified\tKeyTestIdsFound\tTissueMatches\tCodeMatches");
-		for (File jl: Util.extractFiles(callDir, ".jsonl")) {
+		Util.pl("\nDataset\tTestCalls\tTestNoneCalls\tKeyTestIdsFound\tKeyTestIdsNotFound\tTissueMatches\tNodeMatches");
+		
+		for (File jl: Util.extractFiles(callDir, ".json")) {
+			Util.pl(jl);
 			ArrayList<String> res = new ArrayList<String>();
 			String callSetName = jl.getName().substring(0, jl.getName().length()-6);
 			res.add(callSetName);
 			CallParser cp = new CallParser(jl);
 			res.add(new Integer(cp.getTestIdCall().size()).toString());
-			int[] numTissCodeIdsMatches = scoreCalls(cp, false);
+			
+			//numNonOTCodeCalls, numKeyIdsFound, numKeyIdsMissing, numTissueMatches, numNodeMatches
+			int[] numTissCodeIdsMatches = scoreCalls(cp);
+			for (Integer i: numTissCodeIdsMatches) res.add(new Integer(i).toString());
+			Util.pl(Util.stringArrayListToString(res, "\t"));
+		}
+	}
+	*/
+	
+	private void parseCallsJson() throws Exception {
+		Util.pl("\nComparing calls...");
+		Util.pl("\nDataset\tTestCalls\tTestNoneCalls\tKeyTestIdsFound\tKeyTestIdsNotFound\tTissueMatches\tNodeMatches");
+
+		for (File dir: Util.extractOnlyDirectories(callDir)) {
+			ArrayList<String> res = new ArrayList<String>();
+			String dataSetName = dir.getName();
+			res.add(dataSetName);
+			
+			HashMap<String, Call> testIdCall = new HashMap<String, Call>();
+			
+			for (File j: Util.extractFiles(dir, ".json")) {
+				String jsonString = Util.loadFile(j, "\n", true);
+				Call c = new Call(jsonString);
+				testIdCall.put(c.getTestOrderId(), c);
+			}
+			res.add(new Integer(testIdCall.size()).toString());
+			
+			//numNonOTCodeCalls, numKeyIdsFound, numKeyIdsMissing, numTissueMatches, numNodeMatches
+			int[] numTissCodeIdsMatches = scoreCalls(testIdCall);
 			for (Integer i: numTissCodeIdsMatches) res.add(new Integer(i).toString());
 			Util.pl(Util.stringArrayListToString(res, "\t"));
 		}
 	}
 	
+	/*
 	private void parseCallsTissue() throws Exception {
 		Util.pl("\nComparing tissue calls...");
 
@@ -150,77 +181,86 @@ public class OncoTreeComparator {
 			}
 		}
 		return new int[] {numTestIdFound, numTissueMatches};
-	}
+	}*/
 	
-	
-	private int[] scoreCalls(CallParser cp, boolean verbose) throws IOException {
+	private int[] scoreCalls(HashMap<String, Call> testIdCall) throws IOException {
 		int numTissueMatches = 0;
-		int numCodeMatches = 0;
-		int numTestIdFound = 0;
-
-		HashMap<String, Call> testIdCall = cp.getTestIdCall();
+		int numNodeMatches = 0;
+		int numKeyIdsFound = 0;
+		int numKeyIdsMissing = 0;
+		int numNonOTCodeCalls = 0;
 
 		//for each key
 		for (String testId: testIdOTCodeKey.keySet()) {
 
 			//is the testId from the key in the call set?
 			if (testIdCall.containsKey(testId) == false) {
-				//Util.el("\tWARNING: failed to find key testId "+testId+" in call set, skipping");
+				Util.el("\tWARNING: failed to find key testId "+testId+" in call set, skipping");
+				numKeyIdsMissing++;
 			}
 
 			else {
+				numKeyIdsFound++;
 				
-				//get code and tissueCode for the prediction call
-				Call call = testIdCall.get(testId);
-				String oncoTreeCodeCall = call.getOncoTreeCode();
-				String oncoTreeTissueCodeCall = null;
-				if (oncoTreeCodeCall.equals("NONE") == false) {
-					OncoTreeNode node = otParserCodeNode.get(oncoTreeCodeCall);
-					if (node == null) throw new IOException("ERROR: failed to find the node for the call "+oncoTreeCodeCall);
-					String tissueName = node.getTissue();
-					oncoTreeTissueCodeCall = fetchTissueCode(tissueName);
-				}
-				else oncoTreeTissueCodeCall = "NONE";
+				//get test code 
+				Call testCall = testIdCall.get(testId);
+				String testCode = testCall.getOncoTreeCode();
 				
-				//skip NONEs?
-				if (ignoreNoneCalls && oncoTreeCodeCall.equals("NONE") ) continue;
+				//is this one of the codes in OT?
+				if (otParserCodeNode.containsKey(testCode)==false && testCode.equals("NONE") == false) {
+					Util.el("\tWARNING: invalid test call "+testCode+" not in OncoTree!");
+					numNonOTCodeCalls++;
+				}
 				
-				numTestIdFound++;
+				else {
+					//OK it is either NONE or a real OT Code
+					
+					//Get the tissue code for test, might be the same as the testCode
+					String testTissueCode = null;
+					if (testCode.equals("NONE") == false) {
+						OncoTreeNode node = otParserCodeNode.get(testCode);
+						String tissueName = node.getTissue();
+						testTissueCode = fetchTissueCode(tissueName);
+					}
+					else testTissueCode = "NONE";
+					
+					//skip NONEs?
+					if (ignoreNoneCalls && testCode.equals("NONE") ) continue;
 
-				//get code and tissueCode for the key
-				String oncoTreeCodeKey = testIdOTCodeKey.get(testId);
-				String oncoTreeTissueCodeKey = null;
-				if (oncoTreeCodeKey.equals("NONE") == false) {
-					OncoTreeNode node = otParserCodeNode.get(oncoTreeCodeKey);
-					if (node == null) throw new IOException("ERROR: failed to find the node for the key "+oncoTreeCodeKey);
-					String tissueName = node.getTissue();
-					oncoTreeTissueCodeKey = fetchTissueCode(tissueName);
+					//get key info nodeCode and tissueCode for the key
+					HashSet<String> keyCode = testIdOTCodeKey.get(testId);
+					String keyTissueCode = null;
+					if (keyCode.contains("NONE") == false) {
+						//all of the nodeCodes should point to the same tissue so just use first one
+						String firstKeyCode = keyCode.iterator().next();
+						OncoTreeNode node = otParserCodeNode.get(firstKeyCode);
+						if (node == null) throw new IOException("ERROR: failed to find the node for the key "+firstKeyCode);
+						String tissueName = node.getTissue();
+						keyTissueCode = fetchTissueCode(tissueName);
+					}
+					else keyTissueCode = "NONE";
+					
+					//score for the tissue match and for the final match
+					boolean tissueMatch = false;
+					boolean nodeMatch = false;
+					if (keyTissueCode.equals(testTissueCode)) {
+						numTissueMatches++;
+						tissueMatch = true;
+					}
+					if (keyCode.contains(testCode)) {
+						numNodeMatches++;
+						nodeMatch = true;
+					}
+					if (verbose || (showJustMismatches==true && (nodeMatch==false || tissueMatch==false) )) {
+						Util.pl("\tKEY:\t"+keyTissueCode+" -> "+keyCode+ " in "+testId);
+						Util.pl("\tTEST:\t"+testTissueCode+" -> "+testCode+ " in "+testId);
+						Util.pl("\t\t"+tissueMatch+"\t"+nodeMatch+"\n");
+					}
 				}
-				else oncoTreeTissueCodeKey = "NONE";
-				if (verbose) Util.pl("\tLooking for "+oncoTreeCodeKey+" and "+oncoTreeTissueCodeKey+ " in "+testId);
-
-
-
-				if (verbose) Util.pl("\tLooking at "+oncoTreeCodeCall+" and "+oncoTreeTissueCodeCall+ " in "+testId);
 				
-				//score for the tissue match and for the final match
-				boolean tissueMatch = false;
-				boolean codeMatch = false;
-				if (oncoTreeTissueCodeKey.equals(oncoTreeTissueCodeCall)) {
-					numTissueMatches++;
-					tissueMatch = true;
-				}
-				if (oncoTreeCodeKey.equals(oncoTreeCodeCall)) {
-					numCodeMatches++;
-					codeMatch = true;
-				}
-				if (verbose) Util.pl("\t\tTissue "+tissueMatch+", Code "+codeMatch+"\n");
-				if (tissueMatch==false) {
-					Util.pl("\tFailed tissueMatch for "+testId+" it predicted -> "+oncoTreeTissueCodeCall+ " when it's -> "+oncoTreeTissueCodeKey);
-				}
 			}
 		}
-		return new int[] {numTestIdFound, numTissueMatches, numCodeMatches};
+		return new int[] {numNonOTCodeCalls, numKeyIdsFound, numKeyIdsMissing, numTissueMatches, numNodeMatches};
 	}
 	
 	private String fetchTissueCode( String tissueName) throws IOException {
@@ -234,11 +274,12 @@ public class OncoTreeComparator {
 		Util.pl("\tNumber keys "+testIdOTCodeKey.size()+" : "+testIdOTCodeKey);
 	}
 	
+	public static Pattern orSpace = Pattern.compile(" or ");
 	/**Parses a tab delimited file, the indexed column is used as the key, 
 	 * the entire line as the value, blank lines skipped, returns null if 
 	 * a duplicate key is found.*/
-	public static HashMap<String,String> parseKeyFileAllCapsValue (File file){
-		HashMap<String,String> al = new HashMap<String,String>();
+	public static HashMap<String, HashSet<String>> parseKeyFileAllCapsValue (File file){
+		HashMap<String, HashSet<String>> al = new HashMap<String, HashSet<String>>();
 		String line = null;
 		try{
 			BufferedReader in = Util.fetchBufferedReader(file);
@@ -251,8 +292,14 @@ public class OncoTreeComparator {
 					Util.pl("\tSkipping split not == 2 tokens: "+line);
 					continue;
 				}
-				if (al.containsKey(tokens[0])) Util.pl("\tDuplicate: "+line);
-				al.put(tokens[0], tokens[1].toUpperCase());
+				if (al.containsKey(tokens[0])) throw new IOException("\nDuplicate: "+line);
+				HashSet<String> values = al.get(tokens[0]);
+				if (values == null) {
+					values = new HashSet<String>();
+					al.put(tokens[0].trim(), values);
+				}
+				String[] split = orSpace.split(tokens[1]);
+				for (String s: split) values.add(s.trim());
 			}
 			in.close();
 		} catch (Exception e){
@@ -321,6 +368,7 @@ public class OncoTreeComparator {
 					case 'k': keyTestIdCalls = new File(args[++i]); break;
 					case 'c': callDir = new File(args[++i]); break;
 					case 'n': ignoreNoneCalls = true; break;
+					case 's': showJustMismatches = true; break;
 					case 'v': verbose = true; break;
 					default: Util.printErrAndExit("\nProblem, unknown option! " + mat.group());
 					}
@@ -338,20 +386,21 @@ public class OncoTreeComparator {
 	public static void printDocs(){
 		System.out.println("\n" +
 				"**************************************************************************************\n" +
-				"**                            OncoTree Comparator : Jan 2026                        **\n" +
+				"**                           OncoTree Comparator : April 2026                       **\n" +
 				"**************************************************************************************\n" +
 				"Use this tool to compare a key of TestIDs and their OncoTree classification codes with\n" +
 				"one or more LLM call sets. Note the tissue name for each call is pulled from the node\n"+
-				"info not the tissue name in the jsonl file. There shouldn't be a difference.\n\n" +
+				"info not the tissue name in the json files. There shouldn't be a difference.\n\n" +
 
 				"Required Options:\n"+
 				"-o Path to a json file representing the OncoTree data structure, e.g. curl -o otl.json\n"+
 				"      'https://oncotree.info/api/tumorTypes?version=oncotree_latest_stable' \n"+
 				"-k Path to a file containing two tab delimited columns, the test_order_id and the\n"+
-				"      oncotree_code\n"+
-				"-c Path to a directory containing jsonl files, one per LMM call set to compare with\n"+
-				"      the key\n"+
+				"      oncotree_code, for the key\n"+
+				"-c Path to a directory containing sub directories with json files, one sub dir per\n"+
+				"      data call set.\n"+
 				"-n Ignore 'NONE' calls\n"+
+				"-s Show mismatch calls\n"+
 				"-v Verbose debugging output\n"+
 				
 				"\nExample: java -Xmx1G -jar ~/OTApps/OncoTreeComparator.jar -o otl.json -r key.txt\n"+

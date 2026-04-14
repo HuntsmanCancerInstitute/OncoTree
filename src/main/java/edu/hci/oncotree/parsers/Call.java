@@ -18,17 +18,19 @@ public class Call {
 	private String testOrderId = null;
 	private String oncoTreeCode = null;
 	private String oncoTreeTissue = null;
-	private int confidence = -1;
+	private String confidence = null;
 	private String rational = null;
 	
 	public Call(String callSet) {
 		JSONObject jo = new JSONObject(callSet);
 		testOrderId = jo.getString("test_order_id");
 		oncoTreeCode = jo.getString("oncotree_code").toUpperCase();
-		confidence = jo.getInt("confidence");
+		confidence = jo.getString("confidence");
 		if (jo.has("oncotree_tissue")) oncoTreeTissue = jo.getString("oncotree_tissue");
 		if (jo.has("rationale")) rational = jo.getString("rationale");
-		else rational = jo.getString("rational");
+		else if (jo.has("rational")) rational = jo.getString("rational");
+		else if (jo.has("reasoning")) rational = jo.getString("reasoning");
+		
 	}
 	
 	public String toString() {
@@ -44,19 +46,15 @@ public class Call {
 	public String getTestOrderId() {
 		return testOrderId;
 	}
-
 	public String getOncoTreeCode() {
 		return oncoTreeCode;
 	}
-
 	public String getOncoTreeTissue() {
 		return oncoTreeTissue;
 	}
-
-	public int getConfidence() {
+	public String getConfidence() {
 		return confidence;
 	}
-
 	public String getRational() {
 		return rational;
 	}

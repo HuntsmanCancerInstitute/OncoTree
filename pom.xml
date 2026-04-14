@@ -71,6 +71,7 @@
 			  <artifactId>maven-shade-plugin</artifactId>
 			  <version>3.5.2</version>
 			  <executions>
+			
 				    <execution>
 				      <id>app-one</id>
 				      <phase>package</phase>
@@ -84,6 +85,35 @@
 				        </transformers>
 				      </configuration>
 				    </execution>
+				    
+				    <execution>
+				      <id>app-two</id>
+				      <phase>package</phase>
+				      <goals><goal>shade</goal></goals>
+				      <configuration>
+				        <outputFile>${project.build.directory}/OncoTreeComparator_0.1.jar</outputFile>
+				        <transformers>
+				          <transformer implementation="org.apache.maven.plugins.shade.resource.ManifestResourceTransformer">
+				            <mainClass>edu.hci.oncotree.apps.OncoTreeComparator</mainClass>
+				          </transformer>
+				        </transformers>
+				      </configuration>
+				    </execution>
+				    
+				    <execution>
+				      <id>app-three</id>
+				      <phase>package</phase>
+				      <goals><goal>shade</goal></goals>
+				      <configuration>
+				        <outputFile>${project.build.directory}/OncoTreePrinter_0.1.jar</outputFile>
+				        <transformers>
+				          <transformer implementation="org.apache.maven.plugins.shade.resource.ManifestResourceTransformer">
+				            <mainClass>edu.hci.oncotree.apps.OncoTreePrinter</mainClass>
+				          </transformer>
+				        </transformers>
+				      </configuration>
+				    </execution>
+				    
   				</executions>
 			</plugin>
         </plugins>

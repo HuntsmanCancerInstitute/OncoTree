@@ -384,13 +384,13 @@ public class OncoTreeClassifier {
 	public void printDocs(){
 		log.info("""
 				**************************************************************************************
-				**                          OncoTree Classifier : April 2026                    **
+				**                          OncoTree Classifier : April 2026                        **
 				**************************************************************************************
 				This tool makes use of an LLM to classify tumors according to the OncoTree platform
 				from MSK: https://oncotree.mskcc.org . Tumors are matched first to an OncoTree tissue
 				and then to the best classification node within that tissue.  Use the 
 				TempusPathoPrinter to extract the required information from Tempus v3.3+ json test
-				results.
+				results. Start up an ollama server before running this tool.
 
 				Options:
 				  -t Path to the tissue classification prompt

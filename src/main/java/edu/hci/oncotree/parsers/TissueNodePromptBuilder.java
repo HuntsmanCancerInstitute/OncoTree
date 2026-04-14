@@ -86,7 +86,11 @@ public class TissueNodePromptBuilder {
 		sb.append(tissueCodeExamples.get(tissueCode));
 		sb.append("""
 				Your task is to find the node from the catalog that best matches the tumor report information.  
-				The more specific the better.  That said, don't overdo it. Sometimes the best match is the root node.
+				The more specific the better.  That said, don't overdo it. Better a more conservative classification than something speculative. Sometimes the best match is the root node.
+				Weight the tumor "original_path_lab_diagnosis" more than the "icd_code_descriptions" when choosing between close classifications.
+				Do not assume any mutant information if it isn't provided.  Pick the preceeding classification node.  For example, a BRAIN Astrocytoma without IDH mutation information should be classified as ADIFG, Adult-Type Diffuse Glioma.
+				Likewise, do not assume a tumor grade unless it is given, take the prior, more conservative classification. High-grade does not map to a Grade 2, 3, or 4.
+				Lastly, a carcinoma should not be assumed to be an adenocarcinoma. The pathologist would have called it an adenocarcinoma if they could. So pick a "carcinoma" classification.  That said, if the tumor information says "adenocarcinoma" then pick a classification with that designation.
 				""");
 		return sb.toString();
 	}

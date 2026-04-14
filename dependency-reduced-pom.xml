@@ -39,6 +39,36 @@
               </transformers>
             </configuration>
           </execution>
+          <execution>
+            <id>app-two</id>
+            <phase>package</phase>
+            <goals>
+              <goal>shade</goal>
+            </goals>
+            <configuration>
+              <outputFile>${project.build.directory}/OncoTreeComparator_0.1.jar</outputFile>
+              <transformers>
+                <transformer>
+                  <mainClass>edu.hci.oncotree.apps.OncoTreeComparator</mainClass>
+                </transformer>
+              </transformers>
+            </configuration>
+          </execution>
+          <execution>
+            <id>app-three</id>
+            <phase>package</phase>
+            <goals>
+              <goal>shade</goal>
+            </goals>
+            <configuration>
+              <outputFile>${project.build.directory}/OncoTreePrinter_0.1.jar</outputFile>
+              <transformers>
+                <transformer>
+                  <mainClass>edu.hci.oncotree.apps.OncoTreePrinter</mainClass>
+                </transformer>
+              </transformers>
+            </configuration>
+          </execution>
         </executions>
       </plugin>
     </plugins>
