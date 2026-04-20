@@ -11,6 +11,9 @@ import java.io.PrintWriter;
 import java.text.NumberFormat;
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Calendar;
+import java.util.Collection;
+import java.util.GregorianCalendar;
 import java.util.Iterator;
 import java.util.TreeSet;
 import java.util.regex.Matcher;
@@ -208,6 +211,14 @@ public class Util {
 		}
 		else in = new BufferedReader (new FileReader (txtFile));
 		return in;
+	}
+	
+	/**Returns a nicely formated time (15 May 2004).
+	 * (Note, all I can say is that the GC DateFormat Date classes are so convoluted as to be utterly useless. Shame!)*/
+	public static String getDate(){
+		String[] months = {"Jan","Feb","Mar","Apr","May","June","July", "Aug","Sept","Oct","Nov","Dec"};
+		GregorianCalendar c = new GregorianCalendar();
+		return c.get(Calendar.DAY_OF_MONTH)+ " "+months[c.get(Calendar.MONTH)]+ " "+ c.get(Calendar.YEAR);
 	}
 
 }

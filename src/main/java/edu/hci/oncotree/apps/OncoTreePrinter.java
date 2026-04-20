@@ -328,7 +328,7 @@ public class OncoTreePrinter {
 				"\nRequired Options:\n"+
 				"\n-o Path to a json file representing the OncoTree data structure, e.g. curl -o otl.json\n"+
 				"      'https://oncotree.info/api/tumorTypes?version=oncotree_latest_stable' \n"+
-				"-r Path to a directory containing json files for each NCI Thesaurs concept referenced\n"+
+				"-r Path to a directory containing json files for each NCI Thesaurus concept referenced\n"+
 				"      in the oncoTree.json, e.g. curl -o C5545.json\n"+
 				"      'https://api-evsrest.nci.nih.gov/api/v1/concept/ncit/C5545?include=full'\n"+
 				"-s Path to a directory to save the results.\n"+

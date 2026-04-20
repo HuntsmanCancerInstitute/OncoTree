@@ -1,8 +1,7 @@
 package edu.hci.oncotree.parsers;
 
-import java.util.ArrayList;
-import org.json.JSONArray;
 import org.json.JSONObject;
+
 import edu.hci.oncotree.misc.Util;
 
 /**{
@@ -15,49 +14,58 @@ import edu.hci.oncotree.misc.Util;
 */
 public class Call {
 
+	//should always be present
 	private String testOrderId = null;
-	private String oncoTreeCode = null;
-	private String oncoTreeTissue = null;
-	private String confidence = null;
-	private String rational = null;
+	private boolean nodeClassificationOK = false;
+	private boolean tissueClassificationOK = false;
 	
+	//sometimes null
+	private String nodeCode = null;
+	private String tissueCode = null;
+	private String nodeConfidence = null;
+	private String tissueConfidence = null;
+
 	public Call(String callSet) {
-		JSONObject jo = new JSONObject(callSet);
-		testOrderId = jo.getString("test_order_id");
-		oncoTreeCode = jo.getString("oncotree_code").toUpperCase();
-		confidence = jo.getString("confidence");
-		if (jo.has("oncotree_tissue")) oncoTreeTissue = jo.getString("oncotree_tissue");
-		if (jo.has("rationale")) rational = jo.getString("rationale");
-		else if (jo.has("rational")) rational = jo.getString("rational");
-		else if (jo.has("reasoning")) rational = jo.getString("reasoning");
-		
-	}
-	
-	public String toString() {
-		StringBuilder sb = new StringBuilder();
-		sb.append("Test Order ID : "); sb.append(testOrderId); sb.append("\n");
-		sb.append("OncoTree Code : "); sb.append(oncoTreeCode); sb.append("\n");
-		sb.append("OncoTree Tissue : "); sb.append(oncoTreeTissue); sb.append("\n");
-		sb.append("Confidence : "); sb.append(confidence); sb.append("\n");
-		sb.append("Rational : "); sb.append(rational); 
-		return sb.toString();
+		try {
+			JSONObject jo = new JSONObject(callSet);
+			testOrderId = jo.getString("test_order_id");
+			tissueClassificationOK = jo.getBoolean("tissue_classification_ok");
+			nodeClassificationOK = jo.getBoolean("node_classification_ok");
+
+			if (tissueClassificationOK) {
+				tissueCode = jo.getString("oncotree_tissue_code").toUpperCase();
+				tissueConfidence = jo.getString("tissue_confidence");
+			}
+			if (nodeClassificationOK) {
+				nodeCode = jo.getString("oncotree_node_code").toUpperCase();
+				if (jo.has("node_confidence")) nodeConfidence = jo.getString("node_confidence");
+			}
+		} catch (Exception e) {
+			Util.el("Problem parsing call data from: \n"+callSet);
+			e.printStackTrace();
+			System.exit(1);
+		}
 	}
 
 	public String getTestOrderId() {
 		return testOrderId;
 	}
-	public String getOncoTreeCode() {
-		return oncoTreeCode;
+	public boolean isNodeClassificationOK() {
+		return nodeClassificationOK;
 	}
-	public String getOncoTreeTissue() {
-		return oncoTreeTissue;
+	public boolean isTissueClassificationOK() {
+		return tissueClassificationOK;
 	}
-	public String getConfidence() {
-		return confidence;
+	public String getNodeCode() {
+		return nodeCode;
 	}
-	public String getRational() {
-		return rational;
+	public String getTissueCode() {
+		return tissueCode;
 	}
-	
-
+	public String getNodeConfidence() {
+		return nodeConfidence;
+	}
+	public String getTissueConfidence() {
+		return tissueConfidence;
+	}
 }

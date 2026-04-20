@@ -3,6 +3,7 @@ package edu.hci.oncotree.parsers;
 import java.io.File;
 import java.io.IOException;
 import java.util.HashMap;
+import java.util.HashSet;
 import java.util.regex.Pattern;
 
 import edu.hci.oncotree.misc.Util;
@@ -10,6 +11,7 @@ import edu.hci.oncotree.misc.Util;
 public class TissueNodePromptBuilder {
 	
 	private HashMap<String,String> tissueCodeNodeCodes = new HashMap<String,String>();
+	private HashSet<String> allNodeCodes = new HashSet<String>();
 	private HashMap<String,String> tissueCodeCatalog = new HashMap<String,String>();
 	private HashMap<String,String> tissueCodeExamples = new HashMap<String,String>();
 	private HashMap<String,String> tissueCodeExampleResponses = new HashMap<String,String>();
@@ -110,7 +112,7 @@ public class TissueNodePromptBuilder {
 				""");
 		sb.append("Be certain your response \"oncotree_code\" is one of the items in this list: ");
 		sb.append(tissueCodeNodeCodes.get(tissueCode));
-		sb.append("\nIf either requirements are not met, re run the classification.\n");
+		sb.append("\nIf either requirement is not met, re run the classification.\n");
 		return sb.toString();
 	}
 	
@@ -122,6 +124,7 @@ public class TissueNodePromptBuilder {
 	}
 	
 	public static Pattern spaceColon = Pattern.compile(" : ");
+	public static Pattern comma = Pattern.compile(",");
 	public void loadTissueNodeCodes(File tissueNodeCodes) throws IOException{
 		String[] lines = Util.loadFile(tissueNodeCodes);
 		// ADRENAL_GLAND : ADRENAL_GLAND, ACA, ACC, PHC, 
@@ -130,14 +133,20 @@ public class TissueNodePromptBuilder {
 			if (s.length()>0) {
 				String[] f = spaceColon.split(s);
 				if (f.length !=2) throw new IOException("Failed to parse two fields from "+s+" in "+tissueNodeCodes);
-				tissueCodeNodeCodes.put(f[0], f[1].substring(0, f[1].length()-1));
+				String nodeCodes = f[1].substring(0, f[1].length()-1);
+				tissueCodeNodeCodes.put(f[0], nodeCodes);
+				String[] nc = comma.split(nodeCodes);
+				for (String n: nc) allNodeCodes.add(n.trim());
 			}
 		}
-		
 	}
 
 	public HashMap<String, String> getTissueCodeNodeCodes() {
 		return tissueCodeNodeCodes;
+	}
+
+	public HashSet<String> getAllNodeCodes() {
+		return allNodeCodes;
 	}
 }
 
