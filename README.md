@@ -1,8 +1,13 @@
 This repository contains tools for classifying tumors according to the MSK OncoTree (OT) platform: https://oncotree.mskcc.org
 
+![OncoTree Tissues](https://github.com/HuntsmanCancerInstitute/OncoTree/blob/50af719de81beca0017d30a72966f444cf9a52e1/Resources/Images/oncoTree.png)
+
 **OncoTreeClassifier** - Makes use of a [Ollama](https://ollama.com) deployed LLM to match tumor information to the best OT Tissue and then the best OT Node within that Tissue.
 
 **OncoTreeComparator** - Benchmarks the classifier codes against a truth set of 100 Tempus tumor reports.
+
+![Benchmarking](https://github.com/HuntsmanCancerInstitute/OncoTree/blob/50af719de81beca0017d30a72966f444cf9a52e1/Resources/Images/benchmarking20April2026.png)
+
 
 **OncoTreePrinter** - Parses the OT data structure, pulls the referenced NCI Thesaurus codes, filters, formats, and outputs text for LLM prompt construction
 
