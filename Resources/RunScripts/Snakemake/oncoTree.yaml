@@ -1,0 +1,23 @@
+---
+# Last edit 22 April 2026
+
+# Applications and modules
+otJar: /scratch/general/pe-nfs1/u0028003/OncoTree/Jars/OT_0.1.jar
+useqTempusApp: /uufs/chpc.utah.edu/common/PE/hci-bioinformatics1/TNRunner/BioApps/USeq/Apps/TempusPathoPrinter
+javaModuleName: "openjdk/23.0.1"
+ollamaModuleName: "ollama"
+modelLocation: /uufs/chpc.utah.edu/common/PE/hci-bioinformatics1/Nix/Ollama
+
+# Tempus Patho Printer
+icdDiagnostics: /scratch/general/pe-nfs1/u0028003/OncoTree/ICD/ICD-10_Diagnosis.txt
+icdMorphology: /scratch/general/pe-nfs1/u0028003/OncoTree/ICD/ICD_Morphology.txt
+icdTopology: /scratch/general/pe-nfs1/u0028003/OncoTree/ICD/ICD_Topology.txt
+
+# OT Classifier 
+model: "gemma4:26b"
+content: 24000
+tissuePrompt: /uufs/chpc.utah.edu/common/HIPAA/u0028003/Scratch/OncoTree/Prompts/promptKPNoFinalCmd.txt
+tissueNodes: /uufs/chpc.utah.edu/common/HIPAA/u0028003/Scratch/OncoTree/NodeResources/tissueCodeNodeCodes.txt
+tissueCatalog: /uufs/chpc.utah.edu/common/HIPAA/u0028003/Scratch/OncoTree/NodeResources/TissueNodeCatalog
+nodeExamples: /uufs/chpc.utah.edu/common/HIPAA/u0028003/Scratch/OncoTree/NodeResources/TissueNodeExamples
+

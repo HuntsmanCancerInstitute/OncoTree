@@ -28,14 +28,15 @@ public class OncoTreeClassifier {
 	private File tissuePrompt = null;
 	private File[] tumorJsons = null;
 	private File resultsDirectory = null;
-	private String model = "granite4:latest"; //"gemma3:12b";
+	private String model = "gemma4:26b"; 
 	private String host = "http://localhost:11434";
-	private int content = 22000;
+	private int content = 24000;
 	private boolean verbose = false;
 	private int timeOutInSeconds = 600; // 10 min
 	private File tissueCodeNodeCodes = null;
 	private File tissueNodeCatalogDir = null;
 	private File tissueNodeExampleDir = null;
+	private String apiKey = null;
 
 	//internal
 	private Logger log = null;
@@ -332,6 +333,7 @@ public class OncoTreeClassifier {
 
 		ollama = new Ollama(host);
 		ollama.setRequestTimeoutSeconds(timeOutInSeconds);
+		if (apiKey !=null) ollama.setBearerAuth(apiKey);
 
 		// Verify the server is reachable at startup
 		if (!ollama.ping()) throw new Exception("Cannot reach Ollama server at " + host + ". Make sure 'ollama serve' is running and the host URL is correctly set.");
@@ -380,6 +382,7 @@ public class OncoTreeClassifier {
 					case 'n': tissueCodeNodeCodes = new File(args[++i]); break;
 					case 'a': tissueNodeCatalogDir = new File(args[++i]); break;
 					case 'e': tissueNodeExampleDir = new File(args[++i]); break;
+					case 'k': apiKey = args[++i]; break;
 					case 'v':
 					    verbose = true;
 					    LoggerContext ctx = (LoggerContext) LoggerFactory.getILoggerFactory();
@@ -438,6 +441,8 @@ public class OncoTreeClassifier {
 			log.error("ERROR: Failed to find any xxx.json tumor files in "+tumorJsonDir+"\n");
 			errorFound = true;
 		}
+		if (apiKey!=null) host = "https://ollama.com";
+		
 		printParams();
 		if (errorFound) {
 			log.error("Correct errors and restart.");
@@ -446,6 +451,7 @@ public class OncoTreeClassifier {
 	}
 
 	public void printParams() {
+		boolean keyFound = apiKey!=null;
 		log.info("""
 				Run Parameters:
 				\t-t TissuePrompt         {}
@@ -455,25 +461,26 @@ public class OncoTreeClassifier {
 				\t-m Model                {}
 				\t-c Content              {}
 				\t-h Host                 {}
+				\t-k API Key              {}
 				\t-j TumorJsonDir         {}
 				\t-r ResultsDir           {}
 				\t-s TimeOut              {}
 				\t-v Verbose              {}
 				""",
-				tissuePrompt, tissueCodeNodeCodes, tissueNodeCatalogDir, tissueNodeExampleDir, model, content, host, tumorJsons[0].getParentFile(), resultsDirectory, timeOutInSeconds, verbose);
+				tissuePrompt, tissueCodeNodeCodes, tissueNodeCatalogDir, tissueNodeExampleDir, model, content, host, keyFound, tumorJsons[0].getParentFile(), resultsDirectory, timeOutInSeconds, verbose);
 	}
 
 
 	public void printDocs(){
 		log.info("""
 				**************************************************************************************
-				**                          OncoTree Classifier : April 2026                        **
+				**                          OncoTree Classifier : June 2026                         **
 				**************************************************************************************
 				This tool makes use of an LLM to classify tumors according to the OncoTree platform
 				from MSK: https://oncotree.mskcc.org . Tumors are matched first to an OncoTree tissue
 				and then to the best classification node within that tissue.  Use the 
 				TempusPathoPrinter to extract the required information from Tempus v3.3+ json test
-				results. Start up an ollama server before running this tool. 
+				results. Start up an ollama server before running this tool or provide an API key.
 
 				Options:
 				  -t Path to the tissue classification prompt
@@ -484,14 +491,16 @@ public class OncoTreeClassifier {
 				  -j Path to a tumor json file or directory containing the same to classify
 				  -r Path to a directory to write the results
 				  
-				  -m Model to run, defaults to gemma3:12b
-				  -c Content to supply model, defaults to 22000
+				  -m Model to run, defaults to gemma4:26b
+				  -c Content to supply model, defaults to 24000
 				  -h Host the ollama server is listening to, defaults to http://localhost:11434
 				  -s Timeout in seconds for each query, defaults to 1200
+				  -k Use Ollama's cloud service with this API key. This will set the host to
+				       https://ollama.com . Make sure your -m model is cloud available.
 				  
 				Example: java -jar OncoTreeLLMClassifier.jar -t promptKP.txt -j TumJsons4Class
 				  -r Results -n OTP/tissueCodeNodeCodes.txt -a OTP/TissueNodeCatalog/ -e 
-				  OTP/TissueNodeExamples/
+				  OTP/TissueNodeExamples/ 
 
 				**************************************************************************************
 				""");

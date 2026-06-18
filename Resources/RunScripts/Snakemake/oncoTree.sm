@@ -1,0 +1,116 @@
+# 6 Oct 2025
+# David.Nix@Hci.Utah.Edu
+# Huntsman Cancer Institute
+
+############ No need to modify anything in this document #############
+
+allThreads = config["allThreads"]
+otJar = config["otJar"]
+useqTempusApp = config["useqTempusApp"]
+javaModuleName = config["javaModuleName"]
+ollamaModuleName = config["ollamaModuleName"]
+icdDiagnostics = config["icdDiagnostics"]
+icdMorphology = config["icdMorphology"]
+icdTopology = config["icdTopology"]
+model = config["model"]
+content = config["content"]
+modelLocation = config["modelLocation"]
+tissuePrompt = config["tissuePrompt"]
+tissueNodes = config["tissueNodes"]
+tissueCatalog = config["tissueCatalog"]
+nodeExamples = config["nodeExamples"]
+
+############# Rules ##############
+
+rule Cleanup:
+    input:
+         "Status/Classifier_COMPLETE"
+    output:
+        "COMPLETE"
+    log:
+        "Logs/cleanup.log"
+    shell:
+        r"""
+        {{
+        rm -rf Status
+        touch {output}        
+        }} &> {log}
+        """
+
+rule TempusPathoPrinter:
+    output:
+        "Status/TempusPathoPrinter_COMPLETE"
+    log:
+        "Logs/tempusPathoPrinter.log"
+    threads:
+        4
+    shell:
+        r"""
+        {{
+        module load {javaModuleName}
+        rm -rf ParsedTempusReports
+
+        java -jar -Xmx1G  {useqTempusApp} \
+        -j TempusReports \
+        -s ParsedTempusReports \
+        -i {icdDiagnostics} \
+        -m {icdMorphology} \
+        -t {icdTopology}
+
+        touch {output} 
+        }} &> {log}
+        """
+
+rule Classifier:
+    input:
+        "Status/TempusPathoPrinter_COMPLETE"
+    output:
+        "Status/Classifier_COMPLETE"
+    log:
+        "Logs/classifier.log"
+    threads:
+        allThreads
+    shell:
+        r"""
+        {{
+        module load {ollamaModuleName}
+        export OLLAMA_MODELS={modelLocation}
+        export OLLAMA_NUM_PARALLEL={threads}
+        export OLLAMA_CONTEXT_LENGTH={content}
+        export OLPORT=`ruby -e 'require "socket"; puts Addrinfo.tcp("", 0).bind {{|s| s.local_address.ip_port }}'`
+        export OLLAMA_HOST=127.0.0.1:$OLPORT
+        export OLLAMA_BASE_URL="http://127.0.0.1:$OLPORT"
+
+        # Start up the server and wait
+        ollama serve &> Logs/ollama.server.log &
+        SERVE_PID=$!
+        sleep 5
+
+        # Just in case it hasn't been pulled before
+        ollama pull {model} &> /dev/null
+
+        # Run the classifier
+        module load {javaModuleName}
+        set +e
+        java -jar -Xmx1G {otJar} Classifier \
+        -t {tissuePrompt} \
+        -j ParsedTempusReports \
+        -r Results \
+        -h $OLLAMA_BASE_URL \
+        -m {model} \
+        -n {tissueNodes} \
+        -a {tissueCatalog} \
+        -e {nodeExamples} \
+        -c {content} \
+        -s 2400 && touch {output}
+
+        # Kill the ollama server
+        kill $SERVE_PID
+
+        }} &> {log}
+        """
+
+
+
+onerror:
+    shell( "rm -f QUEUED STARTED COMPLETE; touch FAILED")

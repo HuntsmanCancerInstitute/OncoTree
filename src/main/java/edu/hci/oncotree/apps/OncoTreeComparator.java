@@ -267,6 +267,12 @@ public class OncoTreeComparator {
 	/**This method will process each argument and assign new variables
 	 * @throws FileNotFoundException */
 	public void processArgs(String[] args) throws FileNotFoundException{
+		//any args?
+		if (args == null || args.length ==0){
+			printDocs();
+			System.exit(0);
+		}
+		
 		Pattern pat = Pattern.compile("-[a-z]");
 		System.out.println("\nOncoTreeComparator Arguments: "+Util.stringArrayToString(args, " ")+"\n");
 		for (int i = 0; i<args.length; i++){

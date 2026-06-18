@@ -289,6 +289,12 @@ public class OncoTreePrinter {
 	/**This method will process each argument and assign new variables
 	 * @throws FileNotFoundException */
 	public void processArgs(String[] args) throws FileNotFoundException{
+		//any args?
+		if (args == null || args.length ==0){
+			printDocs();
+			System.exit(0);
+		}
+		
 		Pattern pat = Pattern.compile("-[a-z]");
 		System.out.println("\nOncoTreePrinter Arguments: "+Util.stringArrayToString(args, " ")+"\n");
 		for (int i = 0; i<args.length; i++){
@@ -303,7 +309,7 @@ public class OncoTreePrinter {
 					case 's': saveDir = new File(args[++i]); break;
 					case 'v': verbose = true; break;
 					case 'x': addNciSynonyms = false; break;
-					default: Util.printErrAndExit("\nProblem, unknown option! " + mat.group());
+					default: Util.printErrAndExit("Problem, unknown option! " + mat.group());
 					}
 				}
 				catch (Exception e){
