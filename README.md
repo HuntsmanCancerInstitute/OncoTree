@@ -2,27 +2,22 @@ This repository contains tools for classifying tumors according to the MSK OncoT
 
 ![OncoTree Tissues](https://github.com/HuntsmanCancerInstitute/OncoTree/blob/50af719de81beca0017d30a72966f444cf9a52e1/Resources/Images/oncoTree.png)
 
-**OncoTreeClassifier** - Makes use of a [Ollama](https://ollama.com) deployed LLM to match tumor information to the best OT Tissue and then the best OT Node within that Tissue.
+## Applications and Resources
+1. **OncoTreeClassifier** - Makes use of a [Ollama](https://ollama.com) deployed LLM to match tumor information to the best OT Tissue and then the best OT Node within that Tissue.
+2. **OncoTreeComparator** - Benchmarks the classifier codes against a truth set of 100 Tempus tumor reports.
+3. **OncoTreePrinter** - Parses the OT data structure, pulls the referenced NCI Thesaurus codes, filters, formats, and outputs text for LLM prompt construction
+4. **TempusPathoPrinter** - ([USeq Repo](https://github.com/HuntsmanCancerInstitute/USeq)) Parses Tempus v3.3+ json reports for information useful for the OncoTreeClassifier.
+5. **Resources** - Reference files for the various applications. See the [oncoTree10MinPres2April2026.pptx](https://github.com/HuntsmanCancerInstitute/OncoTree/blob/ed78c9ac92069efe63e5181e71c17e7355558642/Resources/oncoTree10MinPres2April2026.pptx) for a project overview.
 
-**OncoTreeComparator** - Benchmarks the classifier codes against a truth set of 100 Tempus tumor reports.
-
+## Benchmarking with 100 Tempus Tumor Test Reports
 ![Benchmarking](https://github.com/HuntsmanCancerInstitute/OncoTree/blob/50af719de81beca0017d30a72966f444cf9a52e1/Resources/Images/benchmarking20April2026.png)
-
-
-**OncoTreePrinter** - Parses the OT data structure, pulls the referenced NCI Thesaurus codes, filters, formats, and outputs text for LLM prompt construction
-
-**TempusPathoPrinter** - ([USeq Repo](https://github.com/HuntsmanCancerInstitute/USeq)) Parses Tempus v3.3+ json reports for information useful for the OncoTreeClassifier.
-
-**Resources** - Reference files for the various applications. See the [oncoTree10MinPres2April2026.pptx](https://github.com/HuntsmanCancerInstitute/OncoTree/blob/ed78c9ac92069efe63e5181e71c17e7355558642/Resources/oncoTree10MinPres2April2026.pptx) for a project overview.
-
-**HCI Data Science Hackathon** - Many thanks to the 2025 'OncoTree LLM: AI Assisted Tumor Classification for Precision Oncology' first place team: Bradley Demarest, Gabby Fort, Chase Maughan, Jake Reed, and David Nix
 
 ## Installation 
 1. Install Java version 21 or later. Check it 'java -version'
 2. Download the latest [USeq_XXX.zip](https://github.com/HuntsmanCancerInstitute/USeq/releases) release and unzip it. 
 3. Download the latest [OncoTree OT_XXX.jar](https://github.com/HuntsmanCancerInstitute/OncoTree/releases)
 4. Download the latest OncoTree Resource folder [OTResourcesXXX.zip](https://github.com/HuntsmanCancerInstitute/OncoTree/tree/master/Resources) and unzip it.
-5. Obtain a [Ollama.com](https://ollama.com/) key and save it in a file caused key.txt , alternatively see [RunScripts](https://github.com/HuntsmanCancerInstitute/OncoTree/tree/master/Resources/RunScripts) folder for bash and snakemake files for utilizing local nodes and a slurm cluster.
+5. Obtain a [Ollama.com](https://ollama.com/) key and save it in a file called key.txt , alternatively see the [RunScripts](https://github.com/HuntsmanCancerInstitute/OncoTree/tree/master/Resources/RunScripts) folder for bash and snakemake workflow files for utilizing local nodes and a slurm cluster.
 
 ## Usage
 **Convert your tumor information into a structured JSON file with these elements:**
@@ -57,5 +52,7 @@ java -jar OT_0.1.jar Classifier \
 -j OTResources29June2026/TestJsons \
 -r Results
 ```
+Results for the TestJsons: 2ZN719381V.PANCREAS.PAAD.json  6VE87GH83V.BRAIN.HGGNOS.json  7T3IRL8Y85.MYELOID.RDD.json
  
    
+**HCI Data Science Hackathon** - Many thanks to the 2025 'OncoTree LLM: AI Assisted Tumor Classification for Precision Oncology' first place team: Bradley Demarest, Gabby Fort, Chase Maughan, Jake Reed, and David Nix
