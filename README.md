@@ -17,8 +17,19 @@ This repository contains tools for classifying tumors according to the MSK OncoT
 
 **HCI Data Science Hackathon** - Many thanks to the 2025 'OncoTree LLM: AI Assisted Tumor Classification for Precision Oncology' first place team: Bradley Demarest, Gabby Fort, Chase Maughan, Jake Reed, and David Nix
 
-**Installation** 
-Install Java version 21 or later. Check it 'java -version'
-Download the latest USeq release and unzip it. See https://github.com/HuntsmanCancerInstitute/USeq/releases 
-Download the latest OncoTree jar. See https://github.com/HuntsmanCancerInstitute/OncoTree/releases
-Download the latest OncoTree Resource folder and unzip it. See 
+## Installation 
+1. Install Java version 21 or later. Check it 'java -version'
+2. Download the latest USeq_XXX.zip release and unzip it. See https://github.com/HuntsmanCancerInstitute/USeq/releases 
+3. Download the latest OncoTree OT_XXX.jar, see https://github.com/HuntsmanCancerInstitute/OncoTree/releases
+4. Download the latest OncoTree Resource folder OTResourcesXXX.zip and unzip it. See https://github.com/HuntsmanCancerInstitute/OncoTree/tree/master/Resources
+5. Obtain a Ollama.com key and save it in a file caused key.txt , alternatively see https://github.com/HuntsmanCancerInstitute/OncoTree/tree/master/Resources/RunScripts for bash and snakemake files for utilizing local nodes and a slurm cluster.
+
+## Usage
+1. Convert your tumor information into a structured JSON file with these elements:
+`{
+   "icd_code_descriptions": "Malignant neoplasm of pancreas; Malignant neoplasm of pancreas, unspecified; Adenocarcinoma; Pancreas",
+   "original_path_lab_diagnosis": "Adenocarcinoma",
+   "test_order_id": "2ZN719381V",
+   "sample_site": "Liver"
+}`
+For Tempus v3.3+ JSON reports, use the USeq/TempusPathoPrinter:
