@@ -1,4 +1,4 @@
-This repository contains tools for classifying tumors according to the MSK OncoTree (OT) platform: https://oncotree.mskcc.org . Harmonized tumor classification improves data interoperability, enables more reliable genomic and clinical outcome analyses, facilitates patient matching for biomarker-driven clinical trials, and ultimately supports the delivery of more precise, evidence-based treatment recommendations.
+This repository contains tools for classifying tumors according to the [MSK OncoTree (OT) platform](https://oncotree.mskcc.org/about). Proper tumor classification improves data interoperability, enables more reliable genomic and clinical outcome analyses, facilitates patient matching for biomarker-driven clinical trials, and ultimately supports the delivery of more precise, evidence-based treatment recommendations. See the [MSK OncoTree publication](https://ascopubs.org/doi/10.1200/CCI.20.00108) for details.
 
 ![OncoTree Tissues](https://github.com/HuntsmanCancerInstitute/OncoTree/blob/50af719de81beca0017d30a72966f444cf9a52e1/Resources/Images/oncoTree.png)
 
