@@ -303,7 +303,7 @@ public class OncoTreeComparator {
 	public static void printDocs(){
 		System.out.println("\n" +
 				"**************************************************************************************\n" +
-				"**                           OncoTree Comparator : April 2026                       **\n" +
+				"**                           OncoTree Comparator : June 2026                        **\n" +
 				"**************************************************************************************\n" +
 				"Use this tool to compare a key of TestIDs and their OncoTree classification codes with\n" +
 				"one or more LLM call sets. Note the tissue name for each call is pulled from the node\n"+
@@ -319,7 +319,7 @@ public class OncoTreeComparator {
 				"-s Show mismatch calls\n"+
 				"-v Verbose debugging output\n"+
 				
-				"\nExample: java -Xmx1G -jar ~/OTApps/OncoTreeComparator.jar -o otl.json -r key.txt\n"+
+				"\nExample: java -jar OT_0.1.jar Comparator -o otl.json -r key.txt\n"+
 				"   -d LlmCalls/ \n"+
 
 				"**************************************************************************************\n");

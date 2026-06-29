@@ -498,9 +498,9 @@ public class OncoTreeClassifier {
 				  -k Use Ollama's cloud service with this API key. This will set the host to
 				       https://ollama.com . Make sure your -m model is cloud available.
 				  
-				Example: java -jar OncoTreeLLMClassifier.jar -t promptKP.txt -j TumJsons4Class
+				Example: java -jar OT_0.1.jar Classifier -j TumJsons2Classify/ -t OTP/promptKP.txt 
 				  -r Results -n OTP/tissueCodeNodeCodes.txt -a OTP/TissueNodeCatalog/ -e 
-				  OTP/TissueNodeExamples/ 
+				  OTP/TissueNodeExamples/ -k $(cat key.txt)
 
 				**************************************************************************************
 				""");

@@ -326,7 +326,7 @@ public class OncoTreePrinter {
 	public static void printDocs(){
 		System.out.println("\n" +
 				"**************************************************************************************\n" +
-				"**                             OncoTree Printer : April 2026                        **\n" +
+				"**                             OncoTree Printer : June 2026                         **\n" +
 				"**************************************************************************************\n" +
 				"OTP parses the OncoTree data structure and the associated NCI Thesaurus terms to\n" +
 				"generate flat files approriate for LLM prompts.\n"+
@@ -341,8 +341,7 @@ public class OncoTreePrinter {
 				"-x Don't add NCI Thesaurus synonyms to key_phrases\n"+
 				"-v Verbose output.\n"+
 				
-				"\nExample: java -Xmx1G -jar ~/OTApps/OncoTreePrinterXXX.jar -o otl.json -r NCIt/ -s\n"+
-				"              ParsedOTFiles\n"+
+				"\nExample: java -jar OT_0.1.jar Printer -o otl.json -r NCIt/ -s ParsedOTFiles\n"+
 
 				"**************************************************************************************\n");
 	}
