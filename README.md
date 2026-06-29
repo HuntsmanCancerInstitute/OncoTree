@@ -16,3 +16,9 @@ This repository contains tools for classifying tumors according to the MSK OncoT
 **Resources** - Reference files for the various applications. See the [oncoTree10MinPres2April2026.pptx](https://github.com/HuntsmanCancerInstitute/OncoTree/blob/ed78c9ac92069efe63e5181e71c17e7355558642/Resources/oncoTree10MinPres2April2026.pptx) for a project overview.
 
 **HCI Data Science Hackathon** - Many thanks to the 2025 'OncoTree LLM: AI Assisted Tumor Classification for Precision Oncology' first place team: Bradley Demarest, Gabby Fort, Chase Maughan, Jake Reed, and David Nix
+
+**Installation** 
+Install Java version 21 or later. Check it 'java -version'
+Download the latest USeq release and unzip it. See https://github.com/HuntsmanCancerInstitute/USeq/releases 
+Download the latest OncoTree jar. See https://github.com/HuntsmanCancerInstitute/OncoTree/releases
+Download the latest OncoTree Resource folder and unzip it. See 
