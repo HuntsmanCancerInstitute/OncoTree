@@ -19,17 +19,43 @@ This repository contains tools for classifying tumors according to the MSK OncoT
 
 ## Installation 
 1. Install Java version 21 or later. Check it 'java -version'
-2. Download the latest USeq_XXX.zip release and unzip it. See https://github.com/HuntsmanCancerInstitute/USeq/releases 
-3. Download the latest OncoTree OT_XXX.jar, see https://github.com/HuntsmanCancerInstitute/OncoTree/releases
-4. Download the latest OncoTree Resource folder OTResourcesXXX.zip and unzip it. See https://github.com/HuntsmanCancerInstitute/OncoTree/tree/master/Resources
-5. Obtain a Ollama.com key and save it in a file caused key.txt , alternatively see https://github.com/HuntsmanCancerInstitute/OncoTree/tree/master/Resources/RunScripts for bash and snakemake files for utilizing local nodes and a slurm cluster.
+2. Download the latest [USeq_XXX.zip](https://github.com/HuntsmanCancerInstitute/USeq/releases) release and unzip it. 
+3. Download the latest [OncoTree OT_XXX.jar](https://github.com/HuntsmanCancerInstitute/OncoTree/releases)
+4. Download the latest OncoTree Resource folder [OTResourcesXXX.zip](https://github.com/HuntsmanCancerInstitute/OncoTree/tree/master/Resources) and unzip it.
+5. Obtain a [Ollama.com](https://ollama.com/) key and save it in a file caused key.txt , alternatively see [RunScripts](https://github.com/HuntsmanCancerInstitute/OncoTree/tree/master/Resources/RunScripts) folder for bash and snakemake files for utilizing local nodes and a slurm cluster.
 
 ## Usage
-1. Convert your tumor information into a structured JSON file with these elements:
-`{
+**Convert your tumor information into a structured JSON file with these elements:**
+```
+{
    "icd_code_descriptions": "Malignant neoplasm of pancreas; Malignant neoplasm of pancreas, unspecified; Adenocarcinoma; Pancreas",
    "original_path_lab_diagnosis": "Adenocarcinoma",
    "test_order_id": "2ZN719381V",
    "sample_site": "Liver"
-}`
-For Tempus v3.3+ JSON reports, use the USeq/TempusPathoPrinter:
+}
+```
+**DO NOT insert any PHI in these JSON files**
+
+For Tempus v3.3+ JSON reports, use the USeq/TempusPathoPrinter to create these JSON files:
+```
+java -jar USeq_9.3.9/Apps/TempusPathoPrinter -j TempusReports -s ParsedReports \
+-i OTResources29June2026/ICD/ICD-10_Diagnosis.txt \
+-m OTResources29June2026/ICD/ICD_Morphology.txt \
+-t OTResources29June2026/ICD/ICD_Topology.txt -r
+```
+
+**Execute the classifier using the Ollama.com service:**
+```
+java -jar OT_0.1.jar Classifier \
+-k $(cat key.txt) \
+-m gemma4:31b-cloud \
+-c 24000 \
+-t OTResources29June2026/promptTissue.txt \
+-n OTResources29June2026/tissueCodeNodeCodes.txt \
+-a OTResources29June2026/TissueNodeCatalog \
+-e OTResources29June2026/TissueNodeExamples \
+-j OTResources29June2026/TestJsons \
+-r Results
+```
+ 
+   
