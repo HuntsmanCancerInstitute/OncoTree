@@ -8,7 +8,7 @@
 #SBATCH --exclusive
 #SBATCH -t 10:00:00
 
-# 22 April 2026
+# 2 July 2026
 # David.Nix@HCI.Utah.Edu
 # Huntsman Cancer Institute
 
@@ -21,7 +21,7 @@
 
 # 1) Create a job folder named as you would like the analysis name to appear, this will be prepended onto all files, no spaces, change into it.
 
-# 2) Create a folder called TempusReports and copy or soft link in the Tempus v3.3+ json reports for DNA sequencing you wish to classify. No PHI will be parsed or included in any log output.
+# 2) Copy or soft link into the job folder the Tempus v3.3+ json reports you wish to classify. No PHI will be parsed or included in any log output.
 
 # 3) Copy or soft link into the job folder the oncoTree.README.sh, oncoTree.sm, and oncoTree.yaml files.
 

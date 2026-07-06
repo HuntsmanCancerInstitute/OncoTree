@@ -1,4 +1,4 @@
-# 6 Oct 2025
+# 6 July 2026
 # David.Nix@Hci.Utah.Edu
 # Huntsman Cancer Institute
 
@@ -32,7 +32,8 @@ rule Cleanup:
     shell:
         r"""
         {{
-        rm -rf Status
+        mv -f ParsedTempusReport/*json Results/
+        rm -rf Status ParsedTempusReport
         touch {output}        
         }} &> {log}
         """
@@ -51,8 +52,8 @@ rule TempusPathoPrinter:
         rm -rf ParsedTempusReports
 
         java -jar -Xmx1G  {useqTempusApp} \
-        -j TempusReports \
-        -s ParsedTempusReports \
+        -j . \
+        -s ParsedTempusReport \
         -i {icdDiagnostics} \
         -m {icdMorphology} \
         -t {icdTopology}
@@ -92,9 +93,11 @@ rule Classifier:
         # Run the classifier
         module load {javaModuleName}
         set +e
+        rm -rf Results &> /dev/null
+
         java -jar -Xmx1G {otJar} Classifier \
         -t {tissuePrompt} \
-        -j ParsedTempusReports \
+        -j ParsedTempusReport \
         -r Results \
         -h $OLLAMA_BASE_URL \
         -m {model} \

@@ -474,7 +474,7 @@ public class OncoTreeClassifier {
 	public void printDocs(){
 		log.info("""
 				**************************************************************************************
-				**                          OncoTree Classifier : June 2026                         **
+				**                          OncoTree Classifier : July 2026                         **
 				**************************************************************************************
 				This tool makes use of an LLM to classify tumors according to the OncoTree platform
 				from MSK: https://oncotree.mskcc.org . Tumors are matched first to an OncoTree tissue
@@ -497,6 +497,7 @@ public class OncoTreeClassifier {
 				  -s Timeout in seconds for each query, defaults to 1200
 				  -k Use Ollama's cloud service with this API key. This will set the host to
 				       https://ollama.com . Make sure your -m model is cloud available.
+				  -v Verbose
 				  
 				Example: java -jar OT_0.1.jar Classifier -j TumJsons2Classify/ -t OTP/promptKP.txt 
 				  -r Results -n OTP/tissueCodeNodeCodes.txt -a OTP/TissueNodeCatalog/ -e 
