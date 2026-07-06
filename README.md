@@ -24,7 +24,7 @@ This repository contains tools for classifying tumors according to the [MSK Onco
 ```
 {
    "icd_code_descriptions": "Malignant neoplasm of pancreas; Malignant neoplasm of pancreas, unspecified; Adenocarcinoma; Pancreas",
-   "original_path_lab_diagnosis": "Adenocarcinoma",
+   "path_lab_info": "Adenocarcinoma",
    "test_order_id": "2ZN719381V",
    "sample_site": "Liver"
 }
@@ -34,9 +34,9 @@ This repository contains tools for classifying tumors according to the [MSK Onco
 For Tempus v3.3+ JSON reports, use the USeq/TempusPathoPrinter to create these JSON files:
 ```
 java -jar USeq_9.3.9/Apps/TempusPathoPrinter -j TempusReports -s ParsedReports \
--i OTResources29June2026/ICD/ICD-10_Diagnosis.txt \
--m OTResources29June2026/ICD/ICD_Morphology.txt \
--t OTResources29June2026/ICD/ICD_Topology.txt -r
+-i OTResources6July2026/ICD/ICD-10_Diagnosis.txt \
+-m OTResources6July2026/ICD/ICD_Morphology.txt \
+-t OTResources6July2026/ICD/ICD_Topology.txt -r
 ```
 
 **Execute the classifier using the Ollama.com service:**
@@ -45,11 +45,11 @@ java -jar OT_0.1.jar Classifier \
 -k $(cat key.txt) \
 -m gemma4:31b-cloud \
 -c 24000 \
--t OTResources29June2026/promptTissue.txt \
--n OTResources29June2026/tissueCodeNodeCodes.txt \
--a OTResources29June2026/TissueNodeCatalog \
--e OTResources29June2026/TissueNodeExamples \
--j OTResources29June2026/TestJsons \
+-t OTResources6July2026/promptTissue.txt \
+-n OTResources6July2026/tissueCodeNodeCodes.txt \
+-a OTResources6July2026/TissueNodeCatalog \
+-e OTResources6July2026/TissueNodeExamples \
+-j OTResources6July2026/TestJsons \
 -r Results
 ```
 Results for the TestJsons: 2ZN719381V.PANCREAS.PAAD.json  6VE87GH83V.BRAIN.HGGNOS.json  7T3IRL8Y85.MYELOID.RDD.json
