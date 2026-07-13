@@ -30,19 +30,20 @@ public class OncoTreeClassifier {
 	private File resultsDirectory = null;
 	private String model = "gemma4:26b"; 
 	private String host = "http://localhost:11434";
-	private int content = 24000;
+	private int content = 35000;
 	private boolean verbose = false;
-	private int timeOutInSeconds = 600; // 10 min
+	private int timeOutInSeconds = 1200; // 20 min
 	private File tissueCodeNodeCodes = null;
 	private File tissueNodeCatalogDir = null;
-	private File tissueNodeExampleDir = null;
 	private String apiKey = null;
+	private Float temperature = null;
 
 	//internal
 	private Logger log = null;
 	private String tissuePrePrompt = null;
 	private TreeMap<String, ClassifiedTumor> testIdClasTum = new TreeMap<String, ClassifiedTumor>();
 	private Ollama ollama = null;
+	private Options ollamaOptions = null;
 	private HashMap<String, File> processedTissueTestIds = new HashMap<String, File>();
 	private HashMap<String, File> processedNodeTestIds = new HashMap<String, File>();
 	private File tissueJsonDir = null;
@@ -69,7 +70,7 @@ public class OncoTreeClassifier {
 			loadTumorJsons();
 			
 			//make tissue node builder
-			tissueNodePromptBuilder = new TissueNodePromptBuilder(tissueCodeNodeCodes, tissueNodeCatalogDir, tissueNodeExampleDir);
+			tissueNodePromptBuilder = new TissueNodePromptBuilder(tissueCodeNodeCodes, tissueNodeCatalogDir);
 			allNodeCodes = tissueNodePromptBuilder.getAllNodeCodes();
 			tissueCodes = tissueNodePromptBuilder.getTissueCodeNodeCodes();
 					
@@ -171,18 +172,28 @@ public class OncoTreeClassifier {
 			String result = callOllama(ct, tissuePrePrompt);
 			log.debug("Response\n"+result);
 			
-			//look for issues and trim the result to just {xxxxx}
-			String parsed = parseJsonResult(result);
-			log.debug("Parsed\n"+parsed);
-			if (parsed == null) throw new Exception("Failed to parse a json response object from \n"+ result);
+			if (result == null) {
+				numFailedTissueClassifications++;
+				ct.setSkipNodeClassification(true);
+				ct.setTissueClassificationOK(false);
+				ct.setNodeClassificationOK(false);
+				ct.setOncoTreeNodeCode("NONE");
+			}
 			
-			JSONObject jo = new JSONObject(parsed);
-			ct.setTissueClassification(jo);
-			log.info("\t"+ct.getTestOrderId()+ "\t"+ct.getOncoTreeTissueCode());
-			checkTissueClassification(ct);
-			
-			//write out parsed result
-			ct.saveTissueJson(tissueJsonDir);
+			else {
+				//look for issues and trim the result to just {xxxxx}
+				String parsed = parseJsonResult(result);
+				log.debug("Parsed\n"+parsed);
+				if (parsed == null) throw new Exception("Failed to parse a json response object from \n"+ result);
+
+				JSONObject jo = new JSONObject(parsed);
+				ct.setTissueClassification(jo);
+				log.info("\t"+ct.getTestOrderId()+ "\t"+ct.getOncoTreeTissueCode());
+				checkTissueClassification(ct);
+
+				//write out parsed result
+				ct.saveTissueJson(tissueJsonDir);
+			}
 		}
 	}
 	
@@ -228,32 +239,27 @@ public class OncoTreeClassifier {
 				checkNodeCode(ct);
 				continue;
 			}
-			
-			String nodePrompt = tissueNodePromptBuilder.fetchPrompt(tissueCode);
-			
-			//some tissues haven't been seen before so have no examples, create and add it then rerun.
-			if (nodePrompt == null) {
-				log.error("ERROR: Failed to fetch a node prompt for "+tissueCode+", skipping "+ct.getTestOrderId()+ ", check "+tissueNodeExampleDir+" and add an entry!");
-				numFailedNodeClassifications++;
-				ct.setNodeClassificationOK(false);
-				continue;
-			}
+			String nodePrompt = tissueNodePromptBuilder.fetchPromptGenericExamples(tissueCode);
 			
 			String result = callOllama(ct, nodePrompt);
 			log.debug("Node Response\n"+result);
 			
-			//look for issues and trim the result to just {xxxxx}
-			String parsed = parseJsonResult(result);
-			log.debug("Node Parsed\n"+parsed);
-			if (parsed == null) throw new Exception("Failed to parse a json response object from \n"+ result);
+			if (result == null) ct.setNodeClassificationOK(false);
 			
-			JSONObject jo = new JSONObject(parsed);
-			ct.setNodeClassification(jo);
-			log.info("\t"+ct.getTestOrderId()+ "\t"+ct.getOncoTreeNodeCode());
-			checkNodeCode(ct);
-			
-			//write out parsed result
-			ct.saveNodeJson(nodeJsonDir);
+			else {
+				//look for issues and trim the result to just {xxxxx}
+				String parsed = parseJsonResult(result);
+				log.debug("Node Parsed\n"+parsed);
+				if (parsed == null) throw new Exception("Failed to parse a json response object from \n"+ result);
+
+				JSONObject jo = new JSONObject(parsed);
+				ct.setNodeClassification(jo);
+				log.info("\t"+ct.getTestOrderId()+ "\t"+ct.getOncoTreeNodeCode());
+				checkNodeCode(ct);
+
+				//write out parsed result
+				ct.saveNodeJson(nodeJsonDir);
+			}
 		}
 	}
 
@@ -289,28 +295,41 @@ public class OncoTreeClassifier {
 		return parsed;
 	}
 
-	private String callOllama(ClassifiedTumor tumor, String prompt) throws Exception {
-		Options options = new OptionsBuilder()
-				.setNumCtx(content)  
-				.build();
+	private String callOllama(ClassifiedTumor tumor, String prompt){
 
 		String classificationRequest = "PLEASE CLASSIFY THIS TUMOR:\n"+ tumor.getTumorInfo().toString(3);
 
+		log.debug("Node prompt submitted to ollama:");
 		log.debug(prompt+classificationRequest);
 		
 		// SYSTEM is the background info, USER is the specific request
 		OllamaChatRequest request = OllamaChatRequest.builder()
 				.withModel(model)
-				.withOptions(options)
+				.withOptions(ollamaOptions)
 				.withMessage(OllamaChatMessageRole.SYSTEM, prompt)
 				.withMessage(OllamaChatMessageRole.USER, classificationRequest)
 				.build();
 		
-		// Pass null as the token handler for non-streaming (blocking) response
-		OllamaChatResult result = ollama.chat(request, null);
-
-		checkPromptFit(result);
-
+		boolean ok = false;
+		OllamaChatResult result = null;
+		for (int i=0; i< 3; i++) {
+			try {
+				//both of these will throw exceptions
+				result = ollama.chat(request, null);
+				checkPromptFit(result);
+				
+				//must be ok so exit and return result
+				ok = true;
+				break;
+			} catch (Exception e) {
+				log.warn("\t"+ tumor.getTestOrderId()+" '"+e.getLocalizedMessage()+"', relaunching ollama "+i);
+			}
+		}
+		if (ok == false) {
+			log.warn("WARNING: classification failed, manually classify "+ tumor.getTestOrderId());
+			return null;
+		}
+		
 		return result.getResponseModel().getMessage().getResponse();
 	}
 
@@ -338,6 +357,24 @@ public class OncoTreeClassifier {
 		// Verify the server is reachable at startup
 		if (!ollama.ping()) throw new Exception("Cannot reach Ollama server at " + host + ". Make sure 'ollama serve' is running and the host URL is correctly set.");
 		log.debug("Connected to Ollama at " + host);
+		
+		// Options to make LLM more deterministic, set content
+		// Problem here, setting temp 0 let to one tumor never returning from call. So just leaving at default.
+		if (temperature == null) {
+			ollamaOptions = new OptionsBuilder()
+				.setNumCtx(content)
+			    .build();
+		}
+		else {
+			ollamaOptions = new OptionsBuilder()
+					.setNumCtx(content)
+					.setTemperature(temperature)
+				    .build();
+		}
+			    //.setTemperature(0.0f)
+			    //.setSeed(42)
+			    
+		Util.pl("\tModel options: "+ollamaOptions);
 	}
 
 	private void loadTumorJsons() {
@@ -378,10 +415,10 @@ public class OncoTreeClassifier {
 					case 'c': content = Integer.parseInt(args[++i]); break;
 					case 'm': model = args[++i]; break;
 					case 'h': host = args[++i]; break;
+					case 'e': temperature = Float.parseFloat(args[++i]); break;
 					case 's': timeOutInSeconds = Integer.parseInt(args[++i]); break;
 					case 'n': tissueCodeNodeCodes = new File(args[++i]); break;
 					case 'a': tissueNodeCatalogDir = new File(args[++i]); break;
-					case 'e': tissueNodeExampleDir = new File(args[++i]); break;
 					case 'k': apiKey = args[++i]; break;
 					case 'v':
 					    verbose = true;
@@ -432,10 +469,6 @@ public class OncoTreeClassifier {
 			log.error("ERROR: Cannot find your tissue node catalog directory, "+tissueNodeCatalogDir+"\n");
 			errorFound = true;
 		}
-		if (tissueNodeExampleDir == null || tissueNodeExampleDir.exists()== false) {
-			log.error("ERROR: Cannot find your tissue node example directory, "+tissueNodeExampleDir+"\n");
-			errorFound = true;
-		}
 		tumorJsons = Util.extractFiles(tumorJsonDir, ".json");
 		if (tumorJsons == null || tumorJsons.length ==0) {
 			log.error("ERROR: Failed to find any xxx.json tumor files in "+tumorJsonDir+"\n");
@@ -457,7 +490,6 @@ public class OncoTreeClassifier {
 				\t-t TissuePrompt         {}
 				\t-n TissueNodeCodesFile  {}
 				\t-a TissueNodeCatalogDir {}
-				\t-e TissueNodeExampleDir {}
 				\t-m Model                {}
 				\t-c Content              {}
 				\t-h Host                 {}
@@ -465,9 +497,10 @@ public class OncoTreeClassifier {
 				\t-j TumorJsonDir         {}
 				\t-r ResultsDir           {}
 				\t-s TimeOut              {}
+				\t-e Temperature          {}
 				\t-v Verbose              {}
 				""",
-				tissuePrompt, tissueCodeNodeCodes, tissueNodeCatalogDir, tissueNodeExampleDir, model, content, host, keyFound, tumorJsons[0].getParentFile(), resultsDirectory, timeOutInSeconds, verbose);
+				tissuePrompt, tissueCodeNodeCodes, tissueNodeCatalogDir, model, content, host, keyFound, tumorJsons[0].getParentFile(), resultsDirectory, timeOutInSeconds, temperature, verbose);
 	}
 
 
@@ -487,21 +520,21 @@ public class OncoTreeClassifier {
 				  -n Path to the tissue node codes file, e.g. tissueCodeNodeCodes.txt from the 
 				       OncoTreePrinter
 				  -a Path to the tissue node catalog folder, e.g. TissueNodeCatalog/ ditto
-				  -e Path to the tissue node example folder, e.g. TissueNodeExamples/ 
 				  -j Path to a tumor json file or directory containing the same to classify
 				  -r Path to a directory to write the results
 				  
 				  -m Model to run, defaults to gemma4:26b
-				  -c Content to supply model, defaults to 24000
+				  -c Content to supply model, defaults to 35000
 				  -h Host the ollama server is listening to, defaults to http://localhost:11434
 				  -s Timeout in seconds for each query, defaults to 1200
+				  -e Temperature, defaults to not setting it, 0.8
 				  -k Use Ollama's cloud service with this API key. This will set the host to
 				       https://ollama.com . Make sure your -m model is cloud available.
 				  -v Verbose
 				  
-				Example: java -jar OT_0.1.jar Classifier -j TumJsons2Classify/ -t OTP/promptKP.txt 
-				  -r Results -n OTP/tissueCodeNodeCodes.txt -a OTP/TissueNodeCatalog/ -e 
-				  OTP/TissueNodeExamples/ -k $(cat key.txt)
+				Example: java -jar OT_0.1.jar Classifier -j TumJsons2Classify/ -t OTP/tPrompt.txt 
+				  -r Results -n OTP/tissueCodeNodeCodes.txt -a OTP/TissueNodeCatalog/ 
+				  -k $(cat key.txt)
 
 				**************************************************************************************
 				""");

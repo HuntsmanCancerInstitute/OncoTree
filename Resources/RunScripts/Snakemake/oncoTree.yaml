@@ -1,8 +1,8 @@
 ---
-# Last edit 2 July 2026
+# Last edit 13 July 2026
 
 # Applications and modules
-otJar: /uufs/chpc.utah.edu/common/PE/hci-bioinformatics1/TNRunner/BioApps/OncoTree/OT_0.1.jar
+otJar: /uufs/chpc.utah.edu/common/PE/hci-bioinformatics1/TNRunner/BioApps/OncoTree/OT_0.2.jar
 useqTempusApp: /uufs/chpc.utah.edu/common/PE/hci-bioinformatics1/TNRunner/BioApps/USeq/Apps/TempusPathoPrinter
 javaModuleName: "openjdk/23.0.1"
 ollamaModuleName: "ollama"
@@ -15,9 +15,8 @@ icdTopology: /uufs/chpc.utah.edu/common/HIPAA/u0028003/TNRunner/OncoTree/ICD/ICD
 
 # OT Classifier 
 model: "gemma4:26b"
-content: 24000
+content: 35000
 tissuePrompt: /uufs/chpc.utah.edu/common/PE/hci-bioinformatics1/TNRunner/OncoTree/Prompts/tissuePrompt.txt
 tissueNodes: /uufs/chpc.utah.edu/common/HIPAA/u0028003/TNRunner/OncoTree/NodeResources/tissueCodeNodeCodes.txt
 tissueCatalog: /uufs/chpc.utah.edu/common/HIPAA/u0028003/TNRunner/OncoTree/NodeResources/TissueNodeCatalog
-nodeExamples: /uufs/chpc.utah.edu/common/HIPAA/u0028003/TNRunner/OncoTree/NodeResources/TissueNodeExamples
 

@@ -16,16 +16,14 @@ set -e; start=$(date +'%s'); rm -f COMPLETE
 echo -e "\n---------- Initializing -------- $((($(date +'%s') - $start)/60)) min"
 
 # Set for the run
-resultsDir=Gemma4-26b
-
-content=24000
+resultsDir=${PWD##*/}
+content=35000
 model="gemma4:26b"
-tumorJsonDir=/scratch/general/pe-nfs1/u0028003/OncoTree/OncoTreeClassifier/Tumors2Classify
-prePrompt=/uufs/chpc.utah.edu/common/HIPAA/u0028003/Scratch/OncoTree/Prompts/promptKPNoFinalCmd.txt
-codes=/uufs/chpc.utah.edu/common/HIPAA/u0028003/Scratch/OncoTree/NodeResources/tissueCodeNodeCodes.txt
-catalog=/uufs/chpc.utah.edu/common/HIPAA/u0028003/Scratch/OncoTree/NodeResources/TissueNodeCatalog
-examples=/uufs/chpc.utah.edu/common/HIPAA/u0028003/Scratch/OncoTree/NodeResources/TissueNodeExamples
-jar=/scratch/general/pe-nfs1/u0028003/OncoTree/Jars/OncoTreeClassifier_0.1.jar
+tumorJsonDir=~/TNRunner/OncoTree/ManualClassified/All100
+prePrompt=~/TNRunner/OncoTree/OTResources6July2026/promptTissue.txt
+codes=~/TNRunner/OncoTree/OTResources6July2026/tissueCodeNodeCodes.txt 
+catalog=~/TNRunner/OncoTree/OTResources6July2026/TissueNodeCatalog/
+jar=~/TNRunner/BioApps/OncoTree/OT_0.2.jar
 
 echo -e "\n---------- Starting Ollama Server -------- $((($(date +'%s') - $start)/60)) min"
 
@@ -56,7 +54,7 @@ echo -e "\n---------- Starting Classifier -------- $((($(date +'%s') - $start)/6
 # Run the classifier
 module load openjdk/23.0.1
 
-java -jar -Xmx1G $jar \
+java -jar -Xmx1G $jar Classifier \
 -t $prePrompt \
 -j $tumorJsonDir \
 -r $resultsDir \
@@ -64,7 +62,6 @@ java -jar -Xmx1G $jar \
 -m $model \
 -n $codes \
 -a $catalog \
--e $examples \
 -c $content \
 -s 2400 
 

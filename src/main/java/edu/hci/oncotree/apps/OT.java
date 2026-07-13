@@ -21,6 +21,7 @@ public class OT {
 		else {
 			String s = Util.stringArrayToString(args, " ");
 			Util.el("\nFailed to find one of the supported apps (Classifier, Comparator, or Printer) as the first argument in : "+s+"\n");
+			System.exit(1);
 		}
 	}		
 
@@ -30,7 +31,7 @@ public class OT {
 	public static void printDocs(){
 		Util.pl("""
 				**************************************************************************************
-				**                            OncoTree Tools : April 2026                           **
+				**                            OncoTree Tools : July 2026                            **
 				**************************************************************************************
 				Apps for working, with and classifying tumors according to, MSKCC's OncoTree platform:
 				https://oncotree.mskcc.org and https://github.com/HuntsmanCancerInstitute/OncoTree

@@ -8,13 +8,13 @@
 #SBATCH --exclusive
 #SBATCH -t 10:00:00
 
-# 2 July 2026
+# 13 July 2026
 # David.Nix@HCI.Utah.Edu
 # Huntsman Cancer Institute
 
 # This workflow parses tumor information from Tempus v3.3+ json DNA sequencing reports (panel or exome) and then uses a LLM in Ollama to 
 #   classify the tumor according to the OncoTree platform from MSKCC, see: https://oncotree.mskcc.org and 
-#   https://github.com/HuntsmanCancerInstitute/OncoTree .  It must be run on a very large server that can support Gemma4:26b with a content of 24000
+#   https://github.com/HuntsmanCancerInstitute/OncoTree .  It must be run on a very large server that can support Gemma4:26b with a content of 35000
 #   Required modules include snakemake, ollama, and openjdk/23.0.1 or newer.
 
 ######## For each classification job #########
