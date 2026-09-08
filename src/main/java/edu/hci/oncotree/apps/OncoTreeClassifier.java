@@ -36,7 +36,9 @@ public class OncoTreeClassifier {
 	private File tissueCodeNodeCodes = null;
 	private File tissueNodeCatalogDir = null;
 	private String apiKey = null;
+	private File apiKeyFile = null;
 	private Float temperature = null;
+	private int numberAttempts = 3;
 
 	//internal
 	private Logger log = null;
@@ -154,7 +156,7 @@ public class OncoTreeClassifier {
 			}
 		}
 	}
-
+	
 	private void classifyTumorTissues() throws Exception {
 		log.info("\nClassifying tumor tissues...");
 		
@@ -217,6 +219,88 @@ public class OncoTreeClassifier {
 			log.error("ERROR: tissue code "+tc + " is not a valid OT Tissue Code, check the tissue classification for "+ct.getTestOrderId());
 		}
 		else ct.setTissueClassificationOK(true);
+	}
+
+	private void classifyTumorTissuesWithRepeats() throws Exception {
+		log.info("\nClassifying tumor tissues...");
+
+		for (ClassifiedTumor ct: testIdClasTum.values()) {
+
+			//attempt to classify with retries
+			for (int i=0; i< numberAttempts; i++) {
+				boolean lastAttempt = ((i+1) == numberAttempts);
+
+				log.debug("\t"+ct.getTestOrderId()+"\tAttempt\t"+(i+1));
+
+				//already processed?
+				if (processedTissueTestIds.containsKey(ct.getTestOrderId())) {
+					ct.setTissueClassification(processedTissueTestIds.get(ct.getTestOrderId()));
+					log.info("\t"+ct.getTestOrderId()+"\t"+ct.getOncoTreeTissueCode()+"\ttissue classified, skipping");
+					checkTissueClassificationWithRepeats(ct, true); //this also sets some objects
+					break;
+				}
+
+				String result = callOllama(ct, tissuePrePrompt);
+				log.debug("Response\n"+result);
+				
+				//only set if at last
+				if (result == null && lastAttempt) {
+					numFailedTissueClassifications++;
+					ct.setSkipNodeClassification(true);
+					ct.setTissueClassificationOK(false);
+					ct.setNodeClassificationOK(false);
+					ct.setOncoTreeNodeCode("NONE");
+					break;
+				}
+
+				if (result != null) {
+					//look for issues and trim the result to just {xxxxx}
+					String parsed = parseJsonResult(result);
+					log.debug("Parsed\n"+parsed);
+					if (parsed == null && lastAttempt) throw new Exception("Failed to parse a json response object from \n"+ result);
+					
+					if (parsed != null) {
+						JSONObject jo = new JSONObject(parsed);
+						ct.setTissueClassification(jo);
+						log.info("\t"+ct.getTestOrderId()+ "\t"+ct.getOncoTreeTissueCode());
+						boolean ok = checkTissueClassificationWithRepeats(ct, lastAttempt);
+						if (ok) {
+							//write out parsed result
+							ct.saveTissueJson(tissueJsonDir);
+							break;
+						}
+					}
+				}
+			}
+		}
+	}
+	
+	private boolean checkTissueClassificationWithRepeats(ClassifiedTumor ct, boolean lastAttempt) {
+		String tc = ct.getOncoTreeTissueCode();
+		//is it NONE? This is OK
+		if (tc !=null && tc.equals("NONE")) {
+			numNoneTissueClassifications++;
+			ct.setSkipNodeClassification(true);
+			ct.setOncoTreeNodeCode("NONE");
+			ct.setTissueClassificationOK(true);
+			ct.setNodeClassificationOK(true);
+			log.warn("WARNING: NONE tissue code, manually classify "+ct.getTestOrderId());
+			return true;
+		}
+		//is it null or a illegitimate OT tissue code?
+		if (tc == null || tissueCodes.containsKey(tc)==false) {
+			//only set if last attempt
+			if (lastAttempt) {
+				numFailedTissueClassifications++;
+				ct.setSkipNodeClassification(true);
+				ct.setTissueClassificationOK(false);
+				ct.setNodeClassificationOK(false);
+			}
+			log.error("ERROR: tissue code "+tc + " is not a valid OT Tissue Code, check the tissue classification for "+ct.getTestOrderId());
+			return false;
+		}
+		ct.setTissueClassificationOK(true);
+		return true;
 	}
 
 	private void classifyTumorNodes() throws Exception {
@@ -312,7 +396,7 @@ public class OncoTreeClassifier {
 		
 		boolean ok = false;
 		OllamaChatResult result = null;
-		for (int i=0; i< 3; i++) {
+		for (int i=0; i< numberAttempts; i++) {
 			try {
 				//both of these will throw exceptions
 				result = ollama.chat(request, null);
@@ -374,7 +458,7 @@ public class OncoTreeClassifier {
 			    //.setTemperature(0.0f)
 			    //.setSeed(42)
 			    
-		Util.pl("\tModel options: "+ollamaOptions);
+		Util.pl("\tModel "+ollamaOptions);
 	}
 
 	private void loadTumorJsons() {
@@ -413,13 +497,14 @@ public class OncoTreeClassifier {
 					case 'j': tumorJsonDir = new File(args[++i]); break;
 					case 'r': resultsDirectory = new File(args[++i]).getCanonicalFile(); break;
 					case 'c': content = Integer.parseInt(args[++i]); break;
+					case 'p': numberAttempts = Integer.parseInt(args[++i]); break;
 					case 'm': model = args[++i]; break;
 					case 'h': host = args[++i]; break;
 					case 'e': temperature = Float.parseFloat(args[++i]); break;
 					case 's': timeOutInSeconds = Integer.parseInt(args[++i]); break;
 					case 'n': tissueCodeNodeCodes = new File(args[++i]); break;
 					case 'a': tissueNodeCatalogDir = new File(args[++i]); break;
-					case 'k': apiKey = args[++i]; break;
+					case 'k': apiKeyFile = new File(args[++i]); break;
 					case 'v':
 					    verbose = true;
 					    LoggerContext ctx = (LoggerContext) LoggerFactory.getILoggerFactory();
@@ -449,18 +534,6 @@ public class OncoTreeClassifier {
 			log.error("ERROR: Cannot find json tumor directory "+tumorJsonDir+"\n");
 			errorFound = true;
 		}
-		if (resultsDirectory == null) {
-			log.error("ERROR: Please provide a path to a directory for saving the results\n");
-			errorFound = true;
-		}
-		else resultsDirectory.mkdirs();
-		tissueJsonDir = new File (resultsDirectory, "TissueClassified");
-		tissueJsonDir.mkdir();
-		nodeJsonDir = new File (resultsDirectory, "NodeClassified");
-		nodeJsonDir.mkdir();
-		finalClassificationDir = new File (resultsDirectory, "TumorClassifications");
-		finalClassificationDir.mkdir();
-		
 		if (tissueCodeNodeCodes == null || tissueCodeNodeCodes.exists()== false) {
 			log.error("ERROR: Cannot find your tissue code node codes tissueCodeNodeCodes.txt file, "+tissueCodeNodeCodes+"\n");
 			errorFound = true;
@@ -474,7 +547,34 @@ public class OncoTreeClassifier {
 			log.error("ERROR: Failed to find any xxx.json tumor files in "+tumorJsonDir+"\n");
 			errorFound = true;
 		}
-		if (apiKey!=null) host = "https://ollama.com";
+		if (apiKeyFile!=null) {
+			host = "https://ollama.com";
+			if (apiKeyFile.exists()==false) {
+				log.error("ERROR: Failed to find your Ollama key file see the -k option \n");
+				errorFound = true;
+			}
+			String[] p = Util.loadFileAndClean(apiKeyFile);
+			if (p.length!=1) {
+				log.error("ERROR: Failed to find one line with your key in your Ollama key file see the -k option \n");
+				errorFound = true;
+			}
+			else apiKey = p[0];
+		}
+		
+		if (resultsDirectory == null) {
+			log.error("ERROR: Please provide a path to a directory for saving the results\n");
+			errorFound = true;
+		}
+		// don't make dirs unless everything looks OK
+		if (errorFound==false) {
+			resultsDirectory.mkdirs();
+			tissueJsonDir = new File (resultsDirectory, "TissueClassified");
+			tissueJsonDir.mkdir();
+			nodeJsonDir = new File (resultsDirectory, "NodeClassified");
+			nodeJsonDir.mkdir();
+			finalClassificationDir = new File (resultsDirectory, "TumorClassifications");
+			finalClassificationDir.mkdir();
+		}
 		
 		printParams();
 		if (errorFound) {
@@ -493,21 +593,22 @@ public class OncoTreeClassifier {
 				\t-m Model                {}
 				\t-c Content              {}
 				\t-h Host                 {}
-				\t-k API Key              {}
+				\t-k API Key file         {}
 				\t-j TumorJsonDir         {}
 				\t-r ResultsDir           {}
 				\t-s TimeOut              {}
 				\t-e Temperature          {}
+				\t-p Tries                {}
 				\t-v Verbose              {}
 				""",
-				tissuePrompt, tissueCodeNodeCodes, tissueNodeCatalogDir, model, content, host, keyFound, tumorJsons[0].getParentFile(), resultsDirectory, timeOutInSeconds, temperature, verbose);
+				tissuePrompt, tissueCodeNodeCodes, tissueNodeCatalogDir, model, content, host, keyFound, tumorJsons[0].getParentFile(), resultsDirectory, timeOutInSeconds, temperature, numberAttempts, verbose);
 	}
 
 
 	public void printDocs(){
 		log.info("""
 				**************************************************************************************
-				**                          OncoTree Classifier : July 2026                         **
+				**                          OncoTree Classifier : August 2026                       **
 				**************************************************************************************
 				This tool makes use of an LLM to classify tumors according to the OncoTree platform
 				from MSK: https://oncotree.mskcc.org . Tumors are matched first to an OncoTree tissue
@@ -528,13 +629,14 @@ public class OncoTreeClassifier {
 				  -h Host the ollama server is listening to, defaults to http://localhost:11434
 				  -s Timeout in seconds for each query, defaults to 1200
 				  -e Temperature, defaults to not setting it, 0.8
-				  -k Use Ollama's cloud service with this API key. This will set the host to
-				       https://ollama.com . Make sure your -m model is cloud available.
+				  -k Use Ollama's cloud service with the API key in this txt file. This will set the
+				       host to https://ollama.com . Make sure your -m model is cloud available.
+				  -p Number of attempts for each classification, defaults to 3
 				  -v Verbose
 				  
 				Example: java -jar OT_0.1.jar Classifier -j TumJsons2Classify/ -t OTP/tPrompt.txt 
 				  -r Results -n OTP/tissueCodeNodeCodes.txt -a OTP/TissueNodeCatalog/ 
-				  -k $(cat key.txt)
+				  -k key.txt -p 2
 
 				**************************************************************************************
 				""");

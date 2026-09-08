@@ -18,6 +18,11 @@
     <logger name="edu.hci.oncotree.apps.OncoTreeClassifier" level="INFO" additivity="false">
         <appender-ref ref="PLAIN" />
     </logger>
+        <logger name="edu.hci.oncotree.apps.PathLabCsvParser"
+            level="INFO"
+            additivity="false">
+        <appender-ref ref="PLAIN"/>
+    </logger>
 
     <!-- Everything else gets standard output -->
     <root level="INFO">

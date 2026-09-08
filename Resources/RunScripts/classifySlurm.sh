@@ -8,7 +8,7 @@
 #SBATCH --exclusive
 #SBATCH -t 24:00:00
 
-# Author, david.nix@hci.utah.edu, 20 Aug 2026
+# Author, david.nix@hci.utah.edu, 16 July 2026
 
 #exit on any app error and save start time
 set -e; start=$(date +'%s'); rm -f COMPLETE

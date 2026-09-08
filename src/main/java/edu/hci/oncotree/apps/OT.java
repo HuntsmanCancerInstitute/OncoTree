@@ -14,13 +14,14 @@ public class OT {
 		
 		String[] newArgs = new String[args.length - 1];
 		System.arraycopy(args, 1, newArgs, 0, args.length - 1);
-		
-		if (args[0].contains("Classifier")) new OncoTreeClassifier(newArgs);
-		else if (args[0].contains("Comparator")) new OncoTreeComparator(newArgs);
-		else if (args[0].contains("Printer")) new OncoTreePrinter(newArgs);
+		String appLc = args[0].toLowerCase();
+		if (appLc.contains("class")) new OncoTreeClassifier(newArgs);
+		else if (appLc.contains("comp")) new OncoTreeComparator(newArgs);
+		else if (appLc.contains("print")) new OncoTreePrinter(newArgs);
+		else if (appLc.contains("path")) new PathLabCsvParser(newArgs);
 		else {
 			String s = Util.stringArrayToString(args, " ");
-			Util.el("\nFailed to find one of the supported apps (Classifier, Comparator, or Printer) as the first argument in : "+s+"\n");
+			Util.el("\nFailed to find one of the supported apps (Classifier, Comparator, Printer, or PathLabCsvParser) as the first argument in : "+s+"\n");
 			System.exit(1);
 		}
 	}		
@@ -31,14 +32,14 @@ public class OT {
 	public static void printDocs(){
 		Util.pl("""
 				**************************************************************************************
-				**                            OncoTree Tools : July 2026                            **
+				**                            OncoTree Tools : Sept 2026                            **
 				**************************************************************************************
-				Apps for working, with and classifying tumors according to, MSKCC's OncoTree platform:
+				Apps for working with and classifying tumors according to MSKCC's OncoTree platform:
 				https://oncotree.mskcc.org and https://github.com/HuntsmanCancerInstitute/OncoTree
 
 				Provide the name of the application you wish to run. Leave empty for the help menus.
 				
-				Classifier | Comparator | Printer
+				Classifier | Comparator | Printer | PathLabCsvParser
 				  
 				Example: java -jar OT.jar Classifier
 

@@ -15,6 +15,7 @@ import java.util.Calendar;
 import java.util.Collection;
 import java.util.GregorianCalendar;
 import java.util.Iterator;
+import java.util.LinkedHashMap;
 import java.util.TreeSet;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
@@ -24,8 +25,15 @@ import java.util.zip.ZipFile;
 
 public class Util {
 	
+	public static final Pattern TAB = Pattern.compile("\t");
+	public static final Pattern COMMA = Pattern.compile(",");
+	public static final Pattern COLON = Pattern.compile(":");
+	
 	public static void pl(Object oj) {
 		System.out.println(oj.toString());
+	}
+	public static void p(Object oj) {
+		System.out.print(oj.toString());
 	}
 	public static void el(Object oj) {
 		System.err.println(oj.toString());
@@ -42,6 +50,40 @@ public class Util {
 			System.out.println("Problem writing String to disk!");
 			e.printStackTrace();
 			return false;
+		}
+	}
+	
+	/**Loads a file's lines into a hash splitting on tab, using the designated keys. Returns null if a problem.*/
+	public static LinkedHashMap<String,String> loadFileIntoHash(File file, int keyIndex, int valueIndex){
+		LinkedHashMap<String,String> names = new LinkedHashMap<String,String>(1000);
+		BufferedReader in = null;
+		try{
+			in = fetchBufferedReader(file);
+			String line;
+			String[] fields;
+			int maxIndex = keyIndex;
+			if (valueIndex> maxIndex) maxIndex = valueIndex;
+			while ((line = in.readLine())!=null){
+				line = line.trim();
+				if (line.length()==0 || line.startsWith("#")) continue;
+				fields = TAB.split(line);
+				//skip lines missing requested indexs
+				if (fields.length> maxIndex) names.put(fields[keyIndex].trim(), fields[valueIndex].trim());
+			}
+			in.close();
+		}catch(Exception e){
+			e.printStackTrace();
+			names = null;
+		} finally {
+			closeNoException(in);
+		}
+		return names;
+	}
+
+	public static void closeNoException(BufferedReader in) {
+		try {
+			in.close();
+		} catch (IOException e) {
 		}
 	}
 	
@@ -79,6 +121,35 @@ public class Util {
 		String[] strings = new String[a.size()];
 		a.toArray(strings);
 		return strings;
+	}
+	
+	/**Loads a file's lines into a String[], skips blank lines, trims whitespace gz/zip OK*/
+	public static String[] loadFileAndClean(File file){
+		ArrayList<String> a = new ArrayList<String>();
+		try{
+			BufferedReader in = Util.fetchBufferedReader(file);
+			String line;
+			while ((line = in.readLine())!=null){
+				line = line.trim();
+				if (line.length()!=0) a.add(line);
+			}
+			in.close();
+		}catch(Exception e){
+			System.out.println("Prob loadFileInto String[]");
+			e.printStackTrace();
+		}
+		String[] strings = new String[a.size()];
+		a.toArray(strings);
+		return strings;
+	}
+	
+	/**Calculates the harmonic mean of a double[] */
+	public static double harmonicMean(double[] data) {  
+		double sum = 0.0;
+		for (int i = 0; i < data.length; i++) { 
+			sum += 1.0 / data[i]; 
+		} 
+		return data.length / sum; 
 	}
 
 	

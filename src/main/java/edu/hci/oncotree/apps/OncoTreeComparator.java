@@ -10,6 +10,8 @@ import java.util.HashSet;
 import java.util.TreeMap;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
+
+import edu.hci.oncotree.misc.ConfusionMatrix;
 import edu.hci.oncotree.misc.Util;
 import edu.hci.oncotree.parsers.Call;
 import edu.hci.oncotree.parsers.OncoTreeNode;
@@ -35,11 +37,12 @@ public class OncoTreeComparator {
 		try {
 			processArgs(args);
 			
-			//Parse OncoTree model, this will contain the node code and tissue
+			//Parse OncoTree model, this will contain the node code and tissue name (but not the code for that tissue)
 			Util.pl("Parsing OncoTree...");
 			otParser = new OncoTreeParser (true, oncoTreeJsonFile);
 			otParserCodeNode = otParser.getCodeNodes();
 			
+			//create a lookup has linking tissue name to the OT code, yes they sometimes differ
 			tissueNameCode = new TreeMap<String, String>();
 			for (OncoTreeNode leaf: otParser.getLeavesWithBranches()) {
 				//this starts with the tissue node
@@ -51,11 +54,13 @@ public class OncoTreeComparator {
 			}
 			tissueCodes.add("NONE");
 				
-			//Parse the key
+			//Parse the tumor key, this is the test ID and one or more acceptable node codes, with the node code we'll look up their associated tissue.
 			parseKey();
 			
 			//Process each call set
 			parseCallsJson();
+			Util.pl("\n");
+			parseCallsJsonWithConfMatrix();
 			
 		} catch (Exception e) {
 			e.printStackTrace();
@@ -65,7 +70,7 @@ public class OncoTreeComparator {
 	}
 	
 	private void parseCallsJson() throws Exception {
-		Util.pl("\nComparing calls...");
+		Util.pl("Comparing calls...");
 		Util.pl("\nDataset\tKeyIdsFound\tKeyIdsNotFound"
 				+ "\tOKTissueCalls\tNotOKTissueCalls\tTissueMatches"
 				+ "\tOKNodeCalls\tNotOKNodeCalls\tNodeMatches");
@@ -92,6 +97,93 @@ public class OncoTreeComparator {
 			Util.pl(Util.stringArrayListToString(res, "\t"));
 		}
 	}
+	
+	private void parseCallsJsonWithConfMatrix() throws Exception {
+		Util.pl("Comparing calls with confusion matrix, tissue then node...");
+		Util.pl("Dataset\t"+ConfusionMatrix.toStringHeader+"\t"+ConfusionMatrix.toStringHeader);
+
+		//for each set of LLM classifications
+		for (File dir: Util.extractOnlyDirectories(callDir)) {
+			
+			HashMap<String, Call> testIdCall = new HashMap<String, Call>();
+			
+			//for each tumor
+			for (File j: Util.extractFiles(dir, ".json")) {
+				String jsonString = Util.loadFile(j, "\n", true);
+				Call c = new Call(jsonString);
+				testIdCall.put(c.getTestOrderId(), c);
+			}
+
+			ConfusionMatrix tissueCM = new ConfusionMatrix();
+			ConfusionMatrix nodeCM = new ConfusionMatrix();
+			scoreCallsConfusionMatrix(testIdCall, tissueCM, nodeCM);
+			
+			Util.p(dir.getName());
+			Util.p("\t");
+			Util.p(tissueCM.toString());
+			Util.p("\t");
+			Util.pl(nodeCM.toString());
+		}
+	}
+	
+	private void scoreCallsConfusionMatrix(HashMap<String, Call> testIdCall, ConfusionMatrix tissueCM, ConfusionMatrix nodeCM) throws IOException {
+
+		//for each testId in the key
+		for (String testId: testIdOTCodeKey.keySet()) {
+
+			//is the testId from the key in the call set?
+			if (testIdCall.containsKey(testId) == false) {
+				//Util.el("\tWARNING: failed to find key testId "+testId+" in call set, skipping");
+				tissueCM.addNoCall();
+				nodeCM.addNoCall();
+				continue;
+			}
+
+			//get test call 
+			Call testCall = testIdCall.get(testId);
+			//tissue call
+			if (testCall.isTissueClassificationOK() == false || testCall.isNodeClassificationOK() == false) {
+				//Util.el("\tWARNING: one of the classifications failed for testId "+testId+" in call set, skipping");
+				tissueCM.addNoCall();
+				nodeCM.addNoCall();
+				continue;
+			}
+			String tissueCall = testCall.getTissueCode();
+			String nodeCall = testCall.getNodeCode();
+
+			// get key info nodeCodes and the tissueCode for the key
+			HashSet<String> keyNodeCodes = testIdOTCodeKey.get(testId);
+			String keyTissueCode = null;
+			if (keyNodeCodes.contains("NONE") == false) {
+				//all of the nodeCodes should point to the same tissue so just use first one
+				String firstKeyCode = keyNodeCodes.iterator().next();
+				OncoTreeNode node = otParserCodeNode.get(firstKeyCode);
+				if (node == null) throw new IOException("ERROR: failed to find the node for the key "+firstKeyCode);
+				String tissueName = node.getTissue();
+				keyTissueCode = fetchTissueCode(tissueName);
+			}
+			else keyTissueCode = "NONE";
+
+			// score the calls
+
+			// is the key NONE and thus a negative then the score will be either a FP or TN
+			if (keyTissueCode.equals("NONE")) {
+				if (tissueCall.equals("NONE")) tissueCM.addTN();
+				else tissueCM.addFP();
+				if (nodeCall.equals("NONE")) nodeCM.addTN();
+				else nodeCM.addFP();
+			}
+
+			// nope this is positive and then the score will be either a TP or FN
+			else {
+				if (tissueCall.equals(keyTissueCode)) tissueCM.addTP();
+				else tissueCM.addFN();
+				if (keyNodeCodes.contains(nodeCall)) nodeCM.addTP();
+				else nodeCM.addFN();
+			}
+		}
+	}
+
 	
 	private int[] scoreCalls(HashMap<String, Call> testIdCall) throws IOException {
 		int numKeyIdsFound = 0;
@@ -166,9 +258,6 @@ public class OncoTreeComparator {
 					Util.pl("\tTestOK:\t"+testCall.isTissueClassificationOK()+" -> "+testCall.isNodeClassificationOK());
 					Util.pl("\tMatch:\t"+tissueMatch+" -> "+nodeMatch+"\n");
 				}
-
-
-
 			}
 		}
 

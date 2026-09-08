@@ -46,6 +46,11 @@
             <scope>test</scope>
         </dependency>
         <!-- Source: https://mvnrepository.com/artifact/com.github.samtools/htsjdk -->
+        <dependency>
+    		<groupId>org.apache.commons</groupId>
+    		<artifactId>commons-csv</artifactId>
+    		<version>1.14.1</version>
+			</dependency>
     </dependencies>
 
     <build>
@@ -72,55 +77,13 @@
 			  <artifactId>maven-shade-plugin</artifactId>
 			  <version>3.5.2</version>
 			  <executions>
-					<!--
-				    <execution>
-				      <id>app-one</id>
-				      <phase>package</phase>
-				      <goals><goal>shade</goal></goals>
-				      <configuration>
-				        <outputFile>${project.build.directory}/OncoTreeClassifier_0.1.jar</outputFile>
-				        <transformers>
-				          <transformer implementation="org.apache.maven.plugins.shade.resource.ManifestResourceTransformer">
-				            <mainClass>edu.hci.oncotree.apps.OncoTreeClassifier</mainClass>
-				          </transformer>
-				        </transformers>
-				      </configuration>
-				    </execution>
-				    
-				    <execution>
-				      <id>app-two</id>
-				      <phase>package</phase>
-				      <goals><goal>shade</goal></goals>
-				      <configuration>
-				        <outputFile>${project.build.directory}/OncoTreeComparator_0.1.jar</outputFile>
-				        <transformers>
-				          <transformer implementation="org.apache.maven.plugins.shade.resource.ManifestResourceTransformer">
-				            <mainClass>edu.hci.oncotree.apps.OncoTreeComparator</mainClass>
-				          </transformer>
-				        </transformers>
-				      </configuration>
-				    </execution>
-				    
-				    <execution>
-				      <id>app-three</id>
-				      <phase>package</phase>
-				      <goals><goal>shade</goal></goals>
-				      <configuration>
-				        <outputFile>${project.build.directory}/OncoTreePrinter_0.1.jar</outputFile>
-				        <transformers>
-				          <transformer implementation="org.apache.maven.plugins.shade.resource.ManifestResourceTransformer">
-				            <mainClass>edu.hci.oncotree.apps.OncoTreePrinter</mainClass>
-				          </transformer>
-				        </transformers>
-				      </configuration>
-				    </execution>
-				    -->
+			  
 				    <execution>
 				      <id>wrapperJar</id>
 				      <phase>package</phase>
 				      <goals><goal>shade</goal></goals>
 				      <configuration>
-				        <outputFile>${project.build.directory}/OT_0.2.jar</outputFile>
+				        <outputFile>${project.build.directory}/OT_0.3.jar</outputFile>
 				        <transformers>
 				          <transformer implementation="org.apache.maven.plugins.shade.resource.ManifestResourceTransformer">
 				            <mainClass>edu.hci.oncotree.apps.OT</mainClass>

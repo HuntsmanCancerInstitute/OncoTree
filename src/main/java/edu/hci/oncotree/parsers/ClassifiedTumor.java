@@ -52,8 +52,10 @@ public class ClassifiedTumor {
 	public void setTissueClassification(JSONObject tissueClassification){
 		this.tissueClassification = tissueClassification;
 		if (tissueClassification.has("oncotree_tissue_code")) oncoTreeTissueCode = tissueClassification.getString("oncotree_tissue_code");
-		//no real tissue code has a / so these are all wrong
-		oncoTreeTissueCode = oncoTreeTissueCode.replace("/", "_");
+		if (oncoTreeTissueCode != null) {
+			//no real tissue code has a / so these are all wrong
+			oncoTreeTissueCode = oncoTreeTissueCode.replace("/", "_");
+		}
 	}
 	
 	public void setTissueClassification(File json){
