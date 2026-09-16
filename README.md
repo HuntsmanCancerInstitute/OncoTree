@@ -7,7 +7,8 @@ This repository contains tools for classifying tumors according to the [MSK Onco
 2. **OncoTreeComparator** - Benchmarks the classifier codes against a truth set of 100 Tempus tumor reports.
 3. **OncoTreePrinter** - Parses the OT data structure, pulls the referenced NCI Thesaurus codes, filters, formats, and outputs text for LLM prompt construction
 4. **TempusPathoPrinter** - ([USeq Repo](https://github.com/HuntsmanCancerInstitute/USeq)) Parses Tempus v3.3+ json reports for information useful for the OncoTreeClassifier.
-5. **Resources** - Reference files for the various applications. See the [oncoTree10MinPres2April2026.pptx](https://github.com/HuntsmanCancerInstitute/OncoTree/blob/ed78c9ac92069efe63e5181e71c17e7355558642/Resources/oncoTree10MinPres2April2026.pptx) for a project overview.
+5. **PathLabCsvParser** - Parses a spreadsheet containing discrete field pathology laboratory reports for the OncoTreeClassifier.
+6. **Resources** - Reference files for the various applications. See the [oncoTree10MinPres2April2026.pptx](https://github.com/HuntsmanCancerInstitute/OncoTree/blob/ed78c9ac92069efe63e5181e71c17e7355558642/Resources/oncoTree10MinPres2April2026.pptx) for a project overview.
 
 ## Benchmarking with 100 Tempus Tumor Test Reports
 ![Benchmarking](https://github.com/HuntsmanCancerInstitute/OncoTree/blob/50af719de81beca0017d30a72966f444cf9a52e1/Resources/Images/benchmarking20April2026.png)
@@ -42,7 +43,7 @@ java -jar USeq_9.3.9/Apps/TempusPathoPrinter -j TempusReports -s ParsedReports \
 **Execute the classifier using the Ollama.com service:**
 ```
 java -jar OT_0.2.jar Classifier \
--k $(cat key.txt) \
+-k key.txt \
 -m gemma4:31b-cloud \
 -c 35000 \
 -t OTResources13uly2026/promptTissue.txt \
