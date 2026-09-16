@@ -38,7 +38,7 @@ public class OncoTreeClassifier {
 	private String apiKey = null;
 	private File apiKeyFile = null;
 	private Float temperature = null;
-	private int numberAttempts = 3;
+	private int numberAttempts = 5;
 
 	//internal
 	private Logger log = null;
@@ -84,7 +84,7 @@ public class OncoTreeClassifier {
 			connectToOllamaServer();
 
 			//classify the tumor jsons for tissue
-			classifyTumorTissues();
+			classifyTumorTissuesWithRepeats();
 
 			//classify the tumor jsons for best tissue node
 			classifyTumorNodes();
@@ -112,10 +112,10 @@ public class OncoTreeClassifier {
 	private int printStatistics() {
 		log.info("""
 				Tissue and Node Classification Statistics:
-				# Tumor Samples	{}
-				# Tissue NONE	{}
-				# Failed Tissue	{}
-				# Failed Node	{}
+				# Tumor Samples {}
+				# NONE Reported {}
+				# Failed Tissue {}
+				# Failed Node   {}
 				""", testIdClasTum.size(), numNoneTissueClassifications, numFailedTissueClassifications, numFailedNodeClassifications);
 		int numErrors = numFailedTissueClassifications + numFailedNodeClassifications;
 		if (numErrors !=0) {
@@ -157,7 +157,7 @@ public class OncoTreeClassifier {
 		}
 	}
 	
-	private void classifyTumorTissues() throws Exception {
+	/*private void classifyTumorTissuesDepreciated() throws Exception {
 		log.info("\nClassifying tumor tissues...");
 		
 		for (ClassifiedTumor ct: testIdClasTum.values()) {
@@ -197,9 +197,9 @@ public class OncoTreeClassifier {
 				ct.saveTissueJson(tissueJsonDir);
 			}
 		}
-	}
+	}*/
 	
-	private void checkTissueClassification(ClassifiedTumor ct) {
+	/*private void checkTissueClassification(ClassifiedTumor ct) {
 		String tc = ct.getOncoTreeTissueCode();
 		//is it NONE? This is OK
 		if (tc.equals("NONE")) {
@@ -219,7 +219,7 @@ public class OncoTreeClassifier {
 			log.error("ERROR: tissue code "+tc + " is not a valid OT Tissue Code, check the tissue classification for "+ct.getTestOrderId());
 		}
 		else ct.setTissueClassificationOK(true);
-	}
+	}*/
 
 	private void classifyTumorTissuesWithRepeats() throws Exception {
 		log.info("\nClassifying tumor tissues...");
@@ -230,7 +230,7 @@ public class OncoTreeClassifier {
 			for (int i=0; i< numberAttempts; i++) {
 				boolean lastAttempt = ((i+1) == numberAttempts);
 
-				log.debug("\t"+ct.getTestOrderId()+"\tAttempt\t"+(i+1));
+				if (i>0)log.info("\t"+ct.getTestOrderId()+"\t"+(i+1)+"\tAttempt");
 
 				//already processed?
 				if (processedTissueTestIds.containsKey(ct.getTestOrderId())) {
@@ -262,9 +262,9 @@ public class OncoTreeClassifier {
 					if (parsed != null) {
 						JSONObject jo = new JSONObject(parsed);
 						ct.setTissueClassification(jo);
-						log.info("\t"+ct.getTestOrderId()+ "\t"+ct.getOncoTreeTissueCode());
 						boolean ok = checkTissueClassificationWithRepeats(ct, lastAttempt);
 						if (ok) {
+							log.info("\t"+ct.getTestOrderId()+ "\t"+ct.getOncoTreeTissueCode());
 							//write out parsed result
 							ct.saveTissueJson(tissueJsonDir);
 							break;
@@ -312,7 +312,7 @@ public class OncoTreeClassifier {
 			//check tissue code
 			String tissueCode = ct.getOncoTreeTissueCode();
 			if (ct.isSkipNodeClassification()) {
-				log.info("\tSkipping node classification for "+ct.getTestOrderId()+", see messages above.");
+				log.info("Skipping node classification for "+ct.getTestOrderId()+", see messages above.");
 				continue;
 			}
 			
@@ -348,8 +348,15 @@ public class OncoTreeClassifier {
 	}
 
 	private void checkNodeCode(ClassifiedTumor ct) {
+		//look for NONE, these must have a tissue classification so set that instead
+		if (ct.getOncoTreeNodeCode().equals("NONE")) {
+			numNoneTissueClassifications++;
+			ct.setNodeClassificationOK(true);
+			ct.setOncoTreeNodeCode(ct.getOncoTreeTissueCode());
+			log.warn("WARNING: NONE tumor node code, consider manually classifing "+ct.getTestOrderId()+". Setting it to the tissue code "+ct.getOncoTreeTissueCode());
+		}
 		//check if it is legitimate
-		if (allNodeCodes.contains(ct.getOncoTreeNodeCode())==false) {
+		else if (allNodeCodes.contains(ct.getOncoTreeNodeCode())==false) {
 			numFailedNodeClassifications++;
 			log.error("ERROR: Node Code "+ct.getOncoTreeNodeCode()+" is not found in OncoTree, see "+ct.getTestOrderId());
 			ct.setNodeClassificationOK(false);
@@ -357,12 +364,13 @@ public class OncoTreeClassifier {
 		else ct.setNodeClassificationOK(true);
 	}
 
+	/*
 	private static Pattern forwardBracket = Pattern.compile("\\{", Pattern.DOTALL);
 	private static Pattern reverseBracket = Pattern.compile("\\}", Pattern.DOTALL);
 	private static Pattern brackets = Pattern.compile(".*(\\{.+\\}).*", Pattern.DOTALL);
-	private String parseJsonResult(String result) {
+	private String parseJsonResultDepreciated(String result) {
 		String parsed = null;
-		
+		//find last forward bracket
 		Matcher mat = forwardBracket.matcher(result);
 		int numForward = 0;
 		while (mat.find()) numForward++;
@@ -377,7 +385,71 @@ public class OncoTreeClassifier {
 		if (mat.matches()) return mat.group(1);
 
 		return parsed;
+	}*/
+	
+	/**Sometimes the LLM corrects itself and issues a second json result, so just want to take the last and skip the first.*/
+	private String parseJsonResult(String result) {
+		String[] lines = result.split("\n");
+		
+		//find last {
+		int lastForwardIndex = -1;
+		int lastReverseIndex = -1;
+		for (int i=0; i< lines.length; i++) {
+			lines[i] = lines[i].trim();
+			if (lines[i].startsWith("{")) lastForwardIndex =  i;
+			if (lines[i].startsWith("}")) lastReverseIndex =  i;
+		}
+		//either missing
+		if (lastForwardIndex == -1 || lastReverseIndex == -1) return null;
+		
+		//forward not less than reverse?
+		if (lastReverseIndex < lastForwardIndex) return null;
+		
+		//watch out for duplicate keys
+		HashSet<String> keys = new HashSet<String>();
+		
+		//check that all four elements are present
+
+		
+		boolean ok = true;
+		StringBuilder sb = new StringBuilder();
+		for (int i=lastForwardIndex; i<=lastReverseIndex; i++) {
+			String[] key = Util.COLON.split(lines[i]);
+			//duplicate?
+			if (keys.contains(key[0])) ok = false;
+			keys.add(key[0]);
+			sb.append(lines[i]);
+			sb.append("\n");
+		}
+		//don't want to throw a exception just yet since the repeater will pick this up
+		if (ok == false) {
+			log.error("ERROR: malformed LLM json response, duplicate key found in :\n"+sb);
+			return null;
+		}
+		
+		//check that all 4 elements are present
+		String test_order_id = null;
+		String confidence = null;
+		String reasoning = null;
+		String code = null;
+		for (int i=lastForwardIndex; i<=lastReverseIndex; i++) {
+			//assign element
+			if (lines[i].contains("\"test_order_id\"")) test_order_id = lines[i];
+			else if (lines[i].contains("\"confidence\"")) confidence = lines[i];
+			else if (lines[i].contains("\"reasoning\"")) reasoning = lines[i];
+			else if (lines[i].contains("\"oncotree_tissue_code\"")) code = lines[i];
+			else if (lines[i].contains("\"oncotree_code\"")) code = lines[i];
+		}
+		if (test_order_id==null || confidence==null || reasoning==null || code==null) {
+			log.error("ERROR: malformed LLM json response, missing one of the required 4 fields :\n"+sb);
+			return null;
+		}
+		
+		//all good
+		return sb.toString();
+
 	}
+
 
 	private String callOllama(ClassifiedTumor tumor, String prompt){
 
@@ -602,13 +674,14 @@ public class OncoTreeClassifier {
 				\t-v Verbose              {}
 				""",
 				tissuePrompt, tissueCodeNodeCodes, tissueNodeCatalogDir, model, content, host, keyFound, tumorJsons[0].getParentFile(), resultsDirectory, timeOutInSeconds, temperature, numberAttempts, verbose);
+		if (keyFound) log.info("WARNING: cloud LLM detected! Be certain PHI is not processed by this application!\n");
 	}
 
 
 	public void printDocs(){
 		log.info("""
 				**************************************************************************************
-				**                          OncoTree Classifier : August 2026                       **
+				**                         OncoTree Classifier : September 2026                     **
 				**************************************************************************************
 				This tool makes use of an LLM to classify tumors according to the OncoTree platform
 				from MSK: https://oncotree.mskcc.org . Tumors are matched first to an OncoTree tissue
@@ -631,6 +704,7 @@ public class OncoTreeClassifier {
 				  -e Temperature, defaults to not setting it, 0.8
 				  -k Use Ollama's cloud service with the API key in this txt file. This will set the
 				       host to https://ollama.com . Make sure your -m model is cloud available.
+				       Be certain no PHI is processed by this tool with cloud service.
 				  -p Number of attempts for each classification, defaults to 3
 				  -v Verbose
 				  

@@ -199,6 +199,7 @@ public class TissueNodePromptBuilder {
 				""");
 		sb.append("Be certain your response \"oncotree_code\" is one of the items in this list: ");
 		sb.append(tissueCodeNodeCodes.get(tissueCode));
+		sb.append(", or NONE");
 		sb.append("\nIf either requirement is not met, re run the classification.\n");
 		return sb.toString();
 	}
@@ -211,6 +212,7 @@ public class TissueNodePromptBuilder {
 				""");
 		sb.append("Be certain your response \"oncotree_code\" is one of the items in this list: ");
 		sb.append(tissueCodeNodeCodes.get(tissueCode));
+		sb.append(", or NONE");
 		sb.append("\nIf either requirement is not met, re run the classification.\n");
 		return sb.toString();
 	}
