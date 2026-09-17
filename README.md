@@ -48,7 +48,7 @@ java -jar OT_0.4.jar Classifier \
 -k key.txt \
 -m gemma4:31b-cloud \
 -c 35000 \
--t OTResources13uly2026/promptTissue.txt \
+-t OTResources15Sept2026/promptTissue.txt \
 -n OTResources15Sept2026/tissueCodeNodeCodes.txt \
 -a OTResources15Sept2026/TissueNodeCatalog \
 -j OTResources15Sept2026/TestJsons \
