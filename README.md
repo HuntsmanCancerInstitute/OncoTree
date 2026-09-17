@@ -4,9 +4,9 @@ This repository contains tools for classifying tumors according to the [MSK Onco
 
 ## Applications and Resources
 1. **OncoTreeClassifier** - Makes use of a [Ollama](https://ollama.com) deployed LLM to match tumor information to the best OT Tissue and then the best OT Node within that Tissue.
-2. **OncoTreeComparator** - Benchmarks the classifier codes against a truth set of 100 Tempus tumor reports.
+2. **OncoTreeComparator** - Benchmarks the classifier codes against a manually annotated truth set of tumor reports.
 3. **OncoTreePrinter** - Parses the OT data structure, pulls the referenced NCI Thesaurus codes, filters, formats, and outputs text for LLM prompt construction
-4. **TempusPathoPrinter** - ([USeq Repo](https://github.com/HuntsmanCancerInstitute/USeq)) Parses Tempus v3.3+ json reports for information useful for the OncoTreeClassifier.
+4. **TempusPathoPrinter** - ([USeq Repo](https://github.com/HuntsmanCancerInstitute/USeq)) Parses Tempus v3.3+ json reports for information required for the OncoTreeClassifier.
 5. **PathLabCsvParser** - Parses a spreadsheet containing discrete field pathology laboratory reports for the OncoTreeClassifier.
 6. **Resources** - Reference files for the various applications. See the [oncoTree10MinPres2April2026.pptx](https://github.com/HuntsmanCancerInstitute/OncoTree/blob/ed78c9ac92069efe63e5181e71c17e7355558642/Resources/oncoTree10MinPres2April2026.pptx) for a project overview.
 
@@ -21,7 +21,7 @@ This repository contains tools for classifying tumors according to the [MSK Onco
 5. Obtain a [Ollama.com](https://ollama.com/) key and save it in a file called key.txt , alternatively see the [RunScripts](https://github.com/HuntsmanCancerInstitute/OncoTree/tree/master/Resources/RunScripts) folder for bash and snakemake workflow files for utilizing local nodes and a slurm cluster.
 
 ## Usage
-**Convert your tumor information into a structured JSON file with these elements:**
+**Convert your tumor information (clinical reports, path lab reports, etc.) into a structured JSON file with these elements:**
 ```
 {
    "icd_code_descriptions": "Malignant neoplasm of pancreas; Malignant neoplasm of pancreas, unspecified; Adenocarcinoma; Pancreas",
@@ -35,21 +35,21 @@ This repository contains tools for classifying tumors according to the [MSK Onco
 For Tempus v3.3+ JSON reports, use the USeq/TempusPathoPrinter to create these JSON files:
 ```
 java -jar USeq_9.3.9/Apps/TempusPathoPrinter -j TempusReports -s ParsedReports \
--i OTResources13July2026/ICD/ICD-10_Diagnosis.txt \
--m OTResources13July2026/ICD/ICD_Morphology.txt \
--t OTResources13July2026/ICD/ICD_Topology.txt -r
+-i OTResources15Sept2026/ICD/ICD-10_Diagnosis.txt \
+-m OTResources15Sept2026/ICD/ICD_Morphology.txt \
+-t OTResources15Sept2026/ICD/ICD_Topology.txt -r
 ```
 
 **Execute the classifier using the Ollama.com service:**
 ```
-java -jar OT_0.2.jar Classifier \
+java -jar OT_0.4.jar Classifier \
 -k key.txt \
 -m gemma4:31b-cloud \
 -c 35000 \
 -t OTResources13uly2026/promptTissue.txt \
--n OTResources13July2026/tissueCodeNodeCodes.txt \
--a OTResources13July2026/TissueNodeCatalog \
--j OTResources13July2026/TestJsons \
+-n OTResources15Sept2026/tissueCodeNodeCodes.txt \
+-a OTResources15Sept2026/TissueNodeCatalog \
+-j OTResources15Sept2026/TestJsons \
 -r Results
 ```
 Results for the TestJsons: 2ZN719381V.PANCREAS.PAAD.json  6VE87GH83V.BRAIN.HGGNOS.json  7T3IRL8Y85.MYELOID.RDD.json
