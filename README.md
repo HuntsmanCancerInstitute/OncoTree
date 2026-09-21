@@ -28,7 +28,7 @@ See https://oncotree.ai.tanlab.org for a public web implementation and the suppo
 {
    "icd_code_descriptions": "Malignant neoplasm of pancreas; Malignant neoplasm of pancreas, unspecified; Adenocarcinoma; Pancreas",
    "path_lab_info": "Adenocarcinoma",
-   "test_order_id": "2ZN719381V",
+   "sample_id": "2ZN719381V",
    "sample_site": "Liver"
 }
 ```
