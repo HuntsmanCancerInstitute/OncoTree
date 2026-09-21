@@ -44,7 +44,7 @@ java -jar USeq_9.3.9/Apps/TempusPathoPrinter -j TempusReports -s ParsedReports \
 
 **Execute the classifier using the Ollama.com service:**
 ```
-java -jar OT_0.4.jar Classifier \
+java -jar OT_0.5.jar Classifier \
 -k key.txt \
 -m gemma4:31b-cloud \
 -c 35000 \
