@@ -5,7 +5,7 @@ import org.json.JSONObject;
 import edu.hci.oncotree.misc.Util;
 
 /**{
-"test_order_id": "0003JHX71O", 
+"sample_id": "0003JHX71O", 
 "oncotree_code": "PAAD", 
 "oncotree_tissue": "Pancreas", 
 "confidence": 5, 
@@ -15,7 +15,7 @@ import edu.hci.oncotree.misc.Util;
 public class Call {
 
 	//should always be present
-	private String testOrderId = null;
+	private String sampleId = null;
 	private boolean nodeClassificationOK = false;
 	private boolean tissueClassificationOK = false;
 	
@@ -28,7 +28,7 @@ public class Call {
 	public Call(String callSet) {
 		try {
 			JSONObject jo = new JSONObject(callSet);
-			testOrderId = jo.getString("test_order_id");
+			sampleId = jo.getString("sample_id");
 			tissueClassificationOK = jo.getBoolean("tissue_classification_ok");
 			nodeClassificationOK = jo.getBoolean("node_classification_ok");
 
@@ -47,8 +47,8 @@ public class Call {
 		}
 	}
 
-	public String getTestOrderId() {
-		return testOrderId;
+	public String getSampleId() {
+		return sampleId;
 	}
 	public boolean isNodeClassificationOK() {
 		return nodeClassificationOK;

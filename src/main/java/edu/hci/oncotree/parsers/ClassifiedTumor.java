@@ -13,7 +13,7 @@ public class ClassifiedTumor {
 	private String oncoTreeTissueCode = null;
 	private JSONObject nodeClassification = null;
 	private String oncoTreeNodeCode = null;
-	private String testOrderId = null;
+	private String sampleId = null;
 	private boolean skipNodeClassification = false;
 	private boolean tissueClassificationOK = false;
 	private boolean nodeClassificationOK = false;
@@ -22,11 +22,11 @@ public class ClassifiedTumor {
 		this.tumorInfoJson = tumorInfoJson;
 		String jsonString = Util.loadFile(tumorInfoJson, "\n", true);
 		tumorInfo = new JSONObject(jsonString);
-		testOrderId = tumorInfo.getString("test_order_id");
+		sampleId = tumorInfo.getString("sample_id");
 	}
 
-	public String getTestOrderId() {
-		return testOrderId;
+	public String getSampleId() {
+		return sampleId;
 	}
 
 	public File getTumorInfoJson() {
@@ -80,12 +80,12 @@ public class ClassifiedTumor {
 	}
 
 	public void saveTissueJson(File tissueJsonDir) {
-		File j = new File(tissueJsonDir, testOrderId+"."+oncoTreeTissueCode+".json");
+		File j = new File(tissueJsonDir, sampleId+"."+oncoTreeTissueCode+".json");
 		Util.writeString(tissueClassification.toString(3), j);
 	}
 	
 	public void saveNodeJson(File nodeJsonDir) {
-		File j = new File(nodeJsonDir, testOrderId+"."+oncoTreeTissueCode+"."+oncoTreeNodeCode+".json");
+		File j = new File(nodeJsonDir, sampleId+"."+oncoTreeTissueCode+"."+oncoTreeNodeCode+".json");
 		Util.writeString(nodeClassification.toString(3), j);
 	}
 
@@ -94,9 +94,9 @@ public class ClassifiedTumor {
 	}
 
 	public void saveFinalJson(String model, File finalClassificationDir) {
-		File j = new File(finalClassificationDir, testOrderId+"."+oncoTreeTissueCode+"."+oncoTreeNodeCode+".json");
+		File j = new File(finalClassificationDir, sampleId+"."+oncoTreeTissueCode+"."+oncoTreeNodeCode+".json");
 		JSONObject jo = new JSONObject();
-		jo.put("test_order_id", testOrderId);
+		jo.put("sample_id", sampleId);
 		jo.put("tissue_classification_ok", tissueClassificationOK);
 		if (oncoTreeTissueCode!=null) {
 			jo.put("oncotree_tissue_code", oncoTreeTissueCode);

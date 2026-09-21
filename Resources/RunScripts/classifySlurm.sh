@@ -8,7 +8,7 @@
 #SBATCH --exclusive
 #SBATCH -t 24:00:00
 
-# Author, david.nix@hci.utah.edu, 16 July 2026
+# Author, david.nix@hci.utah.edu, 18 Sept 2026
 
 #exit on any app error and save start time
 set -e; start=$(date +'%s'); rm -f COMPLETE
@@ -20,10 +20,10 @@ resultsDir=${PWD##*/}
 content=35000
 model="gemma4:26b"
 tumorJsonDir=~/TNRunner/OncoTree/ManualClassified/All100
-prePrompt=~/TNRunner/OncoTree/OTResources6July2026/promptTissue.txt
-codes=~/TNRunner/OncoTree/OTResources6July2026/tissueCodeNodeCodes.txt 
-catalog=~/TNRunner/OncoTree/OTResources6July2026/TissueNodeCatalog/
-jar=~/TNRunner/BioApps/OncoTree/OT_0.2.jar
+prePrompt=~/TNRunner/OncoTree/OTResources18Sept2026/promptTissue.txt
+codes=~/TNRunner/OncoTree/OTResources18Sept2026/tissueCodeNodeCodes.txt 
+catalog=~/TNRunner/OncoTree/OTResources18Sept2026/TissueNodeCatalog/
+jar=~/TNRunner/BioApps/OncoTree/OT_0.5.jar
 
 echo -e "\n---------- Starting Ollama Server -------- $((($(date +'%s') - $start)/60)) min"
 

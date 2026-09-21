@@ -147,7 +147,7 @@ public class PathLabCsvParser {
 			if (sampleSite == null) log.debug("\tNF");
 
 			JSONObject jo = new JSONObject();
-			jo.put("test_order_id", otId);
+			jo.put("sample_id", otId);
 			jo.put("path_lab_info", sb.toString());
 			if (sampleSite !=null) jo.put("sample_site", sampleSite);
 			else jo.put("sample_site", "");

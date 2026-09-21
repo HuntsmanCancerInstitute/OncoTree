@@ -32,7 +32,7 @@ public class CallParser {
 		//for each tumorCall
 		for (String tc: tumorCalls) {
 			Call c = new Call(tc);
-			testIdCall.put(c.getTestOrderId(), c);
+			testIdCall.put(c.getSampleId(), c);
 		}
 	}
 

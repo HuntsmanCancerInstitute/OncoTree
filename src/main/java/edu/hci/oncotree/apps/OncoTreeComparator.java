@@ -86,7 +86,7 @@ public class OncoTreeComparator {
 			for (File j: Util.extractFiles(dir, ".json")) {
 				String jsonString = Util.loadFile(j, "\n", true);
 				Call c = new Call(jsonString);
-				testIdCall.put(c.getTestOrderId(), c);
+				testIdCall.put(c.getSampleId(), c);
 			}
 			
 			//numKeyIdsFound, numKeyIdsMissing, 
@@ -111,7 +111,7 @@ public class OncoTreeComparator {
 			for (File j: Util.extractFiles(dir, ".json")) {
 				String jsonString = Util.loadFile(j, "\n", true);
 				Call c = new Call(jsonString);
-				testIdCall.put(c.getTestOrderId(), c);
+				testIdCall.put(c.getSampleId(), c);
 			}
 
 			ConfusionMatrix tissueCM = new ConfusionMatrix();
@@ -392,7 +392,7 @@ public class OncoTreeComparator {
 	public static void printDocs(){
 		System.out.println("\n" +
 				"**************************************************************************************\n" +
-				"**                           OncoTree Comparator : July 2026                        **\n" +
+				"**                           OncoTree Comparator : Sept 2026                        **\n" +
 				"**************************************************************************************\n" +
 				"Use this tool to compare a key of TestIDs and their OncoTree classification codes with\n" +
 				"one or more LLM call sets. Note the tissue name for each call is pulled from the node\n"+
@@ -401,7 +401,7 @@ public class OncoTreeComparator {
 				"Required Options:\n"+
 				"-o Path to a json file representing the OncoTree data structure, e.g. curl -o otl.json\n"+
 				"      'https://oncotree.info/api/tumorTypes?version=oncotree_latest_stable' \n"+
-				"-k Path to a file containing two tab delimited columns, the test_order_id and the\n"+
+				"-k Path to a file containing two tab delimited columns, the sample_id and the\n"+
 				"      oncotree_code, for the key\n"+
 				"-c Path to a directory containing sub directories with json files, one sub dir per\n"+
 				"      data call set.\n"+

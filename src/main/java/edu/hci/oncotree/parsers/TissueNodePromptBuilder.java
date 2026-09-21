@@ -116,7 +116,7 @@ public class TissueNodePromptBuilder {
 
 			Follow this RESPONSE FORMAT in JSON:
 			{
-				"test_order_id": "<the test_order_id provided in the tumor report>",
+				"sample_id": "<the sample_id provided in the tumor report>",
 				"oncotree_code": "<One of the oncotree_codes from the ONCOTREE NODE COLLECTION above.>,"
 				"confidence": "<high | medium | low>",
 				"reasoning": "<1-2 sentence explanation>"
@@ -126,12 +126,12 @@ public class TissueNodePromptBuilder {
 			{
 				"icd_code_descriptions": "Malignant neoplasm of bladder; Malignant neoplasm of bladder, unspecified; Transitional cell carcinoma; Bladder",
 				"path_lab_info": "Invasive high grade papillary urothelial carcinoma",
-				"test_order_id": "432R89DK6U",
+				"sample_id": "432R89DK6U",
  				"sample_site": "Bladder, deep left lateral wall"
 			}
 			Here is a EXAMPLE response to the BLADDER tumor example:
 			{
-				"test_order_id": "432R89DK6U",
+				"sample_id": "432R89DK6U",
 				"oncotree_code": "UPA",
 				"reasoning": "Urothelial Papilloma but no mention of inverted so not IUP.",
 				"confidence": "high"
@@ -141,12 +141,12 @@ public class TissueNodePromptBuilder {
 			{
 				"icd_code_descriptions": "Malignant neoplasm of central nervous system, unspecified; Astrocytoma; Brain",
 				"path_lab_info": "Astrocytoma, IDH-mutant, WHO grade 2",
-				"test_order_id": "CCCJP7S5SF",
+				"sample_id": "CCCJP7S5SF",
 				"sample_site": "Brain, right"
 			}
 			Here is a EXAMPLE response to the BRAIN tumor example:
 			{
-				"test_order_id": "CCCJP7S5SF",
+				"sample_id": "CCCJP7S5SF",
 				"oncotree_code": "ASTR2",
 				"reasoning": "Near direct match to Astrocytoma, IDH-Mutant, Grade 2",
 				"confidence": "high"
@@ -156,12 +156,12 @@ public class TissueNodePromptBuilder {
 			{
 				"icd_code_descriptions": "Malignant melanoma of skin; Malignant melanoma of skin, unspecified; Malignant melanoma of skin, unspecified; Malignant melanoma; Skin",
 				"path_lab_info": "Metastatic melanoma",
-				"test_order_id": "3VARQVRCHTRR",
+				"sample_id": "3VARQVRCHTRR",
 				"sample_site": "Lymph node, right inguinal"
 			}
 			Here is a EXAMPLE response to the SKIN tumor example:
 			{
-				"test_order_id": "3VARQVRCHTRR",
+				"sample_id": "3VARQVRCHTRR",
 				"oncotree_code": "MEL",
 				"reasoning": "No additional information other than 'melanoma' so cannot further subtype.",
 				"confidence": "high"
@@ -189,13 +189,13 @@ public class TissueNodePromptBuilder {
 		sb.append("""
 				\nRESPONSE FORMAT in JSON:
 				{
-				   "test_order_id": "<the test_order_id provided in the tumor report>",
+				   "sample_id": "<the sample_id provided in the tumor report>",
 				   "oncotree_code": "<One of the oncotree_codes from the ONCOTREE NODE COLLECTION above.>,"
 				   "confidence": "<high | medium | low>",
 				   "reasoning": "<1-2 sentence explanation>"
 				}
 				
-				Be certain your response contains 4 items: test_order_id, oncotree_code, confidence, and reasoning.
+				Be certain your response contains 4 items: sample_id, oncotree_code, confidence, and reasoning.
 				""");
 		sb.append("Be certain your response \"oncotree_code\" is one of the items in this list: ");
 		sb.append(tissueCodeNodeCodes.get(tissueCode));
@@ -208,7 +208,7 @@ public class TissueNodePromptBuilder {
 		StringBuilder sb = new StringBuilder();
 		sb.append("""
 				
-				Be certain your response contains 4 items: test_order_id, oncotree_code, confidence, and reasoning.
+				Be certain your response contains 4 items: sample_id, oncotree_code, confidence, and reasoning.
 				""");
 		sb.append("Be certain your response \"oncotree_code\" is one of the items in this list: ");
 		sb.append(tissueCodeNodeCodes.get(tissueCode));

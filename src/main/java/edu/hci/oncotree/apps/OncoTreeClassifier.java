@@ -87,7 +87,7 @@ public class OncoTreeClassifier {
 			classifyTumorTissuesWithRepeats();
 
 			//classify the tumor jsons for best tissue node
-			classifyTumorNodes();
+			classifyTumorNodesWithRepeats();
 			
 			//write out final results
 			writeOutFinalResults();
@@ -128,7 +128,7 @@ public class OncoTreeClassifier {
 	private void writeOutFinalResults() {
 		log.info("\nSaving final results...");
 		for (ClassifiedTumor ct: testIdClasTum.values()) {
-			log.debug("\t"+ct.getTestOrderId());
+			log.debug("\t"+ct.getSampleId());
 			ct.saveFinalJson(model, finalClassificationDir);
 		}
 		log.info("");
@@ -161,12 +161,12 @@ public class OncoTreeClassifier {
 		log.info("\nClassifying tumor tissues...");
 		
 		for (ClassifiedTumor ct: testIdClasTum.values()) {
-			log.debug("\t"+ct.getTestOrderId());
+			log.debug("\t"+ct.getSampleId());
 			
 			//already processed?
-			if (processedTissueTestIds.containsKey(ct.getTestOrderId())) {
-				ct.setTissueClassification(processedTissueTestIds.get(ct.getTestOrderId()));
-				log.info("\t"+ct.getTestOrderId()+"\t"+ct.getOncoTreeTissueCode()+"\ttissue classified, skipping");
+			if (processedTissueTestIds.containsKey(ct.getSampleId())) {
+				ct.setTissueClassification(processedTissueTestIds.get(ct.getSampleId()));
+				log.info("\t"+ct.getSampleId()+"\t"+ct.getOncoTreeTissueCode()+"\ttissue classified, skipping");
 				checkTissueClassification(ct);
 				continue;
 			}
@@ -190,7 +190,7 @@ public class OncoTreeClassifier {
 
 				JSONObject jo = new JSONObject(parsed);
 				ct.setTissueClassification(jo);
-				log.info("\t"+ct.getTestOrderId()+ "\t"+ct.getOncoTreeTissueCode());
+				log.info("\t"+ct.getSampleId()+ "\t"+ct.getOncoTreeTissueCode());
 				checkTissueClassification(ct);
 
 				//write out parsed result
@@ -208,7 +208,7 @@ public class OncoTreeClassifier {
 			ct.setOncoTreeNodeCode("NONE");
 			ct.setTissueClassificationOK(true);
 			ct.setNodeClassificationOK(true);
-			log.warn("WARNING: NONE tissue code, manually classify "+ct.getTestOrderId());
+			log.warn("WARNING: NONE tissue code, manually classify "+ct.getSampleId());
 		}
 		//is it a legitimate OT tissue code?
 		else if (tissueCodes.containsKey(tc)==false) {
@@ -216,11 +216,20 @@ public class OncoTreeClassifier {
 			ct.setSkipNodeClassification(true);
 			ct.setTissueClassificationOK(false);
 			ct.setNodeClassificationOK(false);
-			log.error("ERROR: tissue code "+tc + " is not a valid OT Tissue Code, check the tissue classification for "+ct.getTestOrderId());
+			log.error("ERROR: tissue code "+tc + " is not a valid OT Tissue Code, check the tissue classification for "+ct.getSampleId());
 		}
 		else ct.setTissueClassificationOK(true);
 	}*/
 
+	private void failTissueClassification(ClassifiedTumor ct) {
+		numFailedTissueClassifications++;
+		ct.setSkipNodeClassification(true);
+		ct.setTissueClassificationOK(false);
+		ct.setNodeClassificationOK(false);
+		ct.setOncoTreeNodeCode("NONE");
+		log.error("ERROR: Failed to classify the tissue code for "+ct.getSampleId()+". Manually classify it.");
+	}
+	
 	private void classifyTumorTissuesWithRepeats() throws Exception {
 		log.info("\nClassifying tumor tissues...");
 
@@ -230,12 +239,12 @@ public class OncoTreeClassifier {
 			for (int i=0; i< numberAttempts; i++) {
 				boolean lastAttempt = ((i+1) == numberAttempts);
 
-				if (i>0)log.info("\t"+ct.getTestOrderId()+"\t"+(i+1)+"\tAttempt");
+				if (i>0)log.info("\t"+ct.getSampleId()+"\t"+(i+1)+"\tAttempt");
 
 				//already processed?
-				if (processedTissueTestIds.containsKey(ct.getTestOrderId())) {
-					ct.setTissueClassification(processedTissueTestIds.get(ct.getTestOrderId()));
-					log.info("\t"+ct.getTestOrderId()+"\t"+ct.getOncoTreeTissueCode()+"\ttissue classified, skipping");
+				if (processedTissueTestIds.containsKey(ct.getSampleId())) {
+					ct.setTissueClassification(processedTissueTestIds.get(ct.getSampleId()));
+					log.info("\t"+ct.getSampleId()+"\t"+ct.getOncoTreeTissueCode()+"\ttissue classified, skipping");
 					checkTissueClassificationWithRepeats(ct, true); //this also sets some objects
 					break;
 				}
@@ -245,11 +254,7 @@ public class OncoTreeClassifier {
 				
 				//only set if at last
 				if (result == null && lastAttempt) {
-					numFailedTissueClassifications++;
-					ct.setSkipNodeClassification(true);
-					ct.setTissueClassificationOK(false);
-					ct.setNodeClassificationOK(false);
-					ct.setOncoTreeNodeCode("NONE");
+					failTissueClassification(ct);
 					break;
 				}
 
@@ -257,20 +262,29 @@ public class OncoTreeClassifier {
 					//look for issues and trim the result to just {xxxxx}
 					String parsed = parseJsonResult(result);
 					log.debug("Parsed\n"+parsed);
-					if (parsed == null && lastAttempt) throw new Exception("Failed to parse a json response object from \n"+ result);
+					if (parsed == null && lastAttempt) {
+						failTissueClassification(ct);
+					}
 					
 					if (parsed != null) {
 						JSONObject jo = new JSONObject(parsed);
 						ct.setTissueClassification(jo);
 						boolean ok = checkTissueClassificationWithRepeats(ct, lastAttempt);
 						if (ok) {
-							log.info("\t"+ct.getTestOrderId()+ "\t"+ct.getOncoTreeTissueCode());
+							log.info("\t"+ct.getSampleId()+ "\t"+ct.getOncoTreeTissueCode());
 							//write out parsed result
 							ct.saveTissueJson(tissueJsonDir);
 							break;
 						}
+						//not ok, last attempt?
+						if (lastAttempt) {
+							failTissueClassification(ct);
+							break; //not needed?
+						}
 					}
 				}
+				
+				//don't do anything, let it run again
 			}
 		}
 	}
@@ -284,42 +298,112 @@ public class OncoTreeClassifier {
 			ct.setOncoTreeNodeCode("NONE");
 			ct.setTissueClassificationOK(true);
 			ct.setNodeClassificationOK(true);
-			log.warn("WARNING: NONE tissue code, manually classify "+ct.getTestOrderId());
+			log.warn("WARNING: NONE tissue code, manually classify "+ct.getSampleId());
 			return true;
 		}
 		//is it null or a illegitimate OT tissue code?
 		if (tc == null || tissueCodes.containsKey(tc)==false) {
-			//only set if last attempt
-			if (lastAttempt) {
-				numFailedTissueClassifications++;
-				ct.setSkipNodeClassification(true);
-				ct.setTissueClassificationOK(false);
-				ct.setNodeClassificationOK(false);
-			}
-			log.error("ERROR: tissue code "+tc + " is not a valid OT Tissue Code, check the tissue classification for "+ct.getTestOrderId());
+			log.error("ERROR: tissue code "+tc + " is not a valid OT Tissue Code, check the tissue classification for "+ct.getSampleId());
 			return false;
 		}
 		ct.setTissueClassificationOK(true);
 		return true;
 	}
+	
+	private void classifyTumorNodesWithRepeats() throws Exception {
+		log.info("\nClassifying tumor nodes...");
 
+		for (ClassifiedTumor ct: testIdClasTum.values()) {
+			log.debug("\t"+ct.getSampleId());
+
+			//attempt to classify with retries
+			for (int i=0; i< numberAttempts; i++) {
+				
+				boolean lastAttempt = ((i+1) == numberAttempts);
+				if (i>0)log.info("\t"+ct.getSampleId()+"\t"+(i+1)+"\tAttempt");
+
+				//check tissue code
+				String tissueCode = ct.getOncoTreeTissueCode();
+				if (ct.isSkipNodeClassification()) {
+					log.info("Skipping node classification for "+ct.getSampleId()+", see messages above.");
+					break;
+				}
+
+				//already processed?
+				if (processedNodeTestIds.containsKey(ct.getSampleId())) {
+					ct.setNodeClassification(processedNodeTestIds.get(ct.getSampleId()));
+					log.info("\t"+ct.getSampleId()+"\t"+ct.getOncoTreeNodeCode()+"\tnode classified, skipping");
+					checkNodeCodeWithRepeats(ct, true);
+					break;
+				}
+				
+				String nodePrompt = tissueNodePromptBuilder.fetchPromptGenericExamples(tissueCode);
+
+				String result = callOllama(ct, nodePrompt);
+				log.debug("Node Response\n"+result);
+
+				//only set if last attempt
+				if (result == null && lastAttempt) {
+					failNodeClassification(ct);
+					break;
+				}
+
+				if (result != null) {
+					//look for issues and trim the result to just {xxxxx}
+					String parsed = parseJsonResult(result);
+					log.debug("Node Parsed\n"+parsed);
+					
+					//only kill it if last attempt
+					if (parsed == null && lastAttempt) {
+						failNodeClassification(ct);
+						break;
+					}
+					
+					if (parsed != null) {
+						JSONObject jo = new JSONObject(parsed);
+						ct.setNodeClassification(jo);
+						boolean ok = checkNodeCodeWithRepeats(ct, lastAttempt);
+
+						//write out parsed result
+						if (ok) {
+							log.info("\t"+ct.getSampleId()+ "\t"+ct.getOncoTreeNodeCode());
+							ct.saveNodeJson(nodeJsonDir);
+							break;
+						}
+						
+						//not ok, last attempt?
+						if (lastAttempt) failNodeClassification(ct);
+					}
+				}
+			}
+		}
+	}
+	
+	private void failNodeClassification(ClassifiedTumor ct) {
+		numFailedNodeClassifications++;
+		ct.setOncoTreeNodeCode("NONE");
+		ct.setNodeClassificationOK(false);
+		log.error("ERROR: Failed to classify the tumor node code for "+ct.getSampleId()+". Manually classify it.");
+	}
+
+	/*
 	private void classifyTumorNodes() throws Exception {
 		log.info("\nClassifying tumor nodes...");
 		
 		for (ClassifiedTumor ct: testIdClasTum.values()) {
-			log.debug("\t"+ct.getTestOrderId());
+			log.debug("\t"+ct.getSampleId());
 			
 			//check tissue code
 			String tissueCode = ct.getOncoTreeTissueCode();
 			if (ct.isSkipNodeClassification()) {
-				log.info("Skipping node classification for "+ct.getTestOrderId()+", see messages above.");
+				log.info("Skipping node classification for "+ct.getSampleId()+", see messages above.");
 				continue;
 			}
 			
 			//already processed?
-			if (processedNodeTestIds.containsKey(ct.getTestOrderId())) {
-				ct.setNodeClassification(processedNodeTestIds.get(ct.getTestOrderId()));
-				log.info("\t"+ct.getTestOrderId()+"\t"+ct.getOncoTreeNodeCode()+"\tnode classified, skipping");
+			if (processedNodeTestIds.containsKey(ct.getSampleId())) {
+				ct.setNodeClassification(processedNodeTestIds.get(ct.getSampleId()));
+				log.info("\t"+ct.getSampleId()+"\t"+ct.getOncoTreeNodeCode()+"\tnode classified, skipping");
 				checkNodeCode(ct);
 				continue;
 			}
@@ -338,7 +422,7 @@ public class OncoTreeClassifier {
 
 				JSONObject jo = new JSONObject(parsed);
 				ct.setNodeClassification(jo);
-				log.info("\t"+ct.getTestOrderId()+ "\t"+ct.getOncoTreeNodeCode());
+				log.info("\t"+ct.getSampleId()+ "\t"+ct.getOncoTreeNodeCode());
 				checkNodeCode(ct);
 
 				//write out parsed result
@@ -353,39 +437,36 @@ public class OncoTreeClassifier {
 			numNoneTissueClassifications++;
 			ct.setNodeClassificationOK(true);
 			ct.setOncoTreeNodeCode(ct.getOncoTreeTissueCode());
-			log.warn("WARNING: NONE tumor node code, consider manually classifing "+ct.getTestOrderId()+". Setting it to the tissue code "+ct.getOncoTreeTissueCode());
+			log.warn("WARNING: NONE tumor node code, consider manually classifing "+ct.getSampleId()+". Setting it to the tissue code "+ct.getOncoTreeTissueCode());
 		}
 		//check if it is legitimate
 		else if (allNodeCodes.contains(ct.getOncoTreeNodeCode())==false) {
 			numFailedNodeClassifications++;
-			log.error("ERROR: Node Code "+ct.getOncoTreeNodeCode()+" is not found in OncoTree, see "+ct.getTestOrderId());
+			log.error("ERROR: Node Code "+ct.getOncoTreeNodeCode()+" is not found in OncoTree, see "+ct.getSampleId());
 			ct.setNodeClassificationOK(false);
 		}
 		else ct.setNodeClassificationOK(true);
-	}
-
-	/*
-	private static Pattern forwardBracket = Pattern.compile("\\{", Pattern.DOTALL);
-	private static Pattern reverseBracket = Pattern.compile("\\}", Pattern.DOTALL);
-	private static Pattern brackets = Pattern.compile(".*(\\{.+\\}).*", Pattern.DOTALL);
-	private String parseJsonResultDepreciated(String result) {
-		String parsed = null;
-		//find last forward bracket
-		Matcher mat = forwardBracket.matcher(result);
-		int numForward = 0;
-		while (mat.find()) numForward++;
-		if (numForward !=1) return null;
-		
-		int numReverse = 0;
-		mat = reverseBracket.matcher(result);
-		while (mat.find()) numReverse++;
-		if (numReverse !=1) return null;
-		
-		mat = brackets.matcher(result);
-		if (mat.matches()) return mat.group(1);
-
-		return parsed;
 	}*/
+	
+	private boolean checkNodeCodeWithRepeats(ClassifiedTumor ct, boolean lastAttempt) {
+		String nc = ct.getOncoTreeNodeCode();
+		//look for NONE, these must have a tissue classification so set that instead, this is ok
+		if (nc.equals("NONE")) {
+			numNoneTissueClassifications++;
+			ct.setNodeClassificationOK(true);
+			ct.setOncoTreeNodeCode(ct.getOncoTreeTissueCode());
+			log.warn("WARNING: NONE tumor node code, consider manually classifing "+ct.getSampleId()+". Setting it to the tissue code "+ct.getOncoTreeTissueCode());
+			return true;
+		}
+		//check if it is legitimate
+		if (allNodeCodes.contains(ct.getOncoTreeNodeCode())==false) {
+			log.error("ERROR: tumor node code "+nc + " is not a valid OT Code, check the node classification for "+ct.getSampleId());
+			return false;
+		}
+		//looks good
+		ct.setNodeClassificationOK(true);
+		return true;
+	}
 	
 	/**Sometimes the LLM corrects itself and issues a second json result, so just want to take the last and skip the first.*/
 	private String parseJsonResult(String result) {
@@ -405,12 +486,9 @@ public class OncoTreeClassifier {
 		//forward not less than reverse?
 		if (lastReverseIndex < lastForwardIndex) return null;
 		
-		//watch out for duplicate keys
+		
+		//check that all four elements are present and no duplicate keys
 		HashSet<String> keys = new HashSet<String>();
-		
-		//check that all four elements are present
-
-		
 		boolean ok = true;
 		StringBuilder sb = new StringBuilder();
 		for (int i=lastForwardIndex; i<=lastReverseIndex; i++) {
@@ -428,19 +506,19 @@ public class OncoTreeClassifier {
 		}
 		
 		//check that all 4 elements are present
-		String test_order_id = null;
+		String sample_id = null;
 		String confidence = null;
 		String reasoning = null;
 		String code = null;
 		for (int i=lastForwardIndex; i<=lastReverseIndex; i++) {
 			//assign element
-			if (lines[i].contains("\"test_order_id\"")) test_order_id = lines[i];
+			if (lines[i].contains("\"sample_id\"")) sample_id = lines[i];
 			else if (lines[i].contains("\"confidence\"")) confidence = lines[i];
 			else if (lines[i].contains("\"reasoning\"")) reasoning = lines[i];
 			else if (lines[i].contains("\"oncotree_tissue_code\"")) code = lines[i];
 			else if (lines[i].contains("\"oncotree_code\"")) code = lines[i];
 		}
-		if (test_order_id==null || confidence==null || reasoning==null || code==null) {
+		if (sample_id==null || confidence==null || reasoning==null || code==null) {
 			log.error("ERROR: malformed LLM json response, missing one of the required 4 fields :\n"+sb);
 			return null;
 		}
@@ -478,11 +556,11 @@ public class OncoTreeClassifier {
 				ok = true;
 				break;
 			} catch (Exception e) {
-				log.warn("\t"+ tumor.getTestOrderId()+" '"+e.getLocalizedMessage()+"', relaunching ollama "+i);
+				log.warn("\t"+ tumor.getSampleId()+" '"+e.getLocalizedMessage()+"', relaunching ollama "+i);
 			}
 		}
 		if (ok == false) {
-			log.warn("WARNING: classification failed, manually classify "+ tumor.getTestOrderId());
+			log.warn("WARNING: classification failed, manually classify "+ tumor.getSampleId());
 			return null;
 		}
 		
@@ -538,7 +616,7 @@ public class OncoTreeClassifier {
 		for (int i=0; i< tumorJsons.length; i++) {
 			log.debug("\t"+ tumorJsons[i]);
 			ClassifiedTumor ct = new ClassifiedTumor(tumorJsons[i]);
-			testIdClasTum.put(ct.getTestOrderId(), ct);
+			testIdClasTum.put(ct.getSampleId(), ct);
 		}
 	}
 
@@ -685,7 +763,7 @@ public class OncoTreeClassifier {
 				**************************************************************************************
 				This tool makes use of an LLM to classify tumors according to the OncoTree platform
 				from MSK: https://oncotree.mskcc.org . Tumors are matched first to an OncoTree tissue
-				and then to the best classification node within that tissue.  Use the 
+				and then to the best tumor classification node within that tissue.  Use the 
 				TempusPathoPrinter to extract the required information from Tempus v3.3+ json test
 				results. Start up an ollama server before running this tool or provide an API key.
 
@@ -705,7 +783,7 @@ public class OncoTreeClassifier {
 				  -k Use Ollama's cloud service with the API key in this txt file. This will set the
 				       host to https://ollama.com . Make sure your -m model is cloud available.
 				       Be certain no PHI is processed by this tool with cloud service.
-				  -p Number of attempts for each classification, defaults to 3
+				  -p Number of attempts for each classification, defaults to 5
 				  -v Verbose
 				  
 				Example: java -jar OT_0.1.jar Classifier -j TumJsons2Classify/ -t OTP/tPrompt.txt 

@@ -1,5 +1,5 @@
 #!/bin/bash
-# Author, david.nix@hci.utah.edu, 16 July 2026
+# Author, david.nix@hci.utah.edu, 18 Sept 2026
 set -e
 
 content=35000
@@ -10,10 +10,10 @@ model="glm-5.1:cloud"
 #model="qwen3.5:397b-cloud"
 
 tumorJsonDir=~/TNRunner/OncoTree/ManualClassified/All100
-prePrompt=~/TNRunner/OncoTree/OTResources6July2026/promptTissue.txt
-codes=~/TNRunner/OncoTree/OTResources6July2026/tissueCodeNodeCodes.txt 
-catalog=~/TNRunner/OncoTree/OTResources6July2026/TissueNodeCatalog/
-jar=~/TNRunner/BioApps/OncoTree/OT_0.3.jar
+prePrompt=~/TNRunner/OncoTree/OTResources18Sept2026/promptTissue.txt
+codes=~/TNRunner/OncoTree/OTResources18Sept2026/tissueCodeNodeCodes.txt 
+catalog=~/TNRunner/OncoTree/OTResources18Sept2026/TissueNodeCatalog/
+jar=~/TNRunner/BioApps/OncoTree/OT_0.5.jar
 keyFile=~/Scratch/OncoTree/GenericNode/FinalBenchmarking/Cloud/key.txt
 resultsDir=${PWD##*/}
 

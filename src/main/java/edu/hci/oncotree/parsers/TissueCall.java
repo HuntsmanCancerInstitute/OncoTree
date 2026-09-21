@@ -9,7 +9,7 @@ import edu.hci.oncotree.misc.Util;
 
 /**
 {
-"test_order_id": "01IH7HG27S",
+"sample_id": "01IH7HG27S",
 "oncotree_tissue_code": "BOWEL",
 "reasoning": "The tumor is a primary adenocarcinoma of the colon as described in the report and icd_code_descriptions, which maps to the Bowel (Colon) tissue category.",
 "confidence": "high"
@@ -27,7 +27,7 @@ public class TissueCall {
 		try {
 			JSONObject jo = new JSONObject(jsonString);
 			//if any don't exist this throws an exception
-			testOrderId = jo.getString("test_order_id");
+			testOrderId = jo.getString("sample_id");
 			oncoTreeCode = jo.getString("oncotree_tissue_code").toUpperCase();
 			confidence = jo.getString("confidence").toUpperCase();
 			reasoning = jo.getString("reasoning");
