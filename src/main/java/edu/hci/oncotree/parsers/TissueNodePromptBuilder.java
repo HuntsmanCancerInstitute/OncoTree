@@ -29,12 +29,19 @@ public class TissueNodePromptBuilder {
 	
 	public static void main (String[] args) throws IOException {
 		
-		File tissueNodes = new File("/Users/u0028003/Downloads/OTResources6July2026/tissueCodeNodeCodes.txt");
-		File tissueCatalogDir = new File("/Users/u0028003/Downloads/OTResources6July2026/TissueNodeCatalog");
-		File tissueExampleDir = new File("/Users/u0028003/Downloads/OTResources6July2026/TissueNodeExamples");
-		TissueNodePromptBuilder builder = new TissueNodePromptBuilder(tissueNodes, tissueCatalogDir, tissueExampleDir);
+		File tissueNodes = new File("/Users/u0028003/Code/OncoTree/Resources/OTResources18Sept2026/tissueCodeNodeCodes.txt");
+		File tissueCatalogDir = new File("/Users/u0028003/Code/OncoTree/Resources/OTResources18Sept2026/TissueNodeCatalog");
+		TissueNodePromptBuilder builder = new TissueNodePromptBuilder(tissueNodes, tissueCatalogDir);
 		//Util.pl("\n"+builder.fetchPrompt("EYE"));
 		//Util.pl("\n"+builder.fetchPromptGenericExamples("EYE"));
+		/*String[] all = {"ADRENAL_GLAND", "AMPULLA_OF_VATER", "BILIARY_TRACT", "BLADDER", "BONE", "BOWEL", "BREAST", "BRAIN", "CERVIX", "STOMACH", "EYE", "HEAD_NECK", "KIDNEY", "LIVER", "LUNG", "LYMPH", "MYELOID", "OTHER", "OVARY", "PANCREAS", "PENIS", "PNS", "PERITONEUM", "PLEURA", "PROSTATE", "SKIN", "SOFT_TISSUE", "TESTIS", "THYMUS", "THYROID", "UTERUS", "VULVA"};
+		for (String code: all) {
+			String p = builder.fetchPromptGenericExamples(code);
+			Util.pl(p);
+		}*/
+		Util.pl("\n"+builder.fetchPromptGenericExamples("PERITONEUM")); //smallest
+		//Util.pl("\n"+builder.fetchPromptGenericExamples("LYMPH")); // largest
+		
 	}
 	
 	public String fetchPrompt(String tissueCode) {

@@ -26,6 +26,7 @@ import java.util.zip.ZipFile;
 public class Util {
 	
 	public static final Pattern TAB = Pattern.compile("\t");
+	public static final Pattern SPACE= Pattern.compile("\s+");
 	public static final Pattern COMMA = Pattern.compile(",");
 	public static final Pattern COLON = Pattern.compile(":");
 	
